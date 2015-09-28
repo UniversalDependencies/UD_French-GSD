@@ -313,42 +313,50 @@
 # sentid: fr-ud-dev_00014
 # sentence-text: Louis Bastien (né le [[26 octobre 1881]] à Paris et mort le [[13 août 1963]] à Châteauroux) est un coureur cycliste et escrimeur français du début du [[XXe siècle]], dont la spécialité était le cyclisme sur piste.
 1	Louis	_	PROPN	_	_	2	name	_	_
-2	Bastien	_	PROPN	_	_	16	nsubj	_	_
+2	Bastien	_	PROPN	_	_	22	nsubj	_	_
 3	(	_	PUNCT	_	_	4	punct	_	_
 4	né	_	VERB	_	_	2	acl	_	_
-5	le	_	DET	_	_	4	dep	_	_
-6	à	_	ADP	_	_	7	case	_	_
-7	Paris	_	PROPN	_	_	4	nmod	_	_
-8	et	_	CONJ	_	_	4	cc	_	_
-9	mort	_	VERB	_	_	4	conj	_	_
-10	le	_	DET	_	_	9	dep	_	_
-11	à	_	ADP	_	_	12	case	_	_
-12	Châteauroux	_	PROPN	_	_	9	nmod	_	_
-13	)	_	PUNCT	_	_	4	punct	_	_
-14	est	_	VERB	_	_	16	cop	_	_
-15	un	_	DET	_	_	16	det	_	_
-16	coureur	_	NOUN	_	_	0	root	_	_
-17	cycliste	_	ADJ	_	_	16	amod	_	_
-18	et	_	CONJ	_	_	16	cc	_	_
-19	escrimeur	_	NOUN	_	_	16	conj	_	_
-20	français	_	ADJ	_	_	16	amod	_	_
-21-22	du	_	_	_	_	_	_	_	_
-21	de	_	ADP	_	_	23	case	_	_
-22	le	_	DET	_	_	23	det	_	_
-23	début	_	NOUN	_	_	16	nmod	_	_
-24-25	du	_	_	_	_	_	_	_	_
-24	de	_	ADP	_	_	23	case	_	_
-25	le	_	DET	_	_	23	det	_	_
-26	,	_	PUNCT	_	_	16	punct	_	_
-27	dont	_	PRON	_	_	29	nmod	_	_
-28	la	_	DET	_	_	29	det	_	_
-29	spécialité	_	NOUN	_	_	32	nsubj	_	_
-30	était	_	VERB	_	_	32	cop	_	_
-31	le	_	DET	_	_	32	det	_	_
-32	cyclisme	_	NOUN	_	_	16	acl:relcl	_	_
-33	sur	_	ADP	_	_	34	case	_	_
-34	piste	_	NOUN	_	_	32	nmod	_	_
-35	.	_	PUNCT	_	_	16	punct	_	_
+5	le	_	DET	_	_	7	det	_	_
+6	26	_	NUM	_	_	7	nmod	_	_
+7	octobre	_	NOUN	_	_	4	nmod	_	_
+8	1881	_	NUM	_	_	7	nmod	_	_
+9	à	_	ADP	_	_	10	case	_	_
+10	Paris	_	PROPN	_	_	4	nmod	_	_
+11	et	_	CONJ	_	_	4	cc	_	_
+12	mort	_	VERB	_	_	4	conj	_	_
+13	le	_	DET	_	_	15	det	_	_
+14	13	_	NUM	_	_	15	nmod	_	_
+15	août	_	NOUN	_	_	12	nmod	_	_
+16	1963	_	NUM	_	_	15	nmod	_	_
+17	à	_	ADP	_	_	18	case	_	_
+18	Châteauroux	_	PROPN	_	_	12	nmod	_	_
+19	)	_	PUNCT	_	_	4	punct	_	_
+20	est	_	VERB	_	_	22	cop	_	_
+21	un	_	DET	_	_	22	det	_	_
+22	coureur	_	NOUN	_	_	0	root	_	_
+23	cycliste	_	ADJ	_	_	22	amod	_	_
+24	et	_	CONJ	_	_	22	cc	_	_
+25	escrimeur	_	NOUN	_	_	22	conj	_	_
+26	français	_	ADJ	_	_	22	amod	_	_
+27-28	du	_	_	_	_	_	_	_	_
+27	de	_	ADP	_	_	29	case	_	_
+28	le	_	DET	_	_	29	det	_	_
+29	début	_	NOUN	_	_	22	nmod	_	_
+30-31	du	_	_	_	_	_	_	_	_
+30	de	_	ADP	_	_	33	case	_	_
+31	le	_	DET	_	_	33	det	_	_
+32	XXe	_	NUM	_	_	33	nummod	_	_
+33	siècle	_	NOUN	_	_	29	nmod	_	_
+34	,	_	PUNCT	_	_	22	punct	_	_
+35	dont	_	PRON	_	_	37	nmod	_	_
+36	la	_	DET	_	_	37	det	_	_
+37	spécialité	_	NOUN	_	_	40	nsubj	_	_
+38	était	_	VERB	_	_	40	cop	_	_
+39	le	_	DET	_	_	40	det	_	_
+40	cyclisme	_	NOUN	_	_	22	acl:relcl	_	_
+41	sur	_	ADP	_	_	42	case	_	_
+42	piste	_	NOUN	_	_	40	nmod	_	_
+43	.	_	PUNCT	_	_	22	punct	_	_
 
 # sentid: fr-ud-dev_00015
 # sentence-text: C'est sur sa liste qu'il sera réélu en 2005 et en 2009, bénéficiant également du soutien du Hezbollah.
@@ -487,21 +495,23 @@
 5	est	_	AUX	_	_	6	aux	_	_
 6	né	_	VERB	_	_	0	root	_	_
 7-8	au	_	_	_	_	_	_	_	_
-7	à	_	ADP	_	_	6	case	_	_
-8	le	_	DET	_	_	6	det	_	_
-9	avec	_	ADP	_	_	11	case	_	_
-10	le	_	DET	_	_	11	det	_	_
-11	recueil	_	NOUN	_	_	6	nmod	_	_
-12	de	_	ADP	_	_	13	case	_	_
-13	poèmes	_	NOUN	_	_	11	nmod	_	_
-14	Gaspard	_	PROPN	_	_	11	appos	_	_
-15	de	_	ADP	_	_	17	case	_	_
-16	la	_	DET	_	_	17	det	_	_
-17	nuit	_	NOUN	_	_	14	nmod	_	_
-18	d'	_	ADP	_	_	20	case	_	_
-19	Aloysius	_	PROPN	_	_	20	name	_	_
-20	Bertrand	_	PROPN	_	_	11	nmod	_	_
-21	.	_	PUNCT	_	_	6	punct	_	_
+7	à	_	ADP	_	_	10	case	_	_
+8	le	_	DET	_	_	10	det	_	_
+9	XIXe	_	NUM	_	_	10	nummod	_	_
+10	siècle	_	NOUN	_	_	6	nmod	_	_
+11	avec	_	ADP	_	_	13	case	_	_
+12	le	_	DET	_	_	13	det	_	_
+13	recueil	_	NOUN	_	_	6	nmod	_	_
+14	de	_	ADP	_	_	15	case	_	_
+15	poèmes	_	NOUN	_	_	13	nmod	_	_
+16	Gaspard	_	PROPN	_	_	13	appos	_	_
+17	de	_	ADP	_	_	19	case	_	_
+18	la	_	DET	_	_	19	det	_	_
+19	nuit	_	NOUN	_	_	16	nmod	_	_
+20	d'	_	ADP	_	_	22	case	_	_
+21	Aloysius	_	PROPN	_	_	22	name	_	_
+22	Bertrand	_	PROPN	_	_	13	nmod	_	_
+23	.	_	PUNCT	_	_	6	punct	_	_
 
 # sentid: fr-ud-dev_00020
 # sentence-text: Son dernier film, avec Ewan McGregor et Pierce Brosnan, narre l'histoire d'un nègre engagé pour terminer les mémoires d'un ancien Premier ministre britannique mais dont la mission se révèle périlleuse.
@@ -700,17 +710,22 @@
 7	l'	_	DET	_	_	8	det	_	_
 8	apparition	_	NOUN	_	_	0	root	_	_
 9-10	des	_	_	_	_	_	_	_	_
-9	de	_	ADP	_	_	8	case	_	_
-10	les	_	DET	_	_	8	det	_	_
-11	que	_	PRON	_	_	12	dobj	_	_
-12	guettent	_	VERB	_	_	8	acl:relcl	_	_
-13	les	_	DET	_	_	14	det	_	_
-14	photographes	_	NOUN	_	_	12	nsubj	_	_
-15	et	_	CONJ	_	_	8	cc	_	_
-16	la	_	DET	_	_	17	det	_	_
-17	période	_	NOUN	_	_	8	conj	_	_
-18	de	_	ADP	_	_	17	case	_	_
-19	.	_	PUNCT	_	_	8	punct	_	_
+9	de	_	ADP	_	_	12	case	_	_
+10	les	_	DET	_	_	12	det	_	_
+11	premières	_	ADJ	_	_	12	nmod	_	_
+12	fleurs	_	NOUN	_	_	8	nmod	_	_
+13	que	_	PRON	_	_	14	dobj	_	_
+14	guettent	_	VERB	_	_	8	acl:relcl	_	_
+15	les	_	DET	_	_	16	det	_	_
+16	photographes	_	NOUN	_	_	14	nsubj	_	_
+17	et	_	CONJ	_	_	8	cc	_	_
+18	la	_	DET	_	_	19	det	_	_
+19	période	_	NOUN	_	_	8	conj	_	_
+20	de	_	ADP	_	_	21	case	_	_
+21	pic	_	NOUN	_	_	19	nmod	_	_
+22	de	_	ADP	_	_	23	case	_	_
+23	floraison	_	NOUN	_	_	21	nmod	_	_
+24	.	_	PUNCT	_	_	8	punct	_	_
 
 # sentid: fr-ud-dev_00027
 # sentence-text: Il est fêté le 22 mai.
@@ -791,34 +806,37 @@
 # sentid: fr-ud-dev_00030
 # sentence-text: Alain Souchon, né Alain Kienast le [[27 mai 1944]] à Casablanca, au Maroc, est un auteur-compositeur-interprète et acteur français (avec une double nationalité suisse).
 1	Alain	_	PROPN	_	_	2	name	_	_
-2	Souchon	_	PROPN	_	_	17	nsubj	_	_
+2	Souchon	_	PROPN	_	_	20	nsubj	_	_
 3	,	_	PUNCT	_	_	6	punct	_	_
 4	né	_	VERB	_	_	6	cop	_	_
 5	Alain	_	PROPN	_	_	6	name	_	_
 6	Kienast	_	PROPN	_	_	2	acl	_	_
-7	le	_	DET	_	_	6	det	_	_
-8	à	_	ADP	_	_	9	case	_	_
-9	Casablanca	_	PROPN	_	_	6	nmod	_	_
-10	,	_	PUNCT	_	_	6	punct	_	_
-11-12	au	_	_	_	_	_	_	_	_
-11	à	_	ADP	_	_	13	case	_	_
-12	le	_	DET	_	_	13	det	_	_
-13	Maroc	_	PROPN	_	_	6	nmod	_	_
-14	,	_	PUNCT	_	_	13	punct	_	_
-15	est	_	VERB	_	_	17	cop	_	_
-16	un	_	DET	_	_	17	det	_	_
-17	auteur-compositeur-interprète	_	NOUN	_	_	0	root	_	_
-18	et	_	CONJ	_	_	17	cc	_	_
-19	acteur	_	NOUN	_	_	17	conj	_	_
-20	français	_	ADJ	_	_	17	amod	_	_
-21	(	_	PUNCT	_	_	25	punct	_	_
-22	avec	_	ADP	_	_	25	case	_	_
-23	une	_	DET	_	_	25	det	_	_
-24	double	_	ADJ	_	_	25	amod	_	_
-25	nationalité	_	NOUN	_	_	20	nmod	_	_
-26	suisse	_	ADJ	_	_	25	amod	_	_
-27	)	_	PUNCT	_	_	25	punct	_	_
-28	.	_	PUNCT	_	_	17	punct	_	_
+7	le	_	DET	_	_	9	det	_	_
+8	27	_	NUM	_	_	9	nmod	_	_
+9	mai	_	NOUN	_	_	6	nmod	_	_
+10	1944	_	NUM	_	_	9	nmod	_	_
+11	à	_	ADP	_	_	12	case	_	_
+12	Casablanca	_	PROPN	_	_	6	nmod	_	_
+13	,	_	PUNCT	_	_	6	punct	_	_
+14-15	au	_	_	_	_	_	_	_	_
+14	à	_	ADP	_	_	16	case	_	_
+15	le	_	DET	_	_	16	det	_	_
+16	Maroc	_	PROPN	_	_	6	nmod	_	_
+17	,	_	PUNCT	_	_	16	punct	_	_
+18	est	_	VERB	_	_	20	cop	_	_
+19	un	_	DET	_	_	20	det	_	_
+20	auteur-compositeur-interprète	_	NOUN	_	_	0	root	_	_
+21	et	_	CONJ	_	_	20	cc	_	_
+22	acteur	_	NOUN	_	_	20	conj	_	_
+23	français	_	ADJ	_	_	20	amod	_	_
+24	(	_	PUNCT	_	_	28	punct	_	_
+25	avec	_	ADP	_	_	28	case	_	_
+26	une	_	DET	_	_	28	det	_	_
+27	double	_	ADJ	_	_	28	amod	_	_
+28	nationalité	_	NOUN	_	_	23	nmod	_	_
+29	suisse	_	ADJ	_	_	28	amod	_	_
+30	)	_	PUNCT	_	_	28	punct	_	_
+31	.	_	PUNCT	_	_	20	punct	_	_
 
 # sentid: fr-ud-dev_00031
 # sentence-text: Dans l'étape de jeudi (Tourmalet), qui est très dure, il faut s'attendre à de très gros écarts, supérieurs à ceux du contre-la-montre.
@@ -861,11 +879,13 @@
 2	cuisinières	_	NOUN	_	_	3	nsubj	_	_
 3	apparaissent	_	VERB	_	_	0	root	_	_
 4	début	_	NOUN	_	_	3	nmod	_	_
-5	avec	_	ADP	_	_	7	case	_	_
-6	les	_	DET	_	_	7	det	_	_
-7	gaz	_	NOUN	_	_	3	nmod	_	_
-8	manufacturés	_	ADJ	_	_	7	amod	_	_
-9	.	_	PUNCT	_	_	3	punct	_	_
+5	XIXe	_	NUM	_	_	6	nummod	_	_
+6	siècle	_	NOUN	_	_	4	nmod	_	_
+7	avec	_	ADP	_	_	9	case	_	_
+8	les	_	DET	_	_	9	det	_	_
+9	gaz	_	NOUN	_	_	3	nmod	_	_
+10	manufacturés	_	ADJ	_	_	9	amod	_	_
+11	.	_	PUNCT	_	_	3	punct	_	_
 
 # sentid: fr-ud-dev_00033
 # sentence-text: Vraiment très bon resto avec un accueil aussi chaleureux qu'enthousiaste... Les plats sont copieux et cuisinés avec de bons produits.
@@ -2491,8 +2511,9 @@
 8	commune	_	NOUN	_	_	6	dobj	_	_
 9	et	_	CONJ	_	_	6	cc	_	_
 10	compte	_	VERB	_	_	6	conj	_	_
-11	habitants	_	NOUN	_	_	10	dobj	_	_
-12	.	_	PUNCT	_	_	6	punct	_	_
+11	25 785	_	NUM	_	_	12	nmod	_	_
+12	habitants	_	NOUN	_	_	10	dobj	_	_
+13	.	_	PUNCT	_	_	6	punct	_	_
 
 # sentid: fr-ud-dev_00093
 # sentence-text: Sous les arcades, dans les cantons de la croix, douze personnages debout, des apôtres ou des pères d'église, tiennent de phylactères.
@@ -4972,22 +4993,24 @@
 6	été	_	AUX	_	_	7	auxpass	_	_
 7	fondée	_	VERB	_	_	0	root	_	_
 8-9	au	_	_	_	_	_	_	_	_
-8	à	_	ADP	_	_	7	case	_	_
-9	le	_	DET	_	_	7	det	_	_
-10	par	_	ADP	_	_	12	case	_	_
-11	l'	_	DET	_	_	12	det	_	_
-12	évêque	_	NOUN	_	_	7	nmod	_	_
-13	Patient	_	PROPN	_	_	12	appos	_	_
-14	de	_	ADP	_	_	15	case	_	_
-15	Metz	_	PROPN	_	_	13	nmod	_	_
-16	,	_	PUNCT	_	_	7	punct	_	_
-17	sous	_	ADP	_	_	19	case	_	_
-18	le	_	DET	_	_	19	det	_	_
-19	nom	_	NOUN	_	_	7	nmod	_	_
-20	de	_	ADP	_	_	21	case	_	_
-21	basilique	_	PROPN	_	_	19	nmod	_	_
-22	Saint-Jean-Evangeliste	_	PROPN	_	_	21	appos	_	_
-23	.	_	PUNCT	_	_	7	punct	_	_
+8	à	_	ADP	_	_	11	case	_	_
+9	le	_	DET	_	_	11	det	_	_
+10	IIe	_	NUM	_	_	11	nummod	_	_
+11	siècle	_	NOUN	_	_	7	nmod	_	_
+12	par	_	ADP	_	_	14	case	_	_
+13	l'	_	DET	_	_	14	det	_	_
+14	évêque	_	NOUN	_	_	7	nmod	_	_
+15	Patient	_	PROPN	_	_	14	appos	_	_
+16	de	_	ADP	_	_	17	case	_	_
+17	Metz	_	PROPN	_	_	15	nmod	_	_
+18	,	_	PUNCT	_	_	7	punct	_	_
+19	sous	_	ADP	_	_	21	case	_	_
+20	le	_	DET	_	_	21	det	_	_
+21	nom	_	NOUN	_	_	7	nmod	_	_
+22	de	_	ADP	_	_	23	case	_	_
+23	basilique	_	PROPN	_	_	21	nmod	_	_
+24	Saint-Jean-Evangeliste	_	PROPN	_	_	23	appos	_	_
+25	.	_	PUNCT	_	_	7	punct	_	_
 
 # sentid: fr-ud-dev_00185
 # sentence-text: Il se ridiculise à un dîner d'apparat, mais est sauvé par le prétendant de lady Edith, sir Anthony Strallan, qui révèle qu'il a été drogué par un des convives, et par Matthew, qui en fait son témoin.
@@ -13067,40 +13090,42 @@
 19	la	_	DET	_	_	20	det	_	_
 20	fin	_	NOUN	_	_	7	nmod	_	_
 21-22	du	_	_	_	_	_	_	_	_
-21	de	_	ADP	_	_	20	case	_	_
-22	le	_	DET	_	_	20	det	_	_
-23	,	_	PUNCT	_	_	7	punct	_	_
-24	à	_	ADP	_	_	25	case	_	_
-25	cause	_	NOUN	_	_	7	nmod	_	_
-26	,	_	PUNCT	_	_	25	punct	_	_
-27	précisément	_	ADV	_	_	25	advmod	_	_
-28	,	_	PUNCT	_	_	25	punct	_	_
-29	de	_	ADP	_	_	31	case	_	_
-30	la	_	DET	_	_	31	det	_	_
-31	présence	_	NOUN	_	_	25	nmod	_	_
-32	de	_	ADP	_	_	34	case	_	_
-33	ce	_	DET	_	_	34	det	_	_
-34	lit	_	NOUN	_	_	31	nmod	_	_
-35	d'	_	ADP	_	_	36	case	_	_
-36	apparat	_	NOUN	_	_	34	nmod	_	_
-37	alors	_	ADV	_	_	38	mwe	_	_
-38	qu'	_	SCONJ	_	_	44	mark	_	_
-39	elle	_	PRON	_	_	44	nsubj	_	_
-40	n'	_	PART	_	_	41	neg	_	_
-41	est	_	VERB	_	_	44	cop	_	_
-42	qu'	_	ADV	_	_	44	advmod	_	_
-43	un	_	DET	_	_	44	det	_	_
-44	dérivé	_	NOUN	_	_	7	advcl	_	_
-45-46	du	_	_	_	_	_	_	_	_
-45	de	_	ADP	_	_	47	case	_	_
-46	le	_	DET	_	_	47	det	_	_
-47	latin	_	NOUN	_	_	44	nmod	_	_
-48	camera	_	NOUN	_	_	47	appos	_	_
-49	qui	_	PRON	_	_	52	nsubj	_	_
-50	signifie	_	VERB	_	_	52	cop	_	_
-51	«	_	PUNCT	_	_	52	punct	_	_
-52	pièce	_	NOUN	_	_	48	acl:relcl	_	_
-53	.	_	PUNCT	_	_	7	punct	_	_
+21	de	_	ADP	_	_	24	case	_	_
+22	le	_	DET	_	_	24	det	_	_
+23	XVIIIe	_	NUM	_	_	24	nummod	_	_
+24	siècle	_	NOUN	_	_	20	nmod	_	_
+25	,	_	PUNCT	_	_	7	punct	_	_
+26	à	_	ADP	_	_	27	case	_	_
+27	cause	_	NOUN	_	_	7	nmod	_	_
+28	,	_	PUNCT	_	_	27	punct	_	_
+29	précisément	_	ADV	_	_	27	advmod	_	_
+30	,	_	PUNCT	_	_	27	punct	_	_
+31	de	_	ADP	_	_	33	case	_	_
+32	la	_	DET	_	_	33	det	_	_
+33	présence	_	NOUN	_	_	27	nmod	_	_
+34	de	_	ADP	_	_	36	case	_	_
+35	ce	_	DET	_	_	36	det	_	_
+36	lit	_	NOUN	_	_	33	nmod	_	_
+37	d'	_	ADP	_	_	38	case	_	_
+38	apparat	_	NOUN	_	_	36	nmod	_	_
+39	alors	_	ADV	_	_	40	mwe	_	_
+40	qu'	_	SCONJ	_	_	46	mark	_	_
+41	elle	_	PRON	_	_	46	nsubj	_	_
+42	n'	_	PART	_	_	43	neg	_	_
+43	est	_	VERB	_	_	46	cop	_	_
+44	qu'	_	ADV	_	_	46	advmod	_	_
+45	un	_	DET	_	_	46	det	_	_
+46	dérivé	_	NOUN	_	_	7	advcl	_	_
+47-48	du	_	_	_	_	_	_	_	_
+47	de	_	ADP	_	_	49	case	_	_
+48	le	_	DET	_	_	49	det	_	_
+49	latin	_	NOUN	_	_	46	nmod	_	_
+50	camera	_	NOUN	_	_	49	appos	_	_
+51	qui	_	PRON	_	_	54	nsubj	_	_
+52	signifie	_	VERB	_	_	54	cop	_	_
+53	«	_	PUNCT	_	_	54	punct	_	_
+54	pièce	_	NOUN	_	_	50	acl:relcl	_	_
+55	.	_	PUNCT	_	_	7	punct	_	_
 
 # sentid: fr-ud-dev_00476
 # sentence-text: Les Boyers et les Pradons que nous avons tant bafoués étaient des aigles auprès de ceux-ci.
@@ -13347,8 +13372,11 @@
 14	15	_	NUM	_	_	9	nmod	_	_
 15-16	au	_	_	_	_	_	_	_	_
 15	à	_	ADP	_	_	9	case	_	_
-16	le	_	DET	_	_	9	det	_	_
-17	.	_	PUNCT	_	_	9	punct	_	_
+16	le	_	DET	_	_	18	det	_	_
+17	21	_	NUM	_	_	18	nmod	_	_
+18	mai	_	NOUN	_	_	9	nmod	_	_
+19	2006	_	NUM	_	_	18	nmod	_	_
+20	.	_	PUNCT	_	_	9	punct	_	_
 
 # sentid: fr-ud-dev_00485
 # sentence-text: Espérant que des retombées économiques suivront, un nouveau permis de construire est accordé.
@@ -13479,16 +13507,18 @@
 23	pensée	_	NOUN	_	_	20	nmod	_	_
 24	européenne	_	ADJ	_	_	23	amod	_	_
 25-26	du	_	_	_	_	_	_	_	_
-25	de	_	ADP	_	_	23	case	_	_
-26	le	_	DET	_	_	23	det	_	_
-27	en	_	ADP	_	_	28	case	_	_
-28	matière	_	NOUN	_	_	20	nmod	_	_
-29	de	_	ADP	_	_	30	case	_	_
-30	stratégie	_	NOUN	_	_	28	nmod	_	_
-31	et	_	CONJ	_	_	30	cc	_	_
-32	de	_	ADP	_	_	33	case	_	_
-33	diplomatie	_	NOUN	_	_	30	conj	_	_
-34	.	_	PUNCT	_	_	8	punct	_	_
+25	de	_	ADP	_	_	28	case	_	_
+26	le	_	DET	_	_	28	det	_	_
+27	XVIIe	_	NUM	_	_	28	nummod	_	_
+28	siècle	_	NOUN	_	_	23	nmod	_	_
+29	en	_	ADP	_	_	30	case	_	_
+30	matière	_	NOUN	_	_	20	nmod	_	_
+31	de	_	ADP	_	_	32	case	_	_
+32	stratégie	_	NOUN	_	_	30	nmod	_	_
+33	et	_	CONJ	_	_	32	cc	_	_
+34	de	_	ADP	_	_	35	case	_	_
+35	diplomatie	_	NOUN	_	_	32	conj	_	_
+36	.	_	PUNCT	_	_	8	punct	_	_
 
 # sentid: fr-ud-dev_00490
 # sentence-text: La formation de craquelures est appelée craquelage (crazing en anglais).
@@ -16378,9 +16408,11 @@
 9	furent	_	AUX	_	_	10	auxpass	_	_
 10	explorées	_	VERB	_	_	5	advcl	_	_
 11-12	au	_	_	_	_	_	_	_	_
-11	à	_	ADP	_	_	10	case	_	_
-12	le	_	DET	_	_	10	det	_	_
-13	.	_	PUNCT	_	_	5	punct	_	_
+11	à	_	ADP	_	_	14	case	_	_
+12	le	_	DET	_	_	14	det	_	_
+13	XIXe	_	NUM	_	_	14	nummod	_	_
+14	siècle	_	NOUN	_	_	10	nmod	_	_
+15	.	_	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-dev_00591
 # sentence-text: Dès l'âge de dix-huit ans, il travaille comme manœuvre sur les chantiers, poseur de faux plafonds, monteur de parois mobiles afin de subvenir à ses besoins.
@@ -17668,36 +17700,39 @@
 # sentid: fr-ud-dev_00640
 # sentence-text: Ordonné prêtre le [[19 juin 1982]] pour le diocèse de Nanterre, il passe le début de son ministère à Sceaux où il est vicaire et aumônier des lycées et collèges.
 1	Ordonné	_	VERB	_	_	2	cop	_	_
-2	prêtre	_	NOUN	_	_	10	acl	_	_
-3	le	_	DET	_	_	2	det	_	_
-4	pour	_	ADP	_	_	6	case	_	_
-5	le	_	DET	_	_	6	det	_	_
-6	diocèse	_	NOUN	_	_	2	nmod	_	_
-7	de	_	ADP	_	_	8	case	_	_
-8	Nanterre	_	PROPN	_	_	6	nmod	_	_
-9	,	_	PUNCT	_	_	2	punct	_	_
-10	il	_	PRON	_	_	11	nsubj	_	_
-11	passe	_	VERB	_	_	0	root	_	_
-12	le	_	DET	_	_	13	det	_	_
-13	début	_	NOUN	_	_	11	dobj	_	_
-14	de	_	ADP	_	_	16	case	_	_
-15	son	_	DET	_	_	16	nmod:poss	_	_
-16	ministère	_	NOUN	_	_	13	nmod	_	_
-17	à	_	ADP	_	_	18	case	_	_
-18	Sceaux	_	PROPN	_	_	11	nmod	_	_
-19	où	_	PRON	_	_	22	nmod	_	_
-20	il	_	PRON	_	_	22	nsubj	_	_
-21	est	_	VERB	_	_	22	cop	_	_
-22	vicaire	_	NOUN	_	_	18	acl:relcl	_	_
-23	et	_	CONJ	_	_	22	cc	_	_
-24	aumônier	_	NOUN	_	_	22	conj	_	_
-25-26	des	_	_	_	_	_	_	_	_
-25	de	_	ADP	_	_	27	case	_	_
-26	les	_	DET	_	_	27	det	_	_
-27	lycées	_	NOUN	_	_	24	nmod	_	_
-28	et	_	CONJ	_	_	27	cc	_	_
-29	collèges	_	NOUN	_	_	27	conj	_	_
-30	.	_	PUNCT	_	_	11	punct	_	_
+2	prêtre	_	NOUN	_	_	13	acl	_	_
+3	le	_	DET	_	_	5	det	_	_
+4	19	_	NUM	_	_	5	nmod	_	_
+5	juin	_	NOUN	_	_	2	nmod	_	_
+6	1982	_	NUM	_	_	5	nmod	_	_
+7	pour	_	ADP	_	_	9	case	_	_
+8	le	_	DET	_	_	9	det	_	_
+9	diocèse	_	NOUN	_	_	2	nmod	_	_
+10	de	_	ADP	_	_	11	case	_	_
+11	Nanterre	_	PROPN	_	_	9	nmod	_	_
+12	,	_	PUNCT	_	_	2	punct	_	_
+13	il	_	PRON	_	_	14	nsubj	_	_
+14	passe	_	VERB	_	_	0	root	_	_
+15	le	_	DET	_	_	16	det	_	_
+16	début	_	NOUN	_	_	14	dobj	_	_
+17	de	_	ADP	_	_	19	case	_	_
+18	son	_	DET	_	_	19	nmod:poss	_	_
+19	ministère	_	NOUN	_	_	16	nmod	_	_
+20	à	_	ADP	_	_	21	case	_	_
+21	Sceaux	_	PROPN	_	_	14	nmod	_	_
+22	où	_	PRON	_	_	25	nmod	_	_
+23	il	_	PRON	_	_	25	nsubj	_	_
+24	est	_	VERB	_	_	25	cop	_	_
+25	vicaire	_	NOUN	_	_	21	acl:relcl	_	_
+26	et	_	CONJ	_	_	25	cc	_	_
+27	aumônier	_	NOUN	_	_	25	conj	_	_
+28-29	des	_	_	_	_	_	_	_	_
+28	de	_	ADP	_	_	30	case	_	_
+29	les	_	DET	_	_	30	det	_	_
+30	lycées	_	NOUN	_	_	27	nmod	_	_
+31	et	_	CONJ	_	_	30	cc	_	_
+32	collèges	_	NOUN	_	_	30	conj	_	_
+33	.	_	PUNCT	_	_	14	punct	_	_
 
 # sentid: fr-ud-dev_00641
 # sentence-text: Il fut alors décidé qu'à l'avenir, ce serait la trompette qui convoquerait les compétiteurs.
@@ -20102,10 +20137,12 @@
 21	qu'	_	PRON	_	_	23	dobj	_	_
 22	il	_	PRON	_	_	23	nsubj	_	_
 23	occupe	_	VERB	_	_	20	acl:relcl	_	_
-24	depuis	_	ADP	_	_	26	case	_	_
-25	le	_	DET	_	_	24	det	_	_
-26	2006	_	NUM	_	_	23	nmod	_	_
-27	.	_	PUNCT	_	_	10	punct	_	_
+24	depuis	_	ADP	_	_	27	case	_	_
+25	le	_	DET	_	_	27	det	_	_
+26	1er	_	NUM	_	_	27	nmod	_	_
+27	février	_	NOUN	_	_	23	nmod	_	_
+28	2006	_	NUM	_	_	27	nmod	_	_
+29	.	_	PUNCT	_	_	10	punct	_	_
 
 # sentid: fr-ud-dev_00730
 # sentence-text: Cela explique d'ailleurs la position plutôt mesurée pour ne pas dire ambiguë de Rabat vis-à-vis de l'Union pour la Méditerranée.
@@ -20443,24 +20480,26 @@
 2	église	_	NOUN	_	_	3	nsubj	_	_
 3	date	_	VERB	_	_	0	root	_	_
 4-5	du	_	_	_	_	_	_	_	_
-4	de	_	ADP	_	_	3	case	_	_
-5	le	_	DET	_	_	3	det	_	_
-6	et	_	CONJ	_	_	3	cc	_	_
-7	est	_	VERB	_	_	8	cop	_	_
-8	typique	_	ADJ	_	_	3	conj	_	_
-9-10	des	_	_	_	_	_	_	_	_
-9	de	_	ADP	_	_	11	case	_	_
-10	les	_	DET	_	_	11	det	_	_
-11	constructions	_	NOUN	_	_	8	nmod	_	_
-12-13	du	_	_	_	_	_	_	_	_
-12	de	_	ADP	_	_	14	case	_	_
-13	le	_	DET	_	_	14	det	_	_
-14	Gâtinais	_	PROPN	_	_	11	nmod	_	_
-15	,	_	PUNCT	_	_	3	punct	_	_
-16	à	_	ADP	_	_	18	case	_	_
-17	cette	_	DET	_	_	18	det	_	_
-18	époque	_	NOUN	_	_	8	nmod	_	_
-19	;	_	PUNCT	_	_	3	punct	_	_
+4	de	_	ADP	_	_	7	case	_	_
+5	le	_	DET	_	_	7	det	_	_
+6	XIIe	_	NUM	_	_	7	nummod	_	_
+7	siècle	_	NOUN	_	_	3	nmod	_	_
+8	et	_	CONJ	_	_	3	cc	_	_
+9	est	_	VERB	_	_	10	cop	_	_
+10	typique	_	ADJ	_	_	3	conj	_	_
+11-12	des	_	_	_	_	_	_	_	_
+11	de	_	ADP	_	_	13	case	_	_
+12	les	_	DET	_	_	13	det	_	_
+13	constructions	_	NOUN	_	_	10	nmod	_	_
+14-15	du	_	_	_	_	_	_	_	_
+14	de	_	ADP	_	_	16	case	_	_
+15	le	_	DET	_	_	16	det	_	_
+16	Gâtinais	_	PROPN	_	_	13	nmod	_	_
+17	,	_	PUNCT	_	_	3	punct	_	_
+18	à	_	ADP	_	_	20	case	_	_
+19	cette	_	DET	_	_	20	det	_	_
+20	époque	_	NOUN	_	_	10	nmod	_	_
+21	;	_	PUNCT	_	_	3	punct	_	_
 
 # sentid: fr-ud-dev_00745
 # sentence-text: Naturellement, cette orientation « économique », qui est apparue depuis le déploiement des sociétés américaines en 2003, dérange Paris.
@@ -20754,30 +20793,34 @@
 # sentence-text: À la partie du [[XIIe siècle]], le donjon médiéval, a été ajouté au [[XVIIe siècle]] deux ailes reliées par un vaste corps central.
 1	À	_	ADP	_	_	3	case	_	_
 2	la	_	DET	_	_	3	det	_	_
-3	partie	_	NOUN	_	_	13	nmod	_	_
+3	partie	_	NOUN	_	_	15	nmod	_	_
 4-5	du	_	_	_	_	_	_	_	_
-4	de	_	ADP	_	_	3	case	_	_
-5	le	_	DET	_	_	3	det	_	_
-6	,	_	PUNCT	_	_	13	punct	_	_
-7	le	_	DET	_	_	8	det	_	_
-8	donjon	_	NOUN	_	_	13	nsubjpass	_	_
-9	médiéval	_	ADJ	_	_	8	amod	_	_
-10	,	_	PUNCT	_	_	13	punct	_	_
-11	a	_	AUX	_	_	13	aux	_	_
-12	été	_	AUX	_	_	13	auxpass	_	_
-13	ajouté	_	VERB	_	_	0	root	_	_
-14-15	au	_	_	_	_	_	_	_	_
-14	à	_	ADP	_	_	17	case	_	_
-15	le	_	DET	_	_	17	det	_	_
-16	deux	_	NUM	_	_	17	nummod	_	_
-17	ailes	_	NOUN	_	_	13	nmod	_	_
-18	reliées	_	VERB	_	_	17	acl	_	_
-19	par	_	ADP	_	_	18	case	_	_
-20	un	_	DET	_	_	22	det	_	_
-21	vaste	_	ADJ	_	_	22	amod	_	_
-22	corps	_	NOUN	_	_	19	case	_	_
-23	central	_	ADJ	_	_	22	amod	_	_
-24	.	_	PUNCT	_	_	13	punct	_	_
+4	de	_	ADP	_	_	7	case	_	_
+5	le	_	DET	_	_	7	det	_	_
+6	XIIe	_	NUM	_	_	7	nummod	_	_
+7	siècle	_	NOUN	_	_	3	nmod	_	_
+8	,	_	PUNCT	_	_	15	punct	_	_
+9	le	_	DET	_	_	10	det	_	_
+10	donjon	_	NOUN	_	_	15	nsubjpass	_	_
+11	médiéval	_	ADJ	_	_	10	amod	_	_
+12	,	_	PUNCT	_	_	15	punct	_	_
+13	a	_	AUX	_	_	15	aux	_	_
+14	été	_	AUX	_	_	15	auxpass	_	_
+15	ajouté	_	VERB	_	_	0	root	_	_
+16-17	au	_	_	_	_	_	_	_	_
+16	à	_	ADP	_	_	19	case	_	_
+17	le	_	DET	_	_	19	det	_	_
+18	XVIIe	_	NUM	_	_	19	nummod	_	_
+19	siècle	_	NOUN	_	_	15	nmod	_	_
+20	deux	_	NUM	_	_	21	nummod	_	_
+21	ailes	_	NOUN	_	_	15	nmod	_	_
+22	reliées	_	VERB	_	_	21	acl	_	_
+23	par	_	ADP	_	_	22	case	_	_
+24	un	_	DET	_	_	26	det	_	_
+25	vaste	_	ADJ	_	_	26	amod	_	_
+26	corps	_	NOUN	_	_	23	case	_	_
+27	central	_	ADJ	_	_	26	amod	_	_
+28	.	_	PUNCT	_	_	15	punct	_	_
 
 # sentid: fr-ud-dev_00758
 # sentence-text: Par arrêté préfectoral du 4 novembre 2010 les communautés de communes d'Arthez-de-Béarn, de Lacq, Lagor et Monein ont fusionné pour former la communauté de communes de Lacq.
@@ -21758,29 +21801,32 @@
 # sentid: fr-ud-dev_00796
 # sentence-text: À partir du [[XXIe siècle]], les recensements réels des communes de moins de [[10 000]] habitants ont lieu tous les cinq ans.
 1	À	_	ADP	_	_	2	case	_	_
-2	partir	_	VERB	_	_	16	acl	_	_
+2	partir	_	VERB	_	_	19	acl	_	_
 3-4	du	_	_	_	_	_	_	_	_
-3	de	_	ADP	_	_	2	case	_	_
-4	le	_	DET	_	_	2	det	_	_
-5	,	_	PUNCT	_	_	2	punct	_	_
-6	les	_	DET	_	_	7	det	_	_
-7	recensements	_	NOUN	_	_	16	nsubj	_	_
-8	réels	_	ADJ	_	_	7	amod	_	_
-9-10	des	_	_	_	_	_	_	_	_
-9	de	_	ADP	_	_	11	case	_	_
-10	les	_	DET	_	_	11	det	_	_
-11	communes	_	NOUN	_	_	7	nmod	_	_
-12	de	_	ADP	_	_	15	case	_	_
-13	moins	_	ADV	_	_	14	mwe	_	_
-14	de	_	ADP	_	_	15	det	_	_
-15	habitants	_	NOUN	_	_	11	nmod	_	_
-16	ont	_	VERB	_	_	0	root	_	_
-17	lieu	_	NOUN	_	_	16	dobj	_	_
-18	tous	_	DET	_	_	21	det	_	_
-19	les	_	DET	_	_	21	det	_	_
-20	cinq	_	NUM	_	_	21	nummod	_	_
-21	ans	_	NOUN	_	_	16	nmod	_	_
-22	.	_	PUNCT	_	_	16	punct	_	_
+3	de	_	ADP	_	_	6	case	_	_
+4	le	_	DET	_	_	6	det	_	_
+5	XXIe	_	NUM	_	_	6	nummod	_	_
+6	siècle	_	NOUN	_	_	2	nmod	_	_
+7	,	_	PUNCT	_	_	2	punct	_	_
+8	les	_	DET	_	_	9	det	_	_
+9	recensements	_	NOUN	_	_	19	nsubj	_	_
+10	réels	_	ADJ	_	_	9	amod	_	_
+11-12	des	_	_	_	_	_	_	_	_
+11	de	_	ADP	_	_	13	case	_	_
+12	les	_	DET	_	_	13	det	_	_
+13	communes	_	NOUN	_	_	9	nmod	_	_
+14	de	_	ADP	_	_	18	case	_	_
+15	moins	_	ADV	_	_	17	advmod	_	_
+16	de	_	ADP	_	_	15	mwe	_	_
+17	10 000	_	NUM	_	_	18	nummod	_	_
+18	habitants	_	NOUN	_	_	13	nmod	_	_
+19	ont	_	VERB	_	_	0	root	_	_
+20	lieu	_	NOUN	_	_	19	dobj	_	_
+21	tous	_	DET	_	_	24	det	_	_
+22	les	_	DET	_	_	24	det	_	_
+23	cinq	_	NUM	_	_	24	nummod	_	_
+24	ans	_	NOUN	_	_	19	nmod	_	_
+25	.	_	PUNCT	_	_	19	punct	_	_
 
 # sentid: fr-ud-dev_00797
 # sentence-text: Pensez cependant à réserver au moins une semaine à l'avance pour un repas en semaine et deux semaines à l'avance pour un repas en weekend.
@@ -23768,18 +23814,21 @@
 # sentence-text: Steven P. Novella, né le [[29 juillet 1964]], est un professeur américain de neurologie.
 1	Steven	_	PROPN	_	_	3	name	_	_
 2	P.	_	PROPN	_	_	3	name	_	_
-3	Novella	_	PROPN	_	_	10	nsubj	_	_
+3	Novella	_	PROPN	_	_	13	nsubj	_	_
 4	,	_	PUNCT	_	_	5	punct	_	_
 5	né	_	VERB	_	_	3	acl	_	_
-6	le	_	DET	_	_	5	det	_	_
-7	,	_	PUNCT	_	_	5	punct	_	_
-8	est	_	VERB	_	_	10	cop	_	_
-9	un	_	DET	_	_	10	det	_	_
-10	professeur	_	NOUN	_	_	0	root	_	_
-11	américain	_	ADJ	_	_	10	amod	_	_
-12	de	_	ADP	_	_	13	case	_	_
-13	neurologie	_	NOUN	_	_	10	nmod	_	_
-14	.	_	PUNCT	_	_	10	punct	_	_
+6	le	_	DET	_	_	8	det	_	_
+7	29	_	NUM	_	_	8	nmod	_	_
+8	juillet	_	NOUN	_	_	5	nmod	_	_
+9	1964	_	NUM	_	_	8	nmod	_	_
+10	,	_	PUNCT	_	_	5	punct	_	_
+11	est	_	VERB	_	_	13	cop	_	_
+12	un	_	DET	_	_	13	det	_	_
+13	professeur	_	NOUN	_	_	0	root	_	_
+14	américain	_	ADJ	_	_	13	amod	_	_
+15	de	_	ADP	_	_	16	case	_	_
+16	neurologie	_	NOUN	_	_	13	nmod	_	_
+17	.	_	PUNCT	_	_	13	punct	_	_
 
 # sentid: fr-ud-dev_00867
 # sentence-text: Il devient le nouveau président du conseil régional d'Auvergne, battant Valéry Giscard d'Estaing, qui occupait cette fonction depuis 1986.
@@ -24782,17 +24831,19 @@
 6	s'	_	PRON	_	_	7	dobj	_	_
 7	écroule	_	VERB	_	_	0	root	_	_
 8-9	au	_	_	_	_	_	_	_	_
-8	à	_	ADP	_	_	7	case	_	_
-9	le	_	DET	_	_	7	det	_	_
-10	à	_	ADP	_	_	12	case	_	_
-11	la	_	DET	_	_	12	det	_	_
-12	suite	_	NOUN	_	_	7	nmod	_	_
-13	d'	_	ADP	_	_	15	case	_	_
-14	un	_	DET	_	_	15	det	_	_
-15	glissement	_	NOUN	_	_	12	nmod	_	_
-16	de	_	ADP	_	_	17	case	_	_
-17	terrain	_	NOUN	_	_	15	nmod	_	_
-18	.	_	PUNCT	_	_	7	punct	_	_
+8	à	_	ADP	_	_	11	case	_	_
+9	le	_	DET	_	_	11	det	_	_
+10	IXe	_	NUM	_	_	11	nummod	_	_
+11	siècle	_	NOUN	_	_	7	nmod	_	_
+12	à	_	ADP	_	_	14	case	_	_
+13	la	_	DET	_	_	14	det	_	_
+14	suite	_	NOUN	_	_	7	nmod	_	_
+15	d'	_	ADP	_	_	17	case	_	_
+16	un	_	DET	_	_	17	det	_	_
+17	glissement	_	NOUN	_	_	14	nmod	_	_
+18	de	_	ADP	_	_	19	case	_	_
+19	terrain	_	NOUN	_	_	17	nmod	_	_
+20	.	_	PUNCT	_	_	7	punct	_	_
 
 # sentid: fr-ud-dev_00904
 # sentence-text: Il a également été capitaine de l'équipe bruxelloise.
@@ -26482,12 +26533,18 @@
 9	situe	_	VERB	_	_	0	root	_	_
 10	autour	_	ADV	_	_	11	mwe	_	_
 11-12	des	_	_	_	_	_	_	_	_
-11	de	_	ADP	_	_	9	case	_	_
-12	les	_	DET	_	_	9	det	_	_
-13	et	_	CONJ	_	_	9	cc	_	_
-14	la	_	DET	_	_	15	det	_	_
-15	maximale	_	NOUN	_	_	9	dep	_	_
-16	.	_	PUNCT	_	_	9	punct	_	_
+11	de	_	ADP	_	_	14	case	_	_
+12	les	_	DET	_	_	14	det	_	_
+13	9	_	NUM	_	_	14	nummod	_	_
+14	°	_	NOUN	_	_	9	nmod	_	_
+15	C	_	X	_	_	14	compound	_	_
+16	et	_	CONJ	_	_	14	cc	_	_
+17	la	_	DET	_	_	18	det	_	_
+18	maximale	_	NOUN	_	_	14	conj	_	_
+19	19	_	NUM	_	_	20	nummod	_	_
+20	°	_	NOUN	_	_	18	nmod	_	_
+21	C	_	X	_	_	20	compound	_	_
+22	.	_	PUNCT	_	_	9	punct	_	_
 
 # sentid: fr-ud-dev_00966
 # sentence-text: On la trouve à New York dans la plus grande cathédrale anglicane du monde et deux fois à St. Silas Church à Londres.
@@ -28900,10 +28957,16 @@
 30	février	_	NOUN	_	_	15	conj	_	_
 31	1871	_	NUM	_	_	30	nmod	_	_
 32	,	_	PUNCT	_	_	15	punct	_	_
-33	le	_	DET	_	_	15	dep	_	_
-34	et	_	CONJ	_	_	15	cc	_	_
-35	le	_	DET	_	_	15	dep	_	_
-36	.	_	PUNCT	_	_	8	punct	_	_
+33	le	_	DET	_	_	35	det	_	_
+34	18	_	NUM	_	_	35	nmod	_	_
+35	novembre	_	NOUN	_	_	15	nmod	_	_
+36	1871	_	NUM	_	_	35	nmod	_	_
+37	et	_	CONJ	_	_	15	cc	_	_
+38	le	_	DET	_	_	40	det	_	_
+39	24	_	NUM	_	_	40	nmod	_	_
+40	février	_	NOUN	_	_	15	nmod	_	_
+41	1872	_	NUM	_	_	40	nmod	_	_
+42	.	_	PUNCT	_	_	8	punct	_	_
 
 # sentid: fr-ud-dev_01047
 # sentence-text: Contrairement à celui de Wonder Woman, celui de Cassie est une arme pouvant projeter la lumière de Zeus.
@@ -33752,21 +33815,23 @@
 6	une	_	DET	_	_	7	det	_	_
 7	cathédrale	_	NOUN	_	_	0	root	_	_
 8-9	du	_	_	_	_	_	_	_	_
-8	de	_	ADP	_	_	7	case	_	_
-9	le	_	DET	_	_	7	det	_	_
-10	de	_	ADP	_	_	12	case	_	_
-11	l'	_	DET	_	_	12	det	_	_
-12	Église	_	PROPN	_	_	7	nmod	_	_
-13	d'	_	ADP	_	_	14	case	_	_
-14	Écosse	_	PROPN	_	_	12	nmod	_	_
-15	située	_	VERB	_	_	7	acl	_	_
-16	dans	_	ADP	_	_	18	case	_	_
-17	le	_	DET	_	_	18	det	_	_
-18	Burgh	_	PROPN	_	_	15	nmod	_	_
-19	royal	_	ADJ	_	_	18	amod	_	_
-20	de	_	ADP	_	_	21	case	_	_
-21	Brechin	_	PROPN	_	_	18	nmod	_	_
-22	.	_	PUNCT	_	_	7	punct	_	_
+8	de	_	ADP	_	_	11	case	_	_
+9	le	_	DET	_	_	11	det	_	_
+10	XIIIe	_	NUM	_	_	11	nummod	_	_
+11	siècle	_	NOUN	_	_	7	nmod	_	_
+12	de	_	ADP	_	_	14	case	_	_
+13	l'	_	DET	_	_	14	det	_	_
+14	Église	_	PROPN	_	_	7	nmod	_	_
+15	d'	_	ADP	_	_	16	case	_	_
+16	Écosse	_	PROPN	_	_	14	nmod	_	_
+17	située	_	VERB	_	_	7	acl	_	_
+18	dans	_	ADP	_	_	20	case	_	_
+19	le	_	DET	_	_	20	det	_	_
+20	Burgh	_	PROPN	_	_	17	nmod	_	_
+21	royal	_	ADJ	_	_	20	amod	_	_
+22	de	_	ADP	_	_	23	case	_	_
+23	Brechin	_	PROPN	_	_	20	nmod	_	_
+24	.	_	PUNCT	_	_	7	punct	_	_
 
 # sentid: fr-ud-dev_01231
 # sentence-text: Ioané de Kakhétie est un prince de Kakhétie vers 786 à 790.
@@ -34622,21 +34687,22 @@
 14	le	_	DET	_	_	15	det	_	_
 15	match	_	NOUN	_	_	12	nmod	_	_
 16	,	_	PUNCT	_	_	5	punct	_	_
-17	à	_	ADP	_	_	5	case	_	_
-18	la	_	DET	_	_	17	det	_	_
-19	,	_	PUNCT	_	_	17	punct	_	_
-20	où	_	PRON	_	_	22	advmod	_	_
-21	Marjewski	_	PROPN	_	_	22	nsubj	_	_
-22	inscrit	_	VERB	_	_	17	acl:relcl	_	_
-23	le	_	DET	_	_	27	det	_	_
-24	cinquième	_	ADJ	_	_	27	amod	_	_
-25	et	_	CONJ	_	_	24	cc	_	_
-26	dernier	_	ADJ	_	_	24	conj	_	_
-27	but	_	NOUN	_	_	22	dobj	_	_
-28	de	_	ADP	_	_	30	case	_	_
-29	la	_	DET	_	_	30	det	_	_
-30	rencontre	_	NOUN	_	_	27	nmod	_	_
-31	.	_	PUNCT	_	_	5	punct	_	_
+17	à	_	ADP	_	_	19	case	_	_
+18	la	_	DET	_	_	19	det	_	_
+19	87e	_	NOUN	_	_	5	nmod	_	_
+20	,	_	PUNCT	_	_	19	punct	_	_
+21	où	_	PRON	_	_	23	advmod	_	_
+22	Marjewski	_	PROPN	_	_	23	nsubj	_	_
+23	inscrit	_	VERB	_	_	19	acl:relcl	_	_
+24	le	_	DET	_	_	28	det	_	_
+25	cinquième	_	ADJ	_	_	28	amod	_	_
+26	et	_	CONJ	_	_	25	cc	_	_
+27	dernier	_	ADJ	_	_	25	conj	_	_
+28	but	_	NOUN	_	_	23	dobj	_	_
+29	de	_	ADP	_	_	31	case	_	_
+30	la	_	DET	_	_	31	det	_	_
+31	rencontre	_	NOUN	_	_	28	nmod	_	_
+32	.	_	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-dev_01257
 # sentence-text: Gilbert Poirot, né le 21 septembre 1944 à La Bresse et mort le 1 février 2012 à Chamonix, est un sauteur à ski français.
@@ -36488,29 +36554,32 @@
 # sentid: fr-ud-dev_01325
 # sentence-text: À partir du [[XXIe siècle]], les recensements réels des communes de moins de [[10 000]] habitants ont lieu tous les cinq ans.
 1	À	_	ADP	_	_	2	case	_	_
-2	partir	_	VERB	_	_	16	acl	_	_
+2	partir	_	VERB	_	_	19	acl	_	_
 3-4	du	_	_	_	_	_	_	_	_
-3	de	_	ADP	_	_	2	case	_	_
-4	le	_	DET	_	_	2	det	_	_
-5	,	_	PUNCT	_	_	2	punct	_	_
-6	les	_	DET	_	_	7	det	_	_
-7	recensements	_	NOUN	_	_	16	nsubj	_	_
-8	réels	_	ADJ	_	_	7	amod	_	_
-9-10	des	_	_	_	_	_	_	_	_
-9	de	_	ADP	_	_	11	case	_	_
-10	les	_	DET	_	_	11	det	_	_
-11	communes	_	NOUN	_	_	7	nmod	_	_
-12	de	_	ADP	_	_	15	case	_	_
-13	moins	_	ADV	_	_	14	mwe	_	_
-14	de	_	ADP	_	_	15	det	_	_
-15	habitants	_	NOUN	_	_	11	nmod	_	_
-16	ont	_	VERB	_	_	0	root	_	_
-17	lieu	_	NOUN	_	_	16	dobj	_	_
-18	tous	_	DET	_	_	21	det	_	_
-19	les	_	DET	_	_	21	det	_	_
-20	cinq	_	NUM	_	_	21	nummod	_	_
-21	ans	_	NOUN	_	_	16	nmod	_	_
-22	.	_	PUNCT	_	_	16	punct	_	_
+3	de	_	ADP	_	_	6	case	_	_
+4	le	_	DET	_	_	6	det	_	_
+5	XXIe	_	NUM	_	_	6	nummod	_	_
+6	siècle	_	NOUN	_	_	2	nmod	_	_
+7	,	_	PUNCT	_	_	2	punct	_	_
+8	les	_	DET	_	_	9	det	_	_
+9	recensements	_	NOUN	_	_	19	nsubj	_	_
+10	réels	_	ADJ	_	_	9	amod	_	_
+11-12	des	_	_	_	_	_	_	_	_
+11	de	_	ADP	_	_	13	case	_	_
+12	les	_	DET	_	_	13	det	_	_
+13	communes	_	NOUN	_	_	9	nmod	_	_
+14	de	_	ADP	_	_	18	case	_	_
+15	moins	_	ADV	_	_	17	advmod	_	_
+16	de	_	ADP	_	_	15	mwe	_	_
+17	10 000	_	NUM	_	_	18	nummod	_	_
+18	habitants	_	NOUN	_	_	13	nmod	_	_
+19	ont	_	VERB	_	_	0	root	_	_
+20	lieu	_	NOUN	_	_	19	dobj	_	_
+21	tous	_	DET	_	_	24	det	_	_
+22	les	_	DET	_	_	24	det	_	_
+23	cinq	_	NUM	_	_	24	nummod	_	_
+24	ans	_	NOUN	_	_	19	nmod	_	_
+25	.	_	PUNCT	_	_	19	punct	_	_
 
 # sentid: fr-ud-dev_01326
 # sentence-text: Le calvinisme exerça une certaine influence en France, en Hongrie, en Transylvanie, en Lituanie et en Pologne.
@@ -37477,23 +37546,28 @@
 8	titre	_	NOUN	_	_	6	dobj	_	_
 9	remonte	_	VERB	_	_	0	root	_	_
 10-11	au	_	_	_	_	_	_	_	_
-10	à	_	ADP	_	_	9	case	_	_
-11	le	_	DET	_	_	9	det	_	_
-12	et	_	CONJ	_	_	9	cc	_	_
-13	a	_	AUX	_	_	15	aux	_	_
-14	été	_	AUX	_	_	15	auxpass	_	_
-15	construite	_	VERB	_	_	9	conj	_	_
-16	sur	_	ADP	_	_	18	case	_	_
-17	les	_	DET	_	_	18	det	_	_
-18	ruines	_	NOUN	_	_	15	nmod	_	_
-19	d'	_	ADP	_	_	21	case	_	_
-20	un	_	DET	_	_	21	det	_	_
-21	oratoire	_	NOUN	_	_	18	nmod	_	_
-22-23	du	_	_	_	_	_	_	_	_
-22	de	_	ADP	_	_	21	case	_	_
-23	le	_	DET	_	_	21	det	_	_
-24	ou	_	CONJ	_	_	22	dep	_	_
-25	.	_	PUNCT	_	_	9	punct	_	_
+10	à	_	ADP	_	_	13	case	_	_
+11	le	_	DET	_	_	13	det	_	_
+12	VIIe	_	NUM	_	_	13	nummod	_	_
+13	siècle	_	NOUN	_	_	9	nmod	_	_
+14	et	_	CONJ	_	_	9	cc	_	_
+15	a	_	AUX	_	_	17	aux	_	_
+16	été	_	AUX	_	_	17	auxpass	_	_
+17	construite	_	VERB	_	_	9	conj	_	_
+18	sur	_	ADP	_	_	20	case	_	_
+19	les	_	DET	_	_	20	det	_	_
+20	ruines	_	NOUN	_	_	17	nmod	_	_
+21	d'	_	ADP	_	_	23	case	_	_
+22	un	_	DET	_	_	23	det	_	_
+23	oratoire	_	NOUN	_	_	20	nmod	_	_
+24-25	du	_	_	_	_	_	_	_	_
+24	de	_	ADP	_	_	29	case	_	_
+25	le	_	DET	_	_	29	det	_	_
+26	Ve	_	NUM	_	_	29	nummod	_	_
+27	ou	_	CONJ	_	_	26	cc	_	_
+28	VIe	_	NUM	_	_	26	conj	_	_
+29	siècle	_	NOUN	_	_	23	nmod	_	_
+30	.	_	PUNCT	_	_	9	punct	_	_
 
 # sentid: fr-ud-dev_01363
 # sentence-text: Le souverain s'emporte : « Mais quelle importance que ce soit irrationnel puisqu'il a avoué ?
@@ -39139,29 +39213,31 @@
 11	de	_	ADP	_	_	12	case	_	_
 12	miniatures	_	NOUN	_	_	9	nmod	_	_
 13-14	du	_	_	_	_	_	_	_	_
-13	de	_	ADP	_	_	9	case	_	_
-14	le	_	DET	_	_	9	det	_	_
-15	,	_	PUNCT	_	_	9	punct	_	_
-16	dont	_	PRON	_	_	18	nmod	_	_
-17	l'	_	DET	_	_	18	det	_	_
-18	œuvre	_	NOUN	_	_	20	nsubj	_	_
-19	se	_	PRON	_	_	20	dobj	_	_
-20	situe	_	VERB	_	_	9	acl:relcl	_	_
-21	entre	_	ADP	_	_	23	case	_	_
-22	la	_	DET	_	_	23	det	_	_
-23	fin	_	NOUN	_	_	20	nmod	_	_
-24	de	_	ADP	_	_	26	case	_	_
-25	la	_	DET	_	_	26	det	_	_
-26	période	_	NOUN	_	_	23	nmod	_	_
-27	gothique	_	ADJ	_	_	26	amod	_	_
-28	et	_	CONJ	_	_	23	cc	_	_
-29	le	_	DET	_	_	30	det	_	_
-30	début	_	NOUN	_	_	23	conj	_	_
-31	de	_	ADP	_	_	34	case	_	_
-32	la	_	DET	_	_	34	det	_	_
-33	première	_	ADJ	_	_	34	amod	_	_
-34	Renaissance	_	PROPN	_	_	30	nmod	_	_
-35	.	_	PUNCT	_	_	6	punct	_	_
+13	de	_	ADP	_	_	16	case	_	_
+14	le	_	DET	_	_	16	det	_	_
+15	XVe	_	NUM	_	_	16	nummod	_	_
+16	siècle	_	NOUN	_	_	9	nmod	_	_
+17	,	_	PUNCT	_	_	9	punct	_	_
+18	dont	_	PRON	_	_	20	nmod	_	_
+19	l'	_	DET	_	_	20	det	_	_
+20	œuvre	_	NOUN	_	_	22	nsubj	_	_
+21	se	_	PRON	_	_	22	dobj	_	_
+22	situe	_	VERB	_	_	9	acl:relcl	_	_
+23	entre	_	ADP	_	_	25	case	_	_
+24	la	_	DET	_	_	25	det	_	_
+25	fin	_	NOUN	_	_	22	nmod	_	_
+26	de	_	ADP	_	_	28	case	_	_
+27	la	_	DET	_	_	28	det	_	_
+28	période	_	NOUN	_	_	25	nmod	_	_
+29	gothique	_	ADJ	_	_	28	amod	_	_
+30	et	_	CONJ	_	_	25	cc	_	_
+31	le	_	DET	_	_	32	det	_	_
+32	début	_	NOUN	_	_	25	conj	_	_
+33	de	_	ADP	_	_	36	case	_	_
+34	la	_	DET	_	_	36	det	_	_
+35	première	_	ADJ	_	_	36	amod	_	_
+36	Renaissance	_	PROPN	_	_	32	nmod	_	_
+37	.	_	PUNCT	_	_	6	punct	_	_
 
 # sentid: fr-ud-dev_01420
 # sentence-text: On y dispense le même enseignement qu'à Paris, mais les concours et les diplômes, entrepris sous la direction du maître d'atelier local, sont envoyés par le train et jugés dans la capitale.
@@ -39515,29 +39591,33 @@
 16	de	_	ADP	_	_	18	case	_	_
 17	lui	_	PRON	_	_	18	iobj	_	_
 18	avancer	_	VERB	_	_	10	acl	_	_
-19	,	_	PUNCT	_	_	10	punct	_	_
-20	disant	_	VERB	_	_	10	advcl	_	_
-21	qu'	_	SCONJ	_	_	24	mark	_	_
-22	elle	_	PRON	_	_	24	nsubj	_	_
-23	doit	_	AUX	_	_	24	aux	_	_
-24	acheter	_	VERB	_	_	20	ccomp	_	_
-25	un	_	DET	_	_	26	det	_	_
-26	foulard	_	NOUN	_	_	24	dobj	_	_
-27	pour	_	ADP	_	_	29	case	_	_
-28	sa	_	DET	_	_	29	nmod:poss	_	_
-29	tante	_	NOUN	_	_	24	nmod	_	_
-30	malade	_	ADJ	_	_	29	amod	_	_
-31	,	_	PUNCT	_	_	20	punct	_	_
-32	mais	_	CONJ	_	_	10	cc	_	_
-33	c'	_	PRON	_	_	36	nsubj	_	_
-34	est	_	VERB	_	_	36	cop	_	_
-35	un	_	DET	_	_	36	det	_	_
-36	client	_	NOUN	_	_	10	conj	_	_
-37	qui	_	PRON	_	_	39	nsubj	_	_
-38	lui	_	PRON	_	_	39	iobj	_	_
-39	offre	_	VERB	_	_	36	acl:relcl	_	_
-40	ces	_	DET	_	_	39	det	_	_
-41	.	_	PUNCT	_	_	7	punct	_	_
+19	20	_	NUM	_	_	20	nummod	_	_
+20	dollars	_	NOUN	_	_	18	dobj	_	_
+21	,	_	PUNCT	_	_	10	punct	_	_
+22	disant	_	VERB	_	_	10	advcl	_	_
+23	qu'	_	SCONJ	_	_	26	mark	_	_
+24	elle	_	PRON	_	_	26	nsubj	_	_
+25	doit	_	AUX	_	_	26	aux	_	_
+26	acheter	_	VERB	_	_	22	ccomp	_	_
+27	un	_	DET	_	_	28	det	_	_
+28	foulard	_	NOUN	_	_	26	dobj	_	_
+29	pour	_	ADP	_	_	31	case	_	_
+30	sa	_	DET	_	_	31	nmod:poss	_	_
+31	tante	_	NOUN	_	_	26	nmod	_	_
+32	malade	_	ADJ	_	_	31	amod	_	_
+33	,	_	PUNCT	_	_	22	punct	_	_
+34	mais	_	CONJ	_	_	10	cc	_	_
+35	c'	_	PRON	_	_	38	nsubj	_	_
+36	est	_	VERB	_	_	38	cop	_	_
+37	un	_	DET	_	_	38	det	_	_
+38	client	_	NOUN	_	_	10	conj	_	_
+39	qui	_	PRON	_	_	41	nsubj	_	_
+40	lui	_	PRON	_	_	41	iobj	_	_
+41	offre	_	VERB	_	_	38	acl:relcl	_	_
+42	ces	_	DET	_	_	44	det	_	_
+43	20	_	NUM	_	_	44	nummod	_	_
+44	dollars	_	NOUN	_	_	41	dobj	_	_
+45	.	_	PUNCT	_	_	7	punct	_	_
 
 # sentid: fr-ud-dev_01430
 # sentence-text: Ainsi 3 fois 5 s'écrivait-il 3 in 5.
@@ -40099,101 +40179,103 @@
 
 # sentid: fr-ud-dev_01454
 # sentence-text: Mais depuis le début du [[XXIe siècle]], notamment avec la libéralisation de la censure en Turquie concernant les publications en kurde et l'autonomie du Kurdistan irakien, le statut des écrivains kurdes se normalise peu à peu et des thèmes moins sombres (même si l'évocation de la guerre est encore très présente) sont repris dans les romans ou la poésie, qui est un genre très vivace : l'amour, les relations entre hommes et les femmes, entre la modernité et les traditions.
-1	Mais	_	CONJ	_	_	37	cc	_	_
+1	Mais	_	CONJ	_	_	39	cc	_	_
 2	depuis	_	ADP	_	_	4	case	_	_
 3	le	_	DET	_	_	4	det	_	_
-4	début	_	NOUN	_	_	37	nmod	_	_
+4	début	_	NOUN	_	_	39	nmod	_	_
 5-6	du	_	_	_	_	_	_	_	_
-5	de	_	ADP	_	_	4	case	_	_
-6	le	_	DET	_	_	4	det	_	_
-7	,	_	PUNCT	_	_	4	punct	_	_
-8	notamment	_	ADV	_	_	11	advmod	_	_
-9	avec	_	ADP	_	_	11	case	_	_
-10	la	_	DET	_	_	11	det	_	_
-11	libéralisation	_	NOUN	_	_	37	nmod	_	_
-12	de	_	ADP	_	_	14	case	_	_
-13	la	_	DET	_	_	14	det	_	_
-14	censure	_	NOUN	_	_	11	nmod	_	_
-15	en	_	ADP	_	_	16	case	_	_
-16	Turquie	_	PROPN	_	_	11	nmod	_	_
-17	concernant	_	VERB	_	_	11	acl	_	_
-18	les	_	DET	_	_	19	det	_	_
-19	publications	_	NOUN	_	_	17	dobj	_	_
-20	en	_	ADP	_	_	21	case	_	_
-21	kurde	_	NOUN	_	_	19	nmod	_	_
-22	et	_	CONJ	_	_	19	cc	_	_
-23	l'	_	DET	_	_	24	det	_	_
-24	autonomie	_	NOUN	_	_	19	conj	_	_
-25-26	du	_	_	_	_	_	_	_	_
-25	de	_	ADP	_	_	27	case	_	_
-26	le	_	DET	_	_	27	det	_	_
-27	Kurdistan	_	PROPN	_	_	24	nmod	_	_
-28	irakien	_	ADJ	_	_	27	amod	_	_
-29	,	_	PUNCT	_	_	11	punct	_	_
-30	le	_	DET	_	_	31	det	_	_
-31	statut	_	NOUN	_	_	37	nsubj	_	_
-32-33	des	_	_	_	_	_	_	_	_
-32	de	_	ADP	_	_	34	case	_	_
-33	les	_	DET	_	_	34	det	_	_
-34	écrivains	_	NOUN	_	_	31	nmod	_	_
-35	kurdes	_	ADJ	_	_	34	amod	_	_
-36	se	_	PRON	_	_	37	dobj	_	_
-37	normalise	_	VERB	_	_	0	root	_	_
-38	peu	_	ADV	_	_	39	mwe	_	_
-39	à	_	ADP	_	_	37	advmod	_	_
-40	peu	_	ADV	_	_	39	mwe	_	_
-41	et	_	CONJ	_	_	37	cc	_	_
-42	des	_	DET	_	_	43	det	_	_
-43	thèmes	_	NOUN	_	_	60	nsubjpass	_	_
-44	moins	_	ADV	_	_	45	advmod	_	_
-45	sombres	_	ADJ	_	_	43	amod	_	_
-46	(	_	PUNCT	_	_	57	punct	_	_
-47	même	_	ADV	_	_	48	advmod	_	_
-48	si	_	SCONJ	_	_	57	mark	_	_
-49	l'	_	DET	_	_	50	det	_	_
-50	évocation	_	NOUN	_	_	57	nsubj	_	_
-51	de	_	ADP	_	_	53	case	_	_
-52	la	_	DET	_	_	53	det	_	_
-53	guerre	_	NOUN	_	_	50	nmod	_	_
-54	est	_	VERB	_	_	57	cop	_	_
-55	encore	_	ADV	_	_	57	advmod	_	_
-56	très	_	ADV	_	_	57	advmod	_	_
-57	présente	_	ADJ	_	_	60	advcl	_	_
-58	)	_	PUNCT	_	_	57	punct	_	_
-59	sont	_	AUX	_	_	60	auxpass	_	_
-60	repris	_	VERB	_	_	37	conj	_	_
-61	dans	_	ADP	_	_	63	case	_	_
-62	les	_	DET	_	_	63	det	_	_
-63	romans	_	NOUN	_	_	60	nmod	_	_
-64	ou	_	CONJ	_	_	63	cc	_	_
-65	la	_	DET	_	_	66	det	_	_
-66	poésie	_	NOUN	_	_	63	conj	_	_
-67	,	_	PUNCT	_	_	66	punct	_	_
-68	qui	_	PRON	_	_	71	nsubj	_	_
-69	est	_	VERB	_	_	71	cop	_	_
-70	un	_	DET	_	_	71	det	_	_
-71	genre	_	NOUN	_	_	66	acl:relcl	_	_
-72	très	_	ADV	_	_	73	advmod	_	_
-73	vivace	_	ADJ	_	_	71	amod	_	_
-74	:	_	PUNCT	_	_	60	punct	_	_
-75	l'	_	DET	_	_	76	det	_	_
-76	amour	_	NOUN	_	_	43	appos	_	_
-77	,	_	PUNCT	_	_	76	punct	_	_
-78	les	_	DET	_	_	79	det	_	_
-79	relations	_	NOUN	_	_	76	conj	_	_
-80	entre	_	ADP	_	_	81	case	_	_
-81	hommes	_	NOUN	_	_	79	nmod	_	_
-82	et	_	CONJ	_	_	81	cc	_	_
-83	les	_	DET	_	_	84	det	_	_
-84	femmes	_	NOUN	_	_	81	conj	_	_
-85	,	_	PUNCT	_	_	81	punct	_	_
-86	entre	_	ADP	_	_	88	case	_	_
-87	la	_	DET	_	_	88	det	_	_
-88	modernité	_	NOUN	_	_	81	conj	_	_
-89	et	_	CONJ	_	_	88	cc	_	_
-90	les	_	DET	_	_	91	det	_	_
-91	traditions	_	NOUN	_	_	88	conj	_	_
-92	.	_	PUNCT	_	_	37	punct	_	_
+5	de	_	ADP	_	_	8	case	_	_
+6	le	_	DET	_	_	8	det	_	_
+7	XXIe	_	NUM	_	_	8	nummod	_	_
+8	siècle	_	NOUN	_	_	4	nmod	_	_
+9	,	_	PUNCT	_	_	4	punct	_	_
+10	notamment	_	ADV	_	_	13	advmod	_	_
+11	avec	_	ADP	_	_	13	case	_	_
+12	la	_	DET	_	_	13	det	_	_
+13	libéralisation	_	NOUN	_	_	39	nmod	_	_
+14	de	_	ADP	_	_	16	case	_	_
+15	la	_	DET	_	_	16	det	_	_
+16	censure	_	NOUN	_	_	13	nmod	_	_
+17	en	_	ADP	_	_	18	case	_	_
+18	Turquie	_	PROPN	_	_	13	nmod	_	_
+19	concernant	_	VERB	_	_	13	acl	_	_
+20	les	_	DET	_	_	21	det	_	_
+21	publications	_	NOUN	_	_	19	dobj	_	_
+22	en	_	ADP	_	_	23	case	_	_
+23	kurde	_	NOUN	_	_	21	nmod	_	_
+24	et	_	CONJ	_	_	21	cc	_	_
+25	l'	_	DET	_	_	26	det	_	_
+26	autonomie	_	NOUN	_	_	21	conj	_	_
+27-28	du	_	_	_	_	_	_	_	_
+27	de	_	ADP	_	_	29	case	_	_
+28	le	_	DET	_	_	29	det	_	_
+29	Kurdistan	_	PROPN	_	_	26	nmod	_	_
+30	irakien	_	ADJ	_	_	29	amod	_	_
+31	,	_	PUNCT	_	_	13	punct	_	_
+32	le	_	DET	_	_	33	det	_	_
+33	statut	_	NOUN	_	_	39	nsubj	_	_
+34-35	des	_	_	_	_	_	_	_	_
+34	de	_	ADP	_	_	36	case	_	_
+35	les	_	DET	_	_	36	det	_	_
+36	écrivains	_	NOUN	_	_	33	nmod	_	_
+37	kurdes	_	ADJ	_	_	36	amod	_	_
+38	se	_	PRON	_	_	39	dobj	_	_
+39	normalise	_	VERB	_	_	0	root	_	_
+40	peu	_	ADV	_	_	41	mwe	_	_
+41	à	_	ADP	_	_	39	advmod	_	_
+42	peu	_	ADV	_	_	41	mwe	_	_
+43	et	_	CONJ	_	_	39	cc	_	_
+44	des	_	DET	_	_	45	det	_	_
+45	thèmes	_	NOUN	_	_	62	nsubjpass	_	_
+46	moins	_	ADV	_	_	47	advmod	_	_
+47	sombres	_	ADJ	_	_	45	amod	_	_
+48	(	_	PUNCT	_	_	59	punct	_	_
+49	même	_	ADV	_	_	50	advmod	_	_
+50	si	_	SCONJ	_	_	59	mark	_	_
+51	l'	_	DET	_	_	52	det	_	_
+52	évocation	_	NOUN	_	_	59	nsubj	_	_
+53	de	_	ADP	_	_	55	case	_	_
+54	la	_	DET	_	_	55	det	_	_
+55	guerre	_	NOUN	_	_	52	nmod	_	_
+56	est	_	VERB	_	_	59	cop	_	_
+57	encore	_	ADV	_	_	59	advmod	_	_
+58	très	_	ADV	_	_	59	advmod	_	_
+59	présente	_	ADJ	_	_	62	advcl	_	_
+60	)	_	PUNCT	_	_	59	punct	_	_
+61	sont	_	AUX	_	_	62	auxpass	_	_
+62	repris	_	VERB	_	_	39	conj	_	_
+63	dans	_	ADP	_	_	65	case	_	_
+64	les	_	DET	_	_	65	det	_	_
+65	romans	_	NOUN	_	_	62	nmod	_	_
+66	ou	_	CONJ	_	_	65	cc	_	_
+67	la	_	DET	_	_	68	det	_	_
+68	poésie	_	NOUN	_	_	65	conj	_	_
+69	,	_	PUNCT	_	_	68	punct	_	_
+70	qui	_	PRON	_	_	73	nsubj	_	_
+71	est	_	VERB	_	_	73	cop	_	_
+72	un	_	DET	_	_	73	det	_	_
+73	genre	_	NOUN	_	_	68	acl:relcl	_	_
+74	très	_	ADV	_	_	75	advmod	_	_
+75	vivace	_	ADJ	_	_	73	amod	_	_
+76	:	_	PUNCT	_	_	62	punct	_	_
+77	l'	_	DET	_	_	78	det	_	_
+78	amour	_	NOUN	_	_	45	appos	_	_
+79	,	_	PUNCT	_	_	78	punct	_	_
+80	les	_	DET	_	_	81	det	_	_
+81	relations	_	NOUN	_	_	78	conj	_	_
+82	entre	_	ADP	_	_	83	case	_	_
+83	hommes	_	NOUN	_	_	81	nmod	_	_
+84	et	_	CONJ	_	_	83	cc	_	_
+85	les	_	DET	_	_	86	det	_	_
+86	femmes	_	NOUN	_	_	83	conj	_	_
+87	,	_	PUNCT	_	_	83	punct	_	_
+88	entre	_	ADP	_	_	90	case	_	_
+89	la	_	DET	_	_	90	det	_	_
+90	modernité	_	NOUN	_	_	83	conj	_	_
+91	et	_	CONJ	_	_	90	cc	_	_
+92	les	_	DET	_	_	93	det	_	_
+93	traditions	_	NOUN	_	_	90	conj	_	_
+94	.	_	PUNCT	_	_	39	punct	_	_
 
 # sentid: fr-ud-dev_01455
 # sentence-text: Jean Dubuffet (1901-1985) lui-même est en pleine recherche.
@@ -41116,20 +41198,26 @@
 16	(	_	PUNCT	_	_	17	punct	_	_
 17	Alabama	_	PROPN	_	_	15	appos	_	_
 18	)	_	PUNCT	_	_	17	punct	_	_
-19	le	_	DET	_	_	10	det	_	_
-20	,	_	PUNCT	_	_	10	punct	_	_
-21	décédée	_	VERB	_	_	10	conj	_	_
-22	d'	_	ADP	_	_	24	case	_	_
-23	une	_	DET	_	_	24	det	_	_
-24	leucémie	_	NOUN	_	_	21	nmod	_	_
-25	à	_	ADP	_	_	27	case	_	_
-26	Los	_	PROPN	_	_	27	det	_	_
-27	Angeles	_	PROPN	_	_	21	nmod	_	_
-28	(	_	PUNCT	_	_	29	punct	_	_
-29	Californie	_	PROPN	_	_	27	appos	_	_
-30	)	_	PUNCT	_	_	29	punct	_	_
-31	le	_	DET	_	_	21	det	_	_
-32	.	_	PUNCT	_	_	5	punct	_	_
+19	le	_	DET	_	_	21	det	_	_
+20	20	_	NUM	_	_	21	nmod	_	_
+21	juin	_	NOUN	_	_	10	nmod	_	_
+22	1911	_	NUM	_	_	21	nmod	_	_
+23	,	_	PUNCT	_	_	10	punct	_	_
+24	décédée	_	VERB	_	_	10	conj	_	_
+25	d'	_	ADP	_	_	27	case	_	_
+26	une	_	DET	_	_	27	det	_	_
+27	leucémie	_	NOUN	_	_	24	nmod	_	_
+28	à	_	ADP	_	_	30	case	_	_
+29	Los	_	PROPN	_	_	30	det	_	_
+30	Angeles	_	PROPN	_	_	24	nmod	_	_
+31	(	_	PUNCT	_	_	32	punct	_	_
+32	Californie	_	PROPN	_	_	30	appos	_	_
+33	)	_	PUNCT	_	_	32	punct	_	_
+34	le	_	DET	_	_	36	det	_	_
+35	6	_	NUM	_	_	36	nmod	_	_
+36	juillet	_	NOUN	_	_	24	nmod	_	_
+37	1980	_	NUM	_	_	36	nmod	_	_
+38	.	_	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-dev_01487
 # sentence-text: Aucun intérêt à venir dans cet hôtel qui ne mérite aucune étoiles surtout pour le prix affiché !
@@ -42063,15 +42151,17 @@
 15	m'	_	PRON	_	_	17	iobj	_	_
 16	a	_	AUX	_	_	17	aux	_	_
 17	demandé	_	VERB	_	_	12	conj	_	_
-18	:	_	PUNCT	_	_	12	punct	_	_
-19	«	_	PUNCT	_	_	12	punct	_	_
+18	:	_	PUNCT	_	_	17	punct	_	_
+19	«	_	PUNCT	_	_	22	punct	_	_
 20	qu'	_	PRON	_	_	22	nsubj	_	_
 21	est	_	VERB	_	_	22	cop	_	_
-22	ce	_	PRON	_	_	17	ccomp	_	_
+22	ce	_	PRON	_	_	17	dobj	_	_
 23	que	_	PRON	_	_	25	dobj	_	_
 24	tu	_	PRON	_	_	25	nsubj	_	_
 25	as	_	VERB	_	_	22	acl:relcl	_	_
-26	?	_	PUNCT	_	_	12	punct	_	_
+26	?	_	PUNCT	_	_	22	punct	_	_
+27	»	_	PUNCT	_	_	22	punct	_	_
+28	.	_	PUNCT	_	_	12	punct	_	_
 
 # sentid: fr-ud-dev_01520
 # sentence-text: Eglise Saint Denis (XIIIe, XIVe, XVIe, XVIIIe siècles).
@@ -42368,29 +42458,31 @@
 1-2	Au	_	_	_	_	_	_	_	_
 1	à	_	ADP	_	_	3	case	_	_
 2	le	_	DET	_	_	3	det	_	_
-3	milieu	_	NOUN	_	_	16	nmod	_	_
+3	milieu	_	NOUN	_	_	18	nmod	_	_
 4-5	du	_	_	_	_	_	_	_	_
-4	de	_	ADP	_	_	3	case	_	_
-5	le	_	DET	_	_	3	det	_	_
-6	,	_	PUNCT	_	_	3	punct	_	_
-7	un	_	DET	_	_	8	det	_	_
-8	prédicateur	_	NOUN	_	_	16	nsubj	_	_
-9	de	_	ADP	_	_	10	case	_	_
-10	Bassora	_	PROPN	_	_	8	nmod	_	_
-11	,	_	PUNCT	_	_	8	punct	_	_
-12	Abdullah	_	PROPN	_	_	14	name	_	_
-13	bin	_	PROPN	_	_	14	name	_	_
-14	Yahya	_	PROPN	_	_	8	appos	_	_
-15	,	_	PUNCT	_	_	14	punct	_	_
-16	parvient	_	VERB	_	_	0	root	_	_
-17	en	_	ADP	_	_	18	case	_	_
-18	Hadramaout	_	PROPN	_	_	16	nmod	_	_
-19	,	_	PUNCT	_	_	16	punct	_	_
-20	établit	_	VERB	_	_	16	conj	_	_
-21	le	_	DET	_	_	22	det	_	_
-22	rite	_	NOUN	_	_	20	dobj	_	_
-23	Ibadhi	_	PROPN	_	_	22	appos	_	_
-24	.	_	PUNCT	_	_	16	punct	_	_
+4	de	_	ADP	_	_	7	case	_	_
+5	le	_	DET	_	_	7	det	_	_
+6	VIIIe	_	NUM	_	_	7	nummod	_	_
+7	siècle	_	NOUN	_	_	3	nmod	_	_
+8	,	_	PUNCT	_	_	3	punct	_	_
+9	un	_	DET	_	_	10	det	_	_
+10	prédicateur	_	NOUN	_	_	18	nsubj	_	_
+11	de	_	ADP	_	_	12	case	_	_
+12	Bassora	_	PROPN	_	_	10	nmod	_	_
+13	,	_	PUNCT	_	_	10	punct	_	_
+14	Abdullah	_	PROPN	_	_	16	name	_	_
+15	bin	_	PROPN	_	_	16	name	_	_
+16	Yahya	_	PROPN	_	_	10	appos	_	_
+17	,	_	PUNCT	_	_	16	punct	_	_
+18	parvient	_	VERB	_	_	0	root	_	_
+19	en	_	ADP	_	_	20	case	_	_
+20	Hadramaout	_	PROPN	_	_	18	nmod	_	_
+21	,	_	PUNCT	_	_	18	punct	_	_
+22	établit	_	VERB	_	_	18	conj	_	_
+23	le	_	DET	_	_	24	det	_	_
+24	rite	_	NOUN	_	_	22	dobj	_	_
+25	Ibadhi	_	PROPN	_	_	24	appos	_	_
+26	.	_	PUNCT	_	_	18	punct	_	_
 
 # sentid: fr-ud-dev_01532
 # sentence-text: Pour Pokémon, il en faut exactement 60.
@@ -44618,6 +44710,11 @@
 49	en	_	PRON	_	_	50	case	_	_
 50	enfer	_	NOUN	_	_	46	nmod	_	_
 51	?	_	PUNCT	_	_	46	punct	_	_
+52	/	_	PUNCT	_	_	46	punct	_	_
+53	Probablement	_	ADV	_	_	46	conj	_	_
+54	!	_	PUNCT	_	_	53	punct	_	_
+55	)	_	PUNCT	_	_	26	punct	_	_
+56	.	_	PUNCT	_	_	13	punct	_	_
 
 # sentid: fr-ud-dev_01608
 # sentence-text: Il étudie sous la direction de photographes reconnus et publie en collaboration avec d'autres médecins un traité intitulé Iconographie photographique appliquée à l'ophtalmologie en 1881.
@@ -44912,16 +45009,19 @@
 # sentid: fr-ud-dev_01617
 # sentence-text: Anne-Sophie Mathis, née le [[13 juin 1977]] à Nancy, est une boxeuse française.
 1	Anne-Sophie	_	PROPN	_	_	2	name	_	_
-2	Mathis	_	PROPN	_	_	11	nsubj	_	_
+2	Mathis	_	PROPN	_	_	14	nsubj	_	_
 3	,	_	PUNCT	_	_	4	punct	_	_
 4	née	_	VERB	_	_	2	acl	_	_
-5	le	_	DET	_	_	4	det	_	_
-6	à	_	ADP	_	_	7	case	_	_
-7	Nancy	_	PROPN	_	_	4	nmod	_	_
-8	,	_	PUNCT	_	_	4	punct	_	_
-9	est	_	VERB	_	_	11	cop	_	_
-10	une	_	DET	_	_	11	det	_	_
-11	boxeuse	_	NOUN	_	_	0	root	_	_
-12	française	_	ADJ	_	_	11	amod	_	_
-13	.	_	PUNCT	_	_	11	punct	_	_
+5	le	_	DET	_	_	7	det	_	_
+6	13	_	NUM	_	_	7	nmod	_	_
+7	juin	_	NOUN	_	_	4	nmod	_	_
+8	1977	_	NUM	_	_	7	nmod	_	_
+9	à	_	ADP	_	_	10	case	_	_
+10	Nancy	_	PROPN	_	_	4	nmod	_	_
+11	,	_	PUNCT	_	_	4	punct	_	_
+12	est	_	VERB	_	_	14	cop	_	_
+13	une	_	DET	_	_	14	det	_	_
+14	boxeuse	_	NOUN	_	_	0	root	_	_
+15	française	_	ADJ	_	_	14	amod	_	_
+16	.	_	PUNCT	_	_	14	punct	_	_
 

@@ -27588,7 +27588,7 @@
 24	.	_	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-dev_01002
-# sentence-text: William (Willy) Ostijn (1913-1993) est un compositeur belge néoclassique du milieu du siècle.
+# sentence-text: William (Willy) Ostijn (1913-1993) est un compositeur belge néoclassique du milieu du [[XXe]] siècle.
 1	William	_	PROPN	_	_	5	name	_	_
 2	(	_	PUNCT	_	_	3	punct	_	_
 3	Willy	_	PROPN	_	_	1	appos	_	_
@@ -27607,10 +27607,11 @@
 15	le	_	DET	_	_	16	det	_	_
 16	milieu	_	NOUN	_	_	11	nmod	_	_
 17-18	du	_	_	_	_	_	_	_	_
-17	de	_	ADP	_	_	19	case	_	_
-18	le	_	DET	_	_	19	det	_	_
-19	siècle	_	NOUN	_	_	16	nmod	_	_
-20	.	_	PUNCT	_	_	11	punct	_	_
+17	de	_	ADP	_	_	20	case	_	_
+18	le	_	DET	_	_	20	det	_	_
+19	XXe	_	NUM	_	tronque=y	20	nummod	_	_
+20	siècle	_	NOUN	_	_	16	nmod	_	_
+21	.	_	PUNCT	_	_	11	punct	_	_
 
 # sentid: fr-ud-dev_01003
 # sentence-text: Présidée par Henri Jooris, la Ligue du Nord crée notamment la Division d'Honneur, plus haut niveau régional, et la Promotion d'Honneur, deuxième division de la Ligue.

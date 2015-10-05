@@ -3865,7 +3865,7 @@
 24	.	_	PUNCT	_	_	9	punct	_	_
 
 # sentid: fr-ud-test_00127
-# sentence-text: Il faut savoir que les appareils de la dernière génération exposent la couche supérieure de la à 40 ° C et que les couches plus profondes atteindront la température de 60 ° C, il est donc normal de ressentir un peu de douleur.
+# sentence-text: Il faut savoir que les appareils de la dernière génération exposent la couche supérieure de la [[main]] à 40°C et que les couches plus profondes atteindront la température de 60°C, il est donc normal de ressentir un peu de douleur.
 1	Il	_	PRON	_	_	3	nsubj	_	_
 2	faut	_	AUX	_	_	3	aux	_	_
 3	savoir	_	VERB	_	_	0	root	_	_
@@ -3880,37 +3880,38 @@
 12	la	_	DET	_	_	13	det	_	_
 13	couche	_	NOUN	_	_	11	dobj	_	_
 14	supérieure	_	ADJ	_	_	13	amod	_	_
-15	de	_	ADP	_	_	13	case	_	_
-16	la	_	DET	_	_	19	det	_	_
-17	à	_	ADP	_	_	19	case	_	_
-18	40	_	NUM	_	_	19	nummod	_	_
-19	°	_	NOUN	_	_	11	nmod	_	_
-20	C	_	X	_	_	19	compound	_	_
-21	et	_	CONJ	_	_	11	cc	_	_
-22	que	_	SCONJ	_	_	27	mark	_	_
-23	les	_	DET	_	_	24	det	_	_
-24	couches	_	NOUN	_	_	27	nsubj	_	_
-25	plus	_	ADV	_	_	26	advmod	_	_
-26	profondes	_	ADJ	_	_	24	amod	_	_
-27	atteindront	_	VERB	_	_	11	conj	_	_
-28	la	_	DET	_	_	29	det	_	_
-29	température	_	NOUN	_	_	27	dobj	_	_
-30	de	_	ADP	_	_	32	case	_	_
-31	60	_	NUM	_	_	32	nummod	_	_
-32	°	_	NOUN	_	_	29	nmod	_	_
-33	C	_	X	_	_	32	compound	_	_
-34	,	_	PUNCT	_	_	11	punct	_	_
-35	il	_	PRON	_	_	38	nsubj	_	_
-36	est	_	VERB	_	_	38	cop	_	_
-37	donc	_	ADV	_	_	38	advmod	_	_
-38	normal	_	ADJ	_	_	3	conj	_	_
-39	de	_	ADP	_	_	40	case	_	_
-40	ressentir	_	VERB	_	_	38	acl	_	_
-41	un	_	DET	_	_	44	det	_	_
-42	peu	_	PRON	_	_	41	mwe	_	_
-43	de	_	ADP	_	_	41	mwe	_	_
-44	douleur	_	NOUN	_	_	40	dobj	_	_
-45	.	_	PUNCT	_	_	3	punct	_	_
+15	de	_	ADP	_	_	17	case	_	_
+16	la	_	DET	_	_	17	det	_	_
+17	main	_	NOUN	_	tronque=y	13	nmod	_	_
+18	à	_	ADP	_	_	20	case	_	_
+19	40	_	NUM	_	_	20	nummod	_	_
+20	°	_	NOUN	_	_	11	nmod	_	_
+21	C	_	X	_	_	20	compound	_	_
+22	et	_	CONJ	_	_	11	cc	_	_
+23	que	_	SCONJ	_	_	28	mark	_	_
+24	les	_	DET	_	_	25	det	_	_
+25	couches	_	NOUN	_	_	28	nsubj	_	_
+26	plus	_	ADV	_	_	27	advmod	_	_
+27	profondes	_	ADJ	_	_	25	amod	_	_
+28	atteindront	_	VERB	_	_	11	conj	_	_
+29	la	_	DET	_	_	30	det	_	_
+30	température	_	NOUN	_	_	28	dobj	_	_
+31	de	_	ADP	_	_	33	case	_	_
+32	60	_	NUM	_	_	33	nummod	_	_
+33	°	_	NOUN	_	_	30	nmod	_	_
+34	C	_	X	_	_	33	compound	_	_
+35	,	_	PUNCT	_	_	11	punct	_	_
+36	il	_	PRON	_	_	39	nsubj	_	_
+37	est	_	VERB	_	_	39	cop	_	_
+38	donc	_	ADV	_	_	39	advmod	_	_
+39	normal	_	ADJ	_	_	3	conj	_	_
+40	de	_	ADP	_	_	41	case	_	_
+41	ressentir	_	VERB	_	_	39	acl	_	_
+42	un	_	DET	_	_	45	det	_	_
+43	peu	_	PRON	_	_	42	mwe	_	_
+44	de	_	ADP	_	_	42	mwe	_	_
+45	douleur	_	NOUN	_	_	41	dobj	_	_
+46	.	_	PUNCT	_	_	3	punct	_	_
 
 # sentid: fr-ud-test_00128
 # sentence-text: Sean David Morton qui se fait appeler "le prophète de l'Amérique", a levé six millions de dollars en faisant croire aux investisseurs qu'il pouvait prédire l'évolution de la Bourse !

@@ -1369,7 +1369,7 @@
 7	vous	_	PRON	_	_	8	iobj	_	_
 8	suffit	_	VERB	_	_	1	advcl	_	_
 9	pour	_	ADP	_	_	8	case	_	_
-10	aujourd'hui	_	ADV	_	_	8	compound	_	_
+10	aujourd'hui	_	ADV	_	_	8	nmod	_	_
 11	.	_	PUNCT	_	_	1	punct	_	_
 
 # sentid: fr-ud-test_00054
@@ -1531,7 +1531,7 @@
 7	était	_	VERB	_	_	8	cop	_	_
 8	pas	_	ADV	_	_	0	root	_	_
 9	comme	_	ADP	_	_	8	case	_	_
-10	aujourd'hui	_	ADV	_	_	8	compound	_	_
+10	aujourd'hui	_	ADV	_	_	8	nmod	_	_
 11	.	_	PUNCT	_	_	8	punct	_	_
 
 # sentid: fr-ud-test_00059
@@ -2144,7 +2144,7 @@
 30	de	_	ADP	_	_	32	case	_	_
 31	le	_	DET	_	_	32	det	_	_
 32	Maghreb	_	PROPN	_	_	28	nmod	_	_
-33	aujourd'hui	_	ADV	_	_	26	compound	_	_
+33	aujourd'hui	_	ADV	_	_	26	advmod	_	_
 34	.	_	PUNCT	_	_	16	punct	_	_
 
 # sentid: fr-ud-test_00077
@@ -2166,9 +2166,9 @@
 14	Code	_	PROPN	_	_	8	nmod	_	_
 15	Général	_	PROPN	_	_	14	name	_	_
 16-17	des	_	_	_	_	_	_	_	_
-16	de	_	ADP	_	_	14	compound	_	_
-17	les	_	DET	_	_	14	det	_	_
-18	Impôts	_	PROPN	_	_	14	name	_	_
+16	de	_	ADP	_	_	18	case	_	_
+17	les	_	DET	_	_	18	det	_	_
+18	Impôts	_	PROPN	_	_	14	nmod	_	_
 19	français	_	ADJ	_	_	14	amod	_	_
 20	(	_	PUNCT	_	_	21	punct	_	_
 21	CGI	_	X	_	_	14	appos	_	_
@@ -2577,10 +2577,10 @@
 10	cause	_	NOUN	_	_	12	nsubj	_	_
 11	politique	_	ADJ	_	_	10	amod	_	_
 12	importe	_	VERB	_	_	0	root	_	_
-13	plus	_	ADV	_	_	12	advmod	_	_
-14	que	_	SCONJ	_	_	16	mark	_	_
+13	plus	_	ADV	_	_	16	advmod	_	_
+14	que	_	SCONJ	_	_	13	mwe	_	_
 15	la	_	DET	_	_	16	det	_	_
-16	cause	_	NOUN	_	_	13	nmod	_	_
+16	cause	_	NOUN	_	_	12	advmod	_	_
 17	humaine	_	ADJ	_	_	16	amod	_	_
 18	.	_	PUNCT	_	_	12	punct	_	_
 
@@ -2639,9 +2639,9 @@
 6	a	_	AUX	_	_	7	aux	_	_
 7	attribué	_	VERB	_	_	0	root	_	_
 8	"	_	PUNCT	_	_	10	punct	_	_
-9	La	_	X	_	_	10	compound	_	_
-10	Camella	_	X	_	_	7	dobj	_	_
-11	blanca	_	X	_	_	10	compound	_	_
+9	La	_	DET	_	_	10	det	_	_
+10	Camella	_	NOUN	_	_	7	dobj	_	_
+11	blanca	_	ADJ	_	_	10	amod	_	_
 12	"	_	PUNCT	_	_	10	punct	_	_
 13-14	aux	_	_	_	_	_	_	_	_
 13	à	_	ADP	_	_	15	case	_	_
@@ -3885,7 +3885,7 @@
 18	à	_	ADP	_	_	20	case	_	_
 19	40	_	NUM	_	_	20	nummod	_	_
 20	°	_	NOUN	_	_	11	nmod	_	_
-21	C	_	X	_	_	20	compound	_	_
+21	C	_	SYM	_	_	20	compound	_	_
 22	et	_	CONJ	_	_	11	cc	_	_
 23	que	_	SCONJ	_	_	28	mark	_	_
 24	les	_	DET	_	_	25	det	_	_
@@ -3898,7 +3898,7 @@
 31	de	_	ADP	_	_	33	case	_	_
 32	60	_	NUM	_	_	33	nummod	_	_
 33	°	_	NOUN	_	_	30	nmod	_	_
-34	C	_	X	_	_	33	compound	_	_
+34	C	_	SYM	_	_	33	compound	_	_
 35	,	_	PUNCT	_	_	11	punct	_	_
 36	il	_	PRON	_	_	39	nsubj	_	_
 37	est	_	VERB	_	_	39	cop	_	_
@@ -4566,7 +4566,7 @@
 6	FAR	_	PROPN	_	_	2	appos	_	_
 7	)	_	PUNCT	_	_	6	punct	_	_
 8	organise	_	VERB	_	_	0	root	_	_
-9	aujourd'hui	_	ADV	_	_	8	mwe	_	_
+9	aujourd'hui	_	ADV	_	_	8	advmod	_	_
 10	un	_	DET	_	_	11	det	_	_
 11	tournoi	_	NOUN	_	_	8	dobj	_	_
 12	réunissant	_	VERB	_	_	11	acl	_	_
@@ -6788,15 +6788,15 @@
 
 # sentid: fr-ud-test_00235
 # sentence-text: Génial, et en plus c'est rapide.
-1	Génial	_	ADJ	_	_	8	xcomp	_	_
-2	,	_	PUNCT	_	_	8	punct	_	_
-3	et	_	CONJ	_	_	8	cc	_	_
+1	Génial	_	ADJ	_	_	0	root	_	_
+2	,	_	PUNCT	_	_	1	punct	_	_
+3	et	_	CONJ	_	_	1	cc	_	_
 4	en	_	ADP	_	_	5	mwe	_	_
 5	plus	_	ADV	_	_	8	advmod	_	_
 6	c'	_	PRON	_	_	8	nsubj	_	_
 7	est	_	VERB	_	_	8	cop	_	_
-8	rapide	_	ADJ	_	_	0	root	_	_
-9	.	_	PUNCT	_	_	8	punct	_	_
+8	rapide	_	ADJ	_	_	1	conj	_	_
+9	.	_	PUNCT	_	_	1	punct	_	_
 
 # sentid: fr-ud-test_00236
 # sentence-text: Ici c'est très professionnelle.

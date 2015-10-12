@@ -3074,32 +3074,30 @@
 # sentence-text: Entremont représente 6 000 producteurs, et, avec Sodiaal, la nouvelle entité représenterait 13 500 producteurs de lait et 20% de la production française.
 1	Entremont	_	PROPN	_	_	2	nsubj	_	_
 2	représente	_	VERB	_	_	0	root	_	_
-3	6	_	NUM	_	_	5	nummod	_	_
-4	000	_	NUM	_	_	3	nummod	_	_
-5	producteurs	_	NOUN	_	_	2	dobj	_	_
-6	,	_	PUNCT	_	_	2	punct	_	_
-7	et	_	CONJ	_	_	2	cc	_	_
-8	,	_	PUNCT	_	_	2	punct	_	_
-9	avec	_	ADP	_	_	10	case	_	_
-10	Sodiaal	_	PROPN	_	_	2	nmod	_	_
-11	,	_	PUNCT	_	_	2	punct	_	_
-12	la	_	DET	_	_	14	det	_	_
-13	nouvelle	_	ADJ	_	_	14	amod	_	_
-14	entité	_	NOUN	_	_	15	nsubj	_	_
-15	représenterait	_	VERB	_	_	2	conj	_	_
-16	13	_	NUM	_	_	18	nummod	_	_
-17	500	_	NUM	_	_	16	nummod	_	_
-18	producteurs	_	NOUN	_	_	15	dobj	_	_
-19	de	_	ADP	_	_	20	case	_	_
-20	lait	_	NOUN	_	_	18	nmod	_	_
-21	et	_	CONJ	_	_	18	cc	_	_
-22	20	_	NUM	_	_	23	nummod	_	_
-23	%	_	SYM	_	_	18	conj	_	_
-24	de	_	ADP	_	_	26	case	_	_
-25	la	_	DET	_	_	26	det	_	_
-26	production	_	NOUN	_	_	23	nmod	_	_
-27	française	_	ADJ	_	_	26	amod	_	_
-28	.	_	PUNCT	_	_	2	punct	_	_
+3	6 000	_	NUM	_	_	4	nummod	_	_
+4	producteurs	_	NOUN	_	_	2	dobj	_	_
+5	,	_	PUNCT	_	_	2	punct	_	_
+6	et	_	CONJ	_	_	2	cc	_	_
+7	,	_	PUNCT	_	_	2	punct	_	_
+8	avec	_	ADP	_	_	9	case	_	_
+9	Sodiaal	_	PROPN	_	_	2	nmod	_	_
+10	,	_	PUNCT	_	_	2	punct	_	_
+11	la	_	DET	_	_	13	det	_	_
+12	nouvelle	_	ADJ	_	_	13	amod	_	_
+13	entité	_	NOUN	_	_	14	nsubj	_	_
+14	représenterait	_	VERB	_	_	2	conj	_	_
+15	13 500	_	NUM	_	_	16	nummod	_	_
+16	producteurs	_	NOUN	_	_	14	dobj	_	_
+17	de	_	ADP	_	_	18	case	_	_
+18	lait	_	NOUN	_	_	16	nmod	_	_
+19	et	_	CONJ	_	_	16	cc	_	_
+20	20	_	NUM	_	_	21	nummod	_	_
+21	%	_	SYM	_	_	16	conj	_	_
+22	de	_	ADP	_	_	24	case	_	_
+23	la	_	DET	_	_	24	det	_	_
+24	production	_	NOUN	_	_	21	nmod	_	_
+25	française	_	ADJ	_	_	24	amod	_	_
+26	.	_	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-dev_00110
 # sentence-text: De plus, elles n'ont eu aucun impact manifeste sur les populations d'Achatines.
@@ -5071,47 +5069,53 @@
 46	.	_	PUNCT	_	_	3	punct	_	_
 
 # sentid: fr-ud-dev_00186
-# sentence-text: Lucien Rivard (--) est un criminel québécois ayant participé, dans les années 1950, au trafic de l'héroïne sur le sol cubain pour le marché nord-américain à l'aide de la French Connection.
+# sentence-text: Lucien Rivard ([[16 juin 1914]]--[[3 février 2002]]) est un criminel québécois ayant participé, dans les années 1950, au trafic de l'héroïne sur le sol cubain pour le marché nord-américain à l'aide de la French Connection.
 1	Lucien	_	PROPN	_	_	2	name	_	_
-2	Rivard	_	PROPN	_	_	8	nsubj	_	_
-3	(	_	PUNCT	_	_	4	punct	_	_
-4	--	_	PUNCT	_	_	2	punct	_	_
-5	)	_	PUNCT	_	_	4	punct	_	_
-6	est	_	VERB	_	_	8	cop	_	_
-7	un	_	DET	_	_	8	det	_	_
-8	criminel	_	NOUN	_	_	0	root	_	_
-9	québécois	_	ADJ	_	_	8	amod	_	_
-10	ayant	_	AUX	_	_	11	aux	_	_
-11	participé	_	VERB	_	_	8	acl	_	_
-12	,	_	PUNCT	_	_	11	punct	_	_
-13	dans	_	ADP	_	_	15	case	_	_
-14	les	_	DET	_	_	15	det	_	_
-15	années	_	NOUN	_	_	11	nmod	_	_
-16	1950	_	NUM	_	_	15	nmod	_	_
-17	,	_	PUNCT	_	_	15	punct	_	_
-18-19	au	_	_	_	_	_	_	_	_
-18	à	_	ADP	_	_	20	case	_	_
-19	le	_	DET	_	_	20	det	_	_
-20	trafic	_	NOUN	_	_	11	nmod	_	_
-21	de	_	ADP	_	_	23	case	_	_
-22	l'	_	DET	_	_	23	det	_	_
-23	héroïne	_	NOUN	_	_	20	nmod	_	_
-24	sur	_	ADP	_	_	26	case	_	_
+2	Rivard	_	PROPN	_	_	14	nsubj	_	_
+3	(	_	PUNCT	_	_	5	det	_	_
+4	16	_	NUM	_	tronque=y	5	nmod	_	_
+5	juin	_	NOUN	_	tronque=y	7	nmod	_	_
+6	1914	_	NUM	_	tronque=y	5	nmod	_	_
+7	--	_	PUNCT	_	_	9	det	_	_
+8	3	_	NUM	_	tronque=y	9	nmod	_	_
+9	février	_	NOUN	_	tronque=y	2	nmod	_	_
+10	2002	_	NUM	_	tronque=y	9	nmod	_	_
+11	)	_	PUNCT	_	_	7	punct	_	_
+12	est	_	VERB	_	_	14	cop	_	_
+13	un	_	DET	_	_	14	det	_	_
+14	criminel	_	NOUN	_	_	0	root	_	_
+15	québécois	_	ADJ	_	_	14	amod	_	_
+16	ayant	_	AUX	_	_	17	aux	_	_
+17	participé	_	VERB	_	_	14	acl	_	_
+18	,	_	PUNCT	_	_	17	punct	_	_
+19	dans	_	ADP	_	_	21	case	_	_
+20	les	_	DET	_	_	21	det	_	_
+21	années	_	NOUN	_	_	17	nmod	_	_
+22	1950	_	NUM	_	_	21	nmod	_	_
+23	,	_	PUNCT	_	_	21	punct	_	_
+24-25	au	_	_	_	_	_	_	_	_
+24	à	_	ADP	_	_	26	case	_	_
 25	le	_	DET	_	_	26	det	_	_
-26	sol	_	NOUN	_	_	11	nmod	_	_
-27	cubain	_	ADJ	_	_	26	amod	_	_
-28	pour	_	ADP	_	_	30	case	_	_
-29	le	_	DET	_	_	30	det	_	_
-30	marché	_	NOUN	_	_	11	nmod	_	_
-31	nord-américain	_	ADJ	_	_	30	amod	_	_
-32	à	_	ADP	_	_	34	case	_	_
-33	l'	_	DET	_	_	34	det	_	_
-34	aide	_	NOUN	_	_	11	nmod	_	_
-35	de	_	ADP	_	_	38	case	_	_
-36	la	_	DET	_	_	38	det	_	_
-37	French	_	PROPN	_	_	38	name	_	_
-38	Connection	_	PROPN	_	_	34	nmod	_	_
-39	.	_	PUNCT	_	_	8	punct	_	_
+26	trafic	_	NOUN	_	_	17	nmod	_	_
+27	de	_	ADP	_	_	29	case	_	_
+28	l'	_	DET	_	_	29	det	_	_
+29	héroïne	_	NOUN	_	_	26	nmod	_	_
+30	sur	_	ADP	_	_	32	case	_	_
+31	le	_	DET	_	_	32	det	_	_
+32	sol	_	NOUN	_	_	17	nmod	_	_
+33	cubain	_	ADJ	_	_	32	amod	_	_
+34	pour	_	ADP	_	_	36	case	_	_
+35	le	_	DET	_	_	36	det	_	_
+36	marché	_	NOUN	_	_	17	nmod	_	_
+37	nord-américain	_	ADJ	_	_	36	amod	_	_
+38	à	_	ADP	_	_	40	case	_	_
+39	l'	_	DET	_	_	40	det	_	_
+40	aide	_	NOUN	_	_	17	nmod	_	_
+41	de	_	ADP	_	_	44	case	_	_
+42	la	_	DET	_	_	44	det	_	_
+43	French	_	PROPN	_	_	44	name	_	_
+44	Connection	_	PROPN	_	_	40	nmod	_	_
+45	.	_	PUNCT	_	_	14	punct	_	_
 
 # sentid: fr-ud-dev_00187
 # sentence-text: À travers les années plusieurs compagnies aériennes volèrent vers l'aéroport intercontinental George-Bush, KLM est la seule qui vole depuis l'ouverture.
@@ -5369,21 +5373,20 @@
 # sentence-text: Celui-ci fait 5 000 morts mais s'arrête juste devant une petite chapelle dédiée à Marie.
 1	Celui-ci	_	ADV	_	_	2	nsubj	_	_
 2	fait	_	VERB	_	_	0	root	_	_
-3	5	_	NUM	_	_	4	nummod	_	_
-4	000	_	NUM	_	_	5	nummod	_	_
-5	morts	_	NOUN	_	_	2	dobj	_	_
-6	mais	_	CONJ	_	_	2	cc	_	_
-7	s'	_	PRON	_	_	8	dobj	_	_
-8	arrête	_	VERB	_	_	2	conj	_	_
-9	juste	_	ADV	_	_	13	advmod	_	_
-10	devant	_	ADP	_	_	13	case	_	_
-11	une	_	DET	_	_	13	det	_	_
-12	petite	_	ADJ	_	_	13	amod	_	_
-13	chapelle	_	NOUN	_	_	8	nmod	_	_
-14	dédiée	_	VERB	_	_	13	acl	_	_
-15	à	_	ADP	_	_	16	case	_	_
-16	Marie	_	PROPN	_	_	14	nmod	_	_
-17	.	_	PUNCT	_	_	2	punct	_	_
+3	5 000	_	NUM	_	_	4	nummod	_	_
+4	morts	_	NOUN	_	_	2	dobj	_	_
+5	mais	_	CONJ	_	_	2	cc	_	_
+6	s'	_	PRON	_	_	7	dobj	_	_
+7	arrête	_	VERB	_	_	2	conj	_	_
+8	juste	_	ADV	_	_	12	advmod	_	_
+9	devant	_	ADP	_	_	12	case	_	_
+10	une	_	DET	_	_	12	det	_	_
+11	petite	_	ADJ	_	_	12	amod	_	_
+12	chapelle	_	NOUN	_	_	7	nmod	_	_
+13	dédiée	_	VERB	_	_	12	acl	_	_
+14	à	_	ADP	_	_	15	case	_	_
+15	Marie	_	PROPN	_	_	13	nmod	_	_
+16	.	_	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-dev_00197
 # sentence-text: La thérapie primale est différente d'une psychothérapie verbale car elle actionne ce qu'appelle Janov les « trois niveaux » nécessaires à l'exploration des sentiments :
@@ -5755,29 +5758,28 @@
 14	Ottomans	_	PROPN	_	_	11	nmod	_	_
 15	sont	_	AUX	_	_	16	auxpass	_	_
 16	estimées	_	VERB	_	_	8	advcl	_	_
-17	à	_	ADP	_	_	21	case	_	_
+17	à	_	ADP	_	_	20	case	_	_
 18	environ	_	ADV	_	_	19	advmod	_	_
-19	10	_	NUM	_	_	20	nummod	_	_
-20	000	_	NUM	_	_	21	nummod	_	_
-21	morts	_	NOUN	_	_	16	nmod	_	_
-22	,	_	PUNCT	_	_	16	punct	_	_
-23	en	_	ADP	_	_	24	case	_	_
-24	plus	_	ADV	_	_	16	advmod	_	_
-25	de	_	ADP	_	_	27	case	_	_
-26	la	_	DET	_	_	27	det	_	_
-27	perte	_	NOUN	_	_	16	nmod	_	_
-28	de	_	ADP	_	_	30	case	_	_
-29	la	_	DET	_	_	30	det	_	_
-30	majorité	_	NOUN	_	_	27	nmod	_	_
-31	de	_	ADP	_	_	33	case	_	_
-32	leur	_	DET	_	_	33	nmod:poss	_	_
-33	artillerie	_	NOUN	_	_	30	nmod	_	_
-34	(	_	PUNCT	_	_	37	punct	_	_
-35	environ	_	ADV	_	_	36	advmod	_	_
-36	66	_	NUM	_	_	37	nummod	_	_
-37	canons	_	NOUN	_	_	33	appos	_	_
-38	)	_	PUNCT	_	_	37	punct	_	_
-39	.	_	PUNCT	_	_	8	punct	_	_
+19	10 000	_	NUM	_	_	20	nummod	_	_
+20	morts	_	NOUN	_	_	16	nmod	_	_
+21	,	_	PUNCT	_	_	16	punct	_	_
+22	en	_	ADP	_	_	23	case	_	_
+23	plus	_	ADV	_	_	16	advmod	_	_
+24	de	_	ADP	_	_	26	case	_	_
+25	la	_	DET	_	_	26	det	_	_
+26	perte	_	NOUN	_	_	16	nmod	_	_
+27	de	_	ADP	_	_	29	case	_	_
+28	la	_	DET	_	_	29	det	_	_
+29	majorité	_	NOUN	_	_	26	nmod	_	_
+30	de	_	ADP	_	_	32	case	_	_
+31	leur	_	DET	_	_	32	nmod:poss	_	_
+32	artillerie	_	NOUN	_	_	29	nmod	_	_
+33	(	_	PUNCT	_	_	36	punct	_	_
+34	environ	_	ADV	_	_	35	advmod	_	_
+35	66	_	NUM	_	_	36	nummod	_	_
+36	canons	_	NOUN	_	_	32	appos	_	_
+37	)	_	PUNCT	_	_	36	punct	_	_
+38	.	_	PUNCT	_	_	8	punct	_	_
 
 # sentid: fr-ud-dev_00211
 # sentence-text: Cette ville est aussi un port parmi les plus importants en Italie pour le trafic passagers (en provenance d'Europe et d'Italie du Nord).
@@ -8405,22 +8407,28 @@
 13	.	_	PUNCT	_	_	6	punct	_	_
 
 # sentid: fr-ud-dev_00299
-# sentence-text: Adriaan de Groot (Santpoort,--Schiermonnikoog,) est un psychologue néerlandais.
-1	Adriaan	_	PROPN	_	_	13	nsubj	_	_
+# sentence-text: Adriaan de Groot (Santpoort [[26 octobre 1914]],--Schiermonnikoog, [[14 août 2006]]) est un psychologue néerlandais.
+1	Adriaan	_	PROPN	_	_	19	nsubj	_	_
 2	de	_	PROPN	_	_	3	case	_	_
 3	Groot	_	PROPN	_	_	1	nmod	_	_
 4	(	_	PUNCT	_	_	5	punct	_	_
 5	Santpoort	_	PROPN	_	_	1	appos	_	_
-6	,	_	PUNCT	_	_	5	punct	_	_
-7	--	_	PUNCT	_	_	8	punct	_	_
-8	Schiermonnikoog	_	PROPN	_	_	5	conj	_	_
-9	,	_	PUNCT	_	_	5	punct	_	_
-10	)	_	PUNCT	_	_	5	punct	_	_
-11	est	_	VERB	_	_	13	cop	_	_
-12	un	_	DET	_	_	13	det	_	_
-13	psychologue	_	NOUN	_	_	0	root	_	_
-14	néerlandais	_	ADJ	_	_	13	amod	_	_
-15	.	_	PUNCT	_	_	13	punct	_	_
+6	,	_	PUNCT	_	_	8	det	_	_
+7	26	_	NUM	_	tronque=y	8	nmod	_	_
+8	octobre	_	NOUN	_	tronque=y	5	nmod	_	_
+9	1914	_	NUM	_	tronque=y	8	nmod	_	_
+10	--	_	PUNCT	_	_	11	punct	_	_
+11	Schiermonnikoog	_	PROPN	_	_	5	conj	_	_
+12	,	_	PUNCT	_	_	14	det	_	_
+13	14	_	NUM	_	tronque=y	14	nmod	_	_
+14	août	_	NOUN	_	tronque=y	5	nmod	_	_
+15	2006	_	NUM	_	tronque=y	14	nmod	_	_
+16	)	_	PUNCT	_	_	5	punct	_	_
+17	est	_	VERB	_	_	19	cop	_	_
+18	un	_	DET	_	_	19	det	_	_
+19	psychologue	_	NOUN	_	_	0	root	_	_
+20	néerlandais	_	ADJ	_	_	19	amod	_	_
+21	.	_	PUNCT	_	_	19	punct	_	_
 
 # sentid: fr-ud-dev_00300
 # sentence-text: Le dacorène est un sympathicomimétique.
@@ -10083,7 +10091,7 @@
 17	.	_	PUNCT	_	_	13	punct	_	_
 
 # sentid: fr-ud-dev_00366
-# sentence-text: En raison de blessures à l'épaule, il ne dispute que 41 parties au cours de la saison 2010, et sa moyenne au bâton n'est que de, 185.
+# sentence-text: En raison de blessures à l'épaule, il ne dispute que 41 parties au cours de la saison 2010, et sa moyenne au bâton n'est que de 0,185.
 1	En	_	ADP	_	_	2	case	_	_
 2	raison	_	NOUN	_	_	11	nmod	_	_
 3	de	_	ADP	_	_	4	case	_	_
@@ -10117,10 +10125,9 @@
 29	n'	_	PART	_	_	30	neg	_	_
 30	est	_	VERB	_	_	11	conj	_	_
 31	que	_	ADV	_	_	30	advmod	_	_
-32	de	_	ADP	_	_	34	case	_	_
-33	,	_	PUNCT	_	_	32	punct	_	_
-34	185	_	NUM	_	_	30	nmod	_	_
-35	.	_	PUNCT	_	_	11	punct	_	_
+32	de	_	ADP	_	_	33	case	_	_
+33	0,185	_	NUM	_	_	30	nmod	_	_
+34	.	_	PUNCT	_	_	11	punct	_	_
 
 # sentid: fr-ud-dev_00367
 # sentence-text: La sécurité n'est absolument pas mise de coté.
@@ -10267,59 +10274,63 @@
 26	.	_	PUNCT	_	_	6	punct	_	_
 
 # sentid: fr-ud-dev_00373
-# sentence-text: Selon les chroniques médiévales, plus de des Maisons d'York et de Lancastre se sont combattus ce dimanche des Rameaux pendant plusieurs heures et dans des conditions météorologiques déplorables, et une proclamation diffusée une semaine après la bataille rapporte que ont péri sur le champ de bataille.
+# sentence-text: Selon les chroniques médiévales, plus de [[50 000 soldats]] des Maisons d'York et de Lancastre se sont combattus ce dimanche des Rameaux pendant plusieurs heures et dans des conditions météorologiques déplorables, et une proclamation diffusée une semaine après la bataille rapporte que [[28 000 hommes]] ont péri sur le champ de bataille.
 1	Selon	_	ADP	_	_	3	case	_	_
 2	les	_	DET	_	_	3	det	_	_
-3	chroniques	_	NOUN	_	_	17	nmod	_	_
+3	chroniques	_	NOUN	_	_	19	nmod	_	_
 4	médiévales	_	ADJ	_	_	3	amod	_	_
-5	,	_	PUNCT	_	_	17	punct	_	_
+5	,	_	PUNCT	_	_	19	punct	_	_
 6	plus	_	ADV	_	_	7	mwe	_	_
-7	de	_	ADP	_	_	9	dep	_	_
-8	des	_	DET	_	_	9	det	_	_
-9	Maisons	_	PROPN	_	_	17	nsubj	_	_
-10	d'	_	ADP	_	_	11	case	_	_
-11	York	_	PROPN	_	_	9	nmod	_	_
-12	et	_	CONJ	_	_	11	cc	_	_
-13	de	_	ADP	_	_	14	case	_	_
-14	Lancastre	_	PROPN	_	_	11	conj	_	_
-15	se	_	PRON	_	_	17	dobj	_	_
-16	sont	_	AUX	_	_	17	aux	_	_
-17	combattus	_	VERB	_	_	0	root	_	_
-18	ce	_	DET	_	_	19	det	_	_
-19	dimanche	_	NOUN	_	_	17	nmod	_	_
-20-21	des	_	_	_	_	_	_	_	_
-20	de	_	ADP	_	_	22	case	_	_
-21	les	_	DET	_	_	22	det	_	_
-22	Rameaux	_	PROPN	_	_	19	nmod	_	_
-23	pendant	_	ADP	_	_	25	case	_	_
-24	plusieurs	_	DET	_	_	25	det	_	_
-25	heures	_	NOUN	_	_	17	nmod	_	_
-26	et	_	CONJ	_	_	25	cc	_	_
-27	dans	_	ADP	_	_	29	case	_	_
-28	des	_	DET	_	_	29	det	_	_
-29	conditions	_	NOUN	_	_	25	conj	_	_
-30	météorologiques	_	ADJ	_	_	29	amod	_	_
-31	déplorables	_	ADJ	_	_	29	amod	_	_
-32	,	_	PUNCT	_	_	17	punct	_	_
-33	et	_	CONJ	_	_	17	cc	_	_
-34	une	_	DET	_	_	35	det	_	_
-35	proclamation	_	NOUN	_	_	42	nsubj	_	_
-36	diffusée	_	VERB	_	_	35	acl	_	_
-37	une	_	DET	_	_	38	det	_	_
-38	semaine	_	NOUN	_	_	36	nmod	_	_
-39	après	_	ADP	_	_	41	case	_	_
-40	la	_	DET	_	_	41	det	_	_
-41	bataille	_	NOUN	_	_	38	nmod	_	_
-42	rapporte	_	VERB	_	_	17	conj	_	_
-43	que	_	SCONJ	_	_	45	mark	_	_
-44	ont	_	AUX	_	_	45	aux	_	_
-45	péri	_	VERB	_	_	42	ccomp	_	_
-46	sur	_	ADP	_	_	48	case	_	_
-47	le	_	DET	_	_	48	det	_	_
-48	champ	_	NOUN	_	_	45	nmod	_	_
-49	de	_	ADP	_	_	50	case	_	_
-50	bataille	_	NOUN	_	_	48	nmod	_	_
-51	.	_	PUNCT	_	_	17	punct	_	_
+7	de	_	ADP	_	_	11	dep	_	_
+8	50 000	_	TODO	_	tronque=y	7	TODO	_	_
+9	soldats	_	TODO	_	tronque=y	8	TODO	_	_
+10	des	_	DET	_	_	11	det	_	_
+11	Maisons	_	PROPN	_	_	19	nsubj	_	_
+12	d'	_	ADP	_	_	13	case	_	_
+13	York	_	PROPN	_	_	11	nmod	_	_
+14	et	_	CONJ	_	_	13	cc	_	_
+15	de	_	ADP	_	_	16	case	_	_
+16	Lancastre	_	PROPN	_	_	13	conj	_	_
+17	se	_	PRON	_	_	19	dobj	_	_
+18	sont	_	AUX	_	_	19	aux	_	_
+19	combattus	_	VERB	_	_	0	root	_	_
+20	ce	_	DET	_	_	21	det	_	_
+21	dimanche	_	NOUN	_	_	19	nmod	_	_
+22-23	des	_	_	_	_	_	_	_	_
+22	de	_	ADP	_	_	24	case	_	_
+23	les	_	DET	_	_	24	det	_	_
+24	Rameaux	_	PROPN	_	_	21	nmod	_	_
+25	pendant	_	ADP	_	_	27	case	_	_
+26	plusieurs	_	DET	_	_	27	det	_	_
+27	heures	_	NOUN	_	_	19	nmod	_	_
+28	et	_	CONJ	_	_	27	cc	_	_
+29	dans	_	ADP	_	_	31	case	_	_
+30	des	_	DET	_	_	31	det	_	_
+31	conditions	_	NOUN	_	_	27	conj	_	_
+32	météorologiques	_	ADJ	_	_	31	amod	_	_
+33	déplorables	_	ADJ	_	_	31	amod	_	_
+34	,	_	PUNCT	_	_	19	punct	_	_
+35	et	_	CONJ	_	_	19	cc	_	_
+36	une	_	DET	_	_	37	det	_	_
+37	proclamation	_	NOUN	_	_	44	nsubj	_	_
+38	diffusée	_	VERB	_	_	37	acl	_	_
+39	une	_	DET	_	_	40	det	_	_
+40	semaine	_	NOUN	_	_	38	nmod	_	_
+41	après	_	ADP	_	_	43	case	_	_
+42	la	_	DET	_	_	43	det	_	_
+43	bataille	_	NOUN	_	_	40	nmod	_	_
+44	rapporte	_	VERB	_	_	19	conj	_	_
+45	que	_	SCONJ	_	_	49	mark	_	_
+46	28 000	_	TODO	_	tronque=y	45	TODO	_	_
+47	hommes	_	TODO	_	tronque=y	46	TODO	_	_
+48	ont	_	AUX	_	_	49	aux	_	_
+49	péri	_	VERB	_	_	44	ccomp	_	_
+50	sur	_	ADP	_	_	52	case	_	_
+51	le	_	DET	_	_	52	det	_	_
+52	champ	_	NOUN	_	_	49	nmod	_	_
+53	de	_	ADP	_	_	54	case	_	_
+54	bataille	_	NOUN	_	_	52	nmod	_	_
+55	.	_	PUNCT	_	_	19	punct	_	_
 
 # sentid: fr-ud-dev_00374
 # sentence-text: Il s'agit de la preuve la plus évidente permettant d'affirmer--avec une certitude historiographique--que la pratique musicale chrétienne découle de la tradition hébraïque et non pas grecque.
@@ -16072,50 +16083,56 @@
 10	.	_	PUNCT	_	_	1	punct	_	_
 
 # sentid: fr-ud-dev_00578
-# sentence-text: Oliver Cromwell (Huntingdon,--Londres,) militaire et homme politique anglais, est resté dans les mémoires pour avoir pris part à l'établissement d'un Commonwealth républicain en Angleterre, puis pour en être devenu le Lord Protecteur.
+# sentence-text: Oliver Cromwell (Huntingdon,[[25 avril 1599]]--Londres,[[3 septembre 1658]]) militaire et homme politique anglais, est resté dans les mémoires pour avoir pris part à l'établissement d'un Commonwealth républicain en Angleterre, puis pour en être devenu le Lord Protecteur.
 1	Oliver	_	PROPN	_	_	2	name	_	_
-2	Cromwell	_	PROPN	_	_	17	nsubj	_	_
+2	Cromwell	_	PROPN	_	_	23	nsubj	_	_
 3	(	_	PUNCT	_	_	4	punct	_	_
 4	Huntingdon	_	PROPN	_	_	2	nmod	_	_
-5	,	_	PUNCT	_	_	4	punct	_	_
-6	--	_	PUNCT	_	_	7	punct	_	_
-7	Londres	_	PROPN	_	_	4	nmod	_	_
-8	,	_	PUNCT	_	_	4	punct	_	_
-9	)	_	PUNCT	_	_	4	punct	_	_
-10	militaire	_	NOUN	_	_	2	appos	_	_
-11	et	_	CONJ	_	_	10	cc	_	_
-12	homme	_	NOUN	_	_	10	conj	_	_
-13	politique	_	ADJ	_	_	12	amod	_	_
-14	anglais	_	NOUN	_	_	12	amod	_	_
-15	,	_	PUNCT	_	_	2	punct	_	_
-16	est	_	AUX	_	_	17	aux	_	_
-17	resté	_	VERB	_	_	0	root	_	_
-18	dans	_	ADP	_	_	20	case	_	_
-19	les	_	DET	_	_	20	det	_	_
-20	mémoires	_	NOUN	_	_	17	nmod	_	_
-21	pour	_	ADP	_	_	23	mark	_	_
-22	avoir	_	AUX	_	_	23	aux	_	_
-23	pris	_	VERB	_	_	17	advcl	_	_
-24	part	_	NOUN	_	_	23	dobj	_	_
-25	à	_	ADP	_	_	27	case	_	_
-26	l'	_	DET	_	_	27	det	_	_
-27	établissement	_	NOUN	_	_	23	nmod	_	_
-28	d'	_	ADP	_	_	30	case	_	_
-29	un	_	DET	_	_	30	det	_	_
-30	Commonwealth	_	PROPN	_	_	27	nmod	_	_
-31	républicain	_	ADJ	_	_	30	amod	_	_
-32	en	_	ADP	_	_	33	case	_	_
-33	Angleterre	_	PROPN	_	_	27	nmod	_	_
-34	,	_	PUNCT	_	_	23	punct	_	_
-35	puis	_	ADV	_	_	41	advmod	_	_
-36	pour	_	ADP	_	_	41	mark	_	_
-37	en	_	PRON	_	_	39	iobj	_	_
-38	être	_	AUX	_	_	39	aux	_	_
-39	devenu	_	VERB	_	_	41	cop	_	_
-40	le	_	DET	_	_	41	det	_	_
-41	Lord	_	PROPN	_	_	23	conj	_	_
-42	Protecteur	_	PROPN	_	_	41	amod	_	_
-43	.	_	PUNCT	_	_	17	punct	_	_
+5	,	_	PUNCT	_	_	7	det	_	_
+6	25	_	NUM	_	tronque=y	7	nmod	_	_
+7	avril	_	NOUN	_	tronque=y	4	nmod	_	_
+8	1599	_	NUM	_	tronque=y	7	nmod	_	_
+9	--	_	PUNCT	_	_	10	punct	_	_
+10	Londres	_	PROPN	_	_	4	nmod	_	_
+11	,	_	PUNCT	_	_	13	det	_	_
+12	3	_	NUM	_	tronque=y	13	nmod	_	_
+13	septembre	_	NOUN	_	tronque=y	4	nmod	_	_
+14	1658	_	NUM	_	tronque=y	13	nmod	_	_
+15	)	_	PUNCT	_	_	4	punct	_	_
+16	militaire	_	NOUN	_	_	2	appos	_	_
+17	et	_	CONJ	_	_	16	cc	_	_
+18	homme	_	NOUN	_	_	16	conj	_	_
+19	politique	_	ADJ	_	_	18	amod	_	_
+20	anglais	_	NOUN	_	_	18	amod	_	_
+21	,	_	PUNCT	_	_	2	punct	_	_
+22	est	_	AUX	_	_	23	aux	_	_
+23	resté	_	VERB	_	_	0	root	_	_
+24	dans	_	ADP	_	_	26	case	_	_
+25	les	_	DET	_	_	26	det	_	_
+26	mémoires	_	NOUN	_	_	23	nmod	_	_
+27	pour	_	ADP	_	_	29	mark	_	_
+28	avoir	_	AUX	_	_	29	aux	_	_
+29	pris	_	VERB	_	_	23	advcl	_	_
+30	part	_	NOUN	_	_	29	dobj	_	_
+31	à	_	ADP	_	_	33	case	_	_
+32	l'	_	DET	_	_	33	det	_	_
+33	établissement	_	NOUN	_	_	29	nmod	_	_
+34	d'	_	ADP	_	_	36	case	_	_
+35	un	_	DET	_	_	36	det	_	_
+36	Commonwealth	_	PROPN	_	_	33	nmod	_	_
+37	républicain	_	ADJ	_	_	36	amod	_	_
+38	en	_	ADP	_	_	39	case	_	_
+39	Angleterre	_	PROPN	_	_	33	nmod	_	_
+40	,	_	PUNCT	_	_	29	punct	_	_
+41	puis	_	ADV	_	_	47	advmod	_	_
+42	pour	_	ADP	_	_	47	mark	_	_
+43	en	_	PRON	_	_	45	iobj	_	_
+44	être	_	AUX	_	_	45	aux	_	_
+45	devenu	_	VERB	_	_	47	cop	_	_
+46	le	_	DET	_	_	47	det	_	_
+47	Lord	_	PROPN	_	_	29	conj	_	_
+48	Protecteur	_	PROPN	_	_	47	amod	_	_
+49	.	_	PUNCT	_	_	23	punct	_	_
 
 # sentid: fr-ud-dev_00579
 # sentence-text: La population de la commune est relativement jeune.
@@ -22479,7 +22496,7 @@
 15	;	_	PUNCT	_	_	14	punct	_	_
 
 # sentid: fr-ud-dev_00818
-# sentence-text: Les Alliés la privent même d'une partie de sa souveraineté en réduisant par exemple l'armée à et en interdisant le service militaire obligatoire.
+# sentence-text: Les Alliés la privent même d'une partie de sa souveraineté en réduisant par exemple l'armée à [[100 000 hommes]] et en interdisant le service militaire obligatoire.
 1	Les	_	DET	_	_	2	det	_	_
 2	Alliés	_	PROPN	_	_	4	nsubj	_	_
 3	la	_	PRON	_	_	4	dobj	_	_
@@ -22498,14 +22515,16 @@
 16	l'	_	DET	_	_	17	det	_	_
 17	armée	_	NOUN	_	_	13	dobj	_	_
 18	à	_	ADP	_	_	13	case	_	_
-19	et	_	CONJ	_	_	13	cc	_	_
-20	en	_	ADP	_	_	21	mark	_	_
-21	interdisant	_	VERB	_	_	13	conj	_	_
-22	le	_	DET	_	_	23	det	_	_
-23	service	_	NOUN	_	_	21	dobj	_	_
-24	militaire	_	ADJ	_	_	23	amod	_	_
-25	obligatoire	_	ADJ	_	_	23	amod	_	_
-26	.	_	PUNCT	_	_	4	punct	_	_
+19	100 000	_	TODO	_	tronque=y	18	TODO	_	_
+20	hommes	_	TODO	_	tronque=y	19	TODO	_	_
+21	et	_	CONJ	_	_	13	cc	_	_
+22	en	_	ADP	_	_	23	mark	_	_
+23	interdisant	_	VERB	_	_	13	conj	_	_
+24	le	_	DET	_	_	25	det	_	_
+25	service	_	NOUN	_	_	23	dobj	_	_
+26	militaire	_	ADJ	_	_	25	amod	_	_
+27	obligatoire	_	ADJ	_	_	25	amod	_	_
+28	.	_	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-dev_00819
 # sentence-text: Les réponses seront bientôt présentées au public, ainsi que tous les travaux réalisés par les jeunes : maquettes, jeux de sociétés et quiz autour de la rénovation urbaine de Berthe.
@@ -24100,16 +24119,15 @@
 # sentid: fr-ud-dev_00875
 # sentence-text: Sa population est de 1 231 habitants (01.01.2012).
 1	Sa	_	DET	_	_	2	nmod:poss	_	_
-2	population	_	NOUN	_	_	9	nsubj	_	_
-3	est	_	VERB	_	_	9	cop	_	_
-4	de	_	ADP	_	_	7	case	_	_
-5	1	_	NUM	_	_	6	nummod	_	_
-6	231	_	NUM	_	_	7	nummod	_	_
-7	habitants	_	NOUN	_	_	9	nmod	_	_
-8	(	_	PUNCT	_	_	9	punct	_	_
-9	01.01.2012	_	NUM	_	_	0	root	_	_
-10	)	_	PUNCT	_	_	9	punct	_	_
-11	.	_	PUNCT	_	_	9	punct	_	_
+2	population	_	NOUN	_	_	8	nsubj	_	_
+3	est	_	VERB	_	_	8	cop	_	_
+4	de	_	ADP	_	_	6	case	_	_
+5	1 231	_	NUM	_	_	6	nummod	_	_
+6	habitants	_	NOUN	_	_	8	nmod	_	_
+7	(	_	PUNCT	_	_	8	punct	_	_
+8	01.01.2012	_	NUM	_	_	0	root	_	_
+9	)	_	PUNCT	_	_	8	punct	_	_
+10	.	_	PUNCT	_	_	8	punct	_	_
 
 # sentid: fr-ud-dev_00876
 # sentence-text: Il forme plus tard son fils, le futur Kanō Eitoku.
@@ -25788,7 +25806,7 @@
 15	.	_	PUNCT	_	_	14	punct	_	_
 
 # sentid: fr-ud-dev_00935
-# sentence-text: Pichu fait sa première apparition dans un jeu vidéo le, dans les jeux japonais et.
+# sentence-text: Pichu fait sa première apparition dans un jeu vidéo le [[21 novembre 1999]], dans les jeux japonais [[Pocket Monsters Kin]] et [[Pocket Monsters Gin]].
 1	Pichu	_	PROPN	_	_	2	nsubj	_	_
 2	fait	_	VERB	_	_	0	root	_	_
 3	sa	_	DET	_	_	5	nmod:poss	_	_
@@ -25798,14 +25816,23 @@
 7	un	_	DET	_	_	8	det	_	_
 8	jeu	_	NOUN	_	_	2	nmod	_	_
 9	vidéo	_	ADJ	_	_	8	amod	_	_
-10	le	_	DET	_	_	2	dep	_	_
-11	,	_	PUNCT	_	_	2	punct	_	_
-12	dans	_	ADP	_	_	14	case	_	_
-13	les	_	DET	_	_	14	det	_	_
-14	jeux	_	NOUN	_	_	2	nmod	_	_
-15	japonais	_	ADJ	_	_	14	amod	_	_
-16	et	_	CONJ	_	_	2	cc	_	_
-17	.	_	PUNCT	_	_	2	punct	_	_
+10	le	_	DET	_	_	12	det	_	_
+11	21	_	NUM	_	tronque=y	12	nmod	_	_
+12	novembre	_	NOUN	_	tronque=y	2	nmod	_	_
+13	1999	_	NUM	_	tronque=y	12	nmod	_	_
+14	,	_	PUNCT	_	_	2	punct	_	_
+15	dans	_	ADP	_	_	17	case	_	_
+16	les	_	DET	_	_	17	det	_	_
+17	jeux	_	NOUN	_	_	2	nmod	_	_
+18	japonais	_	ADJ	_	_	17	amod	_	_
+19	Pocket	_	TODO	_	tronque=y	18	TODO	_	_
+20	Monsters	_	TODO	_	tronque=y	19	TODO	_	_
+21	Kin	_	TODO	_	tronque=y	20	TODO	_	_
+22	et	_	CONJ	_	_	2	cc	_	_
+23	Pocket	_	TODO	_	tronque=y	22	TODO	_	_
+24	Monsters	_	TODO	_	tronque=y	23	TODO	_	_
+25	Gin	_	TODO	_	tronque=y	24	TODO	_	_
+26	.	_	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-dev_00936
 # sentence-text: On peut citer la tricoteuse, la table servante, la table de nuit de forme cylindrique, la coiffeuse ainsi que la barbière (très différente du style Empire).
@@ -30918,7 +30945,7 @@
 20	.	_	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-dev_01122
-# sentence-text: Rupert Henry St.John Barker Moon est né le 1968 à Birmingham (Angleterre).
+# sentence-text: Rupert Henry St.John Barker Moon est né le [[1er février]] 1968 à Birmingham (Angleterre).
 1	Rupert	_	PROPN	_	_	5	name	_	_
 2	Henry	_	PROPN	_	_	5	name	_	_
 3	St.John	_	PROPN	_	_	5	name	_	_
@@ -30926,14 +30953,16 @@
 5	Moon	_	PROPN	_	_	7	nsubj	_	_
 6	est	_	AUX	_	_	7	aux	_	_
 7	né	_	VERB	_	_	0	root	_	_
-8	le	_	DET	_	_	9	det	_	_
-9	1968	_	NUM	_	_	7	nmod	_	_
-10	à	_	ADP	_	_	11	case	_	_
-11	Birmingham	_	PROPN	_	_	7	nmod	_	_
-12	(	_	PUNCT	_	_	13	punct	_	_
-13	Angleterre	_	PROPN	_	_	11	nmod	_	_
-14	)	_	PUNCT	_	_	13	punct	_	_
-15	.	_	PUNCT	_	_	7	punct	_	_
+8	le	_	DET	_	_	11	det	_	_
+9	1er	_	TODO	_	tronque=y	8	TODO	_	_
+10	février	_	TODO	_	tronque=y	9	TODO	_	_
+11	1968	_	NUM	_	_	7	nmod	_	_
+12	à	_	ADP	_	_	13	case	_	_
+13	Birmingham	_	PROPN	_	_	7	nmod	_	_
+14	(	_	PUNCT	_	_	15	punct	_	_
+15	Angleterre	_	PROPN	_	_	13	nmod	_	_
+16	)	_	PUNCT	_	_	15	punct	_	_
+17	.	_	PUNCT	_	_	7	punct	_	_
 
 # sentid: fr-ud-dev_01123
 # sentence-text: Au programme : François Grange, Michel Faubert, Ben Zimet, Muriel Bloch, Cie Barbaroque, Jean Larvego, Christian Jeanmart, Katia Ringger, Claire Bonneton.
@@ -33096,7 +33125,7 @@
 42	.	_	PUNCT	_	_	6	punct	_	_
 
 # sentid: fr-ud-dev_01203
-# sentence-text: Denard intervient une première fois dans la République fédérale islamique des Comores qui avait, unilatéralement, proclamé son indépendance le 6 juillet 1975.
+# sentence-text: Denard intervient une première fois dans la République fédérale islamique des Comores qui avait, unilatéralement, proclamé son indépendance le [[6 juillet 1975]].
 1	Denard	_	PROPN	_	_	2	nsubj	_	_
 2	intervient	_	VERB	_	_	0	root	_	_
 3	une	_	DET	_	_	5	det	_	_
@@ -38448,48 +38477,50 @@
 13	.	_	PUNCT	_	_	9	punct	_	_
 
 # sentid: fr-ud-dev_01393
-# sentence-text: Dans la mythologie grecque, Télamon (en grec ancien/), fils d'Éaque et d'Endéis, frère de Pélée et père d'Ajax le grand et de Teucros, est roi de l'île de Salamine.
+# sentence-text: Dans la mythologie grecque, Télamon (en grec ancien [[Τελαμών]]/[[Telamốn]]), fils d'Éaque et d'Endéis, frère de Pélée et père d'Ajax le grand et de Teucros, est roi de l'île de Salamine.
 1	Dans	_	ADP	_	_	3	case	_	_
 2	la	_	DET	_	_	3	det	_	_
-3	mythologie	_	NOUN	_	_	35	nmod	_	_
+3	mythologie	_	NOUN	_	_	37	nmod	_	_
 4	grecque	_	ADJ	_	_	3	amod	_	_
 5	,	_	PUNCT	_	_	3	punct	_	_
-6	Télamon	_	PROPN	_	_	35	nsubj	_	_
+6	Télamon	_	PROPN	_	_	37	nsubj	_	_
 7	(	_	PUNCT	_	_	9	punct	_	_
 8	en	_	ADP	_	_	9	case	_	_
 9	grec	_	NOUN	_	_	6	nmod	_	_
 10	ancien	_	ADJ	_	_	9	amod	_	_
-11	/	_	PUNCT	_	_	9	punct	_	_
-12	)	_	PUNCT	_	_	9	punct	_	_
-13	,	_	PUNCT	_	_	6	punct	_	_
-14	fils	_	NOUN	_	_	6	appos	_	_
-15	d'	_	ADP	_	_	16	case	_	_
-16	Éaque	_	PROPN	_	_	14	nmod	_	_
-17	et	_	CONJ	_	_	16	cc	_	_
-18	d'	_	ADP	_	_	19	case	_	_
-19	Endéis	_	PROPN	_	_	16	conj	_	_
-20	,	_	PUNCT	_	_	14	punct	_	_
-21	frère	_	NOUN	_	_	14	conj	_	_
-22	de	_	ADP	_	_	23	case	_	_
-23	Pélée	_	PROPN	_	_	21	nmod	_	_
-24	et	_	CONJ	_	_	14	cc	_	_
-25	père	_	NOUN	_	_	14	conj	_	_
-26	d'	_	ADP	_	_	29	case	_	_
-27	Ajax	_	PROPN	_	_	29	name	_	_
-28	le	_	DET	_	_	29	det	_	_
-29	grand	_	PROPN	_	_	25	nmod	_	_
-30	et	_	CONJ	_	_	29	cc	_	_
-31	de	_	ADP	_	_	32	case	_	_
-32	Teucros	_	PROPN	_	_	29	conj	_	_
-33	,	_	PUNCT	_	_	25	punct	_	_
-34	est	_	VERB	_	_	35	cop	_	_
-35	roi	_	NOUN	_	_	0	root	_	_
-36	de	_	ADP	_	_	38	case	_	_
-37	l'	_	DET	_	_	38	det	_	_
-38	île	_	NOUN	_	_	35	nmod	_	_
-39	de	_	ADP	_	_	40	case	_	_
-40	Salamine	_	PROPN	_	_	38	nmod	_	_
-41	.	_	PUNCT	_	_	35	punct	_	_
+11	Τελαμών	_	TODO	_	tronque=y	10	TODO	_	_
+12	/	_	PUNCT	_	_	9	punct	_	_
+13	Telamốn	_	TODO	_	tronque=y	12	TODO	_	_
+14	)	_	PUNCT	_	_	9	punct	_	_
+15	,	_	PUNCT	_	_	6	punct	_	_
+16	fils	_	NOUN	_	_	6	appos	_	_
+17	d'	_	ADP	_	_	18	case	_	_
+18	Éaque	_	PROPN	_	_	16	nmod	_	_
+19	et	_	CONJ	_	_	18	cc	_	_
+20	d'	_	ADP	_	_	21	case	_	_
+21	Endéis	_	PROPN	_	_	18	conj	_	_
+22	,	_	PUNCT	_	_	16	punct	_	_
+23	frère	_	NOUN	_	_	16	conj	_	_
+24	de	_	ADP	_	_	25	case	_	_
+25	Pélée	_	PROPN	_	_	23	nmod	_	_
+26	et	_	CONJ	_	_	16	cc	_	_
+27	père	_	NOUN	_	_	16	conj	_	_
+28	d'	_	ADP	_	_	31	case	_	_
+29	Ajax	_	PROPN	_	_	31	name	_	_
+30	le	_	DET	_	_	31	det	_	_
+31	grand	_	PROPN	_	_	27	nmod	_	_
+32	et	_	CONJ	_	_	31	cc	_	_
+33	de	_	ADP	_	_	34	case	_	_
+34	Teucros	_	PROPN	_	_	31	conj	_	_
+35	,	_	PUNCT	_	_	27	punct	_	_
+36	est	_	VERB	_	_	37	cop	_	_
+37	roi	_	NOUN	_	_	0	root	_	_
+38	de	_	ADP	_	_	40	case	_	_
+39	l'	_	DET	_	_	40	det	_	_
+40	île	_	NOUN	_	_	37	nmod	_	_
+41	de	_	ADP	_	_	42	case	_	_
+42	Salamine	_	PROPN	_	_	40	nmod	_	_
+43	.	_	PUNCT	_	_	37	punct	_	_
 
 # sentid: fr-ud-dev_01394
 # sentence-text: Troides helena a été décrit par l'entomologiste Carl von Linné en 1758 sous le nom initial de Papilio helena.
@@ -42068,7 +42099,7 @@
 16	.	_	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-dev_01515
-# sentence-text: La station a été lancée le au canal 49, et a été déplacée au canal 34 en 2001 afin d'agrandir son territoire.
+# sentence-text: La station a été lancée le [[7 septembre 1986]] au canal 49, et a été déplacée au canal 34 en 2001 afin d'agrandir son territoire.
 1	La	_	DET	_	_	2	det	_	_
 2	station	_	NOUN	_	_	5	nsubjpass	_	_
 3	a	_	AUX	_	_	5	aux	_	_
@@ -42076,28 +42107,31 @@
 5	lancée	_	VERB	_	_	0	root	_	_
 6	le	_	DET	_	_	5	dep	_	_
 7-8	au	_	_	_	_	_	_	_	_
-7	à	_	ADP	_	_	9	case	_	_
-8	le	_	DET	_	_	9	det	_	_
-9	canal	_	NOUN	_	_	5	nmod	_	_
-10	49	_	NUM	_	_	9	nummod	_	_
-11	,	_	PUNCT	_	_	5	punct	_	_
-12	et	_	CONJ	_	_	5	cc	_	_
-13	a	_	AUX	_	_	15	aux	_	_
-14	été	_	AUX	_	_	15	auxpass	_	_
-15	déplacée	_	VERB	_	_	5	conj	_	_
-16-17	au	_	_	_	_	_	_	_	_
-16	à	_	ADP	_	_	18	case	_	_
-17	le	_	DET	_	_	18	det	_	_
-18	canal	_	NOUN	_	_	15	nmod	_	_
-19	34	_	NUM	_	_	18	nummod	_	_
-20	en	_	ADP	_	_	21	case	_	_
-21	2001	_	NUM	_	_	15	nmod	_	_
-22	afin	_	ADV	_	_	23	mwe	_	_
-23	d'	_	ADP	_	_	24	mark	_	_
-24	agrandir	_	VERB	_	_	15	advcl	_	_
-25	son	_	DET	_	_	26	nmod:poss	_	_
-26	territoire	_	NOUN	_	_	24	dobj	_	_
-27	.	_	PUNCT	_	_	5	punct	_	_
+7	à	_	ADP	_	_	12	case	_	_
+8	le	_	DET	_	_	10	det	_	_
+9	7	_	NUM	_	tronque=y	10	nmod	_	_
+10	septembre	_	NOUN	_	tronque=y	12	nmod	_	_
+11	1986	_	NUM	_	tronque=y	10	nmod	_	_
+12	canal	_	NOUN	_	_	5	nmod	_	_
+13	49	_	NUM	_	_	12	nummod	_	_
+14	,	_	PUNCT	_	_	5	punct	_	_
+15	et	_	CONJ	_	_	5	cc	_	_
+16	a	_	AUX	_	_	18	aux	_	_
+17	été	_	AUX	_	_	18	auxpass	_	_
+18	déplacée	_	VERB	_	_	5	conj	_	_
+19-20	au	_	_	_	_	_	_	_	_
+19	à	_	ADP	_	_	21	case	_	_
+20	le	_	DET	_	_	21	det	_	_
+21	canal	_	NOUN	_	_	18	nmod	_	_
+22	34	_	NUM	_	_	21	nummod	_	_
+23	en	_	ADP	_	_	24	case	_	_
+24	2001	_	NUM	_	_	18	nmod	_	_
+25	afin	_	ADV	_	_	26	mwe	_	_
+26	d'	_	ADP	_	_	27	mark	_	_
+27	agrandir	_	VERB	_	_	18	advcl	_	_
+28	son	_	DET	_	_	29	nmod:poss	_	_
+29	territoire	_	NOUN	_	_	27	dobj	_	_
+30	.	_	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-dev_01516
 # sentence-text: Elle a été impliquée dans plusieurs accidents aériens.
@@ -43703,42 +43737,44 @@
 20	.	_	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-dev_01573
-# sentence-text: Candidat malheureux à l'élection présidentielle d', Marcus Stephen remporte néanmoins la présidence de la République le lorsque son prédécesseur Ludwig Scotty est écarté de cette fonction par une motion de censure parlementaire.
-1	Candidat	_	NOUN	_	_	10	appos	_	_
+# sentence-text: Candidat malheureux à l'élection présidentielle d'[[août 2007]], Marcus Stephen remporte néanmoins la présidence de la République le lorsque son prédécesseur Ludwig Scotty est écarté de cette fonction par une motion de censure parlementaire.
+1	Candidat	_	NOUN	_	_	12	appos	_	_
 2	malheureux	_	ADJ	_	_	1	amod	_	_
 3	à	_	ADP	_	_	5	case	_	_
 4	l'	_	DET	_	_	5	det	_	_
 5	élection	_	NOUN	_	_	1	nmod	_	_
 6	présidentielle	_	ADJ	_	_	5	amod	_	_
 7	d'	_	ADP	_	_	5	case	_	_
-8	,	_	PUNCT	_	_	11	punct	_	_
-9	Marcus	_	PROPN	_	_	10	name	_	_
-10	Stephen	_	PROPN	_	_	11	nsubj	_	_
-11	remporte	_	VERB	_	_	0	root	_	_
-12	néanmoins	_	ADV	_	_	11	advmod	_	_
-13	la	_	DET	_	_	14	det	_	_
-14	présidence	_	NOUN	_	_	11	dobj	_	_
-15	de	_	ADP	_	_	17	case	_	_
-16	la	_	DET	_	_	17	det	_	_
-17	République	_	PROPN	_	_	14	nmod	_	_
-18	le	_	DET	_	_	11	dep	_	_
-19	lorsque	_	SCONJ	_	_	25	mark	_	_
-20	son	_	DET	_	_	21	nmod:poss	_	_
-21	prédécesseur	_	NOUN	_	_	25	nsubjpass	_	_
-22	Ludwig	_	PROPN	_	_	23	name	_	_
-23	Scotty	_	PROPN	_	_	21	appos	_	_
-24	est	_	AUX	_	_	25	auxpass	_	_
-25	écarté	_	VERB	_	_	11	advcl	_	_
-26	de	_	ADP	_	_	28	case	_	_
-27	cette	_	DET	_	_	28	det	_	_
-28	fonction	_	NOUN	_	_	25	nmod	_	_
-29	par	_	ADP	_	_	25	case	_	_
-30	une	_	DET	_	_	31	det	_	_
-31	motion	_	NOUN	_	_	29	case	_	_
-32	de	_	ADP	_	_	33	case	_	_
-33	censure	_	NOUN	_	_	31	nmod	_	_
-34	parlementaire	_	ADJ	_	_	33	amod	_	_
-35	.	_	PUNCT	_	_	11	punct	_	_
+8	août	_	TODO	_	tronque=y	7	TODO	_	_
+9	2007	_	TODO	_	tronque=y	8	TODO	_	_
+10	,	_	PUNCT	_	_	13	punct	_	_
+11	Marcus	_	PROPN	_	_	12	name	_	_
+12	Stephen	_	PROPN	_	_	13	nsubj	_	_
+13	remporte	_	VERB	_	_	0	root	_	_
+14	néanmoins	_	ADV	_	_	13	advmod	_	_
+15	la	_	DET	_	_	16	det	_	_
+16	présidence	_	NOUN	_	_	13	dobj	_	_
+17	de	_	ADP	_	_	19	case	_	_
+18	la	_	DET	_	_	19	det	_	_
+19	République	_	PROPN	_	_	16	nmod	_	_
+20	le	_	DET	_	_	13	dep	_	_
+21	lorsque	_	SCONJ	_	_	27	mark	_	_
+22	son	_	DET	_	_	23	nmod:poss	_	_
+23	prédécesseur	_	NOUN	_	_	27	nsubjpass	_	_
+24	Ludwig	_	PROPN	_	_	25	name	_	_
+25	Scotty	_	PROPN	_	_	23	appos	_	_
+26	est	_	AUX	_	_	27	auxpass	_	_
+27	écarté	_	VERB	_	_	13	advcl	_	_
+28	de	_	ADP	_	_	30	case	_	_
+29	cette	_	DET	_	_	30	det	_	_
+30	fonction	_	NOUN	_	_	27	nmod	_	_
+31	par	_	ADP	_	_	27	case	_	_
+32	une	_	DET	_	_	33	det	_	_
+33	motion	_	NOUN	_	_	31	case	_	_
+34	de	_	ADP	_	_	35	case	_	_
+35	censure	_	NOUN	_	_	33	nmod	_	_
+36	parlementaire	_	ADJ	_	_	35	amod	_	_
+37	.	_	PUNCT	_	_	13	punct	_	_
 
 # sentid: fr-ud-dev_01574
 # sentence-text: Ils n'avaient pas de casquettes et leurs cheveux blonds brillaient au soleil.
@@ -44533,7 +44569,7 @@
 16	.	_	PUNCT	_	_	7	punct	_	_
 
 # sentid: fr-ud-dev_01600
-# sentence-text: Les papillons sont visibles entre mai et juin dans les zones de faibles altitudes tandis qu'au dessus de, les papillons sont visibles vers le début juillet.
+# sentence-text: Les papillons sont visibles entre mai et juin dans les zones de faibles altitudes tandis qu'au dessus de [[1 000 mètres]], les papillons sont visibles vers le début juillet.
 1	Les	_	DET	_	_	2	det	_	_
 2	papillons	_	NOUN	_	_	4	nsubj	_	_
 3	sont	_	VERB	_	_	4	cop	_	_
@@ -44549,22 +44585,24 @@
 13	faibles	_	ADJ	_	_	14	amod	_	_
 14	altitudes	_	NOUN	_	_	11	nmod	_	_
 15	tandis	_	ADV	_	_	16	mwe	_	_
-16	qu'	_	SCONJ	_	_	25	mark	_	_
+16	qu'	_	SCONJ	_	_	27	mark	_	_
 17-18	au	_	_	_	_	_	_	_	_
 17	à	_	ADP	_	_	19	mwe	_	_
 18	le	_	DET	_	_	19	det	_	_
-19	dessus	_	NOUN	_	_	25	case	_	_
+19	dessus	_	NOUN	_	_	27	case	_	_
 20	de	_	ADP	_	_	19	mwe	_	_
-21	,	_	PUNCT	_	_	25	punct	_	_
-22	les	_	DET	_	_	23	det	_	_
-23	papillons	_	NOUN	_	_	25	nsubj	_	_
-24	sont	_	VERB	_	_	25	cop	_	_
-25	visibles	_	ADJ	_	_	4	advcl	_	_
-26	vers	_	ADP	_	_	28	case	_	_
-27	le	_	DET	_	_	28	det	_	_
-28	début	_	NOUN	_	_	25	nmod	_	_
-29	juillet	_	NOUN	_	_	28	nmod	_	_
-30	.	_	PUNCT	_	_	4	punct	_	_
+21	1 000	_	TODO	_	tronque=y	20	TODO	_	_
+22	mètres	_	TODO	_	tronque=y	21	TODO	_	_
+23	,	_	PUNCT	_	_	27	punct	_	_
+24	les	_	DET	_	_	25	det	_	_
+25	papillons	_	NOUN	_	_	27	nsubj	_	_
+26	sont	_	VERB	_	_	27	cop	_	_
+27	visibles	_	ADJ	_	_	4	advcl	_	_
+28	vers	_	ADP	_	_	30	case	_	_
+29	le	_	DET	_	_	30	det	_	_
+30	début	_	NOUN	_	_	27	nmod	_	_
+31	juillet	_	NOUN	_	_	30	nmod	_	_
+32	.	_	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-dev_01601
 # sentence-text: Le pré salé dans son dernier méandre avant l'océan fait l'objet d'un inventaire ZNIEFF de type 1 en 1990.

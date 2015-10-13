@@ -360,33 +360,32 @@
 
 # sentid: fr-ud-test_00011
 # sentence-text: Est-ce le fait du hasard ou d'une malédiction que toute la zone comprise entre le Soudan et la Mauritanie soit instable ?
-1	Est	_	VERB	_	_	5	cop	_	_
-2	-	_	PUNCT	_	_	5	punct	_	_
-3	ce	_	PRON	_	_	5	nsubj	_	_
-4	le	_	DET	_	_	5	det	_	_
-5	fait	_	NOUN	_	_	0	root	_	_
-6-7	du	_	_	_	_	_	_	_	_
-6	de	_	ADP	_	_	8	case	_	_
-7	le	_	DET	_	_	8	det	_	_
-8	hasard	_	NOUN	_	_	5	nmod	_	_
-9	ou	_	CONJ	_	_	8	cc	_	_
-10	d'	_	ADP	_	_	12	case	_	_
-11	une	_	DET	_	_	12	det	_	_
-12	malédiction	_	NOUN	_	_	8	conj	_	_
-13	que	_	SCONJ	_	_	25	mark	_	_
-14	toute	_	DET	_	_	16	det	_	_
-15	la	_	DET	_	_	16	det	_	_
-16	zone	_	NOUN	_	_	25	nsubj	_	_
-17	comprise	_	VERB	_	_	16	acl	_	_
-18	entre	_	ADP	_	_	20	case	_	_
-19	le	_	DET	_	_	20	det	_	_
-20	Soudan	_	PROPN	_	_	17	nmod	_	_
-21	et	_	CONJ	_	_	20	cc	_	_
-22	la	_	DET	_	_	23	det	_	_
-23	Mauritanie	_	PROPN	_	_	20	conj	_	_
-24	soit	_	VERB	_	_	25	cop	_	_
-25	instable	_	ADJ	_	_	5	ccomp	_	_
-26	?	_	PUNCT	_	_	5	punct	_	_
+1	Est	_	VERB	_	_	4	cop	_	_
+2	-ce	_	PRON	_	_	4	nsubj	_	_
+3	le	_	DET	_	_	4	det	_	_
+4	fait	_	NOUN	_	_	0	root	_	_
+5-6	du	_	_	_	_	_	_	_	_
+5	de	_	ADP	_	_	7	case	_	_
+6	le	_	DET	_	_	7	det	_	_
+7	hasard	_	NOUN	_	_	4	nmod	_	_
+8	ou	_	CONJ	_	_	7	cc	_	_
+9	d'	_	ADP	_	_	11	case	_	_
+10	une	_	DET	_	_	11	det	_	_
+11	malédiction	_	NOUN	_	_	7	conj	_	_
+12	que	_	SCONJ	_	_	24	mark	_	_
+13	toute	_	DET	_	_	15	det	_	_
+14	la	_	DET	_	_	15	det	_	_
+15	zone	_	NOUN	_	_	24	nsubj	_	_
+16	comprise	_	VERB	_	_	15	acl	_	_
+17	entre	_	ADP	_	_	19	case	_	_
+18	le	_	DET	_	_	19	det	_	_
+19	Soudan	_	PROPN	_	_	16	nmod	_	_
+20	et	_	CONJ	_	_	19	cc	_	_
+21	la	_	DET	_	_	22	det	_	_
+22	Mauritanie	_	PROPN	_	_	19	conj	_	_
+23	soit	_	VERB	_	_	24	cop	_	_
+24	instable	_	ADJ	_	_	4	ccomp	_	_
+25	?	_	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-test_00012
 # sentence-text: Maintenant, avec un peu de bonne volonté vous observerez que l'on peut être traditionaliste ET intégriste, mais que les intégristes n'ont pas le monopole du traditionalisme, et réciproquement.
@@ -954,13 +953,12 @@
 # sentid: fr-ud-test_00036
 # sentence-text: Son destin est-il la Poussière ?
 1	Son	_	DET	_	_	2	nmod:poss	_	_
-2	destin	_	NOUN	_	_	7	nsubj	_	_
-3	est	_	VERB	_	_	7	cop	_	_
-4	-	_	PUNCT	_	_	7	punct	_	_
-5	il	_	PRON	_	_	7	nsubj	_	_
-6	la	_	DET	_	_	7	det	_	_
-7	Poussière	_	NOUN	_	_	0	root	_	_
-8	?	_	PUNCT	_	_	7	punct	_	_
+2	destin	_	NOUN	_	_	6	nsubj	_	_
+3	est	_	VERB	_	_	6	cop	_	_
+4	-il	_	PRON	_	_	6	nsubj	_	_
+5	la	_	DET	_	_	6	det	_	_
+6	Poussière	_	NOUN	_	_	0	root	_	_
+7	?	_	PUNCT	_	_	6	punct	_	_
 
 # sentid: fr-ud-test_00037
 # sentence-text: C'est un sourire de Dieu.
@@ -1006,23 +1004,21 @@
 3	fois	_	NOUN	_	_	1	nmod	_	_
 4	ne	_	ADV	_	_	5	neg	_	_
 5	célébrons	_	VERB	_	_	0	root	_	_
-6	-	_	PUNCT	_	_	5	punct	_	_
-7	nous	_	PRON	_	_	5	nsubj	_	_
-8	que	_	SCONJ	_	_	5	expl	_	_
-9	nous-mêmes	_	ADJ	_	_	5	dobj	_	_
-10	,	_	PUNCT	_	_	5	punct	_	_
-11	et	_	CONJ	_	_	5	cc	_	_
-12	ne	_	ADV	_	_	13	neg	_	_
-13	prenons	_	VERB	_	_	5	conj	_	_
-14	-	_	PUNCT	_	_	13	punct	_	_
-15	nous	_	PRON	_	_	13	nsubj	_	_
-16	même	_	ADV	_	_	17	advmod	_	_
-17	pas	_	ADV	_	_	13	neg	_	_
-18	conscience	_	NOUN	_	_	13	dobj	_	_
-19	de	_	ADP	_	_	21	case	_	_
-20	sa	_	DET	_	_	21	nmod:poss	_	_
-21	présence	_	NOUN	_	_	18	nmod	_	_
-22	?	_	PUNCT	_	_	5	punct	_	_
+6	-nous	_	PRON	_	_	5	nsubj	_	_
+7	que	_	SCONJ	_	_	5	expl	_	_
+8	nous-mêmes	_	ADJ	_	_	5	dobj	_	_
+9	,	_	PUNCT	_	_	5	punct	_	_
+10	et	_	CONJ	_	_	5	cc	_	_
+11	ne	_	ADV	_	_	12	neg	_	_
+12	prenons	_	VERB	_	_	5	conj	_	_
+13	-nous	_	PRON	_	_	12	nsubj	_	_
+14	même	_	ADV	_	_	15	advmod	_	_
+15	pas	_	ADV	_	_	12	neg	_	_
+16	conscience	_	NOUN	_	_	12	dobj	_	_
+17	de	_	ADP	_	_	19	case	_	_
+18	sa	_	DET	_	_	19	nmod:poss	_	_
+19	présence	_	NOUN	_	_	16	nmod	_	_
+20	?	_	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-test_00040
 # sentence-text: Tout cela est présent dans sa passion.
@@ -1221,21 +1217,18 @@
 # sentence-text: Y a-t-il un risque de voir les choses tourner mal en Syrie ?
 1	Y	_	PRON	_	_	2	expl	_	_
 2	a	_	VERB	_	_	0	root	_	_
-3	-	_	PUNCT	_	_	4	punct	_	_
-4	t	_	PART	_	_	6	expl	_	_
-5	-	_	PUNCT	_	_	4	punct	_	_
-6	il	_	PRON	_	_	2	nsubj	_	_
-7	un	_	DET	_	_	8	det	_	_
-8	risque	_	NOUN	_	_	2	dobj	_	_
-9	de	_	ADP	_	_	10	case	_	_
-10	voir	_	VERB	_	_	8	acl	_	_
-11	les	_	DET	_	_	12	det	_	_
-12	choses	_	NOUN	_	_	10	dobj	_	_
-13	tourner	_	VERB	_	_	10	xcomp	_	_
-14	mal	_	ADV	_	_	13	advmod	_	_
-15	en	_	ADP	_	_	16	case	_	_
-16	Syrie	_	PROPN	_	_	10	nmod	_	_
-17	?	_	PUNCT	_	_	2	punct	_	_
+3	-t-il	_	PRON	_	_	2	nsubj	_	_
+4	un	_	DET	_	_	5	det	_	_
+5	risque	_	NOUN	_	_	2	dobj	_	_
+6	de	_	ADP	_	_	7	case	_	_
+7	voir	_	VERB	_	_	5	acl	_	_
+8	les	_	DET	_	_	9	det	_	_
+9	choses	_	NOUN	_	_	7	dobj	_	_
+10	tourner	_	VERB	_	_	7	xcomp	_	_
+11	mal	_	ADV	_	_	10	advmod	_	_
+12	en	_	ADP	_	_	13	case	_	_
+13	Syrie	_	PROPN	_	_	7	nmod	_	_
+14	?	_	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-test_00049
 # sentence-text: C'est simple, il y a de tout.
@@ -1539,7 +1532,7 @@
 1	Sidi	_	PROPN	_	_	4	name	_	_
 2	M'	_	PROPN	_	_	4	name	_	_
 3	hamed	_	PROPN	_	_	4	name	_	_
-4	Deddeche	_	PROPN	_	_	25	nsubj	_	_
+4	Deddeche	_	PROPN	_	_	24	nsubj	_	_
 5	et	_	CONJ	_	_	4	cc	_	_
 6	Amgid	_	PROPN	_	_	8	name	_	_
 7	Sidi	_	PROPN	_	_	8	name	_	_
@@ -1556,52 +1549,51 @@
 17	comme	_	ADP	_	_	19	case	_	_
 18	Mme	_	PROPN	_	_	19	name	_	_
 19	Haïder	_	PROPN	_	_	11	nmod	_	_
-20	,	_	PUNCT	_	_	25	punct	_	_
-21	s'	_	PRON	_	_	25	dobj	_	_
-22	étaient	_	AUX	_	_	25	aux	_	_
-23	-	_	PUNCT	_	_	24	punct	_	_
-24	ils	_	PRON	_	_	25	expl	_	_
-25	fait	_	VERB	_	_	0	root	_	_
-26	arrêter	_	VERB	_	_	25	xcomp	_	_
-27	mercredi	_	NOUN	_	_	26	nmod	_	_
-28	dernier	_	ADJ	_	_	27	amod	_	_
-29	à	_	ADP	_	_	31	case	_	_
-30	l'	_	DET	_	_	31	det	_	_
-31	entrée	_	NOUN	_	_	26	nmod	_	_
-32	de	_	ADP	_	_	33	case	_	_
-33	Smara	_	PROPN	_	_	31	nmod	_	_
-34	,	_	PUNCT	_	_	26	punct	_	_
-35	la	_	DET	_	_	36	det	_	_
-36	capitale	_	NOUN	_	_	33	appos	_	_
-37	spirituelle	_	ADJ	_	_	36	amod	_	_
-38-39	du	_	_	_	_	_	_	_	_
-38	de	_	ADP	_	_	40	case	_	_
-39	le	_	DET	_	_	40	det	_	_
-40	Sahara	_	PROPN	_	_	36	nmod	_	_
-41	occidental	_	ADJ	_	_	40	amod	_	_
-42	,	_	PUNCT	_	_	26	punct	_	_
-43	parce	_	ADV	_	_	44	mwe	_	_
-44	qu'	_	SCONJ	_	_	48	mark	_	_
-45	ils	_	PRON	_	_	48	nsubj	_	_
-46	étaient	_	VERB	_	_	48	cop	_	_
-47	des	_	DET	_	_	48	det	_	_
-48	séquestrés	_	NOUN	_	_	26	advcl	_	_
-49	qui	_	PRON	_	_	52	nsubj	_	_
-50	s'	_	PRON	_	_	52	dobj	_	_
-51	étaient	_	AUX	_	_	52	aux	_	_
-52	évadés	_	VERB	_	_	48	acl:relcl	_	_
-53-54	des	_	_	_	_	_	_	_	_
-53	de	_	ADP	_	_	55	case	_	_
-54	les	_	DET	_	_	55	det	_	_
-55	camps	_	NOUN	_	_	52	nmod	_	_
-56	de	_	ADP	_	_	57	case	_	_
-57	Tindouf	_	PROPN	_	_	55	nmod	_	_
-58	,	_	PUNCT	_	_	48	punct	_	_
-59	sans	_	ADP	_	_	60	case	_	_
-60	documents	_	NOUN	_	_	48	nmod	_	_
-61	de	_	ADP	_	_	62	case	_	_
-62	voyage	_	NOUN	_	_	60	nmod	_	_
-63	?	_	PUNCT	_	_	26	punct	_	_
+20	,	_	PUNCT	_	_	24	punct	_	_
+21	s'	_	PRON	_	_	24	dobj	_	_
+22	étaient	_	AUX	_	_	24	aux	_	_
+23	-ils	_	PRON	_	_	24	expl	_	_
+24	fait	_	VERB	_	_	0	root	_	_
+25	arrêter	_	VERB	_	_	24	xcomp	_	_
+26	mercredi	_	NOUN	_	_	25	nmod	_	_
+27	dernier	_	ADJ	_	_	26	amod	_	_
+28	à	_	ADP	_	_	30	case	_	_
+29	l'	_	DET	_	_	30	det	_	_
+30	entrée	_	NOUN	_	_	25	nmod	_	_
+31	de	_	ADP	_	_	32	case	_	_
+32	Smara	_	PROPN	_	_	30	nmod	_	_
+33	,	_	PUNCT	_	_	25	punct	_	_
+34	la	_	DET	_	_	35	det	_	_
+35	capitale	_	NOUN	_	_	32	appos	_	_
+36	spirituelle	_	ADJ	_	_	35	amod	_	_
+37-38	du	_	_	_	_	_	_	_	_
+37	de	_	ADP	_	_	39	case	_	_
+38	le	_	DET	_	_	39	det	_	_
+39	Sahara	_	PROPN	_	_	35	nmod	_	_
+40	occidental	_	ADJ	_	_	39	amod	_	_
+41	,	_	PUNCT	_	_	25	punct	_	_
+42	parce	_	ADV	_	_	43	mwe	_	_
+43	qu'	_	SCONJ	_	_	47	mark	_	_
+44	ils	_	PRON	_	_	47	nsubj	_	_
+45	étaient	_	VERB	_	_	47	cop	_	_
+46	des	_	DET	_	_	47	det	_	_
+47	séquestrés	_	NOUN	_	_	25	advcl	_	_
+48	qui	_	PRON	_	_	51	nsubj	_	_
+49	s'	_	PRON	_	_	51	dobj	_	_
+50	étaient	_	AUX	_	_	51	aux	_	_
+51	évadés	_	VERB	_	_	47	acl:relcl	_	_
+52-53	des	_	_	_	_	_	_	_	_
+52	de	_	ADP	_	_	54	case	_	_
+53	les	_	DET	_	_	54	det	_	_
+54	camps	_	NOUN	_	_	51	nmod	_	_
+55	de	_	ADP	_	_	56	case	_	_
+56	Tindouf	_	PROPN	_	_	54	nmod	_	_
+57	,	_	PUNCT	_	_	47	punct	_	_
+58	sans	_	ADP	_	_	59	case	_	_
+59	documents	_	NOUN	_	_	47	nmod	_	_
+60	de	_	ADP	_	_	61	case	_	_
+61	voyage	_	NOUN	_	_	59	nmod	_	_
+62	?	_	PUNCT	_	_	25	punct	_	_
 
 # sentid: fr-ud-test_00060
 # sentence-text: A chaque fois qu'il sent la pression, le Makhzen appelle quelqu'un à son secours.
@@ -2443,57 +2435,56 @@
 
 # sentid: fr-ud-test_00084
 # sentence-text: c'est-à-dire--poursuit-il son argument--, " avant, le Maroc pensait que les indépendantistes étaient tout au mieux un 5%, les militants, mais quand on nous a vus tous unis, main dans la main, on n'en revenait pas ;
-1	c'est-à-dire	_	ADV	_	_	15	cc	_	_
-2	--	_	PUNCT	_	_	15	punct	_	_
-3	poursuit	_	VERB	_	_	15	parataxis	_	_
-4	-	_	PUNCT	_	_	3	punct	_	_
-5	il	_	PRON	_	_	3	nsubj	_	_
-6	son	_	DET	_	_	7	nmod:poss	_	_
-7	argument	_	NOUN	_	_	3	dobj	_	_
-8	--	_	PUNCT	_	_	15	punct	_	_
-9	,	_	PUNCT	_	_	15	punct	_	_
-10	"	_	PUNCT	_	_	15	punct	_	_
-11	avant	_	ADV	_	_	15	advmod	_	_
-12	,	_	PUNCT	_	_	15	punct	_	_
-13	le	_	DET	_	_	14	det	_	_
-14	Maroc	_	PROPN	_	_	15	nsubj	_	_
-15	pensait	_	VERB	_	_	0	root	_	_
-16	que	_	SCONJ	_	_	26	mark	_	_
-17	les	_	DET	_	_	18	det	_	_
-18	indépendantistes	_	NOUN	_	_	26	nsubj	_	_
-19	étaient	_	VERB	_	_	26	cop	_	_
-20	tout	_	NOUN	_	_	26	advmod	_	_
-21-22	au	_	_	_	_	_	_	_	_
-21	à	_	ADP	_	_	20	mwe	_	_
-22	le	_	DET	_	_	20	det	_	_
-23	mieux	_	NOUN	_	_	20	mwe	_	_
-24	un	_	DET	_	_	26	det	_	_
-25	5	_	NUM	_	_	26	nummod	_	_
-26	%	_	NOUN	_	_	15	ccomp	_	_
-27	,	_	PUNCT	_	_	26	punct	_	_
-28	les	_	DET	_	_	29	det	_	_
-29	militants	_	NOUN	_	_	26	appos	_	_
-30	,	_	PUNCT	_	_	15	punct	_	_
-31	mais	_	CONJ	_	_	15	cc	_	_
-32	quand	_	SCONJ	_	_	36	mark	_	_
-33	on	_	PRON	_	_	36	nsubj	_	_
-34	nous	_	PRON	_	_	36	dobj	_	_
-35	a	_	AUX	_	_	36	aux	_	_
-36	vus	_	VERB	_	_	48	advcl	_	_
-37	tous	_	PRON	_	_	38	nmod	_	_
-38	unis	_	ADJ	_	_	36	xcomp	_	_
-39	,	_	PUNCT	_	_	38	punct	_	_
-40	main	_	NOUN	_	_	38	conj	_	_
-41	dans	_	ADP	_	_	40	mwe	_	_
-42	la	_	DET	_	_	40	mwe	_	_
-43	main	_	NOUN	_	_	40	mwe	_	_
-44	,	_	PUNCT	_	_	15	punct	_	_
-45	on	_	PRON	_	_	48	nsubj	_	_
-46	n'	_	PART	_	_	48	neg	_	_
-47	en	_	ADV	_	_	48	advmod	_	_
-48	revenait	_	VERB	_	_	15	conj	_	_
-49	pas	_	ADV	_	_	48	neg	_	_
-50	;	_	PUNCT	_	_	15	punct	_	_
+1	c'est-à-dire	_	ADV	_	_	14	cc	_	_
+2	--	_	PUNCT	_	_	14	punct	_	_
+3	poursuit	_	VERB	_	_	14	parataxis	_	_
+4	-il	_	PRON	_	_	3	nsubj	_	_
+5	son	_	DET	_	_	6	nmod:poss	_	_
+6	argument	_	NOUN	_	_	3	dobj	_	_
+7	--	_	PUNCT	_	_	14	punct	_	_
+8	,	_	PUNCT	_	_	14	punct	_	_
+9	"	_	PUNCT	_	_	14	punct	_	_
+10	avant	_	ADV	_	_	14	advmod	_	_
+11	,	_	PUNCT	_	_	14	punct	_	_
+12	le	_	DET	_	_	13	det	_	_
+13	Maroc	_	PROPN	_	_	14	nsubj	_	_
+14	pensait	_	VERB	_	_	0	root	_	_
+15	que	_	SCONJ	_	_	25	mark	_	_
+16	les	_	DET	_	_	17	det	_	_
+17	indépendantistes	_	NOUN	_	_	25	nsubj	_	_
+18	étaient	_	VERB	_	_	25	cop	_	_
+19	tout	_	NOUN	_	_	25	advmod	_	_
+20-21	au	_	_	_	_	_	_	_	_
+20	à	_	ADP	_	_	19	mwe	_	_
+21	le	_	DET	_	_	19	det	_	_
+22	mieux	_	NOUN	_	_	19	mwe	_	_
+23	un	_	DET	_	_	25	det	_	_
+24	5	_	NUM	_	_	25	nummod	_	_
+25	%	_	NOUN	_	_	14	ccomp	_	_
+26	,	_	PUNCT	_	_	25	punct	_	_
+27	les	_	DET	_	_	28	det	_	_
+28	militants	_	NOUN	_	_	25	appos	_	_
+29	,	_	PUNCT	_	_	14	punct	_	_
+30	mais	_	CONJ	_	_	14	cc	_	_
+31	quand	_	SCONJ	_	_	35	mark	_	_
+32	on	_	PRON	_	_	35	nsubj	_	_
+33	nous	_	PRON	_	_	35	dobj	_	_
+34	a	_	AUX	_	_	35	aux	_	_
+35	vus	_	VERB	_	_	47	advcl	_	_
+36	tous	_	PRON	_	_	37	nmod	_	_
+37	unis	_	ADJ	_	_	35	xcomp	_	_
+38	,	_	PUNCT	_	_	37	punct	_	_
+39	main	_	NOUN	_	_	37	conj	_	_
+40	dans	_	ADP	_	_	39	mwe	_	_
+41	la	_	DET	_	_	39	mwe	_	_
+42	main	_	NOUN	_	_	39	mwe	_	_
+43	,	_	PUNCT	_	_	14	punct	_	_
+44	on	_	PRON	_	_	47	nsubj	_	_
+45	n'	_	PART	_	_	47	neg	_	_
+46	en	_	ADV	_	_	47	advmod	_	_
+47	revenait	_	VERB	_	_	14	conj	_	_
+48	pas	_	ADV	_	_	47	neg	_	_
+49	;	_	PUNCT	_	_	14	punct	_	_
 
 # sentid: fr-ud-test_00085
 # sentence-text: Selon ce discours--maintenant bien rodé--, avec la mort d'Hassan II et l'arrivée au pouvoir de Mohammed VI, les choses auraient évolué au Maroc.
@@ -2882,27 +2873,24 @@
 5	France	_	PROPN	_	_	7	nsubj	_	_
 6	officielle	_	ADJ	_	_	5	amod	_	_
 7	maintiendra	_	VERB	_	_	0	root	_	_
-8	-	_	PUNCT	_	_	9	punct	_	_
-9	t	_	PART	_	_	11	expl	_	_
-10	-	_	PUNCT	_	_	9	punct	_	_
-11	elle	_	PRON	_	_	7	expl	_	_
-12	sa	_	DET	_	_	13	nmod:poss	_	_
-13	préférence	_	NOUN	_	_	7	dobj	_	_
-14	pour	_	ADP	_	_	16	case	_	_
-15	la	_	DET	_	_	16	det	_	_
-16	protection	_	NOUN	_	_	13	nmod	_	_
+8	-t-elle	_	PRON	_	_	7	expl	_	_
+9	sa	_	DET	_	_	10	nmod:poss	_	_
+10	préférence	_	NOUN	_	_	7	dobj	_	_
+11	pour	_	ADP	_	_	13	case	_	_
+12	la	_	DET	_	_	13	det	_	_
+13	protection	_	NOUN	_	_	10	nmod	_	_
+14-15	des	_	_	_	_	_	_	_	_
+14	de	_	ADP	_	_	16	case	_	_
+15	les	_	DET	_	_	16	det	_	_
+16	agresseurs	_	NOUN	_	_	13	nmod	_	_
 17-18	des	_	_	_	_	_	_	_	_
 17	de	_	ADP	_	_	19	case	_	_
 18	les	_	DET	_	_	19	det	_	_
-19	agresseurs	_	NOUN	_	_	16	nmod	_	_
-20-21	des	_	_	_	_	_	_	_	_
+19	droits	_	NOUN	_	_	16	nmod	_	_
 20	de	_	ADP	_	_	22	case	_	_
-21	les	_	DET	_	_	22	det	_	_
-22	droits	_	NOUN	_	_	19	nmod	_	_
-23	de	_	ADP	_	_	25	case	_	_
-24	l'	_	DET	_	_	25	det	_	_
-25	homme	_	NOUN	_	_	22	nmod	_	_
-26	?	_	PUNCT	_	_	7	punct	_	_
+21	l'	_	DET	_	_	22	det	_	_
+22	homme	_	NOUN	_	_	19	nmod	_	_
+23	?	_	PUNCT	_	_	7	punct	_	_
 
 # sentid: fr-ud-test_00098
 # sentence-text: Il n'y en a point.
@@ -2919,50 +2907,47 @@
 1	M.	_	NOUN	_	_	2	compound	_	_
 2	Ross	_	PROPN	_	_	3	nsubj	_	_
 3	réussira	_	VERB	_	_	0	root	_	_
-4	-	_	PUNCT	_	_	5	punct	_	_
-5	t	_	PART	_	_	7	expl	_	_
-6	-	_	PUNCT	_	_	5	punct	_	_
-7	il	_	PRON	_	_	3	nsubj	_	_
-8	à	_	ADP	_	_	9	case	_	_
-9	faire	_	VERB	_	_	3	acl	_	_
-10	valoir	_	VERB	_	_	9	xcomp	_	_
-11	le	_	DET	_	_	12	det	_	_
-12	droit	_	NOUN	_	_	10	dobj	_	_
-13	international	_	ADJ	_	_	12	amod	_	_
-14	dans	_	ADP	_	_	16	case	_	_
-15	ces	_	DET	_	_	16	det	_	_
-16	négociations	_	NOUN	_	_	9	nmod	_	_
-17	,	_	PUNCT	_	_	3	punct	_	_
-18	Rabat	_	PROPN	_	_	19	nsubj	_	_
-19	bénéficiant	_	VERB	_	_	3	acl	_	_
-20-21	du	_	_	_	_	_	_	_	_
-20	de	_	ADP	_	_	22	case	_	_
-21	le	_	DET	_	_	22	det	_	_
-22	soutien	_	NOUN	_	_	19	nmod	_	_
-23	,	_	PUNCT	_	_	22	punct	_	_
-24	entre	_	ADP	_	_	25	case	_	_
-25	autres	_	NOUN	_	_	22	nmod	_	_
-26	,	_	PUNCT	_	_	22	punct	_	_
-27	d'	_	ADP	_	_	29	case	_	_
-28	un	_	DET	_	_	29	det	_	_
-29	membre	_	NOUN	_	_	22	nmod	_	_
-30	permanent	_	ADJ	_	_	29	amod	_	_
-31-32	du	_	_	_	_	_	_	_	_
-31	de	_	ADP	_	_	33	case	_	_
-32	le	_	DET	_	_	33	det	_	_
-33	Conseil	_	PROPN	_	_	29	nmod	_	_
-34	de	_	ADP	_	_	35	case	_	_
-35	sécurité	_	NOUN	_	_	33	nmod	_	_
-36	de	_	ADP	_	_	38	case	_	_
-37	l'	_	DET	_	_	38	det	_	_
-38	ONU	_	PROPN	_	_	33	nmod	_	_
-39	,	_	PUNCT	_	_	29	punct	_	_
-40	la	_	DET	_	_	41	det	_	_
-41	France	_	PROPN	_	_	29	appos	_	_
-42	en	_	ADP	_	_	41	case	_	_
-43	l'	_	DET	_	_	44	mwe	_	_
-44	occurrence	_	NOUN	_	_	42	mwe	_	_
-45	.	_	PUNCT	_	_	3	punct	_	_
+4	-t-il	_	PRON	_	_	3	nsubj	_	_
+5	à	_	ADP	_	_	6	case	_	_
+6	faire	_	VERB	_	_	3	acl	_	_
+7	valoir	_	VERB	_	_	6	xcomp	_	_
+8	le	_	DET	_	_	9	det	_	_
+9	droit	_	NOUN	_	_	7	dobj	_	_
+10	international	_	ADJ	_	_	9	amod	_	_
+11	dans	_	ADP	_	_	13	case	_	_
+12	ces	_	DET	_	_	13	det	_	_
+13	négociations	_	NOUN	_	_	6	nmod	_	_
+14	,	_	PUNCT	_	_	3	punct	_	_
+15	Rabat	_	PROPN	_	_	16	nsubj	_	_
+16	bénéficiant	_	VERB	_	_	3	acl	_	_
+17-18	du	_	_	_	_	_	_	_	_
+17	de	_	ADP	_	_	19	case	_	_
+18	le	_	DET	_	_	19	det	_	_
+19	soutien	_	NOUN	_	_	16	nmod	_	_
+20	,	_	PUNCT	_	_	19	punct	_	_
+21	entre	_	ADP	_	_	22	case	_	_
+22	autres	_	NOUN	_	_	19	nmod	_	_
+23	,	_	PUNCT	_	_	19	punct	_	_
+24	d'	_	ADP	_	_	26	case	_	_
+25	un	_	DET	_	_	26	det	_	_
+26	membre	_	NOUN	_	_	19	nmod	_	_
+27	permanent	_	ADJ	_	_	26	amod	_	_
+28-29	du	_	_	_	_	_	_	_	_
+28	de	_	ADP	_	_	30	case	_	_
+29	le	_	DET	_	_	30	det	_	_
+30	Conseil	_	PROPN	_	_	26	nmod	_	_
+31	de	_	ADP	_	_	32	case	_	_
+32	sécurité	_	NOUN	_	_	30	nmod	_	_
+33	de	_	ADP	_	_	35	case	_	_
+34	l'	_	DET	_	_	35	det	_	_
+35	ONU	_	PROPN	_	_	30	nmod	_	_
+36	,	_	PUNCT	_	_	26	punct	_	_
+37	la	_	DET	_	_	38	det	_	_
+38	France	_	PROPN	_	_	26	appos	_	_
+39	en	_	ADP	_	_	38	case	_	_
+40	l'	_	DET	_	_	41	mwe	_	_
+41	occurrence	_	NOUN	_	_	39	mwe	_	_
+42	.	_	PUNCT	_	_	3	punct	_	_
 
 # sentid: fr-ud-test_00100
 # sentence-text: Quand vous avez l'opportunité de camper un personnage plusieurs fois, vous développez une relation très profonde avec lui.
@@ -4421,27 +4406,26 @@
 # sentence-text: Qu'est-ce que 1.000 emplois quand on en détruit et qu'on en créé 20.000 tous les jours en France ?
 1	Qu'	_	PRON	_	_	0	root	_	_
 2	est	_	VERB	_	_	1	cop	_	_
-3	-	_	PUNCT	_	_	4	punct	_	_
-4	ce	_	PRON	_	_	1	expl	_	_
-5	que	_	SCONJ	_	_	4	mwe	_	_
-6	1.000	_	NUM	_	_	7	nummod	_	_
-7	emplois	_	NOUN	_	_	2	nsubj	_	_
-8	quand	_	SCONJ	_	_	11	mark	_	_
-9	on	_	PRON	_	_	11	nsubj	_	_
-10	en	_	PRON	_	_	11	dobj	_	_
-11	détruit	_	VERB	_	_	2	advcl	_	_
-12	et	_	CONJ	_	_	11	cc	_	_
-13	qu'	_	SCONJ	_	_	16	mark	_	_
-14	on	_	PRON	_	_	16	nsubj	_	_
-15	en	_	PRON	_	_	16	dobj	_	_
-16	créé	_	VERB	_	_	11	conj	_	_
-17	20.000	_	NUM	_	_	16	xcomp	_	_
-18	tous	_	DET	_	_	20	det	_	_
-19	les	_	DET	_	_	20	det	_	_
-20	jours	_	NOUN	_	_	11	nmod	_	_
-21	en	_	ADP	_	_	22	case	_	_
-22	France	_	PROPN	_	_	11	nmod	_	_
-23	?	_	PUNCT	_	_	2	punct	_	_
+3	-ce	_	PRON	_	_	1	expl	_	_
+4	que	_	SCONJ	_	_	3	mwe	_	_
+5	1.000	_	NUM	_	_	6	nummod	_	_
+6	emplois	_	NOUN	_	_	2	nsubj	_	_
+7	quand	_	SCONJ	_	_	10	mark	_	_
+8	on	_	PRON	_	_	10	nsubj	_	_
+9	en	_	PRON	_	_	10	dobj	_	_
+10	détruit	_	VERB	_	_	2	advcl	_	_
+11	et	_	CONJ	_	_	10	cc	_	_
+12	qu'	_	SCONJ	_	_	15	mark	_	_
+13	on	_	PRON	_	_	15	nsubj	_	_
+14	en	_	PRON	_	_	15	dobj	_	_
+15	créé	_	VERB	_	_	10	conj	_	_
+16	20.000	_	NUM	_	_	15	xcomp	_	_
+17	tous	_	DET	_	_	19	det	_	_
+18	les	_	DET	_	_	19	det	_	_
+19	jours	_	NOUN	_	_	10	nmod	_	_
+20	en	_	ADP	_	_	21	case	_	_
+21	France	_	PROPN	_	_	10	nmod	_	_
+22	?	_	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-test_00147
 # sentence-text: De 10 h à 12 h et 14 h à 17 h office de tourisme.
@@ -4465,39 +4449,36 @@
 # sentid: fr-ud-test_00148
 # sentence-text: En 2004, a-t-il indiqué, nous avons appliqué ce concept en Afrique après avoir constaté le caractère désastreux du système d'éclairage au kérosène.
 1	En	_	ADP	_	_	2	case	_	_
-2	2004	_	NUM	_	_	13	nmod	_	_
-3	,	_	PUNCT	_	_	13	punct	_	_
-4	a	_	AUX	_	_	9	aux	_	_
-5	-	_	PUNCT	_	_	6	punct	_	_
-6	t	_	PUNCT	_	_	8	punct	_	_
-7	-	_	PUNCT	_	_	6	punct	_	_
-8	il	_	PRON	_	_	9	nsubj	_	_
-9	indiqué	_	VERB	_	_	13	parataxis	_	_
-10	,	_	PUNCT	_	_	13	punct	_	_
-11	nous	_	PRON	_	_	13	nsubj	_	_
-12	avons	_	AUX	_	_	13	aux	_	_
-13	appliqué	_	VERB	_	_	0	root	_	_
-14	ce	_	DET	_	_	15	det	_	_
-15	concept	_	NOUN	_	_	13	dobj	_	_
-16	en	_	ADP	_	_	17	case	_	_
-17	Afrique	_	PROPN	_	_	13	nmod	_	_
-18	après	_	ADP	_	_	20	mark	_	_
-19	avoir	_	AUX	_	_	20	aux	_	_
-20	constaté	_	VERB	_	_	13	advcl	_	_
-21	le	_	DET	_	_	22	det	_	_
-22	caractère	_	NOUN	_	_	20	dobj	_	_
-23	désastreux	_	ADJ	_	_	22	amod	_	_
-24-25	du	_	_	_	_	_	_	_	_
-24	de	_	ADP	_	_	26	case	_	_
-25	le	_	DET	_	_	26	det	_	_
-26	système	_	NOUN	_	_	22	nmod	_	_
-27	d'	_	ADP	_	_	28	case	_	_
-28	éclairage	_	NOUN	_	_	26	nmod	_	_
-29-30	au	_	_	_	_	_	_	_	_
-29	à	_	ADP	_	_	31	case	_	_
-30	le	_	DET	_	_	31	det	_	_
-31	kérosène	_	NOUN	_	_	28	nmod	_	_
-32	.	_	PUNCT	_	_	13	punct	_	_
+2	2004	_	NUM	_	_	10	nmod	_	_
+3	,	_	PUNCT	_	_	10	punct	_	_
+4	a	_	AUX	_	_	6	aux	_	_
+5	-t-il	_	PRON	_	_	6	nsubj	_	_
+6	indiqué	_	VERB	_	_	10	parataxis	_	_
+7	,	_	PUNCT	_	_	10	punct	_	_
+8	nous	_	PRON	_	_	10	nsubj	_	_
+9	avons	_	AUX	_	_	10	aux	_	_
+10	appliqué	_	VERB	_	_	0	root	_	_
+11	ce	_	DET	_	_	12	det	_	_
+12	concept	_	NOUN	_	_	10	dobj	_	_
+13	en	_	ADP	_	_	14	case	_	_
+14	Afrique	_	PROPN	_	_	10	nmod	_	_
+15	après	_	ADP	_	_	17	mark	_	_
+16	avoir	_	AUX	_	_	17	aux	_	_
+17	constaté	_	VERB	_	_	10	advcl	_	_
+18	le	_	DET	_	_	19	det	_	_
+19	caractère	_	NOUN	_	_	17	dobj	_	_
+20	désastreux	_	ADJ	_	_	19	amod	_	_
+21-22	du	_	_	_	_	_	_	_	_
+21	de	_	ADP	_	_	23	case	_	_
+22	le	_	DET	_	_	23	det	_	_
+23	système	_	NOUN	_	_	19	nmod	_	_
+24	d'	_	ADP	_	_	25	case	_	_
+25	éclairage	_	NOUN	_	_	23	nmod	_	_
+26-27	au	_	_	_	_	_	_	_	_
+26	à	_	ADP	_	_	28	case	_	_
+27	le	_	DET	_	_	28	det	_	_
+28	kérosène	_	NOUN	_	_	25	nmod	_	_
+29	.	_	PUNCT	_	_	10	punct	_	_
 
 # sentid: fr-ud-test_00149
 # sentence-text: Ce dimanche 30, à Pleumeur-Bodou, sur le site de Cosmopolis.
@@ -4916,22 +4897,21 @@
 
 # sentid: fr-ud-test_00162
 # sentence-text: Faut-il éviter de se rendre dans les pays du sous-continent indien ?
-1	Faut	_	AUX	_	_	4	aux	_	_
-2	-	_	PUNCT	_	_	4	punct	_	_
-3	il	_	PRON	_	_	4	nsubj	_	_
-4	éviter	_	VERB	_	_	0	root	_	_
-5	de	_	ADP	_	_	7	case	_	_
-6	se	_	PRON	_	_	7	dobj	_	_
-7	rendre	_	VERB	_	_	4	acl	_	_
-8	dans	_	ADP	_	_	10	case	_	_
-9	les	_	DET	_	_	10	det	_	_
-10	pays	_	NOUN	_	_	7	nmod	_	_
-11-12	du	_	_	_	_	_	_	_	_
-11	de	_	ADP	_	_	13	case	_	_
-12	le	_	DET	_	_	13	det	_	_
-13	sous-continent	_	NOUN	_	_	10	nmod	_	_
-14	indien	_	ADJ	_	_	13	amod	_	_
-15	?	_	PUNCT	_	_	4	punct	_	_
+1	Faut	_	AUX	_	_	3	aux	_	_
+2	-il	_	PRON	_	_	3	nsubj	_	_
+3	éviter	_	VERB	_	_	0	root	_	_
+4	de	_	ADP	_	_	6	case	_	_
+5	se	_	PRON	_	_	6	dobj	_	_
+6	rendre	_	VERB	_	_	3	acl	_	_
+7	dans	_	ADP	_	_	9	case	_	_
+8	les	_	DET	_	_	9	det	_	_
+9	pays	_	NOUN	_	_	6	nmod	_	_
+10-11	du	_	_	_	_	_	_	_	_
+10	de	_	ADP	_	_	12	case	_	_
+11	le	_	DET	_	_	12	det	_	_
+12	sous-continent	_	NOUN	_	_	9	nmod	_	_
+13	indien	_	ADJ	_	_	12	amod	_	_
+14	?	_	PUNCT	_	_	3	punct	_	_
 
 # sentid: fr-ud-test_00163
 # sentence-text: Celle-ci a également perdu du terrain sur l'euro, l'EUR/GBP prenant 0.27% pour se hisser à 0.8647.
@@ -5453,7 +5433,7 @@
 # sentid: fr-ud-test_00181
 # sentence-text: Pour souligner les 35 ans du Théâtre du Trillium, la directrice artistique Anne-Marie White a décidé de faire éclater le quatrième mur entre les artistes et le public.
 1	Pour	_	ADP	_	_	2	mark	_	_
-2	souligner	_	VERB	_	_	21	advcl	_	_
+2	souligner	_	VERB	_	_	19	advcl	_	_
 3	les	_	DET	_	_	5	det	_	_
 4	35	_	NUM	_	_	5	nummod	_	_
 5	ans	_	NOUN	_	_	2	dobj	_	_
@@ -5465,29 +5445,27 @@
 9	de	_	ADP	_	_	11	case	_	_
 10	le	_	DET	_	_	11	det	_	_
 11	Trillium	_	PROPN	_	_	8	nmod	_	_
-12	,	_	PUNCT	_	_	21	punct	_	_
+12	,	_	PUNCT	_	_	19	punct	_	_
 13	la	_	DET	_	_	14	det	_	_
-14	directrice	_	NOUN	_	_	21	nsubj	_	_
+14	directrice	_	NOUN	_	_	19	nsubj	_	_
 15	artistique	_	ADJ	_	_	14	amod	_	_
-16	Anne	_	PROPN	_	_	19	name	_	_
-17	-	_	PUNCT	_	_	19	punct	_	_
-18	Marie	_	PROPN	_	_	19	name	_	_
-19	White	_	PROPN	_	_	14	appos	_	_
-20	a	_	AUX	_	_	21	aux	_	_
-21	décidé	_	VERB	_	_	0	root	_	_
-22	de	_	ADP	_	_	23	case	_	_
-23	faire	_	VERB	_	_	21	acl	_	_
-24	éclater	_	VERB	_	_	23	xcomp	_	_
-25	le	_	DET	_	_	27	det	_	_
-26	quatrième	_	ADJ	_	_	27	amod	_	_
-27	mur	_	NOUN	_	_	24	dobj	_	_
-28	entre	_	ADP	_	_	30	case	_	_
-29	les	_	DET	_	_	30	det	_	_
-30	artistes	_	NOUN	_	_	27	nmod	_	_
-31	et	_	CONJ	_	_	30	cc	_	_
-32	le	_	DET	_	_	33	det	_	_
-33	public	_	NOUN	_	_	30	conj	_	_
-34	.	_	PUNCT	_	_	21	punct	_	_
+16	Anne-Marie	_	PROPN	_	_	17	name	_	_
+17	White	_	PROPN	_	_	14	appos	_	_
+18	a	_	AUX	_	_	19	aux	_	_
+19	décidé	_	VERB	_	_	0	root	_	_
+20	de	_	ADP	_	_	21	case	_	_
+21	faire	_	VERB	_	_	19	acl	_	_
+22	éclater	_	VERB	_	_	21	xcomp	_	_
+23	le	_	DET	_	_	25	det	_	_
+24	quatrième	_	ADJ	_	_	25	amod	_	_
+25	mur	_	NOUN	_	_	22	dobj	_	_
+26	entre	_	ADP	_	_	28	case	_	_
+27	les	_	DET	_	_	28	det	_	_
+28	artistes	_	NOUN	_	_	25	nmod	_	_
+29	et	_	CONJ	_	_	28	cc	_	_
+30	le	_	DET	_	_	31	det	_	_
+31	public	_	NOUN	_	_	28	conj	_	_
+32	.	_	PUNCT	_	_	19	punct	_	_
 
 # sentid: fr-ud-test_00182
 # sentence-text: Mardi midi, l'automobiliste était toujours en garde à vue.
@@ -5609,9 +5587,8 @@
 24	attente	_	NOUN	_	_	22	nmod	_	_
 25	,	_	PUNCT	_	_	12	punct	_	_
 26	sourit	_	VERB	_	_	12	parataxis	_	_
-27	-	_	PUNCT	_	_	28	punct	_	_
-28	elle	_	PRON	_	_	26	nsubj	_	_
-29	.	_	PUNCT	_	_	12	punct	_	_
+27	-elle	_	PRON	_	_	26	nsubj	_	_
+28	.	_	PUNCT	_	_	12	punct	_	_
 
 # sentid: fr-ud-test_00188
 # sentence-text: Annoncé hier matin--dans les colonnes de L'Indépendant--comme un postulant sérieux à la succession de Franck Azéma qui s'apprête à rejoindre Clermont au terme de l'exercice actuel, il souligne dans un premier temps : " Il y a bien de la fumée, mais c'est sans feu !
@@ -5759,20 +5736,19 @@
 
 # sentid: fr-ud-test_00191
 # sentence-text: Peut-être serait-il plus libérateur de crier bien fort : OUACHE !...
-1	Peut-être	_	X	_	_	6	advmod	_	_
-2	serait	_	VERB	_	_	6	cop	_	_
-3	-	_	PUNCT	_	_	6	punct	_	_
-4	il	_	PRON	_	_	6	nsubj	_	_
-5	plus	_	ADV	_	_	6	advmod	_	_
-6	libérateur	_	ADJ	_	_	0	root	_	_
-7	de	_	ADP	_	_	8	case	_	_
-8	crier	_	VERB	_	_	6	acl	_	_
-9	bien	_	ADV	_	_	10	advmod	_	_
-10	fort	_	ADV	_	_	8	advmod	_	_
-11	:	_	PUNCT	_	_	8	punct	_	_
-12	OUACHE	_	INTJ	_	_	8	discourse	_	_
-13	!	_	PUNCT	_	_	8	punct	_	_
-14	...	_	PUNCT	_	_	6	punct	_	_
+1	Peut-être	_	X	_	_	5	advmod	_	_
+2	serait	_	VERB	_	_	5	cop	_	_
+3	-il	_	PRON	_	_	5	nsubj	_	_
+4	plus	_	ADV	_	_	5	advmod	_	_
+5	libérateur	_	ADJ	_	_	0	root	_	_
+6	de	_	ADP	_	_	7	case	_	_
+7	crier	_	VERB	_	_	5	acl	_	_
+8	bien	_	ADV	_	_	9	advmod	_	_
+9	fort	_	ADV	_	_	7	advmod	_	_
+10	:	_	PUNCT	_	_	7	punct	_	_
+11	OUACHE	_	INTJ	_	_	7	discourse	_	_
+12	!	_	PUNCT	_	_	7	punct	_	_
+13	...	_	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-test_00192
 # sentence-text: Une marge nette d'intérêts solide et le contrôle des coûts ont permis au groupe, malgré la crise, de faire croître son bénéfice net de 0,7% en 2009 à 8,943 milliards d'euros, malgré 9,484 milliards de provisions pour créances douteuses.
@@ -7564,10 +7540,8 @@
 19-20	au	_	_	_	_	_	_	_	_
 19	à	_	ADP	_	_	21	case	_	_
 20	le	_	DET	_	_	21	det	_	_
-21	rendez	_	NOUN	_	_	18	nmod	_	_
-22	-	_	PUNCT	_	_	21	punct	_	_
-23	vous	_	PRON	_	_	21	mwe	_	_
-24	!	_	PUNCT	_	_	3	punct	_	_
+21	rendez-vous	_	NOUN	_	_	18	nmod	_	_
+22	!	_	PUNCT	_	_	3	punct	_	_
 
 # sentid: fr-ud-test_00273
 # sentence-text: On y retourne cet été !

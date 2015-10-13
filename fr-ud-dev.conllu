@@ -3170,26 +3170,25 @@
 
 # sentid: fr-ud-dev_00114
 # sentence-text: Sont-ils impuissants, voire incompétents, pour résoudre les problèmes politiques à l'intérieur de leur territoire ?
-1	Sont	_	VERB	_	_	4	cop	_	_
-2	-	_	PUNCT	_	_	4	punct	_	_
-3	ils	_	PRON	_	_	4	nsubj	_	_
-4	impuissants	_	ADJ	_	_	0	root	_	_
-5	,	_	PUNCT	_	_	4	punct	_	_
-6	voire	_	SCONJ	_	_	4	cc	_	_
-7	incompétents	_	ADJ	_	_	4	conj	_	_
-8	,	_	PUNCT	_	_	4	punct	_	_
-9	pour	_	ADP	_	_	10	case	_	_
-10	résoudre	_	VERB	_	_	4	acl	_	_
-11	les	_	DET	_	_	12	det	_	_
-12	problèmes	_	NOUN	_	_	10	dobj	_	_
-13	politiques	_	ADJ	_	_	12	amod	_	_
-14	à	_	ADP	_	_	16	case	_	_
-15	l'	_	DET	_	_	16	det	_	_
-16	intérieur	_	NOUN	_	_	12	nmod	_	_
-17	de	_	ADP	_	_	19	case	_	_
-18	leur	_	DET	_	_	19	nmod:poss	_	_
-19	territoire	_	NOUN	_	_	16	nmod	_	_
-20	?	_	PUNCT	_	_	4	punct	_	_
+1	Sont	_	VERB	_	_	3	cop	_	_
+2	-ils	_	PRON	_	_	3	nsubj	_	_
+3	impuissants	_	ADJ	_	_	0	root	_	_
+4	,	_	PUNCT	_	_	3	punct	_	_
+5	voire	_	SCONJ	_	_	3	cc	_	_
+6	incompétents	_	ADJ	_	_	3	conj	_	_
+7	,	_	PUNCT	_	_	3	punct	_	_
+8	pour	_	ADP	_	_	9	case	_	_
+9	résoudre	_	VERB	_	_	3	acl	_	_
+10	les	_	DET	_	_	11	det	_	_
+11	problèmes	_	NOUN	_	_	9	dobj	_	_
+12	politiques	_	ADJ	_	_	11	amod	_	_
+13	à	_	ADP	_	_	15	case	_	_
+14	l'	_	DET	_	_	15	det	_	_
+15	intérieur	_	NOUN	_	_	11	nmod	_	_
+16	de	_	ADP	_	_	18	case	_	_
+17	leur	_	DET	_	_	18	nmod:poss	_	_
+18	territoire	_	NOUN	_	_	15	nmod	_	_
+19	?	_	PUNCT	_	_	3	punct	_	_
 
 # sentid: fr-ud-dev_00115
 # sentence-text: Depuis peu, cette créatrice inspirée fait aussi des chaussures customisées en plus des robes de mariées.
@@ -6090,9 +6089,8 @@
 4	pourquoi	_	ADV	_	_	1	advmod	_	_
 5	Le	_	PRON	_	_	6	dobj	_	_
 6	bénirais	_	VERB	_	_	0	root	_	_
-7	-	_	PUNCT	_	_	8	punct	_	_
-8	je	_	PRON	_	_	6	nsubj	_	_
-9	?	_	PUNCT	_	_	6	punct	_	_
+7	-je	_	PRON	_	_	6	nsubj	_	_
+8	?	_	PUNCT	_	_	6	punct	_	_
 
 # sentid: fr-ud-dev_00223
 # sentence-text: Au-delà de son travail de productrice et de chanteuse, Carey est aussi une auteur et a écrit et produit toutes ses chansons depuis le début de sa carrière.
@@ -7530,32 +7528,28 @@
 13	Maria	_	PROPN	_	_	15	nsubj	_	_
 14	se	_	PRON	_	_	15	dobj	_	_
 15	suicide	_	VERB	_	_	0	root	_	_
-16	-	_	PUNCT	_	_	15	punct	_	_
-17	t	_	PART	_	_	15	expl	_	_
-18	-	_	PUNCT	_	_	15	punct	_	_
-19	elle	_	PRON	_	_	15	expl	_	_
-20	ou	_	CONJ	_	_	15	cc	_	_
-21	s'	_	PRON	_	_	22	dobj	_	_
-22	agit	_	VERB	_	_	15	conj	_	_
-23	-	_	PUNCT	_	_	22	punct	_	_
-24	il	_	PRON	_	_	22	expl	_	_
-25	d'	_	ADP	_	_	27	case	_	_
-26	un	_	DET	_	_	27	det	_	_
-27	accident	_	NOUN	_	_	22	nmod	_	_
-28	domestique	_	ADJ	_	_	27	amod	_	_
-29	quand	_	SCONJ	_	_	37	mark	_	_
-30	une	_	DET	_	_	31	det	_	_
-31	explosion	_	NOUN	_	_	37	nsubj	_	_
-32	due	_	VERB	_	_	31	acl	_	_
-33-34	au	_	_	_	_	_	_	_	_
-33	à	_	ADP	_	_	35	case	_	_
-34	le	_	DET	_	_	35	det	_	_
-35	gaz	_	NOUN	_	_	32	nmod	_	_
-36	la	_	PRON	_	_	37	dobj	_	_
-37	tue	_	VERB	_	_	15	advcl	_	_
-38	chez	_	ADP	_	_	39	case	_	_
-39	elle	_	PRON	_	_	37	nmod	_	_
-40	?	_	PUNCT	_	_	37	punct	_	_
+16	-t-elle	_	PRON	_	_	15	expl	_	_
+17	ou	_	CONJ	_	_	15	cc	_	_
+18	s'	_	PRON	_	_	19	dobj	_	_
+19	agit	_	VERB	_	_	15	conj	_	_
+20	-il	_	PRON	_	_	19	expl	_	_
+21	d'	_	ADP	_	_	23	case	_	_
+22	un	_	DET	_	_	23	det	_	_
+23	accident	_	NOUN	_	_	19	nmod	_	_
+24	domestique	_	ADJ	_	_	23	amod	_	_
+25	quand	_	SCONJ	_	_	33	mark	_	_
+26	une	_	DET	_	_	27	det	_	_
+27	explosion	_	NOUN	_	_	33	nsubj	_	_
+28	due	_	VERB	_	_	27	acl	_	_
+29-30	au	_	_	_	_	_	_	_	_
+29	à	_	ADP	_	_	31	case	_	_
+30	le	_	DET	_	_	31	det	_	_
+31	gaz	_	NOUN	_	_	28	nmod	_	_
+32	la	_	PRON	_	_	33	dobj	_	_
+33	tue	_	VERB	_	_	15	advcl	_	_
+34	chez	_	ADP	_	_	35	case	_	_
+35	elle	_	PRON	_	_	33	nmod	_	_
+36	?	_	PUNCT	_	_	33	punct	_	_
 
 # sentid: fr-ud-dev_00270
 # sentence-text: En outre les salles sont très belles ce qui ne gâte rien.
@@ -9091,12 +9085,11 @@
 # sentence-text: Qu'est-ce qui va augmenter ?
 1	Qu'	_	PRON	_	_	0	root	_	_
 2	est	_	VERB	_	_	1	cop	_	_
-3	-	_	PUNCT	_	_	2	punct	_	_
-4	ce	_	PRON	_	_	1	expl	_	_
-5	qui	_	PRON	_	_	4	mwe	_	_
-6	va	_	AUX	_	_	7	aux	_	_
-7	augmenter	_	VERB	_	_	4	acl:relcl	_	_
-8	?	_	PUNCT	_	_	2	punct	_	_
+3	-ce	_	PRON	_	_	1	expl	_	_
+4	qui	_	PRON	_	_	3	mwe	_	_
+5	va	_	AUX	_	_	6	aux	_	_
+6	augmenter	_	VERB	_	_	3	acl:relcl	_	_
+7	?	_	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-dev_00329
 # sentence-text: Le Premier ministre pakistanais a décrété une demi-journée de congé à cette occasion.
@@ -9578,24 +9571,23 @@
 9	à	_	ADP	_	_	11	case	_	_
 10	la	_	DET	_	_	11	det	_	_
 11	question	_	NOUN	_	_	6	conj	_	_
-12	"	_	PUNCT	_	_	27	punct	_	_
+12	"	_	PUNCT	_	_	26	punct	_	_
 13	les	_	DET	_	_	14	det	_	_
 14	indépendantistes	_	NOUN	_	_	15	nsubj	_	_
-15	demandent	_	VERB	_	_	27	parataxis	_	_
+15	demandent	_	VERB	_	_	26	parataxis	_	_
 16	l'	_	DET	_	_	17	det	_	_
 17	aide	_	NOUN	_	_	15	dobj	_	_
 18	de	_	ADP	_	_	20	case	_	_
 19	l'	_	DET	_	_	20	det	_	_
 20	ONU	_	PROPN	_	_	17	nmod	_	_
 21	,	_	PUNCT	_	_	6	punct	_	_
-22	que	_	PRON	_	_	27	dobj	_	_
-23	pouvez	_	AUX	_	_	27	aux	_	_
-24	-	_	PUNCT	_	_	25	punct	_	_
-25	vous	_	PRON	_	_	27	nsubj	_	_
-26	leur	_	PRON	_	_	27	iobj	_	_
-27	apporter	_	VERB	_	_	11	ccomp	_	_
-28	?	_	PUNCT	_	_	27	punct	_	_
-29	"	_	PUNCT	_	_	27	punct	_	_
+22	que	_	PRON	_	_	26	dobj	_	_
+23	pouvez	_	AUX	_	_	26	aux	_	_
+24	-vous	_	PRON	_	_	26	nsubj	_	_
+25	leur	_	PRON	_	_	26	iobj	_	_
+26	apporter	_	VERB	_	_	11	ccomp	_	_
+27	?	_	PUNCT	_	_	26	punct	_	_
+28	"	_	PUNCT	_	_	26	punct	_	_
 
 # sentid: fr-ud-dev_00348
 # sentence-text: Le groupe de travail correspondant à l'IETF a permis la création des RFC 2246 pour le TLS et RFC 4347 pour son équivalent en mode datagramme, le DTLS.
@@ -9652,28 +9644,27 @@
 
 # sentid: fr-ud-dev_00350
 # sentence-text: Pourquoi, d'ailleurs, les préservatifs seraient-ils détenus par la femme, alors qu'ils concernent l'homme ?
-1	Pourquoi	_	ADV	_	_	11	advmod	_	_
-2	,	_	PUNCT	_	_	11	punct	_	_
+1	Pourquoi	_	ADV	_	_	10	advmod	_	_
+2	,	_	PUNCT	_	_	10	punct	_	_
 3	d'	_	ADP	_	_	4	mwe	_	_
-4	ailleurs	_	ADV	_	_	11	advmod	_	_
-5	,	_	PUNCT	_	_	11	punct	_	_
+4	ailleurs	_	ADV	_	_	10	advmod	_	_
+5	,	_	PUNCT	_	_	10	punct	_	_
 6	les	_	DET	_	_	7	det	_	_
-7	préservatifs	_	NOUN	_	_	11	nsubjpass	_	_
-8	seraient	_	AUX	_	_	11	auxpass	_	_
-9	-	_	PUNCT	_	_	10	punct	_	_
-10	ils	_	PRON	_	_	11	nsubjpass	_	_
-11	détenus	_	VERB	_	_	0	root	_	_
-12	par	_	ADP	_	_	11	case	_	_
-13	la	_	DET	_	_	14	det	_	_
-14	femme	_	NOUN	_	_	12	case	_	_
-15	,	_	PUNCT	_	_	11	punct	_	_
-16	alors	_	ADV	_	_	19	mark	_	_
-17	qu'	_	SCONJ	_	_	16	mwe	_	_
-18	ils	_	PRON	_	_	19	nsubj	_	_
-19	concernent	_	VERB	_	_	11	advcl	_	_
-20	l'	_	DET	_	_	21	det	_	_
-21	homme	_	NOUN	_	_	19	dobj	_	_
-22	?	_	PUNCT	_	_	11	punct	_	_
+7	préservatifs	_	NOUN	_	_	10	nsubjpass	_	_
+8	seraient	_	AUX	_	_	10	auxpass	_	_
+9	-ils	_	PRON	_	_	10	nsubjpass	_	_
+10	détenus	_	VERB	_	_	0	root	_	_
+11	par	_	ADP	_	_	10	case	_	_
+12	la	_	DET	_	_	13	det	_	_
+13	femme	_	NOUN	_	_	11	case	_	_
+14	,	_	PUNCT	_	_	10	punct	_	_
+15	alors	_	ADV	_	_	18	mark	_	_
+16	qu'	_	SCONJ	_	_	15	mwe	_	_
+17	ils	_	PRON	_	_	18	nsubj	_	_
+18	concernent	_	VERB	_	_	10	advcl	_	_
+19	l'	_	DET	_	_	20	det	_	_
+20	homme	_	NOUN	_	_	18	dobj	_	_
+21	?	_	PUNCT	_	_	10	punct	_	_
 
 # sentid: fr-ud-dev_00351
 # sentence-text: La tribu est peuplée de 700 habitants environ.
@@ -11848,17 +11839,16 @@
 # sentence-text: « Est-ce qu'il y a un poème ce matin ?
 1	«	_	PUNCT	_	_	2	punct	_	_
 2	Est	_	PROPN	_	_	0	root	_	_
-3	-	_	PUNCT	_	_	2	punct	_	_
-4	ce	_	PRON	_	_	2	nsubj	_	_
-5	qu'	_	PRON	_	_	8	mark	_	_
-6	il	_	PRON	_	_	8	nsubj	_	_
-7	y	_	PRON	_	_	8	expl	_	_
-8	a	_	VERB	_	_	2	ccomp	_	_
-9	un	_	DET	_	_	10	det	_	_
-10	poème	_	NOUN	_	_	12	nsubj	_	_
-11	ce	_	DET	_	_	12	det	_	_
-12	matin	_	NOUN	_	_	8	xcomp	_	_
-13	?	_	PUNCT	_	_	2	punct	_	_
+3	-ce	_	PRON	_	_	2	nsubj	_	_
+4	qu'	_	PRON	_	_	7	mark	_	_
+5	il	_	PRON	_	_	7	nsubj	_	_
+6	y	_	PRON	_	_	7	expl	_	_
+7	a	_	VERB	_	_	2	ccomp	_	_
+8	un	_	DET	_	_	9	det	_	_
+9	poème	_	NOUN	_	_	11	nsubj	_	_
+10	ce	_	DET	_	_	11	det	_	_
+11	matin	_	NOUN	_	_	7	xcomp	_	_
+12	?	_	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-dev_00431
 # sentence-text: Plus tard un second atterrissage est effectué par Maryse Hilsz, accompagnée de Maurice Dronne, le 9 avril 1932 avec un F291 qui redécolla immédiatement.
@@ -14065,15 +14055,12 @@
 43	le	_	DET	_	_	44	det	_	_
 44	Japon	_	PROPN	_	_	41	nmod	_	_
 45	,	_	PUNCT	_	_	7	punct	_	_
-46	a	_	AUX	_	_	51	aux	_	_
-47	-	_	PUNCT	_	_	48	punct	_	_
-48	t	_	PART	_	_	50	expl	_	_
-49	-	_	PUNCT	_	_	48	punct	_	_
-50	il	_	PRON	_	_	51	nsubj	_	_
-51	indiqué	_	VERB	_	_	7	parataxis	_	_
-52	vendredi	_	NOUN	_	_	51	nmod	_	_
-53	soir	_	NOUN	_	_	52	compound	_	_
-54	.	_	PUNCT	_	_	7	punct	_	_
+46	a	_	AUX	_	_	48	aux	_	_
+47	-t-il	_	PRON	_	_	48	nsubj	_	_
+48	indiqué	_	VERB	_	_	7	parataxis	_	_
+49	vendredi	_	NOUN	_	_	48	nmod	_	_
+50	soir	_	NOUN	_	_	49	compound	_	_
+51	.	_	PUNCT	_	_	7	punct	_	_
 
 # sentid: fr-ud-dev_00509
 # sentence-text: La France a signé une quarantaine de conventions fiscales en matière de successions et moins d'une dizaine de conventions en matière de donations.
@@ -15821,7 +15808,7 @@
 # sentid: fr-ud-dev_00569
 # sentence-text: Son successeur à la mairie et premier adjoint durant seize ans, Jean-Louis Schneiter, se présente aux élections municipales de 2001 en tant que divers droite alors que le député Jean-Claude Thomas se porte candidat avec le soutien de l'ancien maire.
 1	Son	_	DET	_	_	2	nmod:poss	_	_
-2	successeur	_	NOUN	_	_	19	nsubj	_	_
+2	successeur	_	NOUN	_	_	17	nsubj	_	_
 3	à	_	ADP	_	_	5	case	_	_
 4	la	_	DET	_	_	5	det	_	_
 5	mairie	_	PROPN	_	_	2	nmod	_	_
@@ -15831,45 +15818,41 @@
 9	durant	_	ADP	_	_	11	case	_	_
 10	seize	_	NUM	_	_	11	nummod	_	_
 11	ans	_	NOUN	_	_	8	nmod	_	_
-12	,	_	PUNCT	_	_	19	punct	_	_
-13	Jean	_	PROPN	_	_	16	name	_	_
-14	-	_	PUNCT	_	_	16	punct	_	_
-15	Louis	_	PROPN	_	_	16	name	_	_
-16	Schneiter	_	PROPN	_	_	2	appos	_	_
-17	,	_	PUNCT	_	_	16	punct	_	_
-18	se	_	PRON	_	_	19	dobj	_	_
-19	présente	_	VERB	_	_	0	root	_	_
-20-21	aux	_	_	_	_	_	_	_	_
-20	à	_	ADP	_	_	22	case	_	_
-21	les	_	DET	_	_	22	det	_	_
-22	élections	_	NOUN	_	_	19	nmod	_	_
-23	municipales	_	ADJ	_	_	22	amod	_	_
-24	de	_	ADP	_	_	25	case	_	_
-25	2001	_	NUM	_	_	22	nmod	_	_
-26	en	_	ADP	_	_	27	mwe	_	_
-27	tant	_	ADV	_	_	29	case	_	_
-28	que	_	SCONJ	_	_	27	mwe	_	_
-29	divers	_	DET	_	_	30	det	_	_
-30	droite	_	NOUN	_	_	19	nmod	_	_
-31	alors	_	ADV	_	_	32	mwe	_	_
-32	que	_	SCONJ	_	_	40	mark	_	_
-33	le	_	DET	_	_	34	det	_	_
-34	député	_	NOUN	_	_	40	nsubj	_	_
-35	Jean	_	PROPN	_	_	38	name	_	_
-36	-	_	PUNCT	_	_	38	punct	_	_
-37	Claude	_	PROPN	_	_	38	name	_	_
-38	Thomas	_	PROPN	_	_	34	appos	_	_
-39	se	_	PRON	_	_	40	dobj	_	_
-40	porte	_	VERB	_	_	19	advcl	_	_
-41	candidat	_	NOUN	_	_	40	dobj	_	_
-42	avec	_	ADP	_	_	44	case	_	_
-43	le	_	DET	_	_	44	det	_	_
-44	soutien	_	NOUN	_	_	40	nmod	_	_
-45	de	_	ADP	_	_	48	case	_	_
-46	l'	_	DET	_	_	48	det	_	_
-47	ancien	_	ADJ	_	_	48	amod	_	_
-48	maire	_	NOUN	_	_	44	nmod	_	_
-49	.	_	PUNCT	_	_	19	punct	_	_
+12	,	_	PUNCT	_	_	17	punct	_	_
+13	Jean-Louis	_	PROPN	_	_	14	name	_	_
+14	Schneiter	_	PROPN	_	_	2	appos	_	_
+15	,	_	PUNCT	_	_	14	punct	_	_
+16	se	_	PRON	_	_	17	dobj	_	_
+17	présente	_	VERB	_	_	0	root	_	_
+18-19	aux	_	_	_	_	_	_	_	_
+18	à	_	ADP	_	_	20	case	_	_
+19	les	_	DET	_	_	20	det	_	_
+20	élections	_	NOUN	_	_	17	nmod	_	_
+21	municipales	_	ADJ	_	_	20	amod	_	_
+22	de	_	ADP	_	_	23	case	_	_
+23	2001	_	NUM	_	_	20	nmod	_	_
+24	en	_	ADP	_	_	25	mwe	_	_
+25	tant	_	ADV	_	_	27	case	_	_
+26	que	_	SCONJ	_	_	25	mwe	_	_
+27	divers	_	DET	_	_	28	det	_	_
+28	droite	_	NOUN	_	_	17	nmod	_	_
+29	alors	_	ADV	_	_	30	mwe	_	_
+30	que	_	SCONJ	_	_	36	mark	_	_
+31	le	_	DET	_	_	32	det	_	_
+32	député	_	NOUN	_	_	36	nsubj	_	_
+33	Jean-Claude	_	PROPN	_	_	34	name	_	_
+34	Thomas	_	PROPN	_	_	32	appos	_	_
+35	se	_	PRON	_	_	36	dobj	_	_
+36	porte	_	VERB	_	_	17	advcl	_	_
+37	candidat	_	NOUN	_	_	36	dobj	_	_
+38	avec	_	ADP	_	_	40	case	_	_
+39	le	_	DET	_	_	40	det	_	_
+40	soutien	_	NOUN	_	_	36	nmod	_	_
+41	de	_	ADP	_	_	44	case	_	_
+42	l'	_	DET	_	_	44	det	_	_
+43	ancien	_	ADJ	_	_	44	amod	_	_
+44	maire	_	NOUN	_	_	40	nmod	_	_
+45	.	_	PUNCT	_	_	17	punct	_	_
 
 # sentid: fr-ud-dev_00570
 # sentence-text: Parmi ces ouvrages, citons le Tunnel de Rebaix et le Tunnel du Bois d'Houtaing (entre Ath et Frasnes-lez-Anvaing).
@@ -16872,17 +16855,14 @@
 # sentid: fr-ud-dev_00608
 # sentence-text: Va-t-il se circonscrire à cette seule matière ?
 1	Va	_	VERB	_	_	0	root	_	_
-2	-	_	PUNCT	_	_	3	punct	_	_
-3	t	_	PART	_	_	1	expl	_	_
-4	-	_	PUNCT	_	_	3	punct	_	_
-5	il	_	PRON	_	_	1	nsubj	_	_
-6	se	_	PRON	_	_	7	dobj	_	_
-7	circonscrire	_	VERB	_	_	1	xcomp	_	_
-8	à	_	ADP	_	_	11	case	_	_
-9	cette	_	DET	_	_	11	det	_	_
-10	seule	_	ADJ	_	_	11	amod	_	_
-11	matière	_	NOUN	_	_	7	nmod	_	_
-12	?	_	PUNCT	_	_	1	punct	_	_
+2	-t-il	_	PRON	_	_	1	nsubj	_	_
+3	se	_	PRON	_	_	4	dobj	_	_
+4	circonscrire	_	VERB	_	_	1	xcomp	_	_
+5	à	_	ADP	_	_	8	case	_	_
+6	cette	_	DET	_	_	8	det	_	_
+7	seule	_	ADJ	_	_	8	amod	_	_
+8	matière	_	NOUN	_	_	4	nmod	_	_
+9	?	_	PUNCT	_	_	1	punct	_	_
 
 # sentid: fr-ud-dev_00609
 # sentence-text: Ses poèmes sont écrits avec une facilité, une grâce et un abandon qui rappellent la manière de Cats, celui de tous les poètes des provinces septentrionales qui eut le plus de lecteurs et d'imitateurs en Flandre et au Brabant.
@@ -17281,27 +17261,26 @@
 16	rongé	_	VERB	_	_	1	acl	_	_
 17	"	_	PUNCT	_	_	16	punct	_	_
 18	,	_	PUNCT	_	_	16	punct	_	_
-19	avait	_	AUX	_	_	22	aux	_	_
-20	-	_	PUNCT	_	_	21	punct	_	_
-21	il	_	PRON	_	_	22	nsubj	_	_
-22	dit	_	VERB	_	_	16	parataxis	_	_
-23	,	_	PUNCT	_	_	16	punct	_	_
-24	"	_	PUNCT	_	_	25	punct	_	_
-25	par	_	ADP	_	_	16	case	_	_
-26	les	_	DET	_	_	27	det	_	_
-27	visages	_	NOUN	_	_	25	case	_	_
-28	de	_	ADP	_	_	30	case	_	_
-29	tous	_	DET	_	_	30	det	_	_
-30	ceux	_	PRON	_	_	27	nmod	_	_
-31	que	_	PRON	_	_	37	dobj	_	_
-32	je	_	PRON	_	_	37	nsubj	_	_
-33	n'	_	PART	_	_	37	neg	_	_
-34	ai	_	AUX	_	_	37	aux	_	_
-35	pas	_	ADV	_	_	37	neg	_	_
-36	pu	_	AUX	_	_	37	aux	_	_
-37	sauver	_	VERB	_	_	30	acl:relcl	_	_
-38	"	_	PUNCT	_	_	25	punct	_	_
-39	.	_	PUNCT	_	_	2	punct	_	_
+19	avait	_	AUX	_	_	21	aux	_	_
+20	-il	_	PRON	_	_	21	nsubj	_	_
+21	dit	_	VERB	_	_	16	parataxis	_	_
+22	,	_	PUNCT	_	_	16	punct	_	_
+23	"	_	PUNCT	_	_	24	punct	_	_
+24	par	_	ADP	_	_	16	case	_	_
+25	les	_	DET	_	_	26	det	_	_
+26	visages	_	NOUN	_	_	24	case	_	_
+27	de	_	ADP	_	_	29	case	_	_
+28	tous	_	DET	_	_	29	det	_	_
+29	ceux	_	PRON	_	_	26	nmod	_	_
+30	que	_	PRON	_	_	36	dobj	_	_
+31	je	_	PRON	_	_	36	nsubj	_	_
+32	n'	_	PART	_	_	36	neg	_	_
+33	ai	_	AUX	_	_	36	aux	_	_
+34	pas	_	ADV	_	_	36	neg	_	_
+35	pu	_	AUX	_	_	36	aux	_	_
+36	sauver	_	VERB	_	_	29	acl:relcl	_	_
+37	"	_	PUNCT	_	_	24	punct	_	_
+38	.	_	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-dev_00623
 # sentence-text: Je suis effaré par l'incompétence du groupe Conforama.
@@ -17957,13 +17936,10 @@
 # sentid: fr-ud-dev_00648
 # sentence-text: Laquelle a-t-elle été ?
 1	Laquelle	_	PRON	_	_	0	root	_	_
-2	a	_	AUX	_	_	7	aux	_	_
-3	-	_	PUNCT	_	_	4	punct	_	_
-4	t	_	PART	_	_	6	expl	_	_
-5	-	_	PUNCT	_	_	4	punct	_	_
-6	elle	_	PRON	_	_	1	nsubj	_	_
-7	été	_	VERB	_	_	1	cop	_	_
-8	?	_	PUNCT	_	_	1	punct	_	_
+2	a	_	AUX	_	_	4	aux	_	_
+3	-t-elle	_	PRON	_	_	1	nsubj	_	_
+4	été	_	VERB	_	_	1	cop	_	_
+5	?	_	PUNCT	_	_	1	punct	_	_
 
 # sentid: fr-ud-dev_00649
 # sentence-text: Le château de Herces est un château français de style néoclassique situé dans l'actuelle commune de Berchères-sur-Vesgre dans l'actuel département d'Eure-et-Loir et la région Centre.
@@ -18202,27 +18178,26 @@
 # sentid: fr-ud-dev_00656
 # sentence-text: À peine avait-il distribué les armes, qu'il eut à repousser l'attaque d'un parti de Uhlans.
 1	À	_	ADP	_	_	2	case	_	_
-2	peine	_	NOUN	_	_	6	nmod	_	_
-3	avait	_	AUX	_	_	6	aux	_	_
-4	-	_	PUNCT	_	_	6	punct	_	_
-5	il	_	PRON	_	_	6	nsubj	_	_
-6	distribué	_	VERB	_	_	0	root	_	_
-7	les	_	DET	_	_	8	det	_	_
-8	armes	_	NOUN	_	_	6	dobj	_	_
-9	,	_	PUNCT	_	_	6	punct	_	_
-10	qu'	_	SCONJ	_	_	12	mark	_	_
-11	il	_	PRON	_	_	12	nsubj	_	_
-12	eut	_	VERB	_	_	6	ccomp	_	_
-13	à	_	ADP	_	_	14	case	_	_
-14	repousser	_	VERB	_	_	12	acl	_	_
-15	l'	_	DET	_	_	16	det	_	_
-16	attaque	_	NOUN	_	_	14	dobj	_	_
-17	d'	_	ADP	_	_	19	case	_	_
-18	un	_	DET	_	_	19	det	_	_
-19	parti	_	NOUN	_	_	16	nmod	_	_
-20	de	_	ADP	_	_	21	case	_	_
-21	Uhlans	_	PROPN	_	_	19	nmod	_	_
-22	.	_	PUNCT	_	_	6	punct	_	_
+2	peine	_	NOUN	_	_	5	nmod	_	_
+3	avait	_	AUX	_	_	5	aux	_	_
+4	-il	_	PRON	_	_	5	nsubj	_	_
+5	distribué	_	VERB	_	_	0	root	_	_
+6	les	_	DET	_	_	7	det	_	_
+7	armes	_	NOUN	_	_	5	dobj	_	_
+8	,	_	PUNCT	_	_	5	punct	_	_
+9	qu'	_	SCONJ	_	_	11	mark	_	_
+10	il	_	PRON	_	_	11	nsubj	_	_
+11	eut	_	VERB	_	_	5	ccomp	_	_
+12	à	_	ADP	_	_	13	case	_	_
+13	repousser	_	VERB	_	_	11	acl	_	_
+14	l'	_	DET	_	_	15	det	_	_
+15	attaque	_	NOUN	_	_	13	dobj	_	_
+16	d'	_	ADP	_	_	18	case	_	_
+17	un	_	DET	_	_	18	det	_	_
+18	parti	_	NOUN	_	_	15	nmod	_	_
+19	de	_	ADP	_	_	20	case	_	_
+20	Uhlans	_	PROPN	_	_	18	nmod	_	_
+21	.	_	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-dev_00657
 # sentence-text: Depuis l'âge de 15 ans il façonne le bois afin de réaliser ou de restaurer les plus beaux instruments du quatuor (alto, violon, violoncelle, contrebasse).
@@ -18333,24 +18308,23 @@
 
 # sentid: fr-ud-dev_00661
 # sentence-text: Wotan n'est-il pas devenu son propre adversaire en accomplissant les vœux de la déesse ?
-1	Wotan	_	PROPN	_	_	10	nsubj	_	_
-2	n'	_	PART	_	_	7	neg	_	_
-3	est	_	AUX	_	_	7	aux	_	_
-4	-	_	PUNCT	_	_	10	punct	_	_
-5	il	_	PRON	_	_	10	expl	_	_
-6	pas	_	ADV	_	_	10	neg	_	_
-7	devenu	_	VERB	_	_	10	cop	_	_
-8	son	_	DET	_	_	10	nmod:poss	_	_
-9	propre	_	ADJ	_	_	10	amod	_	_
-10	adversaire	_	NOUN	_	_	0	root	_	_
-11	en	_	ADP	_	_	12	mark	_	_
-12	accomplissant	_	VERB	_	_	10	advcl	_	_
-13	les	_	DET	_	_	14	det	_	_
-14	vœux	_	NOUN	_	_	12	dobj	_	_
-15	de	_	ADP	_	_	17	case	_	_
-16	la	_	DET	_	_	17	det	_	_
-17	déesse	_	NOUN	_	_	14	nmod	_	_
-18	?	_	PUNCT	_	_	10	punct	_	_
+1	Wotan	_	PROPN	_	_	9	nsubj	_	_
+2	n'	_	PART	_	_	6	neg	_	_
+3	est	_	AUX	_	_	6	aux	_	_
+4	-il	_	PRON	_	_	9	expl	_	_
+5	pas	_	ADV	_	_	9	neg	_	_
+6	devenu	_	VERB	_	_	9	cop	_	_
+7	son	_	DET	_	_	9	nmod:poss	_	_
+8	propre	_	ADJ	_	_	9	amod	_	_
+9	adversaire	_	NOUN	_	_	0	root	_	_
+10	en	_	ADP	_	_	11	mark	_	_
+11	accomplissant	_	VERB	_	_	9	advcl	_	_
+12	les	_	DET	_	_	13	det	_	_
+13	vœux	_	NOUN	_	_	11	dobj	_	_
+14	de	_	ADP	_	_	16	case	_	_
+15	la	_	DET	_	_	16	det	_	_
+16	déesse	_	NOUN	_	_	13	nmod	_	_
+17	?	_	PUNCT	_	_	9	punct	_	_
 
 # sentid: fr-ud-dev_00662
 # sentence-text: Les seuls membres survivants de la famille Escors est passé de Gérone à Cadix dans le milieu des années 1800.
@@ -20619,25 +20593,24 @@
 # sentid: fr-ud-dev_00749
 # sentence-text: Attardons-nous désormais sur la Une du quotidien « L'Economiste » de 31 mai 2011.
 1	Attardons	_	VERB	_	_	0	root	_	_
-2	-	_	PUNCT	_	_	1	punct	_	_
-3	nous	_	PRON	_	_	1	dobj	_	_
-4	désormais	_	ADV	_	_	1	advmod	_	_
-5	sur	_	ADP	_	_	7	case	_	_
-6	la	_	DET	_	_	7	det	_	_
-7	Une	_	NOUN	_	_	1	nmod	_	_
-8-9	du	_	_	_	_	_	_	_	_
-8	de	_	ADP	_	_	10	case	_	_
-9	le	_	DET	_	_	10	det	_	_
-10	quotidien	_	NOUN	_	_	7	nmod	_	_
-11	«	_	PUNCT	_	_	13	punct	_	_
-12	L'	_	DET	_	_	13	det	_	_
-13	Economiste	_	PROPN	_	_	10	appos	_	_
-14	»	_	PUNCT	_	_	13	punct	_	_
-15	de	_	ADP	_	_	17	case	_	_
-16	31	_	NUM	_	_	17	nmod	_	_
-17	mai	_	NOUN	_	_	10	nmod	_	_
-18	2011	_	NUM	_	_	17	nmod	_	_
-19	.	_	PUNCT	_	_	1	punct	_	_
+2	-nous	_	PRON	_	_	1	dobj	_	_
+3	désormais	_	ADV	_	_	1	advmod	_	_
+4	sur	_	ADP	_	_	6	case	_	_
+5	la	_	DET	_	_	6	det	_	_
+6	Une	_	NOUN	_	_	1	nmod	_	_
+7-8	du	_	_	_	_	_	_	_	_
+7	de	_	ADP	_	_	9	case	_	_
+8	le	_	DET	_	_	9	det	_	_
+9	quotidien	_	NOUN	_	_	6	nmod	_	_
+10	«	_	PUNCT	_	_	12	punct	_	_
+11	L'	_	DET	_	_	12	det	_	_
+12	Economiste	_	PROPN	_	_	9	appos	_	_
+13	»	_	PUNCT	_	_	12	punct	_	_
+14	de	_	ADP	_	_	16	case	_	_
+15	31	_	NUM	_	_	16	nmod	_	_
+16	mai	_	NOUN	_	_	9	nmod	_	_
+17	2011	_	NUM	_	_	16	nmod	_	_
+18	.	_	PUNCT	_	_	1	punct	_	_
 
 # sentid: fr-ud-dev_00750
 # sentence-text: Les sites de paris sportifs placent tout de même les Français dans le rôle de favori (voir notre comparateur de cotes).
@@ -22455,27 +22428,25 @@
 16	Rumi	_	PROPN	_	_	13	nmod	_	_
 17	dirigé	_	VERB	_	_	13	acl	_	_
 18	par	_	ADP	_	_	17	case	_	_
-19	Jean	_	PROPN	_	_	22	name	_	_
-20	-	_	PUNCT	_	_	22	punct	_	_
-21	Claude	_	PROPN	_	_	22	name	_	_
-22	Migeot	_	PROPN	_	_	18	case	_	_
-23	et	_	CONJ	_	_	4	cc	_	_
-24	présente	_	VERB	_	_	4	conj	_	_
-25	des	_	DET	_	_	26	det	_	_
-26	pontons	_	NOUN	_	_	24	dobj	_	_
-27	dont	_	PRON	_	_	29	nmod	_	_
-28	le	_	DET	_	_	29	det	_	_
-29	bord	_	NOUN	_	_	33	nsubjpass	_	_
-30	de	_	ADP	_	_	31	case	_	_
-31	fuite	_	NOUN	_	_	29	nmod	_	_
-32	est	_	AUX	_	_	33	auxpass	_	_
-33	surbaissé	_	VERB	_	_	26	acl:relcl	_	_
-34	et	_	CONJ	_	_	33	cc	_	_
-35	réduit	_	VERB	_	_	33	conj	_	_
-36	dans	_	ADP	_	_	38	case	_	_
-37	la	_	DET	_	_	38	det	_	_
-38	largeur	_	NOUN	_	_	35	nmod	_	_
-39	.	_	PUNCT	_	_	4	punct	_	_
+19	Jean-Claude	_	PROPN	_	_	20	name	_	_
+20	Migeot	_	PROPN	_	_	18	case	_	_
+21	et	_	CONJ	_	_	4	cc	_	_
+22	présente	_	VERB	_	_	4	conj	_	_
+23	des	_	DET	_	_	24	det	_	_
+24	pontons	_	NOUN	_	_	22	dobj	_	_
+25	dont	_	PRON	_	_	27	nmod	_	_
+26	le	_	DET	_	_	27	det	_	_
+27	bord	_	NOUN	_	_	31	nsubjpass	_	_
+28	de	_	ADP	_	_	29	case	_	_
+29	fuite	_	NOUN	_	_	27	nmod	_	_
+30	est	_	AUX	_	_	31	auxpass	_	_
+31	surbaissé	_	VERB	_	_	24	acl:relcl	_	_
+32	et	_	CONJ	_	_	31	cc	_	_
+33	réduit	_	VERB	_	_	31	conj	_	_
+34	dans	_	ADP	_	_	36	case	_	_
+35	la	_	DET	_	_	36	det	_	_
+36	largeur	_	NOUN	_	_	33	nmod	_	_
+37	.	_	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-dev_00817
 # sentence-text: Ses deux fils, Ivo Lola et le peintre Jurica Ribar y ont grandi ;
@@ -23521,53 +23492,52 @@
 # sentence-text: Comment Lui dirais-je : Béni sois-Tu, l'Éternel, Maître de l'Univers, qui nous a élus parmi les peuples pour être torturés jour et nuit, pour voir nos pères, nos mères, nos frères finir au crématoire ?
 1	Comment	_	ADV	_	_	3	advmod	_	_
 2	Lui	_	PRON	_	_	3	iobj	_	_
-3	dirais	_	VERB	_	_	7	parataxis	_	_
-4	-	_	PUNCT	_	_	3	punct	_	_
-5	je	_	PRON	_	_	3	nsubj	_	_
-6	:	_	PUNCT	_	_	3	punct	_	_
-7	Béni	_	VERB	_	_	0	root	_	_
-8	sois	_	AUX	_	_	7	aux	_	_
-9	-	_	PUNCT	_	_	10	punct	_	_
-10	Tu	_	PRON	_	_	7	nsubj	_	_
-11	,	_	PUNCT	_	_	10	punct	_	_
-12	l'	_	DET	_	_	13	det	_	_
-13	Éternel	_	PROPN	_	_	10	appos	_	_
-14	,	_	PUNCT	_	_	13	punct	_	_
-15	Maître	_	PROPN	_	_	13	conj	_	_
-16	de	_	ADP	_	_	18	case	_	_
-17	l'	_	DET	_	_	18	det	_	_
-18	Univers	_	PROPN	_	_	15	nmod	_	_
-19	,	_	PUNCT	_	_	10	punct	_	_
-20	qui	_	PRON	_	_	23	nsubj	_	_
-21	nous	_	PRON	_	_	23	dobj	_	_
-22	a	_	AUX	_	_	23	aux	_	_
-23	élus	_	VERB	_	_	10	acl:relcl	_	_
-24	parmi	_	ADP	_	_	26	case	_	_
-25	les	_	DET	_	_	26	det	_	_
-26	peuples	_	NOUN	_	_	23	nmod	_	_
-27	pour	_	ADP	_	_	29	mark	_	_
-28	être	_	AUX	_	_	29	aux	_	_
-29	torturés	_	VERB	_	_	23	advcl	_	_
-30	jour	_	NOUN	_	_	29	dobj	_	_
-31	et	_	CONJ	_	_	30	cc	_	_
-32	nuit	_	NOUN	_	_	30	conj	_	_
-33	,	_	PUNCT	_	_	23	punct	_	_
-34	pour	_	ADP	_	_	35	mark	_	_
-35	voir	_	VERB	_	_	23	advcl	_	_
-36	nos	_	DET	_	_	37	nmod:poss	_	_
-37	pères	_	NOUN	_	_	35	dobj	_	_
-38	,	_	PUNCT	_	_	37	punct	_	_
-39	nos	_	DET	_	_	40	nmod:poss	_	_
-40	mères	_	NOUN	_	_	37	conj	_	_
-41	,	_	PUNCT	_	_	37	punct	_	_
-42	nos	_	DET	_	_	43	nmod:poss	_	_
-43	frères	_	NOUN	_	_	37	conj	_	_
-44	finir	_	VERB	_	_	35	xcomp	_	_
-45-46	au	_	_	_	_	_	_	_	_
-45	à	_	ADP	_	_	47	case	_	_
-46	le	_	DET	_	_	47	det	_	_
-47	crématoire	_	NOUN	_	_	44	nmod	_	_
-48	?	_	PUNCT	_	_	7	punct	_	_
+3	dirais	_	VERB	_	_	6	parataxis	_	_
+4	-je	_	PRON	_	_	3	nsubj	_	_
+5	:	_	PUNCT	_	_	3	punct	_	_
+6	Béni	_	VERB	_	_	0	root	_	_
+7	sois	_	AUX	_	_	6	aux	_	_
+8	-	_	PUNCT	_	_	9	punct	_	_
+9	Tu	_	PRON	_	_	6	nsubj	_	_
+10	,	_	PUNCT	_	_	9	punct	_	_
+11	l'	_	DET	_	_	12	det	_	_
+12	Éternel	_	PROPN	_	_	9	appos	_	_
+13	,	_	PUNCT	_	_	12	punct	_	_
+14	Maître	_	PROPN	_	_	12	conj	_	_
+15	de	_	ADP	_	_	17	case	_	_
+16	l'	_	DET	_	_	17	det	_	_
+17	Univers	_	PROPN	_	_	14	nmod	_	_
+18	,	_	PUNCT	_	_	9	punct	_	_
+19	qui	_	PRON	_	_	22	nsubj	_	_
+20	nous	_	PRON	_	_	22	dobj	_	_
+21	a	_	AUX	_	_	22	aux	_	_
+22	élus	_	VERB	_	_	9	acl:relcl	_	_
+23	parmi	_	ADP	_	_	25	case	_	_
+24	les	_	DET	_	_	25	det	_	_
+25	peuples	_	NOUN	_	_	22	nmod	_	_
+26	pour	_	ADP	_	_	28	mark	_	_
+27	être	_	AUX	_	_	28	aux	_	_
+28	torturés	_	VERB	_	_	22	advcl	_	_
+29	jour	_	NOUN	_	_	28	dobj	_	_
+30	et	_	CONJ	_	_	29	cc	_	_
+31	nuit	_	NOUN	_	_	29	conj	_	_
+32	,	_	PUNCT	_	_	22	punct	_	_
+33	pour	_	ADP	_	_	34	mark	_	_
+34	voir	_	VERB	_	_	22	advcl	_	_
+35	nos	_	DET	_	_	36	nmod:poss	_	_
+36	pères	_	NOUN	_	_	34	dobj	_	_
+37	,	_	PUNCT	_	_	36	punct	_	_
+38	nos	_	DET	_	_	39	nmod:poss	_	_
+39	mères	_	NOUN	_	_	36	conj	_	_
+40	,	_	PUNCT	_	_	36	punct	_	_
+41	nos	_	DET	_	_	42	nmod:poss	_	_
+42	frères	_	NOUN	_	_	36	conj	_	_
+43	finir	_	VERB	_	_	34	xcomp	_	_
+44-45	au	_	_	_	_	_	_	_	_
+44	à	_	ADP	_	_	46	case	_	_
+45	le	_	DET	_	_	46	det	_	_
+46	crématoire	_	NOUN	_	_	43	nmod	_	_
+47	?	_	PUNCT	_	_	6	punct	_	_
 
 # sentid: fr-ud-dev_00857
 # sentence-text: Un travail de renseignement qui a permis l'anéantissement de plusieurs dangereux chefs terroristes en Algérie.
@@ -24075,15 +24045,14 @@
 1	La	_	DET	_	_	2	det	_	_
 2	question	_	NOUN	_	_	4	nsubj	_	_
 3	suivante	_	ADJ	_	_	2	amod	_	_
-4	est	_	VERB	_	_	10	parataxis	_	_
+4	est	_	VERB	_	_	9	parataxis	_	_
 5	:	_	PUNCT	_	_	4	punct	_	_
-6	Peut	_	AUX	_	_	10	aux	_	_
-7	-	_	PUNCT	_	_	10	punct	_	_
-8	on	_	PRON	_	_	10	nsubj	_	_
-9	y	_	ADV	_	_	10	advmod	_	_
-10	prendre	_	VERB	_	_	0	root	_	_
-11	épouse	_	NOUN	_	_	10	dobj	_	_
-12	?	_	PUNCT	_	_	10	punct	_	_
+6	Peut	_	AUX	_	_	9	aux	_	_
+7	-on	_	PRON	_	_	9	nsubj	_	_
+8	y	_	ADV	_	_	9	advmod	_	_
+9	prendre	_	VERB	_	_	0	root	_	_
+10	épouse	_	NOUN	_	_	9	dobj	_	_
+11	?	_	PUNCT	_	_	9	punct	_	_
 
 # sentid: fr-ud-dev_00874
 # sentence-text: Elle lui permet d'obtenir une sélection pour le WNBA All-Star Game, avec 15,7 pts, 4,9 rbds, 1,8 passes et 1,36 interceptions.
@@ -27185,7 +27154,7 @@
 # sentence-text: » Stipe reconnaît que le groupe sera différent sans un de ses contributeurs majeurs : « Pour moi, Mike et Peter, en tant que R.E.M., sommes-nous encore R.E.M. ?
 1	»	_	PUNCT	_	_	3	punct	_	_
 2	Stipe	_	PROPN	_	_	3	nsubj	_	_
-3	reconnaît	_	VERB	_	_	33	parataxis	_	_
+3	reconnaît	_	VERB	_	_	32	parataxis	_	_
 4	que	_	SCONJ	_	_	8	mark	_	_
 5	le	_	DET	_	_	6	det	_	_
 6	groupe	_	NOUN	_	_	8	nsubj	_	_
@@ -27200,7 +27169,7 @@
 15	:	_	PUNCT	_	_	3	punct	_	_
 16	«	_	PUNCT	_	_	18	punct	_	_
 17	Pour	_	ADP	_	_	18	case	_	_
-18	moi	_	PRON	_	_	33	nmod	_	_
+18	moi	_	PRON	_	_	32	nmod	_	_
 19	,	_	PUNCT	_	_	18	punct	_	_
 20	Mike	_	PROPN	_	_	18	conj	_	_
 21	et	_	CONJ	_	_	18	cc	_	_
@@ -27210,13 +27179,12 @@
 25	tant	_	ADV	_	_	27	case	_	_
 26	que	_	SCONJ	_	_	25	mwe	_	_
 27	R.E.M.	_	X	_	_	18	nmod	_	_
-28	,	_	PUNCT	_	_	33	punct	_	_
-29	sommes	_	VERB	_	_	33	cop	_	_
-30	-	_	PUNCT	_	_	33	punct	_	_
-31	nous	_	PRON	_	_	33	nsubj	_	_
-32	encore	_	ADV	_	_	33	advmod	_	_
-33	R.E.M.	_	X	_	_	0	root	_	_
-34	?	_	PUNCT	_	_	33	punct	_	_
+28	,	_	PUNCT	_	_	32	punct	_	_
+29	sommes	_	VERB	_	_	32	cop	_	_
+30	-nous	_	PRON	_	_	32	nsubj	_	_
+31	encore	_	ADV	_	_	32	advmod	_	_
+32	R.E.M.	_	X	_	_	0	root	_	_
+33	?	_	PUNCT	_	_	32	punct	_	_
 
 # sentid: fr-ud-dev_00988
 # sentence-text: Le réalisateur explique que deux costumes ont été conçus pour les besoins du film.
@@ -30624,29 +30592,27 @@
 # sentid: fr-ud-dev_01109
 # sentence-text: L'adjudant-général Jean-Daniel Œhlert fit alors marche sur les positions des chouans afin de les enlever de vive force.
 1	L'	_	DET	_	_	2	det	_	_
-2	adjudant-général	_	NOUN	_	_	7	nsubj	_	_
-3	Jean	_	PROPN	_	_	6	name	_	_
-4	-	_	PUNCT	_	_	6	punct	_	_
-5	Daniel	_	PROPN	_	_	6	name	_	_
-6	Œhlert	_	PROPN	_	_	2	appos	_	_
-7	fit	_	VERB	_	_	0	root	_	_
-8	alors	_	ADV	_	_	7	advmod	_	_
-9	marche	_	NOUN	_	_	7	dobj	_	_
-10	sur	_	ADP	_	_	12	case	_	_
-11	les	_	DET	_	_	12	det	_	_
-12	positions	_	NOUN	_	_	7	nmod	_	_
-13-14	des	_	_	_	_	_	_	_	_
-13	de	_	ADP	_	_	15	case	_	_
-14	les	_	DET	_	_	15	det	_	_
-15	chouans	_	NOUN	_	_	12	nmod	_	_
-16	afin	_	ADV	_	_	17	mwe	_	_
-17	de	_	ADP	_	_	19	mark	_	_
-18	les	_	PRON	_	_	19	dobj	_	_
-19	enlever	_	VERB	_	_	7	advcl	_	_
-20	de	_	ADP	_	_	22	case	_	_
-21	vive	_	ADJ	_	_	22	amod	_	_
-22	force	_	NOUN	_	_	19	nmod	_	_
-23	.	_	PUNCT	_	_	7	punct	_	_
+2	adjudant-général	_	NOUN	_	_	5	nsubj	_	_
+3	Jean-Daniel	_	PROPN	_	_	4	name	_	_
+4	Œhlert	_	PROPN	_	_	2	appos	_	_
+5	fit	_	VERB	_	_	0	root	_	_
+6	alors	_	ADV	_	_	5	advmod	_	_
+7	marche	_	NOUN	_	_	5	dobj	_	_
+8	sur	_	ADP	_	_	10	case	_	_
+9	les	_	DET	_	_	10	det	_	_
+10	positions	_	NOUN	_	_	5	nmod	_	_
+11-12	des	_	_	_	_	_	_	_	_
+11	de	_	ADP	_	_	13	case	_	_
+12	les	_	DET	_	_	13	det	_	_
+13	chouans	_	NOUN	_	_	10	nmod	_	_
+14	afin	_	ADV	_	_	15	mwe	_	_
+15	de	_	ADP	_	_	17	mark	_	_
+16	les	_	PRON	_	_	17	dobj	_	_
+17	enlever	_	VERB	_	_	5	advcl	_	_
+18	de	_	ADP	_	_	20	case	_	_
+19	vive	_	ADJ	_	_	20	amod	_	_
+20	force	_	NOUN	_	_	17	nmod	_	_
+21	.	_	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-dev_01110
 # sentence-text: Nous serions deux fois plus nombreux que la tâche ne manquerait point.
@@ -32419,11 +32385,9 @@
 28	Jacques	_	PROPN	_	_	29	name	_	_
 29	Godin	_	PROPN	_	_	26	conj	_	_
 30	et	_	CONJ	_	_	26	cc	_	_
-31	Jean	_	PROPN	_	_	34	name	_	_
-32	-	_	PUNCT	_	_	34	punct	_	_
-33	François	_	PROPN	_	_	34	name	_	_
-34	Pichette	_	PROPN	_	_	26	conj	_	_
-35	.	_	PUNCT	_	_	7	punct	_	_
+31	Jean-François	_	PROPN	_	_	32	name	_	_
+32	Pichette	_	PROPN	_	_	26	conj	_	_
+33	.	_	PUNCT	_	_	7	punct	_	_
 
 # sentid: fr-ud-dev_01177
 # sentence-text: Les premières locomotives ont été fabriquées par Couillet, à Marcinelle en Belgique.
@@ -33809,11 +33773,8 @@
 3	désiré	_	ADJ	_	_	2	amod	_	_
 4	se	_	PRON	_	_	5	dobj	_	_
 5	produira	_	VERB	_	_	0	root	_	_
-6	-	_	PUNCT	_	_	7	punct	_	_
-7	t	_	PART	_	_	9	expl	_	_
-8	-	_	PUNCT	_	_	7	punct	_	_
-9	il	_	PRON	_	_	5	nsubj	_	_
-10	?	_	PUNCT	_	_	5	punct	_	_
+6	-t-il	_	PRON	_	_	5	nsubj	_	_
+7	?	_	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-dev_01229
 # sentence-text: Le premier tome figure un dessin du château qui est une belle et plausible reconstitution, si ce n'est qu'il a été dessiné inversé (gauche/droite) par rapport à la réalité !
@@ -39675,19 +39636,18 @@
 
 # sentid: fr-ud-dev_01430
 # sentence-text: Ainsi 3 fois 5 s'écrivait-il 3 in 5.
-1	Ainsi	_	ADV	_	_	10	advmod	_	_
+1	Ainsi	_	ADV	_	_	9	advmod	_	_
 2	3	_	NUM	_	_	3	nummod	_	_
-3	fois	_	NOUN	_	_	10	nsubj	_	_
+3	fois	_	NOUN	_	_	9	nsubj	_	_
 4	5	_	NUM	_	_	3	nummod	_	_
 5-6	s'écrivait	_	_	_	_	_	_	_	_
 5	s'	_	PRON	_	_	6	dobj	_	_
-6	écrivait	_	VERB	_	_	10	cop	_	_
-7	-	_	PUNCT	_	_	10	punct	_	_
-8	il	_	X	_	_	10	compound	_	_
-9	3	_	NUM	_	_	10	nummod	_	_
-10	in	_	X	_	_	0	root	_	_
-11	5	_	NUM	_	_	10	nummod	_	_
-12	.	_	PUNCT	_	_	10	punct	_	_
+6	écrivait	_	VERB	_	_	9	cop	_	_
+7	-il	_	X	_	_	9	compound	_	_
+8	3	_	NUM	_	_	9	nummod	_	_
+9	in	_	X	_	_	0	root	_	_
+10	5	_	NUM	_	_	9	nummod	_	_
+11	.	_	PUNCT	_	_	9	punct	_	_
 
 # sentid: fr-ud-dev_01431
 # sentence-text: Surnommé King Fish ou Mr. Angel, Tim Salmon est considéré comme un des meilleurs joueurs de l'histoire des Angels.
@@ -41775,14 +41735,13 @@
 
 # sentid: fr-ud-dev_01503
 # sentence-text: Pourquoi devais-je sanctifier Son Nom ?
-1	Pourquoi	_	ADV	_	_	5	advmod	_	_
-2	devais	_	AUX	_	_	5	aux	_	_
-3	-	_	PUNCT	_	_	5	punct	_	_
-4	je	_	PRON	_	_	5	nsubj	_	_
-5	sanctifier	_	VERB	_	_	0	root	_	_
-6	Son	_	DET	_	_	7	nmod:poss	_	_
-7	Nom	_	PROPN	_	_	5	dobj	_	_
-8	?	_	PUNCT	_	_	5	punct	_	_
+1	Pourquoi	_	ADV	_	_	4	advmod	_	_
+2	devais	_	AUX	_	_	4	aux	_	_
+3	-je	_	PRON	_	_	4	nsubj	_	_
+4	sanctifier	_	VERB	_	_	0	root	_	_
+5	Son	_	DET	_	_	6	nmod:poss	_	_
+6	Nom	_	PROPN	_	_	4	dobj	_	_
+7	?	_	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-dev_01504
 # sentence-text: Dans cette même perspective et pour accélérer la diffusion des connaissances dans le pays, les pouvoirs publics ivoiriens ont introduit dans les années 70 la télévision éducative dans l'enseignement primaire.
@@ -44779,16 +44738,15 @@
 44	Les	_	DET	_	_	45	det	_	_
 45	handicapés	_	NOUN	_	_	46	nsubjpass	_	_
 46	vont	_	VERB	_	_	43	appos	_	_
-47	-	_	PUNCT	_	_	46	punct	_	_
-48	ils	_	PRON	_	_	46	expl	_	_
-49	en	_	PRON	_	_	50	case	_	_
-50	enfer	_	NOUN	_	_	46	nmod	_	_
-51	?	_	PUNCT	_	_	46	punct	_	_
-52	/	_	PUNCT	_	_	46	punct	_	_
-53	Probablement	_	ADV	_	_	46	conj	_	_
-54	!	_	PUNCT	_	_	53	punct	_	_
-55	)	_	PUNCT	_	_	26	punct	_	_
-56	.	_	PUNCT	_	_	13	punct	_	_
+47	-ils	_	PRON	_	_	46	expl	_	_
+48	en	_	PRON	_	_	49	case	_	_
+49	enfer	_	NOUN	_	_	46	nmod	_	_
+50	?	_	PUNCT	_	_	46	punct	_	_
+51	/	_	PUNCT	_	_	46	punct	_	_
+52	Probablement	_	ADV	_	_	46	conj	_	_
+53	!	_	PUNCT	_	_	52	punct	_	_
+54	)	_	PUNCT	_	_	26	punct	_	_
+55	.	_	PUNCT	_	_	13	punct	_	_
 
 # sentid: fr-ud-dev_01608
 # sentence-text: Il étudie sous la direction de photographes reconnus et publie en collaboration avec d'autres médecins un traité intitulé Iconographie photographique appliquée à l'ophtalmologie en 1881.
@@ -44964,34 +44922,32 @@
 20	http://brahms.ircam.fr/textes/c00000018/index.html	_	SYM	_	_	9	nmod	_	_
 21	puis	_	SCONJ	_	_	7	cc	_	_
 22	par	_	ADP	_	_	7	conj	_	_
-23	Jean	_	PROPN	_	_	26	name	_	_
-24	-	_	PUNCT	_	_	26	punct	_	_
-25	Claude	_	PROPN	_	_	26	name	_	_
-26	Risset	_	PROPN	_	_	22	case	_	_
-27	,	_	PUNCT	_	_	26	punct	_	_
-28	chercheurs	_	NOUN	_	_	26	appos	_	_
-29	et	_	CONJ	_	_	28	cc	_	_
-30	compositeurs	_	NOUN	_	_	28	conj	_	_
-31	,	_	PUNCT	_	_	6	punct	_	_
-32	qui	_	PRON	_	_	41	nsubj	_	_
-33	,	_	PUNCT	_	_	41	punct	_	_
-34	à	_	ADP	_	_	36	case	_	_
-35	l'	_	DET	_	_	36	det	_	_
-36	aide	_	NOUN	_	_	41	nmod	_	_
-37	de	_	ADP	_	_	39	case	_	_
-38	l'	_	DET	_	_	39	det	_	_
-39	ordinateur	_	NOUN	_	_	36	nmod	_	_
-40	ont	_	AUX	_	_	41	aux	_	_
-41	créé	_	VERB	_	_	28	acl:relcl	_	_
-42	plusieurs	_	DET	_	_	43	det	_	_
-43	formes	_	NOUN	_	_	41	dobj	_	_
-44	d'	_	ADP	_	_	45	case	_	_
-45	illusions	_	NOUN	_	_	43	nmod	_	_
-46	intégrées	_	VERB	_	_	43	acl	_	_
-47	dans	_	ADP	_	_	49	case	_	_
-48	leurs	_	DET	_	_	49	nmod:poss	_	_
-49	œuvres	_	NOUN	_	_	46	nmod	_	_
-50	.	_	PUNCT	_	_	6	punct	_	_
+23	Jean-Claude	_	PROPN	_	_	24	name	_	_
+24	Risset	_	PROPN	_	_	22	case	_	_
+25	,	_	PUNCT	_	_	24	punct	_	_
+26	chercheurs	_	NOUN	_	_	24	appos	_	_
+27	et	_	CONJ	_	_	26	cc	_	_
+28	compositeurs	_	NOUN	_	_	26	conj	_	_
+29	,	_	PUNCT	_	_	6	punct	_	_
+30	qui	_	PRON	_	_	39	nsubj	_	_
+31	,	_	PUNCT	_	_	39	punct	_	_
+32	à	_	ADP	_	_	34	case	_	_
+33	l'	_	DET	_	_	34	det	_	_
+34	aide	_	NOUN	_	_	39	nmod	_	_
+35	de	_	ADP	_	_	37	case	_	_
+36	l'	_	DET	_	_	37	det	_	_
+37	ordinateur	_	NOUN	_	_	34	nmod	_	_
+38	ont	_	AUX	_	_	39	aux	_	_
+39	créé	_	VERB	_	_	26	acl:relcl	_	_
+40	plusieurs	_	DET	_	_	41	det	_	_
+41	formes	_	NOUN	_	_	39	dobj	_	_
+42	d'	_	ADP	_	_	43	case	_	_
+43	illusions	_	NOUN	_	_	41	nmod	_	_
+44	intégrées	_	VERB	_	_	41	acl	_	_
+45	dans	_	ADP	_	_	47	case	_	_
+46	leurs	_	DET	_	_	47	nmod:poss	_	_
+47	œuvres	_	NOUN	_	_	44	nmod	_	_
+48	.	_	PUNCT	_	_	6	punct	_	_
 
 # sentid: fr-ud-dev_01615
 # sentence-text: L'élection du 24 octobre 1999 est la première élection présidentielle pluraliste (trois candidats), quoique le président Ben Ali ait été réélu avec un score (99,44%) comparable aux élections précédentes.

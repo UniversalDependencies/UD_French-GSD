@@ -196,9 +196,9 @@
 30	à	_	ADP	_	_	32	case	_	_
 31	l'	_	DET	_	_	32	det	_	_
 32	Université	_	NOUN	_	_	29	nmod	_	_
-33	Cheikh	_	PROPN	_	_	35	name	_	_
-34	Anta	_	PROPN	_	_	35	name	_	_
-35	Diop	_	PROPN	_	_	32	appos	_	_
+33	Cheikh	_	PROPN	_	_	32	appos	_	_
+34	Anta	_	PROPN	_	_	33	name	_	_
+35	Diop	_	PROPN	_	_	33	name	_	_
 36	de	_	ADP	_	_	37	case	_	_
 37	Dakar	_	PROPN	_	_	32	nmod	_	_
 38	.	_	PUNCT	_	_	18	punct	_	_
@@ -632,8 +632,8 @@
 8	de	_	ADP	_	_	10	case	_	_
 9	l'	_	DET	_	_	10	det	_	_
 10	Elysée	_	PROPN	_	_	6	nmod	_	_
-11	Claude	_	PROPN	_	_	12	name	_	_
-12	Guéant	_	PROPN	_	_	6	appos	_	_
+11	Claude	_	PROPN	_	_	6	appos	_	_
+12	Guéant	_	PROPN	_	_	11	name	_	_
 13	a	_	AUX	_	_	15	aux	_	_
 14	été	_	AUX	_	_	15	auxpass	_	_
 15	reçu	_	VERB	_	_	0	root	_	_
@@ -647,8 +647,8 @@
 23	le	_	DET	_	_	25	det	_	_
 24	Premier	_	ADJ	_	_	25	amod	_	_
 25	ministre	_	NOUN	_	_	20	conj	_	_
-26	Ahmed	_	PROPN	_	_	27	name	_	_
-27	Ouyahia	_	NOUN	_	_	25	conj	_	_
+26	Ahmed	_	PROPN	_	_	25	conj	_	_
+27	Ouyahia	_	NOUN	_	_	26	name	_	_
 28	.	_	PUNCT	_	_	15	punct	_	_
 
 # sentid: fr-ud-test_00021
@@ -713,9 +713,9 @@
 4	,	_	PUNCT	_	_	10	punct	_	_
 5	la	_	DET	_	_	6	det	_	_
 6	mort	_	NOUN	_	_	10	nsubj	_	_
-7	de	_	ADP	_	_	9	case	_	_
-8	Mouammar	_	PROPN	_	_	9	name	_	_
-9	el-Kadhafi	_	PROPN	_	_	6	nmod	_	_
+7	de	_	ADP	_	_	8	case	_	_
+8	Mouammar	_	PROPN	_	_	6	nmod	_	_
+9	el-Kadhafi	_	PROPN	_	_	8	name	_	_
 10	ouvre	_	VERB	_	_	0	root	_	_
 11	une	_	DET	_	_	12	det	_	_
 12	période	_	NOUN	_	_	10	dobj	_	_
@@ -842,8 +842,8 @@
 4	un	_	DET	_	_	5	det	_	_
 5	an	_	NOUN	_	_	3	nmod	_	_
 6	naissait	_	VERB	_	_	0	root	_	_
-7	Gdem	_	PROPN	_	_	8	name	_	_
-8	Izik	_	PROPN	_	_	6	nsubj	_	_
+7	Gdem	_	PROPN	_	_	6	nsubj	_	_
+8	Izik	_	PROPN	_	_	7	name	_	_
 9	.	_	PUNCT	_	_	6	punct	_	_
 
 # sentid: fr-ud-test_00031
@@ -1529,26 +1529,26 @@
 
 # sentid: fr-ud-test_00059
 # sentence-text: Sidi M'hamed Deddeche et Amgid Sidi Ahmed, deux activistes pacifistes des territoires occupés comme Mme Haïder, s'étaient-ils fait arrêter mercredi dernier à l'entrée de Smara, la capitale spirituelle du Sahara occidental, parce qu'ils étaient des séquestrés qui s'étaient évadés des camps de Tindouf, sans documents de voyage ?
-1	Sidi	_	PROPN	_	_	4	name	_	_
-2	M'	_	PROPN	_	_	4	name	_	_
-3	hamed	_	PROPN	_	_	4	name	_	_
-4	Deddeche	_	PROPN	_	_	24	nsubj	_	_
-5	et	_	CONJ	_	_	4	cc	_	_
-6	Amgid	_	PROPN	_	_	8	name	_	_
-7	Sidi	_	PROPN	_	_	8	name	_	_
-8	Ahmed	_	PROPN	_	_	4	conj	_	_
-9	,	_	PUNCT	_	_	4	punct	_	_
+1	Sidi	_	PROPN	_	_	24	nsubj	_	_
+2	M'	_	PROPN	_	_	1	name	_	_
+3	hamed	_	PROPN	_	_	1	name	_	_
+4	Deddeche	_	PROPN	_	_	1	name	_	_
+5	et	_	CONJ	_	_	1	cc	_	_
+6	Amgid	_	PROPN	_	_	1	conj	_	_
+7	Sidi	_	PROPN	_	_	6	name	_	_
+8	Ahmed	_	PROPN	_	_	6	name	_	_
+9	,	_	PUNCT	_	_	1	punct	_	_
 10	deux	_	NUM	_	_	11	nummod	_	_
-11	activistes	_	NOUN	_	_	4	appos	_	_
+11	activistes	_	NOUN	_	_	1	appos	_	_
 12	pacifistes	_	ADJ	_	_	11	amod	_	_
 13-14	des	_	_	_	_	_	_	_	_
 13	de	_	ADP	_	_	15	case	_	_
 14	les	_	DET	_	_	15	det	_	_
 15	territoires	_	NOUN	_	_	11	nmod	_	_
 16	occupés	_	ADJ	_	_	15	amod	_	_
-17	comme	_	ADP	_	_	19	case	_	_
-18	Mme	_	PROPN	_	_	19	name	_	_
-19	Haïder	_	PROPN	_	_	11	nmod	_	_
+17	comme	_	ADP	_	_	18	case	_	_
+18	Mme	_	PROPN	_	_	11	nmod	_	_
+19	Haïder	_	PROPN	_	_	18	name	_	_
 20	,	_	PUNCT	_	_	24	punct	_	_
 21	s'	_	PRON	_	_	24	dobj	_	_
 22	étaient	_	AUX	_	_	24	aux	_	_
@@ -1621,11 +1621,11 @@
 2	observateurs	_	NOUN	_	_	13	nsubjpass	_	_
 3	espagnols	_	ADJ	_	_	2	amod	_	_
 4	,	_	PUNCT	_	_	2	punct	_	_
-5	Carlos	_	PROPN	_	_	6	name	_	_
-6	Sanchez	_	PROPN	_	_	2	appos	_	_
-7	et	_	CONJ	_	_	6	cc	_	_
-8	Mar	_	PROPN	_	_	9	name	_	_
-9	Figueras	_	PROPN	_	_	6	conj	_	_
+5	Carlos	_	PROPN	_	_	2	appos	_	_
+6	Sanchez	_	PROPN	_	_	5	name	_	_
+7	et	_	CONJ	_	_	5	cc	_	_
+8	Mar	_	PROPN	_	_	5	conj	_	_
+9	Figueras	_	PROPN	_	_	8	name	_	_
 10	,	_	PUNCT	_	_	13	punct	_	_
 11	ont	_	AUX	_	_	13	aux	_	_
 12	été	_	AUX	_	_	13	auxpass	_	_
@@ -2596,8 +2596,8 @@
 4	l'	_	DET	_	_	5	det	_	_
 5	Égypte	_	PROPN	_	_	2	nmod	_	_
 6	,	_	PUNCT	_	_	2	punct	_	_
-7	Hosni	_	PROPN	_	_	8	name	_	_
-8	Moubarak	_	PROPN	_	_	2	appos	_	_
+7	Hosni	_	PROPN	_	_	2	appos	_	_
+8	Moubarak	_	PROPN	_	_	7	name	_	_
 9	,	_	PUNCT	_	_	10	punct	_	_
 10	éprouve	_	VERB	_	_	0	root	_	_
 11	,	_	PUNCT	_	_	10	punct	_	_
@@ -2625,8 +2625,8 @@
 1	L'	_	DET	_	_	2	det	_	_
 2	acteur	_	NOUN	_	_	7	nsubj	_	_
 3	espagnol	_	ADJ	_	_	2	amod	_	_
-4	Alex	_	PROPN	_	_	5	name	_	_
-5	Angulo	_	PROPN	_	_	2	appos	_	_
+4	Alex	_	PROPN	_	_	2	appos	_	_
+5	Angulo	_	PROPN	_	_	4	name	_	_
 6	a	_	AUX	_	_	7	aux	_	_
 7	attribué	_	VERB	_	_	0	root	_	_
 8	"	_	PUNCT	_	_	10	punct	_	_
@@ -2719,9 +2719,9 @@
 38	Sahara	_	PROPN	_	_	26	nmod	_	_
 39	occidental	_	ADJ	_	_	38	amod	_	_
 40	,	_	PUNCT	_	_	26	punct	_	_
-41	M.	_	NOUN	_	_	43	compound	_	_
-42	Christopher	_	PROPN	_	_	43	name	_	_
-43	Ross	_	PROPN	_	_	26	appos	_	_
+41	M.	_	NOUN	_	_	42	compound	_	_
+42	Christopher	_	PROPN	_	_	26	appos	_	_
+43	Ross	_	PROPN	_	_	42	name	_	_
 44	,	_	PUNCT	_	_	20	punct	_	_
 45	en	_	ADP	_	_	46	case	_	_
 46	présence	_	NOUN	_	_	20	nmod	_	_
@@ -3452,11 +3452,11 @@
 13	de	_	ADP	_	_	15	case	_	_
 14	la	_	DET	_	_	15	det	_	_
 15	naissance	_	NOUN	_	_	12	nmod	_	_
-16	de	_	ADP	_	_	18	case	_	_
-17	Théodore	_	PROPN	_	_	18	name	_	_
-18	Herzl	_	PROPN	_	_	15	nmod	_	_
-19	,	_	PUNCT	_	_	18	punct	_	_
-20	journaliste	_	NOUN	_	_	18	appos	_	_
+16	de	_	ADP	_	_	17	case	_	_
+17	Théodore	_	PROPN	_	_	15	nmod	_	_
+18	Herzl	_	PROPN	_	_	17	name	_	_
+19	,	_	PUNCT	_	_	17	punct	_	_
+20	journaliste	_	NOUN	_	_	17	appos	_	_
 21	,	_	PUNCT	_	_	20	punct	_	_
 22	écrivain	_	NOUN	_	_	20	conj	_	_
 23	et	_	CONJ	_	_	20	cc	_	_
@@ -3633,9 +3633,9 @@
 2	la	_	DET	_	_	3	det	_	_
 3	parole	_	NOUN	_	_	1	dobj	_	_
 4	,	_	PUNCT	_	_	9	punct	_	_
-5	Charles	_	PROPN	_	_	7	name	_	_
-6	Mwando	_	PROPN	_	_	7	name	_	_
-7	Nsimba	_	PROPN	_	_	9	nsubj	_	_
+5	Charles	_	PROPN	_	_	9	nsubj	_	_
+6	Mwando	_	PROPN	_	_	5	name	_	_
+7	Nsimba	_	PROPN	_	_	5	name	_	_
 8	a	_	AUX	_	_	9	aux	_	_
 9	sollicité	_	VERB	_	_	0	root	_	_
 10	un	_	DET	_	_	11	det	_	_
@@ -3800,18 +3800,18 @@
 44	,	_	PUNCT	_	_	45	punct	_	_
 45	écrit	_	VERB	_	_	0	root	_	_
 46	samedi	_	NOUN	_	_	45	nmod	_	_
-47	le	_	DET	_	_	49	det	_	_
-48	Straits	_	PROPN	_	_	49	name	_	_
-49	Times	_	PROPN	_	_	45	nsubj	_	_
-50	,	_	PUNCT	_	_	49	punct	_	_
+47	le	_	DET	_	_	48	det	_	_
+48	Straits	_	PROPN	_	_	45	nsubj	_	_
+49	Times	_	PROPN	_	_	48	name	_	_
+50	,	_	PUNCT	_	_	48	punct	_	_
 51	principal	_	ADJ	_	_	52	amod	_	_
-52	quotidien	_	NOUN	_	_	49	appos	_	_
+52	quotidien	_	NOUN	_	_	48	appos	_	_
 53-54	du	_	_	_	_	_	_	_	_
 53	de	_	ADP	_	_	55	case	_	_
 54	le	_	DET	_	_	55	det	_	_
 55	pays	_	NOUN	_	_	52	nmod	_	_
-56	,	_	PUNCT	_	_	49	punct	_	_
-57	considéré	_	VERB	_	_	49	acl	_	_
+56	,	_	PUNCT	_	_	48	punct	_	_
+57	considéré	_	VERB	_	_	48	acl	_	_
 58	comme	_	ADV	_	_	59	advmod	_	_
 59	favorable	_	ADJ	_	_	57	xcomp	_	_
 60-61	au	_	_	_	_	_	_	_	_
@@ -3899,12 +3899,12 @@
 
 # sentid: fr-ud-test_00128
 # sentence-text: Sean David Morton qui se fait appeler "le prophète de l'Amérique", a levé six millions de dollars en faisant croire aux investisseurs qu'il pouvait prédire l'évolution de la Bourse !
-1	Sean	_	PROPN	_	_	3	name	_	_
-2	David	_	PROPN	_	_	3	name	_	_
-3	Morton	_	PROPN	_	_	17	nsubj	_	_
+1	Sean	_	PROPN	_	_	17	nsubj	_	_
+2	David	_	PROPN	_	_	1	name	_	_
+3	Morton	_	PROPN	_	_	1	name	_	_
 4	qui	_	PRON	_	_	6	nsubj	_	_
 5	se	_	PRON	_	_	6	dobj	_	_
-6	fait	_	VERB	_	_	3	acl:relcl	_	_
+6	fait	_	VERB	_	_	1	acl:relcl	_	_
 7	appeler	_	VERB	_	_	6	xcomp	_	_
 8	"	_	PUNCT	_	_	10	punct	_	_
 9	le	_	DET	_	_	10	det	_	_
@@ -4057,12 +4057,12 @@
 # sentid: fr-ud-test_00134
 # sentence-text: Troisième temps, Andrea Dovizioso (Honda) s'en est approché (2:00.531), comme Ben Spies et Jorge Lorenzo, tous deux sur Yamaha M1 et distancés de moins de 8/10e de seconde du leader.
 1	Troisième	_	ADJ	_	_	2	amod	_	_
-2	temps	_	NOUN	_	_	5	nmod	_	_
+2	temps	_	NOUN	_	_	4	nmod	_	_
 3	,	_	PUNCT	_	_	12	punct	_	_
-4	Andrea	_	PROPN	_	_	5	name	_	_
-5	Dovizioso	_	PROPN	_	_	12	nsubj	_	_
+4	Andrea	_	PROPN	_	_	12	nsubj	_	_
+5	Dovizioso	_	PROPN	_	_	4	name	_	_
 6	(	_	PUNCT	_	_	7	punct	_	_
-7	Honda	_	PROPN	_	_	5	appos	_	_
+7	Honda	_	PROPN	_	_	4	appos	_	_
 8	)	_	PUNCT	_	_	7	punct	_	_
 9	s'	_	PRON	_	_	12	dobj	_	_
 10	en	_	PRON	_	_	12	iobj	_	_
@@ -4073,14 +4073,14 @@
 15	)	_	PUNCT	_	_	14	punct	_	_
 16	,	_	PUNCT	_	_	12	punct	_	_
 17	comme	_	SCONJ	_	_	12	cc	_	_
-18	Ben	_	PROPN	_	_	19	name	_	_
-19	Spies	_	PROPN	_	_	12	conj	_	_
-20	et	_	CONJ	_	_	19	cc	_	_
-21	Jorge	_	PROPN	_	_	22	name	_	_
-22	Lorenzo	_	PROPN	_	_	19	conj	_	_
+18	Ben	_	PROPN	_	_	12	conj	_	_
+19	Spies	_	PROPN	_	_	18	name	_	_
+20	et	_	CONJ	_	_	18	cc	_	_
+21	Jorge	_	PROPN	_	_	18	conj	_	_
+22	Lorenzo	_	PROPN	_	_	21	name	_	_
 23	,	_	PUNCT	_	_	12	punct	_	_
 24	tous	_	DET	_	_	25	advmod	_	_
-25	deux	_	NUM	_	_	19	appos	_	_
+25	deux	_	NUM	_	_	18	appos	_	_
 26	sur	_	ADP	_	_	27	case	_	_
 27	Yamaha	_	PROPN	_	_	25	nmod	_	_
 28	M1	_	PROPN	_	_	27	name	_	_
@@ -4843,8 +4843,8 @@
 16	Boule	_	PROPN	_	_	13	nmod	_	_
 17	Canéjanaise	_	ADJ	_	_	16	amod	_	_
 18	,	_	PUNCT	_	_	13	punct	_	_
-19	Richard	_	PROPN	_	_	20	name	_	_
-20	Juzanx	_	PROPN	_	_	13	appos	_	_
+19	Richard	_	PROPN	_	_	13	appos	_	_
+20	Juzanx	_	PROPN	_	_	19	name	_	_
 21	,	_	PUNCT	_	_	7	punct	_	_
 22	tandis	_	ADV	_	_	28	mark	_	_
 23	que	_	SCONJ	_	_	22	mwe	_	_
@@ -4887,8 +4887,8 @@
 6	l'	_	DET	_	_	7	det	_	_
 7	enfer	_	NOUN	_	_	4	nmod	_	_
 8	,	_	PUNCT	_	_	11	punct	_	_
-9	Dany	_	PROPN	_	_	10	name	_	_
-10	Laferrière	_	PROPN	_	_	11	nsubj	_	_
+9	Dany	_	PROPN	_	_	11	nsubj	_	_
+10	Laferrière	_	PROPN	_	_	9	name	_	_
 11	reste	_	VERB	_	_	0	root	_	_
 12	un	_	DET	_	_	13	det	_	_
 13	réaliste	_	NOUN	_	_	11	dobj	_	_
@@ -4975,13 +4975,13 @@
 1	Fini	_	VERB	_	_	0	root	_	_
 2	les	_	DET	_	_	3	det	_	_
 3	vacances	_	NOUN	_	_	1	dobj	_	_
-4	pour	_	ADP	_	_	8	case	_	_
-5	le	_	DET	_	_	8	det	_	_
-6	jeune	_	ADJ	_	_	8	amod	_	_
-7	Pascal	_	PROPN	_	_	8	name	_	_
-8	Haupais	_	PROPN	_	_	1	nmod	_	_
+4	pour	_	ADP	_	_	7	case	_	_
+5	le	_	DET	_	_	7	det	_	_
+6	jeune	_	ADJ	_	_	7	amod	_	_
+7	Pascal	_	PROPN	_	_	1	nmod	_	_
+8	Haupais	_	PROPN	_	_	7	name	_	_
 9	qui	_	PRON	_	_	10	nsubj	_	_
-10	fait	_	VERB	_	_	8	acl:relcl	_	_
+10	fait	_	VERB	_	_	7	acl:relcl	_	_
 11	sa	_	DET	_	_	12	nmod:poss	_	_
 12	rentrée	_	NOUN	_	_	10	dobj	_	_
 13	en	_	ADP	_	_	14	case	_	_
@@ -5061,9 +5061,9 @@
 4	de	_	ADP	_	_	5	case	_	_
 5	livres	_	NOUN	_	_	3	nmod	_	_
 6	consacrés	_	VERB	_	_	5	acl	_	_
-7	à	_	ADP	_	_	9	case	_	_
-8	Jean	_	PROPN	_	_	9	name	_	_
-9	Ferrat	_	PROPN	_	_	6	nmod	_	_
+7	à	_	ADP	_	_	8	case	_	_
+8	Jean	_	PROPN	_	_	6	nmod	_	_
+9	Ferrat	_	PROPN	_	_	8	name	_	_
 
 # sentid: fr-ud-test_00169
 # sentence-text: En tout, ce sont près d'une centaine de conteneurs qui ont été utilisés pour créer ces logements étudiants.
@@ -5102,8 +5102,8 @@
 9	par	_	ADP	_	_	11	case	_	_
 10	le	_	DET	_	_	11	det	_	_
 11	général	_	NOUN	_	_	7	nmod	_	_
-12	Michel	_	PROPN	_	_	13	name	_	_
-13	Aoun	_	PROPN	_	_	11	appos	_	_
+12	Michel	_	PROPN	_	_	11	appos	_	_
+13	Aoun	_	PROPN	_	_	12	name	_	_
 14-15	au	_	_	_	_	_	_	_	_
 14	à	_	ADP	_	_	19	case	_	_
 15	le	_	DET	_	_	19	det	_	_
@@ -5273,15 +5273,15 @@
 
 # sentid: fr-ud-test_00176
 # sentence-text: M. Di Rupo, dont le parti avait remporté les élections de juin en Wallonie francophone, a émis l'espoir lundi "que la raison finira par l'emporter".
-1	M.	_	PROPN	_	_	3	name	_	_
-2	Di	_	PROPN	_	_	3	name	_	_
-3	Rupo	_	PROPN	_	_	19	nsubj	_	_
-4	,	_	PUNCT	_	_	3	punct	_	_
+1	M.	_	PROPN	_	_	19	nsubj	_	_
+2	Di	_	PROPN	_	_	1	name	_	_
+3	Rupo	_	PROPN	_	_	1	name	_	_
+4	,	_	PUNCT	_	_	1	punct	_	_
 5	dont	_	PRON	_	_	9	iobj	_	_
 6	le	_	DET	_	_	7	det	_	_
 7	parti	_	NOUN	_	_	9	nsubj	_	_
 8	avait	_	AUX	_	_	9	aux	_	_
-9	remporté	_	VERB	_	_	3	acl:relcl	_	_
+9	remporté	_	VERB	_	_	1	acl:relcl	_	_
 10	les	_	DET	_	_	11	det	_	_
 11	élections	_	NOUN	_	_	9	dobj	_	_
 12	de	_	ADP	_	_	13	case	_	_
@@ -5372,10 +5372,10 @@
 21	"	_	PUNCT	_	_	5	punct	_	_
 22	,	_	PUNCT	_	_	5	punct	_	_
 23	explique	_	VERB	_	_	0	root	_	_
-24	Nuria	_	PROPN	_	_	25	name	_	_
-25	Alvarez	_	PROPN	_	_	23	nsubj	_	_
-26	,	_	PUNCT	_	_	25	punct	_	_
-27	analyste	_	NOUN	_	_	25	appos	_	_
+24	Nuria	_	PROPN	_	_	23	nsubj	_	_
+25	Alvarez	_	PROPN	_	_	24	name	_	_
+26	,	_	PUNCT	_	_	24	punct	_	_
+27	analyste	_	NOUN	_	_	24	appos	_	_
 28	chez	_	ADP	_	_	29	case	_	_
 29	Renta	_	PROPN	_	_	27	nmod	_	_
 30	4	_	PROPN	_	_	29	name	_	_
@@ -5449,8 +5449,8 @@
 13	la	_	DET	_	_	14	det	_	_
 14	directrice	_	NOUN	_	_	19	nsubj	_	_
 15	artistique	_	ADJ	_	_	14	amod	_	_
-16	Anne-Marie	_	PROPN	_	_	17	name	_	_
-17	White	_	PROPN	_	_	14	appos	_	_
+16	Anne-Marie	_	PROPN	_	_	14	appos	_	_
+17	White	_	PROPN	_	_	16	name	_	_
 18	a	_	AUX	_	_	19	aux	_	_
 19	décidé	_	VERB	_	_	0	root	_	_
 20	de	_	ADP	_	_	21	case	_	_
@@ -5550,9 +5550,9 @@
 13	très	_	ADV	_	_	15	advmod	_	_
 14	en	_	ADP	_	_	15	mwe	_	_
 15	vue	_	NOUN	_	_	12	amod	_	_
-16	de	_	ADP	_	_	18	case	_	_
-17	Las	_	PROPN	_	_	18	name	_	_
-18	Vegas	_	PROPN	_	_	12	nmod	_	_
+16	de	_	ADP	_	_	17	case	_	_
+17	Las	_	PROPN	_	_	12	nmod	_	_
+18	Vegas	_	PROPN	_	_	17	name	_	_
 19	pour	_	ADP	_	_	20	mark	_	_
 20	assurer	_	VERB	_	_	10	advcl	_	_
 21	sa	_	DET	_	_	22	nmod:poss	_	_
@@ -5610,13 +5610,13 @@
 16	à	_	ADP	_	_	18	case	_	_
 17	la	_	DET	_	_	18	det	_	_
 18	succession	_	NOUN	_	_	14	nmod	_	_
-19	de	_	ADP	_	_	21	case	_	_
-20	Franck	_	PROPN	_	_	21	name	_	_
-21	Azéma	_	PROPN	_	_	18	nmod	_	_
+19	de	_	ADP	_	_	20	case	_	_
+20	Franck	_	PROPN	_	_	18	nmod	_	_
+21	Azéma	_	PROPN	_	_	20	name	_	_
 22	qui	_	PRON	_	_	24	nsubj	_	_
 23-24	s'apprête	_	_	_	_	_	_	_	_
 23	s'	_	PRON	_	_	24	dobj	_	_
-24	apprête	_	VERB	_	_	21	acl:relcl	_	_
+24	apprête	_	VERB	_	_	20	acl:relcl	_	_
 25	à	_	ADP	_	_	26	case	_	_
 26	rejoindre	_	VERB	_	_	24	acl	_	_
 27	Clermont	_	PROPN	_	_	26	dobj	_	_
@@ -5692,8 +5692,8 @@
 
 # sentid: fr-ud-test_00190
 # sentence-text: Barack Obama s'est baigné samedi dans une station balnéaire de Floride affirmant que toutes les plages du golfe du Mexique sont praticables et essayant de montrer l'exemple après la marée noire provoquée par BP.
-1	Barack	_	PROPN	_	_	2	name	_	_
-2	Obama	_	PROPN	_	_	5	nsubj	_	_
+1	Barack	_	PROPN	_	_	5	nsubj	_	_
+2	Obama	_	PROPN	_	_	1	name	_	_
 3	s'	_	PRON	_	_	5	dobj	_	_
 4	est	_	AUX	_	_	5	aux	_	_
 5	baigné	_	VERB	_	_	0	root	_	_
@@ -5893,9 +5893,9 @@
 15	dont	_	PRON	_	_	26	iobj	_	_
 16	la	_	DET	_	_	17	det	_	_
 17	victoire	_	NOUN	_	_	26	nsubj	_	_
-18	à	_	ADP	_	_	20	case	_	_
-19	New	_	PROPN	_	_	20	name	_	_
-20	York	_	PROPN	_	_	17	nmod	_	_
+18	à	_	ADP	_	_	19	case	_	_
+19	New	_	PROPN	_	_	17	nmod	_	_
+20	York	_	PROPN	_	_	19	name	_	_
 21	(	_	PUNCT	_	_	22	punct	_	_
 22	131-113	_	NUM	_	_	17	nummod	_	_
 23	)	_	PUNCT	_	_	22	punct	_	_
@@ -5963,8 +5963,8 @@
 5	d'	_	ADP	_	_	6	case	_	_
 6	Etat	_	NOUN	_	_	4	nmod	_	_
 7	Major	_	NOUN	_	_	6	compound	_	_
-8	Soumaila	_	PROPN	_	_	9	name	_	_
-9	Bagayoko	_	PROPN	_	_	4	appos	_	_
+8	Soumaila	_	PROPN	_	_	4	appos	_	_
+9	Bagayoko	_	PROPN	_	_	8	name	_	_
 10	fustigeait	_	VERB	_	_	44	advcl	_	_
 11	le	_	DET	_	_	12	det	_	_
 12	comportement	_	NOUN	_	_	10	dobj	_	_
@@ -6011,8 +6011,8 @@
 50	à	_	ADP	_	_	52	case	_	_
 51	notre	_	DET	_	_	52	nmod:poss	_	_
 52	compatriote	_	NOUN	_	_	49	nmod	_	_
-53	Sacko	_	PROPN	_	_	54	name	_	_
-54	Souleymane	_	PROPN	_	_	52	appos	_	_
+53	Sacko	_	PROPN	_	_	52	appos	_	_
+54	Souleymane	_	PROPN	_	_	53	name	_	_
 55	,	_	PUNCT	_	_	44	punct	_	_
 56	à	_	ADP	_	_	60	case	_	_
 57	quelques	_	DET	_	_	58	det	_	_
@@ -6191,8 +6191,8 @@
 
 # sentid: fr-ud-test_00206
 # sentence-text: Anjou Sol'Art, est une entreprise dont les compétences en matière de solaire et solaire photovoltaïque ne sont plus à prouver.
-1	Anjou	_	PROPN	_	_	2	name	_	_
-2	Sol'Art	_	PROPN	_	_	6	nsubj	_	_
+1	Anjou	_	PROPN	_	_	6	nsubj	_	_
+2	Sol'Art	_	PROPN	_	_	1	name	_	_
 3	,	_	PUNCT	_	_	6	punct	_	_
 4	est	_	VERB	_	_	6	cop	_	_
 5	une	_	DET	_	_	6	det	_	_
@@ -6447,9 +6447,9 @@
 7	hôtel	_	NOUN	_	_	4	nmod	_	_
 8	de	_	ADP	_	_	9	case	_	_
 9	ville	_	NOUN	_	_	7	nmod	_	_
-10	de	_	ADP	_	_	12	case	_	_
-11	Faches	_	PROPN	_	_	12	name	_	_
-12	Thumesnil	_	PROPN	_	_	7	nmod	_	_
+10	de	_	ADP	_	_	11	case	_	_
+11	Faches	_	PROPN	_	_	7	nmod	_	_
+12	Thumesnil	_	PROPN	_	_	11	name	_	_
 
 # sentid: fr-ud-test_00219
 # sentence-text: C'est tellement rare de pouvoir dîner au coin du feu !
@@ -8027,10 +8027,10 @@
 17	professionel	_	ADJ	_	_	15	conj	_	_
 18	,	_	PUNCT	_	_	3	punct	_	_
 19	et	_	CONJ	_	_	3	cc	_	_
-20	"	_	PUNCT	_	_	22	punct	_	_
-21	Actif	_	PROPN	_	_	22	name	_	_
-22	Dépannage	_	PROPN	_	_	30	nsubj	_	_
-23	"	_	PUNCT	_	_	22	punct	_	_
+20	"	_	PUNCT	_	_	21	punct	_	_
+21	Actif	_	PROPN	_	_	30	nsubj	_	_
+22	Dépannage	_	PROPN	_	_	21	name	_	_
+23	"	_	PUNCT	_	_	21	punct	_	_
 24	a	_	AUX	_	_	30	aux	_	_
 25	,	_	PUNCT	_	_	30	punct	_	_
 26	dans	_	ADP	_	_	29	case	_	_

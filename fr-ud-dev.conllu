@@ -316,7 +316,7 @@
 3	(	_	PUNCT	_	_	4	punct	_	_
 4	né	_	VERB	_	_	1	acl	_	_
 5	le	_	DET	_	_	7	det	_	_
-6	26	_	NUM	_	_	7	nmod	_	_
+6	26	_	NUM	_	_	7	nummod	_	_
 7	octobre	_	NOUN	_	_	4	nmod	_	_
 8	1881	_	NUM	_	_	7	nmod	_	_
 9	à	_	ADP	_	_	10	case	_	_
@@ -324,7 +324,7 @@
 11	et	_	CONJ	_	_	4	cc	_	_
 12	mort	_	VERB	_	_	4	conj	_	_
 13	le	_	DET	_	_	15	det	_	_
-14	13	_	NUM	_	_	15	nmod	_	_
+14	13	_	NUM	_	_	15	nummod	_	_
 15	août	_	NOUN	_	_	12	nmod	_	_
 16	1963	_	NUM	_	_	15	nmod	_	_
 17	à	_	ADP	_	_	18	case	_	_
@@ -539,7 +539,7 @@
 23	d'	_	ADP	_	_	27	case	_	_
 24	un	_	DET	_	_	27	det	_	_
 25	ancien	_	ADJ	_	_	27	amod	_	_
-26	Premier	_	NUM	_	_	27	mwe	_	_
+26	Premier	_	ADJ	_	_	27	amod	_	_
 27	ministre	_	NOUN	_	_	22	nmod	_	_
 28	britannique	_	ADJ	_	_	27	amod	_	_
 29	mais	_	CONJ	_	_	17	cc	_	_
@@ -732,7 +732,7 @@
 2	est	_	AUX	_	_	3	auxpass	_	_
 3	fêté	_	VERB	_	_	0	root	_	_
 4	le	_	DET	_	_	6	det	_	_
-5	22	_	NUM	_	_	6	nmod	_	_
+5	22	_	NUM	_	_	6	nummod	_	_
 6	mai	_	NOUN	_	_	3	nmod	_	_
 7	.	_	PUNCT	_	_	3	punct	_	_
 
@@ -811,7 +811,7 @@
 5	Alain	_	PROPN	_	_	1	acl	_	_
 6	Kienast	_	PROPN	_	_	5	name	_	_
 7	le	_	DET	_	_	9	det	_	_
-8	27	_	NUM	_	_	9	nmod	_	_
+8	27	_	NUM	_	_	9	nummod	_	_
 9	mai	_	NOUN	_	_	5	nmod	_	_
 10	1944	_	NUM	_	_	9	nmod	_	_
 11	à	_	ADP	_	_	12	case	_	_
@@ -1451,7 +1451,7 @@
 8-9	du	_	_	_	_	_	_	_	_
 8	de	_	ADP	_	_	11	case	_	_
 9	le	_	DET	_	_	11	det	_	_
-10	16	_	NUM	_	_	11	nmod	_	_
+10	16	_	NUM	_	_	11	nummod	_	_
 11	décembre	_	NOUN	_	_	7	nmod	_	_
 12	1902	_	NUM	_	_	11	nmod	_	_
 13	a	_	AUX	_	_	15	aux	_	_
@@ -1929,7 +1929,7 @@
 7	sont	_	AUX	_	_	8	auxpass	_	_
 8	prononcés	_	VERB	_	_	0	root	_	_
 9	le	_	DET	_	_	11	det	_	_
-10	12	_	NUM	_	_	11	nmod	_	_
+10	12	_	NUM	_	_	11	nummod	_	_
 11	décembre	_	NOUN	_	_	8	nmod	_	_
 12-13	au	_	_	_	_	_	_	_	_
 12	à	_	ADP	_	_	14	case	_	_
@@ -2211,10 +2211,10 @@
 9	trois	_	NUM	_	_	10	nummod	_	_
 10	représentations	_	NOUN	_	_	2	nmod	_	_
 11	vendredi	_	NOUN	_	_	10	nmod	_	_
-12	28	_	NUM	_	_	11	nmod	_	_
+12	28	_	NUM	_	_	11	nummod	_	_
 13	et	_	CONJ	_	_	11	cc	_	_
 14	samedi	_	NOUN	_	_	11	conj	_	_
-15	29	_	NUM	_	_	14	nmod	_	_
+15	29	_	NUM	_	_	14	nummod	_	_
 16	,	_	PUNCT	_	_	10	punct	_	_
 17	à	_	ADP	_	_	19	case	_	_
 18	20	_	NUM	_	_	19	nummod	_	_
@@ -2510,7 +2510,7 @@
 8	commune	_	NOUN	_	_	6	dobj	_	_
 9	et	_	CONJ	_	_	6	cc	_	_
 10	compte	_	VERB	_	_	6	conj	_	_
-11	25 785	_	NUM	_	_	12	nmod	_	_
+11	25 785	_	NUM	_	_	12	nummod	_	_
 12	habitants	_	NOUN	_	_	10	dobj	_	_
 13	.	_	PUNCT	_	_	6	punct	_	_
 
@@ -2776,7 +2776,7 @@
 15	,	_	PUNCT	_	_	2	punct	_	_
 16	né	_	VERB	_	_	2	acl	_	_
 17	le	_	DET	_	_	19	det	_	_
-18	30	_	NUM	_	_	19	nmod	_	_
+18	30	_	NUM	_	_	19	nummod	_	_
 19	décembre	_	NOUN	_	_	16	nmod	_	_
 20	1988	_	NUM	_	_	19	nmod	_	_
 21	,	_	PUNCT	_	_	16	punct	_	_
@@ -2856,7 +2856,7 @@
 12	BWV	_	X	_	_	3	appos	_	_
 13	1007	_	NUM	_	_	12	nummod	_	_
 14	à	_	ADP	_	_	15	case	_	_
-15	1012	_	NUM	_	_	13	nmod	_	_
+15	1012	_	NUM	_	_	13	nummod	_	_
 16	)	_	PUNCT	_	_	12	punct	_	_
 17	sont	_	AUX	_	_	18	aux	_	_
 18	considérées	_	VERB	_	_	0	root	_	_
@@ -3062,11 +3062,11 @@
 12-13	du	_	_	_	_	_	_	_	_
 12	de	_	ADP	_	_	14	case	_	_
 13	le	_	DET	_	_	14	det	_	_
-14	3	_	NUM	_	_	11	nmod	_	_
+14	3	_	NUM	_	_	11	nummod	_	_
 15-16	au	_	_	_	_	_	_	_	_
 15	à	_	ADP	_	_	18	case	_	_
 16	le	_	DET	_	_	18	det	_	_
-17	6	_	NUM	_	_	18	nmod	_	_
+17	6	_	NUM	_	_	18	nummod	_	_
 18	juin	_	NOUN	_	_	14	nmod	_	_
 19	.	_	PUNCT	_	_	11	punct	_	_
 
@@ -3128,7 +3128,7 @@
 6	historique	_	ADJ	_	_	5	amod	_	_
 7	depuis	_	ADP	_	_	10	case	_	_
 8	le	_	DET	_	_	10	det	_	_
-9	3	_	NUM	_	_	10	nmod	_	_
+9	3	_	NUM	_	_	10	nummod	_	_
 10	octobre	_	NOUN	_	_	5	nmod	_	_
 11	1997	_	NUM	_	_	10	nmod	_	_
 12	.	_	PUNCT	_	_	5	punct	_	_
@@ -3161,7 +3161,7 @@
 7	français	_	ADJ	_	_	5	amod	_	_
 8	né	_	VERB	_	_	5	acl	_	_
 9	le	_	DET	_	_	11	det	_	_
-10	17	_	NUM	_	tronque=y	11	nmod	_	_
+10	17	_	NUM	_	tronque=y	11	nummod	_	_
 11	novembre	_	NOUN	_	tronque=y	8	nmod	_	_
 12	1977	_	NUM	_	tronque=y	11	nmod	_	_
 13	à	_	ADP	_	_	14	case	_	_
@@ -3311,7 +3311,7 @@
 2	Voúlgaris	_	PROPN	_	_	1	name	_	_
 3	né	_	VERB	_	_	1	acl	_	_
 4	le	_	DET	_	_	6	det	_	_
-5	2	_	NUM	_	_	6	nmod	_	_
+5	2	_	NUM	_	_	6	nummod	_	_
 6	octobre	_	NOUN	_	_	3	nmod	_	_
 7	1940	_	NUM	_	_	6	nmod	_	_
 8	à	_	ADP	_	_	9	case	_	_
@@ -4431,7 +4431,7 @@
 9	20	_	NUM	_	_	12	nummod	_	_
 10	à	_	ADP	_	_	11	case	_	_
 11	30	_	NUM	_	_	9	nmod	_	_
-12	nm	_	X	_	_	7	nmod	_	_
+12	nm	_	NOUN	_	_	7	nmod	_	_
 13	)	_	PUNCT	_	_	12	punct	_	_
 14	.	_	PUNCT	_	_	4	punct	_	_
 
@@ -4768,7 +4768,7 @@
 3	(	_	PUNCT	_	_	4	punct	_	_
 4	né	_	VERB	_	_	1	acl	_	_
 5	le	_	DET	_	_	7	det	_	_
-6	28	_	NUM	_	tronque=y	7	nmod	_	_
+6	28	_	NUM	_	tronque=y	7	nummod	_	_
 7	mai	_	NOUN	_	tronque=y	4	nmod	_	_
 8	1878	_	NUM	_	tronque=y	7	nmod	_	_
 9	à	_	ADP	_	_	10	case	_	_
@@ -4776,7 +4776,7 @@
 11	--	_	PUNCT	_	_	4	punct	_	_
 12	mort	_	NOUN	_	_	4	conj	_	_
 13	le	_	DET	_	_	15	det	_	_
-14	26	_	NUM	_	tronque=y	15	nmod	_	_
+14	26	_	NUM	_	tronque=y	15	nummod	_	_
 15	octobre	_	NOUN	_	tronque=y	12	nmod	_	_
 16	1945	_	NUM	_	tronque=y	15	nmod	_	_
 17	à	_	ADP	_	_	18	case	_	_
@@ -5072,11 +5072,11 @@
 1	Lucien	_	PROPN	_	_	14	nsubj	_	_
 2	Rivard	_	PROPN	_	_	1	name	_	_
 3	(	_	PUNCT	_	_	5	det	_	_
-4	16	_	NUM	_	tronque=y	5	nmod	_	_
+4	16	_	NUM	_	tronque=y	5	nummod	_	_
 5	juin	_	NOUN	_	tronque=y	7	nmod	_	_
 6	1914	_	NUM	_	tronque=y	5	nmod	_	_
 7	--	_	PUNCT	_	_	9	det	_	_
-8	3	_	NUM	_	tronque=y	9	nmod	_	_
+8	3	_	NUM	_	tronque=y	9	nummod	_	_
 9	février	_	NOUN	_	tronque=y	1	nmod	_	_
 10	2002	_	NUM	_	tronque=y	9	nmod	_	_
 11	)	_	PUNCT	_	_	7	punct	_	_
@@ -6043,7 +6043,7 @@
 2	quitte	_	VERB	_	_	0	root	_	_
 3	Mexico	_	PROPN	_	_	2	dobj	_	_
 4	le	_	DET	_	_	6	det	_	_
-5	10	_	NUM	_	_	6	nmod	_	_
+5	10	_	NUM	_	_	6	nummod	_	_
 6	juin	_	NOUN	_	_	2	nmod	_	_
 7	et	_	CONJ	_	_	2	cc	_	_
 8	l'	_	DET	_	_	9	det	_	_
@@ -6846,7 +6846,7 @@
 6	est	_	AUX	_	_	7	auxpass	_	_
 7	formée	_	VERB	_	_	0	root	_	_
 8	le	_	DET	_	_	10	det	_	_
-9	10	_	NUM	_	_	10	nmod	_	_
+9	10	_	NUM	_	_	10	nummod	_	_
 10	juillet	_	NOUN	_	_	7	nmod	_	_
 11	1944	_	NUM	_	_	10	nmod	_	_
 12	comme	_	ADP	_	_	13	case	_	_
@@ -7189,7 +7189,7 @@
 4	il	_	PRON	_	_	5	nsubj	_	_
 5	adressa	_	VERB	_	_	2	acl:relcl	_	_
 6	le	_	DET	_	_	8	det	_	_
-7	3	_	NUM	_	_	8	nmod	_	_
+7	3	_	NUM	_	_	8	nummod	_	_
 8	avril	_	NOUN	_	_	5	nmod	_	_
 9	1568	_	NUM	_	_	8	nmod	_	_
 10-11	au	_	_	_	_	_	_	_	_
@@ -7211,7 +7211,7 @@
 25	d'	_	ADP	_	_	26	case	_	_
 26	Écosse	_	PROPN	_	_	24	nmod	_	_
 27	le	_	DET	_	_	29	det	_	_
-28	25	_	NUM	_	_	29	nmod	_	_
+28	25	_	NUM	_	_	29	nummod	_	_
 29	mars	_	NOUN	_	_	21	nmod	_	_
 30	précédent	_	ADJ	_	_	29	amod	_	_
 31	.	_	PUNCT	_	_	15	punct	_	_
@@ -7454,7 +7454,7 @@
 # sentid: fr-ud-dev_00267
 # sentence-text: Le 1 mars 1919, le parti adopta un Programme républicain à l'initiative de V. Prebeg, président du parti, et Ante Pavelić, secrétaire du parti.
 1	Le	_	DET	_	_	3	det	_	_
-2	1	_	NUM	_	_	3	nmod	_	_
+2	1	_	NUM	_	_	3	nummod	_	_
 3	mars	_	NOUN	_	_	8	nmod	_	_
 4	1919	_	NUM	_	_	3	nmod	_	_
 5	,	_	PUNCT	_	_	8	punct	_	_
@@ -7744,11 +7744,11 @@
 31	en	_	ADP	_	_	32	case	_	_
 32	œuvre	_	NOUN	_	_	30	nmod	_	_
 33	le	_	DET	_	_	35	det	_	_
-34	18	_	NUM	_	_	35	nmod	_	_
+34	18	_	NUM	_	_	35	nummod	_	_
 35	octobre	_	NOUN	_	_	30	nmod	_	_
 36	1996	_	NUM	_	_	35	nmod	_	_
 37	à	_	ADP	_	_	39	case	_	_
-38	23	_	NUM	_	_	39	nmod	_	_
+38	23	_	NUM	_	_	39	nummod	_	_
 39	heures	_	NOUN	_	_	30	nmod	_	_
 40	.	_	PUNCT	_	_	25	punct	_	_
 
@@ -8408,13 +8408,13 @@
 4	(	_	PUNCT	_	_	5	punct	_	_
 5	Santpoort	_	PROPN	_	_	1	appos	_	_
 6	,	_	PUNCT	_	_	8	det	_	_
-7	26	_	NUM	_	tronque=y	8	nmod	_	_
+7	26	_	NUM	_	tronque=y	8	nummod	_	_
 8	octobre	_	NOUN	_	tronque=y	5	nmod	_	_
 9	1914	_	NUM	_	tronque=y	8	nmod	_	_
 10	--	_	PUNCT	_	_	11	punct	_	_
 11	Schiermonnikoog	_	PROPN	_	_	5	conj	_	_
 12	,	_	PUNCT	_	_	14	det	_	_
-13	14	_	NUM	_	tronque=y	14	nmod	_	_
+13	14	_	NUM	_	tronque=y	14	nummod	_	_
 14	août	_	NOUN	_	tronque=y	5	nmod	_	_
 15	2006	_	NUM	_	tronque=y	14	nmod	_	_
 16	)	_	PUNCT	_	_	5	punct	_	_
@@ -8926,7 +8926,7 @@
 5	,	_	PUNCT	_	_	1	punct	_	_
 6	né	_	VERB	_	_	1	acl	_	_
 7	le	_	DET	_	_	9	det	_	_
-8	30	_	NUM	_	_	9	nmod	_	_
+8	30	_	NUM	_	_	9	nummod	_	_
 9	septembre	_	NOUN	_	_	6	nmod	_	_
 10	1893	_	NUM	_	_	9	nmod	_	_
 11	à	_	ADP	_	_	14	case	_	_
@@ -8936,7 +8936,7 @@
 15	et	_	CONJ	_	_	6	cc	_	_
 16	décédé	_	VERB	_	_	6	conj	_	_
 17	le	_	DET	_	_	19	det	_	_
-18	7	_	NUM	_	_	19	nmod	_	_
+18	7	_	NUM	_	_	19	nummod	_	_
 19	novembre	_	NOUN	_	_	16	nmod	_	_
 20	1965	_	NUM	_	_	19	nmod	_	_
 21	à	_	ADP	_	_	22	case	_	_
@@ -10268,60 +10268,62 @@
 # sentence-text: Selon les chroniques médiévales, plus de [[50 000 soldats]] des Maisons d'York et de Lancastre se sont combattus ce dimanche des Rameaux pendant plusieurs heures et dans des conditions météorologiques déplorables, et une proclamation diffusée une semaine après la bataille rapporte que [[28 000 hommes]] ont péri sur le champ de bataille.
 1	Selon	_	ADP	_	_	3	case	_	_
 2	les	_	DET	_	_	3	det	_	_
-3	chroniques	_	NOUN	_	_	19	nmod	_	_
+3	chroniques	_	NOUN	_	_	20	nmod	_	_
 4	médiévales	_	ADJ	_	_	3	amod	_	_
-5	,	_	PUNCT	_	_	19	punct	_	_
+5	,	_	PUNCT	_	_	20	punct	_	_
 6	plus	_	ADV	_	_	7	mwe	_	_
 7	de	_	ADP	_	_	11	dep	_	_
-8	50 000	_	TODO	_	tronque=y	7	TODO	_	_
-9	soldats	_	TODO	_	tronque=y	8	TODO	_	_
-10	des	_	DET	_	_	11	det	_	_
-11	Maisons	_	PROPN	_	_	19	nsubj	_	_
-12	d'	_	ADP	_	_	13	case	_	_
-13	York	_	PROPN	_	_	11	nmod	_	_
-14	et	_	CONJ	_	_	13	cc	_	_
-15	de	_	ADP	_	_	16	case	_	_
-16	Lancastre	_	PROPN	_	_	13	conj	_	_
-17	se	_	PRON	_	_	19	dobj	_	_
-18	sont	_	AUX	_	_	19	aux	_	_
-19	combattus	_	VERB	_	_	0	root	_	_
-20	ce	_	DET	_	_	21	det	_	_
-21	dimanche	_	NOUN	_	_	19	nmod	_	_
-22-23	des	_	_	_	_	_	_	_	_
-22	de	_	ADP	_	_	24	case	_	_
-23	les	_	DET	_	_	24	det	_	_
-24	Rameaux	_	PROPN	_	_	21	nmod	_	_
-25	pendant	_	ADP	_	_	27	case	_	_
-26	plusieurs	_	DET	_	_	27	det	_	_
-27	heures	_	NOUN	_	_	19	nmod	_	_
-28	et	_	CONJ	_	_	27	cc	_	_
-29	dans	_	ADP	_	_	31	case	_	_
-30	des	_	DET	_	_	31	det	_	_
-31	conditions	_	NOUN	_	_	27	conj	_	_
-32	météorologiques	_	ADJ	_	_	31	amod	_	_
-33	déplorables	_	ADJ	_	_	31	amod	_	_
-34	,	_	PUNCT	_	_	19	punct	_	_
-35	et	_	CONJ	_	_	19	cc	_	_
-36	une	_	DET	_	_	37	det	_	_
-37	proclamation	_	NOUN	_	_	44	nsubj	_	_
-38	diffusée	_	VERB	_	_	37	acl	_	_
-39	une	_	DET	_	_	40	det	_	_
-40	semaine	_	NOUN	_	_	38	nmod	_	_
-41	après	_	ADP	_	_	43	case	_	_
-42	la	_	DET	_	_	43	det	_	_
-43	bataille	_	NOUN	_	_	40	nmod	_	_
-44	rapporte	_	VERB	_	_	19	conj	_	_
-45	que	_	SCONJ	_	_	49	mark	_	_
-46	28 000	_	TODO	_	tronque=y	45	TODO	_	_
-47	hommes	_	TODO	_	tronque=y	46	TODO	_	_
-48	ont	_	AUX	_	_	49	aux	_	_
-49	péri	_	VERB	_	_	44	ccomp	_	_
-50	sur	_	ADP	_	_	52	case	_	_
-51	le	_	DET	_	_	52	det	_	_
-52	champ	_	NOUN	_	_	49	nmod	_	_
-53	de	_	ADP	_	_	54	case	_	_
-54	bataille	_	NOUN	_	_	52	nmod	_	_
-55	.	_	PUNCT	_	_	19	punct	_	_
+8	50 000	_	NUM	_	tronque=y	7	nummod	_	_
+9	soldats	_	NOUN	_	tronque=y	20	nsubj	_	_
+10-11	des	_	_	_	_	_	_	_	_
+10	de	_	DET	_	_	12	case	_	_
+11	les	_	DET	_	_	12	det	_	_
+12	Maisons	_	PROPN	_	_	9	nmod	_	_
+13	d'	_	ADP	_	_	14	case	_	_
+14	York	_	PROPN	_	_	12	nmod	_	_
+15	et	_	CONJ	_	_	14	cc	_	_
+16	de	_	ADP	_	_	17	case	_	_
+17	Lancastre	_	PROPN	_	_	14	conj	_	_
+18	se	_	PRON	_	_	20	dobj	_	_
+19	sont	_	AUX	_	_	20	aux	_	_
+20	combattus	_	VERB	_	_	0	root	_	_
+21	ce	_	DET	_	_	22	det	_	_
+22	dimanche	_	NOUN	_	_	20	nmod	_	_
+23-24	des	_	_	_	_	_	_	_	_
+23	de	_	ADP	_	_	25	case	_	_
+24	les	_	DET	_	_	25	det	_	_
+25	Rameaux	_	PROPN	_	_	22	nmod	_	_
+26	pendant	_	ADP	_	_	28	case	_	_
+27	plusieurs	_	DET	_	_	28	det	_	_
+28	heures	_	NOUN	_	_	20	nmod	_	_
+29	et	_	CONJ	_	_	28	cc	_	_
+30	dans	_	ADP	_	_	32	case	_	_
+31	des	_	DET	_	_	32	det	_	_
+32	conditions	_	NOUN	_	_	28	conj	_	_
+33	météorologiques	_	ADJ	_	_	32	amod	_	_
+34	déplorables	_	ADJ	_	_	32	amod	_	_
+35	,	_	PUNCT	_	_	20	punct	_	_
+36	et	_	CONJ	_	_	20	cc	_	_
+37	une	_	DET	_	_	38	det	_	_
+38	proclamation	_	NOUN	_	_	45	nsubj	_	_
+39	diffusée	_	VERB	_	_	38	acl	_	_
+40	une	_	DET	_	_	41	det	_	_
+41	semaine	_	NOUN	_	_	39	nmod	_	_
+42	après	_	ADP	_	_	44	case	_	_
+43	la	_	DET	_	_	44	det	_	_
+44	bataille	_	NOUN	_	_	41	nmod	_	_
+45	rapporte	_	VERB	_	_	20	conj	_	_
+46	que	_	SCONJ	_	_	50	mark	_	_
+47	28 000	_	NUM	_	tronque=y	48	nummod	_	_
+48	hommes	_	NOUN	_	tronque=y	50	nsubj	_	_
+49	ont	_	AUX	_	_	50	aux	_	_
+50	péri	_	VERB	_	_	45	ccomp	_	_
+51	sur	_	ADP	_	_	53	case	_	_
+52	le	_	DET	_	_	53	det	_	_
+53	champ	_	NOUN	_	_	50	nmod	_	_
+54	de	_	ADP	_	_	55	case	_	_
+55	bataille	_	NOUN	_	_	53	nmod	_	_
+56	.	_	PUNCT	_	_	20	punct	_	_
 
 # sentid: fr-ud-dev_00374
 # sentence-text: Il s'agit de la preuve la plus évidente permettant d'affirmer--avec une certitude historiographique--que la pratique musicale chrétienne découle de la tradition hébraïque et non pas grecque.
@@ -11775,7 +11777,7 @@
 # sentid: fr-ud-dev_00428
 # sentence-text: Le 18 juin 1815, le général Auguste Julien Bigarré sort de Ploërmel à la tête de ses troupes puis se porte sur Josselin, puis Grand-Champ et enfin Sainte-Anne-d'Auray.
 1	Le	_	DET	_	_	3	det	_	_
-2	18	_	NUM	_	_	3	nmod	_	_
+2	18	_	NUM	_	_	3	nummod	_	_
 3	juin	_	NOUN	_	_	11	nmod	_	_
 4	1815	_	NUM	_	_	3	nmod	_	_
 5	,	_	PUNCT	_	_	11	punct	_	_
@@ -11869,7 +11871,7 @@
 15	Dronne	_	PROPN	_	_	14	name	_	_
 16	,	_	PUNCT	_	_	7	punct	_	_
 17	le	_	DET	_	_	19	det	_	_
-18	9	_	NUM	_	_	19	nmod	_	_
+18	9	_	NUM	_	_	19	nummod	_	_
 19	avril	_	NOUN	_	_	7	nmod	_	_
 20	1932	_	NUM	_	_	19	nmod	_	_
 21	avec	_	ADP	_	_	23	case	_	_
@@ -12019,7 +12021,7 @@
 # sentid: fr-ud-dev_00438
 # sentence-text: Le 29 mai, l'AGEC participe à la journée.
 1	Le	_	DET	_	_	3	det	_	_
-2	29	_	NUM	_	_	3	nmod	_	_
+2	29	_	NUM	_	_	3	nummod	_	_
 3	mai	_	NOUN	_	_	7	nmod	_	_
 4	,	_	PUNCT	_	_	3	punct	_	_
 5	l'	_	DET	_	_	6	det	_	_
@@ -12494,7 +12496,7 @@
 3	être	_	AUX	_	_	4	auxpass	_	_
 4	présentée	_	VERB	_	_	0	root	_	_
 5	le	_	DET	_	_	7	det	_	_
-6	13	_	NUM	_	_	7	nmod	_	_
+6	13	_	NUM	_	_	7	nummod	_	_
 7	juillet	_	NOUN	_	_	4	nmod	_	_
 8	2010	_	NUM	_	_	7	nmod	_	_
 9	.	_	PUNCT	_	_	4	punct	_	_
@@ -13382,7 +13384,7 @@
 15-16	au	_	_	_	_	_	_	_	_
 15	à	_	ADP	_	_	9	case	_	_
 16	le	_	DET	_	_	18	det	_	_
-17	21	_	NUM	_	_	18	nmod	_	_
+17	21	_	NUM	_	_	18	nummod	_	_
 18	mai	_	NOUN	_	_	9	nmod	_	_
 19	2006	_	NUM	_	_	18	nmod	_	_
 20	.	_	PUNCT	_	_	9	punct	_	_
@@ -14398,7 +14400,7 @@
 14	en	_	ADP	_	_	15	case	_	_
 15	service	_	NOUN	_	_	13	nmod	_	_
 16	le	_	DET	_	_	18	det	_	_
-17	23	_	NUM	_	_	18	nmod	_	_
+17	23	_	NUM	_	_	18	nummod	_	_
 18	mai	_	NOUN	_	_	13	nmod	_	_
 19	1898	_	NUM	_	_	18	nmod	_	_
 20	,	_	PUNCT	_	_	13	punct	_	_
@@ -16072,13 +16074,13 @@
 3	(	_	PUNCT	_	_	4	punct	_	_
 4	Huntingdon	_	PROPN	_	_	1	nmod	_	_
 5	,	_	PUNCT	_	_	7	det	_	_
-6	25	_	NUM	_	tronque=y	7	nmod	_	_
+6	25	_	NUM	_	tronque=y	7	nummod	_	_
 7	avril	_	NOUN	_	tronque=y	4	nmod	_	_
 8	1599	_	NUM	_	tronque=y	7	nmod	_	_
 9	--	_	PUNCT	_	_	10	punct	_	_
 10	Londres	_	PROPN	_	_	4	nmod	_	_
 11	,	_	PUNCT	_	_	13	det	_	_
-12	3	_	NUM	_	tronque=y	13	nmod	_	_
+12	3	_	NUM	_	tronque=y	13	nummod	_	_
 13	septembre	_	NOUN	_	tronque=y	4	nmod	_	_
 14	1658	_	NUM	_	tronque=y	13	nmod	_	_
 15	)	_	PUNCT	_	_	4	punct	_	_
@@ -16595,7 +16597,7 @@
 7	Marcou	_	PROPN	_	_	6	case	_	_
 8	,	_	PUNCT	_	_	3	punct	_	_
 9	le	_	DET	_	_	11	det	_	_
-10	24	_	NUM	_	_	11	nmod	_	_
+10	24	_	NUM	_	_	11	nummod	_	_
 11	août	_	NOUN	_	_	3	nmod	_	_
 12	1900	_	NUM	_	_	11	nmod	_	_
 13	,	_	PUNCT	_	_	3	punct	_	_
@@ -16819,7 +16821,7 @@
 14	de	_	ADP	_	_	18	case	_	_
 15	28	_	NUM	_	_	18	nummod	_	_
 16	à	_	ADP	_	_	17	case	_	_
-17	37	_	NUM	_	_	15	nmod	_	_
+17	37	_	NUM	_	_	15	nummod	_	_
 18	ans	_	NOUN	_	_	13	nmod	_	_
 19	,	_	PUNCT	_	_	5	punct	_	_
 20	dont	_	PRON	_	_	23	iobj	_	_
@@ -17157,7 +17159,7 @@
 
 # sentid: fr-ud-dev_00619
 # sentence-text: Léthuin est une commune française, située dans le département d'Eure-et-Loir et la région Centre.
-1	Léthuin	_	PRON	_	_	4	nsubj	_	_
+1	Léthuin	_	PROPN	_	_	4	nsubj	_	_
 2	est	_	VERB	_	_	4	cop	_	_
 3	une	_	DET	_	_	4	det	_	_
 4	commune	_	NOUN	_	_	0	root	_	_
@@ -17642,7 +17644,7 @@
 14	en	_	ADP	_	_	15	case	_	_
 15	single	_	NOUN	_	_	13	nmod	_	_
 16	le	_	DET	_	_	18	det	_	_
-17	23	_	NUM	_	_	18	nmod	_	_
+17	23	_	NUM	_	_	18	nummod	_	_
 18	septembre	_	NOUN	_	_	13	nmod	_	_
 19	1980	_	NUM	_	_	18	nmod	_	_
 20	.	_	PUNCT	_	_	7	punct	_	_
@@ -17706,7 +17708,7 @@
 1	Ordonné	_	VERB	_	_	2	cop	_	_
 2	prêtre	_	NOUN	_	_	13	acl	_	_
 3	le	_	DET	_	_	5	det	_	_
-4	19	_	NUM	_	_	5	nmod	_	_
+4	19	_	NUM	_	_	5	nummod	_	_
 5	juin	_	NOUN	_	_	2	nmod	_	_
 6	1982	_	NUM	_	_	5	nmod	_	_
 7	pour	_	ADP	_	_	9	case	_	_
@@ -19090,7 +19092,7 @@
 15	ou	_	CONJ	_	_	13	cc	_	_
 16	Platajunta	_	PROPN	_	_	13	conj	_	_
 17	le	_	DET	_	_	19	det	_	_
-18	26	_	NUM	_	_	19	nmod	_	_
+18	26	_	NUM	_	_	19	nummod	_	_
 19	mars	_	NOUN	_	_	10	nmod	_	_
 20	.	_	PUNCT	_	_	10	punct	_	_
 
@@ -19453,7 +19455,7 @@
 3	nommé	_	VERB	_	_	10	cop	_	_
 4	,	_	PUNCT	_	_	10	punct	_	_
 5	le	_	DET	_	_	7	det	_	_
-6	21	_	NUM	_	tronque=y	7	nmod	_	_
+6	21	_	NUM	_	tronque=y	7	nummod	_	_
 7	novembre	_	NOUN	_	tronque=y	10	nmod	_	_
 8	2008	_	NUM	_	tronque=y	7	nmod	_	_
 9	,	_	PUNCT	_	_	10	punct	_	_
@@ -19784,7 +19786,7 @@
 24	la	_	DET	_	_	25	det	_	_
 25	catégorie	_	NOUN	_	_	18	nmod	_	_
 26	le	_	DET	_	_	28	det	_	_
-27	18	_	NUM	_	_	28	nmod	_	_
+27	18	_	NUM	_	_	28	nummod	_	_
 28	juin	_	NOUN	_	_	18	nmod	_	_
 29	1976	_	NUM	_	_	28	nmod	_	_
 30	après	_	ADP	_	_	32	case	_	_
@@ -20033,7 +20035,7 @@
 2	a	_	AUX	_	_	3	aux	_	_
 3	ouvert	_	VERB	_	_	0	root	_	_
 4	le	_	DET	_	_	6	det	_	_
-5	2	_	NUM	_	_	6	nmod	_	_
+5	2	_	NUM	_	_	6	nummod	_	_
 6	janvier	_	NOUN	_	_	3	nmod	_	_
 7	2001	_	NUM	_	_	6	nmod	_	_
 8	avec	_	ADP	_	_	10	case	_	_
@@ -20117,7 +20119,7 @@
 # sentid: fr-ud-dev_00729
 # sentence-text: Le 24 octobre 2005, George W. Bush a nommé Bernanke à la tête de la Réserve fédérale, poste qu'il occupe depuis le [[1er février]] 2006.
 1	Le	_	DET	_	_	3	det	_	_
-2	24	_	NUM	_	_	3	nmod	_	_
+2	24	_	NUM	_	_	3	nummod	_	_
 3	octobre	_	NOUN	_	_	10	nmod	_	_
 4	2005	_	NUM	_	_	3	nmod	_	_
 5	,	_	PUNCT	_	_	3	punct	_	_
@@ -20141,7 +20143,7 @@
 23	occupe	_	VERB	_	_	20	acl:relcl	_	_
 24	depuis	_	ADP	_	_	27	case	_	_
 25	le	_	DET	_	_	27	det	_	_
-26	1er	_	NUM	_	_	27	nmod	_	_
+26	1er	_	NUM	_	_	27	nummod	_	_
 27	février	_	NOUN	_	_	23	nmod	_	_
 28	2006	_	NUM	_	_	27	nmod	_	_
 29	.	_	PUNCT	_	_	10	punct	_	_
@@ -20410,7 +20412,7 @@
 2	est	_	AUX	_	_	3	auxpass	_	_
 3	libéré	_	VERB	_	_	0	root	_	_
 4	le	_	DET	_	_	6	det	_	_
-5	12	_	NUM	_	_	6	nmod	_	_
+5	12	_	NUM	_	_	6	nummod	_	_
 6	octobre	_	NOUN	_	_	3	nmod	_	_
 7	après	_	ADP	_	_	9	case	_	_
 8	l'	_	DET	_	_	9	det	_	_
@@ -20606,7 +20608,7 @@
 12	Economiste	_	PROPN	_	_	9	appos	_	_
 13	»	_	PUNCT	_	_	12	punct	_	_
 14	de	_	ADP	_	_	16	case	_	_
-15	31	_	NUM	_	_	16	nmod	_	_
+15	31	_	NUM	_	_	16	nummod	_	_
 16	mai	_	NOUN	_	_	9	nmod	_	_
 17	2011	_	NUM	_	_	16	nmod	_	_
 18	.	_	PUNCT	_	_	1	punct	_	_
@@ -20830,7 +20832,7 @@
 4-5	du	_	_	_	_	_	_	_	_
 4	de	_	ADP	_	_	7	case	_	_
 5	le	_	DET	_	_	7	det	_	_
-6	4	_	NUM	_	_	7	nmod	_	_
+6	4	_	NUM	_	_	7	nummod	_	_
 7	novembre	_	NOUN	_	_	2	nmod	_	_
 8	2010	_	NUM	_	_	7	nmod	_	_
 9	les	_	DET	_	_	10	det	_	_
@@ -21580,17 +21582,17 @@
 
 # sentid: fr-ud-dev_00786
 # sentence-text: RRE agit dans la régulation de VIH-1 pour retenir l'ARN non épissée ou partiellement épissée dans le noyau.
-1	RRE	_	X	_	_	2	nsubj	_	_
+1	RRE	_	NOUN	_	_	2	nsubj	_	_
 2	agit	_	VERB	_	_	0	root	_	_
 3	dans	_	ADP	_	_	5	case	_	_
 4	la	_	DET	_	_	5	det	_	_
 5	régulation	_	NOUN	_	_	2	nmod	_	_
 6	de	_	ADP	_	_	7	case	_	_
-7	VIH-1	_	NUM	_	_	5	nmod	_	_
+7	VIH-1	_	NOUN	_	_	5	nmod	_	_
 8	pour	_	ADP	_	_	9	mark	_	_
 9	retenir	_	VERB	_	_	2	advcl	_	_
 10	l'	_	DET	_	_	11	det	_	_
-11	ARN	_	X	_	_	9	dobj	_	_
+11	ARN	_	NOUN	_	_	9	dobj	_	_
 12	non	_	ADV	_	_	13	neg	_	_
 13	épissée	_	VERB	_	_	11	acl	_	_
 14	ou	_	CONJ	_	_	13	cc	_	_
@@ -22035,7 +22037,7 @@
 5	,	_	PUNCT	_	_	2	punct	_	_
 6	né	_	VERB	_	_	2	acl	_	_
 7	le	_	DET	_	_	9	det	_	_
-8	5	_	NUM	_	_	9	nmod	_	_
+8	5	_	NUM	_	_	9	nummod	_	_
 9	décembre	_	NOUN	_	_	6	nmod	_	_
 10	1719	_	NUM	_	_	9	nmod	_	_
 11	à	_	ADP	_	_	12	case	_	_
@@ -22048,7 +22050,7 @@
 18	de	_	ADP	_	_	19	case	_	_
 19	Rochefort	_	PROPN	_	_	17	nmod	_	_
 20	le	_	DET	_	_	22	det	_	_
-21	9	_	NUM	_	_	22	nmod	_	_
+21	9	_	NUM	_	_	22	nummod	_	_
 22	juin	_	NOUN	_	_	14	nmod	_	_
 23	1794	_	NUM	_	_	22	nmod	_	_
 24	,	_	PUNCT	_	_	6	punct	_	_
@@ -22484,9 +22486,9 @@
 15	exemple	_	NOUN	_	_	13	nmod	_	_
 16	l'	_	DET	_	_	17	det	_	_
 17	armée	_	NOUN	_	_	13	dobj	_	_
-18	à	_	ADP	_	_	13	case	_	_
-19	100 000	_	TODO	_	tronque=y	18	TODO	_	_
-20	hommes	_	TODO	_	tronque=y	19	TODO	_	_
+18	à	_	ADP	_	_	20	case	_	_
+19	100 000	_	NUM	_	tronque=y	18	nummod	_	_
+20	hommes	_	NOUN	_	tronque=y	13	nmod	_	_
 21	et	_	CONJ	_	_	13	cc	_	_
 22	en	_	ADP	_	_	23	mark	_	_
 23	interdisant	_	VERB	_	_	13	conj	_	_
@@ -23038,7 +23040,7 @@
 10	Corse	_	PROPN	_	_	7	nmod	_	_
 11	,	_	PUNCT	_	_	1	punct	_	_
 12	le	_	DET	_	_	14	det	_	_
-13	29	_	NUM	_	_	14	nmod	_	_
+13	29	_	NUM	_	_	14	nummod	_	_
 14	octobre	_	NOUN	_	_	1	nmod	_	_
 15	1748	_	NUM	_	_	14	nmod	_	_
 16	,	_	PUNCT	_	_	1	punct	_	_
@@ -23119,7 +23121,7 @@
 5-6	du	_	_	_	_	_	_	_	_
 5	de	_	ADP	_	_	7	case	_	_
 6	le	_	DET	_	_	7	det	_	_
-7	U-754	_	NUM	_	_	4	nmod	_	_
+7	U-754	_	NOUN	_	_	4	nmod	_	_
 8	se	_	PRON	_	_	10	dobj	_	_
 9	soit	_	AUX	_	_	10	aux	_	_
 10	déroulé	_	VERB	_	_	22	advcl	_	_
@@ -23165,7 +23167,7 @@
 46	Est	_	NOUN	_	_	42	nmod	_	_
 47	de	_	ADP	_	_	49	case	_	_
 48	la	_	DET	_	_	49	det	_	_
-49	RCAF	_	X	_	_	46	nmod	_	_
+49	RCAF	_	NOUN	_	_	46	nmod	_	_
 50	.	_	PUNCT	_	_	22	punct	_	_
 
 # sentid: fr-ud-dev_00843
@@ -23564,7 +23566,7 @@
 4	,	_	PUNCT	_	_	24	punct	_	_
 5	né	_	VERB	_	_	1	acl	_	_
 6	le	_	DET	_	_	8	det	_	_
-7	8	_	NUM	_	_	8	nmod	_	_
+7	8	_	NUM	_	_	8	nummod	_	_
 8	octobre	_	NOUN	_	_	5	nmod	_	_
 9	1848	_	NUM	_	_	8	nmod	_	_
 10	à	_	ADP	_	_	11	case	_	_
@@ -23575,7 +23577,7 @@
 15	New	_	PROPN	_	_	13	nmod	_	_
 16	York	_	PROPN	_	_	15	name	_	_
 17	le	_	DET	_	_	19	det	_	_
-18	4	_	NUM	_	_	19	nmod	_	_
+18	4	_	NUM	_	_	19	nummod	_	_
 19	mai	_	NOUN	_	_	13	nmod	_	_
 20	1904	_	NUM	_	_	19	nmod	_	_
 21	,	_	PUNCT	_	_	24	punct	_	_
@@ -23815,7 +23817,7 @@
 4	,	_	PUNCT	_	_	5	punct	_	_
 5	né	_	VERB	_	_	1	acl	_	_
 6	le	_	DET	_	_	8	det	_	_
-7	29	_	NUM	_	_	8	nmod	_	_
+7	29	_	NUM	_	_	8	nummod	_	_
 8	juillet	_	NOUN	_	_	5	nmod	_	_
 9	1964	_	NUM	_	_	8	nmod	_	_
 10	,	_	PUNCT	_	_	5	punct	_	_
@@ -24165,7 +24167,7 @@
 7	zone	_	NOUN	_	_	5	nmod	_	_
 8	euro	_	ADJ	_	_	7	amod	_	_
 9	le	_	DET	_	_	11	det	_	_
-10	1	_	NUM	_	_	11	nmod	_	_
+10	1	_	NUM	_	_	11	nummod	_	_
 11	janvier	_	NOUN	_	_	5	nmod	_	_
 12	2008	_	NUM	_	_	11	nmod	_	_
 13	.	_	PUNCT	_	_	5	punct	_	_
@@ -24283,7 +24285,7 @@
 8	de	_	ADP	_	_	12	case	_	_
 9	huit	_	NUM	_	_	12	nummod	_	_
 10	à	_	ADP	_	_	11	case	_	_
-11	vingt	_	NUM	_	_	12	nmod	_	_
+11	vingt	_	NUM	_	_	12	nummod	_	_
 12	kilomètres	_	NOUN	_	_	7	nmod	_	_
 13	carrés	_	ADJ	_	_	12	amod	_	_
 14	et	_	CONJ	_	_	3	cc	_	_
@@ -24322,7 +24324,7 @@
 5-6	du	_	_	_	_	_	_	_	_
 5	de	_	ADP	_	_	8	case	_	_
 6	le	_	DET	_	_	8	det	_	_
-7	9	_	NUM	_	_	8	nmod	_	_
+7	9	_	NUM	_	_	8	nummod	_	_
 8	mars	_	NOUN	_	_	3	nmod	_	_
 9	2008	_	NUM	_	_	8	nmod	_	_
 10	,	_	PUNCT	_	_	13	punct	_	_
@@ -25165,7 +25167,7 @@
 1-2	Du	_	_	_	_	_	_	_	_
 1	de	_	ADP	_	_	3	case	_	_
 2	le	_	DET	_	_	3	det	_	_
-3	7	_	NUM	_	_	16	nmod	_	_
+3	7	_	NUM	_	_	16	nummod	_	_
 4-5	au	_	_	_	_	_	_	_	_
 4	à	_	ADP	_	_	7	case	_	_
 5	le	_	DET	_	_	7	det	_	_
@@ -25209,7 +25211,7 @@
 18	a	_	AUX	_	_	19	aux	_	_
 19	prononcé	_	VERB	_	_	0	root	_	_
 20	le	_	DET	_	_	22	det	_	_
-21	22	_	NUM	_	_	22	nmod	_	_
+21	22	_	NUM	_	_	22	nummod	_	_
 22	novembre	_	NOUN	_	_	19	nmod	_	_
 23	une	_	DET	_	_	24	det	_	_
 24	ordonnance	_	NOUN	_	_	19	dobj	_	_
@@ -25309,7 +25311,7 @@
 3	,	_	PUNCT	_	_	18	punct	_	_
 4	né	_	VERB	_	_	1	acl	_	_
 5	le	_	DET	_	_	7	det	_	_
-6	20	_	NUM	_	tronque=y	7	nmod	_	_
+6	20	_	NUM	_	tronque=y	7	nummod	_	_
 7	octobre	_	NOUN	_	tronque=y	4	nmod	_	_
 8	1964	_	NUM	_	tronque=y	7	nmod	_	_
 9	à	_	ADP	_	_	10	case	_	_
@@ -25593,7 +25595,7 @@
 31	niveau	_	NOUN	_	_	27	dobj	_	_
 32	depuis	_	ADP	_	_	35	case	_	_
 33	le	_	DET	_	_	35	det	_	_
-34	21	_	NUM	_	_	35	nmod	_	_
+34	21	_	NUM	_	_	35	nummod	_	_
 35	juin	_	NOUN	_	_	27	nmod	_	_
 36	.	_	PUNCT	_	_	13	punct	_	_
 
@@ -25783,7 +25785,7 @@
 8	jeu	_	NOUN	_	_	2	nmod	_	_
 9	vidéo	_	ADJ	_	_	8	amod	_	_
 10	le	_	DET	_	_	12	det	_	_
-11	21	_	NUM	_	tronque=y	12	nmod	_	_
+11	21	_	NUM	_	tronque=y	12	nummod	_	_
 12	novembre	_	NOUN	_	tronque=y	2	nmod	_	_
 13	1999	_	NUM	_	tronque=y	12	nmod	_	_
 14	,	_	PUNCT	_	_	2	punct	_	_
@@ -27696,8 +27698,8 @@
 # sentid: fr-ud-dev_01006
 # sentence-text: N'en voyant pas l'utilité, il l'offre à Marge Simpson qui, en échange, accepte de garder Rod et Todd pendant que Ned Flanders se rend au congrès des gauchers.
 1-2	N'en	_	_	_	_	_	_	_	_
-1	N'	_	PRON	_	_	2	dep	_	_
-2	en	_	ADP	_	_	3	mark	_	_
+1	N'	_	PART	_	_	3	neg	_	_
+2	en	_	PRON	_	_	3	expl	_	_
 3	voyant	_	VERB	_	_	10	advcl	_	_
 4	pas	_	ADV	_	_	3	neg	_	_
 5	l'	_	DET	_	_	6	det	_	_
@@ -27887,7 +27889,7 @@
 3	(	_	PUNCT	_	_	4	punct	_	_
 4	né	_	VERB	_	_	1	acl	_	_
 5	le	_	DET	_	_	7	det	_	_
-6	17	_	NUM	_	_	7	nmod	_	_
+6	17	_	NUM	_	_	7	nummod	_	_
 7	octobre	_	NOUN	_	_	4	nmod	_	_
 8	1892	_	NUM	_	_	7	nmod	_	_
 9	dans	_	ADP	_	_	11	case	_	_
@@ -28946,7 +28948,7 @@
 13	officiels	_	ADJ	_	_	11	amod	_	_
 14	:	_	PUNCT	_	_	8	punct	_	_
 15	le	_	DET	_	_	17	det	_	_
-16	5	_	NUM	_	tronque=y	17	nmod	_	_
+16	5	_	NUM	_	tronque=y	17	nummod	_	_
 17	mars	_	NOUN	_	tronque=y	8	nmod	_	_
 18	1870	_	NUM	_	tronque=y	17	nmod	_	_
 19	(	_	PUNCT	_	_	20	punct	_	_
@@ -28963,17 +28965,17 @@
 29	,	_	PUNCT	_	_	20	punct	_	_
 30	puis	_	ADV	_	_	33	advmod	_	_
 31	le	_	DET	_	_	33	det	_	_
-32	25	_	NUM	_	_	33	nmod	_	_
+32	25	_	NUM	_	_	33	nummod	_	_
 33	février	_	NOUN	_	_	15	conj	_	_
 34	1871	_	NUM	_	_	33	nmod	_	_
 35	,	_	PUNCT	_	_	15	punct	_	_
 36	le	_	DET	_	_	38	det	_	_
-37	18	_	NUM	_	_	38	nmod	_	_
+37	18	_	NUM	_	_	38	nummod	_	_
 38	novembre	_	NOUN	_	_	15	nmod	_	_
 39	1871	_	NUM	_	_	38	nmod	_	_
 40	et	_	CONJ	_	_	15	cc	_	_
 41	le	_	DET	_	_	43	det	_	_
-42	24	_	NUM	_	_	43	nmod	_	_
+42	24	_	NUM	_	_	43	nummod	_	_
 43	février	_	NOUN	_	_	15	nmod	_	_
 44	1872	_	NUM	_	_	43	nmod	_	_
 45	.	_	PUNCT	_	_	8	punct	_	_
@@ -29306,15 +29308,16 @@
 8	le	_	DET	_	_	9	det	_	_
 9	Duc	_	NOUN	_	_	10	nsubj	_	_
 10	annonce	_	VERB	_	_	6	conj	_	_
-11	qu'Hermia	_	PRON	_	_	13	nsubj	_	_
-12	peut	_	AUX	_	_	13	aux	_	_
-13	épouser	_	VERB	_	_	10	ccomp	_	_
-14	Lysandre	_	PROPN	_	_	13	dobj	_	_
-15	si	_	SCONJ	_	_	18	mark	_	_
-16	elle	_	PRON	_	_	18	nsubj	_	_
-17	le	_	PRON	_	_	18	dobj	_	_
-18	souhaite	_	VERB	_	_	13	advcl	_	_
-19	.	_	PUNCT	_	_	6	punct	_	_
+11	qu'	_	SCONJ	_	_	14	mark	_	_
+12	Hermia	_	PROPN	_	_	14	nsubj	_	_
+13	peut	_	AUX	_	_	14	aux	_	_
+14	épouser	_	VERB	_	_	10	ccomp	_	_
+15	Lysandre	_	PROPN	_	_	14	dobj	_	_
+16	si	_	SCONJ	_	_	19	mark	_	_
+17	elle	_	PRON	_	_	19	nsubj	_	_
+18	le	_	PRON	_	_	19	dobj	_	_
+19	souhaite	_	VERB	_	_	14	advcl	_	_
+20	.	_	PUNCT	_	_	6	punct	_	_
 
 # sentid: fr-ud-dev_01061
 # sentence-text: Pékin lui reproche d'avoir été l'un des 300 cosignataires de la « Charte 08 », qui réclame une Chine démocratique.
@@ -29941,7 +29944,7 @@
 # sentid: fr-ud-dev_01086
 # sentence-text: Le 22 décembre 2011, Astral Media annonce le lancement de Disney Junior et Disney XD sur son réseau Cogeco.
 1	Le	_	DET	_	_	3	det	_	_
-2	22	_	NUM	_	_	3	nmod	_	_
+2	22	_	NUM	_	_	3	nummod	_	_
 3	décembre	_	NOUN	_	_	8	nmod	_	_
 4	2011	_	NUM	_	_	3	nmod	_	_
 5	,	_	PUNCT	_	_	8	punct	_	_
@@ -30091,7 +30094,7 @@
 3	,	_	PUNCT	_	_	21	punct	_	_
 4	né	_	VERB	_	_	1	acl	_	_
 5	le	_	DET	_	_	7	det	_	_
-6	2	_	NUM	_	tronque=y	7	nmod	_	_
+6	2	_	NUM	_	tronque=y	7	nummod	_	_
 7	juin	_	NOUN	_	tronque=y	4	nmod	_	_
 8	1911	_	NUM	_	tronque=y	7	nmod	_	_
 9	à	_	ADP	_	_	10	case	_	_
@@ -30916,10 +30919,10 @@
 5	Moon	_	PROPN	_	_	1	name	_	_
 6	est	_	AUX	_	_	7	aux	_	_
 7	né	_	VERB	_	_	0	root	_	_
-8	le	_	DET	_	_	11	det	_	_
-9	1er	_	TODO	_	tronque=y	8	TODO	_	_
-10	février	_	TODO	_	tronque=y	9	TODO	_	_
-11	1968	_	NUM	_	_	7	nmod	_	_
+8	le	_	DET	_	_	10	det	_	_
+9	1er	_	ADJ	_	tronque=y	10	amod	_	_
+10	février	_	NOUN	_	tronque=y	7	nmod	_	_
+11	1968	_	NUM	_	_	10	nmod	_	_
 12	à	_	ADP	_	_	13	case	_	_
 13	Birmingham	_	PROPN	_	_	7	nmod	_	_
 14	(	_	PUNCT	_	_	15	punct	_	_
@@ -31210,7 +31213,7 @@
 10	revue	_	NOUN	_	_	4	nmod	_	_
 11	Science	_	PROPN	_	_	10	appos	_	_
 12	le	_	DET	_	_	14	det	_	_
-13	19	_	NUM	_	_	14	nmod	_	_
+13	19	_	NUM	_	_	14	nummod	_	_
 14	novembre	_	NOUN	_	_	4	nmod	_	_
 15	2004	_	NUM	_	_	14	nmod	_	_
 16	.	_	PUNCT	_	_	4	punct	_	_
@@ -31233,7 +31236,7 @@
 14-15	du	_	_	_	_	_	_	_	_
 14	de	_	ADP	_	_	17	case	_	_
 15	le	_	DET	_	_	17	det	_	_
-16	29	_	NUM	_	_	17	nmod	_	_
+16	29	_	NUM	_	_	17	nummod	_	_
 17	mars	_	NOUN	_	_	8	nmod	_	_
 18	2011	_	NUM	_	_	17	nmod	_	_
 19	,	_	PUNCT	_	_	6	punct	_	_
@@ -32338,7 +32341,7 @@
 11	,	_	PUNCT	_	_	5	punct	_	_
 12	née	_	VERB	_	_	1	acl	_	_
 13	le	_	DET	_	_	15	det	_	_
-14	27	_	NUM	_	_	15	nmod	_	_
+14	27	_	NUM	_	_	15	nummod	_	_
 15	novembre	_	NOUN	_	_	12	nmod	_	_
 16	1961	_	NUM	_	_	15	nmod	_	_
 17	à	_	ADP	_	_	18	case	_	_
@@ -32754,7 +32757,7 @@
 14-15	du	_	_	_	_	_	_	_	_
 14	de	_	ADP	_	_	17	case	_	_
 15	le	_	DET	_	_	17	det	_	_
-16	19	_	NUM	_	_	17	nmod	_	_
+16	19	_	NUM	_	_	17	nummod	_	_
 17	août	_	NOUN	_	_	13	nmod	_	_
 18	1933	_	NUM	_	_	17	nmod	_	_
 19	.	_	PUNCT	_	_	4	punct	_	_
@@ -32919,7 +32922,7 @@
 3	la	_	DET	_	_	4	det	_	_
 4	votation	_	NOUN	_	_	1	nmod	_	_
 5	le	_	DET	_	_	7	det	_	_
-6	18	_	NUM	_	_	7	nmod	_	_
+6	18	_	NUM	_	_	7	nummod	_	_
 7	mai	_	NOUN	_	_	1	nmod	_	_
 8	2003	_	NUM	_	_	7	nmod	_	_
 9	,	_	PUNCT	_	_	1	punct	_	_
@@ -33110,7 +33113,7 @@
 20	son	_	DET	_	_	21	nmod:poss	_	_
 21	indépendance	_	NOUN	_	_	19	dobj	_	_
 22	le	_	DET	_	_	24	det	_	_
-23	6	_	NUM	_	tronque=y	24	nmod	_	_
+23	6	_	NUM	_	tronque=y	24	nummod	_	_
 24	juillet	_	NOUN	_	tronque=y	19	nmod	_	_
 25	1975	_	NUM	_	tronque=y	24	nmod	_	_
 26	.	_	PUNCT	_	_	2	punct	_	_
@@ -33697,7 +33700,7 @@
 3	,	_	PUNCT	_	_	15	punct	_	_
 4	née	_	VERB	_	_	1	acl	_	_
 5	le	_	DET	_	_	7	det	_	_
-6	29	_	NUM	_	_	7	nmod	_	_
+6	29	_	NUM	_	_	7	nummod	_	_
 7	avril	_	NOUN	_	_	4	nmod	_	_
 8	1967	_	NUM	_	_	7	nmod	_	_
 9	à	_	ADP	_	_	10	case	_	_
@@ -34721,7 +34724,7 @@
 3	,	_	PUNCT	_	_	4	punct	_	_
 4	né	_	VERB	_	_	1	acl	_	_
 5	le	_	DET	_	_	7	det	_	_
-6	21	_	NUM	_	_	7	nmod	_	_
+6	21	_	NUM	_	_	7	nummod	_	_
 7	septembre	_	NOUN	_	_	4	nmod	_	_
 8	1944	_	NUM	_	_	7	nmod	_	_
 9	à	_	ADP	_	_	11	case	_	_
@@ -34730,7 +34733,7 @@
 12	et	_	CONJ	_	_	4	cc	_	_
 13	mort	_	VERB	_	_	4	conj	_	_
 14	le	_	DET	_	_	16	det	_	_
-15	1	_	NUM	_	_	16	nmod	_	_
+15	1	_	NUM	_	_	16	nummod	_	_
 16	février	_	NOUN	_	_	13	nmod	_	_
 17	2012	_	NUM	_	_	16	nmod	_	_
 18	à	_	ADP	_	_	19	case	_	_
@@ -36371,7 +36374,7 @@
 9	Clarkson	_	PROPN	_	_	8	name	_	_
 10	née	_	VERB	_	_	1	acl	_	_
 11	le	_	DET	_	_	13	det	_	_
-12	6	_	NUM	_	_	13	nmod	_	_
+12	6	_	NUM	_	_	13	nummod	_	_
 13	mars	_	NOUN	_	_	10	nmod	_	_
 14	1970	_	NUM	_	_	13	nmod	_	_
 15	à	_	ADP	_	_	16	case	_	_
@@ -36620,7 +36623,7 @@
 1	Il	_	PRON	_	_	2	nsubj	_	_
 2	démissionna	_	VERB	_	_	0	root	_	_
 3	le	_	DET	_	_	5	det	_	_
-4	5	_	NUM	_	_	5	nmod	_	_
+4	5	_	NUM	_	_	5	nummod	_	_
 5	janvier	_	NOUN	_	_	2	nmod	_	_
 6	1990	_	NUM	_	_	5	nmod	_	_
 7	.	_	PUNCT	_	_	2	punct	_	_
@@ -37907,15 +37910,15 @@
 2	mars	_	NOUN	_	_	8	nmod	_	_
 3	1936	_	NUM	_	_	2	nmod	_	_
 4	le	_	DET	_	_	5	det	_	_
-5	LZ	_	X	_	_	8	nsubjpass	_	_
-6	129	_	PROPN	_	_	5	nummod	_	_
+5	LZ	_	PROPN	_	_	8	nsubjpass	_	_
+6	129	_	NUM	_	_	5	nummod	_	_
 7	est	_	AUX	_	_	8	auxpass	_	_
 8	remis	_	VERB	_	_	0	root	_	_
 9	à	_	ADP	_	_	11	case	_	_
 10	la	_	DET	_	_	11	det	_	_
 11	compagnie	_	NOUN	_	_	8	nmod	_	_
 12	allemande	_	ADJ	_	_	11	amod	_	_
-13	DZR	_	X	_	_	11	appos	_	_
+13	DZR	_	PROPN	_	_	11	appos	_	_
 14	(	_	PUNCT	_	_	15	punct	_	_
 15	Deutsche	_	PROPN	_	_	13	appos	_	_
 16	Zeppelin-Reederei	_	PROPN	_	_	15	name	_	_
@@ -38444,11 +38447,11 @@
 6	Télamon	_	PROPN	_	_	37	nsubj	_	_
 7	(	_	PUNCT	_	_	9	punct	_	_
 8	en	_	ADP	_	_	9	case	_	_
-9	grec	_	NOUN	_	_	6	nmod	_	_
+9	grec	_	NOUN	_	_	11	nmod	_	_
 10	ancien	_	ADJ	_	_	9	amod	_	_
-11	Τελαμών	_	TODO	_	tronque=y	10	TODO	_	_
-12	/	_	PUNCT	_	_	9	punct	_	_
-13	Telamốn	_	TODO	_	tronque=y	12	TODO	_	_
+11	Τελαμών	_	PROPN	_	tronque=y	6	appos	_	_
+12	/	_	PUNCT	_	_	11	punct	_	_
+13	Telamốn	_	PROPN	_	tronque=y	11	appos	_	_
 14	)	_	PUNCT	_	_	9	punct	_	_
 15	,	_	PUNCT	_	_	6	punct	_	_
 16	fils	_	NOUN	_	_	6	appos	_	_
@@ -39404,7 +39407,7 @@
 # sentence-text: Le même 15 avril, elle captura le U-boot allemand U-49 qui transportait à son bord des documents détaillant la position de tous les sous-marins allemands en mer de Norvège, annulant ainsi momentanément cette menace.
 1	Le	_	DET	_	_	4	det	_	_
 2	même	_	ADJ	_	_	4	amod	_	_
-3	15	_	NUM	_	_	4	nmod	_	_
+3	15	_	NUM	_	_	4	nummod	_	_
 4	avril	_	NOUN	_	_	7	nmod	_	_
 5	,	_	PUNCT	_	_	7	punct	_	_
 6	elle	_	PRON	_	_	7	nsubj	_	_
@@ -40041,13 +40044,13 @@
 32	.	_	PUNCT	_	_	3	punct	_	_
 
 # sentid: fr-ud-dev_01448
-# sentence-text: Il fut dédié en 493 av [[[[J.-C. par Spurius Cassius.]]]].
+# sentence-text: Il fut dédié en 493 av. [[[[J.-C. par Spurius Cassius]]]].
 1	Il	_	PRON	_	_	3	nsubjpass	_	_
 2	fut	_	AUX	_	_	3	auxpass	_	_
 3	dédié	_	VERB	_	_	0	root	_	_
 4	en	_	ADP	_	_	5	case	_	_
 5	493	_	NUM	_	_	3	nmod	_	_
-6	av.	_	X	_	_	7	case	_	_
+6	av.	_	ADP	_	_	7	case	_	_
 7	J.-C.	_	PROPN	_	tronque=y	5	nmod	_	_
 8	par	_	ADP	_	tronque=y	9	case	_	_
 9	Spurius	_	PROPN	_	tronque=y	3	nmod	_	_
@@ -40140,7 +40143,7 @@
 # sentid: fr-ud-dev_01452
 # sentence-text: Le [[19 novembre 1932]], suite à sa création, la Compagnie Luxembourgeoise de Radiodiffusion (CLR) loue, pour y établir son siège, la Villa Louvigny dans le parc municipal de Luxembourg qu'elle finit par acquérir avec les terrains en 1936.
 1	Le	_	DET	_	_	3	det	_	_
-2	19	_	NUM	_	tronque=y	3	nmod	_	_
+2	19	_	NUM	_	tronque=y	3	nummod	_	_
 3	novembre	_	NOUN	_	tronque=y	19	nmod	_	_
 4	1932	_	NUM	_	tronque=y	3	nmod	_	_
 5	,	_	PUNCT	_	_	19	punct	_	_
@@ -40820,7 +40823,7 @@
 4	(	_	PUNCT	_	_	5	punct	_	_
 5	né	_	VERB	_	_	1	acl	_	_
 6	le	_	DET	_	_	8	det	_	_
-7	8	_	NUM	_	_	8	nmod	_	_
+7	8	_	NUM	_	_	8	nummod	_	_
 8	mars	_	NOUN	_	_	5	nmod	_	_
 9	1982	_	NUM	_	_	8	nmod	_	_
 10	à	_	ADP	_	_	11	case	_	_
@@ -41106,7 +41109,7 @@
 3	,	_	PUNCT	_	_	17	punct	_	_
 4	né	_	VERB	_	_	1	acl	_	_
 5	le	_	DET	_	_	7	det	_	_
-6	24	_	NUM	_	tronque=y	7	nmod	_	_
+6	24	_	NUM	_	tronque=y	7	nummod	_	_
 7	septembre	_	NOUN	_	tronque=y	10	nmod	_	_
 8	1980	_	NUM	_	tronque=y	7	nmod	_	_
 9	à	_	ADP	_	_	10	case	_	_
@@ -41218,7 +41221,7 @@
 17	Alabama	_	PROPN	_	_	15	appos	_	_
 18	)	_	PUNCT	_	_	17	punct	_	_
 19	le	_	DET	_	_	21	det	_	_
-20	20	_	NUM	_	_	21	nmod	_	_
+20	20	_	NUM	_	_	21	nummod	_	_
 21	juin	_	NOUN	_	_	10	nmod	_	_
 22	1911	_	NUM	_	_	21	nmod	_	_
 23	,	_	PUNCT	_	_	10	punct	_	_
@@ -41233,7 +41236,7 @@
 32	Californie	_	PROPN	_	_	30	appos	_	_
 33	)	_	PUNCT	_	_	32	punct	_	_
 34	le	_	DET	_	_	36	det	_	_
-35	6	_	NUM	_	_	36	nmod	_	_
+35	6	_	NUM	_	_	36	nummod	_	_
 36	juillet	_	NOUN	_	_	24	nmod	_	_
 37	1980	_	NUM	_	_	36	nmod	_	_
 38	.	_	PUNCT	_	_	5	punct	_	_
@@ -41632,7 +41635,7 @@
 6	américain	_	ADJ	_	_	5	amod	_	_
 7	né	_	VERB	_	_	5	acl	_	_
 8	le	_	DET	_	_	10	det	_	_
-9	18	_	NUM	_	_	10	nmod	_	_
+9	18	_	NUM	_	_	10	nummod	_	_
 10	juin	_	NOUN	_	_	7	nmod	_	_
 11	1908	_	NUM	_	_	10	nmod	_	_
 12	à	_	ADP	_	_	13	case	_	_
@@ -41647,7 +41650,7 @@
 21	,	_	PUNCT	_	_	7	punct	_	_
 22	décédé	_	VERB	_	_	7	conj	_	_
 23	le	_	DET	_	_	25	det	_	_
-24	8	_	NUM	_	_	25	nmod	_	_
+24	8	_	NUM	_	_	25	nummod	_	_
 25	septembre	_	NOUN	_	_	22	nmod	_	_
 26	1969	_	NUM	_	_	25	nmod	_	_
 27	à	_	ADP	_	_	28	case	_	_
@@ -41849,7 +41852,7 @@
 # sentid: fr-ud-dev_01508
 # sentence-text: Le 6 mai 2011, il met un terme à sa carrière sportive.
 1	Le	_	DET	_	_	3	det	_	_
-2	6	_	NUM	_	_	3	nmod	_	_
+2	6	_	NUM	_	_	3	nummod	_	_
 3	mai	_	NOUN	_	_	7	nmod	_	_
 4	2011	_	NUM	_	_	3	nmod	_	_
 5	,	_	PUNCT	_	_	7	punct	_	_
@@ -42063,7 +42066,7 @@
 7-8	au	_	_	_	_	_	_	_	_
 7	à	_	ADP	_	_	12	case	_	_
 8	le	_	DET	_	_	10	det	_	_
-9	7	_	NUM	_	tronque=y	10	nmod	_	_
+9	7	_	NUM	_	tronque=y	10	nummod	_	_
 10	septembre	_	NOUN	_	tronque=y	12	nmod	_	_
 11	1986	_	NUM	_	tronque=y	10	nmod	_	_
 12	canal	_	NOUN	_	_	5	nmod	_	_
@@ -42190,7 +42193,7 @@
 2	Saint	_	PROPN	_	_	1	appos	_	_
 3	Denis	_	PROPN	_	_	2	name	_	_
 4	(	_	PUNCT	_	_	12	punct	_	_
-5	XIIIe	_	NUM	_	_	12	nmod	_	_
+5	XIIIe	_	NUM	_	_	12	nummod	_	_
 6	,	_	PUNCT	_	_	5	punct	_	_
 7	XIVe	_	NUM	_	_	5	conj	_	_
 8	,	_	PUNCT	_	_	5	punct	_	_
@@ -42409,7 +42412,7 @@
 3	(	_	PUNCT	_	_	4	punct	_	_
 4	né	_	VERB	_	_	1	acl	_	_
 5	le	_	DET	_	_	7	det	_	_
-6	14	_	NUM	_	tronque=y	7	nmod	_	_
+6	14	_	NUM	_	tronque=y	7	nummod	_	_
 7	mars	_	NOUN	_	tronque=y	4	nmod	_	_
 8	1975	_	NUM	_	tronque=y	7	nmod	_	_
 9	à	_	ADP	_	_	10	case	_	_
@@ -43689,16 +43692,16 @@
 20	.	_	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-dev_01573
-# sentence-text: Candidat malheureux à l'élection présidentielle d'[[août 2007]], Marcus Stephen remporte néanmoins la présidence de la République le lorsque son prédécesseur Ludwig Scotty est écarté de cette fonction par une motion de censure parlementaire.
+# sentence-text: Candidat malheureux à l'élection présidentielle d'[[août 2007]], Marcus Stephen remporte néanmoins la présidence de la République le [[19 décembre 2007]] lorsque son prédécesseur Ludwig Scotty est écarté de cette fonction par une motion de censure parlementaire.
 1	Candidat	_	NOUN	_	_	11	appos	_	_
 2	malheureux	_	ADJ	_	_	1	amod	_	_
 3	à	_	ADP	_	_	5	case	_	_
 4	l'	_	DET	_	_	5	det	_	_
 5	élection	_	NOUN	_	_	1	nmod	_	_
 6	présidentielle	_	ADJ	_	_	5	amod	_	_
-7	d'	_	ADP	_	_	5	case	_	_
-8	août	_	TODO	_	tronque=y	7	TODO	_	_
-9	2007	_	TODO	_	tronque=y	8	TODO	_	_
+7	d'	_	ADP	_	_	8	case	_	_
+8	août	_	NOUN	_	tronque=y	5	nmod	_	_
+9	2007	_	NUM	_	tronque=y	8	nmod	_	_
 10	,	_	PUNCT	_	_	13	punct	_	_
 11	Marcus	_	PROPN	_	_	13	nsubj	_	_
 12	Stephen	_	PROPN	_	_	11	name	_	_
@@ -43709,24 +43712,27 @@
 17	de	_	ADP	_	_	19	case	_	_
 18	la	_	DET	_	_	19	det	_	_
 19	République	_	PROPN	_	_	16	nmod	_	_
-20	le	_	DET	_	_	13	dep	_	_
-21	lorsque	_	SCONJ	_	_	27	mark	_	_
-22	son	_	DET	_	_	23	nmod:poss	_	_
-23	prédécesseur	_	NOUN	_	_	27	nsubjpass	_	_
-24	Ludwig	_	PROPN	_	_	23	appos	_	_
-25	Scotty	_	PROPN	_	_	24	name	_	_
-26	est	_	AUX	_	_	27	auxpass	_	_
-27	écarté	_	VERB	_	_	13	advcl	_	_
-28	de	_	ADP	_	_	30	case	_	_
-29	cette	_	DET	_	_	30	det	_	_
-30	fonction	_	NOUN	_	_	27	nmod	_	_
-31	par	_	ADP	_	_	27	case	_	_
-32	une	_	DET	_	_	33	det	_	_
-33	motion	_	NOUN	_	_	31	case	_	_
-34	de	_	ADP	_	_	35	case	_	_
-35	censure	_	NOUN	_	_	33	nmod	_	_
-36	parlementaire	_	ADJ	_	_	35	amod	_	_
-37	.	_	PUNCT	_	_	13	punct	_	_
+20	le	_	DET	_	_	22	det	_	_
+21	19	_	NUM	_	_	22	nummod	_	_
+22	décembre	_	NOUN	_	_	13	nmod	_	_
+23	2007	_	NUM	_	_	22	nmod	_	_
+24	lorsque	_	SCONJ	_	_	30	mark	_	_
+25	son	_	DET	_	_	26	nmod:poss	_	_
+26	prédécesseur	_	NOUN	_	_	30	nsubjpass	_	_
+27	Ludwig	_	PROPN	_	_	26	appos	_	_
+28	Scotty	_	PROPN	_	_	27	name	_	_
+29	est	_	AUX	_	_	30	auxpass	_	_
+30	écarté	_	VERB	_	_	13	advcl	_	_
+31	de	_	ADP	_	_	33	case	_	_
+32	cette	_	DET	_	_	33	det	_	_
+33	fonction	_	NOUN	_	_	30	nmod	_	_
+34	par	_	ADP	_	_	36	case	_	_
+35	une	_	DET	_	_	36	det	_	_
+36	motion	_	NOUN	_	_	30	nmod	_	_
+37	de	_	ADP	_	_	38	case	_	_
+38	censure	_	NOUN	_	_	36	nmod	_	_
+39	parlementaire	_	ADJ	_	_	38	amod	_	_
+40	.	_	PUNCT	_	_	13	punct	_	_
 
 # sentid: fr-ud-dev_01574
 # sentence-text: Ils n'avaient pas de casquettes et leurs cheveux blonds brillaient au soleil.
@@ -44949,7 +44955,7 @@
 3-4	du	_	_	_	_	_	_	_	_
 3	de	_	ADP	_	_	6	case	_	_
 4	le	_	DET	_	_	6	det	_	_
-5	24	_	NUM	_	_	6	nmod	_	_
+5	24	_	NUM	_	_	6	nummod	_	_
 6	octobre	_	NOUN	_	_	2	nmod	_	_
 7	1999	_	NUM	_	_	6	nmod	_	_
 8	est	_	VERB	_	_	11	cop	_	_
@@ -45036,7 +45042,7 @@
 3	,	_	PUNCT	_	_	4	punct	_	_
 4	née	_	VERB	_	_	1	acl	_	_
 5	le	_	DET	_	_	7	det	_	_
-6	13	_	NUM	_	_	7	nmod	_	_
+6	13	_	NUM	_	_	7	nummod	_	_
 7	juin	_	NOUN	_	_	4	nmod	_	_
 8	1977	_	NUM	_	_	7	nmod	_	_
 9	à	_	ADP	_	_	10	case	_	_

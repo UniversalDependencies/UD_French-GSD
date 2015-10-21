@@ -623,7 +623,7 @@
 # sentid: fr-ud-test_00020
 # sentence-text: Le 20 juin, le Secrétaire général de l'Elysée Claude Guéant a été reçu à Alger par le président Bouteflika et le Premier ministre Ahmed Ouyahia.
 1	Le	_	DET	_	_	3	det	_	_
-2	20	_	NUM	_	_	3	nmod	_	_
+2	20	_	NUM	_	_	3	nummod	_	_
 3	juin	_	NOUN	_	_	15	nmod	_	_
 4	,	_	PUNCT	_	_	15	punct	_	_
 5	le	_	DET	_	_	6	det	_	_
@@ -1278,7 +1278,7 @@
 30	disponibles	_	ADJ	_	_	0	root	_	_
 31	dès	_	ADP	_	_	34	case	_	_
 32	le	_	DET	_	_	34	det	_	_
-33	30	_	NUM	_	_	34	nmod	_	_
+33	30	_	NUM	_	_	34	nummod	_	_
 34	novembre	_	NOUN	_	_	30	nmod	_	_
 35	prochain	_	ADJ	_	_	34	amod	_	_
 36	.	_	PUNCT	_	_	30	punct	_	_
@@ -3230,8 +3230,8 @@
 27	mg/100	_	X	_	_	24	nmod	_	_
 28	ml	_	X	_	_	27	compound	_	_
 29	le	_	DET	_	_	32	det	_	_
-30	1	_	NUM	_	_	32	nmod	_	_
-31	er	_	X	_	_	30	compound	_	_
+30	1	_	NUM	_	_	32	nummod	_	_
+31	er	_	X	_	_	30	goeswith	_	_
 32	janvier	_	NOUN	_	_	21	nmod	_	_
 33	2000	_	NUM	_	_	32	nmod	_	_
 34	avaient	_	AUX	_	_	35	aux	_	_
@@ -3468,8 +3468,8 @@
 28	sioniste	_	ADJ	_	_	27	amod	_	_
 29	,	_	PUNCT	_	_	15	punct	_	_
 30	le	_	DET	_	_	32	det	_	_
-31	2	_	NUM	_	_	32	nmod	_	_
-32	mai	_	NOUN	_	_	15	appos	_	_
+31	2	_	NUM	_	_	32	nummod	_	_
+32	mai	_	NOUN	_	_	15	nmod	_	_
 33	1860	_	NUM	_	_	32	nmod	_	_
 34	à	_	ADP	_	_	35	case	_	_
 35	Budapest	_	PROPN	_	_	15	nmod	_	_
@@ -3593,7 +3593,7 @@
 17	le	_	DET	_	_	18	det	_	_
 18	200m	_	NOUN	_	_	15	nmod	_	_
 19	(	_	PUNCT	_	_	21	punct	_	_
-20	9	_	NUM	_	_	21	nmod	_	_
+20	9	_	NUM	_	_	21	nummod	_	_
 21	août	_	NOUN	_	_	15	nmod	_	_
 22	)	_	PUNCT	_	_	21	punct	_	_
 23	.	_	PUNCT	_	_	9	punct	_	_
@@ -4481,8 +4481,8 @@
 # sentid: fr-ud-test_00149
 # sentence-text: Ce dimanche 30, à Pleumeur-Bodou, sur le site de Cosmopolis.
 1	Ce	_	DET	_	_	2	det	_	_
-2	dimanche	_	PROPN	_	_	0	root	_	_
-3	30	_	NUM	_	_	2	nmod	_	_
+2	dimanche	_	NOUN	_	_	0	root	_	_
+3	30	_	NUM	_	_	2	nummod	_	_
 4	,	_	PUNCT	_	_	2	punct	_	_
 5	à	_	ADP	_	_	6	case	_	_
 6	Pleumeur-Bodou	_	PROPN	_	_	2	nmod	_	_

@@ -402,7 +402,7 @@
 11	que	_	SCONJ	_	_	16	mark	_	_
 12	l'	_	PRON	_	_	13	expl	_	_
 13	on	_	PRON	_	_	16	nsubj	_	_
-14	peut	_	AUX	_	_	15	aux	_	_
+14	peut	_	AUX	_	_	16	aux	_	_
 15	être	_	VERB	_	_	16	cop	_	_
 16	traditionaliste	_	ADJ	_	_	10	ccomp	_	_
 17	ET	_	CONJ	_	_	16	cc	_	_
@@ -1119,7 +1119,7 @@
 4	la	_	DET	_	_	6	det	_	_
 5	contre	_	INTJ	_	_	6	compound	_	_
 6	attaque	_	NOUN	_	_	9	nsubj	_	_
-7	a	_	AUX	_	_	8	aux	_	_
+7	a	_	AUX	_	_	9	aux	_	_
 8	été	_	VERB	_	_	9	cop	_	_
 9	massive	_	ADJ	_	_	0	root	_	_
 10	et	_	CONJ	_	_	9	cc	_	_
@@ -1173,7 +1173,7 @@
 5	que	_	SCONJ	_	_	12	mark	_	_
 6	la	_	DET	_	_	7	det	_	_
 7	Mauritanie	_	PROPN	_	_	12	nsubj	_	_
-8	n'	_	PART	_	_	9	neg	_	_
+8	n'	_	PART	_	_	12	neg	_	_
 9	est	_	VERB	_	_	12	cop	_	_
 10	pas	_	ADV	_	_	12	neg	_	_
 11	le	_	DET	_	_	12	det	_	_
@@ -1308,7 +1308,7 @@
 21	cours	_	NOUN	_	_	18	nmod	_	_
 22	d'	_	ADP	_	_	23	case	_	_
 23	eau	_	NOUN	_	_	21	nmod	_	_
-24	ne	_	ADV	_	_	25	neg	_	_
+24	ne	_	ADV	_	_	28	neg	_	_
 25	soit	_	VERB	_	_	28	cop	_	_
 26	pas	_	ADV	_	_	28	neg	_	_
 27	si	_	ADV	_	_	28	advmod	_	_
@@ -1880,7 +1880,7 @@
 3	même	_	ADV	_	_	5	advmod	_	_
 4	la	_	DET	_	_	5	det	_	_
 5	conversion	_	NOUN	_	_	10	nsubj	_	_
-6	n'	_	PART	_	_	7	neg	_	_
+6	n'	_	PART	_	_	10	neg	_	_
 7	est	_	VERB	_	_	10	cop	_	_
 8	pas	_	ADV	_	_	10	neg	_	_
 9	un	_	DET	_	_	10	det	_	_
@@ -3754,7 +3754,7 @@
 1	Cette	_	DET	_	_	2	det	_	_
 2	élection	_	NOUN	_	_	10	nsubj	_	_
 3	"	_	PUNCT	_	_	10	punct	_	_
-4	n'	_	PART	_	_	5	neg	_	_
+4	n'	_	PART	_	_	10	neg	_	_
 5	est	_	VERB	_	_	10	cop	_	_
 6	pas	_	ADV	_	_	10	neg	_	_
 7	seulement	_	ADV	_	_	6	advmod	_	_
@@ -4194,7 +4194,7 @@
 17	,	_	PUNCT	_	_	24	punct	_	_
 18	la	_	DET	_	_	19	det	_	_
 19	situation	_	NOUN	_	_	24	nsubj	_	_
-20	n'	_	PART	_	_	21	neg	_	_
+20	n'	_	PART	_	_	24	neg	_	_
 21	est	_	VERB	_	_	24	cop	_	_
 22	pas	_	ADV	_	_	24	neg	_	_
 23	la	_	DET	_	_	24	det	_	_
@@ -4407,11 +4407,11 @@
 3	-ce	_	PRON	_	_	1	expl	_	_
 4	que	_	SCONJ	_	_	3	mwe	_	_
 5	1.000	_	NUM	_	_	6	nummod	_	_
-6	emplois	_	NOUN	_	_	2	nsubj	_	_
+6	emplois	_	NOUN	_	_	1	nsubj	_	_
 7	quand	_	SCONJ	_	_	10	mark	_	_
 8	on	_	PRON	_	_	10	nsubj	_	_
 9	en	_	PRON	_	_	10	dobj	_	_
-10	détruit	_	VERB	_	_	2	advcl	_	_
+10	détruit	_	VERB	_	_	1	advcl	_	_
 11	et	_	CONJ	_	_	10	cc	_	_
 12	qu'	_	SCONJ	_	_	15	mark	_	_
 13	on	_	PRON	_	_	15	nsubj	_	_
@@ -4423,7 +4423,7 @@
 19	jours	_	NOUN	_	_	10	nmod	_	_
 20	en	_	ADP	_	_	21	case	_	_
 21	France	_	PROPN	_	_	10	nmod	_	_
-22	?	_	PUNCT	_	_	2	punct	_	_
+22	?	_	PUNCT	_	_	1	punct	_	_
 
 # sentid: fr-ud-test_00147
 # sentence-text: De 10 h à 12 h et 14 h à 17 h office de tourisme.
@@ -5382,12 +5382,12 @@
 1	Quel	_	PRON	_	_	0	root	_	_
 2	est	_	VERB	_	_	1	cop	_	_
 3	le	_	DET	_	_	4	det	_	_
-4	coût	_	NOUN	_	_	2	nsubj	_	_
+4	coût	_	NOUN	_	_	1	nsubj	_	_
 5	d'	_	ADP	_	_	8	case	_	_
 6	un	_	DET	_	_	8	det	_	_
 7	tel	_	ADJ	_	_	8	amod	_	_
 8	projet	_	NOUN	_	_	4	nmod	_	_
-9	?	_	PUNCT	_	_	2	punct	_	_
+9	?	_	PUNCT	_	_	1	punct	_	_
 
 # sentid: fr-ud-test_00180
 # sentence-text: Cette loi, qui contrôle l'établissement de nouvelles unités de production ou l'agrandissement des sites existants, a ainsi fait tomber le seuil de 250 UA à 75 UA.
@@ -5487,7 +5487,7 @@
 5	,	_	PUNCT	_	_	13	punct	_	_
 6	la	_	DET	_	_	7	det	_	_
 7	pandémie	_	NOUN	_	_	13	nsubj	_	_
-8	a	_	AUX	_	_	9	aux	_	_
+8	a	_	AUX	_	_	13	aux	_	_
 9	été	_	VERB	_	_	13	cop	_	_
 10	un	_	DET	_	_	11	mwe	_	_
 11	peu	_	ADV	_	_	12	advmod	_	_
@@ -7271,7 +7271,7 @@
 13	clients	_	NOUN	_	_	20	nsubj	_	_
 14	à	_	ADP	_	_	15	case	_	_
 15	table	_	NOUN	_	_	13	nmod	_	_
-16	n'	_	PART	_	_	17	neg	_	_
+16	n'	_	PART	_	_	20	neg	_	_
 17	étaient	_	VERB	_	_	20	cop	_	_
 18	que	_	SCONJ	_	_	20	expl	_	_
 19	des	_	DET	_	_	20	det	_	_
@@ -7636,7 +7636,7 @@
 8	de	_	ADP	_	_	10	case	_	_
 9	la	_	DET	_	_	10	det	_	_
 10	réception	_	NOUN	_	_	7	nmod	_	_
-11	ne	_	ADV	_	_	12	neg	_	_
+11	ne	_	ADV	_	_	14	neg	_	_
 12	sont	_	VERB	_	_	14	cop	_	_
 13	pas	_	ADV	_	_	14	neg	_	_
 14	aimable	_	ADJ	_	_	0	root	_	_

@@ -9499,7 +9499,7 @@
 
 # sentid: fr-ud-dev_00345
 # sentence-text: Quant au cheval, en particulier le cheval ailé, il s'agit d'un symbole funéraire et d'un guide pour les âmes des morts (psychopompe).
-1	Quant	_	X	_	_	2	mwe	_	_
+1	Quant	_	ADV	_	_	2	mwe	_	_
 2-3	au	_	_	_	_	_	_	_	_
 2	à	_	ADP	_	_	4	case	_	_
 3	le	_	DET	_	_	4	det	_	_
@@ -9508,7 +9508,7 @@
 6	en	_	ADP	_	_	7	mwe	_	_
 7	particulier	_	ADJ	_	_	9	advmod	_	_
 8	le	_	DET	_	_	9	det	_	_
-9	cheval	_	NOUN	_	_	14	conj	_	_
+9	cheval	_	NOUN	_	_	4	conj	_	_
 10	ailé	_	ADJ	_	_	9	amod	_	_
 11	,	_	PUNCT	_	_	14	punct	_	_
 12	il	_	PRON	_	_	14	nsubj	_	_
@@ -18630,9 +18630,9 @@
 36	Final	_	PROPN	_	_	22	conj	_	_
 37	Curtain	_	PROPN	_	_	36	name	_	_
 38	et	_	CONJ	_	_	22	cc	_	_
-39	Cry	_	PROPN	_	_	41	name	_	_
-40	No	_	PROPN	_	_	41	conj	_	_
-41	More	_	PROPN	_	_	22	conj	_	_
+39	Cry	_	PROPN	_	_	22	conj	_	_
+40	No	_	PROPN	_	_	39	name	_	_
+41	More	_	PROPN	_	_	39	name	_	_
 42	.	_	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-dev_00675
@@ -19710,14 +19710,14 @@
 5	le	_	PRON	_	_	6	dobj	_	_
 6	déclarer	_	VERB	_	_	0	root	_	_
 7	hors	_	ADP	_	_	9	case	_	_
-8	de	_	ADP	_	_	9	case	_	_
+8	de	_	ADP	_	_	7	mwe	_	_
 9	danger	_	NOUN	_	_	6	nmod	_	_
 10	,	_	PUNCT	_	_	6	punct	_	_
 11	et	_	CONJ	_	_	6	cc	_	_
 12	même	_	ADV	_	_	15	advmod	_	_
 13	les	_	DET	_	_	15	det	_	_
 14	plus	_	ADV	_	_	15	advmod	_	_
-15	hostiles	_	NOUN	_	_	20	conj	_	_
+15	hostiles	_	NOUN	_	_	20	nsubj	_	_
 16-17	au	_	_	_	_	_	_	_	_
 16	à	_	ADP	_	_	18	case	_	_
 17	le	_	DET	_	_	18	det	_	_
@@ -19744,8 +19744,8 @@
 # sentence-text: Des coursiers, transporteurs nationaux et internationaux sont également présents à Rodez.
 1	Des	_	DET	_	_	2	det	_	_
 2	coursiers	_	NOUN	_	_	10	nsubj	_	_
-3	,	_	PUNCT	_	_	10	punct	_	_
-4	transporteurs	_	NOUN	_	_	10	conj	_	_
+3	,	_	PUNCT	_	_	2	punct	_	_
+4	transporteurs	_	NOUN	_	_	2	conj	_	_
 5	nationaux	_	ADJ	_	_	4	amod	_	_
 6	et	_	CONJ	_	_	5	cc	_	_
 7	internationaux	_	ADJ	_	_	5	conj	_	_
@@ -26000,7 +26000,7 @@
 7	)	_	PUNCT	_	_	4	punct	_	_
 8	,	_	PUNCT	_	_	4	punct	_	_
 9	en	_	ADP	_	_	10	case	_	_
-10	français	_	NOUN	_	_	12	conj	_	_
+10	français	_	NOUN	_	_	12	nmod	_	_
 11	Le	_	DET	_	_	12	det	_	_
 12	Vainqueur	_	NOUN	_	_	1	appos	_	_
 13	,	_	PUNCT	_	_	1	punct	_	_
@@ -28759,9 +28759,9 @@
 13	,	_	PUNCT	_	_	12	punct	_	_
 14	Shout	_	PROPN	_	_	12	conj	_	_
 15	ou	_	CONJ	_	_	12	cc	_	_
-16	Light	_	PROPN	_	_	17	conj	_	_
-17	From	_	PROPN	_	_	12	conj	_	_
-18	Above	_	PROPN	_	_	17	name	_	_
+16	Light	_	PROPN	_	_	12	conj	_	_
+17	From	_	PROPN	_	_	16	name	_	_
+18	Above	_	PROPN	_	_	16	name	_	_
 19	,	_	PUNCT	_	_	17	punct	_	_
 20	titre	_	NOUN	_	_	17	appos	_	_
 21	éponyme	_	ADJ	_	_	20	amod	_	_
@@ -30069,7 +30069,7 @@
 
 # sentid: fr-ud-dev_01090
 # sentence-text: Quant à Francis Wolff, il réalisait les photographies pour les pochettes des disques.
-1	Quant	_	X	_	_	2	mwe	_	_
+1	Quant	_	ADV	_	_	2	mwe	_	_
 2	à	_	ADP	_	_	3	case	_	_
 3	Francis	_	PROPN	_	_	7	nmod	_	_
 4	Wolff	_	PROPN	_	_	3	name	_	_
@@ -34244,8 +34244,8 @@
 31	traditionnelle	_	ADJ	_	_	30	amod	_	_
 32	ont	_	AUX	_	_	39	aux	_	_
 33	été	_	VERB	_	_	39	cop	_	_
-34	et	_	CONJ	_	_	39	cc	_	_
-35	continuent	_	VERB	_	_	39	conj	_	_
+34	et	_	CONJ	_	_	33	cc	_	_
+35	continuent	_	VERB	_	_	33	conj	_	_
 36	à	_	ADP	_	_	37	case	_	_
 37	être	_	VERB	_	_	35	acl	_	_
 38	les	_	DET	_	_	39	det	_	_
@@ -35133,8 +35133,8 @@
 4-5	au	_	_	_	_	_	_	_	_
 4	à	_	ADP	_	_	6	case	_	_
 5	le	_	DET	_	_	6	det	_	_
-6	moment	_	NOUN	_	_	29	conj	_	_
-7	même	_	ADV	_	_	10	advmod	_	_
+6	moment	_	NOUN	_	_	29	nmod	_	_
+7	même	_	ADV	_	_	6	advmod	_	_
 8	de	_	ADP	_	_	10	case	_	_
 9	l'	_	DET	_	_	10	det	_	_
 10	exécution	_	NOUN	_	_	6	nmod	_	_
@@ -36939,7 +36939,7 @@
 
 # sentid: fr-ud-dev_01341
 # sentence-text: Quant à Armand, il comprend que Zorro était le mari d'Elena.
-1	Quant	_	X	_	_	2	mwe	_	_
+1	Quant	_	ADV	_	_	2	mwe	_	_
 2	à	_	ADP	_	_	3	case	_	_
 3	Armand	_	PROPN	_	_	6	nmod	_	_
 4	,	_	PUNCT	_	_	6	punct	_	_
@@ -38117,7 +38117,7 @@
 # sentid: fr-ud-dev_01380
 # sentence-text: En disposant cet arbre à cames en tête, c'est-à-dire en haut du moteur, à l'aplomb immédiat des soupapes, et non plus au plus proche du vilebrequin mais loin des soupapes, les tiges de renvoi entre arbre et soupapes ne sont plus nécessaires.
 1	En	_	ADP	_	_	2	mark	_	_
-2	disposant	_	VERB	_	_	52	conj	_	_
+2	disposant	_	VERB	_	_	52	advcl	_	_
 3	cet	_	DET	_	_	4	det	_	_
 4	arbre	_	NOUN	_	_	2	dobj	_	_
 5	à	_	ADP	_	_	6	case	_	_
@@ -38125,9 +38125,9 @@
 7	en	_	ADP	_	_	8	case	_	_
 8	tête	_	NOUN	_	_	2	nmod	_	_
 9	,	_	PUNCT	_	_	8	punct	_	_
-10	c'est-à-dire	_	ADV	_	_	52	cc	_	_
+10	c'est-à-dire	_	ADV	_	_	2	cc	_	_
 11	en	_	ADP	_	_	12	case	_	_
-12	haut	_	NOUN	_	_	10	nmod	_	_
+12	haut	_	NOUN	_	_	2	nmod	_	_
 13-14	du	_	_	_	_	_	_	_	_
 13	de	_	ADP	_	_	15	case	_	_
 14	le	_	DET	_	_	15	det	_	_
@@ -38135,7 +38135,7 @@
 16	,	_	PUNCT	_	_	10	punct	_	_
 17	à	_	ADP	_	_	19	case	_	_
 18	l'	_	DET	_	_	19	det	_	_
-19	aplomb	_	NOUN	_	_	10	nmod	_	_
+19	aplomb	_	NOUN	_	_	12	nmod	_	_
 20	immédiat	_	ADJ	_	_	19	amod	_	_
 21-22	des	_	_	_	_	_	_	_	_
 21	de	_	ADP	_	_	23	case	_	_
@@ -38155,7 +38155,7 @@
 33	le	_	DET	_	_	34	det	_	_
 34	vilebrequin	_	NOUN	_	_	31	nmod	_	_
 35	mais	_	CONJ	_	_	31	cc	_	_
-36	loin	_	ADV	_	_	37	mwe	_	_
+36	loin	_	ADV	_	_	31	conj	_	_
 37-38	des	_	_	_	_	_	_	_	_
 37	de	_	ADP	_	_	39	case	_	_
 38	les	_	DET	_	_	39	det	_	_

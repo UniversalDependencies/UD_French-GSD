@@ -221,7 +221,7 @@
 # sentid: fr-ud-test_00007
 # sentence-text: Ils ne citent pas son nom, parce que depuis les institutions on n'attaque pas un membre de la famille royale, mais c'est à lui qu'ils s'en prennent.
 1	Ils	_	PRON	_	_	3	nsubj	_	_
-2	ne	_	ADV	_	_	3	neg	_	_
+2	ne	_	PART	_	_	3	neg	_	_
 3	citent	_	VERB	_	_	0	root	_	_
 4	pas	_	ADV	_	_	3	neg	_	_
 5	son	_	DET	_	_	6	nmod:poss	_	_
@@ -795,7 +795,7 @@
 9	mandat	_	NOUN	_	_	13	nsubj	_	_
 10	de	_	ADP	_	_	11	case	_	_
 11	Wade	_	PROPN	_	_	9	nmod	_	_
-12	ne	_	ADV	_	_	13	neg	_	_
+12	ne	_	PART	_	_	13	neg	_	_
 13	rentre	_	VERB	_	_	5	ccomp	_	_
 14	pas	_	ADV	_	_	13	neg	_	_
 15	sous	_	ADP	_	_	18	case	_	_
@@ -808,7 +808,7 @@
 22	pour	_	ADP	_	_	23	mwe	_	_
 23	autant	_	ADV	_	_	13	advmod	_	_
 24	,	_	PUNCT	_	_	13	punct	_	_
-25	ne	_	ADV	_	_	26	neg	_	_
+25	ne	_	PART	_	_	26	neg	_	_
 26	compte	_	VERB	_	_	13	conj	_	_
 27	pas	_	ADV	_	_	26	neg	_	_
 28	dans	_	ADP	_	_	30	case	_	_
@@ -1002,14 +1002,14 @@
 1	Combien	_	ADV	_	_	5	advmod	_	_
 2	de	_	ADP	_	_	3	case	_	_
 3	fois	_	NOUN	_	_	1	nmod	_	_
-4	ne	_	ADV	_	_	5	neg	_	_
+4	ne	_	PART	_	_	5	neg	_	_
 5	célébrons	_	VERB	_	_	0	root	_	_
 6	-nous	_	PRON	_	_	5	nsubj	_	_
 7	que	_	SCONJ	_	_	5	expl	_	_
 8	nous-mêmes	_	ADJ	_	_	5	dobj	_	_
 9	,	_	PUNCT	_	_	5	punct	_	_
 10	et	_	CONJ	_	_	5	cc	_	_
-11	ne	_	ADV	_	_	12	neg	_	_
+11	ne	_	PART	_	_	12	neg	_	_
 12	prenons	_	VERB	_	_	5	conj	_	_
 13	-nous	_	PRON	_	_	12	nsubj	_	_
 14	même	_	ADV	_	_	15	advmod	_	_
@@ -1152,7 +1152,7 @@
 # sentid: fr-ud-test_00045
 # sentence-text: Personne ne place aucune forme d'espérance dans la raison politique...
 1	Personne	_	PRON	_	_	3	nsubj	_	_
-2	ne	_	ADV	_	_	3	neg	_	_
+2	ne	_	PART	_	_	3	neg	_	_
 3	place	_	VERB	_	_	0	root	_	_
 4	aucune	_	DET	_	_	5	neg	_	_
 5	forme	_	NOUN	_	_	3	dobj	_	_
@@ -1308,7 +1308,7 @@
 21	cours	_	NOUN	_	_	18	nmod	_	_
 22	d'	_	ADP	_	_	23	case	_	_
 23	eau	_	NOUN	_	_	21	nmod	_	_
-24	ne	_	ADV	_	_	28	neg	_	_
+24	ne	_	PART	_	_	28	neg	_	_
 25	soit	_	VERB	_	_	28	cop	_	_
 26	pas	_	ADV	_	_	28	neg	_	_
 27	si	_	ADV	_	_	28	advmod	_	_
@@ -1731,13 +1731,13 @@
 31	que	_	SCONJ	_	_	35	mark	_	_
 32	la	_	DET	_	_	33	det	_	_
 33	situation	_	NOUN	_	_	35	nsubj	_	_
-34	ne	_	ADV	_	_	35	expl	_	_
+34	ne	_	PART	_	_	35	expl	_	_
 35	dégénère	_	VERB	_	_	30	ccomp	_	_
 36	si	_	SCONJ	_	_	41	mark	_	_
 37	l'	_	DET	_	_	38	det	_	_
 38	aide	_	NOUN	_	_	41	nsubj	_	_
 39	internationale	_	ADJ	_	_	38	amod	_	_
-40	ne	_	ADV	_	_	41	neg	_	_
+40	ne	_	PART	_	_	41	neg	_	_
 41	pointe	_	VERB	_	_	35	advcl	_	_
 42	pas	_	ADV	_	_	41	neg	_	_
 43	plus	_	ADV	_	_	44	advmod	_	_
@@ -3280,7 +3280,7 @@
 13	de	_	ADP	_	_	15	case	_	_
 14	le	_	DET	_	_	15	det	_	_
 15	Cavaliere	_	PROPN	_	_	11	nmod	_	_
-16	ne	_	ADV	_	_	17	neg	_	_
+16	ne	_	PART	_	_	17	neg	_	_
 17	tient	_	VERB	_	_	3	acl:relcl	_	_
 18	plus	_	ADV	_	_	17	neg	_	_
 19	.	_	PUNCT	_	_	3	punct	_	_
@@ -3375,7 +3375,7 @@
 # sentence-text: Mais nous ne bougeront pas tant que nos revendications n'auront pas été acceptées ", a assuré l'un d'eux.
 1	Mais	_	CONJ	_	_	4	cc	_	_
 2	nous	_	PRON	_	_	4	nsubj	_	_
-3	ne	_	ADV	_	_	4	neg	_	_
+3	ne	_	PART	_	_	4	neg	_	_
 4	bougeront	_	VERB	_	_	18	ccomp	_	_
 5	pas	_	ADV	_	_	4	neg	_	_
 6	tant	_	ADV	_	_	14	mark	_	_
@@ -4113,7 +4113,7 @@
 11	les	_	DET	_	_	12	det	_	_
 12	réseaux	_	NOUN	_	_	9	nmod	_	_
 13	IP	_	X	_	_	12	compound	_	_
-14	ne	_	ADV	_	_	15	neg	_	_
+14	ne	_	PART	_	_	15	neg	_	_
 15	constitue	_	VERB	_	_	0	root	_	_
 16	pas	_	ADV	_	_	15	neg	_	_
 17	une	_	DET	_	_	19	det	_	_
@@ -4182,7 +4182,7 @@
 5	que	_	SCONJ	_	_	11	mark	_	_
 6	leur	_	DET	_	_	7	nmod:poss	_	_
 7	note	_	NOUN	_	_	11	nsubj	_	_
-8	ne	_	ADV	_	_	11	neg	_	_
+8	ne	_	PART	_	_	11	neg	_	_
 9	devrait	_	AUX	_	_	11	aux	_	_
 10	pas	_	ADV	_	_	11	neg	_	_
 11	baisser	_	VERB	_	_	4	ccomp	_	_
@@ -5847,7 +5847,7 @@
 13	banlieue	_	NOUN	_	_	17	dobj	_	_
 14	,	_	PUNCT	_	_	17	punct	_	_
 15	je	_	PRON	_	_	17	nsubj	_	_
-16	ne	_	ADV	_	_	17	neg	_	_
+16	ne	_	PART	_	_	17	neg	_	_
 17	sais	_	VERB	_	_	5	conj	_	_
 18	pas	_	ADV	_	_	17	neg	_	_
 19	ce	_	PRON	_	_	17	expl	_	_
@@ -6074,7 +6074,7 @@
 13	gros	_	NOUN	_	_	17	advmod	_	_
 14	,	_	PUNCT	_	_	3	punct	_	_
 15	je	_	PRON	_	_	17	nsubj	_	_
-16	ne	_	ADV	_	_	17	neg	_	_
+16	ne	_	PART	_	_	17	neg	_	_
 17	saurai	_	VERB	_	_	3	parataxis	_	_
 18	que	_	SCONJ	_	_	17	expl	_	_
 19	déconseiller	_	VERB	_	_	17	xcomp	_	_
@@ -6203,7 +6203,7 @@
 14	et	_	CONJ	_	_	13	cc	_	_
 15	solaire	_	NOUN	_	_	13	conj	_	_
 16	photovoltaïque	_	ADJ	_	_	15	amod	_	_
-17	ne	_	ADV	_	_	18	neg	_	_
+17	ne	_	PART	_	_	18	neg	_	_
 18	sont	_	VERB	_	_	6	acl:relcl	_	_
 19	plus	_	ADV	_	_	18	neg	_	_
 20	à	_	ADP	_	_	21	case	_	_
@@ -6717,7 +6717,7 @@
 15	bières	_	NOUN	_	_	12	conj	_	_
 16	mexicaines	_	ADJ	_	_	15	amod	_	_
 17	qui	_	PRON	_	_	19	nsubj	_	_
-18	ne	_	ADV	_	_	19	neg	_	_
+18	ne	_	PART	_	_	19	neg	_	_
 19	sont	_	VERB	_	_	15	acl:relcl	_	_
 20	pas	_	ADV	_	_	19	neg	_	_
 21	hors	_	ADP	_	_	23	case	_	_
@@ -6934,7 +6934,7 @@
 3	donc	_	ADV	_	_	4	advmod	_	_
 4	choisi	_	VERB	_	_	0	root	_	_
 5	de	_	ADP	_	_	7	case	_	_
-6	ne	_	ADV	_	_	7	neg	_	_
+6	ne	_	PART	_	_	7	neg	_	_
 7	faire	_	VERB	_	_	4	acl	_	_
 8	qu'	_	SCONJ	_	_	7	expl	_	_
 9	une	_	DET	_	_	10	det	_	_
@@ -7105,7 +7105,7 @@
 22	que	_	SCONJ	_	_	29	mark	_	_
 23	les	_	DET	_	_	24	det	_	_
 24	économies	_	NOUN	_	_	29	nsubjpass	_	_
-25	ne	_	ADV	_	_	29	neg	_	_
+25	ne	_	PART	_	_	29	neg	_	_
 26	doivent	_	AUX	_	_	29	aux	_	_
 27	pas	_	ADV	_	_	29	neg	_	_
 28	être	_	AUX	_	_	29	auxpass	_	_
@@ -7165,7 +7165,7 @@
 19	,	_	PUNCT	_	_	10	punct	_	_
 20	ce	_	PRON	_	_	10	nsubj	_	_
 21	qui	_	PRON	_	_	23	nsubj	_	_
-22	ne	_	ADV	_	_	23	neg	_	_
+22	ne	_	PART	_	_	23	neg	_	_
 23	vaut	_	VERB	_	_	20	acl:relcl	_	_
 24	pas	_	ADV	_	_	23	neg	_	_
 25	les	_	DET	_	_	27	det	_	_
@@ -7239,7 +7239,7 @@
 5	à	_	ADP	_	_	6	case	_	_
 6	cœur	_	NOUN	_	_	4	nmod	_	_
 7	de	_	ADP	_	_	10	case	_	_
-8	ne	_	ADV	_	_	10	neg	_	_
+8	ne	_	PART	_	_	10	neg	_	_
 9	pas	_	ADV	_	_	10	neg	_	_
 10	négliger	_	VERB	_	_	4	acl	_	_
 11	les	_	DET	_	_	12	det	_	_
@@ -7259,7 +7259,7 @@
 1	Le	_	DET	_	_	2	det	_	_
 2	signe	_	NOUN	_	_	0	root	_	_
 3	qui	_	PRON	_	_	5	nsubj	_	_
-4	ne	_	ADV	_	_	5	neg	_	_
+4	ne	_	PART	_	_	5	neg	_	_
 5	trompe	_	VERB	_	_	2	acl:relcl	_	_
 6	pas	_	ADV	_	_	5	neg	_	_
 7	,	_	PUNCT	_	_	2	punct	_	_
@@ -7401,7 +7401,7 @@
 5	jamais	_	ADV	_	_	9	neg	_	_
 6	la	_	DET	_	_	7	det	_	_
 7	musique	_	NOUN	_	_	9	nsubj	_	_
-8	ne	_	ADV	_	_	9	neg	_	_
+8	ne	_	PART	_	_	9	neg	_	_
 9	prend	_	VERB	_	_	3	ccomp	_	_
 10	le	_	DET	_	_	11	det	_	_
 11	pas	_	NOUN	_	_	9	dobj	_	_
@@ -7636,7 +7636,7 @@
 8	de	_	ADP	_	_	10	case	_	_
 9	la	_	DET	_	_	10	det	_	_
 10	réception	_	NOUN	_	_	7	nmod	_	_
-11	ne	_	ADV	_	_	14	neg	_	_
+11	ne	_	PART	_	_	14	neg	_	_
 12	sont	_	VERB	_	_	14	cop	_	_
 13	pas	_	ADV	_	_	14	neg	_	_
 14	aimable	_	ADJ	_	_	0	root	_	_
@@ -7728,7 +7728,7 @@
 10	,	_	PUNCT	_	_	4	punct	_	_
 11	mais	_	CONJ	_	_	4	cc	_	_
 12	il	_	PRON	_	_	14	nsubj	_	_
-13	ne	_	ADV	_	_	14	neg	_	_
+13	ne	_	PART	_	_	14	neg	_	_
 14	marche	_	VERB	_	_	4	conj	_	_
 15	pratiquement	_	ADV	_	_	16	advmod	_	_
 16	jamais	_	ADV	_	_	14	neg	_	_
@@ -8042,7 +8042,7 @@
 # sentid: fr-ud-test_00295
 # sentence-text: je ne vais rien oublier de cette soirée au MH.
 1	je	_	PRON	_	_	5	nsubj	_	_
-2	ne	_	ADV	_	_	5	neg	_	_
+2	ne	_	PART	_	_	5	neg	_	_
 3	vais	_	AUX	_	_	5	aux	_	_
 4	rien	_	PRON	_	_	5	dobj	_	_
 5	oublier	_	VERB	_	_	0	root	_	_

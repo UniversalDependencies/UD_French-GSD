@@ -108,9 +108,9 @@
 51	pays	_	NOUN	_	_	48	nmod	_	_
 52	,	_	PUNCT	_	_	48	punct	_	_
 53	citée	_	VERB	_	_	48	conj	_	_
-54	par	_	ADP	_	_	53	case	_	_
+54	par	_	ADP	_	_	56	case	_	_
 55	l'	_	DET	_	_	56	det	_	_
-56	agence	_	NOUN	_	_	54	case	_	_
+56	agence	_	NOUN	_	_	53	nmod	_	_
 57	de	_	ADP	_	_	58	case	_	_
 58	presse	_	NOUN	_	_	56	nmod	_	_
 59	sahraouie	_	ADJ	_	_	58	amod	_	_
@@ -600,9 +600,9 @@
 31	les	_	DET	_	_	32	det	_	_
 32	fonds	_	NOUN	_	_	27	nmod	_	_
 33	versés	_	VERB	_	_	32	acl	_	_
-34	par	_	ADP	_	_	33	case	_	_
+34	par	_	ADP	_	_	36	case	_	_
 35	l'	_	DET	_	_	36	det	_	_
-36	Union	_	PROPN	_	_	34	case	_	_
+36	Union	_	PROPN	_	_	33	nmod	_	_
 37	européenne	_	ADJ	_	_	36	amod	_	_
 38	,	_	PUNCT	_	_	7	punct	_	_
 39	sur	_	ADP	_	_	41	case	_	_
@@ -614,9 +614,9 @@
 44	les	_	DET	_	_	45	det	_	_
 45	informations	_	NOUN	_	_	41	nmod	_	_
 46	fournies	_	VERB	_	_	45	acl	_	_
-47	par	_	ADP	_	_	46	case	_	_
+47	par	_	ADP	_	_	49	case	_	_
 48	les	_	DET	_	_	49	det	_	_
-49	autorités	_	NOUN	_	_	47	case	_	_
+49	autorités	_	NOUN	_	_	46	nmod	_	_
 50	marocaines	_	ADJ	_	_	49	amod	_	_
 51	.	_	PUNCT	_	_	7	punct	_	_
 
@@ -639,9 +639,9 @@
 15	reçu	_	VERB	_	_	0	root	_	_
 16	à	_	ADP	_	_	17	case	_	_
 17	Alger	_	PROPN	_	_	15	nmod	_	_
-18	par	_	ADP	_	_	15	case	_	_
+18	par	_	ADP	_	_	20	case	_	_
 19	le	_	DET	_	_	20	det	_	_
-20	président	_	NOUN	_	_	18	case	_	_
+20	président	_	NOUN	_	_	15	nmod	_	_
 21	Bouteflika	_	PROPN	_	_	20	appos	_	_
 22	et	_	CONJ	_	_	20	cc	_	_
 23	le	_	DET	_	_	25	det	_	_
@@ -882,9 +882,9 @@
 11	manne	_	NOUN	_	_	24	nsubj	_	_
 12	financière	_	ADJ	_	_	11	amod	_	_
 13	apportée	_	VERB	_	_	11	acl	_	_
-14	par	_	ADP	_	_	13	case	_	_
+14	par	_	ADP	_	_	16	case	_	_
 15	les	_	DET	_	_	16	det	_	_
-16	touristes	_	NOUN	_	_	14	case	_	_
+16	touristes	_	NOUN	_	_	13	nmod	_	_
 17	algériens	_	ADJ	_	_	16	amod	_	_
 18	qui	_	PRON	_	_	19	nsubj	_	_
 19	affluaient	_	VERB	_	_	16	acl:relcl	_	_
@@ -916,9 +916,9 @@
 10	le	_	DET	_	_	11	det	_	_
 11	sens	_	NOUN	_	_	5	conj	_	_
 12	voulu	_	VERB	_	_	11	acl	_	_
-13	par	_	ADP	_	_	12	case	_	_
+13	par	_	ADP	_	_	15	case	_	_
 14	l'	_	DET	_	_	15	det	_	_
-15	UE	_	PROPN	_	_	13	case	_	_
+15	UE	_	PROPN	_	_	12	nmod	_	_
 16	.	_	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-test_00035
@@ -1246,8 +1246,8 @@
 # sentid: fr-ud-test_00050
 # sentence-text: Renommée par Warner France sous le nom de "La Ligue des Justiciers : La Nouvelle Génération", les 8 premiers épisodes de la série animée seront disponibles dès le 30 novembre prochain.
 1	Renommée	_	VERB	_	_	30	acl	_	_
-2	par	_	ADP	_	_	1	case	_	_
-3	Warner	_	PROPN	_	_	2	case	_	_
+2	par	_	ADP	_	_	3	case	_	_
+3	Warner	_	PROPN	_	_	1	nmod	_	_
 4	France	_	PROPN	_	_	3	name	_	_
 5	sous	_	ADP	_	_	7	case	_	_
 6	le	_	DET	_	_	7	det	_	_
@@ -1290,9 +1290,9 @@
 3	dernier	_	ADJ	_	_	4	amod	_	_
 4	rapport	_	NOUN	_	_	15	nmod	_	_
 5	publié	_	VERB	_	_	4	acl	_	_
-6	par	_	ADP	_	_	5	case	_	_
+6	par	_	ADP	_	_	8	case	_	_
 7	le	_	DET	_	_	8	det	_	_
-8	ministère	_	NOUN	_	_	6	case	_	_
+8	ministère	_	NOUN	_	_	5	nmod	_	_
 9	de	_	ADP	_	_	11	case	_	_
 10	l'	_	DET	_	_	11	det	_	_
 11	écologie	_	NOUN	_	_	8	nmod	_	_
@@ -2535,9 +2535,9 @@
 7	a	_	AUX	_	_	9	aux	_	_
 8	été	_	AUX	_	_	9	auxpass	_	_
 9	envahi	_	VERB	_	_	0	root	_	_
-10	par	_	ADP	_	_	9	case	_	_
+10	par	_	ADP	_	_	12	case	_	_
 11	le	_	DET	_	_	12	det	_	_
-12	Maroc	_	PROPN	_	_	10	case	_	_
+12	Maroc	_	PROPN	_	_	9	nmod	_	_
 13	en	_	ADP	_	_	14	case	_	_
 14	1975	_	NUM	_	_	9	nmod	_	_
 15	et	_	CONJ	_	_	14	cc	_	_
@@ -3081,8 +3081,8 @@
 15	,	_	PUNCT	_	_	17	punct	_	_
 16	sera	_	AUX	_	_	17	auxpass	_	_
 17	assurée	_	VERB	_	_	0	root	_	_
-18	par	_	ADP	_	_	17	case	_	_
-19	Eurosites	_	PROPN	_	_	18	case	_	_
+18	par	_	ADP	_	_	19	case	_	_
+19	Eurosites	_	PROPN	_	_	17	nmod	_	_
 20	,	_	PUNCT	_	_	19	punct	_	_
 21	leader	_	NOUN	_	_	19	appos	_	_
 22	en	_	ADP	_	_	23	case	_	_
@@ -3408,9 +3408,9 @@
 7	lui	_	PRON	_	_	5	nmod	_	_
 8	depuis	_	ADP	_	_	9	case	_	_
 9	jeudi	_	PROPN	_	_	5	nmod	_	_
-10	par	_	ADP	_	_	5	case	_	_
+10	par	_	ADP	_	_	12	case	_	_
 11	la	_	DET	_	_	12	det	_	_
-12	police	_	NOUN	_	_	10	case	_	_
+12	police	_	NOUN	_	_	5	nmod	_	_
 13	,	_	PUNCT	_	_	17	punct	_	_
 14	c'	_	PRON	_	_	17	nsubj	_	_
 15	est	_	VERB	_	_	17	cop	_	_
@@ -4231,9 +4231,9 @@
 14	accumulation	_	NOUN	_	_	8	dobj	_	_
 15	de	_	ADP	_	_	16	case	_	_
 16	liquidités	_	NOUN	_	_	14	nmod	_	_
-17	par	_	ADP	_	_	14	case	_	_
+17	par	_	ADP	_	_	19	case	_	_
 18	les	_	DET	_	_	19	det	_	_
-19	entreprises	_	NOUN	_	_	17	case	_	_
+19	entreprises	_	NOUN	_	_	14	nmod	_	_
 20	reconnaissent	_	VERB	_	_	0	root	_	_
 21	maintenant	_	ADV	_	_	20	advmod	_	_
 22	les	_	DET	_	_	23	det	_	_
@@ -4321,9 +4321,9 @@
 5	les	_	DET	_	_	6	det	_	_
 6	importateurs	_	NOUN	_	_	3	nmod	_	_
 7	utilisés	_	VERB	_	_	6	acl	_	_
-8	par	_	ADP	_	_	7	case	_	_
+8	par	_	ADP	_	_	10	case	_	_
 9	le	_	DET	_	_	10	det	_	_
-10	Comité	_	PROPN	_	_	8	case	_	_
+10	Comité	_	PROPN	_	_	7	nmod	_	_
 11	Fal	_	PROPN	_	_	10	name	_	_
 12	pour	_	ADP	_	_	13	mark	_	_
 13	établir	_	VERB	_	_	7	advcl	_	_
@@ -4595,9 +4595,9 @@
 28	en	_	ADP	_	_	27	mwe	_	_
 29	plus	_	ADV	_	_	27	mwe	_	_
 30	motivés	_	VERB	_	_	24	acl	_	_
-31	par	_	ADP	_	_	30	case	_	_
+31	par	_	ADP	_	_	33	case	_	_
 32	la	_	DET	_	_	33	det	_	_
-33	compétition	_	NOUN	_	_	31	case	_	_
+33	compétition	_	NOUN	_	_	30	nmod	_	_
 34	et	_	CONJ	_	_	5	cc	_	_
 35	quelques	_	DET	_	_	36	det	_	_
 36	jours	_	NOUN	_	_	41	nmod	_	_
@@ -5726,8 +5726,8 @@
 34	marée	_	NOUN	_	_	27	nmod	_	_
 35	noire	_	ADJ	_	_	34	amod	_	_
 36	provoquée	_	VERB	_	_	34	acl	_	_
-37	par	_	ADP	_	_	36	case	_	_
-38	BP	_	PROPN	_	_	37	case	_	_
+37	par	_	ADP	_	_	38	case	_	_
+38	BP	_	PROPN	_	_	36	nmod	_	_
 39	.	_	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-test_00191
@@ -6688,9 +6688,9 @@
 7	est	_	AUX	_	_	9	aux	_	_
 8	parfaitement	_	ADV	_	_	9	advmod	_	_
 9	justifiée	_	VERB	_	_	5	acl:relcl	_	_
-10	par	_	ADP	_	_	9	case	_	_
+10	par	_	ADP	_	_	12	case	_	_
 11	la	_	DET	_	_	12	det	_	_
-12	qualité	_	NOUN	_	_	10	case	_	_
+12	qualité	_	NOUN	_	_	9	nmod	_	_
 13-14	des	_	_	_	_	_	_	_	_
 13	de	_	ADP	_	_	15	case	_	_
 14	les	_	DET	_	_	15	det	_	_
@@ -6958,9 +6958,9 @@
 11	,	_	PUNCT	_	_	3	punct	_	_
 12	initialement	_	ADV	_	_	13	advmod	_	_
 13	chauffée	_	VERB	_	_	10	acl	_	_
-14	par	_	ADP	_	_	13	case	_	_
+14	par	_	ADP	_	_	16	case	_	_
 15	des	_	DET	_	_	16	det	_	_
-16	radiateurs	_	NOUN	_	_	14	case	_	_
+16	radiateurs	_	NOUN	_	_	13	nmod	_	_
 17	électriques	_	ADJ	_	_	16	amod	_	_
 18	.	_	PUNCT	_	_	3	punct	_	_
 

@@ -99,7 +99,7 @@
 42	,	_	PUNCT	_	_	43	punct	_	_
 43	écrit	_	VERB	_	_	0	root	_	_
 44	l'	_	DET	_	_	45	det	_	_
-45	ONG	_	X	_	_	43	nsubj	_	_
+45	ONG	_	NOUN	_	_	43	nsubj	_	_
 46	internationale	_	ADJ	_	_	45	amod	_	_
 47	,	_	PUNCT	_	_	45	punct	_	_
 48	implantée	_	VERB	_	_	45	acl	_	_
@@ -303,7 +303,7 @@
 44	:	_	PUNCT	_	_	47	punct	_	_
 45	100	_	NUM	_	_	46	nummod	_	_
 46	%	_	NOUN	_	_	47	nmod	_	_
-47	Waterproof	_	X	_	_	6	advcl	_	_
+47	Waterproof	_	ADJ	_	_	6	advcl	_	_
 48	.	_	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-test_00009
@@ -1517,7 +1517,7 @@
 # sentence-text: Dans les sixties, ce n'était pas comme aujourd'hui.
 1	Dans	_	ADP	_	_	3	case	_	_
 2	les	_	DET	_	_	3	det	_	_
-3	sixties	_	X	_	_	8	nmod	_	_
+3	sixties	_	NOUN	_	_	8	nmod	_	_
 4	,	_	PUNCT	_	_	8	punct	_	_
 5	ce	_	PRON	_	_	8	nsubj	_	_
 6	n'	_	PART	_	_	8	neg	_	_
@@ -1692,7 +1692,7 @@
 46	l'	_	DET	_	_	47	det	_	_
 47	emploi	_	NOUN	_	_	44	nmod	_	_
 48	(	_	PUNCT	_	_	49	punct	_	_
-49	PPE	_	X	_	_	44	appos	_	_
+49	PPE	_	NOUN	_	_	44	appos	_	_
 50	)	_	PUNCT	_	_	49	punct	_	_
 51	.	_	PUNCT	_	_	4	punct	_	_
 
@@ -2070,8 +2070,8 @@
 12	devient	_	VERB	_	_	0	root	_	_
 13	instantanément	_	ADV	_	_	12	advmod	_	_
 14	et	_	CONJ	_	_	13	cc	_	_
-15	de	_	X	_	_	16	mwe	_	_
-16	facto	_	X	_	_	13	conj	_	_
+15	de	_	ADP	_	_	16	mwe	_	_
+16	facto	_	NOUN	_	_	13	conj	_	_
 17	,	_	PUNCT	_	_	12	punct	_	_
 18	libre	_	ADJ	_	_	12	xcomp	_	_
 19	.	_	PUNCT	_	_	12	punct	_	_
@@ -2155,15 +2155,15 @@
 12-13	du	_	_	_	_	_	_	_	_
 12	de	_	ADP	_	_	14	case	_	_
 13	le	_	DET	_	_	14	det	_	_
-14	Code	_	PROPN	_	_	8	nmod	_	_
-15	Général	_	PROPN	_	_	14	name	_	_
+14	Code	_	NOUN	_	_	8	nmod	_	_
+15	Général	_	ADJ	_	_	14	amod	_	_
 16-17	des	_	_	_	_	_	_	_	_
 16	de	_	ADP	_	_	18	case	_	_
 17	les	_	DET	_	_	18	det	_	_
-18	Impôts	_	PROPN	_	_	14	nmod	_	_
+18	Impôts	_	NOUN	_	_	14	nmod	_	_
 19	français	_	ADJ	_	_	14	amod	_	_
 20	(	_	PUNCT	_	_	21	punct	_	_
-21	CGI	_	X	_	_	14	appos	_	_
+21	CGI	_	NOUN	_	_	14	appos	_	_
 22	)	_	PUNCT	_	_	21	punct	_	_
 23	fixent	_	VERB	_	_	0	root	_	_
 24	les	_	DET	_	_	25	det	_	_
@@ -2261,7 +2261,7 @@
 6	que	_	SCONJ	_	_	17	mark	_	_
 7	des	_	DET	_	_	8	det	_	_
 8	conditions	_	NOUN	_	_	17	nsubjpass	_	_
-9	socio-économiques	_	X	_	_	8	amod	_	_
+9	socio-économiques	_	ADJ	_	_	8	amod	_	_
 10	radicalement	_	ADV	_	_	11	advmod	_	_
 11	nouvelles	_	ADJ	_	_	8	amod	_	_
 12	(	_	PUNCT	_	_	13	punct	_	_
@@ -2823,7 +2823,7 @@
 7	le	_	DET	_	_	8	det	_	_
 8	gaz	_	NOUN	_	_	5	nmod	_	_
 9	ou	_	CONJ	_	_	5	cc	_	_
-10	Forum	_	PROPN	_	_	5	conj	_	_
+10	Forum	_	NOUN	_	_	5	conj	_	_
 11-12	des	_	_	_	_	_	_	_	_
 11	de	_	ADP	_	_	13	case	_	_
 12	les	_	DET	_	_	13	det	_	_
@@ -2832,7 +2832,7 @@
 15	de	_	ADP	_	_	16	case	_	_
 16	gaz	_	NOUN	_	_	14	nmod	_	_
 17	(	_	PUNCT	_	_	18	punct	_	_
-18	FPEG	_	X	_	_	10	appos	_	_
+18	FPEG	_	NOUN	_	_	10	appos	_	_
 19	)	_	PUNCT	_	_	18	punct	_	_
 20	est	_	AUX	_	_	21	aux	_	_
 21	né	_	VERB	_	_	0	root	_	_
@@ -3000,7 +3000,7 @@
 5	hauteur	_	NOUN	_	_	4	mwe	_	_
 6	de	_	ADP	_	_	4	mwe	_	_
 7	18,5	_	NUM	_	_	8	nummod	_	_
-8	ME	_	X	_	_	3	nmod	_	_
+8	ME	_	NOUN	_	_	3	nmod	_	_
 9	de	_	ADP	_	_	11	case	_	_
 10	la	_	DET	_	_	11	det	_	_
 11	progression	_	NOUN	_	_	3	nmod	_	_
@@ -3048,8 +3048,8 @@
 16	Battlefield	_	PROPN	_	_	20	nsubj	_	_
 17	3	_	NUM	_	_	16	compound	_	_
 18	sera	_	VERB	_	_	20	cop	_	_
-19	THE	_	X	_	_	20	det	_	_
-20	GAME	_	X	_	_	14	conj	_	_
+19	THE	_	DET	_	_	20	det	_	_
+20	GAME	_	NOUN	_	_	14	conj	_	_
 21	pour	_	ADP	_	_	24	case	_	_
 22	les	_	DET	_	_	24	det	_	_
 23	vrais	_	ADJ	_	_	24	amod	_	_
@@ -3149,7 +3149,7 @@
 1	Outre	_	ADP	_	_	3	case	_	_
 2	ses	_	DET	_	_	3	nmod:poss	_	_
 3	aspects	_	NOUN	_	_	22	nmod	_	_
-4	fantasy	_	X	_	_	3	amod	_	_
+4	fantasy	_	NOUN	_	_	3	amod	_	_
 5	dans	_	ADP	_	_	7	case	_	_
 6	un	_	DET	_	_	7	det	_	_
 7	environnement	_	NOUN	_	_	3	nmod	_	_
@@ -3228,7 +3228,7 @@
 25	de	_	ADP	_	_	27	case	_	_
 26	80	_	NUM	_	_	27	nummod	_	_
 27	mg/100	_	X	_	_	24	nmod	_	_
-28	ml	_	X	_	_	27	compound	_	_
+28	ml	_	NOUN	_	_	27	compound	_	_
 29	le	_	DET	_	_	32	det	_	_
 30	1	_	NUM	_	_	32	nummod	_	_
 31	er	_	X	_	_	30	goeswith	_	_
@@ -3317,7 +3317,7 @@
 
 # sentid: fr-ud-test_00112
 # sentence-text: Après-midi libre de détente (piscine).
-1	Après-midi	_	X	_	_	0	root	_	_
+1	Après-midi	_	NOUN	_	_	0	root	_	_
 2	libre	_	ADJ	_	_	1	amod	_	_
 3	de	_	ADP	_	_	4	case	_	_
 4	détente	_	NOUN	_	_	1	nmod	_	_
@@ -4112,7 +4112,7 @@
 10	de	_	ADP	_	_	12	case	_	_
 11	les	_	DET	_	_	12	det	_	_
 12	réseaux	_	NOUN	_	_	9	nmod	_	_
-13	IP	_	X	_	_	12	compound	_	_
+13	IP	_	NOUN	_	_	12	compound	_	_
 14	ne	_	PART	_	_	15	neg	_	_
 15	constitue	_	VERB	_	_	0	root	_	_
 16	pas	_	ADV	_	_	15	neg	_	_
@@ -4138,7 +4138,7 @@
 35-36	au	_	_	_	_	_	_	_	_
 35	à	_	ADP	_	_	34	mwe	_	_
 36	le	_	DET	_	_	34	det	_	_
-37	LTE	_	X	_	_	28	nmod	_	_
+37	LTE	_	PROPN	_	_	28	nmod	_	_
 38	.	_	PUNCT	_	_	15	punct	_	_
 
 # sentid: fr-ud-test_00136
@@ -4177,7 +4177,7 @@
 # sentence-text: Si Moody's estime que leur note ne devrait pas baisser de plus d'un cran, la situation n'est pas la même pour la Société Générale, dont la dégradation pourrait atteindre deux crans.
 1	Si	_	SCONJ	_	_	4	mark	_	_
 2	Moody	_	PROPN	_	_	4	nsubj	_	_
-3	's	_	X	_	_	2	compound	_	_
+3	's	_	PART	_	_	2	compound	_	_
 4	estime	_	VERB	_	_	24	advcl	_	_
 5	que	_	SCONJ	_	_	11	mark	_	_
 6	leur	_	DET	_	_	7	nmod:poss	_	_
@@ -4215,7 +4215,7 @@
 
 # sentid: fr-ud-test_00139
 # sentence-text: Nombre d'investisseurs qui, auparavant, voyaient d'un mauvais œil l'accumulation de liquidités par les entreprises reconnaissent maintenant les avantages de la constitution de réserves de liquidités importantes.
-1	Nombre	_	NOUN	_	_	3	det	_	_
+1	Nombre	_	NOUN	_	_	3	nmod	_	_
 2	d'	_	ADP	_	_	1	mwe	_	_
 3	investisseurs	_	NOUN	_	_	20	nsubj	_	_
 4	qui	_	PRON	_	_	8	nsubj	_	_
@@ -4613,7 +4613,7 @@
 46	se	_	PRON	_	_	47	dobj	_	_
 47	déroulera	_	VERB	_	_	41	acl:relcl	_	_
 48	en	_	ADP	_	_	49	case	_	_
-49	open	_	X	_	_	47	nmod	_	_
+49	open	_	ADJ	_	_	47	nmod	_	_
 50	.	_	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-test_00154
@@ -5217,9 +5217,9 @@
 17	et	_	CONJ	_	_	13	cc	_	_
 18	la	_	DET	_	_	19	det	_	_
 19	fusion	_	NOUN	_	_	13	conj	_	_
-20	entrant	_	X	_	_	19	compound	_	_
+20	entrant	_	VERB	_	_	19	compound	_	_
 21	/	_	PUNCT	_	_	20	punct	_	_
-22	sortant	_	X	_	_	20	mwe	_	_
+22	sortant	_	VERB	_	_	20	mwe	_	_
 23	,	_	PUNCT	_	_	27	punct	_	_
 24	les	_	DET	_	_	25	det	_	_
 25	équipes	_	NOUN	_	_	27	nsubj	_	_
@@ -5420,10 +5420,10 @@
 26	seuil	_	NOUN	_	_	24	dobj	_	_
 27	de	_	ADP	_	_	29	case	_	_
 28	250	_	NUM	_	_	29	nummod	_	_
-29	UA	_	X	_	_	24	nmod	_	_
+29	UA	_	NOUN	_	_	24	nmod	_	_
 30	à	_	ADP	_	_	32	case	_	_
 31	75	_	NUM	_	_	32	nummod	_	_
-32	UA	_	X	_	_	24	nmod	_	_
+32	UA	_	NOUN	_	_	24	nmod	_	_
 33	.	_	PUNCT	_	_	23	punct	_	_
 
 # sentid: fr-ud-test_00181
@@ -5676,7 +5676,7 @@
 23-24	du	_	_	_	_	_	_	_	_
 23	de	_	ADP	_	_	25	case	_	_
 24	le	_	DET	_	_	25	det	_	_
-25	SMS	_	X	_	_	22	nmod	_	_
+25	SMS	_	NOUN	_	_	22	nmod	_	_
 26	)	_	PUNCT	_	_	20	punct	_	_
 27	et	_	CONJ	_	_	1	cc	_	_
 28	répondez	_	VERB	_	_	1	conj	_	_
@@ -5732,7 +5732,7 @@
 
 # sentid: fr-ud-test_00191
 # sentence-text: Peut-être serait-il plus libérateur de crier bien fort : OUACHE !...
-1	Peut-être	_	X	_	_	5	advmod	_	_
+1	Peut-être	_	ADV	_	_	5	advmod	_	_
 2	serait	_	VERB	_	_	5	cop	_	_
 3	-il	_	PRON	_	_	5	nsubj	_	_
 4	plus	_	ADV	_	_	5	advmod	_	_
@@ -6872,7 +6872,7 @@
 30	excellent	_	ADJ	_	_	4	parataxis	_	_
 31	pour	_	ADP	_	_	33	mark	_	_
 32	'	_	PUNCT	_	_	33	punct	_	_
-33	bullshitter	_	X	_	_	30	advcl	_	_
+33	bullshitter	_	VERB	_	_	30	advcl	_	_
 34	'	_	PUNCT	_	_	33	punct	_	_
 35	.	_	PUNCT	_	_	4	punct	_	_
 
@@ -7156,7 +7156,7 @@
 10	être	_	VERB	_	_	0	root	_	_
 11	d'	_	ADP	_	_	13	case	_	_
 12	environs	_	ADV	_	_	13	advmod	_	_
-13	2cm	_	X	_	_	10	nmod	_	_
+13	2cm	_	NOUN	_	_	10	nmod	_	_
 14	de	_	ADP	_	_	15	case	_	_
 15	plus	_	ADV	_	_	13	advmod	_	_
 16	sur	_	ADP	_	_	18	case	_	_
@@ -7699,7 +7699,7 @@
 44	connu	_	ADJ	_	_	42	amod	_	_
 45	mais	_	CONJ	_	_	44	cc	_	_
 46	très	_	ADV	_	_	47	advmod	_	_
-47	fashion	_	X	_	_	44	conj	_	_
+47	fashion	_	NOUN	_	_	44	conj	_	_
 48	et	_	CONJ	_	_	32	cc	_	_
 49	aussi	_	ADV	_	_	54	advmod	_	_
 50	pour	_	ADP	_	_	52	case	_	_
@@ -7750,7 +7750,7 @@
 
 # sentid: fr-ud-test_00281
 # sentence-text: Ps : l'année prochaine on y retourne d'office....
-1	Ps	_	X	_	_	8	nmod	_	_
+1	Ps	_	NOUN	_	_	8	nmod	_	_
 2	:	_	PUNCT	_	_	8	punct	_	_
 3	l'	_	DET	_	_	4	det	_	_
 4	année	_	NOUN	_	_	8	nmod	_	_
@@ -7890,8 +7890,8 @@
 5	peu	_	ADV	_	_	6	advmod	_	_
 6	long	_	ADJ	_	_	1	amod	_	_
 7	mais	_	CONJ	_	_	1	cc	_	_
-8	peut-être	_	X	_	_	17	advmod	_	_
-9	qu'	_	X	_	_	8	mwe	_	_
+8	peut-être	_	ADV	_	_	17	advmod	_	_
+9	qu'	_	SCONJ	_	_	8	mwe	_	_
 10	avec	_	ADP	_	_	13	case	_	_
 11	les	_	DET	_	_	13	det	_	_
 12	nouveaux	_	ADJ	_	_	13	amod	_	_
@@ -8052,7 +8052,7 @@
 9-10	au	_	_	_	_	_	_	_	_
 9	à	_	ADP	_	_	11	case	_	_
 10	le	_	DET	_	_	11	det	_	_
-11	MH	_	X	_	_	8	nmod	_	_
+11	MH	_	PROPN	_	_	8	nmod	_	_
 12	.	_	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-test_00296

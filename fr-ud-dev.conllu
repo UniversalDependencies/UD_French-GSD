@@ -212,7 +212,7 @@
 11	de	_	ADP	_	_	13	case	_	_
 12	sévères	_	ADJ	_	_	13	amod	_	_
 13	reproches	_	NOUN	_	_	10	nmod	_	_
-14	quant	_	X	_	_	17	case	_	_
+14	quant	_	ADV	_	_	17	case	_	_
 15	à	_	ADP	_	_	14	mwe	_	_
 16	son	_	DET	_	_	17	nmod:poss	_	_
 17	soutien	_	NOUN	_	_	13	nmod	_	_
@@ -248,7 +248,7 @@
 1	Mais	_	CONJ	_	_	9	cc	_	_
 2	,	_	PUNCT	_	_	9	punct	_	_
 3	le	_	DET	_	_	4	det	_	_
-4	SMIC	_	X	_	_	9	nsubj	_	_
+4	SMIC	_	PROPN	_	_	9	nsubj	_	_
 5	n'	_	PART	_	_	9	neg	_	_
 6	est	_	VERB	_	_	9	cop	_	_
 7	pas	_	ADV	_	_	9	neg	_	_
@@ -583,13 +583,13 @@
 6	groupes	_	NOUN	_	_	4	nmod	_	_
 7	musicaux	_	ADJ	_	_	6	amod	_	_
 8	comme	_	ADP	_	_	13	case	_	_
-9	Los	_	PROPN	_	_	13	name	_	_
-10	Abuelos	_	PROPN	_	_	13	name	_	_
-11	de	_	X	_	_	13	compound	_	_
-12	la	_	X	_	_	13	compound	_	_
-13	Nada	_	PROPN	_	_	6	nmod	_	_
-14	et	_	CONJ	_	_	13	cc	_	_
-15	Los	_	PROPN	_	_	13	conj	_	_
+9	Los	_	DET	_	_	10	det	_	_
+10	Abuelos	_	NOUN	_	_	6	nmod	_	_
+11	de	_	ADP	_	_	13	case	_	_
+12	la	_	DET	_	_	13	det	_	_
+13	Nada	_	PROPN	_	_	10	nmod	_	_
+14	et	_	CONJ	_	_	10	cc	_	_
+15	Los	_	PROPN	_	_	10	conj	_	_
 16	Rodríguez	_	PROPN	_	_	15	name	_	_
 17	.	_	PUNCT	_	_	3	punct	_	_
 
@@ -1054,8 +1054,8 @@
 # sentid: fr-ud-dev_00039
 # sentence-text: Le lazy bed (littéralement : « plate-bande de paresseux ») est une technique de travail du sol autrefois pratiquée dans certaines régions des Îles britanniques.
 1	Le	_	DET	_	_	3	det	_	_
-2	lazy	_	X	_	_	3	compound	_	_
-3	bed	_	X	_	_	15	nsubj	_	_
+2	lazy	_	ADJ	_	_	3	amod	_	_
+3	bed	_	NOUN	_	_	15	nsubj	_	_
 4	(	_	PUNCT	_	_	8	punct	_	_
 5	littéralement	_	ADV	_	_	8	advmod	_	_
 6	:	_	PUNCT	_	_	8	punct	_	_
@@ -1265,7 +1265,7 @@
 2	sa	_	DET	_	_	3	nmod:poss	_	_
 3	saison	_	NOUN	_	_	8	nmod	_	_
 4	de	_	ADP	_	_	5	case	_	_
-5	rookie	_	X	_	_	3	nmod	_	_
+5	rookie	_	NOUN	_	_	3	nmod	_	_
 6	,	_	PUNCT	_	_	3	punct	_	_
 7	il	_	PRON	_	_	8	nsubj	_	_
 8	entre	_	VERB	_	_	0	root	_	_
@@ -1332,9 +1332,9 @@
 18	et	_	CONJ	_	_	14	cc	_	_
 19	la	_	DET	_	_	20	det	_	_
 20	région	_	NOUN	_	_	14	conj	_	_
-21	Pays	_	PROPN	_	_	20	appos	_	_
-22	de	_	PROPN	_	_	24	case	_	_
-23	la	_	PROPN	_	_	24	det	_	_
+21	Pays	_	NOUN	_	_	20	appos	_	_
+22	de	_	ADP	_	_	24	case	_	_
+23	la	_	DET	_	_	24	det	_	_
 24	Loire	_	PROPN	_	_	21	nmod	_	_
 25	.	_	PUNCT	_	_	7	punct	_	_
 
@@ -1442,8 +1442,8 @@
 # sentid: fr-ud-dev_00054
 # sentence-text: Le 24 RIC, créé par décret du 16 décembre 1902 a été mis sur pied à Perpignan.
 1	Le	_	DET	_	_	3	det	_	_
-2	24	_	PROPN	_	_	3	nummod	_	_
-3	RIC	_	X	_	_	15	nsubjpass	_	_
+2	24	_	NUM	_	_	3	nummod	_	_
+3	RIC	_	PROPN	_	_	15	nsubjpass	_	_
 4	,	_	PUNCT	_	_	15	punct	_	_
 5	créé	_	VERB	_	_	3	acl	_	_
 6	par	_	ADP	_	_	7	case	_	_
@@ -1514,7 +1514,7 @@
 # sentid: fr-ud-dev_00056
 # sentence-text: La junk-food rend aussi accro que les drogues dures !
 1	La	_	DET	_	_	2	det	_	_
-2	junk-food	_	X	_	_	3	nsubj	_	_
+2	junk-food	_	NOUN	_	_	3	nsubj	_	_
 3	rend	_	VERB	_	_	0	root	_	_
 4	aussi	_	ADV	_	_	5	advmod	_	_
 5	accro	_	ADJ	_	_	3	xcomp	_	_
@@ -1621,7 +1621,7 @@
 2	éditeur-en-chef	_	NOUN	_	_	6	nsubj	_	_
 3	est	_	VERB	_	_	6	cop	_	_
 4	Corey	_	PROPN	_	_	6	name	_	_
-5	S.	_	X	_	_	6	compound	_	_
+5	S.	_	PROPN	_	_	6	compound	_	_
 6	Powell	_	PROPN	_	_	0	root	_	_
 7	.	_	PUNCT	_	_	6	punct	_	_
 
@@ -1634,12 +1634,12 @@
 5	soir	_	NOUN	_	_	4	nmod	_	_
 6	(	_	PUNCT	_	_	8	punct	_	_
 7	vers	_	ADP	_	_	8	case	_	_
-8	23h	_	X	_	_	3	nmod	_	_
+8	23h	_	NOUN	_	_	3	nmod	_	_
 9	)	_	PUNCT	_	_	8	punct	_	_
 10-11	au	_	_	_	_	_	_	_	_
 10	à	_	ADP	_	_	12	case	_	_
 11	le	_	DET	_	_	12	det	_	_
-12	HD	_	X	_	_	3	nmod	_	_
+12	HD	_	NOUN	_	_	3	nmod	_	_
 13	de	_	ADP	_	_	14	case	_	_
 14	Saint	_	NOUN	_	_	12	nmod	_	_
 15	Michel	_	PROPN	_	_	14	name	_	_
@@ -1673,7 +1673,7 @@
 6	propose	_	VERB	_	_	0	root	_	_
 7	un	_	DET	_	_	8	det	_	_
 8	choix	_	NOUN	_	_	6	dobj	_	_
-9	d	_	X	_	_	10	case	_	_
+9	d	_	ADP	_	_	10	case	_	_
 10	activités	_	NOUN	_	_	8	nmod	_	_
 11	et	_	CONJ	_	_	10	cc	_	_
 12	de	_	ADP	_	_	14	case	_	_
@@ -1731,13 +1731,13 @@
 5-6	du	_	_	_	_	_	_	_	_
 5	de	_	ADP	_	_	13	case	_	_
 6	le	_	DET	_	_	13	det	_	_
-7	Hall	_	PROPN	_	_	13	name	_	_
-8	of	_	X	_	_	13	compound	_	_
-9	Famer	_	PROPN	_	_	13	name	_	_
-10	Ricky	_	PROPN	_	_	13	name	_	_
-11	The	_	PROPN	_	_	13	name	_	_
-12	Dragon	_	PROPN	_	_	13	name	_	_
-13	Steamboat	_	PROPN	_	_	4	nmod	_	_
+7	Hall	_	PROPN	_	_	4	nmod	_	_
+8	of	_	DET	_	_	9	case	_	_
+9	Famer	_	PROPN	_	_	7	name	_	_
+10	Ricky	_	PROPN	_	_	7	name	_	_
+11	The	_	PROPN	_	_	7	name	_	_
+12	Dragon	_	PROPN	_	_	7	name	_	_
+13	Steamboat	_	PROPN	_	_	7	nmod	_	_
 14	,	_	PUNCT	_	_	4	punct	_	_
 15	et	_	CONJ	_	_	4	cc	_	_
 16	a	_	AUX	_	_	19	aux	_	_
@@ -1937,7 +1937,7 @@
 14	Reichsrath	_	PROPN	_	_	8	nmod	_	_
 15	et	_	CONJ	_	_	8	cc	_	_
 16	le	_	DET	_	_	18	det	_	_
-17	Dr.	_	X	_	_	18	compound	_	_
+17	Dr.	_	NOUN	_	_	18	compound	_	_
 18	Baxa	_	PROPN	_	_	38	nsubj	_	_
 19	,	_	PUNCT	_	_	18	punct	_	_
 20	l'	_	DET	_	_	21	det	_	_
@@ -2068,12 +2068,12 @@
 5	Christ	_	PROPN	_	_	2	nmod	_	_
 6	Rédempteur	_	PROPN	_	_	5	amod	_	_
 7	(	_	PUNCT	_	_	13	punct	_	_
-8	Cathedral	_	PROPN	_	_	13	name	_	_
-9	Church	_	PROPN	_	_	13	name	_	_
-10	of	_	X	_	_	13	compound	_	_
-11	Christ	_	PROPN	_	_	13	name	_	_
-12	the	_	X	_	_	13	compound	_	_
-13	Redeemer	_	PROPN	_	_	2	appos	_	_
+8	Cathedral	_	NOUN	_	_	9	compound	_	_
+9	Church	_	NOUN	_	_	2	appos	_	_
+10	of	_	ADP	_	_	11	case	_	_
+11	Christ	_	PROPN	_	_	9	nmod	_	_
+12	the	_	DET	_	_	13	det	_	_
+13	Redeemer	_	PROPN	_	_	11	appos	_	_
 14	)	_	PUNCT	_	_	13	punct	_	_
 15	de	_	ADP	_	_	16	case	_	_
 16	Dromore	_	PROPN	_	_	2	nmod	_	_
@@ -2116,7 +2116,7 @@
 21	»	_	PUNCT	_	_	20	punct	_	_
 22	diffusée	_	VERB	_	_	17	acl	_	_
 23	sur	_	ADP	_	_	24	case	_	_
-24	TV	_	X	_	_	22	nmod	_	_
+24	TV	_	NOUN	_	_	22	nmod	_	_
 25	2	_	NUM	_	_	24	nummod	_	_
 26	.	_	PUNCT	_	_	8	punct	_	_
 
@@ -2180,7 +2180,7 @@
 27	d'	_	ADP	_	_	28	case	_	_
 28	étendre	_	VERB	_	_	24	acl	_	_
 29	l'	_	DET	_	_	31	det	_	_
-30	IRT	_	X	_	_	31	compound	_	_
+30	IRT	_	NOUN	_	_	31	compound	_	_
 31	Flushing	_	PROPN	_	_	28	dobj	_	_
 32	Line	_	PROPN	_	_	31	name	_	_
 33	,	_	PUNCT	_	_	28	punct	_	_
@@ -2583,7 +2583,7 @@
 16	.	_	PUNCT	_	_	3	punct	_	_
 
 # sentid: fr-ud-dev_00096
-# sentence-text: Pan Am construisit aussi Worldport, un terminal à l'aéroport JFK qui resta le plus grand terminal aérien du monde pendant de nombreuses années, reconnaissable à son toit elliptique de (²), suspendu au-dessus du terminal par 32 jeux de poteaux et câbles d'acier.
+# sentence-text: Pan Am construisit aussi Worldport, un terminal à l'aéroport JFK qui resta le plus grand terminal aérien du monde pendant de nombreuses années, reconnaissable à son toit elliptique, suspendu au-dessus du terminal par 32 jeux de poteaux et câbles d'acier.
 1	Pan	_	PROPN	_	_	3	nsubj	_	_
 2	Am	_	PROPN	_	_	1	name	_	_
 3	construisit	_	VERB	_	_	0	root	_	_
@@ -2617,27 +2617,23 @@
 30	son	_	DET	_	_	31	nmod:poss	_	_
 31	toit	_	NOUN	_	_	28	nmod	_	_
 32	elliptique	_	ADJ	_	_	31	amod	_	_
-33	de	_	ADP	_	_	31	case	_	_
-34	(	_	PUNCT	_	_	35	punct	_	_
-35	²	_	X	_	_	31	appos	_	_
-36	)	_	PUNCT	_	_	35	punct	_	_
-37	,	_	PUNCT	_	_	31	punct	_	_
-38	suspendu	_	VERB	_	_	31	acl	_	_
-39	au-dessus	_	NOUN	_	_	38	nmod	_	_
-40-41	du	_	_	_	_	_	_	_	_
-40	de	_	ADP	_	_	42	case	_	_
-41	le	_	DET	_	_	42	det	_	_
-42	terminal	_	NOUN	_	_	39	nmod	_	_
-43	par	_	ADP	_	_	45	case	_	_
-44	32	_	NUM	_	_	45	nummod	_	_
-45	jeux	_	NOUN	_	_	38	nmod	_	_
-46	de	_	ADP	_	_	47	case	_	_
-47	poteaux	_	NOUN	_	_	45	nmod	_	_
-48	et	_	CONJ	_	_	47	cc	_	_
-49	câbles	_	NOUN	_	_	47	conj	_	_
-50	d'	_	ADP	_	_	51	case	_	_
-51	acier	_	NOUN	_	_	49	nmod	_	_
-52	.	_	PUNCT	_	_	3	punct	_	_
+33	,	_	PUNCT	_	_	31	punct	_	_
+34	suspendu	_	VERB	_	_	31	acl	_	_
+35	au-dessus	_	NOUN	_	_	38	nmod	_	_
+36-37	du	_	_	_	_	_	_	_	_
+36	de	_	ADP	_	_	38	case	_	_
+37	le	_	DET	_	_	38	det	_	_
+38	terminal	_	NOUN	_	_	35	nmod	_	_
+39	par	_	ADP	_	_	41	case	_	_
+40	32	_	NUM	_	_	41	nummod	_	_
+41	jeux	_	NOUN	_	_	34	nmod	_	_
+42	de	_	ADP	_	_	43	case	_	_
+43	poteaux	_	NOUN	_	_	41	nmod	_	_
+44	et	_	CONJ	_	_	43	cc	_	_
+45	câbles	_	NOUN	_	_	43	conj	_	_
+46	d'	_	ADP	_	_	47	case	_	_
+47	acier	_	NOUN	_	_	45	nmod	_	_
+48	.	_	PUNCT	_	_	3	punct	_	_
 
 # sentid: fr-ud-dev_00097
 # sentence-text: « Tu es donc las de la corvée politique ?
@@ -2717,21 +2713,21 @@
 8	création	_	NOUN	_	_	5	nmod	_	_
 9	de	_	ADP	_	_	12	case	_	_
 10	l'	_	DET	_	_	12	det	_	_
-11	International	_	PROPN	_	_	12	amod	_	_
-12	MBA	_	X	_	_	8	nmod	_	_
+11	International	_	ADJ	_	_	12	amod	_	_
+12	MBA	_	NOUN	_	_	8	nmod	_	_
 13	de	_	ADP	_	_	14	case	_	_
 14	Canton	_	PROPN	_	_	12	nmod	_	_
 15	en	_	ADP	_	_	16	case	_	_
 16	partenariat	_	NOUN	_	_	8	nmod	_	_
 17	avec	_	ADP	_	_	19	case	_	_
 18	l'	_	DET	_	_	19	det	_	_
-19	Institut	_	PROPN	_	_	16	nmod	_	_
+19	Institut	_	NOUN	_	_	16	nmod	_	_
 20	d'	_	ADP	_	_	21	case	_	_
-21	Administration	_	PROPN	_	_	19	nmod	_	_
+21	Administration	_	NOUN	_	_	19	nmod	_	_
 22-23	des	_	_	_	_	_	_	_	_
 22	de	_	ADP	_	_	24	case	_	_
 23	les	_	DET	_	_	24	det	_	_
-24	Entreprises	_	PROPN	_	_	21	nmod	_	_
+24	Entreprises	_	NOUN	_	_	21	nmod	_	_
 25	(	_	PUNCT	_	_	26	punct	_	_
 26	IAE	_	PROPN	_	_	19	appos	_	_
 27	)	_	PUNCT	_	_	26	punct	_	_
@@ -2767,11 +2763,11 @@
 6	son	_	DET	_	_	7	nmod:poss	_	_
 7	nom	_	NOUN	_	_	2	nmod	_	_
 8	complet	_	ADJ	_	_	7	amod	_	_
-9	Juan	_	PROPN	_	_	13	name	_	_
-10	José	_	PROPN	_	_	13	name	_	_
-11	Lobato	_	PROPN	_	_	13	name	_	_
-12	del	_	X	_	_	13	compound	_	_
-13	Valle	_	PROPN	_	_	7	appos	_	_
+9	Juan	_	PROPN	_	_	7	appos	_	_
+10	José	_	PROPN	_	_	9	name	_	_
+11	Lobato	_	PROPN	_	_	9	name	_	_
+12	del	_	ADP	_	_	13	case	_	_
+13	Valle	_	PROPN	_	_	9	name	_	_
 14	)	_	PUNCT	_	_	7	punct	_	_
 15	,	_	PUNCT	_	_	2	punct	_	_
 16	né	_	VERB	_	_	2	acl	_	_
@@ -2853,7 +2849,7 @@
 9	Sebastian	_	PROPN	_	_	8	name	_	_
 10	Bach	_	PROPN	_	_	8	name	_	_
 11	(	_	PUNCT	_	_	12	punct	_	_
-12	BWV	_	X	_	_	3	appos	_	_
+12	BWV	_	PROPN	_	_	3	appos	_	_
 13	1007	_	NUM	_	_	12	nummod	_	_
 14	à	_	ADP	_	_	15	case	_	_
 15	1012	_	NUM	_	_	13	nummod	_	_
@@ -3142,7 +3138,7 @@
 5	blog	_	NOUN	_	_	2	nmod	_	_
 6	intitulé	_	VERB	_	_	7	cop	_	_
 7	Dancing	_	PROPN	_	_	5	acl	_	_
-8	shoes	_	X	_	_	7	name	_	_
+8	shoes	_	NOUN	_	_	7	name	_	_
 9	(	_	PUNCT	_	_	10	punct	_	_
 10	mode	_	NOUN	_	_	7	appos	_	_
 11	et	_	CONJ	_	_	10	cc	_	_
@@ -3475,7 +3471,7 @@
 10	,	_	PUNCT	_	_	2	punct	_	_
 11	prennent	_	VERB	_	_	2	conj	_	_
 12	un	_	DET	_	_	13	det	_	_
-13	SUV	_	X	_	_	11	dobj	_	_
+13	SUV	_	NOUN	_	_	11	dobj	_	_
 14	et	_	CONJ	_	_	2	cc	_	_
 15	quittent	_	VERB	_	_	2	conj	_	_
 16	Black	_	PROPN	_	_	15	dobj	_	_
@@ -3947,8 +3943,8 @@
 37	en	_	ADP	_	_	38	case	_	_
 38	position	_	NOUN	_	_	36	nmod	_	_
 39	de	_	ADP	_	_	41	case	_	_
-40	defensive	_	X	_	_	41	compound	_	_
-41	end	_	X	_	_	38	nmod	_	_
+40	defensive	_	ADJ	_	_	41	amod	_	_
+41	end	_	NOUN	_	_	38	nmod	_	_
 42	,	_	PUNCT	_	_	36	punct	_	_
 43	mais	_	CONJ	_	_	36	cc	_	_
 44	utilise	_	VERB	_	_	36	conj	_	_
@@ -3959,14 +3955,14 @@
 49	tactique	_	NOUN	_	_	46	conj	_	_
 50	d'	_	ADP	_	_	52	case	_	_
 51	un	_	DET	_	_	52	det	_	_
-52	linebacker	_	X	_	_	46	nmod	_	_
+52	linebacker	_	NOUN	_	_	46	nmod	_	_
 53	.	_	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-dev_00145
 # sentence-text: Leuro de La Réunion, comme chacune des autres pièces, dispose dune face personnalisée reprenant le drapeau de la région.
 1	Leuro	_	NOUN	_	_	13	nsubj	_	_
 2	de	_	ADP	_	_	4	case	_	_
-3	La	_	PROPN	_	_	4	det	_	_
+3	La	_	DET	_	_	4	det	_	_
 4	Réunion	_	PROPN	_	_	1	nmod	_	_
 5	,	_	PUNCT	_	_	1	punct	_	_
 6	comme	_	ADP	_	_	7	case	_	_
@@ -4877,7 +4873,7 @@
 
 # sentid: fr-ud-dev_00179
 # sentence-text: HIP 12961 b est une exoplanète en orbite autour de HIP 12961, une naine rouge de située à environ du Soleil dans la constellation de l'Éridan.
-1	HIP	_	X	_	_	3	compound	_	_
+1	HIP	_	PROPN	_	_	3	compound	_	_
 2	12961	_	NUM	_	_	3	nummod	_	_
 3	b	_	NOUN	_	_	6	nsubj	_	_
 4	est	_	VERB	_	_	6	cop	_	_
@@ -4887,7 +4883,7 @@
 8	orbite	_	NOUN	_	_	6	nmod	_	_
 9	autour	_	ADV	_	_	10	mwe	_	_
 10	de	_	ADP	_	_	11	case	_	_
-11	HIP	_	X	_	_	6	nmod	_	_
+11	HIP	_	PROPN	_	_	6	nmod	_	_
 12	12961	_	NUM	_	_	11	nummod	_	_
 13	,	_	PUNCT	_	_	6	punct	_	_
 14	une	_	DET	_	_	15	det	_	_
@@ -5038,8 +5034,8 @@
 17	lady	_	NOUN	_	_	15	nmod	_	_
 18	Edith	_	PROPN	_	_	17	appos	_	_
 19	,	_	PUNCT	_	_	15	punct	_	_
-20	sir	_	X	_	_	21	compound	_	_
-21	Anthony	_	PROPN	_	_	15	appos	_	_
+20	sir	_	NOUN	_	_	15	appos	_	_
+21	Anthony	_	PROPN	_	_	21	name	_	_
 22	Strallan	_	PROPN	_	_	21	name	_	_
 23	,	_	PUNCT	_	_	15	punct	_	_
 24	qui	_	PRON	_	_	25	nsubj	_	_
@@ -5538,7 +5534,7 @@
 13	mises	_	VERB	_	_	8	acl	_	_
 14	sous	_	ADP	_	_	15	case	_	_
 15	licence	_	NOUN	_	_	13	nmod	_	_
-16	GPL	_	X	_	_	15	appos	_	_
+16	GPL	_	NOUN	_	_	15	appos	_	_
 17	--	_	PUNCT	_	_	13	punct	_	_
 18	et	_	CONJ	_	_	5	cc	_	_
 19	a	_	AUX	_	_	20	aux	_	_
@@ -5700,9 +5696,9 @@
 19	que	_	SCONJ	_	_	21	case	_	_
 20	le	_	DET	_	_	21	det	_	_
 21	franco-flamand	_	NOUN	_	_	17	nmod	_	_
-22	Clemens	_	PROPN	_	_	24	name	_	_
-23	non	_	X	_	_	24	compound	_	_
-24	Papa	_	PROPN	_	_	21	appos	_	_
+22	Clemens	_	PROPN	_	_	21	appos	_	_
+23	non	_	X	_	_	22	name	_	_
+24	Papa	_	PROPN	_	_	22	name	_	_
 25	,	_	PUNCT	_	_	21	punct	_	_
 26	l'	_	DET	_	_	27	det	_	_
 27	italiens	_	NOUN	_	_	21	conj	_	_
@@ -5963,9 +5959,9 @@
 12	de	_	ADP	_	_	14	case	_	_
 13	le	_	DET	_	_	14	det	_	_
 14	réseau	_	NOUN	_	_	8	nmod	_	_
-15	L'	_	PROPN	_	_	16	det	_	_
-16	Aile	_	PROPN	_	_	14	appos	_	_
-17	Bleue	_	PROPN	_	_	16	amod	_	_
+15	L'	_	DET	_	_	16	det	_	_
+16	Aile	_	NOUN	_	_	14	appos	_	_
+17	Bleue	_	ADJ	_	_	16	amod	_	_
 18	.	_	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-dev_00218
@@ -5997,9 +5993,9 @@
 6-7	du	_	_	_	_	_	_	_	_
 6	de	_	ADP	_	_	8	case	_	_
 7	le	_	DET	_	_	8	det	_	_
-8	VLT	_	X	_	_	5	nmod	_	_
+8	VLT	_	NOUN	_	_	5	nmod	_	_
 9	,	_	PUNCT	_	_	2	punct	_	_
-10	UVES	_	X	_	_	13	nsubjpass	_	_
+10	UVES	_	NOUN	_	_	13	nsubjpass	_	_
 11	peut	_	AUX	_	_	13	aux	_	_
 12	être	_	AUX	_	_	13	auxpass	_	_
 13	utilisé	_	VERB	_	_	0	root	_	_
@@ -6140,7 +6136,7 @@
 10	a	_	AUX	_	_	11	aux	_	_
 11	convaincu	_	VERB	_	_	0	root	_	_
 12	les	_	DET	_	_	13	det	_	_
-13	CFF	_	X	_	_	11	dobj	_	_
+13	CFF	_	NOUN	_	_	11	dobj	_	_
 14	de	_	ADP	_	_	16	case	_	_
 15	s'	_	PRON	_	_	16	dobj	_	_
 16	équiper	_	VERB	_	_	11	acl	_	_
@@ -6272,12 +6268,12 @@
 7	de	_	ADP	_	_	8	case	_	_
 8	son	_	NOUN	_	_	6	nmod	_	_
 9	(	_	PUNCT	_	_	15	punct	_	_
-10	Academy	_	PROPN	_	_	15	name	_	_
-11	Award	_	PROPN	_	_	15	name	_	_
-12	for	_	X	_	_	15	compound	_	_
-13	Best	_	PROPN	_	_	15	name	_	_
-14	Sound	_	PROPN	_	_	15	name	_	_
-15	Mixing	_	PROPN	_	_	2	appos	_	_
+10	Academy	_	NOUN	_	_	11	compound	_	_
+11	Award	_	NOUN	_	_	2	appos	_	_
+12	for	_	ADP	_	_	15	case	_	_
+13	Best	_	ADJ	_	_	15	amod	_	_
+14	Sound	_	NOUN	_	_	15	compound	_	_
+15	Mixing	_	NOUN	_	_	2	nmod	_	_
 16	)	_	PUNCT	_	_	15	punct	_	_
 17	est	_	VERB	_	_	19	cop	_	_
 18	une	_	DET	_	_	19	det	_	_
@@ -6306,15 +6302,15 @@
 41	)	_	PUNCT	_	_	37	punct	_	_
 42	par	_	ADP	_	_	50	case	_	_
 43	l'	_	DET	_	_	50	det	_	_
-44	Academy	_	PROPN	_	_	50	name	_	_
-45	of	_	X	_	_	50	compound	_	_
-46	Motion	_	PROPN	_	_	50	name	_	_
-47	Picture	_	PROPN	_	_	50	name	_	_
-48	Arts	_	PROPN	_	_	50	name	_	_
-49	and	_	X	_	_	50	compound	_	_
-50	Sciences	_	PROPN	_	_	22	nmod	_	_
+44	Academy	_	NOUN	_	_	22	nmod	_	_
+45	of	_	ADP	_	_	48	case	_	_
+46	Motion	_	NOUN	_	_	47	compound	_	_
+47	Picture	_	NOUN	_	_	48	compound	_	_
+48	Arts	_	NOUN	_	_	44	nmod	_	_
+49	and	_	CONJ	_	_	48	cc	_	_
+50	Sciences	_	NOUN	_	_	48	conj	_	_
 51	(	_	PUNCT	_	_	52	punct	_	_
-52	AMPAS	_	X	_	_	50	appos	_	_
+52	AMPAS	_	PROPN	_	_	50	appos	_	_
 53	)	_	PUNCT	_	_	52	punct	_	_
 54	,	_	PUNCT	_	_	50	punct	_	_
 55	laquelle	_	PRON	_	_	56	nsubj	_	_
@@ -6970,32 +6966,32 @@
 1	Les	_	DET	_	_	2	det	_	_
 2	écartes	_	NOUN	_	_	3	nsubj	_	_
 3	incluent	_	VERB	_	_	0	root	_	_
-4	Le	_	PROPN	_	_	5	det	_	_
+4	Le	_	DET	_	_	5	det	_	_
 5	Coudray	_	PROPN	_	_	3	dobj	_	_
 6	(	_	PUNCT	_	_	7	punct	_	_
 7	ferme	_	NOUN	_	_	5	appos	_	_
 8	)	_	PUNCT	_	_	7	punct	_	_
 9	,	_	PUNCT	_	_	5	punct	_	_
-10	Les	_	PROPN	_	_	11	det	_	_
-11	Cent	_	PROPN	_	_	5	conj	_	_
-12	Arpents	_	PROPN	_	_	11	name	_	_
+10	Les	_	DET	_	_	11	det	_	_
+11	Cent	_	NUM	_	_	2	nummod	_	_
+12	Arpents	_	NOUN	_	_	5	conj	_	_
 13	(	_	PUNCT	_	_	14	punct	_	_
 14	ferme	_	NOUN	_	_	11	appos	_	_
 15	)	_	PUNCT	_	_	14	punct	_	_
 16	,	_	PUNCT	_	_	5	punct	_	_
-17	Le	_	PROPN	_	_	19	det	_	_
-18	Petit	_	PROPN	_	_	19	amod	_	_
-19	Moulin	_	PROPN	_	_	5	conj	_	_
+17	Le	_	DET	_	_	19	det	_	_
+18	Petit	_	ADJ	_	_	19	amod	_	_
+19	Moulin	_	NOUN	_	_	5	conj	_	_
 20	(	_	PUNCT	_	_	22	punct	_	_
 21	ancien	_	ADJ	_	_	22	amod	_	_
-22	moulin	_	PROPN	_	_	19	appos	_	_
+22	moulin	_	NOUN	_	_	19	appos	_	_
 23	)	_	PUNCT	_	_	22	punct	_	_
 24	et	_	CONJ	_	_	5	cc	_	_
-25	Les	_	PROPN	_	_	26	det	_	_
+25	Les	_	DET	_	_	26	det	_	_
 26	Moines	_	NOUN	_	_	5	conj	_	_
 27	(	_	PUNCT	_	_	29	punct	_	_
 28	ancien	_	ADJ	_	_	29	amod	_	_
-29	Moulin	_	PROPN	_	_	26	appos	_	_
+29	Moulin	_	NOUN	_	_	26	appos	_	_
 30	)	_	PUNCT	_	_	29	punct	_	_
 31	.	_	PUNCT	_	_	3	punct	_	_
 
@@ -7468,8 +7464,8 @@
 13	l'	_	DET	_	_	14	det	_	_
 14	initiative	_	NOUN	_	_	8	nmod	_	_
 15	de	_	ADP	_	_	17	case	_	_
-16	V.	_	X	_	_	17	compound	_	_
-17	Prebeg	_	PROPN	_	_	14	nmod	_	_
+16	V.	_	PROPN	_	_	14	nmod	_	_
+17	Prebeg	_	PROPN	_	_	16	name	_	_
 18	,	_	PUNCT	_	_	17	punct	_	_
 19	président	_	NOUN	_	_	17	appos	_	_
 20-21	du	_	_	_	_	_	_	_	_
@@ -8102,7 +8098,7 @@
 8	eux	_	PRON	_	_	6	nmod	_	_
 9	,	_	PUNCT	_	_	12	punct	_	_
 10	le	_	DET	_	_	11	det	_	_
-11	M10	_	X	_	_	12	nsubj	_	_
+11	M10	_	NOUN	_	_	12	nsubj	_	_
 12	prit	_	VERB	_	_	0	root	_	_
 13	le	_	DET	_	_	14	det	_	_
 14	nom	_	NOUN	_	_	12	dobj	_	_
@@ -8723,7 +8719,7 @@
 20	facilement	_	ADV	_	_	21	advmod	_	_
 21	compréhensible	_	ADJ	_	_	18	conj	_	_
 22	,	_	PUNCT	_	_	17	punct	_	_
-23	vis-à-vis	_	X	_	_	26	case	_	_
+23	vis-à-vis	_	ADP	_	_	26	case	_	_
 24	de	_	ADP	_	_	26	case	_	_
 25	l'	_	DET	_	_	26	det	_	_
 26	appareillage	_	NOUN	_	_	17	nmod	_	_
@@ -8930,9 +8926,9 @@
 9	septembre	_	NOUN	_	_	6	nmod	_	_
 10	1893	_	NUM	_	_	9	nmod	_	_
 11	à	_	ADP	_	_	14	case	_	_
-12	Osterode	_	PROPN	_	_	14	name	_	_
-13	am	_	X	_	_	14	compound	_	_
-14	Harz	_	PROPN	_	_	6	nmod	_	_
+12	Osterode	_	PROPN	_	_	6	nmod	_	_
+13	am	_	X	_	_	12	name	_	_
+14	Harz	_	PROPN	_	_	12	name	_	_
 15	et	_	CONJ	_	_	6	cc	_	_
 16	décédé	_	VERB	_	_	6	conj	_	_
 17	le	_	DET	_	_	19	det	_	_
@@ -9305,7 +9301,7 @@
 5	mission	_	NOUN	_	_	0	root	_	_
 6	de	_	ADP	_	_	8	case	_	_
 7	la	_	DET	_	_	8	det	_	_
-8	Navette	_	PROPN	_	_	5	nmod	_	_
+8	Navette	_	NOUN	_	_	5	nmod	_	_
 9	spatiale	_	ADJ	_	_	8	amod	_	_
 10	Atlantis	_	PROPN	_	_	8	appos	_	_
 11	et	_	CONJ	_	_	5	cc	_	_
@@ -9314,11 +9310,11 @@
 14	mission	_	NOUN	_	_	5	conj	_	_
 15	vers	_	ADP	_	_	17	case	_	_
 16	la	_	DET	_	_	17	det	_	_
-17	Station	_	PROPN	_	_	14	nmod	_	_
+17	Station	_	NOUN	_	_	14	nmod	_	_
 18	spatiale	_	ADJ	_	_	17	amod	_	_
 19	internationale	_	ADJ	_	_	17	amod	_	_
 20	(	_	PUNCT	_	_	21	punct	_	_
-21	ISS	_	X	_	_	17	appos	_	_
+21	ISS	_	PROPN	_	_	17	appos	_	_
 22	)	_	PUNCT	_	_	21	punct	_	_
 23	.	_	PUNCT	_	_	5	punct	_	_
 
@@ -9598,7 +9594,7 @@
 5	correspondant	_	VERB	_	_	2	acl	_	_
 6	à	_	ADP	_	_	8	case	_	_
 7	l'	_	DET	_	_	8	det	_	_
-8	IETF	_	X	_	_	5	nmod	_	_
+8	IETF	_	PROPN	_	_	5	nmod	_	_
 9	a	_	AUX	_	_	10	aux	_	_
 10	permis	_	VERB	_	_	0	root	_	_
 11	la	_	DET	_	_	12	det	_	_
@@ -9606,14 +9602,14 @@
 13-14	des	_	_	_	_	_	_	_	_
 13	de	_	ADP	_	_	15	case	_	_
 14	les	_	DET	_	_	15	det	_	_
-15	RFC	_	X	_	_	12	nmod	_	_
-16	2246	_	PROPN	_	_	15	nummod	_	_
+15	RFC	_	NOUN	_	_	12	nmod	_	_
+16	2246	_	NUM	_	_	15	nummod	_	_
 17	pour	_	ADP	_	_	19	case	_	_
 18	le	_	DET	_	_	19	det	_	_
-19	TLS	_	X	_	_	15	nmod	_	_
+19	TLS	_	NOUN	_	_	15	nmod	_	_
 20	et	_	CONJ	_	_	15	cc	_	_
-21	RFC	_	X	_	_	15	conj	_	_
-22	4347	_	PROPN	_	_	21	nummod	_	_
+21	RFC	_	NOUN	_	_	15	conj	_	_
+22	4347	_	NUM	_	_	21	nummod	_	_
 23	pour	_	ADP	_	_	25	case	_	_
 24	son	_	DET	_	_	25	nmod:poss	_	_
 25	équivalent	_	NOUN	_	_	21	nmod	_	_
@@ -9622,7 +9618,7 @@
 28	datagramme	_	NOUN	_	_	27	appos	_	_
 29	,	_	PUNCT	_	_	25	punct	_	_
 30	le	_	DET	_	_	31	det	_	_
-31	DTLS	_	X	_	_	25	appos	_	_
+31	DTLS	_	NOUN	_	_	25	appos	_	_
 32	.	_	PUNCT	_	_	10	punct	_	_
 
 # sentid: fr-ud-dev_00349
@@ -10053,10 +10049,10 @@
 10	les	_	DET	_	_	11	det	_	_
 11	urnes	_	NOUN	_	_	8	nmod	_	_
 12	de	_	ADP	_	_	13	case	_	_
-13	12H30	_	X	_	_	8	nmod	_	_
+13	12H30	_	NOUN	_	_	8	nmod	_	_
 14	GMT	_	X	_	_	13	compound	_	_
 15	à	_	ADP	_	_	16	case	_	_
-16	00H30	_	X	_	_	13	nmod	_	_
+16	00H30	_	NOUN	_	_	13	nmod	_	_
 17	GMT	_	X	_	_	16	compound	_	_
 18	dimanche	_	NOUN	_	_	8	nmod	_	_
 19	.	_	PUNCT	_	_	8	punct	_	_
@@ -10921,7 +10917,7 @@
 # sentid: fr-ud-dev_00397
 # sentence-text: A 14h25, je retourne le voir en salle et le remercie ironiquemmnt de nous avoir aidé si gentillement, mais qu'il ferait mieux de s'abstenir de promettre l'impossible.
 1	A	_	ADP	_	_	2	case	_	_
-2	14h25	_	X	_	_	5	nmod	_	_
+2	14h25	_	NOUN	_	_	5	nmod	_	_
 3	,	_	PUNCT	_	_	5	punct	_	_
 4	je	_	PRON	_	_	5	nsubj	_	_
 5	retourne	_	VERB	_	_	0	root	_	_
@@ -11285,8 +11281,8 @@
 10	et	_	CONJ	_	_	3	cc	_	_
 11	une	_	DET	_	_	12	det	_	_
 12	variante	_	NOUN	_	_	17	nsubjpass	_	_
-13	pick	_	NOUN	_	_	14	compound	_	_
-14	up	_	X	_	_	12	appos	_	_
+13	pick	_	NOUN	_	_	12	appos	_	_
+14	up	_	PART	_	_	13	compound	_	_
 15	a	_	AUX	_	_	17	aux	_	_
 16	été	_	AUX	_	_	17	auxpass	_	_
 17	fournie	_	VERB	_	_	3	conj	_	_
@@ -11411,7 +11407,7 @@
 9-10	du	_	_	_	_	_	_	_	_
 9	de	_	ADP	_	_	11	case	_	_
 10	le	_	DET	_	_	11	det	_	_
-11	KLM	_	X	_	_	6	nmod	_	_
+11	KLM	_	PROPN	_	_	6	nmod	_	_
 12	a	_	AUX	_	_	13	aux	_	_
 13	exprimé	_	VERB	_	_	0	root	_	_
 14	son	_	DET	_	_	15	nmod:poss	_	_
@@ -11583,9 +11579,9 @@
 23	d'	_	ADP	_	_	24	case	_	_
 24	honneur	_	NOUN	_	_	22	nmod	_	_
 25	,	_	PUNCT	_	_	22	punct	_	_
-26	Luise	_	PROPN	_	_	28	name	_	_
-27	von	_	X	_	_	28	compound	_	_
-28	Göchhausen	_	PROPN	_	_	22	appos	_	_
+26	Luise	_	PROPN	_	_	22	appos	_	_
+27	von	_	ADP	_	_	28	case	_	_
+28	Göchhausen	_	PROPN	_	_	26	name	_	_
 29	(	_	PUNCT	_	_	30	punct	_	_
 30	1752-1807	_	NUM	_	_	28	nmod	_	_
 31	)	_	PUNCT	_	_	30	punct	_	_
@@ -11649,9 +11645,9 @@
 7	de	_	ADP	_	_	8	case	_	_
 8	Suède	_	PROPN	_	_	6	nmod	_	_
 9	de	_	ADP	_	_	12	case	_	_
-10	roller	_	NOUN	_	_	12	compound	_	_
-11	in	_	X	_	_	12	compound	_	_
-12	line	_	NOUN	_	_	6	nmod	_	_
+10	roller	_	NOUN	_	_	6	nmod	_	_
+11	in	_	ADP	_	_	12	case	_	_
+12	line	_	NOUN	_	_	10	nmod	_	_
 13	.	_	PUNCT	_	_	3	punct	_	_
 
 # sentid: fr-ud-dev_00423
@@ -11715,9 +11711,9 @@
 12	2008	_	NUM	_	_	10	nmod	_	_
 13	avec	_	ADP	_	_	17	case	_	_
 14	les	_	DET	_	_	17	det	_	_
-15	Ak	_	X	_	_	17	compound	_	_
-16	Bars	_	X	_	_	17	compound	_	_
-17	Kazan	_	X	_	_	10	nmod	_	_
+15	Ak	_	X	_	_	10	nmod	_	_
+16	Bars	_	X	_	_	15	name	_	_
+17	Kazan	_	X	_	_	15	name	_	_
 18	.	_	PUNCT	_	_	3	punct	_	_
 
 # sentid: fr-ud-dev_00426
@@ -13768,16 +13764,16 @@
 7	la	_	DET	_	_	8	det	_	_
 8	réalisatrice	_	NOUN	_	_	5	nmod	_	_
 9	:	_	PUNCT	_	_	5	punct	_	_
-10	Border-line	_	X	_	_	5	appos	_	_
+10	Border-line	_	NOUN	_	_	5	appos	_	_
 11	,	_	PUNCT	_	_	10	punct	_	_
-12	Le	_	PROPN	_	_	13	det	_	_
+12	Le	_	DET	_	_	13	det	_	_
 13	journal	_	NOUN	_	_	10	conj	_	_
 14-15	du	_	_	_	_	_	_	_	_
 14	de	_	ADP	_	_	16	case	_	_
 15	le	_	DET	_	_	16	det	_	_
 16	séducteur	_	NOUN	_	_	13	nmod	_	_
 17	et	_	CONJ	_	_	10	cc	_	_
-18	L'	_	PROPN	_	_	19	det	_	_
+18	L'	_	DET	_	_	19	det	_	_
 19	examen	_	NOUN	_	_	10	conj	_	_
 20	de	_	ADP	_	_	21	case	_	_
 21	minuit	_	NOUN	_	_	19	nmod	_	_
@@ -14886,10 +14882,10 @@
 20	de	_	ADP	_	_	22	case	_	_
 21	les	_	DET	_	_	22	det	_	_
 22	vaisseaux	_	NOUN	_	_	19	nmod	_	_
-23	L'	_	PROPN	_	_	24	det	_	_
+23	L'	_	DET	_	_	24	det	_	_
 24	Ardent	_	PROPN	_	_	22	appos	_	_
 25	et	_	CONJ	_	_	24	cc	_	_
-26	Le	_	PROPN	_	_	27	det	_	_
+26	Le	_	DET	_	_	27	det	_	_
 27	Vermandois	_	PROPN	_	_	24	conj	_	_
 28	.	_	PUNCT	_	_	8	punct	_	_
 
@@ -17351,16 +17347,16 @@
 1	En	_	ADP	_	_	2	case	_	_
 2	effet	_	NOUN	_	_	7	nmod	_	_
 3	Emma	_	PROPN	_	_	7	nsubj	_	_
-4	de	_	PROPN	_	_	5	case	_	_
-5	Rouillé	_	PROPN	_	_	3	nmod	_	_
+4	de	_	ADP	_	_	5	case	_	_
+5	Rouillé	_	PROPN	_	_	3	name	_	_
 6	avait	_	AUX	_	_	7	aux	_	_
 7	épousé	_	VERB	_	_	0	root	_	_
 8	le	_	DET	_	_	9	det	_	_
 9	comte	_	NOUN	_	_	7	dobj	_	_
-10	de	_	PROPN	_	_	12	case	_	_
-11	la	_	PROPN	_	_	12	det	_	_
-12	Barre	_	PROPN	_	_	9	nmod	_	_
-13	d'	_	PROPN	_	_	14	case	_	_
+10	de	_	ADP	_	_	12	case	_	_
+11	la	_	DET	_	_	12	det	_	_
+12	Barre	_	NOUN	_	_	9	nmod	_	_
+13	d'	_	ADP	_	_	14	case	_	_
 14	Erquelinnes	_	PROPN	_	_	12	nmod	_	_
 15	,	_	PUNCT	_	_	9	punct	_	_
 16	propriétaire	_	NOUN	_	_	9	appos	_	_
@@ -18507,7 +18503,7 @@
 12	mentor	_	NOUN	_	_	8	nmod	_	_
 13	Alain	_	PROPN	_	_	12	appos	_	_
 14	Senderens	_	PROPN	_	_	13	name	_	_
-15	L'	_	PROPN	_	_	13	name	_	_
+15	L'	_	DET	_	_	13	name	_	_
 16	Archestrate	_	PROPN	_	_	13	name	_	_
 17	(	_	PUNCT	_	_	19	punct	_	_
 18	trois	_	NUM	_	_	19	nummod	_	_
@@ -18517,7 +18513,7 @@
 22	et	_	CONJ	_	_	6	cc	_	_
 23	le	_	PRON	_	_	26	nsubj	_	_
 24	rebaptise	_	VERB	_	_	6	conj	_	_
-25	L'	_	PROPN	_	_	26	det	_	_
+25	L'	_	DET	_	_	26	det	_	_
 26	Arpège	_	PROPN	_	_	24	xcomp	_	_
 27	.	_	PUNCT	_	_	6	punct	_	_
 
@@ -18951,10 +18947,10 @@
 13	1969	_	NUM	_	_	9	nmod	_	_
 14	)	_	PUNCT	_	_	13	punct	_	_
 15	,	_	PUNCT	_	_	9	punct	_	_
-16	Maison	_	PROPN	_	_	9	conj	_	_
-17	de	_	PROPN	_	_	19	case	_	_
-18	la	_	PROPN	_	_	19	det	_	_
-19	Radio	_	PROPN	_	_	16	nmod	_	_
+16	Maison	_	NOUN	_	_	9	conj	_	_
+17	de	_	ADP	_	_	19	case	_	_
+18	la	_	DET	_	_	19	det	_	_
+19	Radio	_	NOUN	_	_	16	nmod	_	_
 20	de	_	ADP	_	_	21	case	_	_
 21	Bordeaux	_	PROPN	_	_	16	nmod	_	_
 22	(	_	PUNCT	_	_	23	punct	_	_
@@ -18984,11 +18980,11 @@
 45	aussi	_	ADV	_	_	46	advmod	_	_
 46	collectives	_	ADJ	_	_	7	conj	_	_
 47	(	_	PUNCT	_	_	48	punct	_	_
-48	Salon	_	PROPN	_	_	46	appos	_	_
-49	de	_	PROPN	_	_	51	case	_	_
+48	Salon	_	NOUN	_	_	46	appos	_	_
+49	de	_	ADP	_	_	51	case	_	_
 50	l'	_	DET	_	_	51	det	_	_
-51	École	_	PROPN	_	_	48	nmod	_	_
-52	Française	_	PROPN	_	_	51	name	_	_
+51	École	_	NOUN	_	_	48	nmod	_	_
+52	Française	_	ADJ	_	_	51	amod	_	_
 53-54	au	_	_	_	_	_	_	_	_
 53	à	_	ADP	_	_	55	case	_	_
 54	le	_	DET	_	_	55	det	_	_
@@ -19005,9 +19001,9 @@
 65	1969	_	NUM	_	_	48	nmod	_	_
 66	)	_	PUNCT	_	_	65	punct	_	_
 67	,	_	PUNCT	_	_	48	punct	_	_
-68	Salon	_	PROPN	_	_	48	conj	_	_
-69	de	_	PROPN	_	_	70	case	_	_
-70	Mai	_	PROPN	_	_	68	nmod	_	_
+68	Salon	_	NOUN	_	_	48	conj	_	_
+69	de	_	ADP	_	_	70	case	_	_
+70	Mai	_	NOUN	_	_	68	nmod	_	_
 71	(	_	PUNCT	_	_	72	punct	_	_
 72	1975	_	NUM	_	_	68	nmod	_	_
 73	)	_	PUNCT	_	_	72	punct	_	_
@@ -23727,14 +23723,14 @@
 8	aménagé	_	VERB	_	_	7	acl	_	_
 9	sur	_	ADP	_	_	11	case	_	_
 10	l'	_	DET	_	_	11	det	_	_
-11	oued	_	PROPN	_	_	8	nmod	_	_
-12	Za	_	X	_	_	11	appos	_	_
+11	oued	_	NOUN	_	_	8	nmod	_	_
+12	Za	_	PROPN	_	_	11	appos	_	_
 13	,	_	PUNCT	_	_	8	punct	_	_
 14	dans	_	ADP	_	_	16	case	_	_
 15	la	_	DET	_	_	16	det	_	_
 16	région	_	NOUN	_	_	8	nmod	_	_
 17	de	_	ADP	_	_	19	case	_	_
-18	L'	_	PROPN	_	_	19	det	_	_
+18	L'	_	DET	_	_	19	det	_	_
 19	Oriental	_	PROPN	_	_	16	nmod	_	_
 20	,	_	PUNCT	_	_	8	punct	_	_
 21-22	au	_	_	_	_	_	_	_	_
@@ -27288,8 +27284,8 @@
 5	son	_	DET	_	_	6	nmod:poss	_	_
 6	rôle	_	NOUN	_	_	11	nmod	_	_
 7	dans	_	ADP	_	_	9	case	_	_
-8	Le	_	PROPN	_	_	9	det	_	_
-9	Caméléon	_	PROPN	_	_	6	nmod	_	_
+8	Le	_	DET	_	_	9	det	_	_
+9	Caméléon	_	NOUN	_	_	6	nmod	_	_
 10	il	_	PRON	_	_	11	nsubj	_	_
 11	obtient	_	VERB	_	_	0	root	_	_
 12	de	_	DET	_	_	14	det	_	_
@@ -27297,11 +27293,11 @@
 14	rôles	_	NOUN	_	_	11	nmod	_	_
 15	dans	_	ADP	_	_	17	case	_	_
 16	Le	_	DET	_	_	17	det	_	_
-17	Manipulateur	_	PROPN	_	_	11	nmod	_	_
+17	Manipulateur	_	NOUN	_	_	11	nmod	_	_
 18	et	_	CONJ	_	_	17	cc	_	_
 19	L'	_	DET	_	_	20	det	_	_
 20	amour	_	NOUN	_	_	17	conj	_	_
-21	égaré	_	VERB	_	_	20	acl	_	_
+21	égaré	_	VERB	_	_	20	amod	_	_
 22	.	_	PUNCT	_	_	11	punct	_	_
 
 # sentid: fr-ud-dev_00993
@@ -27423,9 +27419,9 @@
 5	fut	_	AUX	_	_	7	auxpass	_	_
 6	notamment	_	ADV	_	_	7	advmod	_	_
 7	visitée	_	VERB	_	_	0	root	_	_
-8	par	_	ADP	_	_	7	case	_	_
-9	Le	_	PROPN	_	_	10	det	_	_
-10	Corbusier	_	PROPN	_	_	8	case	_	_
+8	par	_	ADP	_	_	10	case	_	_
+9	Le	_	DET	_	_	10	det	_	_
+10	Corbusier	_	PROPN	_	_	7	nmod	_	_
 11	,	_	PUNCT	_	_	7	punct	_	_
 12	il	_	PRON	_	_	13	nsubj	_	_
 13	apprécia	_	VERB	_	_	7	conj	_	_
@@ -28309,7 +28305,7 @@
 25	le	_	DET	_	_	26	det	_	_
 26	grison	_	NOUN	_	_	23	nmod	_	_
 27	Richard	_	PROPN	_	_	29	name	_	_
-28	La	_	PROPN	_	_	29	det	_	_
+28	La	_	DET	_	_	29	det	_	_
 29	Nicca	_	PROPN	_	_	26	appos	_	_
 30	de	_	INTJ	_	_	31	case	_	_
 31	détourner	_	VERB	_	_	23	acl	_	_
@@ -34181,7 +34177,7 @@
 12	la	_	DET	_	_	13	det	_	_
 13	commune	_	NOUN	_	_	10	nmod	_	_
 14	de	_	ADP	_	_	16	case	_	_
-15	La	_	PROPN	_	_	16	det	_	_
+15	La	_	DET	_	_	16	det	_	_
 16	Tour-de-Salvagny	_	PROPN	_	_	13	nmod	_	_
 17	,	_	PUNCT	_	_	10	punct	_	_
 18	à	_	ADP	_	_	19	case	_	_
@@ -34190,10 +34186,10 @@
 21-22	du	_	_	_	_	_	_	_	_
 21	de	_	ADP	_	_	23	case	_	_
 22	le	_	DET	_	_	23	det	_	_
-23	Casino	_	PROPN	_	_	19	nmod	_	_
+23	Casino	_	NOUN	_	_	19	nmod	_	_
 24	le	_	DET	_	_	25	det	_	_
 25	Lyon	_	PROPN	_	_	23	appos	_	_
-26	Vert	_	PROPN	_	_	25	amod	_	_
+26	Vert	_	ADJ	_	_	25	amod	_	_
 27	,	_	PUNCT	_	_	10	punct	_	_
 28	dans	_	ADP	_	_	30	case	_	_
 29	le	_	DET	_	_	30	det	_	_
@@ -34728,7 +34724,7 @@
 7	septembre	_	NOUN	_	_	4	nmod	_	_
 8	1944	_	NUM	_	_	7	nmod	_	_
 9	à	_	ADP	_	_	11	case	_	_
-10	La	_	PROPN	_	_	11	det	_	_
+10	La	_	DET	_	_	11	det	_	_
 11	Bresse	_	PROPN	_	_	4	nmod	_	_
 12	et	_	CONJ	_	_	4	cc	_	_
 13	mort	_	VERB	_	_	4	conj	_	_
@@ -37198,13 +37194,13 @@
 30	,	_	PUNCT	_	_	6	punct	_	_
 31	parmi	_	ADP	_	_	32	case	_	_
 32	lesquels	_	PRON	_	_	26	nmod	_	_
-33	Les	_	PROPN	_	_	34	det	_	_
-34	Temps	_	PROPN	_	_	32	appos	_	_
+33	Les	_	DET	_	_	34	det	_	_
+34	Temps	_	NOUN	_	_	32	appos	_	_
 35	nouveaux	_	PROPN	_	_	34	amod	_	_
 36	,	_	PUNCT	_	_	34	punct	_	_
-37	La	_	PROPN	_	_	38	det	_	_
-38	Guerre	_	PROPN	_	_	34	conj	_	_
-39	sociale	_	PROPN	_	_	38	amod	_	_
+37	La	_	DET	_	_	38	det	_	_
+38	Guerre	_	NOUN	_	_	34	conj	_	_
+39	sociale	_	ADJ	_	_	38	amod	_	_
 40	et	_	CONJ	_	_	34	cc	_	_
 41	les	_	DET	_	_	42	det	_	_
 42	Hommes	_	PROPN	_	_	34	conj	_	_
@@ -37329,8 +37325,8 @@
 11	ses	_	DET	_	_	12	nmod:poss	_	_
 12	parents	_	NOUN	_	_	9	nmod	_	_
 13	à	_	ADP	_	_	15	case	_	_
-14	Los	_	PROPN	_	_	15	det	_	_
-15	Angeles	_	PROPN	_	_	9	nmod	_	_
+14	Los	_	PROPN	_	_	9	nmod	_	_
+15	Angeles	_	PROPN	_	_	14	name	_	_
 16	en	_	ADP	_	_	17	case	_	_
 17	Californie	_	PROPN	_	_	9	nmod	_	_
 18	.	_	PUNCT	_	_	9	punct	_	_
@@ -39845,9 +39841,9 @@
 1	Dans	_	ADP	_	_	3	case	_	_
 2	son	_	DET	_	_	3	nmod:poss	_	_
 3	livre	_	NOUN	_	_	13	nmod	_	_
-4	Les	_	PROPN	_	_	5	det	_	_
-5	Bras	_	PROPN	_	_	3	appos	_	_
-6	ouverts	_	PROPN	_	_	5	amod	_	_
+4	Les	_	DET	_	_	5	det	_	_
+5	Bras	_	NOUN	_	_	3	appos	_	_
+6	ouverts	_	ADJ	_	_	5	amod	_	_
 7	,	_	PUNCT	_	_	13	punct	_	_
 8	publié	_	VERB	_	_	3	acl	_	_
 9	en	_	ADP	_	_	10	case	_	_
@@ -41230,8 +41226,8 @@
 26	une	_	DET	_	_	27	det	_	_
 27	leucémie	_	NOUN	_	_	24	nmod	_	_
 28	à	_	ADP	_	_	30	case	_	_
-29	Los	_	PROPN	_	_	30	det	_	_
-30	Angeles	_	PROPN	_	_	24	nmod	_	_
+29	Los	_	PROPN	_	_	24	nmod	_	_
+30	Angeles	_	PROPN	_	_	29	name	_	_
 31	(	_	PUNCT	_	_	32	punct	_	_
 32	Californie	_	PROPN	_	_	30	appos	_	_
 33	)	_	PUNCT	_	_	32	punct	_	_
@@ -44117,7 +44113,7 @@
 19	fait	_	VERB	_	_	0	root	_	_
 20	référence	_	NOUN	_	_	19	dobj	_	_
 21	à	_	ADP	_	_	23	case	_	_
-22	L'	_	PROPN	_	_	23	det	_	_
+22	L'	_	DET	_	_	23	det	_	_
 23	Antéchrist	_	PROPN	_	_	20	nmod	_	_
 24	de	_	ADP	_	_	25	case	_	_
 25	Nietzsche	_	PROPN	_	_	23	nmod	_	_
@@ -44280,9 +44276,9 @@
 7	l'	_	DET	_	_	8	det	_	_
 8	hebdomadaire	_	NOUN	_	_	5	nmod	_	_
 9	francophone	_	ADJ	_	_	8	amod	_	_
-10	Le	_	PROPN	_	_	11	det	_	_
-11	Journal	_	PROPN	_	_	8	appos	_	_
-12	Hebdomadaire	_	PROPN	_	_	11	amod	_	_
+10	Le	_	DET	_	_	11	det	_	_
+11	Journal	_	NOUN	_	_	8	appos	_	_
+12	Hebdomadaire	_	ADJ	_	_	11	amod	_	_
 13	et	_	CONJ	_	_	8	cc	_	_
 14	son	_	DET	_	_	15	nmod:poss	_	_
 15	confrère	_	NOUN	_	_	8	conj	_	_

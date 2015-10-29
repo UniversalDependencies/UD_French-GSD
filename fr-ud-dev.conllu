@@ -104,9 +104,9 @@
 4	grande	_	ADJ	_	_	5	amod	_	_
 5	qualité	_	NOUN	_	_	1	nmod	_	_
 6	exécuté	_	VERB	_	_	1	acl	_	_
-7	par	_	ADP	_	_	6	case	_	_
+7	par	_	ADP	_	_	9	case	_	_
 8	un	_	DET	_	_	9	det	_	_
-9	imprimeur	_	NOUN	_	_	7	case	_	_
+9	imprimeur	_	NOUN	_	_	6	nmod	_	_
 10	artisan	_	NOUN	_	_	9	compound	_	_
 11	passionné	_	ADJ	_	_	9	amod	_	_
 12	.	_	PUNCT	_	_	1	punct	_	_
@@ -407,9 +407,9 @@
 18	avait	_	AUX	_	_	20	aux	_	_
 19	été	_	AUX	_	_	20	auxpass	_	_
 20	réélu	_	VERB	_	_	15	acl:relcl	_	_
-21	par	_	ADP	_	_	20	case	_	_
+21	par	_	ADP	_	_	23	case	_	_
 22	ce	_	DET	_	_	23	det	_	_
-23	point	_	NOUN	_	_	21	case	_	_
+23	point	_	NOUN	_	_	20	nmod	_	_
 24	)	_	PUNCT	_	_	20	punct	_	_
 25	a	_	AUX	_	_	26	aux	_	_
 26	rapporté	_	VERB	_	_	0	root	_	_
@@ -672,9 +672,9 @@
 22	de	_	ADP	_	_	23	case	_	_
 23	Raspoutine	_	PROPN	_	_	21	nmod	_	_
 24	défoncé	_	VERB	_	_	21	acl	_	_
-25	par	_	ADP	_	_	24	case	_	_
+25	par	_	ADP	_	_	27	case	_	_
 26	des	_	DET	_	_	27	det	_	_
-27	coups	_	NOUN	_	_	25	case	_	_
+27	coups	_	NOUN	_	_	24	nmod	_	_
 28	et	_	CONJ	_	_	21	cc	_	_
 29	son	_	DET	_	_	30	nmod:poss	_	_
 30	corps	_	NOUN	_	_	21	conj	_	_
@@ -942,9 +942,9 @@
 6	faible	_	ADJ	_	_	7	amod	_	_
 7	poussée	_	NOUN	_	_	3	nmod	_	_
 8	exercée	_	VERB	_	_	7	acl	_	_
-9	par	_	ADP	_	_	8	case	_	_
+9	par	_	ADP	_	_	11	case	_	_
 10	la	_	DET	_	_	11	det	_	_
-11	restitution	_	NOUN	_	_	9	case	_	_
+11	restitution	_	NOUN	_	_	8	nmod	_	_
 12	sous	_	ADP	_	_	13	case	_	_
 13	forme	_	NOUN	_	_	11	nmod	_	_
 14	de	_	ADP	_	_	15	case	_	_
@@ -1344,9 +1344,9 @@
 2	détroit	_	NOUN	_	_	4	nsubjpass	_	_
 3	est	_	AUX	_	_	4	auxpass	_	_
 4	traversé	_	VERB	_	_	0	root	_	_
-5	par	_	ADP	_	_	4	case	_	_
+5	par	_	ADP	_	_	7	case	_	_
 6	deux	_	NUM	_	_	7	nummod	_	_
-7	ponts	_	NOUN	_	_	5	case	_	_
+7	ponts	_	NOUN	_	_	4	nmod	_	_
 8	routiers	_	ADJ	_	_	7	amod	_	_
 9	:	_	PUNCT	_	_	7	punct	_	_
 10	le	_	DET	_	_	11	det	_	_
@@ -1367,9 +1367,9 @@
 25	Martinez	_	PROPN	_	_	26	name	_	_
 26	Bridge	_	PROPN	_	_	11	conj	_	_
 27	emprunté	_	VERB	_	_	26	acl	_	_
-28	par	_	ADP	_	_	27	case	_	_
+28	par	_	ADP	_	_	30	case	_	_
 29	l'	_	DET	_	_	30	det	_	_
-30	Interstate	_	PROPN	_	_	28	case	_	_
+30	Interstate	_	PROPN	_	_	27	nmod	_	_
 31	680	_	NUM	_	_	30	nummod	_	_
 32	.	_	PUNCT	_	_	4	punct	_	_
 
@@ -1701,15 +1701,15 @@
 2	enquête	_	NOUN	_	_	17	nsubj	_	_
 3	,	_	PUNCT	_	_	17	punct	_	_
 4	menée	_	VERB	_	_	2	acl	_	_
-5	par	_	ADP	_	_	4	case	_	_
+5	par	_	ADP	_	_	7	case	_	_
 6	une	_	DET	_	_	7	det	_	_
-7	équipe	_	NOUN	_	_	5	case	_	_
+7	équipe	_	NOUN	_	_	4	nmod	_	_
 8	de	_	ADP	_	_	9	case	_	_
 9	chercheurs	_	NOUN	_	_	7	nmod	_	_
 10	conduite	_	VERB	_	_	7	acl	_	_
-11	par	_	ADP	_	_	10	case	_	_
+11	par	_	ADP	_	_	13	case	_	_
 12	le	_	DET	_	_	13	det	_	_
-13	politologue	_	NOUN	_	_	11	case	_	_
+13	politologue	_	NOUN	_	_	10	nmod	_	_
 14	Gilles	_	PROPN	_	_	13	appos	_	_
 15	Kepel	_	PROPN	_	_	14	name	_	_
 16	,	_	PUNCT	_	_	17	punct	_	_
@@ -1744,9 +1744,9 @@
 17	été	_	AUX	_	_	19	auxpass	_	_
 18	également	_	ADV	_	_	19	advmod	_	_
 19	entrainé	_	VERB	_	_	4	conj	_	_
-20	par	_	ADP	_	_	19	case	_	_
+20	par	_	ADP	_	_	22	case	_	_
 21	ce	_	DET	_	_	22	det	_	_
-22	dernier	_	NOUN	_	_	20	case	_	_
+22	dernier	_	NOUN	_	_	19	nmod	_	_
 23	.	_	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-dev_00066
@@ -2344,9 +2344,9 @@
 23	(	_	PUNCT	_	_	24	punct	_	_
 24	soutenu	_	VERB	_	_	21	acl	_	_
 25	notamment	_	ADV	_	_	24	advmod	_	_
-26	par	_	ADP	_	_	24	case	_	_
+26	par	_	ADP	_	_	28	case	_	_
 27	le	_	DET	_	_	28	det	_	_
-28	sénateur	_	NOUN	_	_	26	case	_	_
+28	sénateur	_	NOUN	_	_	24	nmod	_	_
 29	John	_	PROPN	_	_	28	appos	_	_
 30	McCain	_	PROPN	_	_	29	name	_	_
 31	de	_	ADP	_	_	33	case	_	_
@@ -2377,9 +2377,9 @@
 55	sénateur	_	NOUN	_	_	50	conj	_	_
 56	,	_	PUNCT	_	_	50	punct	_	_
 57	soutenu	_	VERB	_	_	50	acl	_	_
-58	par	_	ADP	_	_	57	case	_	_
+58	par	_	ADP	_	_	60	case	_	_
 59	la	_	DET	_	_	60	det	_	_
-60	branche	_	NOUN	_	_	58	case	_	_
+60	branche	_	NOUN	_	_	57	nmod	_	_
 61	modérée	_	ADJ	_	_	60	amod	_	_
 62	et	_	CONJ	_	_	61	cc	_	_
 63	progressiste	_	ADJ	_	_	61	conj	_	_
@@ -2914,8 +2914,8 @@
 15	données	_	NOUN	_	_	13	nmod	_	_
 16	originellement	_	ADV	_	_	17	advmod	_	_
 17	compilée	_	VERB	_	_	13	acl	_	_
-18	par	_	ADP	_	_	17	case	_	_
-19	Victor	_	PROPN	_	_	18	case	_	_
+18	par	_	ADP	_	_	19	case	_	_
+19	Victor	_	PROPN	_	_	17	nmod	_	_
 20	A.	_	PROPN	_	_	19	name	_	_
 21	McKusick	_	PROPN	_	_	19	name	_	_
 22	,	_	PUNCT	_	_	13	punct	_	_
@@ -3369,9 +3369,9 @@
 16	cycle	_	NOUN	_	_	5	dobj	_	_
 17	4-temps	_	NOUN	_	_	16	appos	_	_
 18	utilisé	_	VERB	_	_	16	acl	_	_
-19	par	_	ADP	_	_	18	case	_	_
+19	par	_	ADP	_	_	21	case	_	_
 20	la	_	DET	_	_	21	det	_	_
-21	majorité	_	NOUN	_	_	19	case	_	_
+21	majorité	_	NOUN	_	_	18	nmod	_	_
 22-23	des	_	_	_	_	_	_	_	_
 22	de	_	ADP	_	_	24	case	_	_
 23	les	_	DET	_	_	24	det	_	_
@@ -4357,9 +4357,9 @@
 7	son	_	DET	_	_	8	nmod:poss	_	_
 8	émissaire	_	NOUN	_	_	5	nmod	_	_
 9	Lancki	_	PROPN	_	_	8	appos	_	_
-10	par	_	ADP	_	_	5	case	_	_
+10	par	_	ADP	_	_	12	case	_	_
 11	le	_	DET	_	_	12	det	_	_
-12	fils	_	NOUN	_	_	10	case	_	_
+12	fils	_	NOUN	_	_	5	nmod	_	_
 13-14	du	_	_	_	_	_	_	_	_
 13	de	_	ADP	_	_	15	case	_	_
 14	le	_	DET	_	_	15	det	_	_
@@ -4519,9 +4519,9 @@
 5	les	_	DET	_	_	6	det	_	_
 6	économistes	_	NOUN	_	_	3	nmod	_	_
 7	interrogés	_	VERB	_	_	6	acl	_	_
-8	par	_	ADP	_	_	7	case	_	_
+8	par	_	ADP	_	_	10	case	_	_
 9	l'	_	DET	_	_	10	det	_	_
-10	AFP	_	PROPN	_	_	8	case	_	_
+10	AFP	_	PROPN	_	_	7	nmod	_	_
 11	,	_	PUNCT	_	_	24	punct	_	_
 12	l'	_	DET	_	_	13	det	_	_
 13	absence	_	NOUN	_	_	24	nsubj	_	_
@@ -5031,9 +5031,9 @@
 10	mais	_	CONJ	_	_	3	cc	_	_
 11	est	_	AUX	_	_	12	auxpass	_	_
 12	sauvé	_	VERB	_	_	3	conj	_	_
-13	par	_	ADP	_	_	12	case	_	_
+13	par	_	ADP	_	_	15	case	_	_
 14	le	_	DET	_	_	15	det	_	_
-15	prétendant	_	NOUN	_	_	13	case	_	_
+15	prétendant	_	NOUN	_	_	12	nmod	_	_
 16	de	_	ADP	_	_	17	case	_	_
 17	lady	_	NOUN	_	_	15	nmod	_	_
 18	Edith	_	PROPN	_	_	17	appos	_	_
@@ -5315,9 +5315,9 @@
 14	à	_	ADP	_	_	16	case	_	_
 15	les	_	DET	_	_	16	det	_	_
 16	autres	_	PRON	_	_	11	nmod	_	_
-17	par	_	ADP	_	_	11	case	_	_
+17	par	_	ADP	_	_	19	case	_	_
 18	des	_	DET	_	_	19	det	_	_
-19	rivets	_	NOUN	_	_	17	case	_	_
+19	rivets	_	NOUN	_	_	11	nmod	_	_
 20	.	_	PUNCT	_	_	3	punct	_	_
 
 # sentid: fr-ud-dev_00194
@@ -5328,9 +5328,9 @@
 4	Ier	_	ADJ	_	_	3	amod	_	_
 5	,	_	PUNCT	_	_	2	punct	_	_
 6	terrifié	_	VERB	_	_	2	acl	_	_
-7	par	_	ADP	_	_	6	case	_	_
+7	par	_	ADP	_	_	9	case	_	_
 8	les	_	DET	_	_	9	det	_	_
-9	auxiliaires	_	NOUN	_	_	7	case	_	_
+9	auxiliaires	_	NOUN	_	_	6	nmod	_	_
 10	huns	_	ADJ	_	_	9	amod	_	_
 11	de	_	ADP	_	_	12	case	_	_
 12	Litorius	_	PROPN	_	_	9	nmod	_	_
@@ -5611,8 +5611,8 @@
 7	découvert	_	VERB	_	_	6	acl	_	_
 8	en	_	ADP	_	_	9	case	_	_
 9	1942	_	NUM	_	_	7	nmod	_	_
-10	par	_	ADP	_	_	7	case	_	_
-11	Louis	_	PROPN	_	_	10	case	_	_
+10	par	_	ADP	_	_	11	case	_	_
+11	Louis	_	PROPN	_	_	7	nmod	_	_
 12	Boyer	_	PROPN	_	_	11	name	_	_
 13	est	_	AUX	_	_	14	auxpass	_	_
 14	baptisé	_	VERB	_	_	0	root	_	_
@@ -5953,9 +5953,9 @@
 3	communal	_	ADJ	_	_	2	amod	_	_
 4	est	_	AUX	_	_	5	auxpass	_	_
 5	desservi	_	VERB	_	_	0	root	_	_
-6	par	_	ADP	_	_	5	case	_	_
+6	par	_	ADP	_	_	8	case	_	_
 7	les	_	DET	_	_	8	det	_	_
-8	lignes	_	NOUN	_	_	6	case	_	_
+8	lignes	_	NOUN	_	_	5	nmod	_	_
 9	Q	_	X	_	_	8	appos	_	_
 10	et	_	CONJ	_	_	9	cc	_	_
 11	R	_	X	_	_	9	conj	_	_
@@ -6304,7 +6304,7 @@
 39	cette	_	DET	_	_	40	det	_	_
 40	date	_	NOUN	_	_	37	nmod	_	_
 41	)	_	PUNCT	_	_	37	punct	_	_
-42	par	_	ADP	_	_	22	case	_	_
+42	par	_	ADP	_	_	50	case	_	_
 43	l'	_	DET	_	_	50	det	_	_
 44	Academy	_	PROPN	_	_	50	name	_	_
 45	of	_	X	_	_	50	compound	_	_
@@ -6312,7 +6312,7 @@
 47	Picture	_	PROPN	_	_	50	name	_	_
 48	Arts	_	PROPN	_	_	50	name	_	_
 49	and	_	X	_	_	50	compound	_	_
-50	Sciences	_	PROPN	_	_	42	case	_	_
+50	Sciences	_	PROPN	_	_	22	nmod	_	_
 51	(	_	PUNCT	_	_	52	punct	_	_
 52	AMPAS	_	X	_	_	50	appos	_	_
 53	)	_	PUNCT	_	_	52	punct	_	_
@@ -6688,9 +6688,9 @@
 16	et	_	CONJ	_	_	3	cc	_	_
 17	est	_	AUX	_	_	18	auxpass	_	_
 18	inauguré	_	VERB	_	_	3	conj	_	_
-19	par	_	ADP	_	_	18	case	_	_
+19	par	_	ADP	_	_	21	case	_	_
 20	le	_	DET	_	_	21	det	_	_
-21	maréchal	_	NOUN	_	_	19	case	_	_
+21	maréchal	_	NOUN	_	_	18	nmod	_	_
 22	Foch	_	PROPN	_	_	21	appos	_	_
 23	en	_	ADP	_	_	24	case	_	_
 24	1928	_	NUM	_	_	18	nmod	_	_
@@ -6901,9 +6901,9 @@
 2	est	_	AUX	_	_	4	auxpass	_	_
 3	alors	_	ADV	_	_	4	advmod	_	_
 4	repéré	_	VERB	_	_	0	root	_	_
-5	par	_	ADP	_	_	4	case	_	_
+5	par	_	ADP	_	_	7	case	_	_
 6	les	_	DET	_	_	7	det	_	_
-7	recruteurs	_	NOUN	_	_	5	case	_	_
+7	recruteurs	_	NOUN	_	_	4	nmod	_	_
 8-9	du	_	_	_	_	_	_	_	_
 8	de	_	ADP	_	_	10	case	_	_
 9	le	_	DET	_	_	10	det	_	_
@@ -6951,9 +6951,9 @@
 28	,	_	PUNCT	_	_	23	punct	_	_
 29	prix	_	NOUN	_	_	23	appos	_	_
 30	décerné	_	VERB	_	_	29	acl	_	_
-31	par	_	ADP	_	_	30	case	_	_
+31	par	_	ADP	_	_	33	case	_	_
 32	le	_	DET	_	_	33	det	_	_
-33	ministère	_	PROPN	_	_	31	case	_	_
+33	ministère	_	PROPN	_	_	30	nmod	_	_
 34	de	_	ADP	_	_	36	case	_	_
 35	l'	_	DET	_	_	36	det	_	_
 36	Equipement	_	PROPN	_	_	33	nmod	_	_
@@ -7008,9 +7008,9 @@
 5	déjà	_	ADV	_	_	7	advmod	_	_
 6	été	_	AUX	_	_	7	auxpass	_	_
 7	récupéré	_	VERB	_	_	20	advcl	_	_
-8	par	_	ADP	_	_	7	case	_	_
+8	par	_	ADP	_	_	10	case	_	_
 9	les	_	DET	_	_	10	det	_	_
-10	chasseurs	_	NOUN	_	_	8	case	_	_
+10	chasseurs	_	NOUN	_	_	7	nmod	_	_
 11	grâce	_	NOUN	_	_	7	nmod	_	_
 12	à	_	ADP	_	_	14	case	_	_
 13	l'	_	DET	_	_	14	det	_	_
@@ -7096,9 +7096,9 @@
 2	commune	_	NOUN	_	_	4	nsubjpass	_	_
 3	est	_	AUX	_	_	4	auxpass	_	_
 4	desservie	_	VERB	_	_	0	root	_	_
-5	par	_	ADP	_	_	4	case	_	_
+5	par	_	ADP	_	_	7	case	_	_
 6	la	_	DET	_	_	7	det	_	_
-7	route	_	NOUN	_	_	5	case	_	_
+7	route	_	NOUN	_	_	4	nmod	_	_
 8	départementale	_	ADJ	_	_	7	amod	_	_
 9	531	_	NUM	_	_	7	nummod	_	_
 10	,	_	PUNCT	_	_	5	punct	_	_
@@ -8028,16 +8028,16 @@
 11	de	_	ADP	_	_	12	case	_	_
 12	reportages	_	NOUN	_	_	10	nmod	_	_
 13	produite	_	VERB	_	_	10	acl	_	_
-14	par	_	ADP	_	_	13	case	_	_
+14	par	_	ADP	_	_	16	case	_	_
 15	la	_	DET	_	_	16	det	_	_
-16	télévision	_	NOUN	_	_	14	case	_	_
+16	télévision	_	NOUN	_	_	13	nmod	_	_
 17	publique	_	ADJ	_	_	16	amod	_	_
 18	britannique	_	ADJ	_	_	16	amod	_	_
 19	et	_	CONJ	_	_	13	cc	_	_
 20	présentée	_	VERB	_	_	13	conj	_	_
-21	par	_	ADP	_	_	20	case	_	_
+21	par	_	ADP	_	_	23	case	_	_
 22	un	_	DET	_	_	23	det	_	_
-23	globe	_	NOUN	_	_	21	case	_	_
+23	globe	_	NOUN	_	_	20	nmod	_	_
 24	trotter	_	NOUN	_	_	23	mwe	_	_
 25	vedette	_	NOUN	_	_	23	compound	_	_
 26	,	_	PUNCT	_	_	7	punct	_	_
@@ -8143,8 +8143,8 @@
 6	fondée	_	VERB	_	_	2	acl	_	_
 7	en	_	ADP	_	_	8	case	_	_
 8	1990	_	NUM	_	_	6	nmod	_	_
-9	par	_	ADP	_	_	6	case	_	_
-10	Col	_	PROPN	_	_	9	case	_	_
+9	par	_	ADP	_	_	10	case	_	_
+10	Col	_	PROPN	_	_	6	nmod	_	_
 11	Needham	_	PROPN	_	_	10	name	_	_
 12	,	_	PUNCT	_	_	10	punct	_	_
 13	de	_	ADP	_	_	15	case	_	_
@@ -8505,9 +8505,9 @@
 8-9	s'explique	_	_	_	_	_	_	_	_
 8	s'	_	PRON	_	_	9	dobj	_	_
 9	explique	_	VERB	_	_	0	root	_	_
-10	par	_	ADP	_	_	9	case	_	_
+10	par	_	ADP	_	_	12	case	_	_
 11	le	_	DET	_	_	12	det	_	_
-12	phénomène	_	NOUN	_	_	10	case	_	_
+12	phénomène	_	NOUN	_	_	9	nmod	_	_
 13	de	_	ADP	_	_	14	case	_	_
 14	cavitation	_	NOUN	_	_	12	nmod	_	_
 15	.	_	PUNCT	_	_	9	punct	_	_
@@ -9654,9 +9654,9 @@
 8	seraient	_	AUX	_	_	10	auxpass	_	_
 9	-ils	_	PRON	_	_	10	nsubjpass	_	_
 10	détenus	_	VERB	_	_	0	root	_	_
-11	par	_	ADP	_	_	10	case	_	_
+11	par	_	ADP	_	_	13	case	_	_
 12	la	_	DET	_	_	13	det	_	_
-13	femme	_	NOUN	_	_	11	case	_	_
+13	femme	_	NOUN	_	_	10	nmod	_	_
 14	,	_	PUNCT	_	_	10	punct	_	_
 15	alors	_	ADV	_	_	18	mark	_	_
 16	qu'	_	SCONJ	_	_	15	mwe	_	_
@@ -9869,9 +9869,9 @@
 5	le	_	DET	_	_	6	det	_	_
 6	rôle	_	NOUN	_	_	20	nsubjpass	_	_
 7	joué	_	VERB	_	_	6	acl	_	_
-8	par	_	ADP	_	_	7	case	_	_
+8	par	_	ADP	_	_	10	case	_	_
 9	l'	_	DET	_	_	10	det	_	_
-10	Algérie	_	PROPN	_	_	8	case	_	_
+10	Algérie	_	PROPN	_	_	7	nmod	_	_
 11	dans	_	ADP	_	_	13	case	_	_
 12	la	_	DET	_	_	13	det	_	_
 13	décolonisation	_	NOUN	_	_	6	nmod	_	_
@@ -9885,9 +9885,9 @@
 20	mis	_	VERB	_	_	0	root	_	_
 21	en	_	ADP	_	_	22	case	_	_
 22	évidence	_	PROPN	_	_	20	nmod	_	_
-23	par	_	ADP	_	_	20	case	_	_
+23	par	_	ADP	_	_	25	case	_	_
 24	les	_	DET	_	_	25	det	_	_
-25	participants	_	NOUN	_	_	23	case	_	_
+25	participants	_	NOUN	_	_	20	nmod	_	_
 26	qui	_	PRON	_	_	28	nsubj	_	_
 27	ont	_	AUX	_	_	28	aux	_	_
 28	focalisé	_	VERB	_	_	25	acl:relcl	_	_
@@ -9975,9 +9975,9 @@
 29	revu	_	VERB	_	_	17	acl:relcl	_	_
 30	chaque	_	DET	_	_	31	det	_	_
 31	année	_	NOUN	_	_	29	nmod	_	_
-32	par	_	ADP	_	_	29	case	_	_
+32	par	_	ADP	_	_	34	case	_	_
 33	le	_	DET	_	_	34	det	_	_
-34	conseil	_	NOUN	_	_	32	case	_	_
+34	conseil	_	NOUN	_	_	29	nmod	_	_
 35	communautaire	_	ADJ	_	_	34	amod	_	_
 36	.	_	PUNCT	_	_	14	punct	_	_
 
@@ -10555,9 +10555,9 @@
 7	il	_	PRON	_	_	9	nsubj	_	_
 8	sera	_	AUX	_	_	9	auxpass	_	_
 9	élevé	_	VERB	_	_	5	conj	_	_
-10	par	_	ADP	_	_	9	case	_	_
+10	par	_	ADP	_	_	12	case	_	_
 11	sa	_	DET	_	_	12	nmod:poss	_	_
-12	grand-mère	_	NOUN	_	_	10	case	_	_
+12	grand-mère	_	NOUN	_	_	9	nmod	_	_
 13	.	_	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-dev_00384
@@ -10740,9 +10740,9 @@
 9	sentir	_	VERB	_	_	3	acl	_	_
 10	plus	_	ADV	_	_	11	advmod	_	_
 11	concernés	_	VERB	_	_	9	acl	_	_
-12	par	_	ADP	_	_	11	case	_	_
+12	par	_	ADP	_	_	14	case	_	_
 13	leur	_	DET	_	_	14	nmod:poss	_	_
-14	travail	_	NOUN	_	_	12	case	_	_
+14	travail	_	NOUN	_	_	11	nmod	_	_
 15	et	_	CONJ	_	_	11	cc	_	_
 16	donc	_	ADV	_	_	15	advmod	_	_
 17	plus	_	ADV	_	_	18	advmod	_	_
@@ -10994,9 +10994,9 @@
 8	dorée	_	ADJ	_	_	7	amod	_	_
 9	"	_	PUNCT	_	_	7	punct	_	_
 10	,	_	PUNCT	_	_	7	punct	_	_
-11	par	_	ADP	_	_	7	case	_	_
+11	par	_	ADP	_	_	13	case	_	_
 12	les	_	DET	_	_	13	det	_	_
-13	anglophones	_	NOUN	_	_	11	case	_	_
+13	anglophones	_	NOUN	_	_	7	nmod	_	_
 14	notamment	_	ADV	_	_	13	advmod	_	_
 15	)	_	PUNCT	_	_	7	punct	_	_
 16	est	_	VERB	_	_	18	cop	_	_
@@ -11141,9 +11141,9 @@
 2	a	_	AUX	_	_	4	aux	_	_
 3	été	_	AUX	_	_	4	auxpass	_	_
 4	arrêté	_	VERB	_	_	0	root	_	_
-5	par	_	ADP	_	_	4	case	_	_
+5	par	_	ADP	_	_	7	case	_	_
 6	la	_	DET	_	_	7	det	_	_
-7	police	_	NOUN	_	_	5	case	_	_
+7	police	_	NOUN	_	_	4	nmod	_	_
 8	afghane	_	ADJ	_	_	7	amod	_	_
 9	vers	_	ADP	_	_	11	case	_	_
 10	l'	_	DET	_	_	11	det	_	_
@@ -11224,9 +11224,9 @@
 30	en	_	ADP	_	_	32	case	_	_
 31	une	_	DET	_	_	32	det	_	_
 32	protéine	_	NOUN	_	_	29	nmod	_	_
-33	par	_	ADP	_	_	29	case	_	_
+33	par	_	ADP	_	_	35	case	_	_
 34	les	_	DET	_	_	35	det	_	_
-35	ribosomes	_	NOUN	_	_	33	case	_	_
+35	ribosomes	_	NOUN	_	_	29	nmod	_	_
 36	.	_	PUNCT	_	_	11	punct	_	_
 
 # sentid: fr-ud-dev_00409
@@ -11290,9 +11290,9 @@
 15	a	_	AUX	_	_	17	aux	_	_
 16	été	_	AUX	_	_	17	auxpass	_	_
 17	fournie	_	VERB	_	_	3	conj	_	_
-18	par	_	ADP	_	_	17	case	_	_
+18	par	_	ADP	_	_	20	case	_	_
 19	l'	_	DET	_	_	20	det	_	_
-20	entreprise	_	NOUN	_	_	18	case	_	_
+20	entreprise	_	NOUN	_	_	17	nmod	_	_
 21	de	_	ADP	_	_	22	case	_	_
 22	carrossiers	_	NOUN	_	_	20	nmod	_	_
 23	indépendants	_	ADJ	_	_	22	amod	_	_
@@ -11457,9 +11457,9 @@
 3	avoir	_	AUX	_	_	5	aux	_	_
 4	été	_	AUX	_	_	5	auxpass	_	_
 5	influencé	_	VERB	_	_	2	ccomp	_	_
-6	par	_	ADP	_	_	5	case	_	_
+6	par	_	ADP	_	_	8	case	_	_
 7	cette	_	DET	_	_	8	det	_	_
-8	façon	_	NOUN	_	_	6	case	_	_
+8	façon	_	NOUN	_	_	5	nmod	_	_
 9	«	_	PUNCT	_	_	10	punct	_	_
 10	qui	_	PRON	_	_	8	acl:relcl	_	_
 11	permet	_	VERB	_	_	10	cop	_	_
@@ -11503,9 +11503,9 @@
 19	Maroc	_	PROPN	_	_	13	nmod	_	_
 20	,	_	PUNCT	_	_	13	punct	_	_
 21	bercée	_	VERB	_	_	13	acl	_	_
-22	par	_	ADP	_	_	21	case	_	_
+22	par	_	ADP	_	_	24	case	_	_
 23	les	_	DET	_	_	24	det	_	_
-24	rythmes	_	NOUN	_	_	22	case	_	_
+24	rythmes	_	NOUN	_	_	21	nmod	_	_
 25	gnaouas	_	ADJ	_	_	24	amod	_	_
 26	,	_	PUNCT	_	_	24	punct	_	_
 27	le	_	DET	_	_	28	det	_	_
@@ -11861,8 +11861,8 @@
 5	atterrissage	_	NOUN	_	_	7	nsubjpass	_	_
 6	est	_	AUX	_	_	7	auxpass	_	_
 7	effectué	_	VERB	_	_	0	root	_	_
-8	par	_	ADP	_	_	7	case	_	_
-9	Maryse	_	PROPN	_	_	8	case	_	_
+8	par	_	ADP	_	_	9	case	_	_
+9	Maryse	_	PROPN	_	_	7	nmod	_	_
 10	Hilsz	_	PROPN	_	_	9	name	_	_
 11	,	_	PUNCT	_	_	7	punct	_	_
 12	accompagnée	_	VERB	_	_	9	acl	_	_
@@ -11897,8 +11897,8 @@
 11	d'	_	ADP	_	_	13	case	_	_
 12	un	_	DET	_	_	13	det	_	_
 13	thème	_	NOUN	_	_	10	nmod	_	_
-14	par	_	ADP	_	_	8	case	_	_
-15	Jean	_	PROPN	_	_	14	case	_	_
+14	par	_	ADP	_	_	15	case	_	_
+15	Jean	_	PROPN	_	_	8	nmod	_	_
 16	Shepherd	_	PROPN	_	_	15	name	_	_
 17	.	_	PUNCT	_	_	4	punct	_	_
 
@@ -12453,9 +12453,9 @@
 11	Ciel	_	PROPN	_	_	8	nmod	_	_
 12	débutent	_	VERB	_	_	0	root	_	_
 13	traditionnellement	_	ADV	_	_	12	advmod	_	_
-14	par	_	ADP	_	_	12	case	_	_
+14	par	_	ADP	_	_	16	case	_	_
 15	un	_	DET	_	_	16	det	_	_
-16	culte	_	NOUN	_	_	14	case	_	_
+16	culte	_	NOUN	_	_	12	nmod	_	_
 17	domestique	_	ADJ	_	_	16	amod	_	_
 18	et	_	CONJ	_	_	16	cc	_	_
 19	des	_	DET	_	_	20	det	_	_
@@ -12904,8 +12904,8 @@
 24	parti	_	NOUN	_	_	22	dobj	_	_
 25	Libéral	_	ADJ	_	_	24	amod	_	_
 26	conduit	_	VERB	_	_	24	acl	_	_
-27	par	_	ADP	_	_	26	case	_	_
-28	Malcolm	_	PROPN	_	_	27	case	_	_
+27	par	_	ADP	_	_	28	case	_	_
+28	Malcolm	_	PROPN	_	_	26	nmod	_	_
 29	Fraser	_	PROPN	_	_	28	name	_	_
 30	.	_	PUNCT	_	_	8	punct	_	_
 
@@ -13199,9 +13199,9 @@
 37	molécules	_	NOUN	_	_	33	nmod	_	_
 38	et	_	CONJ	_	_	33	cc	_	_
 39	séparées	_	VERB	_	_	33	conj	_	_
-40	par	_	ADP	_	_	39	case	_	_
+40	par	_	ADP	_	_	42	case	_	_
 41	une	_	DET	_	_	42	det	_	_
-42	région	_	NOUN	_	_	40	case	_	_
+42	région	_	NOUN	_	_	39	nmod	_	_
 43	variable	_	ADJ	_	_	42	amod	_	_
 44	de	_	ADP	_	_	45	case	_	_
 45	longueur	_	NOUN	_	_	42	nmod	_	_
@@ -13440,9 +13440,9 @@
 13	,	_	PUNCT	_	_	8	punct	_	_
 14	surtout	_	ADV	_	_	15	advmod	_	_
 15	marquée	_	VERB	_	_	10	acl	_	_
-16	par	_	ADP	_	_	15	case	_	_
+16	par	_	ADP	_	_	18	case	_	_
 17	des	_	DET	_	_	18	det	_	_
-18	festivals	_	NOUN	_	_	16	case	_	_
+18	festivals	_	NOUN	_	_	15	nmod	_	_
 19	folkloriques	_	ADJ	_	_	18	amod	_	_
 20	et	_	CONJ	_	_	19	cc	_	_
 21	contemporains	_	ADJ	_	_	19	conj	_	_
@@ -14135,9 +14135,9 @@
 9	très	_	ADV	_	_	10	advmod	_	_
 10	partiellement	_	ADV	_	_	11	advmod	_	_
 11	atténué	_	VERB	_	_	2	acl	_	_
-12	par	_	ADP	_	_	11	case	_	_
+12	par	_	ADP	_	_	14	case	_	_
 13	la	_	DET	_	_	14	det	_	_
-14	Loi	_	PROPN	_	_	12	case	_	_
+14	Loi	_	PROPN	_	_	11	nmod	_	_
 15	de	_	ADP	_	_	16	case	_	_
 16	1948	_	PROPN	_	_	14	nmod	_	_
 17	,	_	PUNCT	_	_	19	punct	_	_
@@ -14366,9 +14366,9 @@
 1	Il	_	PRON	_	_	3	nsubjpass	_	_
 2	était	_	AUX	_	_	3	auxpass	_	_
 3	dirigé	_	VERB	_	_	0	root	_	_
-4	par	_	ADP	_	_	3	case	_	_
+4	par	_	ADP	_	_	6	case	_	_
 5	deux	_	NUM	_	_	6	nummod	_	_
-6	musiciens	_	NOUN	_	_	4	case	_	_
+6	musiciens	_	NOUN	_	_	3	nmod	_	_
 7	de	_	ADP	_	_	8	case	_	_
 8	jazz	_	NOUN	_	_	6	nmod	_	_
 9	,	_	PUNCT	_	_	6	punct	_	_
@@ -14564,9 +14564,9 @@
 14	elle	_	PRON	_	_	16	nsubj	_	_
 15	se	_	PRON	_	_	16	dobj	_	_
 16	distingue	_	VERB	_	_	8	acl:relcl	_	_
-17	par	_	ADP	_	_	16	case	_	_
+17	par	_	ADP	_	_	19	case	_	_
 18	un	_	DET	_	_	19	det	_	_
-19	masque	_	NOUN	_	_	17	case	_	_
+19	masque	_	NOUN	_	_	16	nmod	_	_
 20	facial	_	ADJ	_	_	19	amod	_	_
 21	turquoise	_	ADJ	_	_	19	amod	_	_
 22	plus	_	ADV	_	_	23	advmod	_	_
@@ -14724,9 +14724,9 @@
 2	achillobator	_	NOUN	_	_	4	nsubjpass	_	_
 3	est	_	AUX	_	_	4	auxpass	_	_
 4	connu	_	VERB	_	_	0	root	_	_
-5	par	_	ADP	_	_	4	case	_	_
+5	par	_	ADP	_	_	7	case	_	_
 6	des	_	DET	_	_	7	det	_	_
-7	os	_	NOUN	_	_	5	case	_	_
+7	os	_	NOUN	_	_	4	nmod	_	_
 8	désarticulés	_	VERB	_	_	7	acl	_	_
 9	mais	_	CONJ	_	_	8	cc	_	_
 10	associés	_	VERB	_	_	8	conj	_	_
@@ -14835,9 +14835,9 @@
 2	stalagmite	_	NOUN	_	_	4	nsubjpass	_	_
 3	est	_	AUX	_	_	4	auxpass	_	_
 4	délimité	_	VERB	_	_	0	root	_	_
-5	par	_	ADP	_	_	4	case	_	_
+5	par	_	ADP	_	_	7	case	_	_
 6	un	_	DET	_	_	7	det	_	_
-7	muret	_	NOUN	_	_	5	case	_	_
+7	muret	_	NOUN	_	_	4	nmod	_	_
 8	quadrangulaire	_	ADJ	_	_	7	amod	_	_
 9	de	_	ADP	_	_	11	case	_	_
 10	2	_	NUM	_	_	11	nummod	_	_
@@ -15344,9 +15344,9 @@
 13	frontières	_	NOUN	_	_	9	nmod	_	_
 14	longtemps	_	ADV	_	_	15	advmod	_	_
 15	réclamée	_	VERB	_	_	9	acl	_	_
-16	par	_	ADP	_	_	15	case	_	_
+16	par	_	ADP	_	_	18	case	_	_
 17	nos	_	DET	_	_	18	nmod:poss	_	_
-18	voisins	_	NOUN	_	_	16	case	_	_
+18	voisins	_	NOUN	_	_	15	nmod	_	_
 19	de	_	ADP	_	_	21	case	_	_
 20	l'	_	DET	_	_	21	det	_	_
 21	Ouest	_	PROPN	_	_	18	nmod	_	_
@@ -15502,9 +15502,9 @@
 19	reçu	_	VERB	_	_	18	acl	_	_
 20	,	_	PUNCT	_	_	10	punct	_	_
 21	mesurée	_	VERB	_	_	10	conj	_	_
-22	par	_	ADP	_	_	21	case	_	_
+22	par	_	ADP	_	_	24	case	_	_
 23	le	_	DET	_	_	24	det	_	_
-24	téléphone	_	NOUN	_	_	22	case	_	_
+24	téléphone	_	NOUN	_	_	21	nmod	_	_
 25	mobile	_	ADJ	_	_	24	amod	_	_
 26	.	_	PUNCT	_	_	9	punct	_	_
 
@@ -15685,9 +15685,9 @@
 2	y	_	ADV	_	_	4	advmod	_	_
 3	était	_	AUX	_	_	4	auxpass	_	_
 4	installé	_	VERB	_	_	0	root	_	_
-5	par	_	ADP	_	_	4	case	_	_
+5	par	_	ADP	_	_	7	case	_	_
 6	un	_	DET	_	_	7	det	_	_
-7	Président	_	NOUN	_	_	5	case	_	_
+7	Président	_	NOUN	_	_	4	nmod	_	_
 8	à	_	ADP	_	_	9	case	_	_
 9	mortier	_	NOUN	_	_	7	nmod	_	_
 10	qui	_	PRON	_	_	12	nsubj	_	_
@@ -15740,9 +15740,9 @@
 10	magasins	_	NOUN	_	_	4	conj	_	_
 11	est	_	AUX	_	_	12	auxpass	_	_
 12	renforcée	_	VERB	_	_	0	root	_	_
-13	par	_	ADP	_	_	12	case	_	_
+13	par	_	ADP	_	_	15	case	_	_
 14	un	_	DET	_	_	15	det	_	_
-15	nombre	_	NOUN	_	_	13	case	_	_
+15	nombre	_	NOUN	_	_	12	nmod	_	_
 16	croissant	_	ADJ	_	_	15	amod	_	_
 17	de	_	ADP	_	_	18	case	_	_
 18	boutiques	_	NOUN	_	_	15	nmod	_	_
@@ -16593,8 +16593,8 @@
 3	sacré	_	VERB	_	_	0	root	_	_
 4	à	_	ADP	_	_	5	case	_	_
 5	Hanoï	_	PROPN	_	_	3	nmod	_	_
-6	par	_	ADP	_	_	3	case	_	_
-7	Marcou	_	PROPN	_	_	6	case	_	_
+6	par	_	ADP	_	_	7	case	_	_
+7	Marcou	_	PROPN	_	_	3	nmod	_	_
 8	,	_	PUNCT	_	_	3	punct	_	_
 9	le	_	DET	_	_	11	det	_	_
 10	24	_	NUM	_	_	11	nummod	_	_
@@ -17289,9 +17289,9 @@
 1	Je	_	PRON	_	_	3	nsubjpass	_	_
 2	suis	_	AUX	_	_	3	auxpass	_	_
 3	effaré	_	VERB	_	_	0	root	_	_
-4	par	_	ADP	_	_	3	case	_	_
+4	par	_	ADP	_	_	6	case	_	_
 5	l'	_	DET	_	_	6	det	_	_
-6	incompétence	_	NOUN	_	_	4	case	_	_
+6	incompétence	_	NOUN	_	_	3	nmod	_	_
 7-8	du	_	_	_	_	_	_	_	_
 7	de	_	ADP	_	_	9	case	_	_
 8	le	_	DET	_	_	9	det	_	_
@@ -18382,8 +18382,8 @@
 11	de	_	ADP	_	_	12	case	_	_
 12	boches	_	NOUN	_	_	10	nmod	_	_
 13	réalisé	_	VERB	_	_	10	acl	_	_
-14	par	_	ADP	_	_	13	case	_	_
-15	Olivier	_	PROPN	_	_	14	case	_	_
+14	par	_	ADP	_	_	15	case	_	_
+15	Olivier	_	PROPN	_	_	13	nmod	_	_
 16	Truc	_	PROPN	_	_	15	name	_	_
 17	et	_	CONJ	_	_	15	cc	_	_
 18	Christophe	_	PROPN	_	_	15	conj	_	_
@@ -18904,9 +18904,9 @@
 28	les	_	DET	_	_	29	det	_	_
 29	finalistes	_	NOUN	_	_	26	nmod	_	_
 30	sélectionnés	_	VERB	_	_	29	acl	_	_
-31	par	_	ADP	_	_	30	case	_	_
+31	par	_	ADP	_	_	33	case	_	_
 32	la	_	DET	_	_	33	det	_	_
-33	Commission	_	PROPN	_	_	31	case	_	_
+33	Commission	_	PROPN	_	_	30	nmod	_	_
 34	européenne	_	ADJ	_	_	33	amod	_	_
 35	.	_	PUNCT	_	_	11	punct	_	_
 
@@ -19042,9 +19042,9 @@
 3	rejetées	_	ADJ	_	_	2	amod	_	_
 4	seront	_	AUX	_	_	5	auxpass	_	_
 5	revues	_	VERB	_	_	0	root	_	_
-6	par	_	ADP	_	_	5	case	_	_
+6	par	_	ADP	_	_	8	case	_	_
 7	le	_	DET	_	_	8	det	_	_
-8	Bureau	_	PROPN	_	_	6	case	_	_
+8	Bureau	_	PROPN	_	_	5	nmod	_	_
 9	d'	_	ADP	_	_	10	case	_	_
 10	Asile	_	PROPN	_	_	8	nmod	_	_
 11	et	_	CONJ	_	_	10	cc	_	_
@@ -19577,9 +19577,9 @@
 26	ruines	_	NOUN	_	_	23	nmod	_	_
 27	soit	_	AUX	_	_	28	auxpass	_	_
 28	acquis	_	VERB	_	_	14	advcl	_	_
-29	par	_	ADP	_	_	28	case	_	_
+29	par	_	ADP	_	_	31	case	_	_
 30	l'	_	DET	_	_	31	det	_	_
-31	État	_	PROPN	_	_	29	case	_	_
+31	État	_	PROPN	_	_	28	nmod	_	_
 32	en	_	ADP	_	_	33	case	_	_
 33	1934	_	NUM	_	_	28	nmod	_	_
 34	.	_	PUNCT	_	_	14	punct	_	_

@@ -192,7 +192,8 @@ slav@google.com
 
 
 Documentation status: complete
-Data source: blog wiki
+Data source: semi-automatic
 Data available since: UD v1.0
 License: CC BY-NC-SA 3.0 US
+Genre: blog wiki
 Contributors: de Marneffe, Marie-Catherine; Guillaume, Bruno; McDonald, Ryan; Suhr, Alane

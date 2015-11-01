@@ -2510,7 +2510,7 @@
 8	commune	_	NOUN	_	_	6	dobj	_	_
 9	et	_	CONJ	_	_	6	cc	_	_
 10	compte	_	VERB	_	_	6	conj	_	_
-11	25 785	_	NUM	_	_	12	nummod	_	_
+11	25785	_	NUM	_	_	12	nummod	_	_
 12	habitants	_	NOUN	_	_	10	dobj	_	_
 13	.	_	PUNCT	_	_	6	punct	_	_
 
@@ -2623,7 +2623,7 @@
 36-37	du	_	_	_	_	_	_	_	_
 36	de	_	ADP	_	_	38	case	_	_
 37	le	_	DET	_	_	38	det	_	_
-38	terminal	_	NOUN	_	_	35	nmod	_	_
+38	terminal	_	NOUN	_	_	34	nmod	_	_
 39	par	_	ADP	_	_	41	case	_	_
 40	32	_	NUM	_	_	41	nummod	_	_
 41	jeux	_	NOUN	_	_	34	nmod	_	_
@@ -3070,7 +3070,7 @@
 # sentence-text: Entremont représente 6 000 producteurs, et, avec Sodiaal, la nouvelle entité représenterait 13 500 producteurs de lait et 20% de la production française.
 1	Entremont	_	PROPN	_	_	2	nsubj	_	_
 2	représente	_	VERB	_	_	0	root	_	_
-3	6 000	_	NUM	_	_	4	nummod	_	_
+3	6000	_	NUM	_	_	4	nummod	_	_
 4	producteurs	_	NOUN	_	_	2	dobj	_	_
 5	,	_	PUNCT	_	_	2	punct	_	_
 6	et	_	CONJ	_	_	2	cc	_	_
@@ -3082,7 +3082,7 @@
 12	nouvelle	_	ADJ	_	_	13	amod	_	_
 13	entité	_	NOUN	_	_	14	nsubj	_	_
 14	représenterait	_	VERB	_	_	2	conj	_	_
-15	13 500	_	NUM	_	_	16	nummod	_	_
+15	13500	_	NUM	_	_	16	nummod	_	_
 16	producteurs	_	NOUN	_	_	14	dobj	_	_
 17	de	_	ADP	_	_	18	case	_	_
 18	lait	_	NOUN	_	_	16	nmod	_	_
@@ -5035,8 +5035,8 @@
 18	Edith	_	PROPN	_	_	17	appos	_	_
 19	,	_	PUNCT	_	_	15	punct	_	_
 20	sir	_	NOUN	_	_	15	appos	_	_
-21	Anthony	_	PROPN	_	_	21	name	_	_
-22	Strallan	_	PROPN	_	_	21	name	_	_
+21	Anthony	_	PROPN	_	_	20	name	_	_
+22	Strallan	_	PROPN	_	_	20	name	_	_
 23	,	_	PUNCT	_	_	15	punct	_	_
 24	qui	_	PRON	_	_	25	nsubj	_	_
 25	révèle	_	VERB	_	_	15	acl:relcl	_	_
@@ -5368,7 +5368,7 @@
 # sentence-text: Celui-ci fait 5 000 morts mais s'arrête juste devant une petite chapelle dédiée à Marie.
 1	Celui-ci	_	ADV	_	_	2	nsubj	_	_
 2	fait	_	VERB	_	_	0	root	_	_
-3	5 000	_	NUM	_	_	4	nummod	_	_
+3	5000	_	NUM	_	_	4	nummod	_	_
 4	morts	_	NOUN	_	_	2	dobj	_	_
 5	mais	_	CONJ	_	_	2	cc	_	_
 6	s'	_	PRON	_	_	7	dobj	_	_
@@ -5755,7 +5755,7 @@
 16	estimées	_	VERB	_	_	8	advcl	_	_
 17	à	_	ADP	_	_	20	case	_	_
 18	environ	_	ADV	_	_	19	advmod	_	_
-19	10 000	_	NUM	_	_	20	nummod	_	_
+19	10000	_	NUM	_	_	20	nummod	_	_
 20	morts	_	NOUN	_	_	16	nmod	_	_
 21	,	_	PUNCT	_	_	16	punct	_	_
 22	en	_	ADP	_	_	23	case	_	_
@@ -10269,7 +10269,7 @@
 5	,	_	PUNCT	_	_	20	punct	_	_
 6	plus	_	ADV	_	_	7	mwe	_	_
 7	de	_	ADP	_	_	11	dep	_	_
-8	50 000	_	NUM	_	_	7	nummod	_	_
+8	50000	_	NUM	_	_	7	nummod	_	_
 9	soldats	_	NOUN	_	_	20	nsubj	_	_
 10-11	des	_	_	_	_	_	_	_	_
 10	de	_	DET	_	_	12	case	_	_
@@ -10310,7 +10310,7 @@
 44	bataille	_	NOUN	_	_	41	nmod	_	_
 45	rapporte	_	VERB	_	_	20	conj	_	_
 46	que	_	SCONJ	_	_	50	mark	_	_
-47	28 000	_	NUM	_	_	48	nummod	_	_
+47	28000	_	NUM	_	_	48	nummod	_	_
 48	hommes	_	NOUN	_	_	50	nsubj	_	_
 49	ont	_	AUX	_	_	50	aux	_	_
 50	péri	_	VERB	_	_	45	ccomp	_	_
@@ -17626,7 +17626,7 @@
 # sentence-text: Can You Feel It a été enregistré en mars 1980 et est sorti en single le 23 septembre 1980.
 1	Can	_	AUX	_	_	3	aux	_	_
 2	You	_	PRON	_	_	3	nsubj	_	_
-3	Feel	_	VERB	_	_	7	nsubjpas	_	_
+3	Feel	_	VERB	_	_	7	nsubjpass	_	_
 4	It	_	PRON	_	_	3	dobj	_	_
 5	a	_	AUX	_	_	7	aux	_	_
 6	été	_	AUX	_	_	7	auxpass	_	_
@@ -21816,7 +21816,7 @@
 14	de	_	ADP	_	_	18	case	_	_
 15	moins	_	ADV	_	_	17	advmod	_	_
 16	de	_	ADP	_	_	15	mwe	_	_
-17	10 000	_	NUM	_	_	18	nummod	_	_
+17	10000	_	NUM	_	_	18	nummod	_	_
 18	habitants	_	NOUN	_	_	13	nmod	_	_
 19	ont	_	VERB	_	_	0	root	_	_
 20	lieu	_	NOUN	_	_	19	dobj	_	_
@@ -22483,7 +22483,7 @@
 16	l'	_	DET	_	_	17	det	_	_
 17	armée	_	NOUN	_	_	13	dobj	_	_
 18	à	_	ADP	_	_	20	case	_	_
-19	100 000	_	NUM	_	_	18	nummod	_	_
+19	100000	_	NUM	_	_	18	nummod	_	_
 20	hommes	_	NOUN	_	_	13	nmod	_	_
 21	et	_	CONJ	_	_	13	cc	_	_
 22	en	_	ADP	_	_	23	mark	_	_
@@ -23397,7 +23397,7 @@
 28	le	_	DET	_	_	30	det	_	_
 29	VIe	_	ADJ	_	_	30	amod	_	_
 30	siècle	_	NOUN	_	_	26	nmod	_	_
-31	et	_	CONJ	_	_	cc	26	_	_
+31	et	_	CONJ	_	_	26	cc	_	_
 32	le	_	DET	_	_	33	det	_	_
 33	début	_	NOUN	_	_	26	conj	_	_
 34-35	du	_	_	_	_	_	_	_	_
@@ -24126,7 +24126,7 @@
 2	population	_	NOUN	_	_	8	nsubj	_	_
 3	est	_	VERB	_	_	8	cop	_	_
 4	de	_	ADP	_	_	6	case	_	_
-5	1 231	_	NUM	_	_	6	nummod	_	_
+5	1231	_	NUM	_	_	6	nummod	_	_
 6	habitants	_	NOUN	_	_	8	nmod	_	_
 7	(	_	PUNCT	_	_	8	punct	_	_
 8	01.01.2012	_	NUM	_	_	0	root	_	_
@@ -25829,13 +25829,13 @@
 16	les	_	DET	_	_	17	det	_	_
 17	jeux	_	NOUN	_	_	2	nmod	_	_
 18	japonais	_	ADJ	_	_	17	amod	_	_
-19	Pocket	_	TODO	_	_	18	TODO	_	_
-20	Monsters	_	TODO	_	_	19	TODO	_	_
-21	Kin	_	TODO	_	_	20	TODO	_	_
-22	et	_	CONJ	_	_	2	cc	_	_
-23	Pocket	_	TODO	_	_	22	TODO	_	_
-24	Monsters	_	TODO	_	_	23	TODO	_	_
-25	Gin	_	TODO	_	_	24	TODO	_	_
+19	Pocket	_	NOUN	_	_	17	appos	_	_
+20	Monsters	_	NOUN	_	_	19	name	_	_
+21	Kin	_	PROPN	_	_	19	name	_	_
+22	et	_	CONJ	_	_	19	cc	_	_
+23	Pocket	_	NOUN	_	_	19	conj	_	_
+24	Monsters	_	NOUN	_	_	23	name	_	_
+25	Gin	_	PROPN	_	_	23	name	_	_
 26	.	_	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-dev_00936
@@ -30796,7 +30796,7 @@
 7	sud	_	NOUN	_	_	4	nmod	_	_
 8	par	_	ADP	_	_	4	case	_	_
 9	l'	_	DET	_	_	10	det	_	_
-10	autoroute	_	NOUN	_	_	10	nmod	_	_
+10	autoroute	_	NOUN	_	_	4	nmod	_	_
 11	A36	_	PROPN	_	_	10	appos	_	_
 12	(	_	PUNCT	_	_	13	punct	_	_
 13	E54	_	PROPN	_	_	10	appos	_	_
@@ -36620,7 +36620,7 @@
 14	de	_	ADP	_	_	18	case	_	_
 15	moins	_	ADV	_	_	17	advmod	_	_
 16	de	_	ADP	_	_	15	mwe	_	_
-17	10 000	_	NUM	_	_	18	nummod	_	_
+17	10000	_	NUM	_	_	18	nummod	_	_
 18	habitants	_	NOUN	_	_	13	nmod	_	_
 19	ont	_	VERB	_	_	0	root	_	_
 20	lieu	_	NOUN	_	_	19	dobj	_	_
@@ -43687,7 +43687,7 @@
 16	anglais	_	NOUN	_	_	4	conj	_	_
 17	par	_	ADP	_	_	19	case	_	_
 18	41,7	_	NUM	_	_	19	nummod	_	_
-19	%	_	SYM	_	_	17	nmod	_	_
+19	%	_	SYM	_	_	4	nmod	_	_
 20	alors	_	ADV	_	_	21	mwe	_	_
 21	que	_	SCONJ	_	_	27	mark	_	_
 22	2,3	_	NUM	_	_	23	nummod	_	_
@@ -44585,8 +44585,8 @@
 18	le	_	DET	_	_	19	det	_	_
 19	dessus	_	NOUN	_	_	27	case	_	_
 20	de	_	ADP	_	_	19	mwe	_	_
-21	1 000	_	TODO	_	_	20	TODO	_	_
-22	mètres	_	TODO	_	_	21	TODO	_	_
+21	1000	_	NUM	_	_	22	nummod	_	_
+22	mètres	_	NOUN	_	_	19	nmod	_	_
 23	,	_	PUNCT	_	_	27	punct	_	_
 24	les	_	DET	_	_	25	det	_	_
 25	papillons	_	NOUN	_	_	27	nsubj	_	_

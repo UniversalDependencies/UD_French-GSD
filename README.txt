@@ -122,7 +122,7 @@ representation for clitics.
 Licenses and terms-of-use
 =========================
 
-For the following languages 
+For the following languages
 
   German, Spanish, French, Indonesian, Italian, Japanese, Korean and Brazilian
   Portuguese
@@ -196,4 +196,5 @@ Data source: semi-automatic
 Data available since: UD v1.0
 License: CC BY-NC-SA 3.0 US
 Genre: blog wiki
-Contributors: de Marneffe, Marie-Catherine; Guillaume, Bruno; McDonald, Ryan; Suhr, Alane
+Contributors: de Marneffe, Marie-Catherine; Guillaume, Bruno; McDonald, Ryan; Suhr, Alane; Nivre, Joakim
+(Original treebank contributors: Quirmbach-Brundage, Yvonne; LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)

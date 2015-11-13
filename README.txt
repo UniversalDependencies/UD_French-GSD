@@ -8,6 +8,25 @@ The README for that project is included here.
 The French UD conforms to the UD guidelines, but there are some exceptions.
 The primary exception is that there are no morphological features defined.
 
+
+
+Changelog
+
+2015-11-15 v1.2
+  * Removed duplicate sentences (overlaps with train) from dev and test data.
+
+=== Machine-readable metadata =================================================
+Documentation status: complete
+Data source: semi-automatic
+Data available since: UD v1.0
+License: CC BY-NC-SA 3.0 US
+Genre: blog wiki
+Contributors: de Marneffe, Marie-Catherine; Guillaume, Bruno; McDonald, Ryan; Suhr, Alane; Nivre, Joakim
+===============================================================================
+(Original treebank contributors: Quirmbach-Brundage, Yvonne; LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
+
+
+
 ===================================
 LEGACY README FILE BELOW
 ===================================
@@ -189,12 +208,3 @@ Contact
 ryanmcd@google.com
 joakim.nivre@lingfil.uu.se
 slav@google.com
-
-
-Documentation status: complete
-Data source: semi-automatic
-Data available since: UD v1.0
-License: CC BY-NC-SA 3.0 US
-Genre: blog wiki
-Contributors: de Marneffe, Marie-Catherine; Guillaume, Bruno; McDonald, Ryan; Suhr, Alane; Nivre, Joakim
-(Original treebank contributors: Quirmbach-Brundage, Yvonne; LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)

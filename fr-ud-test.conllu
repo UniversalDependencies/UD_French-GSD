@@ -164,8 +164,8 @@
 
 # sentid: fr-ud-test_00005
 # sentence-text: Et pourtant, lors de sa première visite en Afrique subsaharienne, l'été 2007, il montre les dents dans un discours humiliant pour les Africains, prononcé à l'Université Cheikh Anta Diop de Dakar.
-1	Et	_	CONJ	_	_	2	mwe	_	_
-2	pourtant	_	ADV	_	_	18	advmod	_	_
+1	Et	_	CONJ	_	_	18	advmod	_	_
+2	pourtant	_	ADV	_	_	1	mwe	_	_
 3	,	_	PUNCT	_	_	18	punct	_	_
 4	lors	_	ADV	_	_	8	case	_	_
 5	de	_	ADP	_	_	4	mwe	_	_
@@ -227,8 +227,8 @@
 5	son	_	DET	_	_	6	nmod:poss	_	_
 6	nom	_	NOUN	_	_	3	dobj	_	_
 7	,	_	PUNCT	_	_	3	punct	_	_
-8	parce	_	ADV	_	_	9	mwe	_	_
-9	que	_	SCONJ	_	_	15	mark	_	_
+8	parce	_	ADV	_	_	15	mark	_	_
+9	que	_	SCONJ	_	_	8	mwe	_	_
 10	depuis	_	ADP	_	_	12	case	_	_
 11	les	_	DET	_	_	12	det	_	_
 12	institutions	_	NOUN	_	_	15	nmod	_	_
@@ -292,8 +292,8 @@
 33	toute	_	DET	_	_	34	det	_	_
 34	sécurité	_	NOUN	_	_	25	nmod	_	_
 35	,	_	PUNCT	_	_	6	punct	_	_
-36	parce	_	ADV	_	_	37	mwe	_	_
-37	que	_	SCONJ	_	_	47	mark	_	_
+36	parce	_	ADV	_	_	47	mark	_	_
+37	que	_	SCONJ	_	_	36	mwe	_	_
 38	leur	_	DET	_	_	39	nmod:poss	_	_
 39	coeur	_	NOUN	_	_	47	nsubj	_	_
 40	serait	_	VERB	_	_	47	cop	_	_
@@ -775,8 +775,8 @@
 19	constitutionnel	_	ADJ	_	_	18	amod	_	_
 20	et	_	CONJ	_	_	13	cc	_	_
 21	,	_	PUNCT	_	_	13	punct	_	_
-22	pour	_	ADP	_	_	23	mwe	_	_
-23	autant	_	ADV	_	_	13	advmod	_	_
+22	pour	_	ADP	_	_	13	advmod	_	_
+23	autant	_	ADV	_	_	22	mwe	_	_
 24	,	_	PUNCT	_	_	13	punct	_	_
 25	ne	_	PART	_	_	26	neg	_	_
 26	compte	_	VERB	_	_	13	conj	_	_
@@ -1095,9 +1095,9 @@
 10	et	_	CONJ	_	_	9	cc	_	_
 11	a	_	AUX	_	_	12	aux	_	_
 12	touché	_	VERB	_	_	9	conj	_	_
-13	pas	_	ADV	_	_	14	mwe	_	_
-14	moins	_	ADV	_	_	16	advmod	_	_
-15	de	_	ADP	_	_	14	mwe	_	_
+13	pas	_	ADV	_	_	16	advmod	_	_
+14	moins	_	ADV	_	_	13	mwe	_	_
+15	de	_	ADP	_	_	13	mwe	_	_
 16	174	_	NUM	_	_	17	nummod	_	_
 17	sites	_	NOUN	_	_	12	nsubj	_	_
 18	appartenant	_	VERB	_	_	17	acl	_	_
@@ -1542,8 +1542,8 @@
 39	Sahara	_	PROPN	_	_	35	nmod	_	_
 40	occidental	_	ADJ	_	_	39	amod	_	_
 41	,	_	PUNCT	_	_	25	punct	_	_
-42	parce	_	ADV	_	_	43	mwe	_	_
-43	qu'	_	SCONJ	_	_	47	mark	_	_
+42	parce	_	ADV	_	_	47	mark	_	_
+43	qu'	_	SCONJ	_	_	42	mwe	_	_
 44	ils	_	PRON	_	_	47	nsubj	_	_
 45	étaient	_	VERB	_	_	47	cop	_	_
 46	des	_	DET	_	_	47	det	_	_
@@ -1567,10 +1567,10 @@
 
 # sentid: fr-ud-test_00059
 # sentence-text: A chaque fois qu'il sent la pression, le Makhzen appelle quelqu'un à son secours.
-1	A	_	ADP	_	_	3	mwe	_	_
-2	chaque	_	DET	_	_	3	mwe	_	_
-3	fois	_	NOUN	_	_	6	mark	_	_
-4	qu'	_	SCONJ	_	_	3	mwe	_	_
+1	A	_	ADP	_	_	2	mwe	_	_
+2	chaque	_	DET	_	_	6	mark	_	_
+3	fois	_	NOUN	_	_	2	mwe	_	_
+4	qu'	_	SCONJ	_	_	2	mwe	_	_
 5	il	_	PRON	_	_	6	nsubj	_	_
 6	sent	_	VERB	_	_	12	advcl	_	_
 7	la	_	DET	_	_	8	det	_	_
@@ -1781,9 +1781,9 @@
 28	en	_	ADP	_	_	30	mark	_	_
 29	les	_	PRON	_	_	30	dobj	_	_
 30	agressant	_	VERB	_	_	17	advcl	_	_
-31	à	_	ADP	_	_	32	mwe	_	_
-32	propos	_	NOUN	_	_	35	case	_	_
-33	d'	_	ADP	_	_	32	mwe	_	_
+31	à	_	ADP	_	_	35	case	_	_
+32	propos	_	NOUN	_	_	31	mwe	_	_
+33	d'	_	ADP	_	_	31	mwe	_	_
 34	un	_	DET	_	_	35	det	_	_
 35	match	_	NOUN	_	_	30	nmod	_	_
 36	de	_	ADP	_	_	37	case	_	_
@@ -1959,9 +1959,9 @@
 11	l'	_	PRON	_	_	12	dobj	_	_
 12	accuser	_	VERB	_	_	8	acl	_	_
 13	,	_	PUNCT	_	_	5	punct	_	_
-14	en	_	ADP	_	_	15	mwe	_	_
-15	tant	_	ADV	_	_	17	case	_	_
-16	que	_	SCONJ	_	_	15	mwe	_	_
+14	en	_	ADP	_	_	17	case	_	_
+15	tant	_	ADV	_	_	14	mwe	_	_
+16	que	_	SCONJ	_	_	14	mwe	_	_
 17	premier	_	ADJ	_	_	18	amod	_	_
 18	opérateur	_	NOUN	_	_	12	nmod	_	_
 19-20	du	_	_	_	_	_	_	_	_
@@ -2040,8 +2040,8 @@
 12	devient	_	VERB	_	_	0	root	_	_
 13	instantanément	_	ADV	_	_	12	advmod	_	_
 14	et	_	CONJ	_	_	13	cc	_	_
-15	de	_	ADP	_	_	16	mwe	_	_
-16	facto	_	NOUN	_	_	13	conj	_	_
+15	de	_	ADP	_	_	13	conj	_	_
+16	facto	_	NOUN	_	_	15	mwe	_	_
 17	,	_	PUNCT	_	_	12	punct	_	_
 18	libre	_	ADJ	_	_	12	xcomp	_	_
 19	.	_	PUNCT	_	_	12	punct	_	_
@@ -2274,8 +2274,8 @@
 
 # sentid: fr-ud-test_00081
 # sentence-text: Tout en estimant que « le Maroc est sous protectorat français », au vu des aides militaires de cette puissance au colonialisme marocain, il a rappelé la position de la France au Conseil de sécurité de l'ONU, en opposant son Veto à l'élargissement des missions de la Minurso pour englober la surveillance et le contrôle des droits de l'homme dans les territoires sahraouis.
-1	Tout	_	ADV	_	_	2	mwe	_	_
-2	en	_	ADP	_	_	3	mark	_	_
+1	Tout	_	ADV	_	_	3	mark	_	_
+2	en	_	ADP	_	_	1	mwe	_	_
 3	estimant	_	VERB	_	_	31	advcl	_	_
 4	que	_	SCONJ	_	_	8	mark	_	_
 5	«	_	PUNCT	_	_	8	punct	_	_
@@ -2757,8 +2757,8 @@
 # sentence-text: Il a en outre exprimé la volonté de son pays de renforcer et consolider les relations bilatérales entre les deux pays dans l'avenir.
 1	Il	_	PRON	_	_	5	nsubj	_	_
 2	a	_	AUX	_	_	5	aux	_	_
-3	en	_	ADP	_	_	4	mwe	_	_
-4	outre	_	ADV	_	_	5	advmod	_	_
+3	en	_	ADP	_	_	5	advmod	_	_
+4	outre	_	ADV	_	_	3	mwe	_	_
 5	exprimé	_	VERB	_	_	0	root	_	_
 6	la	_	DET	_	_	7	det	_	_
 7	volonté	_	NOUN	_	_	5	dobj	_	_
@@ -2836,9 +2836,9 @@
 
 # sentid: fr-ud-test_00096
 # sentence-text: Jusqu'à quand la France officielle maintiendra-t-elle sa préférence pour la protection des agresseurs des droits de l'homme ?
-1	Jusqu'	_	ADP	_	_	3	mwe	_	_
-2	à	_	ADP	_	_	3	mwe	_	_
-3	quand	_	SCONJ	_	_	7	advmod	_	_
+1	Jusqu'	_	ADP	_	_	2	mwe	_	_
+2	à	_	ADP	_	_	7	advmod	_	_
+3	quand	_	SCONJ	_	_	2	mwe	_	_
 4	la	_	DET	_	_	5	det	_	_
 5	France	_	PROPN	_	_	7	nsubj	_	_
 6	officielle	_	ADJ	_	_	5	amod	_	_
@@ -2915,8 +2915,8 @@
 37	la	_	DET	_	_	38	det	_	_
 38	France	_	PROPN	_	_	26	appos	_	_
 39	en	_	ADP	_	_	38	case	_	_
-40	l'	_	DET	_	_	41	mwe	_	_
-41	occurrence	_	NOUN	_	_	39	mwe	_	_
+40	l'	_	DET	_	_	39	mwe	_	_
+41	occurrence	_	NOUN	_	_	40	mwe	_	_
 42	.	_	PUNCT	_	_	3	punct	_	_
 
 # sentid: fr-ud-test_00099
@@ -3753,8 +3753,8 @@
 30	avec	_	ADP	_	_	31	case	_	_
 31	passion	_	NOUN	_	_	26	nmod	_	_
 32	,	_	PUNCT	_	_	24	punct	_	_
-33	tout	_	ADV	_	_	34	mwe	_	_
-34	en	_	ADP	_	_	35	mark	_	_
+33	tout	_	ADV	_	_	35	mark	_	_
+34	en	_	ADP	_	_	33	mwe	_	_
 35	participant	_	VERB	_	_	24	advcl	_	_
 36	en	_	ADP	_	_	37	case	_	_
 37	nombre	_	NOUN	_	_	35	nmod	_	_
@@ -3957,8 +3957,8 @@
 
 # sentid: fr-ud-test_00130
 # sentence-text: Pour autant, nous avions tranché.
-1	Pour	_	ADP	_	_	2	mwe	_	_
-2	autant	_	ADV	_	_	6	advmod	_	_
+1	Pour	_	ADP	_	_	6	advmod	_	_
+2	autant	_	ADV	_	_	1	mwe	_	_
 3	,	_	PUNCT	_	_	6	punct	_	_
 4	nous	_	PRON	_	_	6	nsubj	_	_
 5	avions	_	AUX	_	_	6	aux	_	_
@@ -3983,9 +3983,9 @@
 14	ayant	_	AUX	_	_	15	aux	_	_
 15	disputé	_	VERB	_	_	13	acl	_	_
 16-17	au	_	_	_	_	_	_	_	_
-16	à	_	ADP	_	_	18	mwe	_	_
-17	le	_	DET	_	_	18	det	_	_
-18	moins	_	ADV	_	_	19	advmod	_	_
+16	à	_	ADP	_	_	19	advmod	_	_
+17	le	_	DET	_	_	16	det	_	_
+18	moins	_	ADV	_	_	16	mwe	_	_
 19	20	_	NUM	_	_	20	nummod	_	_
 20	matches	_	NOUN	_	_	15	dobj	_	_
 21	cette	_	DET	_	_	22	det	_	_
@@ -4099,10 +4099,10 @@
 26	,	_	PUNCT	_	_	22	punct	_	_
 27	qui	_	PRON	_	_	28	nsubj	_	_
 28	perdent	_	VERB	_	_	22	acl:relcl	_	_
-29	de	_	ADP	_	_	30	mwe	_	_
-30	plus	_	ADV	_	_	28	advmod	_	_
-31	en	_	ADP	_	_	30	mwe	_	_
-32	plus	_	ADV	_	_	30	mwe	_	_
+29	de	_	ADP	_	_	28	advmod	_	_
+30	plus	_	ADV	_	_	29	mwe	_	_
+31	en	_	ADP	_	_	29	mwe	_	_
+32	plus	_	ADV	_	_	29	mwe	_	_
 33	pied	_	NOUN	_	_	28	dobj	_	_
 34	face	_	NOUN	_	_	37	case	_	_
 35-36	au	_	_	_	_	_	_	_	_
@@ -4120,14 +4120,14 @@
 5	personnage	_	NOUN	_	_	3	dobj	_	_
 6	très	_	ADV	_	_	7	advmod	_	_
 7	absent	_	ADJ	_	_	5	amod	_	_
-8	tout	_	ADV	_	_	11	mwe	_	_
+8	tout	_	ADV	_	_	9	mwe	_	_
 9-10	au	_	_	_	_	_	_	_	_
-9	à	_	ADP	_	_	11	mwe	_	_
-10	le	_	DET	_	_	11	det	_	_
-11	long	_	NOUN	_	_	14	case	_	_
+9	à	_	ADP	_	_	14	case	_	_
+10	le	_	DET	_	_	9	det	_	_
+11	long	_	NOUN	_	_	9	mwe	_	_
 12-13	du	_	_	_	_	_	_	_	_
-12	de	_	ADP	_	_	11	mwe	_	_
-13	le	_	DET	_	_	11	det	_	_
+12	de	_	ADP	_	_	9	mwe	_	_
+13	le	_	DET	_	_	9	det	_	_
 14	roman	_	NOUN	_	_	7	nmod	_	_
 15	,	_	PUNCT	_	_	5	punct	_	_
 16	le	_	DET	_	_	18	det	_	_
@@ -4260,8 +4260,8 @@
 3	ces	_	DET	_	_	4	det	_	_
 4	cadres	_	NOUN	_	_	15	nsubj	_	_
 5	,	_	PUNCT	_	_	15	punct	_	_
-6	de	_	ADP	_	_	7	mwe	_	_
-7	par	_	ADP	_	_	9	case	_	_
+6	de	_	ADP	_	_	9	case	_	_
+7	par	_	ADP	_	_	6	mwe	_	_
 8	leur	_	DET	_	_	9	nmod:poss	_	_
 9	clarté	_	NOUN	_	_	15	nmod	_	_
 10	et	_	CONJ	_	_	9	cc	_	_
@@ -4330,8 +4330,8 @@
 17-18	s'éclatera	_	_	_	_	_	_	_	_
 17	s'	_	PRON	_	_	18	dobj	_	_
 18	éclatera	_	VERB	_	_	4	ccomp	_	_
-19	un	_	DET	_	_	20	mwe	_	_
-20	peu	_	ADV	_	_	21	advmod	_	_
+19	un	_	DET	_	_	21	advmod	_	_
+20	peu	_	ADV	_	_	19	mwe	_	_
 21	plus	_	ADV	_	_	18	advmod	_	_
 22	"	_	PUNCT	_	_	18	punct	_	_
 23	,	_	PUNCT	_	_	25	punct	_	_
@@ -4519,15 +4519,15 @@
 10	un	_	DET	_	_	11	det	_	_
 11	tournoi	_	NOUN	_	_	8	dobj	_	_
 12	réunissant	_	VERB	_	_	11	acl	_	_
-13	les	_	DET	_	_	17	det	_	_
-14	moins	_	ADV	_	_	17	mwe	_	_
-15	de	_	ADP	_	_	17	mwe	_	_
-16	15	_	NUM	_	_	17	nummod	_	_
-17	ans	_	NOUN	_	_	12	dobj	_	_
+13	les	_	DET	_	_	15	det	_	_
+14	moins	_	ADV	_	_	15	mwe	_	_
+15	de	_	ADP	_	_	12	dobj	_	_
+16	15	_	NUM	_	_	15	nummod	_	_
+17	ans	_	NOUN	_	_	15	mwe	_	_
 18-19	des	_	_	_	_	_	_	_	_
 18	de	_	ADP	_	_	20	case	_	_
 19	les	_	DET	_	_	20	det	_	_
-20	centres	_	NOUN	_	_	17	nmod	_	_
+20	centres	_	NOUN	_	_	15	nmod	_	_
 21	de	_	ADP	_	_	22	case	_	_
 22	formation	_	NOUN	_	_	20	nmod	_	_
 23	.	_	PUNCT	_	_	8	punct	_	_
@@ -4560,10 +4560,10 @@
 23	les	_	DET	_	_	24	det	_	_
 24	vétérans	_	NOUN	_	_	16	nmod	_	_
 25	,	_	PUNCT	_	_	5	punct	_	_
-26	de	_	ADP	_	_	27	mwe	_	_
-27	plus	_	ADV	_	_	30	advmod	_	_
-28	en	_	ADP	_	_	27	mwe	_	_
-29	plus	_	ADV	_	_	27	mwe	_	_
+26	de	_	ADP	_	_	30	advmod	_	_
+27	plus	_	ADV	_	_	26	mwe	_	_
+28	en	_	ADP	_	_	26	mwe	_	_
+29	plus	_	ADV	_	_	26	mwe	_	_
 30	motivés	_	VERB	_	_	24	acl	_	_
 31	par	_	ADP	_	_	33	case	_	_
 32	la	_	DET	_	_	33	det	_	_
@@ -4963,8 +4963,8 @@
 3	20	_	NUM	_	_	4	nummod	_	_
 4	personnes	_	NOUN	_	_	9	nsubjpass	_	_
 5	ont	_	AUX	_	_	9	aux	_	_
-6	en	_	ADP	_	_	7	mwe	_	_
-7	outre	_	ADV	_	_	9	advmod	_	_
+6	en	_	ADP	_	_	9	advmod	_	_
+7	outre	_	ADV	_	_	6	mwe	_	_
 8	été	_	AUX	_	_	9	auxpass	_	_
 9	blessées	_	VERB	_	_	0	root	_	_
 10	,	_	PUNCT	_	_	9	punct	_	_
@@ -5060,8 +5060,8 @@
 1	Le	_	DET	_	_	2	det	_	_
 2	ton	_	NOUN	_	_	7	nsubjpass	_	_
 3	a	_	AUX	_	_	7	aux	_	_
-4	d'	_	ADP	_	_	5	mwe	_	_
-5	ailleurs	_	ADV	_	_	7	advmod	_	_
+4	d'	_	ADP	_	_	7	advmod	_	_
+5	ailleurs	_	ADV	_	_	4	mwe	_	_
 6	été	_	AUX	_	_	7	auxpass	_	_
 7	donné	_	VERB	_	_	0	root	_	_
 8	hier	_	ADV	_	_	7	advmod	_	_
@@ -5112,8 +5112,8 @@
 
 # sentid: fr-ud-test_00170
 # sentence-text: De plus, on pourra aussi trouver une nouveauté avec le Salon du jeu en bois.
-1	De	_	ADP	_	_	2	mwe	_	_
-2	plus	_	ADV	_	_	7	advmod	_	_
+1	De	_	ADP	_	_	7	advmod	_	_
+2	plus	_	ADV	_	_	1	mwe	_	_
 3	,	_	PUNCT	_	_	7	punct	_	_
 4	on	_	PRON	_	_	7	nsubj	_	_
 5	pourra	_	AUX	_	_	7	aux	_	_
@@ -5459,8 +5459,8 @@
 7	pandémie	_	NOUN	_	_	13	nsubj	_	_
 8	a	_	AUX	_	_	13	aux	_	_
 9	été	_	VERB	_	_	13	cop	_	_
-10	un	_	DET	_	_	11	mwe	_	_
-11	peu	_	ADV	_	_	12	advmod	_	_
+10	un	_	DET	_	_	12	advmod	_	_
+11	peu	_	ADV	_	_	10	mwe	_	_
 12	moins	_	ADV	_	_	13	advmod	_	_
 13	mortelle	_	ADJ	_	_	0	root	_	_
 14	que	_	SCONJ	_	_	17	mark	_	_
@@ -5513,9 +5513,9 @@
 10	engagé	_	VERB	_	_	0	root	_	_
 11	un	_	DET	_	_	12	det	_	_
 12	avocat	_	NOUN	_	_	10	dobj	_	_
-13	très	_	ADV	_	_	15	advmod	_	_
-14	en	_	ADP	_	_	15	mwe	_	_
-15	vue	_	NOUN	_	_	12	amod	_	_
+13	très	_	ADV	_	_	14	advmod	_	_
+14	en	_	ADP	_	_	12	amod	_	_
+15	vue	_	NOUN	_	_	14	mwe	_	_
 16	de	_	ADP	_	_	17	case	_	_
 17	Las	_	PROPN	_	_	12	nmod	_	_
 18	Vegas	_	PROPN	_	_	17	name	_	_
@@ -6048,9 +6048,9 @@
 17	saurai	_	VERB	_	_	3	parataxis	_	_
 18	que	_	SCONJ	_	_	17	expl	_	_
 19	déconseiller	_	VERB	_	_	17	xcomp	_	_
-20	en	_	ADP	_	_	22	mwe	_	_
-21	tout	_	DET	_	_	22	mwe	_	_
-22	cas	_	NOUN	_	_	19	advmod	_	_
+20	en	_	ADP	_	_	21	mwe	_	_
+21	tout	_	DET	_	_	19	advmod	_	_
+22	cas	_	NOUN	_	_	21	mwe	_	_
 23	pour	_	ADP	_	_	27	case	_	_
 24	plus	_	ADV	_	_	26	advmod	_	_
 25	de	_	ADP	_	_	24	mwe	_	_
@@ -6211,29 +6211,29 @@
 1-2	Au	_	_	_	_	_	_	_	_
 1	à	_	ADP	_	_	3	case	_	_
 2	le	_	DET	_	_	3	det	_	_
-3	menu	_	NOUN	_	_	11	nmod	_	_
-4	,	_	PUNCT	_	_	11	punct	_	_
+3	menu	_	NOUN	_	_	10	nmod	_	_
+4	,	_	PUNCT	_	_	10	punct	_	_
 5	en	_	ADP	_	_	6	case	_	_
-6	entrée	_	NOUN	_	_	11	nmod	_	_
-7	,	_	PUNCT	_	_	11	punct	_	_
-8	du	_	DET	_	_	11	det	_	_
-9	pas	_	ADV	_	_	11	mwe	_	_
-10	grand	_	ADJ	_	_	11	mwe	_	_
-11	chose	_	NOUN	_	_	0	root	_	_
-12	,	_	PUNCT	_	_	11	punct	_	_
+6	entrée	_	NOUN	_	_	10	nmod	_	_
+7	,	_	PUNCT	_	_	10	punct	_	_
+8	du	_	DET	_	_	10	det	_	_
+9	pas	_	ADV	_	_	10	mwe	_	_
+10	grand	_	ADJ	_	_	0	root	_	_
+11	chose	_	NOUN	_	_	10	mwe	_	_
+12	,	_	PUNCT	_	_	10	punct	_	_
 13	avec	_	ADP	_	_	16	case	_	_
 14	beaucoup	_	DET	_	_	16	det	_	_
 15	de	_	ADP	_	_	14	mwe	_	_
-16	salade	_	NOUN	_	_	11	nmod	_	_
+16	salade	_	NOUN	_	_	10	nmod	_	_
 17	autour	_	ADV	_	_	16	advmod	_	_
-18	,	_	PUNCT	_	_	11	punct	_	_
+18	,	_	PUNCT	_	_	10	punct	_	_
 19	et	_	CONJ	_	_	16	cc	_	_
 20	une	_	DET	_	_	21	det	_	_
 21	giclée	_	NOUN	_	_	16	conj	_	_
 22	de	_	ADP	_	_	23	case	_	_
 23	vinaigre	_	NOUN	_	_	21	nmod	_	_
 24	balsamique	_	ADJ	_	_	23	amod	_	_
-25	.	_	PUNCT	_	_	11	punct	_	_
+25	.	_	PUNCT	_	_	10	punct	_	_
 
 # sentid: fr-ud-test_00208
 # sentence-text: Au sortir d'une séance de cinéma, nous avons découvert dans un quartier vivant, une adresse à retenir.
@@ -6627,8 +6627,8 @@
 
 # sentid: fr-ud-test_00228
 # sentence-text: En plus il est gentil, à l'écoute et on voit qu'il aime vraiment les animaux.
-1	En	_	ADP	_	_	2	mwe	_	_
-2	plus	_	ADV	_	_	5	advmod	_	_
+1	En	_	ADP	_	_	5	advmod	_	_
+2	plus	_	ADV	_	_	1	mwe	_	_
 3	il	_	PRON	_	_	5	nsubj	_	_
 4	est	_	VERB	_	_	5	cop	_	_
 5	gentil	_	ADJ	_	_	0	root	_	_
@@ -6733,8 +6733,8 @@
 1	Génial	_	ADJ	_	_	0	root	_	_
 2	,	_	PUNCT	_	_	1	punct	_	_
 3	et	_	CONJ	_	_	1	cc	_	_
-4	en	_	ADP	_	_	5	mwe	_	_
-5	plus	_	ADV	_	_	8	advmod	_	_
+4	en	_	ADP	_	_	8	advmod	_	_
+5	plus	_	ADV	_	_	4	mwe	_	_
 6	c'	_	PRON	_	_	8	nsubj	_	_
 7	est	_	VERB	_	_	8	cop	_	_
 8	rapide	_	ADJ	_	_	1	conj	_	_
@@ -6834,8 +6834,8 @@
 22	importe	_	VERB	_	_	4	parataxis	_	_
 23	quoi	_	PRON	_	_	22	mwe	_	_
 24	...	_	PUNCT	_	_	4	punct	_	_
-25	Par	_	ADP	_	_	26	mwe	_	_
-26	contre	_	ADP	_	_	30	advmod	_	_
+25	Par	_	ADP	_	_	30	advmod	_	_
+26	contre	_	ADP	_	_	25	mwe	_	_
 27	,	_	PUNCT	_	_	30	punct	_	_
 28	ils	_	PRON	_	_	30	nsubj	_	_
 29	sont	_	VERB	_	_	30	cop	_	_
@@ -7143,8 +7143,8 @@
 27	€	_	NOUN	_	_	23	dobj	_	_
 28	plus	_	ADV	_	_	29	advmod	_	_
 29	cher	_	ADJ	_	_	27	amod	_	_
-30	d'	_	ADP	_	_	31	mwe	_	_
-31	ailleurs	_	ADV	_	_	23	advmod	_	_
+30	d'	_	ADP	_	_	23	advmod	_	_
+31	ailleurs	_	ADV	_	_	30	mwe	_	_
 32	.	_	PUNCT	_	_	10	punct	_	_
 
 # sentid: fr-ud-test_00254
@@ -7439,8 +7439,8 @@
 18	meilleures	_	ADJ	_	_	19	amod	_	_
 19	conditions	_	NOUN	_	_	10	nmod	_	_
 20	financières	_	ADJ	_	_	19	amod	_	_
-21	tout	_	ADV	_	_	22	mwe	_	_
-22	en	_	ADP	_	_	23	mark	_	_
+21	tout	_	ADV	_	_	23	mark	_	_
+22	en	_	ADP	_	_	21	mwe	_	_
 23	préservant	_	VERB	_	_	10	advcl	_	_
 24	votre	_	DET	_	_	25	nmod:poss	_	_
 25	image	_	NOUN	_	_	23	dobj	_	_
@@ -7513,8 +7513,8 @@
 
 # sentid: fr-ud-test_00272
 # sentence-text: Par contre, si vous êtes nombreux passez votre chemin c'est relativement étroit !
-1	Par	_	ADP	_	_	2	mwe	_	_
-2	contre	_	ADP	_	_	8	advmod	_	_
+1	Par	_	ADP	_	_	8	advmod	_	_
+2	contre	_	ADP	_	_	1	mwe	_	_
 3	,	_	PUNCT	_	_	8	punct	_	_
 4	si	_	SCONJ	_	_	7	mark	_	_
 5	vous	_	PRON	_	_	7	nsubj	_	_
@@ -7531,8 +7531,8 @@
 
 # sentid: fr-ud-test_00273
 # sentence-text: Par contre l'accueil est impeccable et très chaleureux, la propreté parfaite et le petit jardin très reposant...
-1	Par	_	ADP	_	_	2	mwe	_	_
-2	contre	_	ADP	_	_	6	advmod	_	_
+1	Par	_	ADP	_	_	6	advmod	_	_
+2	contre	_	ADP	_	_	1	mwe	_	_
 3	l'	_	DET	_	_	4	det	_	_
 4	accueil	_	NOUN	_	_	6	nsubj	_	_
 5	est	_	VERB	_	_	6	cop	_	_
@@ -7671,8 +7671,8 @@
 53	quelque	_	DET	_	_	54	mwe	_	_
 54	chose	_	NOUN	_	_	32	conj	_	_
 55	d'	_	INTJ	_	_	59	case	_	_
-56	un	_	DET	_	_	57	mwe	_	_
-57	peu	_	ADV	_	_	58	advmod	_	_
+56	un	_	DET	_	_	58	advmod	_	_
+57	peu	_	ADV	_	_	56	mwe	_	_
 58	plus	_	ADV	_	_	59	advmod	_	_
 59	classique	_	ADJ	_	_	54	amod	_	_
 60	.	_	PUNCT	_	_	7	punct	_	_
@@ -7849,8 +7849,8 @@
 1	Temps	_	NOUN	_	_	0	root	_	_
 2	d'	_	ADP	_	_	3	case	_	_
 3	attente	_	NOUN	_	_	1	nmod	_	_
-4	un	_	DET	_	_	5	mwe	_	_
-5	peu	_	ADV	_	_	6	advmod	_	_
+4	un	_	DET	_	_	6	advmod	_	_
+5	peu	_	ADV	_	_	4	mwe	_	_
 6	long	_	ADJ	_	_	1	amod	_	_
 7	mais	_	CONJ	_	_	1	cc	_	_
 8	peut-être	_	ADV	_	_	17	advmod	_	_
@@ -7916,8 +7916,8 @@
 7	commentaire	_	NOUN	_	_	9	nsubj	_	_
 8	pourra	_	AUX	_	_	9	aux	_	_
 9	prouver	_	VERB	_	_	4	ccomp	_	_
-10	un	_	DET	_	_	11	mwe	_	_
-11	peu	_	ADV	_	_	9	advmod	_	_
+10	un	_	DET	_	_	9	advmod	_	_
+11	peu	_	ADV	_	_	10	mwe	_	_
 12	que	_	SCONJ	_	_	16	mark	_	_
 13	Mendes	_	PROPN	_	_	16	nsubj	_	_
 14	est	_	VERB	_	_	16	cop	_	_

@@ -15,7 +15,7 @@
 # sentence-text: Les études durent six ans mais leur contenu diffère donc selon les Facultés.
 1	Les	_	DET	_	_	2	det	_	_
 2	études	_	NOUN	_	_	3	nsubj	_	_
-3	durent	_	VERB	_	_	0	root	_	_
+3	durent	durer	VERB	_	_	0	root	_	_
 4	six	_	NUM	_	_	5	nummod	_	_
 5	ans	_	NOUN	_	_	3	dobj	_	_
 6	mais	_	CONJ	_	_	3	cc	_	_
@@ -164,7 +164,7 @@
 7	tueurs	_	NOUN	_	_	4	nmod	_	_
 8	à	_	ADP	_	_	10	case	_	_
 9	ses	_	DET	_	_	10	nmod:poss	_	_
-10	trousses	_	NOUN	_	_	4	nmod	_	_
+10	trousses	trousses	NOUN	_	_	4	nmod	_	_
 11	.	_	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-dev_00008
@@ -206,7 +206,7 @@
 5	fait	_	VERB	_	_	0	root	_	_
 6	encore	_	ADV	_	_	8	advmod	_	_
 7	une	_	DET	_	_	8	det	_	_
-8	fois	_	NOUN	_	_	5	nmod	_	_
+8	fois	fois	NOUN	_	_	5	nmod	_	_
 9	l'	_	DET	_	_	10	det	_	_
 10	objet	_	NOUN	_	_	5	dobj	_	_
 11	de	_	ADP	_	_	13	case	_	_
@@ -535,7 +535,7 @@
 19	pour	_	ADP	_	_	20	mark	_	_
 20	terminer	_	VERB	_	_	18	advcl	_	_
 21	les	_	DET	_	_	22	det	_	_
-22	mémoires	_	NOUN	_	_	20	dobj	_	_
+22	mémoires	mémoires	NOUN	_	_	20	dobj	_	_
 23	d'	_	ADP	_	_	27	case	_	_
 24	un	_	DET	_	_	27	det	_	_
 25	ancien	_	ADJ	_	_	27	amod	_	_
@@ -854,7 +854,7 @@
 13	dure	_	ADJ	_	_	3	acl:relcl	_	_
 14	,	_	PUNCT	_	_	18	punct	_	_
 15	il	_	PRON	_	_	18	nsubj	_	_
-16	faut	_	AUX	_	_	18	aux	_	_
+16	faut	falloir	AUX	_	_	18	aux	_	_
 17	s'	_	PRON	_	_	18	dobj	_	_
 18	attendre	_	VERB	_	_	0	root	_	_
 19	à	_	ADP	_	_	23	case	_	_
@@ -1022,7 +1022,7 @@
 # sentence-text: Une autre fois, il va organiser une farce au capitaine Sig Hansen en faisant jeter un mannequin déguisé en matelot depuis le toit de la timonerie.
 1	Une	_	DET	_	_	3	det	_	_
 2	autre	_	ADJ	_	_	3	amod	_	_
-3	fois	_	NOUN	_	_	7	nmod	_	_
+3	fois	fois	NOUN	_	_	7	nmod	_	_
 4	,	_	PUNCT	_	_	3	punct	_	_
 5	il	_	PRON	_	_	7	nsubj	_	_
 6	va	_	AUX	_	_	7	aux	_	_
@@ -1130,7 +1130,7 @@
 21-22	au	_	_	_	_	_	_	_	_
 21	à	_	ADP	_	_	23	case	_	_
 22	le	_	DET	_	_	23	det	_	_
-23	cours	_	NOUN	_	_	20	nmod	_	_
+23	cours	cours	NOUN	_	_	20	nmod	_	_
 24	d'	_	ADP	_	_	27	case	_	_
 25	une	_	DET	_	_	27	det	_	_
 26	même	_	ADJ	_	_	27	amod	_	_
@@ -1272,7 +1272,7 @@
 9-10	au	_	_	_	_	_	_	_	_
 9	à	_	ADP	_	_	11	case	_	_
 10	le	_	DET	_	_	11	det	_	_
-11	cours	_	NOUN	_	_	8	nmod	_	_
+11	cours	cours	NOUN	_	_	8	nmod	_	_
 12	de	_	ADP	_	_	14	case	_	_
 13	deux	_	NUM	_	_	14	nummod	_	_
 14	matchs	_	NOUN	_	_	11	nmod	_	_
@@ -1628,7 +1628,7 @@
 # sentid: fr-ud-dev_00061
 # sentence-text: Nous sommes allés samedi soir (vers 23h) au HD de Saint Michel.
 1	Nous	_	PRON	_	_	3	nsubj	_	_
-2	sommes	_	AUX	_	_	3	aux	_	_
+2	sommes	être	AUX	_	_	3	aux	_	_
 3	allés	_	VERB	_	_	0	root	_	_
 4	samedi	_	NOUN	_	_	3	nmod	_	_
 5	soir	_	NOUN	_	_	4	nmod	_	_
@@ -1727,7 +1727,7 @@
 1	Il	_	PRON	_	_	4	nsubj	_	_
 2	est	_	VERB	_	_	4	cop	_	_
 3	le	_	DET	_	_	4	det	_	_
-4	fils	_	NOUN	_	_	0	root	_	_
+4	fils	fils	NOUN	_	_	0	root	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	_	ADP	_	_	13	case	_	_
 6	le	_	DET	_	_	13	det	_	_
@@ -2035,7 +2035,7 @@
 12	et	_	CONJ	_	_	11	cc	_	_
 13	juridiques	_	ADJ	_	_	11	conj	_	_
 14	déjà	_	ADV	_	_	15	advmod	_	_
-15	prises	_	VERB	_	_	10	acl	_	_
+15	prises	prendre	VERB	_	_	10	acl	_	_
 16	ou	_	CONJ	_	_	15	cc	_	_
 17	encours	_	NOUN	_	_	15	conj	_	_
 18-19	au	_	_	_	_	_	_	_	_
@@ -4082,7 +4082,7 @@
 8	Jour	_	NOUN	_	_	5	nmod	_	_
 9	qu'	_	PRON	_	_	11	dobj	_	_
 10	il	_	PRON	_	_	11	nsubj	_	_
-11	faut	_	VERB	_	_	5	acl:relcl	_	_
+11	faut	falloir	VERB	_	_	5	acl:relcl	_	_
 12	aller	_	VERB	_	_	11	xcomp	_	_
 13	:	_	PUNCT	_	_	5	punct	_	_
 14	on	_	PRON	_	_	15	nsubj	_	_
@@ -4146,7 +4146,7 @@
 # sentid: fr-ud-dev_00152
 # sentence-text: La seconde fille assiste à un match de football américain, dans lequel jouent Béatrice et Niels.
 1	La	_	DET	_	_	3	det	_	_
-2	seconde	_	ADJ	_	_	3	amod	_	_
+2	seconde	second	ADJ	_	_	3	amod	_	_
 3	fille	_	NOUN	_	_	4	nsubj	_	_
 4	assiste	_	VERB	_	_	0	root	_	_
 5	à	_	ADP	_	_	7	case	_	_
@@ -4355,7 +4355,7 @@
 9	Lancki	_	PROPN	_	_	8	appos	_	_
 10	par	_	ADP	_	_	12	case	_	_
 11	le	_	DET	_	_	12	det	_	_
-12	fils	_	NOUN	_	_	5	nmod	_	_
+12	fils	fils	NOUN	_	_	5	nmod	_	_
 13-14	du	_	_	_	_	_	_	_	_
 13	de	_	ADP	_	_	15	case	_	_
 14	le	_	DET	_	_	15	det	_	_
@@ -4629,8 +4629,8 @@
 3	il	_	PRON	_	_	4	nsubj	_	_
 4	abdiquera	_	VERB	_	_	25	advcl	_	_
 5	une	_	DET	_	_	7	det	_	_
-6	seconde	_	ADJ	_	_	7	amod	_	_
-7	fois	_	NOUN	_	_	4	nmod	_	_
+6	seconde	second	ADJ	_	_	7	amod	_	_
+7	fois	fois	NOUN	_	_	4	nmod	_	_
 8	,	_	PUNCT	_	_	25	punct	_	_
 9-10	au	_	_	_	_	_	_	_	_
 9	à	_	ADP	_	_	11	case	_	_
@@ -4680,7 +4680,7 @@
 12-13	du	_	_	_	_	_	_	_	_
 12	de	_	ADP	_	_	14	case	_	_
 13	le	_	DET	_	_	14	det	_	_
-14	fils	_	NOUN	_	_	11	nmod	_	_
+14	fils	fils	NOUN	_	_	11	nmod	_	_
 15	de	_	ADP	_	_	16	case	_	_
 16	Sarkozy	_	PROPN	_	_	14	nmod	_	_
 17	.	_	PUNCT	_	_	5	punct	_	_
@@ -5531,7 +5531,7 @@
 10	le	_	DET	_	_	11	det	_	_
 11	logiciel	_	NOUN	_	_	8	nmod	_	_
 12	--	_	PUNCT	_	_	13	punct	_	_
-13	mises	_	VERB	_	_	8	acl	_	_
+13	mises	mettre	VERB	_	_	8	acl	_	_
 14	sous	_	ADP	_	_	15	case	_	_
 15	licence	_	NOUN	_	_	13	nmod	_	_
 16	GPL	_	NOUN	_	_	15	appos	_	_
@@ -6648,7 +6648,7 @@
 8	)	_	PUNCT	_	_	7	punct	_	_
 9	et	_	CONJ	_	_	2	cc	_	_
 10	se	_	PRON	_	_	11	dobj	_	_
-11	vit	_	VERB	_	_	2	conj	_	_
+11	vit	voir	VERB	_	_	2	conj	_	_
 12	confier	_	VERB	_	_	11	xcomp	_	_
 13	le	_	DET	_	_	14	det	_	_
 14	commandement	_	NOUN	_	_	12	dobj	_	_
@@ -6791,7 +6791,7 @@
 14	tous	_	DET	_	_	16	det	_	_
 15	les	_	DET	_	_	16	det	_	_
 16	vols	_	NOUN	_	_	18	nsubjpass	_	_
-17	étaient	_	AUX	_	_	18	auxpass	_	_
+17	étaient	être	AUX	_	_	18	auxpass	_	_
 18	annulés	_	VERB	_	_	11	conj	_	_
 19	.	_	PUNCT	_	_	11	punct	_	_
 
@@ -7492,7 +7492,7 @@
 4	pour	_	ADP	_	_	7	case	_	_
 5	la	_	DET	_	_	7	det	_	_
 6	première	_	ADJ	_	_	7	amod	_	_
-7	fois	_	NOUN	_	_	3	nmod	_	_
+7	fois	fois	NOUN	_	_	3	nmod	_	_
 8	dans	_	ADP	_	_	3	case	_	_
 9	le	_	DET	_	_	8	dep	_	_
 10-11	du	_	_	_	_	_	_	_	_
@@ -7542,7 +7542,7 @@
 30	le	_	DET	_	_	31	det	_	_
 31	gaz	_	NOUN	_	_	28	nmod	_	_
 32	la	_	PRON	_	_	33	dobj	_	_
-33	tue	_	VERB	_	_	15	advcl	_	_
+33	tue	tuer	VERB	_	_	15	advcl	_	_
 34	chez	_	ADP	_	_	35	case	_	_
 35	elle	_	PRON	_	_	33	nmod	_	_
 36	?	_	PUNCT	_	_	33	punct	_	_
@@ -7831,7 +7831,7 @@
 
 # sentid: fr-ud-dev_00280
 # sentence-text: Fils de l'usurpateur Schahr-Barâz, il tente de s'imposer en 630/631 après la destitution de la reine Bûrândûkht mais il doit faire face aux candidats « sassanides légitimes » au trône, Khosro III et Péroz II.
-1	Fils	_	NOUN	_	_	7	appos	_	_
+1	Fils	fils	NOUN	_	_	7	appos	_	_
 2	de	_	ADP	_	_	4	case	_	_
 3	l'	_	DET	_	_	4	det	_	_
 4	usurpateur	_	NOUN	_	_	1	nmod	_	_
@@ -10022,7 +10022,7 @@
 15-16	au	_	_	_	_	_	_	_	_
 15	à	_	ADP	_	_	17	case	_	_
 16	le	_	DET	_	_	17	det	_	_
-17	cours	_	NOUN	_	_	11	nmod	_	_
+17	cours	cours	NOUN	_	_	11	nmod	_	_
 18	de	_	ADP	_	_	20	case	_	_
 19	la	_	DET	_	_	20	det	_	_
 20	saison	_	NOUN	_	_	17	nmod	_	_
@@ -10050,7 +10050,7 @@
 4	est	_	AUX	_	_	7	auxpass	_	_
 5	absolument	_	ADV	_	_	6	advmod	_	_
 6	pas	_	ADV	_	_	7	neg	_	_
-7	mise	_	VERB	_	_	0	root	_	_
+7	mise	mettre	VERB	_	_	0	root	_	_
 8	de	_	ADP	_	_	9	case	_	_
 9	coté	_	NOUN	_	_	7	nmod	_	_
 10	.	_	PUNCT	_	_	7	punct	_	_
@@ -10276,7 +10276,7 @@
 25	de	_	ADP	_	_	27	case	_	_
 26	la	_	DET	_	_	27	det	_	_
 27	tradition	_	NOUN	_	_	24	nmod	_	_
-28	hébraïque	_	ADJ	_	_	27	amod	_	_
+28	hébraïque	hébraïque	ADJ	_	_	27	amod	_	_
 29	et	_	CONJ	_	_	28	cc	_	_
 30	non	_	ADV	_	_	31	advmod	_	_
 31	pas	_	ADV	_	_	32	advmod	_	_
@@ -10836,7 +10836,7 @@
 15	l'	_	DET	_	_	16	det	_	_
 16	anglais	_	NOUN	_	_	10	conj	_	_
 17	comme	_	ADP	_	_	19	case	_	_
-18	seconde	_	ADJ	_	_	19	amod	_	_
+18	seconde	second	ADJ	_	_	19	amod	_	_
 19	langue	_	NOUN	_	_	16	nmod	_	_
 20	.	_	PUNCT	_	_	8	punct	_	_
 
@@ -11807,7 +11807,7 @@
 # sentid: fr-ud-dev_00429
 # sentence-text: Un vernis antibactérien présent sur toutes les surfaces externes limite aussi la contamination croisée.
 1	Un	_	DET	_	_	2	det	_	_
-2	vernis	_	NOUN	_	_	10	nsubj	_	_
+2	vernis	vernis	NOUN	_	_	10	nsubj	_	_
 3	antibactérien	_	ADJ	_	_	2	amod	_	_
 4	présent	_	ADJ	_	_	2	amod	_	_
 5	sur	_	ADP	_	_	8	case	_	_
@@ -12557,7 +12557,7 @@
 11	soit	_	VERB	_	_	15	cop	_	_
 12	à	_	ADP	_	_	14	mwe	_	_
 13	la	_	DET	_	_	14	mwe	_	_
-14	fois	_	NOUN	_	_	15	advmod	_	_
+14	fois	fois	NOUN	_	_	15	advmod	_	_
 15	souple	_	ADJ	_	_	9	acl:relcl	_	_
 16	pour	_	ADP	_	_	18	mark	_	_
 17	s'	_	PRON	_	_	18	dobj	_	_
@@ -13052,7 +13052,7 @@
 8	avons	_	AUX	_	_	10	aux	_	_
 9	tant	_	ADV	_	_	10	advmod	_	_
 10	bafoués	_	VERB	_	_	2	acl:relcl	_	_
-11	étaient	_	VERB	_	_	13	cop	_	_
+11	étaient	être	VERB	_	_	13	cop	_	_
 12	des	_	DET	_	_	13	det	_	_
 13	aigles	_	NOUN	_	_	0	root	_	_
 14	auprès	_	ADV	_	_	16	case	_	_
@@ -14393,7 +14393,7 @@
 3	il	_	PRON	_	_	4	nsubj	_	_
 4	remportera	_	VERB	_	_	0	root	_	_
 5	2	_	NUM	_	_	6	nummod	_	_
-6	fois	_	NOUN	_	_	4	nmod	_	_
+6	fois	fois	NOUN	_	_	4	nmod	_	_
 7	le	_	DET	_	_	8	det	_	_
 8	titre	_	NOUN	_	_	4	dobj	_	_
 9	poids-lourd	_	ADJ	_	_	8	appos	_	_
@@ -14402,7 +14402,7 @@
 12	IZW	_	PROPN	_	_	8	nmod	_	_
 13	et	_	CONJ	_	_	8	cc	_	_
 14	une	_	DET	_	_	15	det	_	_
-15	fois	_	NOUN	_	_	17	nmod	_	_
+15	fois	fois	NOUN	_	_	17	nmod	_	_
 16	le	_	DET	_	_	17	det	_	_
 17	titre	_	NOUN	_	_	8	conj	_	_
 18	par	_	ADP	_	_	19	case	_	_
@@ -14457,7 +14457,7 @@
 7	pour	_	ADP	_	_	10	case	_	_
 8	la	_	DET	_	_	10	det	_	_
 9	première	_	ADJ	_	_	10	amod	_	_
-10	fois	_	NOUN	_	_	6	nmod	_	_
+10	fois	fois	NOUN	_	_	6	nmod	_	_
 11	de	_	ADP	_	_	13	case	_	_
 12	son	_	DET	_	_	13	nmod:poss	_	_
 13	Histoire	_	NOUN	_	_	10	nmod	_	_
@@ -14542,7 +14542,7 @@
 2	ai	_	AUX	_	_	3	aux	_	_
 3	passé	_	VERB	_	_	0	root	_	_
 4	3	_	NUM	_	_	5	nummod	_	_
-5	mois	_	NOUN	_	_	3	dobj	_	_
+5	mois	mois	NOUN	_	_	3	dobj	_	_
 6	à	_	ADP	_	_	7	case	_	_
 7	Zoni	_	PROPN	_	_	3	nmod	_	_
 8	pendant	_	ADP	_	_	10	case	_	_
@@ -14804,7 +14804,7 @@
 25	robinet	_	NOUN	_	_	22	appos	_	_
 26	et	_	CONJ	_	_	25	cc	_	_
 27	quelques	_	DET	_	_	28	det	_	_
-28	fils	_	NOUN	_	_	25	conj	_	_
+28	fils	fil	NOUN	_	_	25	conj	_	_
 29	d'	_	ADP	_	_	30	case	_	_
 30	étanchéité	_	PROPN	_	_	28	nmod	_	_
 31	!	_	PUNCT	_	_	25	punct	_	_
@@ -15417,7 +15417,7 @@
 24	chanson	_	NOUN	_	_	27	nsubj	_	_
 25	de	_	ADP	_	_	26	case	_	_
 26	cabaret	_	PROPN	_	_	24	nmod	_	_
-27	vit	_	VERB	_	_	3	acl:relcl	_	_
+27	vit	voir	VERB	_	_	3	acl:relcl	_	_
 28	véritablement	_	ADV	_	_	27	advmod	_	_
 29	le	_	DET	_	_	30	det	_	_
 30	jour	_	NOUN	_	_	27	dobj	_	_
@@ -15960,7 +15960,7 @@
 23	resté	_	VERB	_	_	0	root	_	_
 24	dans	_	ADP	_	_	26	case	_	_
 25	les	_	DET	_	_	26	det	_	_
-26	mémoires	_	NOUN	_	_	23	nmod	_	_
+26	mémoires	mémoire	NOUN	_	_	23	nmod	_	_
 27	pour	_	ADP	_	_	29	mark	_	_
 28	avoir	_	AUX	_	_	29	aux	_	_
 29	pris	_	VERB	_	_	23	advcl	_	_
@@ -16154,7 +16154,7 @@
 15	)	_	PUNCT	_	_	14	punct	_	_
 16	,	_	PUNCT	_	_	19	punct	_	_
 17	il	_	PRON	_	_	19	nsubj	_	_
-18	faut	_	AUX	_	_	19	aux	_	_
+18	faut	falloir	AUX	_	_	19	aux	_	_
 19	déterminer	_	VERB	_	_	0	root	_	_
 20	la	_	DET	_	_	22	det	_	_
 21	bonne	_	ADJ	_	_	22	amod	_	_
@@ -16310,7 +16310,7 @@
 16	poseur	_	NOUN	_	_	11	conj	_	_
 17	de	_	ADP	_	_	19	case	_	_
 18	faux	_	ADJ	_	_	19	amod	_	_
-19	plafonds	_	NOUN	_	_	16	nmod	_	_
+19	plafonds	fonds	NOUN	_	_	16	nmod	_	_
 20	,	_	PUNCT	_	_	11	punct	_	_
 21	monteur	_	NOUN	_	_	11	conj	_	_
 22	de	_	ADP	_	_	23	case	_	_
@@ -16909,7 +16909,7 @@
 32	Nadja	_	PROPN	_	_	31	appos	_	_
 33	et	_	CONJ	_	_	31	cc	_	_
 34	son	_	DET	_	_	35	nmod:poss	_	_
-35	fils	_	NOUN	_	_	31	conj	_	_
+35	fils	fils	NOUN	_	_	31	conj	_	_
 36	Grégoire	_	PROPN	_	_	35	appos	_	_
 37	Solotareff	_	PROPN	_	_	36	name	_	_
 38	.	_	PUNCT	_	_	4	punct	_	_
@@ -17153,7 +17153,7 @@
 # sentid: fr-ud-dev_00617
 # sentence-text: Je suis effaré par l'incompétence du groupe Conforama.
 1	Je	_	PRON	_	_	3	nsubjpass	_	_
-2	suis	_	AUX	_	_	3	auxpass	_	_
+2	suis	être	AUX	_	_	3	auxpass	_	_
 3	effaré	_	VERB	_	_	0	root	_	_
 4	par	_	ADP	_	_	6	case	_	_
 5	l'	_	DET	_	_	6	det	_	_
@@ -17629,7 +17629,7 @@
 
 # sentid: fr-ud-dev_00636
 # sentence-text: Un très très bon restaurant que je conseille à tous.
-1	Un	_	DET	_	_	5	mwe	_	_
+1	Un	_	DET	_	_	5	det	_	_
 2	très	_	ADV	_	_	4	advmod	_	_
 3	très	_	ADV	_	_	4	advmod	_	_
 4	bon	_	ADJ	_	_	5	amod	_	_
@@ -18129,9 +18129,9 @@
 # sentence-text: C'est en tant que major de ce régiment qu'il s'illustre à la bataille de Crémone en 1702, gagnant le surnom de Brave de Crémone.
 1	C'	_	PRON	_	_	6	nsubj	_	_
 2	est	_	VERB	_	_	6	cop	_	_
-3	en	_	ADP	_	_	4	mwe	_	_
-4	tant	_	ADV	_	_	6	case	_	_
-5	que	_	SCONJ	_	_	4	mwe	_	_
+3	en	_	ADP	_	_	6	case	_	_
+4	tant	_	ADV	_	_	3	mwe	_	_
+5	que	_	SCONJ	_	_	3	mwe	_	_
 6	major	_	NOUN	_	_	0	root	_	_
 7	de	_	ADP	_	_	9	case	_	_
 8	ce	_	DET	_	_	9	det	_	_
@@ -18760,7 +18760,7 @@
 18	intéressants	_	ADJ	_	_	16	amod	_	_
 19	et	_	CONJ	_	_	11	cc	_	_
 20	nous	_	PRON	_	_	24	nsubj	_	_
-21	sommes	_	VERB	_	_	24	cop	_	_
+21	sommes	être	VERB	_	_	24	cop	_	_
 22	donc	_	ADV	_	_	24	advmod	_	_
 23	particulièrement	_	ADV	_	_	24	advmod	_	_
 24	fiers	_	ADJ	_	_	11	conj	_	_
@@ -19066,7 +19066,7 @@
 4	de	_	ADP	_	_	6	case	_	_
 5	les	_	DET	_	_	6	det	_	_
 6	environs	_	NOUN	_	_	3	nmod	_	_
-7	étaient	_	VERB	_	_	16	cop	_	_
+7	étaient	être	VERB	_	_	16	cop	_	_
 8	aussi	_	ADV	_	_	16	advmod	_	_
 9	dans	_	ADP	_	_	11	case	_	_
 10	la	_	DET	_	_	11	det	_	_
@@ -19563,7 +19563,7 @@
 16	à	_	ADP	_	_	18	case	_	_
 17	le	_	DET	_	_	18	det	_	_
 18	staretz	_	NOUN	_	_	15	nmod	_	_
-19	durent	_	AUX	_	_	20	aux	_	_
+19	durent	devoir	AUX	_	_	20	aux	_	_
 20	convenir	_	VERB	_	_	6	conj	_	_
 21	qu'	_	SCONJ	_	_	25	mark	_	_
 22	il	_	PRON	_	_	25	nsubj	_	_
@@ -19853,7 +19853,7 @@
 # sentid: fr-ud-dev_00718
 # sentence-text: Nous sommes allés faire un marché sans souci de stationnement, et le charme était total.
 1	Nous	_	PRON	_	_	3	nsubj	_	_
-2	sommes	_	AUX	_	_	3	aux	_	_
+2	sommes	être	AUX	_	_	3	aux	_	_
 3	allés	_	VERB	_	_	0	root	_	_
 4	faire	_	VERB	_	_	3	xcomp	_	_
 5	un	_	DET	_	_	6	det	_	_
@@ -20149,7 +20149,7 @@
 # sentence-text: Mais cette fois-ci, y a un autre élément qui intervient dans ce débat : après la spoliation territoriale, c'est le temps des violations graves des droits humains.
 1	Mais	_	CONJ	_	_	7	cc	_	_
 2	cette	_	DET	_	_	3	det	_	_
-3	fois	_	NOUN	_	_	7	nmod	_	_
+3	fois	fois	NOUN	_	_	7	nmod	_	_
 4	-ci	_	PRON	_	_	3	mwe	_	_
 5	,	_	PUNCT	_	_	7	punct	_	_
 6	y	_	PRON	_	_	7	expl	_	_
@@ -21560,7 +21560,7 @@
 3	définit	_	VERB	_	_	0	root	_	_
 4	à	_	ADP	_	_	6	mwe	_	_
 5	la	_	DET	_	_	6	mwe	_	_
-6	fois	_	NOUN	_	_	3	advmod	_	_
+6	fois	fois	NOUN	_	_	3	advmod	_	_
 7	comme	_	ADP	_	_	9	case	_	_
 8	une	_	DET	_	_	9	det	_	_
 9	communauté	_	NOUN	_	_	3	nmod	_	_
@@ -21920,7 +21920,7 @@
 3	Frossard	_	PROPN	_	_	1	name	_	_
 4	est	_	VERB	_	_	6	cop	_	_
 5	le	_	DET	_	_	6	det	_	_
-6	fils	_	NOUN	_	_	0	root	_	_
+6	fils	fils	NOUN	_	_	0	root	_	_
 7	de	_	ADP	_	_	8	case	_	_
 8	Charles	_	PROPN	_	_	6	nmod	_	_
 9	Frossard	_	PROPN	_	_	8	name	_	_
@@ -22251,7 +22251,7 @@
 # sentence-text: Ses deux fils, Ivo Lola et le peintre Jurica Ribar y ont grandi ;
 1	Ses	_	DET	_	_	3	nmod:poss	_	_
 2	deux	_	NUM	_	_	3	nummod	_	_
-3	fils	_	NOUN	_	_	14	nsubj	_	_
+3	fils	fils	NOUN	_	_	14	nsubj	_	_
 4	,	_	PUNCT	_	_	14	punct	_	_
 5	Ivo	_	PROPN	_	_	3	conj	_	_
 6	Lola	_	PROPN	_	_	5	name	_	_
@@ -22684,7 +22684,7 @@
 1	Puis	_	ADV	_	_	2	advmod	_	_
 2	viens	_	VERB	_	_	0	root	_	_
 3	et	_	CONJ	_	_	2	cc	_	_
-4	suis	_	VERB	_	_	2	conj	_	_
+4	suis	suivre	VERB	_	_	2	conj	_	_
 5	-moi	_	PRON	_	_	4	dobj	_	_
 6	!	_	PUNCT	_	_	2	punct	_	_
 
@@ -23056,7 +23056,7 @@
 9	de	_	ADP	_	_	10	case	_	_
 10	France	_	PROPN	_	_	8	nmod	_	_
 11	huit	_	NUM	_	_	12	nummod	_	_
-12	fois	_	NOUN	_	_	8	nmod	_	_
+12	fois	fois	NOUN	_	_	8	nmod	_	_
 13	consécutivement	_	ADV	_	_	8	advmod	_	_
 14	entre	_	ADP	_	_	15	case	_	_
 15	1986	_	NUM	_	_	8	nmod	_	_
@@ -23732,7 +23732,7 @@
 30-31	au	_	_	_	_	_	_	_	_
 30	à	_	ADP	_	_	32	case	_	_
 31	le	_	DET	_	_	32	det	_	_
-32	cours	_	NOUN	_	_	29	nmod	_	_
+32	cours	cours	NOUN	_	_	29	nmod	_	_
 33	de	_	ADP	_	_	35	case	_	_
 34	la	_	DET	_	_	35	det	_	_
 35	saison	_	NOUN	_	_	32	nmod	_	_
@@ -23912,7 +23912,7 @@
 3	plus	_	ADV	_	_	4	advmod	_	_
 4	tard	_	ADV	_	_	2	advmod	_	_
 5	son	_	DET	_	_	6	nmod:poss	_	_
-6	fils	_	NOUN	_	_	2	dobj	_	_
+6	fils	fils	NOUN	_	_	2	dobj	_	_
 7	,	_	PUNCT	_	_	6	punct	_	_
 8	le	_	DET	_	_	10	det	_	_
 9	futur	_	ADJ	_	_	10	amod	_	_
@@ -24007,7 +24007,7 @@
 5	,	_	PUNCT	_	_	3	punct	_	_
 6	rédigée	_	VERB	_	_	3	acl	_	_
 7	en	_	ADP	_	_	8	case	_	_
-8	vers	_	NOUN	_	_	6	nmod	_	_
+8	vers	vers	NOUN	_	_	6	nmod	_	_
 9	par	_	ADP	_	_	10	case	_	_
 10	Gace	_	PROPN	_	_	8	nmod	_	_
 11	de	_	ADP	_	_	13	case	_	_
@@ -24535,7 +24535,7 @@
 16	château	_	NOUN	_	_	13	nmod	_	_
 17	d'	_	ADP	_	_	18	case	_	_
 18	Eaucourt	_	PROPN	_	_	16	nmod	_	_
-19	étaient	_	VERB	_	_	21	cop	_	_
+19	étaient	être	VERB	_	_	21	cop	_	_
 20	plus	_	ADV	_	_	21	advmod	_	_
 21	considérables	_	ADJ	_	_	0	root	_	_
 22	qu'	_	ADP	_	_	23	case	_	_
@@ -24943,7 +24943,7 @@
 13	pour	_	ADP	_	_	16	case	_	_
 14	la	_	DET	_	_	16	det	_	_
 15	première	_	ADJ	_	_	16	amod	_	_
-16	fois	_	NOUN	_	_	24	nmod	_	_
+16	fois	fois	NOUN	_	_	24	nmod	_	_
 17	sous	_	ADP	_	_	20	case	_	_
 18	la	_	DET	_	_	20	det	_	_
 19	Cinquième	_	ADJ	_	_	20	amod	_	_
@@ -25233,7 +25233,7 @@
 9	pour	_	ADP	_	_	12	case	_	_
 10	la	_	DET	_	_	12	det	_	_
 11	première	_	ADJ	_	_	12	amod	_	_
-12	fois	_	NOUN	_	_	8	nmod	_	_
+12	fois	fois	NOUN	_	_	8	nmod	_	_
 13	la	_	DET	_	_	14	det	_	_
 14	barre	_	NOUN	_	_	8	dobj	_	_
 15-16	des	_	_	_	_	_	_	_	_
@@ -25539,7 +25539,7 @@
 25	sur	_	ADP	_	_	26	case	_	_
 26	EURIBOR	_	PROPN	_	_	24	nmod	_	_
 27	3	_	NUM	_	_	28	nummod	_	_
-28	mois	_	NOUN	_	_	26	nmod	_	_
+28	mois	mois	NOUN	_	_	26	nmod	_	_
 29	.	_	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-dev_00923
@@ -26369,7 +26369,7 @@
 15	monde	_	NOUN	_	_	11	nmod	_	_
 16	et	_	CONJ	_	_	5	cc	_	_
 17	deux	_	NUM	_	_	18	nummod	_	_
-18	fois	_	NOUN	_	_	5	nmod	_	_
+18	fois	fois	NOUN	_	_	5	nmod	_	_
 19	à	_	ADP	_	_	22	case	_	_
 20	St.	_	NOUN	_	_	22	compound	_	_
 21	Silas	_	PROPN	_	_	20	name	_	_
@@ -26401,7 +26401,7 @@
 19-20	au	_	_	_	_	_	_	_	_
 19	à	_	ADP	_	_	21	case	_	_
 20	le	_	DET	_	_	21	det	_	_
-21	cours	_	NOUN	_	_	24	nmod	_	_
+21	cours	cours	NOUN	_	_	24	nmod	_	_
 22	desquelles	_	PRON	_	_	21	case	_	_
 23	il	_	PRON	_	_	24	nsubj	_	_
 24	enregistre	_	VERB	_	_	13	acl:relcl	_	_
@@ -26409,7 +26409,7 @@
 26	retraits	_	NOUN	_	_	24	dobj	_	_
 27	sur	_	ADP	_	_	29	case	_	_
 28	des	_	DET	_	_	29	det	_	_
-29	prises	_	VERB	_	_	24	acl	_	_
+29	prises	_	NOUN	_	_	24	nmod	_	_
 30	.	_	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-dev_00957
@@ -26526,7 +26526,7 @@
 27-28	au	_	_	_	_	_	_	_	_
 27	à	_	ADP	_	_	29	case	_	_
 28	le	_	DET	_	_	29	det	_	_
-29	cours	_	NOUN	_	_	36	nmod	_	_
+29	cours	cours	NOUN	_	_	36	nmod	_	_
 30-31	des	_	_	_	_	_	_	_	_
 30	de	_	ADP	_	_	32	case	_	_
 31	les	_	DET	_	_	32	det	_	_
@@ -26644,7 +26644,7 @@
 18	est	_	VERB	_	_	22	cop	_	_
 19	à	_	ADP	_	_	21	case	_	_
 20	la	_	DET	_	_	21	det	_	_
-21	fois	_	NOUN	_	_	22	nmod	_	_
+21	fois	fois	NOUN	_	_	22	nmod	_	_
 22	enfant	_	NOUN	_	_	4	conj	_	_
 23	et	_	CONJ	_	_	22	cc	_	_
 24	actrice	_	NOUN	_	_	22	conj	_	_
@@ -26973,7 +26973,7 @@
 26	que	_	SCONJ	_	_	25	mwe	_	_
 27	R.E.M.	_	PROPN	_	_	18	nmod	_	_
 28	,	_	PUNCT	_	_	32	punct	_	_
-29	sommes	_	VERB	_	_	32	cop	_	_
+29	sommes	être	VERB	_	_	32	cop	_	_
 30	-nous	_	PRON	_	_	32	nsubj	_	_
 31	encore	_	ADV	_	_	32	advmod	_	_
 32	R.E.M.	_	PROPN	_	_	0	root	_	_
@@ -27751,7 +27751,7 @@
 71	la	_	DET	_	_	72	det	_	_
 72	Shoah	_	PROPN	_	_	68	nmod	_	_
 73	roumaine	_	ADJ	_	_	72	amod	_	_
-74	mise	_	VERB	_	_	72	acl	_	_
+74	mise	mettre	VERB	_	_	72	acl	_	_
 75	en	_	ADP	_	_	76	case	_	_
 76	œuvre	_	NOUN	_	_	74	nmod	_	_
 77	par	_	ADP	_	_	79	case	_	_
@@ -28078,7 +28078,7 @@
 3	ces	_	DET	_	_	4	det	_	_
 4	propositions	_	NOUN	_	_	1	nmod	_	_
 5	seront	_	AUX	_	_	6	auxpass	_	_
-6	reprises	_	VERB	_	_	0	root	_	_
+6	reprises	reprendre	VERB	_	_	0	root	_	_
 7	dans	_	ADP	_	_	9	case	_	_
 8	le	_	DET	_	_	9	det	_	_
 9	cadre	_	NOUN	_	_	6	nmod	_	_
@@ -28108,7 +28108,7 @@
 30	de	_	INTJ	_	_	31	mark	_	_
 31	détourner	_	VERB	_	_	23	acl	_	_
 32	le	_	DET	_	_	33	det	_	_
-33	cours	_	NOUN	_	_	31	dobj	_	_
+33	cours	cours	NOUN	_	_	31	dobj	_	_
 34	de	_	ADP	_	_	36	case	_	_
 35	l'	_	DET	_	_	36	det	_	_
 36	Aar	_	PROPN	_	_	33	nmod	_	_
@@ -28534,7 +28534,7 @@
 7	Antic-Fantasy	_	PROPN	_	_	1	nmod	_	_
 8	,	_	PUNCT	_	_	1	punct	_	_
 9	Myrkos	_	PROPN	_	_	10	nsubj	_	_
-10	revit	_	VERB	_	_	0	root	_	_
+10	revit	revivre	VERB	_	_	0	root	_	_
 11	,	_	PUNCT	_	_	10	punct	_	_
 12	en	_	ADP	_	_	13	case	_	_
 13	parallèle	_	NOUN	_	_	10	nmod	_	_
@@ -28690,7 +28690,7 @@
 2	deux	_	NUM	_	_	3	nummod	_	_
 3	équipes	_	NOUN	_	_	8	nsubj	_	_
 4	s'	_	PRON	_	_	8	dobj	_	_
-5	étaient	_	AUX	_	_	8	aux	_	_
+5	étaient	être	AUX	_	_	8	aux	_	_
 6	cependant	_	ADV	_	_	8	advmod	_	_
 7	déjà	_	ADV	_	_	8	advmod	_	_
 8	rencontrées	_	VERB	_	_	0	root	_	_
@@ -29130,7 +29130,7 @@
 4	éducation	_	NOUN	_	_	2	dobj	_	_
 5	de	_	ADP	_	_	7	case	_	_
 6	son	_	DET	_	_	7	nmod:poss	_	_
-7	fils	_	NOUN	_	_	4	nmod	_	_
+7	fils	fils	NOUN	_	_	4	nmod	_	_
 8-9	au	_	_	_	_	_	_	_	_
 8	à	_	ADP	_	_	10	case	_	_
 9	le	_	DET	_	_	10	det	_	_
@@ -29318,7 +29318,7 @@
 4	,	_	PUNCT	_	_	10	punct	_	_
 5	je	_	PRON	_	_	10	nsubj	_	_
 6	ne	_	PART	_	_	10	neg	_	_
-7	suis	_	VERB	_	_	10	cop	_	_
+7	suis	être	VERB	_	_	10	cop	_	_
 8	pas	_	ADV	_	_	10	neg	_	_
 9	une	_	DET	_	_	10	det	_	_
 10	girouette	_	NOUN	_	_	0	root	_	_
@@ -29449,7 +29449,7 @@
 24	Chine	_	PROPN	_	_	21	conj	_	_
 25	ne	_	PART	_	_	33	neg	_	_
 26	s'	_	PRON	_	_	33	dobj	_	_
-27	étaient	_	AUX	_	_	33	aux	_	_
+27	étaient	être	AUX	_	_	33	aux	_	_
 28	pas	_	ADV	_	_	33	neg	_	_
 29	,	_	PUNCT	_	_	33	punct	_	_
 30	de	_	ADP	_	_	33	advmod	_	_
@@ -29756,7 +29756,7 @@
 32	et	_	CONJ	_	_	3	cc	_	_
 33	nous	_	PRON	_	_	37	nsubj	_	_
 34	en	_	PRON	_	_	37	nmod	_	_
-35	sommes	_	VERB	_	_	37	cop	_	_
+35	sommes	être	VERB	_	_	37	cop	_	_
 36	très	_	ADV	_	_	37	advmod	_	_
 37	reconnaissants	_	ADJ	_	_	3	conj	_	_
 38	"	_	PUNCT	_	_	3	punct	_	_
@@ -29963,7 +29963,7 @@
 6	8	_	NUM	_	_	7	nummod	_	_
 7	heures	_	NOUN	_	_	4	nmod	_	_
 8	et	_	CONJ	_	_	2	cc	_	_
-9	rentrais	_	VERB	_	_	2	conj	_	_
+9	rentrais	rentrer	VERB	_	_	2	conj	_	_
 10	le	_	DET	_	_	11	det	_	_
 11	soir	_	NOUN	_	_	9	nmod	_	_
 12	vers	_	ADP	_	_	14	case	_	_
@@ -30372,7 +30372,7 @@
 1	Nous	_	PRON	_	_	6	nsubj	_	_
 2	serions	_	VERB	_	_	6	cop	_	_
 3	deux	_	NUM	_	_	4	nummod	_	_
-4	fois	_	NOUN	_	_	5	advmod	_	_
+4	fois	fois	NOUN	_	_	5	advmod	_	_
 5	plus	_	ADV	_	_	6	advmod	_	_
 6	nombreux	_	ADJ	_	_	0	root	_	_
 7	que	_	SCONJ	_	_	11	mark	_	_
@@ -30937,7 +30937,7 @@
 4	annoncée	_	VERB	_	_	0	root	_	_
 5	la	_	DET	_	_	7	det	_	_
 6	première	_	ADJ	_	_	7	amod	_	_
-7	fois	_	NOUN	_	_	4	nmod	_	_
+7	fois	fois	NOUN	_	_	4	nmod	_	_
 8	dans	_	ADP	_	_	10	case	_	_
 9	la	_	DET	_	_	10	det	_	_
 10	revue	_	NOUN	_	_	4	nmod	_	_
@@ -30974,7 +30974,7 @@
 21	la	_	DET	_	_	22	det	_	_
 22	loi	_	NOUN	_	_	6	nmod	_	_
 23	organique	_	ADJ	_	_	22	amod	_	_
-24	relative	_	ADJ	_	_	27	case	_	_
+24	relative	relatif	ADJ	_	_	27	case	_	_
 25-26	au	_	_	_	_	_	_	_	_
 25	à	_	ADP	_	_	24	mwe	_	_
 26	le	_	DET	_	_	24	det	_	_
@@ -32824,7 +32824,7 @@
 2	intervient	_	VERB	_	_	0	root	_	_
 3	une	_	DET	_	_	5	det	_	_
 4	première	_	ADJ	_	_	5	amod	_	_
-5	fois	_	NOUN	_	_	2	nmod	_	_
+5	fois	fois	NOUN	_	_	2	nmod	_	_
 6	dans	_	ADP	_	_	8	case	_	_
 7	la	_	DET	_	_	8	det	_	_
 8	République	_	PROPN	_	_	2	nmod	_	_
@@ -33453,7 +33453,7 @@
 4	aurait	_	AUX	_	_	7	aux	_	_
 5	pas	_	ADV	_	_	7	neg	_	_
 6	été	_	AUX	_	_	7	auxpass	_	_
-7	mise	_	VERB	_	_	0	root	_	_
+7	mise	mettre	VERB	_	_	0	root	_	_
 8-9	au	_	_	_	_	_	_	_	_
 8	à	_	ADP	_	_	10	case	_	_
 9	le	_	DET	_	_	10	det	_	_
@@ -33652,7 +33652,7 @@
 24	qui	_	PRON	_	_	25	nsubj	_	_
 25	regroupe	_	VERB	_	_	20	acl:relcl	_	_
 26	les	_	DET	_	_	27	det	_	_
-27	vers	_	NOUN	_	_	25	dobj	_	_
+27	vers	ver	NOUN	_	_	25	dobj	_	_
 28	plats	_	ADJ	_	_	27	amod	_	_
 29	parasites	_	ADJ	_	_	27	amod	_	_
 30	dotés	_	VERB	_	_	27	acl	_	_
@@ -33776,7 +33776,7 @@
 # sentid: fr-ud-dev_01222
 # sentence-text: Ils étaient déjà neuf à avoir appris leur licenciement au mois de juillet, juste avant les vacances.
 1	Ils	_	PRON	_	_	4	nsubj	_	_
-2	étaient	_	VERB	_	_	4	cop	_	_
+2	étaient	être	VERB	_	_	4	cop	_	_
 3	déjà	_	ADV	_	_	4	advmod	_	_
 4	neuf	_	NUM	_	_	0	root	_	_
 5	à	_	ADP	_	_	7	mark	_	_
@@ -33787,7 +33787,7 @@
 10-11	au	_	_	_	_	_	_	_	_
 10	à	_	ADP	_	_	12	case	_	_
 11	le	_	DET	_	_	12	det	_	_
-12	mois	_	NOUN	_	_	7	nmod	_	_
+12	mois	mois	NOUN	_	_	7	nmod	_	_
 13	de	_	ADP	_	_	14	case	_	_
 14	juillet	_	NOUN	_	_	12	nmod	_	_
 15	,	_	PUNCT	_	_	7	punct	_	_
@@ -33880,7 +33880,7 @@
 6	,	_	PUNCT	_	_	12	punct	_	_
 7	il	_	PRON	_	_	12	nsubj	_	_
 8	ne	_	PART	_	_	12	neg	_	_
-9	faut	_	AUX	_	_	12	aux	_	_
+9	faut	falloir	AUX	_	_	12	aux	_	_
 10	pas	_	ADV	_	_	12	neg	_	_
 11-12	s'étonner	_	_	_	_	_	_	_	_
 11	s'	_	PRON	_	_	12	dobj	_	_
@@ -36682,7 +36682,7 @@
 4-5	au	_	_	_	_	_	_	_	_
 4	à	_	ADP	_	_	6	case	_	_
 5	le	_	DET	_	_	6	det	_	_
-6	mois	_	NOUN	_	_	21	nmod	_	_
+6	mois	mois	NOUN	_	_	21	nmod	_	_
 7	d'	_	ADP	_	_	8	expl	_	_
 8	avril	_	NOUN	_	_	6	appos	_	_
 9	,	_	PUNCT	_	_	21	punct	_	_
@@ -37125,7 +37125,7 @@
 # sentid: fr-ud-dev_01342
 # sentence-text: Une fois que ces informations ont été récoltées et validées par l'équipe de recherche, l'observateur amateur va pouvoir débuter ses investigations.
 1	Une	_	DET	_	_	2	det	_	_
-2	fois	_	NOUN	_	_	22	nmod	_	_
+2	fois	fois	NOUN	_	_	22	nmod	_	_
 3	que	_	SCONJ	_	_	8	mark	_	_
 4	ces	_	DET	_	_	5	det	_	_
 5	informations	_	NOUN	_	_	8	nsubjpass	_	_
@@ -38085,7 +38085,7 @@
 13	Telamốn	_	PROPN	_	_	11	appos	_	_
 14	)	_	PUNCT	_	_	9	punct	_	_
 15	,	_	PUNCT	_	_	6	punct	_	_
-16	fils	_	NOUN	_	_	6	appos	_	_
+16	fils	fils	NOUN	_	_	6	appos	_	_
 17	d'	_	ADP	_	_	18	case	_	_
 18	Éaque	_	PROPN	_	_	16	nmod	_	_
 19	et	_	CONJ	_	_	18	cc	_	_
@@ -38211,7 +38211,7 @@
 30-31	au	_	_	_	_	_	_	_	_
 30	à	_	ADP	_	_	32	case	_	_
 31	le	_	DET	_	_	32	det	_	_
-32	cours	_	NOUN	_	_	29	nmod	_	_
+32	cours	cours	NOUN	_	_	29	nmod	_	_
 33	de	_	ADP	_	_	35	case	_	_
 34	la	_	DET	_	_	35	det	_	_
 35	division	_	NOUN	_	_	32	nmod	_	_
@@ -38776,7 +38776,7 @@
 13	Trobriand	_	PROPN	_	_	16	nmod	_	_
 14	est	_	VERB	_	_	16	cop	_	_
 15	le	_	DET	_	_	16	det	_	_
-16	fils	_	NOUN	_	_	0	root	_	_
+16	fils	fils	NOUN	_	_	0	root	_	_
 17	de	_	ADP	_	_	18	case	_	_
 18	Jean	_	PROPN	_	_	16	nmod	_	_
 19	François	_	PROPN	_	_	18	name	_	_
@@ -38984,7 +38984,7 @@
 5	fit	_	VERB	_	_	0	root	_	_
 6	à	_	ADP	_	_	8	case	_	_
 7	la	_	DET	_	_	8	det	_	_
-8	fois	_	NOUN	_	_	5	nmod	_	_
+8	fois	fois	NOUN	_	_	5	nmod	_	_
 9	par	_	ADP	_	_	10	case	_	_
 10	mer	_	NOUN	_	_	5	nmod	_	_
 11	et	_	CONJ	_	_	10	cc	_	_
@@ -39267,7 +39267,7 @@
 # sentence-text: Ainsi 3 fois 5 s'écrivait-il 3 in 5.
 1	Ainsi	_	ADV	_	_	6	advmod	_	_
 2	3	_	NUM	_	_	3	nummod	_	_
-3	fois	_	NOUN	_	_	6	nsubj	_	_
+3	fois	fois	NOUN	_	_	6	nsubj	_	_
 4	5	_	NUM	_	_	3	nummod	_	_
 5-6	s'écrivait	_	_	_	_	_	_	_	_
 5	s'	_	PRON	_	_	6	dobj	_	_
@@ -39322,7 +39322,7 @@
 10	les	_	DET	_	_	11	det	_	_
 11	camps	_	NOUN	_	_	8	nmod	_	_
 12	hitlériens	_	ADJ	_	_	11	amod	_	_
-13	étaient	_	VERB	_	_	4	ccomp	_	_
+13	étaient	être	VERB	_	_	4	ccomp	_	_
 14	des	_	DET	_	_	15	det	_	_
 15	revenants	_	NOUN	_	_	13	dobj	_	_
 16	,	_	PUNCT	_	_	13	punct	_	_
@@ -40164,7 +40164,7 @@
 1	Les	_	DET	_	_	2	det	_	_
 2	mesures	_	NOUN	_	_	13	nsubj	_	_
 3	disciplinaires	_	ADJ	_	_	2	amod	_	_
-4	prises	_	VERB	_	_	2	acl	_	_
+4	prises	prendre	VERB	_	_	2	acl	_	_
 5	pour	_	ADP	_	_	6	mark	_	_
 6	faire	_	VERB	_	_	4	advcl	_	_
 7	cesser	_	VERB	_	_	6	ccomp	_	_
@@ -40270,7 +40270,7 @@
 8	il	_	PRON	_	_	9	nsubj	_	_
 9	donna	_	VERB	_	_	5	acl:relcl	_	_
 10	un	_	DET	_	_	11	det	_	_
-11	cours	_	NOUN	_	_	9	dobj	_	_
+11	cours	cours	NOUN	_	_	9	dobj	_	_
 12	de	_	ADP	_	_	13	case	_	_
 13	droit	_	NOUN	_	_	11	nmod	_	_
 14	public	_	ADJ	_	_	11	amod	_	_
@@ -40631,7 +40631,7 @@
 23	plage	_	NOUN	_	_	20	nmod	_	_
 24	,	_	PUNCT	_	_	27	punct	_	_
 25	nous	_	PRON	_	_	27	nsubj	_	_
-26	sommes	_	VERB	_	_	27	cop	_	_
+26	sommes	être	VERB	_	_	27	cop	_	_
 27	présent	_	ADJ	_	_	0	root	_	_
 28	sur	_	ADP	_	_	30	case	_	_
 29	la	_	DET	_	_	30	det	_	_
@@ -41882,7 +41882,7 @@
 11	environs	_	NOUN	_	_	9	conj	_	_
 12	organise	_	VERB	_	_	0	root	_	_
 13	un	_	DET	_	_	14	det	_	_
-14	cours	_	NOUN	_	_	12	dobj	_	_
+14	cours	cours	NOUN	_	_	12	dobj	_	_
 15	de	_	ADP	_	_	16	case	_	_
 16	taille	_	NOUN	_	_	14	nmod	_	_
 17	d'	_	ADP	_	_	18	case	_	_
@@ -42137,7 +42137,7 @@
 3	,	_	PUNCT	_	_	6	punct	_	_
 4	il	_	PRON	_	_	6	nsubj	_	_
 5	en	_	PRON	_	_	6	iobj	_	_
-6	faut	_	VERB	_	_	0	root	_	_
+6	faut	falloir	VERB	_	_	0	root	_	_
 7	exactement	_	ADV	_	_	8	advmod	_	_
 8	60	_	NUM	_	_	6	dobj	_	_
 9	.	_	PUNCT	_	_	6	punct	_	_
@@ -42602,7 +42602,7 @@
 3	aussi	_	ADV	_	_	4	advmod	_	_
 4	écrit	_	VERB	_	_	0	root	_	_
 5	en	_	ADP	_	_	6	case	_	_
-6	vers	_	NOUN	_	_	4	nmod	_	_
+6	vers	vers	NOUN	_	_	4	nmod	_	_
 7	le	_	DET	_	_	8	det	_	_
 8	Tiếng	_	PROPN	_	_	4	dobj	_	_
 9	địch	_	X	_	_	8	name	_	_
@@ -42628,11 +42628,11 @@
 29	jouée	_	VERB	_	_	25	acl:relcl	_	_
 30	en	_	ADP	_	_	32	case	_	_
 31	deux	_	NUM	_	_	32	nummod	_	_
-32	fois	_	NOUN	_	_	29	nmod	_	_
+32	fois	fois	NOUN	_	_	29	nmod	_	_
 33	:	_	PUNCT	_	_	32	punct	_	_
 34	la	_	DET	_	_	36	det	_	_
 35	première	_	ADJ	_	_	36	amod	_	_
-36	fois	_	NOUN	_	_	32	appos	_	_
+36	fois	fois	NOUN	_	_	32	appos	_	_
 37	en	_	ADP	_	_	39	case	_	_
 38	deux	_	NUM	_	_	39	nummod	_	_
 39	soirées	_	NOUN	_	_	36	nmod	_	_
@@ -42742,7 +42742,7 @@
 13	équipe	_	NOUN	_	_	10	nmod	_	_
 14	et	_	CONJ	_	_	10	cc	_	_
 15	chaque	_	DET	_	_	16	det	_	_
-16	fois	_	NOUN	_	_	20	nmod	_	_
+16	fois	fois	NOUN	_	_	20	nmod	_	_
 17	qu'	_	SCONJ	_	_	20	mark	_	_
 18	ils	_	PRON	_	_	20	nsubj	_	_
 19	veulent	_	AUX	_	_	20	aux	_	_
@@ -42896,7 +42896,7 @@
 18	que	_	SCONJ	_	_	17	mwe	_	_
 19	j'	_	PRON	_	_	22	nsubj	_	_
 20	y	_	PRON	_	_	22	nsubj	_	_
-21	suis	_	AUX	_	_	22	aux	_	_
+21	suis	être	AUX	_	_	22	aux	_	_
 22	retourné	_	VERB	_	_	13	advcl	_	_
 23	.	_	PUNCT	_	_	3	punct	_	_
 
@@ -43191,7 +43191,7 @@
 16-17	au	_	_	_	_	_	_	_	_
 16	à	_	ADP	_	_	18	case	_	_
 17	le	_	DET	_	_	18	det	_	_
-18	cours	_	NOUN	_	_	13	nmod	_	_
+18	cours	cours	NOUN	_	_	13	nmod	_	_
 19	de	_	ADP	_	_	21	case	_	_
 20	ces	_	DET	_	_	21	det	_	_
 21	championnats	_	NOUN	_	_	18	nmod	_	_
@@ -43614,7 +43614,7 @@
 6	,	_	PUNCT	_	_	11	punct	_	_
 7	les	_	DET	_	_	8	det	_	_
 8	assistants	_	NOUN	_	_	11	nsubj	_	_
-9	étaient	_	VERB	_	_	11	cop	_	_
+9	étaient	être	VERB	_	_	11	cop	_	_
 10	des	_	DET	_	_	11	det	_	_
 11	fonctionnaires	_	NOUN	_	_	0	root	_	_
 12	,	_	PUNCT	_	_	11	punct	_	_
@@ -43693,7 +43693,7 @@
 10	mesures	_	NOUN	_	_	13	nsubjpass	_	_
 11	décisives	_	ADJ	_	_	10	amod	_	_
 12	seront	_	AUX	_	_	13	auxpass	_	_
-13	prises	_	VERB	_	_	7	ccomp	_	_
+13	prises	prendre	VERB	_	_	7	ccomp	_	_
 14	pour	_	ADP	_	_	15	mark	_	_
 15	faire	_	VERB	_	_	13	advcl	_	_
 16	face	_	NOUN	_	_	15	dobj	_	_
@@ -44298,7 +44298,7 @@
 4	ait	_	AUX	_	_	5	aux	_	_
 5	eu	_	VERB	_	_	13	advcl	_	_
 6	un	_	DET	_	_	7	det	_	_
-7	fils	_	NOUN	_	_	5	dobj	_	_
+7	fils	fils	NOUN	_	_	5	dobj	_	_
 8	,	_	PUNCT	_	_	7	punct	_	_
 9	Damien	_	PROPN	_	_	7	appos	_	_
 10	,	_	PUNCT	_	_	5	punct	_	_

@@ -560,7 +560,7 @@
 # sentid: fr-ud-test_00018
 # sentence-text: Je suis déchirée.
 1	Je	_	PRON	_	_	3	nsubj	_	_
-2	suis	_	VERB	_	_	3	cop	_	_
+2	suis	être	VERB	_	_	3	cop	_	_
 3	déchirée	_	ADJ	_	_	0	root	_	_
 4	.	_	PUNCT	_	_	3	punct	_	_
 
@@ -572,7 +572,7 @@
 4	cette	_	DET	_	_	5	det	_	_
 5	période	_	NOUN	_	_	7	nsubjpass	_	_
 6	sera	_	AUX	_	_	7	aux	_	_
-7	mise	_	VERB	_	_	0	root	_	_
+7	mise	mettre	VERB	_	_	0	root	_	_
 8	à	_	ADP	_	_	9	case	_	_
 9	profit	_	NOUN	_	_	7	nmod	_	_
 10	pour	_	ADP	_	_	11	mark	_	_
@@ -598,7 +598,7 @@
 30-31	des	_	_	_	_	_	_	_	_
 30	de	_	ADP	_	_	32	case	_	_
 31	les	_	DET	_	_	32	det	_	_
-32	fonds	_	NOUN	_	_	27	nmod	_	_
+32	fonds	fonds	NOUN	_	_	27	nmod	_	_
 33	versés	_	VERB	_	_	32	acl	_	_
 34	par	_	ADP	_	_	36	case	_	_
 35	l'	_	DET	_	_	36	det	_	_
@@ -971,7 +971,7 @@
 # sentence-text: Combien de fois ne célébrons-nous que nous-mêmes, et ne prenons-nous même pas conscience de sa présence ?
 1	Combien	_	ADV	_	_	5	advmod	_	_
 2	de	_	ADP	_	_	3	case	_	_
-3	fois	_	NOUN	_	_	1	nmod	_	_
+3	fois	fois	NOUN	_	_	1	nmod	_	_
 4	ne	_	PART	_	_	5	neg	_	_
 5	célébrons	_	VERB	_	_	0	root	_	_
 6	-nous	_	PRON	_	_	5	nsubj	_	_
@@ -1275,7 +1275,7 @@
 18	état	_	NOUN	_	_	28	nsubj	_	_
 19	de	_	ADP	_	_	21	case	_	_
 20	nos	_	DET	_	_	21	nmod:poss	_	_
-21	cours	_	NOUN	_	_	18	nmod	_	_
+21	cours	cours	NOUN	_	_	18	nmod	_	_
 22	d'	_	ADP	_	_	23	case	_	_
 23	eau	_	NOUN	_	_	21	nmod	_	_
 24	ne	_	PART	_	_	28	neg	_	_
@@ -1521,7 +1521,7 @@
 19	Haïder	_	PROPN	_	_	18	name	_	_
 20	,	_	PUNCT	_	_	24	punct	_	_
 21	s'	_	PRON	_	_	24	dobj	_	_
-22	étaient	_	AUX	_	_	24	aux	_	_
+22	étaient	être	AUX	_	_	24	aux	_	_
 23	-ils	_	PRON	_	_	24	expl	_	_
 24	fait	_	VERB	_	_	0	root	_	_
 25	arrêter	_	VERB	_	_	24	xcomp	_	_
@@ -1545,12 +1545,12 @@
 42	parce	_	ADV	_	_	47	mark	_	_
 43	qu'	_	SCONJ	_	_	42	mwe	_	_
 44	ils	_	PRON	_	_	47	nsubj	_	_
-45	étaient	_	VERB	_	_	47	cop	_	_
+45	étaient	être	VERB	_	_	47	cop	_	_
 46	des	_	DET	_	_	47	det	_	_
 47	séquestrés	_	NOUN	_	_	25	advcl	_	_
 48	qui	_	PRON	_	_	51	nsubj	_	_
 49	s'	_	PRON	_	_	51	dobj	_	_
-50	étaient	_	AUX	_	_	51	aux	_	_
+50	étaient	être	AUX	_	_	51	aux	_	_
 51	évadés	_	VERB	_	_	47	acl:relcl	_	_
 52-53	des	_	_	_	_	_	_	_	_
 52	de	_	ADP	_	_	54	case	_	_
@@ -1569,7 +1569,7 @@
 # sentence-text: A chaque fois qu'il sent la pression, le Makhzen appelle quelqu'un à son secours.
 1	A	_	ADP	_	_	2	mwe	_	_
 2	chaque	_	DET	_	_	6	mark	_	_
-3	fois	_	NOUN	_	_	2	mwe	_	_
+3	fois	fois	NOUN	_	_	2	mwe	_	_
 4	qu'	_	SCONJ	_	_	2	mwe	_	_
 5	il	_	PRON	_	_	6	nsubj	_	_
 6	sent	_	VERB	_	_	12	advcl	_	_
@@ -1708,7 +1708,7 @@
 38	aide	_	NOUN	_	_	41	nsubj	_	_
 39	internationale	_	ADJ	_	_	38	amod	_	_
 40	ne	_	PART	_	_	41	neg	_	_
-41	pointe	_	VERB	_	_	35	advcl	_	_
+41	pointe	pointer	VERB	_	_	35	advcl	_	_
 42	pas	_	ADV	_	_	41	neg	_	_
 43	plus	_	ADV	_	_	44	advmod	_	_
 44	vite	_	ADV	_	_	41	advmod	_	_
@@ -2422,7 +2422,7 @@
 15	que	_	SCONJ	_	_	25	mark	_	_
 16	les	_	DET	_	_	17	det	_	_
 17	indépendantistes	_	NOUN	_	_	25	nsubj	_	_
-18	étaient	_	VERB	_	_	25	cop	_	_
+18	étaient	être	VERB	_	_	25	cop	_	_
 19	tout	_	NOUN	_	_	25	advmod	_	_
 20-21	au	_	_	_	_	_	_	_	_
 20	à	_	ADP	_	_	19	mwe	_	_
@@ -2649,7 +2649,7 @@
 # sentence-text: Tenue trois mois après la précédente réunion informelle de la Valette (Malte), cette nouvelle rencontre se déroule sous les auspices de l'envoyé personnel du secrétaire général des Nations unies pour le Sahara occidental, M. Christopher Ross, en présence des délégations des deux parties et des représentants des deux pays observateurs, l'Algérie et la Mauritanie.
 1	Tenue	_	VERB	_	_	20	acl	_	_
 2	trois	_	NUM	_	_	3	nummod	_	_
-3	mois	_	NOUN	_	_	1	nmod	_	_
+3	mois	mois	NOUN	_	_	1	nmod	_	_
 4	après	_	ADP	_	_	7	case	_	_
 5	la	_	DET	_	_	7	det	_	_
 6	précédente	_	ADJ	_	_	7	amod	_	_
@@ -2750,7 +2750,7 @@
 12	s'	_	SCONJ	_	_	15	mark	_	_
 13	il	_	PRON	_	_	15	nsubj	_	_
 14	le	_	PRON	_	_	15	dobj	_	_
-15	faut	_	VERB	_	_	3	dep	_	_
+15	faut	falloir	VERB	_	_	3	dep	_	_
 16	.	_	PUNCT	_	_	3	punct	_	_
 
 # sentid: fr-ud-test_00093
@@ -2931,7 +2931,7 @@
 8	un	_	DET	_	_	9	det	_	_
 9	personnage	_	NOUN	_	_	7	dobj	_	_
 10	plusieurs	_	DET	_	_	11	det	_	_
-11	fois	_	NOUN	_	_	7	nmod	_	_
+11	fois	fois	NOUN	_	_	7	nmod	_	_
 12	,	_	PUNCT	_	_	14	punct	_	_
 13	vous	_	PRON	_	_	14	nsubj	_	_
 14	développez	_	VERB	_	_	0	root	_	_
@@ -3107,7 +3107,7 @@
 4	et	_	CONJ	_	_	3	cc	_	_
 5	un	_	DET	_	_	7	det	_	_
 6	autre	_	ADJ	_	_	7	amod	_	_
-7	fils	_	NOUN	_	_	9	nsubj	_	_
+7	fils	fils	NOUN	_	_	9	nsubj	_	_
 8	va	_	AUX	_	_	9	aux	_	_
 9	naître	_	VERB	_	_	3	conj	_	_
 10	,	_	PUNCT	_	_	9	punct	_	_
@@ -3819,7 +3819,7 @@
 # sentid: fr-ud-test_00126
 # sentence-text: Il faut savoir que les appareils de la dernière génération exposent la couche supérieure de la main à 40°C et que les couches plus profondes atteindront la température de 60°C, il est donc normal de ressentir un peu de douleur.
 1	Il	_	PRON	_	_	3	nsubj	_	_
-2	faut	_	AUX	_	_	3	aux	_	_
+2	faut	falloir	AUX	_	_	3	aux	_	_
 3	savoir	_	VERB	_	_	0	root	_	_
 4	que	_	SCONJ	_	_	11	mark	_	_
 5	les	_	DET	_	_	6	det	_	_
@@ -4343,7 +4343,7 @@
 # sentid: fr-ud-test_00144
 # sentence-text: Il faut toutefois noter qu'il est alors de bon ton pour tout homme jouissant d'une aisance financière, de posséder une ou plusieurs maîtresses.
 1	Il	_	PRON	_	_	4	nsubj	_	_
-2	faut	_	VERB	_	_	4	aux	_	_
+2	faut	falloir	VERB	_	_	4	aux	_	_
 3	toutefois	_	ADV	_	_	4	advmod	_	_
 4	noter	_	VERB	_	_	0	root	_	_
 5	qu'	_	SCONJ	_	_	7	mark	_	_
@@ -4469,7 +4469,7 @@
 1	Là	_	ADV	_	_	4	advmod	_	_
 2	,	_	PUNCT	_	_	4	punct	_	_
 3	on	_	PRON	_	_	4	nsubj	_	_
-4	saura	_	VERB	_	_	17	ccomp	_	_
+4	saura	savoir	VERB	_	_	17	ccomp	_	_
 5	qui	_	PRON	_	_	8	nsubj	_	_
 6	est	_	VERB	_	_	8	cop	_	_
 7	le	_	DET	_	_	8	det	_	_
@@ -4865,7 +4865,7 @@
 
 # sentid: fr-ud-test_00161
 # sentence-text: Faut-il éviter de se rendre dans les pays du sous-continent indien ?
-1	Faut	_	AUX	_	_	3	aux	_	_
+1	Faut	falloir	AUX	_	_	3	aux	_	_
 2	-il	_	PRON	_	_	3	nsubj	_	_
 3	éviter	_	VERB	_	_	0	root	_	_
 4	de	_	ADP	_	_	6	mark	_	_
@@ -4919,7 +4919,7 @@
 6-7	au	_	_	_	_	_	_	_	_
 6	à	_	ADP	_	_	11	case	_	_
 7	le	_	DET	_	_	11	det	_	_
-8	cours	_	NOUN	_	_	6	mwe	_	_
+8	cours	cours	NOUN	_	_	6	mwe	_	_
 9	de	_	ADP	_	_	6	mwe	_	_
 10	mon	_	DET	_	_	11	nmod:poss	_	_
 11	déplacement	_	NOUN	_	_	4	nmod	_	_
@@ -4929,7 +4929,7 @@
 15	que	_	SCONJ	_	_	22	mark	_	_
 16	les	_	DET	_	_	17	det	_	_
 17	Tchèques	_	PROPN	_	_	22	nsubj	_	_
-18	étaient	_	VERB	_	_	22	cop	_	_
+18	étaient	être	VERB	_	_	22	cop	_	_
 19	probablement	_	ADV	_	_	22	advmod	_	_
 20	les	_	DET	_	_	21	det	_	_
 21	plus	_	ADV	_	_	22	advmod	_	_
@@ -5073,7 +5073,7 @@
 14-15	au	_	_	_	_	_	_	_	_
 14	à	_	ADP	_	_	19	case	_	_
 15	le	_	DET	_	_	19	det	_	_
-16	cours	_	NOUN	_	_	14	mwe	_	_
+16	cours	cours	NOUN	_	_	14	mwe	_	_
 17	de	_	ADP	_	_	14	mwe	_	_
 18	sa	_	DET	_	_	19	nmod:poss	_	_
 19	conférence	_	NOUN	_	_	7	nmod	_	_
@@ -5330,7 +5330,7 @@
 14-15	du	_	_	_	_	_	_	_	_
 14	de	_	ADP	_	_	16	case	_	_
 15	le	_	DET	_	_	16	det	_	_
-16	cours	_	NOUN	_	_	13	nmod	_	_
+16	cours	cours	NOUN	_	_	13	nmod	_	_
 17	suit	_	VERB	_	_	5	conj	_	_
 18	le	_	DET	_	_	19	det	_	_
 19	risque	_	NOUN	_	_	17	dobj	_	_
@@ -5766,7 +5766,7 @@
 44	provisions	_	NOUN	_	_	25	nmod	_	_
 45	pour	_	ADP	_	_	46	case	_	_
 46	créances	_	NOUN	_	_	44	nmod	_	_
-47	douteuses	_	ADJ	_	_	46	amod	_	_
+47	douteuses	douteux	ADJ	_	_	46	amod	_	_
 48	.	_	PUNCT	_	_	14	punct	_	_
 
 # sentid: fr-ud-test_00192
@@ -6003,7 +6003,7 @@
 10	qu'	_	SCONJ	_	_	13	mark	_	_
 11	il	_	PRON	_	_	13	nsubj	_	_
 12	la	_	PRON	_	_	13	dobj	_	_
-13	faut	_	VERB	_	_	9	ccomp	_	_
+13	faut	falloir	VERB	_	_	9	ccomp	_	_
 14	.	_	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-test_00199
@@ -6045,7 +6045,7 @@
 14	,	_	PUNCT	_	_	3	punct	_	_
 15	je	_	PRON	_	_	17	nsubj	_	_
 16	ne	_	PART	_	_	17	neg	_	_
-17	saurai	_	VERB	_	_	3	parataxis	_	_
+17	saurai	savoir	VERB	_	_	3	parataxis	_	_
 18	que	_	SCONJ	_	_	17	expl	_	_
 19	déconseiller	_	VERB	_	_	17	xcomp	_	_
 20	en	_	ADP	_	_	21	mwe	_	_
@@ -6189,7 +6189,7 @@
 5	massage	_	NOUN	_	_	3	nmod	_	_
 6	,	_	PUNCT	_	_	10	punct	_	_
 7	je	_	PRON	_	_	10	nsubj	_	_
-8	suis	_	VERB	_	_	10	cop	_	_
+8	suis		VERB	_	_	10	cop	_	_
 9	bien	_	ADV	_	_	10	advmod	_	_
 10	relaxé	_	ADJ	_	_	0	root	_	_
 11	et	_	CONJ	_	_	10	cc	_	_
@@ -6318,7 +6318,7 @@
 3	allez	_	VERB	_	_	7	parataxis	_	_
 4	,	_	PUNCT	_	_	7	punct	_	_
 5	je	_	PRON	_	_	7	nsubjpass	_	_
-6	suis	_	AUX	_	_	7	aux	_	_
+6	suis	être	AUX	_	_	7	aux	_	_
 7	connue	_	VERB	_	_	0	root	_	_
 8	pour	_	ADP	_	_	10	case	_	_
 9	être	_	VERB	_	_	10	cop	_	_
@@ -6473,7 +6473,7 @@
 9	était	_	VERB	_	_	13	cop	_	_
 10	à	_	ADP	_	_	13	advmod	_	_
 11	la	_	DET	_	_	10	mwe	_	_
-12	fois	_	NOUN	_	_	10	mwe	_	_
+12	fois	fois	NOUN	_	_	10	mwe	_	_
 13	futuriste	_	ADJ	_	_	6	ccomp	_	_
 14	et	_	CONJ	_	_	13	cc	_	_
 15	romantique	_	ADJ	_	_	13	conj	_	_
@@ -6519,7 +6519,7 @@
 13	est	_	VERB	_	_	2	conj	_	_
 14	la	_	DET	_	_	16	det	_	_
 15	1ère	_	NUM	_	_	16	nummod	_	_
-16	fois	_	NOUN	_	_	13	dobj	_	_
+16	fois	fois	NOUN	_	_	13	dobj	_	_
 17	que	_	SCONJ	_	_	19	mark	_	_
 18	je	_	PRON	_	_	19	nsubj	_	_
 19	tombe	_	VERB	_	_	13	ccomp	_	_
@@ -6963,10 +6963,10 @@
 # sentence-text: J'y suis allé 2 fois à une semaine d'intervalle et je n'ai pas été déçu.
 1	J'	_	PRON	_	_	4	nsubj	_	_
 2	y	_	ADV	_	_	4	advmod	_	_
-3	suis	_	AUX	_	_	4	aux	_	_
+3	suis	être	AUX	_	_	4	aux	_	_
 4	allé	_	VERB	_	_	0	root	_	_
 5	2	_	NUM	_	_	6	nummod	_	_
-6	fois	_	NOUN	_	_	4	nmod	_	_
+6	fois	fois	NOUN	_	_	4	nmod	_	_
 7	à	_	ADP	_	_	9	case	_	_
 8	une	_	DET	_	_	9	det	_	_
 9	semaine	_	NOUN	_	_	4	nmod	_	_
@@ -7002,7 +7002,7 @@
 # sentid: fr-ud-test_00250
 # sentence-text: Je suis élève de Sreemati depuis 5 ans, et dès qu'elle m'a parlé d'ouvrir un centre consacré au Yoga authentique et aux techniques corporelles (ayurvéda, rdanse indienne, kalaripayat), j'ai voulu l'aider.
 1	Je	_	PRON	_	_	3	nsubj	_	_
-2	suis	_	VERB	_	_	3	cop	_	_
+2	suis	être	VERB	_	_	3	cop	_	_
 3	élève	_	NOUN	_	_	0	root	_	_
 4	de	_	ADP	_	_	5	case	_	_
 5	Sreemati	_	PROPN	_	_	3	nmod	_	_
@@ -7242,7 +7242,7 @@
 14	à	_	ADP	_	_	15	case	_	_
 15	table	_	NOUN	_	_	13	nmod	_	_
 16	n'	_	PART	_	_	20	neg	_	_
-17	étaient	_	VERB	_	_	20	cop	_	_
+17	étaient	être	VERB	_	_	20	cop	_	_
 18	que	_	SCONJ	_	_	20	expl	_	_
 19	des	_	DET	_	_	20	det	_	_
 20	habitués	_	NOUN	_	_	2	parataxis	_	_
@@ -7392,7 +7392,7 @@
 # sentence-text: Nos plats étaient globalement bons (saumon vapeur/tagliatelles et filet de rouget) mais restaient simples dans la présentation et le raffinement.
 1	Nos	_	DET	_	_	2	nmod:poss	_	_
 2	plats	_	NOUN	_	_	5	nsubj	_	_
-3	étaient	_	VERB	_	_	5	cop	_	_
+3	étaient	être	VERB	_	_	5	cop	_	_
 4	globalement	_	ADV	_	_	5	advmod	_	_
 5	bons	_	ADJ	_	_	0	root	_	_
 6	(	_	PUNCT	_	_	7	punct	_	_
@@ -7495,7 +7495,7 @@
 15	poussière	_	NOUN	_	_	18	nsubj	_	_
 16	et	_	CONJ	_	_	15	cc	_	_
 17	saleté	_	NOUN	_	_	15	conj	_	_
-18	étaient	_	VERB	_	_	3	parataxis	_	_
+18	étaient	être	VERB	_	_	3	parataxis	_	_
 19-20	au	_	_	_	_	_	_	_	_
 19	à	_	ADP	_	_	21	case	_	_
 20	le	_	DET	_	_	21	det	_	_
@@ -7619,7 +7619,7 @@
 1	Pour	_	ADP	_	_	4	case	_	_
 2	la	_	DET	_	_	4	det	_	_
 3	première	_	NUM	_	_	4	nummod	_	_
-4	fois	_	NOUN	_	_	7	nmod	_	_
+4	fois	fois	NOUN	_	_	7	nmod	_	_
 5	,	_	PUNCT	_	_	7	punct	_	_
 6	j'	_	PRON	_	_	7	nsubj	_	_
 7	avais	_	VERB	_	_	0	root	_	_
@@ -7978,7 +7978,7 @@
 9	serrures	_	NOUN	_	_	7	dobj	_	_
 10	à	_	ADP	_	_	6	advmod	_	_
 11	la	_	DET	_	_	10	mwe	_	_
-12	fois	_	NOUN	_	_	10	mwe	_	_
+12	fois	fois	NOUN	_	_	10	mwe	_	_
 13	à	_	ADP	_	_	14	case	_	_
 14	titre	_	NOUN	_	_	6	nmod	_	_
 15	particulier	_	ADJ	_	_	14	amod	_	_

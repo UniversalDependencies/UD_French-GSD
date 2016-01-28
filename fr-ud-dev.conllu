@@ -535,7 +535,7 @@
 19	pour	_	ADP	_	_	20	mark	_	_
 20	terminer	_	VERB	_	_	18	advcl	_	_
 21	les	_	DET	_	_	22	det	_	_
-22	mémoires		NOUN	_		20	dobj	_	_
+22	mémoires	_	NOUN	_	_	20	dobj	_	_
 23	d'	_	ADP	_	_	27	case	_	_
 24	un	_	DET	_	_	27	det	_	_
 25	ancien	_	ADJ	_	_	27	amod	_	_
@@ -3268,14 +3268,16 @@
 22	.	_	PUNCT	_	_	6	punct	_	_
 
 # sentid: fr-ud-dev_00118
-# sentence-text: 2000 OK67 mesure environ de diamètre.
+# sentence-text: 2000 OK67 mesure environ 160km de diamètre.
 1	2000	_	NUM	_	_	2	nummod	_	_
 2	OK67	_	X	_	_	3	nsubj	_	_
 3	mesure	_	VERB	_	_	0	root	_	_
-4	environ	_	ADV	_	_	3	advmod	_	_
-5	de	_	ADP	_	_	6	case	_	_
-6	diamètre	diamètre	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-7	.	_	PUNCT	_	_	3	punct	_	_
+4	environ	_	ADV	_	_	5	advmod	_	_
+5	160	_	NUM	_	_	6	nummod	_	_
+6	km	kilomètre	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+7	de	_	ADP	_	_	8	case	_	_
+8	diamètre	diamètre	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9	.	_	PUNCT	_	_	3	punct	_	_
 
 # sentid: fr-ud-dev_00119
 # sentence-text: Ces institutions prêtent à leur tour l'argent reçu à des habitants du pays dans lequel elles opèrent.
@@ -4872,38 +4874,40 @@
 31	.	_	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-dev_00179
-# sentence-text: HIP 12961 b est une exoplanète en orbite autour de HIP 12961, une naine rouge de située à environ du Soleil dans la constellation de l'Éridan.
-1	HIP	_	PROPN	_	_	3	compound	_	_
-2	12961	_	NUM	_	_	3	nummod	_	_
-3	b	_	FIXME	_	_	6	nsubj	_	_
-4	est	_	VERB	_	_	6	cop	_	_
-5	une	_	DET	_	_	6	det	_	_
-6	exoplanète	exoplanète	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-7	en	_	ADP	_	_	8	case	_	_
-8	orbite	orbite	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
-9	autour	_	ADV	_	_	11	case	_	_
-10	de	_	ADP	_	_	9	mwe	_	_
-11	HIP	_	PROPN	_	_	6	nmod	_	_
-12	12961	_	NUM	_	_	11	nummod	_	_
-13	,	_	PUNCT	_	_	6	punct	_	_
-14	une	_	DET	_	_	15	det	_	_
-15	naine	nain	NOUN	_	Gender=Fem|Number=Sing	6	appos	_	_
-16	rouge	_	ADJ	_	_	15	amod	_	_
-17	de	_	ADP	_	_	15	case	_	_
-18	située	_	VERB	_	_	15	acl	_	_
-19	à	_	ADP	_	_	20	case	_	_
-20	environ	_	ADV	_	_	18	advmod	_	_
-21-22	du	_	_	_	_	_	_	_	_
-21	de	_	ADP	_	_	23	case	_	_
-22	le	_	DET	_	_	23	det	_	_
-23	Soleil	_	PROPN	_	_	18	nmod	_	_
-24	dans	_	ADP	_	_	26	case	_	_
-25	la	_	DET	_	_	26	det	_	_
-26	constellation	constellation	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
-27	de	_	ADP	_	_	29	case	_	_
-28	l'	_	DET	_	_	29	det	_	_
-29	Éridan	_	PROPN	_	_	26	nmod	_	_
-30	.	_	PUNCT	_	_	6	punct	_	_
+# sentence-text: HIP 12961 b est une exoplanète en orbite autour de HIP 12961, une naine rouge de 0,67 masses solaires située à environ 75 années-lumière du Soleil dans la constellation de l'Éridan.
+1	HIP_12961_b	_	PROPN	_	_	4	nsubj	_	_
+2	est	_	VERB	_	_	4	cop	_	_
+3	une	_	DET	_	_	4	det	_	_
+4	exoplanète	exoplanète	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	en	_	ADP	_	_	6	case	_	_
+6	orbite	orbite	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7	autour	_	ADV	_	_	9	case	_	_
+8	de	_	ADP	_	_	7	mwe	_	_
+9	HIP_12961	_	PROPN	_	_	4	nmod	_	_
+10	,	_	PUNCT	_	_	4	punct	_	_
+11	une	_	DET	_	_	12	det	_	_
+12	naine	nain	NOUN	_	Gender=Fem|Number=Sing	4	appos	_	_
+13	rouge	_	ADJ	_	_	12	amod	_	_
+14	de	_	ADP	_	_	16	case	_	_
+15	0,67	_	NUM	_	_	16	nummod	_	_
+16	masses	masse	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	_
+17	solaires	_	ADJ	_	_	16	amod	_	_
+18	située	_	VERB	_	_	12	acl	_	_
+19	à	_	ADP	_	_	22	case	_	_
+20	environ	_	ADV	_	_	21	advmod	_	_
+21	75	_	NUM	_	_	22	nummod	_	_
+22	années-lumière	année-lumière	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	_
+23-24	du	_	_	_	_	_	_	_	_
+23	de	_	ADP	_	_	25	case	_	_
+24	le	_	DET	_	_	25	det	_	_
+25	Soleil	_	PROPN	_	_	18	nmod	_	_
+26	dans	_	ADP	_	_	28	case	_	_
+27	la	_	DET	_	_	28	det	_	_
+28	constellation	constellation	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+29	de	_	ADP	_	_	31	case	_	_
+30	l'	_	DET	_	_	31	det	_	_
+31	Éridan	_	PROPN	_	_	28	nmod	_	_
+32	.	_	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-dev_00180
 # sentence-text: Les traces de ce procès sont loin d'avoir disparu, même à l'heure actuelle, plus de trois siècles et demi plus tard.
@@ -6884,7 +6888,7 @@
 19	émissions	émission	NOUN	_	Gender=Fem|Number=Plur	11	conj	_	_
 20	spéciales	_	ADJ	_	_	19	amod	_	_
 21	telles	_	ADJ	_	_	19	amod	_	_
-22	Je	_	FIXME	_	_	23	nsubj	_	_
+22	Je	FIXME	NOUN	_	_	23	nsubj	_	_
 23	hais	_	VERB	_	_	19	acl:relcl	_	_
 24	les	_	DET	_	_	25	det	_	_
 25	années	année	NOUN	_	Gender=Fem|Number=Plur	23	dobj	_	_
@@ -7788,7 +7792,8 @@
 6	,	_	PUNCT	_	_	5	punct	_	_
 7	à	_	ADP	_	_	9	case	_	_
 8	la	_	DET	_	_	9	det	_	_
-9	Juventus	Juventus	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_ 10	(	_	PUNCT	_	_	14	punct	_	_
+9	Juventus	Juventus	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
+10	(	_	PUNCT	_	_	14	punct	_	_
 11	pour	_	ADP	_	_	12	case	_	_
 12	qui	_	PRON	_	_	14	nmod	_	_
 13	il	_	PRON	_	_	14	nsubj	_	_
@@ -10155,35 +10160,36 @@
 
 # sentid: fr-ud-dev_00369
 # sentence-text: LÉchangeur de Haute-Perche est un nœud routier important du département du Maine-et-Loire situé sur la commune de Saint-Melaine-sur-Aubance au sud d'Angers.
-1	LÉchangeur	FIXME	NOUN	_	_	6	nsubj	_	_
-2	de	_	ADP	_	_	3	case	_	_
-3	Haute-Perche	_	PROPN	_	_	1	nmod	_	_
-4	est	_	VERB	_	_	6	cop	_	_
-5	un	_	DET	_	_	6	det	_	_
-6	nœud	nœud	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-7	routier	_	ADJ	_	_	6	amod	_	_
-8	important	_	ADJ	_	_	6	amod	_	_
-9-10	du	_	_	_	_	_	_	_	_
-9	de	_	ADP	_	_	11	case	_	_
-10	le	_	DET	_	_	11	det	_	_
-11	département	département	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-12-13	du	_	_	_	_	_	_	_	_
-12	de	_	ADP	_	_	14	case	_	_
-13	le	_	DET	_	_	14	det	_	_
-14	Maine-et-Loire	_	PROPN	_	_	11	nmod	_	_
-15	situé	_	VERB	_	_	6	acl	_	_
-16	sur	_	ADP	_	_	18	case	_	_
-17	la	_	DET	_	_	18	det	_	_
-18	commune	commune	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
-19	de	_	ADP	_	_	20	case	_	_
-20	Saint-Melaine-sur-Aubance	_	PROPN	_	_	18	nmod	_	_
-21-22	au	_	_	_	_	_	_	_	_
-21	à	_	ADP	_	_	23	case	_	_
-22	le	_	DET	_	_	23	det	_	_
-23	sud	sud	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
-24	d'	_	ADP	_	_	25	case	_	_
-25	Angers	_	PROPN	_	_	23	nmod	_	_
-26	.	_	PUNCT	_	_	6	punct	_	_
+1	L'	_	DET	_	_	2	det	_	_
+2	échangeur	échangeur	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	de	_	ADP	_	_	4	case	_	_
+4	Haute-Perche	_	PROPN	_	_	2	nmod	_	_
+5	est	_	VERB	_	_	7	cop	_	_
+6	un	_	DET	_	_	7	det	_	_
+7	nœud	nœud	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+8	routier	_	ADJ	_	_	7	amod	_	_
+9	important	_	ADJ	_	_	7	amod	_	_
+10-11	du	_	_	_	_	_	_	_	_
+10	de	_	ADP	_	_	12	case	_	_
+11	le	_	DET	_	_	12	det	_	_
+12	département	département	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+13-14	du	_	_	_	_	_	_	_	_
+13	de	_	ADP	_	_	15	case	_	_
+14	le	_	DET	_	_	15	det	_	_
+15	Maine-et-Loire	_	PROPN	_	_	12	nmod	_	_
+16	situé	_	VERB	_	_	7	acl	_	_
+17	sur	_	ADP	_	_	19	case	_	_
+18	la	_	DET	_	_	19	det	_	_
+19	commune	commune	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20	de	_	ADP	_	_	21	case	_	_
+21	Saint-Melaine-sur-Aubance	_	PROPN	_	_	19	nmod	_	_
+22-23	au	_	_	_	_	_	_	_	_
+22	à	_	ADP	_	_	24	case	_	_
+23	le	_	DET	_	_	24	det	_	_
+24	sud	sud	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+25	d'	_	ADP	_	_	26	case	_	_
+26	Angers	_	PROPN	_	_	24	nmod	_	_
+27	.	_	PUNCT	_	_	7	punct	_	_
 
 # sentid: fr-ud-dev_00370
 # sentence-text: Selon les chroniques médiévales, plus de 50 000 soldats des Maisons d'York et de Lancastre se sont combattus ce dimanche des Rameaux pendant plusieurs heures et dans des conditions météorologiques déplorables, et une proclamation diffusée une semaine après la bataille rapporte que 28 000 hommes ont péri sur le champ de bataille.
@@ -11302,22 +11308,23 @@
 10	.	_	PUNCT	_	_	7	punct	_	_
 
 # sentid: fr-ud-dev_00412
-# sentence-text: Lautoroute A38 est une autoroute gratuite reliant l'A6 (Pouilly-en-Auxois) à Dijon.
-1	Lautoroute	FIXME	NOUN	_	_	5	nsubj	_	_
-2	A38	_	PROPN	_	_	1	appos	_	_
-3	est	_	VERB	_	_	5	cop	_	_
-4	une	_	DET	_	_	5	det	_	_
-5	autoroute	autoroute	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-6	gratuite	_	ADJ	_	_	5	amod	_	_
-7	reliant	_	VERB	_	_	5	acl	_	_
-8	l'	_	DET	_	_	9	det	_	_
-9	A6	_	PROPN	_	_	7	dobj	_	_
-10	(	_	PUNCT	_	_	11	punct	_	_
-11	Pouilly-en-Auxois	_	PROPN	_	_	9	nmod	_	_
-12	)	_	PUNCT	_	_	11	punct	_	_
-13	à	_	ADP	_	_	14	case	_	_
-14	Dijon	_	PROPN	_	_	7	nmod	_	_
-15	.	_	PUNCT	_	_	5	punct	_	_
+# sentence-text: L'autoroute A38 est une autoroute gratuite reliant l'A6 (Pouilly-en-Auxois) à Dijon.
+1	L'	_	DET	_	_	2	det	_	_
+2	autoroute	autoroute	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	A38	_	PROPN	_	_	2	appos	_	_
+4	est	_	VERB	_	_	6	cop	_	_
+5	une	_	DET	_	_	6	det	_	_
+6	autoroute	autoroute	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+7	gratuite	_	ADJ	_	_	6	amod	_	_
+8	reliant	_	VERB	_	_	6	acl	_	_
+9	l'	_	DET	_	_	10	det	_	_
+10	A6	_	PROPN	_	_	8	dobj	_	_
+11	(	_	PUNCT	_	_	12	punct	_	_
+12	Pouilly-en-Auxois	_	PROPN	_	_	10	nmod	_	_
+13	)	_	PUNCT	_	_	12	punct	_	_
+14	à	_	ADP	_	_	15	case	_	_
+15	Dijon	_	PROPN	_	_	8	nmod	_	_
+16	.	_	PUNCT	_	_	6	punct	_	_
 
 # sentid: fr-ud-dev_00413
 # sentence-text: En entendant cela, l'ingénieur de vol du KLM a exprimé son doute à propos du statut du Pan Am en demandant aux pilotes dans son propre habitacle "n'est il pas sorti, le Pan American ?"
@@ -16309,7 +16316,7 @@
 16	poseur	poseur	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
 17	de	_	ADP	_	_	19	case	_	_
 18	faux	_	ADJ	_	_	19	amod	_	_
-19	plafonds		NOUN	_		16	nmod	_	_
+19	plafonds	_	NOUN	_	_	16	nmod	_	_
 20	,	_	PUNCT	_	_	11	punct	_	_
 21	monteur	monteur	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
 22	de	_	ADP	_	_	23	case	_	_
@@ -24430,7 +24437,7 @@
 29	.	_	PUNCT	_	_	10	punct	_	_
 
 # sentid: fr-ud-dev_00887
-# sentence-text: Une deuxième antichambre servait de large dégagement pour les personnes de service (La première antichambre, l'autre salle d'attente étant la deuxième puisque l'on compte depuis la chambre desservie dans l'organisation de lenfilade.
+# sentence-text: Une deuxième antichambre servait de large dégagement pour les personnes de service (La première antichambre, l'autre salle d'attente étant la deuxième puisque l'on compte depuis la chambre desservie dans l'organisation de l'enfilade.
 1	Une	_	DET	_	_	3	det	_	_
 2	deuxième	_	ADJ	_	_	3	amod	_	_
 3	antichambre	antichambre	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
@@ -24467,9 +24474,10 @@
 34	dans	_	ADP	_	_	36	case	_	_
 35	l'	_	DET	_	_	36	det	_	_
 36	organisation	organisation	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
-37	de	_	ADP	_	_	38	case	_	_
-38	lenfilade	FIXME	NOUN	_	_	36	nmod	_	_
-39	.	_	PUNCT	_	_	4	punct	_	_
+37	de	_	ADP	_	_	39	case	_	_
+38	l'	_	DET	_	_	39	det	_	_
+39	enfilade	enfilade	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	_
+40	.	_	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-dev_00888
 # sentence-text: D'or, à la croix de sable, la branche cadette portait les mêmes avec un lambel en chef à trois pendants.
@@ -32001,7 +32009,7 @@
 12	,	_	PUNCT	_	_	5	punct	_	_
 13	et	_	CONJ	_	_	5	cc	_	_
 14	nous	_	PRON	_	_	15	nsubj	_	_
-15	étions	_	FIXME	_	_	5	conj	_	_
+15	étions	FIXME	NOUN	_	_	5	conj	_	_
 16	tous	_	PRON	_	_	15	nmod	_	_
 17	évidemment	_	ADV	_	_	15	advmod	_	_
 18	dans	_	ADP	_	_	20	case	_	_
@@ -33123,19 +33131,20 @@
 36	.	_	PUNCT	_	_	20	punct	_	_
 
 # sentid: fr-ud-dev_01201
-# sentence-text: Léglise Notre-Dame est une église située à Cierges, en France.
-1	Léglise	FIXME	NOUN	_	_	5	nsubj	_	_
-2	Notre-Dame	_	PROPN	_	_	1	appos	_	_
-3	est	_	VERB	_	_	5	cop	_	_
-4	une	_	DET	_	_	5	det	_	_
-5	église	église	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-6	située	_	VERB	_	_	5	acl	_	_
-7	à	_	ADP	_	_	8	case	_	_
-8	Cierges	_	PROPN	_	_	6	nmod	_	_
-9	,	_	PUNCT	_	_	6	punct	_	_
-10	en	_	ADP	_	_	11	case	_	_
-11	France	_	PROPN	_	_	6	nmod	_	_
-12	.	_	PUNCT	_	_	5	punct	_	_
+# sentence-text: L'église Notre-Dame est une église située à Cierges, en France.
+1	L'	_	DET	_	_	2	det	_	_
+2	église	église	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	Notre-Dame	_	PROPN	_	_	2	appos	_	_
+4	est	_	VERB	_	_	6	cop	_	_
+5	une	_	DET	_	_	6	det	_	_
+6	église	église	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+7	située	_	VERB	_	_	6	acl	_	_
+8	à	_	ADP	_	_	9	case	_	_
+9	Cierges	_	PROPN	_	_	7	nmod	_	_
+10	,	_	PUNCT	_	_	7	punct	_	_
+11	en	_	ADP	_	_	12	case	_	_
+12	France	_	PROPN	_	_	7	nmod	_	_
+13	.	_	PUNCT	_	_	6	punct	_	_
 
 # sentid: fr-ud-dev_01202
 # sentence-text: Pour remédier à cela, les Chinois conduisaient d'abord le gaz dans un grand réservoir en bois de forme conique, placé 3 m sous le niveau du sol, où un autre conduit amenait l'air.

@@ -2149,54 +2149,55 @@
 
 # sentid: fr-ud-dev_00081
 # sentence-text: Lextension de la ligne 7 du métro de New York est étroitement liée au ré-aménagement de l'Hudson Yards, elle a pour but d'étendre l'IRT Flushing Line, vers l'ouest à partir de son terminus actuel à Times Square.
-1	Lextension	FIXME	NOUN	_	_	14	nsubj	_	_
-2	de	_	ADP	_	_	4	case	_	_
-3	la	_	DET	_	_	4	det	_	_
-4	ligne	ligne	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-5	7	_	NUM	_	_	4	nummod	_	_
-6-7	du	_	_	_	_	_	_	_	_
-6	de	_	ADP	_	_	8	case	_	_
-7	le	_	DET	_	_	8	det	_	_
-8	métro	métro	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-9	de	_	ADP	_	_	10	case	_	_
-10	New	_	PROPN	_	_	8	nmod	_	_
-11	York	_	PROPN	_	_	10	name	_	_
-12	est	_	AUX	_	_	14	aux	_	_
-13	étroitement	_	ADV	_	_	14	advmod	_	_
-14	liée	_	VERB	_	_	0	root	_	_
-15-16	au	_	_	_	_	_	_	_	_
-15	à	_	ADP	_	_	17	case	_	_
-16	le	_	DET	_	_	17	det	_	_
-17	ré-aménagement	ré-aménagement	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
-18	de	_	ADP	_	_	20	case	_	_
-19	l'	_	DET	_	_	20	det	_	_
-20	Hudson	_	PROPN	_	_	17	nmod	_	_
-21	Yards	_	PROPN	_	_	20	name	_	_
-22	,	_	PUNCT	_	_	14	punct	_	_
-23	elle	_	PRON	_	_	24	nsubj	_	_
-24	a	_	VERB	_	_	14	conj	_	_
-25	pour	_	ADP	_	_	26	case	_	_
-26	but	but	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
-27	d'	_	ADP	_	_	28	case	_	_
-28	étendre	_	VERB	_	_	24	acl	_	_
-29	l'	_	DET	_	_	31	det	_	_
-30	IRT	IRT	NOUN	_	Gender=Masc|Number=Plur	31	compound	_	_
-31	Flushing	_	PROPN	_	_	28	dobj	_	_
-32	Line	_	PROPN	_	_	31	name	_	_
-33	,	_	PUNCT	_	_	28	punct	_	_
-34	vers	_	ADP	_	_	36	case	_	_
-35	l'	_	DET	_	_	36	det	_	_
-36	ouest	ouest	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
-37	à	_	ADP	_	_	38	mark	_	_
-38	partir	_	VERB	_	_	28	acl	_	_
-39	de	_	ADP	_	_	41	case	_	_
-40	son	_	DET	_	_	41	nmod:poss	_	_
-41	terminus	terminus	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	_
-42	actuel	_	ADJ	_	_	41	amod	_	_
-43	à	_	ADP	_	_	44	case	_	_
-44	Times	_	PROPN	_	_	41	nmod	_	_
-45	Square	_	PROPN	_	_	44	name	_	_
-46	.	_	PUNCT	_	_	14	punct	_	_
+1	L	_	DET	_	_	2	det	_	_
+2	extension	extension	NOUN	_	_	15	nsubj	_	_
+3	de	_	ADP	_	_	5	case	_	_
+4	la	_	DET	_	_	5	det	_	_
+5	ligne	ligne	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	7	_	NUM	_	_	5	nummod	_	_
+7-8	du	_	_	_	_	_	_	_	_
+7	de	_	ADP	_	_	9	case	_	_
+8	le	_	DET	_	_	9	det	_	_
+9	métro	métro	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+10	de	_	ADP	_	_	11	case	_	_
+11	New	_	PROPN	_	_	9	nmod	_	_
+12	York	_	PROPN	_	_	11	name	_	_
+13	est	_	AUX	_	_	15	aux	_	_
+14	étroitement	_	ADV	_	_	15	advmod	_	_
+15	liée	_	VERB	_	_	0	root	_	_
+16-17	au	_	_	_	_	_	_	_	_
+16	à	_	ADP	_	_	18	case	_	_
+17	le	_	DET	_	_	18	det	_	_
+18	ré-aménagement	ré-aménagement	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	de	_	ADP	_	_	21	case	_	_
+20	l'	_	DET	_	_	21	det	_	_
+21	Hudson	_	PROPN	_	_	18	nmod	_	_
+22	Yards	_	PROPN	_	_	21	name	_	_
+23	,	_	PUNCT	_	_	15	punct	_	_
+24	elle	_	PRON	_	_	25	nsubj	_	_
+25	a	_	VERB	_	_	15	conj	_	_
+26	pour	_	ADP	_	_	27	case	_	_
+27	but	but	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+28	d'	_	ADP	_	_	29	mark	_	_
+29	étendre	_	VERB	_	_	25	acl	_	_
+30	l'	_	DET	_	_	31	det	_	_
+31	IRT	IRT	NOUN	_	Gender=Masc|Number=Plur	29	dobj	_	_
+32	Flushing	_	PROPN	_	_	31	name	_	_
+33	Line	_	PROPN	_	_	31	name	_	_
+34	,	_	PUNCT	_	_	29	punct	_	_
+35	vers	_	ADP	_	_	37	case	_	_
+36	l'	_	DET	_	_	37	det	_	_
+37	ouest	ouest	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
+38	à	_	ADP	_	_	42	case	_	_
+39	partir	_	VERB	_	_	38	mwe	_	_
+40	de	_	ADP	_	_	38	mwe	_	_
+41	son	_	DET	_	_	42	nmod:poss	_	_
+42	terminus	terminus	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	_
+43	actuel	_	ADJ	_	_	42	amod	_	_
+44	à	_	ADP	_	_	45	case	_	_
+45	Times	_	PROPN	_	_	42	nmod	_	_
+46	Square	_	PROPN	_	_	45	name	_	_
+47	.	_	PUNCT	_	_	15	punct	_	_
 
 # sentid: fr-ud-dev_00082
 # sentence-text: Douarnenez accueillera le spectacle de clôture, pour trois représentations vendredi 28 et samedi 29, à 20 h 30 ;
@@ -2619,7 +2620,7 @@
 32	elliptique	_	ADJ	_	_	31	amod	_	_
 33	,	_	PUNCT	_	_	31	punct	_	_
 34	suspendu	_	VERB	_	_	31	acl	_	_
-35	au-dessus	FIXME	NOUN	_	_	38	nmod	_	_
+35	au-dessus	_	ADV	_	_	38	advmod	_	_
 36-37	du	_	_	_	_	_	_	_	_
 36	de	_	ADP	_	_	38	case	_	_
 37	le	_	DET	_	_	38	det	_	_
@@ -3962,30 +3963,32 @@
 
 # sentid: fr-ud-dev_00145
 # sentence-text: Leuro de La Réunion, comme chacune des autres pièces, dispose dune face personnalisée reprenant le drapeau de la région.
-1	Leuro	FIXME	NOUN	_	_	13	nsubj	_	_
-2	de	_	ADP	_	_	4	case	_	_
-3	La	_	DET	_	_	4	det	_	_
-4	Réunion	_	PROPN	_	_	1	nmod	_	_
-5	,	_	PUNCT	_	_	1	punct	_	_
-6	comme	_	ADP	_	_	7	case	_	_
-7	chacune	_	PRON	_	_	1	nmod	_	_
-8-9	des	_	_	_	_	_	_	_	_
-8	de	_	ADP	_	_	11	case	_	_
-9	les	_	DET	_	_	11	det	_	_
-10	autres	_	ADJ	_	_	11	amod	_	_
-11	pièces	pièce	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
-12	,	_	PUNCT	_	_	13	punct	_	_
-13	dispose	_	VERB	_	_	0	root	_	_
-14	dune	_	ADP	_	_	15	case	_	_
-15	face	face	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
-16	personnalisée	_	VERB	_	_	15	acl	_	_
-17	reprenant	_	VERB	_	_	15	acl	_	_
-18	le	_	DET	_	_	19	det	_	_
-19	drapeau	drapeau	NOUN	_	Gender=Masc|Number=Sing	17	dobj	_	_
-20	de	_	ADP	_	_	22	case	_	_
-21	la	_	DET	_	_	22	det	_	_
-22	région	région	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
-23	.	_	PUNCT	_	_	13	punct	_	_
+1	L	_	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+2	euro	_	NOUN	_	_	14	nsubj	_	_
+3	de	_	ADP	_	_	5	case	_	_
+4	La	_	DET	_	_	5	det	_	_
+5	Réunion	_	PROPN	_	_	2	nmod	_	_
+6	,	_	PUNCT	_	_	2	punct	_	_
+7	comme	_	ADP	_	_	8	case	_	_
+8	chacune	_	PRON	_	_	2	nmod	_	_
+9-10	des	_	_	_	_	_	_	_	_
+9	de	_	ADP	_	_	12	case	_	_
+10	les	_	DET	_	_	12	det	_	_
+11	autres	_	ADJ	_	_	12	amod	_	_
+12	pièces	pièce	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+13	,	_	PUNCT	_	_	14	punct	_	_
+14	dispose	_	VERB	_	_	0	root	_	_
+15	d	_	ADP	_	_	17	case	_	_
+16	une	_	DET	_	_	17	det	_	_
+17	face	face	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+18	personnalisée	_	VERB	_	_	17	acl	_	_
+19	reprenant	_	VERB	_	_	17	acl	_	_
+20	le	_	DET	_	_	21	det	_	_
+21	drapeau	drapeau	NOUN	_	Gender=Masc|Number=Sing	19	dobj	_	_
+22	de	_	ADP	_	_	24	case	_	_
+23	la	_	DET	_	_	24	det	_	_
+24	région	région	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+25	.	_	PUNCT	_	_	14	punct	_	_
 
 # sentid: fr-ud-dev_00146
 # sentence-text: Au lycée, il publie déjà des articles de botanique et des inventaires de plantes, dont la Flora Femsionensis.
@@ -4651,7 +4654,7 @@
 21	de	_	ADP	_	_	22	case	_	_
 22	Sainte-Hélène	_	PROPN	_	_	20	nmod	_	_
 23	,	_	PUNCT	_	_	25	punct	_	_
-24	beaucoup	FIXME	NOUN	_	_	25	nsubj	_	_
+24	beaucoup	_	PRON	_	_	25	nsubj	_	_
 25	mettront	_	VERB	_	_	0	root	_	_
 26	leur	_	DET	_	_	27	nmod:poss	_	_
 27	espoir	espoir	NOUN	_	Gender=Masc|Number=Sing	25	dobj	_	_
@@ -4772,7 +4775,7 @@
 9	à	_	ADP	_	_	10	case	_	_
 10	Paris	_	PROPN	_	_	4	nmod	_	_
 11	--	_	PUNCT	_	_	4	punct	_	_
-12	mort	FIXME	NOUN	_	_	4	conj	_	_
+12	mort	_	ADJ	_	_	4	conj	_	_
 13	le	_	DET	_	_	15	det	_	_
 14	26	_	NUM	_	_	15	nummod	_	_
 15	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
@@ -6888,7 +6891,7 @@
 19	émissions	émission	NOUN	_	Gender=Fem|Number=Plur	11	conj	_	_
 20	spéciales	_	ADJ	_	_	19	amod	_	_
 21	telles	_	ADJ	_	_	19	amod	_	_
-22	Je	FIXME	NOUN	_	_	23	nsubj	_	_
+22	Je	_	PRON	_	_	23	nsubj	_	_
 23	hais	_	VERB	_	_	19	acl:relcl	_	_
 24	les	_	DET	_	_	25	det	_	_
 25	années	année	NOUN	_	Gender=Fem|Number=Plur	23	dobj	_	_
@@ -12451,7 +12454,7 @@
 12	il	_	PRON	_	_	15	nsubj	_	_
 13	est	_	VERB	_	_	15	cop	_	_
 14	aujourd'hui	_	ADV	_	_	15	advmod	_	_
-15	tétraplégique	FIXME	NOUN	_	_	0	root	_	_
+15	tétraplégique	_	ADJ	_	_	0	root	_	_
 16	incomplet	_	ADJ	_	_	15	amod	_	_
 17	.	_	PUNCT	_	_	15	punct	_	_
 
@@ -13310,7 +13313,7 @@
 9	nouveau	_	ADJ	_	_	10	amod	_	_
 10	permis	permis	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 11	de	_	ADP	_	_	12	case	_	_
-12	construire	FIXME	NOUN	_	_	10	nmod	_	_
+12	construire	_	VERB	_	_	10	nmod	_	_
 13	est	_	AUX	_	_	14	aux	_	_
 14	accordé	_	VERB	_	_	0	root	_	_
 15	.	_	PUNCT	_	_	14	punct	_	_
@@ -26347,13 +26350,13 @@
 12	les	_	DET	_	_	14	det	_	_
 13	9	_	NUM	_	_	14	nummod	_	_
 14	°	_	SYM	_	_	9	nmod	_	_
-15	C	FIXME	NOUN	_	_	14	compound	_	_
+15	C	Celsius	NOUN	_	Gender=Masc|Number=Sing	14	compound	_	_
 16	et	_	CONJ	_	_	14	cc	_	_
 17	la	_	DET	_	_	18	det	_	_
 18	maximale	maximale	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
 19	19	_	NUM	_	_	20	nummod	_	_
 20	°	_	SYM	_	_	18	nmod	_	_
-21	C	FIXME	NOUN	_	_	20	compound	_	_
+21	C	Celsius	NOUN	_	Gender=Masc|Number=Sing	14	20	compound	_	_
 22	.	_	PUNCT	_	_	9	punct	_	_
 
 # sentid: fr-ud-dev_00955
@@ -26845,7 +26848,7 @@
 31	qui	_	PRON	_	_	32	nsubj	_	_
 32	voulait	_	VERB	_	_	30	acl:relcl	_	_
 33	la	_	DET	_	_	34	det	_	_
-34	marier	FIXME	NOUN	_	_	32	dobj	_	_
+34	marier	_	VERB	_	_	32	dobj	_	_
 35	contre	_	ADP	_	_	37	case	_	_
 36	son	_	DET	_	_	37	nmod:poss	_	_
 37	gré	gré	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
@@ -28080,7 +28083,7 @@
 
 # sentid: fr-ud-dev_01011
 # sentence-text: Plusieurs de ces propositions seront reprises dans le cadre de la correction des eaux du Jura, en particulier le projet du grison Richard La Nicca de détourner le cours de l'Aar dans le lac de Bienne.
-1	Plusieurs	FIXME	NOUN	_	_	6	nsubjpass	_	_
+1	Plusieurs	_	PRON	_	_	6	nsubjpass	_	_
 2	de	_	ADP	_	_	4	case	_	_
 3	ces	_	DET	_	_	4	det	_	_
 4	propositions	proposition	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
@@ -32009,7 +32012,7 @@
 12	,	_	PUNCT	_	_	5	punct	_	_
 13	et	_	CONJ	_	_	5	cc	_	_
 14	nous	_	PRON	_	_	15	nsubj	_	_
-15	étions	FIXME	NOUN	_	_	5	conj	_	_
+15	étions	_	VERB	_	_	5	conj	_	_
 16	tous	_	PRON	_	_	15	nmod	_	_
 17	évidemment	_	ADV	_	_	15	advmod	_	_
 18	dans	_	ADP	_	_	20	case	_	_
@@ -33473,7 +33476,7 @@
 15	n'	_	PART	_	_	20	neg	_	_
 16	aurait	_	AUX	_	_	20	aux	_	_
 17	par	_	ADP	_	_	20	advmod	_	_
-18	conséquent	FIXME	NOUN	_	_	17	mwe	_	_
+18	conséquent	_	ADV	_	_	17	mwe	_	_
 19	pas	_	ADV	_	_	20	neg	_	_
 20	réagi	_	VERB	_	_	7	conj	_	_
 21	publiquement	_	ADV	_	_	20	advmod	_	_
@@ -37091,7 +37094,7 @@
 
 # sentid: fr-ud-dev_01339
 # sentence-text: Il est désormais endorsé par les amplis ENGL.
-1	Il	FIXME	NOUN	_	_	4	nsubjpass	_	_
+1	Il	_	PRON	_	_	4	nsubjpass	_	_
 2	est	_	AUX	_	_	4	auxpass	_	_
 3	désormais	_	ADV	_	_	4	advmod	_	_
 4	endorsé	_	VERB	_	_	0	root	_	_
@@ -37252,7 +37255,7 @@
 13	irrationnel	_	ADJ	_	_	12	amod	_	_
 14-15	puisqu'il	_	_	_	_	_	_	_	_
 14	puisqu'	_	SCONJ	_	_	12	mark	_	_
-15	il	FIXME	NOUN	_	_	12	advcl	_	_
+15	il	_	PRON	_	_	12	advcl	_	_
 16	a	_	AUX	_	_	15	aux	_	_
 17	avoué	_	VERB	_	_	15	cop	_	_
 18	?	_	PUNCT	_	_	12	punct	_	_
@@ -40581,7 +40584,7 @@
 1	Ces	_	DET	_	_	2	det	_	_
 2	critères	critère	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	sont	_	VERB	_	_	4	cop	_	_
-4	alternatifs	FIXME	NOUN	_	_	0	root	_	_
+4	alternatifs	_	ADJ	_	_	0	root	_	_
 5	en	_	ADP	_	_	6	case	_	_
 6	droit	droit	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 7	:	_	PUNCT	_	_	4	punct	_	_

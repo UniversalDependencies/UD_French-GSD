@@ -3170,7 +3170,7 @@
 51	;	_	PUNCT	_	_	22	punct	_	_
 
 # sentid: fr-ud-test_00107
-# sentence-text: À l'aide de leurs résultats, ils en viennent à la conclusion que si les 32 États qui n'avaient pas une limite de 80 mg/100 ml le 1 er janvier 2000 avaient adopté une telle politique, 947 vies auraient été sauvées.
+# sentence-text: À l'aide de leurs résultats, ils en viennent à la conclusion que si les 32 États qui n'avaient pas une limite de 80 mg/100 ml le 1er janvier 2000 avaient adopté une telle politique, 947 vies auraient été sauvées.
 1	À	_	ADP	_	_	3	case	_	_
 2	l'	_	DET	_	_	3	det	_	_
 3	aide	aide	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
@@ -3184,11 +3184,11 @@
 11	à	_	ADP	_	_	13	case	_	_
 12	la	_	DET	_	_	13	det	_	_
 13	conclusion	conclusion	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
-14	que	_	SCONJ	_	_	44	mark	_	_
-15	si	_	SCONJ	_	_	35	mark	_	_
+14	que	_	SCONJ	_	_	43	mark	_	_
+15	si	_	SCONJ	_	_	34	mark	_	_
 16	les	_	DET	_	_	18	det	_	_
 17	32	_	NUM	_	_	18	nummod	_	_
-18	États	État	NOUN	_	Gender=Masc|Number=Plur	35	nsubj	_	_
+18	États	État	NOUN	_	Gender=Masc|Number=Plur	34	nsubj	_	_
 19	qui	_	PRON	_	_	21	nsubj	_	_
 20	n'	_	PART	_	_	21	neg	_	_
 21	avaient	_	VERB	_	_	18	acl:relcl	_	_
@@ -3199,23 +3199,22 @@
 26	80	_	NUM	_	_	27	nummod	_	_
 27	mg/100	_	X	_	_	24	nmod	_	_
 28	ml	millilitre	NOUN	_	Gender=Masc|Number=Sing	27	compound	_	_
-29	le	_	DET	_	_	32	det	_	_
-30	1	_	NUM	_	_	32	nummod	_	_
-31	er	_	X	_	_	30	goeswith	_	_
-32	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
-33	2000	_	NUM	_	_	32	nmod	_	_
-34	avaient	_	AUX	_	_	35	aux	_	_
-35	adopté	_	VERB	_	_	44	advcl	_	_
-36	une	_	DET	_	_	38	det	_	_
-37	telle	tel	ADJ	_	fs=y	38	amod	_	_
-38	politique	politique	NOUN	_	Gender=Masc|Number=Plur	35	dobj	_	_
-39	,	_	PUNCT	_	_	44	punct	_	_
-40	947	_	NUM	_	_	41	nummod	_	_
-41	vies	vie	NOUN	_	Gender=Fem|Number=Plur	44	nsubjpass	_	_
-42	auraient	_	AUX	_	_	44	aux	_	_
-43	été	_	AUX	_	_	44	auxpass	_	_
-44	sauvées	_	VERB	_	_	13	ccomp	_	_
-45	.	_	PUNCT	_	_	10	punct	_	_
+29	le	_	DET	_	_	31	det	_	_
+30	1er	_	NUM	_	_	31	nummod	_	_
+31	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+32	2000	_	NUM	_	_	31	nmod	_	_
+33	avaient	_	AUX	_	_	34	aux	_	_
+34	adopté	_	VERB	_	_	43	advcl	_	_
+35	une	_	DET	_	_	37	det	_	_
+36	telle	tel	ADJ	_	fs=y	37	amod	_	_
+37	politique	politique	NOUN	_	Gender=Masc|Number=Plur	34	dobj	_	_
+38	,	_	PUNCT	_	_	43	punct	_	_
+39	947	_	NUM	_	_	40	nummod	_	_
+40	vies	vie	NOUN	_	Gender=Fem|Number=Plur	43	nsubjpass	_	_
+41	auraient	_	AUX	_	_	43	aux	_	_
+42	été	_	AUX	_	_	43	auxpass	_	_
+43	sauvées	_	VERB	_	_	13	ccomp	_	_
+44	.	_	PUNCT	_	_	10	punct	_	_
 
 # sentid: fr-ud-test_00108
 # sentence-text: Créé en 1999, le show "Mamma Mia !"

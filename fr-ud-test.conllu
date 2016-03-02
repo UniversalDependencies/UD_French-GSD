@@ -143,7 +143,7 @@
 23	jusqu'	_	ADP	_	_	27	case	_	_
 24-25	au	_	_	_	_	_	_	_	_
 24	à	_	ADP	_	_	23	mwe	_	_
-25	le	_	DET	_	_	23	det	_	_
+25	le	_	DET	_	_	27	det	_	_
 26	31	_	NUM	_	_	27	nummod	_	_
 27	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 28	)	_	PUNCT	_	_	27	punct	_	_
@@ -210,7 +210,7 @@
 3	autour	_	ADP	_	_	6	case	_	_
 4-5	du	_	_	_	_	_	_	_	_
 4	de	_	ADP	_	_	3	mwe	_	_
-5	le	_	DET	_	_	3	det	_	_
+5	le	_	DET	_	_	6	det	_	_
 6	match	match	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 7	sont	_	VERB	_	_	10	cop	_	_
 8	à	_	ADP	_	_	10	case	_	_
@@ -393,7 +393,7 @@
 2	,	_	PUNCT	_	_	10	punct	_	_
 3	avec	_	ADP	_	_	8	case	_	_
 4	un	_	DET	_	_	8	det	_	_
-5	peu	_	ADV	_	_	4	det	_	_
+5	peu	_	ADV	_	_	4	mwe	_	_
 6	de	_	ADP	_	_	4	mwe	_	_
 7	bonne	bon	ADJ	_	fs=y	8	amod	_	_
 8	volonté	volonté	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
@@ -1046,11 +1046,11 @@
 # sentence-text: Au regard du droit international, la question du Sahara Occidental est très claire.
 1-2	Au	_	_	_	_	_	_	_	_
 1	à	_	ADP	_	_	6	case	_	_
-2	le	_	DET	_	_	6	det	_	_
+2	le	_	DET	_	_	1	mwe	_	_
 3	regard	regard	NOUN	_	Gender=Masc|Number=Sing	1	mwe	_	_
 4-5	du	_	_	_	_	_	_	_	_
 4	de	_	ADP	_	_	1	mwe	_	_
-5	le	_	DET	_	_	1	det	_	_
+5	le	_	DET	_	_	6	det	_	_
 6	droit	droit	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
 7	international	international	ADJ	_	ms=y	6	amod	_	_
 8	,	_	PUNCT	_	_	17	punct	_	_
@@ -2289,11 +2289,11 @@
 13	,	_	PUNCT	_	_	31	punct	_	_
 14-15	au	_	_	_	_	_	_	_	_
 14	à	_	ADP	_	_	19	case	_	_
-15	le	_	DET	_	_	19	det	_	_
+15	le	_	DET	_	_	14	mwe	_	_
 16	vu	_	VERB	_	_	14	mwe	_	_
 17-18	des	_	_	_	_	_	_	_	_
 17	de	_	ADP	_	_	14	mwe	_	_
-18	les	_	DET	_	_	14	det	_	_
+18	les	_	DET	_	_	19	det	_	_
 19	aides	aide	NOUN	_	Gender=Fem|Number=Plur	31	nmod	_	_
 20	militaires	militaire	ADJ	_	fp=y	19	amod	_	_
 21	de	_	ADP	_	_	23	case	_	_
@@ -2426,7 +2426,7 @@
 19	tout	tout	NOUN	_	Gender=Masc|Number=Sing	25	advmod	_	_
 20-21	au	_	_	_	_	_	_	_	_
 20	à	_	ADP	_	_	19	mwe	_	_
-21	le	_	DET	_	_	19	det	_	_
+21	le	_	DET	_	_	19	mwe	_	_
 22	mieux	mieux	NOUN	_	Gender=Masc|Number=Sing	19	mwe	_	_
 23	un	_	DET	_	_	25	det	_	_
 24	5	_	NUM	_	_	25	nummod	_	_
@@ -2515,7 +2515,7 @@
 17	suite	suite	NOUN	_	Gender=Fem|Number=Sing	20	case	_	_
 18-19	au	_	_	_	_	_	_	_	_
 18	à	_	ADP	_	_	17	mwe	_	_
-19	le	_	DET	_	_	17	det	_	_
+19	le	_	DET	_	_	20	det	_	_
 20	retrait	retrait	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 21	espagnol	espagnol	ADJ	_	ms=y	20	amod	_	_
 22-23	du	_	_	_	_	_	_	_	_
@@ -4106,7 +4106,7 @@
 34	face	face	NOUN	_	Gender=Fem|Number=Sing	37	case	_	_
 35-36	au	_	_	_	_	_	_	_	_
 35	à	_	ADP	_	_	34	mwe	_	_
-36	le	_	DET	_	_	34	det	_	_
+36	le	_	DET	_	_	37	det	_	_
 37	LTE	_	PROPN	_	_	28	nmod	_	_
 38	.	_	PUNCT	_	_	15	punct	_	_
 
@@ -4119,14 +4119,14 @@
 5	personnage	personnage	NOUN	_	Gender=Masc|Number=Sing	3	dobj	_	_
 6	très	_	ADV	_	_	7	advmod	_	_
 7	absent	absent	ADJ	_	ms=y	5	amod	_	_
-8	tout	_	ADV	_	_	9	mwe	_	_
+8	tout	_	ADV	_	_	14	case	_	_
 9-10	au	_	_	_	_	_	_	_	_
-9	à	_	ADP	_	_	14	case	_	_
-10	le	_	DET	_	_	9	det	_	_
-11	long	long	NOUN	_	Gender=Masc|Number=Sing	9	mwe	_	_
+9	à	_	ADP	_	_	8	mwe	_	_
+10	le	_	DET	_	_	8	mwe	_	_
+11	long	long	NOUN	_	Gender=Masc|Number=Sing	8	mwe	_	_
 12-13	du	_	_	_	_	_	_	_	_
-12	de	_	ADP	_	_	9	mwe	_	_
-13	le	_	DET	_	_	9	det	_	_
+12	de	_	ADP	_	_	8	mwe	_	_
+13	le	_	DET	_	_	14	det	_	_
 14	roman	roman	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 15	,	_	PUNCT	_	_	5	punct	_	_
 16	le	_	DET	_	_	18	det	_	_
@@ -5965,7 +5965,7 @@
 40	jusqu'	_	ADP	_	_	43	case	_	_
 41-42	aux	_	_	_	_	_	_	_	_
 41	à	_	ADP	_	_	40	mwe	_	_
-42	les	_	DET	_	_	40	det	_	_
+42	les	_	DET	_	_	43	det	_	_
 43	dents	dent	NOUN	_	Gender=Fem|Number=Plur	39	nmod	_	_
 44	attaquaient	_	VERB	_	_	0	root	_	_
 45	un	_	DET	_	_	46	det	_	_
@@ -6610,7 +6610,7 @@
 12	face	_	VERB	_	_	15	case	_	_
 13-14	aux	_	_	_	_	_	_	_	_
 13	à	_	ADP	_	_	12	mwe	_	_
-14	les	_	DET	_	_	12	det	_	_
+14	les	_	DET	_	_	15	det	_	_
 15	autres	autre	PRON	_	p=y	11	nmod	_	_
 16	qui	qui	PRON	_	_	17	nsubj	_	_
 17	fleurissent	_	VERB	_	_	15	acl:relcl	_	_

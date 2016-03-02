@@ -2678,11 +2678,12 @@
 23	les	_	DET	_	_	24	det	_	_
 24	révoltes	révolte	NOUN	_	Gender=Fem|Number=Plur	21	nmod	_	_
 25	et	_	CONJ	_	_	24	cc	_	_
-26	des	_	DET	_	_	24	det	_	_
-27	émotions	émotion	NOUN	_	Gender=Fem|Number=Plur	26	conj	_	_
-28	paysannes	paysan	ADJ	_	fp=y	27	amod	_	_
-29	médiévales	médiéval	ADJ	_	fp=y	27	amod	_	_
-30	.	_	PUNCT	_	_	7	punct	_	_
+26	de	_	ADP	_	_	28	case	_	_
+27	les	_	DET	_	_	28	det	_	_
+28	émotions	émotion	NOUN	_	Gender=Fem|Number=Plur	24	conj	_	_
+29	paysannes	paysan	ADJ	_	fp=y	28	amod	_	_
+30	médiévales	médiéval	ADJ	_	fp=y	28	amod	_	_
+31	.	_	PUNCT	_	_	7	punct	_	_
 
 # sentid: fr-ud-dev_00099
 # sentence-text: A noter que deux ateliers seront organisés à l'occasion de la conférence d'Alger.
@@ -3201,11 +3202,11 @@
 9	des	_	DET	_	_	10	det	_	_
 10	chaussures	chaussure	NOUN	_	Gender=Fem|Number=Plur	7	dobj	_	_
 11	customisées	NOLEMMA	ADJ	_	_	10	amod	_	_
-12	en	_	ADP	_	_	13	mwe	_	_
-13	plus	_	ADV	_	_	16	case	_	_
+12	en	_	ADP	_	_	16	case	_	_
+13	plus	_	ADV	_	_	12	mwe	_	_
 14-15	des	_	_	_	_	_	_	_	_
-14	de	_	ADP	_	_	13	mwe	_	_
-15	les	_	DET	_	_	13	det	_	_
+14	de	_	ADP	_	_	12	mwe	_	_
+15	les	_	DET	_	_	16	det	_	_
 16	robes	robe	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
 17	de	_	ADP	_	_	18	case	_	_
 18	mariées	marié	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	_
@@ -6703,7 +6704,7 @@
 25	.	_	PUNCT	_	_	3	punct	_	_
 
 # sentid: fr-ud-dev_00242
-# sentence-text: La commune de Gura Vitioarei est située dans le centre-nord du judeţ, sur les rives de la Teleajen, dans les colline subcarpathiques de la Prahova, à au sud de Vălenii de Munte et à au nord de Ploieşti, le chef-lieu du judeţ.
+# sentence-text: La commune de Gura Vitioarei est située dans le centre-nord du judeţ, sur les rives de la Teleajen, dans les colline subcarpathiques de la Prahova, à 3 km au sud de Vălenii de Munte et à 22 km au nord de Ploieşti, le chef-lieu du judeţ.
 1	La	_	DET	_	_	2	det	_	_
 2	commune	commune	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	de	_	ADP	_	_	4	case	_	_
@@ -6734,31 +6735,35 @@
 27	la	_	DET	_	_	28	det	_	_
 28	Prahova	_	PROPN	_	_	24	nmod	_	_
 29	,	_	PUNCT	_	_	7	punct	_	_
-30	à	_	ADP	_	_	7	mark	_	_
-31-32	au	_	_	_	_	_	_	_	_
-31	à	_	ADP	_	_	7	acl	_	_
-32	le	_	DET	_	_	7	det	_	_
-33	sud	sud	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
-34	de	_	ADP	_	_	35	case	_	_
-35	Vălenii	_	PROPN	_	_	33	nmod	_	_
+30	à	_	ADP	_	_	32	case	_	_
+31	3	_	NUM	_	_	32	nummod	_	_
+32	km	kilomètre	NOUN	_	mp=y	7	nmod	_	_
+33-34	au	_	_	_	_	_	_	_	_
+33	à	_	ADP	_	_	35	case	_	_
+34	le	_	DET	_	_	35	det	_	_
+35	sud	sud	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
 36	de	_	ADP	_	_	37	case	_	_
-37	Munte	_	PROPN	_	_	35	nmod	_	_
-38	et	_	CONJ	_	_	31	cc	_	_
-39	à	_	ADP	_	_	31	conj	_	_
-40-41	au	_	_	_	_	_	_	_	_
-40	à	_	ADP	_	_	42	case	_	_
-41	le	_	DET	_	_	42	det	_	_
-42	nord	nord	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-43	de	_	ADP	_	_	44	case	_	_
-44	Ploieşti	_	PROPN	_	_	42	nmod	_	_
-45	,	_	PUNCT	_	_	7	punct	_	_
-46	le	_	DET	_	_	47	det	_	_
-47	chef-lieu	chef-lieu	NOUN	_	Gender=Masc|Number=Sing	44	appos	_	_
-48-49	du	_	_	_	_	_	_	_	_
-48	de	_	ADP	_	_	50	case	_	_
-49	le	_	DET	_	_	50	det	_	_
-50	judeţ	judeţ	NOUN	_	Gender=Masc|Number=Sing	47	nmod	_	_
-51	.	_	PUNCT	_	_	7	punct	_	_
+37	Vălenii	_	PROPN	_	_	35	nmod	_	_
+38	de	_	ADP	_	_	39	case	_	_
+39	Munte	_	PROPN	_	_	37	nmod	_	_
+40	et	_	CONJ	_	_	32	cc	_	_
+41	à	_	ADP	_	_	43	case	_	_
+42	22	_	NUM	_	_	43	nummod	_	_
+43	km	kilomètre	NOUN	_	mp=y	32	conj	_	_
+44-45	au	_	_	_	_	_	_	_	_
+44	à	_	ADP	_	_	46	case	_	_
+45	le	_	DET	_	_	46	det	_	_
+46	nord	nord	NOUN	_	Gender=Masc|Number=Sing	43	nmod	_	_
+47	de	_	ADP	_	_	48	case	_	_
+48	Ploieşti	_	PROPN	_	_	46	nmod	_	_
+49	,	_	PUNCT	_	_	48	punct	_	_
+50	le	_	DET	_	_	51	det	_	_
+51	chef-lieu	chef-lieu	NOUN	_	Gender=Masc|Number=Sing	48	appos	_	_
+52-53	du	_	_	_	_	_	_	_	_
+52	de	_	ADP	_	_	54	case	_	_
+53	le	_	DET	_	_	54	det	_	_
+54	judeţ	judeţ	NOUN	_	Gender=Masc|Number=Sing	51	nmod	_	_
+55	.	_	PUNCT	_	_	7	punct	_	_
 
 # sentid: fr-ud-dev_00243
 # sentence-text: Ils sont sept.
@@ -11404,9 +11409,9 @@
 16	se	se	PRON	_	Person=3	17	dobj	_	_
 17	soucier	_	VERB	_	_	10	advcl	_	_
 18-19	des	_	_	_	_	_	_	_	_
-18	de	_	ADP	_	_	17	mark	_	_
-19	les	_	DET	_	_	17	det	_	_
-20	intransigeances	intransigeance	NOUN	_	Gender=Fem|Number=Plur	18	dobj	_	_
+18	de	_	ADP	_	_	20	case	_	_
+19	les	_	DET	_	_	20	det	_	_
+20	intransigeances	intransigeance	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
 21	académiques	académique	ADJ	_	fp=y	20	amod	_	_
 22	ou	_	CONJ	_	_	21	cc	_	_
 23	institutionnelles	institutionnel	ADJ	_	fp=y	21	conj	_	_
@@ -11568,7 +11573,7 @@
 31	près	_	ADP	_	_	34	case	_	_
 32-33	du	_	_	_	_	_	_	_	_
 32	de	_	ADP	_	_	31	mwe	_	_
-33	le	_	DET	_	_	31	det	_	_
+33	le	_	DET	_	_	34	det	_	_
 34	lit	lit	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
 35	.	_	PUNCT	_	_	9	punct	_	_
 
@@ -13596,7 +13601,7 @@
 22	de	_	ADP	_	_	24	case	_	_
 23	la	_	DET	_	_	24	det	_	_
 24	communauté	communauté	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
-25	toute	_	DET	_	_	24	det	_	_
+25	toute	_	ADV	_	_	26	advmod	_	_
 26	entière	entier	ADJ	_	fs=y	24	amod	_	_
 27	.	_	PUNCT	_	_	16	punct	_	_
 

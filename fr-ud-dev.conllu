@@ -5375,7 +5375,7 @@
 
 # sentid: fr-ud-dev_00196
 # sentence-text: Celui-ci fait 5 000 morts mais s'arrête juste devant une petite chapelle dédiée à Marie.
-1	Celui-ci	_	ADV	_	_	2	nsubj	_	_
+1	Celui-ci	celui-ci	PRON	_	ms=y	2	nsubj	_	_
 2	fait	_	VERB	_	_	0	root	_	_
 3	5000	_	NUM	_	_	4	nummod	_	_
 4	morts	mort	NOUN	_	Gender=Masc|Number=Plur	2	dobj	_	_
@@ -8266,7 +8266,7 @@
 10	les	_	DET	_	_	11	det	_	_
 11	micro-organismes	micro-organisme	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
 12	,	_	PUNCT	_	_	6	punct	_	_
-13	ceux-ci	_	ADV	_	_	16	nsubj	_	_
+13	ceux-ci	celui-ci	PRON	_	mp=y	16	nsubj	_	_
 14	sont	_	VERB	_	_	16	cop	_	_
 15	la	_	DET	_	_	16	det	_	_
 16	cause	cause	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
@@ -10591,7 +10591,7 @@
 23	trop	_	ADV	_	_	24	advmod	_	_
 24	souvent	_	ADV	_	_	22	advmod	_	_
 25	l'	_	DET	_	_	26	det	_	_
-26	instinct	instinct	NOUN	_	Gender=Masc|Number=Sing	22	dobj	_	_
+26	instinct	instinct	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
 27	religieux	religieux	ADJ	_	ms=y	26	amod	_	_
 28	dans	_	ADP	_	_	30	case	_	_
 29	l'	_	DET	_	_	30	det	_	_
@@ -12278,7 +12278,7 @@
 40	KLM	_	PROPN	_	_	37	nmod	_	_
 41	dès	_	ADP	_	_	44	mark	_	_
 42	que	_	SCONJ	_	_	41	mwe	_	_
-43	celui-ci	_	ADV	_	_	44	nsubj	_	_
+43	celui-ci	celui-ci	PRON	_	ms=y	44	nsubj	_	_
 44	aperçoit	_	VERB	_	_	28	advcl	_	_
 45	l'	_	DET	_	_	46	det	_	_
 46	avion	avion	NOUN	_	Gender=Masc|Number=Sing	44	dobj	_	_
@@ -12746,7 +12746,7 @@
 
 # sentid: fr-ud-dev_00462
 # sentence-text: Celle-ci incarne le vœu de François II d'affirmer son indépendance vis-à-vis du roi de France, alors qu'aux abords du duché à Angers en 1432, Poitiers en 1432 et Bordeaux en 1441 s'ouvrent des universités.
-1	Celle-ci	_	ADV	_	_	2	nsubj	_	_
+1	Celle-ci	celui-ci	PRON	_	fs=y	2	nsubj	_	_
 2	incarne	_	VERB	_	_	0	root	_	_
 3	le	_	DET	_	_	4	det	_	_
 4	vœu	vœu	NOUN	_	Gender=Masc|Number=Sing	2	dobj	_	_
@@ -13679,7 +13679,7 @@
 
 # sentid: fr-ud-dev_00496
 # sentence-text: Celui-ci produira ensuite trois films de la réalisatrice : Border-line, Le journal du séducteur et L'examen de minuit.
-1	Celui-ci	_	ADV	_	_	2	nsubj	_	_
+1	Celui-ci	celui-ci	PRON	_	ms=y	2	nsubj	_	_
 2	produira	_	VERB	_	_	0	root	_	_
 3	ensuite	_	ADV	_	_	2	advmod	_	_
 4	trois	_	NUM	_	_	5	nummod	_	_
@@ -17936,7 +17936,7 @@
 
 # sentid: fr-ud-dev_00647
 # sentence-text: Celui-ci décroche rapidement la première place du podium aux États-Unis, alors friands de groupes new wave à la Duran Duran (ainsi que dans plusieurs autres pays dont le Canada et la Nouvelle-Zélande), et permet au disque dont il est issu de se vendre sur les terres américaines à plus de 5 millions d'exemplaires, au fil des années qui suivent.
-1	Celui-ci	_	ADV	_	_	2	nsubj	_	_
+1	Celui-ci	celui-ci	PRON	_	ms=y	2	nsubj	_	_
 2	décroche	_	VERB	_	_	0	root	_	_
 3	rapidement	_	ADV	_	_	2	advmod	_	_
 4	la	_	DET	_	_	6	det	_	_
@@ -20883,7 +20883,7 @@
 4	à	_	ADP	_	_	5	case	_	_
 5	Washington	_	PROPN	_	_	3	nmod	_	_
 6	mais	_	CONJ	_	_	3	cc	_	_
-7	ceux-ci	_	ADV	_	_	13	nsubj	_	_
+7	ceux-ci	celui-ci	PRON	_	mp=y	13	nsubj	_	_
 8	,	_	PUNCT	_	_	7	punct	_	_
 9	habitués	_	VERB	_	_	7	acl	_	_
 10	à	_	ADP	_	_	12	case	_	_
@@ -29671,7 +29671,7 @@
 13	dragon	dragon	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 14	,	_	PUNCT	_	_	2	punct	_	_
 15	mais	_	CONJ	_	_	2	cc	_	_
-16	celui-ci	_	ADV	_	_	18	nsubj	_	_
+16	celui-ci	celui-ci	PRON	_	ms=y	18	nsubj	_	_
 17	se	se	PRON	_	Person=3	18	dobj	_	_
 18	détourne	_	VERB	_	_	2	conj	_	_
 19	pour	_	ADP	_	_	21	mark	_	_
@@ -30062,7 +30062,7 @@
 34	,	_	PUNCT	_	_	22	punct	_	_
 35	dans	_	ADP	_	_	36	case	_	_
 36	lesquelles	lequel	PRON	_	fp=y	38	nmod	_	_
-37	celui-ci	_	ADV	_	_	38	nsubj	_	_
+37	celui-ci	celui-ci	PRON	_	ms=y	38	nsubj	_	_
 38	cherchait	_	VERB	_	_	22	acl:relcl	_	_
 39	à	_	ADP	_	_	40	mark	_	_
 40	obtenir	_	VERB	_	_	38	acl	_	_
@@ -44482,7 +44482,7 @@
 12	de	_	ADP	_	_	13	case	_	_
 13	base	base	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 14	,	_	PUNCT	_	_	4	punct	_	_
-15	celles-ci	_	ADV	_	_	18	nsubj	_	_
+15	celles-ci	celui-ci	PRON	_	fp=y	18	nsubj	_	_
 16	en	en	PRON	_	Person=3	18	iobj	_	_
 17	sont	_	VERB	_	_	18	cop	_	_
 18	membres	membre	NOUN	_	Gender=Masc|Number=Plur	4	conj	_	_

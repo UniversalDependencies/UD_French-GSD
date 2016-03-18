@@ -613,7 +613,7 @@
 43	de	_	ADP	_	_	45	case	_	_
 44	les	_	DET	_	_	45	det	_	_
 45	informations	information	NOUN	_	Gender=Fem|Number=Plur	41	nmod	_	_
-46	fournies	NOLEMMA	VERB	_	_	45	acl	_	_
+46	fournies	fournir	VERB	_	part_pass_fp=y	45	acl	_	_
 47	par	_	ADP	_	_	49	case	_	_
 48	les	_	DET	_	_	49	det	_	_
 49	autorités	autorité	NOUN	_	Gender=Fem|Number=Plur	46	nmod	_	_
@@ -705,7 +705,7 @@
 2	de	_	ADP	_	_	3	case	_	_
 3	loi	loi	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 4	«	_	PUNCT	_	_	5	punct	_	_
-5	anti-hérétiques	NOLEMMA	ADJ	_	_	3	amod	_	_
+5	anti-hérétiques	anti-hérétique	ADJ	_	fp=y	3	amod	_	_
 6	»	_	PUNCT	_	_	5	punct	_	_
 7	.	_	PUNCT	_	_	1	punct	_	_
 
@@ -976,7 +976,7 @@
 5	célébrons	célébrer	VERB	_	ind_pres_1p=y	0	root	_	_
 6	-nous	nous	PRON	_	Person=1|p=y	5	nsubj	_	_
 7	que	_	SCONJ	_	_	5	expl	_	_
-8	nous-mêmes	NOLEMMA	ADJ	_	_	5	dobj	_	_
+8	nous-mêmes	nous-mêmes	PRON	_	Person=1|p=y|Reflex	5	dobj	_	_
 9	,	_	PUNCT	_	_	5	punct	_	_
 10	et	_	CONJ	_	_	5	cc	_	_
 11	ne	_	PART	_	_	12	neg	_	_
@@ -1314,7 +1314,7 @@
 22	«	_	PUNCT	_	_	23	punct	_	_
 23	expérimentale	expérimental	ADJ	_	fs=y	21	amod	_	_
 24	,	_	PUNCT	_	_	23	punct	_	_
-25	avantgardiste	NOLEMMA	ADJ	_	_	23	conj	_	_
+25	avantgardiste	avant-gardiste	ADJ	_	fs=y	23	conj	_	_
 26	et	_	CONJ	_	_	23	cc	_	_
 27	politiquement	_	ADV	_	_	28	advmod	_	_
 28	engagée	engagé	ADJ	_	fs=y	23	conj	_	_
@@ -1788,7 +1788,7 @@
 35	match	match	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
 36	de	_	ADP	_	_	37	case	_	_
 37	football	football	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	_
-38	maroco-sahraoui	NOLEMMA	ADJ	_	_	35	amod	_	_
+38	maroco-sahraoui	maroco-sahraoui	ADJ	_	ms=y	35	amod	_	_
 39	,	_	PUNCT	_	_	4	punct	_	_
 40	que	_	SCONJ	_	_	44	mark	_	_
 41	des	_	DET	_	_	42	det	_	_
@@ -2231,7 +2231,7 @@
 6	que	_	SCONJ	_	_	17	mark	_	_
 7	des	_	DET	_	_	8	det	_	_
 8	conditions	condition	NOUN	_	Gender=Fem|Number=Plur	17	nsubjpass	_	_
-9	socio-économiques	NOLEMMA	ADJ	_	_	8	amod	_	_
+9	socio-économiques	socio-économique	ADJ	_	fp=y	8	amod	_	_
 10	radicalement	_	ADV	_	_	11	advmod	_	_
 11	nouvelles	nouveau	ADJ	_	fp=y	8	amod	_	_
 12	(	_	PUNCT	_	_	13	punct	_	_
@@ -2398,7 +2398,7 @@
 35	nous	le	PRON	_	Person=1|p=y	36	dobj	_	_
 36	transporte	transporter	VERB	_	ind_pres_3s=y	25	acl:relcl	_	_
 37	,	_	PUNCT	_	_	1	punct	_	_
-38	voilà	NOLEMMA	VERB	_	_	1	parataxis	_	_
+38	voilà	voilà	VERB	_	_	1	parataxis	_	_
 39	le	_	DET	_	_	40	det	_	_
 40	lyrisme	lyrisme	NOUN	_	Gender=Masc|Number=Sing	38	dobj	_	_
 41	.	_	PUNCT	_	_	1	punct	_	_
@@ -2602,7 +2602,7 @@
 8	"	_	PUNCT	_	_	10	punct	_	_
 9	La	_	DET	_	_	10	det	_	_
 10	Camella	camella	NOUN	_	Gender=Fem|Number=Sing	7	dobj	_	_
-11	blanca	NOLEMMA	ADJ	_	_	10	amod	_	_
+11	blanca	blanc	ADJ	_	fs=y	10	amod	_	_
 12	"	_	PUNCT	_	_	10	punct	_	_
 13-14	aux	_	_	_	_	_	_	_	_
 13	à	_	ADP	_	_	15	case	_	_
@@ -3416,7 +3416,7 @@
 8	pour	_	ADP	_	_	9	mark	_	_
 9	marquer	marquer	VERB	_	infinitif=y	5	advcl	_	_
 10	le	_	DET	_	_	12	det	_	_
-11	150e	NOLEMMA	ADJ	_	_	12	amod	_	_
+11	150e	150e	ADJ	_	ms=y	12	amod	_	_
 12	anniversaire	anniversaire	NOUN	_	Gender=Masc|Number=Sing	9	dobj	_	_
 13	de	_	ADP	_	_	15	case	_	_
 14	la	_	DET	_	_	15	det	_	_
@@ -4818,7 +4818,7 @@
 24	les	_	DET	_	_	26	det	_	_
 25	80	_	NUM	_	_	26	nummod	_	_
 26	bénévoles	bénévole	NOUN	_	Gender=Masc|Number=Plur	28	nsubj	_	_
-27	canéjanais	NOLEMMA	ADJ	_	_	26	amod	_	_
+27	canéjanais	canéjanais	ADJ	_	mp=y	26	amod	_	_
 28	sont	être	VERB	_	ind_pres_3p=y	7	advcl	_	_
 29	en	_	ADP	_	_	30	case	_	_
 30	plein	plein	ADJ	_	ms=y	28	amod	_	_
@@ -5937,7 +5937,7 @@
 13	de	_	ADP	_	_	15	case	_	_
 14	les	_	DET	_	_	15	det	_	_
 15	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
-16	incontrôlés	NOLEMMA	VERB	_	_	15	acl	_	_
+16	incontrôlés	incontrôlé	ADJ	_	mp=y	15	acl	_	_
 17-18	des	_	_	_	_	_	_	_	_
 17	de	_	ADP	_	_	19	case	_	_
 18	les	_	DET	_	_	19	det	_	_
@@ -6008,12 +6008,12 @@
 # sentid: fr-ud-test_00199
 # sentence-text: La 18e édition des Victoires de la musique classique se tient cette année à Nantes.
 1	La	_	DET	_	_	3	det	_	_
-2	18e	NOLEMMA	ADJ	_	_	3	amod	_	_
+2	18e	18e	ADJ	_	fs=y	3	amod	_	_
 3	édition	édition	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 4-5	des	_	_	_	_	_	_	_	_
 4	de	_	ADP	_	_	6	case	_	_
 5	les	_	DET	_	_	6	det	_	_
-6	Victoires	_	PROPN	_	_	3	nmod	_	_
+6	Victoires	victoire	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
 7	de	_	ADP	_	_	9	case	_	_
 8	la	_	DET	_	_	9	det	_	_
 9	musique	musique	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
@@ -6188,9 +6188,9 @@
 5	massage	massage	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 6	,	_	PUNCT	_	_	10	punct	_	_
 7	je	il	PRON	_	Person=1|s=y	10	nsubj	_	_
-8	suis	être	VERB	_	ind_pres_1s=y	10	cop	_	_
+8	suis	être	AUX	_	ind_pres_1s=y	10	cop	_	_
 9	bien	_	ADV	_	_	10	advmod	_	_
-10	relaxé	NOLEMMA	ADJ	_	_	0	root	_	_
+10	relaxé	relaxer	VERB	_	part_pass_fs=y	0	root	_	_
 11	et	_	CONJ	_	_	10	cc	_	_
 12	surtout	_	ADV	_	_	15	advmod	_	_
 13	je	il	PRON	_	Person=1|s=y	15	nsubj	_	_
@@ -6605,9 +6605,9 @@
 7	salon	salon	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 8	sérieux	sérieux	ADJ	_	ms=y	7	amod	_	_
 9	et	_	CONJ	_	_	8	cc	_	_
-10	pro	NOLEMMA	ADJ	_	_	8	conj	_	_
+10	pro	professionnel	ADJ	_	ms=y	8	conj	_	_
 11	survivra	survivre	VERB	_	ind_futur_3s=y	2	ccomp	_	_
-12	face	FIXME	VERB	_	_	15	case	_	_
+12	face	face	NOUN	_	Gender=Fem|Number=Sing	15	case	_	_
 13-14	aux	_	_	_	_	_	_	_	_
 13	à	_	ADP	_	_	12	mwe	_	_
 14	les	_	DET	_	_	15	det	_	_
@@ -6830,7 +6830,7 @@
 19	maximum	maximum	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 20	....	_	PUNCT	_	_	4	punct	_	_
 21	N'	_	ADV	_	_	22	mwe	_	_
-22	importe	FIXME	VERB	_	_	4	parataxis	_	_
+22	importe	importer	VERB	_	ind_pres_3s=y	4	parataxis	_	_
 23	quoi	quoi	PRON	_	_	22	mwe	_	_
 24	...	_	PUNCT	_	_	4	punct	_	_
 25	Par	_	ADP	_	_	30	advmod	_	_
@@ -6841,7 +6841,7 @@
 30	excellent	excellent	ADJ	_	ms=y	4	parataxis	_	_
 31	pour	_	ADP	_	_	33	mark	_	_
 32	'	_	PUNCT	_	_	33	punct	_	_
-33	bullshitter	NOLEMMA	VERB	_	_	30	advcl	_	_
+33	bullshitter	bullshitter	VERB	_	infinitif=y	30	advcl	_	_
 34	'	_	PUNCT	_	_	33	punct	_	_
 35	.	_	PUNCT	_	_	4	punct	_	_
 
@@ -7982,7 +7982,7 @@
 14	titre	titre	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 15	particulier	particulier	ADJ	_	ms=y	14	amod	_	_
 16	et	_	CONJ	_	_	15	cc	_	_
-17	professionel	NOLEMMA	ADJ	_	_	15	conj	_	_
+17	professionel	professionnel	ADJ	_	ms=y	15	conj	_	_
 18	,	_	PUNCT	_	_	3	punct	_	_
 19	et	_	CONJ	_	_	3	cc	_	_
 20	"	_	PUNCT	_	_	21	punct	_	_

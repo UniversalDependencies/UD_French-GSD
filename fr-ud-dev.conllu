@@ -288,7 +288,7 @@
 4	une	_	DET	_	_	5	det	_	_
 5	touche	touche	NOUN	_	Gender=Fem|Number=Sing	2	dobj	_	_
 6	très	_	ADV	_	_	7	advmod	_	_
-7	melvillienne	NOLEMMA	ADJ	_	_	5	amod	_	_
+7	melvillienne	melvillien	ADJ	_	fs=y	5	amod	_	_
 8	et	_	CONJ	_	_	5	cc	_	_
 9	qui	qui	PRON	_	_	21	nsubj	_	_
 10-11	au	_	_	_	_	_	_	_	_
@@ -659,7 +659,7 @@
 9	le	_	DET	_	_	10	det	_	_
 10	musée	musée	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 11	d'	_	ADP	_	_	12	case	_	_
-12	Histoire	FIXME	PROPN	_	_	10	nmod	_	_
+12	Histoire	histoire	NOUN	_	fs=y	10	nmod	_	_
 13	politique	politique	ADJ	_	fs=y	12	amod	_	_
 14	de	_	ADP	_	_	16	case	_	_
 15	la	_	DET	_	_	16	det	_	_
@@ -1054,7 +1054,7 @@
 # sentid: fr-ud-dev_00039
 # sentence-text: Le lazy bed (littéralement : « plate-bande de paresseux ») est une technique de travail du sol autrefois pratiquée dans certaines régions des Îles britanniques.
 1	Le	_	DET	_	_	3	det	_	_
-2	lazy	NOLEMMA	ADJ	_	_	3	amod	_	_
+2	lazy	lazy	ADJ	_	s=y	3	amod	_	_
 3	bed	bed	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
 4	(	_	PUNCT	_	_	8	punct	_	_
 5	littéralement	_	ADV	_	_	8	advmod	_	_
@@ -1573,7 +1573,7 @@
 12	douze	_	NUM	_	_	13	nummod	_	_
 13	membres	membre	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
 14	sont	être	VERB	_	ind_pres_3p=y	15	cop	_	_
-15	reconduits	NOLEMMA	ADJ	_	_	7	acl:relcl	_	_
+15	reconduits	reconduire	VERB	_	part_pass_mp=y	7	acl:relcl	_	_
 16	,	_	PUNCT	_	_	15	punct	_	_
 17	notamment	_	ADV	_	_	19	advmod	_	_
 18	le	_	DET	_	_	19	det	_	_
@@ -2425,7 +2425,7 @@
 5	moine	moine	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 6	et	_	CONJ	_	_	5	cc	_	_
 7	chroniqueur	chroniqueur	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
-8	northumbrien	NOLEMMA	ADJ	_	_	5	amod	_	_
+8	northumbrien	northumbrien	ADJ	_	ms=y	5	amod	_	_
 9	Bède	_	PROPN	_	_	5	appos	_	_
 10	rédige	rédiger	VERB	_	ind_pres_3s=y	0	root	_	_
 11	son	_	DET	_	_	12	nmod:poss	_	_
@@ -2882,7 +2882,7 @@
 5	cristaux	cristal	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
 6	est	être	AUX	_	ind_pres_3s=y	8	aux	_	_
 7	majoritairement	_	ADV	_	_	8	advmod	_	_
-8	hypidiomorphe	NOLEMMA	VERB	_	_	0	root	_	_
+8	hypidiomorphe	hypidiomorphe	ADJ	_	ms=y	0	root	_	_
 9	et	_	CONJ	_	_	8	cc	_	_
 10	la	_	DET	_	_	11	det	_	_
 11	texture	texture	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
@@ -3123,7 +3123,7 @@
 2	château	château	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	est	être	AUX	_	ind_pres_3s=y	5	aux	_	_
 4	classé	classer	VERB	_	part_pass_ms=y	5	cop	_	_
-5	Monument	FIXME	PROPN	_	_	0	root	_	_
+5	Monument	monument	NOUN	_	ms=y	0	root	_	_
 6	historique	historique	ADJ	_	ms=y	5	amod	_	_
 7	depuis	_	ADP	_	_	10	case	_	_
 8	le	_	DET	_	_	10	det	_	_
@@ -3201,7 +3201,7 @@
 8	aussi	_	ADV	_	_	7	advmod	_	_
 9	des	_	DET	_	_	10	det	_	_
 10	chaussures	chaussure	NOUN	_	Gender=Fem|Number=Plur	7	dobj	_	_
-11	customisées	NOLEMMA	ADJ	_	_	10	amod	_	_
+11	customisées	customisé	ADJ	_	fp=y	10	amod	_	_
 12	en	_	ADP	_	_	16	case	_	_
 13	plus	_	ADV	_	_	12	mwe	_	_
 14-15	des	_	_	_	_	_	_	_	_
@@ -3469,7 +3469,7 @@
 3	à	_	ADP	_	_	5	case	_	_
 4	une	_	DET	_	_	5	det	_	_
 5	sortie	sortie	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-6	non-surveillée	NOLEMMA	ADJ	_	_	5	amod	_	_
+6	non-surveillée	non-surveillé	ADJ	_	fs=y	5	amod	_	_
 7	de	_	ADP	_	_	8	case	_	_
 8	Black	_	PROPN	_	_	5	nmod	_	_
 9	Mesa	_	PROPN	_	_	8	name	_	_
@@ -3801,7 +3801,7 @@
 1	Certaines	certain	PRON	_	fp=y	4	nsubj	_	_
 2	sont	être	VERB	_	ind_pres_3p=y	4	cop	_	_
 3	également	_	ADV	_	_	4	advmod	_	_
-4	barophiles	NOLEMMA	ADJ	_	_	0	root	_	_
+4	barophiles	barophile	ADJ	_	fp=y	0	root	_	_
 5	,	_	PUNCT	_	_	4	punct	_	_
 6	comme	_	ADP	_	_	7	case	_	_
 7	Pyrococcus	_	PROPN	_	_	4	nmod	_	_
@@ -3948,7 +3948,7 @@
 37	en	_	ADP	_	_	38	case	_	_
 38	position	position	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	_
 39	de	_	ADP	_	_	41	case	_	_
-40	defensive	NOLEMMA	ADJ	_	_	41	amod	_	_
+40	defensive	defensive	ADJ	_	s=y	41	amod	_	_
 41	end	end	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	_
 42	,	_	PUNCT	_	_	36	punct	_	_
 43	mais	_	CONJ	_	_	36	cc	_	_
@@ -4123,7 +4123,7 @@
 10	Zamora	_	PROPN	_	_	8	nmod	_	_
 11	dans	_	ADP	_	_	13	case	_	_
 12	la	_	DET	_	_	13	det	_	_
-13	Communauté	FIXME	PROPN	_	_	8	nmod	_	_
+13	Communauté	communauté	NOUN	_	fs=y	8	nmod	_	_
 14	autonome	autonome	ADJ	_	fs=y	13	amod	_	_
 15	de	_	ADP	_	_	16	expl	_	_
 16	Castille-et-León	_	PROPN	_	_	13	appos	_	_
@@ -4207,7 +4207,7 @@
 21	et	_	CONJ	_	_	9	cc	_	_
 22	l'	_	DET	_	_	23	det	_	_
 23	apprentissage	apprentissage	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
-24	non-supervisé	NOLEMMA	VERB	_	_	23	acl	_	_
+24	non-supervisé	non-supervisé	ADJ	_	ms=y	23	acl	_	_
 25	(	_	PUNCT	_	_	33	punct	_	_
 26	où	où	PRON	_	_	33	nmod	_	_
 27	aucune	_	DET	_	_	28	neg	_	_
@@ -4233,7 +4233,7 @@
 9	garder	garder	VERB	_	infinitif=y	4	acl	_	_
 10	la	_	DET	_	_	11	det	_	_
 11	chose	chose	NOUN	_	Gender=Fem|Number=Sing	9	dobj	_	_
-12	viciée	NOLEMMA	ADJ	_	_	11	amod	_	_
+12	viciée	vicié	ADJ	_	fs=y	11	amod	_	_
 13	en	_	ADP	_	_	14	mark	_	_
 14	recevant	recevoir	VERB	_	participe_present=y	9	advcl	_	_
 15	un	_	DET	_	_	16	det	_	_
@@ -5111,7 +5111,7 @@
 34	pour	_	ADP	_	_	36	case	_	_
 35	le	_	DET	_	_	36	det	_	_
 36	marché	marché	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
-37	nord-américain	NOLEMMA	ADJ	_	_	36	amod	_	_
+37	nord-américain	nord-américain	ADJ	_	ms=y	36	amod	_	_
 38	à	_	ADP	_	_	40	case	_	_
 39	l'	_	DET	_	_	40	det	_	_
 40	aide	aide	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
@@ -5330,13 +5330,13 @@
 1	Le	_	DET	_	_	2	det	_	_
 2	roi	roi	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
 3	Théodoric	_	PROPN	_	_	2	appos	_	_
-4	Ier	NOLEMMA	ADJ	_	_	3	amod	_	_
+4	Ier	premier	ADJ	_	_	3	amod	_	_
 5	,	_	PUNCT	_	_	2	punct	_	_
 6	terrifié	terrifier	VERB	_	part_pass_ms=y	2	acl	_	_
 7	par	_	ADP	_	_	9	case	_	_
 8	les	_	DET	_	_	9	det	_	_
 9	auxiliaires	auxiliaire	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
-10	huns	NOLEMMA	ADJ	_	_	9	amod	_	_
+10	huns	hun	ADJ	_	mp=y	9	amod	_	_
 11	de	_	ADP	_	_	12	case	_	_
 12	Litorius	_	PROPN	_	_	9	nmod	_	_
 13	demande	demander	VERB	_	ind_pres_3s=y	0	root	_	_
@@ -5492,7 +5492,7 @@
 4	est	être	VERB	_	ind_pres_3s=y	5	cop	_	_
 5	celle	celui	PRON	_	fs=y	0	root	_	_
 6	à	_	ADP	_	_	7	mark	_	_
-7	laquelle	FIXME	VERB	_	_	11	nmod	_	_
+7	laquelle	lequel	PRON	_	fs=y	11	nmod	_	_
 8	la	_	DET	_	_	9	det	_	_
 9	personne	personne	NOUN	_	Gender=Fem|Number=Sing	11	dobj	_	_
 10	va	aller	AUX	_	ind_pres_3s=y	11	aux	_	_
@@ -6139,7 +6139,7 @@
 3	de	_	ADP	_	_	5	case	_	_
 4	les	_	DET	_	_	5	det	_	_
 5	voitures	voiture	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
-6	panoramiques	NOLEMMA	ADJ	_	_	5	amod	_	_
+6	panoramiques	panoramique	ADJ	_	fp=y	5	amod	_	_
 7	à	_	ADP	_	_	8	case	_	_
 8	voie	voie	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 9	métriques	métrique	ADJ	_	fp=y	8	amod	_	_
@@ -6155,7 +6155,7 @@
 19	de	_	ADP	_	_	21	case	_	_
 20	12	_	NUM	_	_	21	nummod	_	_
 21	voitures	voiture	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	_
-22	panoramiques	NOLEMMA	ADJ	_	_	21	amod	_	_
+22	panoramiques	panoramique	ADJ	_	fp=y	21	amod	_	_
 23	Apm	_	PROPN	_	_	21	appos	_	_
 24	61	_	NUM	_	_	23	nummod	_	_
 25	85	_	NUM	_	_	24	conj	_	_
@@ -6281,7 +6281,7 @@
 10	Academy	academy	NOUN	_	Gender=Fem|Number=Sing	11	compound	_	_
 11	Award	award	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
 12	for	_	ADP	_	_	15	case	_	_
-13	Best	NOLEMMA	ADJ	_	_	15	amod	_	_
+13	Best	best	ADJ	_	_	15	amod	_	_
 14	Sound	sound	NOUN	_	Gender=Masc|Number=Sing	15	compound	_	_
 15	Mixing	mixing	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 16	)	_	PUNCT	_	_	15	punct	_	_
@@ -6731,8 +6731,8 @@
 21	,	_	PUNCT	_	_	7	punct	_	_
 22	dans	_	ADP	_	_	24	case	_	_
 23	les	_	DET	_	_	24	det	_	_
-24	colline	colline	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
-25	subcarpathiques	NOLEMMA	ADJ	_	_	24	amod	_	_
+24	colline	colline	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
+25	subcarpathiques	subcarpathique	ADJ	_	fp+y	24	amod	_	_
 26	de	_	ADP	_	_	28	case	_	_
 27	la	_	DET	_	_	28	det	_	_
 28	Prahova	_	PROPN	_	_	24	nmod	_	_
@@ -7372,7 +7372,7 @@
 32	rugby	rugby	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
 33	à	_	ADP	_	_	34	case	_	_
 34	XV	_	NUM	_	_	32	nmod	_	_
-35	sud-africain	NOLEMMA	ADJ	_	_	32	amod	_	_
+35	sud-africain	sud-africain	ADJ	_	ms=y	32	amod	_	_
 36	.	_	PUNCT	_	_	11	punct	_	_
 
 # sentid: fr-ud-dev_00264
@@ -7611,7 +7611,7 @@
 3	Marilyn	_	PROPN	_	_	6	nsubj	_	_
 4	Monroe	_	PROPN	_	_	3	name	_	_
 5	était	être	AUX	_	imparfait_3s=y	6	auxpass	_	_
-6	âgée	NOLEMMA	VERB	_	_	0	root	_	_
+6	âgée	âgé	ADJ	_	fs=y	0	root	_	_
 7	d'	_	ADP	_	_	9	case	_	_
 8	un	_	DET	_	_	9	det	_	_
 9	an	an	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
@@ -7937,7 +7937,7 @@
 7	dans	_	ADP	_	_	9	case	_	_
 8	les	_	DET	_	_	9	det	_	_
 9	jours	jour	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
-10	suivants	FIXME	VERB	_	_	9	acl	_	_
+10	suivants	suivant	ADJ	_	mp=y	9	acl	_	_
 11	la	_	DET	_	_	12	det	_	_
 12	bataille	bataille	NOUN	_	Gender=Fem|Number=Sing	10	dobj	_	_
 13	de	_	ADP	_	_	14	case	_	_
@@ -7988,7 +7988,7 @@
 7	régions	région	NOUN	_	Gender=Fem|Number=Plur	5	dobj	_	_
 8	de	_	ADP	_	_	9	case	_	_
 9	France	_	PROPN	_	_	7	nmod	_	_
-10	restées	NOLEMMA	VERB	_	_	11	cop	_	_
+10	restées	rester	VERB	_	part_pass_fp=y	11	cop	_	_
 11	fidèles	fidèle	ADJ	_	fp=y	7	acl	_	_
 12-13	aux	_	_	_	_	_	_	_	_
 12	à	_	ADP	_	_	14	case	_	_
@@ -8224,7 +8224,7 @@
 6	le	_	DET	_	_	8	det	_	_
 7	meilleur	meilleur	ADJ	_	ms=y	8	amod	_	_
 8	restaurant	restaurant	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-9	Japonnais	NOLEMMA	ADJ	_	_	8	amod	_	_
+9	Japonnais	japonais	ADJ	_	ms=y	8	amod	_	_
 10	de	_	ADP	_	_	11	case	_	_
 11	Caen	_	PROPN	_	_	8	nmod	_	_
 12	.	_	PUNCT	_	_	8	punct	_	_
@@ -8651,7 +8651,7 @@
 9	de	_	ADP	_	_	11	case	_	_
 10	les	_	DET	_	_	11	det	_	_
 11	guérisons	guérison	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
-12	obtenues	NOLEMMA	ADJ	_	_	11	amod	_	_
+12	obtenues	obtenir	VERB	_	part_pass_fp=y	11	amod	_	_
 13	,	_	PUNCT	_	_	5	punct	_	_
 14	mais	_	CONJ	_	_	5	cc	_	_
 15	ont	avoir	VERB	_	ind_pres_3p=y	5	conj	_	_
@@ -8827,14 +8827,14 @@
 15	de	_	ADP	_	_	17	mark	_	_
 16	les	le	PRON	_	Person=3|p=y	17	dobj	_	_
 17	niveler	niveler	VERB	_	infinitif=y	12	acl	_	_
-18	avec	_	ADP	_	_	20	case	_	_
-19	une	_	DET	_	_	20	det	_	_
-20	nette	nette	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
-21	prédominance	NOLEMMA	ADJ	_	_	20	amod	_	_
+18	avec	_	ADP	_	_	21	case	_	_
+19	une	_	DET	_	_	21	det	_	_
+20	nette	net	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+21	prédominance	prédominance	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
 22-23	du	_	_	_	_	_	_	_	_
 22	de	_	ADP	_	_	24	case	_	_
 23	le	_	DET	_	_	24	det	_	_
-24	climat	climat	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+24	climat	climat	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 25	méditerranéen	méditerranéen	ADJ	_	ms=y	24	amod	_	_
 26	.	_	PUNCT	_	_	12	punct	_	_
 
@@ -9240,7 +9240,7 @@
 1	STS-101	_	NUM	_	_	5	nsubj	_	_
 2	est	être	VERB	_	ind_pres_3s=y	5	cop	_	_
 3	la	_	DET	_	_	5	det	_	_
-4	vingt-et-unième	NOLEMMA	ADJ	_	_	5	amod	_	_
+4	vingt-et-unième	ving-et-unième	ADJ	_	fs=y	5	amod	_	_
 5	mission	mission	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 6	de	_	ADP	_	_	8	case	_	_
 7	la	_	DET	_	_	8	det	_	_
@@ -9488,7 +9488,7 @@
 11	,	_	PUNCT	_	_	8	punct	_	_
 12	les	_	DET	_	_	13	det	_	_
 13	technologies	technologie	NOUN	_	Gender=Fem|Number=Plur	8	conj	_	_
-14	utilisées	NOLEMMA	ADJ	_	_	13	amod	_	_
+14	utilisées	utiliser	VERB	_	part_pass_fp=y	13	amod	_	_
 15	,	_	PUNCT	_	_	6	punct	_	_
 16	et	_	CONJ	_	_	8	cc	_	_
 17	leurs	_	DET	_	_	18	nmod:poss	_	_
@@ -9758,7 +9758,7 @@
 8	albums	album	NOUN	_	Gender=Masc|Number=Plur	5	dobj	_	_
 9	Un	_	DET	_	_	10	det	_	_
 10	homme	homme	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	_
-11	nature	NOLEMMA	ADJ	_	_	10	amod	_	_
+11	nature	nature	NOUN	_	fs=y	10	compound	_	_
 12	et	_	CONJ	_	_	5	cc	_	_
 13	Doc	_	PROPN	_	_	5	conj	_	_
 14	Gynéco	_	PROPN	_	_	13	name	_	_
@@ -10091,7 +10091,7 @@
 15	avec	_	ADP	_	_	17	case	_	_
 16	les	_	DET	_	_	17	det	_	_
 17	planteurs	planteur	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
-18	franco-louisianais	NOLEMMA	ADJ	_	_	17	amod	_	_
+18	franco-louisianais	franco-louisianais	ADJ	_	mp=y	17	amod	_	_
 19	.	_	PUNCT	_	_	9	punct	_	_
 
 # sentid: fr-ud-dev_00366
@@ -10475,7 +10475,7 @@
 30	de	_	ADP	_	_	29	mwe	_	_
 31-32	s'intaller	_	_	_	_	_	_	_	_
 31	s'	se	PRON	_	Person=3	32	dobj	_	_
-32	intaller	NOLEMMA	VERB	_	_	3	advcl	_	_
+32	intaller	installer	VERB	_	infinitif=y	3	advcl	_	_
 33	en	_	ADP	_	_	34	case	_	_
 34	1925	_	NUM	_	_	32	nmod	_	_
 35	à	_	ADP	_	_	37	case	_	_
@@ -11138,11 +11138,11 @@
 5	,	_	PUNCT	_	_	11	punct	_	_
 6	le	_	DET	_	_	7	det	_	_
 7	pré-ARNm	_	X	_	_	11	nsubj	_	_
-8	épissé	épisser	VERB	_	part_pass_ms=y	7	acl	_	_
+8	épissé	épisser	VERB	_	part_pass_ms=y	7	amod	_	_
 9	devient	devenir	VERB	_	ind_pres_3s=y	11	cop	_	_
 10	l'	_	DET	_	_	11	det	_	_
 11	ARN	_	X	_	_	0	root	_	_
-12	messager	NOLEMMA	ADJ	_	_	11	amod	_	_
+12	messager	messager	NOUN	_	ms=y	11	compound	_	_
 13	(	_	PUNCT	_	_	14	punct	_	_
 14	ARNm	_	X	_	_	11	appos	_	_
 15	)	_	PUNCT	_	_	14	punct	_	_
@@ -11447,7 +11447,7 @@
 22	par	_	ADP	_	_	24	case	_	_
 23	les	_	DET	_	_	24	det	_	_
 24	rythmes	rythme	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
-25	gnaouas	NOLEMMA	ADJ	_	_	24	amod	_	_
+25	gnaouas	gnaouas	ADJ	_	mp=y	24	amod	_	_
 26	,	_	PUNCT	_	_	24	punct	_	_
 27	le	_	DET	_	_	28	det	_	_
 28	blues	blues	NOUN	_	Gender=Masc|Number=Sing	24	conj	_	_
@@ -11827,7 +11827,7 @@
 # sentence-text: Un vernis antibactérien présent sur toutes les surfaces externes limite aussi la contamination croisée.
 1	Un	_	DET	_	_	2	det	_	_
 2	vernis	vernis	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
-3	antibactérien	NOLEMMA	ADJ	_	_	2	amod	_	_
+3	antibactérien	antibactérien	ADJ	_	ms=y	2	amod	_	_
 4	présent	présent	ADJ	_	ms=y	2	amod	_	_
 5	sur	_	ADP	_	_	8	case	_	_
 6	toutes	_	DET	_	_	8	det	_	_
@@ -12113,7 +12113,7 @@
 20	membres	membre	NOUN	_	Gender=Masc|Number=Plur	19	compound	_	_
 21	de	_	ADP	_	_	23	case	_	_
 22	la	_	DET	_	_	23	det	_	_
-23	Ligue	FIXME	PROPN	_	_	19	nmod	_	_
+23	Ligue	ligue	NOUN	_	fs=y	19	nmod	_	_
 24	arabe	arabe	ADJ	_	fs=y	23	amod	_	_
 25	qui	qui	PRON	_	_	28	nsubj	_	_
 26	se	se	PRON	_	Person=3	28	dobj	_	_
@@ -12203,7 +12203,7 @@
 4	de	_	ADP	_	_	6	case	_	_
 5	les	_	DET	_	_	6	det	_	_
 6	sources	source	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
-7	hydrothermales	NOLEMMA	ADJ	_	_	6	amod	_	_
+7	hydrothermales	hydrothermal	ADJ	_	fp=y	6	amod	_	_
 8	,	_	PUNCT	_	_	3	punct	_	_
 9	la	_	DET	_	_	10	det	_	_
 10	production	production	NOUN	_	Gender=Fem|Number=Sing	13	nsubjpass	_	_
@@ -12213,7 +12213,7 @@
 14	par	_	ADP	_	_	16	case	_	_
 15	des	_	DET	_	_	16	det	_	_
 16	micro-organismes	micro-organisme	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
-17	chimiosynthètiques	NOLEMMA	ADJ	_	_	16	amod	_	_
+17	chimiosynthètiques	chimiosynthètique	ADJ	_	mp=y	16	amod	_	_
 18	.	_	PUNCT	_	_	13	punct	_	_
 
 # sentid: fr-ud-dev_00444
@@ -13646,8 +13646,8 @@
 4	d'	_	ADP	_	_	5	case	_	_
 5	Inde	_	PROPN	_	_	2	nmod	_	_
 6	(	_	PUNCT	_	_	8	punct	_	_
-7	Communist	NOLEMMA	ADJ	_	_	8	amod	_	_
-8	Party	party	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
+7	Communist	communist	ADJ	_	ms=y	8	amod	_	_
+8	Party	party	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
 9	of	_	ADP	_	_	10	case	_	_
 10	India	_	PROPN	_	_	8	nmod	_	_
 11	)	_	PUNCT	_	_	8	punct	_	_
@@ -14166,7 +14166,7 @@
 34-35	du	_	_	_	_	_	_	_	_
 34	de	_	ADP	_	_	36	case	_	_
 35	le	_	DET	_	_	36	det	_	_
-36	Gouverneur	FIXME	PROPN	_	_	25	conj	_	_
+36	Gouverneur	gouverneur	NOUN	_	ms=y	25	conj	_	_
 37	militaire	militaire	ADJ	_	ms=y	36	amod	_	_
 38	de	_	ADP	_	_	39	case	_	_
 39	Paris	_	PROPN	_	_	36	nmod	_	_
@@ -14183,7 +14183,7 @@
 7	souvent	_	ADV	_	_	4	advmod	_	_
 8	une	_	DET	_	_	9	det	_	_
 9	sexualité	sexualité	NOUN	_	Gender=Fem|Number=Sing	4	dobj	_	_
-10	anhédonique	NOLEMMA	ADJ	_	_	9	amod	_	_
+10	anhédonique	anhédonique	ADJ	_	fs=y	9	amod	_	_
 11	,	_	PUNCT	_	_	14	punct	_	_
 12	il	il	PRON	_	Person=3|ms=y	14	nsubjpass	_	_
 13	est	être	AUX	_	ind_pres_3s=y	14	auxpass	_	_
@@ -14350,7 +14350,7 @@
 5	espèce	espèce	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 6	d'	_	ADP	_	_	7	case	_	_
 7	araignées	araignée	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
-8	aranéomorphes	NOLEMMA	ADJ	_	_	7	amod	_	_
+8	aranéomorphes	aranéomorphe	ADJ	_	fs=y	7	amod	_	_
 9	de	_	ADP	_	_	11	case	_	_
 10	la	_	DET	_	_	11	det	_	_
 11	famille	famille	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
@@ -14416,7 +14416,7 @@
 6	fois	fois	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
 7	le	_	DET	_	_	8	det	_	_
 8	titre	titre	NOUN	_	Gender=Masc|Number=Sing	4	dobj	_	_
-9	poids-lourd	NOLEMMA	ADJ	_	_	8	appos	_	_
+9	poids-lourd	poids-lourd	NOUN	_	ms=y	8	appos	_	_
 10	de	_	ADP	_	_	12	case	_	_
 11	la	_	DET	_	_	12	det	_	_
 12	IZW	_	PROPN	_	_	8	nmod	_	_
@@ -14904,7 +14904,7 @@
 1	Les	_	DET	_	_	2	det	_	_
 2	espèces	espèce	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	_
 3	différentes	différent	ADJ	_	fp=y	2	amod	_	_
-4	cohabitantes	NOLEMMA	VERB	_	_	2	acl	_	_
+4	cohabitantes	cohabitant	ADJ	_	fp=y|VerbForm=Part	2	acl	_	_
 5	dans	_	ADP	_	_	8	case	_	_
 6	une	_	DET	_	_	8	det	_	_
 7	même	même	ADJ	_	fs=y	8	amod	_	_
@@ -15045,15 +15045,15 @@
 19	promouvant	promouvoir	VERB	_	participe_present=y	10	advcl	_	_
 20	la	_	DET	_	_	21	det	_	_
 21	position	position	NOUN	_	Gender=Fem|Number=Sing	19	dobj	_	_
-22	christologique	NOLEMMA	ADJ	_	_	21	amod	_	_
-23	monophysite	NOLEMMA	ADJ	_	_	21	amod	_	_
+22	christologique	christologique	ADJ	_	fs=y	21	amod	_	_
+23	monophysite	monophysite	ADJ	_	fs=y	21	amod	_	_
 24	en	_	ADP	_	_	25	case	_	_
 25	opposition	opposition	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
 26	à	_	ADP	_	_	29	case	_	_
 27	la	_	DET	_	_	29	det	_	_
 28	l'	_	DET	_	_	29	det	_	_
 29	orthodoxie	orthodoxie	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
-30	chalcédonienne	NOLEMMA	ADJ	_	_	29	amod	_	_
+30	chalcédonienne	chalcédonien	ADJ	_	fs=y	29	amod	_	_
 31	largement	_	ADV	_	_	32	advmod	_	_
 32	acceptée	accepter	VERB	_	part_pass_fs=y	29	acl	_	_
 33	.	_	PUNCT	_	_	10	punct	_	_
@@ -16069,7 +16069,7 @@
 2	retard	retard	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	de	_	ADP	_	_	4	case	_	_
 4	croissance	croissance	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-5	staturo-pondérale	NOLEMMA	ADJ	_	_	4	amod	_	_
+5	staturo-pondérale	staturo-pondéral	ADJ	_	fs=y	4	amod	_	_
 6	est	être	VERB	_	ind_pres_3s=y	8	cop	_	_
 7	un	_	DET	_	_	8	det	_	_
 8	terme	terme	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -16384,7 +16384,7 @@
 1	Chifontaine	_	PROPN	_	_	4	nsubj	_	_
 2	est	être	VERB	_	ind_pres_3s=y	4	cop	_	_
 3	un	_	DET	_	_	4	det	_	_
-4	lieu-dit	NOLEMMA	VERB	_	_	0	root	_	_
+4	lieu-dit	lieu-dit	NOUN	_	ms=y	0	root	_	_
 5	de	_	ADP	_	_	7	case	_	_
 6	la	_	DET	_	_	7	det	_	_
 7	ville	ville	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
@@ -16523,7 +16523,7 @@
 3	l'	_	DET	_	_	4	det	_	_
 4	autorité	autorité	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 5	judiciaire	judiciaire	ADJ	_	fs=y	4	amod	_	_
-6	elle-même	NOLEMMA	ADJ	_	_	4	nmod	_	_
+6	elle-même	elle-même	PRON	_	Person=3|fs=y|Reflex	4	nmod	_	_
 7	qui	qui	PRON	_	_	8	nsubj	_	_
 8	reconnaît	reconnaître	VERB	_	ind_pres_3s=y	4	acl:relcl	_	_
 9	l'	_	DET	_	_	10	det	_	_
@@ -16956,7 +16956,7 @@
 18	le	_	DET	_	_	19	det	_	_
 19	président	président	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
 20	formerait	former	VERB	_	cond_pres_3s=y	16	acl:relcl	_	_
-21	lui-même	NOLEMMA	ADJ	_	_	20	nmod	_	_
+21	lui-même	lui-même	PRON	_	Person=3|ms=y|Reflex	20	nmod	_	_
 22	.	_	PUNCT	_	_	7	punct	_	_
 
 # sentid: fr-ud-dev_00609
@@ -17004,7 +17004,7 @@
 7	dans	_	ADP	_	_	9	case	_	_
 8	divers	_	DET	_	_	9	det	_	_
 9	pensionnats	pensionnat	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
-10	lausannois	NOLEMMA	ADJ	_	_	9	amod	_	_
+10	lausannois	lausannois	ADJ	_	mp=y	9	amod	_	_
 11	.	_	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-dev_00612
@@ -17514,9 +17514,9 @@
 
 # sentid: fr-ud-dev_00631
 # sentence-text: Can You Feel It a été enregistré en mars 1980 et est sorti en single le 23 septembre 1980.
-1	Can	NOLEMMA	AUX	_	_	3	aux	_	_
-2	You	you	PRON	_	_	3	nsubj	_	_
-3	Feel	NOLEMMA	VERB	_	_	7	nsubjpass	_	_
+1	Can	can	AUX	_	_	3	aux	_	_
+2	You	you	PRON	_	Person=2	3	nsubj	_	_
+3	Feel	feel	VERB	_	infinitif=y	7	nsubjpass	_	_
 4	It	it	PRON	_	s=y	3	dobj	_	_
 5	a	avoir	AUX	_	ind_pres_3s=y	7	aux	_	_
 6	été	être	AUX	_	part_pass_ms=y	7	auxpass	_	_
@@ -17957,7 +17957,7 @@
 15	friands	friand	ADJ	_	mp=y	12	amod	_	_
 16	de	_	ADP	_	_	17	case	_	_
 17	groupes	groupe	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
-18	new	NOLEMMA	ADJ	_	_	19	amod	_	_
+18	new	new	ADJ	_	_	19	amod	_	_
 19	wave	wave	NOUN	_	Gender=Fem|Number=Sing	17	compound	_	_
 20	à	_	ADP	_	_	22	case	_	_
 21	la	_	DET	_	_	22	det	_	_
@@ -18034,7 +18034,7 @@
 15	aéronautique	aéronautique	ADJ	_	fs=y	14	amod	_	_
 16	,	_	PUNCT	_	_	12	punct	_	_
 17	l'	_	DET	_	_	18	det	_	_
-18	Institut	FIXME	PROPN	_	_	12	conj	_	_
+18	Institut	institut	NOUN	_	ms=y	12	conj	_	_
 19	polaire	polaire	ADJ	_	ms=y	18	amod	_	_
 20	ou	_	CONJ	_	_	12	cc	_	_
 21	encore	_	ADV	_	_	23	advmod	_	_
@@ -18343,7 +18343,7 @@
 7	tenteront	tenter	VERB	_	ind_futur_3p=y	0	root	_	_
 8	tout	tout	PRON	_	ms=y	7	dobj	_	_
 9	pour	_	ADP	_	_	10	mark	_	_
-10	combatttre	NOLEMMA	VERB	_	_	7	advcl	_	_
+10	combatttre	combattre	VERB	_	infinitif=y	7	advcl	_	_
 11	Hercule	_	PROPN	_	_	10	dobj	_	_
 12	et	_	CONJ	_	_	10	cc	_	_
 13	ramener	ramener	VERB	_	infinitif=y	10	conj	_	_
@@ -18903,7 +18903,7 @@
 73	)	_	PUNCT	_	_	72	punct	_	_
 74	,	_	PUNCT	_	_	48	punct	_	_
 75	semaine	semaine	NOUN	_	Gender=Fem|Number=Sing	48	conj	_	_
-76	franco-tunisienne	NOLEMMA	ADJ	_	_	75	amod	_	_
+76	franco-tunisienne	franco-tunisien	ADJ	_	fs=y	75	amod	_	_
 77	,	_	PUNCT	_	_	75	punct	_	_
 78	Sousse	_	PROPN	_	_	75	appos	_	_
 79	(	_	PUNCT	_	_	80	punct	_	_
@@ -19665,7 +19665,7 @@
 38-39	au	_	_	_	_	_	_	_	_
 38	à	_	ADP	_	_	41	case	_	_
 39	le	_	DET	_	_	41	det	_	_
-40	10	NOLEMMA	ADJ	_	_	41	amod	_	_
+40	10	dixième	ADJ	_	ms=y	41	amod	_	_
 41	round	round	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
 42	contre	_	ADP	_	_	43	case	_	_
 43	Elisha	_	PROPN	_	_	32	nmod	_	_
@@ -19793,7 +19793,7 @@
 14	Some	_	DET	_	_	15	det	_	_
 15	Time	time	NOUN	_	Gender=Masc|Number=Sing	13	appos	_	_
 16	in	_	ADP	_	_	17	case	_	_
-17	New	NOLEMMA	ADJ	_	_	15	nmod	_	_
+17	New	new	ADJ	_	_	15	nmod	_	_
 18	York	_	PROPN	_	_	17	name	_	_
 19	City	city	NOUN	_	Gender=Fem|Number=Sing	17	name	_	_
 20	.	_	PUNCT	_	_	5	punct	_	_
@@ -20252,7 +20252,7 @@
 7	une	_	DET	_	_	8	det	_	_
 8	pédale	pédale	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 9	wah	_	X	_	_	8	appos	_	_
-10	issue	NOLEMMA	VERB	_	_	8	acl	_	_
+10	issue	issu	ADJ	_	fs=y	8	acl	_	_
 11-12	du	_	_	_	_	_	_	_	_
 11	de	_	ADP	_	_	13	case	_	_
 12	le	_	DET	_	_	13	det	_	_
@@ -20887,7 +20887,7 @@
 6	mais	_	CONJ	_	_	3	cc	_	_
 7	ceux-ci	celui-ci	PRON	_	mp=y	13	nsubj	_	_
 8	,	_	PUNCT	_	_	7	punct	_	_
-9	habitués	NOLEMMA	VERB	_	_	7	acl	_	_
+9	habitués	habituer	VERB	_	part_pass_mp=y	7	acl	_	_
 10	à	_	ADP	_	_	12	case	_	_
 11	la	_	DET	_	_	12	det	_	_
 12	campagne	campagne	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
@@ -21020,7 +21020,7 @@
 27	de	_	ADP	_	_	29	case	_	_
 28	le	_	DET	_	_	29	det	_	_
 29	Réseau	réseau	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
-30	Euro-Méditerranéen	NOLEMMA	ADJ	_	_	29	amod	_	_
+30	Euro-Méditerranéen	euro-méditerranéen	ADJ	_	ms=y	29	amod	_	_
 31-32	des	_	_	_	_	_	_	_	_
 31	de	_	ADP	_	_	33	case	_	_
 32	les	_	DET	_	_	33	det	_	_
@@ -21397,7 +21397,7 @@
 4	de	_	ADP	_	_	7	case	_	_
 5	le	_	DET	_	_	7	det	_	_
 6	premier	premier	ADJ	_	ms=y	7	amod	_	_
-7	Bound	NOLEMMA	VERB	_	_	3	nmod	_	_
+7	Bound	bind	VERB	_	part_pass=y	3	nmod	_	_
 8	for	_	ADP	_	_	9	case	_	_
 9	Glory	glory	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 10	,	_	PUNCT	_	_	3	punct	_	_
@@ -21574,7 +21574,7 @@
 15	de	_	ADP	_	_	17	case	_	_
 16	les	_	DET	_	_	17	det	_	_
 17	pattes	patte	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	_
-18	arrières	NOLEMMA	ADJ	_	_	17	amod	_	_
+18	arrières	arrière	ADJ	_	fp=y	17	amod	_	_
 19	.	_	PUNCT	_	_	7	punct	_	_
 
 # sentid: fr-ud-dev_00786
@@ -22087,7 +22087,7 @@
 3	1993	_	NUM	_	_	2	nmod	_	_
 4	,	_	PUNCT	_	_	6	punct	_	_
 5	il	il	PRON	_	Person=3|ms=y	6	nsubj	_	_
-6	co-préside	NOLEMMA	VERB	_	_	0	root	_	_
+6	co-préside	co-présider	VERB	_	ind_pres_3s=y	0	root	_	_
 7	le	_	DET	_	_	8	det	_	_
 8	Centre	centre	NOUN	_	Gender=Masc|Number=Sing	6	dobj	_	_
 9	d'	_	ADP	_	_	10	case	_	_
@@ -23222,7 +23222,7 @@
 27-28	du	_	_	_	_	_	_	_	_
 27	de	_	ADP	_	_	30	case	_	_
 28	le	_	DET	_	_	30	det	_	_
-29	VIe	NOLEMMA	ADJ	_	_	30	amod	_	_
+29	VIe	sixième	ADJ	_	ms=y	30	amod	_	_
 30	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
 31	et	_	CONJ	_	_	26	cc	_	_
 32	le	_	DET	_	_	33	det	_	_
@@ -23230,7 +23230,7 @@
 34-35	du	_	_	_	_	_	_	_	_
 34	de	_	ADP	_	_	37	case	_	_
 35	le	_	DET	_	_	37	det	_	_
-36	Ve	NOLEMMA	ADJ	_	_	37	amod	_	_
+36	Ve	cinquième	ADJ	_	ms=y	37	amod	_	_
 37	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
 38	av.	_	ADP	_	_	39	case	_	_
 39	J.-C.	_	PROPN	_	_	37	nmod	_	_
@@ -23330,7 +23330,7 @@
 # sentid: fr-ud-dev_00846
 # sentence-text: Il interprétera le rôle du Dr. Hector Hammond, un vilain classique de l'univers de Green Lantern.
 1	Il	il	PRON	_	Person=3|ms=y	2	nsubj	_	_
-2	interprétera	NOLEMMA	VERB	_	_	0	root	_	_
+2	interprétera	interpréter	VERB	_	ind_futur_3s=y	0	root	_	_
 3	le	_	DET	_	_	4	det	_	_
 4	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	2	dobj	_	_
 5-6	du	_	_	_	_	_	_	_	_
@@ -23531,9 +23531,9 @@
 35	,	_	PUNCT	_	_	13	punct	_	_
 36	les	_	DET	_	_	37	det	_	_
 37	fromages	fromage	NOUN	_	Gender=Masc|Number=Plur	13	conj	_	_
-38	ingrédients	NOLEMMA	ADJ	_	_	37	amod	_	_
-39	prétranchés	NOLEMMA	ADJ	_	_	37	amod	_	_
-40	surgelés	surgelé	ADJ	_	mp=y	37	amod	_	_
+38	ingrédients	ingrédient	NOUN	_	mp=y	37	appos	_	_
+39	prétranchés	prétranché	ADJ	_	mp=y	38	amod	_	_
+40	surgelés	surgelé	ADJ	_	mp=y	38	amod	_	_
 41	et	_	CONJ	_	_	13	cc	_	_
 42	les	_	DET	_	_	43	det	_	_
 43	ingrédients	ingrédient	NOUN	_	Gender=Masc|Number=Plur	13	conj	_	_
@@ -23634,7 +23634,7 @@
 6	se	se	PRON	_	Person=3	7	dobj	_	_
 7	transformer	transformer	VERB	_	infinitif=y	4	acl	_	_
 8	en	_	ADP	_	_	9	case	_	_
-9	Ultimate	NOLEMMA	ADJ	_	_	7	nmod	_	_
+9	Ultimate	ultimate	ADJ	_	_	7	nmod	_	_
 10	Echo	_	PROPN	_	_	9	name	_	_
 11	Echo	_	PROPN	_	_	9	name	_	_
 12	pour	_	ADP	_	_	14	mark	_	_
@@ -23998,9 +23998,9 @@
 5	entré	entrer	VERB	_	part_pass_ms=y	0	root	_	_
 6	en	_	ADP	_	_	7	case	_	_
 7	zone	zone	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
-8	euro	NOLEMMA	ADJ	_	_	7	amod	_	_
+8	euro	euro	NOUN	_	ms=y	7	compound	_	_
 9	le	_	DET	_	_	11	det	_	_
-10	1	_	NUM	_	_	11	nummod	_	_
+10	1	premier	ADJ	_	ms=y	11	nummod	_	_
 11	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 12	2008	_	NUM	_	_	11	nmod	_	_
 13	.	_	PUNCT	_	_	5	punct	_	_
@@ -24745,7 +24745,7 @@
 31	sur	_	ADP	_	_	33	case	_	_
 32	le	_	DET	_	_	33	det	_	_
 33	CD	CD	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
-34	Last	NOLEMMA	ADJ	_	_	35	amod	_	_
+34	Last	last	ADJ	_	_	35	amod	_	_
 35	Live	live	NOUN	_	Gender=Masc|Number=Sing	33	appos	_	_
 36	at	_	ADP	_	_	37	case	_	_
 37	CBGB	_	PROPN	_	_	35	nmod	_	_
@@ -24953,7 +24953,7 @@
 
 # sentid: fr-ud-dev_00902
 # sentence-text: Issue des résultats des élections législatives françaises de 1986, qui pour la première fois sous la Cinquième république, se sont déroulées (partiellement) au scrutin proportionnel (listes départementales) à un seul tour.
-1	Issue	NOLEMMA	VERB	_	_	0	root	_	_
+1	Issue	issue	ADJ	_	fs=y	0	root	_	_
 2	des	_	DET	_	_	3	det	_	_
 3	résultats	résultat	NOUN	_	Gender=Masc|Number=Plur	1	dobj	_	_
 4-5	des	_	_	_	_	_	_	_	_
@@ -25522,7 +25522,7 @@
 4	la	_	DET	_	_	5	det	_	_
 5	tourelle	tourelle	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	devient	devenir	VERB	_	ind_pres_3s=y	7	cop	_	_
-7	semi-conique	NOLEMMA	ADJ	_	_	0	root	_	_
+7	semi-conique	semi-conique	ADJ	_	ms=y	0	root	_	_
 8	,	_	PUNCT	_	_	7	punct	_	_
 9	dont	dont	PRON	_	_	11	nmod	_	_
 10	l'	_	DET	_	_	11	det	_	_
@@ -25964,9 +25964,9 @@
 # sentid: fr-ud-dev_00938
 # sentence-text: Le 43e Forum de Munich s'est tenu du 9 au 11 février 2007 sur le thème "A crises mondiales, responsabilités mondiales" (Globale Krisen--Globale Verantwortung/Global Crises--Global Responsibilities).
 1	Le	_	DET	_	_	3	det	_	_
-2	43e	NOLEMMA	ADJ	_	_	3	amod	_	_
-3	Forum	_	PROPN	_	_	8	nsubj	_	_
-4	de	_	PROPN	_	_	5	case	_	_
+2	43e	quarante-troisième	ADJ	_	ms=y	3	amod	_	_
+3	Forum	forum	NOUN	_	ms=y	8	nsubj	_	_
+4	de	_	ADP	_	_	5	case	_	_
 5	Munich	_	PROPN	_	_	3	nmod	_	_
 6	s'	se	PRON	_	Person=3	8	dobj	_	_
 7	est	être	AUX	_	ind_pres_3s=y	8	aux	_	_
@@ -27798,7 +27798,7 @@
 88	il	il	PRON	_	Person=3|ms=y	90	nsubj	_	_
 89	se	se	PRON	_	Person=3	90	dobj	_	_
 90	qualifiait	qualifier	VERB	_	imparfait_3s=y	83	advcl	_	_
-91	lui-même	NOLEMMA	ADJ	_	_	90	nmod	_	_
+91	lui-même	lui-même	PRON	_	Person=3|ms=y|Reflex	90	nmod	_	_
 92	)	_	PUNCT	_	_	90	punct	_	_
 93	:	_	PUNCT	_	_	83	punct	_	_
 94	le	_	DET	_	_	95	det	_	_
@@ -28055,7 +28055,7 @@
 5	de	_	ADP	_	_	7	case	_	_
 6	la	_	DET	_	_	7	det	_	_
 7	couronne	couronne	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-8	périurbaine	NOLEMMA	ADJ	_	_	7	amod	_	_
+8	périurbaine	périurbain	ADJ	_	fs=y	7	amod	_	_
 9	de	_	ADP	_	_	10	case	_	_
 10	Mulhouse	_	PROPN	_	_	7	nmod	_	_
 11	.	_	PUNCT	_	_	4	punct	_	_
@@ -28519,7 +28519,7 @@
 4	d'	_	ADP	_	_	6	advmod	_	_
 5	ailleurs	_	ADV	_	_	4	mwe	_	_
 6	envoyé	envoyer	VERB	_	part_pass_ms=y	0	root	_	_
-7	paître	NOLEMMA	VERB	_	_	6	xcomp	_	_
+7	paître	paître	VERB	_	infinitif=y	6	xcomp	_	_
 8	une	un	PRON	_	fs=y	7	dobj	_	_
 9	de	_	ADP	_	_	11	case	_	_
 10	mes	_	DET	_	_	11	nmod:poss	_	_
@@ -28645,7 +28645,7 @@
 25	«	_	PUNCT	_	_	27	punct	_	_
 26	une	_	DET	_	_	27	det	_	_
 27	mafia	mafia	NOUN	_	Gender=Fem|Number=Sing	24	dobj	_	_
-28	politico-financière	NOLEMMA	ADJ	_	_	27	amod	_	_
+28	politico-financière	politico-financier	ADJ	_	fs=y	27	amod	_	_
 29	»	_	PUNCT	_	_	27	punct	_	_
 30	.	_	PUNCT	_	_	11	punct	_	_
 
@@ -28698,10 +28698,10 @@
 9-10	du	_	_	_	_	_	_	_	_
 9	de	_	ADP	_	_	12	case	_	_
 10	le	_	DET	_	_	12	det	_	_
-11	4e	NOLEMMA	ADJ	_	_	12	amod	_	_
-12	Corps	_	PROPN	_	_	8	nmod	_	_
+11	4e	quatrimème	ADJ	_	ms=y	12	amod	_	_
+12	Corps	corps	NOUN	_	ms=y	8	nmod	_	_
 13	d'	_	ADP	_	_	14	case	_	_
-14	Armée	_	PROPN	_	_	12	nmod	_	_
+14	Armée	armée	NOUN	_	fs=y	12	nmod	_	_
 15	ayant	avoir	VERB	_	participe_present=y	12	acl	_	_
 16	pour	_	ADP	_	_	17	case	_	_
 17	commandant	commandant	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
@@ -29253,7 +29253,7 @@
 9	un	_	DET	_	_	11	det	_	_
 10	petit	petit	ADJ	_	ms=y	11	amod	_	_
 11	requin	requin	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-12	bathy-benthique	NOLEMMA	ADJ	_	_	11	amod	_	_
+12	bathy-benthique	bathy-benthique	ADJ	_	ms=y	11	amod	_	_
 13	.	_	PUNCT	_	_	11	punct	_	_
 
 # sentid: fr-ud-dev_01054
@@ -29396,7 +29396,7 @@
 3	les	_	DET	_	_	4	det	_	_
 4	vins	vin	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
 5	bien	_	ADV	_	_	6	advmod	_	_
-6	fournit	NOLEMMA	ADJ	_	_	1	amod	_	_
+6	fournit	fourni	ADJ	_	fs=y|VerbForm=Part	1	amod	_	_
 7	.	_	PUNCT	_	_	1	punct	_	_
 
 # sentid: fr-ud-dev_01060
@@ -30084,7 +30084,7 @@
 53	:	_	PUNCT	_	_	52	punct	_	_
 54	«	_	PUNCT	_	_	55	punct	_	_
 55	Et	_	CONJ	_	_	52	cc	_	_
-56	voilà	NOLEMMA	VERB	_	_	52	ccomp	_	_
+56	voilà	voilà	VERB	_	_	52	ccomp	_	_
 57	,	_	PUNCT	_	_	56	punct	_	_
 58	le	_	DET	_	_	60	det	_	_
 59	grand	grand	ADJ	_	ms=y	60	amod	_	_
@@ -30571,7 +30571,7 @@
 7	participe	participer	VERB	_	ind_pres_3s=y	0	root	_	_
 8	à	_	ADP	_	_	11	case	_	_
 9	un	_	DET	_	_	11	det	_	_
-10	dark	NOLEMMA	ADJ	_	_	11	amod	_	_
+10	dark	dark	ADJ	_	_	11	amod	_	_
 11	match	match	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 12	face	face	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 13	à	_	ADP	_	_	14	case	_	_
@@ -30799,7 +30799,7 @@
 6	,	_	PUNCT	_	_	5	punct	_	_
 7	des	_	DET	_	_	8	det	_	_
 8	films	film	NOUN	_	Gender=Masc|Number=Plur	21	nsubj	_	_
-9	non-narratifs	NOLEMMA	ADJ	_	_	8	amod	_	_
+9	non-narratifs	non-narratif	ADJ	_	mp=y	8	amod	_	_
 10	,	_	PUNCT	_	_	8	punct	_	_
 11	des	_	DET	_	_	12	det	_	_
 12	documentaires-fiction	documentaire-fiction	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	_
@@ -31810,7 +31810,7 @@
 9	dégustation	dégustation	NOUN	_	Gender=Fem|Number=Sing	7	dobj	_	_
 10	de	_	ADP	_	_	11	case	_	_
 11	vins	vin	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
-12	préchoisis	NOLEMMA	ADJ	_	_	11	amod	_	_
+12	préchoisis	préchoisi	ADJ	_	mp=y|VerbForm=Part	11	amod	_	_
 13	ou	_	CONJ	_	_	12	cc	_	_
 14	à	_	ADP	_	_	16	case	_	_
 15	votre	_	DET	_	_	16	nmod:poss	_	_
@@ -32131,7 +32131,7 @@
 10	titre	titre	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	_
 11	original	original	ADJ	_	ms=y	10	amod	_	_
 12	:	_	PUNCT	_	_	10	punct	_	_
-13	Being	NOLEMMA	VERB	_	_	10	appos	_	_
+13	Being	be	VERB	_	participe_present=y	10	appos	_	_
 14	at	_	ADP	_	_	15	case	_	_
 15	Home	home	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
 16	with	_	ADP	_	_	17	case	_	_
@@ -32709,7 +32709,7 @@
 25	par	_	ADP	_	_	27	case	_	_
 26	des	_	DET	_	_	27	det	_	_
 27	suffrages	suffrage	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	_
-28	exprimés	NOLEMMA	ADJ	_	_	27	amod	_	_
+28	exprimés	exprimé	ADJ	_	mp=y|VerbForm=Part	27	amod	_	_
 29	.	_	PUNCT	_	_	13	punct	_	_
 
 # sentid: fr-ud-dev_01185
@@ -32749,7 +32749,7 @@
 31	de	_	ADP	_	_	32	case	_	_
 32	jeu	jeu	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
 33	vidéo	vidéo	ADJ	_	ms=y	32	amod	_	_
-34	American	NOLEMMA	ADJ	_	_	30	amod	_	_
+34	American	American	ADJ	_	_	30	amod	_	_
 35	McGee	_	PROPN	_	_	30	appos	_	_
 36	.	_	PUNCT	_	_	18	punct	_	_
 
@@ -32821,7 +32821,7 @@
 12	de	_	ADP	_	_	11	mwe	_	_
 13	les	_	DET	_	_	14	det	_	_
 14	mondiaux	mondial	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
-15	indoor	NOLEMMA	ADJ	_	_	14	amod	_	_
+15	indoor	indoor	ADJ	_	_	14	amod	_	_
 16	de	_	ADP	_	_	17	case	_	_
 17	Paris	_	PROPN	_	_	14	nmod	_	_
 18	,	_	PUNCT	_	_	6	punct	_	_
@@ -33535,7 +33535,7 @@
 # sentence-text: Le renouveau désiré se produira-t-il ?
 1	Le	_	DET	_	_	2	det	_	_
 2	renouveau	renouveau	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
-3	désiré	NOLEMMA	ADJ	_	_	2	amod	_	_
+3	désiré	désiré	VERB	_	part_pass_ms=y	2	amod	_	_
 4	se	se	PRON	_	Person=3	5	dobj	_	_
 5	produira	produire	VERB	_	ind_futur_3s=y	0	root	_	_
 6	-t-il	il	PRON	_	Person=3|ms=y	5	nsubj	_	_
@@ -33570,7 +33570,7 @@
 24	a	avoir	AUX	_	ind_pres_3s=y	27	aux	_	_
 25	été	être	AUX	_	part_pass_ms=y	27	auxpass	_	_
 26	dessiné	dessiner	VERB	_	part_pass_ms=y	27	cop	_	_
-27	inversé	NOLEMMA	ADJ	_	_	21	ccomp	_	_
+27	inversé	inverser	VERB	_	part_pass_ms=y	21	ccomp	_	_
 28	(	_	PUNCT	_	_	29	punct	_	_
 29	gauche	gauche	NOUN	_	Gender=Fem|Number=Sing	27	appos	_	_
 30	/	_	PUNCT	_	_	29	punct	_	_
@@ -33666,7 +33666,7 @@
 4	de	_	ADP	_	_	6	case	_	_
 5	le	_	DET	_	_	6	det	_	_
 6	grec	grec	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-7	dis	NOLEMMA	ADJ	_	_	6	appos	_	_
+7	dis	dis	ADJ	_	_	6	appos	_	_
 8	--	_	PUNCT	_	_	7	punct	_	_
 9	double	double	ADJ	_	ms=y	7	appos	_	_
 10	,	_	PUNCT	_	_	7	punct	_	_
@@ -33694,7 +33694,7 @@
 31	d'	_	ADP	_	_	33	case	_	_
 32	un	_	DET	_	_	33	det	_	_
 33	tégument	tégument	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
-34	syncytial	NOLEMMA	ADJ	_	_	33	amod	_	_
+34	syncytial	syncytial	ADJ	_	ms=y	33	amod	_	_
 35	et	_	CONJ	_	_	33	cc	_	_
 36	,	_	PUNCT	_	_	33	punct	_	_
 37	le	_	DET	_	_	38	det	_	_
@@ -33860,7 +33860,7 @@
 24	soit	_	SCONJ	_	_	22	cc	_	_
 25	à	_	ADP	_	_	26	case	_	_
 26	plat	plat	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
-27	recouvert	NOLEMMA	ADJ	_	_	26	amod	_	_
+27	recouvert	recouvrir	VERB	_	part_pass_ms=y	26	amod	_	_
 28	,	_	PUNCT	_	_	16	punct	_	_
 29	ce	ce	PRON	_	Person=3|s=y	18	appos	_	_
 30	qui	qui	PRON	_	_	35	nsubj	_	_
@@ -34135,7 +34135,7 @@
 22	sous	_	ADP	_	_	24	case	_	_
 23	un	_	DET	_	_	24	det	_	_
 24	climat	climat	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-25	semi-aride	NOLEMMA	ADJ	_	_	24	amod	_	_
+25	semi-aride	semi-aride	ADJ	_	ms=y	24	amod	_	_
 26	.	_	PUNCT	_	_	9	punct	_	_
 
 # sentid: fr-ud-dev_01232
@@ -34417,7 +34417,7 @@
 13	un	_	DET	_	_	14	det	_	_
 14	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 15	de	_	ADP	_	_	17	case	_	_
-16	heavy	NOLEMMA	ADJ	_	_	17	amod	_	_
+16	heavy	heavy	ADJ	_	_	17	amod	_	_
 17	metal	metal	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 18	.	_	PUNCT	_	_	5	punct	_	_
 
@@ -34443,7 +34443,7 @@
 9	sympa	sympa	ADJ	_	fs=y	7	amod	_	_
 10	et	_	CONJ	_	_	9	cc	_	_
 11	vraiment	_	ADV	_	_	12	advmod	_	_
-12	pro	NOLEMMA	ADJ	_	_	9	conj	_	_
+12	pro	professionnel	ADJ	_	fs=y	9	conj	_	_
 13	!	_	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-dev_01242
@@ -34878,7 +34878,7 @@
 15	pratiquée	pratiquer	VERB	_	part_pass_fs=y	8	acl:relcl	_	_
 16	de	_	ADP	_	_	17	case	_	_
 17	manière	manière	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
-18	semi-commerciale	NOLEMMA	ADJ	_	_	17	amod	_	_
+18	semi-commerciale	semi-commercial	ADJ	_	fs=y	17	amod	_	_
 19	y	_	ADV	_	_	22	advmod	_	_
 20	avaient	avoir	AUX	_	imparfait_3p=y	22	aux	_	_
 21	aussi	_	ADV	_	_	22	advmod	_	_
@@ -35606,7 +35606,7 @@
 14	le	_	DET	_	_	16	det	_	_
 15	même	même	ADJ	_	ms=y	16	amod	_	_
 16	titre	titre	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-17	peut-être	NOLEMMA	VERB	_	_	16	advmod	_	_
+17	peut-être	_	ADV	_	_	16	advmod	_	_
 18	que	_	SCONJ	_	_	19	mark	_	_
 19	François	_	PROPN	_	_	16	nmod	_	_
 20	Clerc	_	PROPN	_	_	19	name	_	_
@@ -35858,7 +35858,7 @@
 6	Friederich	_	PROPN	_	_	5	name	_	_
 7	est	être	AUX	_	ind_pres_3s=y	9	auxpass	_	_
 8	nommée	nommer	VERB	_	part_pass_fs=y	9	cop	_	_
-9	présidente	NOLEMMA	ADJ	_	_	0	root	_	_
+9	présidente	président	NOUN	_	fs=y	0	root	_	_
 10	de	_	ADP	_	_	12	case	_	_
 11	l'	_	DET	_	_	12	det	_	_
 12	Association	association	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
@@ -35879,7 +35879,7 @@
 # sentid: fr-ud-dev_01293
 # sentence-text: Edith par donc à Londres pour rencontrer le directeur éditorial, et accepte finalement l'offre.
 1	Edith	_	PROPN	_	_	2	nsubj	_	_
-2	par	NOLEMMA	VERB	_	_	0	root	_	_
+2	par	partir	VERB	_	ind_pres_3s=y	0	root	_	_
 3	donc	_	ADV	_	_	2	advmod	_	_
 4	à	_	ADP	_	_	5	case	_	_
 5	Londres	_	PROPN	_	_	2	nmod	_	_
@@ -36291,7 +36291,7 @@
 # sentence-text: L'acide dihomo-γ-linolénique (DGLA) est un acide gras polyinsaturé oméga-6 correspondant à l'acide.
 1	L'	_	DET	_	_	2	det	_	_
 2	acide	acide	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
-3	dihomo-γ-linolénique	NOLEMMA	ADJ	_	_	2	amod	_	_
+3	dihomo-γ-linolénique	dihomo-γ-linolénique	ADJ	_	ms=y	2	amod	_	_
 4	(	_	PUNCT	_	_	5	punct	_	_
 5	DGLA	DGLA	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
 6	)	_	PUNCT	_	_	5	punct	_	_
@@ -36299,7 +36299,7 @@
 8	un	_	DET	_	_	9	det	_	_
 9	acide	acide	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 10	gras	gras	ADJ	_	ms=y	9	amod	_	_
-11	polyinsaturé	NOLEMMA	ADJ	_	_	9	amod	_	_
+11	polyinsaturé	polyinsaturé	ADJ	_	ms=y	9	amod	_	_
 12	oméga-6	_	NUM	_	_	9	appos	_	_
 13	correspondant	correspondant	NOUN	_	Gender=Masc|Number=Sing	9	acl	_	_
 14	à	_	ADP	_	_	16	case	_	_
@@ -37053,7 +37053,7 @@
 5	hindou	hindou	ADJ	_	ms=y	4	amod	_	_
 6	,	_	PUNCT	_	_	8	punct	_	_
 7	généralement	_	ADV	_	_	8	advmod	_	_
-8	shivaïtes	NOLEMMA	ADJ	_	_	0	root	_	_
+8	shivaïtes	shivaïte	ADJ	_	mp=y	0	root	_	_
 9	.	_	PUNCT	_	_	8	punct	_	_
 
 # sentid: fr-ud-dev_01337
@@ -37123,7 +37123,7 @@
 1	Il	il	PRON	_	Person=3|ms=y	4	nsubjpass	_	_
 2	est	être	AUX	_	ind_pres_3s=y	4	auxpass	_	_
 3	désormais	_	ADV	_	_	4	advmod	_	_
-4	endorsé	NOLEMMA	VERB	_	_	0	root	_	_
+4	endorsé	endorser	VERB	_	part_pass_fsp=y	0	root	_	_
 5	par	_	ADP	_	_	7	case	_	_
 6	les	_	DET	_	_	7	det	_	_
 7	amplis	ampli	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
@@ -38005,11 +38005,11 @@
 4	de	_	ADP	_	_	5	case	_	_
 5	Sandras	_	PROPN	_	_	3	nmod	_	_
 6	et	_	CONJ	_	_	3	cc	_	_
-7	viacire	viacire	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	_
-8	généaral	NOLEMMA	ADJ	_	_	7	amod	_	_
+7	viacire	vicaire	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	_
+8	généaral	général	ADJ	_	ms=y	7	amod	_	_
 9	et	_	CONJ	_	_	7	cc	_	_
 10	grand	grand	ADJ	_	ms=y	11	amod	_	_
-11	acrchidiacre	acrchidiacre	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
+11	acrchidiacre	archidiacre	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
 12-13	du	_	_	_	_	_	_	_	_
 12	de	_	ADP	_	_	14	case	_	_
 13	le	_	DET	_	_	14	det	_	_
@@ -39971,7 +39971,7 @@
 3	(	_	PUNCT	_	_	4	punct	_	_
 4	1901-1985	_	NUM	_	_	1	nmod	_	_
 5	)	_	PUNCT	_	_	4	punct	_	_
-6	lui-même	NOLEMMA	ADJ	_	_	1	nmod	_	_
+6	lui-même	lui-même	PRON	_	Person=3|ms=y|Reflex	1	nmod	_	_
 7	est	être	VERB	_	ind_pres_3s=y	10	cop	_	_
 8	en	_	ADP	_	_	10	case	_	_
 9	pleine	plein	ADJ	_	fs=y	10	amod	_	_
@@ -40243,7 +40243,7 @@
 43	dont	dont	PRON	_	_	47	iobj	_	_
 44	il	il	PRON	_	Person=3|ms=y	47	nsubj	_	_
 45	a	avoir	AUX	_	ind_pres_3s=y	47	aux	_	_
-46	lui-même	NOLEMMA	ADJ	_	_	47	nmod	_	_
+46	lui-même	lui-même	PRON	_	Person=3|ms=y|Reflex	47	nmod	_	_
 47	désigné	désigner	VERB	_	part_pass_ms=y	41	acl:relcl	_	_
 48	préalablement	_	ADV	_	_	47	advmod	_	_
 49	les	_	DET	_	_	50	det	_	_
@@ -40751,7 +40751,7 @@
 33	de	_	ADP	_	_	35	case	_	_
 34	la	_	DET	_	_	35	det	_	_
 35	frontière	frontière	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
-36	franco-allemande	NOLEMMA	ADJ	_	_	35	amod	_	_
+36	franco-allemande	franco-allemand	ADJ	_	fs=y	35	amod	_	_
 37	.	_	PUNCT	_	_	12	punct	_	_
 
 # sentid: fr-ud-dev_01462
@@ -40999,7 +40999,7 @@
 40	les	_	DET	_	_	41	det	_	_
 41	corps	corps	NOUN	_	Gender=Masc|Number=Plur	38	nmod	_	_
 42	dans	_	ADP	_	_	43	case	_	_
-43	elle-même	NOLEMMA	ADJ	_	_	32	nmod	_	_
+43	elle-même	elle-même	PRON	_	Person=3|fs=y|Reflex	32	nmod	_	_
 44	qui	qui	PRON	_	_	45	nsubj	_	_
 45	envoie	envoyer	VERB	_	ind_pres_3s=y	35	acl:relcl	_	_
 46	tout	_	DET	_	_	47	det	_	_
@@ -42081,7 +42081,7 @@
 14	coureur	coureur	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 15	cycliste	cycliste	ADJ	_	ms=y	14	amod	_	_
 16	professionnel	professionnel	ADJ	_	ms=y	14	amod	_	_
-17	sud-africain	NOLEMMA	ADJ	_	_	14	amod	_	_
+17	sud-africain	sud-africain	ADJ	_	ms=y	14	amod	_	_
 18	.	_	PUNCT	_	_	14	punct	_	_
 
 # sentid: fr-ud-dev_01509
@@ -42097,7 +42097,7 @@
 9-10	du	_	_	_	_	_	_	_	_
 9	de	_	ADP	_	_	13	case	_	_
 10	le	_	DET	_	_	13	det	_	_
-11	8ème	NOLEMMA	ADJ	_	_	13	amod	_	_
+11	8ème	huitième	ADJ	_	ms=y	13	amod	_	_
 12	album	album	NOUN	_	Gender=Masc|Number=Sing	13	compound	_	_
 13	studio	studio	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 14	de	_	ADP	_	_	15	case	_	_
@@ -42535,9 +42535,9 @@
 14	en	_	ADP	_	_	15	mark	_	_
 15	redistribuant	redistribuer	VERB	_	participe_present=y	6	advcl	_	_
 16	le	_	DET	_	_	18	det	_	_
-17	code	code	NOUN	_	Gender=Masc|Number=Sing	18	compound	_	_
-18	source	source	NOUN	_	Gender=Fem|Number=Sing	15	dobj	_	_
-19	modifié	NOLEMMA	ADJ	_	_	18	amod	_	_
+17	code	code	NOUN	_	Gender=Masc|Number=Sing	15	dobj	_	_
+18	source	source	NOUN	_	Gender=Fem|Number=Sing	17	compound	_	_
+19	modifié	modifier	VERB	_	part_pass_ms=y	17	amod	_	_
 20	,	_	PUNCT	_	_	29	punct	_	_
 21	aucune	_	DET	_	_	22	neg	_	_
 22	modification	modification	NOUN	_	Gender=Fem|Number=Sing	29	nsubj	_	_
@@ -42765,9 +42765,9 @@
 # sentid: fr-ud-dev_01532
 # sentence-text: Il est souvent victime de petites arnaques de la part de l'équipe et chaque fois qu'ils veulent éviter de payer leur addition.
 1	Il	il	PRON	_	Person=3|ms=y	4	nsubj	_	_
-2	est	être	VERB	_	ind_pres_3s=y	4	cop	_	_
+2	est	être	AUX	_	ind_pres_3s=y	4	cop	_	_
 3	souvent	_	ADV	_	_	4	advmod	_	_
-4	victime	FIXME	VERB	_	_	0	root	_	_
+4	victime	victime	NOUN	_	fs=y	0	root	_	_
 5	de	_	DET	_	_	7	case	_	_
 6	petites	petit	ADJ	_	fp=y	7	amod	_	_
 7	arnaques	arnaque	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
@@ -42800,7 +42800,7 @@
 6	est	être	VERB	_	ind_pres_3s=y	8	cop	_	_
 7	cette	_	DET	_	_	8	det	_	_
 8	mélodie	mélodie	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-9	envoutante	NOLEMMA	ADJ	_	_	8	amod	_	_
+9	envoutante	envoûtant	ADJ	_	fs=y	8	amod	_	_
 10	,	_	PUNCT	_	_	8	punct	_	_
 11	jouée	jouer	VERB	_	part_pass_fs=y	8	acl	_	_
 12	sur	_	ADP	_	_	14	case	_	_
@@ -43598,7 +43598,7 @@
 1	Mais	_	CONJ	_	_	8	cc	_	_
 2	l'	_	DET	_	_	3	det	_	_
 3	eau	eau	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
-4	elle-même	_	ADV	_	_	3	nmod	_	_
+4	elle-même	elle-même	PRON	_	Person=3|ms=y|Reflex	3	nmod	_	_
 5	,	_	PUNCT	_	_	8	punct	_	_
 6	est	être	VERB	_	ind_pres_3s=y	8	cop	_	_
 7	un	_	DET	_	_	8	det	_	_
@@ -43999,7 +43999,7 @@
 17	noms	nom	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
 18	de	_	ADP	_	_	19	case	_	_
 19	peintres	peintre	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
-20	célébres	NOLEMMA	ADJ	_	_	19	amod	_	_
+20	célébres	célèbre	ADJ	_	mp=y	19	amod	_	_
 21	,	_	PUNCT	_	_	10	punct	_	_
 22	est	être	VERB	_	ind_pres_3s=y	24	cop	_	_
 23	un	_	DET	_	_	24	det	_	_

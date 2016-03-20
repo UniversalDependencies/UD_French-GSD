@@ -6732,7 +6732,7 @@
 22	dans	_	ADP	_	_	24	case	_	_
 23	les	_	DET	_	_	24	det	_	_
 24	colline	colline	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
-25	subcarpathiques	subcarpathique	ADJ	_	fp+y	24	amod	_	_
+25	subcarpathiques	subcarpathique	ADJ	_	fp=y	24	amod	_	_
 26	de	_	ADP	_	_	28	case	_	_
 27	la	_	DET	_	_	28	det	_	_
 28	Prahova	_	PROPN	_	_	24	nmod	_	_
@@ -16523,7 +16523,7 @@
 3	l'	_	DET	_	_	4	det	_	_
 4	autorité	autorité	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 5	judiciaire	judiciaire	ADJ	_	fs=y	4	amod	_	_
-6	elle-même	elle-même	PRON	_	Person=3|fs=y|Reflex	4	nmod	_	_
+6	elle-même	elle-même	PRON	_	Person=3|fs=y|Reflex=Yes	4	nmod	_	_
 7	qui	qui	PRON	_	_	8	nsubj	_	_
 8	reconnaît	reconnaître	VERB	_	ind_pres_3s=y	4	acl:relcl	_	_
 9	l'	_	DET	_	_	10	det	_	_
@@ -16956,7 +16956,7 @@
 18	le	_	DET	_	_	19	det	_	_
 19	président	président	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
 20	formerait	former	VERB	_	cond_pres_3s=y	16	acl:relcl	_	_
-21	lui-même	lui-même	PRON	_	Person=3|ms=y|Reflex	20	nmod	_	_
+21	lui-même	lui-même	PRON	_	Person=3|ms=y|Reflex=Yes	20	nmod	_	_
 22	.	_	PUNCT	_	_	7	punct	_	_
 
 # sentid: fr-ud-dev_00609
@@ -21397,7 +21397,7 @@
 4	de	_	ADP	_	_	7	case	_	_
 5	le	_	DET	_	_	7	det	_	_
 6	premier	premier	ADJ	_	ms=y	7	amod	_	_
-7	Bound	bind	VERB	_	part_pass=y	3	nmod	_	_
+7	Bound	bind	VERB	_	part_pass_ms=y	3	nmod	_	_
 8	for	_	ADP	_	_	9	case	_	_
 9	Glory	glory	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 10	,	_	PUNCT	_	_	3	punct	_	_
@@ -27798,7 +27798,7 @@
 88	il	il	PRON	_	Person=3|ms=y	90	nsubj	_	_
 89	se	se	PRON	_	Person=3	90	dobj	_	_
 90	qualifiait	qualifier	VERB	_	imparfait_3s=y	83	advcl	_	_
-91	lui-même	lui-même	PRON	_	Person=3|ms=y|Reflex	90	nmod	_	_
+91	lui-même	lui-même	PRON	_	Person=3|ms=y|Reflex=Yes	90	nmod	_	_
 92	)	_	PUNCT	_	_	90	punct	_	_
 93	:	_	PUNCT	_	_	83	punct	_	_
 94	le	_	DET	_	_	95	det	_	_
@@ -37123,7 +37123,7 @@
 1	Il	il	PRON	_	Person=3|ms=y	4	nsubjpass	_	_
 2	est	être	AUX	_	ind_pres_3s=y	4	auxpass	_	_
 3	désormais	_	ADV	_	_	4	advmod	_	_
-4	endorsé	endorser	VERB	_	part_pass_fsp=y	0	root	_	_
+4	endorsé	endorser	VERB	_	part_pass_ms=y	0	root	_	_
 5	par	_	ADP	_	_	7	case	_	_
 6	les	_	DET	_	_	7	det	_	_
 7	amplis	ampli	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
@@ -39971,7 +39971,7 @@
 3	(	_	PUNCT	_	_	4	punct	_	_
 4	1901-1985	_	NUM	_	_	1	nmod	_	_
 5	)	_	PUNCT	_	_	4	punct	_	_
-6	lui-même	lui-même	PRON	_	Person=3|ms=y|Reflex	1	nmod	_	_
+6	lui-même	lui-même	PRON	_	Person=3|ms=y|Reflex=Yes	1	nmod	_	_
 7	est	être	VERB	_	ind_pres_3s=y	10	cop	_	_
 8	en	_	ADP	_	_	10	case	_	_
 9	pleine	plein	ADJ	_	fs=y	10	amod	_	_
@@ -40243,7 +40243,7 @@
 43	dont	dont	PRON	_	_	47	iobj	_	_
 44	il	il	PRON	_	Person=3|ms=y	47	nsubj	_	_
 45	a	avoir	AUX	_	ind_pres_3s=y	47	aux	_	_
-46	lui-même	lui-même	PRON	_	Person=3|ms=y|Reflex	47	nmod	_	_
+46	lui-même	lui-même	PRON	_	Person=3|ms=y|Reflex=Yes	47	nmod	_	_
 47	désigné	désigner	VERB	_	part_pass_ms=y	41	acl:relcl	_	_
 48	préalablement	_	ADV	_	_	47	advmod	_	_
 49	les	_	DET	_	_	50	det	_	_
@@ -40999,7 +40999,7 @@
 40	les	_	DET	_	_	41	det	_	_
 41	corps	corps	NOUN	_	Gender=Masc|Number=Plur	38	nmod	_	_
 42	dans	_	ADP	_	_	43	case	_	_
-43	elle-même	elle-même	PRON	_	Person=3|fs=y|Reflex	32	nmod	_	_
+43	elle-même	elle-même	PRON	_	Person=3|fs=y|Reflex=Yes	32	nmod	_	_
 44	qui	qui	PRON	_	_	45	nsubj	_	_
 45	envoie	envoyer	VERB	_	ind_pres_3s=y	35	acl:relcl	_	_
 46	tout	_	DET	_	_	47	det	_	_
@@ -43598,7 +43598,7 @@
 1	Mais	_	CONJ	_	_	8	cc	_	_
 2	l'	_	DET	_	_	3	det	_	_
 3	eau	eau	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
-4	elle-même	elle-même	PRON	_	Person=3|ms=y|Reflex	3	nmod	_	_
+4	elle-même	elle-même	PRON	_	Person=3|ms=y|Reflex=Yes	3	nmod	_	_
 5	,	_	PUNCT	_	_	8	punct	_	_
 6	est	être	VERB	_	ind_pres_3s=y	8	cop	_	_
 7	un	_	DET	_	_	8	det	_	_

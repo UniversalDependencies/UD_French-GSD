@@ -1634,7 +1634,7 @@
 5	soir	soir	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 6	(	_	PUNCT	_	_	8	punct	_	_
 7	vers	_	ADP	_	_	8	case	_	_
-8	23h	23h	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
+8	23h	23h	NUM	_	Gender=Fem|Number=Plur	3	nmod	_	_
 9	)	_	PUNCT	_	_	8	punct	_	_
 10-11	au	_	_	_	_	_	_	_	_
 10	à	_	ADP	_	_	12	case	_	_
@@ -9992,10 +9992,10 @@
 10	les	_	DET	_	_	11	det	_	_
 11	urnes	urne	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
 12	de	_	ADP	_	_	13	case	_	_
-13	12H30	12H30	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+13	12H30	12H30	NUM	_	Gender=Fem|Number=Plur	8	nmod	_	_
 14	GMT	_	X	_	_	13	compound	_	_
 15	à	_	ADP	_	_	16	case	_	_
-16	00H30	00H30	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	_
+16	00H30	00H30	NUM	_	Gender=Fem|Number=Plur	13	nmod	_	_
 17	GMT	_	X	_	_	16	compound	_	_
 18	dimanche	dimanche	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 19	.	_	PUNCT	_	_	8	punct	_	_
@@ -10861,7 +10861,7 @@
 # sentid: fr-ud-dev_00394
 # sentence-text: A 14h25, je retourne le voir en salle et le remercie ironiquemmnt de nous avoir aidé si gentillement, mais qu'il ferait mieux de s'abstenir de promettre l'impossible.
 1	A	_	ADP	_	_	2	case	_	_
-2	14h25	14h25	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
+2	14h25	14h25	NUM	_	Gender=Fem|Number=Plur	5	nmod	_	_
 3	,	_	PUNCT	_	_	5	punct	_	_
 4	je	il	PRON	_	Person=1|s=y	5	nsubj	_	_
 5	retourne	retourner	VERB	_	ind_pres_1s=y	0	root	_	_
@@ -14382,7 +14382,7 @@
 18-19	jusqu'à	_	_	_	_	_	_	_	_
 18	jusqu'	_	ADP	_	_	20	case	_	_
 19	à	_	ADP	_	_	20	case	_	_
-20	22h	22h	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
+20	22h	22h	NUM	_	Gender=Fem|Number=Plur	17	nmod	_	_
 21	.	_	PUNCT	_	_	1	punct	_	_
 
 # sentid: fr-ud-dev_00519
@@ -37530,7 +37530,7 @@
 13	13	_	NUM	_	_	12	nummod	_	_
 14	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	12	compound	_	_
 15	à	_	ADP	_	_	16	case	_	_
-16	20h40	20h40	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
+16	20h40	20h40	NUM	_	Gender=Fem|Number=Plur	10	nmod	_	_
 17	,	_	PUNCT	_	_	27	punct	_	_
 18	"	_	PUNCT	_	_	20	punct	_	_
 19	Un	_	DET	_	_	20	det	_	_

@@ -5624,7 +5624,7 @@
 14	baptisé	baptiser	VERB	_	part_pass_ms=y	0	root	_	_
 15	«	_	PUNCT	_	_	19	punct	_	_
 16	(	_	PUNCT	_	_	17	punct	_	_
-17	4422	_	NUM	_	_	19	mwe	_	_
+17	4422	_	NUM	_	_	19	appos	_	_
 18	)	_	PUNCT	_	_	17	punct	_	_
 19	Jarre	_	PROPN	_	_	14	dobj	_	_
 20	»	_	PUNCT	_	_	19	punct	_	_
@@ -7502,7 +7502,7 @@
 32	.	_	PUNCT	_	_	8	punct	_	_
 
 # sentid: fr-ud-dev_00268
-# sentence-text: Elle est publiée pour la première fois dans le du journal Spirou sous forme de mini-récit.
+# sentence-text: Elle est publiée pour la première fois dans le n° 1107 du journal Spirou sous forme de mini-récit.
 1	Elle	elle	PRON	_	Person=3|fs=y	3	nsubjpass	_	_
 2	est	être	AUX	_	ind_pres_3s=y	3	auxpass	_	_
 3	publiée	publier	VERB	_	part_pass_fs=y	0	root	_	_
@@ -7510,18 +7510,20 @@
 5	la	_	DET	_	_	7	det	_	_
 6	première	premier	ADJ	_	fs=y	7	amod	_	_
 7	fois	fois	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-8	dans	_	ADP	_	_	3	case	_	_
-9	le	_	DET	_	_	8	dep	_	_
-10-11	du	_	_	_	_	_	_	_	_
-10	de	_	ADP	_	_	12	case	_	_
-11	le	_	DET	_	_	12	det	_	_
-12	journal	journal	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-13	Spirou	_	PROPN	_	_	12	appos	_	_
-14	sous	_	ADP	_	_	15	case	_	_
-15	forme	forme	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-16	de	_	ADP	_	_	17	case	_	_
-17	mini-récit	mini-récit	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
-18	.	_	PUNCT	_	_	3	punct	_	_
+8	dans	_	ADP	_	_	10	case	_	_
+9	le	_	DET	_	_	10	det	_	_
+10	n°	_	SYM	_	_	3	nmod	_	_
+11	1107	_	NUM	_	_	10	compound	_	_
+12-13	du	_	_	_	_	_	_	_	_
+12	de	_	ADP	_	_	14	case	_	_
+13	le	_	DET	_	_	14	det	_	_
+14	journal	journal	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+15	Spirou	_	PROPN	_	_	14	appos	_	_
+16	sous	_	ADP	_	_	17	case	_	_
+17	forme	forme	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+18	de	_	ADP	_	_	19	case	_	_
+19	mini-récit	mini-récit	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+20	.	_	PUNCT	_	_	3	punct	_	_
 
 # sentid: fr-ud-dev_00269
 # sentence-text: À la fin du film la question reste en suspens : Maria se suicide-t-elle ou s'agit-il d'un accident domestique quand une explosion due au gaz la tue chez elle ?
@@ -11750,7 +11752,7 @@
 31	-	_	PUNCT	_	_	30	punct	_	_
 32-33	d'Auray	_	_	_	_	_	_	_	_
 32	d'	_	ADP	_	_	33	case	_	_
-33	Auray	_	ADP	_	_	30	case	_	_
+33	Auray	_	PROPN	_	_	30	name	_	_
 34	.	_	PUNCT	_	_	11	punct	_	_
 
 # sentid: fr-ud-dev_00426
@@ -11807,8 +11809,8 @@
 10	Hilsz	_	PROPN	_	_	9	name	_	_
 11	,	_	PUNCT	_	_	7	punct	_	_
 12	accompagnée	accompagner	VERB	_	part_pass_fs=y	9	acl	_	_
-13	de	_	ADP	_	_	12	mark	_	_
-14	Maurice	_	PROPN	_	_	13	case	_	_
+13	de	_	ADP	_	_	14	case	_	_
+14	Maurice	_	PROPN	_	_	12	nmod	_	_
 15	Dronne	_	PROPN	_	_	14	name	_	_
 16	,	_	PUNCT	_	_	7	punct	_	_
 17	le	_	DET	_	_	19	det	_	_
@@ -19455,10 +19457,10 @@
 15	comme	_	ADP	_	_	16	case	_	_
 16	remise	remise	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
 17	agricole	agricole	ADJ	_	fs=y	16	amod	_	_
-18	jusqu'	_	ADP	_	_	21	mwe	_	_
-19	à	_	ADP	_	_	21	mwe	_	_
-20	ce	ce	PRON	_	Person=3|s=y	21	mwe	_	_
-21	que	_	SCONJ	_	_	28	mark	_	_
+18	jusqu'	_	ADP	_	_	28	mark	_	_
+19	à	_	ADP	_	_	18	mwe	_	_
+20	ce	ce	PRON	_	Person=3|s=y	18	mwe	_	_
+21	que	_	SCONJ	_	_	18	mwe	_	_
 22	l'	_	DET	_	_	23	det	_	_
 23	ensemble	ensemble	NOUN	_	Gender=Masc|Number=Sing	28	nsubjpass	_	_
 24-25	des	_	_	_	_	_	_	_	_
@@ -19840,7 +19842,7 @@
 10	est	être	VERB	_	ind_pres_3s=y	16	cop	_	_
 11-12	au	_	_	_	_	_	_	_	_
 11	à	_	ADP	_	_	13	mwe	_	_
-12	le	_	DET	_	_	13	det	_	_
+12	le	_	DET	_	_	13	mwe	_	_
 13	fond	fond	NOUN	_	Gender=Masc|Number=Sing	16	advmod	_	_
 14	la	_	DET	_	_	16	det	_	_
 15	seule	seul	ADJ	_	fs=y	16	amod	_	_
@@ -21673,7 +21675,7 @@
 4	réserver	réserver	VERB	_	infinitif=y	1	acl	_	_
 5-6	au	_	_	_	_	_	_	_	_
 5	à	_	ADP	_	_	7	mwe	_	_
-6	le	_	DET	_	_	7	det	_	_
+6	le	_	DET	_	_	7	mwe	_	_
 7	moins	_	ADV	_	_	8	advmod	_	_
 8	une	_	NUM	_	_	9	nummod	_	_
 9	semaine	semaine	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
@@ -29600,10 +29602,10 @@
 13	de	_	ADP	_	_	15	case	_	_
 14	sa	_	DET	_	_	15	nmod:poss	_	_
 15	cavalerie	cavalerie	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
-16	jusqu'	_	ADP	_	_	19	mwe	_	_
-17	à	_	ADP	_	_	19	mwe	_	_
-18	ce	ce	PRON	_	Person=3|s=y	19	mwe	_	_
-19	que	_	SCONJ	_	_	27	mark	_	_
+16	jusqu'	_	ADP	_	_	27	mark	_	_
+17	à	_	ADP	_	_	16	mwe	_	_
+18	ce	ce	PRON	_	Person=3|s=y	16	mwe	_	_
+19	que	_	SCONJ	_	_	16	mwe	_	_
 20	la	_	DET	_	_	21	det	_	_
 21	discipline	discipline	NOUN	_	Gender=Fem|Number=Sing	27	nsubj	_	_
 22	de	_	ADP	_	_	24	case	_	_
@@ -40630,7 +40632,7 @@
 21	amenée	amener	VERB	_	part_pass_fs=y	11	advcl	_	_
 22	à	_	ADP	_	_	23	mark	_	_
 23	conclure	conclure	VERB	_	infinitif=y	21	acl	_	_
-24	que	_	SCONJ	_	_	28	mwe	_	_
+24	que	_	SCONJ	_	_	28	mark	_	_
 25	vous	vous	PRON	_	Person=2|p=y	28	nsubj	_	_
 26	êtes	être	VERB	_	ind_pres_2p=y	28	cop	_	_
 27	fiscalement	_	ADV	_	_	28	advmod	_	_

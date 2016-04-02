@@ -9361,10 +9361,10 @@
 18	découvrir	découvrir	VERB	_	infinitif=y	16	acl	_	_
 19	absolument	_	ADV	_	_	18	advmod	_	_
 20	,	_	PUNCT	_	_	12	punct	_	_
-21	de	_	ADP	_	_	22	mwe	_	_
-22	par	_	ADP	_	_	18	case	_	_
+21	de	_	ADP	_	_	18	case	_	_
+22	par	_	ADP	_	_	21	mwe	_	_
 23	sa	_	DET	_	_	24	nmod:poss	_	_
-24	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	22	dobj	_	_
+24	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	21	dobj	_	_
 25	,	_	PUNCT	_	_	24	punct	_	_
 26	son	_	DET	_	_	27	nmod:poss	_	_
 27	prix	prix	NOUN	_	Gender=Masc|Number=Sing	24	conj	_	_
@@ -10213,9 +10213,9 @@
 3	chroniques	chronique	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	_
 4	médiévales	médiéval	ADJ	_	fp=y	3	amod	_	_
 5	,	_	PUNCT	_	_	20	punct	_	_
-6	plus	_	ADV	_	_	7	mwe	_	_
-7	de	_	ADP	_	_	11	dep	_	_
-8	50000	_	NUM	_	_	7	nummod	_	_
+6	plus	_	ADV	_	_	11	dep	_	_
+7	de	_	ADP	_	_	6	mwe	_	_
+8	50000	_	NUM	_	_	6	nummod	_	_
 9	soldats	soldat	NOUN	_	Gender=Masc|Number=Plur	20	nsubj	_	_
 10-11	des	_	_	_	_	_	_	_	_
 10	de	_	DET	_	_	12	case	_	_
@@ -17965,9 +17965,9 @@
 21	la	_	DET	_	_	22	det	_	_
 22	Duran	_	PROPN	_	_	15	nmod	_	_
 23	Duran	_	PROPN	_	_	22	name	_	_
-24	(	_	PUNCT	_	_	26	punct	_	_
-25	ainsi	_	ADV	_	_	26	mwe	_	_
-26	que	_	SCONJ	_	_	12	cc	_	_
+24	(	_	PUNCT	_	_	25	punct	_	_
+25	ainsi	_	ADV	_	_	12	cc	_	_
+26	que	_	SCONJ	_	_	25	mwe	_	_
 27	dans	_	ADP	_	_	30	case	_	_
 28	plusieurs	_	DET	_	_	30	det	_	_
 29	autres	autre	ADJ	_	mp=y	30	amod	_	_
@@ -39788,16 +39788,16 @@
 
 # sentid: fr-ud-dev_01432
 # sentence-text: Vous êtes quelques uns à ne pas avoir pu suivre l'actualité sur iPhoneAddict.fr au jour le jour.
-1	Vous	vous	PRON	_	Person=2|p=y	4	nsubj	_	_
-2	êtes	être	VERB	_	ind_pres_2p=y	4	cop	_	_
-3	quelques	_	DET	_	_	4	mwe	_	_
-4	uns	un	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+1	Vous	vous	PRON	_	Person=2|p=y	3	nsubj	_	_
+2	êtes	être	VERB	_	ind_pres_2p=y	3	cop	_	_
+3	quelques	_	DET	_	_	0	root	_	_
+4	uns	un	NOUN	_	Gender=Masc|Number=Plur	3	mwe	_	_
 5	à	_	ADP	_	_	10	mark	_	_
 6	ne	_	PART	_	_	10	neg	_	_
 7	pas	_	ADV	_	_	10	neg	_	_
 8	avoir	avoir	AUX	_	infinitif=y	10	aux	_	_
 9	pu	_	ADV	_	_	10	advmod	_	_
-10	suivre	suivre	VERB	_	infinitif=y	4	acl	_	_
+10	suivre	suivre	VERB	_	infinitif=y	3	acl	_	_
 11	l'	_	DET	_	_	12	det	_	_
 12	actualité	actualité	NOUN	_	Gender=Fem|Number=Sing	10	dobj	_	_
 13	sur	_	ADP	_	_	14	case	_	_
@@ -40855,9 +40855,9 @@
 14	le	_	DET	_	_	15	det	_	_
 15	cercueil	cercueil	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 16	,	_	PUNCT	_	_	12	punct	_	_
-17	si	_	ADV	_	_	19	advmod	_	_
-18	bien	_	ADV	_	_	19	mwe	_	_
-19	que	_	SCONJ	_	_	25	mark	_	_
+17	si	_	ADV	_	_	18	advmod	_	_
+18	bien	_	ADV	_	_	25	mark	_	_
+19	que	_	SCONJ	_	_	18	mwe	_	_
 20	toutes	_	DET	_	_	22	det	_	_
 21	les	_	DET	_	_	22	det	_	_
 22	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	25	nsubj	_	_

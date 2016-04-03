@@ -1567,10 +1567,10 @@
 
 # sentid: fr-ud-test_00059
 # sentence-text: A chaque fois qu'il sent la pression, le Makhzen appelle quelqu'un à son secours.
-1	A	_	ADP	_	_	2	mwe	_	_
-2	chaque	_	DET	_	_	6	mark	_	_
-3	fois	fois	NOUN	_	Gender=Masc|Number=Plur	2	mwe	_	_
-4	qu'	_	SCONJ	_	_	2	mwe	_	_
+1	A	_	ADP	_	_	6	mark	_	_
+2	chaque	_	DET	_	_	1	mwe	_	_
+3	fois	fois	NOUN	_	Gender=Masc|Number=Plur	1	mwe	_	_
+4	qu'	_	SCONJ	_	_	1	mwe	_	_
 5	il	il	PRON	_	Person=3|ms=y	6	nsubj	_	_
 6	sent	sentir	VERB	_	ind_pres_3s=y	12	advcl	_	_
 7	la	_	DET	_	_	8	det	_	_
@@ -2026,9 +2026,9 @@
 
 # sentid: fr-ud-test_00072
 # sentence-text: Dès lors que le peuple décide de regagner sa liberté il devient instantanément et de facto, libre.
-1	Dès	_	ADP	_	_	2	mwe	_	_
-2	lors	_	ADV	_	_	6	mark	_	_
-3	que	_	SCONJ	_	_	2	mwe	_	_
+1	Dès	_	ADP	_	_	6	mark	_	_
+2	lors	_	ADV	_	_	1	mwe	_	_
+3	que	_	SCONJ	_	_	1	mwe	_	_
 4	le	_	DET	_	_	5	det	_	_
 5	peuple	peuple	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 6	décide	décider	VERB	_	ind_pres_3s=y	12	advcl	_	_
@@ -2836,9 +2836,9 @@
 
 # sentid: fr-ud-test_00096
 # sentence-text: Jusqu'à quand la France officielle maintiendra-t-elle sa préférence pour la protection des agresseurs des droits de l'homme ?
-1	Jusqu'	_	ADP	_	_	2	mwe	_	_
-2	à	_	ADP	_	_	7	advmod	_	_
-3	quand	_	SCONJ	_	_	2	mwe	_	_
+1	Jusqu'	_	ADP	_	_	7	advmod	_	_
+2	à	_	ADP	_	_	1	mwe	_	_
+3	quand	_	SCONJ	_	_	1	mwe	_	_
 4	la	_	DET	_	_	5	det	_	_
 5	France	_	PROPN	_	_	7	nsubj	_	_
 6	officielle	officiel	ADJ	_	fs=y	5	amod	_	_
@@ -6047,9 +6047,9 @@
 17	saurai	savoir	VERB	_	ind_futur_1s=y	3	parataxis	_	_
 18	que	_	SCONJ	_	_	17	expl	_	_
 19	déconseiller	déconseiller	VERB	_	infinitif=y	17	xcomp	_	_
-20	en	_	ADP	_	_	21	mwe	_	_
-21	tout	_	DET	_	_	19	advmod	_	_
-22	cas	cas	NOUN	_	Gender=Masc|Number=Sing	21	mwe	_	_
+20	en	_	ADP	_	_	19	advmod	_	_
+21	tout	_	DET	_	_	20	mwe	_	_
+22	cas	cas	NOUN	_	Gender=Masc|Number=Sing	20	mwe	_	_
 23	pour	_	ADP	_	_	27	case	_	_
 24	plus	_	ADV	_	_	26	advmod	_	_
 25	de	_	ADP	_	_	24	mwe	_	_
@@ -6210,29 +6210,29 @@
 1-2	Au	_	_	_	_	_	_	_	_
 1	à	_	ADP	_	_	3	case	_	_
 2	le	_	DET	_	_	3	det	_	_
-3	menu	menu	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
-4	,	_	PUNCT	_	_	10	punct	_	_
+3	menu	menu	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+4	,	_	PUNCT	_	_	9	punct	_	_
 5	en	_	ADP	_	_	6	case	_	_
-6	entrée	entrée	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
-7	,	_	PUNCT	_	_	10	punct	_	_
-8	du	_	DET	_	_	10	det	_	_
-9	pas	_	ADV	_	_	10	mwe	_	_
-10	grand	grand	ADJ	_	ms=y	0	root	_	_
-11	chose	chose	NOUN	_	Gender=Fem|Number=Sing	10	mwe	_	_
-12	,	_	PUNCT	_	_	10	punct	_	_
+6	entrée	entrée	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+7	,	_	PUNCT	_	_	9	punct	_	_
+8	du	_	DET	_	_	9	det	_	_
+9	pas	_	ADV	_	_	0	root	_	_
+10	grand	grand	ADJ	_	ms=y	9	mwe	_	_
+11	chose	chose	NOUN	_	Gender=Fem|Number=Sing	9	mwe	_	_
+12	,	_	PUNCT	_	_	9	punct	_	_
 13	avec	_	ADP	_	_	16	case	_	_
 14	beaucoup	_	DET	_	_	16	det	_	_
 15	de	_	ADP	_	_	14	mwe	_	_
-16	salade	salade	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+16	salade	salade	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 17	autour	_	ADV	_	_	16	advmod	_	_
-18	,	_	PUNCT	_	_	10	punct	_	_
+18	,	_	PUNCT	_	_	9	punct	_	_
 19	et	_	CONJ	_	_	16	cc	_	_
 20	une	_	DET	_	_	21	det	_	_
 21	giclée	giclée	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	_
 22	de	_	ADP	_	_	23	case	_	_
 23	vinaigre	vinaigre	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 24	balsamique	balsamique	ADJ	_	ms=y	23	amod	_	_
-25	.	_	PUNCT	_	_	10	punct	_	_
+25	.	_	PUNCT	_	_	9	punct	_	_
 
 # sentid: fr-ud-test_00208
 # sentence-text: Au sortir d'une séance de cinéma, nous avons découvert dans un quartier vivant, une adresse à retenir.
@@ -6829,9 +6829,9 @@
 18	le	_	DET	_	_	19	det	_	_
 19	maximum	maximum	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 20	....	_	PUNCT	_	_	4	punct	_	_
-21	N'	_	ADV	_	_	22	mwe	_	_
-22	importe	importer	VERB	_	ind_pres_3s=y	4	parataxis	_	_
-23	quoi	quoi	PRON	_	_	22	mwe	_	_
+21	N'	_	ADV	_	_	4	parataxis	_	_
+22	importe	importer	VERB	_	ind_pres_3s=y	21	mwe	_	_
+23	quoi	quoi	PRON	_	_	21	mwe	_	_
 24	...	_	PUNCT	_	_	4	punct	_	_
 25	Par	_	ADP	_	_	30	advmod	_	_
 26	contre	_	ADP	_	_	25	mwe	_	_

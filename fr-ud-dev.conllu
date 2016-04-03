@@ -6333,7 +6333,7 @@
 62	.	_	PUNCT	_	_	19	punct	_	_
 
 # sentid: fr-ud-dev_00229
-# sentence-text: Robert Thelen dessina donc un nouveau fuselage, de section elliptique, pesant de moins que celui du D.III.
+# sentence-text: Robert Thelen dessina donc un nouveau fuselage, de section elliptique, pesant [[32 kg]] de moins que celui du D.III.
 1	Robert	_	PROPN	_	_	3	nsubj	_	_
 2	Thelen	_	PROPN	_	_	1	name	_	_
 3	dessina	dessiner	VERB	_	passe_simple_3s=y	0	root	_	_
@@ -13766,14 +13766,14 @@
 21	aujourd'hui	_	ADV	_	_	20	advmod	_	_
 22	des	_	DET	_	_	23	det	_	_
 23	retards	retard	NOUN	_	Gender=Masc|Number=Plur	20	dobj	_	_
-24	en	_	ADP	_	_	25	mwe	_	_
-25	raison	raison	NOUN	_	Gender=Fem|Number=Sing	31	case	_	_
+24	en	_	ADP	_	_	31	case	_	_
+25	raison	raison	NOUN	_	Gender=Fem|Number=Sing	24	mwe	_	_
 26	,	_	PUNCT	_	_	20	punct	_	_
 27	entre	_	ADP	_	_	25	advmod	_	_
 28	autres	autre	NOUN	_	Gender=Masc|Number=Plur	27	mwe	_	_
 29-30	des	_	_	_	_	_	_	_	_
-29	de	_	ADP	_	_	25	mwe	_	_
-30	les	_	DET	_	_	25	det	_	_
+29	de	_	ADP	_	_	24	mwe	_	_
+30	les	_	DET	_	_	31	det	_	_
 31	divergences	divergence	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	_
 32	nées	naître	VERB	_	part_pass_fp=y	31	acl	_	_
 33	entre	_	ADP	_	_	34	case	_	_
@@ -17305,8 +17305,8 @@
 # sentid: fr-ud-dev_00623
 # sentence-text: Mis à part les vestiaires qui viennent d'être rénovés, toute la zone aquatique aurait besoin d'un bon rafraichissement, tout comme l'espace principal avec les machines de fitness, clairement 90's avec une peinture bleue saturée qui a fait son temps.
 1	Mis	mettre	VERB	_	part_pass_ms=y	5	case	_	_
-2	à	_	ADP	_	_	1	mark	_	_
-3	part	part	NOUN	_	Gender=Fem|Number=Sing	1	mwe	_	_
+2	à	_	ADP	_	_	3	case	_	_
+3	part	part	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 4	les	_	DET	_	_	5	det	_	_
 5	vestiaires	vestiaire	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
 6	qui	qui	PRON	_	_	7	nsubj	_	_
@@ -22524,8 +22524,8 @@
 21	les	_	DET	_	_	22	det	_	_
 22	Allemands	allemand	NOUN	_	Gender=Masc|Number=Plur	20	dobj	_	_
 23	jusqu'	_	ADP	_	_	30	mark	_	_
-24	à	_	ADP	_	_	23	acl	_	_
-25	ce	ce	PRON	_	Person=3|s=y	24	nmod	_	_
+24	à	_	ADP	_	_	23	mwe	_	_
+25	ce	ce	PRON	_	Person=3|s=y	23	mwe	_	_
 26	que	_	SCONJ	_	_	23	mwe	_	_
 27	des	_	DET	_	_	28	det	_	_
 28	renforts	renfort	NOUN	_	Gender=Masc|Number=Plur	30	nsubj	_	_
@@ -44378,7 +44378,7 @@
 45	handicapés	handicapé	NOUN	_	Gender=Masc|Number=Plur	46	nsubjpass	_	_
 46	vont	aller	VERB	_	ind_pres_3p=y	43	appos	_	_
 47	-ils	il	PRON	_	Person=3|mp=y	46	expl	_	_
-48	en	en	PRON	_	Person=3	49	case	_	_
+48	en	_	ADP	_	_	49	case	_	_
 49	enfer	enfer	NOUN	_	Gender=Masc|Number=Sing	46	nmod	_	_
 50	?	_	PUNCT	_	_	46	punct	_	_
 51	/	_	PUNCT	_	_	46	punct	_	_

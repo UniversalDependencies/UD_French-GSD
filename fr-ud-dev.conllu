@@ -14906,7 +14906,7 @@
 1	Les	_	DET	_	_	2	det	_	_
 2	espèces	espèce	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	_
 3	différentes	différent	ADJ	_	fp=y	2	amod	_	_
-4	cohabitantes	cohabitant	ADJ	_	fp=y|VerbForm=Part	2	acl	_	_
+4	cohabitantes	cohabitant	ADJ	_	VerbForm=Part|fp=y	2	acl	_	_
 5	dans	_	ADP	_	_	8	case	_	_
 6	une	_	DET	_	_	8	det	_	_
 7	même	même	ADJ	_	fs=y	8	amod	_	_
@@ -16525,7 +16525,7 @@
 3	l'	_	DET	_	_	4	det	_	_
 4	autorité	autorité	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 5	judiciaire	judiciaire	ADJ	_	fs=y	4	amod	_	_
-6	elle-même	elle-même	PRON	_	Person=3|fs=y|Reflex=Yes	4	nmod	_	_
+6	elle-même	elle-même	PRON	_	Person=3|Reflex=Yes|fs=y	4	nmod	_	_
 7	qui	qui	PRON	_	_	8	nsubj	_	_
 8	reconnaît	reconnaître	VERB	_	ind_pres_3s=y	4	acl:relcl	_	_
 9	l'	_	DET	_	_	10	det	_	_
@@ -16958,7 +16958,7 @@
 18	le	_	DET	_	_	19	det	_	_
 19	président	président	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
 20	formerait	former	VERB	_	cond_pres_3s=y	16	acl:relcl	_	_
-21	lui-même	lui-même	PRON	_	Person=3|ms=y|Reflex=Yes	20	nmod	_	_
+21	lui-même	lui-même	PRON	_	Person=3|Reflex=Yes|ms=y	20	nmod	_	_
 22	.	_	PUNCT	_	_	7	punct	_	_
 
 # sentid: fr-ud-dev_00609
@@ -27800,7 +27800,7 @@
 88	il	il	PRON	_	Person=3|ms=y	90	nsubj	_	_
 89	se	se	PRON	_	Person=3	90	dobj	_	_
 90	qualifiait	qualifier	VERB	_	imparfait_3s=y	83	advcl	_	_
-91	lui-même	lui-même	PRON	_	Person=3|ms=y|Reflex=Yes	90	nmod	_	_
+91	lui-même	lui-même	PRON	_	Person=3|Reflex=Yes|ms=y	90	nmod	_	_
 92	)	_	PUNCT	_	_	90	punct	_	_
 93	:	_	PUNCT	_	_	83	punct	_	_
 94	le	_	DET	_	_	95	det	_	_
@@ -29398,7 +29398,7 @@
 3	les	_	DET	_	_	4	det	_	_
 4	vins	vin	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
 5	bien	_	ADV	_	_	6	advmod	_	_
-6	fournit	fourni	ADJ	_	fs=y|VerbForm=Part	1	amod	_	_
+6	fournit	fourni	ADJ	_	VerbForm=Part|fs=y	1	amod	_	_
 7	.	_	PUNCT	_	_	1	punct	_	_
 
 # sentid: fr-ud-dev_01060
@@ -31812,7 +31812,7 @@
 9	dégustation	dégustation	NOUN	_	Gender=Fem|Number=Sing	7	dobj	_	_
 10	de	_	ADP	_	_	11	case	_	_
 11	vins	vin	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
-12	préchoisis	préchoisi	ADJ	_	mp=y|VerbForm=Part	11	amod	_	_
+12	préchoisis	préchoisi	ADJ	_	VerbForm=Part|mp=y	11	amod	_	_
 13	ou	_	CONJ	_	_	12	cc	_	_
 14	à	_	ADP	_	_	16	case	_	_
 15	votre	_	DET	_	_	16	nmod:poss	_	_
@@ -32711,7 +32711,7 @@
 25	par	_	ADP	_	_	27	case	_	_
 26	des	_	DET	_	_	27	det	_	_
 27	suffrages	suffrage	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	_
-28	exprimés	exprimé	ADJ	_	mp=y|VerbForm=Part	27	amod	_	_
+28	exprimés	exprimé	ADJ	_	VerbForm=Part|mp=y	27	amod	_	_
 29	.	_	PUNCT	_	_	13	punct	_	_
 
 # sentid: fr-ud-dev_01185
@@ -39973,7 +39973,7 @@
 3	(	_	PUNCT	_	_	4	punct	_	_
 4	1901-1985	_	NUM	_	_	1	nmod	_	_
 5	)	_	PUNCT	_	_	4	punct	_	_
-6	lui-même	lui-même	PRON	_	Person=3|ms=y|Reflex=Yes	1	nmod	_	_
+6	lui-même	lui-même	PRON	_	Person=3|Reflex=Yes|ms=y	1	nmod	_	_
 7	est	être	VERB	_	ind_pres_3s=y	10	cop	_	_
 8	en	_	ADP	_	_	10	case	_	_
 9	pleine	plein	ADJ	_	fs=y	10	amod	_	_
@@ -40245,7 +40245,7 @@
 43	dont	dont	PRON	_	_	47	iobj	_	_
 44	il	il	PRON	_	Person=3|ms=y	47	nsubj	_	_
 45	a	avoir	AUX	_	ind_pres_3s=y	47	aux	_	_
-46	lui-même	lui-même	PRON	_	Person=3|ms=y|Reflex=Yes	47	nmod	_	_
+46	lui-même	lui-même	PRON	_	Person=3|Reflex=Yes|ms=y	47	nmod	_	_
 47	désigné	désigner	VERB	_	part_pass_ms=y	41	acl:relcl	_	_
 48	préalablement	_	ADV	_	_	47	advmod	_	_
 49	les	_	DET	_	_	50	det	_	_
@@ -41001,7 +41001,7 @@
 40	les	_	DET	_	_	41	det	_	_
 41	corps	corps	NOUN	_	Gender=Masc|Number=Plur	38	nmod	_	_
 42	dans	_	ADP	_	_	43	case	_	_
-43	elle-même	elle-même	PRON	_	Person=3|fs=y|Reflex=Yes	32	nmod	_	_
+43	elle-même	elle-même	PRON	_	Person=3|Reflex=Yes|fs=y	32	nmod	_	_
 44	qui	qui	PRON	_	_	45	nsubj	_	_
 45	envoie	envoyer	VERB	_	ind_pres_3s=y	35	acl:relcl	_	_
 46	tout	_	DET	_	_	47	det	_	_
@@ -43600,7 +43600,7 @@
 1	Mais	_	CONJ	_	_	8	cc	_	_
 2	l'	_	DET	_	_	3	det	_	_
 3	eau	eau	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
-4	elle-même	elle-même	PRON	_	Person=3|ms=y|Reflex=Yes	3	nmod	_	_
+4	elle-même	elle-même	PRON	_	Person=3|Reflex=Yes|ms=y	3	nmod	_	_
 5	,	_	PUNCT	_	_	8	punct	_	_
 6	est	être	VERB	_	ind_pres_3s=y	8	cop	_	_
 7	un	_	DET	_	_	8	det	_	_

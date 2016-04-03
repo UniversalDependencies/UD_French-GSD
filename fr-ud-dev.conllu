@@ -5988,9 +5988,9 @@
 10	même	_	ADV	_	_	9	advmod	_	_
 11	»	_	PUNCT	_	_	9	punct	_	_
 12	1,5	_	NUM	_	_	13	nummod	_	_
-13	milliard	_	NUM	_	_	15	nummod	_	_
-14	d'	_	ADP	_	_	13	expl	_	_
-15	euros	euro	NOUN	_	Gender=Masc|Number=Plur	7	dobj	_	_
+13	milliard	_	NUM	_	_	7	dobj	_	_
+14	d'	_	ADP	_	_	15	case	_	_
+15	euros	euro	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
 16	.	_	PUNCT	_	_	7	punct	_	_
 
 # sentid: fr-ud-dev_00219
@@ -7674,9 +7674,9 @@
 10	érythréens	érythréen	ADJ	_	mp=y	9	amod	_	_
 11	,	_	PUNCT	_	_	16	punct	_	_
 12	quelques	_	ADV	_	_	13	advmod	_	_
-13	milliers	_	NUM	_	_	15	nummod	_	_
-14	d'	_	ADP	_	_	13	expl	_	_
-15	africains	africain	NOUN	_	Gender=Masc|Number=Plur	16	nsubj	_	_
+13	milliers	_	NUM	_	_	16	nsubj	_	_
+14	d'	_	ADP	_	_	15	case	_	_
+15	africains	africain	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
 16	demeurent	demeurer	VERB	_	ind_pres_3p=y	0	root	_	_
 17	dans	_	ADP	_	_	19	case	_	_
 18	des	_	DET	_	_	19	det	_	_
@@ -9986,9 +9986,9 @@
 1	Près	_	ADV	_	_	3	advmod	_	_
 2	de	_	ADP	_	_	1	mwe	_	_
 3	18	_	NUM	_	_	4	nummod	_	_
-4	millions	_	NUM	_	_	6	nummod	_	_
-5	de	_	ADP	_	_	4	expl	_	_
-6	Vénézuéliens	vénézuélien	NOUN	_	Gender=Masc|Number=Plur	8	nsubjpass	_	_
+4	millions	_	NUM	_	_	8	nsubjpass	_	_
+5	de	_	ADP	_	_	6	case	_	_
+6	Vénézuéliens	vénézuélien	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
 7	sont	être	AUX	_	ind_pres_3p=y	8	auxpass	_	_
 8	appelés	appeler	VERB	_	part_pass_mp=y	0	root	_	_
 9-10	aux	_	_	_	_	_	_	_	_
@@ -13841,9 +13841,9 @@
 8	salaire	salaire	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
 9	de	_	ADP	_	_	13	case	_	_
 10	4,5	_	NUM	_	_	11	nummod	_	_
-11	millions	_	NUM	_	_	13	nummod	_	_
-12	d'	_	ADP	_	_	11	expl	_	_
-13	euros	euro	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+11	millions	_	NUM	_	_	8	nmod	_	_
+12	d'	_	ADP	_	_	13	case	_	_
+13	euros	euro	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
 14	par	_	ADP	_	_	15	case	_	_
 15	an	an	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
 16	auraient	avoir	AUX	_	cond_pres_3p=y	18	aux	_	_
@@ -13976,9 +13976,9 @@
 3	a	avoir	AUX	_	ind_pres_3s=y	4	aux	_	_
 4	signé	signer	VERB	_	part_pass_ms=y	0	root	_	_
 5	une	_	NUM	_	_	6	nummod	_	_
-6	quarantaine	quarantaine	NOUN	_	Gender=Fem|Number=Sing	8	nummod	_	_
-7	de	_	ADP	_	_	8	expl	_	_
-8	conventions	convention	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+6	quarantaine	quarantaine	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7	de	_	ADP	_	_	8	case	_	_
+8	conventions	convention	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
 9	fiscales	fiscal	ADJ	_	fp=y	8	amod	_	_
 10	en	_	ADP	_	_	13	case	_	_
 11	matière	matière	NOUN	_	Gender=Fem|Number=Sing	10	mwe	_	_
@@ -13988,9 +13988,9 @@
 15	moins	_	ADV	_	_	18	advmod	_	_
 16	d'	_	ADP	_	_	15	mwe	_	_
 17	une	_	NUM	_	_	18	nummod	_	_
-18	dizaine	dizaine	NOUN	_	Gender=Fem|Number=Sing	20	nummod	_	_
-19	de	_	ADP	_	_	20	expl	_	_
-20	conventions	convention	NOUN	_	Gender=Fem|Number=Plur	8	conj	_	_
+18	dizaine	dizaine	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
+19	de	_	ADP	_	_	20	case	_	_
+20	conventions	convention	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	_
 21	en	_	ADP	_	_	22	case	_	_
 22	matière	matière	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
 23	de	_	ADP	_	_	24	case	_	_
@@ -16905,9 +16905,9 @@
 4	auteur	auteur	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 5	d'	_	ADP	_	_	9	case	_	_
 6	une	_	NUM	_	_	7	nummod	_	_
-7	dizaine	_	NUM	_	_	9	nummod	_	_
-8	d'	_	ADP	_	_	7	expl	_	_
-9	ouvrage	ouvrage	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+7	dizaine	_	NUM	_	_	4	nmod	_	_
+8	d'	_	ADP	_	_	9	case	_	_
+9	ouvrage	ouvrage	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 10	de	_	ADP	_	_	11	case	_	_
 11	littérature	littérature	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 12	enfantine	enfantin	ADJ	_	fs=y	11	amod	_	_
@@ -16915,9 +16915,9 @@
 14	illustratrice	illustrateur	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
 15	d'	_	ADP	_	_	19	case	_	_
 16	une	_	NUM	_	_	17	nummod	_	_
-17	douzaine	_	NUM	_	_	19	nummod	_	_
-18	de	_	ADP	_	_	17	expl	_	_
-19	livres	livre	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+17	douzaine	_	NUM	_	_	14	nmod	_	_
+18	de	_	ADP	_	_	19	case	_	_
+19	livres	livre	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
 20	dont	dont	PRON	_	_	22	nmod	_	_
 21	la	_	DET	_	_	22	det	_	_
 22	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
@@ -18003,9 +18003,9 @@
 56	plus	_	ADV	_	_	58	advmod	_	_
 57	de	_	ADP	_	_	56	mwe	_	_
 58	5	_	NUM	_	_	59	nummod	_	_
-59	millions	_	NUM	_	_	61	nummod	_	_
-60	d'	_	ADP	_	_	59	expl	_	_
-61	exemplaires	exemplaire	NOUN	_	Gender=Masc|Number=Plur	50	nmod	_	_
+59	millions	_	NUM	_	_	50	nmod	_	_
+60	d'	_	ADP	_	_	61	case	_	_
+61	exemplaires	exemplaire	NOUN	_	Gender=Masc|Number=Plur	59	nmod	_	_
 62	,	_	PUNCT	_	_	2	punct	_	_
 63-64	au	_	_	_	_	_	_	_	_
 63	à	_	ADP	_	_	65	case	_	_
@@ -20571,9 +20571,9 @@
 22	300	_	NUM	_	_	25	nummod	_	_
 23	et	_	CONJ	_	_	22	cc	_	_
 24	311	_	NUM	_	_	22	conj	_	_
-25	millions	_	NUM	_	_	27	nummod	_	_
-26	d'	_	ADP	_	_	25	expl	_	_
-27	années	année	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	_
+25	millions	_	NUM	_	_	16	nmod	_	_
+26	d'	_	ADP	_	_	27	case	_	_
+27	années	année	NOUN	_	Gender=Fem|Number=Plur	25	nmod	_	_
 28	)	_	PUNCT	_	_	27	punct	_	_
 29	.	_	PUNCT	_	_	6	punct	_	_
 
@@ -22617,9 +22617,9 @@
 15	d'	_	ADP	_	_	20	case	_	_
 16	environ	_	ADV	_	_	17	advmod	_	_
 17	7,1	_	NUM	_	_	18	nummod	_	_
-18	milliards	_	NUM	_	_	20	nummod	_	_
-19	de	_	ADP	_	_	18	expl	_	_
-20	dollars	dollar	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
+18	milliards	_	NUM	_	_	12	nmod	_	_
+19	de	_	ADP	_	_	20	case	_	_
+20	dollars	dollar	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
 21	intégralement	_	ADV	_	_	22	advmod	_	_
 22	souscrite	souscrire	VERB	_	part_pass_fs=y	12	acl	_	_
 23	par	_	ADP	_	_	24	case	_	_
@@ -32914,11 +32914,11 @@
 3	Yémen	_	PROPN	_	_	12	nmod	_	_
 4	,	_	PUNCT	_	_	12	punct	_	_
 5	des	_	DET	_	_	6	det	_	_
-6	dizaines	_	NUM	_	_	8	nummod	_	_
-7	de	_	ADP	_	_	8	expl	_	_
-8	milliers	_	NUM	_	_	10	nummod	_	_
-9	de	_	ADP	_	_	10	expl	_	_
-10	manifestants	manifestant	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
+6	dizaines	_	NUM	_	_	12	nsubj	_	_
+7	de	_	ADP	_	_	8	case	_	_
+8	milliers	_	NUM	_	_	6	nmod	_	_
+9	de	_	ADP	_	_	10	case	_	_
+10	manifestants	manifestant	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
 11	ont	avoir	AUX	_	ind_pres_3p=y	12	aux	_	_
 12	envahi	envahir	VERB	_	part_pass_ms=y	0	root	_	_
 13	Sanaa	_	PROPN	_	_	12	dobj	_	_
@@ -37024,9 +37024,9 @@
 # sentid: fr-ud-dev_01335
 # sentence-text: Plusieurs centaines de personnes sont attendues à la Grande Veillée de Prière organisée par Saint Eustache en lien avec la communauté de Taizé.
 1	Plusieurs	_	DET	_	_	2	det	_	_
-2	centaines	_	NUM	_	_	4	nummod	_	_
-3	de	_	ADP	_	_	2	expl	_	_
-4	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	6	nsubjpass	_	_
+2	centaines	_	NUM	_	_	6	nsubjpass	_	_
+3	de	_	ADP	_	_	4	case	_	_
+4	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
 5	sont	être	AUX	_	ind_pres_3p=y	6	auxpass	_	_
 6	attendues	attendre	VERB	_	part_pass_fp=y	0	root	_	_
 7	à	_	ADP	_	_	9	case	_	_
@@ -37351,9 +37351,9 @@
 19	réduite	réduire	VERB	_	part_pass_fs=y	101	parataxis	_	_
 20	de	_	ADP	_	_	24	case	_	_
 21	un	_	NUM	_	_	22	nummod	_	_
-22	milliard	_	NUM	_	_	24	nummod	_	_
-23	de	_	ADP	_	_	22	expl	_	_
-24	rand	_	PROPN	_	_	19	nmod	_	_
+22	milliard	_	NUM	_	_	19	nmod	_	_
+23	de	_	ADP	_	_	24	case	_	_
+24	rand	_	PROPN	_	_	22	nmod	_	_
 25	un	_	DET	_	_	26	det	_	_
 26	an	an	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
 27	après	_	ADP	_	_	29	case	_	_
@@ -42196,9 +42196,9 @@
 9	chiffré	chiffrer	VERB	_	part_pass_ms=y	0	root	_	_
 10	à	_	ADP	_	_	14	case	_	_
 11	21,4	_	NUM	_	_	12	nummod	_	_
-12	milliards	_	NUM	_	_	14	nummod	_	_
-13	d'	_	ADP	_	_	14	expl	_	_
-14	euros	euro	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
+12	milliards	_	NUM	_	_	9	nmod	_	_
+13	d'	_	ADP	_	_	14	case	_	_
+14	euros	euro	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
 15	par	_	ADP	_	_	17	case	_	_
 16	M.	Monsieur	NOUN	_	Gender=Masc|Number=Sing	17	compound	_	_
 17	Blanc	_	PROPN	_	_	9	nmod	_	_

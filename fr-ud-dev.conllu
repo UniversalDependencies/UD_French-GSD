@@ -6333,7 +6333,7 @@
 62	.	_	PUNCT	_	_	19	punct	_	_
 
 # sentid: fr-ud-dev_00229
-# sentence-text: Robert Thelen dessina donc un nouveau fuselage, de section elliptique, pesant [[32 kg]] de moins que celui du D.III.
+# sentence-text: Robert Thelen dessina donc un nouveau fuselage, de section elliptique, pesant 32 kg de moins que celui du D.III.
 1	Robert	_	PROPN	_	_	3	nsubj	_	_
 2	Thelen	_	PROPN	_	_	1	name	_	_
 3	dessina	dessiner	VERB	_	passe_simple_3s=y	0	root	_	_
@@ -6347,15 +6347,17 @@
 11	elliptique	elliptique	ADJ	_	fs=y	10	amod	_	_
 12	,	_	PUNCT	_	_	10	punct	_	_
 13	pesant	peser	VERB	_	participe_present=y	7	acl	_	_
-14	de	_	ADP	_	_	15	case	_	_
-15	moins	_	ADV	_	_	13	advmod	_	_
-16	que	_	ADP	_	_	17	case	_	_
-17	celui	celui	PRON	_	ms=y	13	nmod	_	_
-18-19	du	_	_	_	_	_	_	_	_
-18	de	_	ADP	_	_	20	case	_	_
-19	le	_	DET	_	_	20	det	_	_
-20	D.III	_	X	_	_	17	nmod	_	_
-21	.	_	PUNCT	_	_	3	punct	_	_
+14	32	_	NUM	_	_	15	nummod	_	_
+15	kg	kilogramme	NOUN	_	mp=y	13	dobj	_	_
+16	de	_	ADP	_	_	17	case	_	_
+17	moins	_	ADV	_	_	13	advmod	_	_
+18	que	_	ADP	_	_	19	case	_	_
+19	celui	celui	PRON	_	ms=y	13	nmod	_	_
+20-21	du	_	_	_	_	_	_	_	_
+20	de	_	ADP	_	_	22	case	_	_
+21	le	_	DET	_	_	22	det	_	_
+22	D.III	_	X	_	_	19	nmod	_	_
+23	.	_	PUNCT	_	_	3	punct	_	_
 
 # sentid: fr-ud-dev_00230
 # sentence-text: , c'est Rigaud qui a rédigé les ouvrages de ce dernier, soit en latin, soit en français.

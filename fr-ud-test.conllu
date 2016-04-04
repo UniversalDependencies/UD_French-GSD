@@ -1222,10 +1222,10 @@
 5	sous	_	ADP	_	_	7	case	_	_
 6	le	_	DET	_	_	7	det	_	_
 7	nom	nom	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-8	de	_	ADP	_	_	11	expl	_	_
+8	de	_	ADP	_	_	11	case	_	_
 9	"	_	PUNCT	_	_	11	punct	_	_
 10	La	_	DET	_	_	11	det	_	_
-11	Ligue	_	PROPN	_	_	7	appos	_	_
+11	Ligue	_	PROPN	_	_	7	nmod	_	_
 12-13	des	_	_	_	_	_	_	_	_
 12	de	_	ADP	_	_	14	case	_	_
 13	les	_	DET	_	_	14	det	_	_
@@ -3473,8 +3473,8 @@
 23	de	_	ADP	_	_	25	case	_	_
 24	la	_	DET	_	_	25	det	_	_
 25	ville	ville	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
-26	de	_	ADP	_	_	27	expl	_	_
-27	Bayonne	_	PROPN	_	_	25	appos	_	_
+26	de	_	ADP	_	_	27	case	_	_
+27	Bayonne	_	PROPN	_	_	25	nmod	_	_
 28	et	_	CONJ	_	_	25	cc	_	_
 29	de	_	ADP	_	_	31	case	_	_
 30	la	_	DET	_	_	31	det	_	_
@@ -5032,17 +5032,17 @@
 
 # sentid: fr-ud-test_00168
 # sentence-text: En tout, ce sont près d'une centaine de conteneurs qui ont été utilisés pour créer ces logements étudiants.
-1	En	_	ADP	_	_	11	advmod	_	_
+1	En	_	ADP	_	_	9	advmod	_	_
 2	tout	tout	PRON	_	ms=y	1	mwe	_	_
-3	,	_	PUNCT	_	_	11	punct	_	_
-4	ce	ce	PRON	_	Person=3|s=y	11	nsubj	_	_
-5	sont	être	VERB	_	ind_pres_3p=y	11	cop	_	_
+3	,	_	PUNCT	_	_	9	punct	_	_
+4	ce	ce	PRON	_	Person=3|s=y	9	nsubj	_	_
+5	sont	être	VERB	_	ind_pres_3p=y	9	cop	_	_
 6	près	_	ADV	_	_	8	advmod	_	_
 7	d'	_	ADP	_	_	6	mwe	_	_
 8	une	_	NUM	_	_	9	nummod	_	_
-9	centaine	centaine	NOUN	_	Gender=Fem|Number=Sing	11	nummod	_	_
-10	de	_	ADP	_	_	11	expl	_	_
-11	conteneurs	conteneur	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+9	centaine	centaine	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+10	de	_	ADP	_	_	11	case	_	_
+11	conteneurs	conteneur	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
 12	qui	qui	PRON	_	_	15	nsubj	_	_
 13	ont	avoir	AUX	_	ind_pres_3p=y	15	aux	_	_
 14	été	être	AUX	_	part_pass_ms=y	15	auxpass	_	_
@@ -5052,7 +5052,7 @@
 18	ces	_	DET	_	_	19	det	_	_
 19	logements	logement	NOUN	_	Gender=Masc|Number=Plur	17	dobj	_	_
 20	étudiants	étudiant	ADJ	_	mp=y	19	amod	_	_
-21	.	_	PUNCT	_	_	11	punct	_	_
+21	.	_	PUNCT	_	_	9	punct	_	_
 
 # sentid: fr-ud-test_00169
 # sentence-text: Le ton a d'ailleurs été donné hier par le général Michel Aoun au cours de sa conférence de presse hebdomadaire après la réunion du bloc parlementaire du Changement et de la Réforme, lorsqu'il a affirmé que nul n'a parlé de démission.

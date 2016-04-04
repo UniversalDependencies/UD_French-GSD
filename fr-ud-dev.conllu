@@ -4125,8 +4125,8 @@
 12	la	_	DET	_	_	13	det	_	_
 13	Communauté	communauté	NOUN	_	fs=y	8	nmod	_	_
 14	autonome	autonome	ADJ	_	fs=y	13	amod	_	_
-15	de	_	ADP	_	_	16	expl	_	_
-16	Castille-et-León	_	PROPN	_	_	13	appos	_	_
+15	de	_	ADP	_	_	16	case	_	_
+16	Castille-et-León	_	PROPN	_	_	13	nmod	_	_
 17	.	_	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-dev_00151
@@ -17059,12 +17059,12 @@
 8	dans	_	ADP	_	_	10	case	_	_
 9	le	_	DET	_	_	10	det	_	_
 10	département	département	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-11	d'	_	ADP	_	_	12	expl	_	_
-12	Eure-et-Loir	_	PROPN	_	_	10	appos	_	_
+11	d'	_	ADP	_	_	12	case	_	_
+12	Eure-et-Loir	_	PROPN	_	_	10	nmod	_	_
 13	et	_	CONJ	_	_	10	cc	_	_
 14	la	_	DET	_	_	15	det	_	_
 15	région	région	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
-16	Centre	_	PROPN	_	_	15	appos	_	_
+16	Centre	_	PROPN	_	_	15	compound	_	_
 17	.	_	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-dev_00614
@@ -17925,8 +17925,8 @@
 16	jouxte	jouxter	VERB	_	ind_pres_3s=y	4	acl:relcl	_	_
 17	les	_	DET	_	_	18	det	_	_
 18	communes	commune	NOUN	_	Gender=Fem|Number=Plur	16	dobj	_	_
-19	de	_	ADP	_	_	20	expl	_	_
-20	Planches	_	PROPN	_	_	18	appos	_	_
+19	de	_	ADP	_	_	20	case	_	_
+20	Planches	_	PROPN	_	_	18	nmod	_	_
 21	,	_	PUNCT	_	_	20	punct	_	_
 22	Sainte-Gauburge-Sainte-Colombe	_	PROPN	_	_	20	conj	_	_
 23-24	au	_	_	_	_	_	_	_	_
@@ -24438,14 +24438,14 @@
 8	gouvernement	gouvernement	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 9	espagnol	espagnol	ADJ	_	ms=y	8	amod	_	_
 10	oublie	oublier	VERB	_	ind_pres_3s=y	0	root	_	_
-11	qu'	_	SCONJ	_	_	18	mark	_	_
+11	qu'	_	SCONJ	_	_	15	mark	_	_
 12	une	_	DET	_	_	13	det	_	_
-13	démocratie	démocratie	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
+13	démocratie	démocratie	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
 14	se	se	PRON	_	Person=3	18	dobj	_	_
-15	doit	devoir	AUX	_	ind_pres_3s=y	18	aux	_	_
-16	d'	_	ADP	_	_	18	expl	_	_
+15	doit	devoir	AUX	_	ind_pres_3s=y	10	ccomp	_	_
+16	d'	_	ADP	_	_	18	mark	_	_
 17	être	être	VERB	_	infinitif=y	18	cop	_	_
-18	exemplaire	exemplaire	ADJ	_	fs=y	10	ccomp	_	_
+18	exemplaire	exemplaire	ADJ	_	fs=y	15	xcomp	_	_
 19	et	_	CONJ	_	_	18	cc	_	_
 20	à	_	ADP	_	_	22	case	_	_
 21	la	_	DET	_	_	22	det	_	_
@@ -30852,9 +30852,9 @@
 5	à	_	ADP	_	_	7	case	_	_
 6	les	_	DET	_	_	7	det	_	_
 7	éditions	édition	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
-8	de	_	ADP	_	_	10	expl	_	_
+8	de	_	ADP	_	_	10	case	_	_
 9	l'	_	DET	_	_	10	det	_	_
-10	Homme	_	PROPN	_	_	7	appos	_	_
+10	Homme	_	PROPN	_	_	7	nmod	_	_
 11	nouveau	nouveau	ADJ	_	ms=y	10	amod	_	_
 12	)	_	PUNCT	_	_	7	punct	_	_
 13	d'	_	ADP	_	_	16	case	_	_
@@ -34339,8 +34339,8 @@
 6	sur	_	ADP	_	_	8	case	_	_
 7	l'	_	DET	_	_	8	det	_	_
 8	île	île	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
-9	de	_	ADP	_	_	8	expl	_	_
-10	Madagascar	_	PROPN	_	_	8	appos	_	_
+9	de	_	ADP	_	_	8	case	_	_
+10	Madagascar	_	PROPN	_	_	8	nmod	_	_
 11	,	_	PUNCT	_	_	1	punct	_	_
 12	les	_	DET	_	_	13	det	_	_
 13	sifakas	sifakas	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	_
@@ -36724,8 +36724,8 @@
 4	à	_	ADP	_	_	6	case	_	_
 5	le	_	DET	_	_	6	det	_	_
 6	mois	mois	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
-7	d'	_	ADP	_	_	8	expl	_	_
-8	avril	avril	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	_
+7	d'	_	ADP	_	_	8	case	_	_
+8	avril	avril	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 9	,	_	PUNCT	_	_	21	punct	_	_
 10	lors	_	ADV	_	_	13	case	_	_
 11-12	du	_	_	_	_	_	_	_	_
@@ -37044,8 +37044,8 @@
 19	avec	_	ADP	_	_	21	case	_	_
 20	la	_	DET	_	_	21	det	_	_
 21	communauté	communauté	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
-22	de	_	ADP	_	_	23	expl	_	_
-23	Taizé	_	PROPN	_	_	21	appos	_	_
+22	de	_	ADP	_	_	23	case	_	_
+23	Taizé	_	PROPN	_	_	21	nmod	_	_
 24	.	_	PUNCT	_	_	6	punct	_	_
 
 # sentid: fr-ud-dev_01336
@@ -37769,8 +37769,8 @@
 2	à	_	ADP	_	_	4	case	_	_
 3	la	_	DET	_	_	4	det	_	_
 4	commune	commune	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-5	de	_	ADP	_	_	6	expl	_	_
-6	Capbreton	_	PROPN	_	_	4	appos	_	_
+5	de	_	ADP	_	_	6	case	_	_
+6	Capbreton	_	PROPN	_	_	4	nmod	_	_
 7	pour	_	ADP	_	_	9	case	_	_
 8	les	_	DET	_	_	9	det	_	_
 9	autorisations	autorisation	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_

@@ -3383,7 +3383,7 @@
 28	.	_	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-dev_00123
-# sentence-text: Cette pièce fut dédiée à Wharton, qu'il avait accompagné à Dublin en 1717, et qui lui promettait deux pensions de 100 livres et une somme de 600 livres en considération de de Cirencester.
+# sentence-text: Cette pièce fut dédiée à Wharton, qu'il avait accompagné à Dublin en 1717, et qui lui promettait deux pensions de 100 livres et une somme de 600 livres en considération de ses frais comme à l'élection parlementaire de Cirencester.
 1	Cette	_	DET	_	_	2	det	_	_
 2	pièce	pièce	NOUN	_	Gender=Fem|Number=Sing	4	nsubjpass	_	_
 3	fut	être	AUX	_	passe_simple_3s=y	4	auxpass	_	_
@@ -3417,10 +3417,17 @@
 31	livres	livre	NOUN	_	Gender=Fem|Number=Plur	28	nmod	_	_
 32	en	_	ADP	_	_	33	case	_	_
 33	considération	considération	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
-34	de	_	ADP	_	_	33	case	_	_
-35	de	_	ADP	_	_	36	case	_	_
-36	Cirencester	_	PROPN	_	_	33	nmod	_	_
-37	.	_	PUNCT	_	_	4	punct	_	_
+34	de	_	ADP	_	_	36	case	_	_
+35	ses	_	DET	_	_	36	nmod:poss	_	_
+36	frais	frais	NOUN	_	mp=y	33	nmod	_	_
+37	comme	_	ADP	_	_	40	case	_	_
+38	à	_	ADP	_	_	40	case	_	_
+39	l'	_	DET	_	_	40	det	_	_
+40	élection	élection	NOUN	_	fs=y	36	nmod	_	_
+41	parlementaire	parlementaire	ADJ	_	_	40	amod	_	_
+42	de	_	ADP	_	_	43	case	_	_
+43	Cirencester	_	PROPN	_	_	40	nmod	_	_
+44	.	_	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-dev_00124
 # sentence-text: La pointe nord de l'île, balisant la Grande Passe, plonge sur un récif corallien.
@@ -10912,19 +10919,23 @@
 10	.	_	PUNCT	_	_	7	punct	_	_
 
 # sentid: fr-ud-dev_00396
-# sentence-text: La commune dispose de de terres arables et de de pâturages.
+# sentence-text: La commune dispose de 2 865 ha de terres arables et de 3 872 ha de pâturages.
 1	La	_	DET	_	_	2	det	_	_
 2	commune	commune	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	dispose	disposer	VERB	_	ind_pres_3s=y	0	root	_	_
 4	de	_	ADP	_	_	6	case	_	_
-5	de	_	DET	_	_	6	det	_	_
-6	terres	terre	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
-7	arables	arable	ADJ	_	fp=y	6	amod	_	_
-8	et	_	CONJ	_	_	6	cc	_	_
-9	de	_	ADP	_	_	11	case	_	_
-10	de	_	DET	_	_	11	det	_	_
-11	pâturages	pâturage	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	_
-12	.	_	PUNCT	_	_	3	punct	_	_
+5	2 865	_	NUM	_	_	6	nummod	_	_
+6	ha	hectare	NOUN	_	mp=y	3	nmod	_	_
+7	de	_	DET	_	_	8	det	_	_
+8	terres	terre	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
+9	arables	arable	ADJ	_	fp=y	8	amod	_	_
+10	et	_	CONJ	_	_	6	cc	_	_
+11	de	_	ADP	_	_	13	case	_	_
+12	3 872	_	NUM	_	_	13	nummod	_	_
+13	ha	hectare	NOUN	_	mp=y	6	conj	_	_
+14	de	_	DET	_	_	15	det	_	_
+15	pâturages	pâturage	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+16	.	_	PUNCT	_	_	3	punct	_	_
 
 # sentid: fr-ud-dev_00397
 # sentence-text: Atelopus zeteki (parfois nommé "Grenouille dorée", par les anglophones notamment) est une espèce d'amphibien de la famille des Bufonidae.
@@ -16459,22 +16470,26 @@
 23	;	_	PUNCT	_	_	7	punct	_	_
 
 # sentid: fr-ud-dev_00591
-# sentence-text: En 1945 la production est de de pulvérulents et en 1960 de d'engrais.
+# sentence-text: En 1945 la production est de 25 000 tonnes de pulvérulents et en 1960 de 80 000 tonnes d'engrais.
 1	En	_	ADP	_	_	2	case	_	_
-2	1945	_	NUM	_	_	11	nmod	_	_
+2	1945	_	NUM	_	_	8	nmod	_	_
 3	la	_	DET	_	_	4	det	_	_
-4	production	production	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
-5	est	être	VERB	_	ind_pres_3s=y	11	cop	_	_
-6	de	_	ADP	_	_	11	case	_	_
-7	de	_	DET	_	_	11	det	_	_
-8	pulvérulents	pulvérulent	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
-9	et	_	CONJ	_	_	11	cc	_	_
-10	en	_	ADP	_	_	11	case	_	_
-11	1960	_	NUM	_	_	0	root	_	_
-12	de	_	ADP	_	_	11	case	_	_
-13	d'	_	DET	_	_	11	det	_	_
-14	engrais	engrais	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
-15	.	_	PUNCT	_	_	11	punct	_	_
+4	production	production	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+5	est	être	VERB	_	ind_pres_3s=y	8	cop	_	_
+6	de	_	ADP	_	_	8	case	_	_
+7	25 000	_	NUM	_	_	8	nummod	_	_
+8	tonnes	tonne	NOUN	_	fp=y	0	root	_	_
+9	de	_	DET	_	_	10	det	_	_
+10	pulvérulents	pulvérulent	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+11	et	_	CONJ	_	_	8	cc	_	_
+12	en	_	ADP	_	_	13	case	_	_
+13	1960	_	NUM	_	_	16	nmod	_	_
+14	de	_	ADP	_	_	16	case	_	_
+15	80 000	_	NUM	_	_	16	nummod	_	_
+16	tonnes	tonne	NOUN	_	fp=y	8	conj	_	_
+17	d'	_	DET	_	_	18	det	_	_
+18	engrais	engrais	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+19	.	_	PUNCT	_	_	8	punct	_	_
 
 # sentid: fr-ud-dev_00592
 # sentence-text: Il est sacré à Hanoï par Marcou, le 24 août 1900, puis retourne en Chine après la vague de terrorisme des Boxers.
@@ -17043,7 +17058,7 @@
 27	face	face	NOUN	_	Gender=Fem|Number=Sing	30	case	_	_
 28-29	aux	_	_	_	_	_	_	_	_
 28	à	_	ADP	_	_	27	mwe	_	_
-29	les	_	DET	_	_	27	det	_	_
+29	les	_	DET	_	_	30	det	_	_
 30	inondations	inondation	NOUN	_	Gender=Fem|Number=Plur	26	nmod	_	_
 31	.	_	PUNCT	_	_	5	punct	_	_
 
@@ -28742,8 +28757,8 @@
 19	(	_	PUNCT	_	_	20	punct	_	_
 20	1-1	_	NUM	_	_	8	nmod	_	_
 21-22	au	_	_	_	_	_	_	_	_
-21	à	_	ADP	_	_	20	case	_	_
-22	le	_	DET	_	_	20	det	_	_
+21	à	_	ADP	_	_	24	case	_	_
+22	le	_	DET	_	_	24	det	_	_
 23	,	_	PUNCT	_	_	20	punct	_	_
 24	Kennington	_	PROPN	_	_	20	nmod	_	_
 25	Oval	_	PROPN	_	_	24	name	_	_
@@ -29511,7 +29526,7 @@
 46	côtés	côté	NOUN	_	Gender=Masc|Number=Plur	44	mwe	_	_
 47-48	des	_	_	_	_	_	_	_	_
 47	de	_	ADP	_	_	44	mwe	_	_
-48	les	_	DET	_	_	44	det	_	_
+48	les	_	DET	_	_	49	det	_	_
 49	rebelles	rebelle	NOUN	_	Gender=Masc|Number=Plur	36	nmod	_	_
 50	libyens	libyen	ADJ	_	mp=y	49	amod	_	_
 51	.	_	PUNCT	_	_	33	punct	_	_
@@ -31015,7 +31030,7 @@
 24	relative	relatif	ADJ	_	fs=y	27	case	_	_
 25-26	au	_	_	_	_	_	_	_	_
 25	à	_	ADP	_	_	24	mwe	_	_
-26	le	_	DET	_	_	24	det	_	_
+26	le	_	DET	_	_	27	det	_	_
 27	Défenseur	_	PROPN	_	_	22	nmod	_	_
 28-29	des	_	_	_	_	_	_	_	_
 28	de	_	ADP	_	_	30	case	_	_
@@ -31857,7 +31872,7 @@
 2	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	1	mwe	_	_
 3-4	des	_	_	_	_	_	_	_	_
 3	de	_	ADP	_	_	1	mwe	_	_
-4	les	_	DET	_	_	1	det	_	_
+4	les	_	DET	_	_	5	det	_	_
 5	pays	pays	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 6	souhaitent	souhaiter	VERB	_	ind_pres_3p=y	0	root	_	_
 7	maintenir	maintenir	VERB	_	infinitif=y	6	xcomp	_	_
@@ -34357,7 +34372,7 @@
 24	face	face	NOUN	_	Gender=Fem|Number=Sing	27	case	_	_
 25-26	au	_	_	_	_	_	_	_	_
 25	à	_	ADP	_	_	24	mwe	_	_
-26	le	_	DET	_	_	24	det	_	_
+26	le	_	DET	_	_	27	det	_	_
 27	danger	danger	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 28	.	_	PUNCT	_	_	15	punct	_	_
 
@@ -36730,7 +36745,7 @@
 10	lors	_	ADV	_	_	13	case	_	_
 11-12	du	_	_	_	_	_	_	_	_
 11	de	_	ADP	_	_	10	mwe	_	_
-12	le	_	DET	_	_	10	det	_	_
+12	le	_	DET	_	_	13	det	_	_
 13	vote	vote	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 14-15	du	_	_	_	_	_	_	_	_
 14	de	_	ADP	_	_	16	case	_	_
@@ -37731,7 +37746,7 @@
 18	de	_	ADP	_	_	20	case	_	_
 19	les	_	DET	_	_	20	det	_	_
 20	technologies	technologie	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
-21	les	_	DET	_	_	20	det	_	_
+21	les	_	DET	_	_	22	det	_	_
 22	plus	_	ADV	_	_	23	advmod	_	_
 23	avancées	avancé	ADJ	_	fp=y	20	amod	_	_
 24	,	_	PUNCT	_	_	28	punct	_	_
@@ -38323,7 +38338,7 @@
 18	sein	sein	NOUN	_	Gender=Masc|Number=Sing	16	mwe	_	_
 19-20	des	_	_	_	_	_	_	_	_
 19	de	_	ADP	_	_	16	mwe	_	_
-20	les	_	DET	_	_	16	det	_	_
+20	les	_	DET	_	_	21	det	_	_
 21	institutions	institution	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	_
 22	spécialisées	spécialisé	ADJ	_	fp=y	21	amod	_	_
 23	et	_	CONJ	_	_	21	cc	_	_
@@ -38837,7 +38852,7 @@
 33	Gris	gris	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	_
 34-35	du	_	_	_	_	_	_	_	_
 34	de	_	ADP	_	_	33	compound	_	_
-35	le	_	DET	_	_	33	det	_	_
+35	le	_	DET	_	_	36	det	_	_
 36	Clos	_	PROPN	_	_	33	name	_	_
 37	.	_	PUNCT	_	_	16	punct	_	_
 
@@ -39806,7 +39821,7 @@
 14	iPhoneAddict.fr	_	SYM	_	_	12	nmod	_	_
 15-16	au	_	_	_	_	_	_	_	_
 15	à	_	ADP	_	_	10	mark	_	_
-16	le	_	DET	_	_	10	det	_	_
+16	le	_	DET	_	_	15	mwe	_	_
 17	jour	jour	NOUN	_	Gender=Masc|Number=Sing	15	mwe	_	_
 18	le	_	DET	_	_	15	mwe	_	_
 19	jour	jour	NOUN	_	Gender=Masc|Number=Sing	15	mwe	_	_

@@ -636,7 +636,7 @@
 11	,	_	PUNCT	_	_	4	punct	_	_
 12	dont	dont	PRON	_	_	17	nmod	_	_
 13	est	être	AUX	_	ind_pres_3s=y	14	aux	_	_
-14	issu	issir	VERB	_	part_pass_ms=y	4	acl:relcl	_	_
+14	issu	issu	ADJ	_	ms=y	4	acl:relcl	_	_
 15	l'	_	DET	_	_	17	det	_	_
 16	actuel	actuel	ADJ	_	ms=y	17	amod	_	_
 17	sultan	sultan	NOUN	_	Gender=Masc|Number=Sing	14	dobj	_	_
@@ -7718,7 +7718,7 @@
 9	de	_	ADP	_	_	11	case	_	_
 10	cet	_	DET	_	_	11	det	_	_
 11	univers	univers	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-12	issu	issir	VERB	_	part_pass_ms=y	11	acl	_	_
+12	issu	issu	ADJ	_	ms=y	11	acl	_	_
 13-14	du	_	_	_	_	_	_	_	_
 13	de	_	ADP	_	_	15	case	_	_
 14	le	_	DET	_	_	15	det	_	_
@@ -13221,8 +13221,8 @@
 # sentence-text: Pas de sèche cheveux ni de prise rasoir dans la salle de bains.
 1	Pas	_	ADV	_	_	3	neg	_	_
 2	de	_	DET	_	_	3	det	_	_
-3	sèche	FIXME	VERB	_	_	0	root	_	_
-4	cheveux	cheveu	NOUN	_	Gender=Masc|Number=Plur	3	compound	_	_
+3	sèche	sécher	VERB	_	_	0	root	_	_
+4	cheveux	cheveu	NOUN	_	Gender=Masc|Number=Plur	3	goeswith	_	_
 5	ni	_	CONJ	_	_	3	cc	_	_
 6	de	_	DET	_	_	7	det	_	_
 7	prise	prise	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
@@ -17991,7 +17991,7 @@
 44	dont	dont	PRON	_	_	47	iobj	_	_
 45	il	il	PRON	_	Person=3|ms=y	47	nsubj	_	_
 46	est	être	VERB	_	ind_pres_3s=y	47	cop	_	_
-47	issu	issir	VERB	_	part_pass_ms=y	43	acl:relcl	_	_
+47	issu	issu	ADJ	_	ms=y	43	acl:relcl	_	_
 48	de	_	ADP	_	_	50	mark	_	_
 49	se	se	PRON	_	Person=3	50	dobj	_	_
 50	vendre	vendre	VERB	_	infinitif=y	40	acl	_	_
@@ -20231,7 +20231,7 @@
 5	le	_	DET	_	_	6	det	_	_
 6	prince	prince	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 7	était	être	AUX	_	imparfait_3s=y	8	aux	_	_
-8	issu	issir	VERB	_	part_pass_ms=y	0	root	_	_
+8	issu	issu	ADJ	_	ms=y	0	root	_	_
 9	d'	_	ADP	_	_	11	case	_	_
 10	une	_	DET	_	_	11	det	_	_
 11	famille	famille	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
@@ -38802,7 +38802,7 @@
 
 # sentid: fr-ud-dev_01397
 # sentence-text: Issu d'une famille aristocratique bretonne, Jean François Sylvestre Denis de Trobriand est le fils de Jean François Sylvestre Denis, comte de Trobriand (1729-1810) et Jeanne Charlotte Le Gris du Clos.
-1	Issu	issir	VERB	_	part_pass_ms=y	16	acl	_	_
+1	Issu	issu	ADJ	_	ms=y	16	acl	_	_
 2	d'	_	ADP	_	_	4	case	_	_
 3	une	_	DET	_	_	4	det	_	_
 4	famille	famille	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_

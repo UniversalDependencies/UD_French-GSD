@@ -8662,7 +8662,7 @@
 9	de	_	ADP	_	_	11	case	_	_
 10	les	_	DET	_	_	11	det	_	_
 11	guérisons	guérison	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
-12	obtenues	obtenir	VERB	_	part_pass_fp=y	11	amod	_	_
+12	obtenues	obtenir	VERB	_	part_pass_fp=y	11	acl	_	_
 13	,	_	PUNCT	_	_	5	punct	_	_
 14	mais	_	CONJ	_	_	5	cc	_	_
 15	ont	avoir	VERB	_	ind_pres_3p=y	5	conj	_	_
@@ -9499,7 +9499,7 @@
 11	,	_	PUNCT	_	_	8	punct	_	_
 12	les	_	DET	_	_	13	det	_	_
 13	technologies	technologie	NOUN	_	Gender=Fem|Number=Plur	8	conj	_	_
-14	utilisées	utiliser	VERB	_	part_pass_fp=y	13	amod	_	_
+14	utilisées	utiliser	VERB	_	part_pass_fp=y	13	acl	_	_
 15	,	_	PUNCT	_	_	6	punct	_	_
 16	et	_	CONJ	_	_	8	cc	_	_
 17	leurs	_	DET	_	_	18	nmod:poss	_	_
@@ -11153,7 +11153,7 @@
 5	,	_	PUNCT	_	_	11	punct	_	_
 6	le	_	DET	_	_	7	det	_	_
 7	pré-ARNm	_	X	_	_	11	nsubj	_	_
-8	épissé	épisser	VERB	_	part_pass_ms=y	7	amod	_	_
+8	épissé	épisser	VERB	_	part_pass_ms=y	7	acl	_	_
 9	devient	devenir	VERB	_	ind_pres_3s=y	11	cop	_	_
 10	l'	_	DET	_	_	11	det	_	_
 11	ARN	_	X	_	_	0	root	_	_
@@ -16673,7 +16673,7 @@
 3	de	_	ADP	_	_	5	case	_	_
 4	son	_	DET	_	_	5	nmod:poss	_	_
 5	vocabulaire	vocabulaire	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-6	hérité	hériter	VERB	_	part_pass_ms=y	5	amod	_	_
+6	hérité	hériter	VERB	_	part_pass_ms=y	5	acl	_	_
 7	ou	_	CONJ	_	_	6	cc	_	_
 8	développé	développer	VERB	_	part_pass_ms=y	6	conj	_	_
 9	en	_	ADP	_	_	10	case	_	_
@@ -27143,7 +27143,7 @@
 18	et	_	CONJ	_	_	17	cc	_	_
 19	L'	_	DET	_	_	20	det	_	_
 20	amour	amour	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	_
-21	égaré	égarer	VERB	_	part_pass_ms=y	20	amod	_	_
+21	égaré	égarer	VERB	_	part_pass_ms=y	20	acl	_	_
 22	.	_	PUNCT	_	_	11	punct	_	_
 
 # sentid: fr-ud-dev_00982
@@ -33554,7 +33554,7 @@
 # sentence-text: Le renouveau désiré se produira-t-il ?
 1	Le	_	DET	_	_	2	det	_	_
 2	renouveau	renouveau	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
-3	désiré	désiré	VERB	_	part_pass_ms=y	2	amod	_	_
+3	désiré	désiré	VERB	_	part_pass_ms=y	2	acl	_	_
 4	se	se	PRON	_	Person=3	5	dobj	_	_
 5	produira	produire	VERB	_	ind_futur_3s=y	0	root	_	_
 6	-t-il	il	PRON	_	Person=3|ms=y	5	nsubj	_	_
@@ -33879,7 +33879,7 @@
 24	soit	_	SCONJ	_	_	22	cc	_	_
 25	à	_	ADP	_	_	26	case	_	_
 26	plat	plat	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
-27	recouvert	recouvrir	VERB	_	part_pass_ms=y	26	amod	_	_
+27	recouvert	recouvrir	VERB	_	part_pass_ms=y	26	acl	_	_
 28	,	_	PUNCT	_	_	16	punct	_	_
 29	ce	ce	PRON	_	Person=3|s=y	18	appos	_	_
 30	qui	qui	PRON	_	_	35	nsubj	_	_
@@ -39336,7 +39336,7 @@
 
 # sentid: fr-ud-dev_01412
 # sentence-text: Surnommé King Fish ou Mr. Angel, Tim Salmon est considéré comme un des meilleurs joueurs de l'histoire des Angels.
-1	Surnommé	surnommer	VERB	_	part_pass_ms=y	8	amod	_	_
+1	Surnommé	surnommer	VERB	_	part_pass_ms=y	8	acl	_	_
 2	King	_	PROPN	_	_	1	dobj	_	_
 3	Fish	_	PROPN	_	_	2	name	_	_
 4	ou	_	CONJ	_	_	2	cc	_	_
@@ -42553,10 +42553,10 @@
 13	2	_	NUM	_	_	12	nummod	_	_
 14	en	_	ADP	_	_	15	mark	_	_
 15	redistribuant	redistribuer	VERB	_	participe_present=y	6	advcl	_	_
-16	le	_	DET	_	_	18	det	_	_
+16	le	_	DET	_	_	17	det	_	_
 17	code	code	NOUN	_	Gender=Masc|Number=Sing	15	dobj	_	_
 18	source	source	NOUN	_	Gender=Fem|Number=Sing	17	compound	_	_
-19	modifié	modifier	VERB	_	part_pass_ms=y	17	amod	_	_
+19	modifié	modifier	VERB	_	part_pass_ms=y	17	acl	_	_
 20	,	_	PUNCT	_	_	29	punct	_	_
 21	aucune	_	DET	_	_	22	neg	_	_
 22	modification	modification	NOUN	_	Gender=Fem|Number=Sing	29	nsubj	_	_

@@ -1331,7 +1331,7 @@
 6	cela	cela	PRON	_	s=y	8	nsubj	_	_
 7	vous	lui	PRON	_	Person=2|p=y	8	iobj	_	_
 8	suffit	suffire	VERB	_	ind_pres_3s=y	1	advcl	_	_
-9	pour	_	ADP	_	_	8	mark	_	_
+9	pour	_	ADP	_	_	10	case	_	_
 10	aujourd'hui	_	ADV	_	_	8	nmod	_	_
 11	.	_	PUNCT	_	_	1	punct	_	_
 
@@ -1493,7 +1493,7 @@
 6	n'	_	PART	_	_	8	neg	_	_
 7	était	être	VERB	_	imparfait_3s=y	8	cop	_	_
 8	pas	_	ADV	_	_	0	root	_	_
-9	comme	_	ADP	_	_	8	case	_	_
+9	comme	_	ADP	_	_	10	case	_	_
 10	aujourd'hui	_	ADV	_	_	8	nmod	_	_
 11	.	_	PUNCT	_	_	8	punct	_	_
 
@@ -8025,9 +8025,9 @@
 4	euros	euro	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
 5	2	_	NUM	_	_	6	nummod	_	_
 6	menus	menu	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-7	à	_	ADP	_	_	6	case	_	_
-8	pas	_	ADV	_	_	9	advmod	_	_
-9	cher	cher	ADJ	_	ms=y	7	amod	_	_
+7	à	_	ADP	_	_	9	case	_	_
+8	pas	_	ADV	_	_	9	neg	_	_
+9	cher	cher	ADJ	_	ms=y	6	amod	_	_
 10	deux	_	NUM	_	_	11	nummod	_	_
 11	kirs	kir	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	_
 12	une	_	NUM	_	_	13	nummod	_	_

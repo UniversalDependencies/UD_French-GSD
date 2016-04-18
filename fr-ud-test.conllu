@@ -2007,10 +2007,10 @@
 
 # sentid: fr-ud-test_00071
 # sentence-text: Mgr Velasio de Paolis n'est pas là pour aggraver une situation déjà très lourde.
-1	Mgr	_	PROPN	_	_	4	name	_	_
-2	Velasio	_	PROPN	_	_	4	name	_	_
-3	de	_	ADP	_	_	4	compound	_	_
-4	Paolis	_	PROPN	_	_	8	nsubj	_	_
+1	Mgr	_	PROPN	_	_	8	nsubj	_	_
+2	Velasio	_	PROPN	_	_	1	name	_	_
+3	de	_	ADP	_	_	4	case	_	_
+4	Paolis	_	PROPN	_	_	1	name	_	_
 5	n'	_	PART	_	_	8	neg	_	_
 6	est	être	VERB	_	ind_pres_3s=y	8	cop	_	_
 7	pas	_	ADV	_	_	8	neg	_	_
@@ -7336,8 +7336,8 @@
 
 # sentid: fr-ud-test_00263
 # sentence-text: Madame Tellier est une excellente comptable que je recommande vivement !
-1	Madame	Monsieur	NOUN	_	Gender=Fem|Number=Sing	2	compound	_	_
-2	Tellier	_	PROPN	_	_	6	name	_	_
+1	Madame	Monsieur	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+2	Tellier	_	PROPN	_	_	1	name	_	_
 3	est	être	VERB	_	ind_pres_3s=y	6	cop	_	_
 4	une	_	DET	_	_	6	det	_	_
 5	excellente	excellent	ADJ	_	fs=y	6	amod	_	_

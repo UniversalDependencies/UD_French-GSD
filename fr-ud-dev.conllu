@@ -642,9 +642,9 @@
 15	l'	_	DET	_	_	17	det	_	_
 16	actuel	actuel	ADJ	_	ms=y	17	amod	_	_
 17	sultan	sultan	NOUN	_	Gender=Masc|Number=Sing	14	dobj	_	_
-18	Qabus	_	PROPN	_	_	20	name	_	_
-19	ibn	_	X	_	_	20	compound	_	_
-20	Said	_	PROPN	_	_	17	appos	_	_
+18	Qabus	_	PROPN	_	_	17	appos	_	_
+19	ibn	_	PROPN	_	_	18	name	_	_
+20	Said	_	PROPN	_	_	18	name	_	_
 21	.	_	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-dev_00025
@@ -1363,12 +1363,12 @@
 19	80	_	NUM	_	_	18	nummod	_	_
 20	,	_	PUNCT	_	_	11	punct	_	_
 21	et	_	CONJ	_	_	11	cc	_	_
-22	le	_	DET	_	_	26	det	_	_
-23	Benicia	_	PROPN	_	_	26	name	_	_
-24	-	_	PUNCT	_	_	26	punct	_	_
-25	Martinez	_	PROPN	_	_	26	name	_	_
-26	Bridge	_	PROPN	_	_	11	conj	_	_
-27	emprunté	emprunter	VERB	_	part_pass_ms=y	26	acl	_	_
+22	le	_	DET	_	_	23	det	_	_
+23	Benicia	_	PROPN	_	_	11	conj	_	_
+24	-	_	PUNCT	_	_	23	punct	_	_
+25	Martinez	_	PROPN	_	_	23	name	_	_
+26	Bridge	_	PROPN	_	_	23	name	_	_
+27	emprunté	emprunter	VERB	_	part_pass_ms=y	23	acl	_	_
 28	par	_	ADP	_	_	30	case	_	_
 29	l'	_	DET	_	_	30	det	_	_
 30	Interstate	_	PROPN	_	_	27	nmod	_	_
@@ -1620,12 +1620,12 @@
 # sentid: fr-ud-dev_00060
 # sentence-text: L'éditeur-en-chef est Corey S. Powell.
 1	L'	_	DET	_	_	2	det	_	_
-2	éditeur-en-chef	éditeur-en-chef	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
-3	est	être	VERB	_	ind_pres_3s=y	6	cop	_	_
-4	Corey	_	PROPN	_	_	6	name	_	_
-5	S.	_	PROPN	_	_	6	compound	_	_
-6	Powell	_	PROPN	_	_	0	root	_	_
-7	.	_	PUNCT	_	_	6	punct	_	_
+2	éditeur-en-chef	éditeur-en-chef	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	est	être	VERB	_	ind_pres_3s=y	4	cop	_	_
+4	Corey	_	PROPN	_	_	0	root	_	_
+5	S.	_	PROPN	_	_	4	name	_	_
+6	Powell	_	PROPN	_	_	4	name	_	_
+7	.	_	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-dev_00061
 # sentence-text: Nous sommes allés samedi soir (vers 23h) au HD de Saint Michel.
@@ -2760,13 +2760,13 @@
 
 # sentid: fr-ud-dev_00101
 # sentence-text: Juan José Lobato (de son nom complet Juan José Lobato del Valle), né le 30 décembre 1988, à Trebujena en Espagne) est un coureur cycliste espagnol, membre de l'équipe Andalucía-Caja Granada.
-1	Juan	_	PROPN	_	_	2	name	_	_
-2	José	_	PROPN	_	_	29	nsubj	_	_
-3	Lobato	_	PROPN	_	_	2	name	_	_
+1	Juan	_	PROPN	_	_	29	nsubj	_	_
+2	José	_	PROPN	_	_	1	name	_	_
+3	Lobato	_	PROPN	_	_	1	name	_	_
 4	(	_	PUNCT	_	_	7	punct	_	_
 5	de	_	ADP	_	_	7	case	_	_
 6	son	_	DET	_	_	7	nmod:poss	_	_
-7	nom	nom	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+7	nom	nom	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 8	complet	complet	ADJ	_	ms=y	7	amod	_	_
 9	Juan	_	PROPN	_	_	7	appos	_	_
 10	José	_	PROPN	_	_	9	name	_	_
@@ -2774,8 +2774,8 @@
 12	del	_	ADP	_	_	13	case	_	_
 13	Valle	_	PROPN	_	_	9	name	_	_
 14	)	_	PUNCT	_	_	7	punct	_	_
-15	,	_	PUNCT	_	_	2	punct	_	_
-16	né	naître	VERB	_	part_pass_ms=y	2	acl	_	_
+15	,	_	PUNCT	_	_	1	punct	_	_
+16	né	naître	VERB	_	part_pass_ms=y	1	acl	_	_
 17	le	_	DET	_	_	19	det	_	_
 18	30	_	NUM	_	_	19	nummod	_	_
 19	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
@@ -2796,10 +2796,10 @@
 34	de	_	ADP	_	_	36	case	_	_
 35	l'	_	DET	_	_	36	det	_	_
 36	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
-37	Andalucía	_	PROPN	_	_	40	name	_	_
-38	-	_	PUNCT	_	_	40	punct	_	_
-39	Caja	_	PROPN	_	_	40	name	_	_
-40	Granada	_	PROPN	_	_	36	appos	_	_
+37	Andalucía	_	PROPN	_	_	36	appos	_	_
+38	-	_	PUNCT	_	_	37	punct	_	_
+39	Caja	_	PROPN	_	_	37	name	_	_
+40	Granada	_	PROPN	_	_	37	name	_	_
 41	.	_	PUNCT	_	_	29	punct	_	_
 
 # sentid: fr-ud-dev_00102
@@ -18002,7 +18002,7 @@
 33	Canada	_	PROPN	_	_	30	appos	_	_
 34	et	_	CONJ	_	_	33	cc	_	_
 35	la	_	DET	_	_	36	det	_	_
-36	Nouvelle-Zélande	_	PROPN	_	_	33	name	_	_
+36	Nouvelle-Zélande	_	PROPN	_	_	33	conj	_	_
 37	)	_	PUNCT	_	_	30	punct	_	_
 38	,	_	PUNCT	_	_	30	punct	_	_
 39	et	_	CONJ	_	_	2	cc	_	_
@@ -22236,11 +22236,11 @@
 82	incluant	inclure	VERB	_	participe_present=y	72	acl	_	_
 83	à	_	ADP	_	_	82	advmod	_	_
 84	nouveau	nouveau	ADJ	_	ms=y	83	mwe	_	_
-85	Movin	_	PROPN	_	_	87	name	_	_
-86	'	_	PUNCT	_	_	87	punct	_	_
-87	on	_	PROPN	_	_	82	dobj	_	_
+85	Movin	_	PROPN	_	_	82	dobj	_	_
+86	'	_	PUNCT	_	_	85	punct	_	_
+87	on	_	PROPN	_	_	85	name	_	_
 88	qui	qui	PRON	_	_	89	nsubj	_	_
-89	figure	figurer	VERB	_	ind_pres_3s=y	87	acl:relcl	_	_
+89	figure	figurer	VERB	_	ind_pres_3s=y	85	acl:relcl	_	_
 90	en	_	ADP	_	_	92	case	_	_
 91	deux	_	NUM	_	_	92	nummod	_	_
 92	versions	version	NOUN	_	Gender=Fem|Number=Plur	89	nmod	_	_
@@ -24397,12 +24397,12 @@
 13	lourdement	_	ADV	_	_	14	advmod	_	_
 14	armé	armé	ADJ	_	ms=y	6	amod	_	_
 15	construit	construire	VERB	_	part_pass_ms=y	6	acl	_	_
-16	par	_	ADP	_	_	21	case	_	_
-17	la	_	DET	_	_	21	det	_	_
-18	Curtiss	_	PROPN	_	_	21	name	_	_
-19	-	_	PUNCT	_	_	21	punct	_	_
-20	Wright	_	PROPN	_	_	21	name	_	_
-21	Corporation	_	PROPN	_	_	15	nmod	_	_
+16	par	_	ADP	_	_	18	case	_	_
+17	la	_	DET	_	_	18	det	_	_
+18	Curtiss	_	PROPN	_	_	15	nmod	_	_
+19	-	_	PUNCT	_	_	18	punct	_	_
+20	Wright	_	PROPN	_	_	18	name	_	_
+21	Corporation	_	PROPN	_	_	18	name	_	_
 22	pour	_	ADP	_	_	24	case	_	_
 23	le	_	DET	_	_	24	det	_	_
 24	compte	compte	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
@@ -27447,13 +27447,13 @@
 
 # sentid: fr-ud-dev_00991
 # sentence-text: William (Willy) Ostijn (1913-1993) est un compositeur belge néoclassique du milieu du XXe siècle.
-1	William	_	PROPN	_	_	5	name	_	_
+1	William	_	PROPN	_	_	11	nsubj	_	_
 2	(	_	PUNCT	_	_	3	punct	_	_
 3	Willy	_	PROPN	_	_	1	appos	_	_
 4	)	_	PUNCT	_	_	3	punct	_	_
-5	Ostijn	_	PROPN	_	_	11	nsubj	_	_
+5	Ostijn	_	PROPN	_	_	1	name	_	_
 6	(	_	PUNCT	_	_	7	punct	_	_
-7	1913-1993	_	NUM	_	_	5	nmod	_	_
+7	1913-1993	_	NUM	_	_	1	nmod	_	_
 8	)	_	PUNCT	_	_	7	punct	_	_
 9	est	être	VERB	_	ind_pres_3s=y	11	cop	_	_
 10	un	_	DET	_	_	11	det	_	_
@@ -28160,10 +28160,10 @@
 24	de	_	ADP	_	_	26	case	_	_
 25	le	_	DET	_	_	26	det	_	_
 26	grison	grison	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
-27	Richard	_	PROPN	_	_	29	name	_	_
+27	Richard	_	PROPN	_	_	26	appos	_	_
 28	La	_	DET	_	_	29	det	_	_
-29	Nicca	_	PROPN	_	_	26	appos	_	_
-30	de	_	INTJ	_	_	31	mark	_	_
+29	Nicca	_	PROPN	_	_	27	name	_	_
+30	de	_	ADP	_	_	31	mark	_	_
 31	détourner	détourner	VERB	_	infinitif=y	23	acl	_	_
 32	le	_	DET	_	_	33	det	_	_
 33	cours	cours	NOUN	_	Gender=Masc|Number=Sing	31	dobj	_	_
@@ -34622,10 +34622,10 @@
 
 # sentid: fr-ud-dev_01246
 # sentence-text: Patricia et Pierre Laederich vous feront découvrir les vins de Saint-Pourçain, la charcuterie et les fromages locaux ;
-1	Patricia	_	PROPN	_	_	4	name	_	_
+1	Patricia	_	PROPN	_	_	6	nsubj	_	_
 2	et	_	CONJ	_	_	1	cc	_	_
-3	Pierre	_	PROPN	_	_	1	name	_	_
-4	Laederich	_	PROPN	_	_	6	nsubj	_	_
+3	Pierre	_	PROPN	_	_	1	conj	_	_
+4	Laederich	_	PROPN	_	_	1	name	_	_
 5	vous	vous	PRON	_	Person=2|p=y	7	nsubj	_	_
 6	feront	faire	VERB	_	ind_futur_3p=y	0	root	_	_
 7	découvrir	découvrir	VERB	_	infinitif=y	6	ccomp	_	_
@@ -38163,13 +38163,13 @@
 25	Pélée	_	PROPN	_	_	23	nmod	_	_
 26	et	_	CONJ	_	_	16	cc	_	_
 27	père	père	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	_
-28	d'	_	ADP	_	_	31	case	_	_
-29	Ajax	_	PROPN	_	_	31	name	_	_
+28	d'	_	ADP	_	_	29	case	_	_
+29	Ajax	_	PROPN	_	_	27	nmod	_	_
 30	le	_	DET	_	_	31	det	_	_
-31	grand	_	PROPN	_	_	27	nmod	_	_
-32	et	_	CONJ	_	_	31	cc	_	_
+31	grand	grand	ADJ	_	Gender=Masc|Number=Sing	29	nmod	_	_
+32	et	_	CONJ	_	_	29	cc	_	_
 33	de	_	ADP	_	_	34	case	_	_
-34	Teucros	_	PROPN	_	_	31	conj	_	_
+34	Teucros	_	PROPN	_	_	29	conj	_	_
 35	,	_	PUNCT	_	_	27	punct	_	_
 36	est	être	VERB	_	ind_pres_3s=y	37	cop	_	_
 37	roi	roi	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -38834,12 +38834,12 @@
 5	aristocratique	aristocratique	ADJ	_	fs=y	4	amod	_	_
 6	bretonne	breton	ADJ	_	fs=y	4	amod	_	_
 7	,	_	PUNCT	_	_	16	punct	_	_
-8	Jean	_	PROPN	_	_	13	name	_	_
-9	François	_	PROPN	_	_	13	name	_	_
-10	Sylvestre	_	PROPN	_	_	13	name	_	_
-11	Denis	_	PROPN	_	_	13	name	_	_
+8	Jean	_	PROPN	_	_	16	nmod	_	_
+9	François	_	PROPN	_	_	8	name	_	_
+10	Sylvestre	_	PROPN	_	_	8	name	_	_
+11	Denis	_	PROPN	_	_	8	name	_	_
 12	de	_	ADP	_	_	13	compound	_	_
-13	Trobriand	_	PROPN	_	_	16	nmod	_	_
+13	Trobriand	_	PROPN	_	_	8	name	_	_
 14	est	être	VERB	_	ind_pres_3s=y	16	cop	_	_
 15	le	_	DET	_	_	16	det	_	_
 16	fils	fils	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_

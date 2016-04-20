@@ -10486,10 +10486,10 @@
 22	1	_	NUM	_	_	23	nummod	_	_
 23	rue	rue	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
 24	Scribe	_	PROPN	_	_	23	appos	_	_
-25	à	_	ADP	_	_	26	mark	_	_
-26	partir	partir	VERB	_	infinitif=y	23	acl	_	_
-27	de	_	ADP	_	_	28	case	_	_
-28	1863	_	NUM	_	_	26	nmod	_	_
+25	à	_	ADP	_	_	28	case	_	_
+26	partir	partir	VERB	_	infinitif=y	25	mwe	_	_
+27	de	_	ADP	_	_	25	mwe	_	_
+28	1863	_	NUM	_	_	5	nmod	_	_
 29	avant	_	ADP	_	_	32	mark	_	_
 30	de	_	ADP	_	_	29	mwe	_	_
 31-32	s'intaller	_	_	_	_	_	_	_	_
@@ -12394,7 +12394,7 @@
 9-10	du	_	_	_	_	_	_	_	_
 9	de	_	ADP	_	_	11	case	_	_
 10	le	_	DET	_	_	11	det	_	_
-11	Ciel	_	PROPN	_	_	8	nmod	_	_
+11	Ciel	ciel	NOUN	_	ms=y	8	nmod	_	_
 12	débutent	débuter	VERB	_	ind_pres_3p=y	0	root	_	_
 13	traditionnellement	_	ADV	_	_	12	advmod	_	_
 14	par	_	ADP	_	_	16	case	_	_
@@ -12414,11 +12414,11 @@
 27	jour	jour	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
 28	,	_	PUNCT	_	_	12	punct	_	_
 29	c'est-à-dire	_	ADV	_	_	31	cc	_	_
-30	à	_	ADP	_	_	31	mark	_	_
-31	partir	partir	VERB	_	infinitif=y	12	acl	_	_
-32	de	_	ADP	_	_	34	case	_	_
+30	à	_	ADP	_	_	34	case	_	_
+31	partir	partir	VERB	_	infinitif=y	30	mwe	_	_
+32	de	_	ADP	_	_	30	mwe	_	_
 33	onze	_	NUM	_	_	34	nummod	_	_
-34	heures	heure	NOUN	_	Gender=Fem|Number=Plur	31	nmod	_	_
+34	heures	heure	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	_
 35-36	du	_	_	_	_	_	_	_	_
 35	de	_	ADP	_	_	37	case	_	_
 36	le	_	DET	_	_	37	det	_	_
@@ -16847,10 +16847,10 @@
 14	Alsacienne	_	PROPN	_	_	6	conj	_	_
 15	Lorraine	_	PROPN	_	_	14	name	_	_
 16	Paris	_	PROPN	_	_	14	name	_	_
-17	à	_	ADP	_	_	18	mark	_	_
-18	partir	partir	VERB	_	infinitif=y	6	acl	_	_
-19	de	_	ADP	_	_	20	case	_	_
-20	1926	_	NUM	_	_	18	nmod	_	_
+17	à	_	ADP	_	_	20	case	_	_
+18	partir	partir	VERB	_	infinitif=y	17	mwe	_	_
+19	de	_	ADP	_	_	17	mwe	_	_
+20	1926	_	NUM	_	_	14	nmod	_	_
 21	.	_	PUNCT	_	_	6	punct	_	_
 
 # sentid: fr-ud-dev_00605
@@ -24888,7 +24888,7 @@
 14-15	des	_	_	_	_	_	_	_	_
 14	de	_	ADP	_	_	16	case	_	_
 15	les	_	DET	_	_	16	det	_	_
-16	Finances	_	PROPN	_	_	13	nmod	_	_
+16	Finances	finance	NOUN	_	fp=y	13	nmod	_	_
 17	allemand	allemand	ADJ	_	ms=y	13	amod	_	_
 18	Hjalmar	_	PROPN	_	_	13	appos	_	_
 19	Schacht	_	PROPN	_	_	18	name	_	_
@@ -24906,10 +24906,10 @@
 30	un	_	DET	_	_	31	det	_	_
 31	montage	montage	NOUN	_	Gender=Masc|Number=Sing	27	dobj	_	_
 32	financier	financier	ADJ	_	ms=y	31	amod	_	_
-33	à	_	ADP	_	_	34	mark	_	_
-34	partir	partir	VERB	_	infinitif=y	31	acl	_	_
-35	de	_	ADP	_	_	36	case	_	_
-36	banques	banque	NOUN	_	Gender=Fem|Number=Plur	34	nmod	_	_
+33	à	_	ADP	_	_	36	case	_	_
+34	partir	partir	VERB	_	infinitif=y	33	mwe	_	_
+35	de	_	ADP	_	_	33	mwe	_	_
+36	banques	banque	NOUN	_	Gender=Fem|Number=Plur	31	nmod	_	_
 37	allemandes	allemand	ADJ	_	fp=y	36	amod	_	_
 38	.	_	PUNCT	_	_	7	punct	_	_
 
@@ -26230,10 +26230,10 @@
 28	usine	usine	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
 29	SEVEL	_	PROPN	_	_	28	appos	_	_
 30	nord	nord	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
-31	à	_	ADP	_	_	32	mark	_	_
-32	partir	partir	VERB	_	infinitif=y	18	acl	_	_
-33	de	_	ADP	_	_	34	case	_	_
-34	1995	_	NUM	_	_	32	nmod	_	_
+31	à	_	ADP	_	_	34	case	_	_
+32	partir	partir	VERB	_	infinitif=y	31	mwe	_	_
+33	de	_	ADP	_	_	31	mwe	_	_
+34	1995	_	NUM	_	_	18	nmod	_	_
 35	.	_	PUNCT	_	_	18	punct	_	_
 
 # sentid: fr-ud-dev_00947
@@ -27983,12 +27983,12 @@
 2	action	action	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	se	se	PRON	_	Person=3	4	dobj	_	_
 4	déroule	dérouler	VERB	_	ind_pres_3s=y	0	root	_	_
-5	à	_	ADP	_	_	6	mark	_	_
-6	partir	partir	VERB	_	infinitif=y	4	acl	_	_
+5	à	_	ADP	_	_	9	case	_	_
+6	partir	partir	VERB	_	infinitif=y	5	mwe	_	_
 7-8	du	_	_	_	_	_	_	_	_
-7	de	_	ADP	_	_	9	case	_	_
+7	de	_	ADP	_	_	5	mwe	_	_
 8	le	_	DET	_	_	9	det	_	_
-9	port	port	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9	port	port	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 10	de	_	ADP	_	_	11	case	_	_
 11	Dutch	_	PROPN	_	_	9	nmod	_	_
 12	Harbor	_	PROPN	_	_	11	name	_	_
@@ -35026,10 +35026,10 @@
 8	de	_	ADP	_	_	10	case	_	_
 9	le	_	DET	_	_	10	det	_	_
 10	Mans	_	PROPN	_	_	7	nmod	_	_
-11	à	_	ADP	_	_	12	mark	_	_
-12	partir	partir	VERB	_	infinitif=y	4	acl	_	_
-13	de	_	ADP	_	_	14	case	_	_
-14	1970	_	NUM	_	_	12	nmod	_	_
+11	à	_	ADP	_	_	14	case	_	_
+12	partir	partir	VERB	_	infinitif=y	11	mwe	_	_
+13	de	_	ADP	_	_	11	mwe	_	_
+14	1970	_	NUM	_	_	4	nmod	_	_
 15	.	_	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-dev_01263
@@ -36018,10 +36018,10 @@
 5	rédacteur	rédacteur	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 6	en	_	ADP	_	_	7	case	_	_
 7	chef	chef	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
-8	à	_	ADP	_	_	9	mark	_	_
-9	partir	partir	VERB	_	infinitif=y	5	nmod	_	_
-10	de	_	ADP	_	_	11	case	_	_
-11	1983	_	NUM	_	_	9	nmod	_	_
+8	à	_	ADP	_	_	11	case	_	_
+9	partir	partir	VERB	_	infinitif=y	8	mwe	_	_
+10	de	_	ADP	_	_	8	mwe	_	_
+11	1983	_	NUM	_	_	5	nmod	_	_
 12	,	_	PUNCT	_	_	5	punct	_	_
 13	tout	_	ADV	_	_	14	advmod	_	_
 14	en	_	ADP	_	_	15	mark	_	_
@@ -36887,15 +36887,15 @@
 9	dessins	dessin	NOUN	_	Gender=Masc|Number=Plur	6	dobj	_	_
 10	dans	_	ADP	_	_	12	case	_	_
 11	l'	_	DET	_	_	12	det	_	_
-12	Assiette	_	PROPN	_	_	6	nmod	_	_
+12	Assiette	assiette	NOUN	_	fs=y	6	nmod	_	_
 13-14	au	_	_	_	_	_	_	_	_
 13	à	_	ADP	_	_	15	case	_	_
 14	le	_	DET	_	_	15	det	_	_
-15	beurre	_	PROPN	_	_	12	nmod	_	_
-16	à	_	ADP	_	_	17	mark	_	_
-17	partir	partir	VERB	_	infinitif=y	6	acl	_	_
-18	de	_	ADP	_	_	19	case	_	_
-19	1901	_	NUM	_	_	17	nmod	_	_
+15	beurre	beurre	NOUN	_	ms=y	12	nmod	_	_
+16	à	_	ADP	_	_	19	case	_	_
+17	partir	partir	VERB	_	infinitif=y	16	mwe	_	_
+18	de	_	ADP	_	_	16	mwe	_	_
+19	1901	_	NUM	_	_	6	nmod	_	_
 20	,	_	PUNCT	_	_	6	punct	_	_
 21	puis	_	ADV	_	_	22	advmod	_	_
 22	collabore	collaborer	VERB	_	ind_pres_3s=y	6	conj	_	_
@@ -41365,12 +41365,12 @@
 4	un	_	DET	_	_	5	det	_	_
 5	territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 6	immense	immense	ADJ	_	ms=y	5	amod	_	_
-7	à	_	ADP	_	_	8	mark	_	_
-8	partir	partir	VERB	_	infinitif=y	2	acl	_	_
+7	à	_	ADP	_	_	11	case	_	_
+8	partir	partir	VERB	_	infinitif=y	7	mwe	_	_
 9-10	des	_	_	_	_	_	_	_	_
-9	de	_	ADP	_	_	11	case	_	_
+9	de	_	ADP	_	_	7	mwe	_	_
 10	les	_	DET	_	_	11	det	_	_
-11	côtes	côte	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+11	côtes	côte	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
 12	explique	expliquer	VERB	_	ind_pres_3s=y	0	root	_	_
 13	également	_	ADV	_	_	12	advmod	_	_
 14	cette	_	DET	_	_	15	det	_	_

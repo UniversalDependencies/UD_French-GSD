@@ -711,7 +711,7 @@
 
 # sentid: fr-ud-test_00024
 # sentence-text: Ne pas rester seul ou en couple dans une zone isolée.
-1	Ne	ne	ADV	_	_	3	neg	_	_
+1	Ne	ne	PART	_	_	3	neg	_	_
 2	pas	pas	ADV	_	_	3	neg	_	_
 3	rester	rester	VERB	_	infinitif=y	0	root	_	_
 4	seul	seul	ADJ	_	ms=y	3	xcomp	_	_
@@ -792,17 +792,18 @@
 
 # sentid: fr-ud-test_00028
 # sentence-text: N'hésitez-pas à la faire circuler largement autour de vous !
-1	N'	n'	ADV	_	_	2	neg	_	_
-2	hésitez-pas	hésitez-pas	ADV	_	_	0	root	_	_
-3	à	à	ADP	_	_	5	mark	_	_
-4	la	le	PRON	_	Person=3|fs=y	5	dobj	_	_
-5	faire	faire	VERB	_	infinitif=y	2	acl	_	_
-6	circuler	circuler	VERB	_	infinitif=y	5	xcomp	_	_
-7	largement	largement	ADV	_	_	6	advmod	_	_
-8	autour	autour	ADP	_	_	10	case	_	_
-9	de	de	ADP	_	_	8	mwe	_	_
-10	vous	vous	PRON	_	Person=2|p=y	6	nmod	_	_
-11	!	!	PUNCT	_	_	2	punct	_	_
+1	N'	ne	PART	_	_	2	neg	_	_
+2	hésitez	hésiter	VERB	_	imperatif_2p=y	0	root	_	_
+3	-pas	pas	ADV	_	_	2	neg	_	_
+4	à	à	ADP	_	_	6	mark	_	_
+5	la	le	PRON	_	Person=3|fs=y	6	dobj	_	_
+6	faire	faire	VERB	_	infinitif=y	2	acl	_	_
+7	circuler	circuler	VERB	_	infinitif=y	6	xcomp	_	_
+8	largement	largement	ADV	_	_	7	advmod	_	_
+9	autour	autour	ADP	_	_	11	case	_	_
+10	de	de	ADP	_	_	9	mwe	_	_
+11	vous	vous	PRON	_	Person=2|p=y	7	nmod	_	_
+12	!	!	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-test_00029
 # sentence-text: Il y a un an naissait Gdem Izik.
@@ -1668,7 +1669,7 @@
 
 # sentid: fr-ud-test_00063
 # sentence-text: N'étant pas préparés pour recevoir plus de dix quinze mille personnes, les autorités, qui font tout ce qu'elles peuvent pour nourrir ce flux ininterrompu, craignent que la situation ne dégénère si l'aide internationale ne pointe pas plus vite le bout de son nez.
-1	N'	n'	ADV	_	_	4	neg	_	_
+1	N'	ne	PART	_	_	4	neg	_	_
 2	étant	être	AUX	_	participe_present=y	4	aux	_	_
 3	pas	pas	ADV	_	_	4	neg	_	_
 4	préparés	préparer	VERB	_	part_pass_mp=y	15	acl	_	_
@@ -2816,7 +2817,7 @@
 
 # sentid: fr-ud-test_00095
 # sentence-text: N'hésitez pas à m'envoyer actualités et libres tribunes à l'adresse suivante : criticusleblog@gmail.com.
-1	N'	n'	ADV	_	_	2	neg	_	_
+1	N'	ne	PART	_	_	2	neg	_	_
 2	hésitez	hésiter	VERB	_	imperatif_2p=y	0	root	_	_
 3	pas	pas	ADV	_	_	2	neg	_	_
 4	à	à	ADP	_	_	6	mark	_	_
@@ -6829,7 +6830,7 @@
 18	le	le	DET	_	Gender=Masc|Number=Sing	19	det	_	_
 19	maximum	maximum	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 20	....	....	PUNCT	_	_	4	punct	_	_
-21	N'	n'	ADV	_	_	4	parataxis	_	_
+21	N'	ne	PART	_	_	4	parataxis	_	_
 22	importe	importer	VERB	_	ind_pres_3s=y	21	mwe	_	_
 23	quoi	quoi	PRON	_	_	21	mwe	_	_
 24	...	...	PUNCT	_	_	4	punct	_	_

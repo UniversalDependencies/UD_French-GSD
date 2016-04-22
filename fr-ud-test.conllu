@@ -16,7 +16,7 @@
 14	que	que	PRON	_	_	18	dobj	_	_
 15	nous	nous	PRON	_	Person=1|p=y	18	nsubj	_	_
 16	avons	avoir	AUX	_	ind_pres_1p=y	18	aux	_	_
-17	déjà	_	ADV	_	_	18	advmod	_	_
+17	déjà	déjà	ADV	_	_	18	advmod	_	_
 18	vus	voir	VERB	_	part_pass_mp=y	8	acl:relcl	_	_
 19	,	,	PUNCT	_	_	2	punct	_	_
 20	nous	nous	PRON	_	Person=1|p=y	22	nsubj	_	_
@@ -34,7 +34,7 @@
 # sentence-text: On pourra toujours parler à propos d'Averroès de "décentrement du Sujet".
 1	On	on	PRON	_	Person=3|ms=y	4	nsubj	_	_
 2	pourra	pouvoir	AUX	_	ind_futur_3s=y	4	aux	_	_
-3	toujours	_	ADV	_	_	4	advmod	_	_
+3	toujours	toujours	ADV	_	_	4	advmod	_	_
 4	parler	parler	VERB	_	infinitif=y	0	root	_	_
 5	à	à	ADP	_	_	8	case	_	_
 6	propos	propos	NOUN	_	Gender=Masc|Number=Sing	5	mwe	_	_
@@ -56,7 +56,7 @@
 2	Il	il	PRON	_	Person=3|ms=y	6	nsubjpass	_	_
 3	a	avoir	AUX	_	ind_pres_3s=y	6	aux	_	_
 4	été	être	AUX	_	part_pass_ms=y	6	auxpass	_	_
-5	largement	_	ADV	_	_	6	advmod	_	_
+5	largement	largement	ADV	_	_	6	advmod	_	_
 6	démontré	démontrer	VERB	_	part_pass_ms=y	43	ccomp	_	_
 7	que	_	SCONJ	_	_	22	mark	_	_
 8	la	le	DET	_	Gender=Fem|Number=Sing	9	det	_	_
@@ -66,7 +66,7 @@
 11	de	de	ADP	_	_	13	case	_	_
 12	le	le	DET	_	Gender=Masc|Number=Sing	13	det	_	_
 13	territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-14	non	_	ADV	_	_	15	neg	_	_
+14	non	non	ADV	_	_	15	neg	_	_
 15	autonome	autonome	ADJ	_	ms=y	13	amod	_	_
 16-17	du	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	18	case	_	_
@@ -165,9 +165,9 @@
 # sentid: fr-ud-test_00005
 # sentence-text: Et pourtant, lors de sa première visite en Afrique subsaharienne, l'été 2007, il montre les dents dans un discours humiliant pour les Africains, prononcé à l'Université Cheikh Anta Diop de Dakar.
 1	Et	_	CONJ	_	_	18	advmod	_	_
-2	pourtant	_	ADV	_	_	1	mwe	_	_
+2	pourtant	pourtant	ADV	_	_	1	mwe	_	_
 3	,	,	PUNCT	_	_	18	punct	_	_
-4	lors	_	ADV	_	_	8	case	_	_
+4	lors	lors	ADV	_	_	8	case	_	_
 5	de	de	ADP	_	_	4	mwe	_	_
 6	sa	son	DET	_	Gender=Fem|Number=Sing	8	nmod:poss	_	_
 7	première	premier	ADJ	_	fs=y	8	amod	_	_
@@ -223,11 +223,11 @@
 1	Ils	il	PRON	_	Person=3|mp=y	3	nsubj	_	_
 2	ne	_	PART	_	_	3	neg	_	_
 3	citent	citer	VERB	_	ind_pres_3p=y	0	root	_	_
-4	pas	_	ADV	_	_	3	neg	_	_
+4	pas	pas	ADV	_	_	3	neg	_	_
 5	son	son	DET	_	Gender=Masc|Number=Sing	6	nmod:poss	_	_
 6	nom	nom	NOUN	_	Gender=Masc|Number=Sing	3	dobj	_	_
 7	,	,	PUNCT	_	_	3	punct	_	_
-8	parce	_	ADV	_	_	15	mark	_	_
+8	parce	parce	ADV	_	_	15	mark	_	_
 9	que	_	SCONJ	_	_	8	mwe	_	_
 10	depuis	depuis	ADP	_	_	12	case	_	_
 11	les	le	DET	_	Gender=Fem|Number=Plur	12	det	_	_
@@ -235,7 +235,7 @@
 13	on	on	PRON	_	Person=3|ms=y	15	nsubj	_	_
 14	n'	_	PART	_	_	15	neg	_	_
 15	attaque	attaquer	VERB	_	ind_pres_3s=y	3	advcl	_	_
-16	pas	_	ADV	_	_	15	neg	_	_
+16	pas	pas	ADV	_	_	15	neg	_	_
 17	un	un	DET	_	Gender=Masc|Number=Sing	18	det	_	_
 18	membre	membre	NOUN	_	Gender=Masc|Number=Sing	15	dobj	_	_
 19	de	de	ADP	_	_	21	case	_	_
@@ -263,7 +263,7 @@
 4	a	avoir	VERB	_	ind_pres_3s=y	0	root	_	_
 5	qui	qui	PRON	_	_	6	nsubj	_	_
 6	croient	croire	VERB	_	ind_pres_3p=y	3	acl:relcl	_	_
-7	toujours	_	ADV	_	_	6	advmod	_	_
+7	toujours	toujours	ADV	_	_	6	advmod	_	_
 8	qu'	_	SCONJ	_	_	11	mark	_	_
 9	ils	il	PRON	_	Person=3|mp=y	11	nsubj	_	_
 10	peuvent	pouvoir	AUX	_	ind_pres_3p=y	11	aux	_	_
@@ -292,7 +292,7 @@
 33	toute	tout	DET	_	Gender=Fem|Number=Sing	34	det	_	_
 34	sécurité	sécurité	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
 35	,	,	PUNCT	_	_	6	punct	_	_
-36	parce	_	ADV	_	_	47	mark	_	_
+36	parce	parce	ADV	_	_	47	mark	_	_
 37	que	_	SCONJ	_	_	36	mwe	_	_
 38	leur	son	DET	_	Gender=Masc|Number=Sing	39	nmod:poss	_	_
 39	coeur	coeur	NOUN	_	Gender=Masc|Number=Sing	47	nsubj	_	_
@@ -332,12 +332,12 @@
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	je	il	PRON	_	Person=1|s=y	5	nsubj	_	_
 5	crois	croire	VERB	_	ind_pres_1s=y	0	root	_	_
-6	vraiment	_	ADV	_	_	5	advmod	_	_
+6	vraiment	vraiment	ADV	_	_	5	advmod	_	_
 7	que	_	SCONJ	_	_	10	mark	_	_
 8	l'	le	DET	_	Gender=Masc|Number=Sing	9	det	_	_
 9	essentiel	essentiel	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 10	est	être	VERB	_	ind_pres_3s=y	5	ccomp	_	_
-11	ailleurs	_	ADV	_	_	10	advmod	_	_
+11	ailleurs	ailleurs	ADV	_	_	10	advmod	_	_
 12	,	,	PUNCT	_	_	10	punct	_	_
 13	dans	dans	ADP	_	_	15	case	_	_
 14	cette	ce	DET	_	Gender=Fem|Number=Sing	15	det	_	_
@@ -389,11 +389,11 @@
 
 # sentid: fr-ud-test_00012
 # sentence-text: Maintenant, avec un peu de bonne volonté vous observerez que l'on peut être traditionaliste ET intégriste, mais que les intégristes n'ont pas le monopole du traditionalisme, et réciproquement.
-1	Maintenant	_	ADV	_	_	10	advmod	_	_
+1	Maintenant	maintenant	ADV	_	_	10	advmod	_	_
 2	,	,	PUNCT	_	_	10	punct	_	_
 3	avec	avec	ADP	_	_	8	case	_	_
 4	un	un	DET	_	Gender=Masc|Number=Sing	8	det	_	_
-5	peu	_	ADV	_	_	4	mwe	_	_
+5	peu	peu	ADV	_	_	4	mwe	_	_
 6	de	de	ADP	_	_	4	mwe	_	_
 7	bonne	bon	ADJ	_	fs=y	8	amod	_	_
 8	volonté	volonté	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
@@ -414,7 +414,7 @@
 23	intégristes	intégriste	NOUN	_	Gender=Masc|Number=Plur	25	nsubj	_	_
 24	n'	_	PART	_	_	25	neg	_	_
 25	ont	avoir	VERB	_	ind_pres_3p=y	16	conj	_	_
-26	pas	_	ADV	_	_	25	neg	_	_
+26	pas	pas	ADV	_	_	25	neg	_	_
 27	le	le	DET	_	Gender=Masc|Number=Sing	28	det	_	_
 28	monopole	monopole	NOUN	_	Gender=Masc|Number=Sing	25	dobj	_	_
 29-30	du	_	_	_	_	_	_	_	_
@@ -423,20 +423,20 @@
 31	traditionalisme	traditionalisme	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
 32	,	,	PUNCT	_	_	25	punct	_	_
 33	et	_	CONJ	_	_	25	cc	_	_
-34	réciproquement	_	ADV	_	_	25	advmod	_	_
+34	réciproquement	réciproquement	ADV	_	_	25	advmod	_	_
 35	.	.	PUNCT	_	_	10	punct	_	_
 
 # sentid: fr-ud-test_00013
 # sentence-text: Royale donc, cette voie de communication est aussi vouée à être préservée, développée et modernisée.
 1	Royale	royal	ADJ	_	fs=y	10	xcomp	_	_
-2	donc	_	ADV	_	_	10	advmod	_	_
+2	donc	donc	ADV	_	_	10	advmod	_	_
 3	,	,	PUNCT	_	_	10	punct	_	_
 4	cette	ce	DET	_	Gender=Fem|Number=Sing	5	det	_	_
 5	voie	voie	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	communication	communication	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 8	est	être	AUX	_	ind_pres_3s=y	10	aux	_	_
-9	aussi	_	ADV	_	_	10	advmod	_	_
+9	aussi	aussi	ADV	_	_	10	advmod	_	_
 10	vouée	vouer	VERB	_	part_pass_fs=y	0	root	_	_
 11	à	à	ADP	_	_	13	mark	_	_
 12	être	être	AUX	_	infinitif=y	13	aux	_	_
@@ -498,8 +498,8 @@
 10	,	,	PUNCT	_	_	17	punct	_	_
 11	elle	elle	PRON	_	Person=3|fs=y	17	nsubj	_	_
 12	est	être	VERB	_	ind_pres_3s=y	17	cop	_	_
-13	pourtant	_	ADV	_	_	17	advmod	_	_
-14	déjà	_	ADV	_	_	17	advmod	_	_
+13	pourtant	pourtant	ADV	_	_	17	advmod	_	_
+14	déjà	déjà	ADV	_	_	17	advmod	_	_
 15	à	à	ADP	_	_	17	case	_	_
 16	la	le	DET	_	Gender=Fem|Number=Sing	17	det	_	_
 17	retraite	retraite	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -509,12 +509,12 @@
 # sentence-text: Et si officiellement le Maroc n'a pas de relations diplomatiques « ouvertes » avec Israël, cela n'a jamais empêché des ministres de se rendre au royaume chérifien.
 1	Et	_	CONJ	_	_	22	cc	_	_
 2	si	_	SCONJ	_	_	7	mark	_	_
-3	officiellement	_	ADV	_	_	7	advmod	_	_
+3	officiellement	officiellement	ADV	_	_	7	advmod	_	_
 4	le	le	DET	_	Gender=Masc|Number=Sing	5	det	_	_
 5	Maroc	_	PROPN	_	_	7	nsubj	_	_
 6	n'	_	PART	_	_	7	neg	_	_
 7	a	avoir	VERB	_	ind_pres_3s=y	22	advcl	_	_
-8	pas	_	ADV	_	_	7	neg	_	_
+8	pas	pas	ADV	_	_	7	neg	_	_
 9	de	un	DET	_	Gender=Fem|Number=Plur	10	det	_	_
 10	relations	relation	NOUN	_	Gender=Fem|Number=Plur	7	dobj	_	_
 11	diplomatiques	diplomatique	ADJ	_	fp=y	10	amod	_	_
@@ -527,7 +527,7 @@
 18	cela	cela	PRON	_	s=y	22	nsubj	_	_
 19	n'	_	PART	_	_	22	neg	_	_
 20	a	avoir	AUX	_	ind_pres_3s=y	22	aux	_	_
-21	jamais	_	ADV	_	_	22	neg	_	_
+21	jamais	jamais	ADV	_	_	22	neg	_	_
 22	empêché	empêcher	VERB	_	part_pass_ms=y	0	root	_	_
 23	des	un	DET	_	Gender=Masc|Number=Plur	24	det	_	_
 24	ministres	ministre	NOUN	_	Gender=Masc|Number=Plur	22	dobj	_	_
@@ -545,8 +545,8 @@
 # sentence-text: Trois ans plus tard, il tient un discours sur la crise.
 1	Trois	_	NUM	_	_	2	nummod	_	_
 2	ans	an	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
-3	plus	_	ADV	_	_	4	advmod	_	_
-4	tard	_	ADV	_	_	2	advmod	_	_
+3	plus	plus	ADV	_	_	4	advmod	_	_
+4	tard	tard	ADV	_	_	2	advmod	_	_
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	il	il	PRON	_	Person=3|ms=y	7	nsubj	_	_
 7	tient	tenir	VERB	_	ind_pres_3s=y	0	root	_	_
@@ -589,7 +589,7 @@
 21	poisson	poisson	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
 22	,	,	PUNCT	_	_	13	punct	_	_
 23	"	"	PUNCT	_	_	13	punct	_	_
-24	ainsi	_	ADV	_	_	13	cc	_	_
+24	ainsi	ainsi	ADV	_	_	13	cc	_	_
 25	que	_	SCONJ	_	_	24	mwe	_	_
 26	l'	le	DET	_	Gender=Masc|Number=Sing	27	det	_	_
 27	impact	impact	NOUN	_	Gender=Masc|Number=Sing	13	conj	_	_
@@ -608,7 +608,7 @@
 39	sur	sur	ADP	_	_	41	case	_	_
 40	la	le	DET	_	Gender=Fem|Number=Sing	41	det	_	_
 41	base	base	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
-42	notamment	_	ADV	_	_	41	advmod	_	_
+42	notamment	notamment	ADV	_	_	41	advmod	_	_
 43-44	des	_	_	_	_	_	_	_	_
 43	de	de	ADP	_	_	45	case	_	_
 44	les	le	DET	_	Gender=Fem|Number=Plur	45	det	_	_
@@ -711,8 +711,8 @@
 
 # sentid: fr-ud-test_00024
 # sentence-text: Ne pas rester seul ou en couple dans une zone isolée.
-1	Ne	_	ADV	_	_	3	neg	_	_
-2	pas	_	ADV	_	_	3	neg	_	_
+1	Ne	ne	ADV	_	_	3	neg	_	_
+2	pas	pas	ADV	_	_	3	neg	_	_
 3	rester	rester	VERB	_	infinitif=y	0	root	_	_
 4	seul	seul	ADJ	_	ms=y	3	xcomp	_	_
 5	ou	_	CONJ	_	_	4	cc	_	_
@@ -726,7 +726,7 @@
 
 # sentid: fr-ud-test_00025
 # sentence-text: Autant dire dans un désert médiatique pour la mort d'un poète.
-1	Autant	_	ADV	_	_	2	advmod	_	_
+1	Autant	autant	ADV	_	_	2	advmod	_	_
 2	dire	dire	VERB	_	infinitif=y	0	root	_	_
 3	dans	dans	ADP	_	_	5	case	_	_
 4	un	un	DET	_	Gender=Masc|Number=Sing	5	det	_	_
@@ -767,7 +767,7 @@
 11	Wade	_	PROPN	_	_	9	nmod	_	_
 12	ne	_	PART	_	_	13	neg	_	_
 13	rentre	rentrer	VERB	_	ind_pres_3s=y	5	ccomp	_	_
-14	pas	_	ADV	_	_	13	neg	_	_
+14	pas	pas	ADV	_	_	13	neg	_	_
 15	sous	sous	ADP	_	_	18	case	_	_
 16	le	le	DET	_	Gender=Masc|Number=Sing	18	det	_	_
 17	nouveau	nouveau	ADJ	_	ms=y	18	amod	_	_
@@ -776,11 +776,11 @@
 20	et	_	CONJ	_	_	13	cc	_	_
 21	,	,	PUNCT	_	_	13	punct	_	_
 22	pour	pour	ADP	_	_	13	advmod	_	_
-23	autant	_	ADV	_	_	22	mwe	_	_
+23	autant	autant	ADV	_	_	22	mwe	_	_
 24	,	,	PUNCT	_	_	13	punct	_	_
 25	ne	_	PART	_	_	26	neg	_	_
 26	compte	compter	VERB	_	ind_pres_3s=y	13	conj	_	_
-27	pas	_	ADV	_	_	26	neg	_	_
+27	pas	pas	ADV	_	_	26	neg	_	_
 28	dans	dans	ADP	_	_	30	case	_	_
 29	l'	le	DET	_	Gender=Fem|Number=Sing	30	det	_	_
 30	application	application	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
@@ -792,13 +792,13 @@
 
 # sentid: fr-ud-test_00028
 # sentence-text: N'hésitez-pas à la faire circuler largement autour de vous !
-1	N'	_	ADV	_	_	2	neg	_	_
-2	hésitez-pas	_	ADV	_	_	0	root	_	_
+1	N'	n'	ADV	_	_	2	neg	_	_
+2	hésitez-pas	hésitez-pas	ADV	_	_	0	root	_	_
 3	à	à	ADP	_	_	5	mark	_	_
 4	la	le	PRON	_	Person=3|fs=y	5	dobj	_	_
 5	faire	faire	VERB	_	infinitif=y	2	acl	_	_
 6	circuler	circuler	VERB	_	infinitif=y	5	xcomp	_	_
-7	largement	_	ADV	_	_	6	advmod	_	_
+7	largement	largement	ADV	_	_	6	advmod	_	_
 8	autour	autour	ADP	_	_	10	case	_	_
 9	de	de	ADP	_	_	8	mwe	_	_
 10	vous	vous	PRON	_	Person=2|p=y	6	nmod	_	_
@@ -868,8 +868,8 @@
 27	cette	ce	DET	_	Gender=Fem|Number=Sing	28	det	_	_
 28	région	région	NOUN	_	Gender=Fem|Number=Sing	25	dobj	_	_
 29	et	_	CONJ	_	_	28	cc	_	_
-30	bien	_	ADV	_	_	31	advmod	_	_
-31	au-delà	_	ADV	_	_	28	conj	_	_
+30	bien	bien	ADV	_	_	31	advmod	_	_
+31	au-delà	au-delà	ADV	_	_	28	conj	_	_
 32	.	.	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-test_00033
@@ -881,7 +881,7 @@
 5	amélioré	améliorer	VERB	_	part_pass_ms=y	0	root	_	_
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	mais	_	CONJ	_	_	5	cc	_	_
-8	pas	_	ADV	_	_	11	neg	_	_
+8	pas	pas	ADV	_	_	11	neg	_	_
 9	dans	dans	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Gender=Masc|Number=Sing	11	det	_	_
 11	sens	sens	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
@@ -893,7 +893,7 @@
 
 # sentid: fr-ud-test_00034
 # sentence-text: Même si la DGSE (Direction générale de la sécurité extérieure), est en quête de « bons intermédiaires » pour « négocier ».
-1	Même	_	ADV	_	_	16	mark	_	_
+1	Même	même	ADV	_	_	16	mark	_	_
 2	si	_	SCONJ	_	_	1	mwe	_	_
 3	la	le	DET	_	Gender=Fem|Number=Sing	4	det	_	_
 4	DGSE	_	PROPN	_	_	16	nsubj	_	_
@@ -969,7 +969,7 @@
 
 # sentid: fr-ud-test_00038
 # sentence-text: Combien de fois ne célébrons-nous que nous-mêmes, et ne prenons-nous même pas conscience de sa présence ?
-1	Combien	_	ADV	_	_	5	advmod	_	_
+1	Combien	combien	ADV	_	_	5	advmod	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	fois	fois	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 4	ne	_	PART	_	_	5	neg	_	_
@@ -982,8 +982,8 @@
 11	ne	_	PART	_	_	12	neg	_	_
 12	prenons	prendre	VERB	_	ind_pres_1p=y	5	conj	_	_
 13	-nous	nous	PRON	_	Person=1|p=y	12	nsubj	_	_
-14	même	_	ADV	_	_	15	advmod	_	_
-15	pas	_	ADV	_	_	12	neg	_	_
+14	même	même	ADV	_	_	15	advmod	_	_
+15	pas	pas	ADV	_	_	12	neg	_	_
 16	conscience	conscience	NOUN	_	Gender=Fem|Number=Sing	12	dobj	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	sa	son	DET	_	Gender=Fem|Number=Sing	19	nmod:poss	_	_
@@ -1003,7 +1003,7 @@
 
 # sentid: fr-ud-test_00040
 # sentence-text: Plus, l'AQMI tente de nouer des rapports avec les mouvements subversifs dans le delta du Nigéria, autant qu'avec des sectes d'inspiration religieuse au nord du pays.
-1	Plus	_	ADV	_	_	5	advmod	_	_
+1	Plus	plus	ADV	_	_	5	advmod	_	_
 2	,	,	PUNCT	_	_	5	punct	_	_
 3	l'	le	DET	_	Number=Sing	4	det	_	_
 4	AQMI	_	PROPN	_	_	5	nsubj	_	_
@@ -1024,7 +1024,7 @@
 18	le	le	DET	_	Gender=Masc|Number=Sing	19	det	_	_
 19	Nigéria	_	PROPN	_	_	16	nmod	_	_
 20	,	,	PUNCT	_	_	12	punct	_	_
-21	autant	_	ADV	_	_	12	cc	_	_
+21	autant	autant	ADV	_	_	12	cc	_	_
 22	qu'	_	SCONJ	_	_	21	mwe	_	_
 23	avec	avec	ADP	_	_	25	case	_	_
 24	des	un	DET	_	Gender=Fem|Number=Plur	25	det	_	_
@@ -1062,7 +1062,7 @@
 13	Sahara	_	PROPN	_	_	10	nmod	_	_
 14	Occidental	occidental	ADJ	_	ms=y	13	amod	_	_
 15	est	être	VERB	_	ind_pres_3s=y	17	cop	_	_
-16	très	_	ADV	_	_	17	advmod	_	_
+16	très	très	ADV	_	_	17	advmod	_	_
 17	claire	clair	ADJ	_	fs=y	0	root	_	_
 18	.	.	PUNCT	_	_	17	punct	_	_
 
@@ -1095,8 +1095,8 @@
 10	et	_	CONJ	_	_	9	cc	_	_
 11	a	avoir	AUX	_	ind_pres_3s=y	12	aux	_	_
 12	touché	toucher	VERB	_	part_pass_ms=y	9	conj	_	_
-13	pas	_	ADV	_	_	16	advmod	_	_
-14	moins	_	ADV	_	_	13	mwe	_	_
+13	pas	pas	ADV	_	_	16	advmod	_	_
+14	moins	moins	ADV	_	_	13	mwe	_	_
 15	de	de	ADP	_	_	13	mwe	_	_
 16	174	_	NUM	_	_	17	nummod	_	_
 17	sites	site	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
@@ -1145,7 +1145,7 @@
 7	Mauritanie	_	PROPN	_	_	12	nsubj	_	_
 8	n'	_	PART	_	_	12	neg	_	_
 9	est	être	VERB	_	ind_pres_3s=y	12	cop	_	_
-10	pas	_	ADV	_	_	12	neg	_	_
+10	pas	pas	ADV	_	_	12	neg	_	_
 11	le	le	DET	_	Gender=Masc|Number=Sing	12	det	_	_
 12	Maroc	_	PROPN	_	_	4	ccomp	_	_
 13	ou	_	CONJ	_	_	12	cc	_	_
@@ -1166,9 +1166,9 @@
 9	le	le	DET	_	Gender=Masc|Number=Sing	10	det	_	_
 10	fondamentalisme	fondamentalisme	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
 11	a	avoir	AUX	_	ind_pres_3s=y	13	aux	_	_
-12	toujours	_	ADV	_	_	13	advmod	_	_
+12	toujours	toujours	ADV	_	_	13	advmod	_	_
 13	été	être	VERB	_	part_pass_ms=y	7	ccomp	_	_
-14	là	_	ADV	_	_	13	advmod	_	_
+14	là	là	ADV	_	_	13	advmod	_	_
 15	,	,	PUNCT	_	_	13	punct	_	_
 16	qu'	_	SCONJ	_	_	19	mark	_	_
 17	il	il	PRON	_	Person=3|ms=y	19	nsubj	_	_
@@ -1195,7 +1195,7 @@
 8	les	le	DET	_	Gender=Fem|Number=Plur	9	det	_	_
 9	choses	chose	NOUN	_	Gender=Fem|Number=Plur	7	dobj	_	_
 10	tourner	tourner	VERB	_	infinitif=y	7	xcomp	_	_
-11	mal	_	ADV	_	_	10	advmod	_	_
+11	mal	mal	ADV	_	_	10	advmod	_	_
 12	en	en	ADP	_	_	13	case	_	_
 13	Syrie	_	PROPN	_	_	7	nmod	_	_
 14	?	?	PUNCT	_	_	2	punct	_	_
@@ -1255,7 +1255,7 @@
 
 # sentid: fr-ud-test_00050
 # sentence-text: Lors du dernier rapport publié par le ministère de l'écologie, il s'avère que l'état de nos cours d'eau ne soit pas si brillant que ça.
-1	Lors	_	ADV	_	_	4	case	_	_
+1	Lors	lors	ADV	_	_	4	case	_	_
 2	du	du	DET	_	Gender=Masc|Number=Sing	1	mwe	_	_
 3	dernier	dernier	ADJ	_	ms=y	4	amod	_	_
 4	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
@@ -1280,8 +1280,8 @@
 23	eau	eau	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
 24	ne	_	PART	_	_	28	neg	_	_
 25	soit	être	VERB	_	subj_pres_3s=y	28	cop	_	_
-26	pas	_	ADV	_	_	28	neg	_	_
-27	si	_	ADV	_	_	28	advmod	_	_
+26	pas	pas	ADV	_	_	28	neg	_	_
+27	si	si	ADV	_	_	28	advmod	_	_
 28	brillant	brillant	ADJ	_	ms=y	15	ccomp	_	_
 29	que	_	SCONJ	_	_	30	mark	_	_
 30	ça	ça	PRON	_	Person=3|ms=y	28	nmod	_	_
@@ -1304,7 +1304,7 @@
 12	perdu	perdu	ADJ	_	ms=y	11	amod	_	_
 13	s'	se	PRON	_	Person=3	14	dobj	_	_
 14	inscrit	inscrire	VERB	_	ind_pres_3s=y	0	root	_	_
-15	pleinement	_	ADV	_	_	14	advmod	_	_
+15	pleinement	pleinement	ADV	_	_	14	advmod	_	_
 16	dans	dans	ADP	_	_	18	case	_	_
 17	l'	le	DET	_	Gender=Masc|Number=Sing	18	det	_	_
 18	esprit	esprit	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
@@ -1316,7 +1316,7 @@
 24	,	,	PUNCT	_	_	23	punct	_	_
 25	avantgardiste	avant-gardiste	ADJ	_	fs=y	23	conj	_	_
 26	et	_	CONJ	_	_	23	cc	_	_
-27	politiquement	_	ADV	_	_	28	advmod	_	_
+27	politiquement	politiquement	ADV	_	_	28	advmod	_	_
 28	engagée	engagé	ADJ	_	fs=y	23	conj	_	_
 29	»	»	PUNCT	_	_	23	punct	_	_
 30	.	.	PUNCT	_	_	14	punct	_	_
@@ -1332,7 +1332,7 @@
 7	vous	lui	PRON	_	Person=2|p=y	8	iobj	_	_
 8	suffit	suffire	VERB	_	ind_pres_3s=y	1	advcl	_	_
 9	pour	pour	ADP	_	_	10	case	_	_
-10	aujourd'hui	_	ADV	_	_	8	nmod	_	_
+10	aujourd'hui	aujourd'hui	ADV	_	_	8	nmod	_	_
 11	.	.	PUNCT	_	_	1	punct	_	_
 
 # sentid: fr-ud-test_00053
@@ -1394,7 +1394,7 @@
 31	droits	droit	NOUN	_	Gender=Masc|Number=Plur	29	dobj	_	_
 32	sahraouis	sahraoui	ADJ	_	mp=y	31	amod	_	_
 33	,	,	PUNCT	_	_	9	punct	_	_
-34	notamment	_	ADV	_	_	37	advmod	_	_
+34	notamment	notamment	ADV	_	_	37	advmod	_	_
 35	dans	dans	ADP	_	_	37	case	_	_
 36	la	le	DET	_	Gender=Fem|Number=Sing	37	det	_	_
 37	région	région	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
@@ -1467,8 +1467,8 @@
 7	«	«	PUNCT	_	_	3	punct	_	_
 8	Je	il	PRON	_	Person=1|s=y	9	nsubj	_	_
 9	comprends	comprendre	VERB	_	ind_pres_1s=y	3	parataxis	_	_
-10	très	_	ADV	_	_	11	advmod	_	_
-11	bien	_	ADV	_	_	9	advmod	_	_
+10	très	très	ADV	_	_	11	advmod	_	_
+11	bien	bien	ADV	_	_	9	advmod	_	_
 12	votre	son	DET	_	Gender=Fem|Number=Sing	13	nmod:poss	_	_
 13	préoccupation	préoccupation	NOUN	_	Gender=Fem|Number=Sing	9	dobj	_	_
 14	par	par	ADP	_	_	18	case	_	_
@@ -1492,9 +1492,9 @@
 5	ce	ce	PRON	_	Person=3|s=y	8	nsubj	_	_
 6	n'	_	PART	_	_	8	neg	_	_
 7	était	être	VERB	_	imparfait_3s=y	8	cop	_	_
-8	pas	_	ADV	_	_	0	root	_	_
+8	pas	pas	ADV	_	_	0	root	_	_
 9	comme	comme	ADP	_	_	10	case	_	_
-10	aujourd'hui	_	ADV	_	_	8	nmod	_	_
+10	aujourd'hui	aujourd'hui	ADV	_	_	8	nmod	_	_
 11	.	.	PUNCT	_	_	8	punct	_	_
 
 # sentid: fr-ud-test_00058
@@ -1542,7 +1542,7 @@
 39	Sahara	_	PROPN	_	_	35	nmod	_	_
 40	occidental	occidental	ADJ	_	ms=y	39	amod	_	_
 41	,	,	PUNCT	_	_	25	punct	_	_
-42	parce	_	ADV	_	_	47	mark	_	_
+42	parce	parce	ADV	_	_	47	mark	_	_
 43	qu'	_	SCONJ	_	_	42	mwe	_	_
 44	ils	il	PRON	_	Person=3|mp=y	47	nsubj	_	_
 45	étaient	être	VERB	_	imparfait_3p=y	47	cop	_	_
@@ -1617,7 +1617,7 @@
 2	version	version	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	2010	_	NUM	_	_	2	nmod	_	_
 4	intègre	intégrer	VERB	_	ind_pres_3s=y	0	root	_	_
-5	ainsi	_	ADV	_	_	4	advmod	_	_
+5	ainsi	ainsi	ADV	_	_	4	advmod	_	_
 6	une	un	DET	_	Gender=Fem|Number=Sing	7	det	_	_
 7	case	case	NOUN	_	Gender=Fem|Number=Sing	4	dobj	_	_
 8	"	"	PUNCT	_	_	9	punct	_	_
@@ -1632,7 +1632,7 @@
 17	solidarité	solidarité	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
 18	active	actif	ADJ	_	fs=y	17	amod	_	_
 19	est	être	AUX	_	ind_pres_3s=y	21	auxpass	_	_
-20	bien	_	ADV	_	_	21	advmod	_	_
+20	bien	bien	ADV	_	_	21	advmod	_	_
 21	exonéré	exonérer	VERB	_	part_pass_ms=y	41	advcl	_	_
 22	d'	de	ADP	_	_	23	case	_	_
 23	impôt	impôt	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
@@ -1668,13 +1668,13 @@
 
 # sentid: fr-ud-test_00063
 # sentence-text: N'étant pas préparés pour recevoir plus de dix quinze mille personnes, les autorités, qui font tout ce qu'elles peuvent pour nourrir ce flux ininterrompu, craignent que la situation ne dégénère si l'aide internationale ne pointe pas plus vite le bout de son nez.
-1	N'	_	ADV	_	_	4	neg	_	_
+1	N'	n'	ADV	_	_	4	neg	_	_
 2	étant	être	AUX	_	participe_present=y	4	aux	_	_
-3	pas	_	ADV	_	_	4	neg	_	_
+3	pas	pas	ADV	_	_	4	neg	_	_
 4	préparés	préparer	VERB	_	part_pass_mp=y	15	acl	_	_
 5	pour	pour	ADP	_	_	6	mark	_	_
 6	recevoir	recevoir	VERB	_	infinitif=y	4	advcl	_	_
-7	plus	_	ADV	_	_	9	advmod	_	_
+7	plus	plus	ADV	_	_	9	advmod	_	_
 8	de	de	ADP	_	_	7	mwe	_	_
 9	dix	_	NUM	_	_	12	nummod	_	_
 10	quinze	_	NUM	_	_	9	conj	_	_
@@ -1709,9 +1709,9 @@
 39	internationale	international	ADJ	_	fs=y	38	amod	_	_
 40	ne	_	PART	_	_	41	neg	_	_
 41	pointe	pointer	VERB	_	ind_pres_3s=y	35	advcl	_	_
-42	pas	_	ADV	_	_	41	neg	_	_
-43	plus	_	ADV	_	_	44	advmod	_	_
-44	vite	_	ADV	_	_	41	advmod	_	_
+42	pas	pas	ADV	_	_	41	neg	_	_
+43	plus	plus	ADV	_	_	44	advmod	_	_
+44	vite	vite	ADV	_	_	41	advmod	_	_
 45	le	le	DET	_	Gender=Masc|Number=Sing	46	det	_	_
 46	bout	bout	NOUN	_	Gender=Masc|Number=Sing	41	dobj	_	_
 47	de	de	ADP	_	_	49	case	_	_
@@ -1772,7 +1772,7 @@
 19	les	le	PRON	_	Person=3|p=y	20	dobj	_	_
 20	traiter	traiter	VERB	_	infinitif=y	17	acl	_	_
 21	en	en	ADP	_	_	25	case	_	_
-22	tant	_	ADV	_	_	21	mwe	_	_
+22	tant	tant	ADV	_	_	21	mwe	_	_
 23	qu'	_	SCONJ	_	_	21	mwe	_	_
 24	«	«	PUNCT	_	_	25	punct	_	_
 25	indigènes	indigène	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	_
@@ -1801,7 +1801,7 @@
 # sentid: fr-ud-test_00066
 # sentence-text: Ont également assisté à cette occasion, des représentants du corps diplomatique accrédité en Algérie, notamment d'Afrique du sud, de Cuba, du Venezuela, d'Angola et du Congo.
 1	Ont	avoir	AUX	_	ind_pres_3p=y	3	aux	_	_
-2	également	_	ADV	_	_	3	advmod	_	_
+2	également	également	ADV	_	_	3	advmod	_	_
 3	assisté	assister	VERB	_	part_pass_ms=y	0	root	_	_
 4	à	à	ADP	_	_	6	case	_	_
 5	cette	ce	DET	_	Gender=Fem|Number=Sing	6	det	_	_
@@ -1818,7 +1818,7 @@
 15	en	en	ADP	_	_	16	case	_	_
 16	Algérie	_	PROPN	_	_	14	nmod	_	_
 17	,	,	PUNCT	_	_	12	punct	_	_
-18	notamment	_	ADV	_	_	20	advmod	_	_
+18	notamment	notamment	ADV	_	_	20	advmod	_	_
 19	d'	de	ADP	_	_	20	case	_	_
 20	Afrique	_	PROPN	_	_	12	nmod	_	_
 21-22	du	_	_	_	_	_	_	_	_
@@ -1847,18 +1847,18 @@
 # sentence-text: Attention : même la conversion n'est pas un changement total, encore moins un reniement de ce que nous avons été.
 1	Attention	attention	NOUN	_	Gender=Fem|Number=Sing	10	parataxis	_	_
 2	:	:	PUNCT	_	_	10	punct	_	_
-3	même	_	ADV	_	_	5	advmod	_	_
+3	même	même	ADV	_	_	5	advmod	_	_
 4	la	le	DET	_	Gender=Fem|Number=Sing	5	det	_	_
 5	conversion	conversion	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 6	n'	_	PART	_	_	10	neg	_	_
 7	est	être	VERB	_	ind_pres_3s=y	10	cop	_	_
-8	pas	_	ADV	_	_	10	neg	_	_
+8	pas	pas	ADV	_	_	10	neg	_	_
 9	un	un	DET	_	Gender=Masc|Number=Sing	10	det	_	_
 10	changement	changement	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 11	total	total	ADJ	_	ms=y	10	amod	_	_
 12	,	,	PUNCT	_	_	10	punct	_	_
-13	encore	_	ADV	_	_	14	advmod	_	_
-14	moins	_	ADV	_	_	10	conj	_	_
+13	encore	encore	ADV	_	_	14	advmod	_	_
+14	moins	moins	ADV	_	_	10	conj	_	_
 15	un	un	DET	_	Gender=Masc|Number=Sing	16	det	_	_
 16	reniement	reniement	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
 17	de	de	ADP	_	_	18	case	_	_
@@ -1878,12 +1878,12 @@
 5	affaires	affaire	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
 6	particulier	particulier	ADJ	_	ms=y	3	amod	_	_
 7	est	être	VERB	_	ind_pres_3s=y	8	cop	_	_
-8	partout	_	ADV	_	_	0	root	_	_
+8	partout	partout	ADV	_	_	0	root	_	_
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	il	il	PRON	_	Person=3|ms=y	11	nsubj	_	_
 11	contrôle	contrôler	VERB	_	ind_pres_3s=y	8	conj	_	_
 12	la	le	DET	_	Gender=Fem|Number=Sing	15	det	_	_
-13	plus	_	ADV	_	_	14	advmod	_	_
+13	plus	plus	ADV	_	_	14	advmod	_	_
 14	grande	grand	ADJ	_	fs=y	15	amod	_	_
 15	banque	banque	NOUN	_	Gender=Fem|Number=Sing	11	dobj	_	_
 16-17	du	_	_	_	_	_	_	_	_
@@ -1954,13 +1954,13 @@
 6	en	en	ADP	_	_	8	mark	_	_
 7	n'	_	PART	_	_	8	neg	_	_
 8	hésitant	hésiter	VERB	_	participe_present=y	5	advcl	_	_
-9	pas	_	ADV	_	_	8	neg	_	_
+9	pas	pas	ADV	_	_	8	neg	_	_
 10	à	à	ADP	_	_	12	mark	_	_
 11	l'	le	PRON	_	Person=3|s=y	12	dobj	_	_
 12	accuser	accuser	VERB	_	infinitif=y	8	acl	_	_
 13	,	,	PUNCT	_	_	5	punct	_	_
 14	en	en	ADP	_	_	17	case	_	_
-15	tant	_	ADV	_	_	14	mwe	_	_
+15	tant	tant	ADV	_	_	14	mwe	_	_
 16	que	_	SCONJ	_	_	14	mwe	_	_
 17	premier	premier	ADJ	_	ms=y	18	amod	_	_
 18	opérateur	opérateur	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
@@ -2013,21 +2013,21 @@
 4	Paolis	_	PROPN	_	_	1	name	_	_
 5	n'	_	PART	_	_	8	neg	_	_
 6	est	être	VERB	_	ind_pres_3s=y	8	cop	_	_
-7	pas	_	ADV	_	_	8	neg	_	_
-8	là	_	ADV	_	_	0	root	_	_
+7	pas	pas	ADV	_	_	8	neg	_	_
+8	là	là	ADV	_	_	0	root	_	_
 9	pour	pour	ADP	_	_	10	mark	_	_
 10	aggraver	aggraver	VERB	_	infinitif=y	8	advcl	_	_
 11	une	un	DET	_	Gender=Fem|Number=Sing	12	det	_	_
 12	situation	situation	NOUN	_	Gender=Fem|Number=Sing	10	dobj	_	_
-13	déjà	_	ADV	_	_	15	advmod	_	_
-14	très	_	ADV	_	_	15	advmod	_	_
+13	déjà	déjà	ADV	_	_	15	advmod	_	_
+14	très	très	ADV	_	_	15	advmod	_	_
 15	lourde	lourd	ADJ	_	fs=y	12	amod	_	_
 16	.	.	PUNCT	_	_	8	punct	_	_
 
 # sentid: fr-ud-test_00072
 # sentence-text: Dès lors que le peuple décide de regagner sa liberté il devient instantanément et de facto, libre.
 1	Dès	dès	ADP	_	_	6	mark	_	_
-2	lors	_	ADV	_	_	1	mwe	_	_
+2	lors	lors	ADV	_	_	1	mwe	_	_
 3	que	_	SCONJ	_	_	1	mwe	_	_
 4	le	le	DET	_	Gender=Masc|Number=Sing	5	det	_	_
 5	peuple	peuple	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -2038,7 +2038,7 @@
 10	liberté	liberté	NOUN	_	Gender=Fem|Number=Sing	8	dobj	_	_
 11	il	il	PRON	_	Person=3|ms=y	12	nsubj	_	_
 12	devient	devenir	VERB	_	ind_pres_3s=y	0	root	_	_
-13	instantanément	_	ADV	_	_	12	advmod	_	_
+13	instantanément	instantanément	ADV	_	_	12	advmod	_	_
 14	et	_	CONJ	_	_	13	cc	_	_
 15	de	de	ADP	_	_	13	conj	_	_
 16	facto	facto	NOUN	_	_	15	mwe	_	_
@@ -2064,7 +2064,7 @@
 2	elle	elle	PRON	_	Person=3|fs=y	3	nsubj	_	_
 3	guette	guetter	VERB	_	ind_pres_3s=y	0	root	_	_
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	oui	_	ADV	_	_	3	advmod	_	_
+5	oui	oui	ADV	_	_	3	advmod	_	_
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	elle	elle	PRON	_	Person=3|fs=y	8	nsubj	_	_
 8	guette	guetter	VERB	_	ind_pres_3s=y	3	parataxis	_	_
@@ -2097,7 +2097,7 @@
 22	le	le	DET	_	Gender=Masc|Number=Sing	23	det	_	_
 23	passé	passé	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 24	pour	pour	ADP	_	_	26	mark	_	_
-25	mieux	_	ADV	_	_	26	advmod	_	_
+25	mieux	mieux	ADV	_	_	26	advmod	_	_
 26	appréhender	appréhender	VERB	_	infinitif=y	18	advcl	_	_
 27	les	le	DET	_	Gender=Fem|Number=Plur	28	det	_	_
 28	perspectives	perspective	NOUN	_	Gender=Fem|Number=Plur	26	dobj	_	_
@@ -2106,7 +2106,7 @@
 30	de	de	ADP	_	_	32	case	_	_
 31	le	le	DET	_	Gender=Masc|Number=Sing	32	det	_	_
 32	Maghreb	_	PROPN	_	_	28	nmod	_	_
-33	aujourd'hui	_	ADV	_	_	26	advmod	_	_
+33	aujourd'hui	aujourd'hui	ADV	_	_	26	advmod	_	_
 34	.	.	PUNCT	_	_	16	punct	_	_
 
 # sentid: fr-ud-test_00076
@@ -2169,7 +2169,7 @@
 11	de	de	ADP	_	_	13	case	_	_
 12	son	son	DET	_	Gender=Fem|Number=Sing	13	nmod:poss	_	_
 13	énérgie	énergie	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
-14	exclusivement	_	ADV	_	_	1	advmod	_	_
+14	exclusivement	exclusivement	ADV	_	_	1	advmod	_	_
 15-16	aux	_	_	_	_	_	_	_	_
 15	à	à	ADP	_	_	18	case	_	_
 16	les	le	DET	_	Gender=Masc|Number=Plur	18	det	_	_
@@ -2232,7 +2232,7 @@
 7	des	un	DET	_	Gender=Fem|Number=Plur	8	det	_	_
 8	conditions	condition	NOUN	_	Gender=Fem|Number=Plur	17	nsubjpass	_	_
 9	socio-économiques	socio-économique	ADJ	_	fp=y	8	amod	_	_
-10	radicalement	_	ADV	_	_	11	advmod	_	_
+10	radicalement	radicalement	ADV	_	_	11	advmod	_	_
 11	nouvelles	nouveau	ADJ	_	fp=y	8	amod	_	_
 12	(	(	PUNCT	_	_	13	punct	_	_
 13	néolibéralisme	néolibéralisme	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	_
@@ -2274,7 +2274,7 @@
 
 # sentid: fr-ud-test_00081
 # sentence-text: Tout en estimant que « le Maroc est sous protectorat français », au vu des aides militaires de cette puissance au colonialisme marocain, il a rappelé la position de la France au Conseil de sécurité de l'ONU, en opposant son Veto à l'élargissement des missions de la Minurso pour englober la surveillance et le contrôle des droits de l'homme dans les territoires sahraouis.
-1	Tout	_	ADV	_	_	3	mark	_	_
+1	Tout	tout	ADV	_	_	3	mark	_	_
 2	en	en	ADP	_	_	1	mwe	_	_
 3	estimant	estimer	VERB	_	participe_present=y	31	advcl	_	_
 4	que	_	SCONJ	_	_	8	mark	_	_
@@ -2377,7 +2377,7 @@
 16	qui	qui	PRON	_	_	18	nsubj	_	_
 17	n'	_	PART	_	_	18	neg	_	_
 18	est	être	VERB	_	ind_pres_3s=y	15	acl:relcl	_	_
-19	pas	_	ADV	_	_	18	neg	_	_
+19	pas	pas	ADV	_	_	18	neg	_	_
 20	soi	soi	PRON	_	Person=3|s=y	18	dobj	_	_
 21	,	,	PUNCT	_	_	1	punct	_	_
 22	céder	céder	VERB	_	infinitif=y	1	conj	_	_
@@ -2405,7 +2405,7 @@
 
 # sentid: fr-ud-test_00083
 # sentence-text: c'est-à-dire--poursuit-il son argument--, " avant, le Maroc pensait que les indépendantistes étaient tout au mieux un 5%, les militants, mais quand on nous a vus tous unis, main dans la main, on n'en revenait pas ;
-1	c'est-à-dire	_	ADV	_	_	14	cc	_	_
+1	c'est-à-dire	c'est-à-dire	ADV	_	_	14	cc	_	_
 2	--	--	PUNCT	_	_	14	punct	_	_
 3	poursuit	poursuivre	VERB	_	ind_pres_3s=y	14	parataxis	_	_
 4	-il	il	PRON	_	Person=3|ms=y	3	nsubj	_	_
@@ -2414,7 +2414,7 @@
 7	--	--	PUNCT	_	_	14	punct	_	_
 8	,	,	PUNCT	_	_	14	punct	_	_
 9	"	"	PUNCT	_	_	14	punct	_	_
-10	avant	_	ADV	_	_	14	advmod	_	_
+10	avant	avant	ADV	_	_	14	advmod	_	_
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	le	le	DET	_	Gender=Masc|Number=Sing	13	det	_	_
 13	Maroc	_	PROPN	_	_	14	nsubj	_	_
@@ -2451,9 +2451,9 @@
 43	,	,	PUNCT	_	_	14	punct	_	_
 44	on	on	PRON	_	Person=3|ms=y	47	nsubj	_	_
 45	n'	_	PART	_	_	47	neg	_	_
-46	en	_	ADV	_	_	47	advmod	_	_
+46	en	en	ADV	_	_	47	advmod	_	_
 47	revenait	revenir	VERB	_	imparfait_3s=y	14	conj	_	_
-48	pas	_	ADV	_	_	47	neg	_	_
+48	pas	pas	ADV	_	_	47	neg	_	_
 49	;	;	PUNCT	_	_	14	punct	_	_
 
 # sentid: fr-ud-test_00084
@@ -2462,8 +2462,8 @@
 2	ce	ce	DET	_	Gender=Masc|Number=Sing	3	det	_	_
 3	discours	discours	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
 4	--	--	PUNCT	_	_	7	punct	_	_
-5	maintenant	_	ADV	_	_	7	advmod	_	_
-6	bien	_	ADV	_	_	7	advmod	_	_
+5	maintenant	maintenant	ADV	_	_	7	advmod	_	_
+6	bien	bien	ADV	_	_	7	advmod	_	_
 7	rodé	roder	VERB	_	part_pass_ms=y	3	acl	_	_
 8	--	--	PUNCT	_	_	7	punct	_	_
 9	,	,	PUNCT	_	_	29	punct	_	_
@@ -2526,7 +2526,7 @@
 
 # sentid: fr-ud-test_00086
 # sentence-text: Toutefois, dans des camps de réfugiés, la cause politique importe plus que la cause humaine.
-1	Toutefois	_	ADV	_	_	12	advmod	_	_
+1	Toutefois	toutefois	ADV	_	_	12	advmod	_	_
 2	,	,	PUNCT	_	_	12	punct	_	_
 3	dans	dans	ADP	_	_	5	case	_	_
 4	des	un	DET	_	Gender=Masc|Number=Plur	5	det	_	_
@@ -2538,7 +2538,7 @@
 10	cause	cause	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 11	politique	politique	ADJ	_	fs=y	10	amod	_	_
 12	importe	importer	VERB	_	ind_pres_3s=y	0	root	_	_
-13	plus	_	ADV	_	_	16	advmod	_	_
+13	plus	plus	ADV	_	_	16	advmod	_	_
 14	que	_	SCONJ	_	_	13	mwe	_	_
 15	la	le	DET	_	Gender=Fem|Number=Sing	16	det	_	_
 16	cause	cause	NOUN	_	Gender=Fem|Number=Sing	12	advmod	_	_
@@ -2635,7 +2635,7 @@
 39	pacifique	pacifique	ADJ	_	ms=y	37	conj	_	_
 40	,	,	PUNCT	_	_	37	punct	_	_
 41	mais	_	CONJ	_	_	37	cc	_	_
-42	aussi	_	ADV	_	_	43	advmod	_	_
+42	aussi	aussi	ADV	_	_	43	advmod	_	_
 43	combatif	combatif	ADJ	_	ms=y	37	conj	_	_
 44	"	"	PUNCT	_	_	37	punct	_	_
 45-46	du	_	_	_	_	_	_	_	_
@@ -2758,7 +2758,7 @@
 1	Il	il	PRON	_	Person=3|ms=y	5	nsubj	_	_
 2	a	avoir	AUX	_	ind_pres_3s=y	5	aux	_	_
 3	en	en	ADP	_	_	5	advmod	_	_
-4	outre	_	ADV	_	_	3	mwe	_	_
+4	outre	outre	ADV	_	_	3	mwe	_	_
 5	exprimé	exprimer	VERB	_	part_pass_ms=y	0	root	_	_
 6	la	le	DET	_	Gender=Fem|Number=Sing	7	det	_	_
 7	volonté	volonté	NOUN	_	Gender=Fem|Number=Sing	5	dobj	_	_
@@ -2816,9 +2816,9 @@
 
 # sentid: fr-ud-test_00095
 # sentence-text: N'hésitez pas à m'envoyer actualités et libres tribunes à l'adresse suivante : criticusleblog@gmail.com.
-1	N'	_	ADV	_	_	2	neg	_	_
+1	N'	n'	ADV	_	_	2	neg	_	_
 2	hésitez	hésiter	VERB	_	imperatif_2p=y	0	root	_	_
-3	pas	_	ADV	_	_	2	neg	_	_
+3	pas	pas	ADV	_	_	2	neg	_	_
 4	à	à	ADP	_	_	6	mark	_	_
 5	m'	me	PRON	_	Person=1|s=y	6	iobj	_	_
 6	envoyer	envoyer	VERB	_	infinitif=y	2	acl	_	_
@@ -2869,7 +2869,7 @@
 3	y	y	PRON	_	_	5	expl	_	_
 4	en	en	PRON	_	Person=3	5	case	_	_
 5	a	avoir	VERB	_	ind_pres_3s=y	0	root	_	_
-6	point	_	ADV	_	_	5	neg	_	_
+6	point	point	ADV	_	_	5	neg	_	_
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-test_00098
@@ -2937,7 +2937,7 @@
 14	développez	développer	VERB	_	ind_pres_2p=y	0	root	_	_
 15	une	un	DET	_	Gender=Fem|Number=Sing	16	det	_	_
 16	relation	relation	NOUN	_	Gender=Fem|Number=Sing	14	dobj	_	_
-17	très	_	ADV	_	_	18	advmod	_	_
+17	très	très	ADV	_	_	18	advmod	_	_
 18	profonde	profond	ADJ	_	fs=y	16	amod	_	_
 19	avec	avec	ADP	_	_	20	case	_	_
 20	lui	lui	PRON	_	Person=3|s=y	16	nmod	_	_
@@ -3001,7 +3001,7 @@
 # sentid: fr-ud-test_00102
 # sentence-text: Moi plus je vois des vidéos de ce jeu, plus je me dis que Battlefield 3 sera THE GAME pour les vrais soldats qui en ont dans le slip.
 1	Moi	soi	PRON	_	Person=1|s=y	4	expl	_	_
-2	plus	_	ADV	_	_	4	cc	_	_
+2	plus	plus	ADV	_	_	4	cc	_	_
 3	je	il	PRON	_	Person=1|s=y	4	nsubj	_	_
 4	vois	voir	VERB	_	ind_pres_1s=y	0	root	_	_
 5	des	un	DET	_	Gender=Fem|Number=Plur	6	det	_	_
@@ -3010,7 +3010,7 @@
 8	ce	ce	DET	_	Gender=Masc|Number=Sing	9	det	_	_
 9	jeu	jeu	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 10	,	,	PUNCT	_	_	4	punct	_	_
-11	plus	_	ADV	_	_	4	cc	_	_
+11	plus	plus	ADV	_	_	4	cc	_	_
 12	je	il	PRON	_	Person=1|s=y	14	nsubj	_	_
 13	me	se	PRON	_	Person=1|s=y	14	dobj	_	_
 14	dis	dire	VERB	_	ind_pres_1s=y	4	conj	_	_
@@ -3046,7 +3046,7 @@
 10	concert	concert	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 11	Wagram	_	PROPN	_	_	8	appos	_	_
 12	,	,	PUNCT	_	_	8	punct	_	_
-13	récemment	_	ADV	_	_	14	advmod	_	_
+13	récemment	récemment	ADV	_	_	14	advmod	_	_
 14	rénovée	rénover	VERB	_	part_pass_fs=y	8	acl	_	_
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	sera	être	AUX	_	ind_futur_3s=y	17	auxpass	_	_
@@ -3066,7 +3066,7 @@
 
 # sentid: fr-ud-test_00104
 # sentence-text: Maintenant, si des supporters veulent aider le club au travers d'une souscription pour faire revenir Djibril à l'AJA, qu'ils nous le fassent savoir. "
-1	Maintenant	_	ADV	_	_	28	advmod	_	_
+1	Maintenant	maintenant	ADV	_	_	28	advmod	_	_
 2	,	,	PUNCT	_	_	28	punct	_	_
 3	si	_	SCONJ	_	_	7	mark	_	_
 4	des	un	DET	_	Gender=Masc|Number=Plur	5	det	_	_
@@ -3161,7 +3161,7 @@
 42	âge	âge	NOUN	_	Gender=Masc|Number=Sing	39	dobj	_	_
 43	,	,	PUNCT	_	_	22	punct	_	_
 44	mais	_	CONJ	_	_	42	cc	_	_
-45	aussi	_	ADV	_	_	44	advmod	_	_
+45	aussi	aussi	ADV	_	_	44	advmod	_	_
 46	l'	le	DET	_	Gender=Fem|Number=Sing	47	det	_	_
 47	innocence	innocence	NOUN	_	Gender=Fem|Number=Sing	42	conj	_	_
 48	et	_	CONJ	_	_	42	cc	_	_
@@ -3192,7 +3192,7 @@
 19	qui	qui	PRON	_	_	21	nsubj	_	_
 20	n'	_	PART	_	_	21	neg	_	_
 21	avaient	avoir	VERB	_	imparfait_3p=y	18	acl:relcl	_	_
-22	pas	_	ADV	_	_	21	neg	_	_
+22	pas	pas	ADV	_	_	21	neg	_	_
 23	une	un	DET	_	Gender=Fem|Number=Sing	24	det	_	_
 24	limite	limite	NOUN	_	Gender=Fem|Number=Sing	21	dobj	_	_
 25	de	de	ADP	_	_	27	case	_	_
@@ -3251,7 +3251,7 @@
 15	Cavaliere	_	PROPN	_	_	11	nmod	_	_
 16	ne	_	PART	_	_	17	neg	_	_
 17	tient	tenir	VERB	_	ind_pres_3s=y	3	acl:relcl	_	_
-18	plus	_	ADV	_	_	17	neg	_	_
+18	plus	plus	ADV	_	_	17	neg	_	_
 19	.	.	PUNCT	_	_	3	punct	_	_
 
 # sentid: fr-ud-test_00110
@@ -3259,7 +3259,7 @@
 1	Le	le	DET	_	Gender=Masc|Number=Sing	2	det	_	_
 2	message	message	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	bien	_	ADV	_	_	6	advmod	_	_
+4	bien	bien	ADV	_	_	6	advmod	_	_
 5	que	_	SCONJ	_	_	4	mwe	_	_
 6	feutré	feutré	ADJ	_	ms=y	2	amod	_	_
 7	,	,	PUNCT	_	_	9	punct	_	_
@@ -3271,7 +3271,7 @@
 13	vous	le	PRON	_	Person=2|p=y	15	dobj	_	_
 14	avons	avoir	AUX	_	ind_pres_1p=y	15	aux	_	_
 15	accueilli	accueillir	VERB	_	part_pass_ms=y	9	parataxis	_	_
-16	longtemps	_	ADV	_	_	15	advmod	_	_
+16	longtemps	longtemps	ADV	_	_	15	advmod	_	_
 17	,	,	PUNCT	_	_	15	punct	_	_
 18	il	il	PRON	_	Person=3|ms=y	19	nsubj	_	_
 19	est	être	VERB	_	ind_pres_3s=y	15	conj	_	_
@@ -3311,7 +3311,7 @@
 11	collections	collection	NOUN	_	Gender=Fem|Number=Plur	9	dobj	_	_
 12	,	,	PUNCT	_	_	9	punct	_	_
 13	avec	avec	ADP	_	_	16	case	_	_
-14	aussi	_	ADV	_	_	16	advmod	_	_
+14	aussi	aussi	ADV	_	_	16	advmod	_	_
 15	différentes	différent	ADJ	_	fp=y	16	amod	_	_
 16	animations	animation	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
 17	.	.	PUNCT	_	_	4	punct	_	_
@@ -3346,14 +3346,14 @@
 2	nous	nous	PRON	_	Person=1|p=y	4	nsubj	_	_
 3	ne	_	PART	_	_	4	neg	_	_
 4	bougeront	bouger	VERB	_	ind_futur_1p=y	18	ccomp	_	_
-5	pas	_	ADV	_	_	4	neg	_	_
-6	tant	_	ADV	_	_	14	mark	_	_
+5	pas	pas	ADV	_	_	4	neg	_	_
+6	tant	tant	ADV	_	_	14	mark	_	_
 7	que	_	SCONJ	_	_	6	mwe	_	_
 8	nos	son	DET	_	Gender=Fem|Number=Plur	9	nmod:poss	_	_
 9	revendications	revendication	NOUN	_	Gender=Fem|Number=Plur	14	nsubjpass	_	_
 10	n'	_	PART	_	_	14	neg	_	_
 11	auront	avoir	AUX	_	ind_futur_3p=y	14	aux	_	_
-12	pas	_	ADV	_	_	14	neg	_	_
+12	pas	pas	ADV	_	_	14	neg	_	_
 13	été	être	AUX	_	part_pass_ms=y	14	auxpass	_	_
 14	acceptées	accepter	VERB	_	part_pass_fp=y	4	advcl	_	_
 15	"	"	PUNCT	_	_	4	punct	_	_
@@ -3494,7 +3494,7 @@
 8	titre	titre	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	est	être	VERB	_	ind_pres_3s=y	12	cop	_	_
-11	logiquement	_	ADV	_	_	12	advmod	_	_
+11	logiquement	logiquement	ADV	_	_	12	advmod	_	_
 12	favori	favori	ADJ	_	ms=y	0	root	_	_
 13	contre	contre	ADP	_	_	14	case	_	_
 14	Schalke	_	PROPN	_	_	12	nmod	_	_
@@ -3502,7 +3502,7 @@
 16	et	_	CONJ	_	_	14	cc	_	_
 17	son	son	DET	_	Gender=Masc|Number=Sing	18	nmod:poss	_	_
 18	effectif	effectif	NOUN	_	Gender=Masc|Number=Sing	14	conj	_	_
-19	plus	_	ADV	_	_	20	advmod	_	_
+19	plus	plus	ADV	_	_	20	advmod	_	_
 20	limité	limité	ADJ	_	ms=y	18	amod	_	_
 21	,	,	PUNCT	_	_	12	punct	_	_
 22	chez	chez	ADP	_	_	23	case	_	_
@@ -3544,8 +3544,8 @@
 # sentence-text: Quatre jours plus tard, ceux-ci pourront se retrouver à l'occasion de la finale du 200m (9 août).
 1	Quatre	_	NUM	_	_	2	nummod	_	_
 2	jours	jour	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
-3	plus	_	ADV	_	_	4	advmod	_	_
-4	tard	_	ADV	_	_	2	advmod	_	_
+3	plus	plus	ADV	_	_	4	advmod	_	_
+4	tard	tard	ADV	_	_	2	advmod	_	_
 5	,	,	PUNCT	_	_	9	punct	_	_
 6	ceux-ci	celui-ci	PRON	_	ms=y	9	nsubj	_	_
 7	pourront	pouvoir	AUX	_	ind_futur_3p=y	9	aux	_	_
@@ -3622,7 +3622,7 @@
 23	des	un	DET	_	Gender=Masc|Number=Plur	24	det	_	_
 24	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	29	nsubjpass	_	_
 25	nouveaux	nouveau	ADJ	_	mp=y	24	amod	_	_
-26	y	_	ADV	_	_	29	advmod	_	_
+26	y	y	ADV	_	_	29	advmod	_	_
 27	avaient	avoir	AUX	_	imparfait_3p=y	29	aux	_	_
 28	été	être	AUX	_	part_pass_ms=y	29	auxpass	_	_
 29	introduits	introduire	VERB	_	part_pass_mp=y	21	ccomp	_	_
@@ -3688,7 +3688,7 @@
 27	parti	parti	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
 28	,	,	PUNCT	_	_	29	punct	_	_
 29	louvoie	louvoyer	VERB	_	ind_pres_3s=y	0	root	_	_
-30	pourtant	_	ADV	_	_	29	advmod	_	_
+30	pourtant	pourtant	ADV	_	_	29	advmod	_	_
 31	entre	entre	ADP	_	_	32	case	_	_
 32	soutien	soutien	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
 33	et	_	CONJ	_	_	32	cc	_	_
@@ -3707,7 +3707,7 @@
 46	Affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	40	appos	_	_
 47	DSK	_	PROPN	_	_	46	name	_	_
 48	:	:	PUNCT	_	_	46	punct	_	_
-49	comment	_	ADV	_	_	55	advmod	_	_
+49	comment	comment	ADV	_	_	55	advmod	_	_
 50	la	le	DET	_	Gender=Fem|Number=Sing	51	det	_	_
 51	position	position	NOUN	_	Gender=Fem|Number=Sing	55	nsubj	_	_
 52	d'	de	ADP	_	_	53	case	_	_
@@ -3725,10 +3725,10 @@
 3	"	"	PUNCT	_	_	10	punct	_	_
 4	n'	_	PART	_	_	10	neg	_	_
 5	est	être	VERB	_	ind_pres_3s=y	10	cop	_	_
-6	pas	_	ADV	_	_	10	neg	_	_
-7	seulement	_	ADV	_	_	6	advmod	_	_
+6	pas	pas	ADV	_	_	10	neg	_	_
+7	seulement	seulement	ADV	_	_	6	advmod	_	_
 8	la	le	DET	_	Gender=Fem|Number=Sing	10	det	_	_
-9	plus	_	ADV	_	_	10	advmod	_	_
+9	plus	plus	ADV	_	_	10	advmod	_	_
 10	disputée	disputé	ADJ	_	fs=y	45	ccomp	_	_
 11	depuis	depuis	ADP	_	_	13	case	_	_
 12	l'	le	DET	_	Gender=Fem|Number=Sing	13	det	_	_
@@ -3736,9 +3736,9 @@
 14	,	,	PUNCT	_	_	10	punct	_	_
 15	elle	elle	PRON	_	Person=3|fs=y	20	nsubj	_	_
 16	est	être	VERB	_	ind_pres_3s=y	20	cop	_	_
-17	aussi	_	ADV	_	_	20	advmod	_	_
+17	aussi	aussi	ADV	_	_	20	advmod	_	_
 18	la	le	DET	_	Gender=Fem|Number=Sing	20	det	_	_
-19	plus	_	ADV	_	_	20	advmod	_	_
+19	plus	plus	ADV	_	_	20	advmod	_	_
 20	stimulante	stimulant	ADJ	_	fs=y	10	conj	_	_
 21	,	,	PUNCT	_	_	20	punct	_	_
 22	avec	avec	ADP	_	_	24	case	_	_
@@ -3752,7 +3752,7 @@
 30	avec	avec	ADP	_	_	31	case	_	_
 31	passion	passion	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
 32	,	,	PUNCT	_	_	24	punct	_	_
-33	tout	_	ADV	_	_	35	mark	_	_
+33	tout	tout	ADV	_	_	35	mark	_	_
 34	en	en	ADP	_	_	33	mwe	_	_
 35	participant	participer	VERB	_	participe_present=y	24	advcl	_	_
 36	en	en	ADP	_	_	37	case	_	_
@@ -3779,7 +3779,7 @@
 55	pays	pays	NOUN	_	Gender=Masc|Number=Sing	52	nmod	_	_
 56	,	,	PUNCT	_	_	48	punct	_	_
 57	considéré	considérer	VERB	_	part_pass_ms=y	48	acl	_	_
-58	comme	_	ADV	_	_	59	advmod	_	_
+58	comme	comme	ADV	_	_	59	advmod	_	_
 59	favorable	favorable	ADJ	_	ms=y	57	xcomp	_	_
 60-61	au	_	_	_	_	_	_	_	_
 60	à	à	ADP	_	_	62	case	_	_
@@ -3800,7 +3800,7 @@
 9	mélange	mélanger	VERB	_	ind_pres_3s=y	0	root	_	_
 10	pour	pour	ADP	_	_	14	case	_	_
 11	le	le	DET	_	Gender=Masc|Number=Sing	14	det	_	_
-12	plus	_	ADV	_	_	13	advmod	_	_
+12	plus	plus	ADV	_	_	13	advmod	_	_
 13	grand	grand	ADJ	_	ms=y	14	amod	_	_
 14	plaisir	plaisir	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 15-16	des	_	_	_	_	_	_	_	_
@@ -3842,7 +3842,7 @@
 23	que	_	SCONJ	_	_	28	mark	_	_
 24	les	le	DET	_	Gender=Fem|Number=Plur	25	det	_	_
 25	couches	couche	NOUN	_	Gender=Fem|Number=Plur	28	nsubj	_	_
-26	plus	_	ADV	_	_	27	advmod	_	_
+26	plus	plus	ADV	_	_	27	advmod	_	_
 27	profondes	profond	ADJ	_	fp=y	25	amod	_	_
 28	atteindront	atteindre	VERB	_	ind_futur_3p=y	11	conj	_	_
 29	la	le	DET	_	Gender=Fem|Number=Sing	30	det	_	_
@@ -3854,7 +3854,7 @@
 35	,	,	PUNCT	_	_	11	punct	_	_
 36	il	il	PRON	_	Person=3|ms=y	39	nsubj	_	_
 37	est	être	VERB	_	ind_pres_3s=y	39	cop	_	_
-38	donc	_	ADV	_	_	39	advmod	_	_
+38	donc	donc	ADV	_	_	39	advmod	_	_
 39	normal	normal	ADJ	_	ms=y	3	conj	_	_
 40	de	de	ADP	_	_	41	mark	_	_
 41	ressentir	ressentir	VERB	_	infinitif=y	39	acl	_	_
@@ -3957,7 +3957,7 @@
 # sentid: fr-ud-test_00130
 # sentence-text: Pour autant, nous avions tranché.
 1	Pour	pour	ADP	_	_	6	advmod	_	_
-2	autant	_	ADV	_	_	1	mwe	_	_
+2	autant	autant	ADV	_	_	1	mwe	_	_
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	nous	nous	PRON	_	Person=1|p=y	6	nsubj	_	_
 5	avions	avoir	AUX	_	imparfait_1p=y	6	aux	_	_
@@ -3984,7 +3984,7 @@
 16-17	au	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	19	advmod	_	_
 17	le	le	DET	_	Gender=Masc|Number=Sing	16	mwe	_	_
-18	moins	_	ADV	_	_	16	mwe	_	_
+18	moins	moins	ADV	_	_	16	mwe	_	_
 19	20	_	NUM	_	_	20	nummod	_	_
 20	matches	match	NOUN	_	Gender=Masc|Number=Plur	15	dobj	_	_
 21	cette	ce	DET	_	Gender=Fem|Number=Sing	22	det	_	_
@@ -4006,10 +4006,10 @@
 5	Bayern	_	PROPN	_	_	2	nmod	_	_
 6	Munich	_	PROPN	_	_	5	name	_	_
 7	demande	demander	VERB	_	ind_pres_3s=y	0	root	_	_
-8	aussi	_	ADV	_	_	7	advmod	_	_
+8	aussi	aussi	ADV	_	_	7	advmod	_	_
 9	,	,	PUNCT	_	_	7	punct	_	_
 10	et	_	CONJ	_	_	8	cc	_	_
-11	surtout	_	ADV	_	_	8	conj	_	_
+11	surtout	surtout	ADV	_	_	8	conj	_	_
 12	,	,	PUNCT	_	_	7	punct	_	_
 13	que	_	SCONJ	_	_	17	mark	_	_
 14	le	le	DET	_	Gender=Masc|Number=Sing	15	det	_	_
@@ -4054,7 +4054,7 @@
 29	et	_	CONJ	_	_	27	cc	_	_
 30	distancés	distancer	VERB	_	part_pass_mp=y	27	conj	_	_
 31	de	de	ADP	_	_	36	case	_	_
-32	moins	_	ADV	_	_	34	advmod	_	_
+32	moins	moins	ADV	_	_	34	advmod	_	_
 33	de	de	ADP	_	_	32	mwe	_	_
 34	8/10e	_	NUM	_	_	30	nmod	_	_
 35	de	de	ADP	_	_	36	case	_	_
@@ -4084,7 +4084,7 @@
 13	IP	IP	NOUN	_	Gender=Masc|Number=Sing	12	compound	_	_
 14	ne	_	PART	_	_	15	neg	_	_
 15	constitue	constituer	VERB	_	ind_pres_3s=y	0	root	_	_
-16	pas	_	ADV	_	_	15	neg	_	_
+16	pas	pas	ADV	_	_	15	neg	_	_
 17	une	un	DET	_	Gender=Fem|Number=Sing	19	det	_	_
 18	bonne	bon	ADJ	_	fs=y	19	amod	_	_
 19	nouvelle	nouvelle	NOUN	_	Gender=Fem|Number=Sing	15	dobj	_	_
@@ -4099,9 +4099,9 @@
 27	qui	qui	PRON	_	_	28	nsubj	_	_
 28	perdent	perdre	VERB	_	ind_pres_3p=y	22	acl:relcl	_	_
 29	de	de	ADP	_	_	28	advmod	_	_
-30	plus	_	ADV	_	_	29	mwe	_	_
+30	plus	plus	ADV	_	_	29	mwe	_	_
 31	en	en	ADP	_	_	29	mwe	_	_
-32	plus	_	ADV	_	_	29	mwe	_	_
+32	plus	plus	ADV	_	_	29	mwe	_	_
 33	pied	pied	NOUN	_	Gender=Masc|Number=Sing	28	dobj	_	_
 34	face	face	NOUN	_	Gender=Fem|Number=Sing	37	case	_	_
 35-36	au	_	_	_	_	_	_	_	_
@@ -4117,9 +4117,9 @@
 3	a	avoir	VERB	_	ind_pres_3s=y	0	root	_	_
 4	un	un	DET	_	Gender=Masc|Number=Sing	5	det	_	_
 5	personnage	personnage	NOUN	_	Gender=Masc|Number=Sing	3	dobj	_	_
-6	très	_	ADV	_	_	7	advmod	_	_
+6	très	très	ADV	_	_	7	advmod	_	_
 7	absent	absent	ADJ	_	ms=y	5	amod	_	_
-8	tout	_	ADV	_	_	14	case	_	_
+8	tout	tout	ADV	_	_	14	case	_	_
 9-10	au	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	8	mwe	_	_
 10	le	le	DET	_	Gender=Masc|Number=Sing	8	mwe	_	_
@@ -4153,10 +4153,10 @@
 7	note	note	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 8	ne	_	PART	_	_	11	neg	_	_
 9	devrait	devoir	AUX	_	cond_pres_3s=y	11	aux	_	_
-10	pas	_	ADV	_	_	11	neg	_	_
+10	pas	pas	ADV	_	_	11	neg	_	_
 11	baisser	baisser	VERB	_	infinitif=y	4	ccomp	_	_
 12	de	de	ADP	_	_	16	case	_	_
-13	plus	_	ADV	_	_	15	advmod	_	_
+13	plus	plus	ADV	_	_	15	advmod	_	_
 14	d'	de	ADP	_	_	13	mwe	_	_
 15	un	_	NUM	_	_	16	nummod	_	_
 16	cran	cran	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
@@ -4165,7 +4165,7 @@
 19	situation	situation	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
 20	n'	_	PART	_	_	24	neg	_	_
 21	est	être	VERB	_	ind_pres_3s=y	24	cop	_	_
-22	pas	_	ADV	_	_	24	neg	_	_
+22	pas	pas	ADV	_	_	24	neg	_	_
 23	la	le	DET	_	Gender=Fem|Number=Sing	24	det	_	_
 24	même	même	ADJ	_	fs=y	0	root	_	_
 25	pour	pour	ADP	_	_	27	case	_	_
@@ -4189,7 +4189,7 @@
 3	investisseurs	investisseur	NOUN	_	Gender=Masc|Number=Plur	20	nsubj	_	_
 4	qui	qui	PRON	_	_	8	nsubj	_	_
 5	,	,	PUNCT	_	_	8	punct	_	_
-6	auparavant	_	ADV	_	_	8	advmod	_	_
+6	auparavant	auparavant	ADV	_	_	8	advmod	_	_
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	voyaient	voir	VERB	_	imparfait_3p=y	3	acl:relcl	_	_
 9	d'	de	ADP	_	_	12	case	_	_
@@ -4204,7 +4204,7 @@
 18	les	le	DET	_	Gender=Fem|Number=Plur	19	det	_	_
 19	entreprises	entreprise	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	_
 20	reconnaissent	reconnaître	VERB	_	ind_pres_3p=y	0	root	_	_
-21	maintenant	_	ADV	_	_	20	advmod	_	_
+21	maintenant	maintenant	ADV	_	_	20	advmod	_	_
 22	les	le	DET	_	Gender=Masc|Number=Plur	23	det	_	_
 23	avantages	avantage	NOUN	_	Gender=Masc|Number=Plur	20	dobj	_	_
 24	de	de	ADP	_	_	26	case	_	_
@@ -4221,7 +4221,7 @@
 # sentence-text: Ca énerve beaucoup de personnes, mais pour l'utilisateur final, c'est rassurant dans 80% des cas.
 1	Ca	ça	PRON	_	Person=3|ms=y	2	nsubj	_	_
 2	énerve	énerver	VERB	_	ind_pres_3s=y	0	root	_	_
-3	beaucoup	_	ADV	_	_	5	det	_	_
+3	beaucoup	beaucoup	ADV	_	_	5	det	_	_
 4	de	de	ADP	_	_	3	mwe	_	_
 5	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	2	dobj	_	_
 6	,	,	PUNCT	_	_	2	punct	_	_
@@ -4254,7 +4254,7 @@
 
 # sentid: fr-ud-test_00141
 # sentence-text: Ainsi, ces cadres, de par leur clarté et leur crédibilité, ont accru la portée des actions de la Banque.
-1	Ainsi	_	ADV	_	_	15	advmod	_	_
+1	Ainsi	ainsi	ADV	_	_	15	advmod	_	_
 2	,	,	PUNCT	_	_	15	punct	_	_
 3	ces	ce	DET	_	Gender=Masc|Number=Plur	4	det	_	_
 4	cadres	cadre	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
@@ -4330,8 +4330,8 @@
 17	s'	se	PRON	_	Person=3	18	dobj	_	_
 18	éclatera	éclater	VERB	_	ind_futur_3s=y	4	ccomp	_	_
 19	un	un	DET	_	Gender=Masc|Number=Sing	21	advmod	_	_
-20	peu	_	ADV	_	_	19	mwe	_	_
-21	plus	_	ADV	_	_	18	advmod	_	_
+20	peu	peu	ADV	_	_	19	mwe	_	_
+21	plus	plus	ADV	_	_	18	advmod	_	_
 22	"	"	PUNCT	_	_	18	punct	_	_
 23	,	,	PUNCT	_	_	25	punct	_	_
 24	a	avoir	AUX	_	ind_pres_3s=y	25	aux	_	_
@@ -4343,12 +4343,12 @@
 # sentence-text: Il faut toutefois noter qu'il est alors de bon ton pour tout homme jouissant d'une aisance financière, de posséder une ou plusieurs maîtresses.
 1	Il	il	PRON	_	Person=3|ms=y	4	nsubj	_	_
 2	faut	falloir	AUX	_	ind_pres_3s=y	4	aux	_	_
-3	toutefois	_	ADV	_	_	4	advmod	_	_
+3	toutefois	toutefois	ADV	_	_	4	advmod	_	_
 4	noter	noter	VERB	_	infinitif=y	0	root	_	_
 5	qu'	_	SCONJ	_	_	7	mark	_	_
 6	il	il	PRON	_	Person=3|ms=y	7	nsubj	_	_
 7	est	être	VERB	_	ind_pres_3s=y	4	ccomp	_	_
-8	alors	_	ADV	_	_	7	advmod	_	_
+8	alors	alors	ADV	_	_	7	advmod	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	bon	bon	ADJ	_	ms=y	11	amod	_	_
 11	ton	ton	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
@@ -4465,7 +4465,7 @@
 
 # sentid: fr-ud-test_00149
 # sentence-text: Là, on saura qui est le coupable et qui est la victime », a prévenu le patron de la FAF.
-1	Là	_	ADV	_	_	4	advmod	_	_
+1	Là	là	ADV	_	_	4	advmod	_	_
 2	,	,	PUNCT	_	_	4	punct	_	_
 3	on	on	PRON	_	Person=3|ms=y	4	nsubj	_	_
 4	saura	savoir	VERB	_	ind_futur_3s=y	17	ccomp	_	_
@@ -4491,7 +4491,7 @@
 
 # sentid: fr-ud-test_00150
 # sentence-text: Comment repoussez vous les bateaux d'immigrés dans les eaux internationales ?
-1	Comment	_	ADV	_	_	2	advmod	_	_
+1	Comment	comment	ADV	_	_	2	advmod	_	_
 2	repoussez	repousser	VERB	_	ind_pres_2p=y	0	root	_	_
 3	vous	vous	PRON	_	Person=2|p=y	2	nsubj	_	_
 4	les	le	DET	_	Gender=Masc|Number=Plur	5	det	_	_
@@ -4514,12 +4514,12 @@
 6	FAR	_	PROPN	_	_	2	appos	_	_
 7	)	)	PUNCT	_	_	6	punct	_	_
 8	organise	organiser	VERB	_	ind_pres_3s=y	0	root	_	_
-9	aujourd'hui	_	ADV	_	_	8	advmod	_	_
+9	aujourd'hui	aujourd'hui	ADV	_	_	8	advmod	_	_
 10	un	un	DET	_	Gender=Masc|Number=Sing	11	det	_	_
 11	tournoi	tournoi	NOUN	_	Gender=Masc|Number=Sing	8	dobj	_	_
 12	réunissant	réunir	VERB	_	participe_present=y	11	acl	_	_
 13	les	le	DET	_	Gender=Masc|Number=Plur	17	det	_	_
-14	moins	_	ADV	_	_	16	advmod	_	_
+14	moins	moins	ADV	_	_	16	advmod	_	_
 15	de	de	ADP	_	_	14	mwe	_	_
 16	15	_	NUM	_	_	17	nummod	_	_
 17	ans	an	NOUN	_	Gender=Masc|Number=Plur	12	dobj	_	_
@@ -4560,9 +4560,9 @@
 24	vétérans	vétéran	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
 25	,	,	PUNCT	_	_	5	punct	_	_
 26	de	de	ADP	_	_	30	advmod	_	_
-27	plus	_	ADV	_	_	26	mwe	_	_
+27	plus	plus	ADV	_	_	26	mwe	_	_
 28	en	en	ADP	_	_	26	mwe	_	_
-29	plus	_	ADV	_	_	26	mwe	_	_
+29	plus	plus	ADV	_	_	26	mwe	_	_
 30	motivés	motiver	VERB	_	part_pass_mp=y	24	acl	_	_
 31	par	par	ADP	_	_	33	case	_	_
 32	la	le	DET	_	Gender=Fem|Number=Sing	33	det	_	_
@@ -4570,8 +4570,8 @@
 34	et	_	CONJ	_	_	5	cc	_	_
 35	quelques	quelque	DET	_	Gender=Masc|Number=Plur	36	det	_	_
 36	jours	jour	NOUN	_	Gender=Masc|Number=Plur	41	nmod	_	_
-37	plus	_	ADV	_	_	38	advmod	_	_
-38	tard	_	ADV	_	_	36	advmod	_	_
+37	plus	plus	ADV	_	_	38	advmod	_	_
+38	tard	tard	ADV	_	_	36	advmod	_	_
 39	l'	le	DET	_	Gender=Fem|Number=Sing	41	det	_	_
 40	incontournable	incontournable	ADJ	_	fs=y	41	amod	_	_
 41	épreuve	épreuve	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
@@ -4587,7 +4587,7 @@
 
 # sentid: fr-ud-test_00153
 # sentence-text: Lourdement endetté (160 milliards d'euros fin 2010), le Portugal a fini l'année 2010 en récession avec un déficit public à 9,1% du PIB et un chômage à plus de 11%.
-1	Lourdement	_	ADV	_	_	2	advmod	_	_
+1	Lourdement	lourdement	ADV	_	_	2	advmod	_	_
 2	endetté	endetter	VERB	_	part_pass_ms=y	13	acl	_	_
 3	(	(	PUNCT	_	_	7	punct	_	_
 4	160	_	NUM	_	_	5	nummod	_	_
@@ -4622,7 +4622,7 @@
 32	un	un	DET	_	Gender=Masc|Number=Sing	33	det	_	_
 33	chômage	chômage	NOUN	_	Gender=Masc|Number=Sing	23	conj	_	_
 34	à	à	ADP	_	_	38	case	_	_
-35	plus	_	ADV	_	_	37	advmod	_	_
+35	plus	plus	ADV	_	_	37	advmod	_	_
 36	de	de	ADP	_	_	35	mwe	_	_
 37	11	_	NUM	_	_	38	nummod	_	_
 38	%	pourcent	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
@@ -4630,7 +4630,7 @@
 
 # sentid: fr-ud-test_00154
 # sentence-text: Certes la France peut se consoler avec les piètres performances de son voisin italien, une des lanternes noires de l'Europe sur le classement du Wef (74e).
-1	Certes	_	ADV	_	_	6	advmod	_	_
+1	Certes	certes	ADV	_	_	6	advmod	_	_
 2	la	le	DET	_	Gender=Fem|Number=Sing	3	det	_	_
 3	France	_	PROPN	_	_	6	nsubj	_	_
 4	peut	pouvoir	AUX	_	ind_pres_3s=y	6	aux	_	_
@@ -4752,7 +4752,7 @@
 10	japonaise	japonais	ADJ	_	fs=y	6	amod	_	_
 11	n'	_	PART	_	_	14	neg	_	_
 12	a	avoir	AUX	_	ind_pres_3s=y	14	aux	_	_
-13	pas	_	ADV	_	_	14	neg	_	_
+13	pas	pas	ADV	_	_	14	neg	_	_
 14	relevé	relever	VERB	_	part_pass_ms=y	0	root	_	_
 15	le	le	DET	_	Gender=Masc|Number=Sing	16	det	_	_
 16	classement	classement	NOUN	_	Gender=Masc|Number=Sing	14	dobj	_	_
@@ -4773,7 +4773,7 @@
 
 # sentid: fr-ud-test_00158
 # sentence-text: Comme chaque soir à 18h40, il tranche, malmène et détourne l'actualité.
-1	Comme	_	ADV	_	_	3	advmod	_	_
+1	Comme	comme	ADV	_	_	3	advmod	_	_
 2	chaque	chaque	DET	_	Gender=Masc|Number=Sing	3	det	_	_
 3	soir	soir	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 4	à	à	ADP	_	_	5	case	_	_
@@ -4813,7 +4813,7 @@
 19	Richard	_	PROPN	_	_	13	appos	_	_
 20	Juzanx	_	PROPN	_	_	19	name	_	_
 21	,	,	PUNCT	_	_	7	punct	_	_
-22	tandis	_	ADV	_	_	28	mark	_	_
+22	tandis	tandis	ADV	_	_	28	mark	_	_
 23	que	_	SCONJ	_	_	22	mwe	_	_
 24	les	le	DET	_	Gender=Masc|Number=Plur	26	det	_	_
 25	80	_	NUM	_	_	26	nummod	_	_
@@ -4845,7 +4845,7 @@
 
 # sentid: fr-ud-test_00160
 # sentence-text: Même du fond de l'enfer, Dany Laferrière reste un réaliste heureux.
-1	Même	_	ADV	_	_	4	advmod	_	_
+1	Même	même	ADV	_	_	4	advmod	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	le	le	DET	_	Gender=Masc|Number=Sing	4	det	_	_
@@ -4884,7 +4884,7 @@
 # sentence-text: Celle-ci a également perdu du terrain sur l'euro, l'EUR/GBP prenant 0.27% pour se hisser à 0.8647.
 1	Celle-ci	celui-ci	PRON	_	fs=y	4	nsubj	_	_
 2	a	avoir	AUX	_	ind_pres_3s=y	4	aux	_	_
-3	également	_	ADV	_	_	4	advmod	_	_
+3	également	également	ADV	_	_	4	advmod	_	_
 4	perdu	perdre	VERB	_	part_pass_ms=y	0	root	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
@@ -4929,9 +4929,9 @@
 16	les	le	DET	_	Number=Plur	17	det	_	_
 17	Tchèques	_	PROPN	_	_	22	nsubj	_	_
 18	étaient	être	VERB	_	imparfait_3p=y	22	cop	_	_
-19	probablement	_	ADV	_	_	22	advmod	_	_
+19	probablement	probablement	ADV	_	_	22	advmod	_	_
 20	les	le	DET	_	Number=Plur	21	det	_	_
-21	plus	_	ADV	_	_	22	advmod	_	_
+21	plus	plus	ADV	_	_	22	advmod	_	_
 22	ouverts	ouvert	ADJ	_	mp=y	4	ccomp	_	_
 23	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -4957,21 +4957,21 @@
 
 # sentid: fr-ud-test_00165
 # sentence-text: Plus de 20 personnes ont en outre été blessées, dont une grièvement, lors d'affrontements survenus dans des villages chiites des environs de la capitale, Manama, selon ces témoins.
-1	Plus	_	ADV	_	_	3	advmod	_	_
+1	Plus	plus	ADV	_	_	3	advmod	_	_
 2	de	de	ADP	_	_	1	mwe	_	_
 3	20	_	NUM	_	_	4	nummod	_	_
 4	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	9	nsubjpass	_	_
 5	ont	avoir	AUX	_	ind_pres_3p=y	9	aux	_	_
 6	en	en	ADP	_	_	9	advmod	_	_
-7	outre	_	ADV	_	_	6	mwe	_	_
+7	outre	outre	ADV	_	_	6	mwe	_	_
 8	été	être	AUX	_	part_pass_ms=y	9	auxpass	_	_
 9	blessées	blesser	VERB	_	part_pass_fp=y	0	root	_	_
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	dont	dont	PRON	_	_	12	nmod	_	_
 12	une	_	NUM	_	_	9	conj	_	_
-13	grièvement	_	ADV	_	_	12	advmod	_	_
+13	grièvement	grièvement	ADV	_	_	12	advmod	_	_
 14	,	,	PUNCT	_	_	9	punct	_	_
-15	lors	_	ADV	_	_	17	case	_	_
+15	lors	lors	ADV	_	_	17	case	_	_
 16	d'	de	ADP	_	_	15	mwe	_	_
 17	affrontements	affrontement	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
 18	survenus	survenir	VERB	_	part_pass_mp=y	17	acl	_	_
@@ -5014,7 +5014,7 @@
 15	les	le	DET	_	Gender=Masc|Number=Plur	16	det	_	_
 16	élèves	élève	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
 17	mais	_	CONJ	_	_	16	cc	_	_
-18	aussi	_	ADV	_	_	19	advmod	_	_
+18	aussi	aussi	ADV	_	_	19	advmod	_	_
 19	parents	parent	NOUN	_	Gender=Masc|Number=Plur	16	conj	_	_
 20	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -5037,7 +5037,7 @@
 3	,	,	PUNCT	_	_	9	punct	_	_
 4	ce	ce	PRON	_	Person=3|s=y	9	nsubj	_	_
 5	sont	être	VERB	_	ind_pres_3p=y	9	cop	_	_
-6	près	_	ADV	_	_	8	advmod	_	_
+6	près	près	ADV	_	_	8	advmod	_	_
 7	d'	de	ADP	_	_	6	mwe	_	_
 8	une	_	NUM	_	_	9	nummod	_	_
 9	centaine	centaine	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -5060,10 +5060,10 @@
 2	ton	ton	NOUN	_	Gender=Masc|Number=Sing	7	nsubjpass	_	_
 3	a	avoir	AUX	_	ind_pres_3s=y	7	aux	_	_
 4	d'	de	ADP	_	_	7	advmod	_	_
-5	ailleurs	_	ADV	_	_	4	mwe	_	_
+5	ailleurs	ailleurs	ADV	_	_	4	mwe	_	_
 6	été	être	AUX	_	part_pass_ms=y	7	auxpass	_	_
 7	donné	donner	VERB	_	part_pass_ms=y	0	root	_	_
-8	hier	_	ADV	_	_	7	advmod	_	_
+8	hier	hier	ADV	_	_	7	advmod	_	_
 9	par	par	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Gender=Masc|Number=Sing	11	det	_	_
 11	général	général	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
@@ -5112,11 +5112,11 @@
 # sentid: fr-ud-test_00170
 # sentence-text: De plus, on pourra aussi trouver une nouveauté avec le Salon du jeu en bois.
 1	De	de	ADP	_	_	7	advmod	_	_
-2	plus	_	ADV	_	_	1	mwe	_	_
+2	plus	plus	ADV	_	_	1	mwe	_	_
 3	,	,	PUNCT	_	_	7	punct	_	_
 4	on	on	PRON	_	Person=3|ms=y	7	nsubj	_	_
 5	pourra	pouvoir	AUX	_	ind_futur_3s=y	7	aux	_	_
-6	aussi	_	ADV	_	_	7	advmod	_	_
+6	aussi	aussi	ADV	_	_	7	advmod	_	_
 7	trouver	trouver	VERB	_	infinitif=y	0	root	_	_
 8	une	un	DET	_	Gender=Fem|Number=Sing	9	det	_	_
 9	nouveauté	nouveauté	NOUN	_	Gender=Fem|Number=Sing	7	dobj	_	_
@@ -5156,7 +5156,7 @@
 # sentence-text: Ça va forcément me rappeler des souvenirs.
 1	Ça	ça	PRON	_	ms=y	5	nsubj	_	_
 2	va	aller	AUX	_	ind_pres_3s=y	5	aux	_	_
-3	forcément	_	ADV	_	_	5	advmod	_	_
+3	forcément	forcément	ADV	_	_	5	advmod	_	_
 4	me	se	PRON	_	Person=1|s=y	5	iobj	_	_
 5	rappeler	rappeler	VERB	_	infinitif=y	0	root	_	_
 6	des	un	DET	_	Gender=Masc|Number=Plur	7	det	_	_
@@ -5194,7 +5194,7 @@
 25	équipes	équipe	NOUN	_	Gender=Fem|Number=Plur	27	nsubj	_	_
 26	marketing	marketing	NOUN	_	Gender=Masc|Number=Sing	25	compound	_	_
 27	accroissent	accroître	VERB	_	ind_pres_3p=y	0	root	_	_
-28	rapidement	_	ADV	_	_	27	advmod	_	_
+28	rapidement	rapidement	ADV	_	_	27	advmod	_	_
 29	leur	son	DET	_	Gender=Fem|Number=Sing	30	nmod:poss	_	_
 30	efficacité	efficacité	NOUN	_	Gender=Fem|Number=Sing	27	dobj	_	_
 31	et	_	CONJ	_	_	30	cc	_	_
@@ -5279,10 +5279,10 @@
 3	de	de	ADP	_	_	5	case	_	_
 4	les	le	DET	_	Gender=Masc|Number=Plur	5	det	_	_
 5	Etats	état	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
-6	très	_	ADV	_	_	7	advmod	_	_
+6	très	très	ADV	_	_	7	advmod	_	_
 7	endettés	endetté	ADJ	_	mp=y	5	amod	_	_
 8	sont	être	VERB	_	ind_pres_3p=y	10	cop	_	_
-9	bien	_	ADV	_	_	10	advmod	_	_
+9	bien	bien	ADV	_	_	10	advmod	_	_
 10	réels	réel	ADJ	_	mp=y	0	root	_	_
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	mais	_	CONJ	_	_	10	cc	_	_
@@ -5301,7 +5301,7 @@
 24	,	,	PUNCT	_	_	10	punct	_	_
 25	et	_	CONJ	_	_	10	cc	_	_
 26	concernent	concerner	VERB	_	ind_pres_3p=y	10	conj	_	_
-27	moins	_	ADV	_	_	26	advmod	_	_
+27	moins	moins	ADV	_	_	26	advmod	_	_
 28	le	le	DET	_	Gender=Masc|Number=Sing	29	det	_	_
 29	reste	reste	NOUN	_	Gender=Masc|Number=Sing	26	dobj	_	_
 30-31	du	_	_	_	_	_	_	_	_
@@ -5382,7 +5382,7 @@
 19	existants	existant	ADJ	_	mp=y	18	amod	_	_
 20	,	,	PUNCT	_	_	23	punct	_	_
 21	a	avoir	AUX	_	ind_pres_3s=y	23	aux	_	_
-22	ainsi	_	ADV	_	_	23	advmod	_	_
+22	ainsi	ainsi	ADV	_	_	23	advmod	_	_
 23	fait	faire	VERB	_	part_pass_ms=y	0	root	_	_
 24	tomber	tomber	VERB	_	infinitif=y	23	xcomp	_	_
 25	le	le	DET	_	Gender=Masc|Number=Sing	26	det	_	_
@@ -5440,7 +5440,7 @@
 4	l'	le	DET	_	Gender=Masc|Number=Sing	5	det	_	_
 5	automobiliste	automobiliste	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 6	était	être	VERB	_	imparfait_3s=y	9	cop	_	_
-7	toujours	_	ADV	_	_	9	advmod	_	_
+7	toujours	toujours	ADV	_	_	9	advmod	_	_
 8	en	en	ADP	_	_	9	case	_	_
 9	garde	garde	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 10	à	à	ADP	_	_	9	mwe	_	_
@@ -5459,8 +5459,8 @@
 8	a	avoir	AUX	_	ind_pres_3s=y	13	aux	_	_
 9	été	être	VERB	_	part_pass_ms=y	13	cop	_	_
 10	un	un	DET	_	Gender=Masc|Number=Sing	12	advmod	_	_
-11	peu	_	ADV	_	_	10	mwe	_	_
-12	moins	_	ADV	_	_	13	advmod	_	_
+11	peu	peu	ADV	_	_	10	mwe	_	_
+12	moins	moins	ADV	_	_	13	advmod	_	_
 13	mortelle	mortel	ADJ	_	fs=y	0	root	_	_
 14	que	_	SCONJ	_	_	17	mark	_	_
 15	les	le	DET	_	Gender=Fem|Number=Plur	17	det	_	_
@@ -5471,7 +5471,7 @@
 
 # sentid: fr-ud-test_00183
 # sentence-text: Cependant, vous êtes invités à respecter un certain nombre de critères.
-1	Cependant	_	ADV	_	_	5	advmod	_	_
+1	Cependant	cependant	ADV	_	_	5	advmod	_	_
 2	,	,	PUNCT	_	_	5	punct	_	_
 3	vous	vous	PRON	_	Person=2|p=y	5	nsubjpass	_	_
 4	êtes	être	AUX	_	ind_pres_2p=y	5	auxpass	_	_
@@ -5507,12 +5507,12 @@
 5	jeune	jeune	ADJ	_	fs=y	6	amod	_	_
 6	femme	femme	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 7	a	avoir	AUX	_	ind_pres_3s=y	10	aux	_	_
-8	très	_	ADV	_	_	9	advmod	_	_
-9	rapidement	_	ADV	_	_	10	advmod	_	_
+8	très	très	ADV	_	_	9	advmod	_	_
+9	rapidement	rapidement	ADV	_	_	10	advmod	_	_
 10	engagé	engager	VERB	_	part_pass_ms=y	0	root	_	_
 11	un	un	DET	_	Gender=Masc|Number=Sing	12	det	_	_
 12	avocat	avocat	NOUN	_	Gender=Masc|Number=Sing	10	dobj	_	_
-13	très	_	ADV	_	_	14	advmod	_	_
+13	très	très	ADV	_	_	14	advmod	_	_
 14	en	en	ADP	_	_	12	amod	_	_
 15	vue	vue	NOUN	_	Gender=Fem|Number=Sing	14	mwe	_	_
 16	de	de	ADP	_	_	17	case	_	_
@@ -5534,7 +5534,7 @@
 6	,	,	PUNCT	_	_	12	punct	_	_
 7	c'	ce	PRON	_	Person=3|s=y	12	expl	_	_
 8	est	être	VERB	_	ind_pres_3s=y	12	cop	_	_
-9	plutôt	_	ADV	_	_	12	advmod	_	_
+9	plutôt	plutôt	ADV	_	_	12	advmod	_	_
 10	une	un	DET	_	Gender=Fem|Number=Sing	12	det	_	_
 11	bonne	bon	ADJ	_	fs=y	12	amod	_	_
 12	chose	chose	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -5568,7 +5568,7 @@
 9	L'	le	DET	_	Number=Sing	10	compound	_	_
 10	Indépendant	_	PROPN	_	_	7	nmod	_	_
 11	--	--	PUNCT	_	_	7	punct	_	_
-12	comme	_	ADV	_	_	14	mark	_	_
+12	comme	comme	ADV	_	_	14	mark	_	_
 13	un	un	DET	_	Gender=Masc|Number=Sing	14	det	_	_
 14	postulant	postulant	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 15	sérieux	sérieux	ADJ	_	ms=y	14	amod	_	_
@@ -5605,7 +5605,7 @@
 44	Il	il	PRON	_	Person=3|ms=y	46	nsubj	_	_
 45	y	y	PRON	_	_	46	expl	_	_
 46	a	avoir	VERB	_	ind_pres_3s=y	37	ccomp	_	_
-47	bien	_	ADV	_	_	46	advmod	_	_
+47	bien	bien	ADV	_	_	46	advmod	_	_
 48	de	un	DET	_	Gender=Fem|Number=Sing	50	det	_	_
 49	la	le	DET	_	Gender=Fem|Number=Sing	50	det	_	_
 50	fumée	fumée	NOUN	_	Gender=Fem|Number=Sing	46	dobj	_	_
@@ -5701,15 +5701,15 @@
 
 # sentid: fr-ud-test_00190
 # sentence-text: Peut-être serait-il plus libérateur de crier bien fort : OUACHE !...
-1	Peut-être	_	ADV	_	_	5	advmod	_	_
+1	Peut-être	peut-être	ADV	_	_	5	advmod	_	_
 2	serait	être	VERB	_	cond_pres_3s=y	5	cop	_	_
 3	-il	il	PRON	_	Person=3|ms=y	5	nsubj	_	_
-4	plus	_	ADV	_	_	5	advmod	_	_
+4	plus	plus	ADV	_	_	5	advmod	_	_
 5	libérateur	libérateur	ADJ	_	ms=y	0	root	_	_
 6	de	de	ADP	_	_	7	mark	_	_
 7	crier	crier	VERB	_	infinitif=y	5	acl	_	_
-8	bien	_	ADV	_	_	9	advmod	_	_
-9	fort	_	ADV	_	_	7	advmod	_	_
+8	bien	bien	ADV	_	_	9	advmod	_	_
+9	fort	fort	ADV	_	_	7	advmod	_	_
 10	:	:	PUNCT	_	_	7	punct	_	_
 11	OUACHE	_	INTJ	_	_	7	discourse	_	_
 12	!	!	PUNCT	_	_	7	punct	_	_
@@ -5806,7 +5806,7 @@
 3	n'	_	PART	_	_	5	neg	_	_
 4	y	y	PRON	_	_	5	expl	_	_
 5	a	avoir	VERB	_	ind_pres_3s=y	27	ccomp	_	_
-6	pas	_	ADV	_	_	5	neg	_	_
+6	pas	pas	ADV	_	_	5	neg	_	_
 7	de	un	DET	_	Gender=Masc|Number=Sing	8	det	_	_
 8	problème	problème	NOUN	_	Gender=Masc|Number=Sing	5	dobj	_	_
 9	de	de	ADP	_	_	10	case	_	_
@@ -5818,7 +5818,7 @@
 15	je	il	PRON	_	Person=1|s=y	17	nsubj	_	_
 16	ne	_	PART	_	_	17	neg	_	_
 17	sais	savoir	VERB	_	ind_pres_1s=y	5	conj	_	_
-18	pas	_	ADV	_	_	17	neg	_	_
+18	pas	pas	ADV	_	_	17	neg	_	_
 19	ce	ce	PRON	_	Person=3|s=y	17	expl	_	_
 20	que	que	PRON	_	_	22	dobj	_	_
 21	c'	ce	PRON	_	Person=3|s=y	22	nsubj	_	_
@@ -5845,7 +5845,7 @@
 3	41-41	_	NUM	_	_	1	dep	_	_
 4	)	)	PUNCT	_	_	3	punct	_	_
 5	coiffe	coiffer	VERB	_	ind_pres_3s=y	0	root	_	_
-6	ainsi	_	ADV	_	_	5	advmod	_	_
+6	ainsi	ainsi	ADV	_	_	5	advmod	_	_
 7-8	au	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	9	case	_	_
 8	le	le	DET	_	Gender=Masc|Number=Sing	9	det	_	_
@@ -5881,7 +5881,7 @@
 6	France	_	PROPN	_	_	5	name	_	_
 7	n'	_	PART	_	_	12	neg	_	_
 8	est	être	VERB	_	ind_pres_3s=y	12	cop	_	_
-9	pas	_	ADV	_	_	12	neg	_	_
+9	pas	pas	ADV	_	_	12	neg	_	_
 10	à	à	ADP	_	_	12	case	_	_
 11	son	son	DET	_	Gender=Masc|Number=Sing	12	nmod:poss	_	_
 12	coup	coup	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -5985,13 +5985,13 @@
 59	de	de	ADP	_	_	60	case	_	_
 60	mètres	mètre	NOUN	_	Gender=Masc|Number=Plur	58	nmod	_	_
 61	de	de	ADP	_	_	62	case	_	_
-62	là	_	ADV	_	_	60	advmod	_	_
+62	là	là	ADV	_	_	60	advmod	_	_
 63	.	.	PUNCT	_	_	44	punct	_	_
 
 # sentid: fr-ud-test_00198
 # sentence-text: « Oui on le sait, mais je dirai qu'il la faut.
 1	«	«	PUNCT	_	_	5	punct	_	_
-2	Oui	_	ADV	_	_	5	advmod	_	_
+2	Oui	oui	ADV	_	_	5	advmod	_	_
 3	on	on	PRON	_	Person=3|ms=y	5	nsubj	_	_
 4	le	le	PRON	_	Person=3|ms=y	5	dobj	_	_
 5	sait	savoir	VERB	_	ind_pres_3s=y	0	root	_	_
@@ -6036,7 +6036,7 @@
 6	un	un	DET	_	Gender=Masc|Number=Sing	7	det	_	_
 7	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 8	gustatif	gustatif	ADJ	_	ms=y	7	amod	_	_
-9	plus	_	ADV	_	_	11	advmod	_	_
+9	plus	plus	ADV	_	_	11	advmod	_	_
 10	que	_	SCONJ	_	_	9	mwe	_	_
 11	moyen	moyen	ADJ	_	ms=y	7	amod	_	_
 12	En	en	ADP	_	_	17	advmod	_	_
@@ -6051,7 +6051,7 @@
 21	tout	tout	DET	_	Gender=Masc|Number=Sing	20	mwe	_	_
 22	cas	cas	NOUN	_	Gender=Masc|Number=Sing	20	mwe	_	_
 23	pour	pour	ADP	_	_	27	case	_	_
-24	plus	_	ADV	_	_	26	advmod	_	_
+24	plus	plus	ADV	_	_	26	advmod	_	_
 25	de	de	ADP	_	_	24	mwe	_	_
 26	5	_	NUM	_	_	27	nummod	_	_
 27	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	_
@@ -6079,7 +6079,7 @@
 5	qui	qui	PRON	_	_	6	nsubj	_	_
 6	propose	proposer	VERB	_	ind_pres_3s=y	4	acl:relcl	_	_
 7	de	un	DET	_	Gender=Fem|Number=Plur	10	det	_	_
-8	très	_	ADV	_	_	9	advmod	_	_
+8	très	très	ADV	_	_	9	advmod	_	_
 9	bonnes	bon	ADJ	_	fp=y	10	amod	_	_
 10	tapas	tapa	NOUN	_	Gender=Fem|Number=Plur	6	dobj	_	_
 11	et	_	CONJ	_	_	10	cc	_	_
@@ -6101,21 +6101,21 @@
 27	à	à	ADP	_	_	29	case	_	_
 28	des	un	DET	_	Gender=Masc|Number=Plur	29	det	_	_
 29	prix	prix	NOUN	_	Gender=Masc|Number=Plur	25	conj	_	_
-30	très	_	ADV	_	_	31	advmod	_	_
+30	très	très	ADV	_	_	31	advmod	_	_
 31	doux	doux	ADJ	_	mp=y	29	amod	_	_
 32	.	.	PUNCT	_	_	1	punct	_	_
 
 # sentid: fr-ud-test_00203
 # sentence-text: Allez-y.
-1	Allez-y	_	ADV	_	_	0	root	_	_
+1	Allez-y	allez-y	ADV	_	_	0	root	_	_
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sentid: fr-ud-test_00204
 # sentence-text: Alors je retournes souvent au Campuchea, son hote est toujours là pour vous aider à trouver votre bonheur, la cuisine est vraiment excellente et vous passez toujours un bon moment, essayez et vous y retournerez...
-1	Alors	_	ADV	_	_	3	advmod	_	_
+1	Alors	alors	ADV	_	_	3	advmod	_	_
 2	je	il	PRON	_	Person=1|s=y	3	nsubj	_	_
 3	retournes	retourner	VERB	_	ind_pres_1s=y	0	root	_	_
-4	souvent	_	ADV	_	_	3	advmod	_	_
+4	souvent	souvent	ADV	_	_	3	advmod	_	_
 5-6	au	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Gender=Masc|Number=Sing	7	det	_	_
@@ -6124,8 +6124,8 @@
 9	son	son	DET	_	Gender=Masc|Number=Sing	10	nmod:poss	_	_
 10	hote	hôte	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 11	est	être	VERB	_	ind_pres_3s=y	3	parataxis	_	_
-12	toujours	_	ADV	_	_	11	advmod	_	_
-13	là	_	ADV	_	_	11	advmod	_	_
+12	toujours	toujours	ADV	_	_	11	advmod	_	_
+13	là	là	ADV	_	_	11	advmod	_	_
 14	pour	pour	ADP	_	_	16	mark	_	_
 15	vous	le	PRON	_	Person=2|p=y	16	dobj	_	_
 16	aider	aider	VERB	_	infinitif=y	11	advcl	_	_
@@ -6137,12 +6137,12 @@
 22	la	le	DET	_	Gender=Fem|Number=Sing	23	det	_	_
 23	cuisine	cuisine	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
 24	est	être	VERB	_	ind_pres_3s=y	26	cop	_	_
-25	vraiment	_	ADV	_	_	26	advmod	_	_
+25	vraiment	vraiment	ADV	_	_	26	advmod	_	_
 26	excellente	excellent	ADJ	_	fs=y	11	conj	_	_
 27	et	_	CONJ	_	_	11	cc	_	_
 28	vous	vous	PRON	_	Person=2|p=y	29	nsubj	_	_
 29	passez	passer	VERB	_	ind_pres_2p=y	11	conj	_	_
-30	toujours	_	ADV	_	_	29	advmod	_	_
+30	toujours	toujours	ADV	_	_	29	advmod	_	_
 31	un	un	DET	_	Gender=Masc|Number=Sing	33	det	_	_
 32	bon	bon	ADJ	_	ms=y	33	amod	_	_
 33	moment	moment	NOUN	_	Gender=Masc|Number=Sing	29	dobj	_	_
@@ -6150,7 +6150,7 @@
 35	essayez	essayer	VERB	_	imperatif_2p=y	3	parataxis	_	_
 36	et	_	CONJ	_	_	35	cc	_	_
 37	vous	vous	PRON	_	Person=2|p=y	39	nsubj	_	_
-38	y	_	ADV	_	_	39	advmod	_	_
+38	y	y	ADV	_	_	39	advmod	_	_
 39	retournerez	retourner	VERB	_	ind_futur_2p=y	35	conj	_	_
 40	...	...	PUNCT	_	_	3	punct	_	_
 
@@ -6174,7 +6174,7 @@
 16	photovoltaïque	photovoltaïque	ADJ	_	ms=y	15	amod	_	_
 17	ne	_	PART	_	_	18	neg	_	_
 18	sont	être	VERB	_	ind_pres_3p=y	6	acl:relcl	_	_
-19	plus	_	ADV	_	_	18	neg	_	_
+19	plus	plus	ADV	_	_	18	neg	_	_
 20	à	à	ADP	_	_	21	mark	_	_
 21	prouver	prouver	VERB	_	infinitif=y	18	acl	_	_
 22	.	.	PUNCT	_	_	6	punct	_	_
@@ -6189,19 +6189,19 @@
 6	,	,	PUNCT	_	_	10	punct	_	_
 7	je	il	PRON	_	Person=1|s=y	10	nsubj	_	_
 8	suis	être	AUX	_	ind_pres_1s=y	10	cop	_	_
-9	bien	_	ADV	_	_	10	advmod	_	_
+9	bien	bien	ADV	_	_	10	advmod	_	_
 10	relaxé	relaxer	VERB	_	part_pass_fs=y	0	root	_	_
 11	et	_	CONJ	_	_	10	cc	_	_
-12	surtout	_	ADV	_	_	15	advmod	_	_
+12	surtout	surtout	ADV	_	_	15	advmod	_	_
 13	je	il	PRON	_	Person=1|s=y	15	nsubj	_	_
 14	n'	_	PART	_	_	15	neg	_	_
 15	ai	avoir	VERB	_	ind_pres_1s=y	10	conj	_	_
-16	plus	_	ADV	_	_	15	neg	_	_
+16	plus	plus	ADV	_	_	15	neg	_	_
 17	mal	mal	NOUN	_	Gender=Masc|Number=Sing	15	dobj	_	_
 18	à	à	ADP	_	_	20	case	_	_
 19	mon	son	DET	_	Gender=Masc|Number=Sing	20	nmod:poss	_	_
 20	poignet	poignet	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
-21	anciennement	_	ADV	_	_	22	advmod	_	_
+21	anciennement	anciennement	ADV	_	_	22	advmod	_	_
 22	foulé	fouler	VERB	_	part_pass_ms=y	20	acl	_	_
 23	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -6216,15 +6216,15 @@
 6	entrée	entrée	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	du	du	DET	_	Gender=Masc|Number=Sing	9	det	_	_
-9	pas	_	ADV	_	_	0	root	_	_
+9	pas	pas	ADV	_	_	0	root	_	_
 10	grand	grand	ADJ	_	ms=y	9	mwe	_	_
 11	chose	chose	NOUN	_	Gender=Fem|Number=Sing	9	mwe	_	_
 12	,	,	PUNCT	_	_	9	punct	_	_
 13	avec	avec	ADP	_	_	16	case	_	_
-14	beaucoup	_	ADV	_	_	16	det	_	_
+14	beaucoup	beaucoup	ADV	_	_	16	det	_	_
 15	de	de	ADP	_	_	14	mwe	_	_
 16	salade	salade	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
-17	autour	_	ADV	_	_	16	advmod	_	_
+17	autour	autour	ADV	_	_	16	advmod	_	_
 18	,	,	PUNCT	_	_	9	punct	_	_
 19	et	_	CONJ	_	_	16	cc	_	_
 20	une	un	DET	_	Gender=Fem|Number=Sing	21	det	_	_
@@ -6262,7 +6262,7 @@
 
 # sentid: fr-ud-test_00209
 # sentence-text: Aussitôt après le dessert on nous passe la serpillère entre les jambes, pour nous faire comprendre qu'il était temps de quitter l'endroit.
-1	Aussitôt	_	ADV	_	_	4	advmod	_	_
+1	Aussitôt	aussitôt	ADV	_	_	4	advmod	_	_
 2	après	après	ADP	_	_	4	case	_	_
 3	le	le	DET	_	Gender=Masc|Number=Sing	4	det	_	_
 4	dessert	dessert	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
@@ -6292,7 +6292,7 @@
 # sentid: fr-ud-test_00210
 # sentence-text: Avec plus de 40000 références, on est assuré d'une livraison rapide dans toute la France.
 1	Avec	avec	ADP	_	_	5	case	_	_
-2	plus	_	ADV	_	_	4	advmod	_	_
+2	plus	plus	ADV	_	_	4	advmod	_	_
 3	de	de	ADP	_	_	2	mwe	_	_
 4	40000	_	NUM	_	_	5	nummod	_	_
 5	références	référence	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
@@ -6324,7 +6324,7 @@
 10	pinailleuse	pinailleur	ADJ	_	fs=y	7	amod	_	_
 11	et	_	CONJ	_	_	10	cc	_	_
 12	difficile	difficile	ADJ	_	fs=y	10	conj	_	_
-13	alors	_	ADV	_	_	10	advmod	_	_
+13	alors	alors	ADV	_	_	10	advmod	_	_
 
 # sentid: fr-ud-test_00212
 # sentence-text: Bonjour, Nous avons fait l'acquisition d'un O'Hara modèle 2010.
@@ -6375,8 +6375,8 @@
 13	doute	doute	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 14	de	de	ADP	_	_	15	mark	_	_
 15	trouver	trouver	VERB	_	infinitif=y	11	acl	_	_
-16	bien	_	ADV	_	_	17	advmod	_	_
-17	mieux	_	ADV	_	_	15	advmod	_	_
+16	bien	bien	ADV	_	_	17	advmod	_	_
+17	mieux	mieux	ADV	_	_	15	advmod	_	_
 18	!	!	PUNCT	_	_	11	punct	_	_
 
 # sentid: fr-ud-test_00215
@@ -6420,7 +6420,7 @@
 # sentence-text: C'est tellement rare de pouvoir dîner au coin du feu !
 1	C'	ce	PRON	_	Person=3|s=y	4	nsubj	_	_
 2	est	être	VERB	_	ind_pres_3s=y	4	cop	_	_
-3	tellement	_	ADV	_	_	4	advmod	_	_
+3	tellement	tellement	ADV	_	_	4	advmod	_	_
 4	rare	rare	ADJ	_	ms=y	0	root	_	_
 5	de	de	ADP	_	_	7	mark	_	_
 6	pouvoir	pouvoir	AUX	_	infinitif=y	7	aux	_	_
@@ -6462,7 +6462,7 @@
 # sentid: fr-ud-test_00220
 # sentence-text: Cà oui, on peut dire que c'était à la fois futuriste et romantique, comme diner avec ma moitié.
 1	Cà	ça	PRON	_	_	6	expl	_	_
-2	oui	_	ADV	_	_	1	advmod	_	_
+2	oui	oui	ADV	_	_	1	advmod	_	_
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	on	on	PRON	_	Person=3|ms=y	6	nsubj	_	_
 5	peut	pouvoir	AUX	_	ind_pres_3s=y	6	aux	_	_
@@ -6491,8 +6491,8 @@
 3	on	on	PRON	_	Person=3|ms=y	5	nsubj	_	_
 4	peut	pouvoir	AUX	_	ind_pres_3s=y	5	aux	_	_
 5	trouver	trouver	VERB	_	infinitif=y	0	root	_	_
-6	très	_	ADV	_	_	7	advmod	_	_
-7	aisément	_	ADV	_	_	5	advmod	_	_
+6	très	très	ADV	_	_	7	advmod	_	_
+7	aisément	aisément	ADV	_	_	5	advmod	_	_
 8	des	un	DET	_	Gender=Masc|Number=Plur	9	det	_	_
 9	préservatifs	préservatif	NOUN	_	Gender=Masc|Number=Plur	5	dobj	_	_
 10	usagés	usagé	ADJ	_	mp=y	9	amod	_	_
@@ -6525,7 +6525,7 @@
 20	sur	sur	ADP	_	_	22	case	_	_
 21	un	un	DET	_	Gender=Masc|Number=Sing	22	det	_	_
 22	hôtel	hôtel	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
-23	aussi	_	ADV	_	_	24	advmod	_	_
+23	aussi	aussi	ADV	_	_	24	advmod	_	_
 24	pourri	pourri	ADJ	_	ms=y	22	amod	_	_
 25	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -6534,12 +6534,12 @@
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
 2	école	école	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	est	être	VERB	_	ind_pres_3s=y	6	cop	_	_
-4	très	_	ADV	_	_	5	advmod	_	_
-5	bien	_	ADV	_	_	6	advmod	_	_
+4	très	très	ADV	_	_	5	advmod	_	_
+5	bien	bien	ADV	_	_	6	advmod	_	_
 6	sérieuse	sérieux	ADJ	_	fs=y	0	root	_	_
 7	et	_	CONJ	_	_	6	cc	_	_
 8	aide	aider	VERB	_	ind_pres_3s=y	6	conj	_	_
-9	beaucoup	_	ADV	_	_	8	advmod	_	_
+9	beaucoup	beaucoup	ADV	_	_	8	advmod	_	_
 
 # sentid: fr-ud-test_00224
 # sentence-text: Elles donnent à toucher, fabriquer, débattre, inventer, grâce à un matériel pédagogique spécifique.
@@ -6589,7 +6589,7 @@
 8	)	)	PUNCT	_	_	5	punct	_	_
 9	je	il	PRON	_	Person=1|s=y	10	nsubj	_	_
 10	vois	voir	VERB	_	ind_pres_1s=y	0	root	_	_
-11	déjà	_	ADV	_	_	10	advmod	_	_
+11	déjà	déjà	ADV	_	_	10	advmod	_	_
 12	la	le	DET	_	Gender=Fem|Number=Sing	13	det	_	_
 13	différence	différence	NOUN	_	Gender=Fem|Number=Sing	10	dobj	_	_
 14	.	.	PUNCT	_	_	10	punct	_	_
@@ -6627,7 +6627,7 @@
 # sentid: fr-ud-test_00228
 # sentence-text: En plus il est gentil, à l'écoute et on voit qu'il aime vraiment les animaux.
 1	En	en	ADP	_	_	5	advmod	_	_
-2	plus	_	ADV	_	_	1	mwe	_	_
+2	plus	plus	ADV	_	_	1	mwe	_	_
 3	il	il	PRON	_	Person=3|ms=y	5	nsubj	_	_
 4	est	être	VERB	_	ind_pres_3s=y	5	cop	_	_
 5	gentil	gentil	ADJ	_	ms=y	0	root	_	_
@@ -6641,21 +6641,21 @@
 13	qu'	_	SCONJ	_	_	15	mark	_	_
 14	il	il	PRON	_	Person=3|ms=y	15	nsubj	_	_
 15	aime	aimer	VERB	_	ind_pres_3s=y	12	ccomp	_	_
-16	vraiment	_	ADV	_	_	15	advmod	_	_
+16	vraiment	vraiment	ADV	_	_	15	advmod	_	_
 17	les	le	DET	_	Gender=Masc|Number=Plur	18	det	_	_
 18	animaux	animal	NOUN	_	Gender=Masc|Number=Plur	15	dobj	_	_
 19	.	.	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-test_00229
 # sentence-text: Enfin, arrive la douloureuse qui est parfaitement justifiée par la qualité des prestations servies.
-1	Enfin	_	ADV	_	_	3	advmod	_	_
+1	Enfin	enfin	ADV	_	_	3	advmod	_	_
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	arrive	arriver	VERB	_	ind_pres_3s=y	0	root	_	_
 4	la	le	DET	_	Gender=Fem|Number=Sing	5	det	_	_
 5	douloureuse	douloureuse	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 6	qui	qui	PRON	_	_	9	nsubj	_	_
 7	est	être	AUX	_	ind_pres_3s=y	9	aux	_	_
-8	parfaitement	_	ADV	_	_	9	advmod	_	_
+8	parfaitement	parfaitement	ADV	_	_	9	advmod	_	_
 9	justifiée	justifier	VERB	_	part_pass_fs=y	5	acl:relcl	_	_
 10	par	par	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Gender=Fem|Number=Sing	12	det	_	_
@@ -6669,7 +6669,7 @@
 
 # sentid: fr-ud-test_00230
 # sentence-text: Enfin un bar à Paris où l'on peut trouver du mezcal et des bières mexicaines qui ne sont pas hors de prix.
-1	Enfin	_	ADV	_	_	3	advmod	_	_
+1	Enfin	enfin	ADV	_	_	3	advmod	_	_
 2	un	un	DET	_	Gender=Masc|Number=Sing	3	det	_	_
 3	bar	bar	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 4	à	à	ADP	_	_	5	case	_	_
@@ -6688,7 +6688,7 @@
 17	qui	qui	PRON	_	_	19	nsubj	_	_
 18	ne	_	PART	_	_	19	neg	_	_
 19	sont	être	VERB	_	ind_pres_3p=y	15	acl:relcl	_	_
-20	pas	_	ADV	_	_	19	neg	_	_
+20	pas	pas	ADV	_	_	19	neg	_	_
 21	hors	hors	ADP	_	_	23	case	_	_
 22	de	de	ADP	_	_	21	mwe	_	_
 23	prix	prix	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
@@ -6704,9 +6704,9 @@
 5	le	le	DET	_	Gender=Masc|Number=Sing	6	det	_	_
 6	service	service	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 7	est	être	VERB	_	ind_pres_3s=y	12	cop	_	_
-8	trés	_	ADV	_	_	12	advmod	_	_
-9	trés	_	ADV	_	_	12	advmod	_	_
-10	trés	_	ADV	_	_	12	advmod	_	_
+8	trés	trés	ADV	_	_	12	advmod	_	_
+9	trés	trés	ADV	_	_	12	advmod	_	_
+10	trés	trés	ADV	_	_	12	advmod	_	_
 11	...	...	PUNCT	_	_	12	punct	_	_
 12	bonne	bon	ADJ	_	fs=y	0	root	_	_
 13	.	.	PUNCT	_	_	12	punct	_	_
@@ -6733,7 +6733,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	et	_	CONJ	_	_	1	cc	_	_
 4	en	en	ADP	_	_	8	advmod	_	_
-5	plus	_	ADV	_	_	4	mwe	_	_
+5	plus	plus	ADV	_	_	4	mwe	_	_
 6	c'	ce	PRON	_	Person=3|s=y	8	nsubj	_	_
 7	est	être	VERB	_	ind_pres_3s=y	8	cop	_	_
 8	rapide	rapide	ADJ	_	ms=y	1	conj	_	_
@@ -6741,10 +6741,10 @@
 
 # sentid: fr-ud-test_00235
 # sentence-text: Ici c'est très professionnelle.
-1	Ici	_	ADV	_	_	5	advmod	_	_
+1	Ici	ici	ADV	_	_	5	advmod	_	_
 2	c'	ce	PRON	_	Person=3|s=y	5	nsubj	_	_
 3	est	être	VERB	_	ind_pres_3s=y	5	cop	_	_
-4	très	_	ADV	_	_	5	advmod	_	_
+4	très	très	ADV	_	_	5	advmod	_	_
 5	professionnelle	professionnel	ADJ	_	fs=y	0	root	_	_
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -6762,7 +6762,7 @@
 # sentence-text: Il vaut mieux réserver car ce petit coin de Naples est bien connu.
 1	Il	il	PRON	_	Person=3|ms=y	2	nsubj	_	_
 2	vaut	valoir	VERB	_	ind_pres_3s=y	0	root	_	_
-3	mieux	_	ADV	_	_	2	advmod	_	_
+3	mieux	mieux	ADV	_	_	2	advmod	_	_
 4	réserver	réserver	VERB	_	infinitif=y	2	xcomp	_	_
 5	car	_	CONJ	_	_	2	cc	_	_
 6	ce	ce	DET	_	Gender=Masc|Number=Sing	8	det	_	_
@@ -6771,7 +6771,7 @@
 9	de	de	ADP	_	_	10	case	_	_
 10	Naples	_	PROPN	_	_	8	nmod	_	_
 11	est	être	VERB	_	ind_pres_3s=y	13	cop	_	_
-12	bien	_	ADV	_	_	13	advmod	_	_
+12	bien	bien	ADV	_	_	13	advmod	_	_
 13	connu	connu	ADJ	_	ms=y	2	conj	_	_
 14	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -6780,7 +6780,7 @@
 1	Il	il	PRON	_	Person=3|ms=y	3	nsubj	_	_
 2	y	y	PRON	_	_	3	expl	_	_
 3	a	avoir	VERB	_	ind_pres_3s=y	0	root	_	_
-4	même	_	ADV	_	_	3	advmod	_	_
+4	même	même	ADV	_	_	3	advmod	_	_
 5	un	un	DET	_	Gender=Masc|Number=Sing	6	det	_	_
 6	café	café	NOUN	_	Gender=Masc|Number=Sing	3	dobj	_	_
 7	avec	avec	ADP	_	_	9	case	_	_
@@ -6829,7 +6829,7 @@
 18	le	le	DET	_	Gender=Masc|Number=Sing	19	det	_	_
 19	maximum	maximum	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 20	....	....	PUNCT	_	_	4	punct	_	_
-21	N'	_	ADV	_	_	4	parataxis	_	_
+21	N'	n'	ADV	_	_	4	parataxis	_	_
 22	importe	importer	VERB	_	ind_pres_3s=y	21	mwe	_	_
 23	quoi	quoi	PRON	_	_	21	mwe	_	_
 24	...	...	PUNCT	_	_	4	punct	_	_
@@ -6867,10 +6867,10 @@
 # sentid: fr-ud-test_00243
 # sentence-text: J'y vais très souvent, car comme on dit on change pas une équipe qui gagne.
 1	J'	je	PRON	_	Person=1|s=y	3	nsubj	_	_
-2	y	_	ADV	_	_	3	advmod	_	_
+2	y	y	ADV	_	_	3	advmod	_	_
 3	vais	aller	VERB	_	ind_pres_1s=y	0	root	_	_
-4	très	_	ADV	_	_	5	advmod	_	_
-5	souvent	_	ADV	_	_	3	advmod	_	_
+4	très	très	ADV	_	_	5	advmod	_	_
+5	souvent	souvent	ADV	_	_	3	advmod	_	_
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	car	_	CONJ	_	_	3	cc	_	_
 8	comme	_	SCONJ	_	_	10	mark	_	_
@@ -6878,7 +6878,7 @@
 10	dit	dire	VERB	_	ind_pres_3s=y	12	advcl	_	_
 11	on	on	PRON	_	Person=3|ms=y	12	nsubj	_	_
 12	change	changer	VERB	_	ind_pres_3s=y	3	conj	_	_
-13	pas	_	ADV	_	_	12	neg	_	_
+13	pas	pas	ADV	_	_	12	neg	_	_
 14	une	un	DET	_	Gender=Fem|Number=Sing	15	det	_	_
 15	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	12	dobj	_	_
 16	qui	qui	PRON	_	_	17	nsubj	_	_
@@ -6900,7 +6900,7 @@
 # sentence-text: J'ai donc choisi de ne faire qu'une coupe + balayage.
 1	J'	je	PRON	_	Person=1|s=y	4	nsubj	_	_
 2	ai	avoir	AUX	_	ind_pres_1s=y	4	aux	_	_
-3	donc	_	ADV	_	_	4	advmod	_	_
+3	donc	donc	ADV	_	_	4	advmod	_	_
 4	choisi	choisir	VERB	_	part_pass_ms=y	0	root	_	_
 5	de	de	ADP	_	_	7	mark	_	_
 6	ne	_	PART	_	_	7	neg	_	_
@@ -6925,7 +6925,7 @@
 9	ma	son	DET	_	Gender=Fem|Number=Sing	10	nmod:poss	_	_
 10	maison	maison	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 11	,	,	PUNCT	_	_	3	punct	_	_
-12	initialement	_	ADV	_	_	13	advmod	_	_
+12	initialement	initialement	ADV	_	_	13	advmod	_	_
 13	chauffée	chauffer	VERB	_	part_pass_fs=y	10	acl	_	_
 14	par	par	ADP	_	_	16	case	_	_
 15	des	un	DET	_	Gender=Masc|Number=Plur	16	det	_	_
@@ -6953,7 +6953,7 @@
 16	le	le	DET	_	Gender=Masc|Number=Sing	17	det	_	_
 17	hasard	hasard	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
 18	fait	faire	VERB	_	ind_pres_3s=y	3	parataxis	_	_
-19	bien	_	ADV	_	_	18	advmod	_	_
+19	bien	bien	ADV	_	_	18	advmod	_	_
 20	les	le	DET	_	Gender=Fem|Number=Plur	21	det	_	_
 21	choses	chose	NOUN	_	Gender=Fem|Number=Plur	18	dobj	_	_
 22	!	!	PUNCT	_	_	3	punct	_	_
@@ -6961,7 +6961,7 @@
 # sentid: fr-ud-test_00248
 # sentence-text: J'y suis allé 2 fois à une semaine d'intervalle et je n'ai pas été déçu.
 1	J'	je	PRON	_	Person=1|s=y	4	nsubj	_	_
-2	y	_	ADV	_	_	4	advmod	_	_
+2	y	y	ADV	_	_	4	advmod	_	_
 3	suis	être	AUX	_	ind_pres_1s=y	4	aux	_	_
 4	allé	aller	VERB	_	part_pass_ms=y	0	root	_	_
 5	2	_	NUM	_	_	6	nummod	_	_
@@ -6975,7 +6975,7 @@
 13	je	il	PRON	_	Person=1|s=y	18	nsubjpass	_	_
 14	n'	_	PART	_	_	18	neg	_	_
 15	ai	avoir	AUX	_	ind_pres_1s=y	18	aux	_	_
-16	pas	_	ADV	_	_	18	neg	_	_
+16	pas	pas	ADV	_	_	18	neg	_	_
 17	été	être	AUX	_	part_pass_ms=y	18	auxpass	_	_
 18	déçu	décevoir	VERB	_	part_pass_ms=y	4	conj	_	_
 19	.	.	PUNCT	_	_	4	punct	_	_
@@ -6984,7 +6984,7 @@
 # sentence-text: Je recommande vivement ce magasin à tous ceux qui veulent faire de réelles économies !
 1	Je	il	PRON	_	Person=1|s=y	2	nsubj	_	_
 2	recommande	recommander	VERB	_	ind_pres_1s=y	0	root	_	_
-3	vivement	_	ADV	_	_	2	advmod	_	_
+3	vivement	vivement	ADV	_	_	2	advmod	_	_
 4	ce	ce	DET	_	Gender=Masc|Number=Sing	5	det	_	_
 5	magasin	magasin	NOUN	_	Gender=Masc|Number=Sing	2	dobj	_	_
 6	à	à	ADP	_	_	8	case	_	_
@@ -7052,7 +7052,7 @@
 # sentence-text: Je veux bien que cela soit une chambre économique (50 euro la nuitée tout de même) mais je pense que les économies ne doivent pas être faites sur l'hygiène (l'aspirateur n'avait même pas été passé derrière la porte.
 1	Je	il	PRON	_	Person=1|s=y	2	nsubj	_	_
 2	veux	vouloir	VERB	_	ind_pres_1s=y	0	root	_	_
-3	bien	_	ADV	_	_	2	advmod	_	_
+3	bien	bien	ADV	_	_	2	advmod	_	_
 4	que	_	SCONJ	_	_	8	mark	_	_
 5	cela	cela	PRON	_	s=y	8	nsubj	_	_
 6	soit	être	VERB	_	subj_pres_3s=y	8	cop	_	_
@@ -7066,7 +7066,7 @@
 14	nuitée	nuitée	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
 15	tout	tout	PRON	_	ms=y	12	advmod	_	_
 16	de	de	ADP	_	_	15	mwe	_	_
-17	même	_	ADV	_	_	15	mwe	_	_
+17	même	même	ADV	_	_	15	mwe	_	_
 18	)	)	PUNCT	_	_	12	punct	_	_
 19	mais	_	CONJ	_	_	2	cc	_	_
 20	je	il	PRON	_	Person=1|s=y	21	nsubj	_	_
@@ -7076,7 +7076,7 @@
 24	économies	économie	NOUN	_	Gender=Fem|Number=Plur	29	nsubjpass	_	_
 25	ne	_	PART	_	_	29	neg	_	_
 26	doivent	devoir	AUX	_	ind_pres_3s=y	29	aux	_	_
-27	pas	_	ADV	_	_	29	neg	_	_
+27	pas	pas	ADV	_	_	29	neg	_	_
 28	être	être	AUX	_	infinitif=y	29	auxpass	_	_
 29	faites	faire	VERB	_	part_pass_fp=y	21	ccomp	_	_
 30	sur	sur	ADP	_	_	32	case	_	_
@@ -7087,8 +7087,8 @@
 35	aspirateur	aspirateur	NOUN	_	Gender=Masc|Number=Sing	41	nsubjpass	_	_
 36	n'	_	PART	_	_	41	neg	_	_
 37	avait	avoir	AUX	_	imparfait_3s=y	41	aux	_	_
-38	même	_	ADV	_	_	39	advmod	_	_
-39	pas	_	ADV	_	_	41	neg	_	_
+38	même	même	ADV	_	_	39	advmod	_	_
+39	pas	pas	ADV	_	_	41	neg	_	_
 40	été	être	AUX	_	part_pass_ms=y	41	auxpass	_	_
 41	passé	passer	VERB	_	part_pass_ms=y	29	parataxis	_	_
 42	derrière	derrière	ADP	_	_	44	case	_	_
@@ -7103,7 +7103,7 @@
 3	regorge	regorger	VERB	_	ind_pres_3s=y	0	root	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	trésors	trésor	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
-6	tant	_	ADV	_	_	8	cc	_	_
+6	tant	tant	ADV	_	_	8	cc	_	_
 7	en	en	ADP	_	_	8	case	_	_
 8	crêpes	crêpe	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
 9	qu'	_	SCONJ	_	_	8	cc	_	_
@@ -7124,10 +7124,10 @@
 9	doivent	devoir	AUX	_	ind_pres_3s=y	10	aux	_	_
 10	être	être	VERB	_	infinitif=y	0	root	_	_
 11	d'	de	ADP	_	_	13	case	_	_
-12	environs	_	ADV	_	_	13	advmod	_	_
+12	environs	environs	ADV	_	_	13	advmod	_	_
 13	2cm	2cm	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
 14	de	de	ADP	_	_	15	case	_	_
-15	plus	_	ADV	_	_	13	advmod	_	_
+15	plus	plus	ADV	_	_	13	advmod	_	_
 16	sur	sur	ADP	_	_	18	case	_	_
 17	le	le	DET	_	Gender=Masc|Number=Sing	18	det	_	_
 18	diamètre	diamètre	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
@@ -7136,14 +7136,14 @@
 21	qui	qui	PRON	_	_	23	nsubj	_	_
 22	ne	_	PART	_	_	23	neg	_	_
 23	vaut	valoir	VERB	_	ind_pres_3s=y	20	acl:relcl	_	_
-24	pas	_	ADV	_	_	23	neg	_	_
+24	pas	pas	ADV	_	_	23	neg	_	_
 25	les	le	DET	_	Gender=Masc|Number=Plur	27	det	_	_
 26	2	_	NUM	_	_	27	nummod	_	_
 27	€	euro	NOUN	_	Gender=Masc|Number=Sing	23	dobj	_	_
-28	plus	_	ADV	_	_	29	advmod	_	_
+28	plus	plus	ADV	_	_	29	advmod	_	_
 29	cher	cher	ADJ	_	ms=y	27	amod	_	_
 30	d'	de	ADP	_	_	23	advmod	_	_
-31	ailleurs	_	ADV	_	_	30	mwe	_	_
+31	ailleurs	ailleurs	ADV	_	_	30	mwe	_	_
 32	.	.	PUNCT	_	_	10	punct	_	_
 
 # sentid: fr-ud-test_00254
@@ -7173,7 +7173,7 @@
 1	Le	le	DET	_	Gender=Masc|Number=Sing	2	det	_	_
 2	cadre	cadre	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	est	être	VERB	_	ind_pres_3s=y	5	cop	_	_
-4	très	_	ADV	_	_	5	advmod	_	_
+4	très	très	ADV	_	_	5	advmod	_	_
 5	joli	joli	ADJ	_	ms=y	0	root	_	_
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	mais	_	CONJ	_	_	5	cc	_	_
@@ -7181,7 +7181,7 @@
 9	ambiance	ambiance	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 10	n'	_	PART	_	_	11	neg	_	_
 11	est	être	VERB	_	ind_pres_3s=y	5	conj	_	_
-12	pas	_	ADV	_	_	11	neg	_	_
+12	pas	pas	ADV	_	_	11	neg	_	_
 13	à	à	ADP	_	_	15	case	_	_
 14	la	le	DET	_	Gender=Fem|Number=Sing	15	det	_	_
 15	hauteur	hauteur	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
@@ -7209,7 +7209,7 @@
 6	cœur	cœur	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 7	de	de	ADP	_	_	10	mark	_	_
 8	ne	_	PART	_	_	10	neg	_	_
-9	pas	_	ADV	_	_	10	neg	_	_
+9	pas	pas	ADV	_	_	10	neg	_	_
 10	négliger	négliger	VERB	_	infinitif=y	4	acl	_	_
 11	les	le	DET	_	Gender=Masc|Number=Plur	12	det	_	_
 12	plats	plat	NOUN	_	Gender=Masc|Number=Plur	10	dobj	_	_
@@ -7230,11 +7230,11 @@
 3	qui	qui	PRON	_	_	5	nsubj	_	_
 4	ne	_	PART	_	_	5	neg	_	_
 5	trompe	tromper	VERB	_	ind_pres_3s=y	2	acl:relcl	_	_
-6	pas	_	ADV	_	_	5	neg	_	_
+6	pas	pas	ADV	_	_	5	neg	_	_
 7	,	,	PUNCT	_	_	2	punct	_	_
 8	ce	ce	DET	_	Gender=Masc|Number=Sing	9	det	_	_
 9	midi	midi	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-10	là	_	ADV	_	_	9	advmod	_	_
+10	là	là	ADV	_	_	9	advmod	_	_
 11	...	...	PUNCT	_	_	2	punct	_	_
 12	les	le	DET	_	Gender=Masc|Number=Plur	13	det	_	_
 13	clients	client	NOUN	_	Gender=Masc|Number=Plur	20	nsubj	_	_
@@ -7262,7 +7262,7 @@
 5	qu'	_	SCONJ	_	_	7	mark	_	_
 6	il	il	PRON	_	Person=3|ms=y	7	nsubj	_	_
 7	a	avoir	VERB	_	ind_pres_3s=y	4	ccomp	_	_
-8	beaucoup	_	ADV	_	_	10	det	_	_
+8	beaucoup	beaucoup	ADV	_	_	10	det	_	_
 9	de	de	ADP	_	_	8	mwe	_	_
 10	retard	retard	NOUN	_	Gender=Masc|Number=Sing	7	dobj	_	_
 11	et	_	CONJ	_	_	4	cc	_	_
@@ -7296,8 +7296,8 @@
 1	Les	le	DET	_	Gender=Masc|Number=Plur	2	det	_	_
 2	prix	prix	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 3	sont	être	VERB	_	ind_pres_3p=y	6	cop	_	_
-4	beaucoup	_	ADV	_	_	5	advmod	_	_
-5	plus	_	ADV	_	_	6	advmod	_	_
+4	beaucoup	beaucoup	ADV	_	_	5	advmod	_	_
+5	plus	plus	ADV	_	_	6	advmod	_	_
 6	élevés	élevé	ADJ	_	mp=y	0	root	_	_
 7	que	_	SCONJ	_	_	11	mark	_	_
 8	dans	dans	ADP	_	_	11	case	_	_
@@ -7345,7 +7345,7 @@
 7	que	que	PRON	_	_	9	dobj	_	_
 8	je	il	PRON	_	Person=1|s=y	9	nsubj	_	_
 9	recommande	recommander	VERB	_	ind_pres_1s=y	6	acl:relcl	_	_
-10	vivement	_	ADV	_	_	9	advmod	_	_
+10	vivement	vivement	ADV	_	_	9	advmod	_	_
 11	!	!	PUNCT	_	_	6	punct	_	_
 
 # sentid: fr-ud-test_00264
@@ -7357,7 +7357,7 @@
 5	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
 6	/	/	PUNCT	_	_	5	punct	_	_
 7	adolescents	adolescent	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
-8	très	_	ADV	_	_	9	advmod	_	_
+8	très	très	ADV	_	_	9	advmod	_	_
 9	convivial	convivial	ADJ	_	ms=y	1	amod	_	_
 10	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -7367,7 +7367,7 @@
 2	à	à	ADP	_	_	3	mark	_	_
 3	souligner	souligner	VERB	_	infinitif=y	0	root	_	_
 4	que	_	SCONJ	_	_	9	mark	_	_
-5	jamais	_	ADV	_	_	9	neg	_	_
+5	jamais	jamais	ADV	_	_	9	neg	_	_
 6	la	le	DET	_	Gender=Fem|Number=Sing	7	det	_	_
 7	musique	musique	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 8	ne	_	PART	_	_	9	neg	_	_
@@ -7382,7 +7382,7 @@
 # sentid: fr-ud-test_00266
 # sentence-text: Merci beaucoup à lui !
 1	Merci	_	INTJ	_	_	0	root	_	_
-2	beaucoup	_	ADV	_	_	1	advmod	_	_
+2	beaucoup	beaucoup	ADV	_	_	1	advmod	_	_
 3	à	à	ADP	_	_	4	case	_	_
 4	lui	lui	PRON	_	Person=3|s=y	1	nmod	_	_
 5	!	!	PUNCT	_	_	1	punct	_	_
@@ -7392,7 +7392,7 @@
 1	Nos	son	DET	_	Gender=Masc|Number=Plur	2	nmod:poss	_	_
 2	plats	plat	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	étaient	être	VERB	_	imparfait_3p=y	5	cop	_	_
-4	globalement	_	ADV	_	_	5	advmod	_	_
+4	globalement	globalement	ADV	_	_	5	advmod	_	_
 5	bons	bon	ADJ	_	mp=y	0	root	_	_
 6	(	(	PUNCT	_	_	7	punct	_	_
 7	saumon	saumon	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
@@ -7438,7 +7438,7 @@
 18	meilleures	meilleur	ADJ	_	fp=y	19	amod	_	_
 19	conditions	condition	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
 20	financières	financier	ADJ	_	fp=y	19	amod	_	_
-21	tout	_	ADV	_	_	23	mark	_	_
+21	tout	tout	ADV	_	_	23	mark	_	_
 22	en	en	ADP	_	_	21	mwe	_	_
 23	préservant	préserver	VERB	_	participe_present=y	10	advcl	_	_
 24	votre	son	DET	_	Gender=Fem|Number=Sing	25	nmod:poss	_	_
@@ -7504,7 +7504,7 @@
 # sentid: fr-ud-test_00271
 # sentence-text: On y retourne cet été !
 1	On	on	PRON	_	Person=3|ms=y	3	nsubj	_	_
-2	y	_	ADV	_	_	3	advmod	_	_
+2	y	y	ADV	_	_	3	advmod	_	_
 3	retourne	retourner	VERB	_	ind_pres_3s=y	0	root	_	_
 4	cet	ce	DET	_	Gender=Masc|Number=Sing	5	det	_	_
 5	été	été	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
@@ -7524,7 +7524,7 @@
 10	chemin	chemin	NOUN	_	Gender=Masc|Number=Sing	8	dobj	_	_
 11	c'	ce	PRON	_	Person=3|s=y	14	nsubj	_	_
 12	est	être	VERB	_	ind_pres_3s=y	14	cop	_	_
-13	relativement	_	ADV	_	_	14	advmod	_	_
+13	relativement	relativement	ADV	_	_	14	advmod	_	_
 14	étroit	étroit	ADJ	_	ms=y	8	parataxis	_	_
 15	!	!	PUNCT	_	_	8	punct	_	_
 
@@ -7537,7 +7537,7 @@
 5	est	être	VERB	_	ind_pres_3s=y	6	cop	_	_
 6	impeccable	impeccable	ADJ	_	ms=y	0	root	_	_
 7	et	_	CONJ	_	_	6	cc	_	_
-8	très	_	ADV	_	_	9	advmod	_	_
+8	très	très	ADV	_	_	9	advmod	_	_
 9	chaleureux	chaleureux	ADJ	_	ms=y	6	conj	_	_
 10	,	,	PUNCT	_	_	6	punct	_	_
 11	la	le	DET	_	Gender=Fem|Number=Sing	12	det	_	_
@@ -7547,7 +7547,7 @@
 15	le	le	DET	_	Gender=Masc|Number=Sing	17	det	_	_
 16	petit	petit	ADJ	_	ms=y	17	amod	_	_
 17	jardin	jardin	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	_
-18	très	_	ADV	_	_	19	advmod	_	_
+18	très	très	ADV	_	_	19	advmod	_	_
 19	reposant	reposant	ADJ	_	ms=y	17	amod	_	_
 20	...	...	PUNCT	_	_	6	punct	_	_
 
@@ -7580,7 +7580,7 @@
 23	qui	qui	PRON	_	_	25	nsubj	_	_
 24	se	se	PRON	_	Person=3	25	dobj	_	_
 25	déguste	déguster	VERB	_	ind_pres_3s=y	21	acl:relcl	_	_
-26	aussi	_	ADV	_	_	25	advmod	_	_
+26	aussi	aussi	ADV	_	_	25	advmod	_	_
 27	à	à	ADP	_	_	29	case	_	_
 28	la	le	DET	_	Gender=Fem|Number=Sing	29	det	_	_
 29	carte	carte	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
@@ -7600,7 +7600,7 @@
 10	réception	réception	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 11	ne	_	PART	_	_	14	neg	_	_
 12	sont	être	VERB	_	ind_pres_3p=y	14	cop	_	_
-13	pas	_	ADV	_	_	14	neg	_	_
+13	pas	pas	ADV	_	_	14	neg	_	_
 14	aimable	aimable	ADJ	_	fs=y	0	root	_	_
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	ni	_	CONJ	_	_	14	cc	_	_
@@ -7608,8 +7608,8 @@
 18	...	...	PUNCT	_	_	14	punct	_	_
 19	je	il	PRON	_	Person=1|s=y	20	nsubj	_	_
 20	dirais	dire	VERB	_	cond_pres_1s=y	14	parataxis	_	_
-21	même	_	ADV	_	_	20	advmod	_	_
-22	totalement	_	ADV	_	_	23	advmod	_	_
+21	même	même	ADV	_	_	20	advmod	_	_
+22	totalement	totalement	ADV	_	_	23	advmod	_	_
 23	antipathiques	antipathique	ADJ	_	fp=y	20	xcomp	_	_
 24	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -7650,20 +7650,20 @@
 33	tendance	tendance	NOUN	_	Gender=Fem|Number=Sing	32	compound	_	_
 34	dans	dans	ADP	_	_	38	case	_	_
 35	les	le	DET	_	Gender=Fem|Number=Plur	38	det	_	_
-36	plus	_	ADV	_	_	37	advmod	_	_
+36	plus	plus	ADV	_	_	37	advmod	_	_
 37	grandes	grand	ADJ	_	fp=y	38	amod	_	_
 38	marque	marque	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
 39	ou	_	CONJ	_	_	38	cc	_	_
 40	de	de	ADP	_	_	42	case	_	_
 41	petits	petit	ADJ	_	mp=y	42	amod	_	_
 42	créateurs	créateur	NOUN	_	Gender=Masc|Number=Plur	38	conj	_	_
-43	moins	_	ADV	_	_	44	advmod	_	_
+43	moins	moins	ADV	_	_	44	advmod	_	_
 44	connu	connu	ADJ	_	ms=y	42	amod	_	_
 45	mais	_	CONJ	_	_	44	cc	_	_
-46	très	_	ADV	_	_	47	advmod	_	_
+46	très	très	ADV	_	_	47	advmod	_	_
 47	fashion	fashion	NOUN	_	Gender=Fem|Number=Sing	44	conj	_	_
 48	et	_	CONJ	_	_	32	cc	_	_
-49	aussi	_	ADV	_	_	53	advmod	_	_
+49	aussi	aussi	ADV	_	_	53	advmod	_	_
 50	pour	pour	ADP	_	_	52	case	_	_
 51	mon	son	DET	_	Gender=Masc|Number=Sing	52	nmod:poss	_	_
 52	ami	ami	NOUN	_	Gender=Masc|Number=Sing	53	nmod	_	_
@@ -7671,8 +7671,8 @@
 54	chose	chose	NOUN	_	Gender=Fem|Number=Sing	53	mwe	_	_
 55	d'	_	INTJ	_	_	59	case	_	_
 56	un	un	DET	_	Gender=Masc|Number=Sing	58	advmod	_	_
-57	peu	_	ADV	_	_	56	mwe	_	_
-58	plus	_	ADV	_	_	59	advmod	_	_
+57	peu	peu	ADV	_	_	56	mwe	_	_
+58	plus	plus	ADV	_	_	59	advmod	_	_
 59	classique	classique	ADJ	_	fs=y	53	amod	_	_
 60	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -7692,19 +7692,19 @@
 12	il	il	PRON	_	Person=3|ms=y	14	nsubj	_	_
 13	ne	_	PART	_	_	14	neg	_	_
 14	marche	marcher	VERB	_	ind_pres_3s=y	4	conj	_	_
-15	pratiquement	_	ADV	_	_	16	advmod	_	_
-16	jamais	_	ADV	_	_	14	neg	_	_
+15	pratiquement	pratiquement	ADV	_	_	16	advmod	_	_
+16	jamais	jamais	ADV	_	_	14	neg	_	_
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-test_00278
 # sentence-text: Produits super sympa et qui rendent bien sur mon mur.
 1	Produits	produit	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-2	super	_	ADV	_	_	3	advmod	_	_
+2	super	super	ADV	_	_	3	advmod	_	_
 3	sympa	sympa	ADJ	_	ms=y	1	amod	_	_
 4	et	_	CONJ	_	_	1	cc	_	_
 5	qui	qui	PRON	_	_	6	nsubj	_	_
 6	rendent	rendre	VERB	_	ind_pres_3p=y	1	acl:relcl	_	_
-7	bien	_	ADV	_	_	6	advmod	_	_
+7	bien	bien	ADV	_	_	6	advmod	_	_
 8	sur	sur	ADP	_	_	10	case	_	_
 9	mon	son	DET	_	Gender=Masc|Number=Sing	10	nmod:poss	_	_
 10	mur	mur	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
@@ -7718,7 +7718,7 @@
 4	année	année	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 5	prochaine	prochain	ADJ	_	fs=y	4	amod	_	_
 6	on	on	PRON	_	Person=3|ms=y	8	nsubj	_	_
-7	y	_	ADV	_	_	8	advmod	_	_
+7	y	y	ADV	_	_	8	advmod	_	_
 8	retourne	retourner	VERB	_	ind_pres_3s=y	0	root	_	_
 9	d'	de	ADP	_	_	10	case	_	_
 10	office	office	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
@@ -7738,19 +7738,19 @@
 1	Que	que	PRON	_	_	2	dobj	_	_
 2	rechercher	rechercher	VERB	_	infinitif=y	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
-4	plus	_	ADV	_	_	2	advmod	_	_
+4	plus	plus	ADV	_	_	2	advmod	_	_
 5	lorsqu'	_	SCONJ	_	_	9	mark	_	_
 6	on	on	PRON	_	Person=3|ms=y	9	nsubj	_	_
 7	a	avoir	AUX	_	ind_pres_3s=y	9	aux	_	_
-8	paisiblement	_	ADV	_	_	9	advmod	_	_
+8	paisiblement	paisiblement	ADV	_	_	9	advmod	_	_
 9	séjourné	séjourner	VERB	_	part_pass_ms=y	2	advcl	_	_
 10	dans	dans	ADP	_	_	12	case	_	_
 11	une	un	DET	_	Gender=Fem|Number=Sing	12	det	_	_
 12	chambre	chambre	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
-13	aussi	_	ADV	_	_	14	advmod	_	_
+13	aussi	aussi	ADV	_	_	14	advmod	_	_
 14	confortable	confortable	ADJ	_	fs=y	12	amod	_	_
 15	et	_	CONJ	_	_	14	cc	_	_
-16	bien	_	ADV	_	_	17	advmod	_	_
+16	bien	bien	ADV	_	_	17	advmod	_	_
 17	décorée	décoré	ADJ	_	fs=y	14	amod	_	_
 18	...	...	PUNCT	_	_	2	punct	_	_
 19	!	!	PUNCT	_	_	2	punct	_	_
@@ -7792,7 +7792,7 @@
 4	le	le	DET	_	Gender=Masc|Number=Sing	5	det	_	_
 5	malheur	malheur	NOUN	_	Gender=Masc|Number=Sing	3	dobj	_	_
 6	d'	de	ADP	_	_	8	case	_	_
-7	y	_	ADV	_	_	8	advmod	_	_
+7	y	y	ADV	_	_	8	advmod	_	_
 8	déjeuner	déjeuner	VERB	_	infinitif=y	3	acl	_	_
 9	lorsque	_	SCONJ	_	_	13	mark	_	_
 10	les	le	DET	_	Gender=Masc|Number=Plur	11	det	_	_
@@ -7824,8 +7824,8 @@
 8	"	"	PUNCT	_	_	7	punct	_	_
 9	n'	_	PART	_	_	10	neg	_	_
 10	hésitez	hésiter	VERB	_	imperatif_2p=y	0	root	_	_
-11	surtout	_	ADV	_	_	12	advmod	_	_
-12	pas	_	ADV	_	_	10	neg	_	_
+11	surtout	surtout	ADV	_	_	12	advmod	_	_
+12	pas	pas	ADV	_	_	10	neg	_	_
 13	!	!	PUNCT	_	_	10	punct	_	_
 
 # sentid: fr-ud-test_00285
@@ -7849,10 +7849,10 @@
 2	d'	de	ADP	_	_	3	case	_	_
 3	attente	attente	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 4	un	un	DET	_	Gender=Masc|Number=Sing	6	advmod	_	_
-5	peu	_	ADV	_	_	4	mwe	_	_
+5	peu	peu	ADV	_	_	4	mwe	_	_
 6	long	long	ADJ	_	ms=y	1	amod	_	_
 7	mais	_	CONJ	_	_	1	cc	_	_
-8	peut-être	_	ADV	_	_	17	advmod	_	_
+8	peut-être	peut-être	ADV	_	_	17	advmod	_	_
 9	qu'	_	SCONJ	_	_	8	mwe	_	_
 10	avec	avec	ADP	_	_	13	case	_	_
 11	les	le	DET	_	Gender=Masc|Number=Plur	13	det	_	_
@@ -7865,7 +7865,7 @@
 
 # sentid: fr-ud-test_00287
 # sentence-text: Trop cher, il y a des pizzeria meilleure et moins cher ;)
-1	Trop	_	ADV	_	_	2	advmod	_	_
+1	Trop	trop	ADV	_	_	2	advmod	_	_
 2	cher	cher	ADJ	_	ms=y	6	xcomp	_	_
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	il	il	PRON	_	Person=3|ms=y	6	nsubj	_	_
@@ -7875,7 +7875,7 @@
 8	pizzeria	pizzeria	NOUN	_	Gender=Fem|Number=Sing	6	dobj	_	_
 9	meilleure	meilleur	ADJ	_	fs=y	8	amod	_	_
 10	et	_	CONJ	_	_	8	cc	_	_
-11	moins	_	ADV	_	_	12	advmod	_	_
+11	moins	moins	ADV	_	_	12	advmod	_	_
 12	cher	cher	ADJ	_	ms=y	8	conj	_	_
 13	;)	_	SYM	_	_	6	dep	_	_
 
@@ -7887,7 +7887,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	propre	propre	ADJ	_	ms=y	3	conj	_	_
 6	et	_	CONJ	_	_	3	cc	_	_
-7	bien	_	ADV	_	_	8	advmod	_	_
+7	bien	bien	ADV	_	_	8	advmod	_	_
 8	entretenu	entretenu	ADJ	_	ms=y	3	conj	_	_
 9	,	,	PUNCT	_	_	2	punct	_	_
 10	une	un	DET	_	Gender=Fem|Number=Sing	11	det	_	_
@@ -7916,7 +7916,7 @@
 8	pourra	pouvoir	AUX	_	ind_futur_3s=y	9	aux	_	_
 9	prouver	prouver	VERB	_	infinitif=y	4	ccomp	_	_
 10	un	un	DET	_	Gender=Masc|Number=Sing	9	advmod	_	_
-11	peu	_	ADV	_	_	10	mwe	_	_
+11	peu	peu	ADV	_	_	10	mwe	_	_
 12	que	_	SCONJ	_	_	16	mark	_	_
 13	Mendes	_	PROPN	_	_	16	nsubj	_	_
 14	est	être	VERB	_	ind_pres_3s=y	16	cop	_	_
@@ -7930,7 +7930,7 @@
 22	on	on	PRON	_	Person=3|ms=y	23	nsubj	_	_
 23	apprend	apprendre	VERB	_	ind_pres_3s=y	16	conj	_	_
 24	mais	_	CONJ	_	_	16	cc	_	_
-25	surtout	_	ADV	_	_	27	advmod	_	_
+25	surtout	surtout	ADV	_	_	27	advmod	_	_
 26	un	un	DET	_	Gender=Masc|Number=Sing	27	det	_	_
 27	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	_
 28	où	où	PRON	_	_	30	advmod	_	_
@@ -7942,7 +7942,7 @@
 # sentence-text: Vous repartirez très déçu...
 1	Vous	vous	PRON	_	Person=2|p=y	2	nsubj	_	_
 2	repartirez	repartir	VERB	_	ind_futur_2p=y	0	root	_	_
-3	très	_	ADV	_	_	4	advmod	_	_
+3	très	très	ADV	_	_	4	advmod	_	_
 4	déçu	déçu	ADJ	_	ms=y	2	xcomp	_	_
 5	...	...	PUNCT	_	_	2	punct	_	_
 
@@ -8019,14 +8019,14 @@
 
 # sentid: fr-ud-test_00294
 # sentence-text: plus de 80 euros 2 menus à pas cher deux kirs une bouteille.
-1	plus	_	ADV	_	_	3	advmod	_	_
+1	plus	plus	ADV	_	_	3	advmod	_	_
 2	de	de	ADP	_	_	1	mwe	_	_
 3	80	_	NUM	_	_	4	nummod	_	_
 4	euros	euro	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
 5	2	_	NUM	_	_	6	nummod	_	_
 6	menus	menu	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 7	à	à	ADP	_	_	9	case	_	_
-8	pas	_	ADV	_	_	9	neg	_	_
+8	pas	pas	ADV	_	_	9	neg	_	_
 9	cher	cher	ADJ	_	ms=y	6	amod	_	_
 10	deux	_	NUM	_	_	11	nummod	_	_
 11	kirs	kir	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	_
@@ -8064,13 +8064,13 @@
 
 # sentid: fr-ud-test_00296
 # sentence-text: très bon accueil les chambres sont très agréables et spacieuses bon rapport qualité prix
-1	très	_	ADV	_	_	2	advmod	_	_
+1	très	très	ADV	_	_	2	advmod	_	_
 2	bon	bon	ADJ	_	ms=y	3	amod	_	_
 3	accueil	accueil	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 4	les	le	DET	_	Gender=Fem|Number=Plur	5	det	_	_
 5	chambres	chambre	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
 6	sont	être	VERB	_	ind_pres_3p=y	8	cop	_	_
-7	très	_	ADV	_	_	8	advmod	_	_
+7	très	très	ADV	_	_	8	advmod	_	_
 8	agréables	agréable	ADJ	_	fp=y	3	parataxis	_	_
 9	et	_	CONJ	_	_	8	cc	_	_
 10	spacieuses	spacieux	ADJ	_	fp=y	8	conj	_	_

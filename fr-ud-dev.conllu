@@ -175,7 +175,7 @@
 4	à	à	ADP	_	_	6	case	_	_
 5	bas	bas	ADJ	_	ms=y	6	amod	_	_
 6	coût	coût	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-7	ne	_	PART	_	_	8	neg	_	_
+7	ne	ne	PART	_	_	8	neg	_	_
 8	connaissent	connaître	VERB	_	ind_pres_3p=y	0	root	_	_
 9	pas	pas	ADV	_	_	8	neg	_	_
 10	la	le	DET	_	Gender=Fem|Number=Sing	11	det	_	_
@@ -249,7 +249,7 @@
 2	,	,	PUNCT	_	_	9	punct	_	_
 3	le	le	DET	_	Gender=Masc|Number=Sing	4	det	_	_
 4	SMIC	SMIC	PROPN	_	_	9	nsubj	_	_
-5	n'	_	PART	_	_	9	neg	_	_
+5	n'	ne	PART	_	_	9	neg	_	_
 6	est	être	VERB	_	ind_pres_3s=y	9	cop	_	_
 7	pas	pas	ADV	_	_	9	neg	_	_
 8	un	un	DET	_	Gender=Masc|Number=Sing	9	det	_	_
@@ -478,7 +478,7 @@
 29	la	le	DET	_	Gender=Fem|Number=Sing	30	det	_	_
 30	matière	matière	NOUN	_	Gender=Fem|Number=Sing	32	nsubj	_	_
 31-32	n'existait	_	_	_	_	_	_	_	_
-31	n'	_	PART	_	_	32	neg	_	_
+31	n'	ne	PART	_	_	32	neg	_	_
 32	existait	exister	VERB	_	imparfait_3s=y	27	ccomp	_	_
 33	pas	pas	ADV	_	_	32	neg	_	_
 34	mais	mais	CONJ	_	_	32	cc	_	_
@@ -1163,7 +1163,7 @@
 # sentid: fr-ud-dev_00042
 # sentence-text: Il ne sera présent que durant les 10 premières parties.
 1	Il	il	PRON	_	Person=3|ms=y	4	nsubj	_	_
-2	ne	_	PART	_	_	4	neg	_	_
+2	ne	ne	PART	_	_	4	neg	_	_
 3	sera	être	VERB	_	ind_futur_3s=y	4	cop	_	_
 4	présent	présent	ADJ	_	ms=y	0	root	_	_
 5	que	que	ADV	_	_	10	advmod	_	_
@@ -1279,7 +1279,7 @@
 13	deux	deux	NUM	_	_	14	nummod	_	_
 14	matchs	match	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
 15	mais	mais	CONJ	_	_	8	cc	_	_
-16	ne	_	PART	_	_	17	neg	_	_
+16	ne	ne	PART	_	_	17	neg	_	_
 17	réussi	réussir	VERB	_	part_pass_ms=y	8	conj	_	_
 18	qu'	que	ADV	_	_	21	advmod	_	_
 19	une	un	DET	_	Gender=Fem|Number=Sing	21	det	_	_
@@ -1409,7 +1409,7 @@
 12	qui	qui	PRON	_	_	13	nsubj	_	_
 13	travaillent	travailler	VERB	_	ind_pres_3p=y	11	acl:relcl	_	_
 14	et	et	CONJ	_	_	13	cc	_	_
-15	n'	_	PART	_	_	16	neg	_	_
+15	n'	ne	PART	_	_	16	neg	_	_
 16	ont	avoir	VERB	_	ind_pres_3p=y	13	conj	_	_
 17	pas	pas	ADV	_	_	16	neg	_	_
 18	de	un	DET	_	Gender=Fem|Number=Sing	19	det	_	_
@@ -1718,7 +1718,7 @@
 17	montre	montrer	VERB	_	ind_pres_3s=y	0	root	_	_
 18	qu'	que	SCONJ	_	_	23	mark	_	_
 19	il	il	PRON	_	Person=3|ms=y	23	nsubj	_	_
-20	n'	_	PART	_	_	23	neg	_	_
+20	n'	ne	PART	_	_	23	neg	_	_
 21	en	en	PRON	_	Person=3	23	iobj	_	_
 22	est	être	VERB	_	ind_pres_3s=y	23	cop	_	_
 23	rien	rien	PRON	_	s=y	17	ccomp	_	_
@@ -2811,7 +2811,7 @@
 5	,	,	PUNCT	_	_	10	punct	_	_
 6	lui	lui	PRON	_	Person=3|s=y	2	nmod	_	_
 7	,	,	PUNCT	_	_	10	punct	_	_
-8	ne	_	PART	_	_	10	neg	_	_
+8	ne	ne	PART	_	_	10	neg	_	_
 9	sera	être	AUX	_	ind_futur_3s=y	10	auxpass	_	_
 10	effectué	effectuer	VERB	_	part_pass_ms=y	0	root	_	_
 11	que	que	ADV	_	_	12	advmod	_	_
@@ -2826,7 +2826,7 @@
 20	et	et	CONJ	_	_	17	cc	_	_
 21	qu'	que	SCONJ	_	_	26	mark	_	_
 22	il	il	PRON	_	Person=3|ms=y	26	nsubj	_	_
-23	n'	_	PART	_	_	26	neg	_	_
+23	n'	ne	PART	_	_	26	neg	_	_
 24	aura	avoir	AUX	_	ind_futur_3s=y	26	aux	_	_
 25	pas	pas	ADV	_	_	26	neg	_	_
 26	trouvé	trouver	VERB	_	part_pass_ms=y	17	conj	_	_
@@ -2988,7 +2988,7 @@
 15	Eudes	Eudes	PROPN	_	_	6	nmod	_	_
 16	,	,	PUNCT	_	_	6	punct	_	_
 17	ils	il	PRON	_	Person=3|mp=y	19	nsubj	_	_
-18	ne	_	PART	_	_	19	neg	_	_
+18	ne	ne	PART	_	_	19	neg	_	_
 19	livrent	livrer	VERB	_	ind_pres_3p=y	0	root	_	_
 20	pas	pas	ADV	_	_	19	neg	_	_
 21	le	le	DET	_	Gender=Masc|Number=Sing	22	det	_	_
@@ -3112,7 +3112,7 @@
 2	plus	plus	ADV	_	_	7	advmod	_	_
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	elles	il	PRON	_	Person=3|fp=y	7	nsubj	_	_
-5	n'	_	PART	_	_	7	neg	_	_
+5	n'	ne	PART	_	_	7	neg	_	_
 6	ont	avoir	AUX	_	ind_pres_3p=y	7	aux	_	_
 7	eu	avoir	VERB	_	part_pass_ms=y	0	root	_	_
 8	aucun	aucun	DET	_	Gender=Masc|Number=Sing	9	neg	_	_
@@ -4229,7 +4229,7 @@
 28	étiquette	étiquette	NOUN	_	Gender=Fem|Number=Sing	33	nsubjpass	_	_
 29	de	de	ADP	_	_	30	case	_	_
 30	classe	classe	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
-31	n'	_	PART	_	_	33	neg	_	_
+31	n'	ne	PART	_	_	33	neg	_	_
 32	est	être	AUX	_	ind_pres_3s=y	33	auxpass	_	_
 33	fournie	fournir	VERB	_	part_pass_fs=y	23	acl:relcl	_	_
 34	)	)	PUNCT	_	_	33	punct	_	_
@@ -4270,7 +4270,7 @@
 # sentence-text: L'information n'a d'ailleurs fait l'objet d'aucun démenti de la part du ministère de la justice algérienne.
 1	L'	le	DET	_	Gender=Fem|Number=Sing	2	det	_	_
 2	information	information	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
-3	n'	_	PART	_	_	7	neg	_	_
+3	n'	ne	PART	_	_	7	neg	_	_
 4	a	avoir	AUX	_	ind_pres_3s=y	7	aux	_	_
 5	d'	de	ADP	_	_	6	case	_	_
 6	ailleurs	ailleurs	ADV	_	_	7	advmod	_	_
@@ -4465,7 +4465,7 @@
 8	la	le	DET	_	Gender=Fem|Number=Sing	9	det	_	_
 9	république	république	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 10	américaine	américain	ADJ	_	fs=y	9	amod	_	_
-11	n'	_	PART	_	_	15	neg	_	_
+11	n'	ne	PART	_	_	15	neg	_	_
 12	était	être	VERB	_	imparfait_3s=y	15	cop	_	_
 13	pas	pas	ADV	_	_	15	neg	_	_
 14	de	de	ADP	_	_	13	mwe	_	_
@@ -4550,7 +4550,7 @@
 17	à	à	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Gender=Masc|Number=Sing	19	det	_	_
 19	G20	G20	PROPN	_	_	13	nmod	_	_
-20	n'	_	PART	_	_	24	neg	_	_
+20	n'	ne	PART	_	_	24	neg	_	_
 21	est	être	VERB	_	ind_pres_3s=y	24	cop	_	_
 22	pas	pas	ADV	_	_	24	neg	_	_
 23	une	un	DET	_	Gender=Fem|Number=Sing	24	det	_	_
@@ -4576,7 +4576,7 @@
 15	,	,	PUNCT	_	_	3	punct	_	_
 16	mais	mais	CONJ	_	_	3	cc	_	_
 17	aucune	aucun	PRON	_	fs=y	19	nsubj	_	_
-18	ne	_	PART	_	_	19	neg	_	_
+18	ne	ne	PART	_	_	19	neg	_	_
 19	fait	faire	VERB	_	ind_pres_3s=y	3	conj	_	_
 20	part	part	NOUN	_	Gender=Fem|Number=Sing	19	dobj	_	_
 21	de	de	ADP	_	_	23	case	_	_
@@ -5921,7 +5921,7 @@
 # sentid: fr-ud-dev_00215
 # sentence-text: Vous n'avez qu'à apporter vos valises, tout est pensé pour un séjour des plus agréable.
 1	Vous	vous	PRON	_	Person=2|p=y	3	nsubj	_	_
-2	n'	_	PART	_	_	3	neg	_	_
+2	n'	ne	PART	_	_	3	neg	_	_
 3	avez	avoir	VERB	_	ind_pres_2p=y	0	root	_	_
 4	qu'	que	SCONJ	_	_	3	expl	_	_
 5	à	à	ADP	_	_	6	mark	_	_
@@ -6315,7 +6315,7 @@
 29	le	le	DET	_	Gender=Masc|Number=Sing	30	det	_	_
 30	cinéma	cinéma	NOUN	_	Gender=Masc|Number=Sing	37	nsubj	_	_
 31	parlant	parler	VERB	_	participe_present=y	30	acl	_	_
-32	n'	_	PART	_	_	37	neg	_	_
+32	n'	ne	PART	_	_	37	neg	_	_
 33	étant	être	VERB	_	participe_present=y	37	advcl	_	_
 34	pas	pas	ADV	_	_	37	neg	_	_
 35	encore	encore	ADV	_	_	37	advmod	_	_
@@ -6622,7 +6622,7 @@
 2	en	en	ADP	_	_	3	case	_	_
 3	1940	1940	NUM	_	_	6	nmod	_	_
 4	Cuijk	Cuijk	PROPN	_	_	6	nsubj	_	_
-5	n'	_	PART	_	_	6	neg	_	_
+5	n'	ne	PART	_	_	6	neg	_	_
 6	avait	avoir	VERB	_	imparfait_3s=y	0	root	_	_
 7	encore	encore	ADV	_	_	6	advmod	_	_
 8-9	qu'environ	_	_	_	_	_	_	_	_
@@ -6816,7 +6816,7 @@
 5	aéroport	aéroport	NOUN	_	Gender=Masc|Number=Sing	11	nsubjpass	_	_
 6	international	international	ADJ	_	ms=y	5	amod	_	_
 7	Logan	Logan	PROPN	_	_	5	appos	_	_
-8	n'	_	PART	_	_	11	neg	_	_
+8	n'	ne	PART	_	_	11	neg	_	_
 9	était	être	AUX	_	imparfait_3s=y	11	auxpass	_	_
 10	pas	pas	ADV	_	_	11	neg	_	_
 11	fermé	fermer	VERB	_	part_pass_ms=y	0	root	_	_
@@ -7594,7 +7594,7 @@
 7	belles	beau	ADJ	_	fp=y	0	root	_	_
 8	ce	ce	PRON	_	Person=3|s=y	11	nsubj	_	_
 9	qui	qui	PRON	_	_	8	mwe	_	_
-10	ne	_	PART	_	_	11	neg	_	_
+10	ne	ne	PART	_	_	11	neg	_	_
 11	gâte	gâter	VERB	_	ind_pres_3s=y	7	parataxis	_	_
 12	rien	rien	PRON	_	s=y	11	dobj	_	_
 13	.	.	PUNCT	_	_	7	punct	_	_
@@ -7700,7 +7700,7 @@
 21	parce	parce	ADV	_	_	25	mark	_	_
 22	qu'	que	SCONJ	_	_	21	mwe	_	_
 23	il	il	PRON	_	Person=3|ms=y	25	nsubj	_	_
-24	n'	_	PART	_	_	25	neg	_	_
+24	n'	ne	PART	_	_	25	neg	_	_
 25	existe	exister	VERB	_	ind_pres_3s=y	16	advcl	_	_
 26	pas	pas	ADV	_	_	25	neg	_	_
 27	d'	un	DET	_	Gender=Masc|Number=Plur	28	det	_	_
@@ -9111,7 +9111,7 @@
 10	que	que	SCONJ	_	_	15	mark	_	_
 11	la	le	DET	_	Gender=Fem|Number=Sing	12	det	_	_
 12	société	société	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
-13	ne	_	PART	_	_	15	neg	_	_
+13	ne	ne	PART	_	_	15	neg	_	_
 14	lui	lui	PRON	_	Person=3|s=y	15	iobj	_	_
 15	va	aller	VERB	_	ind_pres_3s=y	9	ccomp	_	_
 16	toujours	toujours	ADV	_	_	15	advmod	_	_
@@ -9294,7 +9294,7 @@
 10	pourquoi	pourquoi	ADV	_	_	14	advmod	_	_
 11	ses	son	DET	_	Gender=Masc|Number=Plur	12	nmod:poss	_	_
 12	beaux-frères	beau-frère	NOUN	_	Gender=Masc|Number=Plur	14	nsubj	_	_
-13	ne	_	PART	_	_	14	neg	_	_
+13	ne	ne	PART	_	_	14	neg	_	_
 14	portèrent	porter	VERB	_	passe_simple_3p=y	9	acl:relcl	_	_
 15-16	jusqu'en	_	_	_	_	_	_	_	_
 15	jusqu'	jusque	ADP	_	_	17	case	_	_
@@ -9588,7 +9588,7 @@
 1	A	à	ADP	_	_	2	case	_	_
 2	cela	cela	PRON	_	s=y	6	nmod	_	_
 3	nous	nous	PRON	_	Person=1|p=y	6	nsubj	_	_
-4	ne	_	PART	_	_	6	neg	_	_
+4	ne	ne	PART	_	_	6	neg	_	_
 5	pouvons	pouvoir	AUX	_	ind_pres_1p=y	6	aux	_	_
 6	répondre	répondre	VERB	_	infinitif=y	0	root	_	_
 7	qu'	que	SCONJ	_	_	6	expl	_	_
@@ -9701,7 +9701,7 @@
 2	,	,	PUNCT	_	_	8	punct	_	_
 3	les	le	DET	_	Gender=Masc|Number=Plur	4	det	_	_
 4	personnages	personnage	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
-5	ne	_	PART	_	_	8	neg	_	_
+5	ne	ne	PART	_	_	8	neg	_	_
 6	sont	être	AUX	_	ind_pres_3p=y	8	auxpass	_	_
 7	pas	pas	ADV	_	_	8	neg	_	_
 8	représentés	représenter	VERB	_	part_pass_mp=y	0	root	_	_
@@ -9725,7 +9725,7 @@
 2	fille	fille	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	qui	qui	PRON	_	_	4	nsubj	_	_
 4	répond	répondre	VERB	_	ind_pres_3s=y	2	acl:relcl	_	_
-5	n'	_	PART	_	_	6	neg	_	_
+5	n'	ne	PART	_	_	6	neg	_	_
 6	a	avoir	VERB	_	ind_pres_3s=y	0	root	_	_
 7	pas	pas	ADV	_	_	6	neg	_	_
 8	de	un	DET	_	Gender=Masc|Number=Sing	9	det	_	_
@@ -10050,7 +10050,7 @@
 7	épaule	épaule	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 8	,	,	PUNCT	_	_	2	punct	_	_
 9	il	il	PRON	_	Person=3|ms=y	11	nsubj	_	_
-10	ne	_	PART	_	_	11	neg	_	_
+10	ne	ne	PART	_	_	11	neg	_	_
 11	dispute	disputer	VERB	_	ind_pres_3s=y	0	root	_	_
 12	que	que	ADV	_	_	11	advmod	_	_
 13	41	41	NUM	_	_	14	nummod	_	_
@@ -10071,7 +10071,7 @@
 26	à	à	ADP	_	_	28	case	_	_
 27	le	le	DET	_	Gender=Masc|Number=Sing	28	det	_	_
 28	bâton	bâton	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
-29	n'	_	PART	_	_	30	neg	_	_
+29	n'	ne	PART	_	_	30	neg	_	_
 30	est	être	VERB	_	ind_pres_3s=y	11	conj	_	_
 31	que	que	ADV	_	_	30	advmod	_	_
 32	de	de	ADP	_	_	33	case	_	_
@@ -10082,7 +10082,7 @@
 # sentence-text: La sécurité n'est absolument pas mise de coté.
 1	La	le	DET	_	Gender=Fem|Number=Sing	2	det	_	_
 2	sécurité	sécurité	NOUN	_	Gender=Fem|Number=Sing	7	nsubjpass	_	_
-3	n'	_	PART	_	_	7	neg	_	_
+3	n'	ne	PART	_	_	7	neg	_	_
 4	est	être	AUX	_	ind_pres_3s=y	7	auxpass	_	_
 5	absolument	absolument	ADV	_	_	6	advmod	_	_
 6	pas	pas	ADV	_	_	7	neg	_	_
@@ -10145,7 +10145,7 @@
 10	trains	train	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
 11	plus	plus	ADV	_	_	12	advmod	_	_
 12	important	important	ADJ	_	ms=y	8	amod	_	_
-13	n'	_	PART	_	_	18	neg	_	_
+13	n'	ne	PART	_	_	18	neg	_	_
 14	aurait	avoir	AUX	_	cond_pres_3s=y	18	aux	_	_
 15	sans	sans	ADP	_	_	16	case	_	_
 16	doute	doute	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
@@ -11060,7 +11060,7 @@
 8	de	de	ADP	_	_	10	case	_	_
 9	les	le	DET	_	Gender=Fem|Number=Plur	10	det	_	_
 10	civilisations	civilisation	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
-11	n'	_	PART	_	_	14	neg	_	_
+11	n'	ne	PART	_	_	14	neg	_	_
 12	est	être	VERB	_	ind_pres_3s=y	14	cop	_	_
 13	pas	pas	ADV	_	_	14	neg	_	_
 14	nouveau	nouveau	ADJ	_	ms=y	0	root	_	_
@@ -11284,7 +11284,7 @@
 12	Palaos	Palaos	PROPN	_	_	5	conj	_	_
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	il	il	PRON	_	Person=3|ms=y	16	nsubj	_	_
-15	n'	_	PART	_	_	16	neg	_	_
+15	n'	ne	PART	_	_	16	neg	_	_
 16	existe	exister	VERB	_	ind_pres_3s=y	0	root	_	_
 17	pas	pas	ADV	_	_	16	neg	_	_
 18	de	un	DET	_	Gender=Masc|Number=Plur	19	det	_	_
@@ -11402,7 +11402,7 @@
 32	propre	propre	ADJ	_	ms=y	33	amod	_	_
 33	habitacle	habitacle	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
 34	"	"	PUNCT	_	_	39	punct	_	_
-35	n'	_	PART	_	_	39	neg	_	_
+35	n'	ne	PART	_	_	39	neg	_	_
 36	est	être	AUX	_	ind_pres_3s=y	39	aux	_	_
 37	il	il	PRON	_	Person=3|ms=y	39	nsubj	_	_
 38	pas	pas	ADV	_	_	39	neg	_	_
@@ -11621,7 +11621,7 @@
 # sentid: fr-ud-dev_00420
 # sentence-text: Il n'est pas aussi anxieux qu'il y paraît.
 1	Il	il	PRON	_	Person=3|ms=y	6	nsubj	_	_
-2	n'	_	PART	_	_	6	neg	_	_
+2	n'	ne	PART	_	_	6	neg	_	_
 3	est	être	VERB	_	ind_pres_3s=y	6	cop	_	_
 4	pas	pas	ADV	_	_	6	neg	_	_
 5	aussi	aussi	ADV	_	_	6	advmod	_	_
@@ -12163,7 +12163,7 @@
 8	sur	sur	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Gender=Masc|Number=Sing	10	det	_	_
 10	tabac	tabac	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-11	n'	_	PART	_	_	18	neg	_	_
+11	n'	ne	PART	_	_	18	neg	_	_
 12	y	y	ADV	_	_	18	advmod	_	_
 13	est	être	AUX	_	ind_pres_3s=y	18	aux	_	_
 14	pas	pas	ADV	_	_	18	neg	_	_
@@ -12176,7 +12176,7 @@
 20	pour	pour	ADP	_	_	29	case	_	_
 21	,	,	PUNCT	_	_	20	punct	_	_
 22	semble	sembler	VERB	_	ind_pres_3s=y	20	parataxis	_	_
-23	t'	_	PART	_	_	24	expl	_	_
+23	t'	t'	PART	_	_	24	expl	_	_
 24	il	il	PRON	_	Person=3|ms=y	22	nsubj	_	_
 25	,	,	PUNCT	_	_	20	punct	_	_
 26	le	le	DET	_	Gender=Masc|Number=Sing	29	det	_	_
@@ -12449,7 +12449,7 @@
 # sentence-text: Mais quelle ne fut pas ma surprise lorsque j'ai pu récupérer celle ci dans un état proche du neuf !
 1	Mais	mais	CONJ	_	_	7	cc	_	_
 2	quelle	quel	PRON	_	fs=y	7	nsubj	_	_
-3	ne	_	PART	_	_	7	neg	_	_
+3	ne	ne	PART	_	_	7	neg	_	_
 4	fut	être	VERB	_	passe_simple_3s=y	7	cop	_	_
 5	pas	pas	ADV	_	_	7	neg	_	_
 6	ma	son	DET	_	Gender=Fem|Number=Sing	7	nmod:poss	_	_
@@ -12751,7 +12751,7 @@
 17	les	le	DET	_	Gender=Masc|Number=Plur	18	det	_	_
 18	militaires	militaire	NOUN	_	Gender=Masc|Number=Plur	21	nsubj	_	_
 19	inversement	inversement	ADV	_	_	21	advmod	_	_
-20	ne	_	PART	_	_	21	neg	_	_
+20	ne	ne	PART	_	_	21	neg	_	_
 21	comprennent	comprendre	VERB	_	ind_pres_3p=y	0	root	_	_
 22	pas	pas	ADV	_	_	21	neg	_	_
 23	toujours	toujours	ADV	_	_	21	advmod	_	_
@@ -12838,7 +12838,7 @@
 14	son	son	DET	_	Gender=Masc|Number=Sing	15	nmod:poss	_	_
 15	parti	parti	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 16	mais	mais	CONJ	_	_	8	cc	_	_
-17	ne	_	PART	_	_	18	neg	_	_
+17	ne	ne	PART	_	_	18	neg	_	_
 18	réussit	réussir	VERB	_	passe_simple_3s=y	8	conj	_	_
 19	pas	pas	ADV	_	_	18	neg	_	_
 20	à	à	ADP	_	_	21	mark	_	_
@@ -12888,7 +12888,7 @@
 3	renversement	renversement	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	situation	situation	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-6	n'	_	PART	_	_	10	neg	_	_
+6	n'	ne	PART	_	_	10	neg	_	_
 7	est	être	VERB	_	ind_pres_3s=y	10	cop	_	_
 8	pas	pas	ADV	_	_	10	neg	_	_
 9	si	si	ADV	_	_	10	advmod	_	_
@@ -13027,7 +13027,7 @@
 1	«	«	PUNCT	_	_	2	punct	_	_
 2	Chambre	chambre	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	»	»	PUNCT	_	_	2	punct	_	_
-4	ne	_	PART	_	_	7	neg	_	_
+4	ne	ne	PART	_	_	7	neg	_	_
 5	deviendra	devenir	VERB	_	ind_futur_3s=y	7	cop	_	_
 6	le	le	DET	_	Gender=Masc|Number=Sing	7	det	_	_
 7	synonyme	synonyme	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -13066,7 +13066,7 @@
 39	alors	alors	ADV	_	_	46	mark	_	_
 40	qu'	que	SCONJ	_	_	39	mwe	_	_
 41	elle	elle	PRON	_	Person=3|fs=y	46	nsubj	_	_
-42	n'	_	PART	_	_	46	neg	_	_
+42	n'	ne	PART	_	_	46	neg	_	_
 43	est	être	VERB	_	ind_pres_3s=y	46	cop	_	_
 44	qu'	que	ADV	_	_	46	advmod	_	_
 45	un	un	DET	_	Gender=Masc|Number=Sing	46	det	_	_
@@ -13124,7 +13124,7 @@
 17	de	de	ADP	_	_	18	case	_	_
 18	motifs	motif	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
 19	,	,	PUNCT	_	_	16	punct	_	_
-20	l'	_	PART	_	_	21	expl	_	_
+20	l'	l'	PART	_	_	21	expl	_	_
 21	une	un	PRON	_	fs=y	16	appos	_	_
 22	de	de	ADP	_	_	23	case	_	_
 23	32	32	NUM	_	_	21	nmod	_	_
@@ -13198,7 +13198,7 @@
 1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing	3	neg	_	_
 2	autre	autre	ADJ	_	ms=y	3	amod	_	_
 3	pays	pays	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
-4	ne	_	PART	_	_	6	neg	_	_
+4	ne	ne	PART	_	_	6	neg	_	_
 5	s'	se	PRON	_	Person=3	6	dobj	_	_
 6	occupe	occuper	VERB	_	ind_pres_3s=y	0	root	_	_
 7	à	à	ADP	_	_	6	advmod	_	_
@@ -13562,7 +13562,7 @@
 # sentence-text: Les utilisateurs ne sont pas supposés devoir lire de la documentation de bas niveau pour réussir à faire compiler des bibliothèques dynamiques.
 1	Les	le	DET	_	Gender=Masc|Number=Plur	2	det	_	_
 2	utilisateurs	utilisateur	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
-3	ne	_	PART	_	_	6	neg	_	_
+3	ne	ne	PART	_	_	6	neg	_	_
 4	sont	être	AUX	_	ind_pres_3p=y	6	aux	_	_
 5	pas	pas	ADV	_	_	6	neg	_	_
 6	supposés	supposer	VERB	_	part_pass_mp=y	0	root	_	_
@@ -14065,7 +14065,7 @@
 15	de	de	ADP	_	_	16	case	_	_
 16	1948	1948	PROPN	_	_	14	nmod	_	_
 17	,	,	PUNCT	_	_	19	punct	_	_
-18	ne	_	PART	_	_	19	neg	_	_
+18	ne	ne	PART	_	_	19	neg	_	_
 19	favorise	favoriser	VERB	_	ind_pres_3s=y	0	root	_	_
 20	pas	pas	ADV	_	_	19	neg	_	_
 21	les	le	DET	_	Gender=Masc|Number=Plur	22	det	_	_
@@ -14594,7 +14594,7 @@
 11	et	et	CONJ	_	_	3	cc	_	_
 12	sincèrement	sincèrement	ADV	_	_	18	advmod	_	_
 13	je	il	PRON	_	Person=1|s=y	18	nsubj	_	_
-14	n'	_	PART	_	_	18	neg	_	_
+14	n'	ne	PART	_	_	18	neg	_	_
 15	en	en	PRON	_	Person=3	18	iobj	_	_
 16	ai	avoir	AUX	_	ind_pres_1s=y	18	aux	_	_
 17	pas	pas	ADV	_	_	18	neg	_	_
@@ -14830,7 +14830,7 @@
 8	ainsi	ainsi	ADV	_	_	7	advmod	_	_
 9	,	,	PUNCT	_	_	3	punct	_	_
 10	ce	ce	PRON	_	Person=3|s=y	12	nsubj	_	_
-11	n'	_	PART	_	_	12	neg	_	_
+11	n'	ne	PART	_	_	12	neg	_	_
 12	est	être	VERB	_	ind_pres_3s=y	3	parataxis	_	_
 13	même	même	ADV	_	_	14	advmod	_	_
 14	pas	pas	ADV	_	_	12	neg	_	_
@@ -14883,7 +14883,7 @@
 4	président	président	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 5	:	:	PUNCT	_	_	8	punct	_	_
 6	il	il	PRON	_	Person=3|ms=y	8	nsubj	_	_
-7	n'	_	PART	_	_	8	neg	_	_
+7	n'	ne	PART	_	_	8	neg	_	_
 8	accepte	accepter	VERB	_	ind_pres_3s=y	0	root	_	_
 9	pas	pas	ADV	_	_	8	neg	_	_
 10	«	«	PUNCT	_	_	12	punct	_	_
@@ -14909,7 +14909,7 @@
 6	de	de	ADP	_	_	8	case	_	_
 7	la	le	DET	_	Gender=Fem|Number=Sing	8	det	_	_
 8	région	région	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
-9	n'	_	PART	_	_	10	neg	_	_
+9	n'	ne	PART	_	_	10	neg	_	_
 10	arrivent	arriver	VERB	_	ind_pres_3p=y	0	root	_	_
 11	pas	pas	ADV	_	_	10	neg	_	_
 12	à	à	ADP	_	_	14	mark	_	_
@@ -14932,7 +14932,7 @@
 6	une	un	DET	_	Gender=Fem|Number=Sing	8	det	_	_
 7	même	même	ADJ	_	fs=y	8	amod	_	_
 8	zone	zone	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-9	ne	_	PART	_	_	11	neg	_	_
+9	ne	ne	PART	_	_	11	neg	_	_
 10	se	se	PRON	_	Person=3	11	dobj	_	_
 11	nourrissent	nourrir	VERB	_	ind_pres_3p=y	0	root	_	_
 12	pas	pas	ADV	_	_	11	neg	_	_
@@ -15239,7 +15239,7 @@
 # sentence-text: Et déjà l'on fait cas de la réouverture imminente des frontières longtemps réclamée par nos voisins de l'Ouest.
 1	Et	et	CONJ	_	_	5	cc	_	_
 2	déjà	déjà	ADV	_	_	5	advmod	_	_
-3	l'	_	PART	_	_	4	expl	_	_
+3	l'	l'	PART	_	_	4	expl	_	_
 4	on	on	PRON	_	Person=3|ms=y	5	nsubj	_	_
 5	fait	faire	VERB	_	ind_pres_3s=y	0	root	_	_
 6	cas	cas	NOUN	_	Gender=Masc|Number=Sing	5	dobj	_	_
@@ -15815,7 +15815,7 @@
 2	revanche	revanche	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 3	,	,	PUNCT	_	_	8	punct	_	_
 4	elle	elle	PRON	_	Person=3|fs=y	8	nsubj	_	_
-5	ne	_	PART	_	_	8	neg	_	_
+5	ne	ne	PART	_	_	8	neg	_	_
 6	peut	pouvoir	AUX	_	ind_pres_3s=y	8	aux	_	_
 7	pas	pas	ADV	_	_	8	neg	_	_
 8	accéder	accéder	VERB	_	infinitif=y	0	root	_	_
@@ -16579,7 +16579,7 @@
 14	si	si	SCONJ	_	_	19	mark	_	_
 15	d'	un	DET	_	_	16	det	_	_
 16	autres	autre	PRON	_	p=y	19	nsubj	_	_
-17	n'	_	PART	_	_	19	neg	_	_
+17	n'	ne	PART	_	_	19	neg	_	_
 18	en	en	PRON	_	Person=3	19	iobj	_	_
 19	font	faire	VERB	_	ind_pres_3p=y	7	conj	_	_
 20	indiscutablement	indiscutablement	ADV	_	_	19	advmod	_	_
@@ -16991,7 +16991,7 @@
 1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing	2	neg	_	_
 2	signe	signe	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	échographique	échographique	ADJ	_	ms=y	2	amod	_	_
-4	n'	_	PART	_	_	6	neg	_	_
+4	n'	ne	PART	_	_	6	neg	_	_
 5	est	être	VERB	_	ind_pres_3s=y	6	cop	_	_
 6	symptomatique	symptomatique	ADJ	_	ms=y	0	root	_	_
 7	de	de	ADP	_	_	9	case	_	_
@@ -17012,7 +17012,7 @@
 7	s'	se	PRON	_	Person=3	8	dobj	_	_
 8	emploie	employer	VERB	_	ind_pres_3s=y	0	root	_	_
 9	à	à	ADP	_	_	12	mark	_	_
-10	ne	_	PART	_	_	12	neg	_	_
+10	ne	ne	PART	_	_	12	neg	_	_
 11	plus	plus	ADV	_	_	12	advmod	_	_
 12	connaître	connaître	VERB	_	infinitif=y	8	acl	_	_
 13	les	le	DET	_	Gender=Fem|Number=Plur	15	det	_	_
@@ -17189,7 +17189,7 @@
 29	ceux	celui	PRON	_	mp=y	26	nmod	_	_
 30	que	que	PRON	_	_	36	dobj	_	_
 31	je	il	PRON	_	Person=1|s=y	36	nsubj	_	_
-32	n'	_	PART	_	_	36	neg	_	_
+32	n'	ne	PART	_	_	36	neg	_	_
 33	ai	avoir	AUX	_	ind_pres_1s=y	36	aux	_	_
 34	pas	pas	ADV	_	_	36	neg	_	_
 35	pu	pouvoir	AUX	_	part_pass_ms=y	36	aux	_	_
@@ -17364,7 +17364,7 @@
 33	,	,	PUNCT	_	_	16	punct	_	_
 34	clairement	clairement	ADV	_	_	35	advmod	_	_
 35	90	90	NUM	_	_	26	nmod	_	_
-36	's	_	PART	_	_	35	case	_	_
+36	's	's	PART	_	_	35	case	_	_
 37	avec	avec	ADP	_	_	39	case	_	_
 38	une	un	DET	_	Gender=Fem|Number=Sing	39	det	_	_
 39	peinture	peinture	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
@@ -17489,7 +17489,7 @@
 3	montre	montrer	VERB	_	ind_pres_3s=y	0	root	_	_
 4	qu'	que	SCONJ	_	_	7	mark	_	_
 5	il	il	PRON	_	Person=3|ms=y	7	nsubj	_	_
-6	n'	_	PART	_	_	7	neg	_	_
+6	n'	ne	PART	_	_	7	neg	_	_
 7	existe	exister	VERB	_	ind_pres_3s=y	3	ccomp	_	_
 8	apparemment	apparemment	ADV	_	_	7	advmod	_	_
 9	pas	pas	ADV	_	_	7	neg	_	_
@@ -17584,7 +17584,7 @@
 18	Roland	Roland	PROPN	_	_	17	dobj	_	_
 19	s'	si	SCONJ	_	_	23	mark	_	_
 20	il	il	PRON	_	Person=3|ms=y	23	nsubj	_	_
-21	n'	_	PART	_	_	23	neg	_	_
+21	n'	ne	PART	_	_	23	neg	_	_
 22	y	y	PRON	_	_	23	expl	_	_
 23	a	avoir	VERB	_	ind_pres_3s=y	17	advcl	_	_
 24	plus	plus	ADV	_	_	23	neg	_	_
@@ -18167,7 +18167,7 @@
 8	car	car	CONJ	_	_	1	cc	_	_
 9	l'	le	DET	_	Gender=Fem|Number=Sing	10	det	_	_
 10	addition	addition	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
-11	ne	_	PART	_	_	15	neg	_	_
+11	ne	ne	PART	_	_	15	neg	_	_
 12	nous	le	PRON	_	Person=1|p=y	15	dobj	_	_
 13	a	avoir	AUX	_	ind_pres_3s=y	15	aux	_	_
 14	pas	pas	ADV	_	_	15	neg	_	_
@@ -18228,7 +18228,7 @@
 # sentid: fr-ud-dev_00655
 # sentence-text: Wotan n'est-il pas devenu son propre adversaire en accomplissant les vœux de la déesse ?
 1	Wotan	Wotan	PROPN	_	_	9	nsubj	_	_
-2	n'	_	PART	_	_	9	neg	_	_
+2	n'	ne	PART	_	_	9	neg	_	_
 3	est	être	AUX	_	ind_pres_3s=y	9	aux	_	_
 4	-il	il	PRON	_	Person=3|ms=y	9	expl	_	_
 5	pas	pas	ADV	_	_	9	neg	_	_
@@ -19098,7 +19098,7 @@
 4	le	le	DET	_	Gender=Masc|Number=Sing	5	det	_	_
 5	module	module	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 6	M	_	SYM	_	_	5	appos	_	_
-7	n'	_	PART	_	_	9	neg	_	_
+7	n'	ne	PART	_	_	9	neg	_	_
 8	est	être	VERB	_	ind_pres_3s=y	9	cop	_	_
 9	autre	autre	ADJ	_	fs=y	0	root	_	_
 10	que	que	ADP	_	_	12	case	_	_
@@ -19315,7 +19315,7 @@
 # sentence-text: Elle constitue l'une des trois écoles formation de l'Agence pour la sécurité de la navigation aérienne en Afrique et à Madagascar.
 1	Elle	elle	PRON	_	Person=3|fs=y	2	nsubj	_	_
 2	constitue	constituer	VERB	_	ind_pres_3s=y	0	root	_	_
-3	l'	_	PART	_	_	4	expl	_	_
+3	l'	l'	PART	_	_	4	expl	_	_
 4	une	un	PRON	_	fs=y	2	dobj	_	_
 5-6	des	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	8	case	_	_
@@ -19416,7 +19416,7 @@
 9	composaient	composer	VERB	_	imparfait_3p=y	0	root	_	_
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	et	et	CONJ	_	_	9	cc	_	_
-12	ne	_	PART	_	_	13	neg	_	_
+12	ne	ne	PART	_	_	13	neg	_	_
 13	manquait	manquer	VERB	_	imparfait_3s=y	9	conj	_	_
 14	pas	pas	ADV	_	_	13	neg	_	_
 15	de	de	ADP	_	_	16	mark	_	_
@@ -19717,7 +19717,7 @@
 11	de	de	ADP	_	_	13	case	_	_
 12	le	le	DET	_	Gender=Masc|Number=Sing	13	det	_	_
 13	Capitole	Capitole	PROPN	_	_	10	nmod	_	_
-14	ne	_	PART	_	_	15	neg	_	_
+14	ne	ne	PART	_	_	15	neg	_	_
 15	fasse	faire	VERB	_	subj_pres_3s=y	3	ccomp	_	_
 16	qu'	que	ADV	_	_	17	advmod	_	_
 17	un	un	NUM	_	_	15	dobj	_	_
@@ -20053,7 +20053,7 @@
 7	plutôt	plutôt	ADV	_	_	8	advmod	_	_
 8	mesurée	mesuré	ADJ	_	fs=y	6	amod	_	_
 9	pour	pour	ADP	_	_	12	mark	_	_
-10	ne	_	PART	_	_	12	neg	_	_
+10	ne	ne	PART	_	_	12	neg	_	_
 11	pas	pas	ADV	_	_	12	neg	_	_
 12	dire	dire	VERB	_	infinitif=y	8	advcl	_	_
 13	ambiguë	ambigu	ADJ	_	fs=y	12	xcomp	_	_
@@ -20192,7 +20192,7 @@
 5	financer	financer	VERB	_	infinitif=y	2	acl:relcl	_	_
 6	le	le	DET	_	Gender=Masc|Number=Sing	7	det	_	_
 7	film	film	NOUN	_	Gender=Masc|Number=Sing	5	dobj	_	_
-8	n'	_	PART	_	_	11	neg	_	_
+8	n'	ne	PART	_	_	11	neg	_	_
 9	est	être	AUX	_	ind_pres_3s=y	11	aux	_	_
 10	jamais	jamais	ADV	_	_	11	advmod	_	_
 11	arrivé	arriver	VERB	_	part_pass_ms=y	0	root	_	_
@@ -20447,7 +20447,7 @@
 # sentid: fr-ud-dev_00740
 # sentence-text: il ne s'agit pas d'un camping mais d'une chambre d'hotes !......
 1	il	il	PRON	_	Person=3|ms=y	4	nsubj	_	_
-2	ne	_	PART	_	_	4	neg	_	_
+2	ne	ne	PART	_	_	4	neg	_	_
 3	s'	se	PRON	_	Person=3	4	dobj	_	_
 4	agit	agir	VERB	_	ind_pres_3s=y	0	root	_	_
 5	pas	pas	ADV	_	_	4	neg	_	_
@@ -20877,7 +20877,7 @@
 16	navires	navire	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
 17	,	,	PUNCT	_	_	10	punct	_	_
 18	il	il	PRON	_	Person=3|ms=y	20	nsubj	_	_
-19	ne	_	PART	_	_	20	neg	_	_
+19	ne	ne	PART	_	_	20	neg	_	_
 20	contribue	contribuer	VERB	_	ind_pres_3s=y	10	conj	_	_
 21	pas	pas	ADV	_	_	20	neg	_	_
 22-23	au	_	_	_	_	_	_	_	_
@@ -20893,7 +20893,7 @@
 30	navires	navire	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	_
 31	et	et	CONJ	_	_	20	cc	_	_
 32-33	n'entre	_	_	_	_	_	_	_	_
-32	n'	_	PART	_	_	33	neg	_	_
+32	n'	ne	PART	_	_	33	neg	_	_
 33	entre	entrer	VERB	_	ind_pres_3s=y	20	conj	_	_
 34	donc	donc	ADV	_	_	33	advmod	_	_
 35	pas	pas	ADV	_	_	33	advmod	_	_
@@ -20936,7 +20936,7 @@
 25	un	un	DET	_	Gender=Masc|Number=Sing	26	det	_	_
 26	père	père	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
 27	qui	qui	PRON	_	_	29	nsubj	_	_
-28	ne	_	PART	_	_	29	neg	_	_
+28	ne	ne	PART	_	_	29	neg	_	_
 29	sait	savoir	VERB	_	ind_pres_3s=y	26	acl:relcl	_	_
 30	pas	pas	ADV	_	_	29	neg	_	_
 31	comment	comment	ADV	_	_	34	mark	_	_
@@ -20970,7 +20970,7 @@
 21	et	et	CONJ	_	_	20	cc	_	_
 22	menaçant	menacer	VERB	_	participe_present=y	20	conj	_	_
 23	violemment	violemment	ADV	_	_	22	advmod	_	_
-24	l'	_	PART	_	_	25	expl	_	_
+24	l'	l'	PART	_	_	25	expl	_	_
 25	un	un	PRON	_	ms=y	22	dobj	_	_
 26	de	de	ADP	_	_	28	case	_	_
 27	ses	son	DET	_	Gender=Masc|Number=Plur	28	nmod:poss	_	_
@@ -21166,7 +21166,7 @@
 11	,	,	PUNCT	_	_	17	punct	_	_
 12	l'	le	DET	_	Number=Sing	13	det	_	_
 13	Europe	Europe	PROPN	_	_	17	nsubj	_	_
-14	n'	_	PART	_	_	17	neg	_	_
+14	n'	ne	PART	_	_	17	neg	_	_
 15	a	avoir	AUX	_	ind_pres_3s=y	17	aux	_	_
 16	pas	pas	ADV	_	_	17	neg	_	_
 17	appuyé	appuyer	VERB	_	part_pass_ms=y	0	root	_	_
@@ -21843,7 +21843,7 @@
 5	,	,	PUNCT	_	_	9	punct	_	_
 6	le	le	DET	_	Gender=Masc|Number=Sing	7	det	_	_
 7	fisc	fisc	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
-8	ne	_	PART	_	_	9	neg	_	_
+8	ne	ne	PART	_	_	9	neg	_	_
 9	prend	prendre	VERB	_	ind_pres_3s=y	0	root	_	_
 10	en	en	ADP	_	_	11	case	_	_
 11	compte	compte	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
@@ -23503,7 +23503,7 @@
 # sentence-text: Attention à ne pas mettre en place une cure d'austérité trop sévère qui viendrait casser la croissance.
 1	Attention	attention	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	à	à	ADP	_	_	5	mark	_	_
-3	ne	_	PART	_	_	5	neg	_	_
+3	ne	ne	PART	_	_	5	neg	_	_
 4	pas	pas	ADV	_	_	5	neg	_	_
 5	mettre	mettre	VERB	_	infinitif=y	1	acl	_	_
 6	en	en	ADP	_	_	7	case	_	_
@@ -24194,7 +24194,7 @@
 12	se	se	PRON	_	Person=3	13	dobj	_	_
 13	présente	présenter	VERB	_	ind_pres_3s=y	0	root	_	_
 14	pour	pour	ADP	_	_	16	case	_	_
-15	l'	_	PART	_	_	16	expl	_	_
+15	l'	l'	PART	_	_	16	expl	_	_
 16	un	un	PRON	_	ms=y	13	nmod	_	_
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	20	case	_	_
@@ -24239,7 +24239,7 @@
 11	si	si	SCONJ	_	_	17	mark	_	_
 12	le	le	DET	_	Gender=Masc|Number=Sing	13	det	_	_
 13	premier	premier	NOUN	_	Gender=Masc|Number=Sing	17	nsubjpass	_	_
-14	n'	_	PART	_	_	17	neg	_	_
+14	n'	ne	PART	_	_	17	neg	_	_
 15	est	être	AUX	_	ind_pres_3s=y	17	auxpass	_	_
 16	pas	pas	ADV	_	_	17	neg	_	_
 17	rempli	remplir	VERB	_	part_pass_ms=y	4	advcl	_	_
@@ -24338,7 +24338,7 @@
 13	dont	dont	PRON	_	_	15	nmod	_	_
 14	la	le	DET	_	Gender=Fem|Number=Sing	15	det	_	_
 15	forme	forme	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
-16	ne	_	PART	_	_	17	neg	_	_
+16	ne	ne	PART	_	_	17	neg	_	_
 17	correspond	correspondre	VERB	_	ind_pres_3s=y	10	acl:relcl	_	_
 18	pas	pas	ADV	_	_	17	neg	_	_
 19-20	aux	_	_	_	_	_	_	_	_
@@ -24768,7 +24768,7 @@
 26	mais	mais	CONJ	_	_	21	cc	_	_
 27	elle	elle	PRON	_	Person=3|fs=y	29	nsubj	_	_
 28-29	n'apparaît	_	_	_	_	_	_	_	_
-28	n'	_	PART	_	_	29	neg	_	_
+28	n'	ne	PART	_	_	29	neg	_	_
 29	apparaît	apparaître	VERB	_	ind_pres_3s=y	21	conj	_	_
 30	pas	pas	ADV	_	_	29	neg	_	_
 31	sur	sur	ADP	_	_	33	case	_	_
@@ -24952,7 +24952,7 @@
 33	plus	plus	ADV	_	_	34	advmod	_	_
 34	agressive	agressif	ADJ	_	fs=y	31	amod	_	_
 35	,	,	PUNCT	_	_	39	punct	_	_
-36	n'	_	PART	_	_	39	neg	_	_
+36	n'	ne	PART	_	_	39	neg	_	_
 37	est	être	AUX	_	ind_pres_3s=y	39	auxpass	_	_
 38	pas	pas	ADV	_	_	39	neg	_	_
 39	comprise	comprendre	VERB	_	part_pass_fs=y	0	root	_	_
@@ -26486,7 +26486,7 @@
 # sentid: fr-ud-dev_00958
 # sentence-text: Villeroy ne dispose plus de commerce.
 1	Villeroy	Villeroy	PROPN	_	_	3	nsubj	_	_
-2	ne	_	PART	_	_	3	neg	_	_
+2	ne	ne	PART	_	_	3	neg	_	_
 3	dispose	disposer	VERB	_	ind_pres_3s=y	0	root	_	_
 4	plus	plus	ADV	_	_	3	neg	_	_
 5	de	de	ADP	_	_	6	case	_	_
@@ -26638,7 +26638,7 @@
 21	,	,	PUNCT	_	_	3	punct	_	_
 22	mais	mais	CONJ	_	_	3	cc	_	_
 23	il	il	PRON	_	Person=3|ms=y	26	nsubjpass	_	_
-24	n'	_	PART	_	_	26	neg	_	_
+24	n'	ne	PART	_	_	26	neg	_	_
 25	est	être	AUX	_	ind_pres_3s=y	26	auxpass	_	_
 26	inauguré	inaugurer	VERB	_	part_pass_ms=y	3	conj	_	_
 27	qu'	que	ADV	_	_	30	advmod	_	_
@@ -26683,7 +26683,7 @@
 # sentence-text: Billie Holiday ne chante pas, elle joue dans tous les sens du terme, elle est à la fois enfant et actrice.
 1	Billie	Billie	PROPN	_	_	4	nsubj	_	_
 2	Holiday	Holiday	PROPN	_	_	1	name	_	_
-3	ne	_	PART	_	_	4	neg	_	_
+3	ne	ne	PART	_	_	4	neg	_	_
 4	chante	chanter	VERB	_	ind_pres_3s=y	0	root	_	_
 5	pas	pas	ADV	_	_	4	neg	_	_
 6	,	,	PUNCT	_	_	4	punct	_	_
@@ -26921,14 +26921,14 @@
 8	mode	mode	NOUN	_	Gender=Masc|Number=Sing	15	nsubjpass	_	_
 9	DirectX	DirectX	PROPN	_	_	8	appos	_	_
 10	10	10	NUM	_	_	9	nummod	_	_
-11	ne	_	PART	_	_	15	neg	_	_
+11	ne	ne	PART	_	_	15	neg	_	_
 12	pourra	pouvoir	AUX	_	ind_futur_3s=y	15	aux	_	_
 13	pas	pas	ADV	_	_	15	neg	_	_
 14	être	être	AUX	_	infinitif=y	15	auxpass	_	_
 15	activé	activer	VERB	_	part_pass_ms=y	0	root	_	_
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	car	car	CONJ	_	_	20	mark	_	_
-18	ne	_	PART	_	_	20	neg	_	_
+18	ne	ne	PART	_	_	20	neg	_	_
 19	le	le	PRON	_	Person=3|ms=y	20	dobj	_	_
 20	supportant	supporter	VERB	_	participe_present=y	15	advcl	_	_
 21	pas	pas	ADV	_	_	20	neg	_	_
@@ -27060,7 +27060,7 @@
 # sentid: fr-ud-dev_00978
 # sentence-text: Elle n'a pas omis de rejeter dans le point 18 « toute mesure visant à restreindre le droit inaliénable des Etats parties à l'utilisation pacifique de l'énergie nucléaire pour le développement socioéconomique ».
 1	Elle	elle	PRON	_	Person=3|fs=y	5	nsubj	_	_
-2	n'	_	PART	_	_	5	neg	_	_
+2	n'	ne	PART	_	_	5	neg	_	_
 3	a	avoir	AUX	_	ind_pres_3s=y	5	aux	_	_
 4	pas	pas	ADV	_	_	5	neg	_	_
 5	omis	omettre	VERB	_	part_pass_ms=y	0	root	_	_
@@ -27549,8 +27549,7 @@
 
 # sentid: fr-ud-dev_00995
 # sentence-text: N'en voyant pas l'utilité, il l'offre à Marge Simpson qui, en échange, accepte de garder Rod et Todd pendant que Ned Flanders se rend au congrès des gauchers.
-1-2	N'en	_	_	_	_	_	_	_	_
-1	N'	_	PART	_	_	3	neg	_	_
+1	N'	ne	PART	_	_	3	neg	_	_
 2	en	en	PRON	_	Person=3	6	nmod	_	_
 3	voyant	voir	VERB	_	participe_present=y	10	advcl	_	_
 4	pas	pas	ADV	_	_	3	neg	_	_
@@ -27952,7 +27951,7 @@
 # sentid: fr-ud-dev_01004
 # sentence-text: Nous n'envisageons pas cela (l'intervention militaire) en ce moment, nous n'appelons pas à une action militaire ni ne la prônons.
 1	Nous	nous	PRON	_	Person=1|p=y	3	nsubj	_	_
-2	n'	_	PART	_	_	3	neg	_	_
+2	n'	ne	PART	_	_	3	neg	_	_
 3	envisageons	envisager	VERB	_	ind_pres_1p=y	0	root	_	_
 4	pas	pas	ADV	_	_	3	neg	_	_
 5	cela	cela	PRON	_	s=y	3	dobj	_	_
@@ -27966,7 +27965,7 @@
 13	moment	moment	NOUN	_	Gender=Masc|Number=Sing	11	mwe	_	_
 14	,	,	PUNCT	_	_	3	punct	_	_
 15	nous	nous	PRON	_	Person=1|p=y	17	nsubj	_	_
-16	n'	_	PART	_	_	17	neg	_	_
+16	n'	ne	PART	_	_	17	neg	_	_
 17	appelons	appeler	VERB	_	ind_pres_1p=y	3	conj	_	_
 18	pas	pas	ADV	_	_	17	neg	_	_
 19	à	à	ADP	_	_	21	case	_	_
@@ -27974,7 +27973,7 @@
 21	action	action	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
 22	militaire	militaire	ADJ	_	fs=y	21	amod	_	_
 23	ni	ni	CONJ	_	_	17	cc	_	_
-24	ne	_	PART	_	_	26	neg	_	_
+24	ne	ne	PART	_	_	26	neg	_	_
 25	la	le	PRON	_	Person=3|fs=y	26	dobj	_	_
 26	prônons	prôner	VERB	_	ind_pres_1p=y	17	conj	_	_
 27	.	.	PUNCT	_	_	3	punct	_	_
@@ -28369,7 +28368,7 @@
 17	de	de	ADP	_	_	19	case	_	_
 18	ce	ce	DET	_	Gender=Masc|Number=Sing	19	det	_	_
 19	magasin	magasin	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
-20	ne	_	PART	_	_	22	neg	_	_
+20	ne	ne	PART	_	_	22	neg	_	_
 21	se	se	PRON	_	Person=3	22	dobj	_	_
 22	préoccupe	préoccuper	VERB	_	ind_pres_3s=y	13	ccomp	_	_
 23	pas	pas	ADV	_	_	22	neg	_	_
@@ -28447,7 +28446,7 @@
 # sentid: fr-ud-dev_01022
 # sentence-text: Il n'y a pas de relégation, le championnat étant étendu à 36 équipes la saison prochaine.
 1	Il	il	PRON	_	Person=3|ms=y	4	nsubj	_	_
-2	n'	_	PART	_	_	4	neg	_	_
+2	n'	ne	PART	_	_	4	neg	_	_
 3	y	y	PRON	_	_	4	expl	_	_
 4	a	avoir	VERB	_	ind_pres_3s=y	0	root	_	_
 5	pas	pas	ADV	_	_	4	neg	_	_
@@ -28881,7 +28880,7 @@
 # sentence-text: Les américains ne les rejoindront que quatre ans plus tard avec le programme Mariner.
 1	Les	le	DET	_	Gender=Masc|Number=Plur	2	det	_	_
 2	américains	américain	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
-3	ne	_	PART	_	_	5	neg	_	_
+3	ne	ne	PART	_	_	5	neg	_	_
 4	les	le	PRON	_	Person=3|p=y	5	dobj	_	_
 5	rejoindront	rejoindre	VERB	_	ind_futur_3p=y	0	root	_	_
 6	que	que	ADV	_	_	5	advmod	_	_
@@ -29052,7 +29051,7 @@
 14	Noé	Noé	PROPN	_	_	12	nmod	_	_
 15	,	,	PUNCT	_	_	9	punct	_	_
 16	est	être	VERB	_	ind_pres_3s=y	18	cop	_	_
-17	l'	_	PART	_	_	18	expl	_	_
+17	l'	l'	PART	_	_	18	expl	_	_
 18	un	un	PRON	_	ms=y	0	root	_	_
 19-20	des	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	22	case	_	_
@@ -29079,7 +29078,7 @@
 10	les	le	DET	_	Gender=Masc|Number=Plur	11	det	_	_
 11	représentants	représentant	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
 12	britanniques	britannique	ADJ	_	mp=y	11	amod	_	_
-13	ne	_	PART	_	_	15	neg	_	_
+13	ne	ne	PART	_	_	15	neg	_	_
 14	pouvaient	pouvoir	AUX	_	imparfait_3p=y	15	aux	_	_
 15	accéder	accéder	VERB	_	infinitif=y	3	conj	_	_
 16	librement	librement	ADV	_	_	15	advmod	_	_
@@ -29143,7 +29142,7 @@
 4	d'	de	ADP	_	_	8	case	_	_
 5	avoir	avoir	AUX	_	infinitif=y	8	aux	_	_
 6	été	être	VERB	_	part_pass_ms=y	8	cop	_	_
-7	l'	_	PART	_	_	8	expl	_	_
+7	l'	l'	PART	_	_	8	expl	_	_
 8	un	un	PRON	_	ms=y	3	nmod	_	_
 9-10	des	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	12	case	_	_
@@ -29380,7 +29379,7 @@
 3	quelqu'un	quelqu'un	PRON	_	ms=y	2	nsubj	_	_
 4	,	,	PUNCT	_	_	10	punct	_	_
 5	je	il	PRON	_	Person=1|s=y	10	nsubj	_	_
-6	ne	_	PART	_	_	10	neg	_	_
+6	ne	ne	PART	_	_	10	neg	_	_
 7	suis	être	VERB	_	ind_pres_1s=y	10	cop	_	_
 8	pas	pas	ADV	_	_	10	neg	_	_
 9	une	un	DET	_	Gender=Fem|Number=Sing	10	det	_	_
@@ -29395,7 +29394,7 @@
 4	pages	page	NOUN	_	Gender=Fem|Number=Plur	2	dobj	_	_
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	mais	mais	CONJ	_	_	2	cc	_	_
-7	ne	_	PART	_	_	8	neg	_	_
+7	ne	ne	PART	_	_	8	neg	_	_
 8	finira	finir	VERB	_	ind_futur_3s=y	2	conj	_	_
 9	pas	pas	ADV	_	_	8	neg	_	_
 10	ce	ce	DET	_	Gender=Masc|Number=Sing	11	det	_	_
@@ -29485,7 +29484,7 @@
 # sentid: fr-ud-dev_01062
 # sentence-text: En n'exerçant pas alors leur droit de veto au Conseil de sécurité des Nations unies, la Russie et la Chine ne s'étaient pas, de facto, opposées à l'opération militaire des forces de l'Otan aux côtés des rebelles libyens.
 1	En	en	ADP	_	_	3	mark	_	_
-2	n'	_	PART	_	_	3	neg	_	_
+2	n'	ne	PART	_	_	3	neg	_	_
 3	exerçant	exercer	VERB	_	participe_present=y	33	advcl	_	_
 4	pas	pas	ADV	_	_	3	neg	_	_
 5	alors	alors	ADV	_	_	3	advmod	_	_
@@ -29510,7 +29509,7 @@
 22	et	et	CONJ	_	_	21	cc	_	_
 23	la	le	DET	_	Gender=Fem|Number=Sing	24	det	_	_
 24	Chine	Chine	PROPN	_	_	21	conj	_	_
-25	ne	_	PART	_	_	33	neg	_	_
+25	ne	ne	PART	_	_	33	neg	_	_
 26	s'	se	PRON	_	Person=3	33	dobj	_	_
 27	étaient	être	AUX	_	imparfait_3p=y	33	aux	_	_
 28	pas	pas	ADV	_	_	33	neg	_	_
@@ -29638,7 +29637,7 @@
 22	de	de	ADP	_	_	24	case	_	_
 23	ses	son	DET	_	Gender=Fem|Number=Plur	24	nmod:poss	_	_
 24	troupes	troupe	NOUN	_	Gender=Fem|Number=Plur	21	nmod	_	_
-25	ne	_	PART	_	_	27	neg	_	_
+25	ne	ne	PART	_	_	27	neg	_	_
 26	se	se	PRON	_	Person=3	27	dobj	_	_
 27	brise	briser	VERB	_	ind_pres_3s=y	5	advcl	_	_
 28	en	en	ADP	_	_	29	mark	_	_
@@ -30441,7 +30440,7 @@
 7	que	que	SCONJ	_	_	11	mark	_	_
 8	la	le	DET	_	Gender=Fem|Number=Sing	9	det	_	_
 9	tâche	tâche	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
-10	ne	_	PART	_	_	11	neg	_	_
+10	ne	ne	PART	_	_	11	neg	_	_
 11	manquerait	manquer	VERB	_	cond_pres_3s=y	6	advcl	_	_
 12	point	point	ADV	_	_	11	neg	_	_
 13	.	.	PUNCT	_	_	11	punct	_	_
@@ -30620,7 +30619,7 @@
 5	vérifier	vérifier	VERB	_	infinitif=y	3	acl	_	_
 6	que	que	SCONJ	_	_	12	mark	_	_
 7	vous	vous	PRON	_	Person=2|p=y	12	nsubj	_	_
-8	n'	_	PART	_	_	12	neg	_	_
+8	n'	ne	PART	_	_	12	neg	_	_
 9	êtes	être	VERB	_	ind_pres_2p=y	12	cop	_	_
 10	pas	pas	ADV	_	_	12	neg	_	_
 11	un	un	DET	_	Gender=Masc|Number=Sing	12	det	_	_
@@ -31166,7 +31165,7 @@
 15	)	)	PUNCT	_	_	10	punct	_	_
 16	,	,	PUNCT	_	_	8	punct	_	_
 17	qui	qui	PRON	_	_	19	nsubj	_	_
-18	ne	_	PART	_	_	19	neg	_	_
+18	ne	ne	PART	_	_	19	neg	_	_
 19	conçoivent	concevoir	VERB	_	ind_pres_3p=y	8	acl:relcl	_	_
 20	pas	pas	ADV	_	_	19	neg	_	_
 21	la	le	DET	_	Gender=Fem|Number=Sing	22	det	_	_
@@ -31389,7 +31388,7 @@
 1	Une	un	DET	_	Gender=Fem|Number=Sing	2	det	_	_
 2	sonde	sonde	NOUN	_	Gender=Fem|Number=Sing	6	nsubjpass	_	_
 3	spatiale	spatial	ADJ	_	fs=y	2	amod	_	_
-4	ne	_	PART	_	_	6	neg	_	_
+4	ne	ne	PART	_	_	6	neg	_	_
 5	peut	pouvoir	AUX	_	ind_pres_3s=y	6	aux	_	_
 6	rejoindre	rejoindre	VERB	_	infinitif=y	0	root	_	_
 7	en	en	ADP	_	_	8	case	_	_
@@ -31464,7 +31463,7 @@
 # sentence-text: Gibamond est l'un des trois commandants des corps d'armée vandales présent à la bataille de l'Ad Decimum.
 1	Gibamond	Gibamond	PROPN	_	_	4	nsubj	_	_
 2	est	être	VERB	_	ind_pres_3s=y	4	cop	_	_
-3	l'	_	PART	_	_	4	expl	_	_
+3	l'	l'	PART	_	_	4	expl	_	_
 4	un	un	PRON	_	ms=y	0	root	_	_
 5-6	des	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	8	case	_	_
@@ -31533,7 +31532,7 @@
 20	l'	le	DET	_	Gender=Fem|Number=Sing	21	det	_	_
 21	onde	onde	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
 22	électromagnétique	électromagnétique	ADJ	_	fs=y	21	amod	_	_
-23	ne	_	PART	_	_	24	neg	_	_
+23	ne	ne	PART	_	_	24	neg	_	_
 24	présentant	présenter	VERB	_	participe_present=y	15	parataxis	_	_
 25	un	un	DET	_	Gender=Masc|Number=Sing	26	det	_	_
 26	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	24	dobj	_	_
@@ -31739,7 +31738,7 @@
 2	de	de	ADP	_	_	4	case	_	_
 3	les	le	DET	_	Gender=Fem|Number=Plur	4	det	_	_
 4	scènes	scène	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
-5	n'	_	PART	_	_	8	neg	_	_
+5	n'	ne	PART	_	_	8	neg	_	_
 6	a	avoir	AUX	_	ind_pres_3s=y	8	aux	_	_
 7	été	être	AUX	_	part_pass_ms=y	8	auxpass	_	_
 8	tournée	tourner	VERB	_	part_pass_fs=y	0	root	_	_
@@ -32223,7 +32222,7 @@
 # sentid: fr-ud-dev_01165
 # sentence-text: Elle n'est pas surjective : son image est l'ensemble de Cantor.
 1	Elle	elle	PRON	_	Person=3|fs=y	5	nsubj	_	_
-2	n'	_	PART	_	_	5	neg	_	_
+2	n'	ne	PART	_	_	5	neg	_	_
 3	est	être	VERB	_	ind_pres_3s=y	5	cop	_	_
 4	pas	pas	ADV	_	_	5	neg	_	_
 5	surjective	surjectif	ADJ	_	fs=y	0	root	_	_
@@ -32259,7 +32258,7 @@
 3	,	,	PUNCT	_	_	7	punct	_	_
 4	certaines	certain	DET	_	Gender=Fem|Number=Plur	5	det	_	_
 5	grenouilles	grenouille	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
-6	ne	_	PART	_	_	7	neg	_	_
+6	ne	ne	PART	_	_	7	neg	_	_
 7	respirent	respirer	VERB	_	ind_pres_3p=y	0	root	_	_
 8	que	que	ADV	_	_	11	advmod	_	_
 9	de	de	ADP	_	_	11	case	_	_
@@ -32465,7 +32464,7 @@
 21	,	,	PUNCT	_	_	3	punct	_	_
 22	mais	mais	CONJ	_	_	3	cc	_	_
 23	il	il	PRON	_	Person=3|ms=y	26	nsubjpass	_	_
-24	n'	_	PART	_	_	26	neg	_	_
+24	n'	ne	PART	_	_	26	neg	_	_
 25	est	être	AUX	_	ind_pres_3s=y	26	auxpass	_	_
 26	inauguré	inaugurer	VERB	_	part_pass_ms=y	3	conj	_	_
 27	qu'	que	ADV	_	_	30	advmod	_	_
@@ -32521,7 +32520,7 @@
 8	et	et	CONJ	_	_	3	cc	_	_
 9	le	le	DET	_	Gender=Masc|Number=Sing	10	det	_	_
 10	bourg	bourg	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
-11	n'	_	PART	_	_	15	neg	_	_
+11	n'	ne	PART	_	_	15	neg	_	_
 12	est	être	VERB	_	ind_pres_3s=y	15	cop	_	_
 13	pas	pas	ADV	_	_	15	neg	_	_
 14	plus	plus	ADV	_	_	15	advmod	_	_
@@ -32695,7 +32694,7 @@
 8	ils	il	PRON	_	Person=3|mp=y	14	nsubj	_	_
 9	restent	rester	VERB	_	ind_pres_3p=y	14	cop	_	_
 10	on	on	PRON	_	Person=3|ms=y	14	advmod	_	_
-11	ne	_	PART	_	_	10	mwe	_	_
+11	ne	ne	PART	_	_	10	mwe	_	_
 12	peut	pouvoir	VERB	_	ind_pres_3s=y	10	mwe	_	_
 13	plus	plus	ADV	_	_	10	mwe	_	_
 14	basiques	basique	ADJ	_	mp=y	0	root	_	_
@@ -33275,7 +33274,7 @@
 11	mouvement	mouvement	NOUN	_	Gender=Masc|Number=Sing	9	dobj	_	_
 12	s'	si	SCONJ	_	_	17	mark	_	_
 13	il	il	PRON	_	Person=3|ms=y	17	nsubjpass	_	_
-14	n'	_	PART	_	_	17	neg	_	_
+14	n'	ne	PART	_	_	17	neg	_	_
 15	est	être	AUX	_	ind_pres_3s=y	17	auxpass	_	_
 16	pas	pas	ADV	_	_	17	neg	_	_
 17	validé	valider	VERB	_	part_pass_ms=y	9	advcl	_	_
@@ -33515,7 +33514,7 @@
 # sentence-text: Eva Joly n'aurait pas été mise au courant de l'incident et n'aurait par conséquent pas réagi publiquement.
 1	Eva	Eva	PROPN	_	_	7	nsubjpass	_	_
 2	Joly	Joly	PROPN	_	_	1	name	_	_
-3	n'	_	PART	_	_	7	neg	_	_
+3	n'	ne	PART	_	_	7	neg	_	_
 4	aurait	avoir	AUX	_	cond_pres_3s=y	7	aux	_	_
 5	pas	pas	ADV	_	_	7	neg	_	_
 6	été	être	AUX	_	part_pass_ms=y	7	auxpass	_	_
@@ -33528,7 +33527,7 @@
 12	l'	le	DET	_	Gender=Masc|Number=Sing	13	det	_	_
 13	incident	incident	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 14	et	et	CONJ	_	_	7	cc	_	_
-15	n'	_	PART	_	_	20	neg	_	_
+15	n'	ne	PART	_	_	20	neg	_	_
 16	aurait	avoir	AUX	_	cond_pres_3s=y	20	aux	_	_
 17	par	par	ADP	_	_	20	advmod	_	_
 18	conséquent	conséquent	ADJ	_	ms=y	17	mwe	_	_
@@ -33594,7 +33593,7 @@
 17	,	,	PUNCT	_	_	4	punct	_	_
 18	si	si	SCONJ	_	_	21	mark	_	_
 19	ce	ce	PRON	_	Person=3|s=y	21	nsubj	_	_
-20	n'	_	PART	_	_	21	neg	_	_
+20	n'	ne	PART	_	_	21	neg	_	_
 21	est	être	VERB	_	ind_pres_3s=y	4	advcl	_	_
 22	qu'	que	SCONJ	_	_	27	mark	_	_
 23	il	il	PRON	_	Person=3|ms=y	27	nsubjpass	_	_
@@ -33945,7 +33944,7 @@
 5	anglo-saxons	anglo-saxon	ADJ	_	mp=y	12	amod	_	_
 6	,	,	PUNCT	_	_	12	punct	_	_
 7	il	il	PRON	_	Person=3|ms=y	12	nsubj	_	_
-8	ne	_	PART	_	_	12	neg	_	_
+8	ne	ne	PART	_	_	12	neg	_	_
 9	faut	falloir	AUX	_	ind_pres_3s=y	12	aux	_	_
 10	pas	pas	ADV	_	_	12	neg	_	_
 11-12	s'étonner	_	_	_	_	_	_	_	_
@@ -34064,7 +34063,7 @@
 # sentid: fr-ud-dev_01228
 # sentence-text: Vraisemblablement l'un des premiers ponts suspendus à câble métallique d'Europe, il comportait un pilier central, six câbles porteurs et deux autres piliers aux extrémités de la passerelle.
 1	Vraisemblablement	vraisemblablement	ADV	_	_	3	advmod	_	_
-2	l'	_	PART	_	_	3	expl	_	_
+2	l'	l'	PART	_	_	3	expl	_	_
 3	un	un	PRON	_	ms=y	15	appos	_	_
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	7	case	_	_
@@ -34406,7 +34405,7 @@
 14	élaborés	élaborer	VERB	_	part_pass_mp=y	0	root	_	_
 15	afin	afin	ADV	_	_	19	mark	_	_
 16	de	de	ADP	_	_	15	mwe	_	_
-17	ne	_	PART	_	_	19	neg	_	_
+17	ne	ne	PART	_	_	19	neg	_	_
 18	pas	pas	ADV	_	_	19	neg	_	_
 19	transgresser	transgresser	VERB	_	infinitif=y	14	advcl	_	_
 20	l'	le	DET	_	Gender=Masc|Number=Sing	21	det	_	_
@@ -34605,7 +34604,7 @@
 26	sa	son	DET	_	Gender=Fem|Number=Sing	27	nmod:poss	_	_
 27	famille	famille	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
 28	,	,	PUNCT	_	_	18	punct	_	_
-29	n'	_	PART	_	_	32	neg	_	_
+29	n'	ne	PART	_	_	32	neg	_	_
 30	avait	avoir	AUX	_	imparfait_3s=y	32	aux	_	_
 31	pu	pouvoir	AUX	_	part_pass_ms=y	32	aux	_	_
 32	aller	aller	VERB	_	infinitif=y	14	acl:relcl	_	_
@@ -34755,7 +34754,7 @@
 # sentence-text: Sa théorie n'y est pas achevée mais elle constitue une synthèse forte des idées de Weber, Marshall, Pareto et Durkheim.
 1	Sa	son	DET	_	Gender=Fem|Number=Sing	2	nmod:poss	_	_
 2	théorie	théorie	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
-3	n'	_	PART	_	_	7	neg	_	_
+3	n'	ne	PART	_	_	7	neg	_	_
 4	y	y	PRON	_	_	7	advmod	_	_
 5	est	être	VERB	_	ind_pres_3s=y	7	cop	_	_
 6	pas	pas	ADV	_	_	7	neg	_	_
@@ -35517,7 +35516,7 @@
 21	mais	mais	CONJ	_	_	6	cc	_	_
 22	comme	comme	ADP	_	_	29	mark	_	_
 23	cela	cela	PRON	_	s=y	29	nsubj	_	_
-24	n'	_	PART	_	_	29	neg	_	_
+24	n'	ne	PART	_	_	29	neg	_	_
 25	a	avoir	AUX	_	ind_pres_3s=y	29	aux	_	_
 26	pas	pas	ADV	_	_	29	neg	_	_
 27	été	être	VERB	_	part_pass_ms=y	29	cop	_	_
@@ -35623,7 +35622,7 @@
 # sentid: fr-ud-dev_01281
 # sentence-text: Il ne foulera pas de nouveau la pelouse lyonnaise cette saison, au même titre peut-être que François Clerc, toujours blessé et qui n'a repris l'entraînement que dimanche dernier.
 1	Il	il	PRON	_	Person=3|ms=y	3	nsubj	_	_
-2	ne	_	PART	_	_	3	neg	_	_
+2	ne	ne	PART	_	_	3	neg	_	_
 3	foulera	fouler	VERB	_	ind_futur_3s=y	0	root	_	_
 4	pas	pas	ADV	_	_	3	neg	_	_
 5	de	de	ADP	_	_	3	advmod	_	_
@@ -35648,7 +35647,7 @@
 23	blessé	blessé	ADJ	_	ms=y	19	amod	_	_
 24	et	et	CONJ	_	_	23	cc	_	_
 25	qui	qui	PRON	_	_	28	nsubj	_	_
-26	n'	_	PART	_	_	28	neg	_	_
+26	n'	ne	PART	_	_	28	neg	_	_
 27	a	avoir	AUX	_	ind_pres_3s=y	28	aux	_	_
 28	repris	reprendre	VERB	_	part_pass_ms=y	19	acl:relcl	_	_
 29	l'	le	DET	_	Gender=Masc|Number=Sing	30	det	_	_
@@ -36343,7 +36342,7 @@
 # sentid: fr-ud-dev_01310
 # sentence-text: Ce n'est qu'à l'issue de ce délai que l'ordonnance pourra être notifiée au prévenu.
 1	Ce	ce	PRON	_	Person=3|s=y	7	nsubj	_	_
-2	n'	_	PART	_	_	7	neg	_	_
+2	n'	ne	PART	_	_	7	neg	_	_
 3	est	être	VERB	_	ind_pres_3s=y	7	cop	_	_
 4	qu'	que	ADV	_	_	7	advmod	_	_
 5	à	à	ADP	_	_	7	case	_	_
@@ -37229,7 +37228,7 @@
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	la	le	DET	_	Gender=Fem|Number=Sing	7	det	_	_
 7	dignité	dignité	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
-8	n'	_	PART	_	_	12	neg	_	_
+8	n'	ne	PART	_	_	12	neg	_	_
 9	est	être	VERB	_	ind_pres_3s=y	12	cop	_	_
 10	pas	pas	ADV	_	_	12	neg	_	_
 11	une	un	DET	_	Gender=Fem|Number=Sing	12	det	_	_
@@ -37609,7 +37608,7 @@
 15	et	et	CONJ	_	_	5	cc	_	_
 16	le	le	DET	_	Gender=Masc|Number=Sing	17	det	_	_
 17	ministre	ministre	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
-18	n'	_	PART	_	_	22	neg	_	_
+18	n'	ne	PART	_	_	22	neg	_	_
 19	a	avoir	AUX	_	ind_pres_3s=y	22	aux	_	_
 20	presque	presque	ADV	_	_	22	advmod	_	_
 21	jamais	jamais	ADV	_	_	22	neg	_	_
@@ -37870,7 +37869,7 @@
 46	arbre	arbre	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	_
 47	et	et	CONJ	_	_	46	cc	_	_
 48	soupapes	soupape	NOUN	_	Gender=Fem|Number=Plur	46	conj	_	_
-49	ne	_	PART	_	_	52	neg	_	_
+49	ne	ne	PART	_	_	52	neg	_	_
 50	sont	être	VERB	_	ind_pres_3p=y	52	cop	_	_
 51	plus	plus	ADV	_	_	52	neg	_	_
 52	nécessaires	nécessaire	ADJ	_	fp=y	0	root	_	_
@@ -37956,7 +37955,7 @@
 2	,	,	PUNCT	_	_	10	punct	_	_
 3	les	le	DET	_	Gender=Masc|Number=Plur	4	det	_	_
 4	résultats	résultat	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
-5	ne	_	PART	_	_	10	neg	_	_
+5	ne	ne	PART	_	_	10	neg	_	_
 6	sont	être	VERB	_	ind_pres_3p=y	10	cop	_	_
 7	pas	pas	ADV	_	_	10	neg	_	_
 8	à	à	ADP	_	_	10	case	_	_
@@ -38647,7 +38646,7 @@
 # sentid: fr-ud-dev_01389
 # sentence-text: Il ne s'agit plus de faire fondre la neige, mais plutôt d'augmenter l'adhérence à la route.
 1	Il	il	PRON	_	Person=3|ms=y	4	nsubj	_	_
-2	ne	_	PART	_	_	4	neg	_	_
+2	ne	ne	PART	_	_	4	neg	_	_
 3	s'	se	PRON	_	Person=3	4	dobj	_	_
 4	agit	agir	VERB	_	ind_pres_3s=y	0	root	_	_
 5	plus	plus	ADV	_	_	4	neg	_	_
@@ -39578,7 +39577,7 @@
 1	Le	le	DET	_	Gender=Masc|Number=Sing	2	det	_	_
 2	ministère	ministère	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	public	public	ADJ	_	ms=y	2	amod	_	_
-4	n'	_	PART	_	_	7	neg	_	_
+4	n'	ne	PART	_	_	7	neg	_	_
 5	a	avoir	AUX	_	ind_pres_3s=y	7	aux	_	_
 6	pas	pas	ADV	_	_	7	neg	_	_
 7	tenu	tenir	VERB	_	part_pass_ms=y	0	root	_	_
@@ -39614,7 +39613,7 @@
 # sentid: fr-ud-dev_01424
 # sentence-text: Kenshin n'ayant que l'intention de faire une démonstration de force n'était pas resté sur les terres du clan Hojo.
 1	Kenshin	Kenshin	PROPN	_	_	16	nsubj	_	_
-2	n'	_	PART	_	_	3	neg	_	_
+2	n'	ne	PART	_	_	3	neg	_	_
 3	ayant	avoir	VERB	_	participe_present=y	1	acl	_	_
 4	que	que	ADV	_	_	6	advmod	_	_
 5	l'	le	DET	_	Gender=Fem|Number=Sing	6	det	_	_
@@ -39625,7 +39624,7 @@
 10	démonstration	démonstration	NOUN	_	Gender=Fem|Number=Sing	8	dobj	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	force	force	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
-13	n'	_	PART	_	_	16	neg	_	_
+13	n'	ne	PART	_	_	16	neg	_	_
 14	était	être	AUX	_	imparfait_3s=y	16	aux	_	_
 15	pas	pas	ADV	_	_	16	neg	_	_
 16	resté	rester	VERB	_	part_pass_ms=y	0	root	_	_
@@ -39824,7 +39823,7 @@
 3	quelques	quelque	DET	_	Number=Plur	0	root	_	_
 4	uns	un	NOUN	_	Gender=Masc|Number=Plur	3	mwe	_	_
 5	à	à	ADP	_	_	10	mark	_	_
-6	ne	_	PART	_	_	10	neg	_	_
+6	ne	ne	PART	_	_	10	neg	_	_
 7	pas	pas	ADV	_	_	10	neg	_	_
 8	avoir	avoir	AUX	_	infinitif=y	10	aux	_	_
 9	pu	pouvoir	AUX	_	part_pass_ms=y	10	aux	_	_
@@ -40436,7 +40435,7 @@
 # sentence-text: La naturalisation ne sera possible qu'au bout de cinq ans (contre trois ans aujourd'hui), et elle sera soumise à un strict examen de connaissance de la langue néerlandaise.
 1	La	le	DET	_	Gender=Fem|Number=Sing	2	det	_	_
 2	naturalisation	naturalisation	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
-3	ne	_	PART	_	_	5	neg	_	_
+3	ne	ne	PART	_	_	5	neg	_	_
 4	sera	être	VERB	_	ind_futur_3s=y	5	cop	_	_
 5	possible	possible	ADJ	_	fs=y	0	root	_	_
 6	qu'	que	SCONJ	_	_	5	expl	_	_
@@ -40952,7 +40951,7 @@
 6	cet	ce	DET	_	Gender=Masc|Number=Sing	7	det	_	_
 7	hôtel	hôtel	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 8	qui	qui	PRON	_	_	10	nsubj	_	_
-9	ne	_	PART	_	_	10	neg	_	_
+9	ne	ne	PART	_	_	10	neg	_	_
 10	mérite	mériter	VERB	_	ind_pres_3s=y	7	acl:relcl	_	_
 11	aucune	aucun	DET	_	Gender=Fem|Number=Sing	12	neg	_	_
 12	étoiles	étoile	NOUN	_	Gender=Fem|Number=Plur	10	dobj	_	_
@@ -41019,7 +41018,7 @@
 28	est	être	VERB	_	ind_pres_3s=y	2	parataxis	_	_
 29	qu'	que	SCONJ	_	_	32	mark	_	_
 30	il	il	PRON	_	Person=3|ms=y	32	nsubj	_	_
-31	n'	_	PART	_	_	32	neg	_	_
+31	n'	ne	PART	_	_	32	neg	_	_
 32	existe	exister	VERB	_	ind_pres_3s=y	28	ccomp	_	_
 33	pas	pas	ADV	_	_	32	neg	_	_
 34	de	de	ADP	_	_	35	case	_	_
@@ -41183,7 +41182,7 @@
 16	la	le	DET	_	Gender=Fem|Number=Sing	17	det	_	_
 17	prison	prison	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
 18	,	,	PUNCT	_	_	2	punct	_	_
-19	ne	_	PART	_	_	21	neg	_	_
+19	ne	ne	PART	_	_	21	neg	_	_
 20	lui	lui	PRON	_	Person=3|s=y	21	iobj	_	_
 21	écrit	écrire	VERB	_	ind_pres_3s=y	2	advcl	_	_
 22	plus	plus	ADV	_	_	21	neg	_	_
@@ -41675,7 +41674,7 @@
 3	de	de	ADP	_	_	4	case	_	_
 4	zéro	zéro	PROPN	_	_	2	nmod	_	_
 5-6	n'exclut	_	_	_	_	_	_	_	_
-5	n'	_	PART	_	_	6	neg	_	_
+5	n'	ne	PART	_	_	6	neg	_	_
 6	exclut	exclure	VERB	_	ind_pres_3s=y	0	root	_	_
 7	pas	pas	ADV	_	_	6	neg	_	_
 8	des	un	DET	_	Gender=Masc|Number=Plur	9	det	_	_
@@ -42578,7 +42577,7 @@
 24	ce	ce	DET	_	Gender=Masc|Number=Sing	26	det	_	_
 25	code	code	NOUN	_	Gender=Masc|Number=Sing	26	compound	_	_
 26	source	source	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
-27	ne	_	PART	_	_	29	neg	_	_
+27	ne	ne	PART	_	_	29	neg	_	_
 28	peut	pouvoir	AUX	_	ind_pres_3s=y	29	aux	_	_
 29	fonctionner	fonctionner	VERB	_	infinitif=y	0	root	_	_
 30	sur	sur	ADP	_	_	32	case	_	_
@@ -42637,7 +42636,7 @@
 2	village	village	NOUN	_	Gender=Masc|Number=Sing	7	nsubjpass	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	Saint-Léonard	Saint-Léonard	PROPN	_	_	2	nmod	_	_
-5	n'	_	PART	_	_	7	neg	_	_
+5	n'	ne	PART	_	_	7	neg	_	_
 6	est	être	AUX	_	ind_pres_3s=y	7	auxpass	_	_
 7	desservie	desservir	VERB	_	part_pass_fs=y	0	root	_	_
 8	que	que	ADV	_	_	9	advmod	_	_
@@ -42775,7 +42774,7 @@
 10	de	de	ADP	_	_	11	case	_	_
 11	façon	façon	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 12	à	à	ADP	_	_	15	mark	_	_
-13	ne	_	PART	_	_	15	neg	_	_
+13	ne	ne	PART	_	_	15	neg	_	_
 14	pas	pas	ADV	_	_	15	neg	_	_
 15	afficher	afficher	VERB	_	infinitif=y	11	acl	_	_
 16	de	un	DET	_	Gender=Fem|Number=Plur	17	det	_	_
@@ -43426,7 +43425,7 @@
 # sentid: fr-ud-dev_01554
 # sentence-text: Ils n'avaient pas de casquettes et leurs cheveux blonds brillaient au soleil.
 1	Ils	il	PRON	_	Person=3|mp=y	3	nsubj	_	_
-2	n'	_	PART	_	_	3	neg	_	_
+2	n'	ne	PART	_	_	3	neg	_	_
 3	avaient	avoir	VERB	_	imparfait_3p=y	0	root	_	_
 4	pas	pas	ADV	_	_	3	neg	_	_
 5	de	un	DET	_	Gender=Fem|Number=Plur	6	det	_	_
@@ -43481,7 +43480,7 @@
 7	Jean	Jean	PROPN	_	_	12	nsubj	_	_
 8	Paul	Paul	PROPN	_	_	7	name	_	_
 9	II	II	NUM	_	_	7	compound	_	_
-10	n'	_	PART	_	_	12	neg	_	_
+10	n'	ne	PART	_	_	12	neg	_	_
 11	a	avoir	AUX	_	ind_pres_3s=y	12	aux	_	_
 12	abordé	aborder	VERB	_	part_pass_ms=y	0	root	_	_
 13	de	de	ADP	_	_	14	case	_	_
@@ -43554,7 +43553,7 @@
 # sentid: fr-ud-dev_01559
 # sentence-text: Elle n'est pas très douée pour montrer ses émotions, dire ce qu'elle ressent vraiment et ses désires comme le fait qu'elle aimerait être comme son frère Justin.
 1	Elle	elle	PRON	_	Person=3|fs=y	6	nsubj	_	_
-2	n'	_	PART	_	_	6	neg	_	_
+2	n'	ne	PART	_	_	6	neg	_	_
 3	est	être	VERB	_	ind_pres_3s=y	6	cop	_	_
 4	pas	pas	ADV	_	_	6	neg	_	_
 5	très	très	ADV	_	_	6	advmod	_	_
@@ -43636,7 +43635,7 @@
 8	bien	bien	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 9	commun	commun	ADJ	_	ms=y	8	amod	_	_
 10	qui	qui	PRON	_	_	13	nsubj	_	_
-11	ne	_	PART	_	_	13	neg	_	_
+11	ne	ne	PART	_	_	13	neg	_	_
 12	se	se	PRON	_	Person=3	13	dobj	_	_
 13	vend	vendre	VERB	_	ind_pres_3s=y	8	acl:relcl	_	_
 14	pas	pas	ADV	_	_	13	neg	_	_
@@ -43839,7 +43838,7 @@
 51	le	le	DET	_	Gender=Masc|Number=Sing	52	det	_	_
 52	christ	christ	PROPN	_	_	54	nsubj	_	_
 53-54	n'enseignait	_	_	_	_	_	_	_	_
-53	n'	_	PART	_	_	54	neg	_	_
+53	n'	ne	PART	_	_	54	neg	_	_
 54	enseignait	enseigner	VERB	_	imparfait_3s=y	37	conj	_	_
 55	rien	rien	PRON	_	s=y	54	dobj	_	_
 56	à	à	ADP	_	_	57	case	_	_
@@ -44504,7 +44503,7 @@
 # sentence-text: Les CRES ne fédèrent donc pas de manière directe les structures de base, celles-ci en sont membres par le biais des structures fédératives que se sont données les acteurs de terrain.
 1	Les	le	DET	_	Number=Plur	2	det	_	_
 2	CRES	CRES	PROPN	_	_	4	nsubj	_	_
-3	ne	_	PART	_	_	4	neg	_	_
+3	ne	ne	PART	_	_	4	neg	_	_
 4	fédèrent	fédérer	VERB	_	ind_pres_3p=y	0	root	_	_
 5	donc	donc	ADV	_	_	4	advmod	_	_
 6	pas	pas	ADV	_	_	4	neg	_	_

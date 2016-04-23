@@ -5,12 +5,12 @@
 3	qu'	_	SCONJ	_	_	22	mark	_	_
 4	entre	entre	ADP	_	_	5	case	_	_
 5	ça	ça	PRON	_	Person=3|ms=y	22	nmod	_	_
-6	et	_	CONJ	_	_	5	cc	_	_
+6	et	et	CONJ	_	_	5	cc	_	_
 7	les	le	DET	_	Gender=Masc|Number=Plur	8	det	_	_
 8	films	film	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	médecins	médecin	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
-11	et	_	CONJ	_	_	10	cc	_	_
+11	et	et	CONJ	_	_	10	cc	_	_
 12	scientifiques	scientifique	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
 13	fous	fou	ADJ	_	mp=y	12	amod	_	_
 14	que	que	PRON	_	_	18	dobj	_	_
@@ -92,7 +92,7 @@
 35	,	,	PUNCT	_	_	33	punct	_	_
 36	les	le	DET	_	Gender=Masc|Number=Plur	37	det	_	_
 37	coups	coup	NOUN	_	Gender=Masc|Number=Plur	33	conj	_	_
-38	et	_	CONJ	_	_	33	cc	_	_
+38	et	et	CONJ	_	_	33	cc	_	_
 39	les	le	DET	_	Gender=Fem|Number=Plur	40	det	_	_
 40	tortures	torture	NOUN	_	Gender=Fem|Number=Plur	33	conj	_	_
 41	»	»	PUNCT	_	_	6	punct	_	_
@@ -131,7 +131,7 @@
 11	pour	pour	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Gender=Fem|Number=Sing	13	det	_	_
 13	Sécurité	_	PROPN	_	_	10	nmod	_	_
-14	et	_	CONJ	_	_	13	cc	_	_
+14	et	et	CONJ	_	_	13	cc	_	_
 15	la	le	DET	_	Gender=Fem|Number=Sing	16	det	_	_
 16	Coopération	_	PROPN	_	_	13	conj	_	_
 17	en	en	ADP	_	_	18	case	_	_
@@ -154,7 +154,7 @@
 33	(	(	PUNCT	_	_	34	punct	_	_
 34	2012	_	NUM	_	_	32	nmod	_	_
 35	)	)	PUNCT	_	_	34	punct	_	_
-36	et	_	CONJ	_	_	32	cc	_	_
+36	et	et	CONJ	_	_	32	cc	_	_
 37	l'	le	DET	_	Number=Sing	38	det	_	_
 38	Ukraine	_	PROPN	_	_	32	conj	_	_
 39	(	(	PUNCT	_	_	40	punct	_	_
@@ -164,7 +164,7 @@
 
 # sentid: fr-ud-test_00005
 # sentence-text: Et pourtant, lors de sa première visite en Afrique subsaharienne, l'été 2007, il montre les dents dans un discours humiliant pour les Africains, prononcé à l'Université Cheikh Anta Diop de Dakar.
-1	Et	_	CONJ	_	_	18	advmod	_	_
+1	Et	et	CONJ	_	_	18	advmod	_	_
 2	pourtant	pourtant	ADV	_	_	1	mwe	_	_
 3	,	,	PUNCT	_	_	18	punct	_	_
 4	lors	lors	ADV	_	_	8	case	_	_
@@ -243,7 +243,7 @@
 21	famille	famille	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
 22	royale	royal	ADJ	_	fs=y	21	amod	_	_
 23	,	,	PUNCT	_	_	3	punct	_	_
-24	mais	_	CONJ	_	_	3	cc	_	_
+24	mais	mais	CONJ	_	_	3	cc	_	_
 25	c'	ce	PRON	_	Person=3|s=y	26	nsubj	_	_
 26	est	être	VERB	_	ind_pres_3s=y	3	conj	_	_
 27	à	à	ADP	_	_	28	case	_	_
@@ -276,15 +276,15 @@
 17	tranquillité	tranquillité	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 18	de	de	ADP	_	_	19	case	_	_
 19	conscience	conscience	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
-20	et	_	CONJ	_	_	11	cc	_	_
+20	et	et	CONJ	_	_	11	cc	_	_
 21	commettre	commettre	VERB	_	infinitif=y	11	conj	_	_
 22	telle	tel	DET	_	Gender=Fem|Number=Sing	25	det	_	_
-23	ou	_	CONJ	_	_	22	cc	_	_
+23	ou	ou	CONJ	_	_	22	cc	_	_
 24	telle	tel	DET	_	Gender=Fem|Number=Sing	22	conj	_	_
 25	indélicatesse	indélicatesse	NOUN	_	Gender=Fem|Number=Sing	21	dobj	_	_
 26	,	,	PUNCT	_	_	25	punct	_	_
 27	telle	tel	ADJ	_	fs=y	30	det	_	_
-28	ou	_	CONJ	_	_	27	cc	_	_
+28	ou	ou	CONJ	_	_	27	cc	_	_
 29	telle	tel	ADJ	_	fs=y	27	conj	_	_
 30	grossièreté	grossièreté	NOUN	_	Gender=Fem|Number=Sing	25	conj	_	_
 31	,	,	PUNCT	_	_	25	punct	_	_
@@ -368,7 +368,7 @@
 5	de	de	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Gender=Masc|Number=Sing	7	det	_	_
 7	hasard	hasard	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-8	ou	_	CONJ	_	_	7	cc	_	_
+8	ou	ou	CONJ	_	_	7	cc	_	_
 9	d'	de	ADP	_	_	11	case	_	_
 10	une	un	DET	_	Gender=Fem|Number=Sing	11	det	_	_
 11	malédiction	malédiction	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
@@ -380,7 +380,7 @@
 17	entre	entre	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Gender=Masc|Number=Sing	19	det	_	_
 19	Soudan	_	PROPN	_	_	16	nmod	_	_
-20	et	_	CONJ	_	_	19	cc	_	_
+20	et	et	CONJ	_	_	19	cc	_	_
 21	la	le	DET	_	Gender=Fem|Number=Sing	22	det	_	_
 22	Mauritanie	_	PROPN	_	_	19	conj	_	_
 23	soit	être	VERB	_	subj_pres_3s=y	24	cop	_	_
@@ -405,10 +405,10 @@
 14	peut	pouvoir	AUX	_	ind_pres_3s=y	16	aux	_	_
 15	être	être	VERB	_	infinitif=y	16	cop	_	_
 16	traditionaliste	traditionaliste	ADJ	_	ms=y	10	ccomp	_	_
-17	ET	_	CONJ	_	_	16	cc	_	_
+17	ET	et	CONJ	_	_	16	cc	_	_
 18	intégriste	intégriste	ADJ	_	ms=y	16	conj	_	_
 19	,	,	PUNCT	_	_	16	punct	_	_
-20	mais	_	CONJ	_	_	16	cc	_	_
+20	mais	mais	CONJ	_	_	16	cc	_	_
 21	que	_	SCONJ	_	_	25	mark	_	_
 22	les	le	DET	_	Gender=Masc|Number=Plur	23	det	_	_
 23	intégristes	intégriste	NOUN	_	Gender=Masc|Number=Plur	25	nsubj	_	_
@@ -422,7 +422,7 @@
 30	le	le	DET	_	Gender=Masc|Number=Sing	31	det	_	_
 31	traditionalisme	traditionalisme	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
 32	,	,	PUNCT	_	_	25	punct	_	_
-33	et	_	CONJ	_	_	25	cc	_	_
+33	et	et	CONJ	_	_	25	cc	_	_
 34	réciproquement	réciproquement	ADV	_	_	25	advmod	_	_
 35	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -443,7 +443,7 @@
 13	préservée	préserver	VERB	_	part_pass_fs=y	10	acl	_	_
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	développée	développer	VERB	_	part_pass_fs=y	13	conj	_	_
-16	et	_	CONJ	_	_	13	cc	_	_
+16	et	et	CONJ	_	_	13	cc	_	_
 17	modernisée	moderniser	VERB	_	part_pass_fs=y	13	conj	_	_
 18	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -507,7 +507,7 @@
 
 # sentid: fr-ud-test_00016
 # sentence-text: Et si officiellement le Maroc n'a pas de relations diplomatiques « ouvertes » avec Israël, cela n'a jamais empêché des ministres de se rendre au royaume chérifien.
-1	Et	_	CONJ	_	_	22	cc	_	_
+1	Et	et	CONJ	_	_	22	cc	_	_
 2	si	_	SCONJ	_	_	7	mark	_	_
 3	officiellement	officiellement	ADV	_	_	7	advmod	_	_
 4	le	le	DET	_	Gender=Masc|Number=Sing	5	det	_	_
@@ -643,7 +643,7 @@
 19	le	le	DET	_	Gender=Masc|Number=Sing	20	det	_	_
 20	président	président	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 21	Bouteflika	_	PROPN	_	_	20	appos	_	_
-22	et	_	CONJ	_	_	20	cc	_	_
+22	et	et	CONJ	_	_	20	cc	_	_
 23	le	le	DET	_	Gender=Masc|Number=Sing	25	det	_	_
 24	Premier	premier	ADJ	_	ms=y	25	amod	_	_
 25	ministre	ministre	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	_
@@ -663,13 +663,13 @@
 8	est	être	VERB	_	ind_pres_3s=y	1	cop	_	_
 9	l'	le	DET	_	Gender=Masc|Number=Sing	10	det	_	_
 10	espoir	espoir	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	_
-11	et	_	CONJ	_	_	10	cc	_	_
+11	et	et	CONJ	_	_	10	cc	_	_
 12	les	le	DET	_	Gender=Masc|Number=Plur	13	det	_	_
 13	rêves	rêve	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
 14	d'	de	ADP	_	_	16	case	_	_
 15	un	un	DET	_	Gender=Masc|Number=Sing	16	det	_	_
 16	peuple	peuple	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
-17	et	_	CONJ	_	_	16	cc	_	_
+17	et	et	CONJ	_	_	16	cc	_	_
 18	de	de	ADP	_	_	20	case	_	_
 19	ses	son	DET	_	Gender=Masc|Number=Plur	20	nmod:poss	_	_
 20	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	16	conj	_	_
@@ -691,7 +691,7 @@
 12	période	période	NOUN	_	Gender=Masc|Number=Plur	10	dobj	_	_
 13	d'	de	ADP	_	_	14	case	_	_
 14	irakisation	irakisation	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
-15	ou	_	CONJ	_	_	14	cc	_	_
+15	ou	ou	CONJ	_	_	14	cc	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	somalisation	somalisation	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
 18	de	de	ADP	_	_	20	case	_	_
@@ -715,7 +715,7 @@
 2	pas	pas	ADV	_	_	3	neg	_	_
 3	rester	rester	VERB	_	infinitif=y	0	root	_	_
 4	seul	seul	ADJ	_	ms=y	3	xcomp	_	_
-5	ou	_	CONJ	_	_	4	cc	_	_
+5	ou	ou	CONJ	_	_	4	cc	_	_
 6	en	en	ADP	_	_	7	case	_	_
 7	couple	couple	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
 8	dans	dans	ADP	_	_	10	case	_	_
@@ -773,7 +773,7 @@
 17	nouveau	nouveau	ADJ	_	ms=y	18	amod	_	_
 18	texte	texte	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
 19	constitutionnel	constitutionnel	ADJ	_	ms=y	18	amod	_	_
-20	et	_	CONJ	_	_	13	cc	_	_
+20	et	et	CONJ	_	_	13	cc	_	_
 21	,	,	PUNCT	_	_	13	punct	_	_
 22	pour	pour	ADP	_	_	13	advmod	_	_
 23	autant	autant	ADV	_	_	22	mwe	_	_
@@ -840,7 +840,7 @@
 
 # sentid: fr-ud-test_00032
 # sentence-text: Car le gouvernement marocain regrette le temps béni où la manne financière apportée par les touristes algériens qui affluaient par centaines de milliers faisait vivre toute cette région et bien au-delà.
-1	Car	_	CONJ	_	_	5	cc	_	_
+1	Car	car	CONJ	_	_	5	cc	_	_
 2	le	le	DET	_	Gender=Masc|Number=Sing	3	det	_	_
 3	gouvernement	gouvernement	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 4	marocain	marocain	ADJ	_	ms=y	3	amod	_	_
@@ -868,7 +868,7 @@
 26	toute	tout	DET	_	Gender=Fem|Number=Sing	28	det	_	_
 27	cette	ce	DET	_	Gender=Fem|Number=Sing	28	det	_	_
 28	région	région	NOUN	_	Gender=Fem|Number=Sing	25	dobj	_	_
-29	et	_	CONJ	_	_	28	cc	_	_
+29	et	et	CONJ	_	_	28	cc	_	_
 30	bien	bien	ADV	_	_	31	advmod	_	_
 31	au-delà	au-delà	ADV	_	_	28	conj	_	_
 32	.	.	PUNCT	_	_	5	punct	_	_
@@ -881,7 +881,7 @@
 4	est	être	AUX	_	ind_pres_3s=y	5	aux	_	_
 5	amélioré	améliorer	VERB	_	part_pass_ms=y	0	root	_	_
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	mais	_	CONJ	_	_	5	cc	_	_
+7	mais	mais	CONJ	_	_	5	cc	_	_
 8	pas	pas	ADV	_	_	11	neg	_	_
 9	dans	dans	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Gender=Masc|Number=Sing	11	det	_	_
@@ -979,7 +979,7 @@
 7	que	_	SCONJ	_	_	5	expl	_	_
 8	nous-mêmes	nous-mêmes	PRON	_	Person=1|Reflex=Yes|p=y	5	dobj	_	_
 9	,	,	PUNCT	_	_	5	punct	_	_
-10	et	_	CONJ	_	_	5	cc	_	_
+10	et	et	CONJ	_	_	5	cc	_	_
 11	ne	_	PART	_	_	12	neg	_	_
 12	prenons	prendre	VERB	_	ind_pres_1p=y	5	conj	_	_
 13	-nous	nous	PRON	_	Person=1|p=y	12	nsubj	_	_
@@ -1077,7 +1077,7 @@
 6	fait	faire	VERB	_	part_pass_ms=y	0	root	_	_
 7	qu'	_	SCONJ	_	_	6	expl	_	_
 8	obéir	obéir	VERB	_	infinitif=y	6	xcomp	_	_
-9	et	_	CONJ	_	_	8	cc	_	_
+9	et	et	CONJ	_	_	8	cc	_	_
 10	se	se	PRON	_	Person=3	11	dobj	_	_
 11	déjuger	déjuger	VERB	_	infinitif=y	8	conj	_	_
 12	.	.	PUNCT	_	_	6	punct	_	_
@@ -1093,7 +1093,7 @@
 7	a	avoir	AUX	_	ind_pres_3s=y	9	aux	_	_
 8	été	être	VERB	_	part_pass_ms=y	9	cop	_	_
 9	massive	massif	ADJ	_	fs=y	0	root	_	_
-10	et	_	CONJ	_	_	9	cc	_	_
+10	et	et	CONJ	_	_	9	cc	_	_
 11	a	avoir	AUX	_	ind_pres_3s=y	12	aux	_	_
 12	touché	toucher	VERB	_	part_pass_ms=y	9	conj	_	_
 13	pas	pas	ADV	_	_	16	advmod	_	_
@@ -1109,7 +1109,7 @@
 22	à	à	ADP	_	_	24	case	_	_
 23	le	le	DET	_	Gender=Masc|Number=Sing	24	det	_	_
 24	gouvernement	gouvernement	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
-25	et	_	CONJ	_	_	24	cc	_	_
+25	et	et	CONJ	_	_	24	cc	_	_
 26	à	à	ADP	_	_	28	case	_	_
 27	des	un	DET	_	Gender=Fem|Number=Plur	28	det	_	_
 28	entreprises	entreprise	NOUN	_	Gender=Fem|Number=Plur	24	conj	_	_
@@ -1137,7 +1137,7 @@
 
 # sentid: fr-ud-test_00045
 # sentence-text: Mais la réalité est que la Mauritanie n'est pas le Maroc ou l'Algérie.
-1	Mais	_	CONJ	_	_	4	cc	_	_
+1	Mais	mais	CONJ	_	_	4	cc	_	_
 2	la	le	DET	_	Gender=Fem|Number=Sing	3	det	_	_
 3	réalité	réalité	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 4	est	être	VERB	_	ind_pres_3s=y	0	root	_	_
@@ -1149,7 +1149,7 @@
 10	pas	pas	ADV	_	_	12	neg	_	_
 11	le	le	DET	_	Gender=Masc|Number=Sing	12	det	_	_
 12	Maroc	_	PROPN	_	_	4	ccomp	_	_
-13	ou	_	CONJ	_	_	12	cc	_	_
+13	ou	ou	CONJ	_	_	12	cc	_	_
 14	l'	le	DET	_	Number=Sing	15	det	_	_
 15	Algérie	_	PROPN	_	_	12	conj	_	_
 16	.	.	PUNCT	_	_	4	punct	_	_
@@ -1175,7 +1175,7 @@
 17	il	il	PRON	_	Person=3|ms=y	19	nsubj	_	_
 18	se	se	PRON	_	Person=3	19	dobj	_	_
 19	maintient	maintenir	VERB	_	ind_pres_3s=y	13	conj	_	_
-20	et	_	CONJ	_	_	13	cc	_	_
+20	et	et	CONJ	_	_	13	cc	_	_
 21	n'	_	PART	_	_	22	neg	_	_
 22	aura	avoir	VERB	_	ind_futur_3s=y	13	conj	_	_
 23	aucun	aucun	DET	_	Gender=Masc|Number=Sing	24	neg	_	_
@@ -1316,7 +1316,7 @@
 23	expérimentale	expérimental	ADJ	_	fs=y	21	amod	_	_
 24	,	,	PUNCT	_	_	23	punct	_	_
 25	avantgardiste	avant-gardiste	ADJ	_	fs=y	23	conj	_	_
-26	et	_	CONJ	_	_	23	cc	_	_
+26	et	et	CONJ	_	_	23	cc	_	_
 27	politiquement	politiquement	ADV	_	_	28	advmod	_	_
 28	engagée	engagé	ADJ	_	fs=y	23	conj	_	_
 29	»	»	PUNCT	_	_	23	punct	_	_
@@ -1383,7 +1383,7 @@
 19	la	le	DET	_	Gender=Fem|Number=Sing	20	det	_	_
 20	scène	scène	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
 21	régionale	régional	ADJ	_	fs=y	20	amod	_	_
-22	et	_	CONJ	_	_	21	cc	_	_
+22	et	et	CONJ	_	_	21	cc	_	_
 23	internationale	international	ADJ	_	fs=y	21	conj	_	_
 24	,	,	PUNCT	_	_	11	punct	_	_
 25	à	à	ADP	_	_	27	mark	_	_
@@ -1400,7 +1400,7 @@
 36	la	le	DET	_	Gender=Fem|Number=Sing	37	det	_	_
 37	région	région	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
 38	colonisée	colonisé	ADJ	_	fs=y	37	amod	_	_
-39	et	_	CONJ	_	_	29	cc	_	_
+39	et	et	CONJ	_	_	29	cc	_	_
 40	mettre	mettre	VERB	_	infinitif=y	29	conj	_	_
 41	un	un	DET	_	Gender=Masc|Number=Sing	42	det	_	_
 42	terme	terme	NOUN	_	Gender=Masc|Number=Sing	40	dobj	_	_
@@ -1432,7 +1432,7 @@
 67	d'	de	ADP	_	_	68	case	_	_
 68	autodétermination	autodétermination	NOUN	_	Gender=Fem|Number=Sing	66	nmod	_	_
 69	libre	libre	ADJ	_	fs=y	68	amod	_	_
-70	et	_	CONJ	_	_	64	cc	_	_
+70	et	et	CONJ	_	_	64	cc	_	_
 71	à	à	ADP	_	_	72	mark	_	_
 72	mettre	mettre	VERB	_	infinitif=y	64	conj	_	_
 73	un	un	DET	_	Gender=Masc|Number=Sing	74	det	_	_
@@ -1504,7 +1504,7 @@
 2	M'	_	PROPN	_	_	1	name	_	_
 3	hamed	_	PROPN	_	_	1	name	_	_
 4	Deddeche	_	PROPN	_	_	1	name	_	_
-5	et	_	CONJ	_	_	1	cc	_	_
+5	et	et	CONJ	_	_	1	cc	_	_
 6	Amgid	_	PROPN	_	_	1	conj	_	_
 7	Sidi	_	PROPN	_	_	6	name	_	_
 8	Ahmed	_	PROPN	_	_	6	name	_	_
@@ -1594,7 +1594,7 @@
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	Carlos	_	PROPN	_	_	2	appos	_	_
 6	Sanchez	_	PROPN	_	_	5	name	_	_
-7	et	_	CONJ	_	_	5	cc	_	_
+7	et	et	CONJ	_	_	5	cc	_	_
 8	Mar	_	PROPN	_	_	5	conj	_	_
 9	Figueras	_	PROPN	_	_	8	name	_	_
 10	,	,	PUNCT	_	_	13	punct	_	_
@@ -1625,7 +1625,7 @@
 9	RSA	_	PROPN	_	_	7	appos	_	_
 10	"	"	PUNCT	_	_	9	punct	_	_
 11	,	,	PUNCT	_	_	4	punct	_	_
-12	car	_	CONJ	_	_	41	mark	_	_
+12	car	car	CONJ	_	_	41	mark	_	_
 13	si	_	SCONJ	_	_	21	mark	_	_
 14	le	le	DET	_	Gender=Masc|Number=Sing	15	det	_	_
 15	Revenu	revenu	NOUN	_	Gender=Masc|Number=Sing	21	nsubjpass	_	_
@@ -1837,7 +1837,7 @@
 31	,	,	PUNCT	_	_	20	punct	_	_
 32	d'	de	ADP	_	_	33	case	_	_
 33	Angola	_	PROPN	_	_	20	conj	_	_
-34	et	_	CONJ	_	_	20	cc	_	_
+34	et	et	CONJ	_	_	20	cc	_	_
 35-36	du	_	_	_	_	_	_	_	_
 35	de	de	ADP	_	_	37	case	_	_
 36	le	le	DET	_	Gender=Masc|Number=Sing	37	det	_	_
@@ -1872,7 +1872,7 @@
 
 # sentid: fr-ud-test_00068
 # sentence-text: Et cet homme d'affaires particulier est partout, il contrôle la plus grande banque du pays, il contrôle l'un des trois opérateurs télécoms, il est actif dans le business du sucre, de l'énergie, il contrôle les centrales laitières et il est associé au groupe Danone.
-1	Et	_	CONJ	_	_	8	cc	_	_
+1	Et	et	CONJ	_	_	8	cc	_	_
 2	cet	ce	DET	_	Gender=Masc|Number=Sing	3	det	_	_
 3	homme	homme	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 4	d'	de	ADP	_	_	5	case	_	_
@@ -1923,7 +1923,7 @@
 46	les	le	DET	_	Gender=Fem|Number=Plur	47	det	_	_
 47	centrales	centrale	NOUN	_	Gender=Fem|Number=Plur	45	dobj	_	_
 48	laitières	laitier	ADJ	_	fp=y	47	amod	_	_
-49	et	_	CONJ	_	_	8	cc	_	_
+49	et	et	CONJ	_	_	8	cc	_	_
 50	il	il	PRON	_	Person=3|ms=y	52	nsubj	_	_
 51	est	être	AUX	_	ind_pres_3s=y	52	aux	_	_
 52	associé	associer	VERB	_	part_pass_ms=y	8	conj	_	_
@@ -1987,7 +1987,7 @@
 36	les	le	DET	_	Gender=Masc|Number=Plur	37	det	_	_
 37	réseaux	réseau	NOUN	_	Gender=Masc|Number=Plur	34	nmod	_	_
 38	affairistes	affairiste	ADJ	_	mp=y	37	amod	_	_
-39	et	_	CONJ	_	_	37	cc	_	_
+39	et	et	CONJ	_	_	37	cc	_	_
 40-41	des	_	_	_	_	_	_	_	_
 40	de	de	ADP	_	_	42	case	_	_
 41	les	le	DET	_	Gender=Masc|Number=Plur	42	det	_	_
@@ -1995,7 +1995,7 @@
 43	de	de	ADP	_	_	45	case	_	_
 44	la	le	DET	_	Gender=Fem|Number=Sing	45	det	_	_
 45	corruption	corruption	NOUN	_	Gender=Fem|Number=Sing	42	nmod	_	_
-46	et	_	CONJ	_	_	12	cc	_	_
+46	et	et	CONJ	_	_	12	cc	_	_
 47	à	à	ADP	_	_	48	mark	_	_
 48	grossir	grossir	VERB	_	infinitif=y	12	conj	_	_
 49	les	le	DET	_	Gender=Masc|Number=Plur	50	det	_	_
@@ -2040,7 +2040,7 @@
 11	il	il	PRON	_	Person=3|ms=y	12	nsubj	_	_
 12	devient	devenir	VERB	_	ind_pres_3s=y	0	root	_	_
 13	instantanément	instantanément	ADV	_	_	12	advmod	_	_
-14	et	_	CONJ	_	_	13	cc	_	_
+14	et	et	CONJ	_	_	13	cc	_	_
 15	de	de	ADP	_	_	13	conj	_	_
 16	facto	facto	NOUN	_	_	15	mwe	_	_
 17	,	,	PUNCT	_	_	12	punct	_	_
@@ -2061,7 +2061,7 @@
 
 # sentid: fr-ud-test_00074
 # sentence-text: Mais elle guette, oui, elle guette.
-1	Mais	_	CONJ	_	_	3	cc	_	_
+1	Mais	mais	CONJ	_	_	3	cc	_	_
 2	elle	elle	PRON	_	Person=3|fs=y	3	nsubj	_	_
 3	guette	guetter	VERB	_	ind_pres_3s=y	0	root	_	_
 4	,	,	PUNCT	_	_	3	punct	_	_
@@ -2121,7 +2121,7 @@
 7	les	le	DET	_	Gender=Masc|Number=Plur	8	det	_	_
 8	articles	article	NOUN	_	Gender=Masc|Number=Plur	23	nsubj	_	_
 9	166	_	NUM	_	_	8	nummod	_	_
-10	et	_	CONJ	_	_	9	cc	_	_
+10	et	et	CONJ	_	_	9	cc	_	_
 11	167	_	NUM	_	_	9	conj	_	_
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	_
@@ -2150,7 +2150,7 @@
 34	entre	entre	ADP	_	_	36	case	_	_
 35	la	le	DET	_	Gender=Fem|Number=Sing	36	det	_	_
 36	France	_	PROPN	_	_	31	nmod	_	_
-37	et	_	CONJ	_	_	36	cc	_	_
+37	et	et	CONJ	_	_	36	cc	_	_
 38	l'	le	DET	_	Gender=Masc|Number=Sing	39	det	_	_
 39	étranger	étranger	NOUN	_	Gender=Masc|Number=Sing	36	conj	_	_
 40	.	.	PUNCT	_	_	23	punct	_	_
@@ -2166,7 +2166,7 @@
 7	de	de	ADP	_	_	9	case	_	_
 8	son	son	DET	_	Gender=Masc|Number=Sing	9	nmod:poss	_	_
 9	temps	temps	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-10	et	_	CONJ	_	_	9	cc	_	_
+10	et	et	CONJ	_	_	9	cc	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	son	son	DET	_	Gender=Fem|Number=Sing	13	nmod:poss	_	_
 13	énérgie	énergie	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
@@ -2216,7 +2216,7 @@
 22	à	à	ADP	_	_	24	case	_	_
 23	leur	son	DET	_	Gender=Masc|Number=Sing	24	nmod:poss	_	_
 24	renforcement	renforcement	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
-25	et	_	CONJ	_	_	24	cc	_	_
+25	et	et	CONJ	_	_	24	cc	_	_
 26	à	à	ADP	_	_	28	case	_	_
 27	leur	son	DET	_	Gender=Fem|Number=Sing	28	nmod:poss	_	_
 28	diversification	diversification	NOUN	_	Gender=Fem|Number=Sing	24	conj	_	_
@@ -2342,7 +2342,7 @@
 60	englober	englober	VERB	_	infinitif=y	52	advcl	_	_
 61	la	le	DET	_	Gender=Fem|Number=Sing	62	det	_	_
 62	surveillance	surveillance	NOUN	_	Gender=Fem|Number=Sing	60	dobj	_	_
-63	et	_	CONJ	_	_	62	cc	_	_
+63	et	et	CONJ	_	_	62	cc	_	_
 64	le	le	DET	_	Gender=Masc|Number=Sing	65	det	_	_
 65	contrôle	contrôle	NOUN	_	Gender=Masc|Number=Sing	62	conj	_	_
 66-67	des	_	_	_	_	_	_	_	_
@@ -2390,7 +2390,7 @@
 27	de	de	ADP	_	_	29	case	_	_
 28	le	le	DET	_	Gender=Masc|Number=Sing	29	det	_	_
 29	beau	beau	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
-30	et	_	CONJ	_	_	29	cc	_	_
+30	et	et	CONJ	_	_	29	cc	_	_
 31-32	du	_	_	_	_	_	_	_	_
 31	de	de	ADP	_	_	33	case	_	_
 32	le	le	DET	_	Gender=Masc|Number=Sing	33	det	_	_
@@ -2436,7 +2436,7 @@
 27	les	le	DET	_	Gender=Masc|Number=Plur	28	det	_	_
 28	militants	militant	NOUN	_	Gender=Masc|Number=Plur	25	appos	_	_
 29	,	,	PUNCT	_	_	14	punct	_	_
-30	mais	_	CONJ	_	_	14	cc	_	_
+30	mais	mais	CONJ	_	_	14	cc	_	_
 31	quand	_	SCONJ	_	_	35	mark	_	_
 32	on	on	PRON	_	Person=3|ms=y	35	nsubj	_	_
 33	nous	le	PRON	_	Person=1|p=y	35	dobj	_	_
@@ -2474,7 +2474,7 @@
 13	d'	de	ADP	_	_	14	case	_	_
 14	Hassan	_	PROPN	_	_	12	nmod	_	_
 15	II	_	PROPN	_	_	14	name	_	_
-16	et	_	CONJ	_	_	12	cc	_	_
+16	et	et	CONJ	_	_	12	cc	_	_
 17	l'	le	DET	_	Gender=Fem|Number=Sing	18	det	_	_
 18	arrivée	arrivée	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
 19-20	au	_	_	_	_	_	_	_	_
@@ -2511,7 +2511,7 @@
 12	Maroc	_	PROPN	_	_	9	nmod	_	_
 13	en	en	ADP	_	_	14	case	_	_
 14	1975	_	NUM	_	_	9	nmod	_	_
-15	et	_	CONJ	_	_	14	cc	_	_
+15	et	et	CONJ	_	_	14	cc	_	_
 16	1979	_	NUM	_	_	14	conj	_	_
 17	suite	suite	NOUN	_	Gender=Fem|Number=Sing	20	case	_	_
 18-19	au	_	_	_	_	_	_	_	_
@@ -2635,7 +2635,7 @@
 38	,	,	PUNCT	_	_	37	punct	_	_
 39	pacifique	pacifique	ADJ	_	ms=y	37	conj	_	_
 40	,	,	PUNCT	_	_	37	punct	_	_
-41	mais	_	CONJ	_	_	37	cc	_	_
+41	mais	mais	CONJ	_	_	37	cc	_	_
 42	aussi	aussi	ADV	_	_	43	advmod	_	_
 43	combatif	combatif	ADJ	_	ms=y	37	conj	_	_
 44	"	"	PUNCT	_	_	37	punct	_	_
@@ -2705,7 +2705,7 @@
 51	les	le	DET	_	Gender=Fem|Number=Plur	53	det	_	_
 52	deux	_	NUM	_	_	53	nummod	_	_
 53	parties	partie	NOUN	_	Gender=Fem|Number=Plur	49	nmod	_	_
-54	et	_	CONJ	_	_	49	cc	_	_
+54	et	et	CONJ	_	_	49	cc	_	_
 55	des	un	DET	_	Gender=Masc|Number=Plur	56	det	_	_
 56	représentants	représentant	NOUN	_	Gender=Masc|Number=Plur	49	conj	_	_
 57-58	des	_	_	_	_	_	_	_	_
@@ -2717,7 +2717,7 @@
 62	,	,	PUNCT	_	_	60	punct	_	_
 63	l'	le	DET	_	Number=Sing	64	det	_	_
 64	Algérie	_	PROPN	_	_	60	appos	_	_
-65	et	_	CONJ	_	_	64	cc	_	_
+65	et	et	CONJ	_	_	64	cc	_	_
 66	la	le	DET	_	Gender=Fem|Number=Sing	67	det	_	_
 67	Mauritanie	_	PROPN	_	_	64	conj	_	_
 68	.	.	PUNCT	_	_	20	punct	_	_
@@ -2744,7 +2744,7 @@
 5	de	de	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Gender=Masc|Number=Sing	7	det	_	_
 7	jour	jour	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-8	ou	_	CONJ	_	_	7	cc	_	_
+8	ou	ou	CONJ	_	_	7	cc	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	la	le	DET	_	Gender=Fem|Number=Sing	11	det	_	_
 11	nuit	nuit	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
@@ -2768,7 +2768,7 @@
 10	pays	pays	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 11	de	de	ADP	_	_	12	mark	_	_
 12	renforcer	renforcer	VERB	_	infinitif=y	7	acl	_	_
-13	et	_	CONJ	_	_	12	cc	_	_
+13	et	et	CONJ	_	_	12	cc	_	_
 14	consolider	consolider	VERB	_	infinitif=y	12	conj	_	_
 15	les	le	DET	_	Gender=Fem|Number=Plur	16	det	_	_
 16	relations	relation	NOUN	_	Gender=Fem|Number=Plur	12	dobj	_	_
@@ -2793,7 +2793,7 @@
 6	de	de	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Gender=Masc|Number=Sing	8	det	_	_
 8	gaz	gaz	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
-9	ou	_	CONJ	_	_	5	cc	_	_
+9	ou	ou	CONJ	_	_	5	cc	_	_
 10	Forum	forum	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
 11-12	des	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	13	case	_	_
@@ -2824,7 +2824,7 @@
 5	m'	me	PRON	_	Person=1|s=y	6	iobj	_	_
 6	envoyer	envoyer	VERB	_	infinitif=y	2	acl	_	_
 7	actualités	actualité	NOUN	_	Gender=Fem|Number=Plur	6	dobj	_	_
-8	et	_	CONJ	_	_	7	cc	_	_
+8	et	et	CONJ	_	_	7	cc	_	_
 9	libres	libre	ADJ	_	fp=y	10	amod	_	_
 10	tribunes	tribune	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	_
 11	à	à	ADP	_	_	13	case	_	_
@@ -3037,7 +3037,7 @@
 # sentence-text: La gestion et l'exploitation de la salle de concert Wagram, récemment rénovée, sera assurée par Eurosites, leader en France de la location de salles.
 1	La	le	DET	_	Gender=Fem|Number=Sing	2	det	_	_
 2	gestion	gestion	NOUN	_	Gender=Fem|Number=Sing	17	nsubjpass	_	_
-3	et	_	CONJ	_	_	2	cc	_	_
+3	et	et	CONJ	_	_	2	cc	_	_
 4	l'	le	DET	_	Gender=Fem|Number=Sing	5	det	_	_
 5	exploitation	exploitation	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
 6	de	de	ADP	_	_	8	case	_	_
@@ -3105,7 +3105,7 @@
 1	Elle	elle	PRON	_	Person=3|fs=y	3	nsubj	_	_
 2	se	se	PRON	_	Person=3	3	dobj	_	_
 3	remarie	remarier	VERB	_	ind_pres_3s=y	0	root	_	_
-4	et	_	CONJ	_	_	3	cc	_	_
+4	et	et	CONJ	_	_	3	cc	_	_
 5	un	un	DET	_	Gender=Masc|Number=Sing	7	det	_	_
 6	autre	autre	ADJ	_	ms=y	7	amod	_	_
 7	fils	fils	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
@@ -3125,7 +3125,7 @@
 6	un	un	DET	_	Gender=Masc|Number=Sing	7	det	_	_
 7	environnement	environnement	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 8	moderne	moderne	ADJ	_	ms=y	7	amod	_	_
-9	et	_	CONJ	_	_	8	cc	_	_
+9	et	et	CONJ	_	_	8	cc	_	_
 10	actuel	actuel	ADJ	_	ms=y	8	conj	_	_
 11	,	,	PUNCT	_	_	22	punct	_	_
 12	la	le	DET	_	Gender=Fem|Number=Sing	13	det	_	_
@@ -3147,7 +3147,7 @@
 27	avec	avec	ADP	_	_	29	case	_	_
 28	des	un	DET	_	Gender=Fem|Number=Plur	29	det	_	_
 29	oreilles	oreille	NOUN	_	Gender=Fem|Number=Plur	24	conj	_	_
-30	et	_	CONJ	_	_	29	cc	_	_
+30	et	et	CONJ	_	_	29	cc	_	_
 31	des	un	DET	_	Gender=Fem|Number=Plur	32	det	_	_
 32	queues	queue	NOUN	_	Gender=Fem|Number=Plur	29	conj	_	_
 33	de	de	ADP	_	_	34	case	_	_
@@ -3161,11 +3161,11 @@
 41	jeune	jeune	ADJ	_	ms=y	42	amod	_	_
 42	âge	âge	NOUN	_	Gender=Masc|Number=Sing	39	dobj	_	_
 43	,	,	PUNCT	_	_	22	punct	_	_
-44	mais	_	CONJ	_	_	42	cc	_	_
+44	mais	mais	CONJ	_	_	42	cc	_	_
 45	aussi	aussi	ADV	_	_	44	advmod	_	_
 46	l'	le	DET	_	Gender=Fem|Number=Sing	47	det	_	_
 47	innocence	innocence	NOUN	_	Gender=Fem|Number=Sing	42	conj	_	_
-48	et	_	CONJ	_	_	42	cc	_	_
+48	et	et	CONJ	_	_	42	cc	_	_
 49	la	le	DET	_	Gender=Fem|Number=Sing	50	det	_	_
 50	virginité	virginité	NOUN	_	Gender=Fem|Number=Sing	42	conj	_	_
 51	;	;	PUNCT	_	_	22	punct	_	_
@@ -3343,7 +3343,7 @@
 
 # sentid: fr-ud-test_00114
 # sentence-text: Mais nous ne bougeront pas tant que nos revendications n'auront pas été acceptées ", a assuré l'un d'eux.
-1	Mais	_	CONJ	_	_	4	cc	_	_
+1	Mais	mais	CONJ	_	_	4	cc	_	_
 2	nous	nous	PRON	_	Person=1|p=y	4	nsubj	_	_
 3	ne	_	PART	_	_	4	neg	_	_
 4	bougeront	bouger	VERB	_	ind_futur_1p=y	18	ccomp	_	_
@@ -3394,7 +3394,7 @@
 23	son	son	DET	_	Gender=Masc|Number=Sing	24	nmod:poss	_	_
 24	domicile	domicile	NOUN	_	Gender=Masc|Number=Sing	20	dobj	_	_
 25	encerclé	encercler	VERB	_	part_pass_ms=y	24	acl	_	_
-26	et	_	CONJ	_	_	24	cc	_	_
+26	et	et	CONJ	_	_	24	cc	_	_
 27	ses	son	DET	_	Gender=Masc|Number=Plur	28	nmod:poss	_	_
 28	téléphones	téléphone	NOUN	_	Gender=Masc|Number=Plur	24	conj	_	_
 29	coupés	couper	VERB	_	part_pass_mp=y	28	acl	_	_
@@ -3429,7 +3429,7 @@
 20	journaliste	journaliste	NOUN	_	Gender=Masc|Number=Sing	17	appos	_	_
 21	,	,	PUNCT	_	_	20	punct	_	_
 22	écrivain	écrivain	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	_
-23	et	_	CONJ	_	_	20	cc	_	_
+23	et	et	CONJ	_	_	20	cc	_	_
 24	fondateur	fondateur	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	_
 25-26	du	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	27	case	_	_
@@ -3459,7 +3459,7 @@
 9	chacun	chacun	PRON	_	ms=y	11	nsubj	_	_
 10	est	être	VERB	_	ind_pres_3s=y	11	cop	_	_
 11	important	important	ADJ	_	ms=y	0	root	_	_
-12	et	_	CONJ	_	_	11	cc	_	_
+12	et	et	CONJ	_	_	11	cc	_	_
 13	a	avoir	VERB	_	ind_pres_3s=y	11	conj	_	_
 14	son	son	DET	_	Gender=Masc|Number=Sing	15	nmod:poss	_	_
 15	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	13	dobj	_	_
@@ -3476,7 +3476,7 @@
 25	ville	ville	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
 26	de	de	ADP	_	_	27	case	_	_
 27	Bayonne	_	PROPN	_	_	25	nmod	_	_
-28	et	_	CONJ	_	_	25	cc	_	_
+28	et	et	CONJ	_	_	25	cc	_	_
 29	de	de	ADP	_	_	31	case	_	_
 30	la	le	DET	_	Gender=Fem|Number=Sing	31	det	_	_
 31	culture	culture	NOUN	_	Gender=Fem|Number=Sing	25	conj	_	_
@@ -3500,7 +3500,7 @@
 13	contre	contre	ADP	_	_	14	case	_	_
 14	Schalke	_	PROPN	_	_	12	nmod	_	_
 15	04	_	X	_	_	14	compound	_	_
-16	et	_	CONJ	_	_	14	cc	_	_
+16	et	et	CONJ	_	_	14	cc	_	_
 17	son	son	DET	_	Gender=Masc|Number=Sing	18	nmod:poss	_	_
 18	effectif	effectif	NOUN	_	Gender=Masc|Number=Sing	14	conj	_	_
 19	plus	plus	ADV	_	_	20	advmod	_	_
@@ -3526,7 +3526,7 @@
 37	les	le	DET	_	Gender=Masc|Number=Plur	38	det	_	_
 38	champions	champion	NOUN	_	Gender=Masc|Number=Plur	35	nmod	_	_
 39	,	,	PUNCT	_	_	12	punct	_	_
-40	mais	_	CONJ	_	_	12	cc	_	_
+40	mais	mais	CONJ	_	_	12	cc	_	_
 41	déplore	déplorer	VERB	_	ind_pres_3s=y	12	conj	_	_
 42	quelques	quelque	DET	_	Gender=Fem|Number=Plur	43	det	_	_
 43	blessures	blessure	NOUN	_	Gender=Fem|Number=Plur	41	dobj	_	_
@@ -3692,7 +3692,7 @@
 30	pourtant	pourtant	ADV	_	_	29	advmod	_	_
 31	entre	entre	ADP	_	_	32	case	_	_
 32	soutien	soutien	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
-33	et	_	CONJ	_	_	32	cc	_	_
+33	et	et	CONJ	_	_	32	cc	_	_
 34	prise	prise	NOUN	_	Gender=Fem|Number=Sing	32	conj	_	_
 35	de	de	ADP	_	_	36	case	_	_
 36	distance	distance	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	_
@@ -3747,7 +3747,7 @@
 24	citoyens	citoyen	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	_
 25	+	+	PUNCT	_	_	26	punct	_	_
 26	Facebookant	facebooker	VERB	_	participe_present=y	24	acl	_	_
-27	et	_	CONJ	_	_	26	cc	_	_
+27	et	et	CONJ	_	_	26	cc	_	_
 28	Tweetant	tweeter	VERB	_	participe_present=y	26	conj	_	_
 29	+	+	PUNCT	_	_	26	punct	_	_
 30	avec	avec	ADP	_	_	31	case	_	_
@@ -3808,7 +3808,7 @@
 15	de	de	ADP	_	_	17	case	_	_
 16	les	le	DET	_	Gender=Masc|Number=Plur	17	det	_	_
 17	gourmands	gourmand	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
-18	et	_	CONJ	_	_	17	cc	_	_
+18	et	et	CONJ	_	_	17	cc	_	_
 19	amateurs	amateur	NOUN	_	Gender=Masc|Number=Plur	17	conj	_	_
 20	de	de	ADP	_	_	21	case	_	_
 21	produits	produit	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
@@ -3839,7 +3839,7 @@
 19	40	_	NUM	_	_	20	nummod	_	_
 20	°	degré	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 21	C	_	SYM	_	_	20	compound	_	_
-22	et	_	CONJ	_	_	11	cc	_	_
+22	et	et	CONJ	_	_	11	cc	_	_
 23	que	_	SCONJ	_	_	28	mark	_	_
 24	les	le	DET	_	Gender=Fem|Number=Plur	25	det	_	_
 25	couches	couche	NOUN	_	Gender=Fem|Number=Plur	28	nsubj	_	_
@@ -3936,7 +3936,7 @@
 15	6,7	_	NUM	_	_	16	nummod	_	_
 16	%	pourcent	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
 17	,	,	PUNCT	_	_	6	punct	_	_
-18	et	_	CONJ	_	_	6	cc	_	_
+18	et	et	CONJ	_	_	6	cc	_	_
 19	le	le	DET	_	Gender=Masc|Number=Sing	20	det	_	_
 20	résultat	résultat	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
 21	opérationnel	opérationnel	ADJ	_	ms=y	20	amod	_	_
@@ -4009,7 +4009,7 @@
 7	demande	demander	VERB	_	ind_pres_3s=y	0	root	_	_
 8	aussi	aussi	ADV	_	_	7	advmod	_	_
 9	,	,	PUNCT	_	_	7	punct	_	_
-10	et	_	CONJ	_	_	8	cc	_	_
+10	et	et	CONJ	_	_	8	cc	_	_
 11	surtout	surtout	ADV	_	_	8	conj	_	_
 12	,	,	PUNCT	_	_	7	punct	_	_
 13	que	_	SCONJ	_	_	17	mark	_	_
@@ -4043,7 +4043,7 @@
 17	comme	_	SCONJ	_	_	12	cc	_	_
 18	Ben	_	PROPN	_	_	12	conj	_	_
 19	Spies	_	PROPN	_	_	18	name	_	_
-20	et	_	CONJ	_	_	18	cc	_	_
+20	et	et	CONJ	_	_	18	cc	_	_
 21	Jorge	_	PROPN	_	_	18	conj	_	_
 22	Lorenzo	_	PROPN	_	_	21	name	_	_
 23	,	,	PUNCT	_	_	12	punct	_	_
@@ -4052,7 +4052,7 @@
 26	sur	sur	ADP	_	_	27	case	_	_
 27	Yamaha	_	PROPN	_	_	25	nmod	_	_
 28	M1	_	PROPN	_	_	27	name	_	_
-29	et	_	CONJ	_	_	27	cc	_	_
+29	et	et	CONJ	_	_	27	cc	_	_
 30	distancés	distancer	VERB	_	part_pass_mp=y	27	conj	_	_
 31	de	de	ADP	_	_	36	case	_	_
 32	moins	moins	ADV	_	_	34	advmod	_	_
@@ -4226,7 +4226,7 @@
 4	de	de	ADP	_	_	3	mwe	_	_
 5	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	2	dobj	_	_
 6	,	,	PUNCT	_	_	2	punct	_	_
-7	mais	_	CONJ	_	_	2	cc	_	_
+7	mais	mais	CONJ	_	_	2	cc	_	_
 8	pour	pour	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Gender=Masc|Number=Sing	10	det	_	_
 10	utilisateur	utilisateur	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
@@ -4264,7 +4264,7 @@
 7	par	par	ADP	_	_	6	mwe	_	_
 8	leur	son	DET	_	Gender=Fem|Number=Sing	9	nmod:poss	_	_
 9	clarté	clarté	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
-10	et	_	CONJ	_	_	9	cc	_	_
+10	et	et	CONJ	_	_	9	cc	_	_
 11	leur	son	DET	_	Gender=Fem|Number=Sing	12	nmod:poss	_	_
 12	crédibilité	crédibilité	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
 13	,	,	PUNCT	_	_	15	punct	_	_
@@ -4365,7 +4365,7 @@
 21	de	de	ADP	_	_	22	mark	_	_
 22	posséder	posséder	VERB	_	infinitif=y	7	acl	_	_
 23	une	un	DET	_	Gender=Fem|Number=Sing	26	det	_	_
-24	ou	_	CONJ	_	_	23	cc	_	_
+24	ou	ou	CONJ	_	_	23	cc	_	_
 25	plusieurs	plusieurs	DET	_	Number=Plur	23	conj	_	_
 26	maîtresses	maîtresse	NOUN	_	Gender=Fem|Number=Plur	22	dobj	_	_
 27	.	.	PUNCT	_	_	4	punct	_	_
@@ -4382,7 +4382,7 @@
 8	on	on	PRON	_	Person=3|ms=y	10	nsubj	_	_
 9	en	en	PRON	_	Person=3	10	dobj	_	_
 10	détruit	détruire	VERB	_	ind_pres_3s=y	1	advcl	_	_
-11	et	_	CONJ	_	_	10	cc	_	_
+11	et	et	CONJ	_	_	10	cc	_	_
 12	qu'	_	SCONJ	_	_	15	mark	_	_
 13	on	on	PRON	_	Person=3|ms=y	15	nsubj	_	_
 14	en	en	PRON	_	Person=3	15	dobj	_	_
@@ -4403,7 +4403,7 @@
 4	à	à	ADP	_	_	6	case	_	_
 5	12	_	NUM	_	_	6	nummod	_	_
 6	h	heure	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
-7	et	_	CONJ	_	_	3	cc	_	_
+7	et	et	CONJ	_	_	3	cc	_	_
 8	14	_	NUM	_	_	9	nummod	_	_
 9	h	heure	NOUN	_	Gender=Masc|Number=Plur	3	conj	_	_
 10	à	à	ADP	_	_	12	case	_	_
@@ -4474,7 +4474,7 @@
 6	est	être	VERB	_	ind_pres_3s=y	8	cop	_	_
 7	le	le	DET	_	Gender=Masc|Number=Sing	8	det	_	_
 8	coupable	coupable	NOUN	_	Gender=Masc|Number=Sing	4	ccomp	_	_
-9	et	_	CONJ	_	_	8	cc	_	_
+9	et	et	CONJ	_	_	8	cc	_	_
 10	qui	qui	PRON	_	_	13	nsubj	_	_
 11	est	être	VERB	_	ind_pres_3s=y	13	cop	_	_
 12	la	le	DET	_	Gender=Fem|Number=Sing	13	det	_	_
@@ -4568,7 +4568,7 @@
 31	par	par	ADP	_	_	33	case	_	_
 32	la	le	DET	_	Gender=Fem|Number=Sing	33	det	_	_
 33	compétition	compétition	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
-34	et	_	CONJ	_	_	5	cc	_	_
+34	et	et	CONJ	_	_	5	cc	_	_
 35	quelques	quelque	DET	_	Gender=Masc|Number=Plur	36	det	_	_
 36	jours	jour	NOUN	_	Gender=Masc|Number=Plur	41	nmod	_	_
 37	plus	plus	ADV	_	_	38	advmod	_	_
@@ -4619,7 +4619,7 @@
 28	de	de	ADP	_	_	30	case	_	_
 29	le	le	DET	_	Gender=Masc|Number=Sing	30	det	_	_
 30	PIB	PIB	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
-31	et	_	CONJ	_	_	23	cc	_	_
+31	et	et	CONJ	_	_	23	cc	_	_
 32	un	un	DET	_	Gender=Masc|Number=Sing	33	det	_	_
 33	chômage	chômage	NOUN	_	Gender=Masc|Number=Sing	23	conj	_	_
 34	à	à	ADP	_	_	38	case	_	_
@@ -4784,7 +4784,7 @@
 8	tranche	trancher	VERB	_	ind_pres_3s=y	0	root	_	_
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	malmène	malmener	VERB	_	ind_pres_3s=y	8	conj	_	_
-11	et	_	CONJ	_	_	8	cc	_	_
+11	et	et	CONJ	_	_	8	cc	_	_
 12	détourne	détourner	VERB	_	ind_pres_3s=y	8	conj	_	_
 13	l'	le	DET	_	Gender=Fem|Number=Sing	14	det	_	_
 14	actualité	actualité	NOUN	_	Gender=Fem|Number=Sing	8	dobj	_	_
@@ -4826,7 +4826,7 @@
 31	dans	dans	ADP	_	_	33	case	_	_
 32	les	le	DET	_	Gender=Masc|Number=Plur	33	det	_	_
 33	préparatifs	préparatif	NOUN	_	Gender=Masc|Number=Plur	28	nmod	_	_
-34	et	_	CONJ	_	_	28	cc	_	_
+34	et	et	CONJ	_	_	28	cc	_	_
 35-36	s'apprêtent	_	_	_	_	_	_	_	_
 35	s'	se	PRON	_	Person=3	36	dobj	_	_
 36	apprêtent	apprêter	VERB	_	ind_pres_3p=y	28	conj	_	_
@@ -5014,7 +5014,7 @@
 14	à	à	ADP	_	_	16	case	_	_
 15	les	le	DET	_	Gender=Masc|Number=Plur	16	det	_	_
 16	élèves	élève	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
-17	mais	_	CONJ	_	_	16	cc	_	_
+17	mais	mais	CONJ	_	_	16	cc	_	_
 18	aussi	aussi	ADV	_	_	19	advmod	_	_
 19	parents	parent	NOUN	_	Gender=Masc|Number=Plur	16	conj	_	_
 20	.	.	PUNCT	_	_	11	punct	_	_
@@ -5092,7 +5092,7 @@
 30	de	de	ADP	_	_	32	case	_	_
 31	le	le	DET	_	Gender=Masc|Number=Sing	32	det	_	_
 32	Changement	changement	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
-33	et	_	CONJ	_	_	32	cc	_	_
+33	et	et	CONJ	_	_	32	cc	_	_
 34	de	de	ADP	_	_	36	case	_	_
 35	la	le	DET	_	Gender=Fem|Number=Sing	36	det	_	_
 36	Réforme	réforme	NOUN	_	Gender=Fem|Number=Sing	32	conj	_	_
@@ -5142,7 +5142,7 @@
 6	frères	frère	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 7	de	de	ADP	_	_	11	case	_	_
 8	25	_	NUM	_	_	11	nummod	_	_
-9	et	_	CONJ	_	_	8	cc	_	_
+9	et	et	CONJ	_	_	8	cc	_	_
 10	23	_	NUM	_	_	8	conj	_	_
 11	ans	an	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
 12	demeurant	demeurer	VERB	_	participe_present=y	6	acl	_	_
@@ -5184,7 +5184,7 @@
 14	de	de	ADP	_	_	16	case	_	_
 15	les	le	DET	_	Gender=Masc|Number=Plur	16	det	_	_
 16	emails	e-mail	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
-17	et	_	CONJ	_	_	13	cc	_	_
+17	et	et	CONJ	_	_	13	cc	_	_
 18	la	le	DET	_	Gender=Fem|Number=Sing	19	det	_	_
 19	fusion	fusion	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
 20	entrant	entrer	VERB	_	participe_present=y	19	compound	_	_
@@ -5198,7 +5198,7 @@
 28	rapidement	rapidement	ADV	_	_	27	advmod	_	_
 29	leur	son	DET	_	Gender=Fem|Number=Sing	30	nmod:poss	_	_
 30	efficacité	efficacité	NOUN	_	Gender=Fem|Number=Sing	27	dobj	_	_
-31	et	_	CONJ	_	_	30	cc	_	_
+31	et	et	CONJ	_	_	30	cc	_	_
 32	leur	son	DET	_	Gender=Masc|Number=Sing	33	nmod:poss	_	_
 33	impact	impact	NOUN	_	Gender=Masc|Number=Sing	30	conj	_	_
 34	sur	sur	ADP	_	_	36	case	_	_
@@ -5286,7 +5286,7 @@
 9	bien	bien	ADV	_	_	10	advmod	_	_
 10	réels	réel	ADJ	_	mp=y	0	root	_	_
 11	,	,	PUNCT	_	_	10	punct	_	_
-12	mais	_	CONJ	_	_	10	cc	_	_
+12	mais	mais	CONJ	_	_	10	cc	_	_
 13	ils	il	PRON	_	Person=3|mp=y	15	nsubj	_	_
 14	se	se	PRON	_	Person=3	15	dobj	_	_
 15	limitent	limiter	VERB	_	ind_pres_3p=y	10	conj	_	_
@@ -5300,7 +5300,7 @@
 22	l'	le	DET	_	Number=Sing	23	det	_	_
 23	Europe	_	PROPN	_	_	20	nmod	_	_
 24	,	,	PUNCT	_	_	10	punct	_	_
-25	et	_	CONJ	_	_	10	cc	_	_
+25	et	et	CONJ	_	_	10	cc	_	_
 26	concernent	concerner	VERB	_	ind_pres_3p=y	10	conj	_	_
 27	moins	moins	ADV	_	_	26	advmod	_	_
 28	le	le	DET	_	Gender=Masc|Number=Sing	29	det	_	_
@@ -5324,7 +5324,7 @@
 8	le	le	DET	_	Gender=Masc|Number=Sing	9	det	_	_
 9	marché	marché	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 10	,	,	PUNCT	_	_	5	punct	_	_
-11	et	_	CONJ	_	_	5	cc	_	_
+11	et	et	CONJ	_	_	5	cc	_	_
 12	la	le	DET	_	Gender=Fem|Number=Sing	13	det	_	_
 13	chute	chute	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
 14-15	du	_	_	_	_	_	_	_	_
@@ -5373,7 +5373,7 @@
 10	unités	unité	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	production	production	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
-13	ou	_	CONJ	_	_	7	cc	_	_
+13	ou	ou	CONJ	_	_	7	cc	_	_
 14	l'	le	DET	_	Gender=Masc|Number=Sing	15	det	_	_
 15	agrandissement	agrandissement	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
 16-17	des	_	_	_	_	_	_	_	_
@@ -5428,7 +5428,7 @@
 26	entre	entre	ADP	_	_	28	case	_	_
 27	les	le	DET	_	Gender=Masc|Number=Plur	28	det	_	_
 28	artistes	artiste	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	_
-29	et	_	CONJ	_	_	28	cc	_	_
+29	et	et	CONJ	_	_	28	cc	_	_
 30	le	le	DET	_	Gender=Masc|Number=Sing	31	det	_	_
 31	public	public	NOUN	_	Gender=Masc|Number=Sing	28	conj	_	_
 32	.	.	PUNCT	_	_	19	punct	_	_
@@ -5611,7 +5611,7 @@
 49	la	le	DET	_	Gender=Fem|Number=Sing	50	det	_	_
 50	fumée	fumée	NOUN	_	Gender=Fem|Number=Sing	46	dobj	_	_
 51	,	,	PUNCT	_	_	37	punct	_	_
-52	mais	_	CONJ	_	_	46	cc	_	_
+52	mais	mais	CONJ	_	_	46	cc	_	_
 53	c'	ce	PRON	_	Person=3|s=y	54	nsubj	_	_
 54	est	être	VERB	_	ind_pres_3s=y	46	conj	_	_
 55	sans	sans	ADP	_	_	56	case	_	_
@@ -5648,7 +5648,7 @@
 24	le	le	DET	_	Gender=Masc|Number=Sing	25	det	_	_
 25	SMS	SMS	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
 26	)	)	PUNCT	_	_	20	punct	_	_
-27	et	_	CONJ	_	_	1	cc	_	_
+27	et	et	CONJ	_	_	1	cc	_	_
 28	répondez	répondre	VERB	_	imperatif_2p=y	1	conj	_	_
 29-30	au	_	_	_	_	_	_	_	_
 29	à	à	ADP	_	_	31	case	_	_
@@ -5685,7 +5685,7 @@
 23	Mexique	_	PROPN	_	_	20	nmod	_	_
 24	sont	être	VERB	_	ind_pres_3p=y	25	cop	_	_
 25	praticables	praticable	ADJ	_	fp=y	13	ccomp	_	_
-26	et	_	CONJ	_	_	13	cc	_	_
+26	et	et	CONJ	_	_	13	cc	_	_
 27	essayant	essayer	VERB	_	participe_present=y	13	conj	_	_
 28	de	de	ADP	_	_	29	mark	_	_
 29	montrer	montrer	VERB	_	infinitif=y	27	acl	_	_
@@ -5724,7 +5724,7 @@
 4	d'	de	ADP	_	_	5	case	_	_
 5	intérêts	intérêt	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
 6	solide	solide	ADJ	_	fs=y	2	amod	_	_
-7	et	_	CONJ	_	_	2	cc	_	_
+7	et	et	CONJ	_	_	2	cc	_	_
 8	le	le	DET	_	Gender=Masc|Number=Sing	9	det	_	_
 9	contrôle	contrôle	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
 10-11	des	_	_	_	_	_	_	_	_
@@ -5778,7 +5778,7 @@
 5	annulés	annuler	VERB	_	part_pass_mp=y	0	root	_	_
 6	samedi	samedi	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 7	,	,	PUNCT	_	_	5	punct	_	_
-8	et	_	CONJ	_	_	5	cc	_	_
+8	et	et	CONJ	_	_	5	cc	_	_
 9	ce	ce	PRON	_	Person=3|s=y	5	conj	_	_
 10	malgré	malgré	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Gender=Fem|Number=Sing	12	det	_	_
@@ -5812,7 +5812,7 @@
 8	problème	problème	NOUN	_	Gender=Masc|Number=Sing	5	dobj	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	banlieue	banlieue	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
-11	et	_	CONJ	_	_	5	cc	_	_
+11	et	et	CONJ	_	_	5	cc	_	_
 12	la	le	DET	_	Gender=Fem|Number=Sing	13	det	_	_
 13	banlieue	banlieue	NOUN	_	Gender=Fem|Number=Sing	17	dobj	_	_
 14	,	,	PUNCT	_	_	17	punct	_	_
@@ -5874,7 +5874,7 @@
 
 # sentid: fr-ud-test_00195
 # sentence-text: Et côté coloration, Miss France n'est pas à son coup d'essai.
-1	Et	_	CONJ	_	_	12	cc	_	_
+1	Et	et	CONJ	_	_	12	cc	_	_
 2	côté	côté	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 3	coloration	coloration	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 4	,	,	PUNCT	_	_	12	punct	_	_
@@ -5997,7 +5997,7 @@
 4	le	le	PRON	_	Person=3|ms=y	5	dobj	_	_
 5	sait	savoir	VERB	_	ind_pres_3s=y	0	root	_	_
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	mais	_	CONJ	_	_	5	cc	_	_
+7	mais	mais	CONJ	_	_	5	cc	_	_
 8	je	il	PRON	_	Person=1|s=y	9	nsubj	_	_
 9	dirai	dire	VERB	_	ind_futur_1s=y	5	conj	_	_
 10	qu'	_	SCONJ	_	_	13	mark	_	_
@@ -6083,7 +6083,7 @@
 8	très	très	ADV	_	_	9	advmod	_	_
 9	bonnes	bon	ADJ	_	fp=y	10	amod	_	_
 10	tapas	tapa	NOUN	_	Gender=Fem|Number=Plur	6	dobj	_	_
-11	et	_	CONJ	_	_	10	cc	_	_
+11	et	et	CONJ	_	_	10	cc	_	_
 12	des	un	DET	_	Gender=Masc|Number=Plur	13	det	_	_
 13	plats	plat	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
 14	à	à	ADP	_	_	15	case	_	_
@@ -6098,7 +6098,7 @@
 23	tout	tout	NOUN	_	Gender=Masc|Number=Sing	10	appos	_	_
 24	sans	sans	ADP	_	_	25	case	_	_
 25	chichis	chichi	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
-26	et	_	CONJ	_	_	25	cc	_	_
+26	et	et	CONJ	_	_	25	cc	_	_
 27	à	à	ADP	_	_	29	case	_	_
 28	des	un	DET	_	Gender=Masc|Number=Plur	29	det	_	_
 29	prix	prix	NOUN	_	Gender=Masc|Number=Plur	25	conj	_	_
@@ -6140,7 +6140,7 @@
 24	est	être	VERB	_	ind_pres_3s=y	26	cop	_	_
 25	vraiment	vraiment	ADV	_	_	26	advmod	_	_
 26	excellente	excellent	ADJ	_	fs=y	11	conj	_	_
-27	et	_	CONJ	_	_	11	cc	_	_
+27	et	et	CONJ	_	_	11	cc	_	_
 28	vous	vous	PRON	_	Person=2|p=y	29	nsubj	_	_
 29	passez	passer	VERB	_	ind_pres_2p=y	11	conj	_	_
 30	toujours	toujours	ADV	_	_	29	advmod	_	_
@@ -6149,7 +6149,7 @@
 33	moment	moment	NOUN	_	Gender=Masc|Number=Sing	29	dobj	_	_
 34	,	,	PUNCT	_	_	3	punct	_	_
 35	essayez	essayer	VERB	_	imperatif_2p=y	3	parataxis	_	_
-36	et	_	CONJ	_	_	35	cc	_	_
+36	et	et	CONJ	_	_	35	cc	_	_
 37	vous	vous	PRON	_	Person=2|p=y	39	nsubj	_	_
 38	y	y	ADV	_	_	39	advmod	_	_
 39	retournerez	retourner	VERB	_	ind_futur_2p=y	35	conj	_	_
@@ -6170,7 +6170,7 @@
 11	matière	matière	NOUN	_	Gender=Fem|Number=Sing	10	mwe	_	_
 12	de	de	ADP	_	_	10	mwe	_	_
 13	solaire	solaire	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-14	et	_	CONJ	_	_	13	cc	_	_
+14	et	et	CONJ	_	_	13	cc	_	_
 15	solaire	solaire	NOUN	_	Gender=Masc|Number=Sing	13	conj	_	_
 16	photovoltaïque	photovoltaïque	ADJ	_	ms=y	15	amod	_	_
 17	ne	_	PART	_	_	18	neg	_	_
@@ -6192,7 +6192,7 @@
 8	suis	être	AUX	_	ind_pres_1s=y	10	cop	_	_
 9	bien	bien	ADV	_	_	10	advmod	_	_
 10	relaxé	relaxer	VERB	_	part_pass_fs=y	0	root	_	_
-11	et	_	CONJ	_	_	10	cc	_	_
+11	et	et	CONJ	_	_	10	cc	_	_
 12	surtout	surtout	ADV	_	_	15	advmod	_	_
 13	je	il	PRON	_	Person=1|s=y	15	nsubj	_	_
 14	n'	_	PART	_	_	15	neg	_	_
@@ -6227,7 +6227,7 @@
 16	salade	salade	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 17	autour	autour	ADV	_	_	16	advmod	_	_
 18	,	,	PUNCT	_	_	9	punct	_	_
-19	et	_	CONJ	_	_	16	cc	_	_
+19	et	et	CONJ	_	_	16	cc	_	_
 20	une	un	DET	_	Gender=Fem|Number=Sing	21	det	_	_
 21	giclée	giclée	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	_
 22	de	de	ADP	_	_	23	case	_	_
@@ -6323,7 +6323,7 @@
 8	pour	pour	ADP	_	_	10	case	_	_
 9	être	être	VERB	_	infinitif=y	10	cop	_	_
 10	pinailleuse	pinailleur	ADJ	_	fs=y	7	amod	_	_
-11	et	_	CONJ	_	_	10	cc	_	_
+11	et	et	CONJ	_	_	10	cc	_	_
 12	difficile	difficile	ADJ	_	fs=y	10	conj	_	_
 13	alors	alors	ADV	_	_	10	advmod	_	_
 
@@ -6348,7 +6348,7 @@
 1	Boutique	boutique	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	bobo	bobo	NOUN	_	Gender=Masc|Number=Sing	1	compound	_	_
 3	chic	chic	ADJ	_	ms=y	2	amod	_	_
-4	mais	_	CONJ	_	_	1	cc	_	_
+4	mais	mais	CONJ	_	_	1	cc	_	_
 5	il	il	PRON	_	Person=3|ms=y	6	nsubj	_	_
 6	manque	manquer	VERB	_	ind_pres_3s=y	1	conj	_	_
 7	l'	le	DET	_	Gender=Masc|Number=Sing	8	det	_	_
@@ -6444,7 +6444,7 @@
 4	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	2	dobj	_	_
 5	incontournable	incontournable	ADJ	_	ms=y	4	amod	_	_
 6	,	,	PUNCT	_	_	2	punct	_	_
-7	car	_	CONJ	_	_	2	cc	_	_
+7	car	car	CONJ	_	_	2	cc	_	_
 8	il	il	PRON	_	Person=3|ms=y	9	nsubj	_	_
 9	permet	permettre	VERB	_	ind_pres_3s=y	2	conj	_	_
 10	de	de	ADP	_	_	11	mark	_	_
@@ -6475,7 +6475,7 @@
 11	la	le	DET	_	Gender=Fem|Number=Sing	10	mwe	_	_
 12	fois	fois	NOUN	_	Gender=Masc|Number=Plur	10	mwe	_	_
 13	futuriste	futuriste	ADJ	_	ms=y	6	ccomp	_	_
-14	et	_	CONJ	_	_	13	cc	_	_
+14	et	et	CONJ	_	_	13	cc	_	_
 15	romantique	romantique	ADJ	_	ms=y	13	conj	_	_
 16	,	,	PUNCT	_	_	13	punct	_	_
 17	comme	_	SCONJ	_	_	18	mark	_	_
@@ -6487,7 +6487,7 @@
 
 # sentid: fr-ud-test_00221
 # sentence-text: Car l'on peut trouver très aisément des préservatifs usagés sur les matelas.
-1	Car	_	CONJ	_	_	5	cc	_	_
+1	Car	car	CONJ	_	_	5	cc	_	_
 2	l'	_	PART	_	_	3	expl	_	_
 3	on	on	PRON	_	Person=3|ms=y	5	nsubj	_	_
 4	peut	pouvoir	AUX	_	ind_pres_3s=y	5	aux	_	_
@@ -6514,7 +6514,7 @@
 8	du	du	DET	_	Gender=Masc|Number=Sing	9	det	_	_
 9	déplacement	déplacement	NOUN	_	Gender=Masc|Number=Sing	7	dobj	_	_
 10	professionnel	professionnel	ADJ	_	ms=y	9	amod	_	_
-11	et	_	CONJ	_	_	2	cc	_	_
+11	et	et	CONJ	_	_	2	cc	_	_
 12	c'	ce	PRON	_	Person=3|s=y	13	nsubj	_	_
 13	est	être	VERB	_	ind_pres_3s=y	2	conj	_	_
 14	la	le	DET	_	Gender=Fem|Number=Sing	16	det	_	_
@@ -6538,7 +6538,7 @@
 4	très	très	ADV	_	_	5	advmod	_	_
 5	bien	bien	ADV	_	_	6	advmod	_	_
 6	sérieuse	sérieux	ADJ	_	fs=y	0	root	_	_
-7	et	_	CONJ	_	_	6	cc	_	_
+7	et	et	CONJ	_	_	6	cc	_	_
 8	aide	aider	VERB	_	ind_pres_3s=y	6	conj	_	_
 9	beaucoup	beaucoup	ADV	_	_	8	advmod	_	_
 
@@ -6585,7 +6585,7 @@
 3	séances	séance	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
 4	(	(	PUNCT	_	_	5	punct	_	_
 5	maillot	maillot	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_
-6	et	_	CONJ	_	_	5	cc	_	_
+6	et	et	CONJ	_	_	5	cc	_	_
 7	aisselles	aisselle	NOUN	_	Gender=Fem|Number=Plur	5	conj	_	_
 8	)	)	PUNCT	_	_	5	punct	_	_
 9	je	il	PRON	_	Person=1|s=y	10	nsubj	_	_
@@ -6605,7 +6605,7 @@
 6	de	de	ADP	_	_	7	case	_	_
 7	salon	salon	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 8	sérieux	sérieux	ADJ	_	ms=y	7	amod	_	_
-9	et	_	CONJ	_	_	8	cc	_	_
+9	et	et	CONJ	_	_	8	cc	_	_
 10	pro	professionnel	ADJ	_	ms=y	8	conj	_	_
 11	survivra	survivre	VERB	_	ind_futur_3s=y	2	ccomp	_	_
 12	face	face	NOUN	_	Gender=Fem|Number=Sing	15	case	_	_
@@ -6636,7 +6636,7 @@
 7	à	à	ADP	_	_	9	case	_	_
 8	l'	le	DET	_	Gender=Fem|Number=Sing	9	det	_	_
 9	écoute	écoute	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
-10	et	_	CONJ	_	_	5	cc	_	_
+10	et	et	CONJ	_	_	5	cc	_	_
 11	on	on	PRON	_	Person=3|ms=y	12	nsubj	_	_
 12	voit	voir	VERB	_	ind_pres_3s=y	5	conj	_	_
 13	qu'	_	SCONJ	_	_	15	mark	_	_
@@ -6682,7 +6682,7 @@
 10	trouver	trouver	VERB	_	infinitif=y	3	acl:relcl	_	_
 11	du	du	DET	_	Gender=Masc|Number=Sing	12	det	_	_
 12	mezcal	mezcal	NOUN	_	Gender=Masc|Number=Sing	10	dobj	_	_
-13	et	_	CONJ	_	_	12	cc	_	_
+13	et	et	CONJ	_	_	12	cc	_	_
 14	des	un	DET	_	Gender=Fem|Number=Plur	15	det	_	_
 15	bières	bière	NOUN	_	Gender=Fem|Number=Plur	12	conj	_	_
 16	mexicaines	mexicain	ADJ	_	fp=y	15	amod	_	_
@@ -6697,7 +6697,7 @@
 
 # sentid: fr-ud-test_00231
 # sentence-text: Et la qualité du service est trés trés trés... bonne.
-1	Et	_	CONJ	_	_	12	cc	_	_
+1	Et	et	CONJ	_	_	12	cc	_	_
 2	la	le	DET	_	Gender=Fem|Number=Sing	3	det	_	_
 3	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 4-5	du	_	_	_	_	_	_	_	_
@@ -6714,7 +6714,7 @@
 
 # sentid: fr-ud-test_00232
 # sentence-text: Et un jacuzzi minuscule.
-1	Et	_	CONJ	_	_	3	cc	_	_
+1	Et	et	CONJ	_	_	3	cc	_	_
 2	un	un	DET	_	Gender=Masc|Number=Sing	3	det	_	_
 3	jacuzzi	jacuzzi	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 4	minuscule	minuscule	ADJ	_	ms=y	3	amod	_	_
@@ -6732,7 +6732,7 @@
 # sentence-text: Génial, et en plus c'est rapide.
 1	Génial	génial	ADJ	_	ms=y	0	root	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	et	_	CONJ	_	_	1	cc	_	_
+3	et	et	CONJ	_	_	1	cc	_	_
 4	en	en	ADP	_	_	8	advmod	_	_
 5	plus	plus	ADV	_	_	4	mwe	_	_
 6	c'	ce	PRON	_	Person=3|s=y	8	nsubj	_	_
@@ -6765,7 +6765,7 @@
 2	vaut	valoir	VERB	_	ind_pres_3s=y	0	root	_	_
 3	mieux	mieux	ADV	_	_	2	advmod	_	_
 4	réserver	réserver	VERB	_	infinitif=y	2	xcomp	_	_
-5	car	_	CONJ	_	_	2	cc	_	_
+5	car	car	CONJ	_	_	2	cc	_	_
 6	ce	ce	DET	_	Gender=Masc|Number=Sing	8	det	_	_
 7	petit	petit	ADJ	_	ms=y	8	amod	_	_
 8	coin	coin	NOUN	_	Gender=Masc|Number=Sing	13	nsubjpass	_	_
@@ -6798,7 +6798,7 @@
 5	d'	de	ADP	_	_	6	case	_	_
 6	annulation	annulation	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 7	,	,	PUNCT	_	_	2	punct	_	_
-8	et	_	CONJ	_	_	2	cc	_	_
+8	et	et	CONJ	_	_	2	cc	_	_
 9	communiquent	communiquer	VERB	_	ind_pres_3p=y	2	conj	_	_
 10	l'	le	DET	_	Gender=Fem|Number=Sing	11	det	_	_
 11	annulation	annulation	NOUN	_	Gender=Fem|Number=Sing	9	dobj	_	_
@@ -6873,7 +6873,7 @@
 4	très	très	ADV	_	_	5	advmod	_	_
 5	souvent	souvent	ADV	_	_	3	advmod	_	_
 6	,	,	PUNCT	_	_	3	punct	_	_
-7	car	_	CONJ	_	_	3	cc	_	_
+7	car	car	CONJ	_	_	3	cc	_	_
 8	comme	_	SCONJ	_	_	10	mark	_	_
 9	on	on	PRON	_	Person=3|ms=y	10	nsubj	_	_
 10	dit	dire	VERB	_	ind_pres_3s=y	12	advcl	_	_
@@ -6892,7 +6892,7 @@
 2	adore	adorer	VERB	_	ind_pres_1s=y	0	root	_	_
 3	la	le	DET	_	Gender=Fem|Number=Sing	4	det	_	_
 4	bouffe	bouffe	NOUN	_	Gender=Fem|Number=Sing	2	dobj	_	_
-5	et	_	CONJ	_	_	4	cc	_	_
+5	et	et	CONJ	_	_	4	cc	_	_
 6	le	le	DET	_	Gender=Masc|Number=Sing	7	det	_	_
 7	style	style	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
 8	.	.	PUNCT	_	_	2	punct	_	_
@@ -6972,7 +6972,7 @@
 9	semaine	semaine	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 10	d'	de	ADP	_	_	11	case	_	_
 11	intervalle	intervalle	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-12	et	_	CONJ	_	_	4	cc	_	_
+12	et	et	CONJ	_	_	4	cc	_	_
 13	je	il	PRON	_	Person=1|s=y	18	nsubjpass	_	_
 14	n'	_	PART	_	_	18	neg	_	_
 15	ai	avoir	AUX	_	ind_pres_1s=y	18	aux	_	_
@@ -7010,7 +7010,7 @@
 7	5	_	NUM	_	_	8	nummod	_	_
 8	ans	an	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
 9	,	,	PUNCT	_	_	3	punct	_	_
-10	et	_	CONJ	_	_	3	cc	_	_
+10	et	et	CONJ	_	_	3	cc	_	_
 11	dès	dès	ADP	_	_	16	mark	_	_
 12	qu'	_	SCONJ	_	_	11	mwe	_	_
 13	elle	elle	PRON	_	Person=3|fs=y	16	nsubj	_	_
@@ -7027,7 +7027,7 @@
 23	le	le	DET	_	Gender=Masc|Number=Sing	24	det	_	_
 24	Yoga	_	PROPN	_	_	21	nmod	_	_
 25	authentique	authentique	ADJ	_	ms=y	24	amod	_	_
-26	et	_	CONJ	_	_	24	cc	_	_
+26	et	et	CONJ	_	_	24	cc	_	_
 27-28	aux	_	_	_	_	_	_	_	_
 27	à	à	ADP	_	_	29	case	_	_
 28	les	le	DET	_	Gender=Fem|Number=Plur	29	det	_	_
@@ -7069,7 +7069,7 @@
 16	de	de	ADP	_	_	15	mwe	_	_
 17	même	même	ADV	_	_	15	mwe	_	_
 18	)	)	PUNCT	_	_	12	punct	_	_
-19	mais	_	CONJ	_	_	2	cc	_	_
+19	mais	mais	CONJ	_	_	2	cc	_	_
 20	je	il	PRON	_	Person=1|s=y	21	nsubj	_	_
 21	pense	penser	VERB	_	ind_pres_1s=y	2	conj	_	_
 22	que	_	SCONJ	_	_	29	mark	_	_
@@ -7119,7 +7119,7 @@
 3	entre	entre	ADP	_	_	5	case	_	_
 4	les	le	DET	_	Number=Plur	5	det	_	_
 5	grandes	grand	ADJ	_	fp=y	2	amod	_	_
-6	et	_	CONJ	_	_	5	cc	_	_
+6	et	et	CONJ	_	_	5	cc	_	_
 7	les	le	DET	_	Number=Plur	8	det	_	_
 8	petites	petit	ADJ	_	fp=y	5	conj	_	_
 9	doivent	devoir	AUX	_	ind_pres_3s=y	10	aux	_	_
@@ -7177,7 +7177,7 @@
 4	très	très	ADV	_	_	5	advmod	_	_
 5	joli	joli	ADJ	_	ms=y	0	root	_	_
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	mais	_	CONJ	_	_	5	cc	_	_
+7	mais	mais	CONJ	_	_	5	cc	_	_
 8	l'	le	DET	_	Gender=Fem|Number=Sing	9	det	_	_
 9	ambiance	ambiance	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 10	n'	_	PART	_	_	11	neg	_	_
@@ -7247,7 +7247,7 @@
 19	des	un	DET	_	Gender=Masc|Number=Plur	20	det	_	_
 20	habitués	habitué	NOUN	_	Gender=Masc|Number=Plur	2	parataxis	_	_
 21	,	,	PUNCT	_	_	20	punct	_	_
-22	et	_	CONJ	_	_	20	cc	_	_
+22	et	et	CONJ	_	_	20	cc	_	_
 23	la	le	DET	_	Gender=Fem|Number=Sing	24	det	_	_
 24	salle	salle	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
 25	était	être	VERB	_	imparfait_3s=y	26	cop	_	_
@@ -7266,7 +7266,7 @@
 8	beaucoup	beaucoup	ADV	_	_	10	det	_	_
 9	de	de	ADP	_	_	8	mwe	_	_
 10	retard	retard	NOUN	_	Gender=Masc|Number=Sing	7	dobj	_	_
-11	et	_	CONJ	_	_	4	cc	_	_
+11	et	et	CONJ	_	_	4	cc	_	_
 12	prennent	prendre	VERB	_	ind_pres_3p=y	4	conj	_	_
 13	leurs	son	DET	_	Gender=Fem|Number=Plur	14	nmod:poss	_	_
 14	precautions	précaution	NOUN	_	Gender=Fem|Number=Plur	12	dobj	_	_
@@ -7285,7 +7285,7 @@
 8	de	de	ADP	_	_	10	case	_	_
 9	les	le	DET	_	Gender=Masc|Number=Plur	10	det	_	_
 10	produits	produit	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
-11	et	_	CONJ	_	_	7	cc	_	_
+11	et	et	CONJ	_	_	7	cc	_	_
 12	le	le	DET	_	Gender=Masc|Number=Sing	13	det	_	_
 13	service	service	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
 14	en	en	ADP	_	_	15	case	_	_
@@ -7305,7 +7305,7 @@
 9	d'	un	DET	_	Gender=Fem|Number=Plur	11	det	_	_
 10	autres	autre	ADJ	_	fp=y	11	amod	_	_
 11	boutiques	boutique	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
-12	mais	_	CONJ	_	_	6	cc	_	_
+12	mais	mais	CONJ	_	_	6	cc	_	_
 13	c'	ce	PRON	_	Person=3|s=y	16	nsubj	_	_
 14	est	être	VERB	_	ind_pres_3s=y	16	cop	_	_
 15	la	le	DET	_	Gender=Fem|Number=Sing	16	det	_	_
@@ -7364,7 +7364,7 @@
 
 # sentid: fr-ud-test_00265
 # sentence-text: Mais à souligner que jamais la musique ne prend le pas sur nos conversations.
-1	Mais	_	CONJ	_	_	3	cc	_	_
+1	Mais	mais	CONJ	_	_	3	cc	_	_
 2	à	à	ADP	_	_	3	mark	_	_
 3	souligner	souligner	VERB	_	infinitif=y	0	root	_	_
 4	que	_	SCONJ	_	_	9	mark	_	_
@@ -7400,18 +7400,18 @@
 8	vapeur	vapeur	NOUN	_	Gender=Masc|Number=Plur	7	compound	_	_
 9	/	/	PUNCT	_	_	7	punct	_	_
 10	tagliatelles	tagliatelle	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	_
-11	et	_	CONJ	_	_	7	cc	_	_
+11	et	et	CONJ	_	_	7	cc	_	_
 12	filet	filet	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	rouget	rouget	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 15	)	)	PUNCT	_	_	7	punct	_	_
-16	mais	_	CONJ	_	_	5	cc	_	_
+16	mais	mais	CONJ	_	_	5	cc	_	_
 17	restaient	rester	VERB	_	imparfait_3p=y	5	conj	_	_
 18	simples	simple	ADJ	_	mp=y	17	xcomp	_	_
 19	dans	dans	ADP	_	_	21	case	_	_
 20	la	le	DET	_	Gender=Fem|Number=Sing	21	det	_	_
 21	présentation	présentation	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
-22	et	_	CONJ	_	_	21	cc	_	_
+22	et	et	CONJ	_	_	21	cc	_	_
 23	le	le	DET	_	Gender=Masc|Number=Sing	24	det	_	_
 24	raffinement	raffinement	NOUN	_	Gender=Masc|Number=Sing	21	conj	_	_
 25	.	.	PUNCT	_	_	5	punct	_	_
@@ -7444,7 +7444,7 @@
 23	préservant	préserver	VERB	_	participe_present=y	10	advcl	_	_
 24	votre	son	DET	_	Gender=Fem|Number=Sing	25	nmod:poss	_	_
 25	image	image	NOUN	_	Gender=Fem|Number=Sing	23	dobj	_	_
-26	et	_	CONJ	_	_	25	cc	_	_
+26	et	et	CONJ	_	_	25	cc	_	_
 27	votre	son	DET	_	Gender=Masc|Number=Sing	28	nmod:poss	_	_
 28	réseau	réseau	NOUN	_	Gender=Masc|Number=Sing	25	conj	_	_
 29	de	de	ADP	_	_	30	case	_	_
@@ -7467,7 +7467,7 @@
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	un	un	DET	_	Gender=Masc|Number=Sing	14	det	_	_
 14	plat	plat	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
-15	et	_	CONJ	_	_	11	cc	_	_
+15	et	et	CONJ	_	_	11	cc	_	_
 16	un	un	DET	_	Gender=Masc|Number=Sing	17	det	_	_
 17	dessert	dessert	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
 18	(	(	PUNCT	_	_	20	punct	_	_
@@ -7493,7 +7493,7 @@
 13	commun	commun	ADJ	_	ms=y	9	amod	_	_
 14	:	:	PUNCT	_	_	3	punct	_	_
 15	poussière	poussière	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
-16	et	_	CONJ	_	_	15	cc	_	_
+16	et	et	CONJ	_	_	15	cc	_	_
 17	saleté	saleté	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	_
 18	étaient	être	VERB	_	imparfait_3p=y	3	parataxis	_	_
 19-20	au	_	_	_	_	_	_	_	_
@@ -7537,14 +7537,14 @@
 4	accueil	accueil	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 5	est	être	VERB	_	ind_pres_3s=y	6	cop	_	_
 6	impeccable	impeccable	ADJ	_	ms=y	0	root	_	_
-7	et	_	CONJ	_	_	6	cc	_	_
+7	et	et	CONJ	_	_	6	cc	_	_
 8	très	très	ADV	_	_	9	advmod	_	_
 9	chaleureux	chaleureux	ADJ	_	ms=y	6	conj	_	_
 10	,	,	PUNCT	_	_	6	punct	_	_
 11	la	le	DET	_	Gender=Fem|Number=Sing	12	det	_	_
 12	propreté	propreté	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
 13	parfaite	parfait	ADJ	_	fs=y	12	amod	_	_
-14	et	_	CONJ	_	_	6	cc	_	_
+14	et	et	CONJ	_	_	6	cc	_	_
 15	le	le	DET	_	Gender=Masc|Number=Sing	17	det	_	_
 16	petit	petit	ADJ	_	ms=y	17	amod	_	_
 17	jardin	jardin	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	_
@@ -7604,7 +7604,7 @@
 13	pas	pas	ADV	_	_	14	neg	_	_
 14	aimable	aimable	ADJ	_	fs=y	0	root	_	_
 15	,	,	PUNCT	_	_	14	punct	_	_
-16	ni	_	CONJ	_	_	14	cc	_	_
+16	ni	ni	CONJ	_	_	14	cc	_	_
 17	compétent	compétent	ADJ	_	ms=y	14	conj	_	_
 18	...	...	PUNCT	_	_	14	punct	_	_
 19	je	il	PRON	_	Person=1|s=y	20	nsubj	_	_
@@ -7629,7 +7629,7 @@
 11	paire	paire	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 12	de	de	ADP	_	_	13	case	_	_
 13	lunette	lunette	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
-14	et	_	CONJ	_	_	7	cc	_	_
+14	et	et	CONJ	_	_	7	cc	_	_
 15	j'	je	PRON	_	Person=1|s=y	22	nsubjpass	_	_
 16	ai	avoir	AUX	_	ind_pres_1s=y	22	aux	_	_
 17	été	être	AUX	_	part_pass_ms=y	22	auxpass	_	_
@@ -7643,7 +7643,7 @@
 25	dans	dans	ADP	_	_	30	case	_	_
 26	une	un	DET	_	Gender=Fem|Number=Sing	30	det	_	_
 27	seule	seul	ADJ	_	fs=y	30	amod	_	_
-28	et	_	CONJ	_	_	27	cc	_	_
+28	et	et	CONJ	_	_	27	cc	_	_
 29	même	même	ADJ	_	fs=y	27	conj	_	_
 30	boutique	boutique	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
 31	des	un	DET	_	Gender=Fem|Number=Plur	32	det	_	_
@@ -7654,16 +7654,16 @@
 36	plus	plus	ADV	_	_	37	advmod	_	_
 37	grandes	grand	ADJ	_	fp=y	38	amod	_	_
 38	marque	marque	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
-39	ou	_	CONJ	_	_	38	cc	_	_
+39	ou	ou	CONJ	_	_	38	cc	_	_
 40	de	de	ADP	_	_	42	case	_	_
 41	petits	petit	ADJ	_	mp=y	42	amod	_	_
 42	créateurs	créateur	NOUN	_	Gender=Masc|Number=Plur	38	conj	_	_
 43	moins	moins	ADV	_	_	44	advmod	_	_
 44	connu	connu	ADJ	_	ms=y	42	amod	_	_
-45	mais	_	CONJ	_	_	44	cc	_	_
+45	mais	mais	CONJ	_	_	44	cc	_	_
 46	très	très	ADV	_	_	47	advmod	_	_
 47	fashion	fashion	NOUN	_	Gender=Fem|Number=Sing	44	conj	_	_
-48	et	_	CONJ	_	_	32	cc	_	_
+48	et	et	CONJ	_	_	32	cc	_	_
 49	aussi	aussi	ADV	_	_	53	advmod	_	_
 50	pour	pour	ADP	_	_	52	case	_	_
 51	mon	son	DET	_	Gender=Masc|Number=Sing	52	nmod:poss	_	_
@@ -7689,7 +7689,7 @@
 8	internet	internet	NOUN	_	Gender=Masc|Number=Sing	7	dobj	_	_
 9	gratuit	gratuit	ADJ	_	ms=y	8	amod	_	_
 10	,	,	PUNCT	_	_	4	punct	_	_
-11	mais	_	CONJ	_	_	4	cc	_	_
+11	mais	mais	CONJ	_	_	4	cc	_	_
 12	il	il	PRON	_	Person=3|ms=y	14	nsubj	_	_
 13	ne	_	PART	_	_	14	neg	_	_
 14	marche	marcher	VERB	_	ind_pres_3s=y	4	conj	_	_
@@ -7702,7 +7702,7 @@
 1	Produits	produit	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	super	super	ADV	_	_	3	advmod	_	_
 3	sympa	sympa	ADJ	_	ms=y	1	amod	_	_
-4	et	_	CONJ	_	_	1	cc	_	_
+4	et	et	CONJ	_	_	1	cc	_	_
 5	qui	qui	PRON	_	_	6	nsubj	_	_
 6	rendent	rendre	VERB	_	ind_pres_3p=y	1	acl:relcl	_	_
 7	bien	bien	ADV	_	_	6	advmod	_	_
@@ -7750,7 +7750,7 @@
 12	chambre	chambre	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 13	aussi	aussi	ADV	_	_	14	advmod	_	_
 14	confortable	confortable	ADJ	_	fs=y	12	amod	_	_
-15	et	_	CONJ	_	_	14	cc	_	_
+15	et	et	CONJ	_	_	14	cc	_	_
 16	bien	bien	ADV	_	_	17	advmod	_	_
 17	décorée	décoré	ADJ	_	fs=y	14	amod	_	_
 18	...	...	PUNCT	_	_	2	punct	_	_
@@ -7769,7 +7769,7 @@
 9	ma	son	DET	_	Gender=Fem|Number=Sing	10	nmod:poss	_	_
 10	société	société	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 11	)	)	PUNCT	_	_	10	punct	_	_
-12	ou	_	CONJ	_	_	5	cc	_	_
+12	ou	ou	CONJ	_	_	5	cc	_	_
 13	à	à	ADP	_	_	14	case	_	_
 14	titre	titre	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 15	personnel	personnel	ADJ	_	ms=y	14	amod	_	_
@@ -7835,7 +7835,7 @@
 2	dirigeant	dirigeant	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	est	être	VERB	_	ind_pres_3s=y	4	cop	_	_
 4	disponible	disponible	ADJ	_	ms=y	0	root	_	_
-5	et	_	CONJ	_	_	4	cc	_	_
+5	et	et	CONJ	_	_	4	cc	_	_
 6	à	à	ADP	_	_	8	case	_	_
 7	l'	le	DET	_	Gender=Fem|Number=Sing	8	det	_	_
 8	écoute	écoute	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
@@ -7852,7 +7852,7 @@
 4	un	un	DET	_	Gender=Masc|Number=Sing	6	advmod	_	_
 5	peu	peu	ADV	_	_	4	mwe	_	_
 6	long	long	ADJ	_	ms=y	1	amod	_	_
-7	mais	_	CONJ	_	_	1	cc	_	_
+7	mais	mais	CONJ	_	_	1	cc	_	_
 8	peut-être	peut-être	ADV	_	_	17	advmod	_	_
 9	qu'	_	SCONJ	_	_	8	mwe	_	_
 10	avec	avec	ADP	_	_	13	case	_	_
@@ -7875,7 +7875,7 @@
 7	des	un	DET	_	Gender=Fem|Number=Plur	8	det	_	_
 8	pizzeria	pizzeria	NOUN	_	Gender=Fem|Number=Sing	6	dobj	_	_
 9	meilleure	meilleur	ADJ	_	fs=y	8	amod	_	_
-10	et	_	CONJ	_	_	8	cc	_	_
+10	et	et	CONJ	_	_	8	cc	_	_
 11	moins	moins	ADV	_	_	12	advmod	_	_
 12	cher	cher	ADJ	_	ms=y	8	conj	_	_
 13	;)	_	SYM	_	_	6	dep	_	_
@@ -7887,7 +7887,7 @@
 3	simple	simple	ADJ	_	ms=y	2	amod	_	_
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	propre	propre	ADJ	_	ms=y	3	conj	_	_
-6	et	_	CONJ	_	_	3	cc	_	_
+6	et	et	CONJ	_	_	3	cc	_	_
 7	bien	bien	ADV	_	_	8	advmod	_	_
 8	entretenu	entretenu	ADJ	_	ms=y	3	conj	_	_
 9	,	,	PUNCT	_	_	2	punct	_	_
@@ -7930,7 +7930,7 @@
 21	où	où	PRON	_	_	23	advmod	_	_
 22	on	on	PRON	_	Person=3|ms=y	23	nsubj	_	_
 23	apprend	apprendre	VERB	_	ind_pres_3s=y	16	conj	_	_
-24	mais	_	CONJ	_	_	16	cc	_	_
+24	mais	mais	CONJ	_	_	16	cc	_	_
 25	surtout	surtout	ADV	_	_	27	advmod	_	_
 26	un	un	DET	_	Gender=Masc|Number=Sing	27	det	_	_
 27	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	_
@@ -7982,10 +7982,10 @@
 13	à	à	ADP	_	_	14	case	_	_
 14	titre	titre	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 15	particulier	particulier	ADJ	_	ms=y	14	amod	_	_
-16	et	_	CONJ	_	_	15	cc	_	_
+16	et	et	CONJ	_	_	15	cc	_	_
 17	professionel	professionnel	ADJ	_	ms=y	15	conj	_	_
 18	,	,	PUNCT	_	_	3	punct	_	_
-19	et	_	CONJ	_	_	3	cc	_	_
+19	et	et	CONJ	_	_	3	cc	_	_
 20	"	"	PUNCT	_	_	21	punct	_	_
 21	Actif	_	PROPN	_	_	30	nsubj	_	_
 22	Dépannage	_	PROPN	_	_	21	name	_	_
@@ -8056,7 +8056,7 @@
 16	appel	appel	NOUN	_	Gender=Masc|Number=Sing	15	dobj	_	_
 17	à	à	ADP	_	_	18	case	_	_
 18	eux	soi	PRON	_	Person=3|mp=y	15	nmod	_	_
-19	car	_	CONJ	_	_	15	cc	_	_
+19	car	car	CONJ	_	_	15	cc	_	_
 20	les	le	DET	_	Gender=Masc|Number=Plur	21	det	_	_
 21	avis	avis	NOUN	_	Gender=Masc|Number=Plur	23	nsubj	_	_
 22	semblaient	sembler	VERB	_	imparfait_3p=y	23	cop	_	_
@@ -8073,7 +8073,7 @@
 6	sont	être	VERB	_	ind_pres_3p=y	8	cop	_	_
 7	très	très	ADV	_	_	8	advmod	_	_
 8	agréables	agréable	ADJ	_	fp=y	3	parataxis	_	_
-9	et	_	CONJ	_	_	8	cc	_	_
+9	et	et	CONJ	_	_	8	cc	_	_
 10	spacieuses	spacieux	ADJ	_	fp=y	8	conj	_	_
 11	bon	bon	ADJ	_	ms=y	12	amod	_	_
 12	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_

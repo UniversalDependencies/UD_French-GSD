@@ -3141,7 +3141,7 @@
 21	sont	être	AUX	_	ind_pres_3p=y	22	aux	_	_
 22	représentés	représenter	VERB	_	part_pass_mp=y	0	root	_	_
 23	en	en	ADP	_	_	24	case	_	_
-24	kemonomimi	_	X	_	_	22	nmod	_	_
+24	kemonomimi	kemonomimi	NOUN	_	ms=y	22	nmod	_	_
 25	,	,	PUNCT	_	_	22	punct	_	_
 26	soit	soit	SCONJ	_	_	24	cc	_	_
 27	avec	avec	ADP	_	_	29	case	_	_
@@ -3838,7 +3838,7 @@
 18	à	à	ADP	_	_	20	case	_	_
 19	40	40	NUM	_	_	20	nummod	_	_
 20	°	degré	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
-21	C	_	SYM	_	_	20	compound	_	_
+21	C	Celsius	SYM	_	_	20	compound	_	_
 22	et	et	CONJ	_	_	11	cc	_	_
 23	que	que	SCONJ	_	_	28	mark	_	_
 24	les	le	DET	_	Gender=Fem|Number=Plur	25	det	_	_
@@ -3851,7 +3851,7 @@
 31	de	de	ADP	_	_	33	case	_	_
 32	60	60	NUM	_	_	33	nummod	_	_
 33	°	degré	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
-34	C	_	SYM	_	_	33	compound	_	_
+34	C	Celsius	SYM	_	_	33	compound	_	_
 35	,	,	PUNCT	_	_	11	punct	_	_
 36	il	il	PRON	_	Person=3|ms=y	39	nsubj	_	_
 37	est	être	VERB	_	ind_pres_3s=y	39	cop	_	_

@@ -537,7 +537,7 @@
 19	pour	pour	ADP	_	_	20	mark	_	_
 20	terminer	terminer	VERB	_	infinitif=y	18	advcl	_	_
 21	les	le	DET	_	Number=Plur	22	det	_	_
-22	mémoires	_	NOUN	_	_	20	dobj	_	_
+22	mémoires	mémoire	NOUN	_	Gender=Masc|Number=Plur	20	dobj	_	_
 23	d'	de	ADP	_	_	27	case	_	_
 24	un	un	DET	_	Gender=Masc|Number=Sing	27	det	_	_
 25	ancien	ancien	ADJ	_	ms=y	27	amod	_	_
@@ -3981,7 +3981,7 @@
 # sentid: fr-ud-dev_00145
 # sentence-text: Leuro de La Réunion, comme chacune des autres pièces, dispose dune face personnalisée reprenant le drapeau de la région.
 1	L	le	DET	_	Gender=Masc|Number=Sing	2	det	_	_
-2	euro	_	NOUN	_	_	14	nsubj	_	_
+2	euro	euro	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	La	le	DET	_	Gender=Fem|Number=Sing	5	det	_	_
 5	Réunion	Réunion	PROPN	_	_	2	nmod	_	_
@@ -16353,7 +16353,7 @@
 16	poseur	poseur	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	faux	faux	ADJ	_	mp=y	19	amod	_	_
-19	plafonds	_	NOUN	_	_	16	nmod	_	_
+19	plafonds	plafond	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
 20	,	,	PUNCT	_	_	11	punct	_	_
 21	monteur	monteur	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
 22	de	de	ADP	_	_	23	case	_	_
@@ -26023,10 +26023,10 @@
 27	"	"	PUNCT	_	_	21	punct	_	_
 28	(	(	PUNCT	_	_	33	punct	_	_
 29	Globale	globale	ADJ	_	_	30	amod	_	_
-30	Krisen	_	NOUN	_	Number=Plur	33	nmod	_	_
+30	Krisen	Krise	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	33	nmod	_	_
 31	--	--	PUNCT	_	_	30	punct	_	_
 32	Globale	globale	ADJ	_	_	33	amod	_	_
-33	Verantwortung	_	NOUN	_	_	25	appos	_	_
+33	Verantwortung	Verantwortung	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	25	appos	_	_
 34	/	/	PUNCT	_	_	33	punct	_	_
 35	Global	global	ADJ	_	_	36	amod	_	_
 36	Crises	crisis	NOUN	_	Number=Plur	39	nmod	_	_
@@ -28898,7 +28898,7 @@
 # sentence-text: Le 20 février 1790 le père Rolland, ancien prieur, est pendu ainsi que trois de se compagnons.
 1	Le	le	DET	_	Gender=Masc|Number=Sing	3	det	_	_
 2	20	20	NUM	_	_	3	nummod	_	_
-3	février	_	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+3	février	février	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
 4	1790	1790	NUM	_	_	3	nmod	_	_
 5	le	le	DET	_	Gender=Masc|Number=Sing	6	det	_	_
 6	père	père	NOUN	_	Gender=Masc|Number=Sing	13	nsubjpass	_	_
@@ -29720,7 +29720,7 @@
 1	Le	le	DET	_	Gender=Masc|Number=Sing	2	det	_	_
 2	chevillier	chevillier	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 3	ou	ou	CONJ	_	_	2	cc	_	_
-4	cheviller	_	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+4	cheviller	cheviller	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
 5	(	(	PUNCT	_	_	6	punct	_	_
 6	Littré	Littré	PROPN	_	_	2	appos	_	_
 7	)	)	PUNCT	_	_	6	punct	_	_

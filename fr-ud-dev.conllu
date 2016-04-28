@@ -11424,15 +11424,15 @@
 6	par	par	ADP	_	_	8	case	_	_
 7	cette	ce	DET	_	Gender=Fem|Number=Sing	8	det	_	_
 8	façon	façon	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
-9	«	«	PUNCT	_	_	10	punct	_	_
-10	qui	qui	PRON	_	_	8	acl:relcl	_	_
-11	permet	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	«	«	PUNCT	_	_	11	punct	_	_
+10	qui	qui	PRON	_	_	11	nsubj	_	_
+11	permet	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
 12	de	de	ADP	_	_	14	mark	_	_
 13	tout	tout	PRON	_	Gender=Masc|Number=Sing	14	dobj	_	_
-14	dire	dire	VERB	_	VerbForm=Inf	10	acl	_	_
+14	dire	dire	VERB	_	VerbForm=Inf	11	acl	_	_
 15	sans	sans	ADP	_	_	17	mark	_	_
 16	se	se	PRON	_	Person=3	17	dobj	_	_
-17	soucier	soucier	VERB	_	VerbForm=Inf	10	advcl	_	_
+17	soucier	soucier	VERB	_	VerbForm=Inf	11	advcl	_	_
 18-19	des	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	20	case	_	_
 19	les	le	DET	_	Gender=Fem|Number=Plur	20	det	_	_
@@ -11440,7 +11440,7 @@
 21	académiques	académique	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	_
 22	ou	ou	CONJ	_	_	21	cc	_	_
 23	institutionnelles	institutionnel	ADJ	_	Gender=Fem|Number=Plur	21	conj	_	_
-24	»	»	PUNCT	_	_	10	punct	_	_
+24	»	»	PUNCT	_	_	11	punct	_	_
 25	.	.	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-dev_00415
@@ -20408,7 +20408,7 @@
 6	économique	économique	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 7	»	»	PUNCT	_	_	6	punct	_	_
 8	,	,	PUNCT	_	_	4	punct	_	_
-9	qui	qui	PRON	_	_	4	nsubj	_	_
+9	qui	qui	PRON	_	_	11	nsubj	_	_
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	apparue	apparaître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
 12	depuis	depuis	ADP	_	_	14	case	_	_
@@ -36968,7 +36968,7 @@
 25	à	à	ADP	_	_	26	case	_	_
 26	terme	terme	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
 27	l'	le	DET	_	Gender=Fem|Number=Sing	28	det	_	_
-28	autoroute	autoroute	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
+28	autoroute	autoroute	NOUN	_	Gender=Fem|Number=Sing	24	dobj	_	_
 29	A1	_	X	_	_	28	appos	_	_
 30	et	et	CONJ	_	_	28	cc	_	_
 31	l'	le	DET	_	Gender=Fem|Number=Sing	32	det	_	_

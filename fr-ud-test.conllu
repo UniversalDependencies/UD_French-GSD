@@ -247,7 +247,7 @@
 25	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	26	nsubj	_	_
 26	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 27	à	à	ADP	_	_	28	case	_	_
-28	lui	lui	PRON	_	Number=Sing|Person=3	26	nmod	_	_
+28	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	26	nmod	_	_
 29	qu'	que	PRON	_	PronType=Rel	33	dobj	_	_
 30	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	33	nsubj	_	_
 31	s'	se	PRON	_	Person=3|PronType=Prs	33	dobj	_	_
@@ -328,7 +328,7 @@
 # sentid: fr-ud-test_00010
 # sentence-text: Pour lui, je crois vraiment que l'essentiel est ailleurs, dans cette contribution à la déstabilisation de l'autorité spirituelle du pape que vous évoquez.
 1	Pour	pour	ADP	_	_	2	case	_	_
-2	lui	lui	PRON	_	Number=Sing|Person=3	5	nmod	_	_
+2	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nmod	_	_
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 5	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -400,7 +400,7 @@
 9	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	10	nsubj	_	_
 10	observerez	observer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
 11	que	que	SCONJ	_	_	16	mark	_	_
-12	l'	le	PRON	_	Number=Sing|Person=3	13	expl	_	_
+12	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	13	expl	_	_
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
 14	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 15	être	être	VERB	_	VerbForm=Inf	16	cop	_	_
@@ -567,7 +567,7 @@
 # sentid: fr-ud-test_00019
 # sentence-text: Selon lui, cette période sera mise à profit pour étudier les conséquences de l'accord sur les ressources de poisson, "ainsi que l'impact régional" des fonds versés par l'Union européenne, sur la base notamment des informations fournies par les autorités marocaines.
 1	Selon	selon	ADP	_	_	2	case	_	_
-2	lui	lui	PRON	_	Number=Sing|Person=3	7	nmod	_	_
+2	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	7	nmod	_	_
 3	,	,	PUNCT	_	_	7	punct	_	_
 4	cette	ce	DET	_	Gender=Fem|Number=Sing	5	det	_	_
 5	période	période	NOUN	_	Gender=Masc|Number=Plur	7	nsubjpass	_	_
@@ -796,7 +796,7 @@
 2	hésitez	hésiter	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	-pas	pas	ADV	_	_	2	neg	_	_
 4	à	à	ADP	_	_	6	mark	_	_
-5	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3	6	dobj	_	_
+5	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	dobj	_	_
 6	faire	faire	VERB	_	VerbForm=Inf	2	acl	_	_
 7	circuler	circuler	VERB	_	VerbForm=Inf	6	xcomp	_	_
 8	largement	largement	ADV	_	_	7	advmod	_	_
@@ -1330,7 +1330,7 @@
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	si	si	SCONJ	_	_	8	mark	_	_
 6	cela	cela	PRON	_	Number=Sing|PronType=Dem	8	nsubj	_	_
-7	vous	lui	PRON	_	Number=Plur|Person=2	8	iobj	_	_
+7	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	8	iobj	_	_
 8	suffit	suffire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
 9	pour	pour	ADP	_	_	10	case	_	_
 10	aujourd'hui	aujourd'hui	ADV	_	_	8	nmod	_	_
@@ -1770,7 +1770,7 @@
 16	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 17	permis	permettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
 18	de	de	ADP	_	_	20	mark	_	_
-19	les	le	PRON	_	Number=Plur|Person=3	20	dobj	_	_
+19	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	20	dobj	_	_
 20	traiter	traiter	VERB	_	VerbForm=Inf	17	acl	_	_
 21	en	en	ADP	_	_	25	case	_	_
 22	tant	tant	ADV	_	_	21	mwe	_	_
@@ -1780,7 +1780,7 @@
 26	»	»	PUNCT	_	_	25	punct	_	_
 27	,	,	PUNCT	_	_	17	punct	_	_
 28	en	en	ADP	_	_	30	mark	_	_
-29	les	le	PRON	_	Number=Plur|Person=3	30	dobj	_	_
+29	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	30	dobj	_	_
 30	agressant	agresser	VERB	_	Tense=Pres|VerbForm=Part	17	advcl	_	_
 31	à	à	ADP	_	_	35	case	_	_
 32	propos	propos	NOUN	_	Gender=Masc|Number=Sing	31	mwe	_	_
@@ -1950,14 +1950,14 @@
 1	De	un	DET	_	Definite=Ind|PronType=Dem	3	det	_	_
 2	nombreux	nombreux	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
 3	Marocains	Marocains	PROPN	_	_	5	nsubj	_	_
-4	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3	5	dobj	_	_
+4	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	dobj	_	_
 5	pensent	penser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	en	en	ADP	_	_	8	mark	_	_
 7	n'	ne	PART	_	_	8	neg	_	_
 8	hésitant	hésiter	VERB	_	Tense=Pres|VerbForm=Part	5	advcl	_	_
 9	pas	pas	ADV	_	_	8	neg	_	_
 10	à	à	ADP	_	_	12	mark	_	_
-11	l'	le	PRON	_	Number=Sing|Person=3	12	dobj	_	_
+11	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	12	dobj	_	_
 12	accuser	accuser	VERB	_	VerbForm=Inf	8	acl	_	_
 13	,	,	PUNCT	_	_	5	punct	_	_
 14	en	en	ADP	_	_	17	case	_	_
@@ -2074,7 +2074,7 @@
 # sentid: fr-ud-test_00075
 # sentence-text: En nous livrant les clefs de l'histoire de ce projet industriel, il nous invite à tirer les leçons du passé pour mieux appréhender les perspectives énergétiques du Maghreb aujourd'hui.
 1	En	en	ADP	_	_	3	mark	_	_
-2	nous	lui	PRON	_	Number=Plur|Person=1	3	iobj	_	_
+2	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	3	iobj	_	_
 3	livrant	livrer	VERB	_	Tense=Pres|VerbForm=Part	16	advcl	_	_
 4	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur	5	det	_	_
 5	clefs	clef	NOUN	_	Gender=Fem|Number=Plur	3	dobj	_	_
@@ -2087,7 +2087,7 @@
 12	industriel	industriel	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
-15	nous	le	PRON	_	Number=Plur|Person=1	16	dobj	_	_
+15	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	16	dobj	_	_
 16	invite	inviter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	à	à	ADP	_	_	18	mark	_	_
 18	tirer	tirer	VERB	_	VerbForm=Inf	16	acl	_	_
@@ -2159,7 +2159,7 @@
 # sentence-text: Consacrant, lui, l'essentiel de son temps et de son énérgie exclusivement aux grands chantiers économiques destinés à procurer du travail aux jeunes générations.
 1	Consacrant	consacrer	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	lui	lui	PRON	_	Number=Sing|Person=3	1	nsubj	_	_
+3	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	6	det	_	_
 6	essentiel	essentiel	NOUN	_	Gender=Masc|Number=Sing	1	dobj	_	_
@@ -2261,7 +2261,7 @@
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
 9	loi	loi	NOUN	_	Gender=Fem|Number=Sing	7	dobj	_	_
 10	chez	chez	ADP	_	_	11	case	_	_
-11	nous	lui	PRON	_	Number=Plur|Person=1	7	nmod	_	_
+11	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	7	nmod	_	_
 12	qui	qui	PRON	_	PronType=Rel	14	nsubj	_	_
 13	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	condamner	condamner	VERB	_	VerbForm=Inf	9	acl:relcl	_	_
@@ -2396,7 +2396,7 @@
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	33	det	_	_
 33	bien	bien	NOUN	_	Gender=Masc|Number=Sing	29	conj	_	_
 34	qui	qui	PRON	_	PronType=Rel	36	nsubj	_	_
-35	nous	le	PRON	_	Number=Plur|Person=1	36	dobj	_	_
+35	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	36	dobj	_	_
 36	transporte	transporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
 37	,	,	PUNCT	_	_	1	punct	_	_
 38	voilà	voilà	VERB	_	_	1	parataxis	_	_
@@ -2439,7 +2439,7 @@
 30	mais	mais	CONJ	_	_	14	cc	_	_
 31	quand	quand	SCONJ	_	_	35	mark	_	_
 32	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	35	nsubj	_	_
-33	nous	le	PRON	_	Number=Plur|Person=1	35	dobj	_	_
+33	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	35	dobj	_	_
 34	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
 35	vus	voir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	47	advcl	_	_
 36	tous	tout	PRON	_	Gender=Masc|Number=Plur	37	nmod	_	_
@@ -2550,7 +2550,7 @@
 # sentence-text: Il me l'a dit à la Haye ».
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
-3	l'	le	PRON	_	Number=Sing|Person=3	5	dobj	_	_
+3	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	5	dobj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	à	à	ADP	_	_	8	case	_	_
@@ -2620,7 +2620,7 @@
 23	que	que	SCONJ	_	_	28	mark	_	_
 24	ce	ce	DET	_	Gender=Masc|Number=Sing	25	det	_	_
 25	travail	travail	NOUN	_	Gender=Masc|Number=Sing	28	nsubj	_	_
-26	leur	lui	PRON	_	Number=Plur|Person=3	28	iobj	_	_
+26	leur	lui	PRON	_	Number=Plur|Person=3|PronType=Prs	28	iobj	_	_
 27	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
 28	permis	permettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl:relcl	_	_
 29	d'	de	ADP	_	_	30	case	_	_
@@ -2750,7 +2750,7 @@
 11	nuit	nuit	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
 12	s'	si	SCONJ	_	_	15	mark	_	_
 13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
-14	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3	15	dobj	_	_
+14	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	dobj	_	_
 15	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	dep	_	_
 16	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -2941,7 +2941,7 @@
 17	très	très	ADV	_	_	18	advmod	_	_
 18	profonde	profond	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
 19	avec	avec	ADP	_	_	20	case	_	_
-20	lui	lui	PRON	_	Number=Sing|Person=3	16	nmod	_	_
+20	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	16	nmod	_	_
 21	.	.	PUNCT	_	_	14	punct	_	_
 
 # sentid: fr-ud-test_00100
@@ -3093,8 +3093,8 @@
 23	,	,	PUNCT	_	_	28	punct	_	_
 24	qu'	que	SCONJ	_	_	28	expl	_	_
 25	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	28	nsubj	_	_
-26	nous	lui	PRON	_	Number=Plur|Person=1	28	iobj	_	_
-27	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3	28	dobj	_	_
+26	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	28	iobj	_	_
+27	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	dobj	_	_
 28	fassent	faire	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 29	savoir	savoir	VERB	_	VerbForm=Inf	28	xcomp	_	_
 30	.	.	PUNCT	_	_	28	punct	_	_
@@ -3269,7 +3269,7 @@
 10	:	:	PUNCT	_	_	9	punct	_	_
 11	«	«	PUNCT	_	_	15	punct	_	_
 12	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
-13	vous	le	PRON	_	Number=Plur|Person=2	15	dobj	_	_
+13	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	15	dobj	_	_
 14	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
 15	accueilli	accueillir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	parataxis	_	_
 16	longtemps	longtemps	ADV	_	_	15	advmod	_	_
@@ -3278,7 +3278,7 @@
 19	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
 20	temps	temps	NOUN	_	Gender=Masc|Number=Sing	19	dobj	_	_
 21	de	de	ADP	_	_	23	mark	_	_
-22	nous	lui	PRON	_	Number=Plur|Person=1	23	iobj	_	_
+22	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	23	iobj	_	_
 23	rendre	rendre	VERB	_	VerbForm=Inf	19	acl	_	_
 24	nos	son	DET	_	Gender=Masc|Number=Plur	25	nmod:poss	_	_
 25	bienfaits	bienfait	NOUN	_	Gender=Masc|Number=Plur	23	dobj	_	_
@@ -3320,7 +3320,7 @@
 # sentid: fr-ud-test_00113
 # sentence-text: Selon lui, l'approche Eclipse, créé pour lutter contre les gangs de rue en 2006, est inutile.
 1	Selon	selon	ADP	_	_	2	case	_	_
-2	lui	lui	PRON	_	Number=Sing|Person=3	20	nmod	_	_
+2	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	20	nmod	_	_
 3	,	,	PUNCT	_	_	20	punct	_	_
 4	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	5	det	_	_
 5	approche	approche	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
@@ -3375,7 +3375,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	bloqué	bloquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
 6	chez	chez	ADP	_	_	7	case	_	_
-7	lui	lui	PRON	_	Number=Sing|Person=3	5	nmod	_	_
+7	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nmod	_	_
 8	depuis	depuis	ADP	_	_	9	case	_	_
 9	jeudi	jeudi	PROPN	_	_	5	nmod	_	_
 10	par	par	ADP	_	_	12	case	_	_
@@ -3507,7 +3507,7 @@
 20	limité	limité	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
 21	,	,	PUNCT	_	_	12	punct	_	_
 22	chez	chez	ADP	_	_	23	case	_	_
-23	lui	lui	PRON	_	Number=Sing|Person=3	12	nmod	_	_
+23	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	12	nmod	_	_
 24	,	,	PUNCT	_	_	12	punct	_	_
 25	en	en	ADP	_	_	26	case	_	_
 26	match	match	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
@@ -5267,7 +5267,7 @@
 26	raison	raison	NOUN	_	Gender=Fem|Number=Sing	27	nsubj	_	_
 27	finira	finir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	ccomp	_	_
 28	par	par	ADP	_	_	30	case	_	_
-29	l'	le	PRON	_	Number=Sing|Person=3	30	dobj	_	_
+29	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	30	dobj	_	_
 30	emporter	emporter	VERB	_	VerbForm=Inf	27	acl	_	_
 31	"	"	PUNCT	_	_	27	punct	_	_
 32	.	.	PUNCT	_	_	19	punct	_	_
@@ -5291,7 +5291,7 @@
 14	se	se	PRON	_	Person=3|PronType=Prs	15	dobj	_	_
 15	limitent	limiter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
 16	selon	selon	ADP	_	_	17	case	_	_
-17	nous	lui	PRON	_	Number=Plur|Person=1	15	nmod	_	_
+17	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	15	nmod	_	_
 18-19	aux	_	_	_	_	_	_	_	_
 18	à	à	ADP	_	_	20	case	_	_
 19	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur	20	det	_	_
@@ -5907,7 +5907,7 @@
 12	,	,	PUNCT	_	_	3	punct	_	_
 13	quand	quand	SCONJ	_	_	16	mark	_	_
 14	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
-15	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3	16	dobj	_	_
+15	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	dobj	_	_
 16	voyait	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	advcl	_	_
 17	sourire	sourire	VERB	_	VerbForm=Inf	16	xcomp	_	_
 18	,	,	PUNCT	_	_	3	punct	_	_
@@ -5994,7 +5994,7 @@
 1	«	«	PUNCT	_	_	5	punct	_	_
 2	Oui	oui	ADV	_	_	5	advmod	_	_
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
-4	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3	5	dobj	_	_
+4	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	dobj	_	_
 5	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	mais	mais	CONJ	_	_	5	cc	_	_
@@ -6002,7 +6002,7 @@
 9	dirai	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	5	conj	_	_
 10	qu'	que	SCONJ	_	_	13	mark	_	_
 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
-12	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3	13	dobj	_	_
+12	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	dobj	_	_
 13	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
 14	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -6128,7 +6128,7 @@
 12	toujours	toujours	ADV	_	_	11	advmod	_	_
 13	là	là	ADV	_	_	11	advmod	_	_
 14	pour	pour	ADP	_	_	16	mark	_	_
-15	vous	le	PRON	_	Number=Plur|Person=2	16	dobj	_	_
+15	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	16	dobj	_	_
 16	aider	aider	VERB	_	VerbForm=Inf	11	advcl	_	_
 17	à	à	ADP	_	_	18	mark	_	_
 18	trouver	trouver	VERB	_	VerbForm=Inf	16	acl	_	_
@@ -6268,7 +6268,7 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	4	det	_	_
 4	dessert	dessert	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
-6	nous	lui	PRON	_	Number=Plur|Person=1	7	iobj	_	_
+6	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	7	iobj	_	_
 7	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	9	det	_	_
 9	serpillère	serpillère	NOUN	_	Gender=Fem|Number=Sing	7	dobj	_	_
@@ -6277,7 +6277,7 @@
 12	jambes	jambe	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
 13	,	,	PUNCT	_	_	7	punct	_	_
 14	pour	pour	ADP	_	_	16	mark	_	_
-15	nous	lui	PRON	_	Number=Plur|Person=1	16	iobj	_	_
+15	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	16	iobj	_	_
 16	faire	faire	VERB	_	VerbForm=Inf	7	advcl	_	_
 17	comprendre	comprendre	VERB	_	VerbForm=Inf	16	xcomp	_	_
 18	qu'	que	SCONJ	_	_	21	mark	_	_
@@ -6370,7 +6370,7 @@
 7	maréchaux	maréchal	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	nancy	nancy	PROPN	_	_	4	nmod	_	_
-10	vous	lui	PRON	_	Number=Plur|Person=2	11	iobj	_	_
+10	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	11	iobj	_	_
 11	permettra	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 12	sans	sans	ADP	_	_	13	case	_	_
 13	doute	doute	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
@@ -6755,7 +6755,7 @@
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	formés	former	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 4	à	à	ADP	_	_	6	mark	_	_
-5	vous	le	PRON	_	Number=Plur|Person=2	6	dobj	_	_
+5	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	6	dobj	_	_
 6	arnaquer	arnaquer	VERB	_	VerbForm=Inf	3	acl	_	_
 7	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -7045,7 +7045,7 @@
 40	j'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	44	nsubj	_	_
 41	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	44	aux	_	_
 42	voulu	vouloir	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	44	aux	_	_
-43	l'	le	PRON	_	Number=Sing|Person=3	44	dobj	_	_
+43	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	44	dobj	_	_
 44	aider	aider	VERB	_	VerbForm=Inf	3	conj	_	_
 45	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -7385,7 +7385,7 @@
 1	Merci	_	INTJ	_	_	0	root	_	_
 2	beaucoup	beaucoup	ADV	_	_	1	advmod	_	_
 3	à	à	ADP	_	_	4	case	_	_
-4	lui	lui	PRON	_	Number=Sing|Person=3	1	nmod	_	_
+4	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	1	nmod	_	_
 5	!	!	PUNCT	_	_	1	punct	_	_
 
 # sentid: fr-ud-test_00267
@@ -7427,7 +7427,7 @@
 6	de	de	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	8	det	_	_
 8	destockage	destockage	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
-9	vous	lui	PRON	_	Number=Plur|Person=2	10	iobj	_	_
+9	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	10	iobj	_	_
 10	assure	assurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	12	det	_	_
 12	réalisation	réalisation	NOUN	_	Gender=Fem|Number=Sing	10	dobj	_	_
@@ -7730,7 +7730,7 @@
 1	Qu'	que	SCONJ	_	_	5	mark	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 3	se	se	PRON	_	Person=3|PronType=Prs	5	dobj	_	_
-4	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3	5	dobj	_	_
+4	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	dobj	_	_
 5	dise	dire	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	!	!	PUNCT	_	_	5	punct	_	_
 

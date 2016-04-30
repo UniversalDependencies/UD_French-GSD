@@ -1088,7 +1088,7 @@
 2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	1	mwe	_	_
 3	,	,	PUNCT	_	_	9	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	6	det	_	_
-5	contre	_	INTJ	_	_	6	compound	_	_
+5	contre	contre	INTJ	_	_	6	compound	_	_
 6	attaque	attaque	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 8	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
@@ -1746,7 +1746,7 @@
 22	,	,	PUNCT	_	_	7	punct	_	_
 23	Vénézuéliens	vénézuélien	NOUN	_	Gender=Masc|Number=Plur	7	conj	_	_
 24	,	,	PUNCT	_	_	7	punct	_	_
-25	etc	_	X	_	_	7	conj	_	_
+25	etc	etc	X	_	_	7	conj	_	_
 26	.	.	PUNCT	_	_	25	punct	_	_
 27	)	)	PUNCT	_	_	7	punct	_	_
 
@@ -2832,7 +2832,7 @@
 13	adresse	adresse	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 14	suivante	suivant	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
 15	:	:	PUNCT	_	_	13	punct	_	_
-16	criticusleblog@gmail.com	_	SYM	_	_	13	appos	_	_
+16	criticusleblog@gmail.com	criticusleblog@gmail.com	SYM	_	_	13	appos	_	_
 17	.	.	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-test_00096
@@ -3198,7 +3198,7 @@
 24	limite	limite	NOUN	_	Gender=Fem|Number=Sing	21	dobj	_	_
 25	de	de	ADP	_	_	27	case	_	_
 26	80	80	NUM	_	_	27	nummod	_	_
-27	mg/100	_	X	_	_	24	nmod	_	_
+27	mg/100	mg/100	X	_	_	24	nmod	_	_
 28	ml	millilitre	NOUN	_	Gender=Masc|Number=Sing	27	compound	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	31	det	_	_
 30	1er	1er	NUM	_	_	31	nummod	_	_
@@ -3227,7 +3227,7 @@
 6	show	show	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 7	"	"	PUNCT	_	_	8	punct	_	_
 8	Mamma	Mamma	PROPN	_	_	6	appos	_	_
-9	Mia	_	X	_	_	8	compound	_	_
+9	Mia	Mia	X	_	_	8	compound	_	_
 10	!	!	PUNCT	_	_	8	punct	_	_
 11	"	"	PUNCT	_	_	8	punct	_	_
 
@@ -3499,7 +3499,7 @@
 12	favori	favori	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 13	contre	contre	ADP	_	_	14	case	_	_
 14	Schalke	Schalke	PROPN	_	_	12	nmod	_	_
-15	04	_	X	_	_	14	compound	_	_
+15	04	04	X	_	_	14	compound	_	_
 16	et	et	CONJ	_	_	14	cc	_	_
 17	son	son	DET	_	Gender=Masc|Number=Sing	18	nmod:poss	_	_
 18	effectif	effectif	NOUN	_	Gender=Masc|Number=Sing	14	conj	_	_
@@ -5641,7 +5641,7 @@
 18	cts	cent	NOUN	_	Gender=Masc|Number=Plur	1	dep	_	_
 19	d'	de	ADP	_	_	20	case	_	_
 20	euro	euro	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
-21	+	_	SYM	_	_	20	cc	_	_
+21	+	+	SYM	_	_	20	cc	_	_
 22	coût	coût	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	_
 23-24	du	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	_	25	case	_	_
@@ -5712,7 +5712,7 @@
 8	bien	bien	ADV	_	_	9	advmod	_	_
 9	fort	fort	ADV	_	_	7	advmod	_	_
 10	:	:	PUNCT	_	_	7	punct	_	_
-11	OUACHE	_	INTJ	_	_	7	discourse	_	_
+11	OUACHE	ouache	INTJ	_	_	7	discourse	_	_
 12	!	!	PUNCT	_	_	7	punct	_	_
 13	...	...	PUNCT	_	_	5	punct	_	_
 
@@ -6313,7 +6313,7 @@
 
 # sentid: fr-ud-test_00211
 # sentence-text: Bon, allez, je suis connue pour être pinailleuse et difficile alors
-1	Bon	_	INTJ	_	_	7	discourse	_	_
+1	Bon	bon	INTJ	_	_	7	discourse	_	_
 2	,	,	PUNCT	_	_	7	punct	_	_
 3	allez	aller	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
 4	,	,	PUNCT	_	_	7	punct	_	_
@@ -6329,7 +6329,7 @@
 
 # sentid: fr-ud-test_00212
 # sentence-text: Bonjour, Nous avons fait l'acquisition d'un O'Hara modèle 2010.
-1	Bonjour	_	INTJ	_	_	5	discourse	_	_
+1	Bonjour	bonjour	INTJ	_	_	5	discourse	_	_
 2	,	,	PUNCT	_	_	5	punct	_	_
 3	Nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 4	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
@@ -6360,7 +6360,7 @@
 
 # sentid: fr-ud-test_00214
 # sentence-text: Bref, la rue des maréchaux de nancy vous permettra sans doute de trouver bien mieux !
-1	Bref	_	INTJ	_	_	11	discourse	_	_
+1	Bref	bref	INTJ	_	_	11	discourse	_	_
 2	,	,	PUNCT	_	_	11	punct	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	4	det	_	_
 4	rue	rue	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
@@ -6382,7 +6382,7 @@
 
 # sentid: fr-ud-test_00215
 # sentence-text: Bref, à déconseiller !
-1	Bref	_	INTJ	_	_	4	discourse	_	_
+1	Bref	bref	INTJ	_	_	4	discourse	_	_
 2	,	,	PUNCT	_	_	4	punct	_	_
 3	à	à	ADP	_	_	4	mark	_	_
 4	déconseiller	déconseiller	VERB	_	VerbForm=Inf	0	root	_	_
@@ -6909,7 +6909,7 @@
 8	qu'	que	SCONJ	_	_	7	expl	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
 10	coupe	coupe	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
-11	+	_	SYM	_	_	10	cc	_	_
+11	+	+	SYM	_	_	10	cc	_	_
 12	balayage	balayage	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
 13	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -7166,8 +7166,8 @@
 14	(	(	PUNCT	_	_	15	punct	_	_
 15	Québec	Québec	PROPN	_	_	13	appos	_	_
 16	)	)	PUNCT	_	_	15	punct	_	_
-17	H1M	_	X	_	_	11	dep	_	_
-18	1N4	_	X	_	_	17	dep	_	_
+17	H1M	H1M	X	_	_	11	dep	_	_
+18	1N4	1N4	X	_	_	17	dep	_	_
 
 # sentid: fr-ud-test_00255
 # sentence-text: Le cadre est très joli, mais l'ambiance n'est pas à la hauteur de celle d'un Pub anglais, par manque de musique adaptée.
@@ -7382,7 +7382,7 @@
 
 # sentid: fr-ud-test_00266
 # sentence-text: Merci beaucoup à lui !
-1	Merci	_	INTJ	_	_	0	root	_	_
+1	Merci	merci	INTJ	_	_	0	root	_	_
 2	beaucoup	beaucoup	ADV	_	_	1	advmod	_	_
 3	à	à	ADP	_	_	4	case	_	_
 4	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	1	nmod	_	_
@@ -7878,7 +7878,7 @@
 10	et	et	CONJ	_	_	8	cc	_	_
 11	moins	moins	ADV	_	_	12	advmod	_	_
 12	cher	cher	ADJ	_	Gender=Masc|Number=Sing	8	conj	_	_
-13	;)	_	SYM	_	_	6	dep	_	_
+13	;)	;)	SYM	_	_	6	dep	_	_
 
 # sentid: fr-ud-test_00288
 # sentence-text: Un endroit simple, propre et bien entretenu, une équipe sympa, un cocktail idéal pour des vacances en famille.

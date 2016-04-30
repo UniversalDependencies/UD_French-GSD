@@ -7629,7 +7629,7 @@
 2	1927	1927	NUM	_	_	6	nmod	_	_
 3	Marilyn	Marilyn	PROPN	_	_	6	nsubj	_	_
 4	Monroe	Monroe	PROPN	_	_	3	name	_	_
-5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	auxpass	_	_
+5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
 6	âgée	âgé	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 7	d'	de	ADP	_	_	9	case	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
@@ -9700,7 +9700,7 @@
 1	Ainsi	ainsi	ADV	_	_	8	advmod	_	_
 2	,	,	PUNCT	_	_	8	punct	_	_
 3	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur	4	det	_	_
-4	personnages	personnage	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
+4	personnages	personnage	NOUN	_	Gender=Masc|Number=Plur	8	nsubjpass	_	_
 5	ne	ne	PART	_	_	8	neg	_	_
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	auxpass	_	_
 7	pas	pas	ADV	_	_	8	neg	_	_
@@ -10511,7 +10511,7 @@
 4	tôt	tôt	ADV	_	_	5	advmod	_	_
 5	orphelin	orphelin	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubjpass	_	_
 8	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	auxpass	_	_
 9	élevé	élever	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
 10	par	par	ADP	_	_	12	case	_	_
@@ -11804,16 +11804,16 @@
 # sentid: fr-ud-dev_00427
 # sentence-text: « Est-ce qu'il y a un poème ce matin ?
 1	«	«	PUNCT	_	_	2	punct	_	_
-2	Est	Est	PROPN	_	_	0	root	_	_
-3	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
-4	qu'	que	PRON	_	_	7	mark	_	_
+2	Est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	expl	_	_
+4	qu'	que	SCONJ	_	_	7	mark	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 6	y	y	PRON	_	_	7	expl	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
-9	poème	poème	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+9	poème	poème	NOUN	_	Gender=Masc|Number=Sing	7	dobj	_	_
 10	ce	ce	DET	_	Gender=Masc|Number=Sing	11	det	_	_
-11	matin	matin	NOUN	_	Gender=Masc|Number=Sing	7	xcomp	_	_
+11	matin	matin	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 12	?	?	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-dev_00428
@@ -17476,7 +17476,7 @@
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur	8	det	_	_
 8	prix	prix	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
 9	Croûte	Croûte	PROPN	_	_	8	appos	_	_
-10	&	&	SYM	_	_	9	punct	_	_
+10	&	&	SYM	_	_	9	cc	_	_
 11	Chef	Chef	PROPN	_	_	9	conj	_	_
 12	d'	de	ADP	_	_	13	case	_	_
 13	Œuvre	Œuvre	PROPN	_	_	11	nmod	_	_
@@ -29115,7 +29115,7 @@
 # sentid: fr-ud-dev_01047
 # sentence-text: Les couples sont à nouveau reconstitués et le Duc annonce qu'Hermia peut épouser Lysandre si elle le souhaite.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur	2	det	_	_
-2	couples	couple	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
+2	couples	couple	NOUN	_	Gender=Masc|Number=Plur	6	nsubjpass	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	auxpass	_	_
 4	à	à	ADP	_	_	6	advmod	_	_
 5	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	4	mwe	_	_
@@ -30009,7 +30009,7 @@
 18	de	de	ADP	_	_	20	case	_	_
 19	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur	20	det	_	_
 20	finalités	finalité	NOUN	_	Gender=Fem|Number=Plur	13	conj	_	_
-21	qui	qui	PRON	_	PronType=Rel	25	nsubj	_	_
+21	qui	qui	PRON	_	PronType=Rel	25	nsubjpass	_	_
 22	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	25	iobj	_	_
 23	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
 24	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	auxpass	_	_
@@ -30360,7 +30360,7 @@
 12	par	par	ADP	_	_	14	case	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
 14	Italien	italien	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-15	qui	qui	PRON	_	PronType=Rel	17	nsubj	_	_
+15	qui	qui	PRON	_	PronType=Rel	17	nsubjpass	_	_
 16	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	auxpass	_	_
 17	arrêté	arrêter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
 18	en	en	ADP	_	_	19	case	_	_
@@ -32704,7 +32704,7 @@
 # sentid: fr-ud-dev_01183
 # sentence-text: L'argot est souvent utilisé.
 1	L'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	2	det	_	_
-2	argot	argot	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+2	argot	argot	NOUN	_	Gender=Masc|Number=Sing	5	nsubjpass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	auxpass	_	_
 4	souvent	souvent	ADV	_	_	5	advmod	_	_
 5	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -34394,7 +34394,7 @@
 2	même	même	ADV	_	_	14	advmod	_	_
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	certains	certain	DET	_	Gender=Masc|Number=Plur	5	det	_	_
-5	plats	plat	NOUN	_	Gender=Masc|Number=Plur	14	nsubj	_	_
+5	plats	plat	NOUN	_	Gender=Masc|Number=Plur	14	nsubjpass	_	_
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	comme	comme	ADP	_	_	9	case	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	9	det	_	_
@@ -35887,7 +35887,7 @@
 2	juin	juin	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 3	2004	2004	NUM	_	_	2	nmod	_	_
 4	,	,	PUNCT	_	_	9	punct	_	_
-5	Sylviane	Sylviane	PROPN	_	_	9	nsubj	_	_
+5	Sylviane	Sylviane	PROPN	_	_	9	nsubjpass	_	_
 6	Friederich	Friederich	PROPN	_	_	5	name	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	auxpass	_	_
 8	nommée	nommer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
@@ -37555,7 +37555,7 @@
 5	de	de	ADP	_	_	7	case	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	7	det	_	_
 7	saison	saison	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-8	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	_
+8	qui	qui	PRON	_	PronType=Rel	10	nsubjpass	_	_
 9	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	auxpass	_	_
 10	diffusé	diffuser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	12	det	_	_
@@ -39357,7 +39357,7 @@
 5	Mr.	Monsieur	NOUN	_	Gender=Masc|Number=Sing	6	compound	_	_
 6	Angel	Angel	PROPN	_	_	2	conj	_	_
 7	,	,	PUNCT	_	_	11	punct	_	_
-8	Tim	Tim	PROPN	_	_	11	nsubj	_	_
+8	Tim	Tim	PROPN	_	_	11	nsubjpass	_	_
 9	Salmon	Salmon	PROPN	_	_	8	name	_	_
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	auxpass	_	_
 11	considéré	considérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -39489,8 +39489,8 @@
 
 # sentid: fr-ud-dev_01418
 # sentence-text: Cuisine hyper créative mais aussi traditionnelle pour les puristes.
-1	Cuisine	cuisine	NOUN	_	Gender=Fem|Number=Sing	3	cop	_	_
-2	hyper	hyper	INTJ	_	_	3	advmod	_	_
+1	Cuisine	cuisine	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+2	hyper	hyper	PART	_	_	3	advmod	_	_
 3	créative	créatif	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 4	mais	mais	CONJ	_	_	3	cc	_	_
 5	aussi	aussi	ADV	_	_	6	advmod	_	_
@@ -42593,7 +42593,7 @@
 # sentence-text: En 1784 il fut anobli et s'appela désormais « von Auenbrugg ».
 1	En	en	ADP	_	_	2	case	_	_
 2	1784	1784	NUM	_	_	5	nmod	_	_
-3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubjpass	_	_
 4	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	auxpass	_	_
 5	anobli	anoblir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	et	et	CONJ	_	_	5	cc	_	_
@@ -42794,7 +42794,7 @@
 # sentid: fr-ud-dev_01532
 # sentence-text: Il est souvent victime de petites arnaques de la part de l'équipe et chaque fois qu'ils veulent éviter de payer leur addition.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	souvent	souvent	ADV	_	_	4	advmod	_	_
 4	victime	victime	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 5	de	de	ADP	_	_	7	case	_	_
@@ -44141,7 +44141,7 @@
 9	juin	juin	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 10	2008	2008	NUM	_	_	9	nmod	_	_
 11	,	,	PUNCT	_	_	3	punct	_	_
-12	Gheorghe	Gheorghe	PROPN	_	_	20	nsubj	_	_
+12	Gheorghe	Gheorghe	PROPN	_	_	20	nsubjpass	_	_
 13	Tirifon	Tirifon	PROPN	_	_	12	name	_	_
 14	(	(	PUNCT	_	_	15	punct	_	_
 15	PNL	PNL	PROPN	_	_	12	appos	_	_

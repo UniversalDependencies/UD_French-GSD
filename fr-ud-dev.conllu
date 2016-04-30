@@ -10628,7 +10628,7 @@
 5	comme	comme	ADP	_	_	7	case	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	moyen	moyen	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-8	de	_	INTJ	_	_	9	mark	_	_
+8	de	de	ADP	_	_	9	mark	_	_
 9	traduire	traduire	VERB	_	VerbForm=Inf	7	acl	_	_
 10	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	11	det	_	_
 11	espace	espace	NOUN	_	Gender=Masc|Number=Sing	9	dobj	_	_
@@ -13886,7 +13886,7 @@
 11	reçut	recevoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	13	det	_	_
 13	mission	mission	NOUN	_	Gender=Fem|Number=Sing	11	dobj	_	_
-14	de	_	INTJ	_	_	15	mark	_	_
+14	de	de	ADP	_	_	15	mark	_	_
 15	former	former	VERB	_	VerbForm=Inf	13	acl	_	_
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
 17	régiment	régiment	NOUN	_	Gender=Masc|Number=Sing	15	dobj	_	_
@@ -15374,7 +15374,7 @@
 37	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
 38	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	39	det	_	_
 39	ordre	ordre	NOUN	_	Gender=Masc|Number=Sing	37	dobj	_	_
-40	de	_	INTJ	_	_	41	mark	_	_
+40	de	de	ADP	_	_	41	mark	_	_
 41	monter	monter	VERB	_	VerbForm=Inf	39	acl	_	_
 42	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	43	det	_	_
 43	garde	garde	NOUN	_	Gender=Fem|Number=Sing	41	dobj	_	_
@@ -19064,7 +19064,7 @@
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	9	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	9	det	_	_
-6	A	_	X	_	_	9	compound	_	_
+6	A	_	SYM	_	_	9	compound	_	_
 7	-	-	PUNCT	_	_	9	punct	_	_
 8	module	module	NOUN	_	Gender=Masc|Number=Sing	9	compound	_	_
 9	M	_	SYM	_	_	2	nmod	_	_
@@ -19072,7 +19072,7 @@
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
 12	opération	opération	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 13	de	de	ADP	_	_	14	case	_	_
-14	A	_	X	_	_	12	nmod	_	_
+14	A	_	SYM	_	_	12	nmod	_	_
 15	qui	qui	PRON	_	PronType=Rel	21	nsubj	_	_
 16	(	(	PUNCT	_	_	19	punct	_	_
 17	entre	entre	ADP	_	_	19	case	_	_
@@ -19087,7 +19087,8 @@
 26	à	à	ADP	_	_	27	case	_	_
 27	opérateurs	opérateur	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	_
 28	dans	dans	ADP	_	_	29	case	_	_
-29	A.	_	X	_	_	27	nmod	_	_
+29	A	_	SYM	_	_	27	nmod	_	_
+30	.	.	PUNCT	_	_	12	punct	_	_
 
 # sentid: fr-ud-dev_00686
 # sentence-text: La longueur du module M n'est autre que sa longueur comme groupe à opérateurs.
@@ -25110,7 +25111,7 @@
 19	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
 20	constamment	constamment	ADV	_	_	19	advmod	_	_
 21	besoin	besoin	NOUN	_	Gender=Masc|Number=Sing	19	dobj	_	_
-22	de	_	INTJ	_	_	24	mark	_	_
+22	de	de	ADP	_	_	24	mark	_	_
 23	se	se	PRON	_	Person=3|PronType=Prs	24	dobj	_	_
 24	renouveler	renouveler	VERB	_	VerbForm=Inf	21	acl	_	_
 25	.	.	PUNCT	_	_	10	punct	_	_
@@ -34410,7 +34411,7 @@
 19	transgresser	transgresser	VERB	_	VerbForm=Inf	14	advcl	_	_
 20	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	21	det	_	_
 21	interdit	interdit	NOUN	_	Gender=Masc|Number=Sing	19	dobj	_	_
-22	de	_	INTJ	_	_	23	mark	_	_
+22	de	de	ADP	_	_	23	mark	_	_
 23	séparer	séparer	VERB	_	VerbForm=Inf	21	acl	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	25	det	_	_
 25	grain	grain	NOUN	_	Gender=Masc|Number=Sing	23	dobj	_	_
@@ -34576,7 +34577,7 @@
 # sentence-text: L'opportunité de poursuivre son instruction ouvre des horizons nouveaux au jeune Noè qui, à cause des possibilités économiques très limitées de sa famille, n'avait pu aller au-delà d'une alphabétisation de base (deux ans d'école primaire).
 1	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	2	det	_	_
 2	opportunité	opportunité	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
-3	de	_	INTJ	_	_	4	mark	_	_
+3	de	de	ADP	_	_	4	mark	_	_
 4	poursuivre	poursuivre	VERB	_	VerbForm=Inf	2	acl	_	_
 5	son	son	DET	_	Gender=Fem|Number=Sing	6	nmod:poss	_	_
 6	instruction	instruction	NOUN	_	Gender=Fem|Number=Sing	4	dobj	_	_
@@ -39271,7 +39272,7 @@
 23	dans	dans	ADP	_	_	25	case	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	25	det	_	_
 25	but	but	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
-26	de	_	INTJ	_	_	27	mark	_	_
+26	de	de	ADP	_	_	27	mark	_	_
 27	tenir	tenir	VERB	_	VerbForm=Inf	25	acl	_	_
 28	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Dem	29	det	_	_
 29	audiences	audience	NOUN	_	Gender=Fem|Number=Plur	27	dobj	_	_
@@ -39618,7 +39619,7 @@
 4	que	que	ADV	_	_	6	advmod	_	_
 5	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	6	det	_	_
 6	intention	intention	NOUN	_	Gender=Fem|Number=Sing	3	dobj	_	_
-7	de	_	INTJ	_	_	8	mark	_	_
+7	de	de	ADP	_	_	8	mark	_	_
 8	faire	faire	VERB	_	VerbForm=Inf	6	acl	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
 10	démonstration	démonstration	NOUN	_	Gender=Fem|Number=Sing	8	dobj	_	_
@@ -42261,7 +42262,7 @@
 8	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	pour	pour	ADP	_	_	10	case	_	_
 10	effet	effet	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-11	de	_	INTJ	_	_	12	mark	_	_
+11	de	de	ADP	_	_	12	mark	_	_
 12	diminuer	diminuer	VERB	_	VerbForm=Inf	10	acl	_	_
 13	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	14	det	_	_
 14	emprise	emprise	NOUN	_	Gender=Fem|Number=Sing	12	dobj	_	_

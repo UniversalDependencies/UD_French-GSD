@@ -3011,7 +3011,7 @@
 37	d'	de	ADP	_	_	38	case	_	_
 38	Aquitaine	Aquitaine	PROPN	_	_	36	nmod	_	_
 39	et	et	CONJ	_	_	28	cc	_	_
-40	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	41	det	_	_
+40	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	41	dobj	_	_
 41	scelle	sceller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	conj	_	_
 42	par	par	ADP	_	_	44	case	_	_
 43	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	44	det	_	_
@@ -26897,13 +26897,13 @@
 28	son	son	DET	_	Gender=Masc|Number=Sing	30	nmod:poss	_	_
 29	propre	propre	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	_
 30	père	père	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
-31	qui	qui	PRON	_	PronType=Rel	32	nsubj	_	_
-32	voulait	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	acl:relcl	_	_
-33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	34	det	_	_
-34	marier	marier	VERB	_	VerbForm=Inf	32	dobj	_	_
+31	qui	qui	PRON	_	PronType=Rel	34	nsubj	_	_
+32	voulait	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	aux	_	_
+33	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	dobj	_	_
+34	marier	marier	VERB	_	VerbForm=Inf	30	acl:relcl	_	_
 35	contre	contre	ADP	_	_	37	case	_	_
 36	son	son	DET	_	Gender=Masc|Number=Sing	37	nmod:poss	_	_
-37	gré	gré	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
+37	gré	gré	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
 38	.	.	PUNCT	_	_	13	punct	_	_
 
 # sentid: fr-ud-dev_00972

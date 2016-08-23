@@ -22,6 +22,7 @@ Data available since: UD v1.0
 License: CC BY-NC-SA 3.0 US
 Genre: blog news reviews wiki
 Contributors: de Marneffe, Marie-Catherine; Guillaume, Bruno; McDonald, Ryan; Suhr, Alane; Nivre, Joakim
+Contact:
 ===============================================================================
 (Original treebank contributors: Quirmbach-Brundage, Yvonne; LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
 

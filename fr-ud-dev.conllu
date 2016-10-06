@@ -40578,32 +40578,34 @@
 14	.	.	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-dev_01455
-# sentence-text: 5,92%, soit électeurs, ont effectué un vote blanc ou nul et enfin suffrages, soit 77,12%, ont été exprimés.
+# sentence-text: 5,92%, soit 90 électeurs, ont effectué un vote blanc ou nul et enfin 1173 suffrages, soit 77,12%, ont été exprimés.
 1	5,92	5,92	NUM	_	_	2	nummod	_	_
-2	%	%	SYM	_	_	8	nsubj	_	_
+2	%	%	SYM	_	_	9	nsubj	_	_
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	soit	soit	SCONJ	_	_	2	cc	_	_
-5	électeurs	électeur	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
-6	,	,	PUNCT	_	_	8	punct	_	_
-7	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
-8	effectué	effectuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
-10	vote	vote	NOUN	_	Gender=Masc|Number=Sing	8	dobj	_	_
-11	blanc	blanc	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
-12	ou	ou	CONJ	_	_	11	cc	_	_
-13	nul	nul	ADJ	_	Gender=Masc|Number=Sing	11	conj	_	_
-14	et	et	CONJ	_	_	8	cc	_	_
-15	enfin	enfin	ADV	_	_	14	advmod	_	_
-16	suffrages	suffrage	NOUN	_	Gender=Masc|Number=Plur	24	nsubjpass	_	_
-17	,	,	PUNCT	_	_	16	punct	_	_
-18	soit	soit	SCONJ	_	_	16	cc	_	_
-19	77,12	77,12	NUM	_	_	20	nummod	_	_
-20	%	%	SYM	_	_	16	conj	_	_
-21	,	,	PUNCT	_	_	24	punct	_	_
-22	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
-23	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	auxpass	_	_
-24	exprimés	exprimer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	conj	_	_
-25	.	.	PUNCT	_	_	8	punct	_	_
+5	90	90	NUM	_	_	6	nummod	_	_
+6	électeurs	électeur	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	effectué	effectuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	vote	vote	NOUN	_	Gender=Masc|Number=Sing	9	dobj	_	_
+12	blanc	blanc	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13	ou	ou	CONJ	_	_	12	cc	_	_
+14	nul	nul	ADJ	_	Gender=Masc|Number=Sing	12	conj	_	_
+15	et	et	CONJ	_	_	9	cc	_	_
+16	enfin	enfin	ADV	_	_	15	advmod	_	_
+17	1173	1173	NUM	_	_	18	nummod	_	_
+18	suffrages	suffrage	NOUN	_	Gender=Masc|Number=Plur	26	nsubjpass	_	_
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	soit	soit	SCONJ	_	_	18	cc	_	_
+21	77,12	77,12	NUM	_	_	22	nummod	_	_
+22	%	%	SYM	_	_	18	conj	_	_
+23	,	,	PUNCT	_	_	26	punct	_	_
+24	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	auxpass	_	_
+26	exprimés	exprimer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	conj	_	_
+27	.	.	PUNCT	_	_	9	punct	_	_
 
 # sentid: fr-ud-dev_01456
 # sentence-text: Pour l'orateur, la citoyenneté est une arme et une protection.

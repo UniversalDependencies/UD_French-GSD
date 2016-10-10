@@ -187,10 +187,10 @@
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	9	nsubj	_	_
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 3	véritablement	véritablement	ADV	_	_	9	advmod	_	_
-4	pour	pour	ADP	_	_	6	case	_	_
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	6	det	_	_
-6	futur	futur	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-7	baptisé	baptiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+4	pour	pour	ADP	_	_	7	case	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	7	det	_	_
+6	futur	futur	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+7	baptisé	baptiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	nmod	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
 9	changement	changement	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 10	de	de	ADP	_	_	11	case	_	_
@@ -231,7 +231,7 @@
 28	occidental	occidental	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
 29	qui	qui	PRON	_	PronType=Rel	30	nsubj	_	_
 30	oppose	opposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
-31	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	30	dobj	_	_
+31	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	30	dobj	_	_
 32	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
 33-34	au	_	_	_	_	_	_	_	_
 33	à	à	ADP	_	_	35	case	_	_
@@ -3979,7 +3979,7 @@
 53	.	.	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-dev_00145
-# sentence-text: Leuro de La Réunion, comme chacune des autres pièces, dispose dune face personnalisée reprenant le drapeau de la région.
+# sentence-text: L euro de La Réunion, comme chacune des autres pièces, dispose dune face personnalisée reprenant le drapeau de la région.
 1	L	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	2	det	_	_
 2	euro	euro	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -7784,7 +7784,7 @@
 
 # sentid: fr-ud-dev_00277
 # sentence-text: Ce procédé est toutefois mineur et le métal est produit de manière industrielle par électrolyse.
-1	Ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	procédé	procédé	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	toutefois	toutefois	ADV	_	_	5	advmod	_	_
@@ -9390,8 +9390,8 @@
 
 # sentid: fr-ud-dev_00339
 # sentence-text: Chauchard, tu es une bête ! "
-1	Chauchard	Chauchard	PROPN	_	_	3	appos	_	_
-2	,	,	PUNCT	_	_	6	punct	_	_
+1	Chauchard	Chauchard	PROPN	_	_	6	vocative	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
 3	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
 4	es	être	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	cop	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
@@ -11614,7 +11614,7 @@
 6	sélection	sélection	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	Suède	Suède	PROPN	_	_	6	nmod	_	_
-9	de	de	ADP	_	_	12	case	_	_
+9	de	de	ADP	_	_	10	case	_	_
 10	roller	roller	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 11	in	in	ADP	_	_	12	case	_	_
 12	line	line	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
@@ -16928,7 +16928,7 @@
 2	sera	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	cop	_	_
 3	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	4	det	_	_
 4	auteur	auteur	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-5	d'	de	ADP	_	_	9	case	_	_
+5	d'	de	ADP	_	_	7	case	_	_
 6	une	une	NUM	_	_	7	nummod	_	_
 7	dizaine	dizaine	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 8	d'	de	ADP	_	_	9	case	_	_
@@ -16938,7 +16938,7 @@
 12	enfantine	enfantin	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
 13	et	et	CONJ	_	_	4	cc	_	_
 14	illustratrice	illustrateur	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
-15	d'	de	ADP	_	_	19	case	_	_
+15	d'	de	ADP	_	_	17	case	_	_
 16	une	une	NUM	_	_	17	nummod	_	_
 17	douzaine	douzaine	NUM	_	_	14	nmod	_	_
 18	de	de	ADP	_	_	19	case	_	_
@@ -21429,9 +21429,9 @@
 4	de	de	ADP	_	_	7	mark	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	7	det	_	_
 6	premier	premier	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
-7	Bound	bind	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	nmod	_	_
-8	for	for	ADP	_	_	9	case	_	_
-9	Glory	glory	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+7	Bound	bind	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	nmod	_	Foreign=en
+8	for	for	ADP	_	_	9	case	_	Foreign=en
+9	Glory	glory	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	Foreign=en
 10	,	,	PUNCT	_	_	3	punct	_	_
 11	évènement	évènement	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
 12	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
@@ -24127,9 +24127,9 @@
 7	collègue	collègue	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	9	det	_	_
 9	vendredi	vendredi	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-10	11	11	NUM	_	_	9	nummod	_	_
+10	11	11	NUM	_	_	11	nummod	_	_
 11	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	9	compound	_	_
-12	2009	2009	NUM	_	_	11	nummod	_	_
+12	2009	2009	NUM	_	_	11	nmod	_	_
 13	,	,	PUNCT	_	_	4	punct	_	_
 14	et	et	CONJ	_	_	4	cc	_	_
 15	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	18	nsubjpass	_	_
@@ -26790,7 +26790,7 @@
 46	penalties	penalty	NOUN	_	Gender=Masc|Number=Plur	44	dobj	_	_
 47	pour	pour	ADP	_	_	49	case	_	_
 48	les	le	DET	_	Definite=Def|Number=Plur	49	det	_	_
-49	Français	Français	NOUN	_	Gender=Masc|Number=Plur	44	nmod	_	_
+49	Français	français	NOUN	_	Gender=Masc|Number=Plur	44	nmod	_	_
 50	.	.	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-dev_00969
@@ -27562,7 +27562,7 @@
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 9	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	10	dobj	_	_
-10	offre	offre	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+10	offre	offrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	à	à	ADP	_	_	12	case	_	_
 12	Marge	Marge	PROPN	_	_	10	nmod	_	_
 13	Simpson	Simpson	PROPN	_	_	12	name	_	_
@@ -30102,7 +30102,7 @@
 39	à	à	ADP	_	_	40	mark	_	_
 40	obtenir	obtenir	VERB	_	VerbForm=Inf	38	acl	_	_
 41	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	40	dobj	_	_
-42	qu'	que	PRON	_	_	47	nsubj	_	_
+42	qu'	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	44	dobj	_	_
 43	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	44	nsubj	_	_
 44	appelait	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	41	acl:relcl	_	_
 45	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	47	det	_	_
@@ -32844,7 +32844,7 @@
 2	1997	1997	NUM	_	_	6	nmod	_	_
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing	5	det	_	_
-5	Américain	Américain	NOUN	_	_	6	nsubj	_	_
+5	Américain	américain	NOUN	_	_	6	nsubj	_	_
 6	décroche	décrocher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	8	det	_	_
 8	médaille	médaille	NOUN	_	Gender=Fem|Number=Sing	6	dobj	_	_
@@ -35453,15 +35453,15 @@
 22-23	du	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	24	case	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	24	det	_	_
-24	Ministère	Ministère	PROPN	_	_	21	nmod	_	_
+24	Ministère	ministère	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 25	de	de	ADP	_	_	27	case	_	_
 26	l'	le	DET	_	Definite=Def|Number=Sing	27	det	_	_
-27	Enseignement	Enseignement	PROPN	_	_	24	nmod	_	_
+27	Enseignement	enseignement	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
 28	supérieur	supérieur	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
 29	et	et	CONJ	_	_	27	cc	_	_
 30	de	de	ADP	_	_	32	case	_	_
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	32	det	_	_
-32	Recherche	Recherche	PROPN	_	_	27	conj	_	_
+32	Recherche	recherche	NOUN	_	Gender=Fem|Number=Sing	27	conj	_	_
 33	dont	dont	PRON	_	PronType=Rel	35	nmod	_	_
 34	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur	35	det	_	_
 35	missions	mission	NOUN	_	Gender=Fem|Number=Plur	37	nsubjpass	_	_
@@ -35650,7 +35650,7 @@
 22	toujours	toujours	ADV	_	_	23	advmod	_	_
 23	blessé	blessé	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
 24	et	et	CONJ	_	_	23	cc	_	_
-25	qui	qui	PRON	_	PronType=Rel	28	nsubj	_	_
+25	qui	qui	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	28	nsubj	_	_
 26	n'	ne	PART	_	_	28	neg	_	_
 27	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
 28	repris	reprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
@@ -39699,9 +39699,9 @@
 10	chevalements	chevalement	NOUN	_	Gender=Masc|Number=Plur	8	dobj	_	_
 11	,	,	PUNCT	_	_	1	punct	_	_
 12	dont	dont	PRON	_	PronType=Rel	15	nmod	_	_
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	14	det	_	_
-14	plus	plus	ADJ	_	_	15	advmod	_	_
-15	grand	grand	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	15	det	_	_
+14	plus	plus	ADV	_	_	15	advmod	_	_
+15	grand	grand	ADJ	_	Gender=Masc|Number=Sing	19	nsubj	_	_
 16	et	et	CONJ	_	_	15	cc	_	_
 17	plus	plus	ADV	_	_	18	advmod	_	_
 18	récent	récent	ADJ	_	Gender=Masc|Number=Sing	15	conj	_	_
@@ -40578,32 +40578,34 @@
 14	.	.	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-dev_01455
-# sentence-text: 5,92%, soit électeurs, ont effectué un vote blanc ou nul et enfin suffrages, soit 77,12%, ont été exprimés.
+# sentence-text: 5,92%, soit 90 électeurs, ont effectué un vote blanc ou nul et enfin 1173 suffrages, soit 77,12%, ont été exprimés.
 1	5,92	5,92	NUM	_	_	2	nummod	_	_
-2	%	%	SYM	_	_	8	nsubj	_	_
+2	%	%	SYM	_	_	9	nsubj	_	_
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	soit	soit	SCONJ	_	_	2	cc	_	_
-5	électeurs	électeur	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
-6	,	,	PUNCT	_	_	8	punct	_	_
-7	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
-8	effectué	effectuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
-10	vote	vote	NOUN	_	Gender=Masc|Number=Sing	8	dobj	_	_
-11	blanc	blanc	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
-12	ou	ou	CONJ	_	_	11	cc	_	_
-13	nul	nul	ADJ	_	Gender=Masc|Number=Sing	11	conj	_	_
-14	et	et	CONJ	_	_	8	cc	_	_
-15	enfin	enfin	ADV	_	_	14	advmod	_	_
-16	suffrages	suffrage	NOUN	_	Gender=Masc|Number=Plur	24	nsubjpass	_	_
-17	,	,	PUNCT	_	_	16	punct	_	_
-18	soit	soit	SCONJ	_	_	16	cc	_	_
-19	77,12	77,12	NUM	_	_	20	nummod	_	_
-20	%	%	SYM	_	_	16	conj	_	_
-21	,	,	PUNCT	_	_	24	punct	_	_
-22	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
-23	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	auxpass	_	_
-24	exprimés	exprimer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	conj	_	_
-25	.	.	PUNCT	_	_	8	punct	_	_
+5	90	90	NUM	_	_	6	nummod	_	_
+6	électeurs	électeur	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	effectué	effectuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	vote	vote	NOUN	_	Gender=Masc|Number=Sing	9	dobj	_	_
+12	blanc	blanc	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13	ou	ou	CONJ	_	_	12	cc	_	_
+14	nul	nul	ADJ	_	Gender=Masc|Number=Sing	12	conj	_	_
+15	et	et	CONJ	_	_	9	cc	_	_
+16	enfin	enfin	ADV	_	_	15	advmod	_	_
+17	1173	1173	NUM	_	_	18	nummod	_	_
+18	suffrages	suffrage	NOUN	_	Gender=Masc|Number=Plur	26	nsubjpass	_	_
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	soit	soit	SCONJ	_	_	18	cc	_	_
+21	77,12	77,12	NUM	_	_	22	nummod	_	_
+22	%	%	SYM	_	_	18	conj	_	_
+23	,	,	PUNCT	_	_	26	punct	_	_
+24	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	auxpass	_	_
+26	exprimés	exprimer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	conj	_	_
+27	.	.	PUNCT	_	_	9	punct	_	_
 
 # sentid: fr-ud-dev_01456
 # sentence-text: Pour l'orateur, la citoyenneté est une arme et une protection.
@@ -41128,12 +41130,12 @@
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
 8	ingénieur	ingénieur	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	sergent	serger	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+10	sergent	sergent	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	_
 11	lors	lors	ADV	_	_	15	case	_	_
 12	de	de	ADP	_	_	11	mwe	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	15	det	_	_
-14	Première	Première	PROPN	_	_	15	amod	_	_
-15	Guerre	Guerre	PROPN	_	_	8	nmod	_	_
+14	Première	premier	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+15	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 16	mondiale	mondial	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
 17	,	,	PUNCT	_	_	8	punct	_	_
 18	cité	citer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
@@ -43063,7 +43065,7 @@
 26	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur	27	det	_	_
 27	chansons	chanson	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	_
 28	autobiographique	autobiographique	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
-29	que	que	PRON	_	_	33	nsubj	_	_
+29	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	31	dobj	_	_
 30	Madonna	Madonna	PROPN	_	_	31	nsubj	_	_
 31	estime	estimer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
 32	plus	plus	ADV	_	_	33	advmod	_	_
@@ -43732,7 +43734,7 @@
 8	d'	de	ADP	_	_	9	mark	_	_
 9	appeler	appeler	VERB	_	VerbForm=Inf	7	acl	_	_
 10	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	11	det	_	_
-11	auteur	auteur	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+11	auteur	auteur	NOUN	_	Gender=Masc|Number=Sing	9	dobj	_	_
 12	de	de	ADP	_	_	13	case	_	_
 13	ballet	ballet	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_

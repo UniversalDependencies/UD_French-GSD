@@ -713,7 +713,7 @@
 9-10	des	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	12	case	_	_
 10	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur	12	det	_	_
-11	premières	premier	ADJ	_	Gender=Fem|Number=Plur	12	nmod	_	_
+11	premières	premier	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	_
 12	fleurs	fleur	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
 13	que	que	PRON	_	PronType=Rel	14	dobj	_	_
 14	guettent	guetter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
@@ -16231,7 +16231,7 @@
 16	,	,	PUNCT	_	_	12	punct	_	_
 17	Men	man	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
 18	in	in	ADP	_	_	19	case	_	_
-19	Black	black	ADJ	_	Gender=Masc|Number=Sing	16	nmod	_	_
+19	Black	black	ADJ	_	Gender=Masc|Number=Sing	17	nmod	_	_
 20	pour	pour	ADP	_	_	21	case	_	_
 21	celle	celui	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	19	nmod	_	_
 22	de	de	ADP	_	_	23	case	_	_
@@ -19822,12 +19822,12 @@
 11	dans	dans	ADP	_	_	13	case	_	_
 12	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	13	det	_	_
 13	album	album	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
-14	Some	some	DET	_	Number=Sing	15	det	_	_
-15	Time	time	NOUN	_	Number=Sing	13	appos	_	_
-16	in	in	ADP	_	_	17	case	_	_
-17	New	new	ADJ	_	_	15	nmod	_	_
-18	York	York	PROPN	_	_	17	name	_	_
-19	City	city	NOUN	_	Gender=Fem|Number=Sing	17	name	_	_
+14	Some	some	DET	_	Number=Sing	15	det	_	Foreign=en
+15	Time	time	NOUN	_	Number=Sing	13	appos	_	Foreign=en
+16	in	in	ADP	_	_	17	case	_	Foreign=en
+17	New	new	ADJ	_	_	15	nmod	_	Foreign=en
+18	York	York	PROPN	_	_	17	name	_	Foreign=en
+19	City	city	NOUN	_	Gender=Fem|Number=Sing	17	name	_	Foreign=en
 20	.	.	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-dev_00715

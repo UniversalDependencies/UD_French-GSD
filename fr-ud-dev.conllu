@@ -6365,28 +6365,31 @@
 23	.	.	PUNCT	_	_	3	punct	_	_
 
 # sentid: fr-ud-dev_00230
-# sentence-text: [[Selon certaines sources]], c'est Rigaud qui a rédigé les ouvrages de ce dernier, soit en latin, soit en français.
-1	,	,	PUNCT	_	_	4	punct	_	_
-2	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
-3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-4	Rigaud	Rigaud	PROPN	_	_	0	root	_	_
-5	qui	qui	PRON	_	PronType=Rel	7	nsubj	_	_
-6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
-7	rédigé	rédiger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
-8	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur	9	det	_	_
-9	ouvrages	ouvrage	NOUN	_	Gender=Masc|Number=Plur	7	dobj	_	_
-10	de	de	ADP	_	_	12	case	_	_
-11	ce	ce	DET	_	Gender=Masc|Number=Sing	12	det	_	_
-12	dernier	dernier	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-13	,	,	PUNCT	_	_	16	punct	_	_
-14	soit	soit	SCONJ	_	_	16	cc	_	_
-15	en	en	ADP	_	_	16	case	_	_
-16	latin	latin	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-17	,	,	PUNCT	_	_	16	punct	_	_
-18	soit	soit	SCONJ	_	_	16	cc	_	_
-19	en	en	ADP	_	_	20	case	_	_
-20	français	français	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	_
-21	.	.	PUNCT	_	_	4	punct	_	_
+# sentence-text: Selon certaines sources, c'est Rigaud qui a rédigé les ouvrages de ce dernier, soit en latin, soit en français.
+1	Selon	selon	ADP	_	_	3	case	_	_
+2	certaines	certain	DET	_	Gender=Fem|Number=Plur	3	det	_	_
+3	sources	source	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	7	nsubj	_	_
+6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	Rigaud	Rigaud	PROPN	_	_	0	root	_	_
+8	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	_
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	rédigé	rédiger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+11	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur	12	det	_	_
+12	ouvrages	ouvrage	NOUN	_	Gender=Masc|Number=Plur	10	dobj	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	ce	ce	DET	_	Gender=Masc|Number=Sing	15	det	_	_
+15	dernier	dernier	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16	,	,	PUNCT	_	_	10	punct	_	_
+17	soit	soit	SCONJ	_	_	10	cc	_	_
+18	en	en	ADP	_	_	19	case	_	_
+19	latin	latin	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	soit	soit	SCONJ	_	_	10	cc	_	_
+22	en	en	ADP	_	_	23	case	_	_
+23	français	français	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	_
+24	.	.	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-dev_00231
 # sentence-text: Rappelons qu'Adrian Brody et la sublime Marion Cotillard complètent la distribution.
@@ -11024,17 +11027,29 @@
 9	.	.	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-dev_00401
-# sentence-text: Doduo et Dodrio sont initialement nommés [[Dodo (ドードー, Dōdō)]] et [[Dodorio (ドードリオ, Dōdorio)]] en japonais.
+# sentence-text: Doduo et Dodrio sont initialement nommés Dodo (ドードー, Dōdō) et Dodorio (ドードリオ, Dōdorio) en japonais.
 1	Doduo	Doduo	PROPN	_	_	6	nsubj	_	_
 2	et	et	CONJ	_	_	1	cc	_	_
 3	Dodrio	Dodrio	PROPN	_	_	1	conj	_	_
 4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 5	initialement	initialement	ADV	_	_	6	advmod	_	_
 6	nommés	nommer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
-7	et	et	CONJ	_	_	6	cc	_	_
-8	en	en	ADP	_	_	9	case	_	_
-9	japonais	japonais	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-10	.	.	PUNCT	_	_	6	punct	_	_
+7	Dodo		Dodo	PROPN	_	_	6	xcomp	_	_
+8	(	(	PUNCT	_	_	9	punct	_	_
+9	ドードー	ドードー	PROPN	_	_	7	appos	_	Foreign=ja
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	Dōdō	Dōdō	PROPN	_	_	9	appos	_	_
+12	)	)	PUNCT	_	_	9	punct	_	_
+13	et	et	CONJ	_	_	7	cc	_	_
+14	Dodorio	Dodorio	PROPN	_	_	7	conj	_	_
+15	(	(	PUNCT	_	_	16	punct	_	_
+16	ドードリオ	ドードリオ	PROPN	_	_	14	appos	_	Foreign=ja
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	Dōdorio	Dōdorio	PROPN	_	_	16	appos	_	_
+19	)	)	PUNCT	_	_	16	punct	_	_
+20	en	en	ADP	_	_	9	case	_	_
+21	japonais	japonais	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+22	.	.	PUNCT	_	_	6	punct	_	_
 
 # sentid: fr-ud-dev_00402
 # sentence-text: Le découpage en phases de l'évolution des civilisations n'est pas nouveau.

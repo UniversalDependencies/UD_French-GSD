@@ -22,7 +22,7 @@
 20	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	22	nsubj	_	_
 21	pourrions	pouvoir	AUX	_	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
 22	emprunter	emprunter	VERB	_	VerbForm=Inf	2	ccomp	_	_
-23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
+23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	25	det	_	_
 24	autre	autre	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
 25	chemin	chemin	NOUN	_	Gender=Masc|Number=Sing	22	dobj	_	_
 26	pour	pour	ADP	_	_	28	case	_	_
@@ -185,7 +185,7 @@
 19	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur	20	det	_	_
 20	dents	dent	NOUN	_	Gender=Fem|Number=Plur	18	dobj	_	_
 21	dans	dans	ADP	_	_	23	case	_	_
-22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
+22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	23	det	_	_
 23	discours	discours	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
 24	humiliant	humilier	VERB	_	Tense=Pres|VerbForm=Part	23	acl	_	_
 25	pour	pour	ADP	_	_	27	case	_	_
@@ -236,7 +236,7 @@
 14	n'	ne	PART	_	_	15	neg	_	_
 15	attaque	attaquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 16	pas	pas	ADV	_	_	15	neg	_	_
-17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	18	det	_	_
 18	membre	membre	NOUN	_	Gender=Masc|Number=Sing	15	dobj	_	_
 19	de	de	ADP	_	_	21	case	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	21	det	_	_
@@ -313,7 +313,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	inspiré	inspirer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
 5	d'	de	ADP	_	_	7	case	_	_
-6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	7	det	_	_
 7	pensée	pensée	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	_
@@ -370,7 +370,7 @@
 7	hasard	hasard	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 8	ou	ou	CONJ	_	_	7	cc	_	_
 9	d'	de	ADP	_	_	11	case	_	_
-10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	11	det	_	_
 11	malédiction	malédiction	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
 12	que	que	SCONJ	_	_	24	mark	_	_
 13	toute	tout	DET	_	Gender=Fem|Number=Sing	15	det	_	_
@@ -392,7 +392,7 @@
 1	Maintenant	maintenant	ADV	_	_	10	advmod	_	_
 2	,	,	PUNCT	_	_	10	punct	_	_
 3	avec	avec	ADP	_	_	8	case	_	_
-4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
 5	peu	peu	ADV	_	_	4	mwe	_	_
 6	de	de	ADP	_	_	4	mwe	_	_
 7	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
@@ -515,7 +515,7 @@
 6	n'	ne	PART	_	_	7	neg	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
 8	pas	pas	ADV	_	_	7	neg	_	_
-9	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Dem	10	det	_	_
+9	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
 10	relations	relation	NOUN	_	Gender=Fem|Number=Plur	7	dobj	_	_
 11	diplomatiques	diplomatique	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
 12	«	«	PUNCT	_	_	13	punct	_	_
@@ -529,7 +529,7 @@
 20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
 21	jamais	jamais	ADV	_	_	22	neg	_	_
 22	empêché	empêcher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-23	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Dem	24	det	_	_
+23	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	24	det	_	_
 24	ministres	ministre	NOUN	_	Gender=Masc|Number=Plur	22	dobj	_	_
 25	de	de	ADP	_	_	27	mark	_	_
 26	se	se	PRON	_	Person=3|PronType=Prs	27	dobj	_	_
@@ -550,7 +550,7 @@
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 7	tient	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
 9	discours	discours	NOUN	_	Gender=Masc|Number=Sing	7	dobj	_	_
 10	sur	sur	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	12	det	_	_
@@ -667,7 +667,7 @@
 12	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur	13	det	_	_
 13	rêves	rêve	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
 14	d'	de	ADP	_	_	16	case	_	_
-15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
 16	peuple	peuple	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 17	et	et	CONJ	_	_	16	cc	_	_
 18	de	de	ADP	_	_	20	case	_	_
@@ -687,7 +687,7 @@
 8	Mouammar	Mouammar	PROPN	_	_	6	nmod	_	_
 9	el-Kadhafi	el-Kadhafi	PROPN	_	_	8	name	_	_
 10	ouvre	ouvrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	12	det	_	_
 12	période	période	NOUN	_	Gender=Masc|Number=Plur	10	dobj	_	_
 13	d'	de	ADP	_	_	14	case	_	_
 14	irakisation	irakisation	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
@@ -719,7 +719,7 @@
 6	en	en	ADP	_	_	7	case	_	_
 7	couple	couple	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
 8	dans	dans	ADP	_	_	10	case	_	_
-9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	10	det	_	_
 10	zone	zone	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 11	isolée	isolé	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
 12	.	.	PUNCT	_	_	3	punct	_	_
@@ -729,14 +729,14 @@
 1	Autant	autant	ADV	_	_	2	advmod	_	_
 2	dire	dire	VERB	_	VerbForm=Inf	0	root	_	_
 3	dans	dans	ADP	_	_	5	case	_	_
-4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
 5	désert	désert	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 6	médiatique	médiatique	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 7	pour	pour	ADP	_	_	9	case	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	9	det	_	_
 9	mort	mort	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 10	d'	de	ADP	_	_	12	case	_	_
-11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
 12	poète	poète	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 13	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -810,7 +810,7 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	y	y	PRON	_	_	3	expl	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
-4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
 5	an	an	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 6	naissait	naître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	Gdem	Gdem	PROPN	_	_	6	nsubj	_	_
@@ -935,7 +935,7 @@
 # sentence-text: C'est un sourire de Dieu.
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
 4	sourire	sourire	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	Dieu	Dieu	PROPN	_	_	4	nmod	_	_
@@ -1011,7 +1011,7 @@
 5	tente	tenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	de	de	ADP	_	_	7	mark	_	_
 7	nouer	nouer	VERB	_	VerbForm=Inf	5	acl	_	_
-8	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
+8	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
 9	rapports	rapport	NOUN	_	Gender=Masc|Number=Plur	7	dobj	_	_
 10	avec	avec	ADP	_	_	12	case	_	_
 11	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur	12	det	_	_
@@ -1028,7 +1028,7 @@
 21	autant	autant	ADV	_	_	12	cc	_	_
 22	qu'	que	SCONJ	_	_	21	mwe	_	_
 23	avec	avec	ADP	_	_	25	case	_	_
-24	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Dem	25	det	_	_
+24	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	25	det	_	_
 25	sectes	secte	NOUN	_	Gender=Fem|Number=Plur	12	conj	_	_
 26	d'	de	ADP	_	_	27	case	_	_
 27	inspiration	inspiration	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
@@ -1111,7 +1111,7 @@
 24	gouvernement	gouvernement	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
 25	et	et	CONJ	_	_	24	cc	_	_
 26	à	à	ADP	_	_	28	case	_	_
-27	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Dem	28	det	_	_
+27	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	28	det	_	_
 28	entreprises	entreprise	NOUN	_	Gender=Fem|Number=Plur	24	conj	_	_
 29-30	du	_	_	_	_	_	_	_	_
 29	de	de	ADP	_	_	31	case	_	_
@@ -1190,7 +1190,7 @@
 2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	-t	t	PART	_	_	4	expl	_	_
 4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
-5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_
 6	risque	risque	NOUN	_	Gender=Masc|Number=Sing	2	dobj	_	_
 7	de	de	ADP	_	_	8	mark	_	_
 8	voir	voir	VERB	_	VerbForm=Inf	6	acl	_	_
@@ -1211,7 +1211,7 @@
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 6	y	y	PRON	_	_	7	expl	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
-8	de	un	DET	_	Definite=Ind|PronType=Dem	9	det	_	_
+8	de	un	DET	_	Definite=Ind|PronType=Ind	9	det	_	_
 9	tout	tout	PRON	_	Gender=Masc|Number=Sing	7	dobj	_	_
 10	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -1372,7 +1372,7 @@
 7	université	université	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 8	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	lancé	lancer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	11	det	_	_
 11	appel	appel	NOUN	_	Gender=Masc|Number=Sing	9	dobj	_	_
 12	à	à	ADP	_	_	15	case	_	_
 13	tous	tout	DET	_	Gender=Masc|Number=Plur	15	det	_	_
@@ -1403,7 +1403,7 @@
 38	colonisée	colonisé	ADJ	_	Gender=Fem|Number=Sing	37	amod	_	_
 39	et	et	CONJ	_	_	29	cc	_	_
 40	mettre	mettre	VERB	_	VerbForm=Inf	29	conj	_	_
-41	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	42	det	_	_
+41	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	42	det	_	_
 42	terme	terme	NOUN	_	Gender=Masc|Number=Sing	40	dobj	_	_
 43	à	à	ADP	_	_	46	case	_	_
 44	toutes	tout	DET	_	Gender=Fem|Number=Plur	46	det	_	_
@@ -1428,7 +1428,7 @@
 62	unies	uni	ADJ	_	Gender=Fem|Number=Plur	61	amod	_	_
 63	à	à	ADP	_	_	64	mark	_	_
 64	organiser	organiser	VERB	_	VerbForm=Inf	59	acl	_	_
-65	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	66	det	_	_
+65	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	66	det	_	_
 66	référendum	référendum	NOUN	_	Gender=Masc|Number=Sing	64	dobj	_	_
 67	d'	de	ADP	_	_	68	case	_	_
 68	autodétermination	autodétermination	NOUN	_	Gender=Fem|Number=Sing	66	nmod	_	_
@@ -1436,7 +1436,7 @@
 70	et	et	CONJ	_	_	64	cc	_	_
 71	à	à	ADP	_	_	72	mark	_	_
 72	mettre	mettre	VERB	_	VerbForm=Inf	64	conj	_	_
-73	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	74	det	_	_
+73	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	74	det	_	_
 74	terme	terme	NOUN	_	Gender=Masc|Number=Sing	72	dobj	_	_
 75	à	à	ADP	_	_	77	case	_	_
 76	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	77	det	_	_
@@ -1548,7 +1548,7 @@
 43	qu'	que	SCONJ	_	_	42	mwe	_	_
 44	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	47	nsubj	_	_
 45	étaient	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	47	cop	_	_
-46	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Dem	47	det	_	_
+46	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	47	det	_	_
 47	séquestrés	séquestré	NOUN	_	Gender=Masc|Number=Plur	25	advcl	_	_
 48	qui	qui	PRON	_	PronType=Rel	51	nsubj	_	_
 49	s'	se	PRON	_	Person=3|PronType=Prs	51	dobj	_	_
@@ -1620,7 +1620,7 @@
 3	2010	2010	NUM	_	_	2	nmod	_	_
 4	intègre	intégrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	ainsi	ainsi	ADV	_	_	4	advmod	_	_
-6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	7	det	_	_
 7	case	case	NOUN	_	Gender=Fem|Number=Sing	4	dobj	_	_
 8	"	"	PUNCT	_	_	9	punct	_	_
 9	RSA	RSA	PROPN	_	_	7	appos	_	_
@@ -1650,7 +1650,7 @@
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	33	det	_	_
 33	titre	titre	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
 34	d'	de	ADP	_	_	36	case	_	_
-35	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	36	det	_	_
+35	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	36	det	_	_
 36	complément	complément	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
 37	d'	de	ADP	_	_	38	case	_	_
 38	activité	activité	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	_
@@ -1786,14 +1786,14 @@
 31	à	à	ADP	_	_	35	case	_	_
 32	propos	propos	NOUN	_	Gender=Masc|Number=Sing	31	mwe	_	_
 33	d'	de	ADP	_	_	31	mwe	_	_
-34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	35	det	_	_
+34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	35	det	_	_
 35	match	match	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
 36	de	de	ADP	_	_	37	case	_	_
 37	football	football	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	_
 38	maroco-sahraoui	maroco-sahraoui	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	_
 39	,	,	PUNCT	_	_	4	punct	_	_
 40	que	que	SCONJ	_	_	44	mark	_	_
-41	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Dem	42	det	_	_
+41	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	42	det	_	_
 42	affrontements	affrontement	NOUN	_	Gender=Masc|Number=Plur	44	nsubj	_	_
 43	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	_
 44	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
@@ -1809,7 +1809,7 @@
 5	cette	ce	DET	_	Gender=Fem|Number=Sing	6	det	_	_
 6	occasion	occasion	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 7	,	,	PUNCT	_	_	3	punct	_	_
-8	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
+8	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
 9	représentants	représentant	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 10-11	du	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	12	case	_	_
@@ -1855,13 +1855,13 @@
 6	n'	ne	PART	_	_	10	neg	_	_
 7	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 8	pas	pas	ADV	_	_	10	neg	_	_
-9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
 10	changement	changement	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 11	total	total	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
 12	,	,	PUNCT	_	_	10	punct	_	_
 13	encore	encore	ADV	_	_	14	advmod	_	_
 14	moins	moins	ADV	_	_	10	conj	_	_
-15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
 16	reniement	reniement	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
 17	de	de	ADP	_	_	18	case	_	_
 18	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	16	nmod	_	_
@@ -1948,7 +1948,7 @@
 
 # sentid: fr-ud-test_00070
 # sentence-text: De nombreux Marocains le pensent en n'hésitant pas à l'accuser, en tant que premier opérateur du pays, d'abandonner des pans entiers de l'économie marocaine entre les mains des réseaux affairistes et des milieux de la corruption et à grossir les rangs des mécontents.
-1	De	un	DET	_	Definite=Ind|PronType=Dem	3	det	_	_
+1	De	un	DET	_	Definite=Ind|PronType=Ind	3	det	_	_
 2	nombreux	nombreux	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
 3	Marocains	Marocains	PROPN	_	_	5	nsubj	_	_
 4	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	dobj	_	_
@@ -1973,7 +1973,7 @@
 22	,	,	PUNCT	_	_	5	punct	_	_
 23	d'	de	ADP	_	_	24	mark	_	_
 24	abandonner	abandonner	VERB	_	VerbForm=Inf	12	acl	_	_
-25	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Dem	26	det	_	_
+25	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	26	det	_	_
 26	pans	pan	NOUN	_	Gender=Masc|Number=Plur	24	dobj	_	_
 27	entiers	entier	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	_
 28	de	de	ADP	_	_	30	case	_	_
@@ -2019,7 +2019,7 @@
 8	là	là	ADV	_	_	0	root	_	_
 9	pour	pour	ADP	_	_	10	mark	_	_
 10	aggraver	aggraver	VERB	_	VerbForm=Inf	8	advcl	_	_
-11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	12	det	_	_
 12	situation	situation	NOUN	_	Gender=Fem|Number=Sing	10	dobj	_	_
 13	déjà	déjà	ADV	_	_	15	advmod	_	_
 14	très	très	ADV	_	_	15	advmod	_	_
@@ -2231,7 +2231,7 @@
 4	cette	ce	DET	_	Gender=Fem|Number=Sing	5	det	_	_
 5	façon	façon	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 6	que	que	SCONJ	_	_	17	mark	_	_
-7	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Dem	8	det	_	_
+7	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
 8	conditions	condition	NOUN	_	Gender=Fem|Number=Plur	17	nsubjpass	_	_
 9	socio-économiques	socio-économique	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	_
 10	radicalement	radicalement	ADV	_	_	11	advmod	_	_
@@ -2259,17 +2259,17 @@
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 6	y	y	PRON	_	_	7	expl	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
-8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	9	det	_	_
 9	loi	loi	NOUN	_	Gender=Fem|Number=Sing	7	dobj	_	_
 10	chez	chez	ADP	_	_	11	case	_	_
 11	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	7	nmod	_	_
 12	qui	qui	PRON	_	PronType=Rel	14	nsubj	_	_
 13	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	condamner	condamner	VERB	_	VerbForm=Inf	9	acl:relcl	_	_
-15	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Dem	16	det	_	_
+15	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
 16	citoyens	citoyen	NOUN	_	Gender=Masc|Number=Plur	14	dobj	_	_
 17	pour	pour	ADP	_	_	19	case	_	_
-18	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Dem	19	det	_	_
+18	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	19	det	_	_
 19	rêves	rêve	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
 20	illégaux	illégal	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
 21	?	?	PUNCT	_	_	3	punct	_	_
@@ -2362,7 +2362,7 @@
 # sentid: fr-ud-test_00082
 # sentence-text: Faire une part à l'éblouissement, savoir se lâcher dans l'admiration de ce qui n'est pas soi, céder à ce savoir immédiat du beau et du bien qui nous transporte, voilà le lyrisme.
 1	Faire	faire	VERB	_	VerbForm=Inf	0	root	_	_
-2	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+2	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
 3	part	part	NOUN	_	Gender=Masc|Number=Plur	1	dobj	_	_
 4	à	à	ADP	_	_	6	case	_	_
 5	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	6	det	_	_
@@ -2430,7 +2430,7 @@
 20	à	à	ADP	_	_	19	mwe	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	19	mwe	_	_
 22	mieux	mieux	NOUN	_	Gender=Masc|Number=Sing	19	mwe	_	_
-23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
+23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	25	det	_	_
 24	5	5	NUM	_	_	25	nummod	_	_
 25	%	pourcent	NOUN	_	Gender=Masc|Number=Plur	14	ccomp	_	_
 26	,	,	PUNCT	_	_	25	punct	_	_
@@ -2531,7 +2531,7 @@
 1	Toutefois	toutefois	ADV	_	_	12	advmod	_	_
 2	,	,	PUNCT	_	_	12	punct	_	_
 3	dans	dans	ADP	_	_	5	case	_	_
-4	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+4	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
 5	camps	camp	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	réfugiés	réfugié	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
@@ -2574,7 +2574,7 @@
 10	éprouve	éprouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	selon	selon	ADP	_	_	14	case	_	_
-13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	14	det	_	_
 14	diplomate	diplomate	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 15	basé	baser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
 16-17	au	_	_	_	_	_	_	_	_
@@ -2582,7 +2582,7 @@
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	18	det	_	_
 18	Caire	Caire	PROPN	_	_	15	nmod	_	_
 19	«	«	PUNCT	_	_	21	punct	_	_
-20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
+20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	21	det	_	_
 21	haine	haine	NOUN	_	Gender=Fem|Number=Sing	10	dobj	_	_
 22	viscérale	viscéral	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
 23	pour	pour	ADP	_	_	25	case	_	_
@@ -2707,7 +2707,7 @@
 52	deux	deux	NUM	_	_	53	nummod	_	_
 53	parties	partie	NOUN	_	Gender=Fem|Number=Plur	49	nmod	_	_
 54	et	et	CONJ	_	_	49	cc	_	_
-55	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Dem	56	det	_	_
+55	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	56	det	_	_
 56	représentants	représentant	NOUN	_	Gender=Masc|Number=Plur	49	conj	_	_
 57-58	des	_	_	_	_	_	_	_	_
 57	de	de	ADP	_	_	60	case	_	_
@@ -2903,7 +2903,7 @@
 23	autres	autre	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	_
 24	,	,	PUNCT	_	_	20	punct	_	_
 25	d'	de	ADP	_	_	27	case	_	_
-26	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	27	det	_	_
+26	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	27	det	_	_
 27	membre	membre	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 28	permanent	permanent	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
 29-30	du	_	_	_	_	_	_	_	_
@@ -2932,14 +2932,14 @@
 5	opportunité	opportunité	NOUN	_	Gender=Fem|Number=Sing	3	dobj	_	_
 6	de	de	ADP	_	_	7	mark	_	_
 7	camper	camper	VERB	_	VerbForm=Inf	5	acl	_	_
-8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
 9	personnage	personnage	NOUN	_	Gender=Masc|Number=Sing	7	dobj	_	_
 10	plusieurs	plusieurs	DET	_	Gender=Fem|Number=Plur	11	det	_	_
 11	fois	fois	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	14	nsubj	_	_
 14	développez	développer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	16	det	_	_
 16	relation	relation	NOUN	_	Gender=Fem|Number=Sing	14	dobj	_	_
 17	très	très	ADV	_	_	18	advmod	_	_
 18	profonde	profond	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
@@ -2988,7 +2988,7 @@
 19	loisirs	loisir	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
 20	qui	qui	PRON	_	PronType=Rel	21	nsubj	_	_
 21	dégage	dégager	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
-22	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
+22	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	23	det	_	_
 23	marge	marge	NOUN	_	Gender=Fem|Number=Sing	21	dobj	_	_
 24	opérationnelle	opérationnel	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
 25	de	de	ADP	_	_	27	case	_	_
@@ -3008,7 +3008,7 @@
 2	plus	plus	ADV	_	_	4	cc	_	_
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 4	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
+5	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
 6	vidéos	vidéo	NOUN	_	Gender=Fem|Number=Plur	4	dobj	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	ce	ce	DET	_	Gender=Masc|Number=Sing	9	det	_	_
@@ -3073,7 +3073,7 @@
 1	Maintenant	maintenant	ADV	_	_	28	advmod	_	_
 2	,	,	PUNCT	_	_	28	punct	_	_
 3	si	si	SCONJ	_	_	7	mark	_	_
-4	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+4	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
 5	supporters	supporter	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 6	veulent	vouloir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	aider	aider	VERB	_	VerbForm=Inf	28	advcl	_	_
@@ -3084,7 +3084,7 @@
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	10	mwe	_	_
 12	travers	travers	NOUN	_	Gender=Masc|Number=Sing	10	mwe	_	_
 13	d'	de	ADP	_	_	10	mwe	_	_
-14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	15	det	_	_
 15	souscription	souscription	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 16	pour	pour	ADP	_	_	17	mark	_	_
 17	faire	faire	VERB	_	VerbForm=Inf	7	advcl	_	_
@@ -3109,7 +3109,7 @@
 2	se	se	PRON	_	Person=3|PronType=Prs	3	dobj	_	_
 3	remarie	remarier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	et	et	CONJ	_	_	3	cc	_	_
-5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
 6	autre	autre	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 7	fils	fils	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 8	va	aller	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
@@ -3125,7 +3125,7 @@
 3	aspects	aspect	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
 4	fantasy	fantasy	NOUN	_	Gender=Fem|Number=Sing	3	amod	_	_
 5	dans	dans	ADP	_	_	7	case	_	_
-6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
 7	environnement	environnement	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 8	moderne	moderne	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 9	et	et	CONJ	_	_	8	cc	_	_
@@ -3148,10 +3148,10 @@
 25	,	,	PUNCT	_	_	22	punct	_	_
 26	soit	soit	SCONJ	_	_	24	cc	_	_
 27	avec	avec	ADP	_	_	29	case	_	_
-28	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Dem	29	det	_	_
+28	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	29	det	_	_
 29	oreilles	oreille	NOUN	_	Gender=Fem|Number=Plur	24	conj	_	_
 30	et	et	CONJ	_	_	29	cc	_	_
-31	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Dem	32	det	_	_
+31	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	32	det	_	_
 32	queues	queue	NOUN	_	Gender=Fem|Number=Plur	29	conj	_	_
 33	de	de	ADP	_	_	34	case	_	_
 34	chat	chat	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
@@ -3197,7 +3197,7 @@
 20	n'	ne	PART	_	_	21	neg	_	_
 21	avaient	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	_
 22	pas	pas	ADV	_	_	21	neg	_	_
-23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	24	det	_	_
+23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	24	det	_	_
 24	limite	limite	NOUN	_	Gender=Fem|Number=Sing	21	dobj	_	_
 25	de	de	ADP	_	_	27	case	_	_
 26	80	80	NUM	_	_	27	nummod	_	_
@@ -3209,7 +3209,7 @@
 32	2000	2000	NUM	_	_	31	nmod	_	_
 33	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	34	aux	_	_
 34	adopté	adopter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	43	advcl	_	_
-35	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	37	det	_	_
+35	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	37	det	_	_
 36	telle	tel	ADJ	_	Gender=Fem|Number=Sing	37	amod	_	_
 37	politique	politique	NOUN	_	Gender=Masc|Number=Plur	34	dobj	_	_
 38	,	,	PUNCT	_	_	43	punct	_	_
@@ -3301,7 +3301,7 @@
 
 # sentid: fr-ud-test_00112
 # sentence-text: Des visites commentées permettront au public de découvrir les collections, avec aussi différentes animations.
-1	Des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
+1	Des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
 2	visites	visite	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	commentées	commenter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
 4	permettront	permettre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -3410,7 +3410,7 @@
 
 # sentid: fr-ud-test_00116
 # sentence-text: Un timbre a été émis en Israël pour marquer le 150e anniversaire de la naissance de Théodore Herzl, journaliste, écrivain et fondateur du mouvement sioniste, le 2 mai 1860 à Budapest.
-1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	timbre	timbre	NOUN	_	Gender=Masc|Number=Sing	5	nsubjpass	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	auxpass	_	_
@@ -3590,7 +3590,7 @@
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	15	det	_	_
 15	Québec	Québec	PROPN	_	_	12	nmod	_	_
 16	à	à	ADP	_	_	18	case	_	_
-17	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Dem	18	det	_	_
+17	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	18	det	_	_
 18	milliers	millier	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
 19	de	de	ADP	_	_	20	case	_	_
 20	centres	centre	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
@@ -3609,7 +3609,7 @@
 7	Nsimba	Nsimba	PROPN	_	_	5	name	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	sollicité	solliciter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	11	det	_	_
 11	délai	délai	NOUN	_	Gender=Masc|Number=Sing	9	dobj	_	_
 12	supplémentaire	supplémentaire	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
 13	avant	avant	ADP	_	_	15	case	_	_
@@ -3623,7 +3623,7 @@
 20	,	,	PUNCT	_	_	9	punct	_	_
 21	estimant	estimer	VERB	_	Tense=Pres|VerbForm=Part	9	acl	_	_
 22	que	que	SCONJ	_	_	29	mark	_	_
-23	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Dem	24	det	_	_
+23	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	24	det	_	_
 24	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	29	nsubjpass	_	_
 25	nouveaux	nouveau	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	_
 26	y	y	ADV	_	_	29	advmod	_	_
@@ -3643,13 +3643,13 @@
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	installé	installer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	dans	dans	ADP	_	_	11	case	_	_
-10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	11	det	_	_
 11	logement	logement	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 12	situé	situer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
 13	à	à	ADP	_	_	14	case	_	_
 14	TriBeCa	TriBeCa	PROPN	_	_	12	nmod	_	_
 15	,	,	PUNCT	_	_	14	punct	_	_
-16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	17	det	_	_
 17	quartier	quartier	NOUN	_	Gender=Masc|Number=Sing	14	appos	_	_
 18-19	du	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	20	case	_	_
@@ -3862,7 +3862,7 @@
 39	normal	normal	ADJ	_	Gender=Masc|Number=Sing	3	conj	_	_
 40	de	de	ADP	_	_	41	mark	_	_
 41	ressentir	ressentir	VERB	_	VerbForm=Inf	39	acl	_	_
-42	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	45	det	_	_
+42	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	45	det	_	_
 43	peu	peu	PRON	_	_	42	mwe	_	_
 44	de	de	ADP	_	_	42	mwe	_	_
 45	douleur	douleur	NOUN	_	Gender=Fem|Number=Sing	41	dobj	_	_
@@ -3915,7 +3915,7 @@
 2	quoi	quoi	PRON	_	_	0	root	_	_
 3	inciter	inciter	VERB	_	VerbForm=Inf	2	acl	_	_
 4	à	à	ADP	_	_	7	case	_	_
-5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	7	det	_	_
 6	certaine	certain	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 7	prudence	prudence	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 8	.	.	PUNCT	_	_	2	punct	_	_
@@ -3945,7 +3945,7 @@
 21	opérationnel	opérationnel	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
 22	courant	courant	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
 23	affiche	afficher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
-24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	25	det	_	_
+24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	25	det	_	_
 25	hausse	hausse	NOUN	_	Gender=Fem|Number=Sing	23	dobj	_	_
 26	de	de	ADP	_	_	28	case	_	_
 27	3,8	3,8	NUM	_	_	28	nummod	_	_
@@ -4089,7 +4089,7 @@
 14	ne	ne	PART	_	_	15	neg	_	_
 15	constitue	constituer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	pas	pas	ADV	_	_	15	neg	_	_
-17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	19	det	_	_
 18	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
 19	nouvelle	nouvelle	NOUN	_	Gender=Fem|Number=Sing	15	dobj	_	_
 20	pour	pour	ADP	_	_	22	case	_	_
@@ -4119,7 +4119,7 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	y	y	PRON	_	_	3	expl	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
 5	personnage	personnage	NOUN	_	Gender=Masc|Number=Sing	3	dobj	_	_
 6	très	très	ADV	_	_	7	advmod	_	_
 7	absent	absent	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
@@ -4197,7 +4197,7 @@
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	voyaient	voir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
 9	d'	de	ADP	_	_	12	case	_	_
-10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
 11	mauvais	mauvais	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
 12	œil	œil	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 13	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	14	det	_	_
@@ -4251,7 +4251,7 @@
 # sentence-text: C'est un caillou blanc.
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
 4	caillou	caillou	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 5	blanc	blanc	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
@@ -4323,7 +4323,7 @@
 7	Quand	quand	SCONJ	_	_	9	mark	_	_
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
 9	aura	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	advcl	_	_
-10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
 11	premier	premier	NUM	_	_	12	nummod	_	_
 12	pas	pas	NOUN	_	Gender=Masc|Number=Sing	9	dobj	_	_
 13	de	de	ADP	_	_	14	mark	_	_
@@ -4332,7 +4332,7 @@
 16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	18	nsubj	_	_
 17	s'	se	PRON	_	Person=3|PronType=Prs	18	dobj	_	_
 18	éclatera	éclater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	ccomp	_	_
-19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	21	advmod	_	_
+19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	21	advmod	_	_
 20	peu	peu	ADV	_	_	19	mwe	_	_
 21	plus	plus	ADV	_	_	18	advmod	_	_
 22	"	"	PUNCT	_	_	18	punct	_	_
@@ -4360,13 +4360,13 @@
 14	homme	homme	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 15	jouissant	jouir	VERB	_	Tense=Pres|VerbForm=Part	14	acl	_	_
 16	d'	de	ADP	_	_	18	case	_	_
-17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
+17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	18	det	_	_
 18	aisance	aisance	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
 19	financière	financier	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
 20	,	,	PUNCT	_	_	7	punct	_	_
 21	de	de	ADP	_	_	22	mark	_	_
 22	posséder	posséder	VERB	_	VerbForm=Inf	7	acl	_	_
-23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
+23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	26	det	_	_
 24	ou	ou	CONJ	_	_	23	cc	_	_
 25	plusieurs	plusieurs	DET	_	Number=Plur	23	conj	_	_
 26	maîtresses	maîtresse	NOUN	_	Gender=Fem|Number=Plur	22	dobj	_	_
@@ -4519,7 +4519,7 @@
 7	)	)	PUNCT	_	_	6	punct	_	_
 8	organise	organiser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	aujourd'hui	aujourd'hui	ADV	_	_	8	advmod	_	_
-10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	11	det	_	_
 11	tournoi	tournoi	NOUN	_	Gender=Masc|Number=Sing	8	dobj	_	_
 12	réunissant	réunir	VERB	_	Tense=Pres|VerbForm=Part	11	acl	_	_
 13	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur	17	det	_	_
@@ -4612,7 +4612,7 @@
 19	en	en	ADP	_	_	20	case	_	_
 20	récession	récession	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
 21	avec	avec	ADP	_	_	23	case	_	_
-22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
+22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	23	det	_	_
 23	déficit	déficit	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 24	public	public	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
 25	à	à	ADP	_	_	27	case	_	_
@@ -4623,7 +4623,7 @@
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	30	det	_	_
 30	PIB	PIB	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
 31	et	et	CONJ	_	_	23	cc	_	_
-32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	33	det	_	_
+32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	33	det	_	_
 33	chômage	chômage	NOUN	_	Gender=Masc|Number=Sing	23	conj	_	_
 34	à	à	ADP	_	_	38	case	_	_
 35	plus	plus	ADV	_	_	37	advmod	_	_
@@ -4733,7 +4733,7 @@
 6	de	de	ADP	_	_	7	mark	_	_
 7	faire	faire	VERB	_	VerbForm=Inf	5	acl	_	_
 8	"	"	PUNCT	_	_	7	punct	_	_
-9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
 10	match	match	NOUN	_	Gender=Masc|Number=Sing	7	dobj	_	_
 11	parfait	parfait	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
 12	pour	pour	ADP	_	_	14	mark	_	_
@@ -4834,7 +4834,7 @@
 36	apprêtent	apprêter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	conj	_	_
 37	à	à	ADP	_	_	38	mark	_	_
 38	vivre	vivre	VERB	_	VerbForm=Inf	36	acl	_	_
-39	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	40	det	_	_
+39	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	40	det	_	_
 40	moment	moment	NOUN	_	Gender=Masc|Number=Sing	38	dobj	_	_
 41	exceptionnel	exceptionnel	ADJ	_	Gender=Masc|Number=Sing	40	amod	_	_
 42	dans	dans	ADP	_	_	44	case	_	_
@@ -4860,7 +4860,7 @@
 9	Dany	Dany	PROPN	_	_	11	nsubj	_	_
 10	Laferrière	Laferrière	PROPN	_	_	9	name	_	_
 11	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	13	det	_	_
 13	réaliste	réaliste	NOUN	_	Gender=Masc|Number=Sing	11	dobj	_	_
 14	heureux	heureux	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
 15	.	.	PUNCT	_	_	11	punct	_	_
@@ -4979,7 +4979,7 @@
 17	affrontements	affrontement	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
 18	survenus	survenir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	acl	_	_
 19	dans	dans	ADP	_	_	21	case	_	_
-20	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Dem	21	det	_	_
+20	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	21	det	_	_
 21	villages	village	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
 22	chiites	chiite	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	_
 23-24	des	_	_	_	_	_	_	_	_
@@ -5121,7 +5121,7 @@
 5	pourra	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	aux	_	_
 6	aussi	aussi	ADV	_	_	7	advmod	_	_
 7	trouver	trouver	VERB	_	VerbForm=Inf	0	root	_	_
-8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	9	det	_	_
 9	nouveauté	nouveauté	NOUN	_	Gender=Fem|Number=Sing	7	dobj	_	_
 10	avec	avec	ADP	_	_	12	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	12	det	_	_
@@ -5162,7 +5162,7 @@
 3	forcément	forcément	ADV	_	_	5	advmod	_	_
 4	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
 5	rappeler	rappeler	VERB	_	VerbForm=Inf	0	root	_	_
-6	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
+6	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
 7	souvenirs	souvenir	NOUN	_	Gender=Masc|Number=Plur	5	dobj	_	_
 8	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -5170,7 +5170,7 @@
 # sentence-text: Grâce à une plate-forme logicielle intégrée aux capacités reconnues dans la gestion des emails et la fusion entrant/sortant, les équipes marketing accroissent rapidement leur efficacité et leur impact sur le chiffre d'affaires.
 1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	4	case	_	_
 2	à	à	ADP	_	_	1	mwe	_	_
-3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	4	det	_	_
 4	plate-forme	plate-forme	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
 5	logicielle	logiciel	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 6	intégrée	intégré	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
@@ -5215,13 +5215,13 @@
 1	Chaque	chaque	DET	_	Gender=Masc|Number=Sing	2	det	_	_
 2	site	site	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	propose	proposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+4	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
 5	coupons	coupon	NOUN	_	Gender=Masc|Number=Plur	3	dobj	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	réductions	réduction	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
 8	(	(	PUNCT	_	_	11	punct	_	_
 9	avec	avec	ADP	_	_	11	case	_	_
-10	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Dem	11	det	_	_
+10	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
 11	réductions	réduction	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
 12	allant	aller	VERB	_	Tense=Pres|VerbForm=Part	11	acl	_	_
 13	de	de	ADP	_	_	14	case	_	_
@@ -5356,7 +5356,7 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	4	det	_	_
 4	coût	coût	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	_
 5	d'	de	ADP	_	_	8	case	_	_
-6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
 7	tel	tel	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
 8	projet	projet	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 9	?	?	PUNCT	_	_	1	punct	_	_
@@ -5453,7 +5453,7 @@
 # sentid: fr-ud-test_00182
 # sentence-text: En d'autres mots, la pandémie a été un peu moins mortelle que les pires saisons grippales.
 1	En	en	ADP	_	_	4	case	_	_
-2	d'	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+2	d'	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
 3	autres	autre	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
 4	mots	mot	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
 5	,	,	PUNCT	_	_	13	punct	_	_
@@ -5461,7 +5461,7 @@
 7	pandémie	pandémie	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
 9	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	cop	_	_
-10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	12	advmod	_	_
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	12	advmod	_	_
 11	peu	peu	ADV	_	_	10	mwe	_	_
 12	moins	moins	ADV	_	_	13	advmod	_	_
 13	mortelle	mortel	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -5481,7 +5481,7 @@
 5	invités	inviter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 6	à	à	ADP	_	_	7	mark	_	_
 7	respecter	respecter	VERB	_	VerbForm=Inf	5	acl	_	_
-8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
 9	certain	certain	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
 10	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	7	dobj	_	_
 11	de	de	ADP	_	_	12	case	_	_
@@ -5513,7 +5513,7 @@
 8	très	très	ADV	_	_	9	advmod	_	_
 9	rapidement	rapidement	ADV	_	_	10	advmod	_	_
 10	engagé	engager	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
 12	avocat	avocat	NOUN	_	Gender=Masc|Number=Sing	10	dobj	_	_
 13	très	très	ADV	_	_	14	advmod	_	_
 14	en	en	ADP	_	_	12	amod	_	_
@@ -5538,7 +5538,7 @@
 7	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	12	expl	_	_
 8	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 9	plutôt	plutôt	ADV	_	_	12	advmod	_	_
-10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	12	det	_	_
 11	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
 12	chose	chose	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 13	pour	pour	ADP	_	_	14	case	_	_
@@ -5572,7 +5572,7 @@
 10	Indépendant	Indépendant	PROPN	_	_	7	nmod	_	_
 11	--	--	PUNCT	_	_	7	punct	_	_
 12	comme	comme	ADV	_	_	14	mark	_	_
-13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	14	det	_	_
 14	postulant	postulant	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 15	sérieux	sérieux	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
 16	à	à	ADP	_	_	18	case	_	_
@@ -5599,7 +5599,7 @@
 36	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
 37	souligne	souligner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 38	dans	dans	ADP	_	_	41	case	_	_
-39	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	41	det	_	_
+39	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	41	det	_	_
 40	premier	premier	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	_
 41	temps	temps	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	_
 42	:	:	PUNCT	_	_	37	punct	_	_
@@ -5608,7 +5608,7 @@
 45	y	y	PRON	_	_	46	expl	_	_
 46	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	ccomp	_	_
 47	bien	bien	ADV	_	_	46	advmod	_	_
-48	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	50	det	_	_
+48	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	50	det	_	_
 49	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	50	det	_	_
 50	fumée	fumée	NOUN	_	Gender=Fem|Number=Sing	46	dobj	_	_
 51	,	,	PUNCT	_	_	37	punct	_	_
@@ -5664,7 +5664,7 @@
 5	baigné	baigner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	samedi	samedi	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 7	dans	dans	ADP	_	_	9	case	_	_
-8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	9	det	_	_
 9	station	station	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 10	balnéaire	balnéaire	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
 11	de	de	ADP	_	_	12	case	_	_
@@ -5717,7 +5717,7 @@
 
 # sentid: fr-ud-test_00191
 # sentence-text: Une marge nette d'intérêts solide et le contrôle des coûts ont permis au groupe, malgré la crise, de faire croître son bénéfice net de 0,7% en 2009 à 8,943 milliards d'euros, malgré 9,484 milliards de provisions pour créances douteuses.
-1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	marge	marge	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
 3	nette	net	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4	d'	de	ADP	_	_	5	case	_	_
@@ -5807,7 +5807,7 @@
 4	y	y	PRON	_	_	5	expl	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	ccomp	_	_
 6	pas	pas	ADV	_	_	5	neg	_	_
-7	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+7	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
 8	problème	problème	NOUN	_	Gender=Masc|Number=Sing	5	dobj	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	banlieue	banlieue	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
@@ -5968,7 +5968,7 @@
 42	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur	43	det	_	_
 43	dents	dent	NOUN	_	Gender=Fem|Number=Plur	39	nmod	_	_
 44	attaquaient	attaquer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-45	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	46	det	_	_
+45	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	46	det	_	_
 46	bureau	bureau	NOUN	_	Gender=Masc|Number=Sing	44	dobj	_	_
 47	de	de	ADP	_	_	48	case	_	_
 48	change	change	NOUN	_	Gender=Masc|Number=Sing	46	nmod	_	_
@@ -6033,7 +6033,7 @@
 3	tout	tout	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 4	saupoudré	saupoudrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
 5	d'	de	ADP	_	_	7	case	_	_
-6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
 7	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 8	gustatif	gustatif	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 9	plus	plus	ADV	_	_	11	advmod	_	_
@@ -6078,12 +6078,12 @@
 4	Benoit	Benoit	PROPN	_	_	1	nmod	_	_
 5	qui	qui	PRON	_	PronType=Rel	6	nsubj	_	_
 6	propose	proposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
-7	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Dem	10	det	_	_
+7	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
 8	très	très	ADV	_	_	9	advmod	_	_
 9	bonnes	bon	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
 10	tapas	tapa	NOUN	_	Gender=Fem|Number=Plur	6	dobj	_	_
 11	et	et	CONJ	_	_	10	cc	_	_
-12	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
+12	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
 13	plats	plat	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
 14	à	à	ADP	_	_	15	case	_	_
 15	tendance	tendance	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
@@ -6099,7 +6099,7 @@
 25	chichis	chichi	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
 26	et	et	CONJ	_	_	25	cc	_	_
 27	à	à	ADP	_	_	29	case	_	_
-28	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Dem	29	det	_	_
+28	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	29	det	_	_
 29	prix	prix	NOUN	_	Gender=Masc|Number=Plur	25	conj	_	_
 30	très	très	ADV	_	_	31	advmod	_	_
 31	doux	doux	ADJ	_	Gender=Masc|Number=Plur	29	amod	_	_
@@ -6143,7 +6143,7 @@
 28	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	29	nsubj	_	_
 29	passez	passer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	conj	_	_
 30	toujours	toujours	ADV	_	_	29	advmod	_	_
-31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	33	det	_	_
+31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	33	det	_	_
 32	bon	bon	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	_
 33	moment	moment	NOUN	_	Gender=Masc|Number=Sing	29	dobj	_	_
 34	,	,	PUNCT	_	_	3	punct	_	_
@@ -6160,7 +6160,7 @@
 2	Sol'Art	Sol'Art	PROPN	_	_	1	name	_	_
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
-5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	6	det	_	_
 6	entreprise	entreprise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 7	dont	dont	PRON	_	PronType=Rel	18	iobj	_	_
 8	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur	9	det	_	_
@@ -6227,7 +6227,7 @@
 17	autour	autour	ADV	_	_	16	advmod	_	_
 18	,	,	PUNCT	_	_	9	punct	_	_
 19	et	et	CONJ	_	_	16	cc	_	_
-20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
+20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	21	det	_	_
 21	giclée	giclée	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	_
 22	de	de	ADP	_	_	23	case	_	_
 23	vinaigre	vinaigre	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
@@ -6241,7 +6241,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	1	mwe	_	_
 3	sortir	sortir	NOUN	_	Gender=Masc|Number=Sing	1	mwe	_	_
 4	d'	de	ADP	_	_	1	mwe	_	_
-5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	6	det	_	_
 6	séance	séance	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	cinéma	cinéma	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
@@ -6250,11 +6250,11 @@
 11	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
 12	découvert	découvrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 13	dans	dans	ADP	_	_	15	case	_	_
-14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	15	det	_	_
 15	quartier	quartier	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 16	vivant	vivant	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
 17	,	,	PUNCT	_	_	12	punct	_	_
-18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	19	det	_	_
 19	adresse	adresse	NOUN	_	Gender=Fem|Number=Sing	12	dobj	_	_
 20	à	à	ADP	_	_	21	mark	_	_
 21	retenir	retenir	VERB	_	VerbForm=Inf	19	acl	_	_
@@ -6301,7 +6301,7 @@
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	auxpass	_	_
 9	assuré	assurer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	d'	de	ADP	_	_	12	case	_	_
-11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	12	det	_	_
 12	livraison	livraison	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 13	rapide	rapide	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
 14	dans	dans	ADP	_	_	17	case	_	_
@@ -6336,7 +6336,7 @@
 6	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	7	det	_	_
 7	acquisition	acquisition	NOUN	_	Gender=Fem|Number=Sing	5	dobj	_	_
 8	d'	de	ADP	_	_	10	case	_	_
-9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
 10	O'Hara	O'Hara	PROPN	_	_	7	nmod	_	_
 11	modèle	modèle	NOUN	_	Gender=Masc|Number=Sing	10	compound	_	_
 12	2010	2010	NUM	_	_	11	compound	_	_
@@ -6439,7 +6439,7 @@
 # sentence-text: C'est un lieu incontournable, car il permet de sentir la vie d'une famille qui respirait la sainteté.
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
 4	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	2	dobj	_	_
 5	incontournable	incontournable	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
 6	,	,	PUNCT	_	_	2	punct	_	_
@@ -6451,7 +6451,7 @@
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	13	det	_	_
 13	vie	vie	NOUN	_	Gender=Fem|Number=Sing	11	dobj	_	_
 14	d'	de	ADP	_	_	16	case	_	_
-15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	16	det	_	_
 16	famille	famille	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
 17	qui	qui	PRON	_	PronType=Rel	18	nsubj	_	_
 18	respirait	respirer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
@@ -6493,7 +6493,7 @@
 5	trouver	trouver	VERB	_	VerbForm=Inf	0	root	_	_
 6	très	très	ADV	_	_	7	advmod	_	_
 7	aisément	aisément	ADV	_	_	5	advmod	_	_
-8	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
+8	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
 9	préservatifs	préservatif	NOUN	_	Gender=Masc|Number=Plur	5	dobj	_	_
 10	usagés	usagé	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
 11	sur	sur	ADP	_	_	13	case	_	_
@@ -6523,7 +6523,7 @@
 18	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
 19	tombe	tomber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
 20	sur	sur	ADP	_	_	22	case	_	_
-21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	22	det	_	_
 22	hôtel	hôtel	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
 23	aussi	aussi	ADV	_	_	24	advmod	_	_
 24	pourri	pourri	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
@@ -6556,7 +6556,7 @@
 11	,	,	PUNCT	_	_	2	punct	_	_
 12	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	15	case	_	_
 13	à	à	ADP	_	_	12	mwe	_	_
-14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	15	det	_	_
 15	matériel	matériel	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 16	pédagogique	pédagogique	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
 17	spécifique	spécifique	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
@@ -6670,7 +6670,7 @@
 # sentid: fr-ud-test_00230
 # sentence-text: Enfin un bar à Paris où l'on peut trouver du mezcal et des bières mexicaines qui ne sont pas hors de prix.
 1	Enfin	enfin	ADV	_	_	3	advmod	_	_
-2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
 3	bar	bar	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 4	à	à	ADP	_	_	5	case	_	_
 5	Paris	Paris	PROPN	_	_	3	nmod	_	_
@@ -6682,7 +6682,7 @@
 11	du	du	DET	_	Gender=Masc|Number=Sing	12	det	_	_
 12	mezcal	mezcal	NOUN	_	Gender=Masc|Number=Sing	10	dobj	_	_
 13	et	et	CONJ	_	_	12	cc	_	_
-14	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Dem	15	det	_	_
+14	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	15	det	_	_
 15	bières	bière	NOUN	_	Gender=Fem|Number=Plur	12	conj	_	_
 16	mexicaines	mexicain	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	_
 17	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	_
@@ -6714,7 +6714,7 @@
 # sentid: fr-ud-test_00232
 # sentence-text: Et un jacuzzi minuscule.
 1	Et	et	CONJ	_	_	3	cc	_	_
-2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
 3	jacuzzi	jacuzzi	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 4	minuscule	minuscule	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 5	.	.	PUNCT	_	_	3	punct	_	_
@@ -6781,10 +6781,10 @@
 2	y	y	PRON	_	_	3	expl	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	même	même	ADV	_	_	3	advmod	_	_
-5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_
 6	café	café	NOUN	_	Gender=Masc|Number=Sing	3	dobj	_	_
 7	avec	avec	ADP	_	_	9	case	_	_
-8	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
+8	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
 9	pingouins	pingouin	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
 10	!	!	PUNCT	_	_	3	punct	_	_
 
@@ -6815,7 +6815,7 @@
 5	que	que	SCONJ	_	_	9	mark	_	_
 6	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	9	nsubj	_	_
 7	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
-8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
 9	système	système	NOUN	_	Gender=Masc|Number=Sing	4	ccomp	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	sécurité	sécurité	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
@@ -6850,7 +6850,7 @@
 1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 2	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_
 5	excellent	excellent	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 6	travail	travail	NOUN	_	Gender=Masc|Number=Sing	3	dobj	_	_
 
@@ -6879,7 +6879,7 @@
 11	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
 12	change	changer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 13	pas	pas	ADV	_	_	12	neg	_	_
-14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	15	det	_	_
 15	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	12	dobj	_	_
 16	qui	qui	PRON	_	PronType=Rel	17	nsubj	_	_
 17	gagne	gagner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
@@ -6906,7 +6906,7 @@
 6	ne	ne	PART	_	_	7	neg	_	_
 7	faire	faire	VERB	_	VerbForm=Inf	4	acl	_	_
 8	qu'	que	SCONJ	_	_	7	expl	_	_
-9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	10	det	_	_
 10	coupe	coupe	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
 11	+	+	SYM	_	_	10	cc	_	_
 12	balayage	balayage	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
@@ -6917,7 +6917,7 @@
 1	J'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	installé	installer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
 5	chaudière	chaudière	NOUN	_	Gender=Fem|Number=Sing	3	dobj	_	_
 6	à	à	ADP	_	_	7	case	_	_
 7	condensation	condensation	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
@@ -6928,7 +6928,7 @@
 12	initialement	initialement	ADV	_	_	13	advmod	_	_
 13	chauffée	chauffer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
 14	par	par	ADP	_	_	16	case	_	_
-15	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Dem	16	det	_	_
+15	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
 16	radiateurs	radiateur	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
 17	électriques	électrique	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
 18	.	.	PUNCT	_	_	3	punct	_	_
@@ -6945,7 +6945,7 @@
 8	cherchant	chercher	VERB	_	Tense=Pres|VerbForm=Part	3	advcl	_	_
 9	sur	sur	ADP	_	_	10	case	_	_
 10	Google	Google	PROPN	_	_	8	nmod	_	_
-11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
 12	coiffeur	coiffeur	NOUN	_	Gender=Masc|Number=Sing	8	dobj	_	_
 13	à	à	ADP	_	_	14	case	_	_
 14	domicile	domicile	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
@@ -6967,7 +6967,7 @@
 5	2	2	NUM	_	_	6	nummod	_	_
 6	fois	fois	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
 7	à	à	ADP	_	_	9	case	_	_
-8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	9	det	_	_
 9	semaine	semaine	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 10	d'	de	ADP	_	_	11	case	_	_
 11	intervalle	intervalle	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
@@ -6993,7 +6993,7 @@
 9	qui	qui	PRON	_	PronType=Rel	11	nsubj	_	_
 10	veulent	vouloir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	faire	faire	VERB	_	VerbForm=Inf	8	acl:relcl	_	_
-12	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Dem	14	det	_	_
+12	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	14	det	_	_
 13	réelles	réel	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	_
 14	économies	économie	NOUN	_	Gender=Fem|Number=Plur	11	dobj	_	_
 15	!	!	PUNCT	_	_	2	punct	_	_
@@ -7018,7 +7018,7 @@
 16	parlé	parler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	44	advcl	_	_
 17	d'	de	ADP	_	_	18	mark	_	_
 18	ouvrir	ouvrir	VERB	_	VerbForm=Inf	16	acl	_	_
-19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
+19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	20	det	_	_
 20	centre	centre	NOUN	_	Gender=Masc|Number=Sing	18	dobj	_	_
 21	consacré	consacrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
 22-23	au	_	_	_	_	_	_	_	_
@@ -7056,7 +7056,7 @@
 4	que	que	SCONJ	_	_	8	mark	_	_
 5	cela	cela	PRON	_	Number=Sing|PronType=Dem	8	nsubj	_	_
 6	soit	être	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	8	det	_	_
 8	chambre	chambre	NOUN	_	Gender=Fem|Number=Sing	2	ccomp	_	_
 9	économique	économique	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
 10	(	(	PUNCT	_	_	12	punct	_	_
@@ -7188,7 +7188,7 @@
 16	de	de	ADP	_	_	17	case	_	_
 17	celle	celui	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	15	nmod	_	_
 18	d'	de	ADP	_	_	20	case	_	_
-19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
+19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	20	det	_	_
 20	Pub	pub	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
 21	anglais	anglais	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
 22	,	,	PUNCT	_	_	11	punct	_	_
@@ -7243,7 +7243,7 @@
 16	n'	ne	PART	_	_	20	neg	_	_
 17	étaient	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
 18	que	que	SCONJ	_	_	20	expl	_	_
-19	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Dem	20	det	_	_
+19	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	20	det	_	_
 20	habitués	habitué	NOUN	_	Gender=Masc|Number=Plur	2	parataxis	_	_
 21	,	,	PUNCT	_	_	20	punct	_	_
 22	et	et	CONJ	_	_	20	cc	_	_
@@ -7301,7 +7301,7 @@
 6	élevés	élevé	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
 7	que	que	SCONJ	_	_	11	mark	_	_
 8	dans	dans	ADP	_	_	11	case	_	_
-9	d'	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Dem	11	det	_	_
+9	d'	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
 10	autres	autre	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
 11	boutiques	boutique	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
 12	mais	mais	CONJ	_	_	6	cc	_	_
@@ -7339,7 +7339,7 @@
 1	Madame	Monsieur	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 2	Tellier	Tellier	PROPN	_	_	1	name	_	_
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
-4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	6	det	_	_
 5	excellente	excellent	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 6	comptable	comptable	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 7	que	que	PRON	_	PronType=Rel	9	dobj	_	_
@@ -7461,13 +7461,13 @@
 7	145	145	NUM	_	_	8	nummod	_	_
 8	€	euro	NOUN	_	Gender=Masc|Number=Sing	3	dobj	_	_
 9	pour	pour	ADP	_	_	11	case	_	_
-10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	11	det	_	_
 11	entrée	entrée	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 12	,	,	PUNCT	_	_	11	punct	_	_
-13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	14	det	_	_
 14	plat	plat	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
 15	et	et	CONJ	_	_	11	cc	_	_
-16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	17	det	_	_
 17	dessert	dessert	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
 18	(	(	PUNCT	_	_	20	punct	_	_
 19	sans	sans	ADP	_	_	20	case	_	_
@@ -7574,7 +7574,7 @@
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	18	det	_	_
 18	Montblanc	Montblanc	PROPN	_	_	15	nmod	_	_
 19	accompagne	accompagner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
-20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
+20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	21	det	_	_
 21	repas	repas	NOUN	_	Gender=Masc|Number=Sing	19	dobj	_	_
 22	succulent	succulent	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
 23	qui	qui	PRON	_	PronType=Rel	25	nsubj	_	_
@@ -7624,7 +7624,7 @@
 7	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	besoin	besoin	NOUN	_	Gender=Masc|Number=Sing	7	dobj	_	_
 9	d'	de	ADP	_	_	11	case	_	_
-10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	11	det	_	_
 11	paire	paire	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 12	de	de	ADP	_	_	13	case	_	_
 13	lunette	lunette	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
@@ -7640,12 +7640,12 @@
 23	de	de	ADP	_	_	24	mark	_	_
 24	trouver	trouver	VERB	_	VerbForm=Inf	22	acl	_	_
 25	dans	dans	ADP	_	_	30	case	_	_
-26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	30	det	_	_
+26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	30	det	_	_
 27	seule	seul	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	_
 28	et	et	CONJ	_	_	27	cc	_	_
 29	même	même	ADJ	_	Gender=Fem|Number=Sing	27	conj	_	_
 30	boutique	boutique	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
-31	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Dem	32	det	_	_
+31	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	32	det	_	_
 32	montures	monture	NOUN	_	Gender=Fem|Number=Plur	24	dobj	_	_
 33	tendance	tendance	NOUN	_	Gender=Fem|Number=Sing	32	compound	_	_
 34	dans	dans	ADP	_	_	38	case	_	_
@@ -7670,7 +7670,7 @@
 53	quelque	quelque	DET	_	Number=Sing	32	conj	_	_
 54	chose	chose	NOUN	_	Gender=Fem|Number=Sing	53	mwe	_	_
 55	d'	de	ADP	_	_	59	case	_	_
-56	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	58	advmod	_	_
+56	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	58	advmod	_	_
 57	peu	peu	ADV	_	_	56	mwe	_	_
 58	plus	plus	ADV	_	_	59	advmod	_	_
 59	classique	classique	ADJ	_	Gender=Fem|Number=Sing	53	amod	_	_
@@ -7745,7 +7745,7 @@
 8	paisiblement	paisiblement	ADV	_	_	9	advmod	_	_
 9	séjourné	séjourner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
 10	dans	dans	ADP	_	_	12	case	_	_
-11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	12	det	_	_
 12	chambre	chambre	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 13	aussi	aussi	ADV	_	_	14	advmod	_	_
 14	confortable	confortable	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
@@ -7848,7 +7848,7 @@
 1	Temps	temps	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	d'	de	ADP	_	_	3	case	_	_
 3	attente	attente	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	6	advmod	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	6	advmod	_	_
 5	peu	peu	ADV	_	_	4	mwe	_	_
 6	long	long	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 7	mais	mais	CONJ	_	_	1	cc	_	_
@@ -7871,7 +7871,7 @@
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 5	y	y	PRON	_	_	6	expl	_	_
 6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Dem	8	det	_	_
+7	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
 8	pizzeria	pizzeria	NOUN	_	Gender=Fem|Number=Sing	6	dobj	_	_
 9	meilleure	meilleur	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
 10	et	et	CONJ	_	_	8	cc	_	_
@@ -7881,7 +7881,7 @@
 
 # sentid: fr-ud-test_00288
 # sentence-text: Un endroit simple, propre et bien entretenu, une équipe sympa, un cocktail idéal pour des vacances en famille.
-1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	endroit	endroit	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	simple	simple	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 4	,	,	PUNCT	_	_	3	punct	_	_
@@ -7890,15 +7890,15 @@
 7	bien	bien	ADV	_	_	8	advmod	_	_
 8	entretenu	entretenu	ADJ	_	Gender=Masc|Number=Sing	3	conj	_	_
 9	,	,	PUNCT	_	_	2	punct	_	_
-10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	11	det	_	_
 11	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
 12	sympa	sympa	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
 13	,	,	PUNCT	_	_	2	punct	_	_
-14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	15	det	_	_
 15	cocktail	cocktail	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
 16	idéal	idéal	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
 17	pour	pour	ADP	_	_	19	case	_	_
-18	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Dem	19	det	_	_
+18	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	19	det	_	_
 19	vacances	vacance	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
 20	en	en	ADP	_	_	21	case	_	_
 21	famille	famille	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
@@ -7915,12 +7915,12 @@
 7	commentaire	commentaire	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 8	pourra	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	aux	_	_
 9	prouver	prouver	VERB	_	VerbForm=Inf	4	ccomp	_	_
-10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	9	advmod	_	_
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	9	advmod	_	_
 11	peu	peu	ADV	_	_	10	mwe	_	_
 12	que	que	SCONJ	_	_	16	mark	_	_
 13	Mendes	Mendes	PROPN	_	_	16	nsubj	_	_
 14	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
-15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
 16	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	9	ccomp	_	_
 17	où	où	PRON	_	PronType=Rel	19	advmod	_	_
 18	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
@@ -7931,7 +7931,7 @@
 23	apprend	apprendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
 24	mais	mais	CONJ	_	_	16	cc	_	_
 25	surtout	surtout	ADV	_	_	27	advmod	_	_
-26	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	27	det	_	_
+26	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	27	det	_	_
 27	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	_
 28	où	où	PRON	_	PronType=Rel	30	advmod	_	_
 29	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	30	nsubj	_	_
@@ -7958,7 +7958,7 @@
 8	grande	grand	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
 9	naîveté	naïveté	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 10	qu'	que	SCONJ	_	_	14	mark	_	_
-11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
 12	service	service	NOUN	_	Gender=Masc|Number=Sing	14	nsubjpass	_	_
 13	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	auxpass	_	_
 14	proposé	proposer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
@@ -8081,7 +8081,7 @@
 
 # sentid: fr-ud-test_00297
 # sentence-text: un café 17 euros !
-1	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+1	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	café	café	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	17	17	NUM	_	_	4	nummod	_	_
 4	euros	euro	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
@@ -8095,7 +8095,7 @@
 4	goût	goût	NOUN	_	Gender=Masc|Number=Sing	2	dobj	_	_
 5	d'	de	ADP	_	_	6	mark	_	_
 6	avoir	avoir	VERB	_	VerbForm=Inf	4	acl	_	_
-7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	9	det	_	_
 8	"	"	PUNCT	_	_	9	punct	_	_
 9	bedaine	bedaine	NOUN	_	Gender=Fem|Number=Sing	6	dobj	_	_
 10	"	"	PUNCT	_	_	9	punct	_	_

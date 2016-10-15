@@ -819,7 +819,7 @@
 14-15	au	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	16	det	_	_
-16	Maroc	Maroc	PROPN	_	_	5	nmod	_	_
+16	Maroc	Maroc	PROPN	_	_	4	nmod	_	_
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	20	det	_	_
@@ -3130,7 +3130,7 @@
 7	depuis	depuis	ADP	_	_	10	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	10	det	_	_
 9	3	3	NUM	_	_	10	nummod	_	_
-10	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+10	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 11	1997	1997	NUM	_	_	10	nmod	_	_
 12	.	.	PUNCT	_	_	4	S:punct	_	_
 
@@ -7355,24 +7355,24 @@
 7	de	de	ADP	_	_	8	case	_	_
 8	Danie	Danie	PROPN	_	_	6	nmod	_	_
 9	Craven	Craven	PROPN	_	_	8	name	_	_
-10	,	,	PUNCT	_	_	3	S:punct	_	_
-11	membre	membre	NOUN	_	Gender=Masc|Number=Sing	3	D:xcomp	_	_
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	membre	membre	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	14	det	_	_
 14	université	université	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	Stellenbosch	Stellenbosch	PROPN	_	_	14	nmod	_	_
-17	,	,	PUNCT	_	_	3	S:punct	_	_
+17	,	,	PUNCT	_	_	11	S:punct	_	_
 18	ancien	ancien	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
 19	joueur	joueur	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
 20	de	de	ADP	_	_	22	case	_	_
 21	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	22	det	_	_
 22	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
 23	nationale	national	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
-24	,	,	PUNCT	_	_	3	S:punct	_	_
-25	puis	puis	ADV	_	_	26	advmod	_	_
+24	,	,	PUNCT	_	_	11	S:punct	_	_
+25	puis	puis	ADV	_	_	11	cc	_	_
 26	entraîneur	entraîneur	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
-27	,	,	PUNCT	_	_	3	S:punct	_	_
+27	,	,	PUNCT	_	_	11	S:punct	_	_
 28	et	et	CONJ	_	_	11	cc	_	_
 29	enfin	enfin	ADV	_	_	30	advmod	_	_
 30	dirigeant	dirigeant	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
@@ -10951,7 +10951,7 @@
 10	,	,	PUNCT	_	_	5	S:punct	_	_
 11	par	par	ADP	_	_	13	case	_	_
 12	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur	13	det	_	_
-13	anglophones	anglophones	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+13	anglophones	anglophones	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
 14	notamment	notamment	ADV	_	_	13	advmod	_	_
 15	)	)	PUNCT	_	_	5	S:punct	_	_
 16	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
@@ -13042,7 +13042,7 @@
 17	,	,	PUNCT	_	_	5	S:punct	_	_
 18	vers	vers	ADP	_	_	20	case	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	20	det	_	_
-20	fin	fin	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+20	fin	fin	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 21-22	du	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	24	case	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	24	det	_	_
@@ -13050,7 +13050,7 @@
 24	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 25	,	,	PUNCT	_	_	5	S:punct	_	_
 26	à	à	ADP	_	_	27	case	_	_
-27	cause	cause	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+27	cause	cause	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 28	,	,	PUNCT	_	_	27	punct	_	_
 29	précisément	précisément	ADV	_	_	27	advmod	_	_
 30	,	,	PUNCT	_	_	27	punct	_	_
@@ -13069,7 +13069,7 @@
 43	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	cop	_	_
 44	qu'	que	ADV	_	_	46	advmod	_	_
 45	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	46	det	_	_
-46	dérivé	dérivé	NOUN	_	Gender=Masc|Number=Sing	7	advcl	_	_
+46	dérivé	dérivé	NOUN	_	Gender=Masc|Number=Sing	5	advcl	_	_
 47-48	du	_	_	_	_	_	_	_	_
 47	de	de	ADP	_	_	49	case	_	_
 48	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	49	det	_	_
@@ -15947,7 +15947,7 @@
 17	de	de	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	19	det	_	_
 19	Panshir	Panshir	PROPN	_	_	16	nmod	_	_
-20	,	,	PUNCT	_	_	6	S:punct	_	_
+20	,	,	PUNCT	_	_	14	S:punct	_	_
 21	dans	dans	ADP	_	_	22	case	_	_
 22	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	24	nmod	_	_
 23	s'	se	PRON	_	Person=3|PronType=Prs	24	dobj	_	_
@@ -17400,11 +17400,11 @@
 9	,	,	PUNCT	_	_	2	S:punct	_	_
 10	en	en	ADP	_	_	12	case	_	_
 11	même	même	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
-12	temps	temps	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+12	temps	temps	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 13	qu'	que	ADP	_	_	16	case	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
 15	autre	autre	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
-16	felquiste	felquiste	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+16	felquiste	felquiste	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 17	Jean	Jean	PROPN	_	_	16	appos	_	_
 18	Denis	Denis	PROPN	_	_	17	name	_	_
 19	Lamoureux	Lamoureux	PROPN	_	_	17	name	_	_
@@ -17620,11 +17620,11 @@
 2	prêtre	prêtre	NOUN	_	Gender=Masc|Number=Sing	1	D:xcomp	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	5	det	_	_
 4	19	19	NUM	_	_	5	nummod	_	_
-5	juin	juin	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	juin	juin	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 6	1982	1982	NUM	_	_	5	nmod	_	_
 7	pour	pour	ADP	_	_	9	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	9	det	_	_
-9	diocèse	diocèse	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+9	diocèse	diocèse	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	Nanterre	Nanterre	PROPN	_	_	9	nmod	_	_
 12	,	,	PUNCT	_	_	1	S:punct	_	_
@@ -19382,7 +19382,7 @@
 16	,	,	PUNCT	_	_	3	S:punct	_	_
 17	dans	dans	ADP	_	_	19	case	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	19	det	_	_
-19	coalition	coalition	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+19	coalition	coalition	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 20-21	du	_	_	_	_	_	_	_	_
 20	de	de	ADP	_	_	22	case	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	22	det	_	_
@@ -19648,7 +19648,7 @@
 1	Passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
 2	professionnel	professionnel	NOUN	_	Gender=Masc|Number=Sing	1	D:xcomp	_	_
 3	en	en	ADP	_	_	4	case	_	_
-4	1973	1973	NUM	_	_	2	nmod	_	_
+4	1973	1973	NUM	_	_	1	nmod	_	_
 5	,	,	PUNCT	_	_	1	S:punct	_	_
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	S:nsubj	_	_
 7	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -23696,7 +23696,7 @@
 10	d'	de	ADP	_	_	11	case	_	_
 11	Auvergne	Auvergne	PROPN	_	_	8	nmod	_	_
 12	,	,	PUNCT	_	_	2	S:punct	_	_
-13	battant	battre	VERB	_	Tense=Pres|VerbForm=Part	5	advcl	_	_
+13	battant	battre	VERB	_	Tense=Pres|VerbForm=Part	2	advcl	_	_
 14	Valéry	Valéry	PROPN	_	_	13	dobj	_	_
 15	Giscard	Giscard	PROPN	_	_	14	name	_	_
 16	d'	d'	PROPN	_	_	17	case	_	_
@@ -24954,9 +24954,9 @@
 5	symptomatique	symptomatique	ADJ	_	Gender=Fem|Number=Sing	4	D:xcomp	_	_
 6	rapidement	rapidement	ADV	_	_	4	S:advmod	_	_
 7	,	,	PUNCT	_	_	4	S:punct	_	_
-8	mais	mais	CONJ	_	_	5	cc	_	_
+8	mais	mais	CONJ	_	_	4	cc	_	_
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
-10	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+10	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 11	qu'	que	SCONJ	_	_	13	S:mark	_	_
 12	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	S:nsubj	_	_
 13	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
@@ -27207,7 +27207,7 @@
 15	Promotion	Promotion	PROPN	_	_	14	D:xcomp	_	_
 16	,	,	PUNCT	_	_	14	S:punct	_	_
 17	en	en	ADP	_	_	18	case	_	_
-18	1909	1909	NUM	_	_	15	nmod	_	_
+18	1909	1909	NUM	_	_	2	nmod	_	_
 19	.	.	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-dev_00984
@@ -28843,7 +28843,7 @@
 13-14	au	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	15	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	15	det	_	_
-15	Vermont	Vermont	PROPN	_	_	7	nmod	_	_
+15	Vermont	Vermont	PROPN	_	_	6	nmod	_	_
 16	.	.	PUNCT	_	_	6	S:punct	_	_
 
 # sentid: fr-ud-dev_01037
@@ -29092,7 +29092,7 @@
 5	Bacis	Bacis	PROPN	_	_	4	D:xcomp	_	_
 6	Hairstreak	Hairstreak	PROPN	_	_	5	name	_	_
 7	en	en	ADP	_	_	8	case	_	_
-8	anglais	anglais	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8	anglais	anglais	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 9	.	.	PUNCT	_	_	4	S:punct	_	_
 
 # sentid: fr-ud-dev_01047
@@ -30376,7 +30376,7 @@
 8	de	de	ADP	_	_	10	case	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	10	det	_	_
 10	Culture	Culture	PROPN	_	_	7	nmod	_	_
-11	,	,	PUNCT	_	_	6	S:punct	_	_
+11	,	,	PUNCT	_	_	7	punct	_	_
 12	poste	poste	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	_
 13	qu'	que	PRON	_	PronType=Rel	15	dobj	_	_
 14	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
@@ -31292,12 +31292,12 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	5	det	_	_
 5	paysage	paysage	NOUN	_	Gender=Masc|Number=Sing	6	S:nsubj	_	_
 6	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	plus	plus	ADV	_	_	6	S:advmod	_	_
+7	plus	plus	ADV	_	_	8	advmod	_	_
 8	vallonné	vallonné	ADJ	_	Gender=Masc|Number=Sing	6	D:xcomp	_	_
-9	et	et	CONJ	_	_	8	cc	_	_
+9	et	et	CONJ	_	_	6	cc	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	11	det	_	_
 11	route	route	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
-12	serpente	serpenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+12	serpente	serpenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 13-14	au	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	15	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	15	det	_	_
@@ -31484,10 +31484,10 @@
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	12	det	_	_
 12	politique	politique	NOUN	_	Gender=Fem|Number=Sing	13	S:nsubj	_	_
 13	devint	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-14	plus	plus	ADV	_	_	13	S:advmod	_	_
+14	plus	plus	ADV	_	_	15	advmod	_	_
 15	importante	important	ADJ	_	Gender=Fem|Number=Sing	13	D:xcomp	_	_
 16	dans	dans	ADP	_	_	17	case	_	_
-17	Bild	Bild	PROPN	_	_	15	nmod	_	_
+17	Bild	Bild	PROPN	_	_	13	nmod	_	_
 18	.	.	PUNCT	_	_	13	S:punct	_	_
 
 # sentid: fr-ud-dev_01136
@@ -32673,7 +32673,7 @@
 7	,	,	PUNCT	_	_	9	S:punct	_	_
 8	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	S:nsubj	_	_
 9	restent	rester	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	9	S:advmod	_	_
+10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	14	advmod	_	_
 11	ne	ne	PART	_	_	10	mwe	_	_
 12	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mwe	_	_
 13	plus	plus	ADV	_	_	10	mwe	_	_
@@ -38078,8 +38078,8 @@
 5	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	militant	militant	NOUN	_	Gender=Masc|Number=Sing	5	D:xcomp	_	_
 7	syndicaliste	syndicaliste	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
-8	et	et	CONJ	_	_	6	cc	_	_
-9	adhère	adhérer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+8	et	et	CONJ	_	_	5	cc	_	_
+9	adhère	adhérer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
 10-11	au	_	_	_	_	_	_	_	_
 10	à	à	ADP	_	_	12	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	12	det	_	_
@@ -43614,7 +43614,7 @@
 4	Cachoubie	Cachoubie	PROPN	_	_	2	nmod	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	S:aux	_	_
 6	réputée	réputer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-7	plus	plus	ADV	_	_	6	S:advmod	_	_
+7	plus	plus	ADV	_	_	8		advmod	_	_
 8	savoureuse	savoureux	ADJ	_	Gender=Fem|Number=Sing	6	D:xcomp	_	_
 9	(	(	PUNCT	_	_	11	punct	_	_
 10	73	73	NUM	_	_	11	nummod	_	_

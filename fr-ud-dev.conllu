@@ -7807,7 +7807,7 @@
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sentid: fr-ud-dev_00279
-# sentence-text: Il joua à la Sampdoria, à la Juventus (pour qui il joua son premier match le lors d'une défaite contre le Milan 4-3 en Serie A) et au Milan AC, remportant des titres au niveaux national et européen.
+# sentence-text: Il joua à la Sampdoria, à la Juventus (pour qui il joua son premier match le 6 novembre 1960 lors d'une défaite contre le Milan 4-3 en Serie A) et au Milan AC, remportant des titres au niveaux national et européen.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	joua	jouer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	à	à	ADP	_	_	5	case	_	_
@@ -7825,37 +7825,40 @@
 15	son	son	DET	_	Gender=Masc|Number=Sing	17	nmod:poss	_	_
 16	premier	premier	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
 17	match	match	NOUN	_	Gender=Masc|Number=Sing	14	dobj	_	_
-18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	14	dep	_	_
-19	lors	lors	ADV	_	_	22	case	_	_
-20	d'	de	ADP	_	_	19	mwe	_	_
-21	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	22	det	_	_
-22	défaite	défaite	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
-23	contre	contre	ADP	_	_	25	case	_	_
-24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	25	det	_	_
-25	Milan	Milan	PROPN	_	_	22	nmod	_	_
-26	4-3	4-3	NUM	_	_	22	appos	_	_
-27	en	en	ADP	_	_	28	case	_	_
-28	Serie	Serie	PROPN	_	_	22	nmod	_	_
-29	A	A	PROPN	_	_	28	appos	_	_
-30	)	)	PUNCT	_	_	14	punct	_	_
-31	et	et	CONJ	_	_	5	cc	_	_
-32-33	au	_	_	_	_	_	_	_	_
-32	à	à	ADP	_	_	34	case	_	_
-33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	34	det	_	_
-34	Milan	Milan	PROPN	_	_	5	conj	_	_
-35	AC	AC	X	_	_	34	name	_	_
-36	,	,	PUNCT	_	_	2	punct	_	_
-37	remportant	remporter	VERB	_	Tense=Pres|VerbForm=Part	2	advcl	_	_
-38	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	39	det	_	_
-39	titres	titre	NOUN	_	Gender=Masc|Number=Plur	37	dobj	_	_
-40-41	au	_	_	_	_	_	_	_	_
-40	à	à	ADP	_	_	42	case	_	_
-41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	42	det	_	_
-42	niveaux	niveau	NOUN	_	Gender=Masc|Number=Plur	37	nmod	_	_
-43	national	national	ADJ	_	Gender=Masc|Number=Sing	42	amod	_	_
-44	et	et	CONJ	_	_	43	cc	_	_
-45	européen	européen	ADJ	_	Gender=Masc|Number=Sing	43	conj	_	_
-46	.	.	PUNCT	_	_	2	punct	_	_
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	20	dep	_	_
+19	6	6	NUM	_	_	20	nummod	_	_
+20	novembre	novembre	_	_	Gender=Masc|Number=Sing	14	nmod	_	_
+21	1960	1960	NUM	_	_	20	mod	_	_
+22	lors	lors	ADV	_	_	25	case	_	_
+23	d'	de	ADP	_	_	22	mwe	_	_
+24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	25	det	_	_
+25	défaite	défaite	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+26	contre	contre	ADP	_	_	28	case	_	_
+27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	28	det	_	_
+28	Milan	Milan	PROPN	_	_	25	nmod	_	_
+29	4-3	4-3	NUM	_	_	25	appos	_	_
+30	en	en	ADP	_	_	31	case	_	_
+31	Serie	Serie	PROPN	_	_	25	nmod	_	_
+32	A	A	PROPN	_	_	31	appos	_	_
+33	)	)	PUNCT	_	_	14	punct	_	_
+34	et	et	CONJ	_	_	5	cc	_	_
+35-36	au	_	_	_	_	_	_	_	_
+35	à	à	ADP	_	_	37	case	_	_
+36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	37	det	_	_
+37	Milan	Milan	PROPN	_	_	5	conj	_	_
+38	AC	AC	X	_	_	37	name	_	_
+39	,	,	PUNCT	_	_	2	punct	_	_
+40	remportant	remporter	VERB	_	Tense=Pres|VerbForm=Part	2	advcl	_	_
+41	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	42	det	_	_
+42	titres	titre	NOUN	_	Gender=Masc|Number=Plur	40	dobj	_	_
+43-44	au	_	_	_	_	_	_	_	_
+43	à	à	ADP	_	_	45	case	_	_
+44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	45	det	_	_
+45	niveaux	niveau	NOUN	_	Gender=Masc|Number=Plur	40	nmod	_	_
+46	national	national	ADJ	_	Gender=Masc|Number=Sing	45	amod	_	_
+47	et	et	CONJ	_	_	46	cc	_	_
+48	européen	européen	ADJ	_	Gender=Masc|Number=Sing	46	conj	_	_
+49	.	.	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-dev_00280
 # sentence-text: Fils de l'usurpateur Schahr-Barâz, il tente de s'imposer en 630/631 après la destitution de la reine Bûrândûkht mais il doit faire face aux candidats « sassanides légitimes » au trône, Khosro III et Péroz II.
@@ -8462,7 +8465,7 @@
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-dev_00303
-# sentence-text: Champdeuil est un village qui a toujours été à orientation agricole, même si le l'a transformé aussi en lieu résidentiel.
+# sentence-text: Champdeuil est un village qui a toujours été à orientation agricole, même si le XXe siècle l'a transformé aussi en lieu résidentiel.
 1	Champdeuil	Champdeuil	PROPN	_	_	4	nsubj	_	_
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
@@ -8476,16 +8479,18 @@
 11	agricole	agricole	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
 12	,	,	PUNCT	_	_	8	punct	_	_
 13	même	même	ADV	_	_	14	advmod	_	_
-14	si	si	SCONJ	_	_	18	mark	_	_
-15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	18	dep	_	_
-16	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	18	dobj	_	_
-17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
-18	transformé	transformer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
-19	aussi	aussi	ADV	_	_	18	advmod	_	_
-20	en	en	ADP	_	_	21	case	_	_
-21	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
-22	résidentiel	résidentiel	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
-23	.	.	PUNCT	_	_	4	punct	_	_
+14	si	si	SCONJ	_	_	20	mark	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	17	det	_	_
+16	XXe	XXe	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
+17	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
+18	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	20	dobj	_	_
+19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	transformé	transformer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+21	aussi	aussi	ADV	_	_	20	advmod	_	_
+22	en	en	ADP	_	_	23	case	_	_
+23	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+24	résidentiel	résidentiel	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
+25	.	.	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-dev_00304
 # sentence-text: Il a ensuite été entraîneur, ainsi que sélectionneur de l'équipe d'Angleterre.
@@ -23740,9 +23745,9 @@
 24	.	.	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-dev_00859
-# sentence-text: La 60 cérémonie des Primetime Emmy Awards, organisée par l'Académie des arts et des sciences de la télévision et récompensant les séries télévisées diffusées au cours de la saison 2007-2008, s'est déroulée le au Nokia Theater de Los Angeles.
+# sentence-text: La 60e cérémonie des Primetime Emmy Awards, organisée par l'Académie des arts et des sciences de la télévision et récompensant les séries télévisées diffusées au cours de la saison 2007-2008, s'est déroulée le 21 septembre 2008 au Nokia Theater de Los Angeles.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	3	det	_	_
-2	60	60	NUM	_	_	3	nummod	_	_
+2	60e	60e	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	cérémonie	cérémonie	NOUN	_	Gender=Fem|Number=Sing	40	nsubj	_	_
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
@@ -23785,16 +23790,19 @@
 38	s'	se	PRON	_	Person=3|PronType=Prs	40	dobj	_	_
 39	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
 40	déroulée	dérouler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	40	dep	_	_
-42-43	au	_	_	_	_	_	_	_	_
-42	à	à	ADP	_	_	44	case	_	_
-43	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	44	det	_	_
-44	Nokia	Nokia	PROPN	_	_	40	nmod	_	_
-45	Theater	Theater	PROPN	_	_	44	name	_	_
-46	de	de	ADP	_	_	47	case	_	_
-47	Los	Los	PROPN	_	_	44	nmod	_	_
-48	Angeles	Angeles	PROPN	_	_	47	name	_	_
-49	.	.	PUNCT	_	_	40	punct	_	_
+41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	43	dep	_	_
+42	21	21	NUM	_	_	43	nummod	_	_
+43	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	_
+44	2008	2008	NUM	_	_	43	nmod	_	_
+45-46	au	_	_	_	_	_	_	_	_
+45	à	à	ADP	_	_	47	case	_	_
+46	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	47	det	_	_
+47	Nokia	Nokia	PROPN	_	_	40	nmod	_	_
+48	Theater	Theater	PROPN	_	_	47	name	_	_
+49	de	de	ADP	_	_	50	case	_	_
+50	Los	Los	PROPN	_	_	47	nmod	_	_
+51	Angeles	Angeles	PROPN	_	_	50	name	_	_
+52	.	.	PUNCT	_	_	40	punct	_	_
 
 # sentid: fr-ud-dev_00860
 # sentence-text: Je vous recommande la fondue avec son pain de campagne et la crêpe au coulis de fraise maison en dessert.

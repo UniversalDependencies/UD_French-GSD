@@ -4062,27 +4062,27 @@
 # sentid: fr-ud-dev_00148
 # sentence-text: Pour elle, « s'attaquer à l'immigration clandestine, c'est aussi s'attaquer à la misère humaine ».
 1	Pour	pour	ADP	_	_	2	case	_	_
-2	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nmod	_	_
-3	,	,	PUNCT	_	_	14	punct	_	_
-4	«	«	PUNCT	_	_	14	punct	_	_
+2	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nmod	_	_
+3	,	,	PUNCT	_	_	16	punct	_	_
+4	«	«	PUNCT	_	_	16	punct	_	_
 5	s'	se	PRON	_	Person=3|PronType=Prs	6	dobj	_	_
-6	attaquer	attaquer	VERB	_	VerbForm=Inf	14	csubj	_	_
+6	attaquer	attaquer	VERB	_	VerbForm=Inf	16	csubj	_	_
 7	à	à	ADP	_	_	9	case	_	_
 8	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	9	det	_	_
 9	immigration	immigration	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 10	clandestine	clandestin	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
-11	,	,	PUNCT	_	_	14	punct	_	_
-12	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	14	expl	_	_
-13	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
-14	aussi	aussi	ADV	_	_	0	root	_	_
+11	,	,	PUNCT	_	_	16	punct	_	_
+12	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	16	expl	_	_
+13	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	aussi	aussi	ADV	_	_	16	advmod	_	_
 15	s'	se	PRON	_	Person=3|PronType=Prs	16	dobj	_	_
-16	attaquer	attaquer	VERB	_	VerbForm=Inf	14	ccomp	_	_
+16	attaquer	attaquer	VERB	_	VerbForm=Inf	0	root	_	_
 17	à	à	ADP	_	_	19	case	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	19	det	_	_
 19	misère	misère	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
 20	humaine	humain	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
-21	»	»	PUNCT	_	_	14	punct	_	_
-22	.	.	PUNCT	_	_	14	punct	_	_
+21	»	»	PUNCT	_	_	16	punct	_	_
+22	.	.	PUNCT	_	_	16	punct	_	_
 
 # sentid: fr-ud-dev_00149
 # sentence-text: C'est Au Bonheur du Jour qu'il faut aller : on trouve toujours quelque chose à offrir, pas commun, et qui fera plaisir !
@@ -24464,7 +24464,7 @@
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	13	det	_	_
 13	démocratie	démocratie	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
 14	se	se	PRON	_	Person=3|PronType=Prs	15	dobj	_	_
-15	doit	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+15	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
 16	d'	de	ADP	_	_	18	mark	_	_
 17	être	être	VERB	_	VerbForm=Inf	18	cop	_	_
 18	exemplaire	exemplaire	ADJ	_	Gender=Fem|Number=Sing	15	xcomp	_	_

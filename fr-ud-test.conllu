@@ -302,7 +302,7 @@
 43	montres	montre	NOUN	_	Gender=Fem|Number=Plur	47	nmod	_	_
 44	:	:	PUNCT	_	_	47	punct	_	_
 45	100	100	NUM	_	_	46	nummod	_	_
-46	%	pourcent	NOUN	_	Gender=Masc|Number=Sing	47	nmod	_	_
+46	%	%	SYM	_	_	47	nmod	_	_
 47	Waterproof	waterproof	ADJ	_	Gender=Masc|Number=Sing	6	advcl	_	_
 48	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -2432,7 +2432,7 @@
 22	mieux	mieux	NOUN	_	Gender=Masc|Number=Sing	19	mwe	_	_
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	25	det	_	_
 24	5	5	NUM	_	_	25	nummod	_	_
-25	%	pourcent	NOUN	_	Gender=Masc|Number=Plur	14	ccomp	_	_
+25	%	%	SYM	_	_	14	ccomp	_	_
 26	,	,	PUNCT	_	_	25	punct	_	_
 27	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur	28	det	_	_
 28	militants	militant	NOUN	_	Gender=Masc|Number=Plur	25	appos	_	_
@@ -2993,10 +2993,10 @@
 24	opérationnelle	opérationnel	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
 25	de	de	ADP	_	_	27	case	_	_
 26	9,5	9,5	NUM	_	_	27	nummod	_	_
-27	%	pourcent	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+27	%	%	SYM	_	_	23	nmod	_	_
 28	contre	contre	ADP	_	_	30	case	_	_
 29	8,5	8,5	NUM	_	_	30	nummod	_	_
-30	%	pourcent	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+30	%	%	SYM	_	_	23	nmod	_	_
 31	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	32	det	_	_
 32	année	année	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
 33	passée	passé	ADJ	_	Gender=Fem|Number=Sing	32	amod	_	_
@@ -3937,7 +3937,7 @@
 13	rebond	rebond	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	6,7	6,7	NUM	_	_	16	nummod	_	_
-16	%	pourcent	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16	%	%	SYM	_	_	13	nmod	_	_
 17	,	,	PUNCT	_	_	6	punct	_	_
 18	et	et	CONJ	_	_	6	cc	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	20	det	_	_
@@ -3949,7 +3949,7 @@
 25	hausse	hausse	NOUN	_	Gender=Fem|Number=Sing	23	dobj	_	_
 26	de	de	ADP	_	_	28	case	_	_
 27	3,8	3,8	NUM	_	_	28	nummod	_	_
-28	%	pourcent	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+28	%	%	SYM	_	_	25	nmod	_	_
 29	,	,	PUNCT	_	_	25	punct	_	_
 30	à	à	ADP	_	_	34	case	_	_
 31	29,8	29,8	NUM	_	_	32	nummod	_	_
@@ -4240,7 +4240,7 @@
 15	rassurant	rassurant	ADJ	_	Gender=Masc|Number=Sing	2	conj	_	_
 16	dans	dans	ADP	_	_	18	case	_	_
 17	80	80	NUM	_	_	18	nummod	_	_
-18	%	pourcent	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+18	%	%	SYM	_	_	15	nmod	_	_
 19-20	des	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	_
 20	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur	21	det	_	_
@@ -4617,7 +4617,7 @@
 24	public	public	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
 25	à	à	ADP	_	_	27	case	_	_
 26	9,1	9,1	NUM	_	_	27	nummod	_	_
-27	%	pourcent	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+27	%	%	SYM	_	_	23	nmod	_	_
 28-29	du	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	30	case	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	30	det	_	_
@@ -4629,7 +4629,7 @@
 35	plus	plus	ADV	_	_	37	advmod	_	_
 36	de	de	ADP	_	_	35	mwe	_	_
 37	11	11	NUM	_	_	38	nummod	_	_
-38	%	pourcent	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+38	%	%	SYM	_	_	33	nmod	_	_
 39	.	.	PUNCT	_	_	15	punct	_	_
 
 # sentid: fr-ud-test_00154
@@ -4903,7 +4903,7 @@
 15	GBP	GBP	PROPN	_	_	13	name	_	_
 16	prenant	prendre	VERB	_	Tense=Pres|VerbForm=Part	13	acl	_	_
 17	0.27	0.27	NUM	_	_	18	nummod	_	_
-18	%	pourcent	NOUN	_	Gender=Masc|Number=Sing	16	dobj	_	_
+18	%	%	SYM	_	_	16	dobj	_	_
 19	pour	pour	ADP	_	_	21	mark	_	_
 20	se	se	PRON	_	Person=3|PronType=Prs	21	dobj	_	_
 21	hisser	hisser	VERB	_	VerbForm=Inf	16	advcl	_	_
@@ -5228,7 +5228,7 @@
 14	50	50	NUM	_	_	12	nmod	_	_
 15	à	à	ADP	_	_	17	case	_	_
 16	90	90	NUM	_	_	17	nummod	_	_
-17	%	pourcent	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+17	%	%	SYM	_	_	12	nmod	_	_
 18	en	en	ADP	_	_	19	case	_	_
 19	moyenne	moyenne	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
 20	)	)	PUNCT	_	_	11	punct	_	_
@@ -5749,7 +5749,7 @@
 28	net	net	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
 29	de	de	ADP	_	_	31	case	_	_
 30	0,7	0,7	NUM	_	_	31	nummod	_	_
-31	%	pourcent	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+31	%	%	SYM	_	_	25	nmod	_	_
 32	en	en	ADP	_	_	33	case	_	_
 33	2009	2009	NUM	_	_	25	nmod	_	_
 34	à	à	ADP	_	_	38	case	_	_

@@ -407,7 +407,7 @@
 19	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	auxpass	_	_
 20	réélu	réélire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
 21	par	par	ADP	_	_	23	case	_	_
-22	ce	ce	DET	_	Gender=Masc|Number=Sing	23	det	_	_
+22	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
 23	point	point	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 24	)	)	PUNCT	_	_	20	punct	_	_
 25	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
@@ -933,7 +933,7 @@
 
 # sentid: fr-ud-dev_00035
 # sentence-text: Cette force résulte de la faible poussée exercée par la restitution sous forme de rayonnement infrarouge de l'énergie solaire absorbée.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	force	force	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	résulte	résulter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	de	de	ADP	_	_	7	case	_	_
@@ -1247,7 +1247,7 @@
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	11	det	_	_
 11	cadre	cadre	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 12	de	de	ADP	_	_	15	case	_	_
-13	ce	ce	DET	_	Gender=Masc|Number=Sing	15	det	_	_
+13	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
 14	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
 15	dispositif	dispositif	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
@@ -1431,7 +1431,7 @@
 10	décide	décider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	d'	de	ADP	_	_	12	mark	_	_
 12	abandonner	abandonner	VERB	_	VerbForm=Inf	10	acl	_	_
-13	ce	ce	DET	_	Gender=Masc|Number=Sing	14	det	_	_
+13	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
 14	système	système	NOUN	_	Gender=Masc|Number=Sing	12	dobj	_	_
 15	en	en	ADP	_	_	16	case	_	_
 16	1933	1933	NUM	_	_	10	nmod	_	_
@@ -1477,7 +1477,7 @@
 12	compagnie	compagnie	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 13	durant	durant	ADP	_	_	16	case	_	_
 14	toute	tout	DET	_	Gender=Fem|Number=Sing	16	det	_	_
-15	cette	ce	DET	_	Gender=Fem|Number=Sing	16	det	_	_
+15	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
 16	période	période	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 17	,	,	PUNCT	_	_	6	punct	_	_
 18	mais	mais	CONJ	_	_	6	cc	_	_
@@ -1743,7 +1743,7 @@
 18	également	également	ADV	_	_	19	advmod	_	_
 19	entrainé	entrainer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
 20	par	par	ADP	_	_	22	case	_	_
-21	ce	ce	DET	_	Gender=Masc|Number=Sing	22	det	_	_
+21	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
 22	dernier	dernier	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
 23	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -1821,7 +1821,7 @@
 3	et	et	CONJ	_	_	2	cc	_	_
 4	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	nsubj	_	_
 5	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
-6	cette	ce	DET	_	Gender=Fem|Number=Sing	7	det	_	_
+6	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
 7	audace	audace	NOUN	_	Gender=Fem|Number=Sing	5	dobj	_	_
 8	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
@@ -2651,7 +2651,7 @@
 1	Les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur	2	det	_	_
 2	interprétations	interprétation	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
-4	cette	ce	DET	_	Gender=Fem|Number=Sing	5	det	_	_
+4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	révolte	révolte	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 7	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
@@ -2702,7 +2702,7 @@
 
 # sentid: fr-ud-dev_00100
 # sentence-text: Cet événement intervient dix ans après la création de l'International MBA de Canton en partenariat avec l'Institut d'Administration des Entreprises (IAE) de l'Université Lyon 3 et le Lingnan College de l'Université de Zhongshan (Sun Yat-Sen) à Canton.
-1	Cet	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	événement	événement	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	intervient	intervenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	dix	dix	NUM	_	_	5	nummod	_	_
@@ -2864,7 +2864,7 @@
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	25	det	_	_
 25	répertoire	répertoire	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 26	de	de	ADP	_	_	28	case	_	_
-27	cet	ce	DET	_	Gender=Masc|Number=Sing	28	det	_	_
+27	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	28	det	_	_
 28	instrument	instrument	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
 29	.	.	PUNCT	_	_	18	punct	_	_
 
@@ -3196,7 +3196,7 @@
 1	Depuis	depuis	ADP	_	_	2	case	_	_
 2	peu	peu	ADV	_	_	7	advmod	_	_
 3	,	,	PUNCT	_	_	7	punct	_	_
-4	cette	ce	DET	_	Gender=Fem|Number=Sing	5	det	_	_
+4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	créatrice	créateur	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 6	inspirée	inspiré	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 7	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3286,7 +3286,7 @@
 
 # sentid: fr-ud-dev_00119
 # sentence-text: Ces institutions prêtent à leur tour l'argent reçu à des habitants du pays dans lequel elles opèrent.
-1	Ces	ce	DET	_	Gender=Fem|Number=Plur	2	det	_	_
+1	Ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	institutions	institution	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
 3	prêtent	prêter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	6	case	_	_
@@ -3386,7 +3386,7 @@
 
 # sentid: fr-ud-dev_00123
 # sentence-text: Cette pièce fut dédiée à Wharton, qu'il avait accompagné à Dublin en 1717, et qui lui promettait deux pensions de 100 livres et une somme de 600 livres en considération de ses frais comme à l'élection parlementaire de Cirencester.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	pièce	pièce	NOUN	_	Gender=Fem|Number=Sing	4	nsubjpass	_	_
 3	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	auxpass	_	_
 4	dédiée	dédier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -3739,7 +3739,7 @@
 19	autres	autre	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	_
 20	navires	navire	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
 21	de	de	ADP	_	_	23	case	_	_
-22	ce	ce	DET	_	Gender=Masc|Number=Sing	23	det	_	_
+22	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
 23	type	type	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 24	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -3768,7 +3768,7 @@
 2	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur	3	det	_	_
 3	initiateurs	initiateur	NOUN	_	Gender=Masc|Number=Plur	30	nmod	_	_
 4	de	de	ADP	_	_	6	case	_	_
-5	ce	ce	DET	_	Gender=Masc|Number=Sing	6	det	_	_
+5	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
 6	comité	comité	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 7	(	(	PUNCT	_	_	8	punct	_	_
 8	pensé	penser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
@@ -4143,7 +4143,7 @@
 1	Les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur	2	det	_	_
 2	données	donnée	NOUN	_	Gender=Fem|Number=Plur	8	nsubjpass	_	_
 3	de	de	ADP	_	_	5	case	_	_
-4	ce	ce	DET	_	Gender=Masc|Number=Sing	5	det	_	_
+4	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 5	sondage	sondage	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	auxpass	_	_
@@ -4193,7 +4193,7 @@
 
 # sentid: fr-ud-dev_00154
 # sentence-text: Cette dernière occupe une place intermédiaire entre l'apprentissage supervisé (pour laquelle les étiquettes de classes sont connues) et l'apprentissage non-supervisé (où aucune étiquette de classe n'est fournie).
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	dernière	dernier	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	occupe	occuper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
@@ -4829,7 +4829,7 @@
 # sentence-text: Suite à ces déclarations, le candidat républicain à l'élection présidentielle, Mitt Romney, lui demande de se retirer de la course.
 1	Suite	suite	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
 2	à	à	ADP	_	_	4	case	_	_
-3	ces	ce	DET	_	Gender=Fem|Number=Plur	4	det	_	_
+3	ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
 4	déclarations	déclaration	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 5	,	,	PUNCT	_	_	18	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	7	det	_	_
@@ -4928,7 +4928,7 @@
 1	Les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur	2	det	_	_
 2	traces	trace	NOUN	_	Gender=Fem|Number=Plur	21	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
-4	ce	ce	DET	_	Gender=Masc|Number=Sing	5	det	_	_
+4	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 5	procès	procès	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 6	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
 7	loin	loin	ADV	_	_	10	case	_	_
@@ -5273,7 +5273,7 @@
 8	de	de	ADP	_	_	9	case	_	_
 9	sécurité	sécurité	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 10	de	de	ADP	_	_	12	case	_	_
-11	ces	ce	DET	_	Gender=Masc|Number=Plur	12	det	_	_
+11	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	12	det	_	_
 12	pays	pays	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
 13	»	»	PUNCT	_	_	16	punct	_	_
 14	,	,	PUNCT	_	_	16	punct	_	_
@@ -5436,7 +5436,7 @@
 
 # sentid: fr-ud-dev_00198
 # sentence-text: Ce basculement est perceptible depuis plusieurs années, mais il est désormais arrivé à un stade assez avancé pour que le Maroc s'inquiète des répercussions qu'il pourrait avoir sur l'économie nationale et sur l'image du pays.
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	basculement	basculement	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	perceptible	perceptible	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -5796,7 +5796,7 @@
 
 # sentid: fr-ud-dev_00211
 # sentence-text: Cette ville est aussi un port parmi les plus importants en Italie pour le trafic passagers (en provenance d'Europe et d'Italie du Nord).
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	ville	ville	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	aussi	aussi	ADV	_	_	6	advmod	_	_
@@ -6084,7 +6084,7 @@
 
 # sentid: fr-ud-dev_00221
 # sentence-text: Ce taux atteint même 50% dans certains centres.
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	taux	taux	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	atteint	atteindre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	même	même	ADV	_	_	5	advmod	_	_
@@ -6312,7 +6312,7 @@
 36	assez	assez	ADV	_	_	37	advmod	_	_
 37	répandu	répandre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	advcl	_	_
 38	avant	avant	ADP	_	_	40	case	_	_
-39	cette	ce	DET	_	Gender=Fem|Number=Sing	40	det	_	_
+39	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	40	det	_	_
 40	date	date	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	_
 41	)	)	PUNCT	_	_	37	punct	_	_
 42	par	par	ADP	_	_	50	case	_	_
@@ -6379,7 +6379,7 @@
 11	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur	12	det	_	_
 12	ouvrages	ouvrage	NOUN	_	Gender=Masc|Number=Plur	10	dobj	_	_
 13	de	de	ADP	_	_	15	case	_	_
-14	ce	ce	DET	_	Gender=Masc|Number=Sing	15	det	_	_
+14	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
 15	dernier	dernier	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 16	,	,	PUNCT	_	_	10	punct	_	_
 17	soit	soit	SCONJ	_	_	10	cc	_	_
@@ -6503,7 +6503,7 @@
 19	,	,	PUNCT	_	_	12	punct	_	_
 20	à	à	ADP	_	_	23	case	_	_
 21	tous	tout	DET	_	Gender=Masc|Number=Plur	23	det	_	_
-22	ces	ce	DET	_	Gender=Masc|Number=Plur	23	det	_	_
+22	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	23	det	_	_
 23	bataillons	bataillon	NOUN	_	Gender=Masc|Number=Plur	12	conj	_	_
 24	dits	dire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	23	acl	_	_
 25	de	de	ADP	_	_	26	case	_	_
@@ -7054,7 +7054,7 @@
 
 # sentid: fr-ud-dev_00253
 # sentence-text: Cette espèce est endémique du Brésil.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	espèce	espèce	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	endémique	endémique	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -7713,7 +7713,7 @@
 
 # sentid: fr-ud-dev_00275
 # sentence-text: Ce livre raconte leur vie au cœur de cet univers issu du magma.
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	livre	livre	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	raconte	raconter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	leur	son	DET	_	Gender=Fem|Number=Sing	5	nmod:poss	_	_
@@ -7723,7 +7723,7 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	8	det	_	_
 8	cœur	cœur	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 9	de	de	ADP	_	_	11	case	_	_
-10	cet	ce	DET	_	Gender=Masc|Number=Sing	11	det	_	_
+10	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
 11	univers	univers	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 12	issu	issu	ADJ	_	Gender=Masc|Number=Sing	11	acl	_	_
 13-14	du	_	_	_	_	_	_	_	_
@@ -8161,7 +8161,7 @@
 
 # sentid: fr-ud-dev_00289
 # sentence-text: Cet enregistrement lui valut la première place dans les hit-parades.
-1	Cet	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	enregistrement	enregistrement	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
 4	valut	valoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -8231,7 +8231,7 @@
 # sentence-text: Pour moi ce restaurant est le meilleur restaurant Japonnais de Caen.
 1	Pour	pour	ADP	_	_	2	case	_	_
 2	moi	soi	PRON	_	Number=Sing|Person=1	8	nmod	_	_
-3	ce	ce	DET	_	Gender=Masc|Number=Sing	4	det	_	_
+3	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	restaurant	restaurant	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 5	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	8	det	_	_
@@ -8531,7 +8531,7 @@
 7	en	en	ADP	_	_	8	case	_	_
 8	1570	1570	NUM	_	_	6	nmod	_	_
 9	dans	dans	ADP	_	_	11	case	_	_
-10	ce	ce	DET	_	Gender=Masc|Number=Sing	11	det	_	_
+10	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
 11	dessein	dessein	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 12	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	en	en	ADP	_	_	14	case	_	_
@@ -8742,7 +8742,7 @@
 
 # sentid: fr-ud-dev_00315
 # sentence-text: Cet inconvénient fut résolu en 1944 avec l'arrivée du Sexton, qui possédait un canon de 25 livres d'origine britannique.
-1	Cet	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	inconvénient	inconvénient	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
 4	résolu	résoudre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -8825,7 +8825,7 @@
 # sentence-text: Toutefois, cette proximité des trois grands types de climat a pour effet de les niveler avec une nette prédominance du climat méditerranéen.
 1	Toutefois	toutefois	ADV	_	_	12	advmod	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	cette	ce	DET	_	Gender=Fem|Number=Sing	4	det	_	_
+3	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
 4	proximité	proximité	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 5-6	des	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	9	case	_	_
@@ -9057,7 +9057,7 @@
 9	de	de	ADP	_	_	10	case	_	_
 10	congé	congé	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 11	à	à	ADP	_	_	13	case	_	_
-12	cette	ce	DET	_	Gender=Fem|Number=Sing	13	det	_	_
+12	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
 13	occasion	occasion	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 14	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -9228,7 +9228,7 @@
 3	printemps	printemps	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 4	1956	1956	NUM	_	_	3	nmod	_	_
 5	,	,	PUNCT	_	_	3	punct	_	_
-6	ce	ce	DET	_	Gender=Masc|Number=Sing	7	det	_	_
+6	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	procédé	procédé	NOUN	_	Gender=Masc|Number=Sing	9	nsubjpass	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	auxpass	_	_
 9	repris	reprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -9309,7 +9309,7 @@
 2	ans	an	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
 3	après	après	ADV	_	_	2	advmod	_	_
 4	,	,	PUNCT	_	_	7	punct	_	_
-5	cette	ce	DET	_	Gender=Fem|Number=Sing	6	det	_	_
+5	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
 6	disparition	disparition	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 7	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	9	det	_	_
@@ -9494,7 +9494,7 @@
 4	publiquement	publiquement	ADV	_	_	5	advmod	_	_
 5	accessibles	accessible	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
 6	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	ces	ce	DET	_	Gender=Masc|Number=Plur	8	det	_	_
+7	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
 8	appels	appel	NOUN	_	Gender=Masc|Number=Plur	6	dobj	_	_
 9	d'	de	ADP	_	_	10	case	_	_
 10	offres	offre	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
@@ -9703,7 +9703,7 @@
 
 # sentid: fr-ud-dev_00352
 # sentence-text: Cet article détaille les régions pétrolifères en Australasie.
-1	Cet	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	article	article	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	détaille	détailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur	5	det	_	_
@@ -9867,7 +9867,7 @@
 # sentid: fr-ud-dev_00358
 # sentence-text: À cette époque, il remarqua des différences de son, si on frappait à des endroits différents à la surface de la paroi thoracique.
 1	À	à	ADP	_	_	3	case	_	_
-2	cette	ce	DET	_	Gender=Fem|Number=Sing	3	det	_	_
+2	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	époque	époque	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -10130,7 +10130,7 @@
 1	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	2	det	_	_
 2	arrivée	arrivée	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
 3	sur	sur	ADP	_	_	5	case	_	_
-4	ce	ce	DET	_	Gender=Masc|Number=Sing	5	det	_	_
+4	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 5	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 6	d'	de	ADP	_	_	8	case	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
@@ -10240,7 +10240,7 @@
 18	se	se	PRON	_	Person=3|PronType=Prs	20	dobj	_	_
 19	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
 20	combattus	combattre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
-21	ce	ce	DET	_	Gender=Masc|Number=Sing	22	det	_	_
+21	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
 22	dimanche	dimanche	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 23-24	des	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	_	25	case	_	_
@@ -10684,7 +10684,7 @@
 
 # sentid: fr-ud-dev_00387
 # sentence-text: Ces services permettent aux employés de se sentir plus concernés par leur travail et donc plus productifs " explique Raphael Gruman de la société Dietatwork.
-1	Ces	ce	DET	_	Gender=Masc|Number=Plur	2	det	_	_
+1	Ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	services	service	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	permettent	permettre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
 4-5	aux	_	_	_	_	_	_	_	_
@@ -10716,7 +10716,7 @@
 # sentid: fr-ud-dev_00388
 # sentence-text: Dans ce mode, le joueur peut alterner en tout temps entre X et Zero.
 1	Dans	dans	ADP	_	_	3	case	_	_
-2	ce	ce	DET	_	Gender=Masc|Number=Sing	3	det	_	_
+2	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	mode	mode	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	6	det	_	_
@@ -10845,7 +10845,7 @@
 23	nombreux	nombreux	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	_
 24	pouvoirs	pouvoir	NOUN	_	Gender=Masc|Number=Plur	21	dobj	_	_
 25	à	à	ADP	_	_	28	case	_	_
-26	cette	ce	DET	_	Gender=Fem|Number=Sing	28	det	_	_
+26	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	28	det	_	_
 27	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
 28	assemblée	assemblée	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
 29	unique	unique	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
@@ -10995,7 +10995,7 @@
 17	doit	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
 18	permettre	permettre	VERB	_	VerbForm=Inf	0	root	_	_
 19	à	à	ADP	_	_	22	case	_	_
-20	ces	ce	DET	_	Gender=Masc|Number=Plur	22	det	_	_
+20	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	22	det	_	_
 21	deux	deux	NUM	_	_	22	nummod	_	_
 22	pays	pays	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
 23	de	de	ADP	_	_	24	mark	_	_
@@ -11011,7 +11011,7 @@
 
 # sentid: fr-ud-dev_00399
 # sentence-text: Cette réunion est ouverte à tous.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	réunion	réunion	NOUN	_	Gender=Fem|Number=Sing	4	nsubjpass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	auxpass	_	_
 4	ouverte	ouvrir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -11021,7 +11021,7 @@
 
 # sentid: fr-ud-dev_00400
 # sentence-text: Ces voitures emblématiques ont eu une carrière chaotique.
-1	Ces	ce	DET	_	Gender=Fem|Number=Plur	2	det	_	_
+1	Ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	voitures	voiture	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
 3	emblématiques	emblématique	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
@@ -11431,7 +11431,7 @@
 4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	auxpass	_	_
 5	influencé	influencer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
 6	par	par	ADP	_	_	8	case	_	_
-7	cette	ce	DET	_	Gender=Fem|Number=Sing	8	det	_	_
+7	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
 8	façon	façon	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 9	«	«	PUNCT	_	_	11	punct	_	_
 10	qui	qui	PRON	_	PronType=Rel	11	nsubj	_	_
@@ -11820,7 +11820,7 @@
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
 9	poème	poème	NOUN	_	Gender=Masc|Number=Sing	7	dobj	_	_
-10	ce	ce	DET	_	Gender=Masc|Number=Sing	11	det	_	_
+10	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
 11	matin	matin	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 12	?	?	PUNCT	_	_	2	punct	_	_
 
@@ -11893,7 +11893,7 @@
 
 # sentid: fr-ud-dev_00431
 # sentence-text: Cette portion de mer est connue sous le nom de mer Kawasienne.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	portion	portion	NOUN	_	Gender=Fem|Number=Sing	6	nsubjpass	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	mer	mer	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
@@ -12541,7 +12541,7 @@
 
 # sentid: fr-ud-dev_00454
 # sentence-text: Ce canton est organisé autour de Vic-sur-Aisne dans l'arrondissement de Soissons.
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	canton	canton	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	organisé	organiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -12749,7 +12749,7 @@
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	10	det	_	_
 10	SGF	SGF	PROPN	_	_	7	nmod	_	_
 11	considèrent	considérer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
-12	ce	ce	DET	_	Gender=Masc|Number=Sing	13	det	_	_
+12	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
 13	militaire	militaire	NOUN	_	Gender=Masc|Number=Sing	11	dobj	_	_
 14	avec	avec	ADP	_	_	15	case	_	_
 15	méfiance	méfiance	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
@@ -12761,7 +12761,7 @@
 21	comprennent	comprendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 22	pas	pas	ADV	_	_	21	neg	_	_
 23	toujours	toujours	ADV	_	_	21	advmod	_	_
-24	cet	ce	DET	_	Gender=Masc|Number=Sing	25	det	_	_
+24	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
 25	officier	officier	NOUN	_	Gender=Masc|Number=Sing	21	dobj	_	_
 26	qui	qui	PRON	_	PronType=Rel	27	nsubj	_	_
 27	déborde	déborder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
@@ -12863,7 +12863,7 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	continue	continuer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	dans	dans	ADP	_	_	5	case	_	_
-4	cette	ce	DET	_	Gender=Fem|Number=Sing	5	det	_	_
+4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	ville	ville	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	jusqu'	jusque	ADP	_	_	8	case	_	_
 7	en	en	ADP	_	_	8	case	_	_
@@ -12887,7 +12887,7 @@
 
 # sentid: fr-ud-dev_00465
 # sentence-text: Ce brutal renversement de situation n'est pas si surprenant après tout.
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	3	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 2	brutal	brutal	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	renversement	renversement	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 4	de	de	ADP	_	_	5	case	_	_
@@ -13063,7 +13063,7 @@
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	33	det	_	_
 33	présence	présence	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
 34	de	de	ADP	_	_	36	case	_	_
-35	ce	ce	DET	_	Gender=Masc|Number=Sing	36	det	_	_
+35	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	36	det	_	_
 36	lit	lit	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
 37	d'	de	ADP	_	_	38	case	_	_
 38	apparat	apparat	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	_
@@ -13206,7 +13206,7 @@
 5	s'	se	PRON	_	Person=3|PronType=Prs	6	dobj	_	_
 6	occupe	occuper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	à	à	ADP	_	_	6	advmod	_	_
-8	ce	ce	DET	_	Gender=Masc|Number=Sing	7	mwe	_	_
+8	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	mwe	_	_
 9	point	point	NOUN	_	Gender=Masc|Number=Sing	7	mwe	_	_
 10-11	des	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	13	case	_	_
@@ -13266,7 +13266,7 @@
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	fort	fort	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 7	de	de	ADP	_	_	9	case	_	_
-8	cette	ce	DET	_	Gender=Fem|Number=Sing	9	det	_	_
+8	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
 9	victoire	victoire	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	se	se	PRON	_	Person=3|PronType=Prs	12	dobj	_	_
@@ -13315,7 +13315,7 @@
 
 # sentid: fr-ud-dev_00480
 # sentence-text: Ce tournoi de catégorie Tier IV s'est disputé à Rabat du 15 au 21 mai 2006.
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	tournoi	tournoi	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	catégorie	catégorie	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
@@ -13552,7 +13552,7 @@
 2	principal	principal	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	favori	favori	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 4	de	de	ADP	_	_	6	case	_	_
-5	ce	ce	DET	_	Gender=Masc|Number=Sing	6	det	_	_
+5	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
 6	Tour	Tour	PROPN	_	_	3	nmod	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	France	France	PROPN	_	_	6	nmod	_	_
@@ -13691,7 +13691,7 @@
 1	Par	par	ADP	_	_	3	case	_	_
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	3	det	_	_
 3	suite	suite	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
-4	cet	ce	DET	_	Gender=Masc|Number=Sing	5	det	_	_
+4	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 5	EP	EP	NOUN	_	Gender=Masc|Number=Sing	7	nsubjpass	_	_
 6	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	auxpass	_	_
 7	compilé	compiler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -14231,7 +14231,7 @@
 28	et	et	CONJ	_	_	17	cc	_	_
 29	à	à	ADP	_	_	30	mark	_	_
 30	partager	partager	VERB	_	VerbForm=Inf	17	conj	_	_
-31	cette	ce	DET	_	Gender=Fem|Number=Sing	32	det	_	_
+31	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	32	det	_	_
 32	découverte	découverte	NOUN	_	Gender=Fem|Number=Sing	30	dobj	_	_
 33	avec	avec	ADP	_	_	37	case	_	_
 34	son	son	DET	_	Gender=Fem|Number=Sing	37	nmod:poss	_	_
@@ -14253,7 +14253,7 @@
 9	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 10	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
 11	gardé	garder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	parataxis	_	_
-12	ce	ce	DET	_	Gender=Masc|Number=Sing	13	det	_	_
+12	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
 13	goût	goût	NOUN	_	Gender=Masc|Number=Sing	11	dobj	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	16	det	_	_
@@ -14460,7 +14460,7 @@
 
 # sentid: fr-ud-dev_00521
 # sentence-text: Cet oiseau présente une coloration proche de celle de la Perruche élégante dont elle se distingue par un masque facial turquoise plus marqué chez le mâle que chez la femelle.
-1	Cet	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	oiseau	oiseau	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	présente	présenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
@@ -14743,7 +14743,7 @@
 
 # sentid: fr-ud-dev_00531
 # sentence-text: Ce stalagmite est délimité par un muret quadrangulaire de 2 mètres sur 3 mètres et d'environ 45 centimètres de hauteur, fait de pierres irrégulières.
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	stalagmite	stalagmite	NOUN	_	Gender=Fem|Number=Sing	4	nsubjpass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	auxpass	_	_
 4	délimité	délimiter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -15085,7 +15085,7 @@
 
 # sentid: fr-ud-dev_00543
 # sentence-text: Ce dernier en profite pour prendre contrôle du diocèse, et marcher sur la ville.
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	dernier	dernier	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	en	en	PRON	_	Person=3	4	iobj	_	_
 4	profite	profiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -15132,7 +15132,7 @@
 24	partie	partie	NOUN	_	Gender=Fem|Number=Sing	23	dobj	_	_
 25	civile	civil	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
 26	dans	dans	ADP	_	_	28	case	_	_
-27	cette	ce	DET	_	Gender=Fem|Number=Sing	28	det	_	_
+27	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	28	det	_	_
 28	affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
 29	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
 30	évidente	évident	ADJ	_	Gender=Fem|Number=Sing	2	parataxis	_	_
@@ -15332,7 +15332,7 @@
 
 # sentid: fr-ud-dev_00551
 # sentence-text: Cette flottille, sous le commandement du capitaine de la Royal Navy Bernard Warburton-Lee, s'était déjà séparé du Renown durant sa poursuite du Scharnhorst et du Gneisenau, après avoir reçu l'ordre de monter la garde devant l'entrée du Vestfjord.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	flottille	flottille	NOUN	_	Gender=Fem|Number=Sing	20	nsubjpass	_	_
 3	,	,	PUNCT	_	_	20	punct	_	_
 4	sous	sous	ADP	_	_	6	case	_	_
@@ -15769,7 +15769,7 @@
 # sentid: fr-ud-dev_00564
 # sentence-text: Parmi ces ouvrages, citons le Tunnel de Rebaix et le Tunnel du Bois d'Houtaing (entre Ath et Frasnes-lez-Anvaing).
 1	Parmi	parmi	ADP	_	_	3	case	_	_
-2	ces	ce	DET	_	Gender=Masc|Number=Plur	3	det	_	_
+2	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
 3	ouvrages	ouvrage	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	citons	citer	VERB	_	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -15796,7 +15796,7 @@
 
 # sentid: fr-ud-dev_00565
 # sentence-text: Cette espèce est endémique du département de Nariño en Colombie.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	espèce	espèce	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	endémique	endémique	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -16167,7 +16167,7 @@
 5	excellent	excellent	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 6	week-end	week-end	NOUN	_	Gender=Masc|Number=Sing	3	dobj	_	_
 7	dans	dans	ADP	_	_	9	case	_	_
-8	ce	ce	DET	_	Gender=Masc|Number=Sing	9	det	_	_
+8	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
 9	gîte	gîte	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 10	très	très	ADV	_	_	11	advmod	_	_
 11	design	design	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
@@ -16606,7 +16606,7 @@
 1	Nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	avons	avoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	dans	dans	ADP	_	_	5	case	_	_
-4	cette	ce	DET	_	Gender=Fem|Number=Sing	5	det	_	_
+4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	doctrine	doctrine	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	compliquée	compliqué	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 7-8	des	_	_	_	_	_	_	_	_
@@ -16775,7 +16775,7 @@
 4	se	se	PRON	_	Person=3|PronType=Prs	5	dobj	_	_
 5	circonscrire	circonscrire	VERB	_	VerbForm=Inf	1	xcomp	_	_
 6	à	à	ADP	_	_	9	case	_	_
-7	cette	ce	DET	_	Gender=Fem|Number=Sing	9	det	_	_
+7	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
 8	seule	seul	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
 9	matière	matière	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 10	?	?	PUNCT	_	_	1	punct	_	_
@@ -16917,7 +16917,7 @@
 37	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	39	nsubj	_	_
 38	dut	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	aux	_	_
 39	voûter	voûter	VERB	_	VerbForm=Inf	31	ccomp	_	_
-40	cette	ce	DET	_	Gender=Fem|Number=Sing	41	det	_	_
+40	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	41	det	_	_
 41	rivière	rivière	NOUN	_	Gender=Fem|Number=Sing	39	dobj	_	_
 42	.	.	PUNCT	_	_	15	punct	_	_
 
@@ -16965,7 +16965,7 @@
 # sentid: fr-ud-dev_00608
 # sentence-text: Pour cette raison, le Cartel refuse de former gouvernement et fait chuter immédiatement tous ceux que le président formerait lui-même.
 1	Pour	pour	ADP	_	_	3	case	_	_
-2	cette	ce	DET	_	Gender=Fem|Number=Sing	3	det	_	_
+2	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	raison	raison	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	6	det	_	_
@@ -17483,7 +17483,7 @@
 
 # sentid: fr-ud-dev_00629
 # sentence-text: Cette expérience montre qu'il n'existe apparemment pas d'informations innées relatives aux caractéristiques spécifiques des congénères chez les capridés, et, vraisemblablement, chez les autres mammifères.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	expérience	expérience	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	montre	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	qu'	que	SCONJ	_	_	7	mark	_	_
@@ -17717,7 +17717,7 @@
 22	courageuse	courageux	ADJ	_	Gender=Fem|Number=Sing	20	conj	_	_
 23	face	face	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
 24	à	à	ADP	_	_	26	case	_	_
-25	cette	ce	DET	_	Gender=Fem|Number=Sing	26	det	_	_
+25	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
 26	réaction	réaction	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
 27	,	,	PUNCT	_	_	29	punct	_	_
 28	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	29	nsubj	_	_
@@ -17758,7 +17758,7 @@
 18	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	19	iobj	_	_
 19	conseille	conseiller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 20	vivement	vivement	ADV	_	_	19	advmod	_	_
-21	ce	ce	DET	_	Gender=Masc|Number=Sing	22	det	_	_
+21	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
 22	restaurant	restaurant	NOUN	_	Gender=Masc|Number=Sing	19	dobj	_	_
 23	.	.	PUNCT	_	_	19	punct	_	_
 
@@ -17929,7 +17929,7 @@
 
 # sentid: fr-ud-dev_00646
 # sentence-text: Ce village se situe dans le sud-ouest du pays d'Ouche dans lequel il jouxte les communes de Planches, Sainte-Gauburge-Sainte-Colombe au sud et Mahéru à l'est.
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	village	village	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	se	se	PRON	_	Person=3|PronType=Prs	4	dobj	_	_
 4	situe	situer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -18185,7 +18185,7 @@
 5	que	que	SCONJ	_	_	3	mwe	_	_
 6	major	major	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 7	de	de	ADP	_	_	9	case	_	_
-8	ce	ce	DET	_	Gender=Masc|Number=Sing	9	det	_	_
+8	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
 9	régiment	régiment	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 10	qu'	que	SCONJ	_	_	13	mark	_	_
 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
@@ -18802,7 +18802,7 @@
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 10	y	y	PRON	_	_	11	expl	_	_
 11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-12	cette	ce	DET	_	Gender=Fem|Number=Sing	13	det	_	_
+12	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
 13	année	année	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 14	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
 15	nombreux	nombreux	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
@@ -18941,7 +18941,7 @@
 
 # sentid: fr-ud-dev_00679
 # sentence-text: Ces points sont additionnés pour donner un score global.
-1	Ces	ce	DET	_	Gender=Masc|Number=Plur	2	det	_	_
+1	Ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	points	point	NOUN	_	Gender=Masc|Number=Plur	4	nsubjpass	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	auxpass	_	_
 4	additionnés	additionner	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
@@ -19034,7 +19034,7 @@
 # sentence-text: Cependant, ces mouvements prennent leur distance avec les États arabes qu'ils accusent de manipulation envers le peuple palestinien.
 1	Cependant	cependant	ADV	_	_	5	advmod	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	ces	ce	DET	_	Gender=Masc|Number=Plur	4	det	_	_
+3	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
 4	mouvements	mouvement	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 5	prennent	prendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	leur	son	DET	_	Gender=Fem|Number=Sing	7	nmod:poss	_	_
@@ -19273,7 +19273,7 @@
 
 # sentid: fr-ud-dev_00693
 # sentence-text: Ces plantes évoluées sont les plantes à fleurs, appelées angiospermes.
-1	Ces	ce	DET	_	Gender=Fem|Number=Plur	2	det	_	_
+1	Ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	plantes	plante	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
 3	évoluées	évolué	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
 4	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -19723,7 +19723,7 @@
 
 # sentid: fr-ud-dev_00711
 # sentence-text: Ce dernier est connu pour avoir pris des mesures de clémence à l'égard des Juifs de Paris.
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	dernier	dernier	NOUN	_	Gender=Masc|Number=Sing	4	nsubjpass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	auxpass	_	_
 4	connu	connaître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -19944,7 +19944,7 @@
 
 # sentid: fr-ud-dev_00720
 # sentence-text: Ces accords portent sur la mobilité des populations, l'accès aux registres d'état-civil et la reconnaissance mutuelle des diplômes universitaires, a précisé cette source.
-1	Ces	ce	DET	_	Gender=Masc|Number=Plur	2	det	_	_
+1	Ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	accords	accord	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	portent	porter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	ccomp	_	_
 4	sur	sur	ADP	_	_	6	case	_	_
@@ -19975,7 +19975,7 @@
 26	,	,	PUNCT	_	_	28	punct	_	_
 27	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
 28	précisé	préciser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-29	cette	ce	DET	_	Gender=Fem|Number=Sing	30	det	_	_
+29	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	30	det	_	_
 30	source	source	NOUN	_	Gender=Fem|Number=Sing	28	nsubj	_	_
 31	.	.	PUNCT	_	_	28	punct	_	_
 
@@ -20099,7 +20099,7 @@
 
 # sentid: fr-ud-dev_00725
 # sentence-text: Cette édition limitée est disponible en exclusivité dans les parfumeries Nocibé.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	édition	édition	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	limitée	limité	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -20115,7 +20115,7 @@
 # sentid: fr-ud-dev_00726
 # sentence-text: Pour ce syndiqué Force Ouvrière, "la chute des commandes au Portugal, en Grèce, en Espagne et en Italie explique les difficultés du groupe".
 1	Pour	pour	ADP	_	_	3	case	_	_
-2	ce	ce	DET	_	Gender=Masc|Number=Sing	3	det	_	_
+2	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	syndiqué	syndiqué	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
 4	Force	Force	PROPN	_	_	3	name	_	_
 5	Ouvrière	Ouvrière	PROPN	_	_	4	name	_	_
@@ -20199,7 +20199,7 @@
 # sentid: fr-ud-dev_00730
 # sentence-text: Mais cette fois-ci, y a un autre élément qui intervient dans ce débat : après la spoliation territoriale, c'est le temps des violations graves des droits humains.
 1	Mais	mais	CONJ	_	_	7	cc	_	_
-2	cette	ce	DET	_	Gender=Fem|Number=Sing	3	det	_	_
+2	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	fois	fois	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 4	-ci	ci	PART	_	_	3	mwe	_	_
 5	,	,	PUNCT	_	_	7	punct	_	_
@@ -20211,7 +20211,7 @@
 11	qui	qui	PRON	_	PronType=Rel	12	nsubj	_	_
 12	intervient	intervenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
 13	dans	dans	ADP	_	_	15	case	_	_
-14	ce	ce	DET	_	Gender=Masc|Number=Sing	15	det	_	_
+14	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
 15	débat	débat	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 16	:	:	PUNCT	_	_	7	punct	_	_
 17	après	après	ADP	_	_	19	case	_	_
@@ -20239,7 +20239,7 @@
 # sentence-text: Cependant, ce dernier résiste vaillamment.
 1	Cependant	cependant	ADV	_	_	5	advmod	_	_
 2	,	,	PUNCT	_	_	5	punct	_	_
-3	ce	ce	DET	_	Gender=Masc|Number=Sing	4	det	_	_
+3	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	dernier	dernier	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 5	résiste	résister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	vaillamment	vaillamment	ADV	_	_	5	advmod	_	_
@@ -20392,7 +20392,7 @@
 16	Gâtinais	Gâtinais	PROPN	_	_	13	nmod	_	_
 17	,	,	PUNCT	_	_	3	punct	_	_
 18	à	à	ADP	_	_	20	case	_	_
-19	cette	ce	DET	_	Gender=Fem|Number=Sing	20	det	_	_
+19	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
 20	époque	époque	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 21	;	;	PUNCT	_	_	3	punct	_	_
 
@@ -20400,7 +20400,7 @@
 # sentence-text: Naturellement, cette orientation « économique », qui est apparue depuis le déploiement des sociétés américaines en 2003, dérange Paris.
 1	Naturellement	naturellement	ADV	_	_	22	advmod	_	_
 2	,	,	PUNCT	_	_	22	punct	_	_
-3	cette	ce	DET	_	Gender=Fem|Number=Sing	4	det	_	_
+3	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
 4	orientation	orientation	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
 5	«	«	PUNCT	_	_	6	punct	_	_
 6	économique	économique	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
@@ -20548,7 +20548,7 @@
 
 # sentid: fr-ud-dev_00745
 # sentence-text: Ce groupe a déjà deux compagnies aériennes en Grande Bretagne : Virgin Atlantic et Virgin Sun.
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	déjà	déjà	ADV	_	_	3	advmod	_	_
@@ -20925,7 +20925,7 @@
 18	se	se	PRON	_	Person=3|PronType=Prs	19	dobj	_	_
 19	faire	faire	VERB	_	VerbForm=Inf	13	acl	_	_
 20	à	à	ADP	_	_	23	case	_	_
-21	cette	ce	DET	_	Gender=Fem|Number=Sing	23	det	_	_
+21	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
 22	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
 23	vie	vie	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
 24	avec	avec	ADP	_	_	26	case	_	_
@@ -21296,7 +21296,7 @@
 3	arts	art	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
 4	plastiques	plastique	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
 5	,	,	PUNCT	_	_	7	punct	_	_
-6	cette	ce	DET	_	Gender=Fem|Number=Sing	7	det	_	_
+6	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
 7	Bordelaise	Bordelaise	PROPN	_	_	13	nsubj	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	26	26	NUM	_	_	10	nummod	_	_
@@ -22063,13 +22063,13 @@
 8	d'	de	ADP	_	_	9	case	_	_
 9	hiver	hiver	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 10	sur	sur	ADP	_	_	12	case	_	_
-11	ces	ce	DET	_	Gender=Masc|Number=Plur	12	det	_	_
+11	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	12	det	_	_
 12	quai	quai	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 13	brumeux	brumeux	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
 14	,	,	PUNCT	_	_	5	punct	_	_
 15	entrer	entrer	VERB	_	VerbForm=Inf	5	conj	_	_
 16	dans	dans	ADP	_	_	18	case	_	_
-17	ce	ce	DET	_	Gender=Masc|Number=Sing	18	det	_	_
+17	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
 18	bar	bar	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 19	,	,	PUNCT	_	_	5	punct	_	_
 20	regarder	regarder	VERB	_	VerbForm=Inf	5	conj	_	_
@@ -22469,7 +22469,7 @@
 
 # sentid: fr-ud-dev_00815
 # sentence-text: Cette catégorie constitue la quasi-totalité des refugiés.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	catégorie	catégorie	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	constitue	constituer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	5	det	_	_
@@ -22498,7 +22498,7 @@
 13	exclusif	exclusif	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
 14	:	:	PUNCT	_	_	7	punct	_	_
 15	par	par	ADP	_	_	17	case	_	_
-16	ce	ce	DET	_	Gender=Masc|Number=Sing	17	det	_	_
+16	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
 17	système	système	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
 18	,	,	PUNCT	_	_	22	punct	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	20	det	_	_
@@ -22687,7 +22687,7 @@
 
 # sentid: fr-ud-dev_00821
 # sentence-text: Ce dossier fut remis à Keith Coughlan, directeur général des districts 7 et 9, qui le remis au ministre de l'éducation, James Lockyer.
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	dossier	dossier	NOUN	_	Gender=Masc|Number=Sing	4	nsubjpass	_	_
 3	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	auxpass	_	_
 4	remis	remettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -22902,7 +22902,7 @@
 
 # sentid: fr-ud-dev_00830
 # sentence-text: Cette équipe a été introduite au Basketball Hall of Fame en 2010.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	5	nsubjpass	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	auxpass	_	_
@@ -22983,7 +22983,7 @@
 17	de	de	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	19	det	_	_
 19	St-Laurent	St-Laurent	PROPN	_	_	16	nmod	_	_
-20	cet	ce	DET	_	Gender=Masc|Number=Sing	21	det	_	_
+20	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
 21	évènement	évènement	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
 22	mérite	mériter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 23	d'	de	ADP	_	_	25	mark	_	_
@@ -23262,7 +23262,7 @@
 41	et	et	CONJ	_	_	16	cc	_	_
 42	attribué	attribuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	_
 43	dès	dès	ADP	_	_	45	case	_	_
-44	cette	ce	DET	_	Gender=Fem|Number=Sing	45	det	_	_
+44	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	45	det	_	_
 45	époque	époque	NOUN	_	Gender=Fem|Number=Sing	42	nmod	_	_
 46	à	à	ADP	_	_	47	case	_	_
 47	Épiménide	Épiménide	PROPN	_	_	42	nmod	_	_
@@ -23342,7 +23342,7 @@
 57	qui	qui	PRON	_	PronType=Rel	58	nsubj	_	_
 58	disposait	disposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	56	acl:relcl	_	_
 59	de	de	ADP	_	_	61	case	_	_
-60	ces	ce	DET	_	Gender=Fem|Number=Plur	61	det	_	_
+60	ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	61	det	_	_
 61	fonctions	fonction	NOUN	_	Gender=Fem|Number=Plur	58	nmod	_	_
 62	sur	sur	ADP	_	_	64	case	_	_
 63	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	64	det	_	_
@@ -23457,7 +23457,7 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	8	det	_	_
 8	Jazz	Jazz	PROPN	_	_	5	nmod	_	_
 9	confirme	confirmer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	cette	ce	DET	_	Gender=Fem|Number=Sing	11	det	_	_
+10	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
 11	guérison	guérison	NOUN	_	Gender=Fem|Number=Sing	9	dobj	_	_
 12	,	,	PUNCT	_	_	9	punct	_	_
 13	Bryant	Bryant	PROPN	_	_	14	nsubj	_	_
@@ -23639,7 +23639,7 @@
 35	état	état	NOUN	_	Gender=Masc|Number=Sing	43	nmod	_	_
 36	préoccupant	préoccupant	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	_
 37	»	»	PUNCT	_	_	35	punct	_	_
-38	ce	ce	DET	_	Gender=Masc|Number=Sing	39	det	_	_
+38	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	39	det	_	_
 39	vendredi	vendredi	NOUN	_	Gender=Masc|Number=Sing	43	nmod	_	_
 40	,	,	PUNCT	_	_	43	punct	_	_
 41	selon	selon	ADP	_	_	43	case	_	_
@@ -23709,7 +23709,7 @@
 18	,	,	PUNCT	_	_	14	punct	_	_
 19	qui	qui	PRON	_	PronType=Rel	20	nsubj	_	_
 20	occupait	occuper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
-21	cette	ce	DET	_	Gender=Fem|Number=Sing	22	det	_	_
+21	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
 22	fonction	fonction	NOUN	_	Gender=Fem|Number=Sing	20	dobj	_	_
 23	depuis	depuis	ADP	_	_	24	case	_	_
 24	1986	1986	NUM	_	_	20	nmod	_	_
@@ -23717,7 +23717,7 @@
 
 # sentid: fr-ud-dev_00858
 # sentence-text: Ce dernier va constituer l'affluent majeur du Río Limay, branche-mère du fleuve Río Negro qui débouchera dans l'Atlantique.
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	dernier	dernier	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	va	aller	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	constituer	constituer	VERB	_	VerbForm=Inf	0	root	_	_
@@ -23998,7 +23998,7 @@
 
 # sentid: fr-ud-dev_00868
 # sentence-text: Cette approche correspond à la notion classique de l'expertise (développé chez Mayer et Sweller.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	approche	approche	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	correspond	correspondre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	6	case	_	_
@@ -24259,7 +24259,7 @@
 # sentid: fr-ud-dev_00879
 # sentence-text: Sur ce point précis, nos sources se montrent inflexibles : " Il s'agit bel et bien de contrebandiers.
 1	Sur	sur	ADP	_	_	3	case	_	_
-2	ce	ce	DET	_	Gender=Masc|Number=Sing	3	det	_	_
+2	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	point	point	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 4	précis	précis	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 5	,	,	PUNCT	_	_	9	punct	_	_
@@ -24286,7 +24286,7 @@
 2	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	3	det	_	_
 3	ambiguïté	ambiguïté	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 4	de	de	ADP	_	_	6	case	_	_
-5	cette	ce	DET	_	Gender=Fem|Number=Sing	6	det	_	_
+5	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
 6	question	question	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 7	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	ccomp	_	_
 8	à	à	ADP	_	_	10	case	_	_
@@ -24372,7 +24372,7 @@
 1	Tourne	tourner	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	et	et	CONJ	_	_	1	cc	_	_
 3	retourne	retourner	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	conj	_	_
-4	cette	ce	DET	_	Gender=Fem|Number=Sing	5	det	_	_
+4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	phrase	phrase	NOUN	_	Gender=Fem|Number=Sing	1	dobj	_	_
 6	dans	dans	ADP	_	_	9	case	_	_
 7	tous	tout	DET	_	Gender=Masc|Number=Plur	9	det	_	_
@@ -24608,7 +24608,7 @@
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	se	se	PRON	_	Person=3|PronType=Prs	12	dobj	_	_
 12	poursuit	poursuivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	ce	ce	DET	_	Gender=Masc|Number=Sing	14	det	_	_
+13	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
 14	samedi	samedi	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 15	par	par	ADP	_	_	18	case	_	_
 16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	18	det	_	_
@@ -25065,7 +25065,7 @@
 13	en	en	ADP	_	_	14	case	_	_
 14	charge	charge	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 15	de	de	ADP	_	_	17	case	_	_
-16	ce	ce	DET	_	Gender=Masc|Number=Sing	17	det	_	_
+16	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
 17	dossier	dossier	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 18	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
 19	prononcé	prononcer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -25084,7 +25084,7 @@
 
 # sentid: fr-ud-dev_00905
 # sentence-text: Cette terre riches en attraits naturels est maintenant bien implantée dans le domaine touristique, mais le domaine a constamment besoin de se renouveler.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	terre	terre	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	riches	riche	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
 4	en	en	ADP	_	_	5	case	_	_
@@ -25273,7 +25273,7 @@
 
 # sentid: fr-ud-dev_00912
 # sentence-text: Cette même année, les Compatible PC atteignent pour la première fois la barre des 50% des ordinateurs personnels vendus.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	3	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 2	même	même	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	année	année	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 4	,	,	PUNCT	_	_	3	punct	_	_
@@ -25428,7 +25428,7 @@
 5	déjà	déjà	ADV	_	_	7	advmod	_	_
 6	en	en	ADP	_	_	7	case	_	_
 7	hausse	hausse	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-8	ces	ce	DET	_	Gender=Masc|Number=Plur	10	det	_	_
+8	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
 9	derniers	dernier	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
 10	jours	jour	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
 11	,	,	PUNCT	_	_	13	punct	_	_
@@ -25517,7 +25517,7 @@
 
 # sentid: fr-ud-dev_00920
 # sentence-text: Cette dénomination souligne l'apport d'un bienfaiteur de la fabrique, l'abbé Épiphane Lapointe (1822-1862).
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	dénomination	dénomination	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	souligne	souligner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	5	det	_	_
@@ -25959,7 +25959,7 @@
 9	artistes	artiste	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 10	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	exécuté	exécuter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-12	ces	ce	DET	_	Gender=Fem|Number=Plur	13	det	_	_
+12	ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	13	det	_	_
 13	figurines	figurine	NOUN	_	Gender=Fem|Number=Plur	11	dobj	_	_
 14	de	de	ADP	_	_	15	case	_	_
 15	manière	manière	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
@@ -26076,7 +26076,7 @@
 
 # sentid: fr-ud-dev_00941
 # sentence-text: Cette espèce est endémique de Colombie.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	espèce	espèce	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	endémique	endémique	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -26660,7 +26660,7 @@
 7	de	de	ADP	_	_	8	case	_	_
 8	Lannes	Lannes	PROPN	_	_	6	nmod	_	_
 9	vers	vers	ADP	_	_	11	case	_	_
-10	cette	ce	DET	_	Gender=Fem|Number=Sing	11	det	_	_
+10	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
 11	région	région	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 12	qui	qui	PRON	_	PronType=Rel	13	nsubj	_	_
 13	décidera	décider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	acl:relcl	_	_
@@ -27830,7 +27830,7 @@
 
 # sentid: fr-ud-dev_01002
 # sentence-text: Cet hôpital s'est finalement transformé en ce que nous considérons maintenant comme un hôpital, avec des moines et des auxiliaires laïcs prodiguant des soins médicaux aux malades et aux pèlerins victimes des nombreuses épidémies et maladies chroniques qui ont frappé l'Europe occidentale au Moyen Âge.
-1	Cet	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	hôpital	hôpital	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs	6	dobj	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
@@ -27954,7 +27954,7 @@
 9	militaire	militaire	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
 10	)	)	PUNCT	_	_	8	punct	_	_
 11	en	en	ADP	_	_	3	advmod	_	_
-12	ce	ce	DET	_	Gender=Masc|Number=Sing	11	mwe	_	_
+12	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	mwe	_	_
 13	moment	moment	NOUN	_	Gender=Masc|Number=Sing	11	mwe	_	_
 14	,	,	PUNCT	_	_	3	punct	_	_
 15	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
@@ -28022,7 +28022,7 @@
 
 # sentid: fr-ud-dev_01006
 # sentence-text: Ces petites fables morales, didactiques, édifiantes, et qui font un peu penser à Knock, sont destinées à se venger des agissements dangereux des guérisseurs de tout poil auquel il était confronté dans la vie réelle.
-1	Ces	ce	DET	_	Gender=Fem|Number=Plur	3	det	_	_
+1	Ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
 2	petites	petit	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
 3	fables	fable	NOUN	_	Gender=Fem|Number=Plur	20	nsubjpass	_	_
 4	morales	moral	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
@@ -28127,7 +28127,7 @@
 # sentence-text: Plusieurs de ces propositions seront reprises dans le cadre de la correction des eaux du Jura, en particulier le projet du grison Richard La Nicca de détourner le cours de l'Aar dans le lac de Bienne.
 1	Plusieurs	plusieurs	PRON	_	Gender=Masc|Number=Plur	6	nsubjpass	_	_
 2	de	de	ADP	_	_	4	case	_	_
-3	ces	ce	DET	_	Gender=Fem|Number=Plur	4	det	_	_
+3	ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
 4	propositions	proposition	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 5	seront	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	auxpass	_	_
 6	reprises	reprendre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
@@ -28359,7 +28359,7 @@
 15	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur	16	det	_	_
 16	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	22	nsubj	_	_
 17	de	de	ADP	_	_	19	case	_	_
-18	ce	ce	DET	_	Gender=Masc|Number=Sing	19	det	_	_
+18	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
 19	magasin	magasin	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
 20	ne	ne	PART	_	_	22	neg	_	_
 21	se	se	PRON	_	Person=3|PronType=Prs	22	dobj	_	_
@@ -28374,7 +28374,7 @@
 
 # sentid: fr-ud-dev_01019
 # sentence-text: Cette dernière représente un évêque bénissant les fidèles et serait une représentation de Saint Pallais.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	dernière	dernier	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	représente	représenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
@@ -28490,7 +28490,7 @@
 # sentid: fr-ud-dev_01024
 # sentence-text: De cette manière, il a participé activement à faire évoluer la vie nocturne de villes telles que Paris, New York, et Tokyo.
 1	De	de	ADP	_	_	3	case	_	_
-2	cette	ce	DET	_	Gender=Fem|Number=Sing	3	det	_	_
+2	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	manière	manière	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -28518,7 +28518,7 @@
 
 # sentid: fr-ud-dev_01025
 # sentence-text: Cette agence immobilière VIDATI.fr m'a vendu mon appartement en 25 jours.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	agence	agence	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	immobilière	immobilier	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4	VIDATI.fr	VIDATI.fr	PROPN	_	_	2	appos	_	_
@@ -28707,7 +28707,7 @@
 
 # sentid: fr-ud-dev_01032
 # sentence-text: Cette division d'infanterie évolue au sein du 4e Corps d'Armée ayant pour commandant en chef le général de division DE LADMIRAULT.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	division	division	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	d'	de	ADP	_	_	4	case	_	_
 4	infanterie	infanterie	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
@@ -28856,7 +28856,7 @@
 
 # sentid: fr-ud-dev_01037
 # sentence-text: Ce premier de ses vingt-neuf longs métrages fut un énorme succès.
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	premier	premier	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3	de	de	ADP	_	_	7	case	_	_
 4	ses	son	DET	_	Gender=Masc|Number=Plur	7	nmod:poss	_	_
@@ -28912,7 +28912,7 @@
 
 # sentid: fr-ud-dev_01040
 # sentence-text: Ce champ indique la plupart du temps la validité de la donnée, mais il peut avoir des significations différentes, comme le signe ou l'orientation, en fonction du type de la donnée.
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	champ	champ	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	indique	indiquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	5	det	_	_
@@ -29280,7 +29280,7 @@
 # sentence-text: Pour réaliser cet ouvrage très précis, ils firent appel à des charpentiers métalliques (en anglais, ironworkers) qui officiaient sur divers chantiers dangereux à travers le monde.
 1	Pour	pour	ADP	_	_	2	mark	_	_
 2	réaliser	réaliser	VERB	_	VerbForm=Inf	9	advcl	_	_
-3	cet	ce	DET	_	Gender=Masc|Number=Sing	4	det	_	_
+3	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	ouvrage	ouvrage	NOUN	_	Gender=Masc|Number=Sing	2	dobj	_	_
 5	très	très	ADV	_	_	6	advmod	_	_
 6	précis	précis	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
@@ -29360,7 +29360,7 @@
 6	de	de	ADP	_	_	7	mark	_	_
 7	répondre	répondre	VERB	_	VerbForm=Inf	5	acl	_	_
 8	à	à	ADP	_	_	10	case	_	_
-9	cette	ce	DET	_	Gender=Fem|Number=Sing	10	det	_	_
+9	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
 10	question	question	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 11	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -29389,7 +29389,7 @@
 7	ne	ne	PART	_	_	8	neg	_	_
 8	finira	finir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	conj	_	_
 9	pas	pas	ADV	_	_	8	neg	_	_
-10	ce	ce	DET	_	Gender=Masc|Number=Sing	11	det	_	_
+10	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
 11	travail	travail	NOUN	_	Gender=Masc|Number=Sing	8	dobj	_	_
 12	,	,	PUNCT	_	_	2	punct	_	_
 13	suite	suite	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
@@ -30049,7 +30049,7 @@
 # sentid: fr-ud-dev_01083
 # sentence-text: Dans ce même ouvrage, il répond aux détracteurs de Monet, qui reprochent à l'artiste la production de séries de tableaux sur un même sujet dans différentes conditions de lumière, dans lesquelles celui-ci cherchait à obtenir ce qu'il appelait l'« instantanéité », en faisant remarquer : « Et voilà, le grand mot lâché !
 1	Dans	dans	ADP	_	_	4	case	_	_
-2	ce	ce	DET	_	Gender=Masc|Number=Sing	4	det	_	_
+2	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 3	même	même	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
 4	ouvrage	ouvrage	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 5	,	,	PUNCT	_	_	4	punct	_	_
@@ -30602,7 +30602,7 @@
 
 # sentid: fr-ud-dev_01105
 # sentence-text: Cette question sert à vérifier que vous n'êtes pas un robot afin de prévenir le spam automatique.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	question	question	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	sert	servir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	5	mark	_	_
@@ -30651,7 +30651,7 @@
 24	sensibilité	sensibilité	NOUN	_	Gender=Fem|Number=Sing	22	dobj	_	_
 25	certaine	certain	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
 26	sur	sur	ADP	_	_	28	case	_	_
-27	ces	ce	DET	_	Gender=Fem|Number=Plur	28	det	_	_
+27	ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	28	det	_	_
 28	questions	question	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	_
 29	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -30665,7 +30665,7 @@
 6	cadre	cadre	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 7	monumental	monumental	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 8	de	de	ADP	_	_	10	case	_	_
-9	cet	ce	DET	_	Gender=Masc|Number=Sing	10	det	_	_
+9	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
 10	édifice	édifice	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 11	emblématique	emblématique	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
 12	de	de	ADP	_	_	14	case	_	_
@@ -31256,7 +31256,7 @@
 
 # sentid: fr-ud-dev_01127
 # sentence-text: Cette zone est composé de couloirs constitué de différents pièges et de montres puissants tels que des squelettes, des squelettes magiques, des têtes de squelette et des slimes des donjons.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	zone	zone	NOUN	_	Gender=Fem|Number=Sing	4	nsubjpass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	auxpass	_	_
 4	composé	composer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -31699,7 +31699,7 @@
 16	,	,	PUNCT	_	_	5	punct	_	_
 17	organisateur	organisateur	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	_
 18	de	de	ADP	_	_	20	case	_	_
-19	ces	ce	DET	_	Gender=Masc|Number=Plur	20	det	_	_
+19	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	20	det	_	_
 20	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
 21	en	en	ADP	_	_	22	case	_	_
 22	série	série	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
@@ -31788,7 +31788,7 @@
 9	forte	fort	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
 10	opposition	opposition	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 11	à	à	ADP	_	_	13	case	_	_
-12	ce	ce	DET	_	Gender=Masc|Number=Sing	13	det	_	_
+12	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
 13	monde	monde	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 14	déshumanisé	déshumaniser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
 15	.	.	PUNCT	_	_	3	punct	_	_
@@ -31800,7 +31800,7 @@
 3	vétérants	vétérant	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 4	bénéficient	bénéficier	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	de	de	ADP	_	_	7	case	_	_
-6	ces	ce	DET	_	Gender=Fem|Number=Plur	7	det	_	_
+6	ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	7	det	_	_
 7	mesures	mesure	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
 8	,	,	PUNCT	_	_	4	punct	_	_
 9	créant	créer	VERB	_	Tense=Pres|VerbForm=Part	4	advcl	_	_
@@ -31813,7 +31813,7 @@
 16	propriétaires	propriétaire	NOUN	_	Gender=Masc|Number=Plur	13	conj	_	_
 17	aigris	aigrir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	acl	_	_
 18	par	par	ADP	_	_	20	case	_	_
-19	cette	ce	DET	_	Gender=Fem|Number=Sing	20	det	_	_
+19	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
 20	spoliation	spoliation	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
 21	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -31967,7 +31967,7 @@
 3	Suhard	Suhard	PROPN	_	_	2	appos	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	voulu	vouloir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	cet	ce	DET	_	Gender=Masc|Number=Sing	7	det	_	_
+6	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	édifice	édifice	NOUN	_	Gender=Masc|Number=Sing	5	dobj	_	_
 8	en	en	ADP	_	_	9	case	_	_
 9	action	action	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
@@ -32096,7 +32096,7 @@
 
 # sentid: fr-ud-dev_01160
 # sentence-text: Cette commande a au moins le mérite de sa douceur.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	commande	commande	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4-5	au	_	_	_	_	_	_	_	_
@@ -32252,7 +32252,7 @@
 7	respirent	respirer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	que	que	ADV	_	_	11	advmod	_	_
 9	de	de	ADP	_	_	11	case	_	_
-10	cette	ce	DET	_	Gender=Fem|Number=Sing	11	det	_	_
+10	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
 11	manière	manière	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 12	lorsqu'	lorsque	SCONJ	_	_	15	mark	_	_
 13	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
@@ -32345,7 +32345,7 @@
 19	l'	le	DET	_	Definite=Def|Number=Sing	20	det	_	_
 20	astronomie	astronomie	PROPN	_	_	17	nmod	_	_
 21	:	:	PUNCT	_	_	13	punct	_	_
-22	cette	ce	DET	_	Gender=Fem|Number=Sing	23	det	_	_
+22	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
 23	expression	expression	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
 24	désignait	désigner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	parataxis	_	_
 25	,	,	PUNCT	_	_	24	punct	_	_
@@ -32408,7 +32408,7 @@
 
 # sentid: fr-ud-dev_01173
 # sentence-text: Cette dernière est d'ailleurs un fondement non négligeable du dogme du Purgatoire.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	dernière	dernier	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 4	d'	de	ADP	_	_	5	case	_	_
@@ -32522,7 +32522,7 @@
 
 # sentid: fr-ud-dev_01177
 # sentence-text: Ce cimetière est inscrit au titre des monuments historiques par arrêté du 19 août 1933.
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	cimetière	cimetière	NOUN	_	Gender=Masc|Number=Sing	4	nsubjpass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	auxpass	_	_
 4	inscrit	inscrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -32988,7 +32988,7 @@
 
 # sentid: fr-ud-dev_01193
 # sentence-text: Ce plan est adopté par la Présidence.
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	plan	plan	NOUN	_	Gender=Masc|Number=Sing	4	nsubjpass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	auxpass	_	_
 4	adopté	adopter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -34133,7 +34133,7 @@
 4	du	du	PROPN	_	_	5	case	_	_
 5	Sud	Sud	PROPN	_	_	3	nmod	_	_
 6	,	,	PUNCT	_	_	1	punct	_	_
-7	cette	ce	DET	_	Gender=Fem|Number=Sing	8	det	_	_
+7	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
 8	plante	plante	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 9	pousse	pousser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	à	à	ADP	_	_	12	case	_	_
@@ -34235,7 +34235,7 @@
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 3	à	à	ADP	_	_	6	case	_	_
-4	cette	ce	DET	_	Gender=Fem|Number=Sing	6	det	_	_
+4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
 5	dernière	dernier	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 6	catégorie	catégorie	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 7	qu'	que	SCONJ	_	_	6	mark	_	_
@@ -34452,7 +34452,7 @@
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 4	recommande	recommander	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	fortement	fortement	ADV	_	_	4	advmod	_	_
-6	cette	ce	DET	_	Gender=Fem|Number=Sing	7	det	_	_
+6	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
 7	école	école	NOUN	_	Gender=Fem|Number=Sing	4	dobj	_	_
 8	super	super	ADV	_	_	9	advmod	_	_
 9	sympa	sympa	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
@@ -34644,7 +34644,7 @@
 10	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	dobj	_	_
 11	détacha	détacher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 12	et	et	CONJ	_	_	11	cc	_	_
-13	cette	ce	DET	_	Gender=Fem|Number=Sing	14	det	_	_
+13	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
 14	dernière	dernier	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
 15	tenta	tenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
 16	de	de	ADP	_	_	17	mark	_	_
@@ -34921,7 +34921,7 @@
 9	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	10	det	_	_
 10	exécution	exécution	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 11	de	de	ADP	_	_	13	case	_	_
-12	cette	ce	DET	_	Gender=Fem|Number=Sing	13	det	_	_
+12	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
 13	mission	mission	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 14	,	,	PUNCT	_	_	29	punct	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	16	det	_	_
@@ -35190,7 +35190,7 @@
 1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	confirme	confirmer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	8	mark	_	_
-4	cette	ce	DET	_	Gender=Fem|Number=Sing	5	det	_	_
+4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	clinique	clinique	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	très	très	ADV	_	_	8	advmod	_	_
@@ -35612,7 +35612,7 @@
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	8	det	_	_
 8	pelouse	pelouse	NOUN	_	Gender=Fem|Number=Sing	3	dobj	_	_
 9	lyonnaise	lyonnais	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
-10	cette	ce	DET	_	Gender=Fem|Number=Sing	11	det	_	_
+10	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
 11	saison	saison	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 12	,	,	PUNCT	_	_	3	punct	_	_
 13-14	au	_	_	_	_	_	_	_	_
@@ -36099,7 +36099,7 @@
 
 # sentid: fr-ud-dev_01302
 # sentence-text: Ce haricot se mit à germer et à grandir jusqu'à atteindre les nuages.
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	haricot	haricot	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	se	se	PRON	_	Person=3|PronType=Prs	4	dobj	_	_
 4	mit	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -36330,7 +36330,7 @@
 6	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	7	det	_	_
 7	issue	issue	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 8	de	de	ADP	_	_	10	case	_	_
-9	ce	ce	DET	_	Gender=Masc|Number=Sing	10	det	_	_
+9	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
 10	délai	délai	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 11	que	que	PRON	_	PronType=Rel	16	nmod	_	_
 12	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	13	det	_	_
@@ -36574,11 +36574,11 @@
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	15	det	_	_
 15	terme	terme	NOUN	_	Gender=Masc|Number=Sing	13	dobj	_	_
 16	à	à	ADP	_	_	18	case	_	_
-17	ces	ce	DET	_	Gender=Fem|Number=Plur	18	det	_	_
+17	ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	18	det	_	_
 18	illusions	illusion	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	_
 19	et	et	CONJ	_	_	18	cc	_	_
 20	à	à	ADP	_	_	22	case	_	_
-21	ces	ce	DET	_	Gender=Fem|Number=Plur	22	det	_	_
+21	ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	22	det	_	_
 22	tentatives	tentative	NOUN	_	Gender=Fem|Number=Plur	18	conj	_	_
 23	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -36917,7 +36917,7 @@
 
 # sentid: fr-ud-dev_01332
 # sentence-text: Cette voie, dénommée Boulevard Intercommunal du Parisis (B.I.P.) ou, plus récemment, avenue du Parisis, doit relier à terme l'autoroute A1 et l'autoroute A104 à l'autoroute A15.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	voie	voie	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	dénommée	dénommer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
@@ -37157,7 +37157,7 @@
 
 # sentid: fr-ud-dev_01341
 # sentence-text: Cette espèce est endémique de la province de Manabí en Équateur.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	espèce	espèce	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	endémique	endémique	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -37175,7 +37175,7 @@
 1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	fois	fois	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
 3	que	que	SCONJ	_	_	8	mark	_	_
-4	ces	ce	DET	_	Gender=Fem|Number=Plur	5	det	_	_
+4	ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
 5	informations	information	NOUN	_	Gender=Fem|Number=Plur	8	nsubjpass	_	_
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	auxpass	_	_
@@ -37664,7 +37664,7 @@
 
 # sentid: fr-ud-dev_01357
 # sentence-text: Ce type de poterie a perduré jusqu'à l'époque gallo-romaine sur le village de Losa.
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	type	type	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	poterie	poterie	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
@@ -37796,7 +37796,7 @@
 # sentence-text: En disposant cet arbre à cames en tête, c'est-à-dire en haut du moteur, à l'aplomb immédiat des soupapes, et non plus au plus proche du vilebrequin mais loin des soupapes, les tiges de renvoi entre arbre et soupapes ne sont plus nécessaires.
 1	En	en	ADP	_	_	2	mark	_	_
 2	disposant	disposer	VERB	_	Tense=Pres|VerbForm=Part	52	advcl	_	_
-3	cet	ce	DET	_	Gender=Masc|Number=Sing	4	det	_	_
+3	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	arbre	arbre	NOUN	_	Gender=Masc|Number=Sing	2	dobj	_	_
 5	à	à	ADP	_	_	6	case	_	_
 6	cames	came	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
@@ -38226,7 +38226,7 @@
 
 # sentid: fr-ud-dev_01377
 # sentence-text: Cette inactivation de l'X (ou lyonisation) se déroule dans les stades précoces de l'embryogénèse (blastocyste), et le chromosome X inactivé est maintenu au cours de la division cellulaire : une cellule inactivant le chromosome X paternel puis se divisant donnera 2 cellules dans lesquelles le chromosome X paternel sera inactivé.
-1	Cette	ce	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	inactivation	inactivation	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing	5	det	_	_
@@ -38289,7 +38289,7 @@
 
 # sentid: fr-ud-dev_01378
 # sentence-text: Cet évènement marque le début de la conversion de la ville au christianisme.
-1	Cet	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	évènement	évènement	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	marque	marquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	5	det	_	_
@@ -38454,7 +38454,7 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	5	det	_	_
 5	moment	moment	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 6	de	de	ADP	_	_	9	case	_	_
-7	ce	ce	DET	_	Gender=Masc|Number=Sing	9	det	_	_
+7	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
 8	brillant	brillant	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
 9	succès	succès	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 10	que	que	SCONJ	_	_	14	mark	_	_
@@ -38980,7 +38980,7 @@
 3	doit	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	clôturer	clôturer	VERB	_	VerbForm=Inf	0	root	_	_
 5	mardi	mardi	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-6	ces	ce	DET	_	Gender=Fem|Number=Plur	7	det	_	_
+6	ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	7	det	_	_
 7	consultations	consultation	NOUN	_	Gender=Fem|Number=Plur	4	dobj	_	_
 8	avant	avant	ADP	_	_	10	mark	_	_
 9	de	de	ADP	_	_	8	mwe	_	_
@@ -39117,7 +39117,7 @@
 32	annulant	annuler	VERB	_	Tense=Pres|VerbForm=Part	7	advcl	_	_
 33	ainsi	ainsi	ADV	_	_	32	advmod	_	_
 34	momentanément	momentanément	ADV	_	_	32	advmod	_	_
-35	cette	ce	DET	_	Gender=Fem|Number=Sing	36	det	_	_
+35	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	36	det	_	_
 36	menace	menace	NOUN	_	Gender=Fem|Number=Sing	32	dobj	_	_
 37	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -39303,7 +39303,7 @@
 39	qui	qui	PRON	_	PronType=Rel	41	nsubj	_	_
 40	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	41	iobj	_	_
 41	offre	offrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	acl:relcl	_	_
-42	ces	ce	DET	_	Gender=Masc|Number=Plur	44	det	_	_
+42	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	44	det	_	_
 43	20	20	NUM	_	_	44	nummod	_	_
 44	dollars	dollar	NOUN	_	Gender=Masc|Number=Plur	41	dobj	_	_
 45	.	.	PUNCT	_	_	7	punct	_	_
@@ -39476,7 +39476,7 @@
 
 # sentid: fr-ud-dev_01419
 # sentence-text: Ces seigneurs exercent un pouvoir séculier et religieux comme le roi mais à échelle réduite.
-1	Ces	ce	DET	_	Gender=Masc|Number=Plur	2	det	_	_
+1	Ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	seigneurs	seigneur	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	exercent	exercer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
@@ -39987,7 +39987,7 @@
 
 # sentid: fr-ud-dev_01437
 # sentence-text: Ce vallon est bordé au nord par le pic Saint-André (2857 mètres) et le pic de Chabrières (2746 m), à l'est par le pic de Crévoux (2644 m) et la pointe de l'Eyssina (2837 m), et au sud par le Grand Parpaillon (2990 m) et l'arête de la Ratelle (2572 m).
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	vallon	vallon	NOUN	_	Gender=Masc|Number=Sing	4	nsubjpass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	auxpass	_	_
 4	bordé	border	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -40180,7 +40180,7 @@
 
 # sentid: fr-ud-dev_01442
 # sentence-text: Ce parti avait été créé en 1991 par les partisans de Lini au sein du Vanua'aku Pati.
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	parti	parti	NOUN	_	Gender=Masc|Number=Sing	5	nsubjpass	_	_
 3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
 4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	auxpass	_	_
@@ -40214,7 +40214,7 @@
 7	cesser	cesser	VERB	_	VerbForm=Inf	6	ccomp	_	_
 8	et	et	CONJ	_	_	7	cc	_	_
 9	sanctionner	sanctionner	VERB	_	VerbForm=Inf	7	conj	_	_
-10	ces	ce	DET	_	Gender=Fem|Number=Plur	11	det	_	_
+10	ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	11	det	_	_
 11	critiques	critique	NOUN	_	Gender=Fem|Number=Plur	9	dobj	_	_
 12	internes	interne	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
 13	mettent	mettre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -40271,7 +40271,7 @@
 
 # sentid: fr-ud-dev_01445
 # sentence-text: Ce restaurant propose des plats turcs très variés et très complets, pouvant satisfaire toutes les faims !
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	restaurant	restaurant	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	propose	proposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
@@ -40472,7 +40472,7 @@
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	nsubj	_	_
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	à	à	ADP	_	_	5	case	_	_
-4	cet	ce	DET	_	Gender=Masc|Number=Sing	5	det	_	_
+4	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 5	endroit	endroit	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 6	que	que	SCONJ	_	_	17	mark	_	_
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur	8	det	_	_
@@ -40615,7 +40615,7 @@
 
 # sentid: fr-ud-dev_01458
 # sentence-text: Ces critères sont alternatifs en droit : il suffit de répondre à un seul pour que l'administration puisse être amenée à conclure que vous êtes fiscalement résident en France.
-1	Ces	ce	DET	_	Gender=Masc|Number=Plur	2	det	_	_
+1	Ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	critères	critère	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	alternatifs	alternatif	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
@@ -40718,7 +40718,7 @@
 16	saoudiennes	saoudien	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	_
 17	pour	pour	ADP	_	_	18	mark	_	_
 18	clarifier	clarifier	VERB	_	VerbForm=Inf	10	advcl	_	_
-19	cette	ce	DET	_	Gender=Fem|Number=Sing	20	det	_	_
+19	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
 20	situation	situation	NOUN	_	Gender=Fem|Number=Sing	18	dobj	_	_
 21	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -40764,7 +40764,7 @@
 
 # sentid: fr-ud-dev_01462
 # sentence-text: Ce palais accueille la Chambre de commerce et d'industrie de Lyon.
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	palais	palais	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	accueille	accueillir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	5	det	_	_
@@ -40922,7 +40922,7 @@
 3	à	à	ADP	_	_	4	mark	_	_
 4	venir	venir	VERB	_	VerbForm=Inf	2	acl	_	_
 5	dans	dans	ADP	_	_	7	case	_	_
-6	cet	ce	DET	_	Gender=Masc|Number=Sing	7	det	_	_
+6	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	hôtel	hôtel	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 8	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	_
 9	ne	ne	PART	_	_	10	neg	_	_
@@ -41289,7 +41289,7 @@
 3	principaux	principal	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
 4	représentants	représentant	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
 5	de	de	ADP	_	_	7	case	_	_
-6	ce	ce	DET	_	Gender=Masc|Number=Sing	7	det	_	_
+6	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	mouvement	mouvement	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 8	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 9	Guido	Guido	PROPN	_	_	0	root	_	_
@@ -41350,7 +41350,7 @@
 11	côtes	côte	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
 12	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	également	également	ADV	_	_	12	advmod	_	_
-14	cette	ce	DET	_	Gender=Fem|Number=Sing	15	det	_	_
+14	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
 15	structure	structure	NOUN	_	Gender=Fem|Number=Sing	12	dobj	_	_
 16	:	:	PUNCT	_	_	12	punct	_	_
 17	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	22	nsubj	_	_
@@ -41408,7 +41408,7 @@
 # sentid: fr-ud-dev_01484
 # sentence-text: Dans cette même perspective et pour accélérer la diffusion des connaissances dans le pays, les pouvoirs publics ivoiriens ont introduit dans les années 70 la télévision éducative dans l'enseignement primaire.
 1	Dans	dans	ADP	_	_	4	case	_	_
-2	cette	ce	DET	_	Gender=Fem|Number=Sing	4	det	_	_
+2	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
 3	même	même	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 4	perspective	perspective	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
 5	et	et	CONJ	_	_	22	cc	_	_
@@ -41475,7 +41475,7 @@
 
 # sentid: fr-ud-dev_01486
 # sentence-text: Cet article décrit les critères administratifs pour qu'une otite consécutive à un barotraumatisme soit reconnue comme maladie professionnelle en France.
-1	Cet	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	article	article	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	décrit	décrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur	5	det	_	_
@@ -41534,7 +41534,7 @@
 # sentence-text: Aller dans ce restaurant est tout simplement un grand plaisir !
 1	Aller	aller	VERB	_	VerbForm=Inf	10	csubj	_	_
 2	dans	dans	ADP	_	_	4	case	_	_
-3	ce	ce	DET	_	Gender=Masc|Number=Sing	4	det	_	_
+3	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	restaurant	restaurant	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 5	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 6	tout	tout	ADV	_	_	7	advmod	_	_
@@ -41814,7 +41814,7 @@
 21	Lombok	Lombok	PROPN	_	_	19	conj	_	_
 22	,	,	PUNCT	_	_	17	punct	_	_
 23	sépare	séparer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-24	ces	ce	DET	_	Gender=Fem|Number=Plur	26	det	_	_
+24	ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	26	det	_	_
 25	deux	deux	NUM	_	_	26	nummod	_	_
 26	écozones	écozone	NOUN	_	Gender=Fem|Number=Sing	23	dobj	_	_
 27	.	.	PUNCT	_	_	23	punct	_	_
@@ -42228,7 +42228,7 @@
 2	pratique	pratique	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	combinée	combiner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
 4	de	de	ADP	_	_	7	case	_	_
-5	ces	ce	DET	_	Gender=Masc|Number=Plur	7	det	_	_
+5	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
 6	trois	trois	NUM	_	_	7	nummod	_	_
 7	points	point	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
 8	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -42547,7 +42547,7 @@
 21	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	22	neg	_	_
 22	modification	modification	NOUN	_	Gender=Fem|Number=Sing	29	nsubj	_	_
 23	de	de	ADP	_	_	26	case	_	_
-24	ce	ce	DET	_	Gender=Masc|Number=Sing	26	det	_	_
+24	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	_
 25	code	code	NOUN	_	Gender=Masc|Number=Sing	26	compound	_	_
 26	source	source	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
 27	ne	ne	PART	_	_	29	neg	_	_
@@ -42713,7 +42713,7 @@
 2	première	premier	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	version	version	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
 4	de	de	ADP	_	_	6	case	_	_
-5	ce	ce	DET	_	Gender=Masc|Number=Sing	6	det	_	_
+5	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
 6	jeu	jeu	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	Crown	Crown	PROPN	_	_	3	appos	_	_
@@ -42798,13 +42798,13 @@
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	8	nsubj	_	_
 6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-7	cette	ce	DET	_	Gender=Fem|Number=Sing	8	det	_	_
+7	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
 8	mélodie	mélodie	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 9	envoutante	envoûtant	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
 10	,	,	PUNCT	_	_	8	punct	_	_
 11	jouée	jouer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
 12	sur	sur	ADP	_	_	14	case	_	_
-13	cette	ce	DET	_	Gender=Fem|Number=Sing	14	det	_	_
+13	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
 14	scène	scène	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 15	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -42939,7 +42939,7 @@
 
 # sentid: fr-ud-dev_01538
 # sentence-text: Ce stage se déroule du lundi 4 au vendredi 8 juillet.
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	stage	stage	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	se	se	PRON	_	Person=3|PronType=Prs	4	dobj	_	_
 4	déroule	dérouler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -42993,7 +42993,7 @@
 10	s'	se	PRON	_	Person=3|PronType=Prs	11	dobj	_	_
 11	aventurer	aventurer	VERB	_	VerbForm=Inf	4	acl	_	_
 12	sur	sur	ADP	_	_	14	case	_	_
-13	ces	ce	DET	_	Gender=Masc|Number=Plur	14	det	_	_
+13	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	14	det	_	_
 14	territoires	territoire	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
 15	interdits	interdit	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
 16	.	.	PUNCT	_	_	2	punct	_	_
@@ -43230,7 +43230,7 @@
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	18	det	_	_
 18	cours	cours	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
 19	de	de	ADP	_	_	21	case	_	_
-20	ces	ce	DET	_	Gender=Masc|Number=Plur	21	det	_	_
+20	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	21	det	_	_
 21	championnats	championnat	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
 22	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -43382,7 +43382,7 @@
 29	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	auxpass	_	_
 30	écarté	écarter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
 31	de	de	ADP	_	_	33	case	_	_
-32	cette	ce	DET	_	Gender=Fem|Number=Sing	33	det	_	_
+32	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	33	det	_	_
 33	fonction	fonction	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
 34	par	par	ADP	_	_	36	case	_	_
 35	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	36	det	_	_
@@ -43466,7 +43466,7 @@
 
 # sentid: fr-ud-dev_01557
 # sentence-text: Ce cabinet d'ostéopathie est vraiment très bien.
-1	Ce	ce	DET	_	Gender=Masc|Number=Sing	2	det	_	_
+1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	cabinet	cabinet	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	d'	de	ADP	_	_	4	case	_	_
 4	ostéopathie	ostéopathie	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
@@ -43828,7 +43828,7 @@
 70	bien	bien	NOUN	_	Gender=Masc|Number=Sing	66	nmod	_	_
 71	réalisable	réalisable	ADJ	_	Gender=Masc|Number=Sing	70	amod	_	_
 72	en	en	ADP	_	_	74	case	_	_
-73	ce	ce	DET	_	Gender=Masc|Number=Sing	74	det	_	_
+73	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	74	det	_	_
 74	monde	monde	NOUN	_	Gender=Masc|Number=Sing	71	nmod	_	_
 75	.	.	PUNCT	_	_	19	punct	_	_
 
@@ -44534,7 +44534,7 @@
 
 # sentid: fr-ud-dev_01593
 # sentence-text: Ces illusions ont été particulièrement étudiées par John Chowning (pionnier de la synthèse numérique des sons) http://brahms.ircam.fr/textes/c00000018/index.html puis par Jean-Claude Risset, chercheurs et compositeurs, qui, à l'aide de l'ordinateur ont créé plusieurs formes d'illusions intégrées dans leurs œuvres.
-1	Ces	ce	DET	_	Gender=Fem|Number=Plur	2	det	_	_
+1	Ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	illusions	illusion	NOUN	_	Gender=Fem|Number=Plur	6	nsubjpass	_	_
 3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	auxpass	_	_

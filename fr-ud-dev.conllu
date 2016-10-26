@@ -23650,10 +23650,10 @@
 
 # sentid: fr-ud-dev_00855
 # sentence-text: Il se voit obligé de se transformer en Ultimate Echo Echo pour les terrasser.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubjpass	_	_
-2	se	se	PRON	_	Person=3|PronType=Prs	4	dobj	_	_
-3	voit	voir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	auxpass	_	_
-4	obligé	obliger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubjpass	_	_
+2	se	se	PRON	_	Person=3|PronType=Prs	3	dobj	_	_
+3	voit	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	obligé	obliger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	_
 5	de	de	ADP	_	_	7	mark	_	_
 6	se	se	PRON	_	Person=3|PronType=Prs	7	dobj	_	_
 7	transformer	transformer	VERB	_	VerbForm=Inf	4	acl	_	_
@@ -23663,7 +23663,7 @@
 11	Echo	Echo	PROPN	_	_	9	name	_	_
 12	pour	pour	ADP	_	_	14	mark	_	_
 13	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	14	dobj	_	_
-14	terrasser	terrasser	VERB	_	VerbForm=Inf	4	advcl	_	_
+14	terrasser	terrasser	VERB	_	VerbForm=Inf	7	advcl	_	_
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-dev_00856

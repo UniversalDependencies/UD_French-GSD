@@ -2114,7 +2114,7 @@
 21	»	»	PUNCT	_	_	20	punct	_	_
 22	diffusée	diffuser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
 23	sur	sur	ADP	_	_	24	case	_	_
-24	TV	télévision	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+24	TV	TV	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
 25	2	2	NUM	_	_	24	nummod	_	_
 26	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -3279,7 +3279,7 @@
 3	mesure	mesurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	environ	environ	ADV	_	_	5	advmod	_	_
 5	160	160	NUM	_	_	6	nummod	_	_
-6	km	kilomètre	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+6	km	km	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	diamètre	diamètre	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 9	.	.	PUNCT	_	_	3	punct	_	_
@@ -6353,7 +6353,7 @@
 12	,	,	PUNCT	_	_	10	punct	_	_
 13	pesant	peser	VERB	_	Tense=Pres|VerbForm=Part	7	acl	_	_
 14	32	32	NUM	_	_	15	nummod	_	_
-15	kg	kilogramme	NOUN	_	Gender=Masc|Number=Plur	13	dobj	_	_
+15	kg	kg	NOUN	_	Gender=Masc|Number=Plur	13	dobj	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	moins	moins	ADV	_	_	13	advmod	_	_
 18	que	que	ADP	_	_	19	case	_	_
@@ -6748,7 +6748,7 @@
 29	,	,	PUNCT	_	_	7	punct	_	_
 30	à	à	ADP	_	_	32	case	_	_
 31	3	3	NUM	_	_	32	nummod	_	_
-32	km	kilomètre	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+32	km	km	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
 33-34	au	_	_	_	_	_	_	_	_
 33	à	à	ADP	_	_	35	case	_	_
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	35	det	_	_
@@ -6760,7 +6760,7 @@
 40	et	et	CONJ	_	_	32	cc	_	_
 41	à	à	ADP	_	_	43	case	_	_
 42	22	22	NUM	_	_	43	nummod	_	_
-43	km	kilomètre	NOUN	_	Gender=Masc|Number=Plur	32	conj	_	_
+43	km	km	NOUN	_	Gender=Masc|Number=Plur	32	conj	_	_
 44-45	au	_	_	_	_	_	_	_	_
 44	à	à	ADP	_	_	46	case	_	_
 45	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	46	det	_	_
@@ -8622,7 +8622,7 @@
 5	4	4	NUM	_	_	4	nummod	_	_
 6	(	(	PUNCT	_	_	8	punct	_	_
 7	109,5	109,5	NUM	_	_	8	nummod	_	_
-8	km	kilomètre	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+8	km	km	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 9	)	)	PUNCT	_	_	8	punct	_	_
 
 # sentid: fr-ud-dev_00310
@@ -10930,14 +10930,14 @@
 3	dispose	disposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	2_865	2_865	NUM	_	_	6	nummod	_	_
-6	ha	hectare	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+6	ha	ha	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
 7	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
 8	terres	terre	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
 9	arables	arable	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	_
 10	et	et	CONJ	_	_	6	cc	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	3_872	3_872	NUM	_	_	13	nummod	_	_
-13	ha	hectare	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	_
+13	ha	ha	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	_
 14	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
 15	pâturages	pâturage	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
 16	.	.	PUNCT	_	_	3	punct	_	_
@@ -12354,7 +12354,7 @@
 31	1	1	NUM	_	_	34	nummod	_	_
 32	et	et	CONJ	_	_	31	cc	_	_
 33	3	3	NUM	_	_	31	conj	_	_
-34	cm	centimètre	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
+34	cm	cm	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
 35	.	.	PUNCT	_	_	6	punct	_	_
 
 # sentid: fr-ud-dev_00447
@@ -15228,7 +15228,7 @@
 38	pneumatiques	pneumatique	NOUN	_	Gender=Masc|Number=Plur	36	nmod	_	_
 39	,	,	PUNCT	_	_	31	punct	_	_
 40	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	41	det	_	_
-41	MP	message	NOUN	_	Gender=Masc|Number=Sing	31	appos	_	_
+41	MP	MP	NOUN	_	Gender=Masc|Number=Sing	31	appos	_	_
 42	51	51	NUM	_	_	41	nummod	_	_
 43	,	,	PUNCT	_	_	5	punct	_	_
 44	de	de	ADP	_	_	45	case	_	_
@@ -18694,7 +18694,7 @@
 4	jusqu'	jusque	ADP	_	_	7	case	_	_
 5	à	à	ADP	_	_	7	case	_	_
 6	2	2	NUM	_	_	7	nummod	_	_
-7	m	mètre	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+7	m	m	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	diamètre	diamètre	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 10	voir	voire	SCONJ	_	_	7	cc	_	_
@@ -21070,7 +21070,7 @@
 12	située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
 13	à	à	ADP	_	_	15	case	_	_
 14	71	71	NUM	_	_	15	nummod	_	_
-15	km	kilomètre	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+15	km	km	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	sa	son	DET	_	Gender=Fem|Number=Sing	18	nmod:poss	_	_
 18	capitale	capitale	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
@@ -26390,13 +26390,13 @@
 12	les	le	DET	_	Definite=Def|Number=Plur	14	det	_	_
 13	9	9	NUM	_	_	14	nummod	_	_
 14	°	°	SYM	_	_	9	nmod	_	_
-15	C	Celsius	NOUN	_	Gender=Masc|Number=Sing	14	compound	_	_
+15	C	C	NOUN	_	Gender=Masc|Number=Sing	14	compound	_	_
 16	et	et	CONJ	_	_	14	cc	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	18	det	_	_
 18	maximale	maximale	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
 19	19	19	NUM	_	_	20	nummod	_	_
 20	°	°	SYM	_	_	18	nmod	_	_
-21	C	Celsius	NOUN	_	Gender=Masc|Number=Sing	20	compound	_	_
+21	C	C	NOUN	_	Gender=Masc|Number=Sing	20	compound	_	_
 22	.	.	PUNCT	_	_	9	punct	_	_
 
 # sentid: fr-ud-dev_00955
@@ -27225,7 +27225,7 @@
 3	culmine	culminer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	6	case	_	_
 5	600	600	NUM	_	_	6	nummod	_	_
-6	m	mètre	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+6	m	m	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 7	sur	sur	ADP	_	_	9	case	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
 9	site	site	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
@@ -28534,7 +28534,7 @@
 
 # sentid: fr-ud-dev_01026
 # sentence-text: M. Enzo a d'ailleurs envoyé paître une de mes collègues !
-1	M.	Monsieur	NOUN	_	Gender=Masc|Number=Sing	2	compound	_	_
+1	M.	M.	NOUN	_	Gender=Masc|Number=Sing	2	compound	_	_
 2	Enzo	Enzo	PROPN	_	_	6	nsubj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 4	d'	de	ADP	_	_	6	advmod	_	_
@@ -29312,7 +29312,7 @@
 
 # sentid: fr-ud-dev_01055
 # sentence-text: M. Ping a précisé que l'UA avait entrepris d'organiser des négociations entre le Conseil national de transition à Benghazi et les autorités libyennes à Tripoli "pour qu'un cessez-le-feu immédiat soit instauré".
-1	M.	Monsieur	NOUN	_	Gender=Masc|Number=Sing	2	compound	_	_
+1	M.	M.	NOUN	_	Gender=Masc|Number=Sing	2	compound	_	_
 2	Ping	Ping	PROPN	_	_	4	nsubj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	précisé	préciser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -30625,13 +30625,13 @@
 # sentid: fr-ud-dev_01106
 # sentence-text: Selon M. Ménard, la nomination de M. Parent sera « bien vue des communautés culturelles », puisqu'il a une sensibilité certaine sur ces questions.
 1	Selon	selon	ADP	_	_	3	case	_	_
-2	M.	Monsieur	NOUN	_	Gender=Masc|Number=Sing	3	compound	_	_
+2	M.	M.	NOUN	_	Gender=Masc|Number=Sing	3	compound	_	_
 3	Ménard	Ménard	PROPN	_	_	13	nmod	_	_
 4	,	,	PUNCT	_	_	13	punct	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	6	det	_	_
 6	nomination	nomination	NOUN	_	Gender=Fem|Number=Sing	13	nsubjpass	_	_
 7	de	de	ADP	_	_	9	case	_	_
-8	M.	Monsieur	NOUN	_	Gender=Masc|Number=Sing	9	compound	_	_
+8	M.	M.	NOUN	_	Gender=Masc|Number=Sing	9	compound	_	_
 9	Parent	Parent	PROPN	_	_	6	nmod	_	_
 10	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	auxpass	_	_
 11	«	«	PUNCT	_	_	13	punct	_	_
@@ -38975,7 +38975,7 @@
 
 # sentid: fr-ud-dev_01402
 # sentence-text: M. Sleimane doit clôturer mardi ces consultations avant de désigner un nouveau Premier ministre pour remplacer Saad Hariri, dont le gouvernement d'union s'est effondré le 12 janvier avec la démission des ministres du camp du Hezbollah.
-1	M.	Monsieur	NOUN	_	Gender=Masc|Number=Sing	2	compound	_	_
+1	M.	M.	NOUN	_	Gender=Masc|Number=Sing	2	compound	_	_
 2	Sleimane	Sleimane	PROPN	_	_	4	nsubj	_	_
 3	doit	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	clôturer	clôturer	VERB	_	VerbForm=Inf	0	root	_	_
@@ -42201,7 +42201,7 @@
 13	d'	de	ADP	_	_	14	case	_	_
 14	euros	euro	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
 15	par	par	ADP	_	_	17	case	_	_
-16	M.	Monsieur	NOUN	_	Gender=Masc|Number=Sing	17	compound	_	_
+16	M.	M.	NOUN	_	Gender=Masc|Number=Sing	17	compound	_	_
 17	Blanc	Blanc	PROPN	_	_	9	nmod	_	_
 18	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -43196,7 +43196,7 @@
 4	découverte	découvrir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	à	à	ADP	_	_	4	mark	_	_
 6	1000	1000	NUM	_	_	7	nummod	_	_
-7	m	mètre	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
+7	m	m	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
 8	d'	de	ADP	_	_	9	case	_	_
 9	altitude	altitude	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 10	dans	dans	ADP	_	_	12	case	_	_

@@ -248,10 +248,10 @@
 26	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 27	à	à	ADP	_	_	28	case	_	_
 28	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	26	nmod	_	_
-29	qu'	que	PRON	_	PronType=Rel	33	dobj	_	_
+29	qu'	que	PRON	_	PronType=Rel	33	iobj	_	_
 30	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	33	nsubj	_	_
 31	s'	se	PRON	_	Person=3|PronType=Prs	33	dobj	_	_
-32	en	en	PRON	_	Person=3	33	dobj	_	_
+32	en	en	PRON	_	Person=3	33	expl	_	_
 33	prennent	prendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
 34	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -4177,7 +4177,7 @@
 27	Société	Société	PROPN	_	_	24	nmod	_	_
 28	Générale	général	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
 29	,	,	PUNCT	_	_	24	punct	_	_
-30	dont	dont	PRON	_	PronType=Rel	34	iobj	_	_
+30	dont	dont	PRON	_	PronType=Rel	32	nmod	_	_
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	32	det	_	_
 32	dégradation	dégradation	NOUN	_	Gender=Fem|Number=Sing	34	nsubj	_	_
 33	pourrait	pouvoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
@@ -5245,7 +5245,7 @@
 2	Di	Di	PROPN	_	_	1	name	_	_
 3	Rupo	Rupo	PROPN	_	_	1	name	_	_
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	dont	dont	PRON	_	PronType=Rel	9	iobj	_	_
+5	dont	dont	PRON	_	PronType=Rel	7	nmod	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	7	det	_	_
 7	parti	parti	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 8	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_

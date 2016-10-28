@@ -542,7 +542,7 @@
 27	ministre	ministre	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
 28	britannique	britannique	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
 29	mais	mais	CONJ	_	_	17	cc	_	_
-30	dont	dont	PRON	_	PronType=Rel	34	iobj	_	_
+30	dont	dont	PRON	_	PronType=Rel	32	nmod	_	_
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	32	det	_	_
 32	mission	mission	NOUN	_	Gender=Fem|Number=Sing	34	nsubj	_	_
 33	se	se	PRON	_	Person=3|PronType=Prs	34	dobj	_	_
@@ -1769,7 +1769,7 @@
 # sentid: fr-ud-dev_00067
 # sentence-text: On en avait vue une dizaine au premier contrôle mais pas celle là.
 1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
-2	en	en	PRON	_	Person=3	4	iobj	_	_
+2	en	en	PRON	_	Person=3	6	nmod	_	_
 3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
 4	vue	voir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	6	det	_	_
@@ -1779,9 +1779,9 @@
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	10	det	_	_
 9	premier	premier	NUM	_	_	10	nummod	_	_
 10	contrôle	contrôle	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-11	mais	mais	CONJ	_	_	4	cc	_	_
+11	mais	mais	CONJ	_	_	6	cc	_	_
 12	pas	pas	ADV	_	_	13	neg	_	_
-13	celle	celui	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	4	conj	_	_
+13	celle	celui	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	6	conj	_	_
 14	là	là	PART	_	_	13	goeswith	_	_
 15	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -9795,12 +9795,12 @@
 3	à	à	ADP	_	_	5	case	_	_
 4	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	5	det	_	_
 5	écoute	écoute	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-6	et	et	CONJ	_	_	2	cc	_	_
-7	dont	dont	PRON	_	PronType=Rel	11	nmod	_	_
+6	et	et	CONJ	_	_	5	cc	_	_
+7	dont	dont	PRON	_	PronType=Rel	9	nmod	_	_
 8	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur	9	det	_	_
 9	compétences	compétence	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	_
 10	variées	varié	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
-11	trouveront	trouver	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	2	conj	_	_
+11	trouveront	trouver	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	5	conj	_	_
 12	toujours	toujours	ADV	_	_	11	advmod	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	14	det	_	_
 14	solution	solution	NOUN	_	Gender=Fem|Number=Sing	11	dobj	_	_
@@ -16580,7 +16580,7 @@
 15	d'	un	DET	_	Definite=Ind|PronType=Ind	16	det	_	_
 16	autres	autre	PRON	_	Number=Plur	19	nsubj	_	_
 17	n'	ne	PART	_	_	19	neg	_	_
-18	en	en	PRON	_	Person=3	19	iobj	_	_
+18	en	en	PRON	_	Person=3	22	nmod	_	_
 19	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 20	indiscutablement	indiscutablement	ADV	_	_	19	advmod	_	_
 21	pas	pas	ADV	_	_	19	neg	_	_
@@ -21358,7 +21358,7 @@
 14	son	son	DET	_	Gender=Masc|Number=Sing	15	nmod:poss	_	_
 15	mouvement	mouvement	NOUN	_	Gender=Masc|Number=Sing	13	dobj	_	_
 16	et	et	CONJ	_	_	12	cc	_	_
-17	en	en	PRON	_	Person=3	18	iobj	_	_
+17	en	en	PRON	_	Person=3	20	nmod	_	_
 18	légitimer	légitimer	VERB	_	VerbForm=Inf	12	conj	_	_
 19	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	20	det	_	_
 20	action	action	NOUN	_	Gender=Fem|Number=Sing	18	dobj	_	_
@@ -34286,7 +34286,7 @@
 52	riches	riche	ADJ	_	Gender=Fem|Number=Plur	50	amod	_	_
 53	peuvent	pouvoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	56	aux	_	_
 54	aussi	aussi	ADV	_	_	56	advmod	_	_
-55	en	en	PRON	_	Person=3	56	iobj	_	_
+55	en	en	PRON	_	Person=3	57	nmod	_	_
 56	faire	faire	VERB	_	VerbForm=Inf	38	advcl	_	_
 57	partie	partie	NOUN	_	Gender=Fem|Number=Sing	56	dobj	_	_
 58	.	.	PUNCT	_	_	6	punct	_	_
@@ -38994,7 +38994,7 @@
 17	Saad	Saad	PROPN	_	_	16	dobj	_	_
 18	Hariri	Hariri	PROPN	_	_	17	name	_	_
 19	,	,	PUNCT	_	_	4	punct	_	_
-20	dont	dont	PRON	_	PronType=Rel	27	iobj	_	_
+20	dont	dont	PRON	_	PronType=Rel	22	nmod	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing	22	det	_	_
 22	gouvernement	gouvernement	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
 23	d'	de	ADP	_	_	24	case	_	_
@@ -39749,7 +39749,7 @@
 13	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	11	dobj	_	_
 14	et	et	CONJ	_	_	9	cc	_	_
 15	s'	se	PRON	_	Person=3|PronType=Prs	17	dobj	_	_
-16	en	en	PRON	_	Person=3	17	iobj	_	_
+16	en	en	PRON	_	Person=3	17	expl	_	_
 17	inventer	inventer	VERB	_	VerbForm=Inf	9	conj	_	_
 18	un	un	PRON	_	Gender=Masc|Number=Sing	17	dobj	_	_
 19	éventuellement	éventuellement	ADV	_	_	17	advmod	_	_
@@ -40247,7 +40247,7 @@
 40	grand	grand	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	_
 41	comité	comité	PROPN	_	_	33	nmod	_	_
 42	»	»	PUNCT	_	_	41	punct	_	_
-43	dont	dont	PRON	_	PronType=Rel	47	iobj	_	_
+43	dont	dont	PRON	_	PronType=Rel	50	nmod	_	_
 44	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	47	nsubj	_	_
 45	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	aux	_	_
 46	lui-même	lui-même	PRON	_	Gender=Masc|Number=Sing|Person=3|Reflex=Yes	47	nmod	_	_
@@ -42178,7 +42178,7 @@
 2	Pokémon	Pokémon	PROPN	_	_	6	nmod	_	_
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
-5	en	en	PRON	_	Person=3	6	iobj	_	_
+5	en	en	PRON	_	Person=3	8	nmod	_	_
 6	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	exactement	exactement	ADV	_	_	8	advmod	_	_
 8	60	60	NUM	_	_	6	dobj	_	_
@@ -44152,7 +44152,7 @@
 24	de	de	ADP	_	_	25	case	_	_
 25	communication	communication	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
 26	,	,	PUNCT	_	_	23	punct	_	_
-27	dont	dont	PRON	_	PronType=Rel	30	iobj	_	_
+27	dont	dont	PRON	_	PronType=Rel	29	nmod	_	_
 28	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing	29	det	_	_
 29	installation	installation	NOUN	_	Gender=Fem|Number=Sing	30	nsubj	_	_
 30	génère	générer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_

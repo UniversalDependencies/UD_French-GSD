@@ -1550,7 +1550,7 @@
 3	victimes	victime	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	Révolution	Révolution	PROPN	_	_	3	nmod	_	_
+6	Révolution	révolution	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 7	française	français	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 8	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -1655,10 +1655,10 @@
 8	démantelé	démanteler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	durant	durant	ADP	_	_	11	case	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	Guerre	Guerre	PROPN	_	_	8	nmod	_	_
+11	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 12	de	de	ADP	_	_	14	case	_	_
-13	Trente	Trente	PROPN	_	_	14	nummod	_	_
-14	Ans	Ans	PROPN	_	_	11	nmod	_	_
+13	Trente	trente	NUM	_	_	14	nummod	_	_
+14	Ans	ans	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
 15	.	.	PUNCT	_	_	8	punct	_	_
 
 # sentid: fr-ud-dev_00063
@@ -3670,7 +3670,7 @@
 17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	Conseil	Conseil	PROPN	_	_	16	nmod	_	_
+19	Conseil	conseil	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
 20	général	général	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
 21	de	de	ADP	_	_	22	case	_	_
 22	Seine-Saint-Denis	Seine-Saint-Denis	PROPN	_	_	19	nmod	_	_
@@ -5652,7 +5652,7 @@
 # sentid: fr-ud-dev_00206
 # sentence-text: La Proclamation visait à apaiser les craintes indiennes d'une arrivée massive de paysans blancs sur leurs territoires.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Proclamation	Proclamation	PROPN	_	_	3	nsubj	_	_
+2	Proclamation	proclamation	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	visait	viser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	5	mark	_	_
 5	apaiser	apaiser	VERB	_	VerbForm=Inf	3	acl	_	_
@@ -6974,7 +6974,7 @@
 30	décerné	décerner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	acl	_	_
 31	par	par	ADP	_	_	33	case	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	ministère	ministère	PROPN	_	_	30	nmod	_	_
+33	ministère	ministère	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
 34	de	de	ADP	_	_	36	case	_	_
 35	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	36	det	_	_
 36	Equipement	Equipement	PROPN	_	_	33	nmod	_	_
@@ -7429,7 +7429,7 @@
 8	abandonnées	abandonné	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
 9	lorsque	lorsque	SCONJ	_	_	12	mark	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	Cour	Cour	PROPN	_	_	12	nsubj	_	_
+11	Cour	cour	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 12	recevra	recevoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	advcl	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	preuve	preuve	NOUN	_	Gender=Fem|Number=Sing	12	dobj	_	_
@@ -7986,7 +7986,7 @@
 43	de	de	ADP	_	_	46	case	_	_
 44	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
 45	Seconde	Seconde	PROPN	_	_	46	amod	_	_
-46	République	République	PROPN	_	_	42	nmod	_	_
+46	République	république	NOUN	_	Gender=Fem|Number=Sing	42	nmod	_	_
 47	espagnole	espagnol	ADJ	_	Gender=Fem|Number=Sing	46	amod	_	_
 48	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -11525,7 +11525,7 @@
 16	durant	durant	ADP	_	_	19	case	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 18	Seconde	Seconde	PROPN	_	_	19	amod	_	_
-19	Guerre	Guerre	PROPN	_	_	7	nmod	_	_
+19	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 20	mondiale	mondial	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
 21	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -12870,7 +12870,7 @@
 8	1985	1985	NUM	_	_	2	nmod	_	_
 9	à	à	ADP	_	_	11	case	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
-11	Université	Université	PROPN	_	_	2	nmod	_	_
+11	Université	université	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 12-13	des	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
@@ -12881,7 +12881,7 @@
 18	aller	aller	VERB	_	VerbForm=Inf	2	advcl	_	_
 19	à	à	ADP	_	_	21	case	_	_
 20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
-21	Université	Université	PROPN	_	_	18	nmod	_	_
+21	Université	université	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
 22	Harvard	Harvard	PROPN	_	_	21	appos	_	_
 23	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -13224,7 +13224,7 @@
 3	aussi	aussi	ADV	_	_	2	advmod	_	_
 4	dans	dans	ADP	_	_	6	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	Chambre	Chambre	PROPN	_	_	2	nmod	_	_
+6	Chambre	chambre	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 7-8	des	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
@@ -22124,7 +22124,7 @@
 16	)	)	PUNCT	_	_	15	punct	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
-19	Université	Université	PROPN	_	_	8	nmod	_	_
+19	Université	université	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 20	de	de	ADP	_	_	21	case	_	_
 21	Marne-la-Vallée	Marne-la-Vallée	PROPN	_	_	19	nmod	_	_
 22	,	,	PUNCT	_	_	6	punct	_	_
@@ -22823,7 +22823,7 @@
 6	philosophie	philosophie	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 7	à	à	ADP	_	_	9	case	_	_
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
-9	Université	Université	PROPN	_	_	2	nmod	_	_
+9	Université	université	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	Nanterre	Nanterre	PROPN	_	_	9	nmod	_	_
 12	sur	sur	ADP	_	_	14	case	_	_
@@ -24160,10 +24160,10 @@
 # sentid: fr-ud-dev_00875
 # sentence-text: Le Conseil de la Bourse de Téhéran est la plus haute autorité boursière.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Conseil	Conseil	PROPN	_	_	12	nsubj	_	_
+2	Conseil	conseil	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	Bourse	Bourse	PROPN	_	_	2	nmod	_	_
+5	Bourse	bourse	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	Téhéran	Téhéran	PROPN	_	_	2	nmod	_	_
 8	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
@@ -24202,7 +24202,7 @@
 21-22	au	_	_	_	_	_	_	_	_
 21	à	à	ADP	_	_	23	case	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	Sénat	Sénat	PROPN	_	_	20	nmod	_	_
+23	Sénat	sénat	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 24	dans	dans	ADP	_	_	26	case	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	province	province	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
@@ -25814,7 +25814,7 @@
 20	protégés	protéger	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	acl	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	République	République	PROPN	_	_	20	nmod	_	_
+23	République	république	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
 24	de	de	ADP	_	_	25	case	_	_
 25	Serbie	Serbie	PROPN	_	_	23	nmod	_	_
 26	et	et	CONJ	_	_	15	cc	_	_
@@ -26037,7 +26037,7 @@
 1	1789	1789	NUM	_	_	5	nmod	_	_
 2	:	:	PUNCT	_	_	5	punct	_	_
 3	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	Révolution	Révolution	PROPN	_	_	5	nsubj	_	_
+4	Révolution	révolution	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 5	marque	marquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	fin	fin	NOUN	_	Gender=Fem|Number=Sing	5	dobj	_	_
@@ -27603,8 +27603,8 @@
 16	)	)	PUNCT	_	_	15	punct	_	_
 17	durant	durant	ADP	_	_	20	case	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-19	Seconde	Seconde	PROPN	_	_	20	amod	_	_
-20	Guerre	Guerre	PROPN	_	_	4	nmod	_	_
+19	Seconde	second	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+20	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 21	mondiale	mondial	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
 22	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -29327,7 +29327,7 @@
 13	négociations	négociation	NOUN	_	Gender=Fem|Number=Plur	11	dobj	_	_
 14	entre	entre	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	Conseil	Conseil	PROPN	_	_	13	nmod	_	_
+16	Conseil	conseil	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
 17	national	national	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
 18	de	de	ADP	_	_	19	case	_	_
 19	transition	transition	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
@@ -29487,7 +29487,7 @@
 10-11	au	_	_	_	_	_	_	_	_
 10	à	à	ADP	_	_	12	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	Conseil	Conseil	PROPN	_	_	3	nmod	_	_
+12	Conseil	conseil	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	sécurité	sécurité	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
 15-16	des	_	_	_	_	_	_	_	_
@@ -32018,7 +32018,7 @@
 # sentid: fr-ud-dev_01156
 # sentence-text: Le Conseil fédéral présentera alors le détail d'un programme national de prévention de la violence juvénile limité à cinq ans.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Conseil	Conseil	PROPN	_	_	4	nsubj	_	_
+2	Conseil	conseil	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	fédéral	fédéral	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 4	présentera	présenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 5	alors	alors	ADV	_	_	4	advmod	_	_
@@ -32879,7 +32879,7 @@
 5	fois	fois	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	dans	dans	ADP	_	_	8	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	République	République	PROPN	_	_	2	nmod	_	_
+8	République	république	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 9	fédérale	fédéral	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
 10	islamique	islamique	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
 11-12	des	_	_	_	_	_	_	_	_
@@ -34325,7 +34325,7 @@
 7	ottoman	ottoman	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 8	,	,	PUNCT	_	_	15	punct	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	Conférence	Conférence	PROPN	_	_	15	nsubj	_	_
+10	Conférence	conférence	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	Londres	Londres	PROPN	_	_	10	nmod	_	_
 13	de	de	ADP	_	_	14	case	_	_
@@ -34669,7 +34669,7 @@
 # sentid: fr-ud-dev_01248
 # sentence-text: La Convention imposa bien le bonnet phrygien au drapeau de l'armée, mais peint au centre de l'étoffe et surmontant le faisceau du licteur entouré de branches de chêne et de laurier.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Convention	Convention	PROPN	_	_	3	nsubj	_	_
+2	Convention	convention	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	imposa	imposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	bien	bien	ADV	_	_	3	advmod	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -34929,7 +34929,7 @@
 17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	Conseil	Conseil	PROPN	_	_	16	nmod	_	_
+19	Conseil	conseil	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
 20	de	de	ADP	_	_	21	case	_	_
 21	surveillance	surveillance	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
 22	d'	de	ADP	_	_	23	case	_	_
@@ -35060,7 +35060,7 @@
 1	Lors	lors	ADV	_	_	4	case	_	_
 2	de	de	ADP	_	_	1	mwe	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	Guerre	Guerre	PROPN	_	_	42	nmod	_	_
+4	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	42	nmod	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	Tuscarora	Tuscarora	PROPN	_	_	4	nmod	_	_
 7	,	,	PUNCT	_	_	4	punct	_	_
@@ -35083,7 +35083,7 @@
 23	lors	lors	ADV	_	_	26	case	_	_
 24	de	de	ADP	_	_	23	mwe	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	Guerre	Guerre	PROPN	_	_	4	conj	_	_
+26	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
 27	de	de	ADP	_	_	28	case	_	_
 28	Yamasee	Yamasee	PROPN	_	_	26	nmod	_	_
 29	,	,	PUNCT	_	_	26	punct	_	_
@@ -37233,10 +37233,10 @@
 31	conféré	conférer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl:relcl	_	_
 32	par	par	ADP	_	_	34	case	_	_
 33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	République	République	PROPN	_	_	31	nmod	_	_
+34	République	république	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
 35	(	(	PUNCT	_	_	37	punct	_	_
 36	ou	ou	CONJ	_	_	34	cc	_	_
-37	Commonwealth	Commonwealth	PROPN	_	_	34	conj	_	_
+37	Commonwealth	commonwealth	NOUN	_	Gender=Masc|Number=Sing	34	conj	_	_
 38	)	)	PUNCT	_	_	37	punct	_	_
 39	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -37569,7 +37569,7 @@
 # sentid: fr-ud-dev_01353
 # sentence-text: Le Conseil a globalement adopté une définition large des noms insultants ou préexistants et le ministre n'a presque jamais refusé une recommandation positive.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Conseil	Conseil	PROPN	_	_	5	nsubj	_	_
+2	Conseil	conseil	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 4	globalement	globalement	ADV	_	_	5	advmod	_	_
 5	adopté	adopter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -40751,7 +40751,7 @@
 25	pendant	pendant	ADP	_	_	28	case	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 27	Première	Première	PROPN	_	_	28	amod	_	_
-28	Guerre	Guerre	PROPN	_	_	21	nmod	_	_
+28	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
 29	mondiale	mondial	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
 30	,	,	PUNCT	_	_	19	punct	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
@@ -40768,7 +40768,7 @@
 2	palais	palais	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	accueille	accueillir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	Chambre	Chambre	PROPN	_	_	3	dobj	_	_
+5	Chambre	chambre	NOUN	_	Gender=Fem|Number=Sing	3	dobj	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	commerce	commerce	PROPN	_	_	5	nmod	_	_
 8	et	et	CONJ	_	_	7	cc	_	_
@@ -43369,7 +43369,7 @@
 16	présidence	présidence	NOUN	_	Gender=Fem|Number=Sing	13	dobj	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	République	République	PROPN	_	_	16	nmod	_	_
+19	République	république	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 21	19	19	NUM	_	_	22	nummod	_	_
 22	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_

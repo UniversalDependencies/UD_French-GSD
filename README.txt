@@ -5,12 +5,17 @@ https://code.google.com/p/uni-dep-tb/
 
 The README for that project is included here.
 
-The French UD conforms to the UD guidelines, but there are some exceptions.
-The primary exception is that there are no morphological features defined.
+The French UD conforms to the UD guidelines, but there are some exceptions. All the morphological features are not present in the data yet. Cleft constructions are not yet analyzed following the UD guidelines.
 
+The French data consists of 40,2197 words (16,448 sentences), divided into train (35,6419 words; 14,554 sentences), dev (38,758 words; 1,596 sentences) and test (7,020 words; 298 sentences) sets.
 
 
 Changelog
+
+2016-11-15 v.1.4
+  * POS annotations were made more consistent
+  * Several dependency paths were also made more consistent across similar expressions
+  * Only “avoir” and “être” are considered copula
 
 2015-11-15 v1.2
   * Removed duplicate sentences (overlaps with train) from dev and test data.
@@ -21,7 +26,7 @@ Data source: semi-automatic
 Data available since: UD v1.0
 License: CC BY-NC-SA 3.0 US
 Genre: blog news reviews wiki
-Contributors: de Marneffe, Marie-Catherine; Guillaume, Bruno; McDonald, Ryan; Suhr, Alane; Nivre, Joakim
+Contributors: de Marneffe, Marie-Catherine; Guillaume, Bruno; McDonald, Ryan; Suhr, Alane; Nivre, Joakim; Grioni, Matias
 Contact:
 ===============================================================================
 (Original treebank contributors: Quirmbach-Brundage, Yvonne; LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)

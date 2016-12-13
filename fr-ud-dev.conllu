@@ -7032,10 +7032,10 @@
 8	par	par	ADP	_	_	10	case	_	_
 9	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
 10	chasseurs	chasseur	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
-11	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
-12	à	à	ADP	_	_	14	case	_	_
+11	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	14	case	_	_
+12	à	à	ADP	_	_	11	mwe	_	_
 13	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	ange	ange	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+14	ange	ange	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 15	,	,	PUNCT	_	_	20	punct	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 17	deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
@@ -12479,10 +12479,10 @@
 
 # sentid: fr-ud-dev_00451
 # sentence-text: Grâce à la chance et à sa force de caractère, il est aujourd'hui tétraplégique incomplet.
-1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
-2	à	à	ADP	_	_	4	case	_	_
+1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	4	case	_	_
+2	à	à	ADP	_	_	1	mwe	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	chance	chance	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+4	chance	chance	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
 5	et	et	CONJ	_	_	4	cc	_	_
 6	à	à	ADP	_	_	8	case	_	_
 7	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	8	nmod:poss	_	_
@@ -17693,10 +17693,10 @@
 
 # sentid: fr-ud-dev_00637
 # sentence-text: Grâce à notre résistance contre la réaction religieuse, sans compromis et sans relâche, grâce à notre position ferme et courageuse face à cette réaction, nous sauvons la société arabe de la mutilation que serait pour elle l'athéisme.
-1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
-2	à	à	ADP	_	_	4	case	_	_
+1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	4	case	_	_
+2	à	à	ADP	_	_	1	mwe	_	_
 3	notre	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	4	nmod:poss	_	_
-4	résistance	résistance	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+4	résistance	résistance	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
 5	contre	contre	ADP	_	_	7	case	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	réaction	réaction	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
@@ -17707,18 +17707,18 @@
 12	et	et	CONJ	_	_	11	cc	_	_
 13	sans	sans	ADP	_	_	14	case	_	_
 14	relâche	relâche	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
-15	,	,	PUNCT	_	_	1	punct	_	_
-16	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
-17	à	à	ADP	_	_	19	case	_	_
+15	,	,	PUNCT	_	_	4	punct	_	_
+16	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	19	case	_	_
+17	à	à	ADP	_	_	16	mwe	_	_
 18	notre	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	19	nmod:poss	_	_
-19	position	position	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+19	position	position	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
 20	ferme	ferme	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
 21	et	et	CONJ	_	_	20	cc	_	_
 22	courageuse	courageux	ADJ	_	Gender=Fem|Number=Sing	20	conj	_	_
-23	face	face	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
-24	à	à	ADP	_	_	26	case	_	_
+23	face	face	NOUN	_	Gender=Fem|Number=Sing	26	case	_	_
+24	à	à	ADP	_	_	23	mwe	_	_
 25	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
-26	réaction	réaction	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+26	réaction	réaction	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
 27	,	,	PUNCT	_	_	29	punct	_	_
 28	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	29	nsubj	_	_
 29	sauvons	sauver	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -26283,11 +26283,11 @@
 19	réelle	réel	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
 20	dimension	dimension	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
 21	dramatique	dramatique	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
-22	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+22	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	25	case	_	_
 23-24	au	_	_	_	_	_	_	_	_
-23	à	à	ADP	_	_	25	case	_	_
+23	à	à	ADP	_	_	22	mwe	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	travail	travail	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+25	travail	travail	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 26-27	du	_	_	_	_	_	_	_	_
 26	de	de	ADP	_	_	28	case	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
@@ -30165,11 +30165,11 @@
 14	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	élément	élément	NOUN	_	Gender=Masc|Number=Sing	12	dobj	_	_
 16	thallium	thallium	NOUN	_	Gender=Masc|Number=Sing	15	appos	_	_
-17	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+17	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	20	case	_	_
 18-19	au	_	_	_	_	_	_	_	_
-18	à	à	ADP	_	_	20	case	_	_
+18	à	à	ADP	_	_	17	mwe	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	spectroscope	spectroscope	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+20	spectroscope	spectroscope	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 21	prêté	prêter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
 22	par	par	ADP	_	_	24	case	_	_
 23	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	24	nmod:poss	_	_
@@ -35548,10 +35548,10 @@
 
 # sentid: fr-ud-dev_01279
 # sentence-text: Grâce à certaines inscriptions nous savons presque certainement que la cité s'élève aujourd'hui dans la zone du quartier Colli Aniene.
-1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
-2	à	à	ADP	_	_	4	case	_	_
+1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	4	case	_	_
+2	à	à	ADP	_	_	1	mwe	_	_
 3	certaines	certain	DET	_	Gender=Fem|Number=Plur	4	det	_	_
-4	inscriptions	inscription	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+4	inscriptions	inscription	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
 5	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 6	savons	savoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	presque	presque	ADV	_	_	8	advmod	_	_
@@ -36519,11 +36519,11 @@
 5	un	un	NUM	_	_	4	nmod	_	_
 6	à	à	ADP	_	_	7	case	_	_
 7	zéro	zéro	NUM	_	_	5	nmod	_	_
-8	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-9	à	à	ADP	_	_	12	case	_	_
+8	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	12	case	_	_
+9	à	à	ADP	_	_	8	mwe	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 11	énième	énième	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
-12	réalisation	réalisation	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+12	réalisation	réalisation	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	Lewandowski	Lewandowski	PROPN	_	_	12	nmod	_	_
 15	(	(	PUNCT	_	_	17	punct	_	_
@@ -39204,10 +39204,10 @@
 3	compléta	compléter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	podium	podium	NOUN	_	Gender=Masc|Number=Sing	3	dobj	_	_
-6	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-7	à	à	ADP	_	_	9	case	_	_
+6	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	9	case	_	_
+7	à	à	ADP	_	_	6	mwe	_	_
 8	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	9	nmod:poss	_	_
-9	victoire	victoire	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	victoire	victoire	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 10	sur	sur	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Pologne	Pologne	PROPN	_	_	9	nmod	_	_

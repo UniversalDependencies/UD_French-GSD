@@ -7734,10 +7734,10 @@
 
 # sentid: fr-ud-dev_00276
 # sentence-text: Face à l'explosion de la demande de numéros liée à la démocratisation du fax et de la téléphonie mobile, France Télécom développa un nouveau plan, mis en œuvre le 18 octobre 1996 à 23 heures.
-1	Face	face	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
-2	à	à	ADP	_	_	4	case	_	_
+1	Face	face	NOUN	_	Gender=Fem|Number=Sing	4	case	_	_
+2	à	à	ADP	_	_	1	mwe	_	_
 3	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	explosion	explosion	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+4	explosion	explosion	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	demande	demande	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
@@ -20663,11 +20663,11 @@
 27	mais	mais	CONJ	_	_	12	cc	_	_
 28	demeure	demeurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
 29	implacable	implacable	ADJ	_	Gender=Masc|Number=Sing	28	xcomp	_	_
-30	face	face	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+30	face	face	NOUN	_	Gender=Fem|Number=Sing	33	case	_	_
 31-32	aux	_	_	_	_	_	_	_	_
-31	à	à	ADP	_	_	33	case	_	_
+31	à	à	ADP	_	_	30	mwe	_	_
 32	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
-33	agitateurs	agitateur	NOUN	_	Gender=Masc|Number=Plur	30	nmod	_	_
+33	agitateurs	agitateur	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	_
 34	.	.	PUNCT	_	_	12	punct	_	_
 
 # sentid: fr-ud-dev_00749
@@ -23451,11 +23451,11 @@
 2	demi-finale	demi-finale	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	conférence	conférence	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-5	face	face	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	face	face	NOUN	_	Gender=Fem|Number=Sing	8	case	_	_
 6-7	au	_	_	_	_	_	_	_	_
-6	à	à	ADP	_	_	8	case	_	_
+6	à	à	ADP	_	_	5	mwe	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Jazz	Jazz	PROPN	_	_	5	nmod	_	_
+8	Jazz	Jazz	PROPN	_	_	2	nmod	_	_
 9	confirme	confirmer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
 11	guérison	guérison	NOUN	_	Gender=Fem|Number=Sing	9	dobj	_	_
@@ -30591,9 +30591,9 @@
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	dark	dark	ADJ	_	_	11	amod	_	_
 11	match	match	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-12	face	face	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
-13	à	à	ADP	_	_	14	case	_	_
-14	Elijah	Elijah	PROPN	_	_	12	nmod	_	_
+12	face	face	NOUN	_	Gender=Fem|Number=Sing	14	case	_	_
+13	à	à	ADP	_	_	12	mwe	_	_
+14	Elijah	Elijah	PROPN	_	_	7	nmod	_	_
 15	Burke	Burke	PROPN	_	_	14	name	_	_
 16	à	à	ADP	_	_	17	case	_	_
 17	TNA	TNA	PROPN	_	_	7	nmod	_	_
@@ -33310,10 +33310,10 @@
 7	qu'	que	ADP	_	_	9	case	_	_
 8	en	en	ADP	_	_	9	case	_	_
 9	2002	2002	NUM	_	_	6	nmod	_	_
-10	face	face	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
-11	à	à	ADP	_	_	13	case	_	_
+10	face	face	NOUN	_	Gender=Fem|Number=Sing	13	case	_	_
+11	à	à	ADP	_	_	10	mwe	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	ministre	ministre	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+13	ministre	ministre	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 14	déléguée	déléguer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
 15	à	à	ADP	_	_	17	case	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
@@ -39574,11 +39574,11 @@
 8	Cup	Cup	PROPN	_	_	7	name	_	_
 9	en	en	ADP	_	_	10	case	_	_
 10	1988	1988	NUM	_	_	5	nmod	_	_
-11	face	face	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+11	face	face	NOUN	_	Gender=Fem|Number=Sing	14	case	_	_
 12-13	aux	_	_	_	_	_	_	_	_
-12	à	à	ADP	_	_	14	case	_	_
+12	à	à	ADP	_	_	11	mwe	_	_
 13	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
-14	champions	champion	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+14	champions	champion	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
 15	d'	de	ADP	_	_	16	case	_	_
 16	Angleterre	Angleterre	PROPN	_	_	14	nmod	_	_
 17	Liverpool	Liverpool	PROPN	_	_	14	appos	_	_

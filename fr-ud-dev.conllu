@@ -7122,7 +7122,7 @@
 7	route	route	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 8	départementale	départemental	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 9	531	531	NUM	_	_	7	nummod	_	_
-10	,	,	PUNCT	_	_	5	punct	_	_
+10	,	,	PUNCT	_	_	7	punct	_	_
 11	par	par	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	route	route	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
@@ -7154,7 +7154,7 @@
 38	départementale	départemental	ADJ	_	Gender=Fem|Number=Sing	37	amod	_	_
 39	531	531	NUM	_	_	37	nummod	_	_
 40	,	,	PUNCT	_	_	39	punct	_	_
-41	puis	puis	ADV	_	_	42	advmod	_	_
+41	puis	puis	SCONJ	_	_	39	cc	_	_
 42	106	106	NUM	_	_	39	conj	_	_
 43	qui	qui	PRON	_	PronType=Rel	44	nsubj	_	_
 44	relie	relier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	acl:relcl	_	_
@@ -7370,7 +7370,7 @@
 22	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
 23	nationale	national	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
 24	,	,	PUNCT	_	_	11	punct	_	_
-25	puis	puis	ADV	_	_	11	cc	_	_
+25	puis	puis	SCONJ	_	_	11	cc	_	_
 26	entraîneur	entraîneur	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
 27	,	,	PUNCT	_	_	11	punct	_	_
 28	et	et	CCONJ	_	_	11	cc	_	_
@@ -8320,7 +8320,7 @@
 12	vers	vers	ADP	_	_	13	case	_	_
 13	1385	1385	NUM	_	_	11	nmod	_	_
 14	,	,	PUNCT	_	_	9	punct	_	_
-15	puis	puis	ADV	_	_	16	advmod	_	_
+15	puis	puis	SCONJ	_	_	9	cc	_	_
 16	vient	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
 17	Paul	Paul	PROPN	_	_	16	nsubj	_	_
 18	(	(	PUNCT	_	_	19	punct	_	_
@@ -11124,7 +11124,7 @@
 13	12	12	NUM	_	_	14	nummod	_	_
 14	ans	an	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
 15	,	,	PUNCT	_	_	4	punct	_	_
-16	puis	puis	ADV	_	_	4	advmod	_	_
+16	puis	puis	SCONJ	_	_	4	cc	_	_
 17	accusé	accuser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
 18	d'	de	ADP	_	_	20	mark	_	_
 19	avoir	avoir	AUX	_	VerbForm=Inf	20	aux	_	_
@@ -11774,7 +11774,7 @@
 23	sur	sur	ADP	_	_	24	case	_	_
 24	Josselin	Josselin	PROPN	_	_	22	nmod	_	_
 25	,	,	PUNCT	_	_	24	punct	_	_
-26	puis	puis	ADV	_	_	27	advmod	_	_
+26	puis	puis	SCONJ	_	_	24	cc	_	_
 27	Grand-Champ	Grand-Champ	PROPN	_	_	24	conj	_	_
 28	et	et	CCONJ	_	_	24	cc	_	_
 29	enfin	enfin	ADV	_	_	24	advmod	_	_
@@ -16018,7 +16018,7 @@
 38	en	en	ADP	_	_	39	case	_	_
 39	Angleterre	Angleterre	PROPN	_	_	33	nmod	_	_
 40	,	,	PUNCT	_	_	29	punct	_	_
-41	puis	puis	ADV	_	_	45	advmod	_	_
+41	puis	puis	SCONJ	_	_	29	cc	_	_
 42	pour	pour	ADP	_	_	45	mark	_	_
 43	en	en	PRON	_	Person=3	45	iobj	_	_
 44	être	être	AUX	_	VerbForm=Inf	45	aux	_	_
@@ -16514,7 +16514,7 @@
 11	août	août	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 12	1900	1900	NUM	_	_	11	nmod	_	_
 13	,	,	PUNCT	_	_	3	punct	_	_
-14	puis	puis	ADV	_	_	15	advmod	_	_
+14	puis	puis	SCONJ	_	_	3	cc	_	_
 15	retourne	retourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 16	en	en	ADP	_	_	17	case	_	_
 17	Chine	Chine	PROPN	_	_	15	nmod	_	_
@@ -16842,7 +16842,7 @@
 8	en	en	ADP	_	_	9	case	_	_
 9	1925	1925	NUM	_	_	6	nmod	_	_
 10	,	,	PUNCT	_	_	6	punct	_	_
-11	puis	puis	ADV	_	_	14	advmod	_	_
+11	puis	puis	SCONJ	_	_	6	cc	_	_
 12	surtout	surtout	ADV	_	_	14	advmod	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
 14	Alsacienne	Alsacienne	PROPN	_	_	6	conj	_	_
@@ -19667,7 +19667,7 @@
 14	super-welters	super-welter	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
 15	en	en	ADP	_	_	16	case	_	_
 16	1975	1975	NUM	_	_	8	nmod	_	_
-17	puis	puis	ADV	_	_	8	cc	_	_
+17	puis	puis	SCONJ	_	_	8	cc	_	_
 18	champion	champion	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	_
 19-20	du	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	_
@@ -21141,7 +21141,7 @@
 20	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
 21	années	année	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	_
 22	1930	1930	NUM	_	_	21	nmod	_	_
-23	puis	puis	ADV	_	_	22	cc	_	_
+23	puis	puis	SCONJ	_	_	22	cc	_	_
 24	1940	1940	NUM	_	_	22	conj	_	_
 25	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -22209,7 +22209,7 @@
 58	formation	formation	NOUN	_	Gender=Fem|Number=Sing	51	nmod	_	_
 59	à	à	ADP	_	_	63	case	_	_
 60	huit	huit	NUM	_	_	63	nummod	_	_
-61	puis	puis	ADV	_	_	60	cc	_	_
+61	puis	puis	SCONJ	_	_	60	cc	_	_
 62	sept	sept	NUM	_	_	60	conj	_	_
 63	membres	membre	NOUN	_	Gender=Masc|Number=Plur	58	nmod	_	_
 64	qui	qui	PRON	_	PronType=Rel	67	nsubj	_	_
@@ -28757,31 +28757,31 @@
 17	mars	mars	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 18	1870	1870	NUM	_	_	17	nmod	_	_
 19	(	(	PUNCT	_	_	20	punct	_	_
-20	1-1	1-1	NUM	_	_	8	nmod	_	_
+20	1-1	1-1	NUM	_	_	17	nmod	_	_
 21-22	au	_	_	_	_	_	_	_	_
 21	à	à	ADP	_	_	24	case	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-23	,	,	PUNCT	_	_	20	punct	_	_
+23	,	,	PUNCT	_	_	24	reparandum	_	_
 24	Kennington	Kennington	PROPN	_	_	20	nmod	_	_
 25	Oval	Oval	PROPN	_	_	24	name	_	_
 26	à	à	ADP	_	_	27	case	_	_
 27	Londres	Londres	PROPN	_	_	24	nmod	_	_
 28	)	)	PUNCT	_	_	20	punct	_	_
-29	,	,	PUNCT	_	_	20	punct	_	_
-30	puis	puis	ADV	_	_	33	advmod	_	_
+29	,	,	PUNCT	_	_	17	punct	_	_
+30	puis	puis	SCONJ	_	_	17	cc	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 32	25	25	NUM	_	_	33	nummod	_	_
-33	février	février	NOUN	_	Gender=Masc|Number=Sing	15	conj	_	_
+33	février	février	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	_
 34	1871	1871	NUM	_	_	33	nmod	_	_
-35	,	,	PUNCT	_	_	15	punct	_	_
+35	,	,	PUNCT	_	_	17	punct	_	_
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 37	18	18	NUM	_	_	38	nummod	_	_
-38	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+38	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	_
 39	1871	1871	NUM	_	_	38	nmod	_	_
-40	et	et	CCONJ	_	_	15	cc	_	_
+40	et	et	CCONJ	_	_	17	cc	_	_
 41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 42	24	24	NUM	_	_	43	nummod	_	_
-43	février	février	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+43	février	février	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	_
 44	1872	1872	NUM	_	_	43	nmod	_	_
 45	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -32352,7 +32352,7 @@
 26	durant	durant	ADP	_	_	28	case	_	_
 27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
 28	Antiquité	Antiquité	PROPN	_	_	24	nmod	_	_
-29	puis	puis	ADV	_	_	28	cc	_	_
+29	puis	puis	SCONJ	_	_	28	cc	_	_
 30-31	au	_	_	_	_	_	_	_	_
 30	à	à	ADP	_	_	33	case	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
@@ -33337,7 +33337,7 @@
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 33	premier	premier	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	_
 34	tour	tour	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
-35	puis	puis	ADV	_	_	25	cc	_	_
+35	puis	puis	SCONJ	_	_	25	cc	_	_
 36	43,07	43,07	NUM	_	_	37	nummod	_	_
 37	%	%	SYM	_	_	25	conj	_	_
 38-39	au	_	_	_	_	_	_	_	_
@@ -36267,7 +36267,7 @@
 27	Europe	Europe	PROPN	_	_	25	nmod	_	_
 28	à	à	ADP	_	_	29	case	_	_
 29	Lausanne	Lausanne	PROPN	_	_	25	nmod	_	_
-30	puis	puis	ADV	_	_	25	cc	_	_
+30	puis	puis	SCONJ	_	_	25	cc	_	_
 31-32	aux	_	_	_	_	_	_	_	_
 31	à	à	ADP	_	_	33	case	_	_
 32	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
@@ -36878,7 +36878,7 @@
 18	de	de	ADP	_	_	16	fixed	_	_
 19	1901	1901	NUM	_	_	6	nmod	_	_
 20	,	,	PUNCT	_	_	6	punct	_	_
-21	puis	puis	ADV	_	_	22	advmod	_	_
+21	puis	puis	SCONJ	_	_	6	cc	_	_
 22	collabore	collaborer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 23	avec	avec	ADP	_	_	26	case	_	_
 24	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
@@ -37653,7 +37653,7 @@
 5	feu	feu	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	précédé	précéder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-8	puis	puis	ADV	_	_	7	cc	_	_
+8	puis	puis	SCONJ	_	_	7	cc	_	_
 9	accompagné	accompagner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	pastoralisme	pastoralisme	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
@@ -37881,7 +37881,7 @@
 6	Ban	Ban	PROPN	_	_	5	xcomp	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	Bosnie	Bosnie	PROPN	_	_	6	nmod	_	_
-9	puis	puis	ADV	_	_	6	cc	_	_
+9	puis	puis	SCONJ	_	_	6	cc	_	_
 10	roi	roi	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	Bosnie	Bosnie	PROPN	_	_	10	nmod	_	_
@@ -38271,7 +38271,7 @@
 42	chromosome	chromosome	NOUN	_	Gender=Masc|Number=Sing	40	obj	_	_
 43	X	X	PROPN	_	_	42	appos	_	_
 44	paternel	paternel	ADJ	_	Gender=Masc|Number=Sing	42	amod	_	_
-45	puis	puis	ADV	_	_	40	cc	_	_
+45	puis	puis	SCONJ	_	_	40	cc	_	_
 46	se	se	PRON	_	Person=3|PronType=Prs	47	obj	_	_
 47	divisant	diviser	VERB	_	Tense=Pres|VerbForm=Part	40	conj	_	_
 48	donnera	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	parataxis	_	_
@@ -39192,7 +39192,7 @@
 34	passant	passer	VERB	_	Tense=Pres|VerbForm=Part	9	acl	_	_
 35	en	en	ADP	_	_	36	case	_	_
 36	Gaule	Gaule	PROPN	_	_	34	nmod	_	_
-37	puis	puis	ADV	_	_	36	cc	_	_
+37	puis	puis	SCONJ	_	_	36	cc	_	_
 38	en	en	ADP	_	_	39	case	_	_
 39	Espagne	Espagne	PROPN	_	_	36	conj	_	_
 40	.	.	PUNCT	_	_	3	punct	_	_
@@ -40319,7 +40319,7 @@
 13	droit	droit	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 14	public	public	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
 15	,	,	PUNCT	_	_	11	punct	_	_
-16	puis	puis	ADV	_	_	5	cc	_	_
+16	puis	puis	SCONJ	_	_	5	cc	_	_
 17	en	en	ADP	_	_	18	case	_	_
 18	Angleterre	Angleterre	PROPN	_	_	5	conj	_	_
 19	,	,	PUNCT	_	_	18	punct	_	_
@@ -41072,7 +41072,7 @@
 5	avec	avec	ADP	_	_	6	case	_	_
 6	Valence	Valence	PROPN	_	_	2	nmod	_	_
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	puis	puis	ADV	_	_	6	advmod	_	_
+8	puis	puis	SCONJ	_	_	6	cc	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Real	Real	PROPN	_	_	6	conj	_	_
 11	Madrid	Madrid	PROPN	_	_	10	name	_	_

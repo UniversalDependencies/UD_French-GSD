@@ -423,7 +423,7 @@
 31	traditionalisme	traditionalisme	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
 32	,	,	PUNCT	_	_	25	punct	_	_
 33	et	et	CCONJ	_	_	25	cc	_	_
-34	réciproquement	réciproquement	ADV	_	_	25	advmod	_	_
+34	réciproquement	réciproquement	ADV	_	_	25	conj	_	_
 35	.	.	PUNCT	_	_	10	punct	_	_
 
 # sentid: fr-ud-test_00013
@@ -7701,9 +7701,9 @@
 1	Produits	produit	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	super	super	ADV	_	_	3	advmod	_	_
 3	sympa	sympa	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
-4	et	et	CCONJ	_	_	1	cc	_	_
+4	et	et	CCONJ	_	_	3	cc	_	_
 5	qui	qui	PRON	_	PronType=Rel	6	nsubj	_	_
-6	rendent	rendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+6	rendent	rendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 7	bien	bien	ADV	_	_	6	advmod	_	_
 8	sur	sur	ADP	_	_	10	case	_	_
 9	mon	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	10	nmod:poss	_	_

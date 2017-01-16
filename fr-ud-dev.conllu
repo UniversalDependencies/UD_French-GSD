@@ -2876,7 +2876,7 @@
 3	de	de	ADP	_	_	5	case	_	_
 4	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	cristaux	cristal	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	majoritairement	majoritairement	ADV	_	_	8	advmod	_	_
 8	hypidiomorphe	hypidiomorphe	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 9	et	et	CCONJ	_	_	12	cc	_	_
@@ -5162,7 +5162,7 @@
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	0	root	_	_
-4	que	que	PRON	_	_	9	nsubj	_	_
+4	que	que	PRON	_	_	6	obj	_	_
 5	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 6	nommons	nommer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
 7	aujourd'hui	aujourd'hui	ADV	_	_	6	advmod	_	_
@@ -7621,7 +7621,7 @@
 2	1927	1927	NUM	_	_	6	nmod	_	_
 3	Marilyn	Marilyn	PROPN	_	_	6	nsubj	_	_
 4	Monroe	Monroe	PROPN	_	_	3	name	_	_
-5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+5	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
 6	âgée	âgé	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 7	d'	de	ADP	_	_	9	case	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -16833,7 +16833,7 @@
 # sentid: fr-ud-dev_00604
 # sentence-text: Ses clubs successifs furent l'AS Philotechnique en 1925, puis surtout l'Alsacienne Lorraine Paris à partir de 1926.
 1	Ses	son	DET	_	Gender=Masc|Number=Plur|PronType=Prs	2	nmod:poss	_	_
-2	clubs	club	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+2	clubs	club	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 3	successifs	successif	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 4	furent	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
@@ -18430,7 +18430,7 @@
 20	)	)	PUNCT	_	_	19	punct	_	_
 21	,	,	PUNCT	_	_	6	punct	_	_
 22	et	et	CCONJ	_	_	24	cc	_	_
-23	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+23	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
 24	rebaptise	rebaptiser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 25	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
 26	Arpège	Arpège	PROPN	_	_	24	xcomp	_	_
@@ -20253,7 +20253,7 @@
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	prince	prince	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
-7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+7	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
 8	issu	issu	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 9	d'	de	ADP	_	_	11	case	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -28624,7 +28624,7 @@
 # sentid: fr-ud-dev_01029
 # sentence-text: Elle est également présente au couronnement de Marie à Westminster.
 1	Elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	également	également	ADV	_	_	4	advmod	_	_
 4	présente	présent	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 5-6	au	_	_	_	_	_	_	_	_
@@ -29839,7 +29839,7 @@
 # sentid: fr-ud-dev_01075
 # sentence-text: Elle est maintenant présente dans 35 villes, avec 82 hypermarchés.
 1	Elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	maintenant	maintenant	ADV	_	_	4	advmod	_	_
 4	présente	présent	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 5	dans	dans	ADP	_	_	7	case	_	_
@@ -34980,7 +34980,7 @@
 1	Marty	Marty	PROPN	_	_	4	nsubj	_	_
 2	se	se	PRON	_	Person=3|PronType=Prs	4	obj	_	_
 3	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	4	obj	_	_
-4	approprie	approprie	PROPN	_	_	0	root	_	_
+4	approprie	approprier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	et	et	CCONJ	_	_	6	cc	_	_
 6	décide	décider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 7	de	de	ADP	_	_	9	mark	_	_
@@ -39463,9 +39463,9 @@
 
 # sentid: fr-ud-dev_01418
 # sentence-text: Cuisine hyper créative mais aussi traditionnelle pour les puristes.
-1	Cuisine	cuisine	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+1	Cuisine	cuisine	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	hyper	hyper	PART	_	_	3	advmod	_	_
-3	créative	créatif	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+3	créative	créatif	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 4	mais	mais	CCONJ	_	_	6	cc	_	_
 5	aussi	aussi	ADV	_	_	6	advmod	_	_
 6	traditionnelle	traditionnel	ADJ	_	Gender=Fem|Number=Sing	3	conj	_	_

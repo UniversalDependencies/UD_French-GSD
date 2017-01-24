@@ -26929,7 +26929,7 @@
 22	.	.	PUNCT	_	_	15	punct	_	_
 
 # sentid: fr-ud-dev_00974
-# sentence-text: Sa carrière professionnelle a lieu de 1978 à 1992 et il l'accomplit exclusivement dans son pays natal où il évolue 11 saisons en [[1re]] division, 2 saisons en D2 et 2 saisons en D4.
+# sentence-text: Sa carrière professionnelle a lieu de 1978 à 1992 et il l'accomplit exclusivement dans son pays natal où il évolue 11 saisons en 1re division, 2 saisons en D2 et 2 saisons en D4.
 1	Sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	2	nmod:poss	_	_
 2	carrière	carrière	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	professionnelle	professionnel	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
@@ -26953,19 +26953,20 @@
 21	évolue	évoluer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
 22	11	11	NUM	_	_	23	nummod	_	_
 23	saisons	saison	NOUN	_	Gender=Fem|Number=Plur	21	nmod	_	_
-24	en	en	ADP	_	_	25	case	_	_
-25	division	division	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
-26	,	,	PUNCT	_	_	28	punct	_	_
-27	2	2	NUM	_	_	28	nummod	_	_
-28	saisons	saison	NOUN	_	Gender=Fem|Number=Plur	23	conj	_	_
-29	en	en	ADP	_	_	30	case	_	_
-30	D2	D2	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
-31	et	et	CCONJ	_	_	33	cc	_	_
-32	2	2	NUM	_	_	33	nummod	_	_
-33	saisons	saison	NOUN	_	Gender=Fem|Number=Plur	23	conj	_	_
-34	en	en	ADP	_	_	35	case	_	_
-35	D4	D4	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
-36	.	.	PUNCT	_	_	4	punct	_	_
+24	en	en	ADP	_	_	26	case	_	_
+25	1re	premier	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	_
+26	division	division	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+27	,	,	PUNCT	_	_	29	punct	_	_
+28	2	2	NUM	_	_	29	nummod	_	_
+29	saisons	saison	NOUN	_	Gender=Fem|Number=Plur	23	conj	_	_
+30	en	en	ADP	_	_	31	case	_	_
+31	D2	D2	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+32	et	et	CCONJ	_	_	34	cc	_	_
+33	2	2	NUM	_	_	34	nummod	_	_
+34	saisons	saison	NOUN	_	Gender=Fem|Number=Plur	23	conj	_	_
+35	en	en	ADP	_	_	36	case	_	_
+36	D4	D4	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	_
+37	.	.	PUNCT	_	_	4	punct	_	_
 
 # sentid: fr-ud-dev_00975
 # sentence-text: Beauceville est une ville dans la municipalité régionale de comté de Robert-Cliche au Québec, située dans la région administrative de Chaudière-Appalaches.
@@ -30148,7 +30149,7 @@
 20	.	.	PUNCT	_	_	13	punct	_	_
 
 # sentid: fr-ud-dev_01086
-# sentence-text: En 1862, à Lille, Claude Auguste Lamy identifie et isole [[14 grammes]] de l'élément thallium grâce au spectroscope prêté par son beau-frère, le chimiste Jules Frédéric Kuhlmann.
+# sentence-text: En 1862, à Lille, Claude Auguste Lamy identifie et isole 14 grammes de l'élément thallium grâce au spectroscope prêté par son beau-frère, le chimiste Jules Frédéric Kuhlmann.
 1	En	en	ADP	_	_	2	case	_	_
 2	1862	1862	NUM	_	_	10	nmod	_	_
 3	,	,	PUNCT	_	_	10	punct	_	_
@@ -30161,26 +30162,28 @@
 10	identifie	identifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	isole	isoler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
-13	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-14	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	élément	élément	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
-16	thallium	thallium	NOUN	_	Gender=Masc|Number=Sing	15	appos	_	_
-17	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	20	case	_	_
-18-19	au	_	_	_	_	_	_	_	_
-18	à	à	ADP	_	_	17	fixed	_	_
-19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	spectroscope	spectroscope	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
-21	prêté	prêter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
-22	par	par	ADP	_	_	24	case	_	_
-23	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	24	nmod:poss	_	_
-24	beau-frère	beau-frère	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
-25	,	,	PUNCT	_	_	24	punct	_	_
-26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	chimiste	chimiste	NOUN	_	Gender=Masc|Number=Sing	24	appos	_	_
-28	Jules	Jules	PROPN	_	_	27	appos	_	_
-29	Frédéric	Frédéric	PROPN	_	_	28	name	_	_
-30	Kuhlmann	Kuhlmann	PROPN	_	_	28	name	_	_
-31	.	.	PUNCT	_	_	10	punct	_	_
+13	14	14	NUM	_	_	14	nummod	_	_
+14	grammes	gramme	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+15	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	élément	élément	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+18	thallium	thallium	NOUN	_	Gender=Masc|Number=Sing	17	appos	_	_
+19	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	22	case	_	_
+20-21	au	_	_	_	_	_	_	_	_
+20	à	à	ADP	_	_	19	fixed	_	_
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	spectroscope	spectroscope	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+23	prêté	prêter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
+24	par	par	ADP	_	_	26	case	_	_
+25	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	26	nmod:poss	_	_
+26	beau-frère	beau-frère	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	chimiste	chimiste	NOUN	_	Gender=Masc|Number=Sing	26	appos	_	_
+30	Jules	Jules	PROPN	_	_	29	appos	_	_
+31	Frédéric	Frédéric	PROPN	_	_	30	name	_	_
+32	Kuhlmann	Kuhlmann	PROPN	_	_	30	name	_	_
+33	.	.	PUNCT	_	_	10	punct	_	_
 
 # sentid: fr-ud-dev_01087
 # sentence-text: La liste des chansons débute par la piste 15 et se termine par la piste 30.

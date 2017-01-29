@@ -189,7 +189,7 @@
 4	pour	pour	ADP	_	_	7	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	futur	futur	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
-7	baptisé	baptiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	nmod	_	_
+7	baptisé	baptiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	obl	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	changement	changement	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 10	de	de	ADP	_	_	11	case	_	_
@@ -3746,7 +3746,7 @@
 # sentid: fr-ud-dev_00137
 # sentence-text: Depuis janvier 2010, Il Seminario Musicale est en résidence à Rueil-Malmaison (Hauts-de-Seine).
 1	Depuis	depuis	ADP	_	_	2	case	_	_
-2	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+2	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
 3	2010	2010	NUM	_	_	2	nmod	_	_
 4	,	,	PUNCT	_	_	12	punct	_	_
 5	Il	Il	PROPN	_	_	12	nsubj	_	_
@@ -3754,7 +3754,7 @@
 7	Musicale	Musicale	PROPN	_	_	5	name	_	_
 8	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 9	en	en	ADP	_	_	10	case	_	_
-10	résidence	résidence	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+10	résidence	résidence	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
 11	à	à	ADP	_	_	12	case	_	_
 12	Rueil-Malmaison	Rueil-Malmaison	PROPN	_	_	0	root	_	_
 13	(	(	PUNCT	_	_	14	punct	_	_
@@ -3863,7 +3863,7 @@
 # sentid: fr-ud-dev_00142
 # sentence-text: En effet, si c'est la peur qui conduit les petits porteurs à se débarrasser de leurs titres, ce sont des automates qui gèrent les actions des investisseurs institutionnels.
 1	En	en	ADP	_	_	2	case	_	_
-2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	si	si	SCONJ	_	_	8	mark	_	_
 5	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	8	nsubj	_	_
@@ -4030,7 +4030,7 @@
 # sentid: fr-ud-dev_00147
 # sentence-text: En géographie, le 109 méridien ouest est le méridien joignant les points de la surface de la Terre dont la longitude est égale à 109 ° ouest.
 1	En	en	ADP	_	_	2	case	_	_
-2	géographie	géographie	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+2	géographie	géographie	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
 3	,	,	PUNCT	_	_	10	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	109	109	NUM	_	_	6	nummod	_	_
@@ -4525,7 +4525,7 @@
 1-2	Aux	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	3	case	_	_
 2	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-3	yeux	oeil	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	_
+3	yeux	oeil	NOUN	_	Gender=Masc|Number=Plur	24	obl	_	_
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
@@ -4716,9 +4716,9 @@
 # sentid: fr-ud-dev_00174
 # sentence-text: De 1980 à 1983, elle fut la présidente du département d'histoire de l'université.
 1	De	de	ADP	_	_	2	case	_	_
-2	1980	1980	NUM	_	_	9	nmod	_	_
+2	1980	1980	NUM	_	_	9	obl	_	_
 3	à	à	ADP	_	_	4	case	_	_
-4	1983	1983	NUM	_	_	9	nmod	_	_
+4	1983	1983	NUM	_	_	9	obl	_	_
 5	,	,	PUNCT	_	_	9	punct	_	_
 6	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 7	fut	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
@@ -4939,7 +4939,7 @@
 12	même	même	ADV	_	_	15	advmod	_	_
 13	à	à	ADP	_	_	15	case	_	_
 14	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	heure	heure	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+15	heure	heure	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
 16	actuelle	actuel	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
 17	,	,	PUNCT	_	_	21	punct	_	_
 18	plus	plus	ADV	_	_	20	advmod	_	_
@@ -6111,7 +6111,7 @@
 1	Au-delà	au-delà	ADV	_	_	4	case	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
 3	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	4	nmod:poss	_	_
-4	travail	travail	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+4	travail	travail	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	productrice	producteur	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 7	et	et	CCONJ	_	_	9	cc	_	_
@@ -6368,7 +6368,7 @@
 # sentence-text: Selon certaines sources, c'est Rigaud qui a rédigé les ouvrages de ce dernier, soit en latin, soit en français.
 1	Selon	selon	ADP	_	_	3	case	_	_
 2	certaines	certain	DET	_	Gender=Fem|Number=Plur	3	det	_	_
-3	sources	source	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+3	sources	source	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	7	nsubj	_	_
 6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
@@ -8133,7 +8133,7 @@
 24	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	cop	_	_
 25	à	à	ADP	_	_	27	case	_	_
 26	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	origine	origine	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+27	origine	origine	NOUN	_	Gender=Fem|Number=Sing	29	obl	_	_
 28	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	collection	collection	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 30	de	de	ADP	_	_	31	case	_	_
@@ -8230,7 +8230,7 @@
 # sentid: fr-ud-dev_00292
 # sentence-text: Pour moi ce restaurant est le meilleur restaurant Japonnais de Caen.
 1	Pour	pour	ADP	_	_	2	case	_	_
-2	moi	soi	PRON	_	Number=Sing|Person=1	8	nmod	_	_
+2	moi	soi	PRON	_	Number=Sing|Person=1	8	obl	_	_
 3	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	restaurant	restaurant	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 5	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
@@ -8810,7 +8810,7 @@
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 4	tout	tout	ADV	_	_	6	advmod	_	_
 5	d'	de	ADP	_	_	6	case	_	_
-6	abord	abord	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+6	abord	abord	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
 7	avocat	avocat	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 8	attaché	attacher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
 9	à	à	ADP	_	_	11	case	_	_
@@ -9633,7 +9633,7 @@
 # sentid: fr-ud-dev_00349
 # sentence-text: Dans Magicka, Excalibur est une épée fournie avec son rocher.
 1	Dans	dans	ADP	_	_	2	case	_	_
-2	Magicka	Magicka	PROPN	_	_	7	nmod	_	_
+2	Magicka	Magicka	PROPN	_	_	7	obl	_	_
 3	,	,	PUNCT	_	_	7	punct	_	_
 4	Excalibur	Excalibur	PROPN	_	_	7	nsubj	_	_
 5	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
@@ -12037,7 +12037,7 @@
 # sentid: fr-ud-dev_00437
 # sentence-text: En fonction de toutes les données présentées dans les sections précédentes, quel serait, en simplifiant, le développement et de la dynamique du comportement de reproduction des mammifères ?
 1	En	en	ADP	_	_	2	case	_	_
-2	fonction	fonction	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+2	fonction	fonction	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
 3	de	de	ADP	_	_	6	case	_	_
 4	toutes	tout	DET	_	Gender=Fem|Number=Plur	6	det	_	_
 5	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
@@ -13400,7 +13400,7 @@
 # sentence-text: Dans un silence médiatique où seuls les articles de presse défavorables font écho, les salariés des ports français sont en proie à des pressions, alors qu'ils sont les victimes d'une situation injuste.
 1	Dans	dans	ADP	_	_	3	case	_	_
 2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	silence	silence	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+3	silence	silence	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
 4	médiatique	médiatique	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 5	où	où	PRON	_	PronType=Rel	12	advmod	_	_
 6	seuls	seul	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
@@ -16480,7 +16480,7 @@
 # sentid: fr-ud-dev_00591
 # sentence-text: En 1945 la production est de 25 000 tonnes de pulvérulents et en 1960 de 80 000 tonnes d'engrais.
 1	En	en	ADP	_	_	2	case	_	_
-2	1945	1945	NUM	_	_	8	nmod	_	_
+2	1945	1945	NUM	_	_	8	obl	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	production	production	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 5	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
@@ -17241,7 +17241,7 @@
 # sentid: fr-ud-dev_00619
 # sentence-text: Après Paris Levallois, c'est Poitiers qui s'impose 81 à 71 en terre mancelle.
 1	Après	après	ADP	_	_	2	case	_	_
-2	Paris	Paris	PROPN	_	_	7	nmod	_	_
+2	Paris	Paris	PROPN	_	_	7	obl	_	_
 3	Levallois	Levallois	PROPN	_	_	2	name	_	_
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	7	nsubj	_	_
@@ -17523,7 +17523,7 @@
 # sentence-text: Tantôt de bonne ou de mauvaise humeur, c'est le héros de la série.
 1	Tantôt	tantôt	ADV	_	_	3	advmod	_	_
 2	de	de	ADP	_	_	3	case	_	_
-3	bonne	bonne	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+3	bonne	bonne	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
 4	ou	ou	CCONJ	_	_	7	cc	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	mauvaise	mauvais	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
@@ -17642,7 +17642,7 @@
 19	ministère	ministère	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
 20	à	à	ADP	_	_	21	case	_	_
 21	Sceaux	Sceaux	PROPN	_	_	14	obl	_	_
-22	où	où	PRON	_	PronType=Rel	25	nmod	_	_
+22	où	où	PRON	_	PronType=Rel	25	obl	_	_
 23	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 24	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
 25	vicaire	vicaire	NOUN	_	Gender=Masc|Number=Sing	21	acl:relcl	_	_
@@ -17665,7 +17665,7 @@
 5	qu'	que	SCONJ	_	_	13	mark	_	_
 6	à	à	ADP	_	_	8	case	_	_
 7	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	avenir	avenir	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+8	avenir	avenir	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	13	nsubj	_	_
 11	serait	être	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
@@ -17908,7 +17908,7 @@
 # sentid: fr-ud-dev_00645
 # sentence-text: En cas d'égalité entre deux clubs, le premier critère de départage est la moyenne de buts.
 1	En	en	ADP	_	_	2	case	_	_
-2	cas	cas	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+2	cas	cas	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
 3	d'	de	ADP	_	_	4	case	_	_
 4	égalité	égalité	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 5	entre	entre	ADP	_	_	7	case	_	_
@@ -19122,7 +19122,7 @@
 8	aussi	aussi	ADV	_	_	16	advmod	_	_
 9	dans	dans	ADP	_	_	11	case	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	cour	cour	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+11	cour	cour	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -20216,7 +20216,7 @@
 16	:	:	PUNCT	_	_	7	punct	_	_
 17	après	après	ADP	_	_	19	case	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	spoliation	spoliation	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
+19	spoliation	spoliation	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	_
 20	territoriale	territorial	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
 21	,	,	PUNCT	_	_	25	punct	_	_
 22	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	25	nsubj	_	_
@@ -21322,7 +21322,7 @@
 # sentid: fr-ud-dev_00773
 # sentence-text: En 2002, 98,77% de la population était de religion orthodoxe et 0,86% était baptiste.
 1	En	en	ADP	_	_	2	case	_	_
-2	2002	2002	NUM	_	_	11	nmod	_	_
+2	2002	2002	NUM	_	_	11	obl	_	_
 3	,	,	PUNCT	_	_	11	punct	_	_
 4	98,77	98,77	NUM	_	_	5	nummod	_	_
 5	%	%	SYM	_	_	11	nsubj	_	_
@@ -22804,7 +22804,7 @@
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 3	,	,	PUNCT	_	_	9	punct	_	_
 4	selon	selon	ADP	_	_	5	case	_	_
-5	moi	soi	PRON	_	Number=Sing|Person=1	9	nmod	_	_
+5	moi	soi	PRON	_	Number=Sing|Person=1	9	obl	_	_
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 8	meilleur	meilleur	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
@@ -23636,11 +23636,11 @@
 32	dans	dans	ADP	_	_	35	case	_	_
 33	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 34	«	«	PUNCT	_	_	35	punct	_	_
-35	état	état	NOUN	_	Gender=Masc|Number=Sing	43	nmod	_	_
+35	état	état	NOUN	_	Gender=Masc|Number=Sing	43	obl	_	_
 36	préoccupant	préoccupant	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	_
 37	»	»	PUNCT	_	_	35	punct	_	_
 38	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	39	det	_	_
-39	vendredi	vendredi	NOUN	_	Gender=Masc|Number=Sing	43	nmod	_	_
+39	vendredi	vendredi	NOUN	_	Gender=Masc|Number=Sing	43	obl	_	_
 40	,	,	PUNCT	_	_	43	punct	_	_
 41	selon	selon	ADP	_	_	43	case	_	_
 42	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
@@ -23951,7 +23951,7 @@
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	1231	1231	NUM	_	_	6	nummod	_	_
-6	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+6	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	_
 7	(	(	PUNCT	_	_	8	punct	_	_
 8	01.01.2012	01.01.2012	NUM	_	_	0	root	_	_
 9	)	)	PUNCT	_	_	8	punct	_	_
@@ -26696,7 +26696,7 @@
 18	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
 19	à	à	ADP	_	_	21	case	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	fois	fois	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+21	fois	fois	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
 22	enfant	enfant	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
 23	et	et	CCONJ	_	_	24	cc	_	_
 24	actrice	acteur	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	_
@@ -27015,7 +27015,7 @@
 15	:	:	PUNCT	_	_	3	punct	_	_
 16	«	«	PUNCT	_	_	18	punct	_	_
 17	Pour	pour	ADP	_	_	18	case	_	_
-18	moi	soi	PRON	_	Number=Sing|Person=1	32	nmod	_	_
+18	moi	soi	PRON	_	Number=Sing|Person=1	32	obl	_	_
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	Mike	Mike	PROPN	_	_	18	conj	_	_
 21	et	et	CCONJ	_	_	22	cc	_	_
@@ -27098,7 +27098,7 @@
 # sentence-text: Dans le domaine électronique, la tendance est à la miniaturisation ;
 1	Dans	dans	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	domaine	domaine	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+3	domaine	domaine	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
 4	électronique	électronique	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -28790,7 +28790,7 @@
 # sentence-text: Contrairement à celui de Wonder Woman, celui de Cassie est une arme pouvant projeter la lumière de Zeus.
 1	Contrairement	contrairement	ADV	_	_	3	advmod	_	_
 2	à	à	ADP	_	_	3	case	_	_
-3	celui	celui	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	13	nmod	_	_
+3	celui	celui	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	13	obl	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	Wonder	Wonder	PROPN	_	_	3	nmod	_	_
 6	Woman	Woman	PROPN	_	_	5	name	_	_
@@ -30215,7 +30215,7 @@
 4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 5	en	en	ADP	_	_	7	case	_	_
 6	bon	bon	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
-7	état	état	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+7	état	état	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
 8	dans	dans	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	ensemble	ensemble	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -31504,10 +31504,10 @@
 # sentid: fr-ud-dev_01136
 # sentence-text: En effet, en fréquences basses, les sources de parasites sont généralement des sources de champ électrique (l'onde électromagnétique ne présentant un rapport E/H constant qu'à une distance de la source égale environ à un quart de la longueur d'onde).
 1	En	en	ADP	_	_	2	case	_	_
-2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	en	en	ADP	_	_	5	case	_	_
-5	fréquences	fréquence	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
+5	fréquences	fréquence	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	_
 6	basses	bas	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
@@ -34017,7 +34017,7 @@
 20	qui	qui	PRON	_	PronType=Rel	39	nsubj	_	_
 21	dans	dans	ADP	_	_	23	case	_	_
 22	leur	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	23	nmod:poss	_	_
-23	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	_
+23	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	39	obl	_	_
 24	fondamental	fondamental	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
 25	dans	dans	ADP	_	_	27	case	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
@@ -34913,12 +34913,12 @@
 # sentid: fr-ud-dev_01259
 # sentence-text: En effet, au moment même de l'exécution de cette mission, le Président du Conseil de surveillance d'Areva (Frédéric Lemoine) était Senior Advisor de McKinsey depuis 2004.
 1	En	en	ADP	_	_	2	case	_	_
-2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
+2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	_
 3	,	,	PUNCT	_	_	29	punct	_	_
 4-5	au	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	moment	moment	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
+6	moment	moment	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	_
 7	même	même	ADV	_	_	6	advmod	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -37098,7 +37098,7 @@
 22	:	:	PUNCT	_	_	9	punct	_	_
 23	pour	pour	ADP	_	_	25	case	_	_
 24	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
-25	rois	roi	NOUN	_	Gender=Masc|Number=Plur	35	nmod	_	_
+25	rois	roi	NOUN	_	Gender=Masc|Number=Plur	35	obl	_	_
 26-27	des	_	_	_	_	_	_	_	_
 26	de	de	ADP	_	_	28	case	_	_
 27	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
@@ -37206,7 +37206,7 @@
 1	Ainsi	ainsi	ADV	_	_	12	advmod	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	pour	pour	ADP	_	_	4	case	_	_
-4	Hobbes	Hobbes	PROPN	_	_	12	nmod	_	_
+4	Hobbes	Hobbes	PROPN	_	_	12	obl	_	_
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	dignité	dignité	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
@@ -38109,7 +38109,7 @@
 4	origine	origine	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 5	iranienne	iranien	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
-7	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	9	nmod	_	_
+7	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	9	obl	_	_
 8	aussi	aussi	ADV	_	_	7	advmod	_	_
 9	député	député	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 10-11	au	_	_	_	_	_	_	_	_
@@ -38122,7 +38122,7 @@
 # sentence-text: Dans la mythologie grecque, Télamon (en grec ancien Τελαμών/Telamốn), fils d'Éaque et d'Endéis, frère de Pélée et père d'Ajax le grand et de Teucros, est roi de l'île de Salamine.
 1	Dans	dans	ADP	_	_	3	case	_	_
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	mythologie	mythologie	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	_
+3	mythologie	mythologie	NOUN	_	Gender=Fem|Number=Sing	37	obl	_	_
 4	grecque	grec	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	Télamon	Télamon	PROPN	_	_	37	nsubj	_	_
@@ -38818,7 +38818,7 @@
 5	aristocratique	aristocratique	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 6	bretonne	breton	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 7	,	,	PUNCT	_	_	16	punct	_	_
-8	Jean	Jean	PROPN	_	_	16	nmod	_	_
+8	Jean	Jean	PROPN	_	_	16	obl	_	_
 9	François	François	PROPN	_	_	8	name	_	_
 10	Sylvestre	Sylvestre	PROPN	_	_	8	name	_	_
 11	Denis	Denis	PROPN	_	_	8	name	_	_
@@ -40583,7 +40583,7 @@
 # sentence-text: Pour l'orateur, la citoyenneté est une arme et une protection.
 1	Pour	pour	ADP	_	_	3	case	_	_
 2	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	orateur	orateur	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+3	orateur	orateur	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
 4	,	,	PUNCT	_	_	9	punct	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	citoyenneté	citoyenneté	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
@@ -42342,7 +42342,7 @@
 4	Grenoble	Grenoble	PROPN	_	_	2	nmod	_	_
 5	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 6	d'	de	ADP	_	_	7	case	_	_
-7	or	or	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+7	or	or	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
 8-9	aux	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	11	case	_	_
 9	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
@@ -42836,7 +42836,7 @@
 20	dans	dans	ADP	_	_	23	case	_	_
 21	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
 22	trois	trois	NUM	_	_	23	nummod	_	_
-23	quarts	quart	NOUN	_	Gender=Masc|Number=Plur	31	nmod	_	_
+23	quarts	quart	NOUN	_	Gender=Masc|Number=Plur	31	obl	_	_
 24-25	des	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	26	case	_	_
 25	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
@@ -43648,7 +43648,7 @@
 # sentence-text: Dans les facultés de pharmacie, les assistants étaient des fonctionnaires, soumis à une période de stage de trois ans.
 1	Dans	dans	ADP	_	_	3	case	_	_
 2	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
-3	facultés	faculté	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
+3	facultés	faculté	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	pharmacie	pharmacie	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 6	,	,	PUNCT	_	_	11	punct	_	_

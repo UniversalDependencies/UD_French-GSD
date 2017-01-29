@@ -947,7 +947,7 @@
 2	dans	dans	ADP	_	_	5	case	_	_
 3	toutes	tout	DET	_	Gender=Fem|Number=Plur	5	det	_	_
 4	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
-5	campagnes	campagne	NOUN	_	Gender=Fem|Number=Plur	21	nmod	_	_
+5	campagnes	campagne	NOUN	_	Gender=Fem|Number=Plur	21	obl	_	_
 6	présidentielles	présidentielle	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
 7	,	,	PUNCT	_	_	21	punct	_	_
 8	celui	celui	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	21	nsubj	_	_
@@ -1344,7 +1344,7 @@
 3	dans	dans	ADP	_	_	6	case	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	petite	petit	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
-6	cour	cour	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+6	cour	cour	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
 7-8	du	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -3374,7 +3374,7 @@
 # sentence-text: Après M. Karoubi, bloqué chez lui depuis jeudi par la police, c'est M. Moussavi qui a vu lundi matin son domicile encerclé et ses téléphones coupés, selon son site internet.
 1	Après	après	ADP	_	_	3	case	_	_
 2	M.	Monsieur	NOUN	_	Gender=Masc|Number=Sing	3	compound	_	_
-3	Karoubi	Karoubi	PROPN	_	_	17	nmod	_	_
+3	Karoubi	Karoubi	PROPN	_	_	17	obl	_	_
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	bloqué	bloquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
 6	chez	chez	ADP	_	_	7	case	_	_
@@ -5437,7 +5437,7 @@
 
 # sentid: fr-ud-test_00181
 # sentence-text: Mardi midi, l'automobiliste était toujours en garde à vue.
-1	Mardi	mardi	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+1	Mardi	mardi	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
 2	midi	midi	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 3	,	,	PUNCT	_	_	9	punct	_	_
 4	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -5874,7 +5874,7 @@
 # sentid: fr-ud-test_00195
 # sentence-text: Et côté coloration, Miss France n'est pas à son coup d'essai.
 1	Et	et	CCONJ	_	_	12	cc	_	_
-2	côté	côté	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+2	côté	côté	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
 3	coloration	coloration	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 4	,	,	PUNCT	_	_	12	punct	_	_
 5	Miss	Miss	PROPN	_	_	12	nsubj	_	_
@@ -6859,7 +6859,7 @@
 1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
 2	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 3	sur	sur	ADP	_	_	4	case	_	_
-4	Cherbourg	Cherbourg	PROPN	_	_	6	nmod	_	_
+4	Cherbourg	Cherbourg	PROPN	_	_	6	obl	_	_
 5	depuis	depuis	ADP	_	_	6	case	_	_
 6	2007	2007	NUM	_	_	0	root	_	_
 7	.	.	PUNCT	_	_	6	punct	_	_

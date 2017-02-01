@@ -250,7 +250,7 @@
 28	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	26	obl	_	_
 29	qu'	que	PRON	_	PronType=Rel	33	iobj	_	_
 30	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	33	nsubj	_	_
-31	s'	se	PRON	_	Person=3|PronType=Prs	33	obj	_	_
+31	s'	se	PRON	_	Person=3|PronType=Prs	33	expl	_	_
 32	en	en	PRON	_	Person=3	33	expl	_	_
 33	prennent	prendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
 34	.	.	PUNCT	_	_	3	punct	_	_
@@ -877,7 +877,7 @@
 # sentence-text: Le royaume s'est amélioré, mais pas dans le sens voulu par l'UE.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	royaume	royaume	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
-3	s'	se	PRON	_	Person=3|PronType=Prs	5	obj	_	_
+3	s'	se	PRON	_	Person=3|PronType=Prs	5	expl	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	amélioré	améliorer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	,	,	PUNCT	_	_	5	punct	_	_
@@ -1078,7 +1078,7 @@
 7	qu'	que	SCONJ	_	_	6	expl	_	_
 8	obéir	obéir	VERB	_	VerbForm=Inf	6	xcomp	_	_
 9	et	et	CCONJ	_	_	11	cc	_	_
-10	se	se	PRON	_	Person=3|PronType=Prs	11	obj	_	_
+10	se	se	PRON	_	Person=3|PronType=Prs	11	expl	_	_
 11	déjuger	déjuger	VERB	_	VerbForm=Inf	8	conj	_	_
 12	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -1270,7 +1270,7 @@
 11	écologie	écologie	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
-14	s'	se	PRON	_	Person=3|PronType=Prs	15	obj	_	_
+14	s'	se	PRON	_	Person=3|PronType=Prs	15	expl	_	_
 15	avère	avérer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	que	que	SCONJ	_	_	28	mark	_	_
 17	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -1767,7 +1767,7 @@
 12	«	«	PUNCT	_	_	13	punct	_	_
 13	colons	colon	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
 14	»	»	PUNCT	_	_	13	punct	_	_
-15	se	se	PRON	_	Person=3|PronType=Prs	17	obj	_	_
+15	se	se	PRON	_	Person=3|PronType=Prs	17	expl	_	_
 16	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 17	permis	permettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
 18	de	de	ADP	_	_	20	mark	_	_
@@ -2667,7 +2667,7 @@
 16	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
 17	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
 18	rencontre	rencontre	NOUN	_	Gender=Masc|Number=Plur	20	nsubj	_	_
-19	se	se	PRON	_	Person=3|PronType=Prs	20	obj	_	_
+19	se	se	PRON	_	Person=3|PronType=Prs	20	expl	_	_
 20	déroule	dérouler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 21	sous	sous	ADP	_	_	23	case	_	_
 22	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
@@ -3639,7 +3639,7 @@
 3	soir	soir	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
-6	s'	se	PRON	_	Person=3|PronType=Prs	8	obj	_	_
+6	s'	se	PRON	_	Person=3|PronType=Prs	8	expl	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	installé	installer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	dans	dans	ADP	_	_	11	case	_	_
@@ -4035,7 +4035,7 @@
 6	(	(	PUNCT	_	_	7	punct	_	_
 7	Honda	Honda	PROPN	_	_	4	appos	_	_
 8	)	)	PUNCT	_	_	7	punct	_	_
-9	s'	se	PRON	_	Person=3|PronType=Prs	12	obj	_	_
+9	s'	se	PRON	_	Person=3|PronType=Prs	12	expl	_	_
 10	en	en	PRON	_	Person=3	12	iobj	_	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 12	approché	approcher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -4583,7 +4583,7 @@
 43	qui	qui	PRON	_	PronType=Rel	47	nsubj	_	_
 44	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	45	det	_	_
 45	année	année	NOUN	_	Gender=Fem|Number=Sing	47	obl	_	_
-46	se	se	PRON	_	Person=3|PronType=Prs	47	obj	_	_
+46	se	se	PRON	_	Person=3|PronType=Prs	47	expl	_	_
 47	déroulera	dérouler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	41	acl:relcl	_	_
 48	en	en	ADP	_	_	49	case	_	_
 49	open	open	NOUN	_	Gender=Masc|Number=Sing	47	obl	_	_
@@ -5913,7 +5913,7 @@
 19	pensait	penser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
 20	qu'	que	SCONJ	_	_	23	mark	_	_
 21	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
-22	se	se	PRON	_	Person=3|PronType=Prs	23	obj	_	_
+22	se	se	PRON	_	Person=3|PronType=Prs	23	expl	_	_
 23	moquait	moquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	ccomp	_	_
 24	d'	de	ADP	_	_	25	case	_	_
 25	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	obl	_	_
@@ -7860,7 +7860,7 @@
 13	travaux	travail	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	_
 14	cela	cela	PRON	_	Number=Sing|PronType=Dem	17	nsubj	_	_
 15	va	aller	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
-16	s'	se	PRON	_	Person=3|PronType=Prs	17	obj	_	_
+16	s'	se	PRON	_	Person=3|PronType=Prs	17	expl	_	_
 17	arranger	arranger	VERB	_	VerbForm=Inf	1	conj	_	_
 
 # sentid: fr-ud-test_00287

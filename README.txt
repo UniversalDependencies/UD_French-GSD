@@ -7,7 +7,7 @@ The README for that project is included here.
 
 The French UD conforms to the UD guidelines, but there are some exceptions. All the morphological features are not present in the data yet. Cleft constructions are not yet analyzed following the UD guidelines.
 
-The French data consists of 402,197 words (16,448 sentences), divided into train (356,419 words; 14,554 sentences), dev (38,758 words; 1,596 sentences) and test (7,020 words; 298 sentences) sets.
+The French data consists of 402,197 words (16,448 sentences), divided into train (356,419 words; 14,554 sentences), dev (38,758 words; 1,596 sentences) and test (7,020 words; 298 sentences) sets. Note that for the CoNLL shared task approximately 3,000 tokens from dev have been transferred to test to reach the 10,000 syntactic tokens. Therefore, the test data is currently at (10,020 words; 416 sentences).
 
 
 Changelog

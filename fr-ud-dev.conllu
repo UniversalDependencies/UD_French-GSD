@@ -5730,8 +5730,8 @@
 35	Guerrero	Guerrero	PROPN	_	_	34	flat:name	_	_
 36	et	et	CCONJ	_	_	37	cc	_	_
 37	Cristóbal	Cristóbal	PROPN	_	_	34	conj	_	_
-38	de	de	ADP	_	_	39	case	_	_
-39	Morales	Morales	PROPN	_	_	37	nmod	_	_
+38	de	de	ADP	_	_	37	flat:name	_	_
+39	Morales	Morales	PROPN	_	_	37	flat:name	_	_
 40	.	.	PUNCT	_	_	2	punct	_	_
 
 # sentid: fr-ud-dev_00209
@@ -8375,8 +8375,8 @@
 # sentid: fr-ud-dev_00297
 # sentence-text: Adriaan de Groot (Santpoort 26 octobre 1914,--Schiermonnikoog, 14 août 2006) est un psychologue néerlandais.
 1	Adriaan	Adriaan	PROPN	_	_	19	nsubj	_	_
-2	de	de	PROPN	_	_	3	case	_	_
-3	Groot	Groot	PROPN	_	_	1	nmod	_	_
+2	de	de	PROPN	_	_	1	flat:name	_	_
+3	Groot	Groot	PROPN	_	_	1	flat:name	_	_
 4	(	(	PUNCT	_	_	5	punct	_	_
 5	Santpoort	Santpoort	PROPN	_	_	1	appos	_	_
 6	,	,	PUNCT	_	_	11	punct	_	_
@@ -10092,8 +10092,8 @@
 3	arrivée	arrivée	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
 4	,	,	PUNCT	_	_	9	punct	_	_
 5	Gayoso	Gayoso	PROPN	_	_	9	nsubj	_	_
-6	de	de	ADP	_	_	7	case	_	_
-7	Lemos	Lemos	PROPN	_	_	5	nmod	_	_
+6	de	de	ADP	_	_	5	flat:name	_	_
+7	Lemos	Lemos	PROPN	_	_	5	flat:name	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	établi	établir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -10774,8 +10774,8 @@
 # sentid: fr-ud-dev_00390
 # sentence-text: Henry de Lesquen a annoncé peu après la suppression de l'émission, suite au licenciement de Martin Peltier.
 1	Henry	Henry	PROPN	_	_	5	nsubj	_	_
-2	de	de	ADP	_	_	3	case	_	_
-3	Lesquen	Lesquen	PROPN	_	_	1	nmod	_	_
+2	de	de	ADP	_	_	1	flat:name	_	_
+3	Lesquen	Lesquen	PROPN	_	_	1	flat:name	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	annoncé	annoncer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	peu	peu	ADV	_	_	5	advmod	_	_
@@ -20641,8 +20641,8 @@
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	reine	reine	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 7	Catherine	Catherine	PROPN	_	_	6	appos	_	_
-8	de	de	ADP	_	_	9	case	_	_
-9	Médicis	Médicis	PROPN	_	_	7	nmod	_	_
+8	de	de	ADP	_	_	7	flat:name	_	_
+9	Médicis	Médicis	PROPN	_	_	7	flat:name	_	_
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 12	inaugure	inaugurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -21120,8 +21120,8 @@
 # sentid: fr-ud-dev_00766
 # sentence-text: Robert de Joly, découvreur de l'Aven d'Orgnac, y mènera par la suite plusieurs campagnes dans les années 1930 puis 1940.
 1	Robert	Robert	PROPN	_	_	13	nsubj	_	_
-2	de	de	ADP	_	_	3	case	_	_
-3	Joly	Joly	PROPN	_	_	1	nmod	_	_
+2	de	de	ADP	_	_	1	flat:name	_	_
+3	Joly	Joly	PROPN	_	_	1	flat:name	_	_
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	découvreur	découvreur	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
 6	de	de	ADP	_	_	8	case	_	_
@@ -24062,9 +24062,9 @@
 8	vers	vers	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
 9	par	par	ADP	_	_	10	case	_	_
 10	Gace	Gace	PROPN	_	_	8	nmod	_	_
-11	de	de	ADP	_	_	13	case	_	_
-12	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	Bigne	Bigne	PROPN	_	_	10	nmod	_	_
+11	de	de	ADP	_	_	10	flat:name	_	_
+12	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	flat:name	_	_
+13	Bigne	Bigne	PROPN	_	_	10	flat:name	_	_
 14	,	,	PUNCT	_	_	3	punct	_	_
 15	mentionne	mentionner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	dans	dans	ADP	_	_	19	case	_	_
@@ -26299,8 +26299,8 @@
 # sentid: fr-ud-dev_00950
 # sentence-text: Hyacinthe de Cavallère est un des héros de la série de bandes dessinées Donjon écrite par Lewis Trondheim et Joann Sfar.
 1	Hyacinthe	Hyacinthe	PROPN	_	_	5	nsubj	_	_
-2	de	de	PROPN	_	_	3	case	_	_
-3	Cavallère	Cavallère	PROPN	_	_	1	nmod	_	_
+2	de	de	ADP	_	_	1	flat:name	_	_
+3	Cavallère	Cavallère	PROPN	_	_	1	flat:name	_	_
 4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 5	un	un	PRON	_	Gender=Masc|Number=Sing	0	root	_	_
 6-7	des	_	_	_	_	_	_	_	_
@@ -38895,8 +38895,8 @@
 # sentid: fr-ud-dev_01400
 # sentence-text: Bartolomeo de Benincà est un enlumineur et un peintre italien de miniatures du XVe siècle, dont l'œuvre se situe entre la fin de la période gothique et le début de la première Renaissance.
 1	Bartolomeo	Bartolomeo	PROPN	_	_	6	nsubj	_	_
-2	de	de	ADP	_	_	3	case	_	_
-3	Benincà	Benincà	PROPN	_	_	1	nmod	_	_
+2	de	de	ADP	_	_	1	flat:name	_	_
+3	Benincà	Benincà	PROPN	_	_	1	flat:name	_	_
 4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	enlumineur	enlumineur	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -39241,8 +39241,8 @@
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	père	père	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
 16	Antonio	Antonio	PROPN	_	_	15	appos	_	_
-17	de	de	ADP	_	_	18	case	_	_
-18	Sedella	Sedella	PROPN	_	_	16	nmod	_	_
+17	de	de	ADP	_	_	16	flat:name	_	_
+18	Sedella	Sedella	PROPN	_	_	16	flat:name	_	_
 19	,	,	PUNCT	_	_	15	punct	_	_
 20	arrivé	arriver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
 21	d'	de	ADP	_	_	22	case	_	_

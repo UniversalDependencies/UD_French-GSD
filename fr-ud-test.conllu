@@ -78,7 +78,7 @@
 22	objet	objet	NOUN	_	Gender=Masc|Number=Sing	6	ccomp	_	_
 23	de	de	ADP	_	_	25	case	_	_
 24	diverses	divers	ADJ	_	Gender=Fem|Number=Plur	25	amod	_	_
-25	atteintes	atteinte	NOUN	_	Gender=Fem|Number=Plur	22	OBL	_	_
+25	atteintes	atteinte	NOUN	_	Gender=Fem|Number=Plur	22	obl	_	_
 26-27	aux	_	_	_	_	_	_	_	_
 26	à	à	ADP	_	_	28	case	_	_
 27	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
@@ -367,7 +367,7 @@
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	hasard	hasard	NOUN	_	Gender=Masc|Number=Sing	4	NMOD	_	_
+7	hasard	hasard	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 8	ou	ou	CCONJ	_	_	11	cc	_	_
 9	d'	de	ADP	_	_	11	case	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -834,7 +834,7 @@
 4	h	heure	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 5	45	45	NUM	_	_	4	nummod	_	_
 6	en	en	ADP	_	_	7	case	_	_
-7	territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	4	OBL	_	_
+7	territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
 8	algérien	algérien	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 9	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -913,7 +913,7 @@
 17	de	de	ADP	_	_	20	case	_	_
 18	«	«	PUNCT	_	_	20	punct	_	_
 19	bons	bon	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	_
-20	intermédiaires	intermédiaire	NOUN	_	Gender=Masc|Number=Plur	16	NMOD	_	_
+20	intermédiaires	intermédiaire	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
 21	»	»	PUNCT	_	_	20	punct	_	_
 22	pour	pour	ADP	_	_	24	mark	_	_
 23	«	«	PUNCT	_	_	24	punct	_	_
@@ -938,7 +938,7 @@
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	sourire	sourire	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 5	de	de	ADP	_	_	6	case	_	_
-6	Dieu	Dieu	PROPN	_	_	4	NMOD	_	_
+6	Dieu	Dieu	PROPN	_	_	4	nmod	_	_
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-test_00037
@@ -965,7 +965,7 @@
 20	probable	probable	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
 21	vainqueur	vainqueur	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 22	en	en	ADP	_	_	23	case	_	_
-23	mai	mai	NOUN	_	Gender=Masc|Number=Sing	21	OBL	_	_
+23	mai	mai	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
 24	.	.	PUNCT	_	_	21	punct	_	_
 
 # sent_id = fr-ud-test_00038
@@ -1562,7 +1562,7 @@
 56	Tindouf	Tindouf	PROPN	_	_	54	nmod	_	_
 57	,	,	PUNCT	_	_	47	punct	_	_
 58	sans	sans	ADP	_	_	59	case	_	_
-59	documents	document	NOUN	_	Gender=Masc|Number=Plur	47	NMOD	_	_
+59	documents	document	NOUN	_	Gender=Masc|Number=Plur	47	nmod	_	_
 60	de	de	ADP	_	_	61	case	_	_
 61	voyage	voyage	NOUN	_	Gender=Masc|Number=Sing	59	nmod	_	_
 62	?	?	PUNCT	_	_	25	punct	_	_
@@ -3027,7 +3027,7 @@
 21	pour	pour	ADP	_	_	24	case	_	_
 22	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
 23	vrais	vrai	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	_
-24	soldats	soldat	NOUN	_	Gender=Masc|Number=Plur	20	OBL	_	_
+24	soldats	soldat	NOUN	_	Gender=Masc|Number=Plur	20	obl	_	_
 25	qui	qui	PRON	_	PronType=Rel	27	nsubj	_	_
 26	en	en	PRON	_	Person=3	27	obj	_	_
 27	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
@@ -4543,12 +4543,12 @@
 4	ultime	ultime	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 5	étape	étape	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 6	de	de	ADP	_	_	7	case	_	_
-7	coupe	coupe	NOUN	_	Gender=Fem|Number=Sing	5	NMOD	_	_
+7	coupe	coupe	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	France	France	PROPN	_	_	7	nmod	_	_
 10	pour	pour	ADP	_	_	12	case	_	_
 11	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
-12	catégories	catégorie	NOUN	_	Gender=Fem|Number=Plur	5	OBL	_	_
+12	catégories	catégorie	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
 13	espoirs	espoir	NOUN	_	Gender=Masc|Number=Plur	12	compound	_	_
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -5045,7 +5045,7 @@
 8	une	une	NUM	_	_	9	nummod	_	_
 9	centaine	centaine	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 10	de	de	ADP	_	_	11	case	_	_
-11	conteneurs	conteneur	NOUN	_	Gender=Masc|Number=Plur	9	NMOD	_	_
+11	conteneurs	conteneur	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
 12	qui	qui	PRON	_	PronType=Rel	15	nsubj:pass	_	_
 13	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
 14	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux:pass	_	_
@@ -5324,7 +5324,7 @@
 6	totale	total	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 7	sur	sur	ADP	_	_	9	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	marché	marché	NOUN	_	Gender=Masc|Number=Sing	5	OBL	_	_
+9	marché	marché	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
 10	,	,	PUNCT	_	_	5	punct	_	_
 11	et	et	CCONJ	_	_	17	cc	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -5542,7 +5542,7 @@
 11	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
 12	chose	chose	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 13	pour	pour	ADP	_	_	14	case	_	_
-14	moi	soi	PRON	_	Number=Sing|Person=1	12	OBL	_	_
+14	moi	soi	PRON	_	Number=Sing|Person=1	12	obl	_	_
 15	,	,	PUNCT	_	_	12	punct	_	_
 16	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
 17	gagne	gagner	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
@@ -5886,7 +5886,7 @@
 11	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	12	nmod:poss	_	_
 12	coup	coup	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 13	d'	de	ADP	_	_	14	case	_	_
-14	essai	essai	NOUN	_	Gender=Masc|Number=Sing	12	NMOD	_	_
+14	essai	essai	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 15	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-test_00196
@@ -6409,7 +6409,7 @@
 4	adresse	adresse	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	hôtel	hôtel	NOUN	_	Gender=Masc|Number=Sing	4	NMOD	_	_
+7	hôtel	hôtel	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	ville	ville	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 10	de	de	ADP	_	_	11	case	_	_
@@ -6818,7 +6818,7 @@
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	système	système	NOUN	_	Gender=Masc|Number=Sing	4	ccomp	_	_
 10	de	de	ADP	_	_	11	case	_	_
-11	sécurité	sécurité	NOUN	_	Gender=Fem|Number=Sing	9	NMOD	_	_
+11	sécurité	sécurité	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 12	quand	quand	SCONJ	_	_	14	mark	_	_
 13	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	14	nsubj	_	_
 14	tournes	tourner	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	advcl	_	_
@@ -7004,10 +7004,10 @@
 2	suis	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	élève	élève	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 4	de	de	ADP	_	_	5	case	_	_
-5	Sreemati	Sreemati	PROPN	_	_	3	NMOD	_	_
+5	Sreemati	Sreemati	PROPN	_	_	3	nmod	_	_
 6	depuis	depuis	ADP	_	_	8	case	_	_
 7	5	5	NUM	_	_	8	nummod	_	_
-8	ans	an	NOUN	_	Gender=Masc|Number=Plur	3	OBL	_	_
+8	ans	an	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
 9	,	,	PUNCT	_	_	3	punct	_	_
 10	et	et	CCONJ	_	_	44	cc	_	_
 11	dès	dès	ADP	_	_	16	mark	_	_

@@ -7604,7 +7604,7 @@
 3	conservé	conserver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	à	à	ADP	_	_	6	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	Bibliothèque	Bibliothèque	PROPN	_	_	3	obl	_	_
+6	Bibliothèque	bibliothèque	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
 7	royale	royal	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 8-9	des	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	_
@@ -11513,9 +11513,9 @@
 # sent_id = fr-ud-dev_00416
 # text = La Division d'Infanterie motorisée est une des divisions d'infanterie de la Wehrmacht durant la Seconde Guerre mondiale.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Division	Division	PROPN	_	_	7	nsubj	_	_
+2	Division	division	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	d'	de	ADP	_	_	4	case	_	_
-4	Infanterie	Infanterie	PROPN	_	_	2	nmod	_	_
+4	Infanterie	infanterie	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 5	motorisée	motorisé	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 7	une	un	PRON	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -13559,7 +13559,7 @@
 3	favori	favori	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
-6	Tour	Tour	PROPN	_	_	3	nmod	_	_
+6	Tour	tour	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	France	France	PROPN	_	_	6	nmod	_	_
 9	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
@@ -27485,13 +27485,13 @@
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	Nord	Nord	PROPN	_	_	7	nmod	_	_
+10	Nord	nord	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 11	crée	créer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	notamment	notamment	ADV	_	_	11	advmod	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	Division	Division	PROPN	_	_	11	obj	_	_
+14	Division	division	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
 15	d'	de	ADP	_	_	16	case	_	_
-16	Honneur	Honneur	PROPN	_	_	14	nmod	_	_
+16	Honneur	honneur	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 17	,	,	PUNCT	_	_	14	punct	_	_
 18	plus	plus	ADV	_	_	19	advmod	_	_
 19	haut	haut	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
@@ -27500,9 +27500,9 @@
 22	,	,	PUNCT	_	_	11	punct	_	_
 23	et	et	CCONJ	_	_	25	cc	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	Promotion	Promotion	PROPN	_	_	14	conj	_	_
+25	Promotion	promotion	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
 26	d'	de	ADP	_	_	27	case	_	_
-27	Honneur	Honneur	PROPN	_	_	25	nmod	_	_
+27	Honneur	honneur	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
 28	,	,	PUNCT	_	_	25	punct	_	_
 29	deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	_
 30	division	division	NOUN	_	Gender=Fem|Number=Sing	25	appos	_	_

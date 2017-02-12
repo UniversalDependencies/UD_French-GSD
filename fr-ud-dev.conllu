@@ -1071,7 +1071,7 @@
 18-19	du	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	20	case	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	sol	sol	NOUN	_	Gender=Masc|Number=Sing	15	SKIP	_	_
+20	sol	sol	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
 21	autrefois	autrefois	ADV	_	_	22	advmod	_	_
 22	pratiquée	pratiquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
 23	dans	dans	ADP	_	_	25	case	_	_
@@ -4898,9 +4898,9 @@
 6	exoplanète	exoplanète	NOUN	_	Gender=Fem|Number=Sing	0	nmod	_	_
 7	en	en	ADP	_	_	8	case	_	_
 8	orbite	orbite	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
-9	autour	autour	ADV	_	_	11	SKIP	_	_
+9	autour	autour	ADV	_	_	11	case	_	_
 10	de	de	ADP	_	_	9	fixed	_	_
-11	HIP	HIP	PROPN	_	_	6	nmod	_	_
+11	HIP	HIP	PROPN	_	_	8	nmod	_	_
 12	12961	12961	NUM	_	_	11	nummod	_	_
 13	,	,	PUNCT	_	_	6	punct	_	_
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -5193,7 +5193,7 @@
 10	rhétorique	rhétorique	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 11	à	à	ADP	_	_	13	case	_	_
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
-13	académie	académie	PROPN	_	_	3	SKIP	_	_
+13	académie	académie	PROPN	_	_	8	nmod	_	_
 14	royale	royal	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	Juilly	Juilly	PROPN	_	_	13	nmod	_	_

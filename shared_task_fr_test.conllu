@@ -127,13 +127,13 @@
 7	lituanienne	lituanien	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
-10	Organisation	Organisation	PROPN	_	_	6	nmod	_	_
+10	Organisation	organisation	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 11	pour	pour	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	Sécurité	Sécurité	PROPN	_	_	10	nmod	_	_
+13	Sécurité	sécurité	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	Coopération	Coopération	PROPN	_	_	13	conj	_	_
+16	Coopération	coopération	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
 17	en	en	ADP	_	_	18	case	_	_
 18	Europe	Europe	PROPN	_	_	16	nmod	_	_
 19	(	(	PUNCT	_	_	20	punct	_	_
@@ -10630,7 +10630,7 @@
 20	référence	référence	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
 21	à	à	ADP	_	_	23	case	_	_
 22	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
-23	Antéchrist	Antéchrist	PROPN	_	_	20	nmod	_	_
+23	Antéchrist	antéchrist	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 24	de	de	ADP	_	_	25	case	_	_
 25	Nietzsche	Nietzsche	PROPN	_	_	23	nmod	_	_
 26	,	,	PUNCT	_	_	19	punct	_	_
@@ -10645,8 +10645,8 @@
 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	christianisme	christianisme	NOUN	_	Gender=Masc|Number=Sing	37	nsubj	_	_
 37	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	ccomp	_	_
-38	en	en	ADP	_	_	39	case	_	_
-39	fait	fait	NOUN	_	Gender=Masc|Number=Sing	37	obl	_	_
+38	en	en	ADP	_	_	37	advmod	_	_
+39	fait	fait	NOUN	_	Gender=Masc|Number=Sing	38	fixed	_	_
 40	à	à	ADP	_	_	42	case	_	_
 41	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
 42	origine	origine	NOUN	_	Gender=Fem|Number=Sing	37	obl	_	_

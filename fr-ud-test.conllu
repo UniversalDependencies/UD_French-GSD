@@ -2011,7 +2011,7 @@
 # text = Mgr Velasio de Paolis n'est pas là pour aggraver une situation déjà très lourde.
 1	Mgr	Mgr	PROPN	_	_	8	nsubj	_	_
 2	Velasio	Velasio	PROPN	_	_	1	flat:name	_	_
-3	de	de	ADP	_	_	4	case	_	_
+3	de	de	ADP	_	_	1	flat:name	_	_
 4	Paolis	Paolis	PROPN	_	_	1	flat:name	_	_
 5	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	_
 6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
@@ -4899,8 +4899,8 @@
 11	,	,	PUNCT	_	_	4	punct	_	_
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
 13	EUR	EUR	PROPN	_	_	4	dep	_	_
-14	/	/	PUNCT	_	_	13	punct	_	_
-15	GBP	GBP	PROPN	_	_	13	flat:name	_	_
+14	/	/	PUNCT	_	_	15	punct	_	_
+15	GBP	GBP	PROPN	_	_	13	conj	_	_
 16	prenant	prendre	VERB	_	Tense=Pres|VerbForm=Part	13	acl	_	_
 17	0.27	0.27	NUM	_	_	18	nummod	_	_
 18	%	%	SYM	_	_	16	obj	_	_
@@ -7780,7 +7780,7 @@
 21	chez	chez	ADP	_	_	22	case	_	_
 22	Bureau	Bureau	PROPN	_	_	20	obl	_	_
 23	Vallée	Vallée	PROPN	_	_	22	flat:name	_	_
-24	Toulouse	Toulouse	PROPN	_	_	22	nmod	_	_
+24	Toulouse	Toulouse	PROPN	_	_	22	flat:name	_	_
 25	Montaudran	Montaudran	PROPN	_	_	22	flat:name	_	_
 26	.	.	PUNCT	_	_	20	punct	_	_
 

@@ -1,3 +1,16 @@
+=== Machine-readable metadata =================================================
+Documentation status: complete
+Data source: semi-automatic
+Data available since: UD v1.0
+License: CC BY-NC-SA 3.0 US
+Genre: blog news reviews wiki
+Contributors: de Marneffe, Marie-Catherine; Guillaume, Bruno; McDonald, Ryan; Suhr, Alane; Nivre, Joakim; Grioni, Matias
+Contact: demarneffe.1@osu.edu, bruno.guillaume@inria.fr
+===============================================================================
+(Original treebank contributors: Quirmbach-Brundage, Yvonne; LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
+
+
+
 The French UD is converted from the content head version of the universal
 dependency treebank v2.0 (legacy):
 
@@ -19,17 +32,6 @@ Changelog
 
 2015-11-15 v1.2
   * Removed duplicate sentences (overlaps with train) from dev and test data.
-
-=== Machine-readable metadata =================================================
-Documentation status: complete
-Data source: semi-automatic
-Data available since: UD v1.0
-License: CC BY-NC-SA 3.0 US
-Genre: blog news reviews wiki
-Contributors: de Marneffe, Marie-Catherine; Guillaume, Bruno; McDonald, Ryan; Suhr, Alane; Nivre, Joakim; Grioni, Matias
-Contact:
-===============================================================================
-(Original treebank contributors: Quirmbach-Brundage, Yvonne; LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
 
 
 

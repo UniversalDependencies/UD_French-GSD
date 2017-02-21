@@ -73,7 +73,7 @@
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	Sahara	Sahara	PROPN	_	_	13	nmod	_	_
 19	occidental	occidental	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
-20	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
 21	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
 22	objet	objet	NOUN	_	Gender=Masc|Number=Sing	6	ccomp	_	_
 23	de	de	ADP	_	_	25	case	_	_
@@ -212,7 +212,7 @@
 4	de	de	ADP	_	_	3	fixed	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	match	match	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-7	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 8	à	à	ADP	_	_	10	case	_	_
 9	leur	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	10	nmod:poss	_	_
 10	paroxysme	paroxysme	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -296,7 +296,7 @@
 37	que	que	SCONJ	_	_	36	fixed	_	_
 38	leur	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	39	nmod:poss	_	_
 39	coeur	coeur	NOUN	_	Gender=Masc|Number=Sing	47	nsubj	_	_
-40	serait	être	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	cop	_	_
+40	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	cop	_	_
 41	comme	comme	ADP	_	_	43	case	_	_
 42	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
 43	montres	montre	NOUN	_	Gender=Fem|Number=Plur	47	obl	_	_
@@ -360,7 +360,7 @@
 
 # sent_id = fr-ud-test_00011
 # text = Est-ce le fait du hasard ou d'une malédiction que toute la zone comprise entre le Soudan et la Mauritanie soit instable ?
-1	Est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
+1	Est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
 2	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -383,7 +383,7 @@
 20	et	et	CCONJ	_	_	22	cc	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Mauritanie	Mauritanie	PROPN	_	_	19	conj	_	_
-23	soit	être	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
 24	instable	instable	ADJ	_	Gender=Fem|Number=Sing	4	ccomp	_	_
 25	?	?	PUNCT	_	_	4	punct	_	_
 
@@ -403,7 +403,7 @@
 12	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	13	expl	_	SpaceAfter=No
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
 14	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
-15	être	être	VERB	_	VerbForm=Inf	16	cop	_	_
+15	être	être	AUX	_	VerbForm=Inf	16	cop	_	_
 16	traditionaliste	traditionaliste	ADJ	_	Gender=Masc|Number=Sing	10	ccomp	_	_
 17	ET	et	CCONJ	_	_	18	cc	_	_
 18	intégriste	intégriste	ADJ	_	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
@@ -497,7 +497,7 @@
 9	souhait	souhait	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	17	punct	_	_
 11	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
-12	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 13	pourtant	pourtant	ADV	_	_	17	advmod	_	_
 14	déjà	déjà	ADV	_	_	17	advmod	_	_
 15	à	à	ADP	_	_	17	case	_	_
@@ -560,7 +560,7 @@
 # sent_id = fr-ud-test_00018
 # text = Je suis déchirée.
 1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	suis	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	déchirée	déchiré	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -660,7 +660,7 @@
 5	tous	tout	DET	_	Gender=Masc|Number=Plur	7	det	_	_
 6	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
 7	textes	texte	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
-8	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 9	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	espoir	espoir	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	_
 11	et	et	CCONJ	_	_	13	cc	_	_
@@ -746,7 +746,7 @@
 2	lendemains	lendemain	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	lynchage	lynchage	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-5	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 6	pleins	plein	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
 7	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
 8	incertitudes	incertitude	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
@@ -829,7 +829,7 @@
 # sent_id = fr-ud-test_00031
 # text = Il est 20 h 45 en territoire algérien.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	20	20	NUM	_	_	4	nummod	_	_
 4	h	heure	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 5	45	45	NUM	_	_	4	nummod	_	_
@@ -907,7 +907,7 @@
 11	extérieure	extérieur	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
 12	)	)	PUNCT	_	_	6	punct	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
-14	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 15	en	en	ADP	_	_	16	case	_	_
 16	quête	quête	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 17	de	de	ADP	_	_	20	case	_	_
@@ -925,7 +925,7 @@
 # text = Son destin est-il la Poussière ?
 1	Son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	2	nmod:poss	_	_
 2	destin	destin	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
-3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
 4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Poussière	poussière	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -934,7 +934,7 @@
 # sent_id = fr-ud-test_00036
 # text = C'est un sourire de Dieu.
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
-2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	sourire	sourire	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 5	de	de	ADP	_	_	6	case	_	_
@@ -960,7 +960,7 @@
 15	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
 16	agenda	agenda	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	21	punct	_	_
-18	sera	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	21	cop	_	_
+18	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	21	cop	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 20	probable	probable	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
 21	vainqueur	vainqueur	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -995,7 +995,7 @@
 # text = Tout cela est présent dans sa passion.
 1	Tout	tout	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 2	cela	cela	PRON	_	Number=Sing|PronType=Dem	4	nsubj	_	_
-3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	présent	présent	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 5	dans	dans	ADP	_	_	7	case	_	_
 6	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	7	nmod:poss	_	_
@@ -1062,7 +1062,7 @@
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Sahara	Sahara	PROPN	_	_	10	nmod	_	_
 14	Occidental	occidental	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
-15	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 16	très	très	ADV	_	_	17	advmod	_	_
 17	claire	clair	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	17	punct	_	_
@@ -1091,7 +1091,7 @@
 5	contre	contre	INTJ	_	_	6	compound	_	_
 6	attaque	attaque	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
-8	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
+8	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
 9	massive	massif	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
@@ -1145,7 +1145,7 @@
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Mauritanie	Mauritanie	PROPN	_	_	12	nsubj	_	_
 8	n'	ne	ADV	_	Polarity=Neg	12	advmod	_	SpaceAfter=No
-9	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 10	pas	pas	ADV	_	Polarity=Neg	12	advmod	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Maroc	Maroc	PROPN	_	_	4	ccomp	_	_
@@ -1205,7 +1205,7 @@
 # sent_id = fr-ud-test_00048
 # text = C'est simple, il y a de tout.
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	3	nsubj	_	SpaceAfter=No
-2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	simple	simple	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -1246,7 +1246,7 @@
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	série	série	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
 28	animée	animé	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
-29	seront	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	30	cop	_	_
+29	seront	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	30	cop	_	_
 30	disponibles	disponible	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
 31	dès	dès	ADP	_	_	34	case	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
@@ -1281,7 +1281,7 @@
 22	d'	de	ADP	_	_	23	case	_	SpaceAfter=No
 23	eau	eau	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
 24	ne	ne	ADV	_	Polarity=Neg	28	advmod	_	_
-25	soit	être	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+25	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
 26	pas	pas	ADV	_	Polarity=Neg	28	advmod	_	_
 27	si	si	ADV	_	_	28	advmod	_	_
 28	brillant	brillant	ADJ	_	Gender=Masc|Number=Sing	15	ccomp	_	_
@@ -1340,7 +1340,7 @@
 # sent_id = fr-ud-test_00053
 # text = Elle était dans la petite cour du garage, capot ouvert.
 1	Elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
-2	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
 3	dans	dans	ADP	_	_	6	case	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	petite	petit	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
@@ -1493,7 +1493,7 @@
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	8	nsubj	_	_
 6	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
-7	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
 8	pas	pas	ADV	_	_	0	root	_	_
 9	comme	comme	ADP	_	_	10	case	_	_
 10	aujourd'hui	aujourd'hui	ADV	_	_	8	obl	_	SpaceAfter=No
@@ -1547,7 +1547,7 @@
 42	parce	parce	ADV	_	_	47	mark	_	_
 43	qu'	que	SCONJ	_	_	42	fixed	_	SpaceAfter=No
 44	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	47	nsubj	_	_
-45	étaient	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	47	cop	_	_
+45	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	47	cop	_	_
 46	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
 47	séquestrés	séquestré	NOUN	_	Gender=Masc|Number=Plur	25	advcl	_	_
 48	qui	qui	PRON	_	PronType=Rel	51	nsubj	_	_
@@ -1754,7 +1754,7 @@
 # sent_id = fr-ud-test_00065
 # text = C'est à Dakhla, où ceux qui font office de « colons » se sont permis de les traiter en tant qu'« indigènes », en les agressant à propos d'un match de football maroco-sahraoui, que des affrontements ont eu lieu.
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
-2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	à	à	ADP	_	_	4	case	_	_
 4	Dakhla	Dakhla	PROPN	_	_	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
@@ -1853,7 +1853,7 @@
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	conversion	conversion	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 6	n'	ne	ADV	_	Polarity=Neg	10	advmod	_	SpaceAfter=No
-7	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 8	pas	pas	ADV	_	Polarity=Neg	10	advmod	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	changement	changement	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -1879,7 +1879,7 @@
 4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
 5	affaires	affaire	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
 6	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
-7	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 8	partout	partout	ADV	_	_	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
@@ -1905,7 +1905,7 @@
 28	télécoms	télécoms	NOUN	_	Gender=Fem|Number=Plur	27	compound	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	32	punct	_	_
 30	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
-31	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
+31	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
 32	actif	actif	ADJ	_	Gender=Masc|Number=Sing	8	conj	_	_
 33	dans	dans	ADP	_	_	35	case	_	_
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
@@ -2014,7 +2014,7 @@
 3	de	de	ADP	_	_	1	flat:name	_	_
 4	Paolis	Paolis	PROPN	_	_	1	flat:name	_	_
 5	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
-6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	pas	pas	ADV	_	Polarity=Neg	8	advmod	_	_
 8	là	là	ADV	_	_	0	root	_	_
 9	pour	pour	ADP	_	_	10	mark	_	_
@@ -2226,7 +2226,7 @@
 # sent_id = fr-ud-test_00079
 # text = C'est de cette façon que des conditions socio-économiques radicalement nouvelles (néolibéralisme) ont été imposées durant les années 1980 à 1990.
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
-2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	façon	façon	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -2424,7 +2424,7 @@
 15	que	que	SCONJ	_	_	25	mark	_	_
 16	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
 17	indépendantistes	indépendantiste	NOUN	_	Gender=Masc|Number=Plur	25	nsubj	_	_
-18	étaient	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	cop	_	_
+18	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	cop	_	_
 19	tout	tout	NOUN	_	Gender=Masc|Number=Sing	25	advmod	_	_
 20-21	au	_	_	_	_	_	_	_	_
 20	à	à	ADP	_	_	19	fixed	_	_
@@ -2727,7 +2727,7 @@
 # text = Le ras-le-bol fut général, la mobilisation inédite.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ras-le-bol	ras-le-bol	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
-3	fut	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
 4	général	général	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -3021,7 +3021,7 @@
 15	que	que	SCONJ	_	_	20	mark	_	_
 16	Battlefield	Battlefield	PROPN	_	_	20	nsubj	_	_
 17	3	3	NUM	_	_	16	compound	_	_
-18	sera	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	cop	_	_
+18	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	cop	_	_
 19	THE	the	DET	_	Definite=Def|Gender=Masc|Number=Sing	20	det	_	_
 20	GAME	game	NOUN	_	Gender=Masc|Number=Sing	14	conj	_	_
 21	pour	pour	ADP	_	_	24	case	_	_
@@ -3267,7 +3267,7 @@
 5	que	que	SCONJ	_	_	4	fixed	_	_
 6	feutré	feutré	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
-8	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 9	clair	clair	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 10	:	:	PUNCT	_	_	9	punct	_	_
 11	«	«	PUNCT	_	_	15	punct	_	_
@@ -3340,7 +3340,7 @@
 16	en	en	ADP	_	_	17	case	_	_
 17	2006	2006	NUM	_	_	8	obl	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	_
-19	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 20	inutile	inutile	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	20	punct	_	_
 
@@ -3386,7 +3386,7 @@
 12	police	police	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	17	punct	_	_
 14	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	17	nsubj	_	SpaceAfter=No
-15	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 16	M.	Monsieur	NOUN	_	Gender=Masc|Number=Sing	17	compound	_	_
 17	Moussavi	Moussavi	PROPN	_	_	0	root	_	_
 18	qui	qui	PRON	_	PronType=Rel	20	nsubj	_	_
@@ -3460,7 +3460,7 @@
 7	professionnelle	professionnel	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	chacun	chacun	PRON	_	Gender=Masc|Number=Sing	11	nsubj	_	_
-10	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 11	important	important	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 12	et	et	CCONJ	_	_	13	cc	_	_
 13	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
@@ -3497,7 +3497,7 @@
 7	en	en	ADP	_	_	8	case	_	_
 8	titre	titre	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
-10	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 11	logiquement	logiquement	ADV	_	_	12	advmod	_	_
 12	favori	favori	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 13	contre	contre	ADP	_	_	14	case	_	_
@@ -3728,7 +3728,7 @@
 2	élection	élection	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
 4	n'	ne	ADV	_	Polarity=Neg	10	advmod	_	SpaceAfter=No
-5	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 6	pas	pas	ADV	_	Polarity=Neg	10	advmod	_	_
 7	seulement	seulement	ADV	_	_	6	advmod	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -3739,7 +3739,7 @@
 13	indépendance	indépendance	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	20	punct	_	_
 15	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
-16	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 17	aussi	aussi	ADV	_	_	20	advmod	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 19	plus	plus	ADV	_	_	20	advmod	_	_
@@ -3857,7 +3857,7 @@
 34	C	Celsius	SYM	_	_	33	compound	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	11	punct	_	_
 36	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	nsubj	_	_
-37	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
+37	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
 38	donc	donc	ADV	_	_	39	advmod	_	_
 39	normal	normal	ADJ	_	Gender=Masc|Number=Sing	3	conj	_	_
 40	de	de	ADP	_	_	41	mark	_	_
@@ -3977,7 +3977,7 @@
 5	but	but	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 6	par	par	ADP	_	_	7	case	_	_
 7	match	match	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
-8	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	meilleure	meilleur	ADJ	_	Gender=Fem|Number=Sing	25	ccomp	_	_
 11	parmi	parmi	ADP	_	_	13	case	_	_
@@ -4168,7 +4168,7 @@
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	situation	situation	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
 20	n'	ne	ADV	_	Polarity=Neg	24	advmod	_	SpaceAfter=No
-21	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+21	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
 22	pas	pas	ADV	_	Polarity=Neg	24	advmod	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	même	même	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -4236,7 +4236,7 @@
 11	final	final	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	15	nsubj	_	SpaceAfter=No
-14	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 15	rassurant	rassurant	ADJ	_	Gender=Masc|Number=Sing	2	conj	_	_
 16	dans	dans	ADP	_	_	18	case	_	_
 17	80	80	NUM	_	_	18	nummod	_	SpaceAfter=No
@@ -4250,7 +4250,7 @@
 # sent_id = fr-ud-test_00140
 # text = C'est un caillou blanc.
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
-2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	caillou	caillou	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 5	blanc	blanc	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
@@ -4375,7 +4375,7 @@
 # sent_id = fr-ud-test_00145
 # text = Qu'est-ce que 1.000 emplois quand on en détruit et qu'on en créé 20.000 tous les jours en France ?
 1	Qu'	que	PRON	_	_	0	root	_	SpaceAfter=No
-2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
 3	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	1	expl	_	_
 4	que	que	SCONJ	_	_	3	fixed	_	_
 5	1.000	1.000	NUM	_	_	6	nummod	_	_
@@ -4474,12 +4474,12 @@
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
 4	saura	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	ccomp	_	_
 5	qui	qui	PRON	_	_	8	nsubj	_	_
-6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	coupable	coupable	NOUN	_	Gender=Masc|Number=Sing	4	ccomp	_	_
 9	et	et	CCONJ	_	_	13	cc	_	_
 10	qui	qui	PRON	_	_	13	nsubj	_	_
-11	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	victime	victime	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
 14	»	»	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -4538,7 +4538,7 @@
 # sent_id = fr-ud-test_00152
 # text = Ce sera l'ultime étape de coupe de France pour les catégories espoirs, la revanche des championnats de France chez les vétérans, de plus en plus motivés par la compétition et quelques jours plus tard l'incontournable épreuve internationale qui cette année se déroulera en open.
 1	Ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	nsubj	_	_
-2	sera	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	cop	_	_
+2	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	cop	_	_
 3	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 4	ultime	ultime	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 5	étape	étape	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -4931,7 +4931,7 @@
 15	que	que	SCONJ	_	_	22	mark	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	Tchèques	Tchèques	PROPN	_	_	22	nsubj	_	_
-18	étaient	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	_
+18	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	_
 19	probablement	probablement	ADV	_	_	22	advmod	_	_
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
 21	plus	plus	ADV	_	_	22	advmod	_	_
@@ -5039,7 +5039,7 @@
 2	tout	tout	PRON	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	9	punct	_	_
 4	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	9	nsubj	_	_
-5	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 6	près	près	ADV	_	_	8	advmod	_	_
 7	d'	de	ADP	_	_	6	fixed	_	SpaceAfter=No
 8	une	une	NUM	_	_	9	nummod	_	_
@@ -5284,7 +5284,7 @@
 5	Etats	état	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
 6	très	très	ADV	_	_	7	advmod	_	_
 7	endettés	endetté	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
-8	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 9	bien	bien	ADV	_	_	10	advmod	_	_
 10	réels	réel	ADJ	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
@@ -5318,7 +5318,7 @@
 # text = "C'est la panique totale sur le marché, et la chute du cours suit le risque souverain", explique Nuria Alvarez, analyste chez Renta 4.
 1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 2	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
-3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	panique	panique	NOUN	_	Gender=Fem|Number=Sing	23	ccomp	_	_
 6	totale	total	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
@@ -5352,7 +5352,7 @@
 # sent_id = fr-ud-test_00178
 # text = Quel est le coût d'un tel projet ?
 1	Quel	quel	PRON	_	Gender=Masc|Number=Sing	0	root	_	_
-2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coût	coût	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	_
 5	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
@@ -5442,7 +5442,7 @@
 3	,	,	PUNCT	_	_	9	punct	_	_
 4	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	automobiliste	automobiliste	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
-6	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
 7	toujours	toujours	ADV	_	_	9	advmod	_	_
 8	en	en	ADP	_	_	9	case	_	_
 9	garde	garde	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
@@ -5460,7 +5460,7 @@
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	pandémie	pandémie	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
-9	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	cop	_	_
+9	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	cop	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	advmod	_	_
 11	peu	peu	ADV	_	_	10	fixed	_	_
 12	moins	moins	ADV	_	_	13	advmod	_	_
@@ -5536,7 +5536,7 @@
 5	horaire	horaire	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	12	punct	_	_
 7	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	12	expl	_	SpaceAfter=No
-8	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 9	plutôt	plutôt	ADV	_	_	12	advmod	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 11	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
@@ -5682,7 +5682,7 @@
 21	de	de	ADP	_	_	23	case	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	Mexique	Mexique	PROPN	_	_	20	nmod	_	_
-24	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
 25	praticables	praticable	ADJ	_	Gender=Fem|Number=Plur	13	ccomp	_	_
 26	et	et	CCONJ	_	_	27	cc	_	_
 27	essayant	essayer	VERB	_	Tense=Pres|VerbForm=Part	13	conj	_	_
@@ -5702,7 +5702,7 @@
 # sent_id = fr-ud-test_00190
 # text = Peut-être serait-il plus libérateur de crier bien fort : OUACHE !...
 1	Peut-être	peut-être	ADV	_	_	5	advmod	_	_
-2	serait	être	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
+2	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
 3	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	plus	plus	ADV	_	_	5	advmod	_	_
 5	libérateur	libérateur	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -5880,7 +5880,7 @@
 5	Miss	Miss	PROPN	_	_	12	nsubj	_	_
 6	France	France	PROPN	_	_	5	flat:name	_	_
 7	n'	ne	ADV	_	Polarity=Neg	12	advmod	_	SpaceAfter=No
-8	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 9	pas	pas	ADV	_	Polarity=Neg	12	advmod	_	_
 10	à	à	ADP	_	_	12	case	_	_
 11	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	12	nmod:poss	_	_
@@ -6136,7 +6136,7 @@
 21	,	,	PUNCT	_	_	26	punct	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	cuisine	cuisine	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
-24	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+24	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
 25	vraiment	vraiment	ADV	_	_	26	advmod	_	_
 26	excellente	excellent	ADJ	_	Gender=Fem|Number=Sing	11	conj	_	_
 27	et	et	CCONJ	_	_	29	cc	_	_
@@ -6159,7 +6159,7 @@
 1	Anjou	Anjou	PROPN	_	_	6	nsubj	_	_
 2	Sol'Art	Sol'Art	PROPN	_	_	1	flat:name	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
-4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	entreprise	entreprise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 7	dont	dont	PRON	_	PronType=Rel	18	iobj	_	_
@@ -6188,7 +6188,7 @@
 5	massage	massage	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	_
 7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
-8	suis	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	_
 9	bien	bien	ADV	_	_	10	advmod	_	_
 10	relaxé	relaxer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	et	et	CCONJ	_	_	15	cc	_	_
@@ -6281,7 +6281,7 @@
 17	comprendre	comprendre	VERB	_	VerbForm=Inf	16	xcomp	_	_
 18	qu'	que	SCONJ	_	_	21	mark	_	SpaceAfter=No
 19	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
-20	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	cop	_	_
+20	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	cop	_	_
 21	temps	temps	NOUN	_	Gender=Masc|Number=Sing	17	ccomp	_	_
 22	de	de	ADP	_	_	23	mark	_	_
 23	quitter	quitter	VERB	_	VerbForm=Inf	21	acl	_	_
@@ -6320,7 +6320,7 @@
 6	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	connue	connaître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	pour	pour	ADP	_	_	10	case	_	_
-9	être	être	VERB	_	VerbForm=Inf	10	cop	_	_
+9	être	être	AUX	_	VerbForm=Inf	10	cop	_	_
 10	pinailleuse	pinailleur	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	difficile	difficile	ADJ	_	Gender=Fem|Number=Sing	10	conj	_	_
@@ -6404,7 +6404,7 @@
 # sent_id = fr-ud-test_00217
 # text = C'est l'adresse de l'hôtel de ville de Faches Thumesnil
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
-2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	adresse	adresse	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 5	de	de	ADP	_	_	7	case	_	_
@@ -6419,7 +6419,7 @@
 # sent_id = fr-ud-test_00218
 # text = C'est tellement rare de pouvoir dîner au coin du feu !
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
-2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	tellement	tellement	ADV	_	_	4	advmod	_	_
 4	rare	rare	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 5	de	de	ADP	_	_	7	mark	_	_
@@ -6469,7 +6469,7 @@
 6	dire	dire	VERB	_	VerbForm=Inf	0	root	_	_
 7	que	que	SCONJ	_	_	13	mark	_	_
 8	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	13	nsubj	_	SpaceAfter=No
-9	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
 10	à	à	ADP	_	_	13	advmod	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	fixed	_	_
 12	fois	fois	NOUN	_	Gender=Masc|Number=Plur	10	fixed	_	_
@@ -6533,7 +6533,7 @@
 # text = Cette école est très bien sérieuse et aide beaucoup
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	école	école	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
-3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	très	très	ADV	_	_	5	advmod	_	_
 5	bien	bien	ADV	_	_	6	advmod	_	_
 6	sérieuse	sérieux	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -6629,7 +6629,7 @@
 1	En	en	ADP	_	_	5	advmod	_	_
 2	plus	plus	ADV	_	_	1	fixed	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 5	gentil	gentil	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	à	à	ADP	_	_	9	case	_	_
@@ -6703,7 +6703,7 @@
 4	de	de	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	service	service	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-7	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 8	trés	trés	ADV	_	_	12	advmod	_	_
 9	trés	trés	ADV	_	_	12	advmod	_	_
 10	trés	trés	ADV	_	_	12	advmod	_	SpaceAfter=No
@@ -6735,7 +6735,7 @@
 4	en	en	ADP	_	_	8	advmod	_	_
 5	plus	plus	ADV	_	_	4	fixed	_	_
 6	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	8	nsubj	_	SpaceAfter=No
-7	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 8	rapide	rapide	ADJ	_	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -6743,7 +6743,7 @@
 # text = Ici c'est très professionnelle.
 1	Ici	ici	ADV	_	_	5	advmod	_	_
 2	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
-3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	très	très	ADV	_	_	5	advmod	_	_
 5	professionnelle	professionnel	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -6770,7 +6770,7 @@
 8	coin	coin	NOUN	_	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	Naples	Naples	PROPN	_	_	8	nmod	_	_
-11	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 12	bien	bien	ADV	_	_	13	advmod	_	_
 13	connu	connu	ADJ	_	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
@@ -6814,7 +6814,7 @@
 4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	que	que	SCONJ	_	_	9	mark	_	_
 6	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	9	nsubj	_	SpaceAfter=No
-7	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	système	système	NOUN	_	Gender=Masc|Number=Sing	4	ccomp	_	_
 10	de	de	ADP	_	_	11	case	_	_
@@ -6837,7 +6837,7 @@
 26	contre	contre	ADP	_	_	25	fixed	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	30	punct	_	_
 28	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	30	nsubj	_	_
-29	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+29	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
 30	excellent	excellent	ADJ	_	Gender=Masc|Number=Sing	4	parataxis	_	_
 31	pour	pour	ADP	_	_	33	mark	_	_
 32	'	'	PUNCT	_	_	33	punct	_	SpaceAfter=No
@@ -6857,7 +6857,7 @@
 # sent_id = fr-ud-test_00242
 # text = Ils sont sur Cherbourg depuis 2007.
 1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
-2	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 3	sur	sur	ADP	_	_	4	case	_	_
 4	Cherbourg	Cherbourg	PROPN	_	_	6	obl	_	_
 5	depuis	depuis	ADP	_	_	6	case	_	_
@@ -7001,7 +7001,7 @@
 # sent_id = fr-ud-test_00250
 # text = Je suis élève de Sreemati depuis 5 ans, et dès qu'elle m'a parlé d'ouvrir un centre consacré au Yoga authentique et aux techniques corporelles (ayurvéda, rdanse indienne, kalaripayat), j'ai voulu l'aider.
 1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	suis	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	élève	élève	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	Sreemati	Sreemati	PROPN	_	_	3	nmod	_	_
@@ -7055,7 +7055,7 @@
 3	bien	bien	ADV	_	_	2	advmod	_	_
 4	que	que	SCONJ	_	_	8	mark	_	_
 5	cela	cela	PRON	_	Number=Sing|PronType=Dem	8	nsubj	_	_
-6	soit	être	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	chambre	chambre	NOUN	_	Gender=Fem|Number=Sing	2	ccomp	_	_
 9	économique	économique	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
@@ -7172,7 +7172,7 @@
 # text = Le cadre est très joli, mais l'ambiance n'est pas à la hauteur de celle d'un Pub anglais, par manque de musique adaptée.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	cadre	cadre	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
-3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	très	très	ADV	_	_	5	advmod	_	_
 5	joli	joli	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
@@ -7241,7 +7241,7 @@
 14	à	à	ADP	_	_	15	case	_	_
 15	table	table	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
 16	n'	ne	ADV	_	Polarity=Neg	20	advmod	_	SpaceAfter=No
-17	étaient	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
+17	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
 18	que	que	SCONJ	_	_	20	expl	_	_
 19	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
 20	habitués	habitué	NOUN	_	Gender=Masc|Number=Plur	2	parataxis	_	SpaceAfter=No
@@ -7249,7 +7249,7 @@
 22	et	et	CCONJ	_	_	26	cc	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	salle	salle	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
-25	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	cop	_	_
+25	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	cop	_	_
 26	pleine	plein	ADJ	_	Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	20	punct	_	_
 
@@ -7275,7 +7275,7 @@
 # text = Les prix sont abordables pour la qualité des produits et le service en salle.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	prix	prix	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
-3	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	abordables	abordable	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
 5	pour	pour	ADP	_	_	7	case	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -7295,7 +7295,7 @@
 # text = Les prix sont beaucoup plus élevés que dans d'autres boutiques mais c'est la seule ouverte le lundi.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	prix	prix	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
-3	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	beaucoup	beaucoup	ADV	_	_	5	advmod	_	_
 5	plus	plus	ADV	_	_	6	advmod	_	_
 6	élevés	élevé	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
@@ -7306,7 +7306,7 @@
 11	boutiques	boutique	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
 12	mais	mais	CCONJ	_	_	16	cc	_	_
 13	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	16	nsubj	_	SpaceAfter=No
-14	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	seule	seul	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
 17	ouverte	ouvrir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
@@ -7330,7 +7330,7 @@
 1	Leur	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	2	nmod:poss	_	_
 2	chocolat	chocolat	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	chaud	chaud	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
-4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 5	divin	divin	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 6	!	!	PUNCT	_	_	5	punct	_	_
 
@@ -7338,7 +7338,7 @@
 # text = Madame Tellier est une excellente comptable que je recommande vivement !
 1	Madame	Monsieur	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 2	Tellier	Tellier	PROPN	_	_	1	flat:name	_	_
-3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	excellente	excellent	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 6	comptable	comptable	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
@@ -7391,7 +7391,7 @@
 # text = Nos plats étaient globalement bons (saumon vapeur/tagliatelles et filet de rouget) mais restaient simples dans la présentation et le raffinement.
 1	Nos	son	DET	_	Gender=Masc|Number=Plur|PronType=Prs	2	nmod:poss	_	_
 2	plats	plat	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
-3	étaient	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
 4	globalement	globalement	ADV	_	_	5	advmod	_	_
 5	bons	bon	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
@@ -7517,13 +7517,13 @@
 3	,	,	PUNCT	_	_	8	punct	_	_
 4	si	si	SCONJ	_	_	7	mark	_	_
 5	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	7	nsubj	_	_
-6	êtes	être	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	cop	_	_
 7	nombreux	nombreux	ADJ	_	Gender=Masc|Number=Plur	8	advcl	_	_
 8	passez	passer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	votre	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	10	nmod:poss	_	_
 10	chemin	chemin	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
 11	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	14	nsubj	_	SpaceAfter=No
-12	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 13	relativement	relativement	ADV	_	_	14	advmod	_	_
 14	étroit	étroit	ADJ	_	Gender=Masc|Number=Sing	8	parataxis	_	_
 15	!	!	PUNCT	_	_	8	punct	_	_
@@ -7534,7 +7534,7 @@
 2	contre	contre	ADP	_	_	1	fixed	_	_
 3	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	accueil	accueil	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
-5	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 6	impeccable	impeccable	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 7	et	et	CCONJ	_	_	9	cc	_	_
 8	très	très	ADV	_	_	9	advmod	_	_
@@ -7599,7 +7599,7 @@
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	réception	réception	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 11	ne	ne	ADV	_	Polarity=Neg	14	advmod	_	_
-12	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 13	pas	pas	ADV	_	Polarity=Neg	14	advmod	_	_
 14	aimable	aimable	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
@@ -7797,7 +7797,7 @@
 9	lorsque	lorsque	SCONJ	_	_	13	mark	_	_
 10	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	patrons	patron	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
-12	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 13	absents	absent	ADJ	_	Gender=Masc|Number=Plur	8	advcl	_	_
 14	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	15	nsubj	_	_
 15	aurez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -7832,7 +7832,7 @@
 # text = Son dirigeant est disponible et à l'écoute de ses clients.
 1	Son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	2	nmod:poss	_	_
 2	dirigeant	dirigeant	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
-3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	disponible	disponible	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 5	et	et	CCONJ	_	_	8	cc	_	_
 6	à	à	ADP	_	_	8	case	_	_
@@ -7919,7 +7919,7 @@
 11	peu	peu	ADV	_	_	10	fixed	_	_
 12	que	que	SCONJ	_	_	16	mark	_	_
 13	Mendes	Mendes	PROPN	_	_	16	nsubj	_	_
-14	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	9	ccomp	_	_
 17	où	où	PRON	_	PronType=Rel	19	advmod	_	_
@@ -8069,7 +8069,7 @@
 3	accueil	accueil	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 4	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	chambres	chambre	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
-6	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	très	très	ADV	_	_	8	advmod	_	_
 8	agréables	agréable	ADJ	_	Gender=Fem|Number=Plur	3	parataxis	_	_
 9	et	et	CCONJ	_	_	10	cc	_	_

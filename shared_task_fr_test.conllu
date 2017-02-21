@@ -926,7 +926,7 @@
 1	Son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	2	nmod:poss	_	_
 2	destin	destin	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
-4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Poussière	poussière	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 7	?	?	PUNCT	_	_	6	punct	_	_
@@ -2691,9 +2691,9 @@
 38	Sahara	Sahara	PROPN	_	_	26	nmod	_	_
 39	occidental	occidental	ADJ	_	Gender=Masc|Number=Sing	38	amod	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	26	punct	_	_
-41	M.	Monsieur	NOUN	_	Gender=Masc|Number=Sing	42	compound	_	_
-42	Christopher	Christopher	PROPN	_	_	26	appos	_	_
-43	Ross	Ross	PROPN	_	_	42	flat:name	_	SpaceAfter=No
+41	M.	Monsieur	NOUN	_	Gender=Masc|Number=Sing	26	appos	_	_
+42	Christopher	Christopher	PROPN	_	_	41	flat:name	_	_
+43	Ross	Ross	PROPN	_	_	41	flat:name	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	20	punct	_	_
 45	en	en	ADP	_	_	46	case	_	_
 46	présence	présence	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
@@ -2877,11 +2877,11 @@
 
 # sent_id = fr-ud-test_00098
 # text = M. Ross réussira-t-il à faire valoir le droit international dans ces négociations, Rabat bénéficiant du soutien, entre autres, d'un membre permanent du Conseil de sécurité de l'ONU, la France en l'occurrence.
-1	M.	Monsieur	NOUN	_	Gender=Masc|Number=Sing	2	compound	_	_
-2	Ross	Ross	PROPN	_	_	3	nsubj	_	_
+1	M.	Monsieur	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Ross	Ross	PROPN	_	_	1	flat:name	_	_
 3	réussira	réussir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	-t	t	PART	_	_	5	expl	_	SpaceAfter=No
-5	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+5	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
 6	à	à	ADP	_	_	7	mark	_	_
 7	faire	faire	VERB	_	VerbForm=Inf	3	acl	_	_
 8	valoir	valoir	VERB	_	VerbForm=Inf	7	xcomp	_	_
@@ -3372,11 +3372,11 @@
 
 # sent_id = fr-ud-test_00115
 # text = Après M. Karoubi, bloqué chez lui depuis jeudi par la police, c'est M. Moussavi qui a vu lundi matin son domicile encerclé et ses téléphones coupés, selon son site internet.
-1	Après	après	ADP	_	_	3	case	_	_
-2	M.	Monsieur	NOUN	_	Gender=Masc|Number=Sing	3	compound	_	_
-3	Karoubi	Karoubi	PROPN	_	_	17	obl	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
-5	bloqué	bloquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+1	Après	après	ADP	_	_	2	case	_	_
+2	M.	Monsieur	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+3	Karoubi	Karoubi	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	bloqué	bloquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
 6	chez	chez	ADP	_	_	7	case	_	_
 7	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	5	obl	_	_
 8	depuis	depuis	ADP	_	_	9	case	_	_
@@ -3384,14 +3384,14 @@
 10	par	par	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	police	police	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	17	punct	_	_
-14	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	17	nsubj	_	SpaceAfter=No
-15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
-16	M.	Monsieur	NOUN	_	Gender=Masc|Number=Sing	17	compound	_	_
-17	Moussavi	Moussavi	PROPN	_	_	0	root	_	_
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	16	nsubj	_	SpaceAfter=No
+15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	M.	Monsieur	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+17	Moussavi	Moussavi	PROPN	_	_	16	flat:name	_	_
 18	qui	qui	PRON	_	PronType=Rel	20	nsubj	_	_
 19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
-20	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+20	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
 21	lundi	lundi	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
 22	matin	matin	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 23	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	24	nmod:poss	_	_
@@ -3406,7 +3406,7 @@
 32	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	33	nmod:poss	_	_
 33	site	site	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
 34	internet	internet	NOUN	_	Gender=Masc|Number=Sing	33	compound	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	17	punct	_	_
+35	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = fr-ud-test_00116
 # text = Un timbre a été émis en Israël pour marquer le 150e anniversaire de la naissance de Théodore Herzl, journaliste, écrivain et fondateur du mouvement sioniste, le 2 mai 1860 à Budapest.
@@ -7132,7 +7132,7 @@
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	diamètre	diamètre	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	10	punct	_	_
-20	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	10	nsubj	_	_
+20	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	10	parataxis	_	_
 21	qui	qui	PRON	_	PronType=Rel	23	nsubj	_	_
 22	ne	ne	ADV	_	Polarity=Neg	23	advmod	_	_
 23	vaut	valoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
@@ -11351,7 +11351,7 @@
 24	structures	structure	NOUN	_	Gender=Fem|Number=Plur	21	nmod	_	_
 25	fédératives	fédératif	ADJ	_	Gender=Fem|Number=Plur	24	amod	_	_
 26	que	que	PRON	_	PronType=Rel	29	nsubj	_	_
-27	se	se	PRON	_	Person=3|PronType=Prs	29	obj	_	_
+27	se	se	PRON	_	Person=3|PronType=Prs	29	expl	_	_
 28	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
 29	données	donner	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	24	acl:relcl	_	_
 30	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_

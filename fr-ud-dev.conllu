@@ -5240,7 +5240,7 @@
 17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 18	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
 19	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
-20	problèmes	problème	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	_
+20	problèmes	problème	NOUN	_	Gender=Masc|Number=Plur	18	xcomp	_	_
 21	de	de	ADP	_	_	22	case	_	_
 22	décalage	décalage	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 23	vers	vers	ADP	_	_	25	case	_	_
@@ -5426,7 +5426,7 @@
 17	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
 18	«	«	PUNCT	_	_	20	punct	_	_
 19	trois	trois	NUM	_	_	20	nummod	_	_
-20	niveaux	niveau	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	_
+20	niveaux	niveau	NOUN	_	Gender=Masc|Number=Plur	15	xcomp	_	_
 21	»	»	PUNCT	_	_	20	punct	_	_
 22	nécessaires	nécessaire	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	_
 23	à	à	ADP	_	_	25	case	_	_
@@ -5506,7 +5506,7 @@
 6	à	à	ADP	_	_	7	case	_	_
 7	laquelle	lequel	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	11	obl	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	personne	personne	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+9	personne	personne	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 10	va	aller	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	consacrer	consacrer	VERB	_	VerbForm=Inf	5	acl:relcl	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -6794,7 +6794,7 @@
 1	Puis	puis	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	5	punct	_	_
 3	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
-4	se	se	PRON	_	Person=3|PronType=Prs	5	obj	_	_
+4	se	se	PRON	_	Person=3|PronType=Prs	5	expl	_	_
 5	serrent	serrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	main	main	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
@@ -7659,7 +7659,7 @@
 21	60	60	NUM	_	_	22	nummod	_	_
 22	€	€	SYM	_	_	20	obj	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	consultation	consultation	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+24	consultation	consultation	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
 25	pour	pour	ADP	_	_	27	case	_	_
 26	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	spécialiste	spécialiste	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
@@ -10343,7 +10343,7 @@
 7	appelait	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	«	«	PUNCT	_	_	10	punct	_	_
 9	The	the	DET	_	Definite=Def	10	det	_	Foreign=en
-10	king	king	NOUN	_	_	7	obj	_	Foreign=en
+10	king	king	NOUN	_	_	7	xcomp	_	Foreign=en
 11	of	of	ADP	_	_	12	case	_	Foreign=en
 12	comedy	comedy	NOUN	_	_	10	nmod	_	Foreign=en
 13	»	»	PUNCT	_	_	10	punct	_	_
@@ -13411,7 +13411,7 @@
 5	où	où	PRON	_	PronType=Rel	12	advmod	_	_
 6	seuls	seul	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
-8	articles	article	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+8	articles	article	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	presse	presse	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 11	défavorables	défavorable	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
@@ -15063,7 +15063,7 @@
 6	règne	règne	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	Basiliscus	Basiliscus	PROPN	_	_	10	nsubj	_	_
-9	s'	se	PRON	_	Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+9	s'	se	PRON	_	Person=3|PronType=Prs	10	expl	_	SpaceAfter=No
 10	aliène	aliéner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
 12	Église	Église	PROPN	_	_	10	obj	_	_
@@ -15122,7 +15122,7 @@
 8	s'	se	PRON	_	Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	portée	porter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
-11	partie	partie	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+11	partie	partie	NOUN	_	Gender=Fem|Number=Sing	10	xcomp	_	_
 12	civile	civil	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
 13	:	:	PUNCT	_	_	2	punct	_	_
 14	"	"	PUNCT	_	_	2	punct	_	_
@@ -15762,7 +15762,7 @@
 34	Thomas	Thomas	PROPN	_	_	33	flat:name	_	_
 35	se	se	PRON	_	Person=3|PronType=Prs	36	obj	_	_
 36	porte	porter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
-37	candidat	candidat	NOUN	_	Gender=Masc|Number=Sing	36	obj	_	_
+37	candidat	candidat	NOUN	_	Gender=Masc|Number=Sing	36	xcomp	_	_
 38	avec	avec	ADP	_	_	40	case	_	_
 39	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
 40	soutien	soutien	NOUN	_	Gender=Masc|Number=Sing	36	obl	_	_
@@ -21750,7 +21750,7 @@
 # sent_id = fr-ud-dev_00791
 # text = Elle se rend vite compte que le bateau est habité par des zombis et s'aperçoit également que le ferry a atterri dans une forêt, en réalité sur l'île Yamijima.
 1	Elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	se	se	PRON	_	Person=3|PronType=Prs	3	obj	_	_
+2	se	se	PRON	_	Person=3|PronType=Prs	3	expl	_	_
 3	rend	rendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	vite	vite	ADV	_	_	3	advmod	_	_
 5	compte	compte	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
@@ -25355,7 +25355,7 @@
 3	boites	boîte	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	prestation	prestation	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-6	s'	se	PRON	_	Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+6	s'	se	PRON	_	Person=3|PronType=Prs	7	iobj	_	SpaceAfter=No
 7	inventent	inventer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	passé	passé	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
@@ -28672,7 +28672,7 @@
 24	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
 25	«	«	PUNCT	_	_	27	punct	_	_
 26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	mafia	mafia	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
+27	mafia	mafia	NOUN	_	Gender=Fem|Number=Sing	24	xcomp	_	_
 28	politico-financière	politico-financier	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
 29	»	»	PUNCT	_	_	27	punct	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	11	punct	_	_
@@ -37120,7 +37120,7 @@
 37	pouvoir	pouvoir	AUX	_	VerbForm=Inf	39	aux	_	_
 38	se	se	PRON	_	Person=3|PronType=Prs	39	obj	_	_
 39	dire	dire	VERB	_	VerbForm=Inf	35	acl	_	_
-40	descendant	descendant	NOUN	_	Gender=Masc|Number=Sing	39	obj	_	_
+40	descendant	descendant	NOUN	_	Gender=Masc|Number=Sing	39	xcomp	_	_
 41	de	de	ADP	_	_	42	case	_	_
 42	Cerdic	Cerdic	PROPN	_	_	40	nmod	_	SpaceAfter=No
 43	.	.	PUNCT	_	_	9	punct	_	_
@@ -37970,11 +37970,11 @@
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Climat	Climat	PROPN	_	_	3	nmod	_	_
+6	Climat	climat	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 7	et	et	CCONJ	_	_	10	cc	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
-10	Énergie	Énergie	PROPN	_	_	6	conj	_	_
+10	Énergie	énergie	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
 11	entre	entre	ADP	_	_	12	case	_	_
 12	2009	2009	NUM	_	_	3	obl	_	_
 13	et	et	CCONJ	_	_	14	cc	_	_
@@ -37982,10 +37982,10 @@
 15	,	,	PUNCT	_	_	19	punct	_	_
 16	à	à	ADP	_	_	17	case	_	_
 17	quoi	quoi	PRON	_	_	19	obl	_	_
-18	se	se	PRON	_	Person=3|PronType=Prs	19	obj	_	_
+18	se	se	PRON	_	Person=3|PronType=Prs	19	expl	_	_
 19	rajoute	rajouter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	portefeuille	portefeuille	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+21	portefeuille	portefeuille	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
 22	de	de	ADP	_	_	24	case	_	_
 23	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
 24	Égalité	égalité	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
@@ -39757,7 +39757,7 @@
 12	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	13	nmod:poss	_	_
 13	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
 14	et	et	CCONJ	_	_	17	cc	_	_
-15	s'	se	PRON	_	Person=3|PronType=Prs	17	obj	_	SpaceAfter=No
+15	s'	se	PRON	_	Person=3|PronType=Prs	17	iobj	_	SpaceAfter=No
 16	en	en	PRON	_	Person=3	17	expl	_	_
 17	inventer	inventer	VERB	_	VerbForm=Inf	9	conj	_	_
 18	un	un	PRON	_	Gender=Masc|Number=Sing	17	obj	_	_

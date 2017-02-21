@@ -1377,7 +1377,7 @@
 2	gardien	gardien	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	algérien	algérien	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
-5	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	7	nmod	_	_
 6	aussi	aussi	ADV	_	_	5	advmod	_	_
 7	laissé	laisser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	filer	filer	VERB	_	VerbForm=Inf	7	ccomp	_	_
@@ -9610,7 +9610,7 @@
 6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	préservatifs	préservatif	NOUN	_	Gender=Masc|Number=Plur	10	nsubj:pass	_	_
 8	seraient	être	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	SpaceAfter=No
-9	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	nsubj:pass	_	_
+9	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	expl	_	_
 10	détenus	détenir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 11	par	par	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -15355,7 +15355,7 @@
 14	Bernard	Bernard	PROPN	_	_	9	appos	_	_
 15	Warburton-Lee	Warburton-Lee	PROPN	_	_	14	flat:name	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	20	punct	_	_
-17	s'	se	PRON	_	Person=3|PronType=Prs	20	nsubj	_	SpaceAfter=No
+17	s'	se	PRON	_	Person=3|PronType=Prs	20	expl	_	SpaceAfter=No
 18	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
 19	déjà	déjà	ADV	_	_	20	advmod	_	_
 20	séparé	séparer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -28662,7 +28662,7 @@
 14	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	nationalistes	nationaliste	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
 16	s'	se	PRON	_	Person=3|PronType=Prs	17	expl	_	SpaceAfter=No
-17	unissent	unir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	csubj	_	_
+17	unissent	unir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
 18	pour	pour	ADP	_	_	19	mark	_	_
 19	lutter	lutter	VERB	_	VerbForm=Inf	17	advcl	_	_
 20	contre	contre	ADP	_	_	21	case	_	_
@@ -33566,7 +33566,7 @@
 4	se	se	PRON	_	Person=3|PronType=Prs	5	expl	_	_
 5	produira	produire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	-t	t	PART	_	_	7	expl	_	SpaceAfter=No
-7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
 8	?	?	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_01215
@@ -35845,7 +35845,7 @@
 21	qui	qui	PRON	_	PronType=Rel	22	nsubj	_	_
 22	tiennent	tenir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
 23	tous	tout	DET	_	Gender=Masc|Number=Plur	24	det	_	_
-24	deux	deux	NUM	_	_	22	nsubj	_	_
+24	deux	deux	NUM	_	_	22	nmod	_	_
 25	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
 27	de	de	ADP	_	_	28	case	_	_
@@ -37454,7 +37454,7 @@
 100	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	101	aux	_	_
 101	convaincus	convaincre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 102	certains	certain	DET	_	Gender=Masc|Number=Plur	103	det	_	_
-103	électeurs	électeur	NOUN	_	Gender=Masc|Number=Plur	101	nsubj	_	_
+103	électeurs	électeur	NOUN	_	Gender=Masc|Number=Plur	101	obj	_	_
 104	noirs	noir	ADJ	_	Gender=Masc|Number=Plur	103	amod	_	_
 105	de	de	ADP	_	_	107	mark	_	_
 106	se	se	PRON	_	Person=3|PronType=Prs	107	obj	_	_

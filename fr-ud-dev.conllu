@@ -6288,14 +6288,14 @@
 6	mixage	mixage	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	son	son	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-9	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+9	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 10	Academy	academy	NOUN	_	Gender=Fem|Number=Sing	11	compound	_	_
 11	Award	award	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
 12	for	for	ADP	_	_	15	case	_	_
 13	Best	best	ADJ	_	_	15	amod	_	_
 14	Sound	sound	NOUN	_	Gender=Masc|Number=Sing	15	compound	_	_
-15	Mixing	mixing	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
-16	)	)	PUNCT	_	_	15	punct	_	_
+15	Mixing	mixing	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	11	punct	_	_
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
 18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	récompense	récompense	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -6304,7 +6304,7 @@
 22	décernée	décerner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
 23	chaque	chaque	DET	_	Gender=Fem|Number=Sing	24	det	_	_
 24	année	année	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	19	punct	_	_
+25	,	,	PUNCT	_	_	22	punct	_	_
 26	depuis	depuis	ADP	_	_	27	case	_	_
 27	1930	1930	NUM	_	_	22	obl	_	_
 28	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
@@ -6331,11 +6331,11 @@
 49	and	and	CCONJ	_	_	50	cc	_	_
 50	Sciences	science	NOUN	_	Gender=Fem|Number=Plur	48	conj	_	_
 51	(	(	PUNCT	_	_	52	punct	_	SpaceAfter=No
-52	AMPAS	AMPAS	PROPN	_	_	50	appos	_	SpaceAfter=No
+52	AMPAS	AMPAS	PROPN	_	_	44	appos	_	SpaceAfter=No
 53	)	)	PUNCT	_	_	52	punct	_	SpaceAfter=No
-54	,	,	PUNCT	_	_	50	punct	_	_
+54	,	,	PUNCT	_	_	44	punct	_	_
 55	laquelle	lequel	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	56	nsubj	_	_
-56	décerne	décerner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	acl:relcl	_	_
+56	décerne	décerner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	acl:relcl	_	_
 57	également	également	ADV	_	_	56	advmod	_	_
 58	tous	tout	DET	_	Gender=Masc|Number=Plur	61	det	_	_
 59	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	61	det	_	_
@@ -14241,8 +14241,8 @@
 32	découverte	découverte	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
 33	avec	avec	ADP	_	_	37	case	_	_
 34	son	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	37	nmod:poss	_	SpaceAfter=No
-35	/	/	PUNCT	_	_	34	punct	_	SpaceAfter=No
-36	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	34	nmod:poss	_	_
+35	/	/	PUNCT	_	_	36	punct	_	SpaceAfter=No
+36	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	34	conj	_	_
 37	partenaire	partenaire	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -28541,8 +28541,8 @@
 
 # sent_id = fr-ud-dev_01026
 # text = M. Enzo a d'ailleurs envoyé paître une de mes collègues !
-1	M.	M.	NOUN	_	Gender=Masc|Number=Sing	2	compound	_	_
-2	Enzo	Enzo	PROPN	_	_	6	nsubj	_	_
+1	M.	M.	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+2	Enzo	Enzo	PROPN	_	_	1	flat:name	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 4	d'	de	ADP	_	_	6	advmod	_	SpaceAfter=No
 5	ailleurs	ailleurs	ADV	_	_	4	fixed	_	_
@@ -29319,8 +29319,8 @@
 
 # sent_id = fr-ud-dev_01055
 # text = M. Ping a précisé que l'UA avait entrepris d'organiser des négociations entre le Conseil national de transition à Benghazi et les autorités libyennes à Tripoli "pour qu'un cessez-le-feu immédiat soit instauré".
-1	M.	M.	NOUN	_	Gender=Masc|Number=Sing	2	compound	_	_
-2	Ping	Ping	PROPN	_	_	4	nsubj	_	_
+1	M.	M.	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+2	Ping	Ping	PROPN	_	_	1	flat:name	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	précisé	préciser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	que	que	SCONJ	_	_	9	mark	_	_
@@ -30633,15 +30633,15 @@
 
 # sent_id = fr-ud-dev_01106
 # text = Selon M. Ménard, la nomination de M. Parent sera « bien vue des communautés culturelles », puisqu'il a une sensibilité certaine sur ces questions.
-1	Selon	selon	ADP	_	_	3	case	_	_
-2	M.	M.	NOUN	_	Gender=Masc|Number=Sing	3	compound	_	_
-3	Ménard	Ménard	PROPN	_	_	13	obl	_	SpaceAfter=No
+1	Selon	selon	ADP	_	_	2	case	_	_
+2	M.	M.	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+3	Ménard	Ménard	PROPN	_	_	2	flat:name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	13	punct	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	nomination	nomination	NOUN	_	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
-7	de	de	ADP	_	_	9	case	_	_
-8	M.	M.	NOUN	_	Gender=Masc|Number=Sing	9	compound	_	_
-9	Parent	Parent	PROPN	_	_	6	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	M.	M.	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9	Parent	Parent	PROPN	_	_	8	flat:name	_	_
 10	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	aux:pass	_	_
 11	«	«	PUNCT	_	_	13	punct	_	_
 12	bien	bien	ADV	_	_	13	advmod	_	_
@@ -38984,8 +38984,8 @@
 
 # sent_id = fr-ud-dev_01402
 # text = M. Sleimane doit clôturer mardi ces consultations avant de désigner un nouveau Premier ministre pour remplacer Saad Hariri, dont le gouvernement d'union s'est effondré le 12 janvier avec la démission des ministres du camp du Hezbollah.
-1	M.	M.	NOUN	_	Gender=Masc|Number=Sing	2	compound	_	_
-2	Sleimane	Sleimane	PROPN	_	_	4	nsubj	_	_
+1	M.	M.	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+2	Sleimane	Sleimane	PROPN	_	_	1	flat:name	_	_
 3	doit	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	clôturer	clôturer	VERB	_	VerbForm=Inf	0	root	_	_
 5	mardi	mardi	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_

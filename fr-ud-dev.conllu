@@ -1496,8 +1496,8 @@
 31	,	,	PUNCT	_	_	28	punct	_	_
 32	qui	qui	PRON	_	PronType=Rel	33	nsubj	_	_
 33	restera	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	28	acl:relcl	_	_
-34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-35	peu	peu	ADV	_	_	33	obl	_	_
+34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	advmod	_	_
+35	peu	peu	ADV	_	_	34	fixed	_	_
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	grand-père	grand-père	NOUN	_	Gender=Masc|Number=Sing	33	xcomp	_	_
 38	de	de	ADP	_	_	39	case	_	_
@@ -4965,9 +4965,9 @@
 5	correctes	correct	ADJ	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	propres	propre	ADJ	_	Gender=Fem|Number=Plur	5	conj	_	_
-8	et	et	CCONJ	_	_	14	cc	_	_
+8	et	et	CCONJ	_	_	9	cc	_	_
 9	fonctionnelles	fonctionnel	ADJ	_	Gender=Fem|Number=Plur	5	conj	_	_
-10	bien	bien	ADV	_	_	12	mark	_	_
+10	bien	bien	ADV	_	_	14	mark	_	_
 11	qu'	que	SCONJ	_	_	10	fixed	_	SpaceAfter=No
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	advmod	_	_
 13	peu	peu	ADV	_	_	12	fixed	_	_
@@ -9101,8 +9101,8 @@
 # sent_id = fr-ud-dev_00329
 # text = Encore un peu plus introspectif, Souchon nous rappelle que la société ne lui va toujours pas (Putain ça penche, En collant l'oreille sur l'appareil), et poursuit son questionnement métaphysique (Et si en plus y'a personne).
 1	Encore	encore	ADV	_	_	4	advmod	_	_
-2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	peu	peu	ADV	_	_	4	advmod	_	_
+2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	advmod	_	_
+3	peu	peu	ADV	_	_	2	fixed	_	_
 4	plus	plus	ADV	_	_	5	advmod	_	_
 5	introspectif	introspectif	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
@@ -13181,17 +13181,17 @@
 14	pourtant	pourtant	ADV	_	_	13	advmod	_	_
 15	de	de	ADP	_	_	16	mark	_	_
 16	réaffirmer	réaffirmer	VERB	_	VerbForm=Inf	13	acl	_	_
-17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	peu	peu	ADV	_	_	16	advmod	_	_
+17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	advmod	_	_
+18	peu	peu	ADV	_	_	17	fixed	_	_
 19	ses	son	DET	_	Gender=Fem|Number=Plur|PronType=Prs	20	nmod:poss	_	_
 20	prérogatives	prérogative	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	13	punct	_	_
+21	,	,	PUNCT	_	_	24	punct	_	_
 22	dont	dont	PRON	_	PronType=Rel	24	nmod	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	droit	droit	NOUN	_	Gender=Masc|Number=Sing	20	appos	_	_
 25	de	de	ADP	_	_	26	case	_	_
 26	haute-justice	haute-justice	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	13	punct	_	_
+27	,	,	PUNCT	_	_	24	punct	_	_
 28	en	en	ADP	_	_	29	mark	_	_
 29	dressant	dresser	VERB	_	Tense=Pres|VerbForm=Part	16	advcl	_	_
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
@@ -28041,8 +28041,8 @@
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	qui	qui	PRON	_	_	12	nsubj	_	_
 12	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
-13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	peu	peu	ADV	_	_	12	advmod	_	_
+13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	advmod	_	_
+14	peu	peu	ADV	_	_	13	fixed	_	_
 15	penser	penser	VERB	_	VerbForm=Inf	12	xcomp	_	_
 16	à	à	ADP	_	_	17	case	_	_
 17	Knock	Knock	PROPN	_	_	15	obl	_	SpaceAfter=No
@@ -35246,8 +35246,8 @@
 2	queue	queue	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 4	aussi	aussi	ADV	_	_	8	advmod	_	_
-5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	peu	peu	ADV	_	_	7	advmod	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	advmod	_	_
+6	peu	peu	ADV	_	_	5	fixed	_	_
 7	plus	plus	ADV	_	_	8	advmod	_	_
 8	épaisse	épais	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 9	à	à	ADP	_	_	11	case	_	_

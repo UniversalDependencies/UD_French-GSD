@@ -840,7 +840,7 @@
 # text = Dans l'étape de jeudi (Tourmalet), qui est très dure, il faut s'attendre à de très gros écarts, supérieurs à ceux du contre-la-montre.
 1	Dans	dans	ADP	_	_	3	case	_	_
 2	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
-3	étape	étape	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+3	étape	étape	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	jeudi	jeudi	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
@@ -851,11 +851,11 @@
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 12	très	très	ADV	_	_	13	advmod	_	_
 13	dure	dur	ADJ	_	Gender=Fem|Number=Sing	3	acl:relcl	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	18	punct	_	_
-15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
-16	faut	falloir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	s'	se	PRON	_	Person=3|PronType=Prs	18	obj	_	SpaceAfter=No
-18	attendre	attendre	VERB	_	VerbForm=Inf	0	root	_	_
+18	attendre	attendre	VERB	_	VerbForm=Inf	16	ccomp	_	_
 19	à	à	ADP	_	_	23	case	_	_
 20	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
 21	très	très	ADV	_	_	22	advmod	_	_
@@ -869,7 +869,7 @@
 28	de	de	ADP	_	_	30	case	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	contre-la-montre	contre-la-montre	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	18	punct	_	_
+31	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = fr-ud-dev_00032
 # text = Les cuisinières apparaissent début XIXe siècle avec les gaz manufacturés.
@@ -16187,7 +16187,7 @@
 # sent_id = fr-ud-dev_00580
 # text = Pour favoriser le transport de tous les composés à travers la colonne (élution), il faut déterminer la bonne température du four.
 1	Pour	pour	ADP	_	_	2	mark	_	_
-2	favoriser	favoriser	VERB	_	VerbForm=Inf	19	advcl	_	_
+2	favoriser	favoriser	VERB	_	VerbForm=Inf	18	advcl	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	transport	transport	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
 5	de	de	ADP	_	_	8	case	_	_
@@ -16201,10 +16201,10 @@
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	élution	élution	NOUN	_	Gender=Fem|Number=Sing	4	appos	_	SpaceAfter=No
 15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	19	punct	_	_
-17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
-18	faut	falloir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
-19	déterminer	déterminer	VERB	_	VerbForm=Inf	0	root	_	_
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	déterminer	déterminer	VERB	_	VerbForm=Inf	18	ccomp	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 21	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
 22	température	température	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
@@ -16212,7 +16212,7 @@
 23	de	de	ADP	_	_	25	case	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	four	four	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	19	punct	_	_
+26	.	.	PUNCT	_	_	18	punct	_	_
 
 # sent_id = fr-ud-dev_00581
 # text = On reconnaît facilement Le Bal des sirènes lors de la disparition d'August Gloup, Men in Black pour celle de Violet Beauregard et 2001, l'Odyssée de l'espace de Stanley Kubrick pour celle de Mike Teavee, accompagnée par Ainsi parlait Zarathoustra de Richard Strauss.
@@ -33940,13 +33940,13 @@
 3	tous	tout	PRON	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 4	être	être	AUX	_	VerbForm=Inf	5	cop	_	_
 5	anglo-saxons	anglo-saxon	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	12	punct	_	_
-7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
-8	ne	ne	ADV	_	Polarity=Neg	12	advmod	_	_
-9	faut	falloir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
-10	pas	pas	ADV	_	Polarity=Neg	12	advmod	_	_
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	ne	ne	ADV	_	Polarity=Neg	9	advmod	_	_
+9	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	pas	pas	ADV	_	Polarity=Neg	9	advmod	_	_
 11	s'	se	PRON	_	Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
-12	étonner	étonner	VERB	_	VerbForm=Inf	0	root	_	_
+12	étonner	étonner	VERB	_	VerbForm=Inf	9	ccomp	_	_
 13	que	que	SCONJ	_	_	15	mark	_	_
 14	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	15	nsubj	_	_
 15	soient	être	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
@@ -33954,8 +33954,8 @@
 17	anglo-saxons	anglo-saxon	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	_
 18	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	_
 19	gagnent	gagner	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
-20	»	»	PUNCT	_	_	12	punct	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	12	punct	_	_
+20	»	»	PUNCT	_	_	9	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-dev_01226
 # text = La gare de Casino-Lacroix-Laval est une gare ferroviaire française située sur la commune de La Tour-de-Salvagny, à proximité immédiate du Casino le Lyon Vert, dans le département du Rhône et la région Rhône-Alpes.

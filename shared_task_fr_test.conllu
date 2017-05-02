@@ -3821,9 +3821,9 @@
 
 # sent_id = fr-ud-test_00126
 # text = Il faut savoir que les appareils de la dernière génération exposent la couche supérieure de la main à 40°C et que les couches plus profondes atteindront la température de 60°C, il est donc normal de ressentir un peu de douleur.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	faut	falloir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
-3	savoir	savoir	VERB	_	VerbForm=Inf	0	root	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	savoir	savoir	VERB	_	VerbForm=Inf	2	ccomp	_	_
 4	que	que	SCONJ	_	_	11	mark	_	_
 5	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 6	appareils	appareil	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
@@ -3866,7 +3866,7 @@
 43	peu	peu	PRON	_	_	42	fixed	_	_
 44	de	de	ADP	_	_	42	fixed	_	_
 45	douleur	douleur	NOUN	_	Gender=Fem|Number=Sing	41	obj	_	SpaceAfter=No
-46	.	.	PUNCT	_	_	3	punct	_	_
+46	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-test_00127
 # text = Sean David Morton qui se fait appeler "le prophète de l'Amérique", a levé six millions de dollars en faisant croire aux investisseurs qu'il pouvait prédire l'évolution de la Bourse !
@@ -4344,10 +4344,10 @@
 
 # sent_id = fr-ud-test_00144
 # text = Il faut toutefois noter qu'il est alors de bon ton pour tout homme jouissant d'une aisance financière, de posséder une ou plusieurs maîtresses.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-2	faut	falloir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	toutefois	toutefois	ADV	_	_	4	advmod	_	_
-4	noter	noter	VERB	_	VerbForm=Inf	0	root	_	_
+4	noter	noter	VERB	_	VerbForm=Inf	2	ccomp	_	_
 5	qu'	que	SCONJ	_	_	7	mark	_	SpaceAfter=No
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 7	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
@@ -4370,7 +4370,7 @@
 24	ou	ou	CCONJ	_	_	25	cc	_	_
 25	plusieurs	plusieurs	DET	_	Number=Plur	23	conj	_	_
 26	maîtresses	maîtresse	NOUN	_	Gender=Fem|Number=Plur	22	obj	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	4	punct	_	_
+27	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-test_00145
 # text = Qu'est-ce que 1.000 emplois quand on en détruit et qu'on en créé 20.000 tous les jours en France ?
@@ -4867,9 +4867,9 @@
 
 # sent_id = fr-ud-test_00161
 # text = Faut-il éviter de se rendre dans les pays du sous-continent indien ?
-1	Faut	falloir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	SpaceAfter=No
-2	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-3	éviter	éviter	VERB	_	VerbForm=Inf	0	root	_	_
+1	Faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
+3	éviter	éviter	VERB	_	VerbForm=Inf	1	ccomp	_	_
 4	de	de	ADP	_	_	6	mark	_	_
 5	se	se	PRON	_	Person=3|PronType=Prs	6	obj	_	_
 6	rendre	rendre	VERB	_	VerbForm=Inf	3	acl	_	_
@@ -4881,7 +4881,7 @@
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	sous-continent	sous-continent	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 13	indien	indien	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
-14	?	?	PUNCT	_	_	3	punct	_	_
+14	?	?	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-test_00162
 # text = Celle-ci a également perdu du terrain sur l'euro, l'EUR/GBP prenant 0.27% pour se hisser à 0.8647.

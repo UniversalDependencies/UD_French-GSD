@@ -1569,8 +1569,8 @@
 10	,	,	PUNCT	_	_	7	punct	_	_
 11	dont	dont	PRON	_	PronType=Rel	13	nmod	_	_
 12	douze	douze	NUM	_	_	13	nummod	_	_
-13	membres	membre	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
-14	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	membres	membre	NOUN	_	Gender=Masc|Number=Plur	15	nsubj:pass	_	_
+14	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
 15	reconduits	reconduire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	acl:relcl	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	notamment	notamment	ADV	_	_	19	advmod	_	_
@@ -4063,27 +4063,27 @@
 # sent_id = fr-ud-dev_00148
 # text = Pour elle, « s'attaquer à l'immigration clandestine, c'est aussi s'attaquer à la misère humaine ».
 1	Pour	pour	ADP	_	_	2	case	_	_
-2	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obl	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	16	punct	_	_
-4	«	«	PUNCT	_	_	16	punct	_	_
+2	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	13	punct	_	_
+4	«	«	PUNCT	_	_	13	punct	_	_
 5	s'	se	PRON	_	Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
-6	attaquer	attaquer	VERB	_	VerbForm=Inf	16	csubj	_	_
+6	attaquer	attaquer	VERB	_	VerbForm=Inf	13	csubj	_	_
 7	à	à	ADP	_	_	9	case	_	_
 8	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	immigration	immigration	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
 10	clandestine	clandestin	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	16	punct	_	_
-12	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	16	expl	_	SpaceAfter=No
-13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
-14	aussi	aussi	ADV	_	_	16	advmod	_	_
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	13	expl	_	SpaceAfter=No
+13	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	aussi	aussi	ADV	_	_	13	advmod	_	_
 15	s'	se	PRON	_	Person=3|PronType=Prs	16	obj	_	SpaceAfter=No
-16	attaquer	attaquer	VERB	_	VerbForm=Inf	0	root	_	_
+16	attaquer	attaquer	VERB	_	VerbForm=Inf	13	ccomp	_	_
 17	à	à	ADP	_	_	19	case	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	misère	misère	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
 20	humaine	humain	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
-21	»	»	PUNCT	_	_	16	punct	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	16	punct	_	_
+21	»	»	PUNCT	_	_	13	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = fr-ud-dev_00149
 # text = C'est Au Bonheur du Jour qu'il faut aller : on trouve toujours quelque chose à offrir, pas commun, et qui fera plaisir !
@@ -35660,7 +35660,7 @@
 6	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	7	nmod:poss	_	_
 7	capitaine	capitaine	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
 8	d'	de	ADP	_	_	12	mark	_	SpaceAfter=No
-9	être	être	AUX	_	VerbForm=Inf	12	cop	_	_
+9	être	être	AUX	_	VerbForm=Inf	12	aux	_	_
 10	de	de	ADP	_	_	12	advmod	_	_
 11	nouveau	nouveau	ADJ	_	_	10	fixed	_	_
 12	réintégré	réintégrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_

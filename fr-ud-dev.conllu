@@ -22462,16 +22462,18 @@
 18	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00814
-# text = Le nom de la commune en catalan est.
+# text = Le nom de la commune en catalan est El Voló.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	nom	nom	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+2	nom	nom	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	commune	commune	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	en	en	ADP	_	_	7	case	_	_
 7	catalan	catalan	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-8	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	8	punct	_	_
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	El	El	PROPN	_	_	0	root	_	_
+10	Voló	Voló	PROPN	_	_	9	flat:name	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-dev_00815
 # text = Cette catégorie constitue la quasi-totalité des refugiés.

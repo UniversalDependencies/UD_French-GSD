@@ -7246,12 +7246,12 @@
 # sent_id = fr-ud-dev_00259
 # text = En mai 1955, il souhaita, afin de pouvoir approcher du premier ministre français, Pierre Mendès France, réaliser une interview du romancier et lauréat du prix Nobel François Mauriac, qui était un ami proche du premier ministre.
 1	En	en	ADP	_	_	2	case	_	_
-2	mai	mai	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
+2	mai	mai	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
 3	1955	1955	NUM	_	_	2	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	22	punct	_	_
-5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
-6	souhaita	souhaiter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	22	punct	_	_
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	souhaita	souhaiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
 8	afin	afin	ADV	_	_	11	mark	_	_
 9	de	de	ADP	_	_	8	fixed	_	_
 10	pouvoir	pouvoir	AUX	_	VerbForm=Inf	11	aux	_	_
@@ -7267,7 +7267,7 @@
 19	Mendès	Mendès	PROPN	_	_	18	flat:name	_	_
 20	France	France	PROPN	_	_	18	flat:name	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
-22	réaliser	réaliser	VERB	_	VerbForm=Inf	0	root	_	_
+22	réaliser	réaliser	VERB	_	VerbForm=Inf	6	xcomp	_	_
 23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	interview	interview	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
 25-26	du	_	_	_	_	_	_	_	_
@@ -7294,7 +7294,7 @@
 43	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
 44	premier	premier	ADJ	_	Gender=Masc|Number=Sing	45	amod	_	_
 45	ministre	ministre	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
-46	.	.	PUNCT	_	_	22	punct	_	_
+46	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_00260
 # text = Au-delà, la ligne est simple jusqu'à Auch.

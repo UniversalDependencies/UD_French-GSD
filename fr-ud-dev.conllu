@@ -440,7 +440,7 @@
 20	étape	étape	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 21	typique	typique	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
 22	de	de	ADP	_	_	23	case	_	_
-23	montagne	montagne	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+23	montagne	montagne	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	20	punct	_	_
 
 # sent_id = fr-ud-dev_00018
@@ -18974,9 +18974,9 @@
 12	de	de	ADP	_	_	13	case	_	_
 13	Refuge	Refuge	PROPN	_	_	10	conj	_	_
 14	qui	qui	PRON	_	PronType=Rel	18	nsubj	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	5	punct	_	_
+15	,	,	PUNCT	_	_	16	punct	_	_
 16	probablement	probablement	ADV	_	_	18	advmod	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	5	punct	_	_
+17	,	,	PUNCT	_	_	16	punct	_	_
 18	rendra	rendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	acl:relcl	_	_
 19	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	20	nmod:poss	_	_
 20	verdict	verdict	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
@@ -30172,7 +30172,7 @@
 12	isole	isoler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
 13	14	14	NUM	_	_	14	nummod	_	_
 14	grammes	gramme	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
-15	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+15	de	de	ADP	_	_	17	case	_	_
 16	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 17	élément	élément	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 18	thallium	thallium	NOUN	_	Gender=Masc|Number=Sing	17	appos	_	_

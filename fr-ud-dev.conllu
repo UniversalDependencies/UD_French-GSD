@@ -5376,7 +5376,7 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	remporté	remporter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-5	certain	certain	DET	_	Gender=Masc|Number=Sing	6	det	_	_
+5	certain	certain	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 6	succès	succès	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 7	auprès	auprès	ADV	_	_	10	case	_	_
 8-9	du	_	_	_	_	_	_	_	_
@@ -9856,7 +9856,7 @@
 33	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
 34	bénéficié	bénéficier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	acl:relcl	_	_
 35	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
-36	différents	différent	DET	_	Gender=Masc|Number=Plur	37	det	_	_
+36	différents	différent	ADJ	_	Gender=Masc|Number=Plur	37	amod	_	_
 37	mouvements	mouvement	NOUN	_	Gender=Masc|Number=Plur	34	nsubj	_	_
 38	de	de	ADP	_	_	39	case	_	_
 39	libération	libération	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	_
@@ -13122,7 +13122,7 @@
 5	comparaisons	comparaison	NOUN	_	Gender=Fem|Number=Plur	12	nsubj	_	_
 6	entre	entre	ADP	_	_	9	case	_	_
 7	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
-8	diverses	divers	DET	_	Gender=Fem|Number=Plur	9	det	_	_
+8	diverses	divers	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
 9	LSm	LSm	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
 10	identifiées	identifier	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
 11	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
@@ -13150,7 +13150,7 @@
 33	similaires	similaire	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
 34	dans	dans	ADP	_	_	37	case	_	_
 35	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
-36	différentes	différent	DET	_	Gender=Fem|Number=Plur	37	det	_	_
+36	différentes	différent	ADJ	_	Gender=Fem|Number=Plur	37	amod	_	_
 37	molécules	molécule	NOUN	_	Gender=Fem|Number=Plur	33	obl	_	_
 38	et	et	CCONJ	_	_	39	cc	_	_
 39	séparées	séparer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	33	conj	_	_
@@ -31454,7 +31454,7 @@
 12	solaire	solaire	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 13	et	et	CCONJ	_	_	16	cc	_	_
 14	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
-15	différents	différent	DET	_	Gender=Masc|Number=Plur	16	det	_	_
+15	différents	différent	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
 16	procédés	procédé	NOUN	_	Gender=Masc|Number=Plur	12	conj	_	_
 17	de	de	ADP	_	_	18	case	_	_
 18	dessalement	dessalement	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
@@ -33452,7 +33452,7 @@
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	7	case	_	_
 5	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
-6	différentes	différent	DET	_	Gender=Fem|Number=Plur	7	det	_	_
+6	différentes	différent	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
 7	élections	élection	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
 8	à	à	ADP	_	_	9	case	_	_
 9	Mirabeau	Mirabeau	PROPN	_	_	10	obl	_	_
@@ -36361,7 +36361,7 @@
 2	calvinisme	calvinisme	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	exerça	exercer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-5	certaine	certain	DET	_	Gender=Fem|Number=Sing	6	det	_	_
+5	certaine	certain	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 6	influence	influence	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 7	en	en	ADP	_	_	8	case	_	_
 8	France	France	PROPN	_	_	3	obl	_	SpaceAfter=No

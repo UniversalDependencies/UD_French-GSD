@@ -26403,9 +26403,9 @@
 15	C	C	NOUN	_	Gender=Masc|Number=Sing	14	compound	_	_
 16	et	et	CCONJ	_	_	18	cc	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	maximale	maximale	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
+18	maximale	maximale	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
 19	19	19	NUM	_	_	20	nummod	_	SpaceAfter=No
-20	°	°	SYM	_	_	18	nmod	_	SpaceAfter=No
+20	°	°	SYM	_	_	18	orphan	_	SpaceAfter=No
 21	C	C	NOUN	_	Gender=Masc|Number=Sing	20	compound	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -27777,13 +27777,13 @@
 36	Fundu	Fundu	PROPN	_	_	34	nmod	_	_
 37	Moldovei	Moldovei	PROPN	_	_	36	flat:name	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	39	punct	_	_
-39	judeţ	judeţ	NUM	_	_	34	conj	_	_
+39	judeţ	judeţ	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
 40	de	de	ADP	_	_	41	case	_	_
 41	Suceava	Suceava	PROPN	_	_	39	nmod	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	43	punct	_	_
-43	Bucovine	Bucovine	NUM	_	_	34	conj	_	SpaceAfter=No
+43	Bucovine	Bucovine	PROPN	_	_	34	nmod	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	45	punct	_	_
-45	Roumanie	Roumanie	PROPN	_	_	34	conj	_	SpaceAfter=No
+45	Roumanie	Roumanie	PROPN	_	_	34	nmod	_	SpaceAfter=No
 46	)	)	PUNCT	_	_	45	punct	_	_
 47	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	cop	_	_
 48	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_

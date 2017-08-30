@@ -2198,7 +2198,7 @@
 47	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = fr-ud-dev_00082
-# text = Douarnenez accueillera le spectacle de clôture, pour trois représentations vendredi 28 et samedi 29, à 20 h 30 ;
+# text = Douarnenez accueillera le spectacle de clôture, pour trois représentations vendredi 28 et samedi 29, à 20h30 ;
 1	Douarnenez	Douarnenez	PROPN	_	_	2	nsubj	_	_
 2	accueillera	accueillir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -2216,8 +2216,8 @@
 15	29	29	NUM	_	_	14	nummod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	10	punct	_	_
 17	à	à	ADP	_	_	19	case	_	_
-18	20	20	NUM	_	_	19	nummod	_	_
-19	h	heure	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+18	20	20	NUM	_	_	19	nummod	_	SpaceAfter=No
+19	h	heure	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 20	30	30	NUM	_	_	19	nummod	_	_
 21	;	;	PUNCT	_	_	2	punct	_	_
 

@@ -827,11 +827,11 @@
 6	;	;	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-test_00031
-# text = Il est 20 h 45 en territoire algérien.
+# text = Il est 20h45 en territoire algérien.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-3	20	20	NUM	_	_	4	nummod	_	_
-4	h	heure	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+3	20	20	NUM	_	_	4	nummod	_	SpaceAfter=No
+4	h	heure	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 5	45	45	NUM	_	_	4	nummod	_	_
 6	en	en	ADP	_	_	7	case	_	_
 7	territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
@@ -1355,9 +1355,9 @@
 13	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = fr-ud-test_00054
-# text = 19 h 15.
-1	19	19	NUM	_	_	2	nummod	_	_
-2	h	heure	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+# text = 19h15.
+1	19	19	NUM	_	_	2	nummod	_	SpaceAfter=No
+2	h	heure	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 3	15	15	NUM	_	_	2	nummod	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -4398,18 +4398,18 @@
 22	?	?	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-test_00146
-# text = De 10 h à 12 h et 14 h à 17 h office de tourisme.
+# text = De 10h à 12h et 14h à 17h office de tourisme.
 1	De	de	ADP	_	_	3	case	_	_
-2	10	10	NUM	_	_	3	nummod	_	_
+2	10	10	NUM	_	_	3	nummod	_	SpaceAfter=No
 3	h	heure	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
 4	à	à	ADP	_	_	6	case	_	_
-5	12	12	NUM	_	_	6	nummod	_	_
+5	12	12	NUM	_	_	6	nummod	_	SpaceAfter=No
 6	h	heure	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
 7	et	et	CCONJ	_	_	9	cc	_	_
-8	14	14	NUM	_	_	9	nummod	_	_
+8	14	14	NUM	_	_	9	nummod	_	SpaceAfter=No
 9	h	heure	NOUN	_	Gender=Masc|Number=Plur	3	conj	_	_
 10	à	à	ADP	_	_	12	case	_	_
-11	17	17	NUM	_	_	12	nummod	_	_
+11	17	17	NUM	_	_	12	nummod	_	SpaceAfter=No
 12	h	heure	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
 13	office	office	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 14	de	de	ADP	_	_	15	case	_	_

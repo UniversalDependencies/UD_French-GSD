@@ -17335,8 +17335,8 @@
 # sent_id = fr-ud-dev_00623
 # text = Mis à part les vestiaires qui viennent d'être rénovés, toute la zone aquatique aurait besoin d'un bon rafraichissement, tout comme l'espace principal avec les machines de fitness, clairement 90's avec une peinture bleue saturée qui a fait son temps.
 1	Mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	case	_	_
-2	à	à	ADP	_	_	3	case	_	_
-3	part	part	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+2	à	à	ADP	_	_	1	fixed	_	_
+3	part	part	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
 4	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	vestiaires	vestiaire	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	_
 6	qui	qui	PRON	_	PronType=Rel	7	nsubj	_	_
@@ -29028,11 +29028,11 @@
 14	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
 15	gravis	gravir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
-17	y	y	ADV	_	_	18	advmod	_	_
-18	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+17	y	y	ADV	_	_	21	case	_	_
+18	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	fixed	_	_
 19	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
 20	inquiétantes	inquiétant	ADJ	_	Gender=Fem|Number=Plur	21	amod	_	_
-21	faces	face	NOUN	_	Gender=Fem|Number=Plur	18	obj	_	_
+21	faces	face	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	_
 22	nord	nord	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	15	punct	_	_
 
@@ -30250,10 +30250,10 @@
 29	4	4	NUM	_	_	30	nummod	_	_
 30	autoroutes	autoroute	NOUN	_	Gender=Fem|Number=Plur	27	obl	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	27	punct	_	_
-32	y	y	ADV	_	_	33	advmod	_	_
-33	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	acl	_	_
+32	y	y	ADV	_	_	35	case	_	_
+33	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	fixed	_	_
 34	vers	vers	ADP	_	_	35	case	_	_
-35	Vienne	Vienne	PROPN	_	_	33	obl	_	SpaceAfter=No
+35	Vienne	Vienne	PROPN	_	_	27	obl	_	SpaceAfter=No
 36	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	10	punct	_	_
 

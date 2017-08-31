@@ -25243,10 +25243,10 @@
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	Rhone	Rhone	PROPN	_	_	19	nmod	_	_
 23	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux:pass	_	_
-24	employés	employé	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
+24	employés	employer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	_
 25	par	par	ADP	_	_	27	case	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	Compagnie	Compagnie	PROPN	_	_	24	nmod	_	_
+27	Compagnie	Compagnie	PROPN	_	_	24	obl	_	_
 28	nationale	national	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
 29-30	du	_	_	_	_	_	_	_	_
 29	de	de	ADP	_	_	31	case	_	_
@@ -25264,9 +25264,9 @@
 40	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
 41	Rhin	Rhin	PROPN	_	_	38	nmod	_	_
 42	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	43	aux:pass	_	_
-43	employés	employé	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
+43	employés	employer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	_
 44	par	par	ADP	_	_	45	case	_	_
-45	EDF	EDF	PROPN	_	_	43	nmod	_	SpaceAfter=No
+45	EDF	EDF	PROPN	_	_	43	obl	_	SpaceAfter=No
 46	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_00911

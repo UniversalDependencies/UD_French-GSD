@@ -1818,11 +1818,11 @@
 # text = Elle fonce et c'est cette audace qui est récompensée.
 1	Elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	fonce	foncer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	et	et	CCONJ	_	_	5	cc	_	_
-4	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
-5	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+3	et	et	CCONJ	_	_	7	cc	_	_
+4	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	7	nsubj	_	SpaceAfter=No
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 6	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
-7	audace	audace	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7	audace	audace	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
 8	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	récompensée	récompenser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	SpaceAfter=No
@@ -7284,10 +7284,10 @@
 34	François	François	PROPN	_	_	27	appos	_	_
 35	Mauriac	Mauriac	PROPN	_	_	34	flat:name	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	34	punct	_	_
-37	qui	qui	PRON	_	PronType=Rel	38	nsubj	_	_
-38	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	acl:relcl	_	_
+37	qui	qui	PRON	_	PronType=Rel	40	nsubj	_	_
+38	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	40	cop	_	_
 39	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
-40	ami	ami	NOUN	_	Gender=Masc|Number=Sing	38	obj	_	_
+40	ami	ami	NOUN	_	Gender=Masc|Number=Sing	34	acl:relcl	_	_
 41	proche	proche	ADJ	_	Gender=Masc|Number=Sing	40	amod	_	_
 42-43	du	_	_	_	_	_	_	_	_
 42	de	de	ADP	_	_	45	case	_	_
@@ -9496,25 +9496,25 @@
 # text = Les seules données publiquement accessibles sont ces appels d'offres, les technologies utilisées, et leurs donneurs d'ordre.
 1	Les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	seules	seul	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
-3	données	donnée	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	données	donnée	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
 4	publiquement	publiquement	ADV	_	_	5	advmod	_	_
 5	accessibles	accessible	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
-6	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
-8	appels	appel	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+8	appels	appel	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
 10	offres	offre	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	technologies	technologie	NOUN	_	Gender=Fem|Number=Plur	8	conj	_	_
 14	utilisées	utiliser	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	amod	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	6	punct	_	_
+15	,	,	PUNCT	_	_	8	punct	_	_
 16	et	et	CCONJ	_	_	18	cc	_	_
 17	leurs	son	DET	_	Gender=Masc|Number=Plur|PronType=Prs	18	nmod:poss	_	_
 18	donneurs	donneur	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	_
 19	d'	de	ADP	_	_	20	case	_	SpaceAfter=No
 20	ordre	ordre	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	6	punct	_	_
+21	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-dev_00344
 # text = Les Nouvelles Calédoniennes l'ont interrogé hier et à la question "les indépendantistes demandent l'aide de l'ONU, que pouvez-vous leur apporter ?"
@@ -13432,15 +13432,15 @@
 25	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
 26	pressions	pression	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	23	punct	_	_
-28	alors	alors	ADV	_	_	31	mark	_	_
+28	alors	alors	ADV	_	_	33	mark	_	_
 29	qu'	que	SCONJ	_	_	28	fixed	_	SpaceAfter=No
-30	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	31	nsubj	_	_
-31	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
+30	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	33	nsubj	_	_
+31	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
 32	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
-33	victimes	victime	NOUN	_	Gender=Fem|Number=Plur	31	obj	_	_
+33	victimes	victime	NOUN	_	Gender=Fem|Number=Plur	23	advcl	_	_
 34	d'	de	ADP	_	_	36	case	_	SpaceAfter=No
 35	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	situation	situation	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	_
+36	situation	situation	NOUN	_	Gender=Fem|Number=Sing	33	obl	_	_
 37	injuste	injuste	ADJ	_	Gender=Fem|Number=Sing	36	amod	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	23	punct	_	_
 
@@ -17734,12 +17734,12 @@
 33	de	de	ADP	_	_	35	case	_	_
 34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	mutilation	mutilation	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
-36	que	que	PRON	_	PronType=Rel	37	obj	_	_
-37	serait	être	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	_
+36	que	que	PRON	_	PronType=Rel	35	acl:relcl	_	_
+37	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	_
 38	pour	pour	ADP	_	_	39	case	_	_
-39	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	37	obl	_	_
+39	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	36	obl	_	_
 40	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	SpaceAfter=No
-41	athéisme	athéisme	NOUN	_	Gender=Masc|Number=Sing	37	nsubj	_	SpaceAfter=No
+41	athéisme	athéisme	NOUN	_	Gender=Masc|Number=Sing	36	nsubj	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	29	punct	_	_
 
 # sent_id = fr-ud-dev_00638
@@ -18395,13 +18395,13 @@
 
 # sent_id = fr-ud-dev_00662
 # text = C'était sans doute le premier séjour de Nééra dans la métropole de l'Attique.
-1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
-2	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	7	nsubj	_	SpaceAfter=No
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
 3	sans	sans	ADP	_	_	4	case	_	_
-4	doute	doute	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+4	doute	doute	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	premier	premier	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
-7	séjour	séjour	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+7	séjour	séjour	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	Nééra	Nééra	PROPN	_	_	7	nmod	_	_
 10	dans	dans	ADP	_	_	12	case	_	_
@@ -18410,7 +18410,7 @@
 13	de	de	ADP	_	_	15	case	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 15	Attique	Attique	PROPN	_	_	12	nmod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	2	punct	_	_
+16	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-dev_00663
 # text = En 1986, Alain Passard achète le restaurant de son ancien mentor Alain Senderens L'Archestrate (trois étoiles), et le rebaptise L'Arpège.
@@ -19520,14 +19520,14 @@
 
 # sent_id = fr-ud-dev_00703
 # text = Ce sera sa seule apparition en match.
-1	Ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
-2	sera	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+1	Ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	nsubj	_	_
+2	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	cop	_	_
 3	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	5	nmod:poss	_	_
 4	seule	seul	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
-5	apparition	apparition	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	apparition	apparition	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 6	en	en	ADP	_	_	7	case	_	_
 7	match	match	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	2	punct	_	_
+8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_00704
 # text = Saint-Gérand, Sant-Jelan en breton, est une commune française, située dans le département du Morbihan et la région Bretagne.
@@ -28393,10 +28393,10 @@
 6	bénissant	bénir	VERB	_	Tense=Pres|VerbForm=Part	5	acl	_	_
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	fidèles	fidèle	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
-9	et	et	CCONJ	_	_	10	cc	_	_
-10	serait	être	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	et	et	CCONJ	_	_	12	cc	_	_
+10	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	représentation	représentation	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+12	représentation	représentation	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	Saint	Saint	PROPN	_	_	12	nmod	_	_
 15	Pallais	Pallais	PROPN	_	_	14	flat:name	_	SpaceAfter=No
@@ -28652,21 +28652,21 @@
 # text = Il ajoute que face à la corruption généralisée, il est temps que les nationalistes s'unissent pour lutter contre ce qu'il appelle « une mafia politico-financière ».
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	ajoute	ajouter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	que	que	SCONJ	_	_	11	mark	_	_
+3	que	que	SCONJ	_	_	12	mark	_	_
 4	face	face	NOUN	_	Gender=Fem|Number=Sing	7	case	_	_
 5	à	à	ADP	_	_	4	fixed	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	corruption	corruption	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+7	corruption	corruption	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
 8	généralisée	généralisé	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	11	punct	_	_
-10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
-11	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
-12	temps	temps	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	temps	temps	NOUN	_	Gender=Masc|Number=Sing	2	ccomp	_	_
 13	que	que	SCONJ	_	_	17	mark	_	_
 14	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	nationalistes	nationaliste	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
 16	s'	se	PRON	_	Person=3|PronType=Prs	17	expl	_	SpaceAfter=No
-17	unissent	unir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+17	unissent	unir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
 18	pour	pour	ADP	_	_	19	mark	_	_
 19	lutter	lutter	VERB	_	VerbForm=Inf	17	advcl	_	_
 20	contre	contre	ADP	_	_	21	case	_	_
@@ -28679,7 +28679,7 @@
 27	mafia	mafia	NOUN	_	Gender=Fem|Number=Sing	24	xcomp	_	_
 28	politico-financière	politico-financier	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
 29	»	»	PUNCT	_	_	27	punct	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	11	punct	_	_
+30	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-dev_01031
 # text = La seconde montre le rappeur enfermé dans un petit salon entouré entièrement de verre et situé sur une grande place devant le Renaissance Center, un ensemble de buildings de Détroit.
@@ -33949,11 +33949,11 @@
 10	pas	pas	ADV	_	Polarity=Neg	9	advmod	_	_
 11	s'	se	PRON	_	Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
 12	étonner	étonner	VERB	_	VerbForm=Inf	9	ccomp	_	_
-13	que	que	SCONJ	_	_	15	mark	_	_
-14	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	15	nsubj	_	_
-15	soient	être	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+13	que	que	SCONJ	_	_	17	mark	_	_
+14	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	17	nsubj	_	_
+15	soient	être	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 16	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
-17	anglo-saxons	anglo-saxon	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	_
+17	anglo-saxons	anglo-saxon	NOUN	_	Gender=Masc|Number=Plur	12	ccomp	_	_
 18	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	_
 19	gagnent	gagner	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
 20	»	»	PUNCT	_	_	9	punct	_	SpaceAfter=No
@@ -35959,10 +35959,10 @@
 
 # sent_id = fr-ud-dev_01295
 # text = C'était le texte d'une lettre ouverte adressée au président Sarkozy.
-1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
-2	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	texte	texte	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	texte	texte	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 5	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	lettre	lettre	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
@@ -35973,7 +35973,7 @@
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	président	président	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
 13	Sarkozy	Sarkozy	PROPN	_	_	12	appos	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	2	punct	_	_
+14	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_01296
 # text = Néanmoins, Steven a beaucoup changé depuis qu'il est parti : il est maintenant heureux et populaire.
@@ -38508,10 +38508,10 @@
 2	dénonce	dénoncer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	Robert	Robert	PROPN	_	_	2	obj	_	_
 4	McNamara	McNamara	PROPN	_	_	3	flat:name	_	_
-5	comme	comme	ADP	_	_	6	case	_	_
-6	étant	être	VERB	_	Tense=Pres|VerbForm=Part	2	acl	_	_
+5	comme	comme	ADP	_	_	8	case	_	_
+6	étant	être	AUX	_	Tense=Pres|VerbForm=Part	8	cop	_	_
 7	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
-8	homme	homme	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+8	homme	homme	NOUN	_	Gender=Masc|Number=Sing	2	acl	_	_
 9	qui	qui	PRON	_	PronType=Rel	11	nsubj	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	permis	permettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
@@ -39075,13 +39075,13 @@
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	bourg	bourg	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	16	punct	_	_
-21	qui	qui	PRON	_	PronType=Rel	22	nsubj	_	_
-22	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+21	qui	qui	PRON	_	PronType=Rel	27	nsubj	_	_
+22	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
 23	pour	pour	ADP	_	_	25	case	_	_
 24	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
-25	extérieur	extérieur	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
+25	extérieur	extérieur	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	reproduction	reproduction	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+27	reproduction	reproduction	NOUN	_	Gender=Fem|Number=Sing	8	acl:relcl	_	_
 28	d'	de	ADP	_	_	30	case	_	SpaceAfter=No
 29	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	château	château	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
@@ -39370,22 +39370,22 @@
 2	donc	donc	ADV	_	_	4	advmod	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	que	que	SCONJ	_	_	13	mark	_	_
+5	que	que	SCONJ	_	_	15	mark	_	_
 6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
-7	«	«	PUNCT	_	_	13	punct	_	_
-8	rescapés	rescapé	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
+7	«	«	PUNCT	_	_	15	punct	_	_
+8	rescapés	rescapé	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
 9-10	des	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	camps	camp	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
 12	hitlériens	hitlérien	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
-13	étaient	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
+13	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
 14	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
-15	revenants	revenant	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	13	punct	_	_
+15	revenants	revenant	NOUN	_	Gender=Masc|Number=Plur	4	ccomp	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
 17	dans	dans	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	sens	sens	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+19	sens	sens	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
 20-21	du	_	_	_	_	_	_	_	_
 20	de	de	ADP	_	_	22	case	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
@@ -39393,7 +39393,7 @@
 23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
 24	spectres	spectre	NOUN	_	Gender=Masc|Number=Plur	22	appos	_	SpaceAfter=No
 25	"	"	PUNCT	_	_	24	punct	_	_
-26	»	»	PUNCT	_	_	13	punct	_	_
+26	»	»	PUNCT	_	_	15	punct	_	_
 27	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_01414

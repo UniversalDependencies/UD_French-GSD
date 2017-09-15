@@ -1865,10 +1865,10 @@
 16	reniement	reniement	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
 17	de	de	ADP	_	_	18	case	_	_
 18	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	16	nmod	_	_
-19	que	que	PRON	_	PronType=Rel	22	obj	_	_
-20	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	22	nsubj	_	_
-21	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
-22	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	SpaceAfter=No
+19	que	que	PRON	_	PronType=Rel	18	acl:relcl	_	_
+20	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
+21	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+22	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	cop	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-test_00068
@@ -2376,11 +2376,11 @@
 13	admiration	admiration	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
 14	de	de	ADP	_	_	15	case	_	_
 15	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	13	nmod	_	_
-16	qui	qui	PRON	_	PronType=Rel	18	nsubj	_	_
-17	n'	ne	ADV	_	Polarity=Neg	18	advmod	_	SpaceAfter=No
-18	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
-19	pas	pas	ADV	_	Polarity=Neg	18	advmod	_	_
-20	soi	soi	PRON	_	Number=Sing|Person=3	18	obj	_	SpaceAfter=No
+16	qui	qui	PRON	_	PronType=Rel	20	nsubj	_	_
+17	n'	ne	ADV	_	Polarity=Neg	20	advmod	_	SpaceAfter=No
+18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	pas	pas	ADV	_	Polarity=Neg	20	advmod	_	_
+20	soi	soi	PRON	_	Number=Sing|Person=3	15	acl:relcl	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	céder	céder	VERB	_	VerbForm=Inf	1	conj	_	_
 23	à	à	ADP	_	_	25	case	_	_
@@ -3276,13 +3276,13 @@
 14	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
 15	accueilli	accueillir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	parataxis	_	_
 16	longtemps	longtemps	ADV	_	_	15	advmod	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	19	punct	_	_
-18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
-19	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
-20	temps	temps	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	temps	temps	NOUN	_	Gender=Masc|Number=Sing	15	conj	_	_
 21	de	de	ADP	_	_	23	mark	_	_
 22	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	23	iobj	_	_
-23	rendre	rendre	VERB	_	VerbForm=Inf	19	acl	_	_
+23	rendre	rendre	VERB	_	VerbForm=Inf	20	acl	_	_
 24	nos	son	DET	_	Gender=Masc|Number=Plur|PronType=Prs	25	nmod:poss	_	_
 25	bienfaits	bienfait	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	_
 26	»	»	PUNCT	_	_	15	punct	_	SpaceAfter=No
@@ -5820,9 +5820,9 @@
 17	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
 18	pas	pas	ADV	_	Polarity=Neg	17	advmod	_	_
 19	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	17	expl	_	_
-20	que	que	PRON	_	PronType=Rel	22	obj	_	_
-21	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	22	nsubj	_	SpaceAfter=No
-22	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+20	que	que	PRON	_	PronType=Rel	19	acl:relcl	_	_
+21	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	20	nsubj	_	SpaceAfter=No
+22	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 23	»	»	PUNCT	_	_	5	punct	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	27	punct	_	_
 25	n'	ne	ADV	_	Polarity=Neg	27	advmod	_	SpaceAfter=No
@@ -6437,15 +6437,15 @@
 
 # sent_id = fr-ud-test_00219
 # text = C'est un lieu incontournable, car il permet de sentir la vie d'une famille qui respirait la sainteté.
-1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
-2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 5	incontournable	incontournable	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	2	punct	_	_
+6	,	,	PUNCT	_	_	4	punct	_	_
 7	car	car	CCONJ	_	_	9	cc	_	_
 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
-9	permet	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+9	permet	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 10	de	de	ADP	_	_	11	mark	_	_
 11	sentir	sentir	VERB	_	VerbForm=Inf	9	xcomp	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -6457,7 +6457,7 @@
 18	respirait	respirer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	sainteté	sainteté	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	2	punct	_	_
+21	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-test_00220
 # text = Cà oui, on peut dire que c'était à la fois futuriste et romantique, comme diner avec ma moitié.
@@ -6513,15 +6513,15 @@
 8	du	du	DET	_	Gender=Masc|Number=Sing	9	det	_	_
 9	déplacement	déplacement	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
 10	professionnel	professionnel	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
-11	et	et	CCONJ	_	_	13	cc	_	_
-12	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	13	nsubj	_	SpaceAfter=No
-13	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	et	et	CCONJ	_	_	16	cc	_	_
+12	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	16	nsubj	_	SpaceAfter=No
+13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 15	1ère	1ère	NUM	_	_	16	nummod	_	_
-16	fois	fois	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
+16	fois	fois	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
 17	que	que	SCONJ	_	_	19	mark	_	_
 18	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
-19	tombe	tomber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+19	tombe	tomber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
 20	sur	sur	ADP	_	_	22	case	_	_
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	hôtel	hôtel	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
@@ -10641,17 +10641,17 @@
 31	soutient	soutenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	thèse	thèse	NOUN	_	Gender=Fem|Number=Sing	31	obj	_	_
-34	que	que	SCONJ	_	_	37	mark	_	_
+34	que	que	SCONJ	_	_	44	mark	_	_
 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-36	christianisme	christianisme	NOUN	_	Gender=Masc|Number=Sing	37	nsubj	_	_
-37	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	ccomp	_	_
-38	en	en	ADP	_	_	37	advmod	_	_
+36	christianisme	christianisme	NOUN	_	Gender=Masc|Number=Sing	44	nsubj	_	_
+37	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	44	cop	_	_
+38	en	en	ADP	_	_	44	advmod	_	_
 39	fait	fait	NOUN	_	Gender=Masc|Number=Sing	38	fixed	_	_
 40	à	à	ADP	_	_	42	case	_	_
 41	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	SpaceAfter=No
-42	origine	origine	NOUN	_	Gender=Fem|Number=Sing	37	obl	_	_
+42	origine	origine	NOUN	_	Gender=Fem|Number=Sing	44	obl	_	_
 43	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
-44	mouvement	mouvement	NOUN	_	Gender=Masc|Number=Sing	37	obj	_	_
+44	mouvement	mouvement	NOUN	_	Gender=Masc|Number=Sing	31	ccomp	_	_
 45	similaire	similaire	ADJ	_	Gender=Masc|Number=Sing	44	amod	_	_
 46-47	au	_	_	_	_	_	_	_	_
 46	à	à	ADP	_	_	48	case	_	_
@@ -10662,7 +10662,7 @@
 51	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
 52	christ	christ	PROPN	_	_	54	nsubj	_	_
 53	n'	ne	ADV	_	Polarity=Neg	54	advmod	_	SpaceAfter=No
-54	enseignait	enseigner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	37	conj	_	_
+54	enseignait	enseigner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	44	conj	_	_
 55	rien	rien	PRON	_	Number=Sing	54	obj	_	_
 56	à	à	ADP	_	_	57	case	_	_
 57	propos	propos	NOUN	_	Gender=Masc|Number=Sing	55	nmod	_	_

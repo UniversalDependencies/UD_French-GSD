@@ -4184,14 +4184,14 @@
 
 # sent_id = fr-ud-dev_00153
 # text = Dieu veuille avoir en paix ton âme.
-1	Dieu	Dieu	PROPN	_	_	3	nsubj	_	_
-2	veuille	vouloir	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
-3	avoir	avoir	VERB	_	VerbForm=Inf	0	root	_	_
+1	Dieu	Dieu	PROPN	_	_	2	nsubj	_	_
+2	veuille	vouloir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	avoir	avoir	VERB	_	VerbForm=Inf	2	xcomp	_	_
 4	en	en	ADP	_	_	5	case	_	_
 5	paix	paix	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
 6	ton	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	7	nmod:poss	_	_
 7	âme	âme	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	3	punct	_	_
+8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00154
 # text = Cette dernière occupe une place intermédiaire entre l'apprentissage supervisé (pour laquelle les étiquettes de classes sont connues) et l'apprentissage non-supervisé (où aucune étiquette de classe n'est fournie).
@@ -8981,9 +8981,9 @@
 4	ceux	celui	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	2	obj	_	_
 5	qui	qui	PRON	_	PronType=Rel	6	nsubj	_	_
 6	continuent	continuer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
-7	à	à	ADP	_	_	9	mark	_	_
-8	vouloir	vouloir	AUX	_	VerbForm=Inf	9	aux	_	_
-9	évoquer	évoquer	VERB	_	VerbForm=Inf	6	xcomp	_	_
+7	à	à	ADP	_	_	8	mark	_	_
+8	vouloir	vouloir	VERB	_	VerbForm=Inf	6	xcomp	_	_
+9	évoquer	évoquer	VERB	_	VerbForm=Inf	8	xcomp	_	_
 10	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 11	relations	relation	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
 12	financières	financier	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
@@ -19204,9 +19204,9 @@
 
 # sent_id = fr-ud-dev_00690
 # text = Vous vouliez visiter le Mont Rushmore et vous vous êtes égarés ?...
-1	Vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
-2	vouliez	vouloir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	3	aux	_	_
-3	visiter	visiter	VERB	_	VerbForm=Inf	0	root	_	_
+1	Vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	2	nsubj	_	_
+2	vouliez	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	visiter	visiter	VERB	_	VerbForm=Inf	2	xcomp	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Mont	Mont	PROPN	_	_	3	obj	_	_
 6	Rushmore	Rushmore	PROPN	_	_	5	appos	_	_
@@ -19214,9 +19214,9 @@
 8	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	11	nsubj	_	_
 9	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	11	obj	_	_
 10	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	aux	_	_
-11	égarés	égarer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	_
-12	?	?	PUNCT	_	_	3	punct	_	SpaceAfter=No
-13	...	...	PUNCT	_	_	3	punct	_	_
+11	égarés	égarer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	conj	_	_
+12	?	?	PUNCT	_	_	2	punct	_	SpaceAfter=No
+13	...	...	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00691
 # text = Il reçut une éducation élémentaire à Wansford et à Folkingham dans le Lincolnshire et assista durant plusieurs années ses parents dans la ferme familiale.
@@ -21002,10 +21002,10 @@
 # sent_id = fr-ud-dev_00761
 # text = Les parents veulent s'assurer de trouver des activités que les enfants vont apprécier.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	parents	parent	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
-3	veulent	vouloir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	parents	parent	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	veulent	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	s'	se	PRON	_	Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
-5	assurer	assurer	VERB	_	VerbForm=Inf	0	root	_	_
+5	assurer	assurer	VERB	_	VerbForm=Inf	3	xcomp	_	_
 6	de	de	ADP	_	_	7	mark	_	_
 7	trouver	trouver	VERB	_	VerbForm=Inf	5	xcomp	_	_
 8	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
@@ -21015,7 +21015,7 @@
 12	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	14	nsubj	_	_
 13	vont	aller	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	apprécier	apprécier	VERB	_	VerbForm=Inf	9	acl:relcl	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	5	punct	_	_
+15	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00762
 # text = La ligue algérienne des droits de l'homme a exprimé son indignation suite au refoulement par les autorités marocaine de Kamel JENDOUBI, Président du Réseau Euro-Méditerranéen des droits de l'Homme.
@@ -21213,9 +21213,9 @@
 
 # sent_id = fr-ud-dev_00769
 # text = Obama voulait gagner l'opinion publique des pays qui ont fait leur révolution, comme en Tunisie et en Égypte.
-1	Obama	Obama	PROPN	_	_	3	nsubj	_	_
-2	voulait	vouloir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
-3	gagner	gagner	VERB	_	VerbForm=Inf	0	root	_	_
+1	Obama	Obama	PROPN	_	_	2	nsubj	_	_
+2	voulait	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	gagner	gagner	VERB	_	VerbForm=Inf	2	xcomp	_	_
 4	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	opinion	opinion	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 6	publique	public	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
@@ -21228,14 +21228,14 @@
 12	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
 13	leur	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	14	nmod:poss	_	_
 14	révolution	révolution	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	3	punct	_	_
+15	,	,	PUNCT	_	_	12	punct	_	_
 16	comme	comme	ADV	_	_	18	advmod	_	_
 17	en	en	ADP	_	_	18	case	_	_
 18	Tunisie	Tunisie	PROPN	_	_	12	obl	_	_
 19	et	et	CCONJ	_	_	21	cc	_	_
 20	en	en	ADP	_	_	21	case	_	_
 21	Égypte	Égypte	PROPN	_	_	18	conj	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	3	punct	_	_
+22	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00770
 # text = GNER s'est engagée à moderniser ses HST dans le cadre de sa nouvelle concession pour les porter au même standard Mallard que son parc dIntercity 225 récemment réhabilité.
@@ -21937,10 +21937,10 @@
 # sent_id = fr-ud-dev_00797
 # text = Les autorités marocaines veulent prévenir toute tentation d'établir un parallèle avec l'Egypte et la Tunisie.
 1	Les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
-2	autorités	autorité	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
+2	autorités	autorité	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	marocaines	marocain	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
-4	veulent	vouloir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
-5	prévenir	prévenir	VERB	_	VerbForm=Inf	0	root	_	_
+4	veulent	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	prévenir	prévenir	VERB	_	VerbForm=Inf	4	xcomp	_	_
 6	toute	tout	DET	_	Gender=Fem|Number=Sing	7	det	_	_
 7	tentation	tentation	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 8	d'	de	ADP	_	_	9	mark	_	SpaceAfter=No
@@ -21953,7 +21953,7 @@
 15	et	et	CCONJ	_	_	17	cc	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Tunisie	Tunisie	PROPN	_	_	14	conj	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	5	punct	_	_
+18	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_00798
 # text = C'est un match qui fait partie de leur formation.
@@ -26898,10 +26898,10 @@
 28	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	30	nmod:poss	_	_
 29	propre	propre	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	_
 30	père	père	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
-31	qui	qui	PRON	_	PronType=Rel	34	nsubj	_	_
-32	voulait	vouloir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	aux	_	_
+31	qui	qui	PRON	_	PronType=Rel	32	nsubj	_	_
+32	voulait	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	acl:relcl	_	_
 33	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	obj	_	_
-34	marier	marier	VERB	_	VerbForm=Inf	30	acl:relcl	_	_
+34	marier	marier	VERB	_	VerbForm=Inf	32	xcomp	_	_
 35	contre	contre	ADP	_	_	37	case	_	_
 36	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	37	nmod:poss	_	_
 37	gré	gré	NOUN	_	Gender=Masc|Number=Sing	34	obl	_	SpaceAfter=No
@@ -33938,11 +33938,11 @@
 
 # sent_id = fr-ud-dev_01225
 # text = À vouloir tous être anglo-saxons, il ne faut pas s'étonner que ce soient les anglo-saxons qui gagnent ».
-1	À	à	ADP	_	_	5	case	_	_
-2	vouloir	vouloir	AUX	_	VerbForm=Inf	5	aux	_	_
+1	À	à	ADP	_	_	2	case	_	_
+2	vouloir	vouloir	VERB	_	VerbForm=Inf	9	advcl	_	_
 3	tous	tout	PRON	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 4	être	être	AUX	_	VerbForm=Inf	5	cop	_	_
-5	anglo-saxons	anglo-saxon	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+5	anglo-saxons	anglo-saxon	ADJ	_	Gender=Masc|Number=Plur	2	xcomp	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 8	ne	ne	ADV	_	Polarity=Neg	9	advmod	_	_
@@ -41178,11 +41178,11 @@
 24	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 25	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 26	donc	donc	ADV	_	_	25	advmod	_	_
-27	qu'	que	SCONJ	_	_	31	mark	_	SpaceAfter=No
-28	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
-29	veut	vouloir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+27	qu'	que	SCONJ	_	_	29	mark	_	SpaceAfter=No
+28	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+29	veut	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	ccomp	_	_
 30	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
-31	quitter	quitter	VERB	_	VerbForm=Inf	25	ccomp	_	SpaceAfter=No
+31	quitter	quitter	VERB	_	VerbForm=Inf	29	xcomp	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_01477

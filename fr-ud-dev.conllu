@@ -4972,13 +4972,13 @@
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	advmod	_	_
 13	peu	peu	ADV	_	_	12	fixed	_	_
 14	petites	petit	ADJ	_	Gender=Fem|Number=Plur	5	conj	_	_
-15	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+15	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
 16	mais	mais	CCONJ	_	_	19	cc	_	_
 17	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	19	nsubj	_	SpaceAfter=No
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
 19	Paris	Paris	PROPN	_	_	5	conj	_	_
 20	malheureusement	malheureusement	ADV	_	_	19	advmod	_	SpaceAfter=No
-21	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_00182
@@ -24768,7 +24768,7 @@
 22	de	de	ADP	_	_	23	case	_	_
 23	Led	Led	PROPN	_	_	21	nmod	_	_
 24	Zeppelin	Zeppelin	PROPN	_	_	23	flat:name	_	_
-25	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+25	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
 26	mais	mais	CCONJ	_	_	29	cc	_	_
 27	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
 28	n'	ne	ADV	_	Polarity=Neg	29	advmod	_	SpaceAfter=No
@@ -24795,7 +24795,7 @@
 49	de	de	ADP	_	_	50	case	_	_
 50	John	John	PROPN	_	_	47	nmod	_	_
 51	Zorn	Zorn	PROPN	_	_	50	flat:name	_	SpaceAfter=No
-52	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
+52	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
 53	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-dev_00897
@@ -27825,7 +27825,7 @@
 83	Pétain	Pétain	PROPN	_	_	79	nmod	_	_
 84	roumain	roumain	ADJ	_	Gender=Masc|Number=Sing	83	amod	_	SpaceAfter=No
 85	"	"	PUNCT	_	_	83	punct	_	_
-86	(	(	PUNCT	_	_	83	punct	_	SpaceAfter=No
+86	(	(	PUNCT	_	_	90	punct	_	SpaceAfter=No
 87	comme	comme	ADP	_	_	90	mark	_	_
 88	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	90	nsubj	_	_
 89	se	se	PRON	_	Person=3|PronType=Prs	90	obj	_	_

@@ -17996,7 +17996,7 @@
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Duran	Duran	PROPN	_	_	15	obl	_	_
 23	Duran	Duran	PROPN	_	_	22	flat:name	_	_
-24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+24	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
 25	ainsi	ainsi	ADV	_	_	30	cc	_	_
 26	que	que	SCONJ	_	_	25	fixed	_	_
 27	dans	dans	ADP	_	_	30	case	_	_
@@ -20535,7 +20535,7 @@
 20	comparateur	comparateur	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
 21	de	de	ADP	_	_	22	case	_	_
 22	cotes	cote	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
-23	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	18	punct	_	_
 
 # sent_id = fr-ud-dev_00744
@@ -27784,7 +27784,7 @@
 43	Bucovine	Bucovine	PROPN	_	_	34	nmod	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	45	punct	_	_
 45	Roumanie	Roumanie	PROPN	_	_	34	nmod	_	SpaceAfter=No
-46	)	)	PUNCT	_	_	45	punct	_	_
+46	)	)	PUNCT	_	_	4	punct	_	_
 47	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	cop	_	_
 48	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
 49	avocat	avocat	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -28491,11 +28491,11 @@
 18	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 19	d'	de	ADP	_	_	20	case	_	SpaceAfter=No
 20	armure	armure	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
-21	plus	plus	ADV	_	_	16	advmod	_	_
+21	plus	plus	ADV	_	_	24	advmod	_	_
 22	que	que	ADP	_	_	24	case	_	_
 23	d'	de	ADP	_	_	24	case	_	SpaceAfter=No
-24	habits	habit	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
-25	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	habits	habit	NOUN	_	Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_01024
@@ -31531,7 +31531,7 @@
 16	de	de	ADP	_	_	17	case	_	_
 17	champ	champ	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 18	électrique	électrique	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
-19	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+19	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
 20	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
 21	onde	onde	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
 22	électromagnétique	électromagnétique	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
@@ -33113,7 +33113,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	Falleron	Falleron	PROPN	_	_	5	nsubj	_	_
 5	comptait	compter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+6	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
 7	soit	soit	SCONJ	_	_	9	cc	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	augmentation	augmentation	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
@@ -40518,7 +40518,7 @@
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	Arabie	Arabie	PROPN	_	_	11	appos	_	_
 14	saoudite	saoudite	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
-15	)	)	PUNCT	_	_	11	punct	_	_
+15	)	)	PUNCT	_	_	5	punct	_	_
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	joueur	joueur	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_

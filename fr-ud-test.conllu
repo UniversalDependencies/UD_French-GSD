@@ -2,9 +2,9 @@
 # text = Je sens qu'entre ça et les films de médecins et scientifiques fous que nous avons déjà vus, nous pourrions emprunter un autre chemin pour l'origine.
 1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	sens	sentir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	qu'	que	SCONJ	_	_	22	mark	_	SpaceAfter=No
+3	qu'	que	SCONJ	_	_	21	mark	_	SpaceAfter=No
 4	entre	entre	ADP	_	_	5	case	_	_
-5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	obl	_	_
+5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	21	obl	_	_
 6	et	et	CCONJ	_	_	8	cc	_	_
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	films	film	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
@@ -18,10 +18,10 @@
 16	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
 17	déjà	déjà	ADV	_	_	18	advmod	_	_
 18	vus	voir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl:relcl	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	2	punct	_	_
-20	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	22	nsubj	_	_
-21	pourrions	pouvoir	AUX	_	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
-22	emprunter	emprunter	VERB	_	VerbForm=Inf	2	ccomp	_	_
+19	,	,	PUNCT	_	_	5	punct	_	_
+20	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
+21	pourrions	pouvoir	VERB	_	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+22	emprunter	emprunter	VERB	_	VerbForm=Inf	21	xcomp	_	_
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 24	autre	autre	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
 25	chemin	chemin	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
@@ -32,10 +32,10 @@
 
 # sent_id = fr-ud-test_00002
 # text = On pourra toujours parler à propos d'Averroès de "décentrement du Sujet".
-1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
-2	pourra	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux	_	_
-3	toujours	toujours	ADV	_	_	4	advmod	_	_
-4	parler	parler	VERB	_	VerbForm=Inf	0	root	_	_
+1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	pourra	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	toujours	toujours	ADV	_	_	2	advmod	_	_
+4	parler	parler	VERB	_	VerbForm=Inf	2	xcomp	_	_
 5	à	à	ADP	_	_	8	case	_	_
 6	propos	propos	NOUN	_	Gender=Masc|Number=Sing	5	fixed	_	_
 7	d'	de	ADP	_	_	5	fixed	_	SpaceAfter=No
@@ -48,7 +48,7 @@
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Sujet	sujet	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
 15	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	4	punct	_	_
+16	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-test_00003
 # text = « Il a été largement démontré que la population civile du territoire non autonome du Sahara occidental est l'objet de diverses atteintes aux droits humains, comme la détention arbitraire, les coups et les tortures », écrit l'ONG internationale, implantée dans 35 pays, citée par l'agence de presse sahraouie.
@@ -264,10 +264,10 @@
 5	qui	qui	PRON	_	PronType=Rel	6	nsubj	_	_
 6	croient	croire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
 7	toujours	toujours	ADV	_	_	6	advmod	_	_
-8	qu'	que	SCONJ	_	_	11	mark	_	SpaceAfter=No
-9	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
-10	peuvent	pouvoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
-11	jouir	jouir	VERB	_	VerbForm=Inf	6	ccomp	_	_
+8	qu'	que	SCONJ	_	_	10	mark	_	SpaceAfter=No
+9	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+10	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+11	jouir	jouir	VERB	_	VerbForm=Inf	10	xcomp	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	vie	vie	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
@@ -399,12 +399,12 @@
 8	volonté	volonté	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
 9	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	10	nsubj	_	_
 10	observerez	observer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
-11	que	que	SCONJ	_	_	16	mark	_	_
+11	que	que	SCONJ	_	_	14	mark	_	_
 12	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	13	expl	_	SpaceAfter=No
-13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
-14	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+14	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
 15	être	être	AUX	_	VerbForm=Inf	16	cop	_	_
-16	traditionaliste	traditionaliste	ADJ	_	Gender=Masc|Number=Sing	10	ccomp	_	_
+16	traditionaliste	traditionaliste	ADJ	_	Gender=Masc|Number=Sing	14	xcomp	_	_
 17	ET	et	CCONJ	_	_	18	cc	_	_
 18	intégriste	intégriste	ADJ	_	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	16	punct	_	_
@@ -449,9 +449,9 @@
 
 # sent_id = fr-ud-test_00014
 # text = Pour pouvoir mener à bien sa politique dictatoriale, le régime marocain a besoin de stabilité interne pour affronter les "risques externes" engendrés par le conflit du Sahara Occidental.
-1	Pour	pour	ADP	_	_	3	mark	_	_
-2	pouvoir	pouvoir	AUX	_	VerbForm=Inf	3	aux	_	_
-3	mener	mener	VERB	_	VerbForm=Inf	13	advcl	_	_
+1	Pour	pour	ADP	_	_	2	mark	_	_
+2	pouvoir	pouvoir	VERB	_	VerbForm=Inf	13	advcl	_	_
+3	mener	mener	VERB	_	VerbForm=Inf	2	xcomp	_	_
 4	à	à	ADP	_	_	5	case	_	_
 5	bien	bien	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
 6	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	7	nmod:poss	_	_
@@ -2263,9 +2263,9 @@
 9	loi	loi	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
 10	chez	chez	ADP	_	_	11	case	_	_
 11	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	7	obl	_	_
-12	qui	qui	PRON	_	PronType=Rel	14	nsubj	_	_
-13	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
-14	condamner	condamner	VERB	_	VerbForm=Inf	9	acl:relcl	_	_
+12	qui	qui	PRON	_	PronType=Rel	13	nsubj	_	_
+13	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+14	condamner	condamner	VERB	_	VerbForm=Inf	13	xcomp	_	_
 15	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 16	citoyens	citoyen	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	_
 17	pour	pour	ADP	_	_	19	case	_	_
@@ -3547,14 +3547,14 @@
 # sent_id = fr-ud-test_00119
 # text = Quatre jours plus tard, ceux-ci pourront se retrouver à l'occasion de la finale du 200m (9 août).
 1	Quatre	Quatre	NUM	_	_	2	nummod	_	_
-2	jours	jour	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
+2	jours	jour	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
 3	plus	plus	ADV	_	_	4	advmod	_	_
 4	tard	tard	ADV	_	_	2	advmod	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	9	punct	_	_
-6	ceux-ci	celui-ci	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	_	_
-7	pourront	pouvoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	9	aux	_	_
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	ceux-ci	celui-ci	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	_
+7	pourront	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 8	se	se	PRON	_	Person=3|PronType=Prs	9	obj	_	_
-9	retrouver	retrouver	VERB	_	VerbForm=Inf	0	root	_	_
+9	retrouver	retrouver	VERB	_	VerbForm=Inf	7	xcomp	_	_
 10	à	à	ADP	_	_	12	case	_	_
 11	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
 12	occasion	occasion	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
@@ -3569,7 +3569,7 @@
 20	9	9	NUM	_	_	21	nummod	_	_
 21	août	août	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
 22	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	9	punct	_	_
+23	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-test_00120
 # text = Chaque grande entreprise possède son centre de téléphonistes, ce qui équivaut au Québec à des milliers de centres d'appels.
@@ -3898,10 +3898,10 @@
 25	à	à	ADP	_	_	27	case	_	_
 26	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
 27	investisseurs	investisseur	NOUN	_	Gender=Masc|Number=Plur	24	obl	_	_
-28	qu'	que	SCONJ	_	_	31	mark	_	SpaceAfter=No
-29	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
-30	pouvait	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	aux	_	_
-31	prédire	prédire	VERB	_	VerbForm=Inf	24	ccomp	_	_
+28	qu'	que	SCONJ	_	_	30	mark	_	SpaceAfter=No
+29	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+30	pouvait	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	ccomp	_	_
+31	prédire	prédire	VERB	_	VerbForm=Inf	30	xcomp	_	_
 32	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
 33	évolution	évolution	NOUN	_	Gender=Fem|Number=Sing	31	obj	_	_
 34	de	de	ADP	_	_	36	case	_	_
@@ -4176,12 +4176,12 @@
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	Société	Société	PROPN	_	_	24	obl	_	_
 28	Générale	général	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
-29	,	,	PUNCT	_	_	24	punct	_	_
+29	,	,	PUNCT	_	_	27	punct	_	_
 30	dont	dont	PRON	_	PronType=Rel	32	nmod	_	_
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-32	dégradation	dégradation	NOUN	_	Gender=Fem|Number=Sing	34	nsubj	_	_
-33	pourrait	pouvoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
-34	atteindre	atteindre	VERB	_	VerbForm=Inf	27	acl:relcl	_	_
+32	dégradation	dégradation	NOUN	_	Gender=Fem|Number=Sing	33	nsubj	_	_
+33	pourrait	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+34	atteindre	atteindre	VERB	_	VerbForm=Inf	33	xcomp	_	_
 35	deux	deux	NUM	_	_	36	nummod	_	_
 36	crans	cran	NOUN	_	Gender=Masc|Number=Plur	34	obj	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	24	punct	_	_
@@ -4634,12 +4634,12 @@
 
 # sent_id = fr-ud-test_00154
 # text = Certes la France peut se consoler avec les piètres performances de son voisin italien, une des lanternes noires de l'Europe sur le classement du Wef (74e).
-1	Certes	certes	ADV	_	_	6	advmod	_	_
+1	Certes	certes	ADV	_	_	4	advmod	_	_
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	France	France	PROPN	_	_	6	nsubj	_	_
-4	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	France	France	PROPN	_	_	4	nsubj	_	_
+4	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	se	se	PRON	_	Person=3|PronType=Prs	6	obj	_	_
-6	consoler	consoler	VERB	_	VerbForm=Inf	0	root	_	_
+6	consoler	consoler	VERB	_	VerbForm=Inf	4	xcomp	_	_
 7	avec	avec	ADP	_	_	10	case	_	_
 8	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
 9	piètres	piètre	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
@@ -4668,7 +4668,7 @@
 30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
 31	74e	74e	NUM	_	_	19	appos	_	SpaceAfter=No
 32	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
-33	.	.	PUNCT	_	_	6	punct	_	_
+33	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-test_00155
 # text = La Nouvelle-Zélande a remporté la deuxième Coupe du Monde de rugby de son histoire, 24 ans après son premier sacre en 1987, en battant le XV de France 8 à 7 (mi-temps : 5-0) en finale dimanche à l'Eden Park d'Auckland.
@@ -5114,13 +5114,13 @@
 
 # sent_id = fr-ud-test_00170
 # text = De plus, on pourra aussi trouver une nouveauté avec le Salon du jeu en bois.
-1	De	de	ADP	_	_	7	advmod	_	_
+1	De	de	ADP	_	_	5	advmod	_	_
 2	plus	plus	ADV	_	_	1	fixed	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	7	punct	_	_
-4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
-5	pourra	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	aux	_	_
-6	aussi	aussi	ADV	_	_	7	advmod	_	_
-7	trouver	trouver	VERB	_	VerbForm=Inf	0	root	_	_
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+5	pourra	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	aussi	aussi	ADV	_	_	5	advmod	_	_
+7	trouver	trouver	VERB	_	VerbForm=Inf	5	xcomp	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	nouveauté	nouveauté	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
 10	avec	avec	ADP	_	_	12	case	_	_
@@ -5132,7 +5132,7 @@
 15	jeu	jeu	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 16	en	en	ADP	_	_	17	case	_	_
 17	bois	bois	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	7	punct	_	_
+18	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-test_00171
 # text = À son bord, deux frères de 25 et 23 ans demeurant à Bourg-Argental (Loire).
@@ -6422,9 +6422,9 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	tellement	tellement	ADV	_	_	4	advmod	_	_
 4	rare	rare	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
-5	de	de	ADP	_	_	7	mark	_	_
-6	pouvoir	pouvoir	AUX	_	VerbForm=Inf	7	aux	_	_
-7	dîner	dîner	VERB	_	VerbForm=Inf	4	acl	_	_
+5	de	de	ADP	_	_	6	mark	_	_
+6	pouvoir	pouvoir	VERB	_	VerbForm=Inf	4	acl	_	_
+7	dîner	dîner	VERB	_	VerbForm=Inf	6	xcomp	_	_
 8-9	au	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -6461,12 +6461,12 @@
 
 # sent_id = fr-ud-test_00220
 # text = Cà oui, on peut dire que c'était à la fois futuriste et romantique, comme diner avec ma moitié.
-1	Cà	ça	PRON	_	PronType=Dem	6	expl	_	_
+1	Cà	ça	PRON	_	PronType=Dem	5	expl	_	_
 2	oui	oui	ADV	_	_	1	advmod	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	6	punct	_	_
-4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
-5	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
-6	dire	dire	VERB	_	VerbForm=Inf	0	root	_	_
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+5	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	dire	dire	VERB	_	VerbForm=Inf	5	xcomp	_	_
 7	que	que	SCONJ	_	_	13	mark	_	_
 8	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	13	nsubj	_	SpaceAfter=No
 9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
@@ -6482,15 +6482,15 @@
 19	avec	avec	ADP	_	_	21	case	_	_
 20	ma	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	21	nmod:poss	_	_
 21	moitié	moitié	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	6	punct	_	_
+22	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-test_00221
 # text = Car l'on peut trouver très aisément des préservatifs usagés sur les matelas.
-1	Car	car	CCONJ	_	_	5	cc	_	_
+1	Car	car	CCONJ	_	_	4	cc	_	_
 2	l'	l'	PART	_	_	3	expl	_	SpaceAfter=No
-3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
-4	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
-5	trouver	trouver	VERB	_	VerbForm=Inf	0	root	_	_
+3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	trouver	trouver	VERB	_	VerbForm=Inf	4	xcomp	_	_
 6	très	très	ADV	_	_	7	advmod	_	_
 7	aisément	aisément	ADV	_	_	5	advmod	_	_
 8	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
@@ -6499,7 +6499,7 @@
 11	sur	sur	ADP	_	_	13	case	_	_
 12	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	matelas	matelas	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	5	punct	_	_
+14	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-test_00222
 # text = Cela fait 10 ans que je fais du déplacement professionnel et c'est la 1ère fois que je tombe sur un hôtel aussi pourri.
@@ -6676,9 +6676,9 @@
 5	Paris	Paris	PROPN	_	_	3	nmod	_	_
 6	où	où	PRON	_	PronType=Rel	10	advmod	_	_
 7	l'	l'	PART	_	_	8	expl	_	SpaceAfter=No
-8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
-9	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
-10	trouver	trouver	VERB	_	VerbForm=Inf	3	acl:relcl	_	_
+8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+9	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+10	trouver	trouver	VERB	_	VerbForm=Inf	9	xcomp	_	_
 11	du	du	DET	_	Gender=Masc|Number=Sing	12	det	_	_
 12	mezcal	mezcal	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
 13	et	et	CCONJ	_	_	15	cc	_	_
@@ -7910,11 +7910,11 @@
 2	,	,	PUNCT	_	_	4	punct	_	_
 3	j'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
 4	espère	espérer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	que	que	SCONJ	_	_	9	mark	_	_
+5	que	que	SCONJ	_	_	8	mark	_	_
 6	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
-7	commentaire	commentaire	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
-8	pourra	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	aux	_	_
-9	prouver	prouver	VERB	_	VerbForm=Inf	4	ccomp	_	_
+7	commentaire	commentaire	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+8	pourra	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	ccomp	_	_
+9	prouver	prouver	VERB	_	VerbForm=Inf	8	xcomp	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	advmod	_	_
 11	peu	peu	ADV	_	_	10	fixed	_	_
 12	que	que	SCONJ	_	_	16	mark	_	_
@@ -8818,9 +8818,9 @@
 
 # sent_id = fr-ud-dev_01505
 # text = On peut arriver à Verrès aussi par la route nationale 26 de la Vallée d'Aoste (du col du Petit-Saint-Bernard).
-1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
-2	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
-3	arriver	arriver	VERB	_	VerbForm=Inf	0	root	_	_
+1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	arriver	arriver	VERB	_	VerbForm=Inf	2	xcomp	_	_
 4	à	à	ADP	_	_	5	case	_	_
 5	Verrès	Verrès	PROPN	_	_	3	obl	_	_
 6	aussi	aussi	ADV	_	_	9	advmod	_	_
@@ -8844,7 +8844,7 @@
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	Petit-Saint-Bernard	Petit-Saint-Bernard	PROPN	_	_	20	nmod	_	SpaceAfter=No
 24	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	3	punct	_	_
+25	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_01506
 # text = Si, ce qui est probable, le Premier ministre grec va au bout de sa décision et que ses compatriotes rejettent le plan de sauvetage financier européen, la sortie de leur pays de la zone Euro en sera inéluctable et, par effet induit, l'éclatement de celle-ci.
@@ -9377,12 +9377,12 @@
 
 # sent_id = fr-ud-dev_01525
 # text = Ainsi, bien que TiVo réponde aux clauses de la GPL 2 en redistribuant le code source modifié, aucune modification de ce code source ne peut fonctionner sur le matériel distribué par TiVo.
-1	Ainsi	ainsi	ADV	_	_	29	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	29	punct	_	_
+1	Ainsi	ainsi	ADV	_	_	28	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	28	punct	_	_
 3	bien	bien	ADV	_	_	6	mark	_	_
 4	que	que	SCONJ	_	_	3	fixed	_	_
 5	TiVo	TiVo	PROPN	_	_	6	nsubj	_	_
-6	réponde	répondre	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	_	_
+6	réponde	répondre	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	advcl	_	_
 7-8	aux	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	9	case	_	_
 8	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
@@ -9397,23 +9397,23 @@
 17	code	code	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
 18	source	source	NOUN	_	Gender=Fem|Number=Sing	17	compound	_	_
 19	modifié	modifier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	amod	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	29	punct	_	_
+20	,	,	PUNCT	_	_	28	punct	_	_
 21	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	22	det	_	_
-22	modification	modification	NOUN	_	Gender=Fem|Number=Sing	29	nsubj	_	_
+22	modification	modification	NOUN	_	Gender=Fem|Number=Sing	28	nsubj	_	_
 23	de	de	ADP	_	_	26	case	_	_
 24	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	_
 25	code	code	NOUN	_	Gender=Masc|Number=Sing	26	compound	_	_
 26	source	source	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
-27	ne	ne	ADV	_	Polarity=Neg	29	advmod	_	_
-28	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
-29	fonctionner	fonctionner	VERB	_	VerbForm=Inf	0	root	_	_
+27	ne	ne	ADV	_	Polarity=Neg	28	advmod	_	_
+28	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+29	fonctionner	fonctionner	VERB	_	VerbForm=Inf	28	xcomp	_	_
 30	sur	sur	ADP	_	_	32	case	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	matériel	matériel	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	_
 33	distribué	distribuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	acl	_	_
 34	par	par	ADP	_	_	35	case	_	_
 35	TiVo	TiVo	PROPN	_	_	33	obl	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	29	punct	_	_
+36	.	.	PUNCT	_	_	28	punct	_	_
 
 # sent_id = fr-ud-dev_01526
 # text = En 1784 il fut anobli et s'appela désormais « von Auenbrugg ».

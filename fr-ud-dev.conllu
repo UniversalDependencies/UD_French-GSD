@@ -27739,7 +27739,7 @@
 28	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-dev_01001
-# text = Traian Popovici (né le 17 octobre 1892 dans le village de Ruşii-Mănăstioara, en Bucovine, alors en Autriche-Hongrie, mort le 4 juin 1946, dans le hameau de Colacu, commune de Fundu Moldovei, judeţ de Suceava, Bucovine, Roumanie) est un avocat roumain, compté parmi les Justes pour avoir, pendant la Deuxième Guerre mondiale, sauvé près de juifs roumains de la Shoah roumaine mise en œuvre par le régime du "Pétain roumain" (comme il se qualifiait lui-même) : le maréchal Ion Antonescu.
+# text = Traian Popovici (né le 17 octobre 1892 dans le village de Ruşii-Mănăstioara, en Bucovine, alors en Autriche-Hongrie, mort le 4 juin 1946, dans le hameau de Colacu, commune de Fundu Moldovei, judeţ de Suceava, Bucovine, Roumanie) est un avocat roumain, compté parmi les Justes pour avoir, pendant la Deuxième Guerre mondiale, sauvé près de 20 000 juifs roumains de la Shoah roumaine mise en œuvre par le régime du "Pétain roumain" (comme il se qualifiait lui-même) : le maréchal Ion Antonescu.
 1	Traian	Traian	PROPN	_	_	49	nsubj	_	_
 2	Popovici	Popovici	PROPN	_	_	1	flat:name	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -27807,38 +27807,39 @@
 65	sauvé	sauver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	52	advcl	_	_
 66	près	près	ADV	_	_	68	advmod	_	_
 67	de	de	ADP	_	_	66	fixed	_	_
-68	juifs	juif	NOUN	_	Gender=Masc|Number=Plur	65	obj	_	_
-69	roumains	roumain	ADJ	_	Gender=Masc|Number=Plur	68	amod	_	_
-70	de	de	ADP	_	_	72	case	_	_
-71	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	72	det	_	_
-72	Shoah	Shoah	PROPN	_	_	68	nmod	_	_
-73	roumaine	roumain	ADJ	_	Gender=Fem|Number=Sing	72	amod	_	_
-74	mise	mettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	72	acl	_	_
-75	en	en	ADP	_	_	76	case	_	_
-76	œuvre	œuvre	NOUN	_	Gender=Fem|Number=Sing	74	obl	_	_
-77	par	par	ADP	_	_	79	case	_	_
-78	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	79	det	_	_
-79	régime	régime	NOUN	_	Gender=Masc|Number=Sing	74	obl	_	_
-80-81	du	_	_	_	_	_	_	_	_
-80	de	de	ADP	_	_	83	case	_	_
-81	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	83	det	_	_
-82	"	"	PUNCT	_	_	83	punct	_	SpaceAfter=No
-83	Pétain	Pétain	PROPN	_	_	79	nmod	_	_
-84	roumain	roumain	ADJ	_	Gender=Masc|Number=Sing	83	amod	_	SpaceAfter=No
-85	"	"	PUNCT	_	_	83	punct	_	_
-86	(	(	PUNCT	_	_	90	punct	_	SpaceAfter=No
-87	comme	comme	ADP	_	_	90	mark	_	_
-88	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	90	nsubj	_	_
-89	se	se	PRON	_	Person=3|PronType=Prs	90	obj	_	_
-90	qualifiait	qualifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	83	advcl	_	_
-91	lui-même	lui-même	PRON	_	Gender=Masc|Number=Sing|Person=3|Reflex=Yes	90	obl	_	SpaceAfter=No
-92	)	)	PUNCT	_	_	90	punct	_	_
-93	:	:	PUNCT	_	_	83	punct	_	_
-94	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	95	det	_	_
-95	maréchal	maréchal	NOUN	_	Gender=Masc|Number=Sing	83	appos	_	_
-96	Ion	Ion	PROPN	_	_	95	appos	_	_
-97	Antonescu	Antonescu	PROPN	_	_	96	flat:name	_	SpaceAfter=No
-98	.	.	PUNCT	_	_	49	punct	_	_
+68	20 000	20 000	NUM	_	_	69	det	_	_
+69	juifs	juif	NOUN	_	Gender=Masc|Number=Plur	65	obj	_	_
+70	roumains	roumain	ADJ	_	Gender=Masc|Number=Plur	69	amod	_	_
+71	de	de	ADP	_	_	73	case	_	_
+72	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	73	det	_	_
+73	Shoah	Shoah	PROPN	_	_	69	nmod	_	_
+74	roumaine	roumain	ADJ	_	Gender=Fem|Number=Sing	73	amod	_	_
+75	mise	mettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	73	acl	_	_
+76	en	en	ADP	_	_	77	case	_	_
+77	œuvre	œuvre	NOUN	_	Gender=Fem|Number=Sing	75	obl	_	_
+78	par	par	ADP	_	_	80	case	_	_
+79	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	80	det	_	_
+80	régime	régime	NOUN	_	Gender=Masc|Number=Sing	75	obl	_	_
+81-82	du	_	_	_	_	_	_	_	_
+81	de	de	ADP	_	_	84	case	_	_
+82	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	84	det	_	_
+83	"	"	PUNCT	_	_	84	punct	_	SpaceAfter=No
+84	Pétain	Pétain	PROPN	_	_	80	nmod	_	_
+85	roumain	roumain	ADJ	_	Gender=Masc|Number=Sing	84	amod	_	SpaceAfter=No
+86	"	"	PUNCT	_	_	84	punct	_	_
+87	(	(	PUNCT	_	_	91	punct	_	SpaceAfter=No
+88	comme	comme	ADP	_	_	91	mark	_	_
+89	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	91	nsubj	_	_
+90	se	se	PRON	_	Person=3|PronType=Prs	91	obj	_	_
+91	qualifiait	qualifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	84	advcl	_	_
+92	lui-même	lui-même	PRON	_	Gender=Masc|Number=Sing|Person=3|Reflex=Yes	91	obl	_	SpaceAfter=No
+93	)	)	PUNCT	_	_	91	punct	_	_
+94	:	:	PUNCT	_	_	84	punct	_	_
+95	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	96	det	_	_
+96	maréchal	maréchal	NOUN	_	Gender=Masc|Number=Sing	84	appos	_	_
+97	Ion	Ion	PROPN	_	_	96	appos	_	_
+98	Antonescu	Antonescu	PROPN	_	_	97	flat:name	_	SpaceAfter=No
+99	.	.	PUNCT	_	_	49	punct	_	_
 
 # sent_id = fr-ud-dev_01002
 # text = Cet hôpital s'est finalement transformé en ce que nous considérons maintenant comme un hôpital, avec des moines et des auxiliaires laïcs prodiguant des soins médicaux aux malades et aux pèlerins victimes des nombreuses épidémies et maladies chroniques qui ont frappé l'Europe occidentale au Moyen Âge.

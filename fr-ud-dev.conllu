@@ -2655,18 +2655,18 @@
 5	révolte	révolte	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 7	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
-8	et	et	CCONJ	_	_	19	cc	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	19	punct	_	_
+8	et	et	CCONJ	_	_	17	cc	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	17	punct	_	_
 10	au-delà	au-delà	ADV	_	_	13	case	_	_
 11	de	de	ADP	_	_	10	fixed	_	_
 12	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	13	nmod:poss	_	_
-13	caractère	caractère	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
+13	caractère	caractère	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
 14	circonstanciel	circonstanciel	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	19	punct	_	_
-16	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj:pass	_	_
-17	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 18	être	être	AUX	_	VerbForm=Inf	19	aux:pass	_	_
-19	rattachée	rattacher	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+19	rattachée	rattacher	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	xcomp	_	_
 20	à	à	ADP	_	_	21	case	_	_
 21	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
 22-23	des	_	_	_	_	_	_	_	_
@@ -3052,16 +3052,16 @@
 # sent_id = fr-ud-dev_00108
 # text = Les nomades et les Tchadiens de l'étranger ont pu voter du 3 au 6 juin.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	nomades	nomade	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
+2	nomades	nomade	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
 3	et	et	CCONJ	_	_	5	cc	_	_
 4	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	Tchadiens	tchadien	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	étranger	étranger	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
-9	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
-10	pu	pouvoir	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux	_	_
-11	voter	voter	VERB	_	VerbForm=Inf	0	root	_	_
+9	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	voter	voter	VERB	_	VerbForm=Inf	10	xcomp	_	_
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -3071,7 +3071,7 @@
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 17	6	6	NUM	_	_	18	nummod	_	_
 18	juin	juin	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	11	punct	_	_
+19	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-dev_00109
 # text = Entremont représente 6 000 producteurs, et, avec Sodiaal, la nouvelle entité représenterait 13 500 producteurs de lait et 20% de la production française.
@@ -3219,9 +3219,9 @@
 # sent_id = fr-ud-dev_00116
 # text = La réaction peut avoir lieu en présence de gaz chlorés tels le chlorure d'hydrogène, le tétrachlorure de carbone, le chlorure de soufre ou le phosgène.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	réaction	réaction	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
-3	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
-4	avoir	avoir	VERB	_	VerbForm=Inf	0	root	_	_
+2	réaction	réaction	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	avoir	avoir	VERB	_	VerbForm=Inf	3	xcomp	_	_
 5	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
 6	en	en	ADP	_	_	7	case	_	_
 7	présence	présence	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
@@ -3246,7 +3246,7 @@
 26	ou	ou	CCONJ	_	_	28	cc	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	phosgène	phosgène	NOUN	_	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	4	punct	_	_
+29	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00117
 # text = La commune de Bisoro est une des rares communes où la cohabitation ente les Hutu et les Tutsi est exemplaire.
@@ -5470,9 +5470,9 @@
 26	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
 27	répercussions	répercussion	NOUN	_	Gender=Fem|Number=Plur	24	obl	_	_
 28	qu'	que	PRON	_	PronType=Rel	31	obj	_	SpaceAfter=No
-29	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
-30	pourrait	pouvoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
-31	avoir	avoir	VERB	_	VerbForm=Inf	27	acl:relcl	_	_
+29	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+30	pourrait	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+31	avoir	avoir	VERB	_	VerbForm=Inf	30	xcomp	_	_
 32	sur	sur	ADP	_	_	34	case	_	_
 33	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
 34	économie	économie	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	_
@@ -6009,7 +6009,7 @@
 # sent_id = fr-ud-dev_00219
 # text = En raison de la puissance du VLT, UVES peut être utilisé dans tous les domaines de l'astrophysique, allant de l'étude des corps du système solaire, à la caractérisation des quasars les plus lointains.
 1	En	en	ADP	_	_	2	case	_	_
-2	raison	raison	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+2	raison	raison	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	puissance	puissance	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
@@ -6018,10 +6018,10 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	VLT	VLT	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	2	punct	_	_
-10	UVES	UVES	NOUN	_	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
-11	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+10	UVES	UVES	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+11	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	être	être	AUX	_	VerbForm=Inf	13	aux:pass	_	_
-13	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	xcomp	_	_
 14	dans	dans	ADP	_	_	17	case	_	_
 15	tous	tout	DET	_	Gender=Masc|Number=Plur	17	det	_	_
 16	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
@@ -6054,7 +6054,7 @@
 40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	42	det	_	_
 41	plus	plus	ADV	_	_	42	advmod	_	_
 42	lointains	lointain	ADJ	_	Gender=Masc|Number=Plur	39	amod	_	SpaceAfter=No
-43	.	.	PUNCT	_	_	13	punct	_	_
+43	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = fr-ud-dev_00220
 # text = Velasco quitte Mexico le 10 juin et l'archevêque Guerra se retire de la mère à Tacubaya pour y attendre la nouvelle de son embarquement à Veracruz.
@@ -7253,10 +7253,10 @@
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	souhaita	souhaiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	afin	afin	ADV	_	_	11	mark	_	_
+8	afin	afin	ADV	_	_	10	mark	_	_
 9	de	de	ADP	_	_	8	fixed	_	_
-10	pouvoir	pouvoir	AUX	_	VerbForm=Inf	11	aux	_	_
-11	approcher	approcher	VERB	_	VerbForm=Inf	22	advcl	_	_
+10	pouvoir	pouvoir	VERB	_	VerbForm=Inf	22	advcl	_	_
+11	approcher	approcher	VERB	_	VerbForm=Inf	10	xcomp	_	_
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	15	case	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -8145,9 +8145,9 @@
 29	collection	collection	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 30	de	de	ADP	_	_	31	case	_	_
 31	scripts	script	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	_
-32	pouvant	pouvoir	AUX	_	Tense=Pres|VerbForm=Part	34	aux	_	_
+32	pouvant	pouvoir	VERB	_	Tense=Pres|VerbForm=Part	31	acl	_	_
 33	être	être	AUX	_	VerbForm=Inf	34	aux:pass	_	_
-34	utilisés	utiliser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	31	acl	_	_
+34	utilisés	utiliser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	32	xcomp	_	_
 35	afin	afin	ADV	_	_	37	mark	_	_
 36	d'	de	ADP	_	_	35	fixed	_	SpaceAfter=No
 37	effectuer	effectuer	VERB	_	VerbForm=Inf	34	advcl	_	_
@@ -8252,9 +8252,9 @@
 # sent_id = fr-ud-dev_00293
 # text = L'entretien individuel, qui donnera lieu à un compte rendu, pourra par ailleurs contribuer à booster les carrières.
 1	L'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	entretien	entretien	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+2	entretien	entretien	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
 3	individuel	individuel	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	16	punct	_	_
+4	,	,	PUNCT	_	_	13	punct	_	_
 5	qui	qui	PRON	_	PronType=Rel	6	nsubj	_	_
 6	donnera	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	acl:relcl	_	_
 7	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
@@ -8262,16 +8262,16 @@
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	compte	compte	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
 11	rendu	rendu	NOUN	_	Gender=Masc|Number=Sing	10	fixed	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	16	punct	_	_
-13	pourra	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	aux	_	_
-14	par	par	ADP	_	_	16	advmod	_	_
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	pourra	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+14	par	par	ADP	_	_	13	advmod	_	_
 15	ailleurs	ailleurs	ADV	_	_	14	fixed	_	_
-16	contribuer	contribuer	VERB	_	VerbForm=Inf	0	root	_	_
+16	contribuer	contribuer	VERB	_	VerbForm=Inf	13	xcomp	_	_
 17	à	à	ADP	_	_	18	mark	_	_
 18	booster	booster	VERB	_	VerbForm=Inf	16	xcomp	_	_
 19	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
 20	carrières	carrière	NOUN	_	Gender=Fem|Number=Plur	18	obj	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	16	punct	_	_
+21	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = fr-ud-dev_00294
 # text = En effet, l'oxygène favorise la croissance des micro-organismes, ceux-ci sont la cause des changements de couleur et des odeurs de rance dans la nourriture emballée.
@@ -9530,7 +9530,7 @@
 9	à	à	ADP	_	_	11	case	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	question	question	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
-12	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
 13	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
 14	indépendantistes	indépendantiste	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
 15	demandent	demander	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	parataxis	_	_
@@ -9541,12 +9541,12 @@
 20	ONU	ONU	PROPN	_	_	17	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	15	punct	_	_
 22	que	que	PRON	_	_	26	obj	_	_
-23	pouvez	pouvoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	26	aux	_	SpaceAfter=No
-24	-vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	26	nsubj	_	_
+23	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	ccomp	_	SpaceAfter=No
+24	-vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	23	nsubj	_	_
 25	leur	lui	PRON	_	Number=Plur|Person=3|PronType=Prs	26	iobj	_	_
-26	apporter	apporter	VERB	_	VerbForm=Inf	11	ccomp	_	_
-27	?	?	PUNCT	_	_	26	punct	_	SpaceAfter=No
-28	"	"	PUNCT	_	_	26	punct	_	_
+26	apporter	apporter	VERB	_	VerbForm=Inf	23	xcomp	_	_
+27	?	?	PUNCT	_	_	23	punct	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	23	punct	_	_
 
 # sent_id = fr-ud-dev_00345
 # text = Le groupe de travail correspondant à l'IETF a permis la création des RFC 2246 pour le TLS et RFC 4347 pour son équivalent en mode datagramme, le DTLS.
@@ -9588,10 +9588,10 @@
 # text = A cela nous ne pouvons répondre qu'une chose : encourageons les manifestations !
 1	A	à	ADP	_	_	2	case	_	_
 2	cela	cela	PRON	_	Number=Sing|PronType=Dem	6	obl	_	_
-3	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
-4	ne	ne	ADV	_	Polarity=Neg	6	advmod	_	_
-5	pouvons	pouvoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
-6	répondre	répondre	VERB	_	VerbForm=Inf	0	root	_	_
+3	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+4	ne	ne	ADV	_	Polarity=Neg	5	advmod	_	_
+5	pouvons	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	répondre	répondre	VERB	_	VerbForm=Inf	5	xcomp	_	_
 7	qu'	que	SCONJ	_	_	6	expl	_	SpaceAfter=No
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	chose	chose	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
@@ -9599,7 +9599,7 @@
 11	encourageons	encourager	VERB	_	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
 12	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	manifestations	manifestation	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
-14	!	!	PUNCT	_	_	6	punct	_	_
+14	!	!	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_00347
 # text = Pourquoi, d'ailleurs, les préservatifs seraient-ils détenus par la femme, alors qu'ils concernent l'homme ?
@@ -10724,12 +10724,12 @@
 # text = Dans ce mode, le joueur peut alterner en tout temps entre X et Zero.
 1	Dans	dans	ADP	_	_	3	case	_	_
 2	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
-3	mode	mode	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+3	mode	mode	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	joueur	joueur	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
-7	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
-8	alterner	alterner	VERB	_	VerbForm=Inf	0	root	_	_
+6	joueur	joueur	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	alterner	alterner	VERB	_	VerbForm=Inf	7	xcomp	_	_
 9	en	en	ADP	_	_	11	case	_	_
 10	tout	tout	DET	_	Gender=Masc|Number=Sing	11	det	_	_
 11	temps	temps	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
@@ -10737,7 +10737,7 @@
 13	X	X	NUM	_	_	8	obl	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	Zero	Zero	NUM	_	_	13	conj	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	8	punct	_	_
+16	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-dev_00389
 # text = Son projet éducatif prône la "continuité éducative" c'est-à-dire la prise en compte de l'élève sur la totalité de sa scolarité et pas seulement en fonction de l'établissement où il se trouve.
@@ -12467,11 +12467,11 @@
 5	pas	pas	ADV	_	Polarity=Neg	7	advmod	_	_
 6	ma	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	7	nmod:poss	_	_
 7	surprise	surprise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-8	lorsque	lorsque	SCONJ	_	_	12	mark	_	_
-9	j'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	SpaceAfter=No
-10	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
-11	pu	pouvoir	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	aux	_	_
-12	récupérer	récupérer	VERB	_	VerbForm=Inf	7	advcl	_	_
+8	lorsque	lorsque	SCONJ	_	_	11	mark	_	_
+9	j'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
+10	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+12	récupérer	récupérer	VERB	_	VerbForm=Inf	11	xcomp	_	_
 13	celle	celui	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	12	obj	_	_
 14	ci	ci	PART	_	_	13	goeswith	_	_
 15	dans	dans	ADP	_	_	17	case	_	_
@@ -12580,10 +12580,10 @@
 14	capitale	capitale	NOUN	_	Gender=Fem|Number=Sing	11	appos	_	_
 15	russe	russe	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	11	punct	_	_
-17	où	où	PRON	_	PronType=Rel	20	obl	_	_
-18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
-19	pourrait	pouvoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
-20	persuader	persuader	VERB	_	VerbForm=Inf	11	acl:relcl	_	_
+17	où	où	PRON	_	PronType=Rel	19	obl	_	_
+18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	pourrait	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+20	persuader	persuader	VERB	_	VerbForm=Inf	19	xcomp	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 22	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
 23	gouvernement	gouvernement	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
@@ -13365,10 +13365,10 @@
 
 # sent_id = fr-ud-dev_00482
 # text = Il peut s'agir d'un vestige de l'église Notre-Dame-du-Val.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-2	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
-4	agir	agir	VERB	_	VerbForm=Inf	0	root	_	_
+4	agir	agir	VERB	_	VerbForm=Inf	2	xcomp	_	_
 5	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	vestige	vestige	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
@@ -13376,7 +13376,7 @@
 9	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	église	église	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 11	Notre-Dame-du-Val	Notre-Dame-du-Val	PROPN	_	_	10	appos	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	4	punct	_	_
+12	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00483
 # text = Après son indépendance, le pays a conservé une vie culturelle active, surtout marquée par des festivals folkloriques et contemporains.
@@ -13849,13 +13849,13 @@
 16	pour	pour	ADP	_	_	18	mark	_	_
 17	être	être	AUX	_	VerbForm=Inf	18	cop	_	_
 18	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	10	advcl	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	25	punct	_	_
+19	,	,	PUNCT	_	_	23	punct	_	_
 20	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
-21	algorithme	algorithme	NOUN	_	Gender=Masc|Number=Sing	25	nsubj:pass	_	_
-22	doit	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
-23	pouvoir	pouvoir	AUX	_	VerbForm=Inf	25	aux	_	_
+21	algorithme	algorithme	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
+22	doit	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	pouvoir	pouvoir	VERB	_	VerbForm=Inf	18	ccomp	_	_
 24	être	être	AUX	_	VerbForm=Inf	25	aux:pass	_	_
-25	divulgué	divulguer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	ccomp	_	SpaceAfter=No
+25	divulgué	divulguer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	xcomp	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-dev_00500
@@ -15272,10 +15272,10 @@
 
 # sent_id = fr-ud-dev_00547
 # text = Il peut s'agir de Koláčky (petites tartes) ou encore de ovocné knedliky (quenelles aux fruits).
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-2	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
-4	agir	agir	VERB	_	VerbForm=Inf	0	root	_	_
+4	agir	agir	VERB	_	VerbForm=Inf	2	xcomp	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	Koláčky	Koláčky	PROPN	_	_	4	obl	_	_
 7	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
@@ -15294,7 +15294,7 @@
 19	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
 20	fruits	fruit	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
 21	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	4	punct	_	_
+22	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00548
 # text = Le conflit dure un jour et Goshou perd la vie.
@@ -15820,13 +15820,13 @@
 # sent_id = fr-ud-dev_00566
 # text = En revanche, elle ne peut pas accéder aux systèmes d'Alice et de Bob, qui sont supposés physiquement sécurisés.
 1	En	en	ADP	_	_	2	case	_	_
-2	revanche	revanche	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	8	punct	_	_
-4	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
-5	ne	ne	ADV	_	Polarity=Neg	8	advmod	_	_
-6	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
-7	pas	pas	ADV	_	Polarity=Neg	8	advmod	_	_
-8	accéder	accéder	VERB	_	VerbForm=Inf	0	root	_	_
+2	revanche	revanche	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	ne	ne	ADV	_	Polarity=Neg	6	advmod	_	_
+6	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	_
+8	accéder	accéder	VERB	_	VerbForm=Inf	6	xcomp	_	_
 9-10	aux	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	11	case	_	_
 10	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
@@ -15842,7 +15842,7 @@
 20	supposés	supposer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
 21	physiquement	physiquement	ADV	_	_	22	advmod	_	_
 22	sécurisés	sécuriser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	acl	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	8	punct	_	_
+23	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_00567
 # text = Enfin, Jean Sarocchi, professeur émérite de littérature française à l'université de Toulouse II, a montré dans "Bêtement avec les bêtes", que Maurice Genevoix a été un lointain disciple de Saint-François d'Assise.
@@ -16864,11 +16864,11 @@
 # sent_id = fr-ud-dev_00605
 # text = L'investissement peut alors se faire en masse sur un grand nombre de valeurs (effet grégaire).
 1	L'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	investissement	investissement	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
-3	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
-4	alors	alors	ADV	_	_	6	advmod	_	_
+2	investissement	investissement	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	alors	alors	ADV	_	_	3	advmod	_	_
 5	se	se	PRON	_	Person=3|PronType=Prs	6	obj	_	_
-6	faire	faire	VERB	_	VerbForm=Inf	0	root	_	_
+6	faire	faire	VERB	_	VerbForm=Inf	3	xcomp	_	_
 7	en	en	ADP	_	_	8	case	_	_
 8	masse	masse	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
 9	sur	sur	ADP	_	_	12	case	_	_
@@ -16881,7 +16881,7 @@
 16	effet	effet	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
 17	grégaire	grégaire	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
 18	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	6	punct	_	_
+19	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00606
 # text = En raison de la surpopulation et le manque d'hygiène publique, il y avait encore les épidémies de choléra en 1832 et dans l'hiver de 1848-1849, qui firent qu'entre 1863 et 1879 on dut voûter cette rivière.
@@ -17195,12 +17195,12 @@
 28	tous	tout	DET	_	Gender=Masc|Number=Plur	29	det	_	_
 29	ceux	celui	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	26	nmod	_	_
 30	que	que	PRON	_	PronType=Rel	36	obj	_	_
-31	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	36	nsubj	_	_
-32	n'	ne	ADV	_	Polarity=Neg	36	advmod	_	SpaceAfter=No
-33	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	36	aux	_	_
-34	pas	pas	ADV	_	Polarity=Neg	36	advmod	_	_
-35	pu	pouvoir	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	aux	_	_
-36	sauver	sauver	VERB	_	VerbForm=Inf	29	acl:relcl	_	SpaceAfter=No
+31	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	35	nsubj	_	_
+32	n'	ne	ADV	_	Polarity=Neg	35	advmod	_	SpaceAfter=No
+33	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	35	aux	_	_
+34	pas	pas	ADV	_	Polarity=Neg	35	advmod	_	_
+35	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	acl:relcl	_	_
+36	sauver	sauver	VERB	_	VerbForm=Inf	35	xcomp	_	SpaceAfter=No
 37	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -17474,10 +17474,10 @@
 # sent_id = fr-ud-dev_00628
 # text = Les internautes peuvent aussi voter pour les prix Croûte & Chef d'Œuvre.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	internautes	internaute	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
-3	peuvent	pouvoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
-4	aussi	aussi	ADV	_	_	5	advmod	_	_
-5	voter	voter	VERB	_	VerbForm=Inf	0	root	_	_
+2	internautes	internaute	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	aussi	aussi	ADV	_	_	3	advmod	_	_
+5	voter	voter	VERB	_	VerbForm=Inf	3	xcomp	_	_
 6	pour	pour	ADP	_	_	8	case	_	_
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	prix	prix	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
@@ -17486,7 +17486,7 @@
 11	Chef	Chef	PROPN	_	_	9	conj	_	_
 12	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
 13	Œuvre	Œuvre	PROPN	_	_	11	nmod	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	5	punct	_	_
+14	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00629
 # text = Cette expérience montre qu'il n'existe apparemment pas d'informations innées relatives aux caractéristiques spécifiques des congénères chez les capridés, et, vraisemblablement, chez les autres mammifères.
@@ -18695,9 +18695,9 @@
 
 # sent_id = fr-ud-dev_00673
 # text = Il peut mesurer jusqu'à 2m de diamètre voir plus.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
-3	mesurer	mesurer	VERB	_	VerbForm=Inf	0	root	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mesurer	mesurer	VERB	_	VerbForm=Inf	2	xcomp	_	_
 4	jusqu'	jusque	ADP	_	_	7	case	_	SpaceAfter=No
 5	à	à	ADP	_	_	7	case	_	_
 6	2	2	NUM	_	_	7	nummod	_	SpaceAfter=No
@@ -18706,7 +18706,7 @@
 9	diamètre	diamètre	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 10	voir	voire	SCONJ	_	_	11	cc	_	_
 11	plus	plus	ADV	_	_	7	conj	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	3	punct	_	_
+12	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00674
 # text = Feuillage vert foncées et aiguilles regroupées par trois (Le Pin à encens--Pinus Taeda--origine Sud Est USA, possède lui aussi des aiguilles regroupées par trois), les cônes sont tous orientés vers le tronc et peuvent rester 20 ans accrochées au tronc avant de tomber.
@@ -18750,9 +18750,9 @@
 38	vers	vers	ADP	_	_	40	case	_	_
 39	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
 40	tronc	tronc	NOUN	_	Gender=Masc|Number=Sing	37	obl	_	_
-41	et	et	CCONJ	_	_	43	cc	_	_
-42	peuvent	pouvoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	_
-43	rester	rester	VERB	_	VerbForm=Inf	37	conj	_	_
+41	et	et	CCONJ	_	_	42	cc	_	_
+42	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	conj	_	_
+43	rester	rester	VERB	_	VerbForm=Inf	42	xcomp	_	_
 44	20	20	NUM	_	_	45	nummod	_	_
 45	ans	an	NOUN	_	Gender=Masc|Number=Plur	43	obl	_	_
 46	accrochées	accrocher	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	43	xcomp	_	_
@@ -19603,15 +19603,15 @@
 # sent_id = fr-ud-dev_00707
 # text = Les médecins purent bientôt le déclarer hors de danger, et même les plus hostiles au staretz durent convenir qu'il s'était produit là un événement quasi miraculeux de guérison à distance.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	médecins	médecin	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
-3	purent	pouvoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
-4	bientôt	bientôt	ADV	_	_	6	advmod	_	_
+2	médecins	médecin	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	purent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	bientôt	bientôt	ADV	_	_	3	advmod	_	_
 5	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
-6	déclarer	déclarer	VERB	_	VerbForm=Inf	0	root	_	_
+6	déclarer	déclarer	VERB	_	VerbForm=Inf	3	xcomp	_	_
 7	hors	hors	ADP	_	_	9	case	_	_
 8	de	de	ADP	_	_	7	fixed	_	_
 9	danger	danger	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	6	punct	_	_
+10	,	,	PUNCT	_	_	3	punct	_	_
 11	et	et	CCONJ	_	_	20	cc	_	_
 12	même	même	ADV	_	_	15	advmod	_	_
 13	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
@@ -19622,7 +19622,7 @@
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	staretz	staretz	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 19	durent	devoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	_
-20	convenir	convenir	VERB	_	VerbForm=Inf	6	conj	_	_
+20	convenir	convenir	VERB	_	VerbForm=Inf	3	conj	_	_
 21	qu'	que	SCONJ	_	_	25	mark	_	SpaceAfter=No
 22	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 23	s'	se	PRON	_	Person=3|PronType=Prs	25	expl	_	SpaceAfter=No
@@ -19637,7 +19637,7 @@
 32	guérison	guérison	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
 33	à	à	ADP	_	_	34	case	_	_
 34	distance	distance	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	6	punct	_	_
+35	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00708
 # text = Des coursiers, transporteurs nationaux et internationaux sont également présents à Rodez.
@@ -20277,9 +20277,9 @@
 
 # sent_id = fr-ud-dev_00733
 # text = On peut noter l'utilisation d'une pédale wah issue du custom shop Dunlop, ainsi que des multi-effets de TC Electronics.
-1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
-2	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
-3	noter	noter	VERB	_	VerbForm=Inf	0	root	_	_
+1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	noter	noter	VERB	_	VerbForm=Inf	2	xcomp	_	_
 4	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	utilisation	utilisation	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 6	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
@@ -20303,7 +20303,7 @@
 22	de	de	ADP	_	_	23	case	_	_
 23	TC	TC	PROPN	_	_	21	nmod	_	_
 24	Electronics	Electronics	PROPN	_	_	23	flat:name	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	3	punct	_	_
+25	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00734
 # text = Il est libéré le 12 octobre après l'arrivée de Derrick Mason.
@@ -20863,15 +20863,15 @@
 # sent_id = fr-ud-dev_00757
 # text = En conséquences, un bulbe anti-torpilles peut-être incorporé contre la carène des navires, il ne contribue pas au poids « sec » des navires et n'entre donc pas dans les limites du traité.
 1	En	en	ADP	_	_	2	case	_	_
-2	conséquences	conséquence	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+2	conséquences	conséquence	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	bulbe	bulbe	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+5	bulbe	bulbe	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 6	anti-torpilles	anti-torpille	NOUN	_	Gender=Masc|Number=Plur	5	appos	_	_
-7	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
-8	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+7	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
 9	être	être	AUX	_	VerbForm=Inf	10	aux:pass	_	_
-10	incorporé	incorporer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	incorporé	incorporer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	xcomp	_	_
 11	contre	contre	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	carène	carène	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
@@ -20907,7 +20907,7 @@
 39	de	de	ADP	_	_	41	case	_	_
 40	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
 41	traité	traité	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
-42	.	.	PUNCT	_	_	10	punct	_	_
+42	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-dev_00758
 # text = Il les emmène à Washington mais ceux-ci, habitués à la campagne ont du mal à se faire à cette nouvelle vie avec un père qui ne sait pas comment s'y prendre.
@@ -21191,9 +21191,9 @@
 34	où	où	PRON	_	PronType=Rel	39	advmod	_	_
 35	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
 36	mauvaises	mauvais	ADJ	_	Gender=Fem|Number=Plur	37	amod	_	_
-37	herbes	herbe	NOUN	_	Gender=Fem|Number=Plur	39	nsubj	_	_
-38	peuvent	pouvoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
-39	pousser	pousser	VERB	_	VerbForm=Inf	31	acl:relcl	_	SpaceAfter=No
+37	herbes	herbe	NOUN	_	Gender=Fem|Number=Plur	38	nsubj	_	_
+38	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	acl:relcl	_	_
+39	pousser	pousser	VERB	_	VerbForm=Inf	38	xcomp	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = fr-ud-dev_00768
@@ -22252,16 +22252,16 @@
 
 # sent_id = fr-ud-dev_00806
 # text = Mais on peut aussi le voir comme une métaphore.
-1	Mais	mais	CCONJ	_	_	6	cc	_	_
-2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
-3	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
-4	aussi	aussi	ADV	_	_	6	advmod	_	_
+1	Mais	mais	CCONJ	_	_	3	cc	_	_
+2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+3	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	aussi	aussi	ADV	_	_	3	advmod	_	_
 5	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
-6	voir	voir	VERB	_	VerbForm=Inf	0	root	_	_
+6	voir	voir	VERB	_	VerbForm=Inf	3	xcomp	_	_
 7	comme	comme	ADP	_	_	9	case	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	métaphore	métaphore	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	6	punct	_	_
+10	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00807
 # text = La 023 est conçue par le bureau d'études Fondtech-Fondmetal, l'atelier de Gabriele Rumi dirigé par Jean-Claude Migeot et présente des pontons dont le bord de fuite est surbaissé et réduit dans la largeur.
@@ -22554,14 +22554,14 @@
 20	immobiliser	immobiliser	VERB	_	VerbForm=Inf	15	conj	_	_
 21	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
 22	Allemands	allemand	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	_
-23	jusqu'	jusque	ADP	_	_	30	mark	_	SpaceAfter=No
+23	jusqu'	jusque	ADP	_	_	29	mark	_	SpaceAfter=No
 24	à	à	ADP	_	_	23	fixed	_	_
 25	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	23	fixed	_	_
 26	que	que	SCONJ	_	_	23	fixed	_	_
 27	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
-28	renforts	renfort	NOUN	_	Gender=Masc|Number=Plur	30	nsubj	_	_
-29	puissent	pouvoir	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
-30	arriver	arriver	VERB	_	VerbForm=Inf	20	advcl	_	_
+28	renforts	renfort	NOUN	_	Gender=Masc|Number=Plur	29	nsubj	_	_
+29	puissent	pouvoir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+30	arriver	arriver	VERB	_	VerbForm=Inf	29	xcomp	_	_
 31	de	de	ADP	_	_	32	case	_	_
 32	France	France	PROPN	_	_	30	obl	_	_
 33	et	et	CCONJ	_	_	36	cc	_	_
@@ -23913,14 +23913,14 @@
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	question	question	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	suivante	suivant	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
-4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
 5	:	:	PUNCT	_	_	4	punct	_	_
-6	Peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-7	-on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+6	Peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	-on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 8	y	y	ADV	_	_	9	advmod	_	_
-9	prendre	prendre	VERB	_	VerbForm=Inf	0	root	_	_
+9	prendre	prendre	VERB	_	VerbForm=Inf	6	xcomp	_	_
 10	épouse	épouse	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
-11	?	?	PUNCT	_	_	9	punct	_	_
+11	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_00864
 # text = Elle lui permet d'obtenir une sélection pour le WNBA All-Star Game, avec 15,7 pts, 4,9 rbds, 1,8 passes et 1,36 interceptions.
@@ -24157,11 +24157,11 @@
 11	vingt	vingt	NUM	_	_	12	nummod	_	_
 12	kilomètres	kilomètre	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
 13	carrés	carré	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
-14	et	et	CCONJ	_	_	18	cc	_	_
-15	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
-16	considérablement	considérablement	ADV	_	_	18	advmod	_	_
+14	et	et	CCONJ	_	_	15	cc	_	_
+15	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+16	considérablement	considérablement	ADV	_	_	15	advmod	_	_
 17	en	en	PRON	_	Person=3	18	obj	_	_
-18	chevaucher	chevaucher	VERB	_	VerbForm=Inf	3	conj	_	_
+18	chevaucher	chevaucher	VERB	_	VerbForm=Inf	15	xcomp	_	_
 19	d'	de	ADP	_	_	20	case	_	SpaceAfter=No
 20	autres	autre	PRON	_	Number=Plur	18	obl	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	3	punct	_	_
@@ -24965,15 +24965,15 @@
 # sent_id = fr-ud-dev_00901
 # text = La tumeur peut devenir symptomatique rapidement, mais il arrive qu'elle reste asymptomatique malgré une taille énorme.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	tumeur	tumeur	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
-3	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
-4	devenir	devenir	VERB	_	VerbForm=Inf	0	root	_	_
+2	tumeur	tumeur	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	devenir	devenir	VERB	_	VerbForm=Inf	3	xcomp	_	_
 5	symptomatique	symptomatique	ADJ	_	Gender=Fem|Number=Sing	4	xcomp	_	_
 6	rapidement	rapidement	ADV	_	_	4	advmod	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	4	punct	_	_
+7	,	,	PUNCT	_	_	3	punct	_	_
 8	mais	mais	CCONJ	_	_	10	cc	_	_
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
-10	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 11	qu'	que	SCONJ	_	_	13	mark	_	SpaceAfter=No
 12	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 13	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
@@ -24982,7 +24982,7 @@
 16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	taille	taille	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
 18	énorme	énorme	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	4	punct	_	_
+19	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00902
 # text = Issue des résultats des élections législatives françaises de 1986, qui pour la première fois sous la Cinquième république, se sont déroulées (partiellement) au scrutin proportionnel (listes départementales) à un seul tour.
@@ -25674,9 +25674,9 @@
 
 # sent_id = fr-ud-dev_00926
 # text = On peut citer la tricoteuse, la table servante, la table de nuit de forme cylindrique, la coiffeuse ainsi que la barbière (très différente du style Empire).
-1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
-2	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
-3	citer	citer	VERB	_	VerbForm=Inf	0	root	_	_
+1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	citer	citer	VERB	_	VerbForm=Inf	2	xcomp	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	tricoteuse	tricoteuse	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
@@ -25707,7 +25707,7 @@
 30	style	style	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
 31	Empire	Empire	PROPN	_	_	30	appos	_	SpaceAfter=No
 32	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
-33	.	.	PUNCT	_	_	3	punct	_	_
+33	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00927
 # text = Le principal affluent de la Gièze, la rivière du Chefresne, collecte les eaux de la plus grande partie de la commune et arrose le bourg.
@@ -26916,28 +26916,28 @@
 
 # sent_id = fr-ud-dev_00973
 # text = Cependant, sous Windows XP, le mode DirectX 10 ne pourra pas être activé, car ne le supportant pas.
-1	Cependant	cependant	ADV	_	_	15	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	15	punct	_	_
+1	Cependant	cependant	ADV	_	_	12	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	12	punct	_	_
 3	sous	sous	ADP	_	_	4	case	_	_
-4	Windows	Windows	PROPN	_	_	15	obl	_	_
+4	Windows	Windows	PROPN	_	_	12	obl	_	_
 5	XP	XP	PROPN	_	_	4	flat:name	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	15	punct	_	_
+6	,	,	PUNCT	_	_	12	punct	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	mode	mode	NOUN	_	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
+8	mode	mode	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 9	DirectX	DirectX	PROPN	_	_	8	appos	_	_
 10	10	10	NUM	_	_	9	nummod	_	_
-11	ne	ne	ADV	_	Polarity=Neg	15	advmod	_	_
-12	pourra	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	aux	_	_
-13	pas	pas	ADV	_	Polarity=Neg	15	advmod	_	_
+11	ne	ne	ADV	_	Polarity=Neg	12	advmod	_	_
+12	pourra	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+13	pas	pas	ADV	_	Polarity=Neg	12	advmod	_	_
 14	être	être	AUX	_	VerbForm=Inf	15	aux:pass	_	_
-15	activé	activer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+15	activé	activer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	xcomp	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	car	car	CCONJ	_	_	20	mark	_	_
 18	ne	ne	ADV	_	Polarity=Neg	20	advmod	_	_
 19	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
 20	supportant	supporter	VERB	_	Tense=Pres|VerbForm=Part	15	advcl	_	_
 21	pas	pas	ADV	_	Polarity=Neg	20	advmod	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	15	punct	_	_
+22	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-dev_00974
 # text = Sa carrière professionnelle a lieu de 1978 à 1992 et il l'accomplit exclusivement dans son pays natal où il évolue 11 saisons en 1re division, 2 saisons en D2 et 2 saisons en D4.
@@ -28813,8 +28813,8 @@
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	arme	arme	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-14	pouvant	pouvoir	AUX	_	Tense=Pres|VerbForm=Part	15	aux	_	_
-15	projeter	projeter	VERB	_	VerbForm=Inf	13	acl	_	_
+14	pouvant	pouvoir	VERB	_	Tense=Pres|VerbForm=Part	13	acl	_	_
+15	projeter	projeter	VERB	_	VerbForm=Inf	14	xcomp	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	lumière	lumière	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
 18	de	de	ADP	_	_	19	case	_	_
@@ -28940,10 +28940,10 @@
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	donnée	donnée	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	3	punct	_	_
-15	mais	mais	CCONJ	_	_	18	cc	_	_
-16	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
-17	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
-18	avoir	avoir	VERB	_	VerbForm=Inf	3	conj	_	_
+15	mais	mais	CCONJ	_	_	17	cc	_	_
+16	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+18	avoir	avoir	VERB	_	VerbForm=Inf	17	xcomp	_	_
 19	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
 20	significations	signification	NOUN	_	Gender=Fem|Number=Plur	18	obj	_	_
 21	différentes	différent	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
@@ -29079,13 +29079,13 @@
 6	à	à	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	propriétaire	propriétaire	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
-9	et	et	CCONJ	_	_	15	cc	_	_
+9	et	et	CCONJ	_	_	14	cc	_	_
 10	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
-11	représentants	représentant	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
+11	représentants	représentant	NOUN	_	Gender=Masc|Number=Plur	14	nsubj	_	_
 12	britanniques	britannique	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
-13	ne	ne	ADV	_	Polarity=Neg	15	advmod	_	_
-14	pouvaient	pouvoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
-15	accéder	accéder	VERB	_	VerbForm=Inf	3	conj	_	_
+13	ne	ne	ADV	_	Polarity=Neg	14	advmod	_	_
+14	pouvaient	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+15	accéder	accéder	VERB	_	VerbForm=Inf	14	xcomp	_	_
 16	librement	librement	ADV	_	_	15	advmod	_	_
 17-18	aux	_	_	_	_	_	_	_	_
 17	à	à	ADP	_	_	19	case	_	_
@@ -29128,10 +29128,10 @@
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Duc	duc	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 10	annonce	annoncer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
-11	qu'	que	SCONJ	_	_	14	mark	_	SpaceAfter=No
-12	Hermia	Hermia	PROPN	_	_	14	nsubj	_	_
-13	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
-14	épouser	épouser	VERB	_	VerbForm=Inf	10	ccomp	_	_
+11	qu'	que	SCONJ	_	_	13	mark	_	SpaceAfter=No
+12	Hermia	Hermia	PROPN	_	_	13	nsubj	_	_
+13	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+14	épouser	épouser	VERB	_	VerbForm=Inf	13	xcomp	_	_
 15	Lysandre	Lysandre	PROPN	_	_	14	obj	_	_
 16	si	si	SCONJ	_	_	19	mark	_	_
 17	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
@@ -29474,8 +29474,8 @@
 2	espère	espérer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	comme	comme	ADP	_	_	4	case	_	_
 4	beaucoup	beaucoup	PRON	_	_	2	obl	_	_
-5	pouvoir	pouvoir	AUX	_	VerbForm=Inf	6	aux	_	_
-6	connaître	connaître	VERB	_	VerbForm=Inf	2	xcomp	_	_
+5	pouvoir	pouvoir	VERB	_	VerbForm=Inf	2	xcomp	_	_
+6	connaître	connaître	VERB	_	VerbForm=Inf	5	xcomp	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	résultat	résultat	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
 9	de	de	ADP	_	_	11	case	_	_
@@ -31391,16 +31391,16 @@
 # sent_id = fr-ud-dev_01130
 # text = Une sonde spatiale ne peut rejoindre en ligne droite Mars.
 1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	sonde	sonde	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+2	sonde	sonde	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	spatiale	spatial	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
-4	ne	ne	ADV	_	Polarity=Neg	6	advmod	_	_
-5	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
-6	rejoindre	rejoindre	VERB	_	VerbForm=Inf	0	root	_	_
+4	ne	ne	ADV	_	Polarity=Neg	5	advmod	_	_
+5	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	rejoindre	rejoindre	VERB	_	VerbForm=Inf	5	xcomp	_	_
 7	en	en	ADP	_	_	8	case	_	_
 8	ligne	ligne	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
 9	droite	droit	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
 10	Mars	Mars	PROPN	_	_	6	obj	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	6	punct	_	_
+11	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_01131
 # text = L'écran photochromique, d'apparence claire, se fonce selon l'intensité lumineuse et plus précisément selon la quantité d'UV.
@@ -31673,14 +31673,14 @@
 # sent_id = fr-ud-dev_01141
 # text = Les chiens peuvent donc avoir un double pedigree.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	chiens	chien	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
-3	peuvent	pouvoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
-4	donc	donc	ADV	_	_	5	advmod	_	_
-5	avoir	avoir	VERB	_	VerbForm=Inf	0	root	_	_
+2	chiens	chien	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	donc	donc	ADV	_	_	3	advmod	_	_
+5	avoir	avoir	VERB	_	VerbForm=Inf	3	xcomp	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 7	double	double	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
 8	pedigree	pedigree	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	5	punct	_	_
+9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_01142
 # text = Il est situé sur Cat Island.
@@ -32822,10 +32822,10 @@
 
 # sent_id = fr-ud-dev_01187
 # text = Il peut même créer en parallèle texte et musique, voire les arranger.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-2	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
-3	même	même	ADV	_	_	4	advmod	_	_
-4	créer	créer	VERB	_	VerbForm=Inf	0	root	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	même	même	ADV	_	_	2	advmod	_	_
+4	créer	créer	VERB	_	VerbForm=Inf	2	xcomp	_	_
 5	en	en	ADP	_	_	6	case	_	_
 6	parallèle	parallèle	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
 7	texte	texte	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
@@ -32835,7 +32835,7 @@
 11	voire	voire	ADV	_	_	13	advmod	_	_
 12	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	13	obj	_	_
 13	arranger	arranger	VERB	_	VerbForm=Inf	4	conj	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	4	punct	_	_
+14	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_01188
 # text = En 1997, l'Américain décroche la médaille de bronze lors des mondiaux indoor de Paris, ainsi qu'aux Championnats du monde d'Athènes, se classant derrière le Danois Wilson Kipketer et le Cubain Norberto Téllez.
@@ -33893,14 +33893,14 @@
 25	à	à	ADP	_	_	26	case	_	_
 26	plat	plat	NOUN	_	Gender=Masc|Number=Sing	22	conj	_	_
 27	recouvert	recouvrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	amod	_	SpaceAfter=No
-28	,	,	PUNCT	_	_	16	punct	_	_
+28	,	,	PUNCT	_	_	18	punct	_	_
 29	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	18	appos	_	_
-30	qui	qui	PRON	_	_	35	nsubj	_	_
+30	qui	qui	PRON	_	_	34	nsubj	_	_
 31	à	à	ADP	_	_	33	case	_	_
 32	certains	certain	DET	_	Gender=Masc|Number=Plur	33	det	_	_
-33	moments	moment	NOUN	_	Gender=Masc|Number=Plur	35	obl	_	_
-34	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
-35	nuire	nuire	VERB	_	VerbForm=Inf	29	acl	_	_
+33	moments	moment	NOUN	_	Gender=Masc|Number=Plur	34	obl	_	_
+34	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl	_	_
+35	nuire	nuire	VERB	_	VerbForm=Inf	34	xcomp	_	_
 36	à	à	ADP	_	_	38	case	_	_
 37	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	38	nmod:poss	_	_
 38	régularité	régularité	NOUN	_	Gender=Fem|Number=Sing	35	obl	_	_
@@ -34263,8 +34263,8 @@
 14	de	de	ADP	_	_	16	case	_	_
 15	jeunes	jeune	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
 16	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
-17	pouvant	pouvoir	AUX	_	Tense=Pres|VerbForm=Part	18	aux	_	_
-18	exercer	exercer	VERB	_	VerbForm=Inf	16	acl	_	_
+17	pouvant	pouvoir	VERB	_	Tense=Pres|VerbForm=Part	16	acl	_	_
+18	exercer	exercer	VERB	_	VerbForm=Inf	17	xcomp	_	_
 19	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
 20	fonctions	fonction	NOUN	_	Gender=Fem|Number=Plur	18	obj	_	_
 21	d'	de	ADP	_	_	22	case	_	SpaceAfter=No
@@ -34291,18 +34291,18 @@
 42	urbaines	urbain	ADJ	_	Gender=Fem|Number=Plur	41	amod	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	38	punct	_	_
 44	mêmes	mêmes	ADV	_	_	45	advmod	_	_
-45	si	si	SCONJ	_	_	56	mark	_	_
+45	si	si	SCONJ	_	_	53	mark	_	_
 46	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
-47	ruraux	rural	NOUN	_	Gender=Masc|Number=Plur	56	nsubj	_	_
+47	ruraux	rural	NOUN	_	Gender=Masc|Number=Plur	53	nsubj	_	_
 48	et	et	CCONJ	_	_	50	cc	_	_
 49	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	50	det	_	_
 50	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	47	conj	_	_
 51	moins	moins	ADV	_	_	52	advmod	_	_
 52	riches	riche	ADJ	_	Gender=Fem|Number=Plur	50	amod	_	_
-53	peuvent	pouvoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	56	aux	_	_
-54	aussi	aussi	ADV	_	_	56	advmod	_	_
+53	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	38	advcl	_	_
+54	aussi	aussi	ADV	_	_	53	advmod	_	_
 55	en	en	PRON	_	Person=3	57	nmod	_	_
-56	faire	faire	VERB	_	VerbForm=Inf	38	advcl	_	_
+56	faire	faire	VERB	_	VerbForm=Inf	53	xcomp	_	_
 57	partie	partie	NOUN	_	Gender=Fem|Number=Sing	56	obj	_	SpaceAfter=No
 58	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -34589,10 +34589,10 @@
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 13	jeune	jeune	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
 14	Noè	Noè	PROPN	_	_	7	obl	_	_
-15	qui	qui	PRON	_	PronType=Rel	32	nsubj	_	SpaceAfter=No
+15	qui	qui	PRON	_	PronType=Rel	31	nsubj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	à	à	ADP	_	_	18	case	_	_
-18	cause	cause	NOUN	_	Gender=Fem|Number=Sing	32	obl	_	_
+18	cause	cause	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	_
 19-20	des	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	_
 20	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
@@ -34604,10 +34604,10 @@
 26	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	27	nmod:poss	_	_
 27	famille	famille	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	18	punct	_	_
-29	n'	ne	ADV	_	Polarity=Neg	32	advmod	_	SpaceAfter=No
-30	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	aux	_	_
-31	pu	pouvoir	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	aux	_	_
-32	aller	aller	VERB	_	VerbForm=Inf	14	acl:relcl	_	_
+29	n'	ne	ADV	_	Polarity=Neg	31	advmod	_	SpaceAfter=No
+30	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	aux	_	_
+31	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+32	aller	aller	VERB	_	VerbForm=Inf	31	xcomp	_	_
 33	au-delà	au-delà	ADV	_	_	32	advmod	_	_
 34	d'	de	ADP	_	_	36	case	_	SpaceAfter=No
 35	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
@@ -35049,10 +35049,10 @@
 # sent_id = fr-ud-dev_01264
 # text = Le payement peut éventuellement passer par un tiers (Sécurités Sociales) si la cure est menée par un médecin.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	payement	payement	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
-3	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
-4	éventuellement	éventuellement	ADV	_	_	5	advmod	_	_
-5	passer	passer	VERB	_	VerbForm=Inf	0	root	_	_
+2	payement	payement	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	éventuellement	éventuellement	ADV	_	_	3	advmod	_	_
+5	passer	passer	VERB	_	VerbForm=Inf	3	xcomp	_	_
 6	par	par	ADP	_	_	8	case	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	tiers	tiers	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
@@ -35068,7 +35068,7 @@
 18	par	par	ADP	_	_	20	case	_	_
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	5	punct	_	_
+21	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_01265
 # text = Lors de la Guerre de Tuscarora, qui s'achève en 1715 par une remontée des indiens vers le Nord puis lors de la Guerre de Yamasee, entre 1715 et 1717, la ville de Charleston et ses environs servent de refuge aux planteurs poursuivis par les amérindiens en colère, pendant un conflit qui fit plus de 400 morts parmi les colons blancs, mais eu pour résultat de libérer des terres au Sud de la Caroline.
@@ -35491,12 +35491,12 @@
 
 # sent_id = fr-ud-dev_01277
 # text = Barcelone aurait pu être l'endroit de sa consécration, puisqu'il se sentait prêt pour réaliser 5,80 m, mais comme cela n'a pas été le cas, Damiel Dossevi reste concentré sur les mondiaux de Daegu.
-1	Barcelone	Barcelone	PROPN	_	_	6	nsubj	_	_
-2	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
-3	pu	pouvoir	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux	_	_
+1	Barcelone	Barcelone	PROPN	_	_	3	nsubj	_	_
+2	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	être	être	AUX	_	VerbForm=Inf	6	cop	_	_
 5	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
-6	endroit	endroit	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+6	endroit	endroit	NOUN	_	Gender=Masc|Number=Sing	3	xcomp	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	9	nmod:poss	_	_
 9	consécration	consécration	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
@@ -35510,7 +35510,7 @@
 17	réaliser	réaliser	VERB	_	VerbForm=Inf	15	advcl	_	_
 18	5,80	5,80	NUM	_	_	19	nummod	_	_
 19	m	m	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	6	punct	_	_
+20	,	,	PUNCT	_	_	3	punct	_	_
 21	mais	mais	CCONJ	_	_	33	cc	_	_
 22	comme	comme	ADP	_	_	29	mark	_	_
 23	cela	cela	PRON	_	Number=Sing|PronType=Dem	29	nsubj	_	_
@@ -35523,14 +35523,14 @@
 30	,	,	PUNCT	_	_	33	punct	_	_
 31	Damiel	Damiel	PROPN	_	_	33	nsubj	_	_
 32	Dossevi	Dossevi	PROPN	_	_	31	flat:name	_	_
-33	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+33	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 34	concentré	concentré	ADJ	_	Gender=Masc|Number=Sing	33	xcomp	_	_
 35	sur	sur	ADP	_	_	37	case	_	_
 36	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
 37	mondiaux	mondial	NOUN	_	Gender=Masc|Number=Plur	34	obl	_	_
 38	de	de	ADP	_	_	39	case	_	_
 39	Daegu	Daegu	PROPN	_	_	37	nmod	_	SpaceAfter=No
-40	.	.	PUNCT	_	_	6	punct	_	_
+40	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_01278
 # text = Alys Robi est une mini-série biographique québécoise en 4 épisodes de 45 minutes scénarisée par Denise Filiatrault et diffusée en 1995 sur le réseau TVA.
@@ -35756,8 +35756,8 @@
 16	peine	peine	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
 17	de	de	ADP	_	_	18	case	_	_
 18	prison	prison	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
-19	pouvant	pouvoir	AUX	_	Tense=Pres|VerbForm=Part	20	aux	_	_
-20	aller	aller	VERB	_	VerbForm=Inf	16	acl	_	_
+19	pouvant	pouvoir	VERB	_	Tense=Pres|VerbForm=Part	16	acl	_	_
+20	aller	aller	VERB	_	VerbForm=Inf	19	xcomp	_	_
 21	jusqu'	jusque	ADP	_	_	24	case	_	SpaceAfter=No
 22	à	à	ADP	_	_	24	case	_	_
 23	quatorze	quatorze	NUM	_	_	24	nummod	_	_
@@ -36349,10 +36349,10 @@
 10	délai	délai	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 11	que	que	PRON	_	PronType=Rel	16	obl	_	_
 12	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
-13	ordonnance	ordonnance	NOUN	_	Gender=Fem|Number=Sing	16	nsubj:pass	_	_
-14	pourra	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	aux	_	_
+13	ordonnance	ordonnance	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+14	pourra	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	acl:relcl	_	_
 15	être	être	AUX	_	VerbForm=Inf	16	aux:pass	_	_
-16	notifiée	notifier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+16	notifiée	notifier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	xcomp	_	_
 17-18	au	_	_	_	_	_	_	_	_
 17	à	à	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -36455,22 +36455,22 @@
 
 # sent_id = fr-ud-dev_01315
 # text = Mais, comme pour l'ensemble de l'épuration, être jugé tardivement peut aider.
-1	Mais	mais	CCONJ	_	_	15	cc	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	15	punct	_	_
+1	Mais	mais	CCONJ	_	_	14	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	14	punct	_	_
 3	comme	comme	ADP	_	_	6	case	_	_
 4	pour	pour	ADP	_	_	6	case	_	_
 5	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
-6	ensemble	ensemble	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+6	ensemble	ensemble	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	épuration	épuration	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	15	punct	_	_
+10	,	,	PUNCT	_	_	14	punct	_	_
 11	être	être	AUX	_	VerbForm=Inf	12	aux	_	_
-12	jugé	juger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	csubj	_	_
+12	jugé	juger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	csubj	_	_
 13	tardivement	tardivement	ADV	_	_	12	advmod	_	_
-14	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
-15	aider	aider	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	15	punct	_	_
+14	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	aider	aider	VERB	_	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = fr-ud-dev_01316
 # text = J'ai goûté celui au sanglier et celui à la merguez.
@@ -36632,11 +36632,11 @@
 9	deux	deux	NUM	_	_	10	nummod	_	_
 10	fonctions	fonction	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
 11	inverses	inverse	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	4	punct	_	_
-13	qui	qui	PRON	_	PronType=Rel	16	nsubj:pass	_	_
-14	pourraient	pouvoir	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	qui	qui	PRON	_	PronType=Rel	14	nsubj	_	_
+14	pourraient	pouvoir	VERB	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
 15	être	être	AUX	_	VerbForm=Inf	16	aux:pass	_	_
-16	appelées	appeler	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+16	appelées	appeler	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	xcomp	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	penta-racine	penta-racine	NOUN	_	Gender=Fem|Number=Sing	16	xcomp	_	_
 19	et	et	CCONJ	_	_	21	cc	_	_
@@ -36691,7 +36691,7 @@
 # sent_id = fr-ud-dev_01325
 # text = Les peintures du Salon noir contenant du charbon de bois ont pu être datées par la méthode du carbone 14 ;
 1	Les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
-2	peintures	peinture	NOUN	_	Gender=Fem|Number=Plur	16	nsubj:pass	_	_
+2	peintures	peinture	NOUN	_	Gender=Fem|Number=Plur	14	nsubj	_	_
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -36704,10 +36704,10 @@
 10	charbon	charbon	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	bois	bois	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
-13	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
-14	pu	pouvoir	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	aux	_	_
+13	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 15	être	être	AUX	_	VerbForm=Inf	16	aux:pass	_	_
-16	datées	dater	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+16	datées	dater	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	xcomp	_	_
 17	par	par	ADP	_	_	19	case	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	méthode	méthode	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
@@ -36716,7 +36716,7 @@
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	carbone	carbone	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
 23	14	14	NUM	_	_	22	nmod	_	_
-24	;	;	PUNCT	_	_	16	punct	_	_
+24	;	;	PUNCT	_	_	14	punct	_	_
 
 # sent_id = fr-ud-dev_01326
 # text = Des API comme Direct3D et DirectSound interagissent directement avec le matériel par le biais de pilotes.
@@ -37122,10 +37122,10 @@
 33	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
 34	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
 35	capital	capital	NOUN	_	Gender=Masc|Number=Sing	9	parataxis	_	_
-36	de	de	ADP	_	_	39	mark	_	_
-37	pouvoir	pouvoir	AUX	_	VerbForm=Inf	39	aux	_	_
+36	de	de	ADP	_	_	37	mark	_	_
+37	pouvoir	pouvoir	VERB	_	VerbForm=Inf	35	acl	_	_
 38	se	se	PRON	_	Person=3|PronType=Prs	39	obj	_	_
-39	dire	dire	VERB	_	VerbForm=Inf	35	acl	_	_
+39	dire	dire	VERB	_	VerbForm=Inf	37	xcomp	_	_
 40	descendant	descendant	NOUN	_	Gender=Masc|Number=Sing	39	xcomp	_	_
 41	de	de	ADP	_	_	42	case	_	_
 42	Cerdic	Cerdic	PROPN	_	_	40	nmod	_	SpaceAfter=No
@@ -37188,13 +37188,13 @@
 # sent_id = fr-ud-dev_01342
 # text = Une fois que ces informations ont été récoltées et validées par l'équipe de recherche, l'observateur amateur va pouvoir débuter ses investigations.
 1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	fois	fois	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+2	fois	fois	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
 3	que	que	SCONJ	_	_	8	mark	_	_
 4	ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
 5	informations	information	NOUN	_	Gender=Fem|Number=Plur	8	nsubj:pass	_	_
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
-8	récoltées	récolter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	22	ccomp	_	_
+8	récoltées	récolter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	21	ccomp	_	_
 9	et	et	CCONJ	_	_	10	cc	_	_
 10	validées	valider	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	conj	_	_
 11	par	par	ADP	_	_	13	case	_	_
@@ -37202,16 +37202,16 @@
 13	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
 14	de	de	ADP	_	_	15	case	_	_
 15	recherche	recherche	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	22	punct	_	_
+16	,	,	PUNCT	_	_	21	punct	_	_
 17	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
-18	observateur	observateur	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
+18	observateur	observateur	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
 19	amateur	amateur	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
-20	va	aller	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
-21	pouvoir	pouvoir	AUX	_	VerbForm=Inf	22	aux	_	_
-22	débuter	débuter	VERB	_	VerbForm=Inf	0	root	_	_
+20	va	aller	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	pouvoir	pouvoir	VERB	_	VerbForm=Inf	0	root	_	_
+22	débuter	débuter	VERB	_	VerbForm=Inf	21	xcomp	_	_
 23	ses	son	DET	_	Gender=Fem|Number=Plur|PronType=Prs	24	nmod:poss	_	_
 24	investigations	investigation	NOUN	_	Gender=Fem|Number=Plur	22	obj	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	22	punct	_	_
+25	.	.	PUNCT	_	_	21	punct	_	_
 
 # sent_id = fr-ud-dev_01343
 # text = Ainsi, pour Hobbes, la dignité n'est pas une valeur intrinsèque de l'homme, mais seulement la « valeur publique » de l'homme qui lui est conféré par la République (ou Commonwealth).
@@ -38663,7 +38663,7 @@
 # sent_id = fr-ud-dev_01390
 # text = Bien maîtrisé par un connaisseur de la race, il peut être un compétiteur redoutable.
 1	Bien	bien	ADV	_	_	2	advmod	_	_
-2	maîtrisé	maîtriser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+2	maîtrisé	maîtriser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
 3	par	par	ADP	_	_	5	case	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	connaisseur	connaisseur	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
@@ -38671,13 +38671,13 @@
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	race	race	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	2	punct	_	_
-10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
-11	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	être	être	AUX	_	VerbForm=Inf	14	cop	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	compétiteur	compétiteur	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+14	compétiteur	compétiteur	NOUN	_	Gender=Masc|Number=Sing	11	xcomp	_	_
 15	redoutable	redoutable	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	14	punct	_	_
+16	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = fr-ud-dev_01391
 # text = La chaîne de l'Oberhalbstein est un massif des Alpes orientales centrales.
@@ -39812,12 +39812,12 @@
 2	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	quelques	quelque	DET	_	Number=Plur	0	root	_	_
 4	uns	un	NOUN	_	Gender=Masc|Number=Plur	3	fixed	_	_
-5	à	à	ADP	_	_	10	mark	_	_
-6	ne	ne	ADV	_	Polarity=Neg	10	advmod	_	_
-7	pas	pas	ADV	_	Polarity=Neg	10	advmod	_	_
-8	avoir	avoir	AUX	_	VerbForm=Inf	10	aux	_	_
-9	pu	pouvoir	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	aux	_	_
-10	suivre	suivre	VERB	_	VerbForm=Inf	3	acl	_	_
+5	à	à	ADP	_	_	9	mark	_	_
+6	ne	ne	ADV	_	Polarity=Neg	9	advmod	_	_
+7	pas	pas	ADV	_	Polarity=Neg	9	advmod	_	_
+8	avoir	avoir	AUX	_	VerbForm=Inf	9	aux	_	_
+9	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+10	suivre	suivre	VERB	_	VerbForm=Inf	9	xcomp	_	_
 11	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
 12	actualité	actualité	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
 13	sur	sur	ADP	_	_	14	case	_	_
@@ -40298,8 +40298,8 @@
 10	très	très	ADV	_	_	11	advmod	_	_
 11	complets	complet	ADJ	_	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	5	punct	_	_
-13	pouvant	pouvoir	AUX	_	Tense=Pres|VerbForm=Part	14	aux	_	_
-14	satisfaire	satisfaire	VERB	_	VerbForm=Inf	5	acl	_	_
+13	pouvant	pouvoir	VERB	_	Tense=Pres|VerbForm=Part	5	acl	_	_
+14	satisfaire	satisfaire	VERB	_	VerbForm=Inf	13	xcomp	_	_
 15	toutes	tout	DET	_	Gender=Fem|Number=Plur	17	det	_	_
 16	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
 17	faims	faim	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
@@ -40644,13 +40644,13 @@
 12	à	à	ADP	_	_	13	case	_	_
 13	un	un	PRON	_	Gender=Masc|Number=Sing	11	obl	_	_
 14	seul	seul	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
-15	pour	pour	ADP	_	_	21	mark	_	_
+15	pour	pour	ADP	_	_	19	mark	_	_
 16	que	que	SCONJ	_	_	15	fixed	_	_
 17	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
-18	administration	administration	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
-19	puisse	pouvoir	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
-20	être	être	AUX	_	VerbForm=Inf	21	aux	_	_
-21	amenée	amener	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+18	administration	administration	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
+19	puisse	pouvoir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+20	être	être	AUX	_	VerbForm=Inf	19	aux	_	_
+21	amenée	amener	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	xcomp	_	_
 22	à	à	ADP	_	_	23	mark	_	_
 23	conclure	conclure	VERB	_	VerbForm=Inf	21	xcomp	_	_
 24	que	que	SCONJ	_	_	28	mark	_	_

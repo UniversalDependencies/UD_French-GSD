@@ -11581,8 +11581,8 @@
 
 # sent_id = fr-ud-dev_00418
 # text = De plus pour couronner le tout j'ai eu la visite de deux cafards (cancrelats) un dans la salle de bains et l'autre, plus audacieux, près du lit.
-1	De	de	ADP	_	_	9	advmod	_	_
-2	plus	plus	ADV	_	_	1	fixed	_	_
+1	De	de	ADP	_	_	2	case	_	_
+2	plus	plus	ADV	_	_	9	advmod	_	_
 3	pour	pour	ADP	_	_	4	mark	_	_
 4	couronner	couronner	VERB	_	VerbForm=Inf	9	advcl	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -33059,8 +33059,8 @@
 
 # sent_id = fr-ud-dev_01196
 # text = De plus, quand on sait que le père du patron est un ancien boucher, on devine que la viande sera toujours d'excellente qualité.
-1	De	de	ADP	_	_	19	advmod	_	_
-2	plus	plus	ADV	_	_	1	fixed	_	SpaceAfter=No
+1	De	de	ADP	_	_	2	case	_	_
+2	plus	plus	ADV	_	_	19	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	19	punct	_	_
 4	quand	quand	SCONJ	_	_	6	mark	_	_
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_

@@ -3108,13 +3108,13 @@
 1	Elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	se	se	PRON	_	Person=3|PronType=Prs	3	obj	_	_
 3	remarie	remarier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	et	et	CCONJ	_	_	9	cc	_	_
+4	et	et	CCONJ	_	_	8	cc	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	autre	autre	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
-7	fils	fils	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
-8	va	aller	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
-9	naître	naître	VERB	_	VerbForm=Inf	3	conj	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	9	punct	_	_
+7	fils	fils	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+8	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	naître	naître	VERB	_	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
 11	Serge	Serge	PROPN	_	_	7	appos	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -4795,13 +4795,13 @@
 
 # sent_id = fr-ud-test_00159
 # text = Côté organisation, la municipalité va apporter son soutien logistique au président de la Boule Canéjanaise, Richard Juzanx, tandis que les 80 bénévoles canéjanais sont en plein dans les préparatifs et s'apprêtent à vivre un moment exceptionnel dans l'histoire du club.
-1	Côté	côté	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+1	Côté	côté	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
 2	organisation	organisation	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	7	punct	_	_
+3	,	,	PUNCT	_	_	6	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	municipalité	municipalité	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
-6	va	aller	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
-7	apporter	apporter	VERB	_	VerbForm=Inf	0	root	_	_
+5	municipalité	municipalité	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	apporter	apporter	VERB	_	VerbForm=Inf	6	xcomp	_	_
 8	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	9	nmod:poss	_	_
 9	soutien	soutien	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
 10	logistique	logistique	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
@@ -4816,14 +4816,14 @@
 18	,	,	PUNCT	_	_	13	punct	_	_
 19	Richard	Richard	PROPN	_	_	13	appos	_	_
 20	Juzanx	Juzanx	PROPN	_	_	19	flat:name	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	7	punct	_	_
+21	,	,	PUNCT	_	_	6	punct	_	_
 22	tandis	tandis	ADV	_	_	28	mark	_	_
 23	que	que	SCONJ	_	_	22	fixed	_	_
 24	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
 25	80	80	NUM	_	_	26	nummod	_	_
 26	bénévoles	bénévole	NOUN	_	Gender=Masc|Number=Plur	28	nsubj	_	_
 27	canéjanais	canéjanais	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	_
-28	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+28	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
 29	en	en	ADP	_	_	30	case	_	_
 30	plein	plein	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
 31	dans	dans	ADP	_	_	33	case	_	_
@@ -4844,7 +4844,7 @@
 45	de	de	ADP	_	_	47	case	_	_
 46	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
 47	club	club	NOUN	_	Gender=Masc|Number=Sing	44	nmod	_	SpaceAfter=No
-48	.	.	PUNCT	_	_	7	punct	_	_
+48	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-test_00160
 # text = Même du fond de l'enfer, Dany Laferrière reste un réaliste heureux.
@@ -5157,14 +5157,14 @@
 
 # sent_id = fr-ud-test_00172
 # text = Ça va forcément me rappeler des souvenirs.
-1	Ça	ça	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
-2	va	aller	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
-3	forcément	forcément	ADV	_	_	5	advmod	_	_
+1	Ça	ça	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	forcément	forcément	ADV	_	_	2	advmod	_	_
 4	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
-5	rappeler	rappeler	VERB	_	VerbForm=Inf	0	root	_	_
+5	rappeler	rappeler	VERB	_	VerbForm=Inf	2	xcomp	_	_
 6	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	souvenirs	souvenir	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	5	punct	_	_
+8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-test_00173
 # text = Grâce à une plate-forme logicielle intégrée aux capacités reconnues dans la gestion des emails et la fusion entrant/sortant, les équipes marketing accroissent rapidement leur efficacité et leur impact sur le chiffre d'affaires.
@@ -7851,17 +7851,17 @@
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	advmod	_	_
 5	peu	peu	ADV	_	_	4	fixed	_	_
 6	long	long	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
-7	mais	mais	CCONJ	_	_	17	cc	_	_
-8	peut-être	peut-être	ADV	_	_	17	advmod	_	_
+7	mais	mais	CCONJ	_	_	15	cc	_	_
+8	peut-être	peut-être	ADV	_	_	15	advmod	_	_
 9	qu'	que	SCONJ	_	_	8	fixed	_	SpaceAfter=No
 10	avec	avec	ADP	_	_	13	case	_	_
 11	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 12	nouveaux	nouveau	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	_
-13	travaux	travail	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	_
-14	cela	cela	PRON	_	Number=Sing|PronType=Dem	17	nsubj	_	_
-15	va	aller	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+13	travaux	travail	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	_
+14	cela	cela	PRON	_	Number=Sing|PronType=Dem	15	nsubj	_	_
+15	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
 16	s'	se	PRON	_	Person=3|PronType=Prs	17	expl	_	SpaceAfter=No
-17	arranger	arranger	VERB	_	VerbForm=Inf	1	conj	_	_
+17	arranger	arranger	VERB	_	VerbForm=Inf	15	xcomp	_	_
 
 # sent_id = fr-ud-test_00287
 # text = Trop cher, il y a des pizzeria meilleure et moins cher ;)
@@ -8003,11 +8003,11 @@
 
 # sent_id = fr-ud-test_00293
 # text = je ne vais rien oublier de cette soirée au MH.
-1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
-2	ne	ne	ADV	_	Polarity=Neg	5	advmod	_	_
-3	vais	aller	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	ne	ne	ADV	_	Polarity=Neg	3	advmod	_	_
+3	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	rien	rien	PRON	_	Number=Sing	5	obj	_	_
-5	oublier	oublier	VERB	_	VerbForm=Inf	0	root	_	_
+5	oublier	oublier	VERB	_	VerbForm=Inf	3	xcomp	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
 8	soirée	soirée	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
@@ -8015,7 +8015,7 @@
 9	à	à	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	MH	MH	PROPN	_	_	8	nmod	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	5	punct	_	_
+12	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-test_00294
 # text = plus de 80 euros 2 menus à pas cher deux kirs une bouteille.
@@ -10707,11 +10707,11 @@
 17	maximiser	maximiser	VERB	_	VerbForm=Inf	15	xcomp	_	_
 18	son	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	19	nmod:poss	_	_
 19	utilité	utilité	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
-20	et	et	CCONJ	_	_	36	cc	_	_
+20	et	et	CCONJ	_	_	35	cc	_	_
 21	lorsqu'	lorsque	SCONJ	_	_	24	mark	_	SpaceAfter=No
 22	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
 23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
-24	amené	amener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	advcl	_	_
+24	amené	amener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	advcl	_	_
 25	à	à	ADP	_	_	26	mark	_	_
 26	faire	faire	VERB	_	VerbForm=Inf	24	xcomp	_	_
 27	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
@@ -10720,23 +10720,23 @@
 30	consommation	consommation	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
 31	et	et	CCONJ	_	_	32	cc	_	_
 32	épargne	épargne	NOUN	_	Gender=Fem|Number=Sing	30	conj	_	SpaceAfter=No
-33	,	,	PUNCT	_	_	36	punct	_	_
-34	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
-35	va	aller	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
-36	considérer	considérer	VERB	_	VerbForm=Inf	15	conj	_	_
+33	,	,	PUNCT	_	_	35	punct	_	_
+34	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+35	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+36	considérer	considérer	VERB	_	VerbForm=Inf	35	xcomp	_	_
 37	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	36	obj	_	_
 38	que	que	PRON	_	PronType=Rel	40	obj	_	_
 39	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	40	iobj	_	_
 40	rapportera	rapporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	37	acl:relcl	_	_
 41	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	SpaceAfter=No
 42	épargne	épargne	NOUN	_	Gender=Fem|Number=Sing	40	nsubj	_	SpaceAfter=No
-43	,	,	PUNCT	_	_	49	punct	_	_
+43	,	,	PUNCT	_	_	48	punct	_	_
 44	autrement	autrement	ADV	_	_	45	advmod	_	_
-45	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	advcl	_	SpaceAfter=No
-46	,	,	PUNCT	_	_	49	punct	_	_
-47	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	49	nsubj	_	_
-48	va	aller	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	aux	_	_
-49	considérer	considérer	VERB	_	VerbForm=Inf	36	conj	_	_
+45	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	advcl	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	48	punct	_	_
+47	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	48	nsubj	_	_
+48	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	conj	_	_
+49	considérer	considérer	VERB	_	VerbForm=Inf	48	xcomp	_	_
 50	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
 51	taux	taux	NOUN	_	Gender=Masc|Number=Sing	49	obj	_	_
 52	d'	de	ADP	_	_	53	case	_	SpaceAfter=No
@@ -11226,7 +11226,7 @@
 42	story	story	NOUN	_	Gender=Masc|Number=Sing	43	compound	_	_
 43	arc	arc	NOUN	_	Gender=Masc|Number=Sing	25	conj	_	_
 44	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	45	det	_	_
-45	handicapés	handicapé	NOUN	_	Gender=Masc|Number=Plur	46	nsubj:pass	_	_
+45	handicapés	handicapé	NOUN	_	Gender=Masc|Number=Plur	46	nsubj	_	_
 46	vont	aller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	43	appos	_	SpaceAfter=No
 47	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	46	expl	_	_
 48	en	en	ADP	_	_	49	case	_	_

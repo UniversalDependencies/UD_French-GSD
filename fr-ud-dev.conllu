@@ -1020,11 +1020,11 @@
 # text = Une autre fois, il va organiser une farce au capitaine Sig Hansen en faisant jeter un mannequin déguisé en matelot depuis le toit de la timonerie.
 1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	autre	autre	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
-3	fois	fois	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+3	fois	fois	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-6	va	aller	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
-7	organiser	organiser	VERB	_	VerbForm=Inf	0	root	_	_
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	organiser	organiser	VERB	_	VerbForm=Inf	6	xcomp	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	farce	farce	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
 10-11	au	_	_	_	_	_	_	_	_
@@ -1047,7 +1047,7 @@
 26	de	de	ADP	_	_	28	case	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	timonerie	timonerie	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	7	punct	_	_
+29	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_00039
 # text = Le lazy bed (littéralement : « plate-bande de paresseux ») est une technique de travail du sol autrefois pratiquée dans certaines régions des Îles britanniques.
@@ -5507,9 +5507,9 @@
 6	à	à	ADP	_	_	7	case	_	_
 7	laquelle	lequel	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	11	obl	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	personne	personne	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
-10	va	aller	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
-11	consacrer	consacrer	VERB	_	VerbForm=Inf	5	acl:relcl	_	_
+9	personne	personne	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+11	consacrer	consacrer	VERB	_	VerbForm=Inf	10	xcomp	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 13	plus	plus	ADV	_	_	15	advmod	_	_
 14	de	de	ADP	_	_	13	fixed	_	_
@@ -9047,8 +9047,8 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
 3	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	1	expl	_	_
 4	qui	qui	PRON	_	_	3	fixed	_	_
-5	va	aller	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
-6	augmenter	augmenter	VERB	_	VerbForm=Inf	3	acl:relcl	_	_
+5	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	augmenter	augmenter	VERB	_	VerbForm=Inf	5	xcomp	_	_
 7	?	?	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-dev_00326
@@ -12275,9 +12275,9 @@
 
 # sent_id = fr-ud-dev_00445
 # text = Il va venir percuter le Boeing de la Pan Am sur son travers à près de 300 km/h en milieu de piste, malgré une tentative de décollage anticipé de dernière seconde du pilote de la KLM dès que celui-ci aperçoit l'avion de la Pan Am.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	va	aller	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
-3	venir	venir	VERB	_	VerbForm=Inf	0	root	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	venir	venir	VERB	_	VerbForm=Inf	2	xcomp	_	_
 4	percuter	percuter	VERB	_	VerbForm=Inf	3	xcomp	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Boeing	Boeing	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
@@ -12297,10 +12297,10 @@
 20	milieu	milieu	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
 21	de	de	ADP	_	_	22	case	_	_
 22	piste	piste	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	3	punct	_	_
+23	,	,	PUNCT	_	_	2	punct	_	_
 24	malgré	malgré	ADP	_	_	26	case	_	_
 25	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	tentative	tentative	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+26	tentative	tentative	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
 27	de	de	ADP	_	_	28	case	_	_
 28	décollage	décollage	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
 29	anticipé	anticiper	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	acl	_	_
@@ -12324,7 +12324,7 @@
 46	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
 47	Pan	Pan	PROPN	_	_	44	nmod	_	_
 48	Am	Am	PROPN	_	_	47	flat:name	_	SpaceAfter=No
-49	.	.	PUNCT	_	_	3	punct	_	_
+49	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00446
 # text = Le chapelet thaï est un jouet sexuel pour hommes ou pour femmes constitué d'une série de billes (entre 3 et 6 généralement) d'un diamètre situé entre 1 et 3 cm.
@@ -16459,13 +16459,13 @@
 
 # sent_id = fr-ud-dev_00590
 # text = Jean V pour sa part alla demander le secours de l'Occident contre les Turcs, se convertissant même au catholicisme ;
-1	Jean	Jean	PROPN	_	_	7	nsubj	_	_
+1	Jean	Jean	PROPN	_	_	6	nsubj	_	_
 2	V	V	PROPN	_	_	1	nummod	_	_
 3	pour	pour	ADP	_	_	5	case	_	_
 4	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	5	nmod:poss	_	_
 5	part	part	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-6	alla	aller	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
-7	demander	demander	VERB	_	VerbForm=Inf	0	root	_	_
+6	alla	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	demander	demander	VERB	_	VerbForm=Inf	6	xcomp	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	secours	secours	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
 10	de	de	ADP	_	_	12	case	_	_
@@ -16482,7 +16482,7 @@
 20	à	à	ADP	_	_	22	case	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	catholicisme	catholicisme	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
-23	;	;	PUNCT	_	_	7	punct	_	_
+23	;	;	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_00591
 # text = En 1945 la production est de 25 000 tonnes de pulvérulents et en 1960 de 80 000 tonnes d'engrais.
@@ -21012,9 +21012,9 @@
 9	activités	activité	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
 10	que	que	PRON	_	PronType=Rel	14	obj	_	_
 11	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
-12	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	14	nsubj	_	_
-13	vont	aller	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
-14	apprécier	apprécier	VERB	_	VerbForm=Inf	9	acl:relcl	_	SpaceAfter=No
+12	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
+13	vont	aller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+14	apprécier	apprécier	VERB	_	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00762
@@ -23727,9 +23727,9 @@
 # sent_id = fr-ud-dev_00858
 # text = Ce dernier va constituer l'affluent majeur du Río Limay, branche-mère du fleuve Río Negro qui débouchera dans l'Atlantique.
 1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
-2	dernier	dernier	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
-3	va	aller	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
-4	constituer	constituer	VERB	_	VerbForm=Inf	0	root	_	_
+2	dernier	dernier	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	constituer	constituer	VERB	_	VerbForm=Inf	3	xcomp	_	_
 5	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	affluent	affluent	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
 7	majeur	majeur	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
@@ -23751,7 +23751,7 @@
 21	dans	dans	ADP	_	_	23	case	_	_
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
 23	Atlantique	Atlantique	PROPN	_	_	20	obl	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	4	punct	_	_
+24	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00859
 # text = La 60e cérémonie des Primetime Emmy Awards, organisée par l'Académie des arts et des sciences de la télévision et récompensant les séries télévisées diffusées au cours de la saison 2007-2008, s'est déroulée le 21 septembre 2008 au Nokia Theater de Los Angeles.
@@ -25036,26 +25036,26 @@
 1-2	Du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	7	7	NUM	_	_	16	nummod	_	_
+3	7	7	NUM	_	_	15	nummod	_	_
 4-5	au	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	7	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	15	15	NUM	_	_	7	nummod	_	_
-7	mai	mai	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+7	mai	mai	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
 8	1910	1910	NUM	_	_	7	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	16	punct	_	_
+9	,	,	PUNCT	_	_	15	punct	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 11	grande	grand	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
-12	semaine	semaine	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
+12	semaine	semaine	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	Lyon-aviation	Lyon-aviation	PROPN	_	_	12	nmod	_	_
-15	va	aller	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
-16	attirer	attirer	VERB	_	VerbForm=Inf	0	root	_	_
+15	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	attirer	attirer	VERB	_	VerbForm=Inf	15	xcomp	_	_
 17	en	en	ADP	_	_	16	advmod	_	_
 18	effet	effet	NOUN	_	Gender=Masc|Number=Sing	17	fixed	_	_
 19	100 000	100 000	NUM	_	_	20	nummod	_	_
 20	visiteurs	visiteur	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	16	punct	_	_
+21	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = fr-ud-dev_00904
 # text = Conformément aux réquisitions du parquet, la juge d'instruction en charge de ce dossier a prononcé le 22 novembre une ordonnance de renvoi devant la juridiction criminelle.
@@ -26909,10 +26909,10 @@
 
 # sent_id = fr-ud-dev_00972
 # text = Tout allait changer.
-1	Tout	tout	PRON	_	Gender=Masc|Number=Sing	3	nsubj	_	_
-2	allait	aller	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
-3	changer	changer	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	_	_	3	punct	_	_
+1	Tout	tout	PRON	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	changer	changer	VERB	_	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00973
 # text = Cependant, sous Windows XP, le mode DirectX 10 ne pourra pas être activé, car ne le supportant pas.
@@ -29710,9 +29710,9 @@
 16	celui-ci	celui-ci	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	18	nsubj	_	_
 17	se	se	PRON	_	Person=3|PronType=Prs	18	obj	_	_
 18	détourne	détourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
-19	pour	pour	ADP	_	_	21	mark	_	_
-20	aller	aller	AUX	_	VerbForm=Inf	21	aux	_	_
-21	dormir	dormir	VERB	_	VerbForm=Inf	18	acl	_	_
+19	pour	pour	ADP	_	_	20	mark	_	_
+20	aller	aller	VERB	_	VerbForm=Inf	18	acl	_	_
+21	dormir	dormir	VERB	_	VerbForm=Inf	20	xcomp	_	_
 22	et	et	CCONJ	_	_	23	cc	_	_
 23	faire	faire	VERB	_	VerbForm=Inf	21	conj	_	_
 24	partir	partir	VERB	_	VerbForm=Inf	23	xcomp	_	_
@@ -34172,10 +34172,10 @@
 # sent_id = fr-ud-dev_01232
 # text = L'Algérie va certainement appeler l'ONU à l'élimination totale et sans entraves du colonialisme qui est incompatible avec la charte onusienne.
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	Algérie	Algérie	PROPN	_	_	5	nsubj	_	_
-3	va	aller	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
-4	certainement	certainement	ADV	_	_	5	advmod	_	_
-5	appeler	appeler	VERB	_	VerbForm=Inf	0	root	_	_
+2	Algérie	Algérie	PROPN	_	_	3	nsubj	_	_
+3	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	certainement	certainement	ADV	_	_	3	advmod	_	_
+5	appeler	appeler	VERB	_	VerbForm=Inf	3	xcomp	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	ONU	ONU	PROPN	_	_	5	obj	_	_
 8	à	à	ADP	_	_	10	case	_	_
@@ -34196,7 +34196,7 @@
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	charte	charte	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
 24	onusienne	onusien	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	5	punct	_	_
+25	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_01233
 # text = La faiblesse des rendements financiers des placements, l'incertitude boursière, l'attractivité des taux d'intérêts de crédits et les aides à l'achat sont autant d'éléments qui doivent confirmer l'élan de reprise.
@@ -37188,13 +37188,13 @@
 # sent_id = fr-ud-dev_01342
 # text = Une fois que ces informations ont été récoltées et validées par l'équipe de recherche, l'observateur amateur va pouvoir débuter ses investigations.
 1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	fois	fois	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+2	fois	fois	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
 3	que	que	SCONJ	_	_	8	mark	_	_
 4	ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
 5	informations	information	NOUN	_	Gender=Fem|Number=Plur	8	nsubj:pass	_	_
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
-8	récoltées	récolter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	21	ccomp	_	_
+8	récoltées	récolter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	20	ccomp	_	_
 9	et	et	CCONJ	_	_	10	cc	_	_
 10	validées	valider	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	conj	_	_
 11	par	par	ADP	_	_	13	case	_	_
@@ -37202,16 +37202,16 @@
 13	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
 14	de	de	ADP	_	_	15	case	_	_
 15	recherche	recherche	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	21	punct	_	_
+16	,	,	PUNCT	_	_	20	punct	_	_
 17	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
-18	observateur	observateur	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
+18	observateur	observateur	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
 19	amateur	amateur	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
-20	va	aller	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
-21	pouvoir	pouvoir	VERB	_	VerbForm=Inf	0	root	_	_
+20	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	pouvoir	pouvoir	VERB	_	VerbForm=Inf	20	xcomp	_	_
 22	débuter	débuter	VERB	_	VerbForm=Inf	21	xcomp	_	_
 23	ses	son	DET	_	Gender=Fem|Number=Plur|PronType=Prs	24	nmod:poss	_	_
 24	investigations	investigation	NOUN	_	Gender=Fem|Number=Plur	22	obj	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	21	punct	_	_
+25	.	.	PUNCT	_	_	20	punct	_	_
 
 # sent_id = fr-ud-dev_01343
 # text = Ainsi, pour Hobbes, la dignité n'est pas une valeur intrinsèque de l'homme, mais seulement la « valeur publique » de l'homme qui lui est conféré par la République (ou Commonwealth).
@@ -38412,7 +38412,7 @@
 # text = Si vous travaillez dans le quartier et que vous en avez marre de manger à la cantine de l'entreprise, allez vous restaurer aux Jardins d'Epicure.
 1	Si	si	SCONJ	_	_	3	mark	_	_
 2	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
-3	travaillez	travailler	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	24	advcl	_	_
+3	travaillez	travailler	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	22	advcl	_	_
 4	dans	dans	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	quartier	quartier	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
@@ -38431,16 +38431,16 @@
 19	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
 20	entreprise	entreprise	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	3	punct	_	_
-22	allez	aller	AUX	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	24	aux	_	_
+22	allez	aller	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 23	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	24	obj	_	_
-24	restaurer	restaurer	VERB	_	VerbForm=Inf	0	root	_	_
+24	restaurer	restaurer	VERB	_	VerbForm=Inf	22	xcomp	_	_
 25-26	aux	_	_	_	_	_	_	_	_
 25	à	à	ADP	_	_	27	case	_	_
 26	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
 27	Jardins	jardin	NOUN	_	Gender=Masc|Number=Plur	24	obl	_	_
 28	d'	de	ADP	_	_	29	case	_	SpaceAfter=No
 29	Epicure	Epicure	PROPN	_	_	27	nmod	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	24	punct	_	_
+30	.	.	PUNCT	_	_	22	punct	_	_
 
 # sent_id = fr-ud-dev_01382
 # text = L'ambiance est quelconque, et le serveur est une vrai porte de prison.

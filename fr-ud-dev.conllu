@@ -13542,10 +13542,10 @@
 10	de	de	ADP	_	_	11	case	_	_
 11	Sakurajosui	Sakurajosui	PROPN	_	_	9	nmod	_	_
 12	où	où	PRON	_	PronType=Rel	16	obl	_	_
-13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
-14	espère	espérer	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	espère	espérer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
 15	être	être	AUX	_	VerbForm=Inf	16	cop	_	_
-16	titulaire	titulaire	ADJ	_	Gender=Masc|Number=Sing	9	acl:relcl	_	_
+16	titulaire	titulaire	ADJ	_	Gender=Masc|Number=Sing	14	xcomp	_	_
 17	dans	dans	ADP	_	_	19	case	_	_
 18	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 19	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
@@ -17823,7 +17823,7 @@
 1	Contrairement	contrairement	ADV	_	_	4	advmod	_	_
 2	à	à	ADP	_	_	4	case	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	ville	ville	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	_
+4	ville	ville	NOUN	_	Gender=Fem|Number=Sing	29	obl	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	Park	Park	PROPN	_	_	4	nmod	_	_
 7	City	City	PROPN	_	_	6	flat:name	_	_
@@ -17844,19 +17844,19 @@
 22	chemin	chemin	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 23	de	de	ADP	_	_	24	case	_	_
 24	fer	fer	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	30	punct	_	_
-26	Cave	Cave	PROPN	_	_	30	nsubj	_	_
+25	,	,	PUNCT	_	_	29	punct	_	_
+26	Cave	Cave	PROPN	_	_	29	nsubj	_	_
 27	City	City	PROPN	_	_	26	flat:name	_	_
-28	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
-29	su	savoir	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	aux	_	_
-30	tirer	tirer	VERB	_	VerbForm=Inf	0	root	_	_
+28	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	su	savoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+30	tirer	tirer	VERB	_	VerbForm=Inf	29	xcomp	_	_
 31	parti	parti	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	_
 32-33	du	_	_	_	_	_	_	_	_
 32	de	de	ADP	_	_	34	case	_	_
 33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	réseau	réseau	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
 35	autoroutier	autoroutier	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	30	punct	_	_
+36	.	.	PUNCT	_	_	29	punct	_	_
 
 # sent_id = fr-ud-dev_00642
 # text = Laquelle a-t-elle été ?
@@ -22508,12 +22508,12 @@
 14	:	:	PUNCT	_	_	7	punct	_	_
 15	par	par	ADP	_	_	17	case	_	_
 16	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
-17	système	système	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	22	punct	_	_
+17	système	système	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	21	punct	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	Grande-Bretagne	Grande-Bretagne	PROPN	_	_	22	nsubj	_	_
-21	entendait	entendre	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
-22	garder	garder	VERB	_	VerbForm=Inf	7	parataxis	_	_
+20	Grande-Bretagne	Grande-Bretagne	PROPN	_	_	21	nsubj	_	_
+21	entendait	entendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	parataxis	_	_
+22	garder	garder	VERB	_	VerbForm=Inf	21	xcomp	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	maximum	maximum	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
 25	de	de	ADP	_	_	26	case	_	_
@@ -23518,9 +23518,9 @@
 11	austérité	austérité	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 12	trop	trop	ADV	_	_	13	advmod	_	_
 13	sévère	sévère	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
-14	qui	qui	PRON	_	PronType=Rel	16	nsubj	_	_
-15	viendrait	venir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
-16	casser	casser	VERB	_	VerbForm=Inf	9	acl:relcl	_	_
+14	qui	qui	PRON	_	PronType=Rel	15	nsubj	_	_
+15	viendrait	venir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+16	casser	casser	VERB	_	VerbForm=Inf	15	xcomp	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	croissance	croissance	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	1	punct	_	_
@@ -32376,9 +32376,9 @@
 34	,	,	PUNCT	_	_	24	punct	_	_
 35	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
 36	astres	astre	NOUN	_	Gender=Masc|Number=Plur	24	obj	_	_
-37	qui	qui	PRON	_	PronType=Rel	39	nsubj	_	_
-38	semblaient	sembler	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	39	aux	_	_
-39	fixés	fixer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	36	acl:relcl	_	_
+37	qui	qui	PRON	_	PronType=Rel	38	nsubj	_	_
+38	semblaient	sembler	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	36	acl:relcl	_	_
+39	fixés	fixer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	38	xcomp	_	_
 40	à	à	ADP	_	_	42	case	_	_
 41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
 42	voûte	voûte	NOUN	_	Gender=Fem|Number=Sing	39	obl	_	_
@@ -35729,11 +35729,11 @@
 # sent_id = fr-ud-dev_01286
 # text = La réponse semble être oui.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	réponse	réponse	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
-3	semble	sembler	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	réponse	réponse	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	être	être	AUX	_	VerbForm=Inf	5	cop	_	_
-5	oui	oui	INTJ	_	_	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	_	_	5	punct	_	_
+5	oui	oui	INTJ	_	_	3	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_01287
 # text = L'article 80 du code pénal d'Abou Dabi punit la sodomie d'une peine de prison pouvant aller jusqu'à quatorze ans.

@@ -7399,11 +7399,11 @@
 5	marocain	marocain	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
 6	en	en	ADP	_	_	7	mark	_	_
 7	soulignant	souligner	VERB	_	Tense=Pres|VerbForm=Part	2	advcl	_	_
-8	qu'	que	SCONJ	_	_	12	mark	_	SpaceAfter=No
+8	qu'	que	SCONJ	_	_	11	mark	_	SpaceAfter=No
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	autonomie	autonomie	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
-11	devrait	devoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
-12	donner	donner	VERB	_	VerbForm=Inf	7	ccomp	_	_
+10	autonomie	autonomie	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+11	devrait	devoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+12	donner	donner	VERB	_	VerbForm=Inf	11	xcomp	_	_
 13	davantage	davantage	ADV	_	_	12	advmod	_	_
 14-15	aux	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	_	16	case	_	_
@@ -7891,10 +7891,10 @@
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	reine	reine	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
 22	Bûrândûkht	Bûrândûkht	PROPN	_	_	21	appos	_	_
-23	mais	mais	CCONJ	_	_	26	cc	_	_
-24	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
-25	doit	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
-26	faire	faire	VERB	_	VerbForm=Inf	8	conj	_	_
+23	mais	mais	CCONJ	_	_	25	cc	_	_
+24	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+25	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+26	faire	faire	VERB	_	VerbForm=Inf	25	xcomp	_	_
 27	face	face	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	_
 28-29	aux	_	_	_	_	_	_	_	_
 28	à	à	ADP	_	_	30	case	_	_
@@ -8019,12 +8019,12 @@
 # sent_id = fr-ud-dev_00284
 # text = Une mention remarquable doit être ici décernée à une série de reportages produite par la télévision publique britannique et présentée par un globe trotter vedette, Simon Reeve.
 1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	mention	mention	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+2	mention	mention	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	remarquable	remarquable	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
-4	doit	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	être	être	AUX	_	VerbForm=Inf	7	aux:pass	_	_
-6	ici	ici	ADV	_	_	7	advmod	_	_
-7	décernée	décerner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	ici	ici	ADV	_	_	5	advmod	_	_
+7	décernée	décerner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	_	_
 8	à	à	ADP	_	_	10	case	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	série	série	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
@@ -8043,10 +8043,10 @@
 23	globe	globe	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
 24	trotter	trotter	NOUN	_	Gender=Masc|Number=Sing	23	fixed	_	_
 25	vedette	vedette	NOUN	_	Gender=Fem|Number=Sing	23	compound	_	SpaceAfter=No
-26	,	,	PUNCT	_	_	7	punct	_	_
+26	,	,	PUNCT	_	_	4	punct	_	_
 27	Simon	Simon	PROPN	_	_	23	appos	_	_
 28	Reeve	Reeve	PROPN	_	_	27	flat:name	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	7	punct	_	_
+29	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_00285
 # text = Avec mon amie nous avons pris le plateau royal, composé de 40 pièces servies dans un bateau en plastique.
@@ -10983,24 +10983,24 @@
 # sent_id = fr-ud-dev_00398
 # text = L'application de la légitimé internationale, selon la charte internationale des nations unies, doit permettre à ces deux pays de recouvrir leurs droits de liberté et d'indépendance.
 1	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	application	application	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
+2	application	application	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	légitimé	légitimé	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 6	internationale	international	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	18	punct	_	_
+7	,	,	PUNCT	_	_	17	punct	_	_
 8	selon	selon	ADP	_	_	10	case	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	charte	charte	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+10	charte	charte	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
 11	internationale	international	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
 12-13	des	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
 14	nations	nation	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
 15	unies	uni	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	18	punct	_	_
-17	doit	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
-18	permettre	permettre	VERB	_	VerbForm=Inf	0	root	_	_
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	permettre	permettre	VERB	_	VerbForm=Inf	17	xcomp	_	_
 19	à	à	ADP	_	_	22	case	_	_
 20	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	22	det	_	_
 21	deux	deux	NUM	_	_	22	nummod	_	_
@@ -11014,7 +11014,7 @@
 29	et	et	CCONJ	_	_	31	cc	_	_
 30	d'	de	ADP	_	_	31	case	_	SpaceAfter=No
 31	indépendance	indépendance	NOUN	_	Gender=Fem|Number=Sing	28	conj	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	18	punct	_	_
+32	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = fr-ud-dev_00399
 # text = Cette réunion est ouverte à tous.
@@ -12448,15 +12448,15 @@
 
 # sent_id = fr-ud-dev_00449
 # text = Celle-ci doit être présentée le 13 juillet 2010.
-1	Celle-ci	celui-ci	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj:pass	_	_
-2	doit	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+1	Celle-ci	celui-ci	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	être	être	AUX	_	VerbForm=Inf	4	aux:pass	_	_
-4	présentée	présenter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	présentée	présenter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	13	13	NUM	_	_	7	nummod	_	_
 7	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
 8	2010	2010	NUM	_	_	7	nmod	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	4	punct	_	_
+9	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00450
 # text = Mais quelle ne fut pas ma surprise lorsque j'ai pu récupérer celle ci dans un état proche du neuf !
@@ -13283,18 +13283,18 @@
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	coup	coup	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
 16	décisif	décisif	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
-17	qui	qui	PRON	_	PronType=Rel	28	nsubj	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	28	punct	_	_
+17	qui	qui	PRON	_	PronType=Rel	25	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	25	punct	_	_
 19	sous	sous	ADP	_	_	21	case	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	commandement	commandement	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	_
+21	commandement	commandement	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
 22	de	de	ADP	_	_	23	case	_	_
 23	Ivan	Ivan	PROPN	_	_	21	nmod	_	_
 24	Shakhovskiy	Shakhovskiy	PROPN	_	_	23	flat:name	_	_
-25	devait	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	aux	_	_
+25	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
 26	plus	plus	ADV	_	_	27	advmod	_	_
-27	tard	tard	ADV	_	_	28	advmod	_	_
-28	renforcer	renforcer	VERB	_	VerbForm=Inf	15	acl:relcl	_	_
+27	tard	tard	ADV	_	_	25	advmod	_	_
+28	renforcer	renforcer	VERB	_	VerbForm=Inf	25	xcomp	_	_
 29	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
 30	armées	armée	NOUN	_	Gender=Fem|Number=Plur	28	obj	_	_
 31	russes	russe	ADJ	_	Gender=Fem|Number=Plur	30	amod	_	SpaceAfter=No
@@ -13576,8 +13576,8 @@
 4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 5	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	_
 6	supposés	supposer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
-7	devoir	devoir	AUX	_	VerbForm=Inf	8	aux	_	_
-8	lire	lire	VERB	_	VerbForm=Inf	6	xcomp	_	_
+7	devoir	devoir	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8	lire	lire	VERB	_	VerbForm=Inf	7	xcomp	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	documentation	documentation	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
@@ -13781,8 +13781,8 @@
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Golfe	Golfe	PROPN	_	_	2	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
-8	devant	devoir	AUX	_	Tense=Pres|VerbForm=Part	9	aux	_	_
-9	déboucher	déboucher	VERB	_	VerbForm=Inf	2	acl	_	_
+8	devant	devoir	VERB	_	Tense=Pres|VerbForm=Part	2	acl	_	_
+9	déboucher	déboucher	VERB	_	VerbForm=Inf	8	xcomp	_	_
 10	vers	vers	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	mise	mise	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
@@ -13849,11 +13849,11 @@
 16	pour	pour	ADP	_	_	18	mark	_	_
 17	être	être	AUX	_	VerbForm=Inf	18	cop	_	_
 18	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	10	advcl	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	23	punct	_	_
+19	,	,	PUNCT	_	_	22	punct	_	_
 20	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
-21	algorithme	algorithme	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
-22	doit	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
-23	pouvoir	pouvoir	VERB	_	VerbForm=Inf	18	ccomp	_	_
+21	algorithme	algorithme	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
+22	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
+23	pouvoir	pouvoir	VERB	_	VerbForm=Inf	22	xcomp	_	_
 24	être	être	AUX	_	VerbForm=Inf	25	aux:pass	_	_
 25	divulgué	divulguer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	xcomp	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	10	punct	_	_
@@ -16916,14 +16916,14 @@
 29	,	,	PUNCT	_	_	31	punct	_	_
 30	qui	qui	PRON	_	PronType=Rel	31	nsubj	_	_
 31	firent	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	acl:relcl	_	_
-32	qu'	que	SCONJ	_	_	39	mark	_	SpaceAfter=No
+32	qu'	que	SCONJ	_	_	38	mark	_	SpaceAfter=No
 33	entre	entre	ADP	_	_	34	case	_	_
-34	1863	1863	NUM	_	_	39	obl	_	_
+34	1863	1863	NUM	_	_	38	obl	_	_
 35	et	et	CCONJ	_	_	36	cc	_	_
 36	1879	1879	NUM	_	_	34	conj	_	_
-37	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	39	nsubj	_	_
-38	dut	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	aux	_	_
-39	voûter	voûter	VERB	_	VerbForm=Inf	31	ccomp	_	_
+37	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	38	nsubj	_	_
+38	dut	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	ccomp	_	_
+39	voûter	voûter	VERB	_	VerbForm=Inf	38	xcomp	_	_
 40	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	41	det	_	_
 41	rivière	rivière	NOUN	_	Gender=Fem|Number=Sing	39	obj	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	15	punct	_	_
@@ -17044,10 +17044,10 @@
 # sent_id = fr-ud-dev_00612
 # text = La France doit se doter d'ici à 2011 d'un plan national d'adaptation au changement climatique, comportant notamment des mesures à adopter face aux inondations.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	France	France	PROPN	_	_	5	nsubj	_	_
-3	doit	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	France	France	PROPN	_	_	3	nsubj	_	_
+3	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	se	se	PRON	_	Person=3|PronType=Prs	5	obj	_	_
-5	doter	doter	VERB	_	VerbForm=Inf	0	root	_	_
+5	doter	doter	VERB	_	VerbForm=Inf	3	xcomp	_	_
 6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 7	ici	ici	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
 8	à	à	ADP	_	_	9	case	_	_
@@ -17075,7 +17075,7 @@
 28	à	à	ADP	_	_	27	fixed	_	_
 29	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
 30	inondations	inondation	NOUN	_	Gender=Fem|Number=Plur	26	obl	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	5	punct	_	_
+31	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00613
 # text = Léthuin est une commune française, située dans le département d'Eure-et-Loir et la région Centre.
@@ -19612,17 +19612,17 @@
 8	de	de	ADP	_	_	7	fixed	_	_
 9	danger	danger	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	3	punct	_	_
-11	et	et	CCONJ	_	_	20	cc	_	_
+11	et	et	CCONJ	_	_	19	cc	_	_
 12	même	même	ADV	_	_	15	advmod	_	_
 13	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 14	plus	plus	ADV	_	_	15	advmod	_	_
-15	hostiles	hostile	NOUN	_	Gender=Masc|Number=Plur	20	nsubj	_	_
+15	hostiles	hostile	NOUN	_	Gender=Masc|Number=Plur	19	nsubj	_	_
 16-17	au	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	18	case	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	staretz	staretz	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
-19	durent	devoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	_
-20	convenir	convenir	VERB	_	VerbForm=Inf	3	conj	_	_
+19	durent	devoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+20	convenir	convenir	VERB	_	VerbForm=Inf	19	xcomp	_	_
 21	qu'	que	SCONJ	_	_	25	mark	_	SpaceAfter=No
 22	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 23	s'	se	PRON	_	Person=3|PronType=Prs	25	expl	_	SpaceAfter=No
@@ -20192,9 +20192,9 @@
 # text = L'argent qui devait financer le film n'est jamais arrivé.
 1	L'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	argent	argent	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
-3	qui	qui	PRON	_	PronType=Rel	5	nsubj	_	_
-4	devait	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
-5	financer	financer	VERB	_	VerbForm=Inf	2	acl:relcl	_	_
+3	qui	qui	PRON	_	PronType=Rel	4	nsubj	_	_
+4	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+5	financer	financer	VERB	_	VerbForm=Inf	4	xcomp	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	film	film	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
 8	n'	ne	ADV	_	Polarity=Neg	11	advmod	_	SpaceAfter=No
@@ -24607,14 +24607,14 @@
 # text = La réunion, qui devait s'achever vendredi soir, se poursuit ce samedi par une ultime séance marathon de négociation.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	réunion	réunion	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	12	punct	_	_
-4	qui	qui	PRON	_	PronType=Rel	7	nsubj	_	_
-5	devait	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	qui	qui	PRON	_	PronType=Rel	5	nsubj	_	_
+5	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
 6	s'	se	PRON	_	Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
-7	achever	achever	VERB	_	VerbForm=Inf	2	acl:relcl	_	_
+7	achever	achever	VERB	_	VerbForm=Inf	5	xcomp	_	_
 8	vendredi	vendredi	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
 9	soir	soir	NOUN	_	Gender=Masc|Number=Sing	8	compound	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	12	punct	_	_
+10	,	,	PUNCT	_	_	2	punct	_	_
 11	se	se	PRON	_	Person=3|PronType=Prs	12	obj	_	_
 12	poursuit	poursuivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
@@ -25323,10 +25323,10 @@
 8	familiale	familial	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 9	que	que	PRON	_	PronType=Rel	14	obj	_	_
 10	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	11	nmod:poss	_	_
-11	père	père	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
-12	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
-13	dû	devoir	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	aux	_	_
-14	vendre	vendre	VERB	_	VerbForm=Inf	7	acl:relcl	_	_
+11	père	père	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+12	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	dû	devoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+14	vendre	vendre	VERB	_	VerbForm=Inf	13	xcomp	_	_
 15	pour	pour	ADP	_	_	16	mark	_	_
 16	éponger	éponger	VERB	_	VerbForm=Inf	14	advcl	_	_
 17	ses	son	DET	_	Gender=Fem|Number=Plur|PronType=Prs	18	nmod:poss	_	_
@@ -25486,13 +25486,13 @@
 # sent_id = fr-ud-dev_00919
 # text = Le club du NAC Breda, défait lors du barrage de qualification pour la Ligue des Champions et troisième de la saison régulière, devra ainsi se contenter de la Coupe Intertoto 2008.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	club	club	NOUN	_	Gender=Masc|Number=Sing	31	nsubj	_	_
+2	club	club	NOUN	_	Gender=Masc|Number=Sing	28	nsubj	_	_
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	NAC	NAC	PROPN	_	_	2	nmod	_	_
 6	Breda	Breda	PROPN	_	_	5	flat:name	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	31	punct	_	_
+7	,	,	PUNCT	_	_	28	punct	_	_
 8	défait	défaire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
 9	lors	lors	ADV	_	_	12	case	_	_
 10-11	du	_	_	_	_	_	_	_	_
@@ -25514,17 +25514,17 @@
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	saison	saison	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
 26	régulière	régulier	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	31	punct	_	_
-28	devra	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	31	aux	_	_
-29	ainsi	ainsi	ADV	_	_	31	advmod	_	_
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	devra	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+29	ainsi	ainsi	ADV	_	_	28	advmod	_	_
 30	se	se	PRON	_	Person=3|PronType=Prs	31	obj	_	_
-31	contenter	contenter	VERB	_	VerbForm=Inf	0	root	_	_
+31	contenter	contenter	VERB	_	VerbForm=Inf	28	xcomp	_	_
 32	de	de	ADP	_	_	34	case	_	_
 33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	Coupe	Coupe	PROPN	_	_	31	obl	_	_
 35	Intertoto	Intertoto	PROPN	_	_	34	appos	_	_
 36	2008	2008	NUM	_	_	35	nmod	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	31	punct	_	_
+37	.	.	PUNCT	_	_	28	punct	_	_
 
 # sent_id = fr-ud-dev_00920
 # text = Cette dénomination souligne l'apport d'un bienfaiteur de la fabrique, l'abbé Épiphane Lapointe (1822-1862).
@@ -29092,8 +29092,8 @@
 18	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
 19	habitations	habitation	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	15	punct	_	_
-21	devant	devoir	AUX	_	Tense=Pres|VerbForm=Part	22	aux	_	_
-22	passer	passer	VERB	_	VerbForm=Inf	15	advcl	_	_
+21	devant	devoir	VERB	_	Tense=Pres|VerbForm=Part	15	advcl	_	_
+22	passer	passer	VERB	_	VerbForm=Inf	21	xcomp	_	_
 23	par	par	ADP	_	_	25	case	_	_
 24	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
 25	administration	administration	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
@@ -30129,9 +30129,9 @@
 # text = Un nouvel album devrait voir le jour en 2008
 1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	nouvel	nouveau	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
-3	album	album	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
-4	devrait	devoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
-5	voir	voir	VERB	_	VerbForm=Inf	0	root	_	_
+3	album	album	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	devrait	devoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	voir	voir	VERB	_	VerbForm=Inf	4	xcomp	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	jour	jour	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
 8	en	en	ADP	_	_	9	case	_	_
@@ -30330,13 +30330,13 @@
 # sent_id = fr-ud-dev_01093
 # text = La Certification professionnelle ou le Diplôme doit apparaître dans le Registre National des Certifications professionnelles.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Certification	Certification	PROPN	_	_	8	nsubj	_	_
+2	Certification	Certification	PROPN	_	_	7	nsubj	_	_
 3	professionnelle	professionnel	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4	ou	ou	CCONJ	_	_	6	cc	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Diplôme	Diplôme	PROPN	_	_	2	conj	_	_
-7	doit	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
-8	apparaître	apparaître	VERB	_	VerbForm=Inf	0	root	_	_
+7	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	apparaître	apparaître	VERB	_	VerbForm=Inf	7	xcomp	_	_
 9	dans	dans	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Registre	Registre	PROPN	_	_	8	obl	_	_
@@ -30346,7 +30346,7 @@
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 15	Certifications	Certifications	PROPN	_	_	11	nmod	_	_
 16	professionnelles	professionnel	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	8	punct	_	_
+17	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-dev_01094
 # text = La précieuse toile avait été volée au Louvre en 1911 par un Italien qui fut arrêté en 1913 au moment où il tentait de la vendre à un collectionneur à Florence.
@@ -30947,12 +30947,12 @@
 7	génétique	génétique	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 9	grande	grand	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	15	punct	_	_
-11	plus	plus	ADV	_	_	15	advmod	_	_
-12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
-13	devrait	devoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	plus	plus	ADV	_	_	13	advmod	_	_
+12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	devrait	devoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
 14	y	y	PRON	_	_	15	expl	_	_
-15	avoir	avoir	VERB	_	VerbForm=Inf	9	conj	_	_
+15	avoir	avoir	VERB	_	VerbForm=Inf	13	xcomp	_	_
 16	d'	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	17	det	_	SpaceAfter=No
 17	amibes	amibe	NOUN	_	Gender=Fem|Number=Plur	15	obj	_	_
 18	prêtes	prêt	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
@@ -34236,9 +34236,9 @@
 31	autant	autant	ADV	_	_	33	det	_	_
 32	d'	de	ADP	_	_	31	fixed	_	SpaceAfter=No
 33	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-34	qui	qui	PRON	_	PronType=Rel	36	nsubj	_	_
-35	doivent	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
-36	confirmer	confirmer	VERB	_	VerbForm=Inf	33	acl:relcl	_	_
+34	qui	qui	PRON	_	PronType=Rel	35	nsubj	_	_
+35	doivent	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	_
+36	confirmer	confirmer	VERB	_	VerbForm=Inf	35	xcomp	_	_
 37	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
 38	élan	élan	NOUN	_	Gender=Masc|Number=Sing	36	obj	_	_
 39	de	de	ADP	_	_	40	case	_	_
@@ -35271,12 +35271,12 @@
 # sent_id = fr-ud-dev_01270
 # text = Le jour précédent, trois autres jésuites (Edmond Campion, Thomas Cottam et James Bosgrave) avec quatre prêtres diocésains et un laïc avaient dû faire face aux mêmes accusations.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	jour	jour	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
+2	jour	jour	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
 3	précédent	précédent	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	27	punct	_	_
+4	,	,	PUNCT	_	_	26	punct	_	_
 5	trois	trois	NUM	_	_	7	nummod	_	_
 6	autres	autre	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
-7	jésuites	jésuite	NOUN	_	Gender=Masc|Number=Plur	27	nsubj	_	_
+7	jésuites	jésuite	NOUN	_	Gender=Masc|Number=Plur	26	nsubj	_	_
 8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
 9	Edmond	Edmond	PROPN	_	_	7	appos	_	_
 10	Campion	Campion	PROPN	_	_	9	flat:name	_	SpaceAfter=No
@@ -35294,16 +35294,16 @@
 22	et	et	CCONJ	_	_	24	cc	_	_
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	laïc	laïc	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	_
-25	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
-26	dû	devoir	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	aux	_	_
-27	faire	faire	VERB	_	VerbForm=Inf	0	root	_	_
+25	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+26	dû	devoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+27	faire	faire	VERB	_	VerbForm=Inf	26	xcomp	_	_
 28	face	face	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	_
 29-30	aux	_	_	_	_	_	_	_	_
 29	à	à	ADP	_	_	32	case	_	_
 30	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
 31	mêmes	même	ADJ	_	Gender=Fem|Number=Plur	32	amod	_	_
 32	accusations	accusation	NOUN	_	Gender=Fem|Number=Plur	27	obl	_	SpaceAfter=No
-33	.	.	PUNCT	_	_	27	punct	_	_
+33	.	.	PUNCT	_	_	26	punct	_	_
 
 # sent_id = fr-ud-dev_01271
 # text = Toutefois, après avoir consulté les partis de l'alliance gouvernementale, le chef de l'État décide de suivre leurs recommandations et nomme Pedro Santana Lopes, alors maire de Lisbonne, à la direction du gouvernement.
@@ -36574,18 +36574,18 @@
 # sent_id = fr-ud-dev_01321
 # text = La liberté d'enseignement, consacrée enfin par notre Constitution, doit mettre un terme à ces illusions et à ces tentatives.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	liberté	liberté	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+2	liberté	liberté	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 3	d'	de	ADP	_	_	4	case	_	SpaceAfter=No
 4	enseignement	enseignement	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	13	punct	_	_
+5	,	,	PUNCT	_	_	12	punct	_	_
 6	consacrée	consacrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
 7	enfin	enfin	ADV	_	_	6	advmod	_	_
 8	par	par	ADP	_	_	10	case	_	_
 9	notre	son	DET	_	Number=Sing|PronType=Prs	10	nmod:poss	_	_
 10	Constitution	Constitution	PROPN	_	_	6	obl	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	13	punct	_	_
-12	doit	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
-13	mettre	mettre	VERB	_	VerbForm=Inf	0	root	_	_
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	mettre	mettre	VERB	_	VerbForm=Inf	12	xcomp	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	terme	terme	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
 16	à	à	ADP	_	_	18	case	_	_
@@ -36595,7 +36595,7 @@
 20	à	à	ADP	_	_	22	case	_	_
 21	ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	22	det	_	_
 22	tentatives	tentative	NOUN	_	Gender=Fem|Number=Plur	18	conj	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	13	punct	_	_
+23	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-dev_01322
 # text = Athènes est entrée tardivement en récession, au moment où les autres économies européennes se relèvent.
@@ -36933,7 +36933,7 @@
 # sent_id = fr-ud-dev_01332
 # text = Cette voie, dénommée Boulevard Intercommunal du Parisis (B.I.P.) ou, plus récemment, avenue du Parisis, doit relier à terme l'autoroute A1 et l'autoroute A104 à l'autoroute A15.
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
-2	voie	voie	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	SpaceAfter=No
+2	voie	voie	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	dénommée	dénommer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
 5	Boulevard	boulevard	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
@@ -36955,9 +36955,9 @@
 19	de	de	ADP	_	_	21	case	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	Parisis	Parisis	PROPN	_	_	18	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	24	punct	_	_
-23	doit	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
-24	relier	relier	VERB	_	VerbForm=Inf	0	root	_	_
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+24	relier	relier	VERB	_	VerbForm=Inf	23	xcomp	_	_
 25	à	à	ADP	_	_	26	case	_	_
 26	terme	terme	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
 27	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
@@ -36971,7 +36971,7 @@
 35	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
 36	autoroute	autoroute	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
 37	A15	A15	X	_	_	36	appos	_	SpaceAfter=No
-38	.	.	PUNCT	_	_	24	punct	_	_
+38	.	.	PUNCT	_	_	23	punct	_	_
 
 # sent_id = fr-ud-dev_01333
 # text = Alors que la concurrence propose des équipements de plus en plus fournis (direction assistée, vitres électriques, verrouillage centralisé, voire climatisation), la Chrysler doit se débattre avec ses 4 vitres manuelles et surtout sa direction classique dépourvue d'assistance.
@@ -36979,7 +36979,7 @@
 2	que	que	SCONJ	_	_	1	fixed	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	concurrence	concurrence	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
-5	propose	proposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	advcl	_	_
+5	propose	proposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	_	_
 6	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	équipements	équipement	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
 8	de	de	ADP	_	_	12	advmod	_	_
@@ -37002,10 +37002,10 @@
 25	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	5	punct	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	Chrysler	Chrysler	PROPN	_	_	31	nsubj	_	_
-29	doit	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+28	Chrysler	Chrysler	PROPN	_	_	29	nsubj	_	_
+29	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 30	se	se	PRON	_	Person=3|PronType=Prs	31	expl	_	_
-31	débattre	débattre	VERB	_	VerbForm=Inf	0	root	_	_
+31	débattre	débattre	VERB	_	VerbForm=Inf	29	xcomp	_	_
 32	avec	avec	ADP	_	_	35	case	_	_
 33	ses	son	DET	_	Gender=Fem|Number=Plur|PronType=Prs	35	nmod:poss	_	_
 34	4	4	NUM	_	_	35	nummod	_	_
@@ -37019,7 +37019,7 @@
 42	dépourvue	dépourvoir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	40	acl	_	_
 43	d'	de	ADP	_	_	44	case	_	SpaceAfter=No
 44	assistance	assistance	NOUN	_	Gender=Fem|Number=Sing	42	obl	_	SpaceAfter=No
-45	.	.	PUNCT	_	_	31	punct	_	_
+45	.	.	PUNCT	_	_	29	punct	_	_
 
 # sent_id = fr-ud-dev_01334
 # text = À l'âge de 1 an, Ethan déménage avec ses parents à Los Angeles en Californie.
@@ -37699,9 +37699,9 @@
 
 # sent_id = fr-ud-dev_01358
 # text = Mais les meurtrières qui accompagnent la grande porte d'entrée doivent être un reste d'une porte plus ancienne et du pont-levis qui la protégeait.
-1	Mais	mais	CCONJ	_	_	14	cc	_	_
+1	Mais	mais	CCONJ	_	_	11	cc	_	_
 2	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
-3	meurtrières	meurtrière	NOUN	_	Gender=Fem|Number=Plur	14	nsubj	_	_
+3	meurtrières	meurtrière	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	_
 4	qui	qui	PRON	_	PronType=Rel	5	nsubj	_	_
 5	accompagnent	accompagner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -37709,10 +37709,10 @@
 8	porte	porte	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
 10	entrée	entrée	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
-11	doivent	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+11	doivent	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	être	être	AUX	_	VerbForm=Inf	14	cop	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	reste	reste	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+14	reste	reste	NOUN	_	Gender=Masc|Number=Sing	11	xcomp	_	_
 15	d'	de	ADP	_	_	17	case	_	SpaceAfter=No
 16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	porte	porte	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
@@ -37726,7 +37726,7 @@
 24	qui	qui	PRON	_	PronType=Rel	26	nsubj	_	_
 25	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
 26	protégeait	protéger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	acl:relcl	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	14	punct	_	_
+27	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = fr-ud-dev_01359
 # text = Affublé d'un costume aux couleurs de la bannière étoilée et muni d'un bouclier issu des technologies les plus avancées, Captain America est envoyé au front afin de mettre la pâté aux Allemands et redonner du courage aux troupes américaines.
@@ -38323,13 +38323,13 @@
 
 # sent_id = fr-ud-dev_01379
 # text = En outre, l'Assemblée devra inviter tous les gouvernements à redoubler d'efforts, au sein des institutions spécialisées et des autres organismes dont ils sont membres, pour que la priorité soit accordée à la question de l'aide aux peuples des territoires non autonomes.
-1	En	en	ADP	_	_	7	advmod	_	_
+1	En	en	ADP	_	_	6	advmod	_	_
 2	outre	outre	ADV	_	_	1	fixed	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	7	punct	_	_
+3	,	,	PUNCT	_	_	6	punct	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
-5	Assemblée	assemblée	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
-6	devra	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	aux	_	_
-7	inviter	inviter	VERB	_	VerbForm=Inf	0	root	_	_
+5	Assemblée	assemblée	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	devra	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	inviter	inviter	VERB	_	VerbForm=Inf	6	xcomp	_	_
 8	tous	tout	DET	_	Gender=Masc|Number=Plur	10	det	_	_
 9	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
 10	gouvernements	gouvernement	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
@@ -38337,7 +38337,7 @@
 12	redoubler	redoubler	VERB	_	VerbForm=Inf	7	xcomp	_	_
 13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
 14	efforts	effort	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	7	punct	_	_
+15	,	,	PUNCT	_	_	6	punct	_	_
 16-17	au	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	21	case	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	fixed	_	_
@@ -38355,7 +38355,7 @@
 28	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	30	nsubj	_	_
 29	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
 30	membres	membre	NOUN	_	Gender=Masc|Number=Plur	26	acl:relcl	_	SpaceAfter=No
-31	,	,	PUNCT	_	_	7	punct	_	_
+31	,	,	PUNCT	_	_	6	punct	_	_
 32	pour	pour	ADP	_	_	37	mark	_	_
 33	que	que	SCONJ	_	_	32	fixed	_	_
 34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
@@ -38378,7 +38378,7 @@
 49	territoires	territoire	NOUN	_	Gender=Masc|Number=Plur	46	nmod	_	_
 50	non	non	ADV	_	_	51	advmod	_	_
 51	autonomes	autonome	ADJ	_	Gender=Masc|Number=Plur	49	amod	_	SpaceAfter=No
-52	.	.	PUNCT	_	_	7	punct	_	_
+52	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_01380
 # text = Le square de la Madone, anciennement square Hébert, ouvert en 1937, est un square du 18 arrondissement de Paris.
@@ -38990,10 +38990,10 @@
 
 # sent_id = fr-ud-dev_01402
 # text = M. Sleimane doit clôturer mardi ces consultations avant de désigner un nouveau Premier ministre pour remplacer Saad Hariri, dont le gouvernement d'union s'est effondré le 12 janvier avec la démission des ministres du camp du Hezbollah.
-1	M.	M.	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+1	M.	M.	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 2	Sleimane	Sleimane	PROPN	_	_	1	flat:name	_	_
-3	doit	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
-4	clôturer	clôturer	VERB	_	VerbForm=Inf	0	root	_	_
+3	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	clôturer	clôturer	VERB	_	VerbForm=Inf	3	xcomp	_	_
 5	mardi	mardi	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
 6	ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	7	det	_	_
 7	consultations	consultation	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
@@ -39008,7 +39008,7 @@
 16	remplacer	remplacer	VERB	_	VerbForm=Inf	10	advcl	_	_
 17	Saad	Saad	PROPN	_	_	16	obj	_	_
 18	Hariri	Hariri	PROPN	_	_	17	flat:name	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	4	punct	_	_
+19	,	,	PUNCT	_	_	3	punct	_	_
 20	dont	dont	PRON	_	PronType=Rel	22	nmod	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	gouvernement	gouvernement	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
@@ -39035,7 +39035,7 @@
 40	de	de	ADP	_	_	42	case	_	_
 41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	Hezbollah	Hezbollah	PROPN	_	_	39	nmod	_	SpaceAfter=No
-43	.	.	PUNCT	_	_	4	punct	_	_
+43	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_01403
 # text = Le troc commercial se fit à la fois par mer et par terre.
@@ -39299,10 +39299,10 @@
 20	dollars	dollar	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	10	punct	_	_
 22	disant	dire	VERB	_	Tense=Pres|VerbForm=Part	10	advcl	_	_
-23	qu'	que	SCONJ	_	_	26	mark	_	SpaceAfter=No
-24	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
-25	doit	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
-26	acheter	acheter	VERB	_	VerbForm=Inf	22	ccomp	_	_
+23	qu'	que	SCONJ	_	_	25	mark	_	SpaceAfter=No
+24	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+25	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	ccomp	_	_
+26	acheter	acheter	VERB	_	VerbForm=Inf	25	xcomp	_	_
 27	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	foulard	foulard	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
 29	pour	pour	ADP	_	_	31	case	_	_
@@ -40134,11 +40134,11 @@
 # sent_id = fr-ud-dev_01440
 # text = (...) Les universités, qui réclament à juste titre des ressources additionnelles pour s'acquitter correctement de leur mission, doivent faire un exercice d'autocritique et rendre compte de leur gestion.
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	...	...	PUNCT	_	_	24	punct	_	SpaceAfter=No
+2	...	...	PUNCT	_	_	23	punct	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
 4	Les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
-5	universités	université	NOUN	_	Gender=Fem|Number=Plur	24	nsubj	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	24	punct	_	_
+5	universités	université	NOUN	_	Gender=Fem|Number=Plur	23	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	23	punct	_	_
 7	qui	qui	PRON	_	PronType=Rel	8	nsubj	_	_
 8	réclament	réclamer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
 9	à	à	ADP	_	_	8	advmod	_	_
@@ -40154,9 +40154,9 @@
 19	de	de	ADP	_	_	21	case	_	_
 20	leur	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	21	nmod:poss	_	_
 21	mission	mission	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	24	punct	_	_
-23	doivent	devoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
-24	faire	faire	VERB	_	VerbForm=Inf	0	root	_	_
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	doivent	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+24	faire	faire	VERB	_	VerbForm=Inf	23	xcomp	_	_
 25	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	exercice	exercice	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
 27	d'	de	ADP	_	_	28	case	_	SpaceAfter=No
@@ -40167,7 +40167,7 @@
 32	de	de	ADP	_	_	34	case	_	_
 33	leur	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	34	nmod:poss	_	_
 34	gestion	gestion	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	24	punct	_	_
+35	.	.	PUNCT	_	_	23	punct	_	_
 
 # sent_id = fr-ud-dev_01441
 # text = Le Disneyodendron est genre d'arbre imaginaire construit par la Walt Disney Company dans plusieurs de ses parcs à thèmes.

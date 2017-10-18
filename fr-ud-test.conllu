@@ -571,7 +571,7 @@
 3	,	,	PUNCT	_	_	7	punct	_	_
 4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	période	période	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
-6	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	aux	_	_
+6	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	aux:pass	_	_
 7	mise	mettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	à	à	ADP	_	_	9	case	_	_
 9	profit	profit	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
@@ -1643,7 +1643,7 @@
 26	revenu	revenu	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	39	punct	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	montant	montant	NOUN	_	Gender=Masc|Number=Sing	39	nsubj:pass	_	_
+29	montant	montant	NOUN	_	Gender=Masc|Number=Sing	39	nsubj	_	_
 30	versé	verser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	acl	_	_
 31-32	au	_	_	_	_	_	_	_	_
 31	à	à	ADP	_	_	33	case	_	_
@@ -3141,11 +3141,11 @@
 18	de	de	ADP	_	_	20	case	_	_
 19	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
 20	intrigue	intrigue	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
-21	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
 22	représentés	représenter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 23	en	en	ADP	_	_	24	case	_	_
 24	kemonomimi	kemonomimi	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	22	punct	_	_
+25	,	,	PUNCT	_	_	24	punct	_	_
 26	soit	soit	SCONJ	_	_	29	cc	_	_
 27	avec	avec	ADP	_	_	29	case	_	_
 28	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
@@ -3163,7 +3163,7 @@
 40	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 41	jeune	jeune	ADJ	_	Gender=Masc|Number=Sing	42	amod	_	_
 42	âge	âge	NOUN	_	Gender=Masc|Number=Sing	39	obj	_	SpaceAfter=No
-43	,	,	PUNCT	_	_	22	punct	_	_
+43	,	,	PUNCT	_	_	42	punct	_	_
 44	mais	mais	CCONJ	_	_	47	cc	_	_
 45	aussi	aussi	ADV	_	_	44	advmod	_	_
 46	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	SpaceAfter=No
@@ -6317,7 +6317,7 @@
 3	allez	aller	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj:pass	_	_
-6	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
 7	connue	connaître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	pour	pour	ADP	_	_	10	case	_	_
 9	être	être	AUX	_	VerbForm=Inf	10	cop	_	_
@@ -6767,7 +6767,7 @@
 5	car	car	CCONJ	_	_	13	cc	_	_
 6	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
 7	petit	petit	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
-8	coin	coin	NOUN	_	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
+8	coin	coin	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	Naples	Naples	PROPN	_	_	8	nmod	_	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_

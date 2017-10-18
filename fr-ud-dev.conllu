@@ -2689,7 +2689,7 @@
 3	que	que	SCONJ	_	_	7	mark	_	_
 4	deux	deux	NUM	_	_	5	nummod	_	_
 5	ateliers	atelier	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
-6	seront	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	7	aux	_	_
+6	seront	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	7	aux:pass	_	_
 7	organisés	organiser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	ccomp	_	_
 8	à	à	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
@@ -9930,7 +9930,7 @@
 25	dont	dont	PRON	_	PronType=Rel	27	nmod	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	tarif	tarif	NOUN	_	Gender=Masc|Number=Sing	29	nsubj:pass	_	_
-28	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+28	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux:pass	_	_
 29	revu	revoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
 30	chaque	chaque	DET	_	Gender=Fem|Number=Sing	31	det	_	_
 31	année	année	NOUN	_	Gender=Fem|Number=Sing	29	obl	_	_
@@ -15340,7 +15340,7 @@
 # sent_id = fr-ud-dev_00551
 # text = Cette flottille, sous le commandement du capitaine de la Royal Navy Bernard Warburton-Lee, s'était déjà séparé du Renown durant sa poursuite du Scharnhorst et du Gneisenau, après avoir reçu l'ordre de monter la garde devant l'entrée du Vestfjord.
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
-2	flottille	flottille	NOUN	_	Gender=Fem|Number=Sing	20	nsubj:pass	_	SpaceAfter=No
+2	flottille	flottille	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	20	punct	_	_
 4	sous	sous	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -23659,7 +23659,7 @@
 
 # sent_id = fr-ud-dev_00855
 # text = Il se voit obligé de se transformer en Ultimate Echo Echo pour les terrasser.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	se	se	PRON	_	Person=3|PronType=Prs	3	obj	_	_
 3	voit	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	obligé	obliger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	_
@@ -30689,7 +30689,7 @@
 15	nationale	national	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
 16	polonaise	polonais	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
 17	qu'	que	SCONJ	_	_	19	mark	_	SpaceAfter=No
-18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
 19	tournée	tourner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 21	mémorable	mémorable	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
@@ -37314,7 +37314,7 @@
 # sent_id = fr-ud-dev_01346
 # text = Il est classé en « zone d'éducation prioritaire » (ZEP).
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	classé	classer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	en	en	ADP	_	_	6	case	_	_
 5	«	«	PUNCT	_	_	6	punct	_	_

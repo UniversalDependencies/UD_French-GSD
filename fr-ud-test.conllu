@@ -169,7 +169,7 @@
 3	,	,	PUNCT	_	_	18	punct	_	_
 4	lors	lors	ADV	_	_	8	case	_	_
 5	de	de	ADP	_	_	4	fixed	_	_
-6	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	8	nmod:poss	_	_
+6	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	_
 7	première	premier	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
 8	visite	visite	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
 9	en	en	ADP	_	_	10	case	_	_
@@ -214,7 +214,7 @@
 6	match	match	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 7	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 8	à	à	ADP	_	_	10	case	_	_
-9	leur	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	10	nmod:poss	_	_
+9	leur	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
 10	paroxysme	paroxysme	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -224,7 +224,7 @@
 2	ne	ne	ADV	_	Polarity=Neg	3	advmod	_	_
 3	citent	citer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	advmod	_	_
-5	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	6	nmod:poss	_	_
+5	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
 6	nom	nom	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	parce	parce	ADV	_	_	15	mark	_	_
@@ -294,7 +294,7 @@
 35	,	,	PUNCT	_	_	6	punct	_	_
 36	parce	parce	ADV	_	_	47	mark	_	_
 37	que	que	SCONJ	_	_	36	fixed	_	_
-38	leur	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	39	nmod:poss	_	_
+38	leur	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	39	det	_	_
 39	coeur	coeur	NOUN	_	Gender=Masc|Number=Sing	47	nsubj	_	_
 40	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	cop	_	_
 41	comme	comme	ADP	_	_	43	case	_	_
@@ -308,7 +308,7 @@
 
 # sent_id = fr-ud-test_00009
 # text = Son discours, inspiré d'une pensée du Moyen-âge, a trouvé preneur.
-1	Son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	2	nmod:poss	_	_
+1	Son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
 2	discours	discours	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	inspiré	inspirer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
@@ -454,7 +454,7 @@
 3	mener	mener	VERB	_	VerbForm=Inf	2	xcomp	_	_
 4	à	à	ADP	_	_	5	case	_	_
 5	bien	bien	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
-6	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	7	nmod:poss	_	_
+6	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	_
 7	politique	politique	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
 8	dictatoriale	dictatorial	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
@@ -671,7 +671,7 @@
 16	peuple	peuple	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 17	et	et	CCONJ	_	_	20	cc	_	_
 18	de	de	ADP	_	_	20	case	_	_
-19	ses	son	DET	_	Gender=Masc|Number=Plur|PronType=Prs	20	nmod:poss	_	_
+19	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	20	det	_	_
 20	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -923,7 +923,7 @@
 
 # sent_id = fr-ud-test_00035
 # text = Son destin est-il la Poussière ?
-1	Son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	2	nmod:poss	_	_
+1	Son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
 2	destin	destin	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
 4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
@@ -953,7 +953,7 @@
 8	celui	celui	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	21	nsubj	_	_
 9	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	_
 10	imprimera	imprimer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	acl:relcl	_	_
-11	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	12	nmod:poss	_	_
+11	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det	_	_
 12	marque	marque	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	fixera	fixer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	conj	_	_
@@ -987,7 +987,7 @@
 15	pas	pas	ADV	_	Polarity=Neg	12	advmod	_	_
 16	conscience	conscience	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
 17	de	de	ADP	_	_	19	case	_	_
-18	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	19	nmod:poss	_	_
+18	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det	_	_
 19	présence	présence	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
 20	?	?	PUNCT	_	_	5	punct	_	_
 
@@ -998,7 +998,7 @@
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	présent	présent	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 5	dans	dans	ADP	_	_	7	case	_	_
-6	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	7	nmod:poss	_	_
+6	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	_
 7	passion	passion	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -1276,7 +1276,7 @@
 17	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
 18	état	état	NOUN	_	Gender=Masc|Number=Sing	28	nsubj	_	_
 19	de	de	ADP	_	_	21	case	_	_
-20	nos	son	DET	_	Gender=Masc|Number=Plur|PronType=Prs	21	nmod:poss	_	_
+20	nos	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	21	det	_	_
 21	cours	cours	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
 22	d'	de	ADP	_	_	23	case	_	SpaceAfter=No
 23	eau	eau	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
@@ -1471,12 +1471,12 @@
 9	comprends	comprendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 10	très	très	ADV	_	_	11	advmod	_	_
 11	bien	bien	ADV	_	_	9	advmod	_	_
-12	votre	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	13	nmod:poss	_	_
+12	votre	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det	_	_
 13	préoccupation	préoccupation	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
 14	par	par	ADP	_	_	18	case	_	_
 15	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	14	fixed	_	_
 16	à	à	ADP	_	_	14	fixed	_	_
-17	ma	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	18	nmod:poss	_	_
+17	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det	_	_
 18	participation	participation	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
 19	à	à	ADP	_	_	21	case	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
@@ -1583,7 +1583,7 @@
 12	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing	12	obj	_	_
 14	à	à	ADP	_	_	16	case	_	_
-15	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	16	nmod:poss	_	_
+15	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det	_	_
 16	secours	secours	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -1717,7 +1717,7 @@
 45	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
 46	bout	bout	NOUN	_	Gender=Masc|Number=Sing	41	obj	_	_
 47	de	de	ADP	_	_	49	case	_	_
-48	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	49	nmod:poss	_	_
+48	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	49	det	_	_
 49	nez	nez	NOUN	_	Gender=Masc|Number=Sing	46	nmod	_	SpaceAfter=No
 50	.	.	PUNCT	_	_	30	punct	_	_
 
@@ -2036,7 +2036,7 @@
 6	décide	décider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
 7	de	de	ADP	_	_	8	mark	_	_
 8	regagner	regagner	VERB	_	VerbForm=Inf	6	xcomp	_	_
-9	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	10	nmod:poss	_	_
+9	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
 10	liberté	liberté	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 12	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2165,11 +2165,11 @@
 5	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	essentiel	essentiel	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
 7	de	de	ADP	_	_	9	case	_	_
-8	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	9	nmod:poss	_	_
+8	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	_
 9	temps	temps	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 10	et	et	CCONJ	_	_	13	cc	_	_
 11	de	de	ADP	_	_	13	case	_	_
-12	son	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	13	nmod:poss	_	_
+12	son	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det	_	_
 13	énérgie	énergie	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
 14	exclusivement	exclusivement	ADV	_	_	1	advmod	_	_
 15-16	aux	_	_	_	_	_	_	_	_
@@ -2210,16 +2210,16 @@
 15	Etat	état	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
 16	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 17	réitéré	réitérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-18	leur	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	19	nmod:poss	_	_
+18	leur	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det	_	_
 19	volonté	volonté	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
 20	d'	de	ADP	_	_	21	mark	_	SpaceAfter=No
 21	œuvrer	œuvrer	VERB	_	VerbForm=Inf	19	acl	_	_
 22	à	à	ADP	_	_	24	case	_	_
-23	leur	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	24	nmod:poss	_	_
+23	leur	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det	_	_
 24	renforcement	renforcement	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
 25	et	et	CCONJ	_	_	28	cc	_	_
 26	à	à	ADP	_	_	28	case	_	_
-27	leur	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	28	nmod:poss	_	_
+27	leur	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	28	det	_	_
 28	diversification	diversification	NOUN	_	Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	17	punct	_	_
 
@@ -2327,7 +2327,7 @@
 45	,	,	PUNCT	_	_	31	punct	_	_
 46	en	en	ADP	_	_	47	mark	_	_
 47	opposant	opposer	VERB	_	Tense=Pres|VerbForm=Part	31	advcl	_	_
-48	son	son	DET	_	Number=Sing|PronType=Prs	49	nmod:poss	_	_
+48	son	son	DET	_	Number=Sing|Poss=Yes|PronType=Prs	49	det	_	_
 49	Veto	Veto	PROPN	_	_	47	obj	_	_
 50	à	à	ADP	_	_	52	case	_	_
 51	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	SpaceAfter=No
@@ -2411,7 +2411,7 @@
 2	--	--	PUNCT	_	_	14	punct	_	SpaceAfter=No
 3	poursuit	poursuivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	_	SpaceAfter=No
 4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-5	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	6	nmod:poss	_	_
+5	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
 6	argument	argument	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
 7	--	--	PUNCT	_	_	14	punct	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	14	punct	_	_
@@ -2765,7 +2765,7 @@
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	volonté	volonté	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 8	de	de	ADP	_	_	10	case	_	_
-9	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	10	nmod:poss	_	_
+9	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
 10	pays	pays	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 11	de	de	ADP	_	_	12	mark	_	_
 12	renforcer	renforcer	VERB	_	VerbForm=Inf	7	acl	_	_
@@ -2847,7 +2847,7 @@
 7	maintiendra	maintenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	-t	t	PART	_	_	9	expl	_	SpaceAfter=No
 9	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
-10	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	11	nmod:poss	_	_
+10	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	_
 11	préférence	préférence	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
 12	pour	pour	ADP	_	_	14	case	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
@@ -3121,7 +3121,7 @@
 # sent_id = fr-ud-test_00106
 # text = Outre ses aspects fantasy dans un environnement moderne et actuel, la plupart des jeunes personnages de l'intrigue sont représentés en kemonomimi, soit avec des oreilles et des queues de chat, Ces attributs physiques marquent le jeune âge, mais aussi l'innocence et la virginité ;
 1	Outre	outre	ADP	_	_	3	case	_	_
-2	ses	son	DET	_	Gender=Masc|Number=Plur|PronType=Prs	3	nmod:poss	_	_
+2	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det	_	_
 3	aspects	aspect	NOUN	_	Gender=Masc|Number=Plur	22	obl	_	_
 4	fantasy	fantasy	NOUN	_	Gender=Fem|Number=Sing	3	amod	_	_
 5	dans	dans	ADP	_	_	7	case	_	_
@@ -3179,7 +3179,7 @@
 2	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
 3	aide	aide	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
 4	de	de	ADP	_	_	6	case	_	_
-5	leurs	son	DET	_	Gender=Masc|Number=Plur|PronType=Prs	6	nmod:poss	_	_
+5	leurs	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	6	det	_	_
 6	résultats	résultat	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
@@ -3283,7 +3283,7 @@
 21	de	de	ADP	_	_	23	mark	_	_
 22	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	23	iobj	_	_
 23	rendre	rendre	VERB	_	VerbForm=Inf	20	acl	_	_
-24	nos	son	DET	_	Gender=Masc|Number=Plur|PronType=Prs	25	nmod:poss	_	_
+24	nos	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	25	det	_	_
 25	bienfaits	bienfait	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	_
 26	»	»	PUNCT	_	_	15	punct	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	9	punct	_	_
@@ -3353,7 +3353,7 @@
 5	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	_
 6	tant	tant	ADV	_	_	14	mark	_	_
 7	que	que	SCONJ	_	_	6	fixed	_	_
-8	nos	son	DET	_	Gender=Fem|Number=Plur|PronType=Prs	9	nmod:poss	_	_
+8	nos	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	9	det	_	_
 9	revendications	revendication	NOUN	_	Gender=Fem|Number=Plur	14	nsubj:pass	_	_
 10	n'	ne	ADV	_	Polarity=Neg	14	advmod	_	SpaceAfter=No
 11	auront	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	14	aux	_	_
@@ -3394,16 +3394,16 @@
 20	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
 21	lundi	lundi	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
 22	matin	matin	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
-23	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	24	nmod:poss	_	_
+23	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det	_	_
 24	domicile	domicile	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
 25	encerclé	encercler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
 26	et	et	CCONJ	_	_	28	cc	_	_
-27	ses	son	DET	_	Gender=Masc|Number=Plur|PronType=Prs	28	nmod:poss	_	_
+27	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	28	det	_	_
 28	téléphones	téléphone	NOUN	_	Gender=Masc|Number=Plur	24	conj	_	_
 29	coupés	couper	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	28	acl	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	20	punct	_	_
 31	selon	selon	ADP	_	_	33	case	_	_
-32	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	33	nmod:poss	_	_
+32	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	33	det	_	_
 33	site	site	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
 34	internet	internet	NOUN	_	Gender=Masc|Number=Sing	33	compound	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	16	punct	_	_
@@ -3464,7 +3464,7 @@
 11	important	important	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 12	et	et	CCONJ	_	_	13	cc	_	_
 13	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
-14	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	15	nmod:poss	_	_
+14	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det	_	_
 15	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
 16	à	à	ADP	_	_	17	mark	_	_
 17	jouer	jouer	VERB	_	VerbForm=Inf	15	acl	_	_
@@ -3504,7 +3504,7 @@
 14	Schalke	Schalke	PROPN	_	_	12	obl	_	_
 15	04	04	X	_	_	14	compound	_	_
 16	et	et	CCONJ	_	_	18	cc	_	_
-17	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	18	nmod:poss	_	_
+17	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det	_	_
 18	effectif	effectif	NOUN	_	Gender=Masc|Number=Sing	14	conj	_	_
 19	plus	plus	ADV	_	_	20	advmod	_	_
 20	limité	limité	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
@@ -3577,7 +3577,7 @@
 2	grande	grand	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	entreprise	entreprise	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 4	possède	posséder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	6	nmod:poss	_	_
+5	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
 6	centre	centre	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	téléphonistes	téléphoniste	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
@@ -3681,7 +3681,7 @@
 17	en	en	ADP	_	_	18	case	_	_
 18	congé	congé	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 19	de	de	ADP	_	_	21	case	_	_
-20	ses	son	DET	_	Gender=Fem|Number=Plur|PronType=Prs	21	nmod:poss	_	_
+20	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	21	det	_	_
 21	fonctions	fonction	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	_
 22	de	de	ADP	_	_	24	case	_	_
 23	première	premier	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
@@ -3970,7 +3970,7 @@
 
 # sent_id = fr-ud-test_00131
 # text = Sa moyenne de 0,54 but par match est la meilleure parmi les joueurs ayant disputé au moins 20 matches cette saison, a indiqué la MLS.
-1	Sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	2	nmod:poss	_	_
+1	Sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
 2	moyenne	moyenne	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	0,54	0,54	NUM	_	_	5	nummod	_	_
@@ -4142,7 +4142,7 @@
 # sent_id = fr-ud-test_00136
 # text = Retrouver notre inspiration.
 1	Retrouver	retrouver	VERB	_	VerbForm=Inf	0	root	_	_
-2	notre	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	3	nmod:poss	_	_
+2	notre	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det	_	_
 3	inspiration	inspiration	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -4153,7 +4153,7 @@
 3	's	's	PART	_	_	2	compound	_	_
 4	estime	estimer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	_
 5	que	que	SCONJ	_	_	9	mark	_	_
-6	leur	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	7	nmod:poss	_	_
+6	leur	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	_
 7	note	note	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 8	ne	ne	ADV	_	Polarity=Neg	9	advmod	_	_
 9	devrait	devoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
@@ -4265,10 +4265,10 @@
 5	,	,	PUNCT	_	_	15	punct	_	_
 6	de	de	ADP	_	_	9	case	_	_
 7	par	par	ADP	_	_	6	fixed	_	_
-8	leur	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	9	nmod:poss	_	_
+8	leur	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	_
 9	clarté	clarté	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
-11	leur	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	12	nmod:poss	_	_
+11	leur	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det	_	_
 12	crédibilité	crédibilité	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
@@ -4645,7 +4645,7 @@
 9	piètres	piètre	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
 10	performances	performance	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
 11	de	de	ADP	_	_	13	case	_	_
-12	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	13	nmod:poss	_	_
+12	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det	_	_
 13	voisin	voisin	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 14	italien	italien	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	13	punct	_	_
@@ -4686,13 +4686,13 @@
 11	de	de	ADP	_	_	12	case	_	_
 12	rugby	rugby	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 13	de	de	ADP	_	_	15	case	_	_
-14	son	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	15	nmod:poss	_	_
+14	son	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det	_	_
 15	histoire	histoire	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	4	punct	_	_
 17	24	24	NUM	_	_	18	nummod	_	_
 18	ans	an	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
 19	après	après	ADP	_	_	22	case	_	_
-20	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	22	nmod:poss	_	_
+20	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det	_	_
 21	premier	premier	NUM	_	_	22	nummod	_	_
 22	sacre	sacre	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
 23	en	en	ADP	_	_	24	case	_	_
@@ -4745,7 +4745,7 @@
 # sent_id = fr-ud-test_00157
 # text = De son côté, l'agence de sûreté nucléaire japonaise n'a pas relevé le classement de l'accident de la centrale de Fukushima au niveau 6.
 1	De	de	ADP	_	_	3	case	_	_
-2	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	3	nmod:poss	_	_
+2	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det	_	_
 3	côté	côté	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	14	punct	_	_
 5	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
@@ -4802,7 +4802,7 @@
 5	municipalité	municipalité	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 6	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	apporter	apporter	VERB	_	VerbForm=Inf	6	xcomp	_	_
-8	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	9	nmod:poss	_	_
+8	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	_
 9	soutien	soutien	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
 10	logistique	logistique	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
 11-12	au	_	_	_	_	_	_	_	_
@@ -4923,7 +4923,7 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	fixed	_	_
 8	cours	cours	NOUN	_	Gender=Masc|Number=Sing	6	fixed	_	_
 9	de	de	ADP	_	_	6	fixed	_	_
-10	mon	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	11	nmod:poss	_	_
+10	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	_
 11	déplacement	déplacement	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
 12	à	à	ADP	_	_	13	case	_	_
 13	Prague	Prague	PROPN	_	_	11	nmod	_	SpaceAfter=No
@@ -4950,7 +4950,7 @@
 8	Haupais	Haupais	PROPN	_	_	7	flat:name	_	_
 9	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	_
 10	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
-11	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	12	nmod:poss	_	_
+11	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det	_	_
 12	rentrée	rentrée	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
 13	en	en	ADP	_	_	14	case	_	_
 14	classe	classe	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
@@ -5077,7 +5077,7 @@
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	fixed	_	_
 16	cours	cours	NOUN	_	Gender=Masc|Number=Sing	14	fixed	_	_
 17	de	de	ADP	_	_	14	fixed	_	_
-18	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	19	nmod:poss	_	_
+18	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det	_	_
 19	conférence	conférence	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
 20	de	de	ADP	_	_	21	case	_	_
 21	presse	presse	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
@@ -5137,7 +5137,7 @@
 # sent_id = fr-ud-test_00171
 # text = À son bord, deux frères de 25 et 23 ans demeurant à Bourg-Argental (Loire).
 1	À	à	ADP	_	_	3	case	_	_
-2	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	3	nmod:poss	_	_
+2	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det	_	_
 3	bord	bord	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	deux	deux	NUM	_	_	6	nummod	_	_
@@ -5198,10 +5198,10 @@
 26	marketing	marketing	NOUN	_	Gender=Masc|Number=Sing	25	compound	_	_
 27	accroissent	accroître	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 28	rapidement	rapidement	ADV	_	_	27	advmod	_	_
-29	leur	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	30	nmod:poss	_	_
+29	leur	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	30	det	_	_
 30	efficacité	efficacité	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	_
 31	et	et	CCONJ	_	_	33	cc	_	_
-32	leur	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	33	nmod:poss	_	_
+32	leur	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	33	det	_	_
 33	impact	impact	NOUN	_	Gender=Masc|Number=Sing	30	conj	_	_
 34	sur	sur	ADP	_	_	36	case	_	_
 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
@@ -5523,7 +5523,7 @@
 18	Vegas	Vegas	PROPN	_	_	17	flat:name	_	_
 19	pour	pour	ADP	_	_	20	mark	_	_
 20	assurer	assurer	VERB	_	VerbForm=Inf	10	advcl	_	_
-21	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	22	nmod:poss	_	_
+21	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det	_	_
 22	défense	défense	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -5549,7 +5549,7 @@
 18	deux	deux	NUM	_	_	19	nummod	_	_
 19	minutes	minute	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	_
 20	sur	sur	ADP	_	_	22	case	_	_
-21	mon	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	22	nmod:poss	_	_
+21	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det	_	_
 22	temps	temps	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
 23	d'	de	ADP	_	_	24	case	_	SpaceAfter=No
 24	attente	attente	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
@@ -5629,7 +5629,7 @@
 6	"	"	PUNCT	_	_	5	punct	_	_
 7	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
 8	de	de	ADP	_	_	10	case	_	_
-9	vos	son	DET	_	Gender=Fem|Number=Plur|PronType=Prs	10	nmod:poss	_	_
+9	vos	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	10	det	_	_
 10	coordonnées	coordonnée	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
 11-12	au	_	_	_	_	_	_	_	_
 11	à	à	ADP	_	_	13	case	_	_
@@ -5744,7 +5744,7 @@
 23	de	de	ADP	_	_	24	mark	_	_
 24	faire	faire	VERB	_	VerbForm=Inf	14	xcomp	_	_
 25	croître	croître	VERB	_	VerbForm=Inf	24	xcomp	_	_
-26	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	27	nmod:poss	_	_
+26	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	27	det	_	_
 27	bénéfice	bénéfice	NOUN	_	Gender=Masc|Number=Sing	25	obj	_	_
 28	net	net	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
 29	de	de	ADP	_	_	31	case	_	_
@@ -5883,7 +5883,7 @@
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 9	pas	pas	ADV	_	Polarity=Neg	12	advmod	_	_
 10	à	à	ADP	_	_	12	case	_	_
-11	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	12	nmod:poss	_	_
+11	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det	_	_
 12	coup	coup	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
 14	essai	essai	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
@@ -5974,7 +5974,7 @@
 48	change	change	NOUN	_	Gender=Masc|Number=Sing	46	nmod	_	_
 49	appartenant	appartenir	VERB	_	Tense=Pres|VerbForm=Part	46	acl	_	_
 50	à	à	ADP	_	_	52	case	_	_
-51	notre	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	52	nmod:poss	_	_
+51	notre	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	52	det	_	_
 52	compatriote	compatriote	NOUN	_	Gender=Masc|Number=Sing	49	obl	_	_
 53	Sacko	Sacko	PROPN	_	_	52	appos	_	_
 54	Souleymane	Souleymane	PROPN	_	_	53	flat:name	_	SpaceAfter=No
@@ -6121,7 +6121,7 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Campuchea	Campuchea	PROPN	_	_	3	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	3	punct	_	_
-9	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	10	nmod:poss	_	_
+9	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
 10	hote	hôte	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 11	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 12	toujours	toujours	ADV	_	_	11	advmod	_	_
@@ -6131,7 +6131,7 @@
 16	aider	aider	VERB	_	VerbForm=Inf	11	advcl	_	_
 17	à	à	ADP	_	_	18	mark	_	_
 18	trouver	trouver	VERB	_	VerbForm=Inf	16	xcomp	_	_
-19	votre	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	20	nmod:poss	_	_
+19	votre	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det	_	_
 20	bonheur	bonheur	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	26	punct	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
@@ -6199,7 +6199,7 @@
 16	plus	plus	ADV	_	Polarity=Neg	15	advmod	_	_
 17	mal	mal	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
 18	à	à	ADP	_	_	20	case	_	_
-19	mon	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	20	nmod:poss	_	_
+19	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det	_	_
 20	poignet	poignet	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
 21	anciennement	anciennement	ADV	_	_	22	advmod	_	_
 22	foulé	fouler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	SpaceAfter=No
@@ -6480,7 +6480,7 @@
 17	comme	comme	SCONJ	_	_	18	mark	_	_
 18	diner	diner	VERB	_	VerbForm=Inf	13	advcl	_	_
 19	avec	avec	ADP	_	_	21	case	_	_
-20	ma	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	21	nmod:poss	_	_
+20	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det	_	_
 21	moitié	moitié	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -6792,7 +6792,7 @@
 # text = Ils enregistrent ma demande d'annulation, et communiquent l'annulation à leur fournisseur.
 1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	enregistrent	enregistrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	ma	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	4	nmod:poss	_	_
+3	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	_
 4	demande	demande	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
 5	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
 6	annulation	annulation	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
@@ -6802,7 +6802,7 @@
 10	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	annulation	annulation	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
 12	à	à	ADP	_	_	14	case	_	_
-13	leur	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	14	nmod:poss	_	_
+13	leur	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det	_	_
 14	fournisseur	fournisseur	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -6922,7 +6922,7 @@
 6	à	à	ADP	_	_	7	case	_	_
 7	condensation	condensation	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 8	dans	dans	ADP	_	_	10	case	_	_
-9	ma	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	10	nmod:poss	_	_
+9	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
 10	maison	maison	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	3	punct	_	_
 12	initialement	initialement	ADV	_	_	13	advmod	_	_
@@ -7267,7 +7267,7 @@
 10	retard	retard	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	prennent	prendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
-13	leurs	son	DET	_	Gender=Fem|Number=Plur|PronType=Prs	14	nmod:poss	_	_
+13	leurs	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	14	det	_	_
 14	precautions	précaution	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -7327,7 +7327,7 @@
 
 # sent_id = fr-ud-test_00262
 # text = Leur chocolat chaud est divin !
-1	Leur	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	2	nmod:poss	_	_
+1	Leur	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
 2	chocolat	chocolat	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	chaud	chaud	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -7375,7 +7375,7 @@
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	pas	pas	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
 12	sur	sur	ADP	_	_	14	case	_	_
-13	nos	son	DET	_	Gender=Fem|Number=Plur|PronType=Prs	14	nmod:poss	_	_
+13	nos	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	14	det	_	_
 14	conversations	conversation	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -7389,7 +7389,7 @@
 
 # sent_id = fr-ud-test_00267
 # text = Nos plats étaient globalement bons (saumon vapeur/tagliatelles et filet de rouget) mais restaient simples dans la présentation et le raffinement.
-1	Nos	son	DET	_	Gender=Masc|Number=Plur|PronType=Prs	2	nmod:poss	_	_
+1	Nos	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	2	det	_	_
 2	plats	plat	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
 4	globalement	globalement	ADV	_	_	5	advmod	_	_
@@ -7417,7 +7417,7 @@
 
 # sent_id = fr-ud-test_00268
 # text = Notre expérience dans le domaine du destockage vous assure la réalisation de vos invendus dans les meilleures conditions financières tout en préservant votre image et votre réseau de distribution.
-1	Notre	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	2	nmod:poss	_	_
+1	Notre	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
 2	expérience	expérience	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	dans	dans	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -7431,7 +7431,7 @@
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	réalisation	réalisation	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
 13	de	de	ADP	_	_	15	case	_	_
-14	vos	son	DET	_	Gender=Masc|Number=Plur|PronType=Prs	15	nmod:poss	_	_
+14	vos	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	15	det	_	_
 15	invendus	invendu	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
 16	dans	dans	ADP	_	_	19	case	_	_
 17	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
@@ -7441,10 +7441,10 @@
 21	tout	tout	ADV	_	_	23	mark	_	_
 22	en	en	ADP	_	_	21	fixed	_	_
 23	préservant	préserver	VERB	_	Tense=Pres|VerbForm=Part	10	advcl	_	_
-24	votre	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	25	nmod:poss	_	_
+24	votre	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	25	det	_	_
 25	image	image	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
 26	et	et	CCONJ	_	_	28	cc	_	_
-27	votre	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	28	nmod:poss	_	_
+27	votre	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	28	det	_	_
 28	réseau	réseau	NOUN	_	Gender=Masc|Number=Sing	25	conj	_	_
 29	de	de	ADP	_	_	30	case	_	_
 30	distribution	distribution	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
@@ -7456,7 +7456,7 @@
 2	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	dépensé	dépenser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	avec	avec	ADP	_	_	6	case	_	_
-5	ma	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	6	nmod:poss	_	_
+5	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
 6	femme	femme	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
 7	145	145	NUM	_	_	8	nummod	_	_
 8	€	€	SYM	_	_	3	obj	_	_
@@ -7520,7 +7520,7 @@
 6	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	cop	_	_
 7	nombreux	nombreux	ADJ	_	Gender=Masc|Number=Plur	8	advcl	_	_
 8	passez	passer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	votre	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	10	nmod:poss	_	_
+9	votre	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
 10	chemin	chemin	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
 11	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	14	nsubj	_	SpaceAfter=No
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
@@ -7634,7 +7634,7 @@
 17	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	aux:pass	_	_
 18	ainsi	ainsi	SCONJ	_	_	21	case	_	_
 19	que	que	SCONJ	_	_	18	fixed	_	_
-20	mon	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	21	nmod:poss	_	_
+20	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det	_	_
 21	ami	ami	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
 22	ravi	ravir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
 23	de	de	ADP	_	_	24	mark	_	_
@@ -7665,7 +7665,7 @@
 48	et	et	CCONJ	_	_	53	cc	_	_
 49	aussi	aussi	ADV	_	_	53	advmod	_	_
 50	pour	pour	ADP	_	_	52	case	_	_
-51	mon	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	52	nmod:poss	_	_
+51	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	52	det	_	_
 52	ami	ami	NOUN	_	Gender=Masc|Number=Sing	53	nmod	_	_
 53	quelque	quelque	DET	_	Number=Sing	32	conj	_	_
 54	chose	chose	NOUN	_	Gender=Fem|Number=Sing	53	fixed	_	_
@@ -7706,7 +7706,7 @@
 6	rendent	rendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 7	bien	bien	ADV	_	_	6	advmod	_	_
 8	sur	sur	ADP	_	_	10	case	_	_
-9	mon	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	10	nmod:poss	_	_
+9	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
 10	mur	mur	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -7765,7 +7765,7 @@
 6	professionnel	professionnel	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 7	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 8	pour	pour	ADP	_	_	10	case	_	_
-9	ma	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	10	nmod:poss	_	_
+9	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
 10	société	société	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
 11	)	)	PUNCT	_	_	10	punct	_	_
 12	ou	ou	CCONJ	_	_	14	cc	_	_
@@ -7819,7 +7819,7 @@
 3	souhaitez	souhaiter	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	advcl	_	_
 4	régaler	régaler	VERB	_	VerbForm=Inf	3	xcomp	_	_
 5	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
-6	vos	son	DET	_	Gender=Fem|Number=Plur|PronType=Prs	7	nmod:poss	_	_
+6	vos	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	7	det	_	_
 7	papilles	papille	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
 8	"	"	PUNCT	_	_	7	punct	_	_
 9	n'	ne	ADV	_	Polarity=Neg	10	advmod	_	SpaceAfter=No
@@ -7830,7 +7830,7 @@
 
 # sent_id = fr-ud-test_00285
 # text = Son dirigeant est disponible et à l'écoute de ses clients.
-1	Son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	2	nmod:poss	_	_
+1	Son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
 2	dirigeant	dirigeant	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	disponible	disponible	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -7839,7 +7839,7 @@
 7	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	écoute	écoute	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
 9	de	de	ADP	_	_	11	case	_	_
-10	ses	son	DET	_	Gender=Masc|Number=Plur|PronType=Prs	11	nmod:poss	_	_
+10	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det	_	_
 11	clients	client	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -7954,7 +7954,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	croyant	croire	VERB	_	Tense=Pres|VerbForm=Part	3	advcl	_	_
 6	dans	dans	ADP	_	_	9	case	_	_
-7	ma	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	9	nmod:poss	_	_
+7	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	_
 8	grande	grand	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
 9	naîveté	naïveté	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
 10	qu'	que	SCONJ	_	_	14	mark	_	SpaceAfter=No
@@ -7973,7 +7973,7 @@
 5	de	de	ADP	_	_	6	mark	_	_
 6	faire	faire	VERB	_	VerbForm=Inf	3	acl	_	_
 7	rénover	rénover	VERB	_	VerbForm=Inf	6	xcomp	_	_
-8	mes	son	DET	_	Gender=Fem|Number=Plur|PronType=Prs	9	nmod:poss	_	_
+8	mes	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	9	det	_	_
 9	serrures	serrure	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
 10	à	à	ADP	_	_	15	advmod	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	fixed	_	_
@@ -8046,7 +8046,7 @@
 7	installation	installation	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
 8	électrique	électrique	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 9	de	de	ADP	_	_	11	case	_	_
-10	mon	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	11	nmod:poss	_	_
+10	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	_
 11	appart	appart	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	j'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	SpaceAfter=No
@@ -8379,7 +8379,7 @@
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	terme	terme	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
 10	à	à	ADP	_	_	12	case	_	_
-11	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	12	nmod:poss	_	_
+11	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det	_	_
 12	carrière	carrière	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 13	sportive	sportif	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	7	punct	_	_
@@ -8603,7 +8603,7 @@
 25	afin	afin	ADV	_	_	27	mark	_	_
 26	d'	de	ADP	_	_	25	fixed	_	SpaceAfter=No
 27	agrandir	agrandir	VERB	_	VerbForm=Inf	18	advcl	_	_
-28	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	29	nmod:poss	_	_
+28	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det	_	_
 29	territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	27	obj	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -8865,11 +8865,11 @@
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	bout	bout	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
 16	de	de	ADP	_	_	18	case	_	_
-17	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	18	nmod:poss	_	_
+17	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det	_	_
 18	décision	décision	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
 19	et	et	CCONJ	_	_	23	cc	_	_
 20	que	que	SCONJ	_	_	23	mark	_	_
-21	ses	son	DET	_	Gender=Masc|Number=Plur|PronType=Prs	22	nmod:poss	_	_
+21	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	22	det	_	_
 22	compatriotes	compatriote	NOUN	_	Gender=Masc|Number=Plur	23	nsubj	_	_
 23	rejettent	rejeter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
@@ -8882,7 +8882,7 @@
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	sortie	sortie	NOUN	_	Gender=Fem|Number=Sing	42	nsubj	_	_
 33	de	de	ADP	_	_	35	case	_	_
-34	leur	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	35	nmod:poss	_	_
+34	leur	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	35	det	_	_
 35	pays	pays	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
 36	de	de	ADP	_	_	38	case	_	_
 37	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
@@ -8918,7 +8918,7 @@
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	réalisation	réalisation	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
 12	de	de	ADP	_	_	14	case	_	_
-13	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	14	nmod:poss	_	_
+13	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det	_	_
 14	signalisation	signalisation	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -9040,7 +9040,7 @@
 
 # sent_id = fr-ud-dev_01513
 # text = Son coût (en investissements seulement) est chiffré à 21,4 milliards d'euros par M. Blanc.
-1	Son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	2	nmod:poss	_	_
+1	Son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
 2	coût	coût	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 3	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 4	en	en	ADP	_	_	5	case	_	_
@@ -9071,7 +9071,7 @@
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	photos	photo	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	_
 10	de	de	ADP	_	_	12	case	_	_
-11	vos	son	DET	_	Gender=Masc|Number=Plur|PronType=Prs	12	nmod:poss	_	_
+11	vos	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det	_	_
 12	people	people	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
 13	préférés	préféré	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	1	punct	_	_
@@ -9275,7 +9275,7 @@
 15	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
 16	baptisé	baptiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 17	en	en	ADP	_	_	19	case	_	_
-18	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	19	nmod:poss	_	_
+18	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det	_	_
 19	honneur	honneur	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	16	punct	_	_
 
@@ -9640,13 +9640,13 @@
 20	éviter	éviter	VERB	_	VerbForm=Inf	19	xcomp	_	_
 21	de	de	ADP	_	_	22	mark	_	_
 22	payer	payer	VERB	_	VerbForm=Inf	20	xcomp	_	_
-23	leur	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	24	nmod:poss	_	_
+23	leur	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	24	det	_	_
 24	addition	addition	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_01533
 # text = Son seul souvenir, c'est cette mélodie envoutante, jouée sur cette scène.
-1	Son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	3	nmod:poss	_	_
+1	Son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det	_	_
 2	seul	seul	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	souvenir	souvenir	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
@@ -9971,7 +9971,7 @@
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	ramené	ramener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	de	de	ADP	_	_	7	case	_	_
-6	ses	son	DET	_	Gender=Fem|Number=Plur|PronType=Prs	7	nmod:poss	_	_
+6	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	7	det	_	_
 7	années	année	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
 8-9	au	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	10	case	_	_
@@ -10229,7 +10229,7 @@
 22	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
 23	2007	2007	NUM	_	_	22	nmod	_	_
 24	lorsque	lorsque	SCONJ	_	_	30	mark	_	_
-25	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	26	nmod:poss	_	_
+25	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	det	_	_
 26	prédécesseur	prédécesseur	NOUN	_	Gender=Masc|Number=Sing	30	nsubj:pass	_	_
 27	Ludwig	Ludwig	PROPN	_	_	26	appos	_	_
 28	Scotty	Scotty	PROPN	_	_	27	flat:name	_	_
@@ -10255,7 +10255,7 @@
 5	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	casquettes	casquette	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
 7	et	et	CCONJ	_	_	11	cc	_	_
-8	leurs	son	DET	_	Gender=Masc|Number=Plur|PronType=Prs	9	nmod:poss	_	_
+8	leurs	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	9	det	_	_
 9	cheveux	cheveu	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 10	blonds	blond	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
 11	brillaient	briller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
@@ -10283,7 +10283,7 @@
 14	par	par	ADP	_	_	15	case	_	_
 15	opposition	opposition	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
 16	à	à	ADP	_	_	18	case	_	_
-17	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	18	nmod:poss	_	_
+17	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det	_	_
 18	milieu	milieu	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 19	traditionnel	traditionnel	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
 20	d'	de	ADP	_	_	22	case	_	SpaceAfter=No
@@ -10384,7 +10384,7 @@
 6	douée	doué	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 7	pour	pour	ADP	_	_	8	mark	_	_
 8	montrer	montrer	VERB	_	VerbForm=Inf	6	advcl	_	_
-9	ses	son	DET	_	Gender=Fem|Number=Plur|PronType=Prs	10	nmod:poss	_	_
+9	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	10	det	_	_
 10	émotions	émotion	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	dire	dire	VERB	_	VerbForm=Inf	8	conj	_	_
@@ -10394,7 +10394,7 @@
 16	ressent	ressentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
 17	vraiment	vraiment	ADV	_	_	16	advmod	_	_
 18	et	et	CCONJ	_	_	20	cc	_	_
-19	ses	son	DET	_	Number=Plur|PronType=Prs	20	nmod:poss	_	_
+19	ses	son	DET	_	Number=Plur|Poss=Yes|PronType=Prs	20	det	_	_
 20	désires	désir	NOUN	_	Gender=Masc|Number=Sing	13	conj	_	_
 21	comme	comme	ADP	_	_	23	case	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
@@ -10404,7 +10404,7 @@
 26	aimerait	aimer	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
 27	être	être	VERB	_	VerbForm=Inf	26	xcomp	_	_
 28	comme	comme	ADP	_	_	30	case	_	_
-29	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	30	nmod:poss	_	_
+29	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	30	det	_	_
 30	frère	frère	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
 31	Justin	Justin	PROPN	_	_	30	appos	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	6	punct	_	_
@@ -10566,7 +10566,7 @@
 23	et	et	CCONJ	_	_	24	cc	_	_
 24	chorégraphe	chorégraphe	NOUN	_	Gender=Masc|Number=Sing	22	conj	_	_
 25	de	de	ADP	_	_	27	case	_	_
-26	leur	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	27	nmod:poss	_	_
+26	leur	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	27	det	_	_
 27	ambiguïté	ambiguïté	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -10620,7 +10620,7 @@
 10	transformations	transformation	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
 11	que	que	PRON	_	PronType=Rel	12	obj	_	_
 12	subit	subir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
-13	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	14	nmod:poss	_	_
+13	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det	_	_
 14	enseignement	enseignement	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 15	en	en	ADP	_	_	18	case	_	_
 16	tant	tant	ADV	_	_	15	fixed	_	_
@@ -10705,7 +10705,7 @@
 15	cherche	chercher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	à	à	ADP	_	_	17	mark	_	_
 17	maximiser	maximiser	VERB	_	VerbForm=Inf	15	xcomp	_	_
-18	son	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	19	nmod:poss	_	_
+18	son	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det	_	_
 19	utilité	utilité	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
 20	et	et	CCONJ	_	_	35	cc	_	_
 21	lorsqu'	lorsque	SCONJ	_	_	24	mark	_	SpaceAfter=No
@@ -10795,7 +10795,7 @@
 11	Journal	journal	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	_
 12	Hebdomadaire	hebdomadaire	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
 13	et	et	CCONJ	_	_	15	cc	_	_
-14	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	15	nmod:poss	_	_
+14	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det	_	_
 15	confrère	confrère	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	_
 16	arabophone	arabophone	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
 17	Assahifa	Assahifa	PROPN	_	_	15	appos	_	_
@@ -10844,7 +10844,7 @@
 10	surnom	surnom	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	_
 11	dû	devoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
 12	à	à	ADP	_	_	14	case	_	_
-13	ses	son	DET	_	Gender=Fem|Number=Plur|PronType=Prs	14	nmod:poss	_	_
+13	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	14	det	_	_
 14	rues	rue	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
 15-16	aux	_	_	_	_	_	_	_	_
 15	à	à	ADP	_	_	17	case	_	_
@@ -11059,7 +11059,7 @@
 2	pré	pré	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3	salé	saler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
 4	dans	dans	ADP	_	_	7	case	_	_
-5	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	7	nmod:poss	_	_
+5	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	_
 6	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 7	méandre	méandre	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
 8	avant	avant	ADP	_	_	10	case	_	_
@@ -11113,7 +11113,7 @@
 7	chartistes	chartiste	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
 8	jusqu'	jusque	ADP	_	_	11	case	_	SpaceAfter=No
 9	à	à	ADP	_	_	11	case	_	_
-10	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	11	nmod:poss	_	_
+10	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	_
 11	retraite	retraite	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
 12	en	en	ADP	_	_	13	case	_	_
 13	1953	1953	NUM	_	_	11	nmod	_	SpaceAfter=No
@@ -11293,7 +11293,7 @@
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	A	A	PROPN	_	_	6	nsubj	_	_
 6	établit	établir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	son	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	8	nmod:poss	_	_
+7	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	_
 8	siège	siège	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
 9	à	à	ADP	_	_	10	case	_	_
 10	côté	côté	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
@@ -11434,7 +11434,7 @@
 43	illusions	illusion	NOUN	_	Gender=Fem|Number=Plur	41	nmod	_	_
 44	intégrées	intégrer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	41	acl	_	_
 45	dans	dans	ADP	_	_	47	case	_	_
-46	leurs	son	DET	_	Gender=Fem|Number=Plur|PronType=Prs	47	nmod:poss	_	_
+46	leurs	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	47	det	_	_
 47	œuvres	œuvre	NOUN	_	Gender=Fem|Number=Plur	44	obl	_	SpaceAfter=No
 48	.	.	PUNCT	_	_	6	punct	_	_
 

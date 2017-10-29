@@ -1034,7 +1034,7 @@
 13	Sig	Sig	PROPN	_	_	12	appos	_	_
 14	Hansen	Hansen	PROPN	_	_	13	flat:name	_	_
 15	en	en	ADP	_	_	17	mark	_	_
-16	faisant	faire	VERB	_	Tense=Pres|VerbForm=Part	17	aux:caus	_	_
+16	faisant	faire	AUX	_	Tense=Pres|VerbForm=Part	17	aux:caus	_	_
 17	jeter	jeter	VERB	_	VerbForm=Inf	7	advcl	_	_
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	mannequin	mannequin	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
@@ -1382,7 +1382,7 @@
 7	laissé	laisser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	filer	filer	VERB	_	VerbForm=Inf	7	ccomp	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	ballon	ballon	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+10	ballon	ballon	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
 11	dans	dans	ADP	_	_	13	case	_	_
 12	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	13	det	_	_
 13	buts	but	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
@@ -3540,7 +3540,7 @@
 # sent_id = fr-ud-dev_00129
 # text = Bès fait fuir, par ses danses grotesques et ses grimaces affreuses, toutes les forces du mal mais il apporte également la joie, le divertissement et la bonne humeur en jouant de la harpe et de la lyre dans les foyers.
 1	Bès	Bès	PROPN	_	_	3	nsubj:caus	_	_
-2	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:caus	_	_
+2	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:caus	_	_
 3	fuir	fuir	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	par	par	ADP	_	_	7	case	_	_
@@ -3641,7 +3641,7 @@
 7	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	11	iobj	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 9	même	même	ADV	_	_	11	advmod	_	_
-10	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux:caus	_	_
+10	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux:caus	_	_
 11	venir	venir	VERB	_	VerbForm=Inf	4	acl:relcl	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	taxi	taxi	NOUN	_	Gender=Masc|Number=Sing	11	obj:agent	_	_
@@ -5898,7 +5898,7 @@
 5	1906	1906	NUM	_	_	9	obl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	Pathé	Pathé	PROPN	_	_	9	nsubj:caus	_	_
-8	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:caus	_	_
+8	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:caus	_	_
 9	monter	monter	VERB	_	VerbForm=Inf	0	root	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	usine	usine	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
@@ -8230,7 +8230,7 @@
 16	Azaila	Azaila	PROPN	_	_	14	nmod	_	_
 17	s'	se	PRON	_	Person=3|PronType=Prs	20	obj	_	SpaceAfter=No
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
-19	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	aux:caus	_	_
+19	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	aux:caus	_	_
 20	remarquer	remarquer	VERB	_	VerbForm=Inf	9	acl:relcl	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -9431,7 +9431,7 @@
 10	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	vins	vin	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
 12	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	14	obj:agent	_	_
-13	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:caus	_	_
+13	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:caus	_	_
 14	voyager	voyager	VERB	_	VerbForm=Inf	5	conj	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	France	France	PROPN	_	_	14	obl	_	_
@@ -12854,7 +12854,7 @@
 18	réussit	réussir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
 19	pas	pas	ADV	_	Polarity=Neg	18	advmod	_	_
 20	à	à	ADP	_	_	22	mark	_	_
-21	faire	faire	VERB	_	VerbForm=Inf	22	aux:caus	_	_
+21	faire	faire	AUX	_	VerbForm=Inf	22	aux:caus	_	_
 22	battre	battre	VERB	_	VerbForm=Inf	18	xcomp	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	parti	parti	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
@@ -13587,7 +13587,7 @@
 15	pour	pour	ADP	_	_	16	mark	_	_
 16	réussir	réussir	VERB	_	VerbForm=Inf	8	advcl	_	_
 17	à	à	ADP	_	_	19	mark	_	_
-18	faire	faire	VERB	_	VerbForm=Inf	19	aux:caus	_	_
+18	faire	faire	AUX	_	VerbForm=Inf	19	aux:caus	_	_
 19	compiler	compiler	VERB	_	VerbForm=Inf	16	xcomp	_	_
 20	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
 21	bibliothèques	bibliothèque	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	_
@@ -16982,7 +16982,7 @@
 9	former	former	VERB	_	VerbForm=Inf	7	xcomp	_	_
 10	gouvernement	gouvernement	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
 11	et	et	CCONJ	_	_	13	cc	_	_
-12	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:caus	_	_
+12	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:caus	_	_
 13	chuter	chuter	VERB	_	VerbForm=Inf	7	conj	_	_
 14	immédiatement	immédiatement	ADV	_	_	13	advmod	_	_
 15	tous	tout	DET	_	Gender=Masc|Number=Plur	16	det	_	_
@@ -17549,7 +17549,7 @@
 # text = Can You Feel It a été enregistré en mars 1980 et est sorti en single le 23 septembre 1980.
 1	Can	can	AUX	_	_	3	aux	_	_
 2	You	you	PRON	_	Person=2|PronType=Prs	3	nsubj	_	_
-3	Feel	feel	VERB	_	VerbForm=Inf	7	nsubj:pass	_	_
+3	Feel	feel	VERB	_	_	7	nsubj:pass	_	_
 4	It	it	PRON	_	Number=Sing|PronType=Prs	3	obj	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
@@ -18178,7 +18178,7 @@
 12	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	16	obj:agent	_	_
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 14	pas	pas	ADV	_	Polarity=Neg	16	advmod	_	_
-15	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	aux:caus	_	_
+15	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	aux:caus	_	_
 16	rire	rire	VERB	_	VerbForm=Inf	1	conj	_	SpaceAfter=No
 17	...	...	PUNCT	_	_	1	punct	_	_
 18	!	!	PUNCT	_	_	1	punct	_	_
@@ -20098,7 +20098,7 @@
 20	puis	puis	SCONJ	_	_	24	cc	_	_
 21	s'	se	PRON	_	Person=3|PronType=Prs	24	obj	_	SpaceAfter=No
 22	y	y	ADV	_	_	24	advmod	_	_
-23	fit	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux:caus	_	_
+23	fit	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux:caus	_	_
 24	construire	construire	VERB	_	VerbForm=Inf	8	conj	_	_
 25	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	maison	maison	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	SpaceAfter=No
@@ -21360,7 +21360,7 @@
 9	très	très	ADV	_	_	10	advmod	_	_
 10	intense	intense	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 11	pour	pour	ADP	_	_	13	mark	_	_
-12	faire	faire	VERB	_	VerbForm=Inf	13	aux:caus	_	_
+12	faire	faire	AUX	_	VerbForm=Inf	13	aux:caus	_	_
 13	connaître	connaître	VERB	_	VerbForm=Inf	5	advcl	_	_
 14	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det	_	_
 15	mouvement	mouvement	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
@@ -28046,7 +28046,7 @@
 9	,	,	PUNCT	_	_	4	punct	_	_
 10	et	et	CCONJ	_	_	15	cc	_	_
 11	qui	qui	PRON	_	_	15	nsubj:caus	_	_
-12	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux:caus	_	_
+12	font	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux:caus	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	advmod	_	_
 14	peu	peu	ADV	_	_	13	fixed	_	_
 15	penser	penser	VERB	_	VerbForm=Inf	4	conj	_	_
@@ -28511,7 +28511,7 @@
 7	participé	participer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	activement	activement	ADV	_	_	7	advmod	_	_
 9	à	à	ADP	_	_	11	mark	_	_
-10	faire	faire	VERB	_	VerbForm=Inf	11	aux:caus	_	_
+10	faire	faire	AUX	_	VerbForm=Inf	11	aux:caus	_	_
 11	évoluer	évoluer	VERB	_	VerbForm=Inf	7	acl	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	vie	vie	NOUN	_	Gender=Fem|Number=Sing	11	obj:agent	_	_
@@ -29714,7 +29714,7 @@
 20	aller	aller	VERB	_	VerbForm=Inf	18	acl	_	_
 21	dormir	dormir	VERB	_	VerbForm=Inf	20	xcomp	_	_
 22	et	et	CCONJ	_	_	24	cc	_	_
-23	faire	faire	VERB	_	VerbForm=Inf	24	aux:caus	_	_
+23	faire	faire	AUX	_	VerbForm=Inf	24	aux:caus	_	_
 24	partir	partir	VERB	_	VerbForm=Inf	21	conj	_	_
 25	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
 26	humain	humain	NOUN	_	Gender=Masc|Number=Plur	24	obj:agent	_	SpaceAfter=No
@@ -30112,7 +30112,7 @@
 48	»	»	PUNCT	_	_	47	punct	_	SpaceAfter=No
 49	,	,	PUNCT	_	_	7	punct	_	_
 50	en	en	ADP	_	_	52	mark	_	_
-51	faisant	faire	AUX	_	Tense=Pres|VerbForm=Part	52	aux	_	_
+51	faisant	faire	AUX	_	Tense=Pres|VerbForm=Part	52	aux:caus	_	_
 52	remarquer	remarquer	VERB	_	VerbForm=Inf	7	advcl	_	_
 53	:	:	PUNCT	_	_	52	punct	_	_
 54	«	«	PUNCT	_	_	55	punct	_	_
@@ -34630,7 +34630,7 @@
 3	Pierre	Pierre	PROPN	_	_	1	conj	_	_
 4	Laederich	Laederich	PROPN	_	_	1	flat:name	_	_
 5	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	7	obj:agent	_	_
-6	feront	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	7	aux:caus	_	_
+6	feront	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	7	aux:caus	_	_
 7	découvrir	découvrir	VERB	_	VerbForm=Inf	0	root	_	_
 8	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	vins	vin	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
@@ -38644,7 +38644,7 @@
 4	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	plus	plus	ADV	_	Polarity=Neg	4	advmod	_	_
 6	de	de	ADP	_	_	8	mark	_	_
-7	faire	faire	VERB	_	VerbForm=Inf	8	aux:caus	_	_
+7	faire	faire	AUX	_	VerbForm=Inf	8	aux:caus	_	_
 8	fondre	fondre	VERB	_	VerbForm=Inf	4	xcomp	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	neige	neige	NOUN	_	Gender=Fem|Number=Sing	8	obj:agent	_	SpaceAfter=No

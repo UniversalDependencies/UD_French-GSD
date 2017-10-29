@@ -848,9 +848,9 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	temps	temps	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
 8	béni	béni	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
-9	où	où	PRON	_	PronType=Rel	24	advmod	_	_
+9	où	où	PRON	_	PronType=Rel	25	advmod	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	manne	manne	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
+11	manne	manne	NOUN	_	Gender=Fem|Number=Sing	25	nsubj:caus	_	_
 12	financière	financier	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
 13	apportée	apporter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
 14	par	par	ADP	_	_	16	case	_	_
@@ -863,8 +863,8 @@
 21	centaines	centaine	NOUN	_	Gender=Fem|Number=Plur	19	obl	_	_
 22	de	de	ADP	_	_	23	case	_	_
 23	milliers	millier	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
-24	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
-25	vivre	vivre	VERB	_	VerbForm=Inf	24	xcomp	_	_
+24	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	AUX:CAUS	_	_
+25	vivre	vivre	VERB	_	VerbForm=Inf	7	acl:relcl	_	_
 26	toute	tout	DET	_	Gender=Fem|Number=Sing	28	det	_	_
 27	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	28	det	_	_
 28	région	région	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
@@ -1501,7 +1501,7 @@
 
 # sent_id = fr-ud-test_00058
 # text = Sidi M'hamed Deddeche et Amgid Sidi Ahmed, deux activistes pacifistes des territoires occupés comme Mme Haïder, s'étaient-ils fait arrêter mercredi dernier à l'entrée de Smara, la capitale spirituelle du Sahara occidental, parce qu'ils étaient des séquestrés qui s'étaient évadés des camps de Tindouf, sans documents de voyage ?
-1	Sidi	Sidi	PROPN	_	_	24	nsubj	_	_
+1	Sidi	Sidi	PROPN	_	_	25	nsubj:caus	_	_
 2	M'	M'	PROPN	_	_	1	flat:name	_	SpaceAfter=No
 3	hamed	hamed	PROPN	_	_	1	flat:name	_	_
 4	Deddeche	Deddeche	PROPN	_	_	1	flat:name	_	_
@@ -1522,11 +1522,11 @@
 18	Mme	Mme	PROPN	_	_	11	nmod	_	_
 19	Haïder	Haïder	PROPN	_	_	18	flat:name	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	1	punct	_	_
-21	s'	se	PRON	_	Person=3|PronType=Prs	24	obj	_	SpaceAfter=No
-22	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	SpaceAfter=No
-23	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	24	expl	_	_
-24	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-25	arrêter	arrêter	VERB	_	VerbForm=Inf	24	xcomp	_	_
+21	s'	se	PRON	_	Person=3|PronType=Prs	25	obj	_	SpaceAfter=No
+22	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	aux	_	SpaceAfter=No
+23	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	expl	_	_
+24	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	AUX:CAUS	_	_
+25	arrêter	arrêter	VERB	_	VerbForm=Inf	0	root	_	_
 26	mercredi	mercredi	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
 27	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
 28	à	à	ADP	_	_	30	case	_	_
@@ -3070,12 +3070,12 @@
 
 # sent_id = fr-ud-test_00104
 # text = Maintenant, si des supporters veulent aider le club au travers d'une souscription pour faire revenir Djibril à l'AJA, qu'ils nous le fassent savoir. "
-1	Maintenant	maintenant	ADV	_	_	28	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	28	punct	_	_
+1	Maintenant	maintenant	ADV	_	_	29	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	29	punct	_	_
 3	si	si	SCONJ	_	_	6	mark	_	_
 4	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	supporters	supporter	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
-6	veulent	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	advcl	_	_
+6	veulent	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	_	_
 7	aider	aider	VERB	_	VerbForm=Inf	6	xcomp	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	club	club	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
@@ -3093,15 +3093,15 @@
 20	à	à	ADP	_	_	22	case	_	_
 21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
 22	AJA	AJA	PROPN	_	_	18	obl	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	28	punct	_	_
-24	qu'	que	SCONJ	_	_	28	expl	_	SpaceAfter=No
-25	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	28	nsubj	_	_
-26	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	28	iobj	_	_
-27	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
-28	fassent	faire	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-29	savoir	savoir	VERB	_	VerbForm=Inf	28	xcomp	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	28	punct	_	_
-31	"	"	PUNCT	_	_	28	punct	_	_
+23	,	,	PUNCT	_	_	29	punct	_	_
+24	qu'	que	SCONJ	_	_	29	expl	_	SpaceAfter=No
+25	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	nsubj:caus	_	_
+26	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	29	iobj	_	_
+27	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
+28	fassent	faire	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	AUX:CAUS	_	_
+29	savoir	savoir	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+31	"	"	PUNCT	_	_	29	punct	_	_
 
 # sent_id = fr-ud-test_00105
 # text = Elle se remarie et un autre fils va naître, Serge.
@@ -3873,10 +3873,10 @@
 1	Sean	Sean	PROPN	_	_	17	nsubj	_	_
 2	David	David	PROPN	_	_	1	flat:name	_	_
 3	Morton	Morton	PROPN	_	_	1	flat:name	_	_
-4	qui	qui	PRON	_	PronType=Rel	6	nsubj	_	_
-5	se	se	PRON	_	Person=3|PronType=Prs	6	obj	_	_
-6	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
-7	appeler	appeler	VERB	_	VerbForm=Inf	6	xcomp	_	_
+4	qui	qui	PRON	_	PronType=Rel	7	nsubj:caus	_	_
+5	se	se	PRON	_	Person=3|PronType=Prs	7	obj	_	_
+6	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	AUX:CAUS	_	_
+7	appeler	appeler	VERB	_	VerbForm=Inf	1	acl:relcl	_	_
 8	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	prophète	prophète	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
@@ -5364,7 +5364,7 @@
 # sent_id = fr-ud-test_00179
 # text = Cette loi, qui contrôle l'établissement de nouvelles unités de production ou l'agrandissement des sites existants, a ainsi fait tomber le seuil de 250 UA à 75 UA.
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
-2	loi	loi	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	SpaceAfter=No
+2	loi	loi	NOUN	_	Gender=Fem|Number=Sing	24	nsubj:caus	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	qui	qui	PRON	_	PronType=Rel	5	nsubj	_	_
 5	contrôle	contrôler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
@@ -5383,11 +5383,11 @@
 17	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
 18	sites	site	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
 19	existants	existant	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	23	punct	_	_
-21	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
-22	ainsi	ainsi	ADV	_	_	23	advmod	_	_
-23	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-24	tomber	tomber	VERB	_	VerbForm=Inf	23	xcomp	_	_
+20	,	,	PUNCT	_	_	24	punct	_	_
+21	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+22	ainsi	ainsi	ADV	_	_	24	advmod	_	_
+23	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	AUX:CAUS	_	_
+24	tomber	tomber	VERB	_	VerbForm=Inf	0	root	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	seuil	seuil	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
 27	de	de	ADP	_	_	29	case	_	_
@@ -5396,7 +5396,7 @@
 30	à	à	ADP	_	_	32	case	_	_
 31	75	75	NUM	_	_	32	nummod	_	_
 32	UA	UA	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
-33	.	.	PUNCT	_	_	23	punct	_	_
+33	.	.	PUNCT	_	_	24	punct	_	_
 
 # sent_id = fr-ud-test_00180
 # text = Pour souligner les 35 ans du Théâtre du Trillium, la directrice artistique Anne-Marie White a décidé de faire éclater le quatrième mur entre les artistes et le public.

@@ -3539,13 +3539,13 @@
 
 # sent_id = fr-ud-dev_00129
 # text = Bès fait fuir, par ses danses grotesques et ses grimaces affreuses, toutes les forces du mal mais il apporte également la joie, le divertissement et la bonne humeur en jouant de la harpe et de la lyre dans les foyers.
-1	Bès	Bès	PROPN	_	_	2	nsubj	_	_
-2	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	fuir	fuir	VERB	_	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+1	Bès	Bès	PROPN	_	_	3	nsubj:caus	_	_
+2	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:caus	_	_
+3	fuir	fuir	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	par	par	ADP	_	_	7	case	_	_
 6	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	7	det	_	_
-7	danses	danse	NOUN	_	Gender=Fem|Number=Plur	2	obl	_	_
+7	danses	danse	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
 8	grotesques	grotesque	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
 9	et	et	CCONJ	_	_	11	cc	_	_
 10	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	11	det	_	_
@@ -3554,14 +3554,14 @@
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	toutes	tout	DET	_	Gender=Fem|Number=Plur	16	det	_	_
 15	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
-16	forces	force	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+16	forces	force	NOUN	_	Gender=Fem|Number=Plur	3	OBJ:AGENT	_	_
 17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	mal	mal	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
 20	mais	mais	CCONJ	_	_	22	cc	_	_
 21	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
-22	apporte	apporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+22	apporte	apporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 23	également	également	ADV	_	_	22	advmod	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	joie	joie	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
@@ -3584,7 +3584,7 @@
 42	dans	dans	ADP	_	_	44	case	_	_
 43	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
 44	foyers	foyer	NOUN	_	Gender=Masc|Number=Plur	34	obl	_	SpaceAfter=No
-45	.	.	PUNCT	_	_	2	punct	_	_
+45	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00130
 # text = La population juive de la ville ainsi que les intellectuels furent assassinés.

@@ -3641,10 +3641,10 @@
 7	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	11	iobj	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 9	même	même	ADV	_	_	11	advmod	_	_
-10	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	AUX:CAUS	_	_
+10	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux:caus	_	_
 11	venir	venir	VERB	_	VerbForm=Inf	4	acl:relcl	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	taxi	taxi	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+13	taxi	taxi	NOUN	_	Gender=Masc|Number=Sing	11	obj:agent	_	_
 14	pour	pour	ADP	_	_	15	mark	_	_
 15	emporter	emporter	VERB	_	VerbForm=Inf	13	advcl	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -5898,7 +5898,7 @@
 5	1906	1906	NUM	_	_	9	obl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	Pathé	Pathé	PROPN	_	_	9	nsubj:caus	_	_
-8	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	AUX:CAUS	_	_
+8	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:caus	_	_
 9	monter	monter	VERB	_	VerbForm=Inf	0	root	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	usine	usine	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
@@ -8230,7 +8230,7 @@
 16	Azaila	Azaila	PROPN	_	_	14	nmod	_	_
 17	s'	se	PRON	_	Person=3|PronType=Prs	20	obj	_	SpaceAfter=No
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
-19	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	AUX:CAUS	_	_
+19	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	aux:caus	_	_
 20	remarquer	remarquer	VERB	_	VerbForm=Inf	9	acl:relcl	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -9430,8 +9430,8 @@
 9	de	de	ADP	_	_	11	case	_	_
 10	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	vins	vin	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
-12	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	14	obj	_	_
-13	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	AUX:CAUS	_	_
+12	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	14	obj:agent	_	_
+13	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:caus	_	_
 14	voyager	voyager	VERB	_	VerbForm=Inf	5	conj	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	France	France	PROPN	_	_	14	obl	_	_
@@ -18175,10 +18175,10 @@
 9	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	addition	addition	NOUN	_	Gender=Fem|Number=Sing	16	nsubj:caus	_	_
 11	ne	ne	ADV	_	Polarity=Neg	16	advmod	_	_
-12	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	16	obj	_	_
+12	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	16	obj:agent	_	_
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 14	pas	pas	ADV	_	Polarity=Neg	16	advmod	_	_
-15	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	AUX:CAUS	_	_
+15	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	aux:caus	_	_
 16	rire	rire	VERB	_	VerbForm=Inf	1	conj	_	SpaceAfter=No
 17	...	...	PUNCT	_	_	1	punct	_	_
 18	!	!	PUNCT	_	_	1	punct	_	_
@@ -28046,7 +28046,7 @@
 9	,	,	PUNCT	_	_	4	punct	_	_
 10	et	et	CCONJ	_	_	15	cc	_	_
 11	qui	qui	PRON	_	_	15	nsubj:caus	_	_
-12	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	AUX:CAUS	_	_
+12	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux:caus	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	advmod	_	_
 14	peu	peu	ADV	_	_	13	fixed	_	_
 15	penser	penser	VERB	_	VerbForm=Inf	4	conj	_	_
@@ -34629,8 +34629,8 @@
 2	et	et	CCONJ	_	_	3	cc	_	_
 3	Pierre	Pierre	PROPN	_	_	1	conj	_	_
 4	Laederich	Laederich	PROPN	_	_	1	flat:name	_	_
-5	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	7	obj	_	_
-6	feront	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	7	AUX:CAUS	_	_
+5	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	7	obj:agent	_	_
+6	feront	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	7	aux:caus	_	_
 7	découvrir	découvrir	VERB	_	VerbForm=Inf	0	root	_	_
 8	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	vins	vin	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_

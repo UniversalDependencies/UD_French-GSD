@@ -29481,9 +29481,9 @@
 9	de	de	ADP	_	_	11	case	_	_
 10	leur	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	_
 11	travail	travail	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-12	dès	dès	ADP	_	_	8	advmod	_	_
+12	dès	dès	ADP	_	_	14	mark	_	_
 13	que	que	SCONJ	_	_	12	fixed	_	_
-14	possible	possible	ADJ	_	Gender=Masc|Number=Sing	12	fixed	_	SpaceAfter=No
+14	possible	possible	ADJ	_	Gender=Masc|Number=Sing	8	advmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_01062
@@ -34316,8 +34316,8 @@
 6	mobilisés	mobiliser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 7	pour	pour	ADP	_	_	8	mark	_	_
 8	aider	aider	VERB	_	VerbForm=Inf	6	advcl	_	_
-9	si	si	SCONJ	_	_	8	advmod	_	_
-10	nécessaire	nécessaire	ADJ	_	Gender=Masc|Number=Sing	9	fixed	_	_
+9	si	si	SCONJ	_	_	10	mark	_	_
+10	nécessaire	nécessaire	ADJ	_	Gender=Masc|Number=Sing	8	advmod	_	_
 11	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 12	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
 13	après	après	ADP	_	_	15	case	_	_

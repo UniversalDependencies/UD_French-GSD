@@ -24,11 +24,11 @@ Since version 2.0, the splitting of data is:
 
 Sentences are shuffled and there is no way to know what is the genre of a given sentence.
 
-Probably due to some bug in a conversion program, version 1.2 contains many truncated sentences (date missing for instance). Almost every truncated sentence is from Wikidepia, so it was possible to recover the original text. Most of the truncated sentences were completed in version 1.3. Some sentences were completed later. There is probably still some truncated sentences.
+Probably due to some bug in a conversion program, version 1.2 contains many truncated sentences (date missing for instance). Almost every truncated sentence is from Wikipedia, so it was possible to recover the original text. Most of the truncated sentences were completed in version 1.3. Some sentences were completed later. There are probably still some truncated sentences.
 
 # Acknowledgments
 
-The last version of the corpus was produced by Marie-Catherine de Marneffe, Bruno Guillaume and Matias Grioni.
+The latest version of the corpus was produced by Marie-Catherine de Marneffe, Bruno Guillaume and Matias Grioni.
 Automatic modifications and consistency checking were partly done using the Grew software (see http://grew.loria.fr).
 
 See file `README_Google_dataset.txt` for references and acknowledgments concerning the original corpus.

@@ -15,11 +15,12 @@ No sentence id were available in the original resource, so new `sent_id` were au
 Since version 2.0, the splitting of data is:
 
  * file `fr-ud-train.conll`: 14,554 sentences; 356,613 words
- 	* `fr-ud-train_00001` to `fr-ud-train_14554`
+  * `fr-ud-train_00001` to `fr-ud-train_14554`
  * file `fr-ud-dev.conll`: 1,478 sentences; 35,771 words
- 	* `fr-ud-dev_00001` to `fr-ud-dev_01478`
- * file `fr-ud-test.conll`: 416 sentences; 10,020 words	* `fr_ud-test_00001` to `fr_ud-test_00298`
- 	* `fr-ud-dev_01479` to `fr-ud-dev_01596`
+  * `fr-ud-dev_00001` to `fr-ud-dev_01478`
+ * file `fr-ud-test.conll`: 416 sentences; 10,020 words
+  * `fr_ud-test_00001` to `fr_ud-test_00298`
+  * `fr-ud-dev_01479` to `fr-ud-dev_01596`
 
 Sentences are shuffled and there is no way to know what is the genre of a given sentence.
 
@@ -47,7 +48,7 @@ See file `README_Google_dataset.txt` for references and acknowledgments concerni
   * Add lemmas and features
   * Complete truncated sentences 	
 * 2015-11-15 v1.2
-  * Add sent_id and full text in metadata 
+  * Add sent_id and full text in metadata
   * Removed duplicate sentences (overlaps with train) from dev and test data.
 * 2015-05-15 v1.1
   * Manual corrections of full text

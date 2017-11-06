@@ -24,7 +24,7 @@ Since version 2.0, the splitting of data is:
 
 Sentences are shuffled and there is no way to know what is the genre of a given sentence.
 
-Probably due to some bug in a conversion program, version 1.2 contained many truncated sentences (date missing for instance). Almost every truncated sentence was sentence from Wikidepia, so it is possible to recover the original text. Most of the truncated sentences were completedin version 1.3. Some sentences are completed later or even still truncated.
+Probably due to some bug in a conversion program, version 1.2 contains many truncated sentences (date missing for instance). Almost every truncated sentence is from Wikidepia, so it was possible to recover the original text. Most of the truncated sentences were completed in version 1.3. Some sentences were completed later. There is probably still some truncated sentences.
 
 # Acknowledgments
 

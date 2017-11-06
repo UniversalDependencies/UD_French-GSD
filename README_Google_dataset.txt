@@ -1,45 +1,3 @@
-# Summary
-UD French data comes from the universal Google dataset (version 2.0). These sentences come from a mix of Google News (Blogger), Wikipedia, and Google Local reviews, and were then converted from the content head version of [universal dependency treebank 2.0 (legacy)](https://code.google.com/p/uni-dep-tb/).
-
-# Introduction
-
-UD French data comes from the universal Google dataset, and the conversion to the UD format was done automatically using heuristic rules and fixed lists of words created by native French speakers. Sentence ids are not related to genre or domain the sentences originally came from.
-
-The French data consists of 402,197 words (16,448 sentences), divided into train (356,419 words; 14,554 sentences), dev (38,758 words; 1,596 sentences) and test (7,020 words; 298 sentences) sets. Note that for the CoNLL shared task, the last 3,000 tokens from dev was appended to test to reach the 10,000 syntactic tokens minimum. This data was in shared_task_fr_test.conllu (10,020 words; 416 sentences).
-
-The French UD conforms to the UD guidelines, but there are some exceptions. All the morphological features are not present in the data yet. Cleft constructions are not yet analyzed following the UD guidelines.
-
-# Acknowledgments
-
-Contributors to this project are Marie-Catherine de Marneffe, Bruno Guillaume, Ryan McDonald, Alane Suhr, Joakim Nivre, and Matias Grioni. Original contributors are Yvonne Quirmbach-Brundage, Adam LaMontagne, Milan Souček, Timo Järvinen, and Radici Alessandra.
-
-More information on the original Google data can be found in the following paper:
-
-*Universal Dependency Annotation for Multilingual Parsing* Ryan McDonald, Joakim Nivre, Yvonne Quirmbach-Brundage, Yoav Goldberg, Dipanjan Das, Kuzman Ganchev, Keith Hall, Slav Petrov, Hao Zhang, Oscar Tackstrom, Claudia Bedini, Nuria Bertomeu Castello and Jungmee Lee Proceedings of ACL 2013
-
-
-# Changelog
-
-2017-11-07 v2.1
-  * Only avoir, être, and faire have AUX POS (except some foreign words)
-  * Fix most non-projective punctuation
-  * Consistency improvements for common n-grams (quel que soit, se mettre d'accord, en fait, etc)
-  * Annotation of :caus subtype
-
-2016-11-15 v.1.4
-  * POS annotations were made more consistent
-  * Several dependency paths were also made more consistent across similar expressions
-  * Only “avoir” and “être” are considered copula
-
-2015-11-15 v1.2
-  * Removed duplicate sentences (overlaps with train) from dev and test data.
-
-
-
-###############################################################################
-LEGACY README FILE BELOW
-###############################################################################
-
 ===================================
 Universal Dependency Treebanks v2.0
 ===================================
@@ -217,19 +175,3 @@ Contact
 ryanmcd@google.com
 joakim.nivre@lingfil.uu.se
 slav@google.com
-
-
-=== Machine-readable metadata =================================================
-Data available since: UD v1.0
-License: CC BY-NC-SA 3.0 US
-Includes text: yes
-Genre: blog news reviews wiki
-Lemmas: converted with corrections
-UPOS: converted with corrections
-XPOS: not available
-Features: converted with corrections
-Relations: converted with corrections
-Contributors: de Marneffe, Marie-Catherine; Guillaume, Bruno; McDonald, Ryan; Suhr, Alane; Nivre, Joakim; Grioni, Matias
-Contributing: here
-Contact: demarneffe.1@osu.edu, bruno.guillaume@inria.fr
-===============================================================================

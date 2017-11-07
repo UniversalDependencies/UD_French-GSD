@@ -36,14 +36,14 @@ See file `README_Google_dataset.txt` for references and acknowledgments concerni
 # Changelog
 
 * 2017-11-15 v2.1
-  * Only être, avoir or faire with the POS tag `AUX`
+  * Only "être", "avoir" or "faire" with the POS tag `AUX`
   * modifications taking into account new decisions taken for harmonisation of several French Treebanks (causative, copules, auxiliaries, change of `nmod:poss` in `det`)
 * 2017-03-01 v2.0
-  * Conversion of data to follow new guidelines (automatic conversions with manual verifications and manual annotation of `nmod` VS `obl` in ambiguous cases
+  * Conversion of data to follow new guidelines (automatic conversions with manual verifications and manual annotation of `nmod` VS `obl` in ambiguous cases)
 * 2016-11-15 v.1.4
   * POS annotations were made more consistent
   * Several dependency paths were also made more consistent across similar expressions
-  * Only “avoir” and “être” are considered copula
+  * Only "avoir" and "être" are considered copula
 * 2016-05-15 v1.3
   * Add lemmas and features
   * Complete truncated sentences 	

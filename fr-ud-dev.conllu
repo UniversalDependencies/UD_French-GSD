@@ -5169,7 +5169,7 @@
 3	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	0	root	_	_
 4	que	que	PRON	_	_	6	obj	_	_
 5	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
-6	nommons	nommer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	nommons	nommer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
 7	aujourd'hui	aujourd'hui	ADV	_	_	6	advmod	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Vieux-Flassans	Vieux-Flassans	PROPN	_	_	6	xcomp	_	SpaceAfter=No
@@ -12736,7 +12736,7 @@
 16	sur	sur	ADP	_	_	17	case	_	_
 17	lesquelles	lequel	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	20	obl	_	_
 18	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
-19	humain	humain	NOUN	_	Gender=Masc|Number=Plur	20	nsubj	_	_
+19	humain	humain	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
 20	bâtit	bâtir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
 21	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	22	det	_	_
 22	dogmes	dogme	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	SpaceAfter=No
@@ -28376,7 +28376,7 @@
 19	magasin	magasin	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
 20	ne	ne	ADV	_	Polarity=Neg	22	advmod	_	_
 21	se	se	PRON	_	Person=3|PronType=Prs	22	obj	_	_
-22	préoccupe	préoccuper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+22	préoccupe	préoccuper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	Correct=préoccupent
 23	pas	pas	ADV	_	Polarity=Neg	22	advmod	_	_
 24-25	des	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	26	case	_	_
@@ -30299,7 +30299,7 @@
 3	de	de	ADP	_	_	4	case	_	_
 4	santé	santé	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 5	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
-6	oblige	obliger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	oblige	obliger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Correct=obligent
 7	à	à	ADP	_	_	9	mark	_	_
 8	s'	se	PRON	_	Person=3|PronType=Prs	9	expl	_	SpaceAfter=No
 9	installer	installer	VERB	_	VerbForm=Inf	6	xcomp	_	_
@@ -36677,7 +36677,7 @@
 10	de	de	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	ville	ville	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
-13	date	dater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+13	date	dater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	Correct=datent
 14	d'	de	ADP	_	_	17	mark	_	SpaceAfter=No
 15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 16	y	y	PRON	_	_	17	expl	_	_
@@ -37709,7 +37709,7 @@
 8	porte	porte	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
 10	entrée	entrée	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
-11	doivent	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	doivent	devoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	être	être	AUX	_	VerbForm=Inf	14	cop	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	reste	reste	NOUN	_	Gender=Masc|Number=Sing	11	xcomp	_	_
@@ -40155,7 +40155,7 @@
 20	leur	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det	_	_
 21	mission	mission	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
-23	doivent	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	doivent	devoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 24	faire	faire	VERB	_	VerbForm=Inf	23	xcomp	_	_
 25	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	exercice	exercice	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
@@ -41232,7 +41232,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 6	deux	deux	NUM	_	_	7	nummod	_	_
-7	micro-pays	micro-pays	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+7	micro-pays	micro-pays	NOUN	_	Gender=Masc|Number=Plur	19	nsubj	_	_
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_

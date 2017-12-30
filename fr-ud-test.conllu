@@ -1707,7 +1707,7 @@
 35	dégénère	dégénérer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	ccomp	_	_
 36	si	si	SCONJ	_	_	41	mark	_	_
 37	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
-38	aide	aide	NOUN	_	Gender=Masc|Number=Plur	41	nsubj	_	_
+38	aide	aide	NOUN	_	Gender=Masc|Number=Sing	41	nsubj	_	_
 39	internationale	international	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	_
 40	ne	ne	ADV	_	Polarity=Neg	41	advmod	_	_
 41	pointe	pointer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	advcl	_	_
@@ -1769,7 +1769,7 @@
 14	»	»	PUNCT	_	_	13	punct	_	_
 15	se	se	PRON	_	Person=3|PronType=Prs	17	expl	_	_
 16	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
-17	permis	permettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+17	permis	permettre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
 18	de	de	ADP	_	_	20	mark	_	_
 19	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	20	obj	_	_
 20	traiter	traiter	VERB	_	VerbForm=Inf	17	xcomp	_	_
@@ -2666,7 +2666,7 @@
 15	,	,	PUNCT	_	_	20	punct	_	_
 16	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
 17	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
-18	rencontre	rencontre	NOUN	_	Gender=Masc|Number=Plur	20	nsubj	_	_
+18	rencontre	rencontre	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
 19	se	se	PRON	_	Person=3|PronType=Prs	20	expl	_	_
 20	déroule	dérouler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 21	sous	sous	ADP	_	_	23	case	_	_
@@ -3551,7 +3551,7 @@
 3	plus	plus	ADV	_	_	4	advmod	_	_
 4	tard	tard	ADV	_	_	2	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
-6	ceux-ci	celui-ci	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	_
+6	ceux-ci	celui-ci	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	7	nsubj	_	_
 7	pourront	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 8	se	se	PRON	_	Person=3|PronType=Prs	9	obj	_	_
 9	retrouver	retrouver	VERB	_	VerbForm=Inf	7	xcomp	_	_
@@ -6750,7 +6750,7 @@
 
 # sent_id = fr-ud-test_00236
 # text = Il sont formés à vous arnaquer.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Correct=Ils
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	formés	former	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 4	à	à	ADP	_	_	6	mark	_	_
@@ -7075,7 +7075,7 @@
 23	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
 24	économies	économie	NOUN	_	Gender=Fem|Number=Plur	26	nsubj	_	_
 25	ne	ne	ADV	_	Polarity=Neg	26	advmod	_	_
-26	doivent	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
+26	doivent	devoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
 27	pas	pas	ADV	_	Polarity=Neg	26	advmod	_	_
 28	être	être	AUX	_	VerbForm=Inf	29	aux:pass	_	_
 29	faites	faire	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	26	xcomp	_	_

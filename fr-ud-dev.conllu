@@ -12136,9 +12136,9 @@
 8-9	aux	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	13	case	_	_
 9	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
-10	première	première	NUM	_	_	13	nummod	_	_
+10	première	première	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
-12	deuxième	deuxième	NUM	_	_	10	conj	_	_
+12	deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	10	conj	_	_
 13	Conférences	conférence	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
 14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
@@ -23956,15 +23956,15 @@
 # sent_id = fr-ud-dev_00865
 # text = Sa population est de 1 231 habitants (01.01.2012).
 1	Sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
-2	population	population	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+2	population	population	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	1 231	1 231	NUM	_	_	6	nummod	_	_
-6	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	_
+6	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
-8	01.01.2012	01.01.2012	NUM	_	_	0	root	_	SpaceAfter=No
+8	01.01.2012	01.01.2012	NUM	_	_	6	nmod	_	SpaceAfter=No
 9	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	8	punct	_	_
+10	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_00866
 # text = Il forme plus tard son fils, le futur Kanō Eitoku.
@@ -24516,7 +24516,7 @@
 22	attente	attente	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
 23	étant	être	AUX	_	Tense=Pres|VerbForm=Part	25	cop	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	deuxième	deuxième	NUM	_	_	4	advcl	_	_
+25	deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	4	advcl	_	_
 26	puisque	puisque	SCONJ	_	_	29	mark	_	_
 27	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	28	expl	_	SpaceAfter=No
 28	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	29	nsubj	_	_
@@ -27798,11 +27798,11 @@
 56	pour	pour	ADP	_	_	65	mark	_	_
 57	avoir	avoir	AUX	_	VerbForm=Inf	65	aux	_	SpaceAfter=No
 58	,	,	PUNCT	_	_	65	punct	_	_
-59	pendant	pendant	ADP	_	_	61	case	_	_
-60	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	_	_
-61	Deuxième	Deuxième	PROPN	_	_	65	obl	_	_
-62	Guerre	Guerre	PROPN	_	_	61	flat:name	_	_
-63	mondiale	mondial	ADJ	_	Gender=Fem|Number=Sing	61	amod	_	SpaceAfter=No
+59	pendant	pendant	ADP	_	_	62	case	_	_
+60	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	62	det	_	_
+61	Deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	62	amod	_	_
+62	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	65	obl	_	_
+63	mondiale	mondial	ADJ	_	Gender=Fem|Number=Sing	62	amod	_	SpaceAfter=No
 64	,	,	PUNCT	_	_	65	punct	_	_
 65	sauvé	sauver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	52	advcl	_	_
 66	près	près	ADV	_	_	68	advmod	_	_

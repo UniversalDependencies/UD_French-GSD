@@ -6856,13 +6856,13 @@
 
 # sent_id = fr-ud-test_00242
 # text = Ils sont sur Cherbourg depuis 2007.
-1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
-2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	sur	sur	ADP	_	_	4	case	_	_
-4	Cherbourg	Cherbourg	PROPN	_	_	6	obl	_	_
+4	Cherbourg	Cherbourg	PROPN	_	_	0	root	_	_
 5	depuis	depuis	ADP	_	_	6	case	_	_
-6	2007	2007	NUM	_	_	0	root	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	6	punct	_	_
+6	2007	2007	NUM	_	_	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-test_00243
 # text = J'y vais très souvent, car comme on dit on change pas une équipe qui gagne.
@@ -8128,12 +8128,12 @@
 21	2008	2008	NUM	_	_	18	nmod	_	_
 22	et	et	CCONJ	_	_	23	cc	_	_
 23	terminé	terminer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
-24	troisième	troisième	NUM	_	_	23	xcomp	_	_
+24	troisième	troisième	ADJ	_	Gender=Masc|Number=Sing	23	xcomp	_	_
 25	de	de	ADP	_	_	26	case	_	_
 26	Gand-Wevelgem	Gand-Wevelgem	PROPN	_	_	24	nmod	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 28	même	même	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
-29	année	année	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+29	année	année	NOUN	_	Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_01480

@@ -3748,21 +3748,21 @@
 # sent_id = fr-ud-dev_00137
 # text = Depuis janvier 2010, Il Seminario Musicale est en résidence à Rueil-Malmaison (Hauts-de-Seine).
 1	Depuis	depuis	ADP	_	_	2	case	_	_
-2	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+2	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
 3	2010	2010	NUM	_	_	2	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	12	punct	_	_
-5	Il	Il	PROPN	_	_	12	nsubj	_	_
+4	,	,	PUNCT	_	_	10	punct	_	_
+5	Il	Il	PROPN	_	_	10	nsubj	_	_
 6	Seminario	Seminario	PROPN	_	_	5	flat:name	_	_
 7	Musicale	Musicale	PROPN	_	_	5	flat:name	_	_
-8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 9	en	en	ADP	_	_	10	case	_	_
-10	résidence	résidence	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+10	résidence	résidence	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 11	à	à	ADP	_	_	12	case	_	_
-12	Rueil-Malmaison	Rueil-Malmaison	PROPN	_	_	0	root	_	_
+12	Rueil-Malmaison	Rueil-Malmaison	PROPN	_	_	10	obl	_	_
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	Hauts-de-Seine	Hauts-de-Seine	PROPN	_	_	12	nmod	_	SpaceAfter=No
 15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	12	punct	_	_
+16	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-dev_00138
 # text = Selon les initiateurs de ce comité (pensé à la manière du Comité de vigilance des intellectuels antifascistes de l'entre deux guerres), les historiens ont aussi leur rôle de citoyens à assumer.
@@ -23612,7 +23612,7 @@
 # sent_id = fr-ud-dev_00854
 # text = L'enfant de 11 ans renversé jeudi soir par un fourgon de police à Argenteuil (Val d'Oise) et transporté à l'hôpital Necker de Paris, était toujours dans un « état préoccupant » ce vendredi, selon des sources concordantes.
 1	L'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	enfant	enfant	NOUN	_	Gender=Masc|Number=Sing	43	nsubj	_	_
+2	enfant	enfant	NOUN	_	Gender=Masc|Number=Sing	35	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	11	11	NUM	_	_	5	nummod	_	_
 5	ans	an	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
@@ -23639,23 +23639,23 @@
 26	Necker	Necker	PROPN	_	_	25	flat:name	_	_
 27	de	de	ADP	_	_	28	case	_	_
 28	Paris	Paris	PROPN	_	_	25	nmod	_	SpaceAfter=No
-29	,	,	PUNCT	_	_	43	punct	_	_
-30	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	43	cop	_	_
-31	toujours	toujours	ADV	_	_	43	advmod	_	_
+29	,	,	PUNCT	_	_	35	punct	_	_
+30	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	cop	_	_
+31	toujours	toujours	ADV	_	_	35	advmod	_	_
 32	dans	dans	ADP	_	_	35	case	_	_
 33	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 34	«	«	PUNCT	_	_	35	punct	_	_
-35	état	état	NOUN	_	Gender=Masc|Number=Sing	43	obl	_	_
+35	état	état	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 36	préoccupant	préoccupant	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	_
 37	»	»	PUNCT	_	_	35	punct	_	_
 38	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	39	det	_	_
-39	vendredi	vendredi	NOUN	_	Gender=Masc|Number=Sing	43	obl	_	SpaceAfter=No
+39	vendredi	vendredi	NOUN	_	Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	43	punct	_	_
 41	selon	selon	ADP	_	_	43	case	_	_
 42	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
-43	sources	source	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+43	sources	source	NOUN	_	Gender=Fem|Number=Plur	35	obl	_	_
 44	concordantes	concordant	ADJ	_	Gender=Fem|Number=Plur	43	amod	_	SpaceAfter=No
-45	.	.	PUNCT	_	_	43	punct	_	_
+45	.	.	PUNCT	_	_	35	punct	_	_
 
 # sent_id = fr-ud-dev_00855
 # text = Il se voit obligé de se transformer en Ultimate Echo Echo pour les terrasser.
@@ -30222,20 +30222,20 @@
 # sent_id = fr-ud-dev_01088
 # text = Le réseau routier est en bon état dans l'ensemble, même s'il a peu d'autoroutes (excepté autour de Bratislava, qui est relié à 4 autoroutes, y compris vers Vienne).
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	réseau	réseau	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+2	réseau	réseau	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	routier	routier	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
-4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 5	en	en	ADP	_	_	7	case	_	_
 6	bon	bon	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
-7	état	état	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+7	état	état	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 8	dans	dans	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
-10	ensemble	ensemble	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+10	ensemble	ensemble	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	même	même	ADV	_	_	13	advmod	_	_
 13	s'	si	SCONJ	_	_	15	mark	_	SpaceAfter=No
 14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
-15	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+15	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
 16	peu	peu	ADV	_	_	18	det	_	_
 17	d'	de	ADP	_	_	16	fixed	_	SpaceAfter=No
 18	autoroutes	autoroute	NOUN	_	Gender=Fem|Number=Plur	15	obj	_	_
@@ -30257,7 +30257,7 @@
 34	vers	vers	ADP	_	_	35	case	_	_
 35	Vienne	Vienne	PROPN	_	_	27	obl	_	SpaceAfter=No
 36	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	10	punct	_	_
+37	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-dev_01089
 # text = L'industrialisation entraîne la création d'usines : meubles, lampes, batteries.

@@ -3932,9 +3932,9 @@
 8	millions	millions	NUM	_	_	6	obj	_	_
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
 10	euros	euro	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	10	punct	_	_
+11	,	,	PUNCT	_	_	8	punct	_	_
 12	en	en	ADP	_	_	13	case	_	_
-13	rebond	rebond	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+13	rebond	rebond	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	6,7	6,7	NUM	_	_	16	nummod	_	SpaceAfter=No
 16	%	%	SYM	_	_	13	nmod	_	SpaceAfter=No
@@ -3951,7 +3951,7 @@
 27	3,8	3,8	NUM	_	_	28	nummod	_	SpaceAfter=No
 28	%	%	SYM	_	_	25	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	25	punct	_	_
-30	à	à	ADP	_	_	34	case	_	_
+30	à	à	ADP	_	_	32	case	_	_
 31	29,8	29,8	NUM	_	_	32	nummod	_	_
 32	millions	millions	NUM	_	_	25	nmod	_	_
 33	d'	de	ADP	_	_	34	case	_	SpaceAfter=No
@@ -4057,7 +4057,7 @@
 28	M1	M1	PROPN	_	_	27	flat:name	_	_
 29	et	et	CCONJ	_	_	30	cc	_	_
 30	distancés	distancer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	27	conj	_	_
-31	de	de	ADP	_	_	36	case	_	_
+31	de	de	ADP	_	_	34	case	_	_
 32	moins	moins	ADV	_	_	34	advmod	_	_
 33	de	de	ADP	_	_	32	fixed	_	_
 34	8/10e	8/10e	NUM	_	_	30	obl	_	_
@@ -4066,7 +4066,7 @@
 37-38	du	_	_	_	_	_	_	_	_
 37	de	de	ADP	_	_	39	case	_	_
 38	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-39	leader	leader	NOUN	_	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+39	leader	leader	NOUN	_	Gender=Masc|Number=Sing	34	obl	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-test_00134
@@ -4598,8 +4598,8 @@
 5	milliards	milliards	NUM	_	_	2	dep	_	_
 6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 7	euros	euro	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
-8	fin	fin	NOUN	_	Gender=Masc|Number=Plur	9	compound	_	_
-9	2010	2010	NUM	_	_	7	nmod	_	SpaceAfter=No
+8	fin	fin	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+9	2010	2010	NUM	_	_	8	nmod	_	SpaceAfter=No
 10	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	2	punct	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -5752,13 +5752,13 @@
 31	%	%	SYM	_	_	25	obl	_	_
 32	en	en	ADP	_	_	33	case	_	_
 33	2009	2009	NUM	_	_	25	obl	_	_
-34	à	à	ADP	_	_	38	case	_	_
+34	à	à	ADP	_	_	36	case	_	_
 35	8,943	8,943	NUM	_	_	36	nummod	_	_
 36	milliards	milliards	NUM	_	_	25	obl	_	_
 37	d'	de	ADP	_	_	38	case	_	SpaceAfter=No
 38	euros	euro	NOUN	_	Gender=Masc|Number=Plur	36	nmod	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	25	punct	_	_
-40	malgré	malgré	ADP	_	_	44	case	_	_
+40	malgré	malgré	ADP	_	_	42	case	_	_
 41	9,484	9,484	NUM	_	_	42	nummod	_	_
 42	milliards	milliard	NOUN	_	Gender=Masc|Number=Plur	25	obl	_	_
 43	de	de	ADP	_	_	44	case	_	_
@@ -5979,13 +5979,13 @@
 53	Sacko	Sacko	PROPN	_	_	52	appos	_	_
 54	Souleymane	Souleymane	PROPN	_	_	53	flat:name	_	SpaceAfter=No
 55	,	,	PUNCT	_	_	44	punct	_	_
-56	à	à	ADP	_	_	60	case	_	_
+56	à	à	ADP	_	_	58	case	_	_
 57	quelques	quelque	DET	_	Gender=Fem|Number=Plur	58	det	_	_
 58	centaines	centaine	NOUN	_	Gender=Fem|Number=Plur	44	obl	_	_
 59	de	de	ADP	_	_	60	case	_	_
 60	mètres	mètre	NOUN	_	Gender=Masc|Number=Plur	58	nmod	_	_
 61	de	de	ADP	_	_	62	case	_	_
-62	là	là	ADV	_	_	60	advmod	_	SpaceAfter=No
+62	là	là	ADV	_	_	58	advmod	_	SpaceAfter=No
 63	.	.	PUNCT	_	_	44	punct	_	_
 
 # sent_id = fr-ud-test_00198

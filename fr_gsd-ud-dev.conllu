@@ -189,7 +189,7 @@
 4	pour	pour	ADP	_	_	7	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	futur	futur	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
-7	baptisé	baptiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	obl	_	_
+7	baptisé	baptiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	obl:mod	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	changement	changement	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 10	de	de	ADP	_	_	11	case	_	_
@@ -3758,7 +3758,7 @@
 9	en	en	ADP	_	_	10	case	_	_
 10	résidence	résidence	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 11	à	à	ADP	_	_	12	case	_	_
-12	Rueil-Malmaison	Rueil-Malmaison	PROPN	_	_	10	obl	_	_
+12	Rueil-Malmaison	Rueil-Malmaison	PROPN	_	_	10	obl:mod	_	_
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	Hauts-de-Seine	Hauts-de-Seine	PROPN	_	_	12	nmod	_	SpaceAfter=No
 15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
@@ -5201,7 +5201,7 @@
 17-18	au	_	_	_	_	_	_	_	_
 17	à	à	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	moment	moment	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+19	moment	moment	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	_
 20	de	de	ADP	_	_	22	case	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	révolution	révolution	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
@@ -8140,7 +8140,7 @@
 24	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	cop	_	_
 25	à	à	ADP	_	_	27	case	_	_
 26	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
-27	origine	origine	NOUN	_	Gender=Fem|Number=Sing	29	obl	_	_
+27	origine	origine	NOUN	_	Gender=Fem|Number=Sing	29	obl:mod	_	_
 28	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	collection	collection	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 30	de	de	ADP	_	_	31	case	_	_
@@ -8237,7 +8237,7 @@
 # sent_id = fr-ud-dev_00292
 # text = Pour moi ce restaurant est le meilleur restaurant Japonnais de Caen.
 1	Pour	pour	ADP	_	_	2	case	_	_
-2	moi	soi	PRON	_	Number=Sing|Person=1	8	obl	_	_
+2	moi	soi	PRON	_	Number=Sing|Person=1	8	obl:mod	_	_
 3	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	restaurant	restaurant	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
@@ -10432,7 +10432,7 @@
 10	avec	avec	ADP	_	_	13	case	_	_
 11	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det	_	_
 12	gros	gros	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
-13	bec	bec	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+13	bec	bec	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
 14	disproportionné	disproportionner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
 15	par	par	ADP	_	_	16	case	_	_
 16	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
@@ -11532,7 +11532,7 @@
 16	durant	durant	ADP	_	_	19	case	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 18	Seconde	Seconde	PROPN	_	_	19	amod	_	_
-19	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+19	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	_
 20	mondiale	mondial	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -12139,7 +12139,7 @@
 10	première	première	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	10	conj	_	_
-13	Conférences	conférence	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
+13	Conférences	conférence	NOUN	_	Gender=Fem|Number=Plur	3	obl:mod	_	_
 14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -13111,7 +13111,7 @@
 13	aigles	aigle	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 14	auprès	auprès	ADV	_	_	16	case	_	_
 15	de	de	ADP	_	_	14	fixed	_	_
-16	ceux-ci	celui-ci	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	13	obl	_	SpaceAfter=No
+16	ceux-ci	celui-ci	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	13	obl:mod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = fr-ud-dev_00473
@@ -15459,7 +15459,7 @@
 15	première	première	NOUN	_	Gender=Fem|Number=Sing	11	acl:relcl	_	_
 16	dans	dans	ADP	_	_	18	case	_	_
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	cabaret	cabaret	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+18	cabaret	cabaret	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	11	punct	_	_
 20	de	de	ADP	_	_	27	mark	_	_
 21	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	20	fixed	_	_
@@ -16422,7 +16422,7 @@
 9	de	de	ADP	_	_	10	case	_	_
 10	Bastogne	Bastogne	PROPN	_	_	7	nmod	_	_
 11	à	à	ADP	_	_	12	case	_	_
-12	mi-chemin	mi-chemin	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+12	mi-chemin	mi-chemin	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
 13	entre	entre	ADP	_	_	14	case	_	_
 14	Longvilly	Longvilly	PROPN	_	_	12	nmod	_	_
 15	et	et	CCONJ	_	_	16	cc	_	_
@@ -16487,7 +16487,7 @@
 # sent_id = fr-ud-dev_00591
 # text = En 1945 la production est de 25 000 tonnes de pulvérulents et en 1960 de 80 000 tonnes d'engrais.
 1	En	en	ADP	_	_	2	case	_	_
-2	1945	1945	NUM	_	_	8	obl	_	_
+2	1945	1945	NUM	_	_	8	obl:mod	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	production	production	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
@@ -16847,7 +16847,7 @@
 6	AS	AS	PROPN	_	_	0	root	_	_
 7	Philotechnique	Philotechnique	PROPN	_	_	6	flat:name	_	_
 8	en	en	ADP	_	_	9	case	_	_
-9	1925	1925	NUM	_	_	6	obl	_	SpaceAfter=No
+9	1925	1925	NUM	_	_	6	obl:mod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	6	punct	_	_
 11	puis	puis	SCONJ	_	_	14	cc	_	_
 12	surtout	surtout	ADV	_	_	14	advmod	_	_
@@ -17649,7 +17649,7 @@
 19	ministère	ministère	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
 20	à	à	ADP	_	_	21	case	_	_
 21	Sceaux	Sceaux	PROPN	_	_	14	obl	_	_
-22	où	où	PRON	_	PronType=Rel	25	obl	_	_
+22	où	où	PRON	_	PronType=Rel	25	obl:mod	_	_
 23	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 24	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
 25	vicaire	vicaire	NOUN	_	Gender=Masc|Number=Sing	21	acl:relcl	_	_
@@ -17738,7 +17738,7 @@
 36	que	que	PRON	_	PronType=Rel	35	acl:relcl	_	_
 37	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	_
 38	pour	pour	ADP	_	_	39	case	_	_
-39	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	36	obl	_	_
+39	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	36	obl:mod	_	_
 40	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	SpaceAfter=No
 41	athéisme	athéisme	NOUN	_	Gender=Masc|Number=Sing	36	nsubj	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	29	punct	_	_
@@ -18399,7 +18399,7 @@
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	7	nsubj	_	SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
 3	sans	sans	ADP	_	_	4	case	_	_
-4	doute	doute	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+4	doute	doute	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	premier	premier	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 7	séjour	séjour	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -19314,7 +19314,7 @@
 16	pour	pour	ADP	_	_	19	case	_	_
 17	tout	tout	DET	_	Gender=Masc|Number=Sing	19	det	_	_
 18	bon	bon	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
-19	agent	agent	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+19	agent	agent	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = fr-ud-dev_00695
@@ -22400,7 +22400,7 @@
 6	Indonésie	Indonésie	PROPN	_	_	4	nmod	_	_
 7	sur	sur	ADP	_	_	9	case	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	côte	côte	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+9	côte	côte	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
 10	occidentale	occidental	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
@@ -22410,7 +22410,7 @@
 16	,	,	PUNCT	_	_	4	punct	_	_
 17	dans	dans	ADP	_	_	19	case	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	province	province	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+19	province	province	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
 20	de	de	ADP	_	_	21	case	_	_
 21	Banten	Banten	PROPN	_	_	19	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	4	punct	_	_
@@ -23114,10 +23114,10 @@
 9	de	de	ADP	_	_	10	case	_	_
 10	France	France	PROPN	_	_	8	nmod	_	_
 11	huit	huit	NUM	_	_	12	nummod	_	_
-12	fois	fois	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+12	fois	fois	NOUN	_	Gender=Fem|Number=Plur	8	obl:mod	_	_
 13	consécutivement	consécutivement	ADV	_	_	8	advmod	_	_
 14	entre	entre	ADP	_	_	15	case	_	_
-15	1986	1986	NUM	_	_	8	obl	_	_
+15	1986	1986	NUM	_	_	8	obl:mod	_	_
 16	et	et	CCONJ	_	_	17	cc	_	_
 17	1993	1993	NUM	_	_	15	conj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	8	punct	_	_
@@ -23649,11 +23649,11 @@
 36	préoccupant	préoccupant	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	_
 37	»	»	PUNCT	_	_	35	punct	_	_
 38	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	39	det	_	_
-39	vendredi	vendredi	NOUN	_	Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
+39	vendredi	vendredi	NOUN	_	Gender=Masc|Number=Sing	35	obl:mod	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	43	punct	_	_
 41	selon	selon	ADP	_	_	43	case	_	_
 42	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
-43	sources	source	NOUN	_	Gender=Fem|Number=Plur	35	obl	_	_
+43	sources	source	NOUN	_	Gender=Fem|Number=Plur	35	obl:mod	_	_
 44	concordantes	concordant	ADJ	_	Gender=Fem|Number=Plur	43	amod	_	SpaceAfter=No
 45	.	.	PUNCT	_	_	35	punct	_	_
 
@@ -24736,7 +24736,7 @@
 9	,	,	PUNCT	_	_	6	punct	_	_
 10	dans	dans	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	communauté	communauté	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+12	communauté	communauté	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	_
 13	autonome	autonome	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
 14	de	de	ADP	_	_	15	case	_	_
 15	Castille-et-León	Castille-et-León	PROPN	_	_	12	nmod	_	SpaceAfter=No
@@ -26987,7 +26987,7 @@
 4	ville	ville	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 5	dans	dans	ADP	_	_	7	case	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	municipalité	municipalité	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+7	municipalité	municipalité	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
 8	régionale	régional	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	comté	comté	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
@@ -27470,7 +27470,7 @@
 14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	milieu	milieu	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+16	milieu	milieu	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
 17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	20	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
@@ -27616,7 +27616,7 @@
 17	durant	durant	ADP	_	_	20	case	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 19	Seconde	second	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
-20	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+20	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
 21	mondiale	mondial	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -29580,7 +29580,7 @@
 10-11	au	_	_	_	_	_	_	_	_
 10	à	à	ADP	_	_	12	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	pont	pont	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+12	pont	pont	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	Faverolles-et-Coëmy	Faverolles-et-Coëmy	PROPN	_	_	12	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	5	punct	_	_
@@ -30230,7 +30230,7 @@
 7	état	état	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 8	dans	dans	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
-10	ensemble	ensemble	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	ensemble	ensemble	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	même	même	ADV	_	_	13	advmod	_	_
 13	s'	si	SCONJ	_	_	15	mark	_	SpaceAfter=No
@@ -30868,7 +30868,7 @@
 8	2002	2002	NUM	_	_	0	root	_	_
 9	avec	avec	ADP	_	_	11	case	_	_
 10	6.995	6.995	NUM	_	_	11	nummod	_	_
-11	décès	décès	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+11	décès	décès	NOUN	_	Gender=Masc|Number=Plur	8	obl:mod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-dev_01114
@@ -32578,7 +32578,7 @@
 14	rassurant	rassurant	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
 15	pour	pour	ADP	_	_	17	case	_	_
 16	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
-17	citoyens	citoyen	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+17	citoyens	citoyen	NOUN	_	Gender=Masc|Number=Plur	13	obl:mod	_	_
 18	en	en	ADP	_	_	19	case	_	_
 19	quête	quête	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
 20	d'	de	ADP	_	_	21	case	_	SpaceAfter=No
@@ -33630,7 +33630,7 @@
 8	de	de	ADP	_	_	11	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	XIIIe	XIIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	11	amod	_	_
-11	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+11	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
 14	Église	Église	PROPN	_	_	7	nmod	_	_
@@ -33656,9 +33656,9 @@
 7	de	de	ADP	_	_	8	case	_	_
 8	Kakhétie	Kakhétie	PROPN	_	_	6	nmod	_	_
 9	vers	vers	ADP	_	_	10	case	_	_
-10	786	786	NUM	_	_	6	obl	_	_
+10	786	786	NUM	_	_	6	obl:mod	_	_
 11	à	à	ADP	_	_	12	case	_	_
-12	790	790	NUM	_	_	6	obl	_	SpaceAfter=No
+12	790	790	NUM	_	_	6	obl:mod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_01218
@@ -34029,7 +34029,7 @@
 20	qui	qui	PRON	_	PronType=Rel	39	nsubj	_	_
 21	dans	dans	ADP	_	_	23	case	_	_
 22	leur	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	det	_	_
-23	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	39	obl	_	_
+23	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	39	obl:mod	_	_
 24	fondamental	fondamental	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
 25	dans	dans	ADP	_	_	27	case	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
@@ -34959,7 +34959,7 @@
 31	de	de	ADP	_	_	32	case	_	_
 32	McKinsey	McKinsey	PROPN	_	_	29	nmod	_	_
 33	depuis	depuis	ADP	_	_	34	case	_	_
-34	2004	2004	NUM	_	_	29	obl	_	SpaceAfter=No
+34	2004	2004	NUM	_	_	29	obl:mod	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	29	punct	_	_
 
 # sent_id = fr-ud-dev_01260
@@ -36020,7 +36020,7 @@
 8	à	à	ADP	_	_	11	case	_	_
 9	partir	partir	VERB	_	VerbForm=Inf	8	fixed	_	_
 10	de	de	ADP	_	_	8	fixed	_	_
-11	1983	1983	NUM	_	_	5	obl	_	SpaceAfter=No
+11	1983	1983	NUM	_	_	5	obl:mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	5	punct	_	_
 13	tout	tout	ADV	_	_	14	advmod	_	_
 14	en	en	ADP	_	_	15	mark	_	_
@@ -36182,7 +36182,7 @@
 22	OVNI	ovni	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 23	dans	dans	ADP	_	_	25	case	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	paysage	paysage	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
+25	paysage	paysage	NOUN	_	Gender=Masc|Number=Sing	22	obl:mod	_	_
 26	de	de	ADP	_	_	28	case	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	pop-music	pop-music	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
@@ -37982,7 +37982,7 @@
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	Énergie	énergie	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
 11	entre	entre	ADP	_	_	12	case	_	_
-12	2009	2009	NUM	_	_	3	obl	_	_
+12	2009	2009	NUM	_	_	3	obl:mod	_	_
 13	et	et	CCONJ	_	_	14	cc	_	_
 14	2011	2011	NUM	_	_	12	conj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	19	punct	_	_
@@ -38121,13 +38121,13 @@
 4	origine	origine	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 5	iranienne	iranien	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
-7	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+7	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	9	obl:mod	_	_
 8	aussi	aussi	ADV	_	_	7	advmod	_	_
 9	député	député	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 10-11	au	_	_	_	_	_	_	_	_
 10	à	à	ADP	_	_	12	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	Québec	Québec	PROPN	_	_	9	obl	_	SpaceAfter=No
+12	Québec	Québec	PROPN	_	_	9	obl:mod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-dev_01374
@@ -39081,7 +39081,7 @@
 22	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
 23	pour	pour	ADP	_	_	25	case	_	_
 24	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
-25	extérieur	extérieur	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
+25	extérieur	extérieur	NOUN	_	Gender=Masc|Number=Sing	27	obl:mod	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	reproduction	reproduction	NOUN	_	Gender=Fem|Number=Sing	8	acl:relcl	_	_
 28	d'	de	ADP	_	_	30	case	_	SpaceAfter=No
@@ -39387,7 +39387,7 @@
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	dans	dans	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	sens	sens	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+19	sens	sens	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	_
 20-21	du	_	_	_	_	_	_	_	_
 20	de	de	ADP	_	_	22	case	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
@@ -39431,7 +39431,7 @@
 7	mannequin	mannequin	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 8	depuis	depuis	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
-10	âge	âge	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+10	âge	âge	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	7	7	NUM	_	_	13	nummod	_	_
 13	ans	an	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
@@ -41134,7 +41134,7 @@
 29	,	,	PUNCT	_	_	8	punct	_	_
 30	à	à	ADP	_	_	32	case	_	_
 31	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
-32	origine	origine	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+32	origine	origine	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	_
 33	de	de	ADP	_	_	35	case	_	_
 34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	fédération	fédération	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_

@@ -78,7 +78,7 @@
 22	objet	objet	NOUN	_	Gender=Masc|Number=Sing	6	ccomp	_	_
 23	de	de	ADP	_	_	25	case	_	_
 24	diverses	divers	ADJ	_	Gender=Fem|Number=Plur	25	amod	_	_
-25	atteintes	atteinte	NOUN	_	Gender=Fem|Number=Plur	22	obl	_	_
+25	atteintes	atteinte	NOUN	_	Gender=Fem|Number=Plur	22	obl:mod	_	_
 26-27	aux	_	_	_	_	_	_	_	_
 26	à	à	ADP	_	_	28	case	_	_
 27	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
@@ -834,7 +834,7 @@
 4	h	heure	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 5	45	45	NUM	_	_	4	nummod	_	_
 6	en	en	ADP	_	_	7	case	_	_
-7	territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+7	territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
 8	algérien	algérien	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -965,7 +965,7 @@
 20	probable	probable	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
 21	vainqueur	vainqueur	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 22	en	en	ADP	_	_	23	case	_	_
-23	mai	mai	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+23	mai	mai	NOUN	_	Gender=Masc|Number=Sing	21	obl:mod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	21	punct	_	_
 
 # sent_id = fr-ud-test_00038
@@ -3027,7 +3027,7 @@
 21	pour	pour	ADP	_	_	24	case	_	_
 22	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
 23	vrais	vrai	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	_
-24	soldats	soldat	NOUN	_	Gender=Masc|Number=Plur	20	obl	_	_
+24	soldats	soldat	NOUN	_	Gender=Masc|Number=Plur	20	obl:mod	_	_
 25	qui	qui	PRON	_	PronType=Rel	27	nsubj	_	_
 26	en	en	PRON	_	Person=3	27	obj	_	_
 27	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
@@ -4066,7 +4066,7 @@
 37-38	du	_	_	_	_	_	_	_	_
 37	de	de	ADP	_	_	39	case	_	_
 38	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-39	leader	leader	NOUN	_	Gender=Masc|Number=Sing	34	obl	_	SpaceAfter=No
+39	leader	leader	NOUN	_	Gender=Masc|Number=Sing	34	obl:mod	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-test_00134
@@ -4548,7 +4548,7 @@
 9	France	France	PROPN	_	_	7	nmod	_	_
 10	pour	pour	ADP	_	_	12	case	_	_
 11	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
-12	catégories	catégorie	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
+12	catégories	catégorie	NOUN	_	Gender=Fem|Number=Plur	5	obl:mod	_	_
 13	espoirs	espoir	NOUN	_	Gender=Masc|Number=Plur	12	compound	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -5324,7 +5324,7 @@
 6	totale	total	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 7	sur	sur	ADP	_	_	9	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	marché	marché	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	marché	marché	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	5	punct	_	_
 11	et	et	CCONJ	_	_	17	cc	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -5542,7 +5542,7 @@
 11	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
 12	chose	chose	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 13	pour	pour	ADP	_	_	14	case	_	_
-14	moi	soi	PRON	_	Number=Sing|Person=1	12	obl	_	SpaceAfter=No
+14	moi	soi	PRON	_	Number=Sing|Person=1	12	obl:mod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	12	punct	_	_
 16	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
 17	gagne	gagner	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
@@ -6861,7 +6861,7 @@
 3	sur	sur	ADP	_	_	4	case	_	_
 4	Cherbourg	Cherbourg	PROPN	_	_	0	root	_	_
 5	depuis	depuis	ADP	_	_	6	case	_	_
-6	2007	2007	NUM	_	_	4	obl	_	SpaceAfter=No
+6	2007	2007	NUM	_	_	4	obl:mod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-test_00243
@@ -7007,7 +7007,7 @@
 5	Sreemati	Sreemati	PROPN	_	_	3	nmod	_	_
 6	depuis	depuis	ADP	_	_	8	case	_	_
 7	5	5	NUM	_	_	8	nummod	_	_
-8	ans	an	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+8	ans	an	NOUN	_	Gender=Masc|Number=Plur	3	obl:mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	3	punct	_	_
 10	et	et	CCONJ	_	_	42	cc	_	_
 11	dès	dès	ADP	_	_	16	mark	_	_
@@ -8454,9 +8454,9 @@
 50	de	de	ADP	_	_	51	case	_	_
 51	Pékin	Pékin	PROPN	_	_	49	nmod	_	_
 52	de	de	ADP	_	_	53	case	_	_
-53	1983	1983	NUM	_	_	49	obl	_	_
+53	1983	1983	NUM	_	_	49	obl:mod	_	_
 54	à	à	ADP	_	_	55	case	_	_
-55	1993	1993	NUM	_	_	49	obl	_	SpaceAfter=No
+55	1993	1993	NUM	_	_	49	obl:mod	_	SpaceAfter=No
 56	.	.	PUNCT	_	_	19	punct	_	_
 
 # sent_id = fr-ud-dev_01491
@@ -9193,7 +9193,7 @@
 4	Grenoble	Grenoble	PROPN	_	_	2	nmod	_	_
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
-7	or	or	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+7	or	or	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
 8-9	aux	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	11	case	_	_
 9	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
@@ -9312,7 +9312,7 @@
 18-19	au	_	_	_	_	_	_	_	_
 18	à	à	ADP	_	_	20	case	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	diocèse	diocèse	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+20	diocèse	diocèse	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	_
 21	de	de	ADP	_	_	22	case	_	_
 22	Meaux	Meaux	PROPN	_	_	20	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	14	punct	_	_
@@ -10649,7 +10649,7 @@
 39	fait	fait	NOUN	_	Gender=Masc|Number=Sing	44	advmod	_	_
 40	à	à	ADP	_	_	42	case	_	_
 41	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	SpaceAfter=No
-42	origine	origine	NOUN	_	Gender=Fem|Number=Sing	44	obl	_	_
+42	origine	origine	NOUN	_	Gender=Fem|Number=Sing	44	obl:mod	_	_
 43	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	mouvement	mouvement	NOUN	_	Gender=Masc|Number=Sing	31	ccomp	_	_
 45	similaire	similaire	ADJ	_	Gender=Masc|Number=Sing	44	amod	_	_
@@ -11344,7 +11344,7 @@
 18	membres	membre	NOUN	_	Gender=Masc|Number=Plur	4	conj	_	_
 19	par	par	ADP	_	_	21	case	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	biais	biais	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+21	biais	biais	NOUN	_	Gender=Masc|Number=Sing	18	obl:mod	_	_
 22-23	des	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	24	case	_	_
 23	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_

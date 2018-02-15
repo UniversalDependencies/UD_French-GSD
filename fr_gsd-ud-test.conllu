@@ -231,7 +231,7 @@
 9	que	que	SCONJ	_	_	8	fixed	_	_
 10	depuis	depuis	ADP	_	_	12	case	_	_
 11	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
-12	institutions	institution	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	_
+12	institutions	institution	NOUN	_	Gender=Fem|Number=Plur	15	obl:mod	_	_
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
 14	n'	ne	ADV	_	Polarity=Neg	15	advmod	_	SpaceAfter=No
 15	attaque	attaquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
@@ -299,10 +299,10 @@
 40	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	cop	_	_
 41	comme	comme	ADP	_	_	43	case	_	_
 42	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
-43	montres	montre	NOUN	_	Gender=Fem|Number=Plur	47	obl	_	_
+43	montres	montre	NOUN	_	Gender=Fem|Number=Plur	47	obl:mod	_	_
 44	:	:	PUNCT	_	_	43	punct	_	_
 45	100	100	NUM	_	_	46	nummod	_	SpaceAfter=No
-46	%	%	SYM	_	_	47	obl	_	_
+46	%	%	SYM	_	_	47	obl:mod	_	_
 47	Waterproof	waterproof	ADJ	_	Gender=Masc|Number=Sing	6	advcl	_	SpaceAfter=No
 48	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -396,7 +396,7 @@
 5	peu	peu	ADV	_	_	4	fixed	_	_
 6	de	de	ADP	_	_	4	fixed	_	_
 7	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
-8	volonté	volonté	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+8	volonté	volonté	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	_
 9	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	10	nsubj	_	_
 10	observerez	observer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
 11	que	que	SCONJ	_	_	14	mark	_	_
@@ -4582,7 +4582,7 @@
 42	internationale	international	ADJ	_	Gender=Fem|Number=Sing	41	amod	_	_
 43	qui	qui	PRON	_	PronType=Rel	47	nsubj	_	_
 44	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	45	det	_	_
-45	année	année	NOUN	_	Gender=Fem|Number=Sing	47	obl	_	_
+45	année	année	NOUN	_	Gender=Fem|Number=Sing	47	obl:mod	_	_
 46	se	se	PRON	_	Person=3|PronType=Prs	47	expl	_	_
 47	déroulera	dérouler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	41	acl:relcl	_	_
 48	en	en	ADP	_	_	49	case	_	_
@@ -6265,7 +6265,7 @@
 1	Aussitôt	aussitôt	ADV	_	_	4	advmod	_	_
 2	après	après	ADP	_	_	4	case	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	dessert	dessert	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+4	dessert	dessert	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
 6	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	7	iobj	_	_
 7	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6581,7 +6581,7 @@
 # text = En 2 séances (maillot et aisselles) je vois déjà la différence.
 1	En	en	ADP	_	_	3	case	_	_
 2	2	2	NUM	_	_	3	nummod	_	_
-3	séances	séance	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	_
+3	séances	séance	NOUN	_	Gender=Fem|Number=Plur	10	obl:mod	_	_
 4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	maillot	maillot	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_
 6	et	et	CCONJ	_	_	7	cc	_	_
@@ -7635,7 +7635,7 @@
 18	ainsi	ainsi	SCONJ	_	_	21	case	_	_
 19	que	que	SCONJ	_	_	18	fixed	_	_
 20	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det	_	_
-21	ami	ami	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
+21	ami	ami	NOUN	_	Gender=Masc|Number=Sing	22	obl:mod	_	_
 22	ravi	ravir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
 23	de	de	ADP	_	_	24	mark	_	_
 24	trouver	trouver	VERB	_	VerbForm=Inf	22	acl	_	_
@@ -7712,10 +7712,10 @@
 
 # sent_id = fr-ud-test_00279
 # text = Ps : l'année prochaine on y retourne d'office....
-1	Ps	ps	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+1	Ps	ps	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
 2	:	:	PUNCT	_	_	8	punct	_	_
 3	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
-4	année	année	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+4	année	année	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	_
 5	prochaine	prochain	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
 7	y	y	ADV	_	_	8	advmod	_	_
@@ -7857,7 +7857,7 @@
 10	avec	avec	ADP	_	_	13	case	_	_
 11	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 12	nouveaux	nouveau	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	_
-13	travaux	travail	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	_
+13	travaux	travail	NOUN	_	Gender=Masc|Number=Plur	15	obl:mod	_	_
 14	cela	cela	PRON	_	Number=Sing|PronType=Dem	15	nsubj	_	_
 15	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
 16	s'	se	PRON	_	Person=3|PronType=Prs	17	expl	_	SpaceAfter=No
@@ -7994,7 +7994,7 @@
 26	dans	dans	ADP	_	_	29	case	_	_
 27	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
 28	deux	deux	NUM	_	_	29	nummod	_	_
-29	cas	cas	NOUN	_	Gender=Masc|Number=Plur	30	obl	_	_
+29	cas	cas	NOUN	_	Gender=Masc|Number=Plur	30	obl:mod	_	_
 30	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
 31	à	à	ADP	_	_	33	case	_	_
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
@@ -9418,7 +9418,7 @@
 # sent_id = fr-ud-dev_01526
 # text = En 1784 il fut anobli et s'appela désormais « von Auenbrugg ».
 1	En	en	ADP	_	_	2	case	_	_
-2	1784	1784	NUM	_	_	5	obl	_	_
+2	1784	1784	NUM	_	_	5	obl:mod	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	_
 4	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
 5	anobli	anoblir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -9633,7 +9633,7 @@
 13	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 14	et	et	CCONJ	_	_	19	cc	_	_
 15	chaque	chaque	DET	_	Gender=Fem|Number=Sing	16	det	_	_
-16	fois	fois	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+16	fois	fois	NOUN	_	Gender=Fem|Number=Sing	19	obl:mod	_	_
 17	qu'	que	SCONJ	_	_	19	mark	_	SpaceAfter=No
 18	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
 19	veulent	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
@@ -11061,7 +11061,7 @@
 4	dans	dans	ADP	_	_	7	case	_	_
 5	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	_
 6	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
-7	méandre	méandre	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+7	méandre	méandre	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
 8	avant	avant	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	océan	océan	PROPN	_	_	7	nmod	_	_
@@ -11422,7 +11422,7 @@
 31	,	,	PUNCT	_	_	39	punct	_	_
 32	à	à	ADP	_	_	34	case	_	_
 33	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
-34	aide	aide	NOUN	_	Gender=Fem|Number=Sing	39	obl	_	_
+34	aide	aide	NOUN	_	Gender=Fem|Number=Sing	39	obl:mod	_	_
 35	de	de	ADP	_	_	37	case	_	_
 36	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
 37	ordinateur	ordinateur	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_

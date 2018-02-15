@@ -4,7 +4,7 @@
 2	sens	sentir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	qu'	que	SCONJ	_	_	21	mark	_	SpaceAfter=No
 4	entre	entre	ADP	_	_	5	case	_	_
-5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	21	obl	_	_
+5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	21	obl:mod	_	_
 6	et	et	CCONJ	_	_	8	cc	_	_
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	films	film	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
@@ -171,7 +171,7 @@
 5	de	de	ADP	_	_	4	fixed	_	_
 6	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	_
 7	première	premier	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
-8	visite	visite	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+8	visite	visite	NOUN	_	Gender=Fem|Number=Sing	18	obl:mod	_	_
 9	en	en	ADP	_	_	10	case	_	_
 10	Afrique	Afrique	PROPN	_	_	8	nmod	_	_
 11	subsaharienne	subsaharien	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
@@ -328,7 +328,7 @@
 # sent_id = fr-ud-test_00010
 # text = Pour lui, je crois vraiment que l'essentiel est ailleurs, dans cette contribution à la déstabilisation de l'autorité spirituelle du pape que vous évoquez.
 1	Pour	pour	ADP	_	_	2	case	_	_
-2	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+2	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	5	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 5	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -544,7 +544,7 @@
 # sent_id = fr-ud-test_00017
 # text = Trois ans plus tard, il tient un discours sur la crise.
 1	Trois	Trois	NUM	_	_	2	nummod	_	_
-2	ans	an	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+2	ans	an	NOUN	_	Gender=Masc|Number=Plur	7	obl:mod	_	_
 3	plus	plus	ADV	_	_	4	advmod	_	_
 4	tard	tard	ADV	_	_	2	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
@@ -567,7 +567,7 @@
 # sent_id = fr-ud-test_00019
 # text = Selon lui, cette période sera mise à profit pour étudier les conséquences de l'accord sur les ressources de poisson, "ainsi que l'impact régional" des fonds versés par l'Union européenne, sur la base notamment des informations fournies par les autorités marocaines.
 1	Selon	selon	ADP	_	_	2	case	_	_
-2	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	7	obl	_	SpaceAfter=No
+2	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	7	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	période	période	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
@@ -624,7 +624,7 @@
 # text = Le 20 juin, le Secrétaire général de l'Elysée Claude Guéant a été reçu à Alger par le président Bouteflika et le Premier ministre Ahmed Ouyahia.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	20	20	NUM	_	_	3	nummod	_	_
-3	juin	juin	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+3	juin	juin	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	15	punct	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Secrétaire	Secrétaire	PROPN	_	_	15	nsubj:pass	_	_
@@ -679,7 +679,7 @@
 # text = En ce sens, la mort de Mouammar el-Kadhafi ouvre une période d'irakisation ou de somalisation de la Libye.
 1	En	en	ADP	_	_	3	case	_	_
 2	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
-3	sens	sens	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+3	sens	sens	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	10	punct	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	mort	mort	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
@@ -755,7 +755,7 @@
 # sent_id = fr-ud-test_00027
 # text = Pour cela, ils affirment que le premier mandat de Wade ne rentre pas sous le nouveau texte constitutionnel et, pour autant, ne compte pas dans l'application de la nouvelle loi.
 1	Pour	pour	ADP	_	_	2	case	_	_
-2	cela	cela	PRON	_	Number=Sing|PronType=Dem	5	obl	_	SpaceAfter=No
+2	cela	cela	PRON	_	Number=Sing|PronType=Dem	5	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
 5	affirment	affirmer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -947,7 +947,7 @@
 2	dans	dans	ADP	_	_	5	case	_	_
 3	toutes	tout	DET	_	Gender=Fem|Number=Plur	5	det	_	_
 4	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
-5	campagnes	campagne	NOUN	_	Gender=Fem|Number=Plur	21	obl	_	_
+5	campagnes	campagne	NOUN	_	Gender=Fem|Number=Plur	21	obl:mod	_	_
 6	présidentielles	présidentielle	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	21	punct	_	_
 8	celui	celui	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	21	nsubj	_	_
@@ -1052,7 +1052,7 @@
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	1	fixed	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	droit	droit	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+6	droit	droit	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	_
 7	international	international	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	17	punct	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -1157,7 +1157,7 @@
 # sent_id = fr-ud-test_00046
 # text = En Arabie, on a l'impression que le fondamentalisme a toujours été là, qu'il se maintient et n'aura aucun mal à perdurer.
 1	En	en	ADP	_	_	2	case	_	_
-2	Arabie	Arabie	PROPN	_	_	5	obl	_	SpaceAfter=No
+2	Arabie	Arabie	PROPN	_	_	5	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1260,7 +1260,7 @@
 1	Lors	lors	ADV	_	_	4	case	_	_
 2	du	du	DET	_	Gender=Masc|Number=Sing	1	fixed	_	_
 3	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
-4	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+4	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	_
 5	publié	publier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
 6	par	par	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -1344,7 +1344,7 @@
 3	dans	dans	ADP	_	_	6	case	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	petite	petit	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
-6	cour	cour	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+6	cour	cour	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	_
 7-8	du	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -1489,7 +1489,7 @@
 # text = Dans les sixties, ce n'était pas comme aujourd'hui.
 1	Dans	dans	ADP	_	_	3	case	_	_
 2	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
-3	sixties	sixties	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+3	sixties	sixties	NOUN	_	Gender=Fem|Number=Plur	8	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	8	nsubj	_	_
 6	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
@@ -2114,7 +2114,7 @@
 # sent_id = fr-ud-test_00076
 # text = En application de ce principe, les articles 166 et 167 du Code Général des Impôts français (CGI) fixent les règles d'imposition en cas de transfert de domicile entre la France et l'étranger.
 1	En	en	ADP	_	_	2	case	_	_
-2	application	application	NOUN	_	Gender=Fem|Number=Sing	23	obl	_	_
+2	application	application	NOUN	_	Gender=Fem|Number=Sing	23	obl:mod	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 5	principe	principe	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
@@ -2296,7 +2296,7 @@
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	14	fixed	_	_
 18	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
-19	aides	aide	NOUN	_	Gender=Fem|Number=Plur	31	obl	_	_
+19	aides	aide	NOUN	_	Gender=Fem|Number=Plur	31	obl:mod	_	_
 20	militaires	militaire	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
@@ -2462,7 +2462,7 @@
 # text = Selon ce discours--maintenant bien rodé--, avec la mort d'Hassan II et l'arrivée au pouvoir de Mohammed VI, les choses auraient évolué au Maroc.
 1	Selon	selon	ADP	_	_	3	case	_	_
 2	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
-3	discours	discours	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+3	discours	discours	NOUN	_	Gender=Masc|Number=Sing	29	obl:mod	_	SpaceAfter=No
 4	--	--	PUNCT	_	_	7	punct	_	SpaceAfter=No
 5	maintenant	maintenant	ADV	_	_	7	advmod	_	_
 6	bien	bien	ADV	_	_	7	advmod	_	_
@@ -2471,7 +2471,7 @@
 9	,	,	PUNCT	_	_	29	punct	_	_
 10	avec	avec	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	mort	mort	NOUN	_	Gender=Fem|Number=Sing	29	obl	_	_
+12	mort	mort	NOUN	_	Gender=Fem|Number=Sing	29	obl:mod	_	_
 13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
 14	Hassan	Hassan	PROPN	_	_	12	nmod	_	_
 15	II	II	PROPN	_	_	14	flat:name	_	_
@@ -2499,7 +2499,7 @@
 # sent_id = fr-ud-test_00085
 # text = Pour rappel, le Sahara Occidental a été envahi par le Maroc en 1975 et 1979 suite au retrait espagnol du territoire.
 1	Pour	pour	ADP	_	_	2	case	_	_
-2	rappel	rappel	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+2	rappel	rappel	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	9	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Sahara	Sahara	PROPN	_	_	9	nsubj:pass	_	_
@@ -2532,7 +2532,7 @@
 2	,	,	PUNCT	_	_	12	punct	_	_
 3	dans	dans	ADP	_	_	5	case	_	_
 4	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
-5	camps	camp	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	_
+5	camps	camp	NOUN	_	Gender=Masc|Number=Plur	12	obl:mod	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	réfugiés	réfugié	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
@@ -2786,7 +2786,7 @@
 # sent_id = fr-ud-test_00094
 # text = Pour rappel, l'Opep du gaz ou Forum des pays exportateurs de gaz (FPEG) est né à Oran, en avril 2010.
 1	Pour	pour	ADP	_	_	2	case	_	_
-2	rappel	rappel	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+2	rappel	rappel	NOUN	_	Gender=Masc|Number=Sing	21	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	21	punct	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	Opep	Opep	PROPN	_	_	21	nsubj	_	_
@@ -3122,7 +3122,7 @@
 # text = Outre ses aspects fantasy dans un environnement moderne et actuel, la plupart des jeunes personnages de l'intrigue sont représentés en kemonomimi, soit avec des oreilles et des queues de chat, Ces attributs physiques marquent le jeune âge, mais aussi l'innocence et la virginité ;
 1	Outre	outre	ADP	_	_	3	case	_	_
 2	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det	_	_
-3	aspects	aspect	NOUN	_	Gender=Masc|Number=Plur	22	obl	_	_
+3	aspects	aspect	NOUN	_	Gender=Masc|Number=Plur	22	obl:mod	_	_
 4	fantasy	fantasy	NOUN	_	Gender=Fem|Number=Sing	3	amod	_	_
 5	dans	dans	ADP	_	_	7	case	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -3177,7 +3177,7 @@
 # text = À l'aide de leurs résultats, ils en viennent à la conclusion que si les 32 États qui n'avaient pas une limite de 80 mg/100 ml le 1er janvier 2000 avaient adopté une telle politique, 947 vies auraient été sauvées.
 1	À	à	ADP	_	_	3	case	_	_
 2	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
-3	aide	aide	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
+3	aide	aide	NOUN	_	Gender=Masc|Number=Plur	10	obl:mod	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	leurs	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	6	det	_	_
 6	résultats	résultat	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
@@ -3323,7 +3323,7 @@
 # sent_id = fr-ud-test_00113
 # text = Selon lui, l'approche Eclipse, créé pour lutter contre les gangs de rue en 2006, est inutile.
 1	Selon	selon	ADP	_	_	2	case	_	_
-2	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	20	obl	_	SpaceAfter=No
+2	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	20	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	20	punct	_	_
 4	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	approche	approche	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
@@ -3373,7 +3373,7 @@
 # sent_id = fr-ud-test_00115
 # text = Après M. Karoubi, bloqué chez lui depuis jeudi par la police, c'est M. Moussavi qui a vu lundi matin son domicile encerclé et ses téléphones coupés, selon son site internet.
 1	Après	après	ADP	_	_	2	case	_	_
-2	M.	Monsieur	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+2	M.	Monsieur	NOUN	_	Gender=Masc|Number=Sing	16	obl:mod	_	_
 3	Karoubi	Karoubi	PROPN	_	_	2	flat:name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	bloqué	bloquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
@@ -3456,7 +3456,7 @@
 3	sein	sein	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 4	de	de	ADP	_	_	1	fixed	_	_
 5	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
-6	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+6	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	_
 7	professionnelle	professionnel	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	chacun	chacun	PRON	_	Gender=Masc|Number=Sing	11	nsubj	_	_
@@ -3547,7 +3547,7 @@
 # sent_id = fr-ud-test_00119
 # text = Quatre jours plus tard, ceux-ci pourront se retrouver à l'occasion de la finale du 200m (9 août).
 1	Quatre	Quatre	NUM	_	_	2	nummod	_	_
-2	jours	jour	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+2	jours	jour	NOUN	_	Gender=Masc|Number=Plur	7	obl:mod	_	_
 3	plus	plus	ADV	_	_	4	advmod	_	_
 4	tard	tard	ADV	_	_	2	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
@@ -3635,7 +3635,7 @@
 # sent_id = fr-ud-test_00122
 # text = Ce mercredi soir, il s'est installé dans un logement situé à TriBeCa, un quartier du sud-ouest de Manhattan.
 1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
-2	mercredi	mercredi	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+2	mercredi	mercredi	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
 3	soir	soir	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
@@ -3663,7 +3663,7 @@
 # text = Depuis le début de l'affaire, la candidate à la primaire du PS, en congé de ses fonctions de première secrétaire du parti, louvoie pourtant entre soutien et prise de distance (lire la synthèse sur le sujet : "Affaire DSK : comment la position d'Aubry a évolué").
 1	Depuis	depuis	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	début	début	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	_
+3	début	début	NOUN	_	Gender=Masc|Number=Sing	29	obl:mod	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
@@ -4073,7 +4073,7 @@
 # text = En tous cas, la réorientation du géant des réseaux IP ne constitue pas une bonne nouvelle pour les adeptes du Wimax, qui perdent de plus en plus pied face au LTE.
 1	En	en	ADP	_	_	3	case	_	_
 2	tous	tout	DET	_	Gender=Masc|Number=Plur	3	det	_	_
-3	cas	cas	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+3	cas	cas	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	15	punct	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	réorientation	réorientation	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
@@ -4232,7 +4232,7 @@
 7	mais	mais	CCONJ	_	_	15	cc	_	_
 8	pour	pour	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
-10	utilisateur	utilisateur	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+10	utilisateur	utilisateur	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	_
 11	final	final	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	15	nsubj	_	SpaceAfter=No
@@ -4266,7 +4266,7 @@
 6	de	de	ADP	_	_	9	case	_	_
 7	par	par	ADP	_	_	6	fixed	_	_
 8	leur	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	_
-9	clarté	clarté	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+9	clarté	clarté	NOUN	_	Gender=Fem|Number=Sing	15	obl:mod	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	leur	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det	_	_
 12	crédibilité	crédibilité	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
@@ -4419,7 +4419,7 @@
 # sent_id = fr-ud-test_00147
 # text = En 2004, a-t-il indiqué, nous avons appliqué ce concept en Afrique après avoir constaté le caractère désastreux du système d'éclairage au kérosène.
 1	En	en	ADP	_	_	2	case	_	_
-2	2004	2004	NUM	_	_	11	obl	_	SpaceAfter=No
+2	2004	2004	NUM	_	_	11	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	11	punct	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
 5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
@@ -4746,7 +4746,7 @@
 # text = De son côté, l'agence de sûreté nucléaire japonaise n'a pas relevé le classement de l'accident de la centrale de Fukushima au niveau 6.
 1	De	de	ADP	_	_	3	case	_	_
 2	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det	_	_
-3	côté	côté	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+3	côté	côté	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	14	punct	_	_
 5	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	agence	agence	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
@@ -4779,7 +4779,7 @@
 # text = Comme chaque soir à 18h40, il tranche, malmène et détourne l'actualité.
 1	Comme	comme	ADV	_	_	3	advmod	_	_
 2	chaque	chaque	DET	_	Gender=Masc|Number=Sing	3	det	_	_
-3	soir	soir	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+3	soir	soir	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
 4	à	à	ADP	_	_	5	case	_	_
 5	18h40	18h40	NUM	_	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
@@ -4795,7 +4795,7 @@
 
 # sent_id = fr-ud-test_00159
 # text = Côté organisation, la municipalité va apporter son soutien logistique au président de la Boule Canéjanaise, Richard Juzanx, tandis que les 80 bénévoles canéjanais sont en plein dans les préparatifs et s'apprêtent à vivre un moment exceptionnel dans l'histoire du club.
-1	Côté	côté	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+1	Côté	côté	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
 2	organisation	organisation	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -4852,7 +4852,7 @@
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	fond	fond	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+4	fond	fond	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	enfer	enfer	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
@@ -5003,7 +5003,7 @@
 2	,	,	PUNCT	_	_	11	punct	_	_
 3	à	à	ADP	_	_	5	case	_	_
 4	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
-5	école	école	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+5	école	école	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	11	punct	_	_
 7	deux	deux	NUM	_	_	9	nummod	_	_
 8	autres	autre	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
@@ -5171,7 +5171,7 @@
 1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	4	case	_	_
 2	à	à	ADP	_	_	1	fixed	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	plate-forme	plate-forme	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	_
+4	plate-forme	plate-forme	NOUN	_	Gender=Fem|Number=Sing	27	obl:mod	_	_
 5	logicielle	logiciel	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 6	intégrée	intégré	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 7-8	aux	_	_	_	_	_	_	_	_
@@ -5437,7 +5437,7 @@
 
 # sent_id = fr-ud-test_00181
 # text = Mardi midi, l'automobiliste était toujours en garde à vue.
-1	Mardi	mardi	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+1	Mardi	mardi	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
 2	midi	midi	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	9	punct	_	_
 4	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
@@ -5455,7 +5455,7 @@
 1	En	en	ADP	_	_	4	case	_	_
 2	d'	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	4	det	_	SpaceAfter=No
 3	autres	autre	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
-4	mots	mot	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+4	mots	mot	NOUN	_	Gender=Masc|Number=Plur	13	obl:mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	13	punct	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	pandémie	pandémie	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
@@ -5504,7 +5504,7 @@
 # sent_id = fr-ud-test_00185
 # text = Selon People, la jeune femme a très rapidement engagé un avocat très en vue de Las Vegas pour assurer sa défense.
 1	Selon	selon	ADP	_	_	2	case	_	_
-2	People	People	PROPN	_	_	10	obl	_	SpaceAfter=No
+2	People	People	PROPN	_	_	10	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	10	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	jeune	jeune	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
@@ -5874,7 +5874,7 @@
 # sent_id = fr-ud-test_00195
 # text = Et côté coloration, Miss France n'est pas à son coup d'essai.
 1	Et	et	CCONJ	_	_	12	cc	_	_
-2	côté	côté	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+2	côté	côté	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	_
 3	coloration	coloration	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	12	punct	_	_
 5	Miss	Miss	PROPN	_	_	12	nsubj	_	_
@@ -6183,7 +6183,7 @@
 # text = Après quelques séances de massage, je suis bien relaxé et surtout je n'ai plus mal à mon poignet anciennement foulé.
 1	Après	après	ADP	_	_	3	case	_	_
 2	quelques	quelque	DET	_	Gender=Fem|Number=Plur	3	det	_	_
-3	séances	séance	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	_
+3	séances	séance	NOUN	_	Gender=Fem|Number=Plur	10	obl:mod	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	massage	massage	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	_
@@ -6210,10 +6210,10 @@
 1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	menu	menu	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+3	menu	menu	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	9	punct	_	_
 5	en	en	ADP	_	_	6	case	_	_
-6	entrée	entrée	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+6	entrée	entrée	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	du	du	DET	_	Gender=Masc|Number=Sing	9	det	_	_
 9	pas	pas	ADV	_	_	0	root	_	_
@@ -6242,7 +6242,7 @@
 3	sortir	sortir	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 4	d'	de	ADP	_	_	1	fixed	_	SpaceAfter=No
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	séance	séance	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+6	séance	séance	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	cinéma	cinéma	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
@@ -6295,7 +6295,7 @@
 2	plus	plus	ADV	_	_	4	advmod	_	_
 3	de	de	ADP	_	_	2	fixed	_	_
 4	40000	40000	NUM	_	_	5	nummod	_	_
-5	références	référence	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+5	références	référence	NOUN	_	Gender=Fem|Number=Plur	9	obl:mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	9	nsubj:pass	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
@@ -7618,7 +7618,7 @@
 1	Pour	pour	ADP	_	_	4	case	_	_
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	première	première	NUM	_	_	4	nummod	_	_
-4	fois	fois	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+4	fois	fois	NOUN	_	Gender=Masc|Number=Plur	7	obl:mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	j'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
 7	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -8264,7 +8264,7 @@
 1	Dans	dans	ADP	_	_	4	case	_	_
 2	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
 3	même	même	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
-4	perspective	perspective	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+4	perspective	perspective	NOUN	_	Gender=Fem|Number=Sing	22	obl:mod	_	_
 5	et	et	CCONJ	_	_	22	cc	_	_
 6	pour	pour	ADP	_	_	7	mark	_	_
 7	accélérer	accélérer	VERB	_	VerbForm=Inf	22	advcl	_	_
@@ -8371,7 +8371,7 @@
 # text = Le 6 mai 2011, il met un terme à sa carrière sportive.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	6	6	NUM	_	_	3	nummod	_	_
-3	mai	mai	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+3	mai	mai	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
 4	2011	2011	NUM	_	_	3	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -8850,7 +8850,7 @@
 # text = Si, ce qui est probable, le Premier ministre grec va au bout de sa décision et que ses compatriotes rejettent le plan de sauvetage financier européen, la sortie de leur pays de la zone Euro en sera inéluctable et, par effet induit, l'éclatement de celle-ci.
 1	Si	si	SCONJ	_	_	12	mark	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	12	punct	_	_
-3	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	12	obl	_	_
+3	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	12	obl:mod	_	_
 4	qui	qui	PRON	_	PronType=Rel	6	nsubj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 6	probable	probable	ADJ	_	Gender=Masc|Number=Sing	3	acl:relcl	_	SpaceAfter=No
@@ -9000,7 +9000,7 @@
 1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	milieu	milieu	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+3	milieu	milieu	NOUN	_	Gender=Masc|Number=Sing	18	obl:mod	_	_
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	7	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -9029,7 +9029,7 @@
 # sent_id = fr-ud-dev_01512
 # text = Pour Pokémon, il en faut exactement 60.
 1	Pour	pour	ADP	_	_	2	case	_	_
-2	Pokémon	Pokémon	PROPN	_	_	6	obl	_	SpaceAfter=No
+2	Pokémon	Pokémon	PROPN	_	_	6	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 5	en	en	PRON	_	Person=3	8	nmod	_	_
@@ -9122,7 +9122,7 @@
 # sent_id = fr-ud-dev_01517
 # text = En demi-finale, le Japonais Hidetoshi Nakata marque le seul but du match contre l'Australie sur un coup franc des 18 mètres tiré à raz de terre.
 1	En	en	ADP	_	_	2	case	_	_
-2	demi-finale	demi-finale	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+2	demi-finale	demi-finale	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	8	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Japonais	Japonais	PROPN	_	_	8	nsubj	_	_
@@ -9259,7 +9259,7 @@
 # sent_id = fr-ud-dev_01521
 # text = En 1945, le destroyer de l'US Navy USS O'Hare (DD-889) fut baptisé en son honneur.
 1	En	en	ADP	_	_	2	case	_	_
-2	1945	1945	NUM	_	_	16	obl	_	SpaceAfter=No
+2	1945	1945	NUM	_	_	16	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	16	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	destroyer	destroyer	NOUN	_	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
@@ -9687,7 +9687,7 @@
 20	dans	dans	ADP	_	_	23	case	_	_
 21	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
 22	trois	trois	NUM	_	_	23	nummod	_	_
-23	quarts	quart	NOUN	_	Gender=Masc|Number=Plur	31	obl	_	_
+23	quarts	quart	NOUN	_	Gender=Masc|Number=Plur	31	obl:mod	_	_
 24-25	des	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	26	case	_	_
 25	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
@@ -10499,7 +10499,7 @@
 # text = Dans les facultés de pharmacie, les assistants étaient des fonctionnaires, soumis à une période de stage de trois ans.
 1	Dans	dans	ADP	_	_	3	case	_	_
 2	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
-3	facultés	faculté	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
+3	facultés	faculté	NOUN	_	Gender=Fem|Number=Plur	11	obl:mod	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	pharmacie	pharmacie	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	11	punct	_	_
@@ -10542,7 +10542,7 @@
 # sent_id = fr-ud-dev_01565
 # text = Quelques années plus tard, il préconise d'appeler l'auteur de ballet un choréauteur, afin de sortir les termes chorégraphie et chorégraphe de leur ambiguïté.
 1	Quelques	quelque	DET	_	Gender=Fem|Number=Plur	2	det	_	_
-2	années	année	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+2	années	année	NOUN	_	Gender=Fem|Number=Plur	7	obl:mod	_	_
 3	plus	plus	ADV	_	_	4	advmod	_	_
 4	tard	tard	ADV	_	_	2	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
@@ -10689,11 +10689,11 @@
 # sent_id = fr-ud-dev_01568
 # text = En effet, dans le cadre de la théorie néoclassique, l'agent économique cherche à maximiser son utilité et lorsqu'il est amené à faire un arbitrage entre consommation et épargne, il va considérer ce que lui rapportera l'épargne, autrement dit, il va considérer le taux d'intérêt.
 1	En	en	ADP	_	_	2	case	_	_
-2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	15	punct	_	_
 4	dans	dans	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	cadre	cadre	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+6	cadre	cadre	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	théorie	théorie	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
@@ -10806,7 +10806,7 @@
 # sent_id = fr-ud-dev_01571
 # text = En 1992, ils sont éliminés par le club congolais d'Elecsport Bouansa dès le premier tour (0-2, 1-0).
 1	En	en	ADP	_	_	2	case	_	_
-2	1992	1992	NUM	_	_	6	obl	_	SpaceAfter=No
+2	1992	1992	NUM	_	_	6	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj:pass	_	_
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
@@ -10953,7 +10953,7 @@
 # text = À l'issue des élections municipales de juin 2008, Gheorghe Tirifon (PNL) a été élu maire de la commune.
 1	À	à	ADP	_	_	3	case	_	_
 2	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
-3	issue	issue	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+3	issue	issue	NOUN	_	Gender=Fem|Number=Sing	19	obl:mod	_	_
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
@@ -11288,7 +11288,7 @@
 # sent_id = fr-ud-dev_01589
 # text = En 1931, l'A établit son siège à côté de la maison des étudiants.
 1	En	en	ADP	_	_	2	case	_	_
-2	1931	1931	NUM	_	_	6	obl	_	SpaceAfter=No
+2	1931	1931	NUM	_	_	6	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	A	A	PROPN	_	_	6	nsubj	_	_
@@ -11310,7 +11310,7 @@
 # text = Comme en 2007, le club local d'Arsenal remporte le trophée.
 1	Comme	comme	ADP	_	_	3	case	_	_
 2	en	en	ADP	_	_	3	case	_	_
-3	2007	2007	NUM	_	_	10	obl	_	SpaceAfter=No
+3	2007	2007	NUM	_	_	10	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	10	punct	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	club	club	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
@@ -11364,7 +11364,7 @@
 # text = Pour les chrétiens hellénistiques, la notion d'éros est complémentaire ou s'oppose (c'est selon) à l'agapè.
 1	Pour	pour	ADP	_	_	3	case	_	_
 2	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-3	chrétiens	chrétien	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
+3	chrétiens	chrétien	NOUN	_	Gender=Masc|Number=Plur	11	obl:mod	_	_
 4	hellénistiques	hellénistique	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_

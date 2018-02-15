@@ -602,7 +602,7 @@
 33	versés	verser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	32	acl	_	_
 34	par	par	ADP	_	_	36	case	_	_
 35	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
-36	Union	Union	PROPN	_	_	33	obl	_	_
+36	Union	Union	PROPN	_	_	33	obl:agent	_	_
 37	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	36	amod	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	41	punct	_	_
 39	sur	sur	ADP	_	_	41	case	_	_
@@ -889,7 +889,7 @@
 12	voulu	vouloir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
 13	par	par	ADP	_	_	15	case	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
-15	UE	UE	PROPN	_	_	12	obl	_	SpaceAfter=No
+15	UE	UE	PROPN	_	_	12	obl:agent	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-test_00034
@@ -1219,7 +1219,7 @@
 # text = Renommée par Warner France sous le nom de "La Ligue des Justiciers : La Nouvelle Génération", les 8 premiers épisodes de la série animée seront disponibles dès le 30 novembre prochain.
 1	Renommée	renommer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	advcl	_	_
 2	par	par	ADP	_	_	3	case	_	_
-3	Warner	Warner	PROPN	_	_	1	obl	_	_
+3	Warner	Warner	PROPN	_	_	1	obl:agent	_	_
 4	France	France	PROPN	_	_	3	flat:name	_	_
 5	sous	sous	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -2509,7 +2509,7 @@
 9	envahi	envahir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	par	par	ADP	_	_	12	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	Maroc	Maroc	PROPN	_	_	9	obl	_	_
+12	Maroc	Maroc	PROPN	_	_	9	obl:agent	_	_
 13	en	en	ADP	_	_	14	case	_	_
 14	1975	1975	NUM	_	_	9	obl	_	_
 15	et	et	CCONJ	_	_	16	cc	_	_
@@ -3056,7 +3056,7 @@
 16	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	aux:pass	_	_
 17	assurée	assurer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 18	par	par	ADP	_	_	19	case	_	_
-19	Eurosites	Eurosites	PROPN	_	_	17	obl	_	SpaceAfter=No
+19	Eurosites	Eurosites	PROPN	_	_	17	obl:agent	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
 21	leader	leader	NOUN	_	Gender=Masc|Number=Sing	19	appos	_	_
 22	en	en	ADP	_	_	23	case	_	_
@@ -4296,7 +4296,7 @@
 7	utilisés	utiliser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
 8	par	par	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	Comité	Comité	PROPN	_	_	7	obl	_	_
+10	Comité	Comité	PROPN	_	_	7	obl:agent	_	_
 11	Fal	Fal	PROPN	_	_	10	flat:name	_	_
 12	pour	pour	ADP	_	_	13	mark	_	_
 13	établir	établir	VERB	_	VerbForm=Inf	7	advcl	_	_
@@ -5696,7 +5696,7 @@
 35	noire	noir	ADJ	_	Gender=Fem|Number=Sing	34	amod	_	_
 36	provoquée	provoquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	34	acl	_	_
 37	par	par	ADP	_	_	38	case	_	_
-38	BP	BP	PROPN	_	_	36	obl	_	SpaceAfter=No
+38	BP	BP	PROPN	_	_	36	obl:agent	_	SpaceAfter=No
 39	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-test_00190
@@ -5834,7 +5834,7 @@
 31	animateur	animateur	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
 32	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	acl	_	_
 33	par	par	ADP	_	_	34	case	_	_
-34	Radio	Radio	PROPN	_	_	32	obl	_	_
+34	Radio	Radio	PROPN	_	_	32	obl:agent	_	_
 35	Nova	Nova	PROPN	_	_	34	flat:name	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	27	punct	_	_
 
@@ -9056,7 +9056,7 @@
 14	euros	euro	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
 15	par	par	ADP	_	_	17	case	_	_
 16	M.	M.	NOUN	_	Gender=Masc|Number=Sing	17	compound	_	_
-17	Blanc	Blanc	PROPN	_	_	9	obl	_	SpaceAfter=No
+17	Blanc	Blanc	PROPN	_	_	9	obl:agent	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-dev_01514
@@ -9412,7 +9412,7 @@
 32	matériel	matériel	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	_
 33	distribué	distribuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	acl	_	_
 34	par	par	ADP	_	_	35	case	_	_
-35	TiVo	TiVo	PROPN	_	_	33	obl	_	SpaceAfter=No
+35	TiVo	TiVo	PROPN	_	_	33	obl:agent	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	28	punct	_	_
 
 # sent_id = fr-ud-dev_01526
@@ -9574,7 +9574,7 @@
 9	602	602	NUM	_	_	8	nummod	_	_
 10	fabriquée	fabriquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
 11	par	par	ADP	_	_	12	case	_	_
-12	Taito	Taito	PROPN	_	_	10	obl	_	SpaceAfter=No
+12	Taito	Taito	PROPN	_	_	10	obl:agent	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	10	punct	_	_
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
 15	apparue	apparaître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -10337,7 +10337,7 @@
 3	organisée	organiser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	par	par	ADP	_	_	6	case	_	_
 5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	Poesia	Poesia	PROPN	_	_	3	obl	_	SpaceAfter=No
+6	Poesia	Poesia	PROPN	_	_	3	obl:agent	_	SpaceAfter=No
 7	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
 8	2	2	PROPN	_	_	9	nmod	_	_
 9	Ottobre	Ottobre	PROPN	_	_	6	appos	_	SpaceAfter=No
@@ -11395,7 +11395,7 @@
 5	particulièrement	particulièrement	ADV	_	_	6	advmod	_	_
 6	étudiées	étudier	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 7	par	par	ADP	_	_	8	case	_	_
-8	John	John	PROPN	_	_	6	obl	_	_
+8	John	John	PROPN	_	_	6	obl:agent	_	_
 9	Chowning	Chowning	PROPN	_	_	8	flat:name	_	_
 10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 11	pionnier	pionnier	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	_

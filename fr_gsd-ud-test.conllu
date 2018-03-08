@@ -532,7 +532,7 @@
 23	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
 24	ministres	ministre	NOUN	_	Gender=Masc|Number=Plur	22	obj	_	_
 25	de	de	ADP	_	_	27	mark	_	_
-26	se	se	PRON	_	Person=3|PronType=Prs	27	obj	_	_
+26	se	se	PRON	_	Person=3|PronType=Prs	27	expl	_	_
 27	rendre	rendre	VERB	_	VerbForm=Inf	22	xcomp	_	_
 28-29	au	_	_	_	_	_	_	_	_
 28	à	à	ADP	_	_	30	case	_	_
@@ -1173,7 +1173,7 @@
 15	,	,	PUNCT	_	_	19	punct	_	_
 16	qu'	que	SCONJ	_	_	19	mark	_	SpaceAfter=No
 17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
-18	se	se	PRON	_	Person=3|PronType=Prs	19	obj	_	_
+18	se	se	PRON	_	Person=3|PronType=Prs	19	expl:pass	_	_
 19	maintient	maintenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
 20	et	et	CCONJ	_	_	22	cc	_	_
 21	n'	ne	ADV	_	Polarity=Neg	22	advmod	_	SpaceAfter=No
@@ -1304,7 +1304,7 @@
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	Territoire	Territoire	PROPN	_	_	14	nsubj	_	_
 12	perdu	perdu	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
-13	s'	se	PRON	_	Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+13	s'	se	PRON	_	Person=3|PronType=Prs	14	expl:pass	_	SpaceAfter=No
 14	inscrit	inscrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	pleinement	pleinement	ADV	_	_	14	advmod	_	_
 16	dans	dans	ADP	_	_	18	case	_	_
@@ -1461,7 +1461,7 @@
 # sent_id = fr-ud-test_00056
 # text = Il se passe de commentaires : « Je comprends très bien votre préoccupation par rapport à ma participation à la rencontre d'Assise.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	se	se	PRON	_	Person=3|PronType=Prs	3	obj	_	_
+2	se	se	PRON	_	Person=3|PronType=Prs	3	expl	_	_
 3	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	commentaires	commentaire	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
@@ -1551,7 +1551,7 @@
 46	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
 47	séquestrés	séquestré	NOUN	_	Gender=Masc|Number=Plur	25	advcl	_	_
 48	qui	qui	PRON	_	PronType=Rel	51	nsubj	_	_
-49	s'	se	PRON	_	Person=3|PronType=Prs	51	obj	_	SpaceAfter=No
+49	s'	se	PRON	_	Person=3|PronType=Prs	51	expl	_	SpaceAfter=No
 50	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	51	aux	_	_
 51	évadés	évader	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	47	acl:relcl	_	_
 52-53	des	_	_	_	_	_	_	_	_
@@ -2253,7 +2253,7 @@
 # sent_id = fr-ud-test_00080
 # text = Je me demande s'il y a une loi chez nous qui peut condamner des citoyens pour des rêves illégaux ?
 1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+2	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	3	expl	_	_
 3	demande	demander	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	s'	si	SCONJ	_	_	7	mark	_	SpaceAfter=No
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -3016,7 +3016,7 @@
 10	,	,	PUNCT	_	_	4	punct	_	_
 11	plus	plus	ADV	_	_	14	cc	_	_
 12	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
-13	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	14	obj	_	_
+13	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
 14	dis	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
 15	que	que	SCONJ	_	_	20	mark	_	_
 16	Battlefield	Battlefield	PROPN	_	_	20	nsubj	_	_
@@ -3106,7 +3106,7 @@
 # sent_id = fr-ud-test_00105
 # text = Elle se remarie et un autre fils va naître, Serge.
 1	Elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	se	se	PRON	_	Person=3|PronType=Prs	3	obj	_	_
+2	se	se	PRON	_	Person=3|PronType=Prs	3	expl	_	_
 3	remarie	remarier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	et	et	CCONJ	_	_	8	cc	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -4287,7 +4287,7 @@
 # sent_id = fr-ud-test_00142
 # text = Il s'agit des importateurs utilisés par le Comité Fal pour établir le baromètre du passage au port.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	s'	se	PRON	_	Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+2	s'	se	PRON	_	Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
 3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
@@ -4315,7 +4315,7 @@
 # sent_id = fr-ud-test_00143
 # text = On s'était dit : "Quand on aura un premier pas de fait, on s'éclatera un peu plus", a expliqué Véronique.
 1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
-2	s'	se	PRON	_	Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+2	s'	se	PRON	_	Person=3|PronType=Prs	4	iobj	_	SpaceAfter=No
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
 4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	ccomp	_	_
 5	:	:	PUNCT	_	_	4	punct	_	_
@@ -4330,7 +4330,7 @@
 14	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
 16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	18	nsubj	_	_
-17	s'	se	PRON	_	Person=3|PronType=Prs	18	obj	_	SpaceAfter=No
+17	s'	se	PRON	_	Person=3|PronType=Prs	18	expl	_	SpaceAfter=No
 18	éclatera	éclater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	ccomp	_	_
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	advmod	_	_
 20	peu	peu	ADV	_	_	19	fixed	_	_
@@ -4737,7 +4737,7 @@
 10	match	match	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
 11	parfait	parfait	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
 12	pour	pour	ADP	_	_	14	mark	_	_
-13	se	se	PRON	_	Person=3|PronType=Prs	14	obj	_	_
+13	se	se	PRON	_	Person=3|PronType=Prs	14	expl	_	_
 14	qualifier	qualifier	VERB	_	VerbForm=Inf	7	advcl	_	SpaceAfter=No
 15	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
@@ -4830,7 +4830,7 @@
 32	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
 33	préparatifs	préparatif	NOUN	_	Gender=Masc|Number=Plur	28	obl	_	_
 34	et	et	CCONJ	_	_	36	cc	_	_
-35	s'	se	PRON	_	Person=3|PronType=Prs	36	obj	_	SpaceAfter=No
+35	s'	se	PRON	_	Person=3|PronType=Prs	36	expl	_	SpaceAfter=No
 36	apprêtent	apprêter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	conj	_	_
 37	à	à	ADP	_	_	38	mark	_	_
 38	vivre	vivre	VERB	_	VerbForm=Inf	36	acl	_	_
@@ -4871,7 +4871,7 @@
 2	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
 3	éviter	éviter	VERB	_	VerbForm=Inf	1	ccomp	_	_
 4	de	de	ADP	_	_	6	mark	_	_
-5	se	se	PRON	_	Person=3|PronType=Prs	6	obj	_	_
+5	se	se	PRON	_	Person=3|PronType=Prs	6	expl	_	_
 6	rendre	rendre	VERB	_	VerbForm=Inf	3	xcomp	_	_
 7	dans	dans	ADP	_	_	9	case	_	_
 8	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
@@ -5582,7 +5582,7 @@
 20	Franck	Franck	PROPN	_	_	18	nmod	_	_
 21	Azéma	Azéma	PROPN	_	_	20	flat:name	_	_
 22	qui	qui	PRON	_	PronType=Rel	24	nsubj	_	_
-23	s'	se	PRON	_	Person=3|PronType=Prs	24	obj	_	SpaceAfter=No
+23	s'	se	PRON	_	Person=3|PronType=Prs	24	expl	_	SpaceAfter=No
 24	apprête	apprêter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
 25	à	à	ADP	_	_	26	mark	_	_
 26	rejoindre	rejoindre	VERB	_	VerbForm=Inf	24	acl	_	_
@@ -6018,7 +6018,7 @@
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	musique	musique	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 10	classique	classique	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
-11	se	se	PRON	_	Person=3|PronType=Prs	12	obj	_	_
+11	se	se	PRON	_	Person=3|PronType=Prs	12	expl:pass	_	_
 12	tient	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
 14	année	année	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
@@ -7578,7 +7578,7 @@
 21	repas	repas	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
 22	succulent	succulent	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
 23	qui	qui	PRON	_	PronType=Rel	25	nsubj	_	_
-24	se	se	PRON	_	Person=3|PronType=Prs	25	obj	_	_
+24	se	se	PRON	_	Person=3|PronType=Prs	25	expl:pass	_	_
 25	déguste	déguster	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
 26	aussi	aussi	ADV	_	_	25	advmod	_	_
 27	à	à	ADP	_	_	29	case	_	_
@@ -8622,7 +8622,7 @@
 # sent_id = fr-ud-dev_01497
 # text = Il s'agit donc d'un thyréophore basal, proche de l'ancêtre commun aux stégosauriens et ankylosauriens.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	s'	se	PRON	_	Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+2	s'	se	PRON	_	Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
 3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	donc	donc	ADV	_	_	3	advmod	_	_
 5	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
@@ -9514,7 +9514,7 @@
 24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	tragédie	tragédie	NOUN	_	Gender=Fem|Number=Sing	8	appos	_	_
 26	qui	qui	PRON	_	PronType=Rel	29	nsubj	_	_
-27	s'	se	PRON	_	Person=3|PronType=Prs	29	obj	_	SpaceAfter=No
+27	s'	se	PRON	_	Person=3|PronType=Prs	29	expl:pass	_	SpaceAfter=No
 28	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
 29	jouée	jouer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	25	acl:relcl	_	_
 30	en	en	ADP	_	_	32	case	_	_
@@ -9698,7 +9698,7 @@
 30	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
 31	dirigeants	dirigeant	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	_
 32	qui	qui	PRON	_	PronType=Rel	35	nsubj	_	_
-33	se	se	PRON	_	Person=3|PronType=Prs	35	obj	_	_
+33	se	se	PRON	_	Person=3|PronType=Prs	35	expl	_	_
 34	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
 35	portés	porter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	31	acl:relcl	_	_
 36	garants	garant	NOUN	_	Gender=Masc|Number=Plur	35	xcomp	_	SpaceAfter=No
@@ -9863,7 +9863,7 @@
 7	,	,	PUNCT	_	_	1	punct	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	public	public	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
-10	s'	se	PRON	_	Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+10	s'	se	PRON	_	Person=3|PronType=Prs	11	expl	_	SpaceAfter=No
 11	attendait	attendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 12	à	à	ADP	_	_	14	case	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -9871,7 +9871,7 @@
 15	bouillonnant	bouillonnant	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
 16	mais	mais	CCONJ	_	_	19	cc	_	_
 17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
-18	s'	se	PRON	_	Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
+18	s'	se	PRON	_	Person=3|PronType=Prs	19	expl	_	SpaceAfter=No
 19	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
 20	finalement	finalement	ADV	_	_	19	advmod	_	_
 21	d'	de	ADP	_	_	23	case	_	SpaceAfter=No
@@ -10460,7 +10460,7 @@
 9	commun	commun	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
 10	qui	qui	PRON	_	PronType=Rel	13	nsubj	_	_
 11	ne	ne	ADV	_	Polarity=Neg	13	advmod	_	_
-12	se	se	PRON	_	Person=3|PronType=Prs	13	obj	_	_
+12	se	se	PRON	_	Person=3|PronType=Prs	13	expl:pass	_	_
 13	vend	vendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
 14	pas	pas	ADV	_	Polarity=Neg	13	advmod	_	_
 15	sur	sur	ADP	_	_	17	case	_	_
@@ -11083,7 +11083,7 @@
 # text = Les transactions se font essentiellement en espèces.
 1	Les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	transactions	transaction	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
-3	se	se	PRON	_	Person=3|PronType=Prs	4	obj	_	_
+3	se	se	PRON	_	Person=3|PronType=Prs	4	expl:pass	_	_
 4	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	essentiellement	essentiellement	ADV	_	_	4	advmod	_	_
 6	en	en	ADP	_	_	7	case	_	_
@@ -11374,7 +11374,7 @@
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 11	complémentaire	complémentaire	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 12	ou	ou	CCONJ	_	_	14	cc	_	_
-13	s'	se	PRON	_	Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+13	s'	se	PRON	_	Person=3|PronType=Prs	14	expl:pass	_	SpaceAfter=No
 14	oppose	opposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
 15	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
 16	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	17	nsubj	_	SpaceAfter=No

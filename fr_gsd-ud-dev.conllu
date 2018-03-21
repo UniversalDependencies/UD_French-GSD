@@ -633,7 +633,7 @@
 9	Bu	Bu	PROPN	_	_	8	flat:name	_	_
 10	Said	Said	PROPN	_	_	8	flat:name	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	4	punct	_	_
-12	dont	dont	PRON	_	PronType=Rel	14	iobj	_	_
+12	dont	dont	PRON	_	PronType=Rel	14	obl:arg	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 14	issu	issu	ADJ	_	Gender=Masc|Number=Sing	4	acl:relcl	_	_
 15	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
@@ -9174,7 +9174,7 @@
 # text = Un gouvernement dont la tâche est de préparer des élections libres à une Assemblée constituante souveraine, seule chargée de déterminer l'architecture--c'est-à-dire la nature, le contenu et la forme--des futures institutions.
 1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	gouvernement	gouvernement	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-3	dont	dont	PRON	_	PronType=Rel	6	iobj	_	_
+3	dont	dont	PRON	_	PronType=Rel	5	nmod	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	tâche	tâche	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
@@ -9853,7 +9853,7 @@
 29	sur	sur	ADP	_	_	31	case	_	_
 30	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
 31	aide	aide	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	_
-32	dont	dont	PRON	_	PronType=Rel	34	iobj	_	_
+32	dont	dont	PRON	_	PronType=Rel	34	obl:arg	_	_
 33	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
 34	bénéficié	bénéficier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	acl:relcl	_	_
 35	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
@@ -14479,7 +14479,7 @@
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Perruche	Perruche	PROPN	_	_	8	nmod	_	_
 12	élégante	élégant	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
-13	dont	dont	PRON	_	PronType=Rel	16	iobj	_	_
+13	dont	dont	PRON	_	PronType=Rel	16	obl:arg	_	_
 14	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 15	se	se	PRON	_	Person=3|PronType=Prs	16	obj	_	_
 16	distingue	distinguer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
@@ -16662,7 +16662,7 @@
 9	causé	causer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 11	contaminations	contamination	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
-12	dont	dont	PRON	_	PronType=Rel	13	iobj	_	_
+12	dont	dont	PRON	_	PronType=Rel	13	obl:arg	_	_
 13	souffrent	souffrir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
 14	toujours	toujours	ADV	_	_	13	advmod	_	_
 15	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
@@ -16744,7 +16744,7 @@
 17	37	37	NUM	_	_	15	nummod	_	_
 18	ans	an	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	5	punct	_	_
-20	dont	dont	PRON	_	PronType=Rel	23	iobj	_	_
+20	dont	dont	PRON	_	PronType=Rel	21	nmod	_	_
 21	deux	deux	NUM	_	_	23	nsubj	_	_
 22	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
 23	loin	loin	ADV	_	_	12	acl:relcl	_	_
@@ -18018,7 +18018,7 @@
 41	à	à	ADP	_	_	43	case	_	_
 42	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 43	disque	disque	NOUN	_	Gender=Masc|Number=Sing	40	obl	_	_
-44	dont	dont	PRON	_	PronType=Rel	47	iobj	_	_
+44	dont	dont	PRON	_	PronType=Rel	47	obl:arg	_	_
 45	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	47	nsubj	_	_
 46	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	cop	_	_
 47	issu	issu	ADJ	_	Gender=Masc|Number=Sing	43	acl:relcl	_	_
@@ -19943,7 +19943,7 @@
 11	Disney	Disney	PROPN	_	_	10	appos	_	_
 12	California	California	PROPN	_	_	11	flat:name	_	_
 13	Adventure	Adventure	PROPN	_	_	11	flat:name	_	_
-14	dont	dont	PRON	_	PronType=Rel	17	iobj	_	_
+14	dont	dont	PRON	_	PronType=Rel	17	obl:arg	_	_
 15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 17	limitrophe	limitrophe	ADJ	_	Gender=Masc|Number=Sing	10	acl:relcl	_	SpaceAfter=No
@@ -28840,7 +28840,7 @@
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
 16	AS	AS	PROPN	_	_	12	nmod	_	_
 17	Béziers	Béziers	PROPN	_	_	16	flat:name	_	_
-18	dont	dont	PRON	_	PronType=Rel	22	iobj	_	_
+18	dont	dont	PRON	_	PronType=Rel	22	nmod	_	_
 19	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 20	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
@@ -31050,7 +31050,7 @@
 28	de	de	ADP	_	_	30	case	_	_
 29	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
 30	droits	droit	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	_
-31	dont	dont	PRON	_	PronType=Rel	35	iobj	_	_
+31	dont	dont	PRON	_	PronType=Rel	35	obl:arg	_	_
 32	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj:pass	_	_
 33	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	aux	_	_
 34	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	aux:pass	_	_
@@ -35809,7 +35809,7 @@
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	royaume	royaume	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	4	punct	_	_
-16	dont	dont	PRON	_	PronType=Rel	19	iobj	_	_
+16	dont	dont	PRON	_	PronType=Rel	18	nmod	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	Sud	sud	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
 19	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
@@ -38351,7 +38351,7 @@
 24	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
 25	autres	autre	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	_
 26	organismes	organisme	NOUN	_	Gender=Masc|Number=Plur	21	conj	_	_
-27	dont	dont	PRON	_	PronType=Rel	30	iobj	_	_
+27	dont	dont	PRON	_	PronType=Rel	30	nmod	_	_
 28	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	30	nsubj	_	_
 29	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
 30	membres	membre	NOUN	_	Gender=Masc|Number=Plur	26	acl:relcl	_	SpaceAfter=No

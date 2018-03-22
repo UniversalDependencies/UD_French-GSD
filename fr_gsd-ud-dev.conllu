@@ -3104,8 +3104,8 @@
 
 # sent_id = fr-ud-dev_00110
 # text = De plus, elles n'ont eu aucun impact manifeste sur les populations d'Achatines.
-1	De	de	ADP	_	_	2	case	_	_
-2	plus	plus	ADV	_	_	7	advmod	_	SpaceAfter=No
+1	De	de	ADP	_	_	7	advmod	_	_
+2	plus	plus	ADV	_	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
 5	n'	ne	ADV	_	Polarity=Neg	7	advmod	_	SpaceAfter=No
@@ -4268,8 +4268,8 @@
 2	information	information	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	n'	ne	ADV	_	Polarity=Neg	7	advmod	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
-5	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
-6	ailleurs	ailleurs	ADV	_	_	7	advmod	_	_
+5	d'	de	ADP	_	_	7	advmod	_	SpaceAfter=No
+6	ailleurs	ailleurs	ADV	_	_	5	fixed	_	_
 7	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	objet	objet	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
@@ -5891,8 +5891,8 @@
 
 # sent_id = fr-ud-dev_00214
 # text = De même, en 1906, Pathé fait monter une usine de coloriage pour ses films, mais rien de bien convaincant encore.
-1	De	de	ADP	_	_	2	case	_	_
-2	même	même	ADV	_	_	9	advmod	_	SpaceAfter=No
+1	De	de	ADP	_	_	9	advmod	_	_
+2	même	même	ADV	_	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	en	en	ADP	_	_	5	case	_	_
 5	1906	1906	NUM	_	_	9	obl:mod	_	SpaceAfter=No
@@ -9329,8 +9329,8 @@
 2	musée	musée	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 3	taurin	taurin	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
-5	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
-6	ailleurs	ailleurs	ADV	_	_	8	advmod	_	_
+5	d'	de	ADP	_	_	8	advmod	_	SpaceAfter=No
+6	ailleurs	ailleurs	ADV	_	_	5	fixed	_	_
 7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
 8	construit	construire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	dans	dans	ADP	_	_	11	case	_	_
@@ -11581,8 +11581,8 @@
 
 # sent_id = fr-ud-dev_00418
 # text = De plus pour couronner le tout j'ai eu la visite de deux cafards (cancrelats) un dans la salle de bains et l'autre, plus audacieux, près du lit.
-1	De	de	ADP	_	_	2	case	_	_
-2	plus	plus	ADV	_	_	9	advmod	_	_
+1	De	de	ADP	_	_	9	advmod	_	_
+2	plus	plus	ADV	_	_	1	fixed	_	_
 3	pour	pour	ADP	_	_	4	mark	_	_
 4	couronner	couronner	VERB	_	VerbForm=Inf	9	advcl	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -25785,8 +25785,8 @@
 
 # sent_id = fr-ud-dev_00929
 # text = D'abord médecin, sa carrière en médecine fut difficile et peu brillante.
-1	D'	de	ADP	_	_	2	case	_	SpaceAfter=No
-2	abord	abord	ADV	_	_	3	advmod	_	_
+1	D'	de	ADP	_	_	3	advmod	_	SpaceAfter=No
+2	abord	abord	ADV	_	_	1	fixed	_	_
 3	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	10	punct	_	_
 5	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
@@ -25977,7 +25977,7 @@
 16	réaliste	réaliste	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	11	punct	_	_
 18	ou	ou	CCONJ	_	_	27	cc	_	_
-19	bien	bien	ADV	_	_	18	advmod	_	SpaceAfter=No
+19	bien	bien	ADV	_	_	18	fixed	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	27	punct	_	_
 21-22	au	_	_	_	_	_	_	_	_
 21	à	à	ADP	_	_	27	advmod	_	_
@@ -26553,8 +26553,8 @@
 12	nuit	nuit	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	9	punct	_	_
 14	rien	rien	PRON	_	Number=Sing	9	appos	_	_
-15	de	de	ADP	_	_	16	case	_	_
-16	plus	plus	ADV	_	_	14	advmod	_	SpaceAfter=No
+15	de	de	ADP	_	_	14	advmod	_	_
+16	plus	plus	ADV	_	_	15	fixed	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_00962
@@ -27313,8 +27313,8 @@
 
 # sent_id = fr-ud-dev_00986
 # text = De plus, le double homicide commis sur un couple avait eu lieu sur le parking du cimetière de Laigneville.
-1	De	de	ADP	_	_	2	case	_	_
-2	plus	plus	ADV	_	_	12	advmod	_	SpaceAfter=No
+1	De	de	ADP	_	_	12	advmod	_	_
+2	plus	plus	ADV	_	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	double	double	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
@@ -32426,8 +32426,8 @@
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	dernière	dernier	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
-4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
-5	ailleurs	ailleurs	ADV	_	_	7	advmod	_	_
+4	d'	de	ADP	_	_	7	advmod	_	SpaceAfter=No
+5	ailleurs	ailleurs	ADV	_	_	4	fixed	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	fondement	fondement	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 8	non	non	ADV	_	_	9	advmod	_	_
@@ -33029,8 +33029,8 @@
 13	Equipe	Equipe	PROPN	_	_	9	obl	_	_
 14	:	:	PUNCT	_	_	4	punct	_	_
 15	«	«	PUNCT	_	_	4	punct	_	_
-16	Bien	bien	ADV	_	_	17	advmod	_	_
-17	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	19	advmod	_	_
+16	Bien	bien	ADV	_	_	19	advmod	_	_
+17	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	16	fixed	_	_
 18	que	que	SCONJ	_	_	19	expl	_	_
 19	non	non	ADV	_	_	4	advmod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	4	punct	_	_
@@ -33059,8 +33059,8 @@
 
 # sent_id = fr-ud-dev_01196
 # text = De plus, quand on sait que le père du patron est un ancien boucher, on devine que la viande sera toujours d'excellente qualité.
-1	De	de	ADP	_	_	2	case	_	_
-2	plus	plus	ADV	_	_	19	advmod	_	SpaceAfter=No
+1	De	de	ADP	_	_	19	advmod	_	_
+2	plus	plus	ADV	_	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	19	punct	_	_
 4	quand	quand	SCONJ	_	_	6	mark	_	_
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
@@ -33216,8 +33216,8 @@
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	Chinois	Chinois	PROPN	_	_	8	nsubj	_	_
 8	conduisaient	conduire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
-10	abord	abord	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+9	d'	de	ADP	_	_	8	obl	_	SpaceAfter=No
+10	abord	abord	NOUN	_	Gender=Masc|Number=Sing	9	fixed	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	gaz	gaz	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
 13	dans	dans	ADP	_	_	16	case	_	_
@@ -33483,8 +33483,8 @@
 29	à	à	ADP	_	_	31	case	_	_
 30	11	11	NUM	_	_	31	nummod	_	SpaceAfter=No
 31	%	%	SYM	_	_	26	obl	_	_
-32	de	de	ADP	_	_	33	case	_	_
-33	plus	plus	ADV	_	_	31	advmod	_	_
+32	de	de	ADP	_	_	31	advmod	_	_
+33	plus	plus	ADV	_	_	32	fixed	_	_
 34	en	en	ADP	_	_	35	case	_	_
 35	mai	mai	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
 36	2005	2005	NUM	_	_	35	nmod	_	SpaceAfter=No
@@ -34389,8 +34389,8 @@
 
 # sent_id = fr-ud-dev_01238
 # text = De même, certains plats, comme la carpe farcie, ont été élaborés afin de ne pas transgresser l'interdit de séparer le grain de l'ivraie, c'est-à-dire la chair du poisson de ses arêtes.
-1	De	de	ADP	_	_	2	case	_	_
-2	même	même	ADV	_	_	14	advmod	_	SpaceAfter=No
+1	De	de	ADP	_	_	14	advmod	_	_
+2	même	même	ADV	_	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	certains	certain	DET	_	Gender=Masc|Number=Plur	5	det	_	_
 5	plats	plat	NOUN	_	Gender=Masc|Number=Plur	14	nsubj:pass	_	SpaceAfter=No
@@ -41082,8 +41082,8 @@
 # text = Il joue d'abord avec Valence, puis le Real Madrid avant de rejoindre les Basques de Tau Vitoria.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	joue	jouer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	d'	de	ADP	_	_	4	case	_	SpaceAfter=No
-4	abord	abord	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+3	d'	de	ADP	_	_	2	obl	_	SpaceAfter=No
+4	abord	abord	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	_
 5	avec	avec	ADP	_	_	6	case	_	_
 6	Valence	Valence	PROPN	_	_	2	obl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_

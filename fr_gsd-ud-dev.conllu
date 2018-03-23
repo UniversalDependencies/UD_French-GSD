@@ -894,7 +894,7 @@
 5	avec	avec	ADP	_	_	7	case	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	accueil	accueil	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-8	aussi	aussi	ADV	_	_	9	cc	_	_
+8	aussi	aussi	ADV	_	_	9	advmod	_	_
 9	chaleureux	chaleureux	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 10	qu'	que	SCONJ	_	_	11	mark	_	SpaceAfter=No
 11	enthousiaste	enthousiaste	ADJ	_	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
@@ -35637,7 +35637,7 @@
 16	titre	titre	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
 17	peut-être	peut-être	ADV	_	_	16	advmod	_	_
 18	que	que	SCONJ	_	_	19	mark	_	_
-19	François	François	PROPN	_	_	16	nmod	_	_
+19	François	François	PROPN	_	_	15	obl:mod	_	_
 20	Clerc	Clerc	PROPN	_	_	19	flat:name	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	3	punct	_	_
 22	toujours	toujours	ADV	_	_	23	advmod	_	_
@@ -35649,7 +35649,7 @@
 28	repris	reprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	conj	_	_
 29	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
 30	entraînement	entraînement	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	_
-31	que	que	SCONJ	_	_	28	expl	_	_
+31	que	que	ADV	_	_	32	advmod	_	_
 32	dimanche	dimanche	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	_
 33	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	3	punct	_	_
@@ -36202,7 +36202,7 @@
 40	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	42	cop	_	_
 41	aussi	aussi	ADV	_	_	42	advmod	_	_
 42	fulgurant	fulgurant	ADJ	_	Gender=Masc|Number=Sing	22	parataxis	_	_
-43	que	que	SCONJ	_	_	44	cc	_	_
+43	que	que	SCONJ	_	_	44	mark	_	_
 44	court	court	NOUN	_	Gender=Masc|Number=Sing	42	conj	_	SpaceAfter=No
 45	.	.	PUNCT	_	_	22	punct	_	_
 

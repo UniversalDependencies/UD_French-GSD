@@ -243,16 +243,16 @@
 21	famille	famille	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
 22	royale	royal	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	3	punct	_	_
-24	mais	mais	CCONJ	_	_	26	cc	_	_
+24	mais	mais	CCONJ	_	_	28	cc	_	_
 25	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	26	nsubj	_	SpaceAfter=No
-26	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+26	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
 27	à	à	ADP	_	_	28	case	_	_
-28	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	26	obl	_	_
-29	qu'	que	PRON	_	PronType=Rel	33	iobj	_	SpaceAfter=No
+28	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	3	conj	_	_
+29	qu'	que	SCONJ	_	PronType=Rel	33	case	_	SpaceAfter=No
 30	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	33	nsubj	_	_
 31	s'	se	PRON	_	Person=3|PronType=Prs	33	expl	_	SpaceAfter=No
 32	en	en	PRON	_	Person=3	33	expl	_	_
-33	prennent	prendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	SpaceAfter=No
+33	prennent	prendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	advcl:cleft	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-test_00008

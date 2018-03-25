@@ -1104,7 +1104,7 @@
 16	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-dev_00041
-# text = Le solde naturel annuel, qui est la différence entre le nombre de naissances et le nombre de décès enregistrés au cours d'une même année, connaît une forte augmentation, puisque la variation annuelle due au solde naturel passe de-1 à-0,8.
+# text = Le solde naturel annuel, qui est la différence entre le nombre de naissances et le nombre de décès enregistrés au cours d'une même année, connaît une forte augmentation, puisque la variation annuelle due au solde naturel passe de -1 à -0,8.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	solde	solde	NOUN	_	Gender=Masc|Number=Sing	29	nsubj	_	_
 3	naturel	naturel	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -1150,10 +1150,10 @@
 41	solde	solde	NOUN	_	Gender=Masc|Number=Sing	38	obl	_	_
 42	naturel	naturel	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	_
 43	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	_	_
-44	de	de	ADP	_	_	45	case	_	SpaceAfter=No
+44	de	de	ADP	_	_	45	case	_	_
 45	-1	-1	NUM	_	_	43	obl	_	_
-46	à	à	ADP	_	_	47	case	_	SpaceAfter=No
-47	-0,8	-0,8	NUM	_	_	43	obl	_	SpaceAfter=No
+46	à	à	ADP	_	_	47	case	_	_
+47	-0,8	-0,8	NUM	_	_	45	nmod:range	_	SpaceAfter=No
 48	.	.	PUNCT	_	_	29	punct	_	_
 
 # sent_id = fr-ud-dev_00042
@@ -6043,10 +6043,10 @@
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	système	système	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
 32	solaire	solaire	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	SpaceAfter=No
-33	,	,	PUNCT	_	_	22	punct	_	_
+33	,	,	PUNCT	_	_	25	punct	_	_
 34	à	à	ADP	_	_	36	case	_	_
 35	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	caractérisation	caractérisation	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+36	caractérisation	caractérisation	NOUN	_	Gender=Fem|Number=Sing	25	nmod:range	_	_
 37-38	des	_	_	_	_	_	_	_	_
 37	de	de	ADP	_	_	39	case	_	_
 38	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
@@ -10015,7 +10015,7 @@
 13	12H30	12H30	NUM	_	Gender=Fem|Number=Plur	8	obl	_	_
 14	GMT	GMT	X	_	_	13	compound	_	_
 15	à	à	ADP	_	_	16	case	_	_
-16	00H30	00H30	NUM	_	Gender=Fem|Number=Plur	13	nmod	_	_
+16	00H30	00H30	NUM	_	Gender=Fem|Number=Plur	13	nmod:range	_	_
 17	GMT	GMT	X	_	_	16	compound	_	_
 18	dimanche	dimanche	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	8	punct	_	_
@@ -15241,7 +15241,7 @@
 44	de	de	ADP	_	_	45	case	_	_
 45	1952	1952	NUM	_	_	5	obl	_	_
 46	à	à	ADP	_	_	47	case	_	_
-47	1956	1956	NUM	_	_	5	obl	_	SpaceAfter=No
+47	1956	1956	NUM	_	_	45	nmod:range	_	SpaceAfter=No
 48	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_00546
@@ -17051,7 +17051,7 @@
 6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 7	ici	ici	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
 8	à	à	ADP	_	_	9	case	_	_
-9	2011	2011	NUM	_	_	5	obl	_	_
+9	2011	2011	NUM	_	_	7	nmod:range	_	_
 10	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	plan	plan	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
@@ -18266,7 +18266,7 @@
 11	de	de	ADP	_	_	12	case	_	_
 12	Gérone	Gérone	PROPN	_	_	10	obl	_	_
 13	à	à	ADP	_	_	14	case	_	_
-14	Cadix	Cadix	PROPN	_	_	10	obl	_	_
+14	Cadix	Cadix	PROPN	_	_	12	nmod:range	_	_
 15	dans	dans	ADP	_	_	17	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	milieu	milieu	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
@@ -26949,7 +26949,7 @@
 6	de	de	ADP	_	_	7	case	_	_
 7	1978	1978	NUM	_	_	4	obl	_	_
 8	à	à	ADP	_	_	9	case	_	_
-9	1992	1992	NUM	_	_	4	obl	_	_
+9	1992	1992	NUM	_	_	7	nmod:range	_	_
 10	et	et	CCONJ	_	_	13	cc	_	_
 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 12	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	13	obj	_	SpaceAfter=No
@@ -27447,7 +27447,7 @@
 18	tonnes	tonne	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	_
 19	à	à	ADP	_	_	21	case	_	_
 20	86000	86000	NUM	_	_	21	nummod	_	_
-21	tonnes	tonne	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	_
+21	tonnes	tonne	NOUN	_	Gender=Fem|Number=Plur	18	nmod:range	_	_
 22	de	de	ADP	_	_	23	case	_	_
 23	cacao	cacao	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	5	punct	_	_
@@ -31099,7 +31099,7 @@
 22-23	aux	_	_	_	_	_	_	_	_
 22	à	à	ADP	_	_	24	case	_	_
 23	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
-24	rôles	rôle	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+24	rôles	rôle	NOUN	_	Gender=Masc|Number=Plur	16	nmod:range	_	_
 25	de	de	ADP	_	_	26	case	_	_
 26	jeune	jeune	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
 27	romantique	romantique	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
@@ -36431,7 +36431,7 @@
 32	%	%	SYM	_	_	29	obl	_	_
 33	à	à	ADP	_	_	35	case	_	_
 34	0,6	0,6	NUM	_	_	35	nummod	_	SpaceAfter=No
-35	%	%	SYM	_	_	29	obl	_	SpaceAfter=No
+35	%	%	SYM	_	_	32	nmod:range	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = fr-ud-dev_01314
@@ -38337,7 +38337,7 @@
 12	redoubler	redoubler	VERB	_	VerbForm=Inf	7	xcomp	_	_
 13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
 14	efforts	effort	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	6	punct	_	_
+15	,	,	PUNCT	_	_	12	punct	_	_
 16-17	au	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	21	case	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	fixed	_	_
@@ -38355,7 +38355,7 @@
 28	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	30	nsubj	_	_
 29	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
 30	membres	membre	NOUN	_	Gender=Masc|Number=Plur	26	acl:relcl	_	SpaceAfter=No
-31	,	,	PUNCT	_	_	6	punct	_	_
+31	,	,	PUNCT	_	_	12	punct	_	_
 32	pour	pour	ADP	_	_	37	mark	_	_
 33	que	que	SCONJ	_	_	32	fixed	_	_
 34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_

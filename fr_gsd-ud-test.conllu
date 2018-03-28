@@ -3317,7 +3317,7 @@
 13	avec	avec	ADP	_	_	16	case	_	_
 14	aussi	aussi	ADV	_	_	16	advmod	_	_
 15	différentes	différent	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
-16	animations	animation	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+16	animations	animation	NOUN	_	Gender=Fem|Number=Plur	9	obl:mod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-test_00113
@@ -3747,14 +3747,14 @@
 21	,	,	PUNCT	_	_	20	punct	_	_
 22	avec	avec	ADP	_	_	24	case	_	_
 23	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
-24	citoyens	citoyen	NOUN	_	Gender=Masc|Number=Plur	20	obl	_	_
+24	citoyens	citoyen	NOUN	_	Gender=Masc|Number=Plur	20	obl:mod	_	_
 25	+	+	PUNCT	_	_	26	punct	_	_
 26	Facebookant	facebooker	VERB	_	Tense=Pres|VerbForm=Part	24	acl	_	_
 27	et	et	CCONJ	_	_	28	cc	_	_
 28	Tweetant	tweeter	VERB	_	Tense=Pres|VerbForm=Part	26	conj	_	_
 29	+	+	PUNCT	_	_	26	punct	_	_
 30	avec	avec	ADP	_	_	31	case	_	_
-31	passion	passion	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+31	passion	passion	NOUN	_	Gender=Fem|Number=Sing	26	obl:mod	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	24	punct	_	_
 33	tout	tout	ADV	_	_	35	mark	_	_
 34	en	en	ADP	_	_	33	fixed	_	_
@@ -4613,7 +4613,7 @@
 20	récession	récession	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
 21	avec	avec	ADP	_	_	23	case	_	_
 22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	déficit	déficit	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+23	déficit	déficit	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	_
 24	public	public	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
 25	à	à	ADP	_	_	27	case	_	_
 26	9,1	9,1	NUM	_	_	27	nummod	_	SpaceAfter=No
@@ -4643,7 +4643,7 @@
 7	avec	avec	ADP	_	_	10	case	_	_
 8	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
 9	piètres	piètre	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
-10	performances	performance	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
+10	performances	performance	NOUN	_	Gender=Fem|Number=Plur	6	obl:mod	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det	_	_
 13	voisin	voisin	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
@@ -5125,7 +5125,7 @@
 9	nouveauté	nouveauté	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
 10	avec	avec	ADP	_	_	12	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	Salon	salon	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+12	Salon	salon	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
 13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -6481,7 +6481,7 @@
 18	diner	diner	VERB	_	VerbForm=Inf	13	advcl	_	_
 19	avec	avec	ADP	_	_	21	case	_	_
 20	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det	_	_
-21	moitié	moitié	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+21	moitié	moitié	NOUN	_	Gender=Fem|Number=Sing	18	obl:mod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-test_00221
@@ -7457,7 +7457,7 @@
 3	dépensé	dépenser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	avec	avec	ADP	_	_	6	case	_	_
 5	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
-6	femme	femme	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+6	femme	femme	NOUN	_	Gender=Fem|Number=Sing	3	obl:mod	_	_
 7	145	145	NUM	_	_	8	nummod	_	_
 8	€	€	SYM	_	_	3	obj	_	_
 9	pour	pour	ADP	_	_	11	case	_	_
@@ -8746,7 +8746,7 @@
 6	2007-2008	2007-2008	NUM	_	_	5	nmod	_	_
 7	avec	avec	ADP	_	_	9	case	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
-9	Remparts	Remparts	PROPN	_	_	2	obl	_	_
+9	Remparts	Remparts	PROPN	_	_	2	obl:mod	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	Québec	Québec	PROPN	_	_	9	nmod	_	_
 12	de	de	ADP	_	_	14	case	_	_
@@ -9859,7 +9859,7 @@
 3	duo	duo	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
 4	avec	avec	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	chanteur	chanteur	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+6	chanteur	chanteur	NOUN	_	Gender=Masc|Number=Sing	1	obl:mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	1	punct	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	public	public	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
@@ -11002,7 +11002,7 @@
 20	commercial	commercial	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
 21	avec	avec	ADP	_	_	23	case	_	_
 22	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	entreprise	entreprise	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+23	entreprise	entreprise	NOUN	_	Gender=Fem|Number=Sing	17	obl:mod	_	_
 24	de	de	ADP	_	_	25	case	_	_
 25	communication	communication	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	23	punct	_	_
@@ -11255,7 +11255,7 @@
 13	avec	avec	ADP	_	_	16	case	_	_
 14	d'	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	16	det	_	SpaceAfter=No
 15	autres	autre	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
-16	médecins	médecin	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
+16	médecins	médecin	NOUN	_	Gender=Masc|Number=Plur	10	obl:mod	_	_
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	traité	traité	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
 19	intitulé	intituler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
@@ -11469,7 +11469,7 @@
 26	réélu	réélire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
 27	avec	avec	ADP	_	_	29	case	_	_
 28	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	score	score	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
+29	score	score	NOUN	_	Gender=Masc|Number=Sing	26	obl:mod	_	_
 30	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
 31	99,44	99,44	NUM	_	_	32	nummod	_	SpaceAfter=No
 32	%	%	SYM	_	_	29	appos	_	SpaceAfter=No

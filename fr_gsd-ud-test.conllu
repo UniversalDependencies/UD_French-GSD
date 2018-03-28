@@ -110,7 +110,7 @@
 53	citée	citer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	48	conj	_	_
 54	par	par	ADP	_	_	56	case	_	_
 55	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	SpaceAfter=No
-56	agence	agence	NOUN	_	Gender=Fem|Number=Sing	53	obl	_	_
+56	agence	agence	NOUN	_	Gender=Fem|Number=Sing	53	obl:agent	_	_
 57	de	de	ADP	_	_	58	case	_	_
 58	presse	presse	NOUN	_	Gender=Fem|Number=Sing	56	nmod	_	_
 59	sahraouie	sahraoui	ADJ	_	Gender=Fem|Number=Sing	58	amod	_	SpaceAfter=No
@@ -476,7 +476,7 @@
 25	engendrés	engendrer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	22	acl	_	_
 26	par	par	ADP	_	_	28	case	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	conflit	conflit	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
+28	conflit	conflit	NOUN	_	Gender=Masc|Number=Sing	25	obl:agent	_	_
 29-30	du	_	_	_	_	_	_	_	_
 29	de	de	ADP	_	_	31	case	_	_
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
@@ -616,7 +616,7 @@
 46	fournies	fournir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	45	acl	_	_
 47	par	par	ADP	_	_	49	case	_	_
 48	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	49	det	_	_
-49	autorités	autorité	NOUN	_	Gender=Fem|Number=Plur	46	obl	_	_
+49	autorités	autorité	NOUN	_	Gender=Fem|Number=Plur	46	obl:agent	_	_
 50	marocaines	marocain	ADJ	_	Gender=Fem|Number=Plur	49	amod	_	SpaceAfter=No
 51	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -641,7 +641,7 @@
 17	Alger	Alger	PROPN	_	_	15	obl	_	_
 18	par	par	ADP	_	_	20	case	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	président	président	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+20	président	président	NOUN	_	Gender=Masc|Number=Sing	15	obl:agent	_	_
 21	Bouteflika	Bouteflika	PROPN	_	_	20	appos	_	_
 22	et	et	CCONJ	_	_	25	cc	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
@@ -855,12 +855,12 @@
 13	apportée	apporter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
 14	par	par	ADP	_	_	16	case	_	_
 15	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
-16	touristes	touriste	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+16	touristes	touriste	NOUN	_	Gender=Masc|Number=Plur	13	obl:agent	_	_
 17	algériens	algérien	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
 18	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	_
 19	affluaient	affluer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
 20	par	par	ADP	_	_	21	case	_	_
-21	centaines	centaine	NOUN	_	Gender=Fem|Number=Plur	19	obl	_	_
+21	centaines	centaine	NOUN	_	Gender=Fem|Number=Plur	19	obl:mod	_	_
 22	de	de	ADP	_	_	23	case	_	_
 23	milliers	millier	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
 24	faisait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	aux:caus	_	_
@@ -1264,7 +1264,7 @@
 5	publié	publier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
 6	par	par	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	ministère	ministère	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+8	ministère	ministère	NOUN	_	Gender=Masc|Number=Sing	5	obl:agent	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	écologie	écologie	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
@@ -3383,7 +3383,7 @@
 9	jeudi	jeudi	PROPN	_	_	5	obl	_	_
 10	par	par	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	police	police	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+12	police	police	NOUN	_	Gender=Fem|Number=Sing	5	obl:agent	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	16	nsubj	_	SpaceAfter=No
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
@@ -4570,7 +4570,7 @@
 30	motivés	motiver	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	24	acl	_	_
 31	par	par	ADP	_	_	33	case	_	_
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-33	compétition	compétition	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	_
+33	compétition	compétition	NOUN	_	Gender=Fem|Number=Sing	30	obl:agent	_	_
 34	et	et	CCONJ	_	_	41	cc	_	_
 35	quelques	quelque	DET	_	Gender=Masc|Number=Plur	36	det	_	_
 36	jours	jour	NOUN	_	Gender=Masc|Number=Plur	41	nmod	_	_
@@ -5069,7 +5069,7 @@
 8	hier	hier	ADV	_	_	7	advmod	_	_
 9	par	par	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	général	général	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+11	général	général	NOUN	_	Gender=Masc|Number=Sing	7	obl:agent	_	_
 12	Michel	Michel	PROPN	_	_	11	appos	_	_
 13	Aoun	Aoun	PROPN	_	_	12	flat:name	_	_
 14-15	au	_	_	_	_	_	_	_	_
@@ -6659,7 +6659,7 @@
 9	justifiée	justifier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
 10	par	par	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+12	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	9	obl:agent	_	_
 13-14	des	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
@@ -6929,7 +6929,7 @@
 13	chauffée	chauffer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
 14	par	par	ADP	_	_	16	case	_	_
 15	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
-16	radiateurs	radiateur	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+16	radiateurs	radiateur	NOUN	_	Gender=Masc|Number=Plur	13	obl:agent	_	_
 17	électriques	électrique	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -6939,7 +6939,7 @@
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	par	par	ADP	_	_	5	case	_	_
-5	hasard	hasard	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+5	hasard	hasard	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	_
 6	Lionel	Lionel	PROPN	_	_	3	obj	_	_
 7	en	en	ADP	_	_	8	mark	_	_
 8	cherchant	chercher	VERB	_	Tense=Pres|VerbForm=Part	3	advcl	_	_
@@ -7193,7 +7193,7 @@
 21	anglais	anglais	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	11	punct	_	_
 23	par	par	ADP	_	_	24	case	_	_
-24	manque	manque	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+24	manque	manque	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
 25	de	de	ADP	_	_	26	case	_	_
 26	musique	musique	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
 27	adaptée	adapté	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
@@ -8470,7 +8470,7 @@
 7	reprises	reprise	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
 8	par	par	ADP	_	_	10	case	_	_
 9	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
-10	gouvernements	gouvernement	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
+10	gouvernements	gouvernement	NOUN	_	Gender=Masc|Number=Plur	3	obl:agent	_	_
 11	français	français	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
 12	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 13	de	de	ADP	_	_	15	case	_	_
@@ -8826,7 +8826,7 @@
 6	aussi	aussi	ADV	_	_	9	advmod	_	_
 7	par	par	ADP	_	_	9	case	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	route	route	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+9	route	route	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	_
 10	nationale	national	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
 11	26	26	NUM	_	_	9	nummod	_	_
 12	de	de	ADP	_	_	14	case	_	_
@@ -9468,7 +9468,7 @@
 8	que	que	ADV	_	_	9	advmod	_	_
 9	par	par	ADP	_	_	11	case	_	_
 10	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
-11	voies	voie	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+11	voies	voie	NOUN	_	Gender=Fem|Number=Plur	7	obl:agent	_	_
 12	communales	communal	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
 13	depuis	depuis	ADP	_	_	14	case	_	_
 14	Avilly	Avilly	PROPN	_	_	7	obl	_	SpaceAfter=No
@@ -10007,7 +10007,7 @@
 7	conduites	conduire	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 8	par	par	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
-10	Association	association	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+10	Association	association	NOUN	_	Gender=Fem|Number=Sing	7	obl:agent	_	_
 11-12	du	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -10153,7 +10153,7 @@
 7	travail	travail	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
 8	par	par	ADP	_	_	10	case	_	_
 9	50,8	50,8	NUM	_	_	10	nummod	_	SpaceAfter=No
-10	%	%	SYM	_	_	4	obl	_	_
+10	%	%	SYM	_	_	4	obl:agent	_	_
 11-12	des	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
@@ -10240,7 +10240,7 @@
 33	fonction	fonction	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	_
 34	par	par	ADP	_	_	36	case	_	_
 35	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	motion	motion	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	_
+36	motion	motion	NOUN	_	Gender=Fem|Number=Sing	30	obl:mod	_	_
 37	de	de	ADP	_	_	38	case	_	_
 38	censure	censure	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	_
 39	parlementaire	parlementaire	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	SpaceAfter=No
@@ -10281,7 +10281,7 @@
 12	pédophile	pédophile	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	7	punct	_	_
 14	par	par	ADP	_	_	15	case	_	_
-15	opposition	opposition	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+15	opposition	opposition	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	_
 16	à	à	ADP	_	_	18	case	_	_
 17	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det	_	_
 18	milieu	milieu	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
@@ -10813,7 +10813,7 @@
 6	éliminés	éliminer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 7	par	par	ADP	_	_	9	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	club	club	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+9	club	club	NOUN	_	Gender=Masc|Number=Sing	6	obl:agent	_	_
 10	congolais	congolais	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
 11	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
 12	Elecsport	Elecsport	PROPN	_	_	9	nmod	_	_
@@ -11174,7 +11174,7 @@
 15	rejetées	rejeter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 16	par	par	ADP	_	_	18	case	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	Cour	cour	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+18	Cour	cour	NOUN	_	Gender=Fem|Number=Sing	15	obl:agent	_	_
 19	Internationale	international	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
 20	de	de	ADP	_	_	21	case	_	_
 21	Justice	Justice	PROPN	_	_	18	nmod	_	SpaceAfter=No

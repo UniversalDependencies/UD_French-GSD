@@ -1473,11 +1473,11 @@
 11	bien	bien	ADV	_	_	9	advmod	_	_
 12	votre	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det	_	_
 13	préoccupation	préoccupation	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
-14	par	par	ADP	_	_	18	case	_	_
-15	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	14	fixed	_	_
-16	à	à	ADP	_	_	14	fixed	_	_
+14	par	par	ADP	_	_	15	case	_	_
+15	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16	à	à	ADP	_	_	18	case	_	_
 17	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det	_	_
-18	participation	participation	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+18	participation	participation	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
 19	à	à	ADP	_	_	21	case	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	rencontre	rencontre	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
@@ -6223,9 +6223,9 @@
 13	avec	avec	ADP	_	_	16	case	_	_
 14	beaucoup	beaucoup	ADV	_	_	16	det	_	_
 15	de	de	ADP	_	_	14	fixed	_	_
-16	salade	salade	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+16	salade	salade	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 17	autour	autour	ADV	_	_	16	advmod	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	9	punct	_	_
+18	,	,	PUNCT	_	_	21	punct	_	_
 19	et	et	CCONJ	_	_	21	cc	_	_
 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	giclée	giclée	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	_
@@ -10163,7 +10163,7 @@
 16	anglais	anglais	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
 17	par	par	ADP	_	_	19	case	_	_
 18	41,7	41,7	NUM	_	_	19	nummod	_	SpaceAfter=No
-19	%	%	SYM	_	_	4	obl	_	_
+19	%	%	SYM	_	_	16	obl:agent	_	_
 20	alors	alors	ADV	_	_	27	mark	_	_
 21	que	que	SCONJ	_	_	20	fixed	_	_
 22	2,3	2,3	NUM	_	_	23	nummod	_	SpaceAfter=No

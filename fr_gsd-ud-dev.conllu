@@ -10435,7 +10435,7 @@
 13	bec	bec	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
 14	disproportionné	disproportionner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
 15	par	par	ADP	_	_	16	case	_	_
-16	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+16	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	_
 17	à	à	ADP	_	_	19	case	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	tête	tête	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
@@ -21040,7 +21040,7 @@
 17	refoulement	refoulement	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
 18	par	par	ADP	_	_	20	case	_	_
 19	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
-20	autorités	autorité	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
+20	autorités	autorité	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
 21	marocaine	marocain	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
 22	de	de	ADP	_	_	23	case	_	_
 23	Kamel	Kamel	PROPN	_	_	20	nmod	_	_
@@ -21141,7 +21141,7 @@
 13	mènera	mener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 14	par	par	ADP	_	_	16	case	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	suite	suite	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+16	suite	suite	NOUN	_	Gender=Fem|Number=Sing	13	obl:mod	_	_
 17	plusieurs	plusieurs	DET	_	Gender=Fem|Number=Plur	18	det	_	_
 18	campagnes	campagne	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
 19	dans	dans	ADP	_	_	21	case	_	_
@@ -32027,7 +32027,7 @@
 21	congédié	congédier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
 22	par	par	ADP	_	_	24	case	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	suite	suite	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+24	suite	suite	NOUN	_	Gender=Fem|Number=Sing	21	obl:mod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-dev_01156
@@ -33611,7 +33611,7 @@
 31	droite	droite	NOUN	_	Gender=Fem|Number=Sing	29	conj	_	SpaceAfter=No
 32	)	)	PUNCT	_	_	29	punct	_	_
 33	par	par	ADP	_	_	34	case	_	_
-34	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
+34	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	27	obl:mod	_	_
 35	à	à	ADP	_	_	37	case	_	_
 36	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	réalité	réalité	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	_
@@ -36936,7 +36936,7 @@
 2	voie	voie	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	dénommée	dénommer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
-5	Boulevard	boulevard	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+5	Boulevard	boulevard	NOUN	_	Gender=Masc|Number=Sing	4	xcomp	_	_
 6	Intercommunal	intercommunal	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 7-8	du	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	9	case	_	_

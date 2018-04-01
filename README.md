@@ -6,17 +6,17 @@ It is updated since 2015 independently from the previous source.
 # Introduction
 The French UD is converted from the content head version of the universal
 dependency treebank v2.0 (https://github.com/ryanmcd/uni-dep-tb).
-The README for the original project is available in the file `README_Google_dataset.txt`.
+The README for the original project is available below.
 
-The French data consists of 402,404 words (16,448 sentences).
+The version 2.2 of French data consists of 402,426 words (16,448 sentences).
 No sentence id were available in the original resource, so new `sent_id` were automatically introduced in the converted corpus with prefixes `fr-ud-train`, `fr-ud-dev` and `fr-ud-test` on the correponding original files, followed by a 5 digit number following the order of sentences.
 
 :warning: to meet the size requirements of test data of 10K words, a part of the dev original file was moved to the test file!
 Since version 2.0, the splitting of data is:
 
- * file `fr-ud-train.conll`: 14,554 sentences; 356,613 words
+ * file `fr-ud-train.conll`: 14,554 sentences; 356,638 words
   * `fr-ud-train_00001` to `fr-ud-train_14554`
- * file `fr-ud-dev.conll`: 1,478 sentences; 35,771 words
+ * file `fr-ud-dev.conll`: 1,478 sentences; 35,768 words
   * `fr-ud-dev_00001` to `fr-ud-dev_01478`
  * file `fr-ud-test.conll`: 416 sentences; 10,020 words
   * `fr_ud-test_00001` to `fr_ud-test_00298`
@@ -28,13 +28,16 @@ Probably due to some bug in a conversion program, version 1.2 contains many trun
 
 # Acknowledgments
 
-The latest version of the corpus was produced by Marie-Catherine de Marneffe, Bruno Guillaume and Matias Grioni.
-Automatic modifications and consistency checking were partly done using the Grew software (see http://grew.loria.fr).
+The latest version of the corpus was produced by Marie-Catherine de Marneffe, Bruno Guillaume, Matias Grioni, Carly Dickerson and Guy Perrier.
+Automatic modifications and consistency checking were partly done using the [Grew software](http://grew.fr).
 
-See file `README_Google_dataset.txt` for references and acknowledgments concerning the original corpus.
+See below for references and acknowledgments concerning the original corpus.
 
 # Changelog
 
+* 2018-04-15 v2.2
+  * Partial subtyping of `obl` into the 3 relations `obl:agent`, `obl:mod` and `obl:arg` (This is done form 43,5% of the total number of the `obl` relations; this is completly done from PP introduced by prepositions *de*, *par*, *dans* and *avec*).
+  * Many erros corrections 
 * 2017-11-15 v2.1
   * Only "être", "avoir" or "faire" with the POS tag `AUX`
   * modifications taking into account new decisions taken for harmonisation of several French Treebanks (causative, copules, auxiliaries, change of `nmod:poss` in `det`)
@@ -250,7 +253,7 @@ UPOS: converted with corrections
 XPOS: not available
 Features: automatic with corrections
 Relations: converted with corrections
-Contributors: de Marneffe, Marie-Catherine; Guillaume, Bruno; McDonald, Ryan; Suhr, Alane; Nivre, Joakim; Grioni, Matias
+Contributors: de Marneffe, Marie-Catherine; Guillaume, Bruno; McDonald, Ryan; Suhr, Alane; Nivre, Joakim; Grioni, Matias; Dickerson, Carly; Perrier, Guy
 Contributing: here
 Contact: demarneffe.1@osu.edu, bruno.guillaume@inria.fr
 ===============================================================================

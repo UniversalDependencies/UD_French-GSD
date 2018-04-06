@@ -8023,7 +8023,7 @@
 3	remarquable	remarquable	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	être	être	AUX	_	VerbForm=Inf	7	aux:pass	_	_
-6	ici	ici	ADV	_	_	5	advmod	_	_
+6	ici	ici	ADV	_	_	7	advmod	_	_
 7	décernée	décerner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	_	_
 8	à	à	ADP	_	_	10	case	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -40791,14 +40791,14 @@
 # text = Aurélien Wiik, né le 24 septembre 1980 à Luc-sur-Mer dans le Calvados, est un acteur français.
 1	Aurélien	Aurélien	PROPN	_	_	17	nsubj	_	_
 2	Wiik	Wiik	PROPN	_	_	1	flat:name	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	17	punct	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
 4	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	24	24	NUM	_	_	7	nummod	_	_
-7	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+7	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	_
 8	1980	1980	NUM	_	_	7	nmod	_	_
 9	à	à	ADP	_	_	10	case	_	_
-10	Luc-sur-Mer	Luc-sur-Mer	PROPN	_	_	4	obl	_	_
+10	Luc-sur-Mer	Luc-sur-Mer	PROPN	_	_	4	obl:arg	_	_
 11	dans	dans	ADP	_	_	13	case	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Calvados	Calvados	PROPN	_	_	4	obl:mod	_	SpaceAfter=No

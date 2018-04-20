@@ -9527,10 +9527,10 @@
 37	en	en	ADP	_	_	39	case	_	_
 38	deux	deux	NUM	_	_	39	nummod	_	_
 39	soirées	soirée	NOUN	_	Gender=Fem|Number=Plur	36	nmod	_	_
-40	4	4	NUM	_	_	43	nummod	_	_
+40	4	4	NUM	_	_	36	nmod	_	_
 41	et	et	CCONJ	_	_	42	cc	_	_
 42	5	5	NUM	_	_	40	conj	_	_
-43	mai	mai	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	_
+43	mai	mai	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	_
 44	1946	1946	NUM	_	_	43	nmod	_	_
 45-46	au	_	_	_	_	_	_	_	_
 45	à	à	ADP	_	_	47	case	_	_
@@ -9546,10 +9546,10 @@
 55	autres	autre	ADJ	_	Gender=Fem|Number=Plur	56	amod	_	_
 56	soirées	soirée	NOUN	_	Gender=Fem|Number=Plur	36	conj	_	SpaceAfter=No
 57	,	,	PUNCT	_	_	56	punct	_	_
-58	23	23	NUM	_	_	61	nummod	_	_
+58	23	23	NUM	_	_	56	nmod	_	_
 59	et	et	CCONJ	_	_	60	cc	_	_
 60	24	24	NUM	_	_	58	conj	_	_
-61	mai	mai	NOUN	_	Gender=Masc|Number=Sing	56	nmod	_	_
+61	mai	mai	NOUN	_	Gender=Masc|Number=Sing	58	nmod	_	_
 62	1940	1940	NUM	_	_	61	nmod	_	_
 63-64	au	_	_	_	_	_	_	_	_
 63	à	à	ADP	_	_	65	case	_	_
@@ -9801,13 +9801,13 @@
 5	de	de	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	lundi	lundi	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
-8	4	4	NUM	_	_	7	nummod	_	_
+8	4	4	NUM	_	_	7	nmod	_	_
 9-10	au	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	vendredi	vendredi	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-12	8	8	NUM	_	_	11	nummod	_	_
-13	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	vendredi	vendredi	NOUN	_	Gender=Masc|Number=Sing	7	nmod:range	_	_
+12	8	8	NUM	_	_	11	nmod	_	_
+13	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_01539

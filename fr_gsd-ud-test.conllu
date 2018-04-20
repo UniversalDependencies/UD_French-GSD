@@ -139,14 +139,14 @@
 19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 20	OSCE	OSCE	PROPN	_	_	10	appos	_	SpaceAfter=No
 21	)	)	PUNCT	_	_	20	punct	_	_
-22	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
-23	jusqu'	jusque	ADP	_	_	27	case	_	SpaceAfter=No
+22	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+23	jusqu'	jusque	ADP	_	_	26	case	_	SpaceAfter=No
 24-25	au	_	_	_	_	_	_	_	_
 24	à	à	ADP	_	_	23	fixed	_	_
-25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-26	31	31	NUM	_	_	27	nummod	_	_
-27	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
-28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	31	31	NUM	_	_	6	nmod	_	_
+27	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	3	punct	_	_
 30	avant	avant	ADP	_	_	32	case	_	_
 31	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
@@ -622,9 +622,9 @@
 
 # sent_id = fr-ud-test_00020
 # text = Le 20 juin, le Secrétaire général de l'Elysée Claude Guéant a été reçu à Alger par le président Bouteflika et le Premier ministre Ahmed Ouyahia.
-1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-2	20	20	NUM	_	_	3	nummod	_	_
-3	juin	juin	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	SpaceAfter=No
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	20	20	NUM	_	_	15	obl:mod	_	_
+3	juin	juin	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	15	punct	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Secrétaire	Secrétaire	PROPN	_	_	15	nsubj:pass	_	_
@@ -1248,11 +1248,11 @@
 28	animée	animé	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
 29	seront	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	30	cop	_	_
 30	disponibles	disponible	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
-31	dès	dès	ADP	_	_	34	case	_	_
-32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-33	30	30	NUM	_	_	34	nummod	_	_
-34	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	30	obl	_	_
-35	prochain	prochain	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	SpaceAfter=No
+31	dès	dès	ADP	_	_	33	case	_	_
+32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	30	30	NUM	_	_	30	obl	_	_
+34	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+35	prochain	prochain	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	30	punct	_	_
 
 # sent_id = fr-ud-test_00050
@@ -3203,9 +3203,9 @@
 26	80	80	NUM	_	_	27	nummod	_	_
 27	mg/100	mg/100	NOUN	_	_	24	nmod	_	_
 28	ml	millilitre	NOUN	_	Gender=Masc|Number=Sing	27	compound	_	_
-29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-30	1er	1er	NUM	_	_	31	nummod	_	_
-31	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	1er	1er	NUM	_	_	21	obl	_	_
+31	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
 32	2000	2000	NUM	_	_	31	nmod	_	_
 33	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	34	aux	_	_
 34	adopté	adopter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	43	advcl	_	_
@@ -3440,9 +3440,9 @@
 27	mouvement	mouvement	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
 28	sioniste	sioniste	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	15	punct	_	_
-30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-31	2	2	NUM	_	_	32	nummod	_	_
-32	mai	mai	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	2	2	NUM	_	_	15	nmod	_	_
+32	mai	mai	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
 33	1860	1860	NUM	_	_	32	nmod	_	_
 34	à	à	ADP	_	_	35	case	_	_
 35	Budapest	Budapest	PROPN	_	_	15	nmod	_	SpaceAfter=No
@@ -3565,10 +3565,10 @@
 16	de	de	ADP	_	_	18	case	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	200m	200m	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
-19	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
-20	9	9	NUM	_	_	21	nummod	_	_
-21	août	août	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
-22	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	9	9	NUM	_	_	15	nmod	_	_
+21	août	août	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-test_00120
@@ -8162,9 +8162,9 @@
 5	acteur	acteur	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 6	américain	américain	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 7	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-9	18	18	NUM	_	_	10	nummod	_	_
-10	juin	juin	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	18	18	NUM	_	_	7	obl	_	_
+10	juin	juin	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 11	1908	1908	NUM	_	_	10	nmod	_	_
 12	à	à	ADP	_	_	13	case	_	_
 13	New	New	PROPN	_	_	7	obl	_	_
@@ -8177,9 +8177,9 @@
 20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	décédé	décéder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
-23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-24	8	8	NUM	_	_	25	nummod	_	_
-25	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
+23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	8	8	NUM	_	_	22	obl	_	_
+25	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
 26	1969	1969	NUM	_	_	25	nmod	_	_
 27	à	à	ADP	_	_	28	case	_	_
 28	Greenwich	Greenwich	PROPN	_	_	22	obl	_	_
@@ -8369,9 +8369,9 @@
 
 # sent_id = fr-ud-dev_01488
 # text = Le 6 mai 2011, il met un terme à sa carrière sportive.
-1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-2	6	6	NUM	_	_	3	nummod	_	_
-3	mai	mai	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	6	6	NUM	_	_	7	obl:mod	_	_
+3	mai	mai	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 4	2011	2011	NUM	_	_	3	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -8579,9 +8579,9 @@
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
 5	lancée	lancer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-7	7	7	NUM	_	_	8	nummod	_	_
-8	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	7	7	NUM	_	_	5	obl	_	_
+8	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 9	1986	1986	NUM	_	_	8	nmod	_	_
 10-11	au	_	_	_	_	_	_	_	_
 10	à	à	ADP	_	_	12	case	_	_
@@ -8928,9 +8928,9 @@
 2	Kessler	Kessler	PROPN	_	_	1	flat:name	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-6	14	14	NUM	_	_	7	nummod	_	_
-7	mars	mars	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	14	14	NUM	_	_	4	obl	_	_
+7	mars	mars	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 8	1975	1975	NUM	_	_	7	nmod	_	_
 9	à	à	ADP	_	_	10	case	_	_
 10	Johannesburg	Johannesburg	PROPN	_	_	4	obl	_	SpaceAfter=No
@@ -10224,9 +10224,9 @@
 17	de	de	ADP	_	_	19	case	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	République	république	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
-20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-21	19	19	NUM	_	_	22	nummod	_	_
-22	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	19	19	NUM	_	_	13	obl	_	_
+22	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 23	2007	2007	NUM	_	_	22	nmod	_	_
 24	lorsque	lorsque	SCONJ	_	_	30	mark	_	_
 25	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	det	_	_
@@ -11443,10 +11443,10 @@
 1	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	élection	élection	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 3-4	du	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	6	case	_	_
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-5	24	24	NUM	_	_	6	nummod	_	_
-6	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	24	24	NUM	_	_	2	nmod	_	_
+6	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 7	1999	1999	NUM	_	_	6	nmod	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -11531,9 +11531,9 @@
 2	Mathis	Mathis	PROPN	_	_	1	flat:name	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	née	naître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-6	13	13	NUM	_	_	7	nummod	_	_
-7	juin	juin	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	13	13	NUM	_	_	4	obl	_	_
+7	juin	juin	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 8	1977	1977	NUM	_	_	7	nmod	_	_
 9	à	à	ADP	_	_	10	case	_	_
 10	Nancy	Nancy	PROPN	_	_	4	obl	_	SpaceAfter=No

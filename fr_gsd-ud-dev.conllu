@@ -2210,10 +2210,10 @@
 9	trois	trois	NUM	_	_	10	nummod	_	_
 10	représentations	représentation	NOUN	_	Gender=Fem|Number=Plur	2	obl	_	_
 11	vendredi	vendredi	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
-12	28	28	NUM	_	_	11	nummod	_	_
+12	28	28	NUM	_	_	11	nmod	_	_
 13	et	et	CCONJ	_	_	14	cc	_	_
 14	samedi	samedi	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
-15	29	29	NUM	_	_	14	nummod	_	SpaceAfter=No
+15	29	29	NUM	_	_	14	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	10	punct	_	_
 17	à	à	ADP	_	_	19	case	_	_
 18	20	20	NUM	_	_	19	nummod	_	SpaceAfter=No
@@ -22307,7 +22307,7 @@
 2	deux	deux	NUM	_	_	3	nummod	_	_
 3	fils	fils	NOUN	_	Gender=Masc|Number=Plur	14	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	14	punct	_	_
-5	Ivo	Ivo	PROPN	_	_	3	conj	_	_
+5	Ivo	Ivo	PROPN	_	_	3	appos	_	_
 6	Lola	Lola	PROPN	_	_	5	flat:name	_	_
 7	et	et	CCONJ	_	_	9	cc	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -24024,7 +24024,7 @@
 17	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00869
-# text = Remarque : Chypre est entré en zone euro le 1 janvier 2008.
+# text = Remarque : Chypre est entré en zone euro le 1er janvier 2008.
 1	Remarque	remarque	NOUN	_	Gender=Fem|Number=Sing	5	dep	_	_
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Chypre	Chypre	PROPN	_	_	5	nsubj	_	_
@@ -24033,9 +24033,9 @@
 6	en	en	ADP	_	_	7	case	_	_
 7	zone	zone	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
 8	euro	euro	NOUN	_	Gender=Masc|Number=Sing	7	compound	_	_
-9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-10	1	premier	ADJ	_	Gender=Masc|Number=Sing	11	nummod	_	_
-11	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	1er	1er	NUM	_	_	5	obl	_	_
+11	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 12	2008	2008	NUM	_	_	11	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -24129,7 +24129,7 @@
 7	collègue	collègue	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	vendredi	vendredi	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
-10	11	11	NUM	_	_	9	compound	_	_
+10	11	11	NUM	_	_	9	nmod	_	_
 11	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 12	2009	2009	NUM	_	_	11	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	4	punct	_	_
@@ -28766,7 +28766,7 @@
 17	mars	mars	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
 18	1870	1870	NUM	_	_	17	nmod	_	_
 19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
-20	1-1	1-1	NUM	_	_	17	nmod	_	_
+20	1-1	1-1	NUM	_	_	16	nmod	_	_
 21-22	au	_	_	_	_	_	_	_	SpaceAfter=No
 21	à	à	ADP	_	_	24	case	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_

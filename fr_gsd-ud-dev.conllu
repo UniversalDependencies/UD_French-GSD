@@ -27946,7 +27946,7 @@
 42	"	"	PUNCT	_	_	41	punct	_	_
 43	envers	envers	ADP	_	_	45	case	_	_
 44	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	45	det	_	_
-45	générations	génération	NOUN	_	Gender=Fem|Number=Plur	42	nmod	_	_
+45	générations	génération	NOUN	_	Gender=Fem|Number=Plur	41	nmod	_	_
 46	futures	futur	ADJ	_	Gender=Fem|Number=Plur	45	amod	_	SpaceAfter=No
 47	.	.	PUNCT	_	_	19	punct	_	_
 
@@ -32710,7 +32710,7 @@
 
 # sent_id = fr-ud-dev_01184
 # text = Soumise à la votation le 18 mai 2003, l'initiative est refusée par la totalité des 20 6/2 cantons et par des suffrages exprimés.
-1	Soumise	soumettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+1	Soumise	soumettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
 2	à	à	ADP	_	_	4	case	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	votation	votation	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
@@ -32729,10 +32729,10 @@
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	23	case	_	_
 18	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
-19	20	20	NUM	_	_	20	nummod	_	_
-20	6	6	NUM	_	_	23	nummod	_	SpaceAfter=No
+19	20	20	NUM	_	_	23	nummod	_	_
+20	6	6	NUM	_	_	19	conj	_	SpaceAfter=No
 21	/	/	PUNCT	_	_	20	punct	_	SpaceAfter=No
-22	2	2	NUM	_	_	21	nummod	_	_
+22	2	2	NUM	_	_	20	nummod	_	_
 23	cantons	canton	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
 24	et	et	CCONJ	_	_	27	cc	_	_
 25	par	par	ADP	_	_	27	case	_	_

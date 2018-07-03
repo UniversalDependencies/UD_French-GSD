@@ -11147,7 +11147,7 @@
 29-30	des	_	_	_	_	_	_	_	_
 29	de	de	ADP	_	_	32	case	_	_
 30	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	32	det	_	_
-31	Special	Special	PROPN	_	_	32	amod	_	_
+31	Special	Special	ADJ	_	_	32	amod	_	_
 32	Forces	Forces	PROPN	_	_	28	nmod	_	_
 33	et	et	CCONJ	_	_	35	cc	_	_
 34	leur	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	35	det	_	_
@@ -11426,7 +11426,7 @@
 40	,	,	PUNCT	_	_	42	punct	_	_
 41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	Pan	Pan	PROPN	_	_	37	appos	_	_
-43	American	American	PROPN	_	_	42	amod	_	_
+43	American	American	ADJ	_	_	42	amod	_	_
 44	?	?	PUNCT	_	_	39	punct	_	SpaceAfter=No
 45	"	"	PUNCT	_	_	39	punct	_	_
 
@@ -11531,7 +11531,7 @@
 15	Wehrmacht	Wehrmacht	PROPN	_	_	10	nmod	_	_
 16	durant	durant	ADP	_	_	19	case	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-18	Seconde	Seconde	PROPN	_	_	19	amod	_	_
+18	Seconde	Seconde	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
 19	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	_
 20	mondiale	mondial	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	7	punct	_	_
@@ -11674,7 +11674,7 @@
 21	,	,	PUNCT	_	_	18	punct	_	_
 22	collection	collection	NOUN	_	Gender=Fem|Number=Sing	18	appos	_	_
 23	Page	Page	PROPN	_	_	22	appos	_	_
-24	blanche	blanche	PROPN	_	_	23	amod	_	_
+24	blanche	blanche	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
 25	en	en	ADP	_	_	26	case	_	_
 26	1987	1987	NUM	_	_	15	obl	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	10	punct	_	_
@@ -16032,7 +16032,7 @@
 45	devenu	devenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	conj	_	_
 46	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
 47	Lord	Lord	PROPN	_	_	45	xcomp	_	_
-48	Protecteur	Protecteur	PROPN	_	_	47	amod	_	SpaceAfter=No
+48	Protecteur	Protecteur	ADJ	_	Gender=Masc|Number=Sing	47	amod	_	SpaceAfter=No
 49	.	.	PUNCT	_	_	23	punct	_	_
 
 # sent_id = fr-ud-dev_00573
@@ -18711,8 +18711,8 @@
 # sent_id = fr-ud-dev_00674
 # text = Feuillage vert foncées et aiguilles regroupées par trois (Le Pin à encens--Pinus Taeda--origine Sud Est USA, possède lui aussi des aiguilles regroupées par trois), les cônes sont tous orientés vers le tronc et peuvent rester 20 ans accrochées au tronc avant de tomber.
 1	Feuillage	feuillage	NOUN	_	Gender=Masc|Number=Sing	37	parataxis	_	_
-2	vert	vert	NOUN	_	Gender=Masc|Number=Sing	3	amod	_	_
-3	foncées	foncé	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
+2	vert	vert	NOUN	_	Gender=Masc|Number=Sing	1	amod	_	_
+3	foncées	foncé	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
 4	et	et	CCONJ	_	_	5	cc	_	_
 5	aiguilles	aiguille	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	_
 6	regroupées	regrouper	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
@@ -20563,7 +20563,7 @@
 6	compagnies	compagnie	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
 7	aériennes	aérien	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	_
 8	en	en	ADP	_	_	10	case	_	_
-9	Grande	Grande	PROPN	_	_	10	amod	_	_
+9	Grande	Grande	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
 10	Bretagne	Bretagne	PROPN	_	_	6	nmod	_	_
 11	:	:	PUNCT	_	_	6	punct	_	_
 12	Virgin	Virgin	PROPN	_	_	6	appos	_	_
@@ -21378,7 +21378,7 @@
 29	1972	1972	NUM	_	_	33	obl:mod	_	_
 30	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	_
 31	Nations	Nations	PROPN	_	_	33	nsubj	_	_
-32	unies	unies	PROPN	_	_	31	amod	_	_
+32	unies	unies	ADJ	_	Gender=Fem|Number=Plur	31	amod	_	_
 33	finissent	finir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
 34	par	par	ADP	_	_	35	mark	_	_
 35	considérer	considérer	VERB	_	VerbForm=Inf	33	xcomp	_	_
@@ -23015,7 +23015,7 @@
 40	de	de	ADP	_	_	42	case	_	_
 41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	Commandement	Commandement	PROPN	_	_	39	nmod	_	_
-43	Aérien	Aérien	PROPN	_	_	42	amod	_	_
+43	Aérien	Aérien	ADJ	_	Gender=Masc|Number=Sing	42	amod	_	_
 44	de	de	ADP	_	_	46	case	_	_
 45	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	SpaceAfter=No
 46	Est	est	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	_
@@ -23174,7 +23174,7 @@
 12	State	State	PROPN	_	_	11	flat:name	_	_
 13	Building	Building	PROPN	_	_	11	flat:name	_	_
 14	à	à	ADP	_	_	16	case	_	_
-15	New	New	PROPN	_	_	16	amod	_	_
+15	New	New	ADJ	_	_	16	amod	_	_
 16	York	York	PROPN	_	_	11	nmod	_	_
 17	nécessita	nécessiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 18	tonnes	tonne	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	_
@@ -25228,7 +25228,7 @@
 8	disposition	disposition	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	Voies	Voies	PROPN	_	_	8	nmod	_	_
-11	Navigables	Navigables	PROPN	_	_	10	amod	_	_
+11	Navigables	Navigables	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
 12	de	de	ADP	_	_	13	case	_	_
 13	France	France	PROPN	_	_	10	nmod	_	_
 14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
@@ -27895,7 +27895,7 @@
 49-50	au	_	_	_	_	_	_	_	_
 49	à	à	ADP	_	_	52	case	_	_
 50	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
-51	Moyen	Moyen	PROPN	_	_	52	amod	_	_
+51	Moyen	Moyen	ADJ	_	Gender=Masc|Number=Sing	52	amod	_	_
 52	Âge	Âge	PROPN	_	_	45	obl	_	SpaceAfter=No
 53	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -30336,7 +30336,7 @@
 9	dans	dans	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Registre	Registre	PROPN	_	_	8	obl:arg	_	_
-12	National	National	PROPN	_	_	11	amod	_	_
+12	National	National	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
 13-14	des	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
@@ -31204,7 +31204,7 @@
 14	Karviná	Karviná	PROPN	_	_	12	obl	_	_
 15	en	en	ADP	_	_	16	case	_	_
 16	République	République	PROPN	_	_	12	obl	_	_
-17	tchèque	tchèque	PROPN	_	_	16	amod	_	SpaceAfter=No
+17	tchèque	tchèque	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-dev_01124
@@ -32367,7 +32367,7 @@
 30-31	au	_	_	_	_	_	_	_	_
 30	à	à	ADP	_	_	33	case	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-32	Moyen	Moyen	PROPN	_	_	33	amod	_	_
+32	Moyen	Moyen	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	_
 33	Âge	Âge	PROPN	_	_	28	conj	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	24	punct	_	_
 35	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
@@ -34882,7 +34882,7 @@
 12	avec	avec	ADP	_	_	14	case	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
 14	Arabie	Arabie	PROPN	_	_	9	obl:arg	_	_
-15	saoudite	saoudite	PROPN	_	_	14	amod	_	SpaceAfter=No
+15	saoudite	saoudite	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_01258
@@ -35054,7 +35054,7 @@
 8	tiers	tiers	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	_
 9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	Sécurités	Sécurités	PROPN	_	_	8	appos	_	_
-11	Sociales	Sociales	PROPN	_	_	10	amod	_	SpaceAfter=No
+11	Sociales	Sociales	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
 12	)	)	PUNCT	_	_	10	punct	_	_
 13	si	si	SCONJ	_	_	17	mark	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -35933,9 +35933,9 @@
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	14	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-11	Proche	Proche	PROPN	_	_	14	amod	_	_
+11	Proche	Proche	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
 12	et	et	CCONJ	_	_	13	cc	_	_
-13	Moyen	Moyen	PROPN	_	_	11	conj	_	_
+13	Moyen	Moyen	ADJ	_	Gender=Masc|Number=Sing	11	conj	_	_
 14	Orient	Orient	PROPN	_	_	7	nmod	_	_
 15	par	par	ADP	_	_	17	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -36560,7 +36560,7 @@
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	série	série	NOUN	_	Gender=Fem|Number=Sing	2	obl:mod	_	_
 10	Brigade	Brigade	PROPN	_	_	9	appos	_	_
-11	volante	volante	PROPN	_	_	10	amod	_	_
+11	volante	volante	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
 12	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 13	The	the	DET	_	Definite=Def	14	det	_	_
 14	Bill	Bill	PROPN	_	_	10	appos	_	SpaceAfter=No
@@ -36901,7 +36901,7 @@
 32	lesquels	lequel	PRON	_	Gender=Masc|Number=Plur	26	nmod	_	_
 33	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
 34	Temps	temps	NOUN	_	Gender=Masc|Number=Plur	32	appos	_	_
-35	nouveaux	nouveaux	PROPN	_	_	34	amod	_	SpaceAfter=No
+35	nouveaux	nouveaux	ADJ	_	Gender=Masc|Number=Plur	34	amod	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	38	punct	_	_
 37	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 38	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	34	conj	_	_
@@ -37647,9 +37647,9 @@
 15	jeux	jeu	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
 16	vidéo	vidéo	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
 17	Pokémon	Pokémon	PROPN	_	_	15	appos	_	_
-18	Rouge	Rouge	PROPN	_	_	17	amod	_	_
+18	Rouge	Rouge	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
 19	et	et	CCONJ	_	_	20	cc	_	_
-20	Vert	Vert	PROPN	_	_	18	conj	_	SpaceAfter=No
+20	Vert	Vert	ADJ	_	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_01356
@@ -40052,7 +40052,7 @@
 52	sud	sud	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
 53	par	par	ADP	_	_	56	case	_	_
 54	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
-55	Grand	Grand	PROPN	_	_	56	amod	_	_
+55	Grand	Grand	ADJ	_	Gender=Masc|Number=Sing	56	amod	_	_
 56	Parpaillon	Parpaillon	PROPN	_	_	52	nmod	_	_
 57	(	(	PUNCT	_	_	59	punct	_	SpaceAfter=No
 58	2990	2990	NUM	_	_	59	nummod	_	_
@@ -40759,7 +40759,7 @@
 24	comme	comme	ADP	_	_	28	case	_	_
 25	pendant	pendant	ADP	_	_	28	case	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-27	Première	Première	PROPN	_	_	28	amod	_	_
+27	Première	Première	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
 28	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
 29	mondiale	mondial	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	19	punct	_	_

@@ -1438,11 +1438,11 @@
 17	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-dev_00054
-# text = Le 24 RIC, créé par décret du 16 décembre 1902 a été mis sur pied à Perpignan.
+# text = Le 24e RIC, créé par décret du 16 décembre 1902 a été mis sur pied à Perpignan.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-2	24	24	NUM	_	_	3	nummod	_	_
+2	24e	24e	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	RIC	RIC	PROPN	_	_	15	nsubj:pass	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	15	punct	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
 5	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
 6	par	par	ADP	_	_	7	case	_	_
 7	décret	décret	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
@@ -4030,12 +4030,12 @@
 22	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_00147
-# text = En géographie, le 109 méridien ouest est le méridien joignant les points de la surface de la Terre dont la longitude est égale à 109 ° ouest.
+# text = En géographie, le 109e méridien ouest est le méridien joignant les points de la surface de la Terre dont la longitude est égale à 109 ° ouest.
 1	En	en	ADP	_	_	2	case	_	_
 2	géographie	géographie	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	10	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-5	109	109	NUM	_	_	6	nummod	_	_
+5	109e	109e	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 6	méridien	méridien	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 7	ouest	ouest	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
@@ -6552,12 +6552,12 @@
 58	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-dev_00236
-# text = En 1959, le 24 R.I.Ma perd un bataillon, supprimé de l'ordre de bataille ;
+# text = En 1959, le 24e R.I.Ma perd un bataillon, supprimé de l'ordre de bataille ;
 1	En	en	ADP	_	_	2	case	_	_
 2	1959	1959	NUM	_	_	7	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-5	24	24	NUM	_	_	6	nummod	_	_
+5	24e	24e	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 6	R.I.Ma	R.I.Ma	PROPN	_	_	7	nsubj	_	_
 7	perd	perdre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -6666,7 +6666,7 @@
 30	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = fr-ud-dev_00240
-# text = Il commanda ensuite le Chicago (CA-14) et se vit confier le commandement de la 14 division de sous-marins basée à Pearl Harbor.
+# text = Il commanda ensuite le Chicago (CA-14) et se vit confier le commandement de la 14e division de sous-marins basée à Pearl Harbor.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	commanda	commander	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	ensuite	ensuite	ADV	_	_	2	advmod	_	_
@@ -6683,7 +6683,7 @@
 14	commandement	commandement	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
 15	de	de	ADP	_	_	18	case	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-17	14	14	NUM	_	_	18	nummod	_	_
+17	14e	14e	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
 18	division	division	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
 19	de	de	ADP	_	_	20	case	_	_
 20	sous-marins	sous-marin	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
@@ -6866,9 +6866,9 @@
 30	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = fr-ud-dev_00247
-# text = La 545 division de grenadiers est formée le 10 juillet 1944 comme Sperr-Division dans le Wehrkreis XII en tant qu'élément de la 29.
+# text = La 545e division de grenadiers est formée le 10 juillet 1944 comme Sperr-Division dans le Wehrkreis XII en tant qu'élément de la 29e.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-2	545	545	NUM	_	_	3	nummod	_	_
+2	545e	545e	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	division	division	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	grenadiers	grenadier	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
@@ -6890,7 +6890,7 @@
 21	élément	élément	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
 22	de	de	ADP	_	_	24	case	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	29	29	NUM	_	_	21	nmod	_	SpaceAfter=No
+24	29e	29e	ADJ	_	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-dev_00248
@@ -18488,7 +18488,7 @@
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_00667
-# text = Choix payant puisque le milieu de terrain inscrit le 3 but de son club dix secondes après être entré en jeu !
+# text = Choix payant puisque le milieu de terrain inscrit le 3e but de son club dix secondes après être entré en jeu !
 1	Choix	choix	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	payant	payant	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	puisque	puisque	SCONJ	_	_	8	mark	_	_
@@ -18498,7 +18498,7 @@
 7	terrain	terrain	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 8	inscrit	inscrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-10	3	3	NUM	_	_	11	nummod	_	_
+10	3e	3e	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
 11	but	but	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det	_	_
@@ -19656,7 +19656,7 @@
 13	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-dev_00709
-# text = Passé professionnel en 1973, il devient champion d'Europe EBU des super-welters en 1975 puis champion du monde WBC de la catégorie le 18 juin 1976 après sa victoire par arrêt de l'arbitre au 10 round contre Elisha Obed.
+# text = Passé professionnel en 1973, il devient champion d'Europe EBU des super-welters en 1975 puis champion du monde WBC de la catégorie le 18 juin 1976 après sa victoire par arrêt de l'arbitre au 10e round contre Elisha Obed.
 1	Passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
 2	professionnel	professionnel	NOUN	_	Gender=Masc|Number=Sing	1	xcomp	_	_
 3	en	en	ADP	_	_	4	case	_	_
@@ -19699,7 +19699,7 @@
 38-39	au	_	_	_	_	_	_	_	_
 38	à	à	ADP	_	_	41	case	_	_
 39	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
-40	10	dixième	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	_
+40	10e	10e	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	_
 41	round	round	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
 42	contre	contre	ADP	_	_	43	case	_	_
 43	Elisha	Elisha	PROPN	_	_	32	nmod	_	_
@@ -22853,7 +22853,7 @@
 28	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00828
-# text = La saison 1974-1975 du Championnat de Bulgarie de football était la 51 édition du championnat de première division en Bulgarie.
+# text = La saison 1974-1975 du Championnat de Bulgarie de football était la 51e édition du championnat de première division en Bulgarie.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	saison	saison	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
 3	1974-1975	1974-1975	NUM	_	_	2	nmod	_	_
@@ -22867,7 +22867,7 @@
 10	football	football	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-13	51	51	NUM	_	_	14	nummod	_	_
+13	51e	51e	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
 14	édition	édition	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 15-16	du	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	17	case	_	_
@@ -34736,13 +34736,13 @@
 8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_01250
-# text = Dates et programmation de la 36 édition à venir !
+# text = Dates et programmation de la 36e édition à venir !
 1	Dates	date	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	et	et	CCONJ	_	_	3	cc	_	_
 3	programmation	programmation	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
 4	de	de	ADP	_	_	7	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-6	36	36	NUM	_	_	7	nummod	_	_
+6	36e	36e	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 7	édition	édition	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 8	à	à	ADP	_	_	9	mark	_	_
 9	venir	venir	VERB	_	VerbForm=Inf	1	acl	_	_
@@ -38377,7 +38377,7 @@
 52	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_01380
-# text = Le square de la Madone, anciennement square Hébert, ouvert en 1937, est un square du 18 arrondissement de Paris.
+# text = Le square de la Madone, anciennement square Hébert, ouvert en 1937, est un square du 18e arrondissement de Paris.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	square	square	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -38398,7 +38398,7 @@
 18-19	du	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	21	case	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-20	18	18	NUM	_	_	21	nummod	_	_
+20	18e	18e	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
 21	arrondissement	arrondissement	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
 22	de	de	ADP	_	_	23	case	_	_
 23	Paris	Paris	PROPN	_	_	21	nmod	_	SpaceAfter=No

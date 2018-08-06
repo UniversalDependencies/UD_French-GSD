@@ -34138,32 +34138,34 @@
 
 # sent_id = fr-ud-dev_01231
 # text = Originaire d'Amérique du Sud, cette plante pousse à l'état sauvage dans des prairies ou des massifs montagneux, sous un climat semi-aride.
-1	Originaire	originaire	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+1	Originaire	originaire	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
 2	d'	de	ADP	_	_	3	case	_	SpaceAfter=No
 3	Amérique	Amérique	PROPN	_	_	1	obl:arg	_	_
-4	du	du	PROPN	_	_	5	case	_	_
-5	Sud	sud	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	1	punct	_	_
-7	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
-8	plante	plante	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
-9	pousse	pousser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	à	à	ADP	_	_	12	case	_	_
-11	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
-12	état	état	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
-13	sauvage	sauvage	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
-14	dans	dans	ADP	_	_	16	case	_	_
-15	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
-16	prairies	prairie	NOUN	_	Gender=Fem|Number=Plur	9	obl:mod	_	_
-17	ou	ou	CCONJ	_	_	19	cc	_	_
-18	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
-19	massifs	massif	NOUN	_	Gender=Masc|Number=Plur	16	conj	_	_
-20	montagneux	montagneux	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	9	punct	_	_
-22	sous	sous	ADP	_	_	24	case	_	_
-23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	climat	climat	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
-25	semi-aride	semi-aride	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	9	punct	_	_
+4-5	du	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Sud	sud	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	1	punct	_	_
+8	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	plante	plante	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	pousse	pousser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	à	à	ADP	_	_	13	case	_	_
+12	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	état	état	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+14	sauvage	sauvage	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+15	dans	dans	ADP	_	_	17	case	_	_
+16	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	prairies	prairie	NOUN	_	Gender=Fem|Number=Plur	10	obl:mod	_	_
+18	ou	ou	CCONJ	_	_	20	cc	_	_
+19	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	massifs	massif	NOUN	_	Gender=Masc|Number=Plur	17	conj	_	_
+21	montagneux	montagneux	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	10	punct	_	_
+23	sous	sous	ADP	_	_	25	case	_	_
+24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	climat	climat	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+26	semi-aride	semi-aride	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-dev_01232
 # text = L'Algérie va certainement appeler l'ONU à l'élimination totale et sans entraves du colonialisme qui est incompatible avec la charte onusienne.

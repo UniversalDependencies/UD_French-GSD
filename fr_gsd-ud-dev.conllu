@@ -117,7 +117,7 @@
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	secrétaire	secrétaire	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
 5	général	général	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
-6	responsable	responsable	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
+6	responsable	responsable	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	organisation	organisation	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
@@ -128,7 +128,7 @@
 14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	secrétaire	secrétaire	NOUN	_	Gender=Masc|Number=Sing	12	appos	_	_
 16	général	général	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
-17	responsable	responsable	NOUN	_	Gender=Masc|Number=Sing	15	appos	_	_
+17	responsable	responsable	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
 18-19	des	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	20	case	_	_
 19	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
@@ -144,12 +144,14 @@
 28	de	de	ADP	_	_	30	case	_	_
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	formation	formation	NOUN	_	Gender=Fem|Number=Sing	20	conj	_	_
-31	et	et	CCONJ	_	_	33	cc	_	_
-32	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
-33	relations	relation	NOUN	_	Gender=Fem|Number=Plur	20	conj	_	_
-34	internationales	international	ADJ	_	Gender=Fem|Number=Plur	33	amod	_	SpaceAfter=No
-35	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	1	punct	_	_
+31	et	et	CCONJ	_	_	34	cc	_	_
+32-33	des	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	relations	relation	NOUN	_	Gender=Fem|Number=Plur	20	conj	_	_
+35	internationales	international	ADJ	_	Gender=Fem|Number=Plur	34	amod	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-dev_00007
 # text = Elle lutte pour échapper aux tueurs à ses trousses.
@@ -1934,12 +1936,12 @@
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Reichsrath	Reichsrath	PROPN	_	_	8	obl	_	_
 15	et	et	CCONJ	_	_	38	cc	_	_
-16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-17	Dr.	docteur	NOUN	_	Gender=Masc|Number=Sing	18	compound	_	_
-18	Baxa	Baxa	PROPN	_	_	38	nsubj	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	18	punct	_	_
+16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Dr.	docteur	NOUN	_	Gender=Masc|Number=Sing	38	nsubj	_	_
+18	Baxa	Baxa	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	17	punct	_	_
 20	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
-21	avocat	avocat	NOUN	_	Gender=Masc|Number=Sing	18	appos	_	_
+21	avocat	avocat	NOUN	_	Gender=Masc|Number=Sing	17	appos	_	_
 22	de	de	ADP	_	_	24	case	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	famille	famille	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
@@ -2745,10 +2747,10 @@
 39	Université	université	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	_
 40	de	de	ADP	_	_	41	case	_	_
 41	Zhongshan	Zhongshan	PROPN	_	_	39	nmod	_	_
-42	(	(	PUNCT	_	_	44	punct	_	SpaceAfter=No
-43	Sun	Sun	X	_	_	44	compound	_	_
-44	Yat-Sen	Yat-Sen	X	_	_	41	appos	_	SpaceAfter=No
-45	)	)	PUNCT	_	_	44	punct	_	_
+42	(	(	PUNCT	_	_	43	punct	_	SpaceAfter=No
+43	Sun	Sun	X	_	_	41	appos	_	_
+44	Yat-Sen	Yat-Sen	X	_	_	43	flat:name	_	SpaceAfter=No
+45	)	)	PUNCT	_	_	43	punct	_	_
 46	à	à	ADP	_	_	47	case	_	_
 47	Canton	Canton	PROPN	_	_	39	nmod	_	SpaceAfter=No
 48	.	.	PUNCT	_	_	3	punct	_	_
@@ -5719,7 +5721,7 @@
 19	que	que	SCONJ	_	_	21	mark	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	franco-flamand	franco-flamand	NOUN	_	Gender=Masc|Number=Sing	18	obl:arg	_	_
-22	Clemens	Clemens	PROPN	_	_	21	nmod	_	_
+22	Clemens	Clemens	PROPN	_	_	21	appos	_	_
 23	non	non	X	_	_	22	flat:name	_	_
 24	Papa	Papa	PROPN	_	_	22	flat:name	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	27	punct	_	_
@@ -17094,7 +17096,7 @@
 13	et	et	CCONJ	_	_	15	cc	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	région	région	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
-16	Centre	Centre	PROPN	_	_	15	compound	_	SpaceAfter=No
+16	Centre	Centre	PROPN	_	_	15	appos	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_00614
@@ -20116,7 +20118,7 @@
 8	dans	dans	ADP	_	_	10	case	_	_
 9	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
 10	parfumeries	parfumerie	NOUN	_	Gender=Fem|Number=Plur	5	obl:mod	_	_
-11	Nocibé	Nocibé	PROPN	_	_	10	nmod	_	SpaceAfter=No
+11	Nocibé	Nocibé	PROPN	_	_	10	appos	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_00726
@@ -23634,7 +23636,7 @@
 23	à	à	ADP	_	_	25	case	_	_
 24	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
 25	hôpital	hôpital	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
-26	Necker	Necker	PROPN	_	_	25	nmod	_	_
+26	Necker	Necker	PROPN	_	_	25	appos	_	_
 27	de	de	ADP	_	_	28	case	_	_
 28	Paris	Paris	PROPN	_	_	25	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	35	punct	_	_
@@ -26428,7 +26430,7 @@
 15	monde	monde	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 16	et	et	CCONJ	_	_	22	cc	_	_
 17	deux	deux	NUM	_	_	18	nummod	_	_
-18	fois	fois	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
+18	fois	fois	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	_
 19	à	à	ADP	_	_	22	case	_	_
 20	St.	saint	NOUN	_	Gender=Masc|Number=Sing	22	compound	_	_
 21	Silas	Silas	PROPN	_	_	20	flat:name	_	_
@@ -29593,7 +29595,7 @@
 26	comme	comme	ADP	_	_	28	case	_	_
 27	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
 28	truites	truite	NOUN	_	Gender=Fem|Number=Plur	25	nmod	_	_
-29	fario	fario	PROPN	_	_	28	compound	_	SpaceAfter=No
+29	fario	fario	PROPN	_	_	28	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_01065
@@ -39335,12 +39337,12 @@
 
 # sent_id = fr-ud-dev_01412
 # text = Surnommé King Fish ou Mr. Angel, Tim Salmon est considéré comme un des meilleurs joueurs de l'histoire des Angels.
-1	Surnommé	surnommer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+1	Surnommé	surnommer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
 2	King	King	PROPN	_	_	1	obj	_	_
 3	Fish	Fish	PROPN	_	_	2	flat:name	_	_
-4	ou	ou	CCONJ	_	_	6	cc	_	_
-5	Mr.	Monsieur	NOUN	_	Gender=Masc|Number=Sing	6	compound	_	_
-6	Angel	Angel	PROPN	_	_	2	conj	_	SpaceAfter=No
+4	ou	ou	CCONJ	_	_	5	cc	_	_
+5	Mr.	Monsieur	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+6	Angel	Angel	PROPN	_	_	5	flat:name	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	Tim	Tim	PROPN	_	_	11	nsubj:pass	_	_
 9	Salmon	Salmon	PROPN	_	_	8	flat:name	_	_

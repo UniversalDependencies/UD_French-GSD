@@ -3329,7 +3329,7 @@
 3	,	,	PUNCT	_	_	20	punct	_	_
 4	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	approche	approche	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
-6	Eclipse	Eclipse	PROPN	_	_	5	nmod	_	SpaceAfter=No
+6	Eclipse	Eclipse	PROPN	_	_	5	appos	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	20	punct	_	_
 8	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
 9	pour	pour	ADP	_	_	10	mark	_	_
@@ -3711,7 +3711,7 @@
 44	:	:	PUNCT	_	_	40	punct	_	_
 45	"	"	PUNCT	_	_	46	punct	_	SpaceAfter=No
 46	Affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	40	appos	_	_
-47	DSK	DSK	PROPN	_	_	46	nmod	_	_
+47	DSK	DSK	PROPN	_	_	46	appos	_	_
 48	:	:	PUNCT	_	_	46	punct	_	_
 49	comment	comment	ADV	_	_	55	advmod	_	_
 50	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
@@ -7152,7 +7152,7 @@
 # text = La paroisse Marie-Reine-des-Coeurs est située au : 5905, rue Turenne Montréal (Québec) H1M 1N4
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	paroisse	paroisse	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
-3	Marie-Reine-des-Coeurs	Marie-Reine-des-Coeurs	PROPN	_	_	2	nmod	_	_
+3	Marie-Reine-des-Coeurs	Marie-Reine-des-Coeurs	PROPN	_	_	2	appos	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
 5	située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6-7	au	_	_	_	_	_	_	_	_
@@ -9056,9 +9056,9 @@
 12	milliards	milliard	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
 13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
 14	euros	euro	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
-15	par	par	ADP	_	_	17	case	_	_
-16	M.	M.	NOUN	_	Gender=Masc|Number=Sing	17	compound	_	_
-17	Blanc	Blanc	PROPN	_	_	9	obl:agent	_	SpaceAfter=No
+15	par	par	ADP	_	_	16	case	_	_
+16	M.	M.	NOUN	_	Gender=Masc|Number=Sing	9	obl:agent	_	_
+17	Blanc	Blanc	PROPN	_	_	16	flat:name	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-dev_01514

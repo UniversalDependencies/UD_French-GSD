@@ -4741,8 +4741,8 @@
 
 # sent_id = fr-ud-dev_00175
 # text = En outre, le retour de l'Alsace dans une république française devenue laïque eut aussi pour effet d'engager une réflexion sur le maintien des formations de théologie de l'université.
-1	En	en	ADP	_	_	15	advmod	_	_
-2	outre	outre	ADV	_	_	1	fixed	_	SpaceAfter=No
+1	En	en	ADP	_	_	2	case	_	_
+2	outre	outre	ADV	_	_	15	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	15	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	retour	retour	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
@@ -6425,8 +6425,8 @@
 5	méthode	méthode	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	expérimentale	expérimental	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 7	permettent	permettre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	en	en	ADP	_	_	9	case	_	_
-9	outre	outre	ADV	_	_	7	obl:mod	_	_
+8	en	en	ADP	_	_	7	case	_	_
+9	outre	outre	ADV	_	_	7	advmod	_	_
 10	qu'	que	SCONJ	_	_	17	mark	_	SpaceAfter=No
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	branche	branche	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
@@ -8267,7 +8267,7 @@
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	pourra	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 14	par	par	ADP	_	_	15	case	_	_
-15	ailleurs	ailleurs	ADV	_	_	13	obl:mod	_	_
+15	ailleurs	ailleurs	ADV	_	_	13	advmod	_	_
 16	contribuer	contribuer	VERB	_	VerbForm=Inf	13	xcomp	_	_
 17	à	à	ADP	_	_	18	mark	_	_
 18	booster	booster	VERB	_	VerbForm=Inf	16	xcomp	_	_
@@ -9143,7 +9143,7 @@
 38	Et	et	CCONJ	_	_	43	cc	_	_
 39	si	si	SCONJ	_	_	43	mark	_	_
 40	en	en	ADP	_	_	41	case	_	_
-41	plus	plus	ADV	_	_	43	obl:mod	_	_
+41	plus	plus	ADV	_	_	43	advmod	_	_
 42	y'	y	PRON	_	_	43	nsubj	_	SpaceAfter=No
 43	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	parataxis	_	_
 44	personne	personne	NOUN	_	Gender=Fem|Number=Sing	43	obj	_	SpaceAfter=No
@@ -11657,7 +11657,7 @@
 3	de	de	ADP	_	_	4	case	_	_
 4	soleil	soleil	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 5	en	en	ADP	_	_	6	case	_	_
-6	plus	plus	ADV	_	_	2	nmod	_	_
+6	plus	plus	ADV	_	_	2	advmod	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	troisième	troisième	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
@@ -12664,7 +12664,7 @@
 11	abat	abattre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	Alistair	Alistair	PROPN	_	_	11	obj	_	_
 13	par	par	ADP	_	_	14	case	_	_
-14	derrière	derrière	ADV	_	_	11	obl:mod	_	_
+14	derrière	derrière	ADV	_	_	11	advmod	_	_
 15	sous	sous	ADP	_	_	17	case	_	_
 16	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	17	det	_	_
 17	yeux	oeil	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
@@ -15318,12 +15318,12 @@
 2	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	maudits	maudit	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
 4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
-5	hier	hier	ADV	_	_	3	nmod	_	_
+5	hier	hier	ADV	_	_	3	advmod	_	_
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	héros	héros	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
-10	aujourd'hui	aujourd'hui	ADV	_	_	8	nmod	_	SpaceAfter=No
+10	aujourd'hui	aujourd'hui	ADV	_	_	8	advmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-dev_00550
@@ -15430,7 +15430,7 @@
 # sent_id = fr-ud-dev_00553
 # text = En arrière, un homme laboure avec un troupeau de moutons.
 1	En	en	ADP	_	_	2	case	_	_
-2	arrière	arrière	ADV	_	_	6	obl:mod	_	SpaceAfter=No
+2	arrière	arrière	ADV	_	_	6	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	homme	homme	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -24599,8 +24599,8 @@
 19	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	cop	_	_
 20	plus	plus	ADV	_	_	21	advmod	_	_
 21	considérables	considérable	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
-22	qu'	que	ADP	_	_	23	case	_	SpaceAfter=No
-23	aujourd'hui	aujourd'hui	ADV	_	_	21	obl	_	SpaceAfter=No
+22	qu'	que	SCONJ	_	_	23	case	_	SpaceAfter=No
+23	aujourd'hui	aujourd'hui	ADV	_	_	21	advmod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	21	punct	_	_
 
 # sent_id = fr-ud-dev_00891
@@ -31308,7 +31308,7 @@
 # sent_id = fr-ud-dev_01128
 # text = De là, le paysage devient plus vallonné et la route serpente au milieu de coteaux couverts de vignobles appartenant au domaine de production du Cognac et du Pineau.
 1	De	de	ADP	_	_	2	case	_	_
-2	là	là	ADV	_	_	6	obl:mod	_	SpaceAfter=No
+2	là	là	ADV	_	_	6	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	paysage	paysage	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -36557,7 +36557,7 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	fit	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	par	par	ADP	_	_	4	case	_	_
-4	ailleurs	ailleurs	ADV	_	_	2	obl:mod	_	_
+4	ailleurs	ailleurs	ADV	_	_	2	advmod	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	apparition	apparition	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
 7	dans	dans	ADP	_	_	9	case	_	_
@@ -37349,7 +37349,7 @@
 # sent_id = fr-ud-dev_01348
 # text = Par ailleurs la très bonne gestion financière de la ville du Cap (la dette a été réduite de un milliard de rand un an après l'arrivée de la DA au pouvoir), la hausse de 12% du PIB de la ville entre 2005 et 2008, et le meilleur réseau de services publics au sein des municipalités métropolitaines d'Afrique du Sud (augmentation de 15% du budget consacré aux services publics, construction de 7000 logements en moyenne en 2008 contre 3000 en 2002) ont convaincus certains électeurs noirs de se détourner de l'ANC vers la DA.
 1	Par	par	ADP	_	_	2	case	_	_
-2	ailleurs	ailleurs	ADV	_	_	101	obl:mod	_	_
+2	ailleurs	ailleurs	ADV	_	_	101	advmod	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 4	très	très	ADV	_	_	5	advmod	_	_
 5	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_

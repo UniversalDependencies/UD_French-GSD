@@ -453,7 +453,7 @@
 2	pouvoir	pouvoir	VERB	_	VerbForm=Inf	13	advcl	_	_
 3	mener	mener	VERB	_	VerbForm=Inf	2	xcomp	_	_
 4	à	à	ADP	_	_	5	case	_	_
-5	bien	bien	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+5	bien	bien	NOUN	_	Gender=Masc|Number=Sing	3	obl:arg	_	_
 6	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	_
 7	politique	politique	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
 8	dictatoriale	dictatorial	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
@@ -1336,7 +1336,7 @@
 7	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	8	iobj	_	_
 8	suffit	suffire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
 9	pour	pour	ADP	_	_	10	case	_	_
-10	aujourd'hui	aujourd'hui	ADV	_	_	8	obl	_	SpaceAfter=No
+10	aujourd'hui	aujourd'hui	ADV	_	_	8	advmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-test_00053
@@ -1498,7 +1498,7 @@
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
 8	pas	pas	ADV	_	_	0	root	_	_
 9	comme	comme	ADP	_	_	10	case	_	_
-10	aujourd'hui	aujourd'hui	ADV	_	_	8	obl	_	SpaceAfter=No
+10	aujourd'hui	aujourd'hui	ADV	_	_	8	advmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-test_00058
@@ -2842,7 +2842,7 @@
 # text = Jusqu'à quand la France officielle maintiendra-t-elle sa préférence pour la protection des agresseurs des droits de l'homme ?
 1	Jusqu'	jusque	ADV	_	_	3	case	_	MWEPOS=ADP|SpaceAfter=No
 2	à	à	ADP	_	_	1	fixed	_	_
-3	quand	quand	ADV	_	_	7	obl:mod	_	_
+3	quand	quand	ADV	_	_	7	advmod	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	France	France	PROPN	_	_	7	nsubj	_	_
 6	officielle	officiel	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
@@ -5987,7 +5987,7 @@
 59	de	de	ADP	_	_	60	case	_	_
 60	mètres	mètre	NOUN	_	Gender=Masc|Number=Plur	58	nmod	_	_
 61	de	de	ADP	_	_	62	case	_	_
-62	là	là	ADV	_	_	58	nmod	_	SpaceAfter=No
+62	là	là	ADV	_	_	58	advmod	_	SpaceAfter=No
 63	.	.	PUNCT	_	_	44	punct	_	_
 
 # sent_id = fr-ud-test_00198

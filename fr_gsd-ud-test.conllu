@@ -1287,7 +1287,7 @@
 27	pas	pas	ADV	_	Polarity=Neg	29	advmod	_	_
 28	si	si	ADV	_	_	29	advmod	_	_
 29	brillant	brillant	ADJ	_	Gender=Masc|Number=Sing	16	ccomp	_	_
-30	que	que	SCONJ	_	_	31	mark	_	_
+30	que	que	SCONJ	_	_	31	case	_	_
 31	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	29	obl:mod	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	16	punct	_	_
 
@@ -2543,7 +2543,7 @@
 11	politique	politique	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
 12	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	plus	plus	ADV	_	_	12	advmod	_	_
-14	que	que	SCONJ	_	_	16	mark	_	_
+14	que	que	SCONJ	_	_	16	case	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	cause	cause	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	_
 17	humaine	humain	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
@@ -3265,9 +3265,9 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	message	message	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	bien	bien	ADV	_	_	6	mark	_	MWEPOS=SCONJ
+4	bien	bien	ADV	_	_	6	advmod	_	MWEPOS=ADV
 5	que	que	SCONJ	_	_	4	fixed	_	_
-6	feutré	feutré	ADJ	_	Gender=Masc|Number=Sing	9	advcl	_	SpaceAfter=No
+6	feutré	feutré	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 9	clair	clair	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -3785,7 +3785,7 @@
 55	pays	pays	NOUN	_	Gender=Masc|Number=Sing	52	nmod	_	SpaceAfter=No
 56	,	,	PUNCT	_	_	48	punct	_	_
 57	considéré	considérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	acl	_	_
-58	comme	comme	ADP	_	_	59	mark	_	_
+58	comme	comme	ADP	_	_	59	case	_	_
 59	favorable	favorable	ADJ	_	Gender=Masc|Number=Sing	57	xcomp	_	_
 60-61	au	_	_	_	_	_	_	_	_
 60	à	à	ADP	_	_	62	case	_	_
@@ -4053,7 +4053,7 @@
 22	Lorenzo	Lorenzo	PROPN	_	_	21	flat:name	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	_
 24	tous	tout	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	_
-25	deux	deux	NUM	_	_	27	nummod	_	_
+25	deux	deux	NUM	_	_	27	nmod	_	_
 26	sur	sur	ADP	_	_	27	case	_	_
 27	Yamaha	Yamaha	PROPN	_	_	19	nmod	_	_
 28	M1	M1	PROPN	_	_	27	flat:name	_	_
@@ -4379,7 +4379,7 @@
 1	Qu'	que	PRON	_	_	0	root	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
 3	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	1	nsubj	_	_
-4	que	que	SCONJ	_	_	6	mark	_	_
+4	que	que	SCONJ	_	_	6	case	_	_
 5	1.000	1.000	NUM	_	_	6	nummod	_	_
 6	emplois	emploi	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
 7	quand	quand	SCONJ	_	_	10	mark	_	_
@@ -5243,7 +5243,7 @@
 
 # sent_id = fr-ud-test_00175
 # text = M. Di Rupo, dont le parti avait remporté les élections de juin en Wallonie francophone, a émis l'espoir lundi "que la raison finira par l'emporter".
-1	M.	M.	PROPN	_	_	19	nsubj	_	_
+1	M.	monsieur	PROPN	_	_	19	nsubj	_	_
 2	Di	Di	PROPN	_	_	1	flat:name	_	_
 3	Rupo	Rupo	PROPN	_	_	1	flat:name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
@@ -5305,7 +5305,7 @@
 23	Europe	Europe	PROPN	_	_	20	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	10	punct	_	_
 25	et	et	CCONJ	_	_	26	cc	_	_
-26	concernent	concerner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+26	concernent	concerner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
 27	moins	moins	ADV	_	_	26	advmod	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	reste	reste	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
@@ -5467,7 +5467,7 @@
 11	peu	peu	ADV	_	_	10	fixed	_	_
 12	moins	moins	ADV	_	_	13	advmod	_	_
 13	mortelle	mortel	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
-14	que	que	SCONJ	_	_	17	mark	_	_
+14	que	que	SCONJ	_	_	17	case	_	_
 15	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
 16	pires	pire	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
 17	saisons	saison	NOUN	_	Gender=Fem|Number=Plur	13	obl:mod	_	_
@@ -7301,7 +7301,7 @@
 4	beaucoup	beaucoup	ADV	_	_	5	advmod	_	_
 5	plus	plus	ADV	_	_	6	advmod	_	_
 6	élevés	élevé	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
-7	que	que	SCONJ	_	_	11	mark	_	_
+7	que	que	SCONJ	_	_	11	case	_	_
 8	dans	dans	ADP	_	_	11	case	_	_
 9	d'	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	11	det	_	SpaceAfter=No
 10	autres	autre	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
@@ -7491,7 +7491,7 @@
 10	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 11	toilettes	toilette	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
 12	en	en	ADP	_	_	13	case	_	_
-13	commun	commun	ADJ	_	Gender=Masc|Number=Sing	9	advmod	_	_
+13	commun	commun	ADJ	_	Gender=Masc|Number=Sing	9	xcomp	_	_
 14	:	:	PUNCT	_	_	3	punct	_	_
 15	poussière	poussière	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
 16	et	et	CCONJ	_	_	17	cc	_	_
@@ -7664,18 +7664,18 @@
 45	mais	mais	CCONJ	_	_	47	cc	_	_
 46	très	très	ADV	_	_	47	advmod	_	_
 47	fashion	fashion	NOUN	_	Gender=Fem|Number=Sing	44	conj	_	_
-48	et	et	CCONJ	_	_	53	cc	_	_
-49	aussi	aussi	ADV	_	_	53	advmod	_	_
+48	et	et	CCONJ	_	_	54	cc	_	_
+49	aussi	aussi	ADV	_	_	54	advmod	_	_
 50	pour	pour	ADP	_	_	52	case	_	_
 51	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	52	det	_	_
-52	ami	ami	NOUN	_	Gender=Masc|Number=Sing	53	orphan	_	_
-53	quelque	quelque	DET	_	Number=Sing	32	conj	_	MWEPOS=PRON
-54	chose	chose	NOUN	_	Gender=Fem|Number=Sing	53	fixed	_	_
+52	ami	ami	NOUN	_	Gender=Masc|Number=Sing	54	orphan	_	_
+53	quelque	quelque	DET	_	Number=Sing	54	det	_	MWEPOS=PRON
+54	chose	chose	NOUN	_	Gender=Fem|Number=Sing	32	conj	_	_
 55	d'	de	ADP	_	_	59	case	_	SpaceAfter=No
 56	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	58	advmod	_	MWEPOS=ADV
 57	peu	peu	ADV	_	_	56	fixed	_	_
 58	plus	plus	ADV	_	_	59	advmod	_	_
-59	classique	classique	ADJ	_	Gender=Fem|Number=Sing	53	amod	_	SpaceAfter=No
+59	classique	classique	ADJ	_	Gender=Fem|Number=Sing	54	amod	_	SpaceAfter=No
 60	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-test_00277
@@ -7794,7 +7794,7 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	malheur	malheur	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 6	d'	de	ADP	_	_	8	mark	_	SpaceAfter=No
-7	y	y	PRON	_	_	8	obl:mod	_	_
+7	y	y	PRON	_	_	8	advmod	_	_
 8	déjeuner	déjeuner	VERB	_	VerbForm=Inf	3	xcomp	_	_
 9	lorsque	lorsque	SCONJ	_	_	13	mark	_	_
 10	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
@@ -9057,7 +9057,7 @@
 13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
 14	euros	euro	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
 15	par	par	ADP	_	_	16	case	_	_
-16	M.	M.	NOUN	_	Gender=Masc|Number=Sing	9	obl:agent	_	_
+16	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	9	obl:agent	_	_
 17	Blanc	Blanc	PROPN	_	_	16	flat:name	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -9610,8 +9610,8 @@
 18	beaucoup	beaucoup	ADV	_	_	19	advmod	_	_
 19	plus	plus	ADV	_	_	20	advmod	_	_
 20	flatteuses	flatteur	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
-21	que	que	ADP	_	_	22	case	_	_
-22	celles	celui	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	15	obl	_	_
+21	que	que	SCONJ	_	_	22	case	_	_
+22	celles	celui	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	20	obl:mod	_	_
 23	de	de	ADP	_	_	26	case	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 25	M3	M3	X	_	_	26	compound	_	_
@@ -9786,7 +9786,7 @@
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	magasin	magasin	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
 17	dès	dès	ADP	_	_	22	mark	_	_
-18	que	que	SCONJ	_	_	17	fixed	_	_
+18	que	que	SCONJ	_	_	22	mark	_	_
 19	j'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	22	nsubj	_	SpaceAfter=No
 20	y	y	PRON	_	_	22	obl	_	_
 21	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
@@ -10491,10 +10491,10 @@
 17	68	68	NUM	_	_	18	nummod	_	SpaceAfter=No
 18	%	%	SYM	_	_	15	obl	_	SpaceAfter=No
 19	)	)	PUNCT	_	_	18	punct	_	_
-20	que	que	ADP	_	_	23	case	_	_
+20	que	que	SCONJ	_	_	23	case	_	_
 21	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 22	autres	autre	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	_
-23	fraises	fraise	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+23	fraises	fraise	NOUN	_	Gender=Fem|Number=Plur	8	obl:mod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_01563
@@ -11043,7 +11043,7 @@
 19	dessus	dessus	NOUN	_	Gender=Masc|Number=Sing	17	fixed	_	_
 20	de	de	ADP	_	_	22	case	_	_
 21	1 000	1 000	NUM	_	_	22	nummod	_	_
-22	mètres	mètre	NOUN	_	Gender=Masc|Number=Plur	27	obl:mod	_	SpaceAfter=No
+22	mètres	mètre	NOUN	_	Gender=Masc|Number=Plur	17	obl:arg	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	27	punct	_	_
 24	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
 25	papillons	papillon	NOUN	_	Gender=Masc|Number=Plur	27	nsubj	_	_

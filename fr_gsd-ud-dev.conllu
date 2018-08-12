@@ -2297,11 +2297,11 @@
 7	à	à	ADP	_	_	9	case	_	_
 8	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	entrainement	entraînement	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
-10	lors	lors	ADV	_	_	13	case	_	MWEPOS=ADP
+10	lors	lors	ADV	_	_	6	obl	_	MWEPOS=ADP
 11-12	des	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	10	fixed	_	_
+11	de	de	ADP	_	_	13	case	_	_
 12	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
-13	championnats	championnat	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+13	championnats	championnat	NOUN	_	Gender=Masc|Number=Plur	10	obl:arg	_	_
 14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -2659,10 +2659,10 @@
 7	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
 8	et	et	CCONJ	_	_	17	cc	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	17	punct	_	_
-10	au-delà	au-delà	ADV	_	_	13	case	_	MWEPOS=ADP
-11	de	de	ADP	_	_	10	fixed	_	_
+10	au-delà	au-delà	ADV	_	_	17	advmod	_	_
+11	de	de	ADP	_	_	13	case	_	_
 12	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det	_	_
-13	caractère	caractère	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	_
+13	caractère	caractère	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	_
 14	circonstanciel	circonstanciel	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
@@ -4466,7 +4466,7 @@
 11	n'	ne	ADV	_	Polarity=Neg	15	advmod	_	SpaceAfter=No
 12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
 13	pas	pas	ADV	_	Polarity=Neg	15	advmod	_	_
-14	de	de	ADP	_	_	13	fixed	_	_
+14	de	de	ADP	_	_	15	case	_	_
 15	nature	nature	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 16	à	à	ADP	_	_	18	mark	_	_
 17	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	18	obj	_	_
@@ -4873,9 +4873,9 @@
 12	prend	prendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
 13	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det	_	_
 14	source	source	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
-15	au-delà	au-delà	ADV	_	_	17	case	_	MWEPOS=ADP
-16	de	de	ADP	_	_	15	fixed	_	_
-17	Passoncourt	Passoncourt	PROPN	_	_	12	obl	_	_
+15	au-delà	au-delà	ADV	_	_	12	obl	_	MWEPOS=ADP
+16	de	de	ADP	_	_	17	case	_	_
+17	Passoncourt	Passoncourt	PROPN	_	_	15	obl:arg	_	_
 18	dans	dans	ADP	_	_	20	case	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	vallon	vallon	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	_
@@ -4901,9 +4901,9 @@
 6	exoplanète	exoplanète	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 7	en	en	ADP	_	_	8	case	_	_
 8	orbite	orbite	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
-9	autour	autour	ADV	_	_	11	case	_	MWEPOS=ADP
-10	de	de	ADP	_	_	9	fixed	_	_
-11	HIP	HIP	PROPN	_	_	8	nmod	_	_
+9	autour	autour	ADV	_	_	8	advmod	_	MWEPOS=ADP
+10	de	de	ADP	_	_	11	case	_	_
+11	HIP	HIP	PROPN	_	_	9	obl:arg	_	_
 12	12961	12961	NUM	_	_	11	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	6	punct	_	_
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -5381,11 +5381,11 @@
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	certain	certain	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 6	succès	succès	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
-7	auprès	auprès	ADV	_	_	10	case	_	MWEPOS=ADP
+7	auprès	auprès	ADV	_	_	3	obl	_	MWEPOS=ADP
 8-9	du	_	_	_	_	_	_	_	_
-8	de	de	ADP	_	_	7	fixed	_	_
+8	de	de	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	public	public	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+10	public	public	NOUN	_	Gender=Masc|Number=Sing	7	obl:arg	_	_
 11	international	international	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -5862,10 +5862,10 @@
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
 8	exhaussé	exhausser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-9	lors	lors	ADV	_	_	12	case	_	MWEPOS=ADP
-10	de	de	ADP	_	_	9	fixed	_	_
+9	lors	lors	ADV	_	_	8	obl	_	MWEPOS=ADP
+10	de	de	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	construction	construction	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+12	construction	construction	NOUN	_	Gender=Fem|Number=Sing	9	obl:arg	_	_
 13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -6115,10 +6115,10 @@
 
 # sent_id = fr-ud-dev_00223
 # text = Au-delà de son travail de productrice et de chanteuse, Carey est aussi une auteur et a écrit et produit toutes ses chansons depuis le début de sa carrière.
-1	Au-delà	au-delà	ADV	_	_	4	case	_	MWEPOS=ADP
-2	de	de	ADP	_	_	1	fixed	_	_
+1	Au-delà	au-delà	ADV	_	_	15	advmod	_	MWEPOS=ADP
+2	de	de	ADP	_	_	4	case	_	_
 3	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	_
-4	travail	travail	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	_
+4	travail	travail	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	productrice	producteur	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 7	et	et	CCONJ	_	_	9	cc	_	_
@@ -7838,10 +7838,10 @@
 19	6	6	NUM	_	_	14	obl	_	_
 20	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
 21	1960	1960	NUM	_	_	20	nmod	_	_
-22	lors	lors	ADV	_	_	25	case	_	MWEPOS=ADP
-23	d'	de	ADP	_	_	22	fixed	_	SpaceAfter=No
+22	lors	lors	ADV	_	_	14	obl	_	MWEPOS=ADP
+23	d'	de	ADP	_	_	25	case	_	SpaceAfter=No
 24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	défaite	défaite	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+25	défaite	défaite	NOUN	_	Gender=Fem|Number=Sing	22	obl:arg	_	_
 26	contre	contre	ADP	_	_	28	case	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	Milan	Milan	PROPN	_	_	25	nmod	_	_
@@ -12554,9 +12554,9 @@
 2	canton	canton	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	organisé	organiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	autour	autour	ADV	_	_	7	case	_	MWEPOS=ADP
-6	de	de	ADP	_	_	5	fixed	_	_
-7	Vic-sur-Aisne	Vic-sur-Aisne	PROPN	_	_	4	obl	_	_
+5	autour	autour	ADV	_	_	4	obl	_	MWEPOS=ADP
+6	de	de	ADP	_	_	7	case	_	_
+7	Vic-sur-Aisne	Vic-sur-Aisne	PROPN	_	_	5	obl:arg	_	_
 8	dans	dans	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	arrondissement	arrondissement	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
@@ -13111,9 +13111,9 @@
 11	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
 12	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	aigles	aigle	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-14	auprès	auprès	ADV	_	_	16	case	_	MWEPOS=ADP
-15	de	de	ADP	_	_	14	fixed	_	_
-16	ceux-ci	celui-ci	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	13	obl:mod	_	SpaceAfter=No
+14	auprès	auprès	ADV	_	_	13	advmod	_	MWEPOS=ADP
+15	de	de	ADP	_	_	16	case	_	_
+16	ceux-ci	celui-ci	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	14	obl:arg	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = fr-ud-dev_00473
@@ -16228,10 +16228,10 @@
 6	de	de	ADP	_	_	8	case	_	_
 7	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	sirènes	sirène	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
-9	lors	lors	ADV	_	_	12	case	_	MWEPOS=ADP
-10	de	de	ADP	_	_	9	fixed	_	_
+9	lors	lors	ADV	_	_	2	advmod	_	MWEPOS=ADP
+10	de	de	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	disparition	disparition	NOUN	_	Gender=Fem|Number=Sing	2	obl:mod	_	_
+12	disparition	disparition	NOUN	_	Gender=Fem|Number=Sing	9	obl:arg	_	_
 13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
 14	August	August	PROPN	_	_	12	nmod	_	_
 15	Gloup	Gloup	PROPN	_	_	14	flat:name	_	SpaceAfter=No
@@ -21369,10 +21369,10 @@
 18	légitimer	légitimer	VERB	_	VerbForm=Inf	13	conj	_	_
 19	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
 20	action	action	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
-21	auprès	auprès	ADV	_	_	24	case	_	MWEPOS=ADP
-22	de	de	ADP	_	_	21	fixed	_	_
+21	auprès	auprès	ADV	_	_	18	obl	_	MWEPOS=ADP
+22	de	de	ADP	_	_	24	case	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	communauté	communauté	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+24	communauté	communauté	NOUN	_	Gender=Fem|Number=Sing	21	obl:arg	_	_
 25	internationale	international	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	5	punct	_	_
 27	et	et	CCONJ	_	_	33	cc	_	_
@@ -22162,10 +22162,10 @@
 5	quatorze	quatorze	NUM	_	_	6	nummod	_	_
 6	chansons	chanson	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
 7	interprétées	interpréter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
-8	lors	lors	ADV	_	_	11	case	_	MWEPOS=ADP
-9	de	de	ADP	_	_	8	fixed	_	_
+8	lors	lors	ADV	_	_	7	obl	_	MWEPOS=ADP
+9	de	de	ADP	_	_	11	case	_	_
 10	divers	divers	DET	_	Gender=Masc|Number=Plur	11	det	_	_
-11	concerts	concert	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+11	concerts	concert	NOUN	_	Gender=Masc|Number=Plur	8	obl:arg	_	_
 12	par	par	ADP	_	_	14	case	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	formation	formation	NOUN	_	Gender=Fem|Number=Sing	7	obl:agent	_	_
@@ -22207,10 +22207,10 @@
 49	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	50	det	_	_
 50	chansons	chanson	NOUN	_	Gender=Fem|Number=Plur	48	obj	_	_
 51	interprétées	interpréter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	50	acl	_	_
-52	lors	lors	ADV	_	_	55	case	_	MWEPOS=ADP
-53	de	de	ADP	_	_	52	fixed	_	_
+52	lors	lors	ADV	_	_	51	obl	_	MWEPOS=ADP
+53	de	de	ADP	_	_	55	case	_	_
 54	divers	divers	DET	_	Gender=Masc|Number=Plur	55	det	_	_
-55	concerts	concert	NOUN	_	Gender=Masc|Number=Plur	51	obl	_	_
+55	concerts	concert	NOUN	_	Gender=Masc|Number=Plur	52	obl:arg	_	_
 56	par	par	ADP	_	_	58	case	_	_
 57	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
 58	formation	formation	NOUN	_	Gender=Fem|Number=Sing	51	obl:agent	_	_
@@ -25494,11 +25494,11 @@
 6	Breda	Breda	PROPN	_	_	5	flat:name	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	28	punct	_	_
 8	défait	défaire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
-9	lors	lors	ADV	_	_	12	case	_	MWEPOS=ADP
+9	lors	lors	ADV	_	_	8	obl	_	MWEPOS=ADP
 10-11	du	_	_	_	_	_	_	_	_
-10	de	de	ADP	_	_	9	fixed	_	_
+10	de	de	ADP	_	_	12	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	barrage	barrage	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+12	barrage	barrage	NOUN	_	Gender=Masc|Number=Sing	9	obl:arg	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	qualification	qualification	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
 15	pour	pour	ADP	_	_	17	case	_	_
@@ -26395,12 +26395,12 @@
 7	année	année	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 8	se	se	PRON	_	Person=3|PronType=Prs	9	expl:pass	_	_
 9	situe	situer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	autour	autour	ADV	_	_	14	case	_	MWEPOS=ADP
+10	autour	autour	ADV	_	_	9	obl	_	MWEPOS=ADP
 11-12	des	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	10	fixed	_	_
+11	de	de	ADP	_	_	14	case	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 13	9	9	NUM	_	_	14	nummod	_	SpaceAfter=No
-14	°	°	SYM	_	_	9	obl	_	SpaceAfter=No
+14	°	°	SYM	_	_	10	obl:arg	_	SpaceAfter=No
 15	C	C	NOUN	_	Gender=Masc|Number=Sing	14	compound	_	_
 16	et	et	CCONJ	_	_	18	cc	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -26761,10 +26761,10 @@
 17	italiens	italien	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
 18	et	et	CCONJ	_	_	27	cc	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	27	punct	_	_
-20	lors	lors	ADV	_	_	23	case	_	MWEPOS=ADP
-21	de	de	ADP	_	_	20	fixed	_	_
+20	lors	lors	ADV	_	_	27	advmod	_	MWEPOS=ADP
+21	de	de	ADP	_	_	23	case	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	rencontre	rencontre	NOUN	_	Gender=Fem|Number=Sing	27	obl:mod	_	SpaceAfter=No
+23	rencontre	rencontre	NOUN	_	Gender=Fem|Number=Sing	20	obl:arg	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	27	punct	_	_
 25	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
 26	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
@@ -27359,10 +27359,10 @@
 
 # sent_id = fr-ud-dev_00988
 # text = Au-delà de l'adaptation concrète du texte aux besoins du film, Kiarostami commence souvent, ostensiblement, par fournir une métaphore visuelle de certaines techniques spécifiques de montage dans la poésie persane, classique ou moderne.
-1	Au-delà	au-delà	ADV	_	_	4	case	_	MWEPOS=ADP
-2	de	de	ADP	_	_	1	fixed	_	_
+1	Au-delà	au-delà	ADV	_	_	17	advmod	_	MWEPOS=ADP
+2	de	de	ADP	_	_	4	case	_	_
 3	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
-4	adaptation	adaptation	NOUN	_	Gender=Fem|Number=Sing	17	obl:mod	_	_
+4	adaptation	adaptation	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	_
 5	concrète	concret	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 6-7	du	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	8	case	_	_
@@ -28757,9 +28757,9 @@
 6	cependant	cependant	ADV	_	_	8	advmod	_	_
 7	déjà	déjà	ADV	_	_	8	advmod	_	_
 8	rencontrées	rencontrer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
-9	lors	lors	ADV	_	_	11	case	_	MWEPOS=ADP
-10	de	de	ADP	_	_	9	fixed	_	_
-11	matchs	match	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	_
+9	lors	lors	ADV	_	_	8	obl	_	MWEPOS=ADP
+10	de	de	ADP	_	_	11	case	_	_
+11	matchs	match	NOUN	_	Gender=Masc|Number=Plur	9	obl:arg	_	_
 12	non	non	ADV	_	_	13	advmod	_	_
 13	officiels	officiel	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
 14	:	:	PUNCT	_	_	8	punct	_	_
@@ -30239,9 +30239,9 @@
 18	autoroutes	autoroute	NOUN	_	Gender=Fem|Number=Plur	15	obj	_	_
 19	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
 20	excepté	excepté	ADP	_	_	23	case	_	_
-21	autour	autour	ADV	_	_	23	case	_	MWEPOS=ADP
-22	de	de	ADP	_	_	21	fixed	_	_
-23	Bratislava	Bratislava	PROPN	_	_	15	obl	_	SpaceAfter=No
+21	autour	autour	ADV	_	_	15	obl	_	MWEPOS=ADP
+22	de	de	ADP	_	_	23	case	_	_
+23	Bratislava	Bratislava	PROPN	_	_	21	obl:arg	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	_
 25	qui	qui	PRON	_	PronType=Rel	27	nsubj	_	_
 26	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
@@ -31116,10 +31116,10 @@
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	ultime	ultime	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 7	rebondissement	rebondissement	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
-8	lors	lors	ADV	_	_	11	case	_	MWEPOS=ADP
-9	de	de	ADP	_	_	8	fixed	_	_
+8	lors	lors	ADV	_	_	4	obl	_	MWEPOS=ADP
+9	de	de	ADP	_	_	11	case	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	convocation	convocation	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+11	convocation	convocation	NOUN	_	Gender=Fem|Number=Sing	8	obl:arg	_	_
 12	en	en	ADP	_	_	13	case	_	_
 13	1511	1511	NUM	_	_	11	nmod	_	_
 14	d'	de	ADP	_	_	16	case	_	SpaceAfter=No
@@ -32847,11 +32847,11 @@
 8	médaille	médaille	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	bronze	bronze	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-11	lors	lors	ADV	_	_	14	case	_	MWEPOS=ADP
+11	lors	lors	ADV	_	_	6	obl	_	MWEPOS=ADP
 12-13	des	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	11	fixed	_	_
+12	de	de	ADP	_	_	14	case	_	_
 13	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
-14	mondiaux	mondial	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+14	mondiaux	mondial	NOUN	_	Gender=Masc|Number=Plur	11	obl:arg	_	_
 15	indoor	indoor	ADJ	_	_	14	amod	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	Paris	Paris	PROPN	_	_	14	nmod	_	SpaceAfter=No
@@ -34608,10 +34608,10 @@
 30	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	aux	_	_
 31	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
 32	aller	aller	VERB	_	VerbForm=Inf	31	xcomp	_	_
-33	au-delà	au-delà	ADV	_	_	36	case	_	MWEPOS=ADP
-34	d'	de	ADP	_	_	33	fixed	_	SpaceAfter=No
+33	au-delà	au-delà	ADV	_	_	32	obl:arg	_	MWEPOS=ADP
+34	d'	de	ADP	_	_	36	case	_	SpaceAfter=No
 35	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	alphabétisation	alphabétisation	NOUN	_	Gender=Fem|Number=Sing	32	obl:arg	_	_
+36	alphabétisation	alphabétisation	NOUN	_	Gender=Fem|Number=Sing	33	obl:arg	_	_
 37	de	de	ADP	_	_	38	case	_	_
 38	base	base	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	_
 39	(	(	PUNCT	_	_	41	punct	_	SpaceAfter=No
@@ -35072,10 +35072,10 @@
 
 # sent_id = fr-ud-dev_01265
 # text = Lors de la Guerre de Tuscarora, qui s'achève en 1715 par une remontée des indiens vers le Nord puis lors de la Guerre de Yamasee, entre 1715 et 1717, la ville de Charleston et ses environs servent de refuge aux planteurs poursuivis par les amérindiens en colère, pendant un conflit qui fit plus de 400 morts parmi les colons blancs, mais eu pour résultat de libérer des terres au Sud de la Caroline.
-1	Lors	lors	ADV	_	_	4	case	_	MWEPOS=ADP
-2	de	de	ADP	_	_	1	fixed	_	_
+1	Lors	lors	ADV	_	_	42	advmod	_	MWEPOS=ADP
+2	de	de	ADP	_	_	4	case	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	42	obl:mod	_	_
+4	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	Tuscarora	Tuscarora	PROPN	_	_	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	_
@@ -35095,10 +35095,10 @@
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	Nord	nord	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 22	puis	puis	SCONJ	_	_	26	cc	_	_
-23	lors	lors	ADV	_	_	26	case	_	MWEPOS=ADP
-24	de	de	ADP	_	_	23	fixed	_	_
+23	lors	lors	ADV	_	_	4	conj	_	MWEPOS=ADP
+24	de	de	ADP	_	_	26	case	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+26	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	23	obl:arg	_	_
 27	de	de	ADP	_	_	28	case	_	_
 28	Yamasee	Yamasee	PROPN	_	_	26	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	26	punct	_	_
@@ -36748,11 +36748,11 @@
 7	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
 8	avril	avril	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	21	punct	_	_
-10	lors	lors	ADV	_	_	13	case	_	MWEPOS=ADP
+10	lors	lors	ADV	_	_	21	advmod	_	MWEPOS=ADP
 11-12	du	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	10	fixed	_	_
+11	de	de	ADP	_	_	13	case	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	vote	vote	NOUN	_	Gender=Masc|Number=Sing	21	obl:mod	_	_
+13	vote	vote	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	_
 14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -38802,10 +38802,10 @@
 16	par	par	ADP	_	_	18	case	_	_
 17	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det	_	_
 18	fournisseur	fournisseur	NOUN	_	Gender=Masc|Number=Sing	15	obl:agent	_	_
-19	auprès	auprès	ADV	_	_	22	case	_	MWEPOS=ADP
-20	de	de	ADP	_	_	19	fixed	_	_
+19	auprès	auprès	ADV	_	_	15	obl	_	MWEPOS=ADP
+20	de	de	ADP	_	_	22	case	_	_
 21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
-22	APP	APP	PROPN	_	_	15	obl	_	_
+22	APP	APP	PROPN	_	_	19	obl:arg	_	_
 23	correspondent	correspondre	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
 24-25	au	_	_	_	_	_	_	_	_
 24	à	à	ADP	_	_	26	case	_	_
@@ -38883,11 +38883,11 @@
 
 # sent_id = fr-ud-dev_01399
 # text = Lors de sa première tournée européenne en 1931, elle se produisit en France et en Grande-Bretagne.
-1	Lors	lors	ADV	_	_	5	case	_	MWEPOS=ADP
-2	de	de	ADP	_	_	1	fixed	_	_
+1	Lors	lors	ADV	_	_	12	advmod	_	MWEPOS=ADP
+2	de	de	ADP	_	_	5	case	_	_
 3	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	_
 4	première	premier	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
-5	tournée	tournée	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	_
+5	tournée	tournée	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	_
 6	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 7	en	en	ADP	_	_	8	case	_	_
 8	1931	1931	NUM	_	_	5	nmod	_	SpaceAfter=No
@@ -40398,10 +40398,10 @@
 3	exceptionnelle	exceptionnel	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4	se	se	PRON	_	Person=3|PronType=Prs	5	expl:pass	_	_
 5	manifesta	manifester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-6	lors	lors	ADV	_	_	9	case	_	MWEPOS=ADP
-7	de	de	ADP	_	_	6	fixed	_	_
+6	lors	lors	ADV	_	_	5	obl	_	MWEPOS=ADP
+7	de	de	ADP	_	_	9	case	_	_
 8	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	9	det	_	_
-9	études	étude	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
+9	études	étude	NOUN	_	Gender=Fem|Number=Plur	6	obl:arg	_	_
 10	secondaires	secondaire	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	_
 12	où	où	PRON	_	PronType=Rel	14	obl	_	_
@@ -41111,11 +41111,11 @@
 8	ingénieur	ingénieur	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	sergent	sergent	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	_
-11	lors	lors	ADV	_	_	15	case	_	MWEPOS=ADP
-12	de	de	ADP	_	_	11	fixed	_	_
+11	lors	lors	ADV	_	_	10	advmod	_	MWEPOS=ADP
+12	de	de	ADP	_	_	15	case	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 14	Première	premier	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
-15	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+15	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	11	obl:arg	_	_
 16	mondiale	mondial	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	8	punct	_	_
 18	cité	citer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_

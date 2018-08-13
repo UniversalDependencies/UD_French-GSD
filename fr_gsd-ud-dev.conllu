@@ -9047,9 +9047,9 @@
 # text = Qu'est-ce qui va augmenter ?
 1	Qu'	que	PRON	_	_	0	root	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
-3	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	1	expl	_	_
-4	qui	qui	PRON	_	_	3	fixed	_	_
-5	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+3	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	1	nsubj	_	_
+4	qui	qui	PRON	_	_	5	nsubl	_	_
+5	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl:cleft	_	_
 6	augmenter	augmenter	VERB	_	VerbForm=Inf	5	xcomp	_	_
 7	?	?	PUNCT	_	_	1	punct	_	_
 
@@ -15869,7 +15869,7 @@
 19	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 20	dans	dans	ADP	_	_	22	case	_	_
 21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
-22	Bêtement	bêtement	ADV	_	_	19	obl:mod	_	_
+22	Bêtement	bêtement	ADV	_	_	19	obl:mod	_	MWEPOS=PROPN
 23	avec	avec	ADP	_	_	25	case	_	_
 24	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
 25	bêtes	bête	NOUN	_	Gender=Fem|Number=Plur	22	obl:mod	_	SpaceAfter=No
@@ -16238,7 +16238,7 @@
 16	,	,	PUNCT	_	_	12	punct	_	_
 17	Men	man	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
 18	in	in	ADP	_	_	19	case	_	_
-19	Black	black	ADJ	_	Gender=Masc|Number=Sing	17	nmod	_	_
+19	Black	black	ADJ	_	Gender=Masc|Number=Sing	17	advmod	_	_
 20	pour	pour	ADP	_	_	21	case	_	_
 21	celle	celui	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	17	orphan	_	_
 22	de	de	ADP	_	_	23	case	_	_
@@ -16264,7 +16264,7 @@
 42	accompagnée	accompagner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	37	acl	_	_
 43	par	par	ADP	_	_	45	case	_	_
 44	Ainsi	ainsi	ADV	_	_	45	advmod	_	_
-45	parlait	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	42	obl:agent	_	_
+45	parlait	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	42	obl:agent	_	MWEPOS=PROPN
 46	Zarathoustra	Zarathoustra	PROPN	_	_	45	nsubj	_	_
 47	de	de	ADP	_	_	48	case	_	_
 48	Richard	Richard	PROPN	_	_	45	nmod	_	_
@@ -17261,7 +17261,7 @@
 10	impose	imposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
 11	81	81	NUM	_	_	10	obl	_	_
 12	à	à	ADP	_	_	13	case	_	_
-13	71	71	NUM	_	_	11	nummod	_	_
+13	71	71	NUM	_	_	11	nmod	_	_
 14	en	en	ADP	_	_	15	case	_	_
 15	terre	terre	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
 16	mancelle	manceau	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
@@ -19829,7 +19829,7 @@
 14	Some	some	DET	_	Number=Sing	15	det	_	Foreign=en
 15	Time	time	NOUN	_	Number=Sing	13	appos	_	Foreign=en
 16	in	in	ADP	_	_	17	case	_	Foreign=en
-17	New	new	ADJ	_	_	15	nmod	_	Foreign=en
+17	New	new	ADJ	_	_	15	nmod	_	Foreign=en|MWEPOS=PROPN
 18	York	York	PROPN	_	_	17	flat:name	_	Foreign=en
 19	City	city	NOUN	_	Gender=Fem|Number=Sing	17	flat:name	_	Foreign=en|SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	_
@@ -36533,7 +36533,7 @@
 4	imposent	imposer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	un	un	NUM	_	_	4	obl:mod	_	_
 6	à	à	ADP	_	_	7	case	_	_
-7	zéro	zéro	NUM	_	_	5	nummod	_	_
+7	zéro	zéro	NUM	_	_	5	nmod	_	_
 8	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	12	case	_	MWEPOS=ADP
 9	à	à	ADP	_	_	8	fixed	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -39326,7 +39326,7 @@
 1	Ainsi	ainsi	ADV	_	_	6	advmod	_	_
 2	3	3	NUM	_	_	3	nummod	_	_
 3	fois	fois	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
-4	5	5	NUM	_	_	3	nummod	_	_
+4	5	5	NUM	_	_	3	nmod	_	_
 5	s'	se	PRON	_	Person=3|PronType=Prs	6	expl:pass	_	SpaceAfter=No
 6	écrivait	écrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl	_	_

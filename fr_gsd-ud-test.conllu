@@ -140,9 +140,9 @@
 20	OSCE	OSCE	PROPN	_	_	10	appos	_	SpaceAfter=No
 21	)	)	PUNCT	_	_	20	punct	_	_
 22	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
-23	jusqu'	jusque	ADP	_	_	26	case	_	MWEPOS=ADP|SpaceAfter=No
+23	jusqu'	jusque	ADV	_	_	26	advmod	_	SpaceAfter=No
 24-25	au	_	_	_	_	_	_	_	_
-24	à	à	ADP	_	_	23	fixed	_	_
+24	à	à	ADP	_	_	26	case	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	31	31	NUM	_	_	6	nmod	_	_
 27	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
@@ -1571,12 +1571,12 @@
 
 # sent_id = fr-ud-test_00059
 # text = A chaque fois qu'il sent la pression, le Makhzen appelle quelqu'un à son secours.
-1	A	à	ADP	_	_	6	mark	_	_
-2	chaque	chaque	DET	_	Number=Sing	1	fixed	_	_
-3	fois	fois	NOUN	_	Gender=Masc|Number=Plur	1	fixed	_	_
-4	qu'	que	SCONJ	_	_	1	fixed	_	SpaceAfter=No
+1	A	à	ADP	_	_	3	case	_	_
+2	chaque	chaque	DET	_	Number=Sing	3	det	_	_
+3	fois	fois	NOUN	_	Gender=Masc|Number=Plur	12	obl:mod	_	_
+4	qu'	que	SCONJ	_	_	6	mark	_	SpaceAfter=No
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
-6	sent	sentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+6	sent	sentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	pression	pression	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
@@ -2030,7 +2030,7 @@
 
 # sent_id = fr-ud-test_00072
 # text = Dès lors que le peuple décide de regagner sa liberté il devient instantanément et de facto, libre.
-1	Dès	dès	ADP	_	_	6	mark	_	_
+1	Dès	dès	ADP	_	_	6	mark	_	MWEPOS=SCONJ
 2	lors	lors	ADV	_	_	1	fixed	_	_
 3	que	que	SCONJ	_	_	1	fixed	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -2144,10 +2144,10 @@
 25	règles	règle	NOUN	_	Gender=Fem|Number=Plur	23	obj	_	_
 26	d'	de	ADP	_	_	27	case	_	SpaceAfter=No
 27	imposition	imposition	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
-28	en	en	ADP	_	_	31	case	_	_
-29	cas	cas	NOUN	_	Gender=Masc|Number=Sing	28	fixed	_	_
-30	de	de	ADP	_	_	28	fixed	_	_
-31	transfert	transfert	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
+28	en	en	ADP	_	_	29	case	_	_
+29	cas	cas	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	transfert	transfert	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
 32	de	de	ADP	_	_	33	case	_	_
 33	domicile	domicile	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
 34	entre	entre	ADP	_	_	36	case	_	_
@@ -2761,8 +2761,8 @@
 # text = Il a en outre exprimé la volonté de son pays de renforcer et consolider les relations bilatérales entre les deux pays dans l'avenir.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
-3	en	en	ADP	_	_	5	advmod	_	MWEPOS=ADV
-4	outre	outre	ADV	_	_	3	fixed	_	_
+3	en	en	ADP	_	_	4	case	_	_
+4	outre	outre	ADV	_	_	5	advmod	_	_
 5	exprimé	exprimer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	volonté	volonté	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
@@ -2840,8 +2840,8 @@
 
 # sent_id = fr-ud-test_00096
 # text = Jusqu'à quand la France officielle maintiendra-t-elle sa préférence pour la protection des agresseurs des droits de l'homme ?
-1	Jusqu'	jusque	ADV	_	_	3	case	_	MWEPOS=ADP|SpaceAfter=No
-2	à	à	ADP	_	_	1	fixed	_	_
+1	Jusqu'	jusque	ADV	_	_	3	advmod	_	SpaceAfter=No
+2	à	à	ADP	_	_	3	case	_	_
 3	quand	quand	ADV	_	_	7	advmod	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	France	France	PROPN	_	_	7	nsubj	_	_
@@ -2920,9 +2920,9 @@
 37	,	,	PUNCT	_	_	27	punct	_	_
 38	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 39	France	France	PROPN	_	_	27	appos	_	_
-40	en	en	ADP	_	_	39	advmod	_	MWEPOS=ADV
-41	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	40	fixed	_	SpaceAfter=No
-42	occurrence	occurrence	NOUN	_	Gender=Fem|Number=Sing	40	fixed	_	SpaceAfter=No
+40	en	en	ADP	_	_	42	case	_	_
+41	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	42	det	_	SpaceAfter=No
+42	occurrence	occurrence	NOUN	_	Gender=Fem|Number=Sing	39	nmod	_	SpaceAfter=No
 43	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-test_00099
@@ -3614,9 +3614,9 @@
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	délai	délai	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
 12	supplémentaire	supplémentaire	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
-13	avant	avant	ADP	_	_	15	mark	_	MWEPOS=ADP
-14	de	de	ADP	_	_	13	fixed	_	_
-15	répondre	répondre	VERB	_	VerbForm=Inf	9	xcomp	_	_
+13	avant	avant	ADV	_	_	9	advmod	_	_
+14	de	de	ADP	_	_	15	mark	_	_
+15	répondre	répondre	VERB	_	VerbForm=Inf	13	xcomp	_	_
 16-17	aux	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	18	case	_	_
 17	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
@@ -4967,8 +4967,8 @@
 3	20	20	NUM	_	_	4	nummod	_	_
 4	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	9	nsubj:pass	_	_
 5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
-6	en	en	ADP	_	_	9	advmod	_	MWEPOS=ADV
-7	outre	outre	ADV	_	_	6	fixed	_	_
+6	en	en	ADP	_	_	7	case	_	_
+7	outre	outre	ADV	_	_	9	advmod	_	_
 8	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	_
 9	blessées	blesser	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
@@ -4976,7 +4976,7 @@
 12	une	une	NUM	_	_	9	appos	_	_
 13	grièvement	grièvement	ADV	_	_	12	advmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	9	punct	_	_
-15	lors	lors	ADV	_	_	9	obl	_	MWEPOS=ADP
+15	lors	lors	ADV	_	_	9	obl	_	_
 16	d'	de	ADP	_	_	17	case	_	SpaceAfter=No
 17	affrontements	affrontement	NOUN	_	Gender=Masc|Number=Plur	15	obl:arg	_	_
 18	survenus	survenir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	acl	_	_
@@ -5037,8 +5037,8 @@
 
 # sent_id = fr-ud-test_00168
 # text = En tout, ce sont près d'une centaine de conteneurs qui ont été utilisés pour créer ces logements étudiants.
-1	En	en	ADP	_	_	9	advmod	_	MWEPOS=ADV
-2	tout	tout	PRON	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+1	En	en	ADP	_	_	2	case	_	_
+2	tout	tout	PRON	_	Gender=Masc|Number=Sing	9	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	9	punct	_	_
 4	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	9	nsubj	_	_
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
@@ -5517,9 +5517,9 @@
 10	engagé	engager	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	avocat	avocat	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
-13	très	très	ADV	_	_	14	advmod	_	_
-14	en	en	ADP	_	_	12	amod	_	MWEPOS=ADJ
-15	vue	vue	NOUN	_	Gender=Fem|Number=Sing	14	fixed	_	_
+13	très	très	ADV	_	_	15	advmod	_	_
+14	en	en	ADP	_	_	15	case	_	INMWE=Yes
+15	vue	vue	NOUN	_	Gender=Fem|Number=Sing	12	amod	_	MWEPOS=ADJ
 16	de	de	ADP	_	_	17	case	_	_
 17	Las	Las	PROPN	_	_	12	nmod	_	_
 18	Vegas	Vegas	PROPN	_	_	17	flat:name	_	_
@@ -5924,7 +5924,7 @@
 # sent_id = fr-ud-test_00197
 # text = Pendant que le Chef d'Etat Major Soumaila Bagayoko fustigeait le comportement des éléments incontrôlés des Frci dans le camp de la Garde Républicaine de Treichville, le jeudi dernier, Huit (8) militaires armés jusqu'aux dents attaquaient un bureau de change appartenant à notre compatriote Sacko Souleymane, à quelques centaines de mètres de là.
 1	Pendant	pendant	ADP	_	_	10	mark	_	_
-2	que	que	SCONJ	_	_	1	fixed	_	_
+2	que	que	SCONJ	_	_	10	mark	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	Chef	chef	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 5	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
@@ -5964,9 +5964,9 @@
 37	)	)	PUNCT	_	_	36	punct	_	_
 38	militaires	militaire	NOUN	_	Gender=Masc|Number=Plur	44	nsubj	_	_
 39	armés	armer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	38	acl	_	_
-40	jusqu'	jusque	ADP	_	_	43	case	_	MWEPOS=ADP|SpaceAfter=No
+40	jusqu'	jusque	ADV	_	_	43	advmod	_	SpaceAfter=No
 41-42	aux	_	_	_	_	_	_	_	_
-41	à	à	ADP	_	_	40	fixed	_	_
+41	à	à	ADP	_	_	43	case	_	_
 42	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
 43	dents	dent	NOUN	_	Gender=Fem|Number=Plur	39	obl	_	_
 44	attaquaient	attaquer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -6049,9 +6049,9 @@
 17	saurai	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	3	parataxis	_	_
 18	que	que	SCONJ	_	_	17	expl	_	_
 19	déconseiller	déconseiller	VERB	_	VerbForm=Inf	17	xcomp	_	_
-20	en	en	ADP	_	_	19	advmod	_	MWEPOS=ADV
-21	tout	tout	DET	_	Gender=Masc|Number=Sing	20	fixed	_	_
-22	cas	cas	NOUN	_	Gender=Masc|Number=Sing	20	fixed	_	_
+20	en	en	ADP	_	_	22	case	_	_
+21	tout	tout	DET	_	Gender=Masc|Number=Sing	22	det	_	_
+22	cas	cas	NOUN	_	Gender=Masc|Number=Sing	19	obl:mod	_	_
 23	pour	pour	ADP	_	_	27	case	_	_
 24	plus	plus	ADV	_	_	26	advmod	_	MWEPOS=ADV
 25	de	de	ADP	_	_	24	fixed	_	_
@@ -6167,10 +6167,10 @@
 7	dont	dont	PRON	_	PronType=Rel	9	nmod	_	_
 8	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
 9	compétences	compétence	NOUN	_	Gender=Fem|Number=Plur	18	nsubj	_	_
-10	en	en	ADP	_	_	13	case	_	MWEPOS=ADP
-11	matière	matière	NOUN	_	Gender=Fem|Number=Sing	10	fixed	_	_
-12	de	de	ADP	_	_	10	fixed	_	_
-13	solaire	solaire	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+10	en	en	ADP	_	_	11	case	_	_
+11	matière	matière	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	solaire	solaire	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	solaire	solaire	NOUN	_	Gender=Masc|Number=Sing	13	conj	_	_
 16	photovoltaïque	photovoltaïque	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
@@ -7013,7 +7013,7 @@
 9	,	,	PUNCT	_	_	3	punct	_	_
 10	et	et	CCONJ	_	_	42	cc	_	_
 11	dès	dès	ADP	_	_	16	mark	_	_
-12	qu'	que	SCONJ	_	_	11	fixed	_	SpaceAfter=No
+12	qu'	que	SCONJ	_	_	16	mark	_	SpaceAfter=No
 13	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 14	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	16	iobj	_	SpaceAfter=No
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
@@ -7669,7 +7669,7 @@
 50	pour	pour	ADP	_	_	52	case	_	_
 51	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	52	det	_	_
 52	ami	ami	NOUN	_	Gender=Masc|Number=Sing	54	orphan	_	_
-53	quelque	quelque	DET	_	Number=Sing	54	det	_	MWEPOS=PRON
+53	quelque	quelque	DET	_	Number=Sing	54	det	_	_
 54	chose	chose	NOUN	_	Gender=Fem|Number=Sing	32	conj	_	_
 55	d'	de	ADP	_	_	59	case	_	SpaceAfter=No
 56	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	58	advmod	_	MWEPOS=ADV
@@ -8338,7 +8338,7 @@
 5	critères	critère	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
 6	administratifs	administratif	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
 7	pour	pour	ADP	_	_	16	mark	_	_
-8	qu'	que	SCONJ	_	_	7	fixed	_	SpaceAfter=No
+8	qu'	que	SCONJ	_	_	16	mark	_	SpaceAfter=No
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	otite	otite	NOUN	_	Gender=Fem|Number=Sing	16	nsubj:pass	_	_
 11	consécutive	consécutif	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
@@ -8359,7 +8359,7 @@
 1	Cela	cela	PRON	_	Number=Sing|PronType=Dem	3	nsubj	_	_
 2	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
 3	nécessaire	nécessaire	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
-4	jusqu'	jusque	ADP	_	_	7	case	_	SpaceAfter=No
+4	jusqu'	jusque	ADV	_	_	7	advmod	_	SpaceAfter=No
 5	à	à	ADP	_	_	7	case	_	_
 6	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	arrivée	arrivée	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
@@ -10269,8 +10269,8 @@
 
 # sent_id = fr-ud-dev_01555
 # text = En outre, il a été décidé de faire Freddy un pédophile, par opposition à son milieu traditionnel d'un tueur d'enfants.
-1	En	en	ADP	_	_	7	advmod	_	MWEPOS=ADV
-2	outre	outre	ADV	_	_	1	fixed	_	SpaceAfter=No
+1	En	en	ADP	_	_	2	case	_	_
+2	outre	outre	ADV	_	_	7	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -10559,9 +10559,9 @@
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	choréauteur	choréauteur	NOUN	_	Gender=Masc|Number=Sing	9	xcomp	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	7	punct	_	_
-17	afin	afin	ADV	_	_	19	mark	_	MWEPOS=ADP
-18	de	de	ADP	_	_	17	fixed	_	_
-19	sortir	sortir	VERB	_	VerbForm=Inf	7	advcl	_	_
+17	afin	afin	ADV	_	_	7	advmod	_	_
+18	de	de	ADP	_	_	19	mark	_	_
+19	sortir	sortir	VERB	_	VerbForm=Inf	17	xcomp	_	_
 20	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
 21	termes	terme	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	_
 22	chorégraphie	chorégraphie	NOUN	_	Gender=Fem|Number=Sing	21	appos	_	_
@@ -10647,8 +10647,8 @@
 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	christianisme	christianisme	NOUN	_	Gender=Masc|Number=Sing	44	nsubj	_	_
 37	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	44	cop	_	_
-38	en	en	ADP	_	_	44	advmod	_	MWEPOS=ADV
-39	fait	fait	NOUN	_	Gender=Masc|Number=Sing	38	fixed	_	_
+38	en	en	ADP	_	_	39	case	_	_
+39	fait	fait	NOUN	_	Gender=Masc|Number=Sing	44	obl:mod	_	_
 40	à	à	ADP	_	_	42	case	_	_
 41	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	SpaceAfter=No
 42	origine	origine	NOUN	_	Gender=Fem|Number=Sing	44	obl:mod	_	_
@@ -11113,7 +11113,7 @@
 5	générations	génération	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	chartistes	chartiste	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
-8	jusqu'	jusque	ADP	_	_	11	case	_	SpaceAfter=No
+8	jusqu'	jusque	ADV	_	_	11	advmod	_	SpaceAfter=No
 9	à	à	ADP	_	_	11	case	_	_
 10	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	_
 11	retraite	retraite	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
@@ -11158,8 +11158,8 @@
 
 # sent_id = fr-ud-dev_01585
 # text = En outre, les revendications infondées du Maroc sur le territoire ont été rejetées par la Cour Internationale de Justice.
-1	En	en	ADP	_	_	15	advmod	_	MWEPOS=ADV
-2	outre	outre	ADV	_	_	1	fixed	_	SpaceAfter=No
+1	En	en	ADP	_	_	2	case	_	_
+2	outre	outre	ADV	_	_	15	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	15	punct	_	_
 4	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	revendications	revendication	NOUN	_	Gender=Fem|Number=Plur	15	nsubj:pass	_	_

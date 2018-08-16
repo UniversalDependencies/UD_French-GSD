@@ -1046,13 +1046,13 @@
 # sent_id = fr-ud-test_00041
 # text = Au regard du droit international, la question du Sahara Occidental est très claire.
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	6	case	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
-3	regard	regard	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
+1	à	à	ADP	_	_	3	case	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	regard	regard	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	_
 4-5	du	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	1	fixed	_	_
+4	de	de	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	droit	droit	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	_
+6	droit	droit	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 7	international	international	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	17	punct	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -2292,11 +2292,11 @@
 12	»	»	PUNCT	_	_	8	punct	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	31	punct	_	_
 14-15	au	_	_	_	_	_	_	_	_
-14	à	à	ADP	_	_	19	case	_	_
-15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	fixed	_	_
-16	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	fixed	_	_
+14	à	à	ADP	_	_	16	case	_	INMWE=Yes
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	INMWE=Yes
+16	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	obl:mod	_	MWEPOS=NOUN
 17-18	des	_	_	_	_	_	_	_	_
-17	de	de	ADP	_	_	14	fixed	_	_
+17	de	de	ADP	_	_	19	case	_	_
 18	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
 19	aides	aide	NOUN	_	Gender=Fem|Number=Plur	31	obl:mod	_	_
 20	militaires	militaire	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	_
@@ -2448,10 +2448,10 @@
 36	tous	tout	PRON	_	Gender=Masc|Number=Plur	37	obl:mod	_	_
 37	unis	uni	ADJ	_	Gender=Masc|Number=Plur	35	xcomp	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	39	punct	_	_
-39	main	main	NOUN	_	Gender=Fem|Number=Sing	37	conj	_	_
-40	dans	dans	ADP	_	_	39	fixed	_	_
-41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	fixed	_	_
-42	main	main	NOUN	_	Gender=Fem|Number=Sing	39	fixed	_	SpaceAfter=No
+39	main	main	NOUN	_	Gender=Fem|Number=Sing	37	obl:mod	_	_
+40	dans	dans	ADP	_	_	42	case	_	_
+41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	main	main	NOUN	_	Gender=Fem|Number=Sing	39	nmod	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	47	punct	_	_
 44	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	47	nsubj	_	_
 45	n'	ne	ADV	_	Polarity=Neg	47	advmod	_	SpaceAfter=No
@@ -3082,12 +3082,12 @@
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	club	club	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
 10-11	au	_	_	_	_	_	_	_	_
-10	à	à	ADP	_	_	15	case	_	_
-11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	fixed	_	_
-12	travers	travers	NOUN	_	Gender=Masc|Number=Sing	10	fixed	_	_
-13	d'	de	ADP	_	_	10	fixed	_	SpaceAfter=No
+10	à	à	ADP	_	_	12	case	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	travers	travers	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+13	d'	de	ADP	_	_	15	case	_	SpaceAfter=No
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	souscription	souscription	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+15	souscription	souscription	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
 16	pour	pour	ADP	_	_	18	mark	_	_
 17	faire	faire	AUX	_	VerbForm=Inf	18	aux:caus	_	_
 18	revenir	revenir	VERB	_	VerbForm=Inf	7	advcl	_	_
@@ -3453,12 +3453,12 @@
 # sent_id = fr-ud-test_00117
 # text = Au sein de cette équipe professionnelle, chacun est important et a son rôle à jouer pour contribuer au rayonnement de la ville de Bayonne et de la culture basque.
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	6	case	_	MWEPOS=ADP
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
-3	sein	sein	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
-4	de	de	ADP	_	_	1	fixed	_	_
+1	à	à	ADP	_	_	3	case	_	MWEPOS=ADP
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sein	sein	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
+4	de	de	ADP	_	_	6	case	_	_
 5	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
-6	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	_
+6	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 7	professionnelle	professionnel	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	chacun	chacun	PRON	_	Gender=Masc|Number=Sing	11	nsubj	_	_
@@ -4921,12 +4921,12 @@
 4	senti	sentir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6-7	au	_	_	_	_	_	_	_	_
-6	à	à	ADP	_	_	11	case	_	_
-7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	fixed	_	_
-8	cours	cours	NOUN	_	Gender=Masc|Number=Sing	6	fixed	_	_
-9	de	de	ADP	_	_	6	fixed	_	_
+6	à	à	ADP	_	_	8	case	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cours	cours	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+9	de	de	ADP	_	_	11	case	_	_
 10	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	_
-11	déplacement	déplacement	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+11	déplacement	déplacement	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 12	à	à	ADP	_	_	13	case	_	_
 13	Prague	Prague	PROPN	_	_	11	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	4	punct	_	_
@@ -5075,12 +5075,12 @@
 12	Michel	Michel	PROPN	_	_	11	appos	_	_
 13	Aoun	Aoun	PROPN	_	_	12	flat:name	_	_
 14-15	au	_	_	_	_	_	_	_	_
-14	à	à	ADP	_	_	19	case	_	_
-15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	fixed	_	_
-16	cours	cours	NOUN	_	Gender=Masc|Number=Sing	14	fixed	_	_
-17	de	de	ADP	_	_	14	fixed	_	_
+14	à	à	ADP	_	_	16	case	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	cours	cours	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+17	de	de	ADP	_	_	19	case	_	_
 18	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det	_	_
-19	conférence	conférence	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+19	conférence	conférence	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
 20	de	de	ADP	_	_	21	case	_	_
 21	presse	presse	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
 22	hebdomadaire	hebdomadaire	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
@@ -6239,12 +6239,12 @@
 # sent_id = fr-ud-test_00208
 # text = Au sortir d'une séance de cinéma, nous avons découvert dans un quartier vivant, une adresse à retenir.
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	6	case	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
-3	sortir	sortir	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
-4	d'	de	ADP	_	_	1	fixed	_	SpaceAfter=No
+1	à	à	ADP	_	_	3	case	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sortir	sortir	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	_
+4	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	séance	séance	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	_
+6	séance	séance	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	cinéma	cinéma	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
@@ -8602,9 +8602,9 @@
 22	34	34	NUM	_	_	21	nmod	_	_
 23	en	en	ADP	_	_	24	case	_	_
 24	2001	2001	NUM	_	_	18	obl	_	_
-25	afin	afin	ADV	_	_	27	mark	_	MWEPOS=ADP
-26	d'	de	ADP	_	_	25	fixed	_	SpaceAfter=No
-27	agrandir	agrandir	VERB	_	VerbForm=Inf	18	advcl	_	_
+25	afin	afin	ADV	_	_	18	advmod	_	_
+26	d'	de	ADP	_	_	27	mark	_	SpaceAfter=No
+27	agrandir	agrandir	VERB	_	VerbForm=Inf	25	ccomp	_	_
 28	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det	_	_
 29	territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	27	obj	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	5	punct	_	_

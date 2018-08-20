@@ -9168,8 +9168,8 @@
 14	Jean-Luc	Jean-Luc	PROPN	_	_	16	nsubj	_	_
 15	Godard	Godard	PROPN	_	_	14	flat:name	_	_
 16	innove	innover	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-17	à	à	ADP	_	_	16	advmod	_	MWEPOS=ADV
-18	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	17	fixed	_	SpaceAfter=No
+17	à	à	ADP	_	_	18	case	_	INMWE=Yes|MWEPOS=ADV
+18	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	16	advmod	_	MWEPOS=ADV|SpaceAfter=No
 19	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = fr-ud-dev_00331
@@ -18391,8 +18391,8 @@
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	fillette	fillette	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
 22	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
-23	de	de	ADP	_	_	25	advmod	_	MWEPOS=ADV
-24	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	23	fixed	_	_
+23	de	de	ADP	_	_	24	case	_	INMWE=Yes|MWEPOS=ADV
+24	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	25	advmod	_	MWEPOS=ADV
 25	heureuse	heureux	ADJ	_	Gender=Fem|Number=Sing	13	advcl	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -22238,8 +22238,8 @@
 80	initiale	initial	ADJ	_	Gender=Fem|Number=Sing	79	amod	_	SpaceAfter=No
 81	,	,	PUNCT	_	_	72	punct	_	_
 82	incluant	inclure	VERB	_	Tense=Pres|VerbForm=Part	72	acl	_	_
-83	à	à	ADP	_	_	82	advmod	_	MWEPOS=ADV
-84	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	83	fixed	_	_
+83	à	à	ADP	_	_	84	case	_	INMWE=Yes|MWEPOS=ADV
+84	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	82	advmod	_	MWEPOS=ADV
 85	Movin	Movin	PROPN	_	_	82	obj	_	SpaceAfter=No
 86	'	'	PUNCT	_	_	85	flat:name	_	SpaceAfter=No
 87	on	on	PROPN	_	_	85	flat:name	_	_
@@ -29119,8 +29119,8 @@
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	couples	couple	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
-4	à	à	ADP	_	_	6	advmod	_	MWEPOS=ADV
-5	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	4	fixed	_	_
+4	à	à	ADP	_	_	5	case	_	INMWE=Yes|MWEPOS=ADV
+5	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	6	advmod	_	MWEPOS=ADV
 6	reconstitués	reconstituer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 7	et	et	CCONJ	_	_	10	cc	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -33530,8 +33530,8 @@
 14	et	et	CCONJ	_	_	20	cc	_	_
 15	n'	ne	ADV	_	Polarity=Neg	20	advmod	_	SpaceAfter=No
 16	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
-17	par	par	ADP	_	_	20	advmod	_	MWEPOS=ADV
-18	conséquent	conséquent	ADJ	_	Gender=Masc|Number=Sing	17	fixed	_	_
+17	par	par	ADP	_	_	18	case	_	INMWE=Yes|MWEPOS=ADV
+18	conséquent	conséquent	ADJ	_	Gender=Masc|Number=Sing	20	advmod	_	MWEPOS=ADV
 19	pas	pas	ADV	_	Polarity=Neg	20	advmod	_	_
 20	réagi	réagir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
 21	publiquement	publiquement	ADV	_	_	20	advmod	_	SpaceAfter=No
@@ -35622,8 +35622,8 @@
 2	ne	ne	ADV	_	Polarity=Neg	3	advmod	_	_
 3	foulera	fouler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	advmod	_	_
-5	de	de	ADP	_	_	3	advmod	_	MWEPOS=ADV
-6	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	5	fixed	_	_
+5	de	de	ADP	_	_	6	case	_	INMWE=Yes|MWEPOS=ADV
+6	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	3	advmod	_	MWEPOS=ADV
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	pelouse	pelouse	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 9	lyonnaise	lyonnais	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
@@ -35665,8 +35665,8 @@
 7	capitaine	capitaine	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
 8	d'	de	ADP	_	_	12	mark	_	SpaceAfter=No
 9	être	être	AUX	_	VerbForm=Inf	12	aux	_	_
-10	de	de	ADP	_	_	12	advmod	_	MWEPOS=ADV
-11	nouveau	nouveau	ADJ	_	_	10	fixed	_	_
+10	de	de	ADP	_	_	11	case	_	INMWE=Yes|MWEPOS=ADV
+11	nouveau	nouveau	ADJ	_	_	12	advmod	_	MWEPOS=ADV
 12	réintégré	réintégrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	_
 13	dans	dans	ADP	_	_	15	case	_	_
 14	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
@@ -40139,8 +40139,8 @@
 6	,	,	PUNCT	_	_	23	punct	_	_
 7	qui	qui	PRON	_	PronType=Rel	8	nsubj	_	_
 8	réclament	réclamer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
-9	à	à	ADP	_	_	8	advmod	_	MWEPOS=ADV
-10	juste	juste	ADJ	_	Gender=Masc|Number=Sing	9	fixed	_	_
+9	à	à	ADP	_	_	10	case	_	INMWE=Yes|MWEPOS=ADV
+10	juste	juste	ADJ	_	Gender=Masc|Number=Sing	8	advmod	_	MWEPOS=ADV
 11	titre	titre	NOUN	_	Gender=Masc|Number=Sing	9	fixed	_	_
 12	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	ressources	ressource	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_

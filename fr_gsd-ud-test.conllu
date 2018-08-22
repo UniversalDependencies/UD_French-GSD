@@ -5613,12 +5613,12 @@
 48	de	de	ADP	_	_	50	det	_	_
 49	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	fixed	_	_
 50	fumée	fumée	NOUN	_	Gender=Fem|Number=Sing	46	obj	_	SpaceAfter=No
-51	,	,	PUNCT	_	_	54	punct	_	_
-52	mais	mais	CCONJ	_	_	54	cc	_	_
-53	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	54	nsubj	_	SpaceAfter=No
-54	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	conj	_	_
+51	,	,	PUNCT	_	_	56	punct	_	_
+52	mais	mais	CCONJ	_	_	56	cc	_	_
+53	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	56	nsubj	_	SpaceAfter=No
+54	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	cop	_	_
 55	sans	sans	ADP	_	_	56	case	_	_
-56	feu	feu	NOUN	_	Gender=Masc|Number=Sing	54	obl	_	_
+56	feu	feu	NOUN	_	Gender=Masc|Number=Sing	46	conj	_	_
 57	!	!	PUNCT	_	_	37	punct	_	_
 
 # sent_id = fr-ud-test_00188
@@ -7178,24 +7178,24 @@
 4	très	très	ADV	_	_	5	advmod	_	_
 5	joli	joli	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	mais	mais	CCONJ	_	_	11	cc	_	_
+7	mais	mais	CCONJ	_	_	15	cc	_	_
 8	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
-9	ambiance	ambiance	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
-10	n'	ne	ADV	_	Polarity=Neg	11	advmod	_	SpaceAfter=No
-11	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
-12	pas	pas	ADV	_	Polarity=Neg	11	advmod	_	_
+9	ambiance	ambiance	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+10	n'	ne	ADV	_	Polarity=Neg	15	advmod	_	SpaceAfter=No
+11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+12	pas	pas	ADV	_	Polarity=Neg	15	advmod	_	_
 13	à	à	ADP	_	_	15	case	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	hauteur	hauteur	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+15	hauteur	hauteur	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	celle	celui	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	15	nmod	_	_
 18	d'	de	ADP	_	_	20	case	_	SpaceAfter=No
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	Pub	pub	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
 21	anglais	anglais	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	11	punct	_	_
+22	,	,	PUNCT	_	_	15	punct	_	_
 23	par	par	ADP	_	_	24	case	_	_
-24	manque	manque	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
+24	manque	manque	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	_
 25	de	de	ADP	_	_	26	case	_	_
 26	musique	musique	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
 27	adaptée	adapté	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
@@ -7759,11 +7759,11 @@
 
 # sent_id = fr-ud-test_00282
 # text = Que ce soit à titre professionnel (pour ma société) ou à titre personnel pour moi, je vais chez Bureau Vallée Toulouse Montaudran.
-1	Que	que	SCONJ	_	_	3	mark	_	_
-2	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
-3	soit	être	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+1	Que	que	SCONJ	_	_	5	mark	_	_
+2	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	nsubj	_	_
+3	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	à	à	ADP	_	_	5	case	_	_
-5	titre	titre	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+5	titre	titre	NOUN	_	Gender=Masc|Number=Sing	20	advcl	_	_
 6	professionnel	professionnel	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 7	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 8	pour	pour	ADP	_	_	10	case	_	_
@@ -7986,21 +7986,21 @@
 16	et	et	CCONJ	_	_	17	cc	_	_
 17	professionel	professionnel	ADJ	_	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	3	punct	_	_
-19	et	et	CCONJ	_	_	30	cc	_	_
+19	et	et	CCONJ	_	_	33	cc	_	_
 20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
-21	Actif	Actif	PROPN	_	_	30	nsubj	_	_
+21	Actif	Actif	PROPN	_	_	33	nsubj	_	_
 22	Dépannage	Dépannage	PROPN	_	_	21	flat:name	_	SpaceAfter=No
 23	"	"	PUNCT	_	_	21	punct	_	_
-24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	30	punct	_	_
+24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	33	punct	_	_
 26	dans	dans	ADP	_	_	29	case	_	_
 27	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
 28	deux	deux	NUM	_	_	29	nummod	_	_
-29	cas	cas	NOUN	_	Gender=Masc|Number=Plur	30	obl:mod	_	_
-30	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+29	cas	cas	NOUN	_	Gender=Masc|Number=Plur	33	obl:mod	_	_
+30	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	cop	_	_
 31	à	à	ADP	_	_	33	case	_	_
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-33	hauteur	hauteur	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
+33	hauteur	hauteur	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-test_00293
@@ -10404,10 +10404,10 @@
 24	qu'	que	SCONJ	_	_	26	mark	_	SpaceAfter=No
 25	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
 26	aimerait	aimer	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
-27	être	être	VERB	_	VerbForm=Inf	26	xcomp	_	_
+27	être	être	AUX	_	VerbForm=Inf	30	cop	_	_
 28	comme	comme	ADP	_	_	30	case	_	_
 29	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	30	det	_	_
-30	frère	frère	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
+30	frère	frère	NOUN	_	Gender=Masc|Number=Sing	26	xcomp	_	_
 31	Justin	Justin	PROPN	_	_	30	appos	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	6	punct	_	_
 

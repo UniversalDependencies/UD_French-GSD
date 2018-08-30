@@ -8198,12 +8198,12 @@
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 6	immense	immense	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
-7	à	à	ADP	_	_	11	case	_	MWEPOS=ADP
-8	partir	partir	VERB	_	VerbForm=Inf	7	fixed	_	_
+7	à	à	ADP	_	_	8	mark	_	INMWE=Yes
+8	partir	partir	VERB	_	VerbForm=Inf	2	advmod	_	MWEPOS=ADV
 9-10	des	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	7	fixed	_	_
+9	de	de	ADP	_	_	11	case	_	_
 10	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
-11	côtes	côte	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+11	côtes	côte	NOUN	_	Gender=Fem|Number=Plur	8	obl:arg	_	_
 12	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	également	également	ADV	_	_	12	advmod	_	_
 14	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_

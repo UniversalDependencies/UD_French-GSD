@@ -1491,15 +1491,15 @@
 # text = Dans les sixties, ce n'était pas comme aujourd'hui.
 1	Dans	dans	ADP	_	_	3	case	_	_
 2	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
-3	sixties	sixties	NOUN	_	Gender=Fem|Number=Plur	8	obl:mod	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	8	punct	_	_
-5	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	8	nsubj	_	_
-6	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
-7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
-8	pas	pas	ADV	_	_	0	root	_	_
+3	sixties	sixties	NOUN	_	Gender=Fem|Number=Plur	7	obl:mod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	7	nsubj	_	_
+6	n'	ne	ADV	_	Polarity=Neg	7	advmod	_	SpaceAfter=No
+7	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	pas	pas	ADV	_	_	7	advmod	_	_
 9	comme	comme	ADP	_	_	10	case	_	_
-10	aujourd'hui	aujourd'hui	ADV	_	_	8	advmod	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	8	punct	_	_
+10	aujourd'hui	aujourd'hui	ADV	_	_	7	obl:arg	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-test_00058
 # text = Sidi M'hamed Deddeche et Amgid Sidi Ahmed, deux activistes pacifistes des territoires occupés comme Mme Haïder, s'étaient-ils fait arrêter mercredi dernier à l'entrée de Smara, la capitale spirituelle du Sahara occidental, parce qu'ils étaient des séquestrés qui s'étaient évadés des camps de Tindouf, sans documents de voyage ?
@@ -2026,7 +2026,7 @@
 13	déjà	déjà	ADV	_	_	15	advmod	_	_
 14	très	très	ADV	_	_	15	advmod	_	_
 15	lourde	lourd	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	8	punct	_	_
+16	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-test_00072
 # text = Dès lors que le peuple décide de regagner sa liberté il devient instantanément et de facto, libre.

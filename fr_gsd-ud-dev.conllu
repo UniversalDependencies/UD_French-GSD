@@ -11945,8 +11945,8 @@
 9	Mammoth	Mammoth	PROPN	_	_	4	obl	_	_
 10	Cave	Cave	PROPN	_	_	9	flat:name	_	_
 11	dure	durer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-12	depuis	depuis	ADP	_	_	16	case	_	_
-13	près	près	ADV	_	_	11	advmod	_	_
+12	depuis	depuis	ADP	_	_	13	case	_	_
+13	près	près	ADV	_	_	11	obl:mod	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	six	six	NUM	_	_	16	nummod	_	_
 16	millénaires	millénaire	NOUN	_	Gender=Masc|Number=Plur	13	obl:arg	_	_
@@ -12290,8 +12290,8 @@
 11	sur	sur	ADP	_	_	13	case	_	_
 12	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det	_	_
 13	travers	travers	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
-14	à	à	ADP	_	_	18	case	_	_
-15	près	près	ADV	_	_	4	advmod	_	_
+14	à	à	ADP	_	_	15	case	_	_
+15	près	près	ADV	_	_	4	obl:mod	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	300	300	NUM	_	_	18	nummod	_	_
 18	km/h	km/h	NOUN	_	Gender=Masc|Number=Plur	15	obl:arg	_	_
@@ -14016,7 +14016,7 @@
 11	matière	matière	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 12	de	de	ADP	_	_	13	case	_	_
 13	successions	succession	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
-14	et	et	CCONJ	_	_	18	cc	_	_
+14	et	et	CCONJ	_	_	15	cc	_	_
 15	moins	moins	ADV	_	_	8	conj	_	_
 16	d'	de	ADP	_	_	18	case	_	SpaceAfter=No
 17	une	une	NUM	_	_	18	nummod	_	_
@@ -18031,8 +18031,8 @@
 52	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	53	det	_	_
 53	terres	terre	NOUN	_	Gender=Fem|Number=Plur	50	obl	_	_
 54	américaines	américain	ADJ	_	Gender=Fem|Number=Plur	53	amod	_	_
-55	à	à	ADP	_	_	59	case	_	_
-56	plus	plus	ADV	_	_	50	advmod	_	_
+55	à	à	ADP	_	_	56	case	_	_
+56	plus	plus	ADV	_	_	50	obl:mod	_	_
 57	de	de	ADP	_	_	59	case	_	_
 58	5	5	NUM	_	_	59	nummod	_	_
 59	millions	million	NOUN	_	Gender=Masc|Number=Plur	56	obl:arg	_	_
@@ -20008,7 +20008,7 @@
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	18	det	_	_
 18	catégorisation	catégorisation	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	22	punct	_	_
+19	,	,	PUNCT	_	_	20	punct	_	_
 20	pas	pas	ADV	_	_	1	conj	_	_
 21	de	de	ADP	_	_	22	case	_	_
 22	hiérarchisation	hiérarchisation	NOUN	_	Gender=Fem|Number=Sing	20	obl:arg	_	_
@@ -27523,8 +27523,8 @@
 3	représente	représenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	choix	choix	NOUN	_	Gender=Masc|Number=Sing	3	xcomp	_	_
-6	de	de	ADP	_	_	10	case	_	_
-7	plus	plus	ADV	_	_	5	advmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	plus	plus	ADV	_	_	5	nmod	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	10'000	10'000	NUM	_	_	10	nummod	_	_
 10	bijoux	bijou	NOUN	_	Gender=Masc|Number=Plur	7	obl:arg	_	_
@@ -30237,8 +30237,8 @@
 16	peu	peu	ADV	_	_	15	obj	_	_
 17	d'	de	ADP	_	_	18	case	_	SpaceAfter=No
 18	autoroutes	autoroute	NOUN	_	Gender=Fem|Number=Plur	16	obl:arg	_	_
-19	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
-20	excepté	excepté	ADP	_	_	23	case	_	_
+19	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+20	excepté	excepté	ADP	_	_	21	case	_	_
 21	autour	autour	ADV	_	_	15	obl	_	_
 22	de	de	ADP	_	_	23	case	_	_
 23	Bratislava	Bratislava	PROPN	_	_	21	obl:arg	_	SpaceAfter=No
@@ -35094,7 +35094,7 @@
 19	vers	vers	ADP	_	_	21	case	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	Nord	nord	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
-22	puis	puis	SCONJ	_	_	26	cc	_	_
+22	puis	puis	SCONJ	_	_	23	cc	_	_
 23	lors	lors	ADV	_	_	4	conj	_	_
 24	de	de	ADP	_	_	26	case	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
@@ -36231,8 +36231,8 @@
 
 # sent_id = fr-ud-dev_01306
 # text = Pour plus d'informations, consulter notre Portail de pièces et accessoires automobiles dans les Pyrénées-Orientales : http://www.papa66.com
-1	Pour	pour	ADP	_	_	4	case	_	_
-2	plus	plus	ADV	_	_	6	advmod	_	_
+1	Pour	pour	ADP	_	_	2	case	_	_
+2	plus	plus	ADV	_	_	6	obl:mod	_	_
 3	d'	de	ADP	_	_	4	case	_	SpaceAfter=No
 4	informations	information	NOUN	_	Gender=Fem|Number=Plur	2	obl:arg	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_

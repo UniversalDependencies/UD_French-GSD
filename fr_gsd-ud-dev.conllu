@@ -2748,8 +2748,8 @@
 40	de	de	ADP	_	_	41	case	_	_
 41	Zhongshan	Zhongshan	PROPN	_	_	39	nmod	_	_
 42	(	(	PUNCT	_	_	43	punct	_	SpaceAfter=No
-43	Sun	Sun	X	_	_	41	appos	_	_
-44	Yat-Sen	Yat-Sen	X	_	_	43	flat:name	_	SpaceAfter=No
+43	Sun	Sun	PROPN	_	_	41	appos	_	_
+44	Yat-Sen	Yat-Sen	PROPN	_	_	43	flat:name	_	SpaceAfter=No
 45	)	)	PUNCT	_	_	43	punct	_	_
 46	à	à	ADP	_	_	47	case	_	_
 47	Canton	Canton	PROPN	_	_	39	nmod	_	SpaceAfter=No
@@ -13876,7 +13876,7 @@
 12	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
 13	euros	euro	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
 14	par	par	ADP	_	_	15	case	_	_
-15	an	an	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+15	an	an	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 16	auraient	avoir	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
 17	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux:pass	_	_
 18	évoqués	évoquer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
@@ -19829,7 +19829,7 @@
 14	Some	some	DET	_	Number=Sing	15	det	_	Foreign=en
 15	Time	time	NOUN	_	Number=Sing	13	appos	_	Foreign=en
 16	in	in	ADP	_	_	17	case	_	Foreign=en
-17	New	new	ADJ	_	_	15	nmod	_	Foreign=en|MWEPOS=PROPN
+17	New	new	PROPN	_	_	15	nmod	_	Foreign=en|MWEPOS=PROPN
 18	York	York	PROPN	_	_	17	flat:name	_	Foreign=en
 19	City	city	NOUN	_	Gender=Fem|Number=Sing	17	flat:name	_	Foreign=en|SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	_

@@ -6908,9 +6908,9 @@
 9	,	,	PUNCT	_	_	2	punct	_	_
 10	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 11	soirées	soirée	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
-12	Vive	vivre	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
-13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	télé	télé	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
+12	Vive	vivre	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	nmod	_	TITLE=Yes
+13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	INTITLE=Yes
+14	télé	télé	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	INTITLE=Yes|SpaceAfter=No
 15	,	,	PUNCT	_	_	11	punct	_	_
 16	ainsi	ainsi	ADV	_	_	19	cc	_	MWEPOS=CCONJ
 17	que	que	SCONJ	_	_	16	fixed	_	_
@@ -6918,11 +6918,11 @@
 19	émissions	émission	NOUN	_	Gender=Fem|Number=Plur	11	conj	_	_
 20	spéciales	spécial	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	_
 21	telles	tel	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	_
-22	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
-23	hais	haïr	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
-24	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
-25	années	année	NOUN	_	Gender=Fem|Number=Plur	23	obj	_	_
-26	80	80	NUM	_	_	25	nmod	_	_
+22	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	23	nsubj	_	INTITLE=Yes
+23	hais	haïr	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	obl:arg	_	TITLE=Yes
+24	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	INTITLE=Yes
+25	années	année	NOUN	_	Gender=Fem|Number=Plur	23	obj	_	INTITLE=Yes
+26	80	80	NUM	_	_	25	nmod	_	INTITLE=Yes
 27	!	!	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00249

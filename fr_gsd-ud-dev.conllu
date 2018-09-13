@@ -368,7 +368,7 @@
 6	qu'	que	SCONJ	_	_	9	mark	_	SpaceAfter=No
 7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 8	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	aux	_	_
-9	réélu	réélire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
+9	réélu	réélire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl:cleft	_	_
 10	en	en	ADP	_	_	11	case	_	_
 11	2005	2005	NUM	_	_	9	obl	_	_
 12	et	et	CCONJ	_	_	14	cc	_	_
@@ -1784,7 +1784,7 @@
 11	mais	mais	CCONJ	_	_	13	cc	_	_
 12	pas	pas	ADV	_	Polarity=Neg	13	advmod	_	_
 13	celle	celui	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	6	conj	_	_
-14	là	là	PART	_	_	13	advmod	_	Correct="là"|SpaceAfter=No
+14	là	là	PART	_	_	13	advmod	_	Correct=là|SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_00068
@@ -18199,7 +18199,7 @@
 10	qu'	que	SCONJ	_	_	13	mark	_	SpaceAfter=No
 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 12	s'	se	PRON	_	Person=3|PronType=Prs	13	expl	_	SpaceAfter=No
-13	illustre	illustrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+13	illustre	illustrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl:cleft	_	_
 14	à	à	ADP	_	_	16	case	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	bataille	bataille	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
@@ -29547,10 +29547,10 @@
 # text = Quand on hésite, pas de panique, Michelle est là pour nous donner de précieux conseils.
 1	Quand	quand	SCONJ	_	_	3	mark	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
-3	hésite	hésiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	SpaceAfter=No
+3	hésite	hésiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	pas	pas	ADV	_	Polarity=Neg	0	root	_	_
-6	de	un	DET	_	Definite=Ind|PronType=Art	7	case	_	_
+6	de	un	ADP	_	_	7	case	_	_
 7	panique	panique	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	Michelle	Michelle	PROPN	_	_	10	nsubj	_	_
@@ -38474,7 +38474,7 @@
 11	Louis	Louis	PROPN	_	_	14	nsubj:pass	_	_
 12	Huguet-Chateau	Huguet-Chateau	PROPN	_	_	11	flat:name	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
-14	atteint	atteindre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
+14	atteint	atteindre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl:cleft	_	_
 15	par	par	ADP	_	_	17	case	_	_
 16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	balle	balle	NOUN	_	Gender=Fem|Number=Sing	14	obl:agent	_	_
@@ -40499,7 +40499,7 @@
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 15	Antilles	Antilles	PROPN	_	_	8	nmod	_	_
 16	s'	se	PRON	_	Person=3|PronType=Prs	17	expl:pass	_	SpaceAfter=No
-17	ancrent	ancrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
+17	ancrent	ancrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advcl:cleft	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_01453

@@ -24291,19 +24291,19 @@
 
 # sent_id = fr-ud-dev_00880
 # text = "L'ambiguïté de cette question est à l'origine de nombreuses confusions et de beaucoup d'embarras chez nos clients", auraient dit, selon le site, des agents de voyage mauritaniens.
-1	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
 2	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
-3	ambiguïté	ambiguïté	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	ambiguïté	ambiguïté	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
 6	question	question	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-7	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	ccomp	_	_
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 8	à	à	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
-10	origine	origine	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+10	origine	origine	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
-13	confusions	confusion	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
+13	confusions	confusion	NOUN	_	Gender=Fem|Number=Plur	10	obl:arg	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	beaucoup	beaucoup	ADV	_	_	13	conj	_	_
@@ -24312,21 +24312,21 @@
 19	chez	chez	ADP	_	_	21	case	_	_
 20	nos	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	21	det	_	_
 21	clients	client	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
-22	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	25	punct	_	_
+22	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	10	punct	_	_
 24	auraient	avoir	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
-25	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+25	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	parataxis	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	_
 27	selon	selon	ADP	_	_	29	case	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	site	site	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+29	site	site	NOUN	_	Gender=Masc|Number=Sing	25	obl:mod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	25	punct	_	_
 31	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
 32	agents	agent	NOUN	_	Gender=Masc|Number=Plur	25	nsubj	_	_
 33	de	de	ADP	_	_	34	case	_	_
 34	voyage	voyage	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
 35	mauritaniens	mauritanien	ADJ	_	Gender=Masc|Number=Plur	32	amod	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	25	punct	_	_
+36	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-dev_00881
 # text = De part et d'autre, on trouve des bâtiments de latérite dont la forme ne correspond pas aux habituels bannalais.
@@ -26014,8 +26014,8 @@
 12-13	au	_	_	_	_	_	_	_	_
 12	à	à	ADP	_	_	14	case	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	11	11	NUM	_	_	8	obl:mod	_	_
-15	février	février	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+14	11	11	NUM	_	_	11	nmod	_	_
+15	février	février	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 16	2007	2007	NUM	_	_	15	nmod	_	_
 17	sur	sur	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -31802,7 +31802,7 @@
 10	opposition	opposition	NOUN	_	Gender=Fem|Number=Sing	3	acl:relcl	_	_
 11	à	à	ADP	_	_	13	case	_	_
 12	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
-13	monde	monde	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+13	monde	monde	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	_
 14	déshumanisé	déshumaniser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -36055,7 +36055,7 @@
 9-10	au	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	Mans	Mans	PROPN	_	_	8	obl	_	SpaceAfter=No
+11	Mans	Mans	PROPN	_	_	8	obl:mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	proposé	proposer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_

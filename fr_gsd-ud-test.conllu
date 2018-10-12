@@ -5230,7 +5230,7 @@
 14	50	50	NUM	_	_	12	obl:arg	_	_
 15	à	à	ADP	_	_	17	case	_	_
 16	90	90	NUM	_	_	17	nummod	_	SpaceAfter=No
-17	%	%	SYM	_	_	14	nmod:range	_	_
+17	%	%	SYM	_	_	14	nmod	_	_
 18	en	en	ADP	_	_	19	case	_	_
 19	moyenne	moyenne	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
 20	)	)	PUNCT	_	_	11	punct	_	_
@@ -5397,7 +5397,7 @@
 29	UA	UA	NOUN	_	Gender=Masc|Number=Sing	24	obl:mod	_	_
 30	à	à	ADP	_	_	32	case	_	_
 31	75	75	NUM	_	_	32	nummod	_	_
-32	UA	UA	NOUN	_	Gender=Masc|Number=Sing	29	nmod:range	_	SpaceAfter=No
+32	UA	UA	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	24	punct	_	_
 
 # sent_id = fr-ud-test_00180
@@ -9807,7 +9807,7 @@
 9-10	au	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	vendredi	vendredi	NOUN	_	Gender=Masc|Number=Sing	7	nmod:range	_	_
+11	vendredi	vendredi	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 12	8	8	NUM	_	_	11	nmod	_	_
 13	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	_
@@ -10038,7 +10038,7 @@
 10-11	au	_	_	_	_	_	_	_	_
 10	à	à	ADP	_	_	12	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	gris	gris	NOUN	_	Gender=Masc|Number=Sing	9	nmod:range	_	_
+12	gris	gris	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 13	selon	selon	ADP	_	_	15	case	_	_
 14	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
 15	sous-espèces	sous-espèce	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No

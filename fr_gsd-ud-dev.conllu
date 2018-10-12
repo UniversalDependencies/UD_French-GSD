@@ -1155,7 +1155,7 @@
 44	de	de	ADP	_	_	45	case	_	_
 45	-1	-1	NUM	_	_	43	obl:arg	_	_
 46	à	à	ADP	_	_	47	case	_	_
-47	-0,8	-0,8	NUM	_	_	45	nmod:range	_	SpaceAfter=No
+47	-0,8	-0,8	NUM	_	_	45	nmod	_	SpaceAfter=No
 48	.	.	PUNCT	_	_	29	punct	_	_
 
 # sent_id = fr-ud-dev_00042
@@ -6048,7 +6048,7 @@
 33	,	,	PUNCT	_	_	25	punct	_	_
 34	à	à	ADP	_	_	36	case	_	_
 35	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	caractérisation	caractérisation	NOUN	_	Gender=Fem|Number=Sing	25	nmod:range	_	_
+36	caractérisation	caractérisation	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
 37-38	des	_	_	_	_	_	_	_	_
 37	de	de	ADP	_	_	39	case	_	_
 38	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
@@ -10017,7 +10017,7 @@
 13	12H30	12H30	NUM	_	Gender=Fem|Number=Plur	8	obl:mod	_	_
 14	GMT	GMT	X	_	_	13	compound	_	_
 15	à	à	ADP	_	_	16	case	_	_
-16	00H30	00H30	NUM	_	Gender=Fem|Number=Plur	13	nmod:range	_	_
+16	00H30	00H30	NUM	_	Gender=Fem|Number=Plur	13	nmod	_	_
 17	GMT	GMT	X	_	_	16	compound	_	_
 18	dimanche	dimanche	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	8	punct	_	_
@@ -17038,7 +17038,7 @@
 6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 7	ici	ici	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
 8	à	à	ADP	_	_	9	case	_	_
-9	2011	2011	NUM	_	_	7	nmod:range	_	_
+9	2011	2011	NUM	_	_	7	nmod	_	_
 10	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	plan	plan	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	_
@@ -18253,7 +18253,7 @@
 11	de	de	ADP	_	_	12	case	_	_
 12	Gérone	Gérone	PROPN	_	_	10	obl:arg	_	_
 13	à	à	ADP	_	_	14	case	_	_
-14	Cadix	Cadix	PROPN	_	_	12	nmod:range	_	_
+14	Cadix	Cadix	PROPN	_	_	12	nmod	_	_
 15	dans	dans	ADP	_	_	17	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	milieu	milieu	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
@@ -26934,7 +26934,7 @@
 6	de	de	ADP	_	_	7	case	_	_
 7	1978	1978	NUM	_	_	4	obl:mod	_	_
 8	à	à	ADP	_	_	9	case	_	_
-9	1992	1992	NUM	_	_	7	nmod:range	_	_
+9	1992	1992	NUM	_	_	7	nmod	_	_
 10	et	et	CCONJ	_	_	13	cc	_	_
 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 12	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	13	obj	_	SpaceAfter=No
@@ -27432,7 +27432,7 @@
 18	tonnes	tonne	NOUN	_	Gender=Fem|Number=Plur	15	obl:arg	_	_
 19	à	à	ADP	_	_	21	case	_	_
 20	86000	86000	NUM	_	_	21	nummod	_	_
-21	tonnes	tonne	NOUN	_	Gender=Fem|Number=Plur	18	nmod:range	_	_
+21	tonnes	tonne	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	_
 22	de	de	ADP	_	_	23	case	_	_
 23	cacao	cacao	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	5	punct	_	_
@@ -31082,7 +31082,7 @@
 22-23	aux	_	_	_	_	_	_	_	_
 22	à	à	ADP	_	_	24	case	_	_
 23	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
-24	rôles	rôle	NOUN	_	Gender=Masc|Number=Plur	16	nmod:range	_	_
+24	rôles	rôle	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
 25	de	de	ADP	_	_	26	case	_	_
 26	jeune	jeune	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
 27	romantique	romantique	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
@@ -36373,7 +36373,7 @@
 32	%	%	SYM	_	_	29	obl:arg	_	_
 33	à	à	ADP	_	_	35	case	_	_
 34	0,6	0,6	NUM	_	_	35	nummod	_	SpaceAfter=No
-35	%	%	SYM	_	_	32	nmod:range	_	SpaceAfter=No
+35	%	%	SYM	_	_	32	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = fr-ud-dev_01314

@@ -16308,21 +16308,6 @@
 33	Gallipoli	Gallipoli	PROPN	_	_	23	obl:mod	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	23	punct	_	_
 
-# sent_id = fr-ud-dev_00583
-# text = Le dialecte local est un dérivé du Basque occidental.
-1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	dialecte	dialecte	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
-3	local	local	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
-4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
-5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	dérivé	dérivé	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-7-8	du	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	9	case	_	_
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	Basque	Basque	PROPN	_	_	6	nmod	_	_
-10	occidental	occidental	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	6	punct	_	_
-
 # sent_id = fr-ud-dev_00584
 # text = Son tombeau y fut retrouvé lorsque les ruines furent explorées au XIXe siècle.
 1	Son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
@@ -32439,49 +32424,6 @@
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Purgatoire	Purgatoire	PROPN	_	_	12	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	7	punct	_	_
-
-# sent_id = fr-ud-dev_01174
-# text = Il est décidé en 1818 d'élever un monument à la mémoire de la révolte des paysans de 1705, mais il n'est inauguré qu'à la Toussaint 1831, à cause de différends de conception.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
-3	décidé	décider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-4	en	en	ADP	_	_	5	case	_	_
-5	1818	1818	NUM	_	_	3	obl	_	_
-6	d'	de	ADP	_	_	7	mark	_	SpaceAfter=No
-7	élever	élever	VERB	_	VerbForm=Inf	3	xcomp	_	_
-8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	monument	monument	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
-10	à	à	ADP	_	_	12	case	_	_
-11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	mémoire	mémoire	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	_
-13	de	de	ADP	_	_	15	case	_	_
-14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	révolte	révolte	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
-16-17	des	_	_	_	_	_	_	_	_
-16	de	de	ADP	_	_	18	case	_	_
-17	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
-18	paysans	paysan	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
-19	de	de	ADP	_	_	20	case	_	_
-20	1705	1705	NUM	_	_	15	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	3	punct	_	_
-22	mais	mais	CCONJ	_	_	26	cc	_	_
-23	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj:pass	_	_
-24	n'	ne	ADV	_	Polarity=Neg	26	advmod	_	SpaceAfter=No
-25	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:pass	_	_
-26	inauguré	inaugurer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
-27	qu'	que	ADV	_	_	30	advmod	_	SpaceAfter=No
-28	à	à	ADP	_	_	30	case	_	_
-29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	Toussaint	Toussaint	PROPN	_	_	26	obl:mod	_	_
-31	1831	1831	NUM	_	_	30	nmod	_	SpaceAfter=No
-32	,	,	PUNCT	_	_	26	punct	_	_
-33	à	à	ADP	_	_	34	case	_	_
-34	cause	cause	NOUN	_	Gender=Fem|Number=Sing	26	obl:mod	_	_
-35	de	de	ADP	_	_	36	case	_	_
-36	différends	différend	NOUN	_	Gender=Masc|Number=Plur	34	nmod	_	_
-37	de	de	ADP	_	_	38	case	_	_
-38	conception	conception	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
-39	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_01175
 # text = Pourquoi pas un tournage dans notre capitale puisque dans le dernier épisode Andy, Silas et Shane ont pris l'avion pour Paris.

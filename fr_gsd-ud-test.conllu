@@ -3380,9 +3380,9 @@
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	bloqué	bloquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
 6	chez	chez	ADP	_	_	7	case	_	_
-7	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+7	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	5	obl:arg	_	_
 8	depuis	depuis	ADP	_	_	9	case	_	_
-9	jeudi	jeudi	PROPN	_	_	5	obl	_	_
+9	jeudi	jeudi	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
 10	par	par	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	police	police	NOUN	_	Gender=Fem|Number=Sing	5	obl:agent	_	SpaceAfter=No
@@ -6370,7 +6370,7 @@
 6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	maréchaux	maréchal	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
 8	de	de	ADP	_	_	9	case	_	_
-9	nancy	nancy	PROPN	_	_	4	nmod	_	_
+9	nancy	Nancy	PROPN	_	_	4	nmod	_	Correct=Nancy
 10	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	11	iobj	_	_
 11	permettra	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 12	sans	sans	ADP	_	_	13	case	_	_
@@ -8502,7 +8502,7 @@
 1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	taux	taux	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
-4	zéro	zéro	PROPN	_	_	2	nmod	_	_
+4	zéro	zéro	NUM	_	_	2	nmod	_	_
 5	n'	ne	ADV	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
 6	exclut	exclure	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	_
@@ -10662,7 +10662,7 @@
 49	et	et	CCONJ	_	_	54	cc	_	_
 50	que	que	SCONJ	_	_	54	mark	_	_
 51	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
-52	christ	christ	PROPN	_	_	54	nsubj	_	_
+52	christ	christ	PROPN	_	_	54	nsubj	_	Correct=Christ
 53	n'	ne	ADV	_	Polarity=Neg	54	advmod	_	SpaceAfter=No
 54	enseignait	enseigner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	44	conj	_	_
 55	rien	rien	PRON	_	Number=Sing	54	obj	_	_
@@ -10892,7 +10892,7 @@
 14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	nunavik	nunavik	PROPN	_	_	11	nmod	_	_
+16	nunavik	nunavik	PROPN	_	_	11	nmod	_	Correct=Nunavik
 17	à	à	ADP	_	_	19	case	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 19	Alaska	Alaska	PROPN	_	_	16	nmod	_	_
@@ -11066,7 +11066,7 @@
 7	méandre	méandre	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
 8	avant	avant	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
-10	océan	océan	PROPN	_	_	7	nmod	_	_
+10	océan	océan	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 11	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
 13	objet	objet	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_

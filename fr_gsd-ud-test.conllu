@@ -400,8 +400,8 @@
 9	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	10	nsubj	_	_
 10	observerez	observer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
 11	que	que	SCONJ	_	_	14	mark	_	_
-12	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	13	expl	_	SpaceAfter=No
-13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+12	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	14	nsubj	_	MWEPOS=PRON|SpaceAfter=No
+13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	12	fixed	_	_
 14	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
 15	être	être	AUX	_	VerbForm=Inf	16	cop	_	_
 16	traditionaliste	traditionaliste	ADJ	_	Gender=Masc|Number=Sing	14	xcomp	_	_
@@ -1897,7 +1897,7 @@
 19	,	,	PUNCT	_	_	21	punct	_	_
 20	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 21	contrôle	contrôler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
-22	l'	l'	PART	_	_	23	expl	_	SpaceAfter=No
+22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
 23	un	un	PRON	_	Gender=Masc|Number=Sing	21	obj	_	_
 24-25	des	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	27	case	_	_
@@ -3366,7 +3366,7 @@
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
 18	assuré	assurer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-19	l'	l'	PART	_	_	20	expl	_	SpaceAfter=No
+19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
 20	un	un	PRON	_	Gender=Masc|Number=Sing	18	nsubj	_	_
 21	d'	de	ADP	_	_	22	case	_	SpaceAfter=No
 22	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3	20	nmod	_	SpaceAfter=No
@@ -6489,8 +6489,8 @@
 # sent_id = fr-ud-test_00221
 # text = Car l'on peut trouver très aisément des préservatifs usagés sur les matelas.
 1	Car	car	CCONJ	_	_	4	cc	_	_
-2	l'	l'	PART	_	_	3	expl	_	SpaceAfter=No
-3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	nsubj	_	MWEPOS=PRON|SpaceAfter=No
+3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	2	fixed	_	_
 4	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	trouver	trouver	VERB	_	VerbForm=Inf	4	xcomp	_	_
 6	très	très	ADV	_	_	7	advmod	_	_
@@ -6677,8 +6677,8 @@
 4	à	à	ADP	_	_	5	case	_	_
 5	Paris	Paris	PROPN	_	_	3	nmod	_	_
 6	où	où	PRON	_	PronType=Rel	10	advmod	_	_
-7	l'	l'	PART	_	_	8	expl	_	SpaceAfter=No
-8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	nsubj	_	MWEPOS=PRON|SpaceAfter=No
+8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	7	fixed	_	_
 9	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
 10	trouver	trouver	VERB	_	VerbForm=Inf	9	xcomp	_	_
 11	du	du	DET	_	Gender=Masc|Number=Sing	12	det	_	_
@@ -6831,7 +6831,7 @@
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	maximum	maximum	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	SpaceAfter=No
 20	....	....	PUNCT	_	_	4	punct	_	_
-21	N'	ne	PART	_	_	4	parataxis	_	SpaceAfter=No
+21	N'	ne	ADV	_	Polarity=Neg	4	parataxis	_	SpaceAfter=No
 22	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	fixed	_	_
 23	quoi	quoi	PRON	_	_	21	fixed	_	SpaceAfter=No
 24	...	...	PUNCT	_	_	4	punct	_	_

@@ -8936,8 +8936,8 @@
 20	prés	pré	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	3	punct	_	_
 22	que	que	PRON	_	PronType=Rel	25	obj	_	_
-23	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	24	expl	_	SpaceAfter=No
-24	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	25	nsubj	_	_
+23	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	25	nsubj	_	MWEPOS=PRON|SpaceAfter=No
+24	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	23	fixed	_	_
 25	retrouve	retrouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	long	long	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
@@ -13137,7 +13137,7 @@
 17	de	de	ADP	_	_	18	case	_	_
 18	motifs	motif	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	16	punct	_	_
-20	l'	l'	PART	_	_	21	expl	_	SpaceAfter=No
+20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
 21	une	un	PRON	_	Gender=Fem|Number=Sing	16	appos	_	_
 22	de	de	ADP	_	_	23	case	_	_
 23	32	32	NUM	_	_	21	nmod	_	_
@@ -15250,8 +15250,8 @@
 # text = Et déjà l'on fait cas de la réouverture imminente des frontières longtemps réclamée par nos voisins de l'Ouest.
 1	Et	et	CCONJ	_	_	5	cc	_	_
 2	déjà	déjà	ADV	_	_	5	advmod	_	_
-3	l'	l'	PART	_	_	4	expl	_	SpaceAfter=No
-4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	nsubj	_	MWEPOS=PRON|SpaceAfter=No
+4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	3	fixed	_	_
 5	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	cas	cas	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
 7	de	de	ADP	_	_	9	case	_	_
@@ -18835,8 +18835,8 @@
 10	d'	de	ADP	_	_	11	case	_	SpaceAfter=No
 11	attraction	attraction	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 12	que	que	PRON	_	PronType=Rel	15	obj	_	_
-13	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	14	expl	_	SpaceAfter=No
-14	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+13	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	15	nsubj	_	MWEPOS=PRON|SpaceAfter=No
+14	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	13	fixed	_	_
 15	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
 16	dans	dans	ADP	_	_	18	case	_	_
 17	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
@@ -19308,7 +19308,7 @@
 # text = Elle constitue l'une des trois écoles formation de l'Agence pour la sécurité de la navigation aérienne en Afrique et à Madagascar.
 1	Elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	constitue	constituer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	l'	l'	PART	_	_	4	expl	_	SpaceAfter=No
+3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	une	un	PRON	_	Gender=Fem|Number=Sing	2	obj	_	_
 5-6	des	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	8	case	_	_
@@ -20958,7 +20958,7 @@
 21	et	et	CCONJ	_	_	22	cc	_	_
 22	menaçant	menacer	VERB	_	Tense=Pres|VerbForm=Part	20	conj	_	_
 23	violemment	violemment	ADV	_	_	22	advmod	_	_
-24	l'	l'	PART	_	_	25	expl	_	SpaceAfter=No
+24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
 25	un	un	PRON	_	Gender=Masc|Number=Sing	22	obj	_	_
 26	de	de	ADP	_	_	28	case	_	_
 27	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	28	det	_	_
@@ -24186,7 +24186,7 @@
 12	se	se	PRON	_	Person=3|PronType=Prs	13	obj	_	_
 13	présente	présenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	pour	pour	ADP	_	_	16	case	_	_
-15	l'	l'	PART	_	_	16	expl	_	SpaceAfter=No
+15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
 16	un	un	PRON	_	Gender=Masc|Number=Sing	13	obl	_	_
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	20	case	_	_
@@ -24503,8 +24503,8 @@
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	4	advcl	_	_
 26	puisque	puisque	SCONJ	_	_	29	mark	_	_
-27	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	28	expl	_	SpaceAfter=No
-28	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	29	nsubj	_	_
+27	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	29	nsubj	_	MWEPOS=PRON|SpaceAfter=No
+28	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	27	fixed	_	_
 29	compte	compter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	advcl	_	_
 30	depuis	depuis	ADP	_	_	32	case	_	_
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
@@ -29039,7 +29039,7 @@
 14	Noé	Noé	PROPN	_	_	12	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	9	punct	_	_
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
-17	l'	l'	PART	_	_	18	expl	_	SpaceAfter=No
+17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
 18	un	un	PRON	_	Gender=Masc|Number=Sing	0	root	_	_
 19-20	des	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	22	case	_	_
@@ -29130,7 +29130,7 @@
 4	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
 5	avoir	avoir	AUX	_	VerbForm=Inf	8	aux	_	_
 6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
-7	l'	l'	PART	_	_	8	expl	_	SpaceAfter=No
+7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	un	un	PRON	_	Gender=Masc|Number=Sing	3	xcomp	_	_
 9-10	des	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	12	case	_	_
@@ -29569,8 +29569,8 @@
 15	,	,	PUNCT	_	_	5	punct	_	_
 16	c'est-à-dire	c'est-à-dire	ADV	_	_	21	cc	_	_
 17	que	que	SCONJ	_	_	21	mark	_	_
-18	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	19	expl	_	SpaceAfter=No
-19	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	21	nsubj	_	_
+18	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	21	nsubj	_	MWEPOS=PRON|SpaceAfter=No
+19	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	18	fixed	_	_
 20	y	y	ADV	_	_	21	advmod	_	_
 21	pêche	pêcher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
 22	avant	avant	ADP	_	_	23	case	_	_
@@ -31451,7 +31451,7 @@
 # text = Gibamond est l'un des trois commandants des corps d'armée vandales présent à la bataille de l'Ad Decimum.
 1	Gibamond	Gibamond	PROPN	_	_	4	nsubj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-3	l'	l'	PART	_	_	4	expl	_	SpaceAfter=No
+3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	un	un	PRON	_	Gender=Masc|Number=Sing	0	root	_	_
 5-6	des	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	8	case	_	_
@@ -32637,7 +32637,7 @@
 8	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
 9	restent	rester	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	12	nsubj	_	INMWE=Yes
-11	ne	ne	PART	_	_	12	advmod	_	INMWE=Yes
+11	ne	ne	ADV	_	_	12	advmod	_	INMWE=Yes
 12	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advmod	_	MWEPOS=ADV
 13	plus	plus	ADV	_	_	12	advmod	_	INMWE=Yes
 14	basiques	basique	ADJ	_	Gender=Masc|Number=Plur	9	xcomp	_	SpaceAfter=No
@@ -34004,7 +34004,7 @@
 # sent_id = fr-ud-dev_01228
 # text = Vraisemblablement l'un des premiers ponts suspendus à câble métallique d'Europe, il comportait un pilier central, six câbles porteurs et deux autres piliers aux extrémités de la passerelle.
 1	Vraisemblablement	vraisemblablement	ADV	_	_	3	advmod	_	_
-2	l'	l'	PART	_	_	3	expl	_	SpaceAfter=No
+2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
 3	un	un	PRON	_	Gender=Masc|Number=Sing	16	advcl	_	_
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	7	case	_	_

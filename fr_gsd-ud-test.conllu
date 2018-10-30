@@ -4326,7 +4326,7 @@
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
 9	aura	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	advcl	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-11	premier	premier	NUM	_	_	12	nummod	_	_
+11	premier	premier	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
 12	pas	pas	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
 13	de	de	ADP	_	_	14	mark	_	_
 14	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	SpaceAfter=No
@@ -4695,7 +4695,7 @@
 18	ans	an	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
 19	après	après	ADP	_	_	22	case	_	_
 20	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det	_	_
-21	premier	premier	NUM	_	_	22	nummod	_	_
+21	premier	premier	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
 22	sacre	sacre	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
 23	en	en	ADP	_	_	24	case	_	_
 24	1987	1987	NUM	_	_	22	nmod	_	SpaceAfter=No
@@ -7619,7 +7619,7 @@
 # text = Pour la première fois, j'avais besoin d'une paire de lunette et j'ai été ainsi que mon ami ravi de trouver dans une seule et même boutique des montures tendance dans les plus grandes marque ou de petits créateurs moins connu mais très fashion et aussi pour mon ami quelque chose d'un peu plus classique.
 1	Pour	pour	ADP	_	_	4	case	_	_
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-3	première	première	NUM	_	_	4	nummod	_	_
+3	première	premier	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 4	fois	fois	NOUN	_	Gender=Masc|Number=Plur	7	obl:mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	j'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No

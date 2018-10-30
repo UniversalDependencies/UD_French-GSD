@@ -1779,7 +1779,7 @@
 7-8	au	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	10	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-9	premier	premier	NUM	_	_	10	nummod	_	_
+9	premier	premier	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
 10	contrôle	contrôle	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
 11	mais	mais	CCONJ	_	_	13	cc	_	_
 12	pas	pas	ADV	_	Polarity=Neg	13	advmod	_	_
@@ -8728,7 +8728,7 @@
 # sent_id = fr-ud-dev_00314
 # text = Le premier connaît un relief fort accentué, dont l'enchevêtrement des rues escarpées dessine plusieurs quartiers distincts.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	premier	premier	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	premier	premier	ADJ	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	connaît	connaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	relief	relief	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
@@ -12138,7 +12138,7 @@
 8-9	aux	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	13	case	_	_
 9	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
-10	première	première	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+10	première	premier	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	10	conj	_	_
 13	Conférences	conférence	NOUN	_	Gender=Fem|Number=Plur	3	obl:mod	_	_
@@ -24230,7 +24230,7 @@
 10	seulement	seulement	ADV	_	_	4	advmod	_	_
 11	si	si	SCONJ	_	_	17	mark	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	premier	premier	NOUN	_	Gender=Masc|Number=Sing	17	nsubj:pass	_	_
+13	premier	premier	ADJ	_	Gender=Masc|Number=Sing	17	nsubj:pass	_	_
 14	n'	ne	ADV	_	Polarity=Neg	17	advmod	_	SpaceAfter=No
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
 16	pas	pas	ADV	_	Polarity=Neg	17	advmod	_	_
@@ -28853,7 +28853,7 @@
 # sent_id = fr-ud-dev_01037
 # text = Ce premier de ses vingt-neuf longs métrages fut un énorme succès.
 1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
-2	premier	premier	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+2	premier	premier	ADJ	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3	de	de	ADP	_	_	7	case	_	_
 4	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det	_	_
 5	vingt-neuf	vingt-neuf	NUM	_	_	7	nummod	_	_
@@ -37482,7 +37482,7 @@
 # text = Pour le premier numéro de la saison qui sera diffusé le lundi 13 septembre à 20h40, "Un oeil sur la planète" s'est invité en Suède.
 1	Pour	pour	ADP	_	_	4	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-3	premier	premier	NUM	_	_	4	nummod	_	_
+3	premier	premier	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
 4	numéro	numéro	NOUN	_	Gender=Masc|Number=Sing	27	obl:mod	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_

@@ -3738,7 +3738,7 @@
 10	disputée	disputé	ADJ	_	Gender=Fem|Number=Sing	45	ccomp	_	_
 11	depuis	depuis	ADP	_	_	13	case	_	_
 12	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
-13	indépendance	indépendance	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+13	indépendance	indépendance	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	20	punct	_	_
 15	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
@@ -3984,7 +3984,7 @@
 10	meilleure	meilleur	ADJ	_	Gender=Fem|Number=Sing	25	ccomp	_	_
 11	parmi	parmi	ADP	_	_	13	case	_	_
 12	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
-13	joueurs	joueur	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
+13	joueurs	joueur	NOUN	_	Gender=Masc|Number=Plur	10	obl:mod	_	_
 14	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	15	aux	_	_
 15	disputé	disputer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
 16-17	au	_	_	_	_	_	_	_	_
@@ -4176,7 +4176,7 @@
 24	même	même	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 25	pour	pour	ADP	_	_	27	case	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	Société	Société	PROPN	_	_	24	obl	_	_
+27	Société	Société	PROPN	_	_	24	obl:mod	_	_
 28	Générale	général	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	27	punct	_	_
 30	dont	dont	PRON	_	PronType=Rel	32	nmod	_	_
@@ -4354,9 +4354,9 @@
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 8	alors	alors	ADV	_	_	11	advmod	_	_
-9	de	de	ADP	_	_	11	case	_	_
-10	bon	bon	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
-11	ton	ton	NOUN	_	Gender=Masc|Number=Sing	4	ccomp	_	_
+9	de	de	ADP	_	_	11	case	_	INMWE=Yes
+10	bon	bon	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	INMWE=Yes
+11	ton	ton	NOUN	_	Gender=Masc|Number=Sing	4	ccomp	_	MWEPOS=ADJ
 12	pour	pour	ADP	_	_	14	case	_	_
 13	tout	tout	DET	_	Gender=Masc|Number=Sing	14	det	_	_
 14	homme	homme	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
@@ -5447,9 +5447,9 @@
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
 7	toujours	toujours	ADV	_	_	9	advmod	_	_
 8	en	en	ADP	_	_	9	case	_	_
-9	garde	garde	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-10	à	à	ADP	_	_	9	fixed	_	_
-11	vue	vue	NOUN	_	Gender=Fem|Number=Sing	9	fixed	_	SpaceAfter=No
+9	garde	garde	NOUN	_	Gender=Masc|Number=Plur	0	root	_	MWEPOS=NOUN
+10	à	à	ADP	_	_	11	case	_	INMWE=Yes
+11	vue	vue	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	INMWE=Yes|SpaceAfter=No
 12	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-test_00182
@@ -11038,9 +11038,9 @@
 15	tandis	tandis	ADV	_	_	27	mark	_	MWEPOS=ADP
 16	qu'	que	SCONJ	_	_	15	fixed	_	SpaceAfter=No
 17-18	au	_	_	_	_	_	_	_	_
-17	à	à	ADP	_	_	27	advmod	_	_
-18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	fixed	_	_
-19	dessus	dessus	NOUN	_	Gender=Masc|Number=Sing	17	fixed	_	_
+17	à	à	ADV	_	_	27	advmod	_	_
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	goeswith	_	_
+19	dessus	dessus	NOUN	_	Gender=Masc|Number=Sing	17	goeswith	_	_
 20	de	de	ADP	_	_	22	case	_	_
 21	1 000	1 000	NUM	_	_	22	nummod	_	_
 22	mètres	mètre	NOUN	_	Gender=Masc|Number=Plur	17	obl:arg	_	SpaceAfter=No

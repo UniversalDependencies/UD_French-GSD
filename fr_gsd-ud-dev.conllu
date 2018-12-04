@@ -4831,11 +4831,11 @@
 
 # sent_id = fr-ud-dev_00177
 # text = Suite à ces déclarations, le candidat républicain à l'élection présidentielle, Mitt Romney, lui demande de se retirer de la course.
-1	Suite	suite	NOUN	_	Gender=Fem|Number=Sing	18	obl:mod	_	_
-2	à	à	ADP	_	_	4	case	_	_
+1	Suite	suite	NOUN	_	Gender=Fem|Number=Sing	4	case	_	MWEPOS=ADP
+2	à	à	ADP	_	_	1	fixed	_	_
 3	ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
-4	déclarations	déclaration	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	1	punct	_	_
+4	déclarations	déclaration	NOUN	_	Gender=Fem|Number=Plur	18	obl:mod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	candidat	candidat	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
 8	républicain	républicain	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
@@ -9636,7 +9636,7 @@
 5	de	de	ADP	_	_	7	case	_	_
 6	700	700	NUM	_	_	7	nummod	_	_
 7	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	4	obl:mod	_	_
-8	environ	environ	ADV	_	_	6	advmod	_	SpaceAfter=No
+8	environ	environ	ADV	_	_	7	advmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_00349
@@ -10795,11 +10795,11 @@
 11	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
 12	émission	émission	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	5	punct	_	_
-14	suite	suite	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+14	suite	suite	NOUN	_	Gender=Fem|Number=Sing	17	case	_	MWEPOS=ADP
 15-16	au	_	_	_	_	_	_	_	_
-15	à	à	ADP	_	_	17	case	_	_
+15	à	à	ADP	_	_	14	fixed	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	licenciement	licenciement	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+17	licenciement	licenciement	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
 18	de	de	ADP	_	_	19	case	_	_
 19	Martin	Martin	PROPN	_	_	17	nmod	_	_
 20	Peltier	Peltier	PROPN	_	_	19	flat:name	_	SpaceAfter=No
@@ -12291,7 +12291,7 @@
 12	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det	_	_
 13	travers	travers	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
 14	à	à	ADP	_	_	15	case	_	_
-15	près	près	ADV	_	_	4	obl:mod	_	_
+15	près	près	ADV	_	_	4	advmod	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	300	300	NUM	_	_	18	nummod	_	_
 18	km/h	km/h	NOUN	_	Gender=Masc|Number=Plur	15	obl:mod	_	_
@@ -17397,13 +17397,13 @@
 7	de	de	ADP	_	_	8	case	_	_
 8	Québec	Québec	PROPN	_	_	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	2	punct	_	_
-10	en	en	ADP	_	_	12	case	_	_
-11	même	même	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
-12	temps	temps	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+10	en	en	ADP	_	_	12	case	_	INMWE=Yes
+11	même	même	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	INMWE=Yes
+12	temps	temps	NOUN	_	Gender=Masc|Number=Sing	2	advmod	_	MWEPOS=ADV
 13	qu'	que	SCONJ	_	_	16	case	_	SpaceAfter=No
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 15	autre	autre	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
-16	felquiste	felquiste	NOUN	_	Gender=Masc|Number=Sing	2	obl:mod	_	_
+16	felquiste	felquiste	NOUN	_	Gender=Masc|Number=Sing	12	obl:arg	_	_
 17	Jean	Jean	PROPN	_	_	16	appos	_	_
 18	Denis	Denis	PROPN	_	_	17	flat:name	_	_
 19	Lamoureux	Lamoureux	PROPN	_	_	17	flat:name	_	SpaceAfter=No
@@ -18017,7 +18017,7 @@
 53	terres	terre	NOUN	_	Gender=Fem|Number=Plur	50	obl	_	_
 54	américaines	américain	ADJ	_	Gender=Fem|Number=Plur	53	amod	_	_
 55	à	à	ADP	_	_	56	case	_	_
-56	plus	plus	ADV	_	_	50	obl:mod	_	_
+56	plus	plus	ADV	_	_	50	advmod	_	_
 57	de	de	ADP	_	_	59	case	_	_
 58	5	5	NUM	_	_	59	nummod	_	_
 59	millions	million	NOUN	_	Gender=Masc|Number=Plur	56	obl:mod	_	_
@@ -21078,7 +21078,7 @@
 
 # sent_id = fr-ud-dev_00764
 # text = Boutique agréable, on y trouve plein de marques.
-1	Boutique	boutique	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	_
+1	Boutique	boutique	NOUN	_	Gender=Fem|Number=Sing	6	advcl	_	_
 2	agréable	agréable	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
@@ -25772,7 +25772,7 @@
 # text = D'abord médecin, sa carrière en médecine fut difficile et peu brillante.
 1	D'	de	ADP	_	_	3	advmod	_	MWEPOS=ADV|SpaceAfter=No
 2	abord	abord	ADV	_	_	1	fixed	_	_
-3	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	SpaceAfter=No
+3	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	10	advcl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	10	punct	_	_
 5	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
 6	carrière	carrière	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
@@ -27124,12 +27124,12 @@
 
 # sent_id = fr-ud-dev_00981
 # text = En même temps que son rôle dans Le Caméléon il obtient de petits rôles dans Le Manipulateur et L'amour égaré.
-1	En	en	ADP	_	_	3	case	_	_
-2	même	même	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
-3	temps	temps	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
+1	En	en	ADP	_	_	3	case	_	INMWE=Yes
+2	même	même	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	INMWE=Yes
+3	temps	temps	NOUN	_	Gender=Masc|Number=Sing	11	advmod	_	MWEPOS=ADV
 4	que	que	ADP	_	_	6	case	_	_
 5	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
-6	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
+6	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	3	obl:arg	_	_
 7	dans	dans	ADP	_	_	9	case	_	_
 8	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Caméléon	caméléon	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
@@ -29388,10 +29388,10 @@
 10	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
 11	travail	travail	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	2	punct	_	_
-13	suite	suite	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
-14	à	à	ADP	_	_	16	case	_	_
+13	suite	suite	NOUN	_	Gender=Fem|Number=Sing	16	case	_	MWEPOS=ADP
+14	à	à	ADP	_	_	13	fixed	_	_
 15	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det	_	_
-16	déception	déception	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+16	déception	déception	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
 17	devant	devant	ADP	_	_	19	case	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	politique	politique	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
@@ -29639,12 +29639,12 @@
 1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 2	furent	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
 3	créés	créer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
-4	en	en	ADP	_	_	6	case	_	_
-5	même	même	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
-6	temps	temps	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+4	en	en	ADP	_	_	6	case	_	INMWE=Yes
+5	même	même	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	INMWE=Yes
+6	temps	temps	NOUN	_	Gender=Masc|Number=Sing	3	advmod	_	MWEPOS=ADV
 7	que	que	SCONJ	_	_	9	case	_	_
 8	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
-9	tribuns	tribun	NOUN	_	Gender=Masc|Number=Plur	3	obl:mod	_	_
+9	tribuns	tribun	NOUN	_	Gender=Masc|Number=Plur	6	obl:arg	_	_
 10	de	de	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	plèbe	plèbe	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
@@ -29698,7 +29698,7 @@
 21	dormir	dormir	VERB	_	VerbForm=Inf	20	xcomp	_	_
 22	et	et	CCONJ	_	_	24	cc	_	_
 23	faire	faire	AUX	_	VerbForm=Inf	24	aux:caus	_	_
-24	partir	partir	VERB	_	VerbForm=Inf	21	conj	_	_
+24	partir	partir	VERB	_	VerbForm=Inf	20	conj	_	_
 25	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
 26	humain	humain	NOUN	_	Gender=Masc|Number=Plur	24	obj:agent	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	2	punct	_	_
@@ -34502,12 +34502,12 @@
 14	Hz	hertz	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 15	pour	pour	ADP	_	_	17	case	_	_
 16	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
-17	suites	suite	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+17	suites	suite	NOUN	_	Gender=Fem|Number=Plur	22	case	_	MWEPOS=ADP
 18	de	de	ADP	_	_	22	case	_	_
 19	2	2	NUM	_	_	22	nummod	_	_
-20	à	à	ADP	_	_	22	case	_	_
+20	à	à	ADP	_	_	17	fixed	_	_
 21	6	6	NUM	_	_	19	nummod	_	_
-22	chants	chant	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
+22	chants	chant	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
 23	d'	de	ADP	_	_	26	case	_	SpaceAfter=No
 24	environ	environ	ADV	_	_	25	advmod	_	_
 25	5	5	NUM	_	_	26	nummod	_	_
@@ -35157,11 +35157,11 @@
 # sent_id = fr-ud-dev_01268
 # text = Premier point : vous m'accusez de subjectivisme parce que j'aurais prétendu que le sentiment religieux de l'homme suffit à établir la présence d'une vertu de religion.
 1	Premier	premier	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
-2	point	point	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
+2	point	point	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	:	:	PUNCT	_	_	6	punct	_	_
 4	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	6	nsubj	_	_
 5	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	6	obj	_	SpaceAfter=No
-6	accusez	accuser	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	accusez	accuser	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	subjectivisme	subjectivisme	NOUN	_	Gender=Masc|Number=Sing	6	obl:arg	_	_
 9	parce	parce	ADV	_	_	13	mark	_	MWEPOS=SCONJ
@@ -35579,7 +35579,7 @@
 16	titre	titre	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	_
 17	peut-être	peut-être	ADV	_	_	16	advmod	_	_
 18	que	que	SCONJ	_	_	19	case	_	_
-19	François	François	PROPN	_	_	15	obl:mod	_	_
+19	François	François	PROPN	_	_	16	nmod	_	_
 20	Clerc	Clerc	PROPN	_	_	19	flat:name	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	3	punct	_	_
 22	toujours	toujours	ADV	_	_	23	advmod	_	_
@@ -39777,10 +39777,10 @@
 3	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 4	1932	1932	NUM	_	_	3	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	19	punct	_	_
-6	suite	suite	NOUN	_	Gender=Fem|Number=Sing	19	obl:mod	_	_
-7	à	à	ADP	_	_	9	case	_	_
+6	suite	suite	NOUN	_	Gender=Fem|Number=Sing	9	case	_	MWEPOS=ADP
+7	à	à	ADP	_	_	6	fixed	_	_
 8	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	_
-9	création	création	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	création	création	NOUN	_	Gender=Fem|Number=Sing	19	obl:mod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	6	punct	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Compagnie	compagnie	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_

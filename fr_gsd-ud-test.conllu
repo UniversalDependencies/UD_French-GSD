@@ -4104,10 +4104,10 @@
 26	,	,	PUNCT	_	_	22	punct	_	_
 27	qui	qui	PRON	_	PronType=Rel	28	nsubj	_	_
 28	perdent	perdre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
-29	de	de	ADP	_	_	28	advmod	_	MWEPOS=ADV
-30	plus	plus	ADV	_	_	29	fixed	_	_
-31	en	en	ADP	_	_	29	fixed	_	_
-32	plus	plus	ADV	_	_	29	fixed	_	_
+29	de	de	ADP	_	_	30	case	_	INMWE=Yes
+30	plus	plus	ADV	_	_	28	advmod	_	MWEPOS=ADV
+31	en	en	ADP	_	_	32	case	_	INMWE=Yes
+32	plus	plus	ADV	_	_	28	obl:mod	_	INMWE=Yes
 33	pied	pied	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	_
 34	face	face	NOUN	_	Gender=Fem|Number=Sing	37	case	_	MWEPOS=ADP
 35-36	au	_	_	_	_	_	_	_	_
@@ -4565,10 +4565,10 @@
 23	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
 24	vétérans	vétéran	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	5	punct	_	_
-26	de	de	ADP	_	_	30	advmod	_	MWEPOS=ADV
-27	plus	plus	ADV	_	_	26	fixed	_	_
-28	en	en	ADP	_	_	26	fixed	_	_
-29	plus	plus	ADV	_	_	26	fixed	_	_
+26	de	de	ADP	_	_	27	case	_	INMWE=Yes
+27	plus	plus	ADV	_	_	30	advmod	_	MWEPOS=ADV
+28	en	en	ADP	_	_	29	case	_	INMWE=Yes
+29	plus	plus	ADV	_	_	27	obl:mod	_	INMWE=Yes
 30	motivés	motiver	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	24	acl	_	_
 31	par	par	ADP	_	_	33	case	_	_
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
@@ -7128,8 +7128,8 @@
 11	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
 12	environs	environs	ADV	_	_	13	advmod	_	_
 13	2cm	2cm	NOUN	_	Gender=Masc|Number=Plur	9	xcomp	_	_
-14	de	de	ADP	_	_	13	advmod	_	MWEPOS=ADV
-15	plus	plus	ADV	_	_	14	fixed	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	plus	plus	ADV	_	_	13	advmod	_	_
 16	sur	sur	ADP	_	_	18	case	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	diamètre	diamètre	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
@@ -7739,8 +7739,8 @@
 # text = Que rechercher de plus lorsqu'on a paisiblement séjourné dans une chambre aussi confortable et bien décorée... !
 1	Que	que	PRON	_	_	2	obj	_	_
 2	rechercher	rechercher	VERB	_	VerbForm=Inf	0	root	_	_
-3	de	de	ADP	_	_	2	advmod	_	MWEPOS=ADV
-4	plus	plus	ADV	_	_	3	fixed	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	plus	plus	ADV	_	_	1	advmod	_	_
 5	lorsqu'	lorsque	SCONJ	_	_	9	mark	_	SpaceAfter=No
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_

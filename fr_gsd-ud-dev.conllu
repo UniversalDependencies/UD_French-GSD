@@ -4270,8 +4270,8 @@
 2	information	information	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	n'	ne	ADV	_	Polarity=Neg	7	advmod	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
-5	d'	de	ADP	_	_	7	advmod	_	MWEPOS=ADV|SpaceAfter=No
-6	ailleurs	ailleurs	ADV	_	_	5	fixed	_	_
+5	d'	de	ADP	_	_	6	case	_	INMWE=Yes|SpaceAfter=No
+6	ailleurs	ailleurs	ADV	_	_	7	advmod	_	MWEPOS=ADV
 7	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	objet	objet	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
@@ -9331,8 +9331,8 @@
 2	musée	musée	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 3	taurin	taurin	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
-5	d'	de	ADP	_	_	8	advmod	_	MWEPOS=ADV|SpaceAfter=No
-6	ailleurs	ailleurs	ADV	_	_	5	fixed	_	_
+5	d'	de	ADP	_	_	6	case	_	INMWE=Yes|SpaceAfter=No
+6	ailleurs	ailleurs	ADV	_	_	8	advmod	_	MWEPOS=ADV
 7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
 8	construit	construire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	dans	dans	ADP	_	_	11	case	_	_
@@ -9607,8 +9607,8 @@
 # text = Pourquoi, d'ailleurs, les préservatifs seraient-ils détenus par la femme, alors qu'ils concernent l'homme ?
 1	Pourquoi	pourquoi	ADV	_	_	10	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	10	punct	_	_
-3	d'	de	ADP	_	_	10	advmod	_	MWEPOS=ADV|SpaceAfter=No
-4	ailleurs	ailleurs	ADV	_	_	3	fixed	_	SpaceAfter=No
+3	d'	de	ADP	_	_	4	case	_	INMWE=Yes|SpaceAfter=No
+4	ailleurs	ailleurs	ADV	_	_	10	advmod	_	MWEPOS=ADV|SpaceAfter=No
 5	,	,	PUNCT	_	_	10	punct	_	_
 6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	préservatifs	préservatif	NOUN	_	Gender=Masc|Number=Plur	10	nsubj:pass	_	_
@@ -20038,8 +20038,8 @@
 # text = Cela explique d'ailleurs la position plutôt mesurée pour ne pas dire ambiguë de Rabat vis-à-vis de l'Union pour la Méditerranée.
 1	Cela	cela	PRON	_	Number=Sing|PronType=Dem	2	nsubj	_	_
 2	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	d'	de	ADP	_	_	2	advmod	_	MWEPOS=ADV|SpaceAfter=No
-4	ailleurs	ailleurs	ADV	_	_	3	fixed	_	_
+3	d'	de	ADP	_	_	4	case	_	INMWE=Yes|SpaceAfter=No
+4	ailleurs	ailleurs	ADV	_	_	2	advmod	_	MWEPOS=ADV
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	position	position	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
 7	plutôt	plutôt	ADV	_	_	8	advmod	_	_
@@ -28533,8 +28533,8 @@
 1	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 2	Enzo	Enzo	PROPN	_	_	1	flat:name	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
-4	d'	de	ADP	_	_	6	advmod	_	MWEPOS=ADV|SpaceAfter=No
-5	ailleurs	ailleurs	ADV	_	_	4	fixed	_	_
+4	d'	de	ADP	_	_	5	case	_	INMWE=Yes|SpaceAfter=No
+5	ailleurs	ailleurs	ADV	_	_	6	advmod	_	MWEPOS=ADV
 6	envoyé	envoyer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	paître	paître	VERB	_	VerbForm=Inf	6	xcomp	_	_
 8	une	un	PRON	_	Gender=Fem|Number=Sing	7	obj	_	_
@@ -32409,8 +32409,8 @@
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	dernière	dernier	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
-4	d'	de	ADP	_	_	7	advmod	_	MWEPOS=ADV|SpaceAfter=No
-5	ailleurs	ailleurs	ADV	_	_	4	fixed	_	_
+4	d'	de	ADP	_	_	5	case	_	INMWE=Yes|SpaceAfter=No
+5	ailleurs	ailleurs	ADV	_	_	7	advmod	_	MWEPOS=ADV
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	fondement	fondement	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 8	non	non	ADV	_	_	9	advmod	_	_

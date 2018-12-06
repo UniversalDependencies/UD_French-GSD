@@ -5064,8 +5064,8 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ton	ton	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
-4	d'	de	ADP	_	_	7	advmod	_	MWEPOS=ADV|SpaceAfter=No
-5	ailleurs	ailleurs	ADV	_	_	4	fixed	_	_
+4	d'	de	ADP	_	_	5	case	_	INMWE=Yes|SpaceAfter=No
+5	ailleurs	ailleurs	ADV	_	_	7	advmod	_	MWEPOS=ADV
 6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
 7	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	hier	hier	ADV	_	_	7	advmod	_	_
@@ -7144,8 +7144,8 @@
 27	€	€	SYM	_	_	23	obj	_	_
 28	plus	plus	ADV	_	_	29	advmod	_	_
 29	cher	cher	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
-30	d'	de	ADP	_	_	23	advmod	_	MWEPOS=ADV|SpaceAfter=No
-31	ailleurs	ailleurs	ADV	_	_	30	fixed	_	SpaceAfter=No
+30	d'	de	ADP	_	_	31	case	_	INMWE=Yes|SpaceAfter=No
+31	ailleurs	ailleurs	ADV	_	_	23	advmod	_	MWEPOS=ADV|SpaceAfter=No
 32	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-test_00254

@@ -3106,8 +3106,8 @@
 
 # sent_id = fr-ud-dev_00110
 # text = De plus, elles n'ont eu aucun impact manifeste sur les populations d'Achatines.
-1	De	de	ADP	_	_	7	advmod	_	MWEPOS=ADV
-2	plus	plus	ADV	_	_	1	fixed	_	SpaceAfter=No
+1	De	de	ADP	_	_	2	case	_	INMWE=Yes|MWEPOS=ADV
+2	plus	plus	ADV	_	_	7	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
 5	n'	ne	ADV	_	Polarity=Neg	7	advmod	_	SpaceAfter=No
@@ -11583,8 +11583,8 @@
 
 # sent_id = fr-ud-dev_00418
 # text = De plus pour couronner le tout j'ai eu la visite de deux cafards (cancrelats) un dans la salle de bains et l'autre, plus audacieux, près du lit.
-1	De	de	ADP	_	_	9	advmod	_	MWEPOS=ADV
-2	plus	plus	ADV	_	_	1	fixed	_	_
+1	De	de	ADP	_	_	2	case	_	INMWE=Yes|MWEPOS=ADV
+2	plus	plus	ADV	_	_	9	advmod	_	MWEPOS=ADV
 3	pour	pour	ADP	_	_	4	mark	_	_
 4	couronner	couronner	VERB	_	VerbForm=Inf	9	advcl	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -27298,8 +27298,8 @@
 
 # sent_id = fr-ud-dev_00986
 # text = De plus, le double homicide commis sur un couple avait eu lieu sur le parking du cimetière de Laigneville.
-1	De	de	ADP	_	_	12	advmod	_	MWEPOS=ADV
-2	plus	plus	ADV	_	_	1	fixed	_	SpaceAfter=No
+1	De	de	ADP	_	_	2	case	_	INMWE=Yes|MWEPOS=ADV
+2	plus	plus	ADV	_	_	12	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	double	double	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
@@ -32999,8 +32999,8 @@
 
 # sent_id = fr-ud-dev_01196
 # text = De plus, quand on sait que le père du patron est un ancien boucher, on devine que la viande sera toujours d'excellente qualité.
-1	De	de	ADP	_	_	19	advmod	_	MWEPOS=ADV
-2	plus	plus	ADV	_	_	1	fixed	_	SpaceAfter=No
+1	De	de	ADP	_	_	2	case	_	INMWE=Yes|MWEPOS=ADV
+2	plus	plus	ADV	_	_	19	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	19	punct	_	_
 4	quand	quand	SCONJ	_	_	6	mark	_	_
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_

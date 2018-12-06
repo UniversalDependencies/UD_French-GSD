@@ -12185,9 +12185,9 @@
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
 14	pas	pas	ADV	_	Polarity=Neg	18	advmod	_	_
 15-16	du	_	_	_	_	_	_	_	_
-15	de	de	ADP	_	_	17	case	_	_
-16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	tout	tout	NOUN	_	Gender=Masc|Number=Sing	18	obl:mod	_	_
+15	de	de	ADP	_	_	17	case	_	INMWE=Yes
+16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	INMWE=Yes
+17	tout	tout	NOUN	_	Gender=Masc|Number=Sing	18	advmod	_	MWEPOS=ADV
 18	respectée	respecter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	pour	pour	ADP	_	_	29	case	_	SpaceAfter=No

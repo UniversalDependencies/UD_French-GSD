@@ -2872,9 +2872,9 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	n'	ne	ADV	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
 3	y	y	PRON	_	_	5	expl	_	_
-4	en	en	PRON	_	Person=3	5	iobj	_	_
+4	en	en	PRON	_	Person=3	6	nmod	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	point	point	ADV	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
+6	point	point	ADV	_	Polarity=Neg	5	obj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-test_00098
@@ -11341,7 +11341,7 @@
 13	base	base	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	18	punct	_	_
 15	celles-ci	celui-ci	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	18	nsubj	_	_
-16	en	en	PRON	_	Person=3	18	iobj	_	_
+16	en	en	PRON	_	Person=3	18	nmod	_	_
 17	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
 18	membres	membre	NOUN	_	Gender=Masc|Number=Plur	4	conj	_	_
 19	par	par	ADP	_	_	21	case	_	_

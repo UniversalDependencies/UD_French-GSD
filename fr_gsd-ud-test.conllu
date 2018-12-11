@@ -11297,11 +11297,11 @@
 6	établit	établir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	_
 8	siège	siège	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
-9	à	à	ADP	_	_	10	case	_	_
-10	côté	côté	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
+9	à	à	ADP	_	_	10	case	_	INMWE=Yes
+10	côté	côté	NOUN	_	Gender=Masc|Number=Sing	6	advmod	_	MWEPOS=ADV
 11	de	de	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	maison	maison	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+13	maison	maison	NOUN	_	Gender=Fem|Number=Sing	10	obl:arg	_	_
 14-15	des	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_

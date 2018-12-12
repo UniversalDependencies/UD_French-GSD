@@ -2619,11 +2619,11 @@
 32	elliptique	elliptique	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	31	punct	_	_
 34	suspendu	suspendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	acl	_	_
-35	au-dessus	au-dessus	ADP	_	_	38	case	_	MWEPOS=ADP
+35	au-dessus	au-dessus	ADP	_	_	34	advmod	_	MWEPOS=ADP
 36-37	du	_	_	_	_	_	_	_	_
-36	de	de	ADP	_	_	35	fixed	_	_
+36	de	de	ADP	_	_	38	case	_	_
 37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
-38	terminal	terminal	NOUN	_	Gender=Masc|Number=Sing	34	obl	_	_
+38	terminal	terminal	NOUN	_	Gender=Masc|Number=Sing	35	obl:arg	_	_
 39	par	par	ADP	_	_	41	case	_	_
 40	32	32	NUM	_	_	41	nummod	_	_
 41	jeux	jeu	NOUN	_	Gender=Masc|Number=Plur	34	obl:arg	_	_
@@ -4588,11 +4588,11 @@
 # sent_id = fr-ud-dev_00169
 # text = Située à proximité de la route menant au parc national de Zion, il s'agit d'une des villes fantômes les plus connues du pays.
 1	Située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	advcl	_	_
-2	à	à	ADP	_	_	3	case	_	_
-3	proximité	proximité	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	_
+2	à	à	ADP	_	_	3	case	_	INMWE=Yes
+3	proximité	proximité	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	MWEPOS=ADV
 4	de	de	ADP	_	_	6	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	route	route	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	route	route	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	_
 7	menant	mener	VERB	_	Tense=Pres|VerbForm=Part	6	acl	_	_
 8-9	au	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	10	case	_	_
@@ -31349,12 +31349,12 @@
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Grand	Grand	PROPN	_	_	13	appos	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	4	punct	_	_
-17	à	à	ADP	_	_	18	case	_	_
-18	proximité	proximité	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
+17	à	à	ADP	_	_	18	case	_	INMWE=Yes
+18	proximité	proximité	NOUN	_	Gender=Fem|Number=Sing	4	advmod	_	MWEPOS=ADV
 19-20	du	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	palais	palais	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	palais	palais	NOUN	_	Gender=Masc|Number=Sing	18	obl:arg	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	4	punct	_	_
 23	pour	pour	ADP	_	_	25	case	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
@@ -33920,13 +33920,13 @@
 15	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	Tour-de-Salvagny	Tour-de-Salvagny	PROPN	_	_	13	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	10	punct	_	_
-18	à	à	ADP	_	_	19	case	_	_
-19	proximité	proximité	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	_
+18	à	à	ADP	_	_	19	case	_	INMWE=Yes
+19	proximité	proximité	NOUN	_	Gender=Fem|Number=Sing	10	advmod	_	MWEPOS=ADV
 20	immédiate	immédiat	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
 21-22	du	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	Casino	casino	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+23	Casino	casino	NOUN	_	Gender=Masc|Number=Sing	19	obl:arg	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	Lyon	Lyon	PROPN	_	_	23	appos	_	_
 26	Vert	vert	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No

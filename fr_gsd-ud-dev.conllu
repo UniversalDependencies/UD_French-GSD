@@ -2619,7 +2619,7 @@
 32	elliptique	elliptique	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	31	punct	_	_
 34	suspendu	suspendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	acl	_	_
-35	au-dessus	au-dessus	ADV	_	_	34	advmod	_	MWEPOS=ADP
+35	au-dessus	au-dessus	ADV	_	_	34	advmod	_	_
 36-37	du	_	_	_	_	_	_	_	_
 36	de	de	ADP	_	_	38	case	_	_
 37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
@@ -33339,7 +33339,7 @@
 
 # sent_id = fr-ud-dev_01208
 # text = 1, un succès dans son pays d'origine, Croatie, il est très populaire chez les jeunes en Europe.
-1	1	1	NUM	_	_	16	advcl	_	SpaceAfter=No
+1	1	1	NUM	_	_	16	parataxis	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	4	punct	_	_
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	succès	succès	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
@@ -34220,7 +34220,7 @@
 29	nocturnes	nocturne	ADJ	_	Gender=Fem|Number=Plur	28	amod	_	SpaceAfter=No
 30	)	)	PUNCT	_	_	28	punct	_	_
 31	mais	mais	CCONJ	_	_	32	cc	_	_
-32	constituant	constituer	VERB	_	Tense=Pres|VerbForm=Part	18	conj	_	_
+32	constituant	constituer	VERB	_	Tense=Pres|VerbForm=Part	17	conj	_	_
 33	surtout	surtout	ADV	_	_	32	advmod	_	_
 34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	cadre	cadre	NOUN	_	Gender=Masc|Number=Sing	32	obj	_	_
@@ -34596,7 +34596,7 @@
 5	dans	dans	ADP	_	_	7	case	_	_
 6	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	7	det	_	_
 7	pensées	pensée	NOUN	_	Gender=Fem|Number=Plur	4	obl:mod	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	1	punct	_	_
+8	,	,	PUNCT	_	_	4	punct	_	_
 9	Adam	Adam	PROPN	_	_	11	nsubj	_	_
 10	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
 11	détacha	détacher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_

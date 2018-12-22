@@ -293,11 +293,11 @@
 8	et	et	CCONJ	_	_	21	cc	_	_
 9	qui	qui	PRON	_	PronType=Rel	21	nsubj	_	_
 10-11	au	_	_	_	_	_	_	_	_
-10	à	à	ADP	_	_	12	case	_	_
-11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	21	obl:mod	_	_
+10	à	à	ADP	_	_	12	case	_	INMWE=Yes
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	INMWE=Yes
+12	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	21	advmod	_	MWEPOS=ADV
 13	de	de	ADP	_	_	14	mark	_	_
-14	souligner	souligner	VERB	_	VerbForm=Inf	12	acl	_	_
+14	souligner	souligner	VERB	_	VerbForm=Inf	12	xcomp	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	thématique	thématique	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
 17-18	du	_	_	_	_	_	_	_	_
@@ -22517,11 +22517,11 @@
 # sent_id = fr-ud-dev_00817
 # text = Au lieu de ceci, Ruge décida que sa seule chance était de jouer la montre, d'immobiliser les Allemands jusqu'à ce que des renforts puissent arriver de France et du Royaume-Uni.
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	3	case	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
+1	à	à	ADP	_	_	3	case	_	INMWE=Yes
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	INMWE=Yes
+3	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	8	advmod	_	MWEPOS=ADV
 4	de	de	ADP	_	_	5	case	_	_
-5	ceci	ceci	PRON	_	Number=Sing	3	nmod	_	SpaceAfter=No
+5	ceci	ceci	PRON	_	Number=Sing	3	obl:arg	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	Ruge	Ruge	PROPN	_	_	8	nsubj	_	_
 8	décida	décider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_

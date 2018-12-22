@@ -207,11 +207,11 @@
 # text = Les spéculations autour du match sont à leur paroxysme.
 1	Les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	spéculations	spéculation	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
-3	autour	autour	ADP	_	_	6	case	_	MWEPOS=ADP
+3	autour	autour	ADV	_	_	2	advmod	_	_
 4-5	du	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	3	fixed	_	_
+4	de	de	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	match	match	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	match	match	NOUN	_	Gender=Masc|Number=Sing	3	obl:arg	_	_
 7	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 8	à	à	ADP	_	_	10	case	_	_
 9	leur	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
@@ -292,7 +292,7 @@
 33	toute	tout	DET	_	Gender=Fem|Number=Sing	34	det	_	_
 34	sécurité	sécurité	NOUN	_	Gender=Fem|Number=Sing	21	obl:mod	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	47	punct	_	_
-36	parce	parce	ADV	_	_	47	mark	_	MWEPOS=ADP
+36	parce	parce	ADV	_	_	47	mark	_	MWEPOS=SCONJ
 37	que	que	SCONJ	_	_	36	fixed	_	_
 38	leur	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	39	det	_	_
 39	coeur	coeur	NOUN	_	Gender=Masc|Number=Sing	47	nsubj	_	_
@@ -800,9 +800,9 @@
 6	faire	faire	AUX	_	VerbForm=Inf	7	aux:caus	_	_
 7	circuler	circuler	VERB	_	VerbForm=Inf	2	xcomp	_	_
 8	largement	largement	ADV	_	_	7	advmod	_	_
-9	autour	autour	ADP	_	_	11	case	_	MWEPOS=ADP
-10	de	de	ADP	_	_	9	fixed	_	_
-11	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	7	obl	_	_
+9	autour	autour	ADV	_	_	7	advmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	9	obl:arg	_	_
 12	!	!	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-test_00029
@@ -1546,7 +1546,7 @@
 39	Sahara	Sahara	PROPN	_	_	35	nmod	_	_
 40	occidental	occidental	ADJ	_	Gender=Masc|Number=Sing	39	amod	_	SpaceAfter=No
 41	,	,	PUNCT	_	_	47	punct	_	_
-42	parce	parce	ADV	_	_	47	mark	_	MWEPOS=ADP
+42	parce	parce	ADV	_	_	47	mark	_	MWEPOS=SCONJ
 43	qu'	que	SCONJ	_	_	42	fixed	_	SpaceAfter=No
 44	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	47	nsubj	_	_
 45	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	47	cop	_	_
@@ -4107,7 +4107,7 @@
 29	de	de	ADP	_	_	30	case	_	INMWE=Yes
 30	plus	plus	ADV	_	_	28	advmod	_	MWEPOS=ADV
 31	en	en	ADP	_	_	32	case	_	INMWE=Yes
-32	plus	plus	ADV	_	_	30	obl:mod	_	INMWE=Yes
+32	plus	plus	ADV	_	_	30	advmod	_	INMWE=Yes
 33	pied	pied	NOUN	_	Gender=Masc|Number=Sing	28	obj:lvc	_	_
 34	face	face	NOUN	_	Gender=Fem|Number=Sing	37	case	_	MWEPOS=ADP
 35-36	au	_	_	_	_	_	_	_	_
@@ -4568,7 +4568,7 @@
 26	de	de	ADP	_	_	27	case	_	INMWE=Yes
 27	plus	plus	ADV	_	_	30	advmod	_	MWEPOS=ADV
 28	en	en	ADP	_	_	29	case	_	INMWE=Yes
-29	plus	plus	ADV	_	_	27	obl:mod	_	INMWE=Yes
+29	plus	plus	ADV	_	_	27	advmod	_	INMWE=Yes
 30	motivés	motiver	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	24	acl	_	_
 31	par	par	ADP	_	_	33	case	_	_
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
@@ -4819,21 +4819,21 @@
 19	Richard	Richard	PROPN	_	_	13	appos	_	_
 20	Juzanx	Juzanx	PROPN	_	_	19	flat:name	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	6	punct	_	_
-22	tandis	tandis	ADV	_	_	28	mark	_	MWEPOS=ADP
+22	tandis	tandis	ADV	_	_	30	mark	_	MWEPOS=SCONJ
 23	que	que	SCONJ	_	_	22	fixed	_	_
 24	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
 25	80	80	NUM	_	_	26	nummod	_	_
-26	bénévoles	bénévole	NOUN	_	Gender=Masc|Number=Plur	28	nsubj	_	_
+26	bénévoles	bénévole	NOUN	_	Gender=Masc|Number=Plur	30	nsubj	_	_
 27	canéjanais	canéjanais	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	_
-28	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+28	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
 29	en	en	ADP	_	_	30	case	_	INMWE=Yes
-30	plein	plein	ADJ	_	Gender=Masc|Number=Sing	33	advmod	_	MWEPOS=ADV
+30	plein	plein	ADJ	_	Gender=Masc|Number=Sing	6	advcl	_	MWEPOS=ADV
 31	dans	dans	ADP	_	_	33	case	_	_
 32	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
-33	préparatifs	préparatif	NOUN	_	Gender=Masc|Number=Plur	28	obl:mod	_	_
+33	préparatifs	préparatif	NOUN	_	Gender=Masc|Number=Plur	30	obl:arg	_	_
 34	et	et	CCONJ	_	_	36	cc	_	_
 35	s'	se	PRON	_	Person=3|PronType=Prs	36	expl	_	SpaceAfter=No
-36	apprêtent	apprêter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	conj	_	_
+36	apprêtent	apprêter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	conj	_	_
 37	à	à	ADP	_	_	38	mark	_	_
 38	vivre	vivre	VERB	_	VerbForm=Inf	36	xcomp	_	_
 39	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
@@ -5116,7 +5116,7 @@
 
 # sent_id = fr-ud-test_00170
 # text = De plus, on pourra aussi trouver une nouveauté avec le Salon du jeu en bois.
-1	De	de	ADP	_	_	2	case	_	INMWE=Yes|MWEPOS=ADV
+1	De	de	ADP	_	_	2	case	_	INMWE=Yes
 2	plus	plus	ADV	_	_	5	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
@@ -7928,9 +7928,9 @@
 18	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
 19	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	23	punct	_	_
-21	où	où	PRON	_	_	23	advmod	_	_
+21	où	où	PRON	_	PronType=Rel	23	advmod	_	_
 22	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	23	nsubj	_	_
-23	apprend	apprendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+23	apprend	apprendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
 24	mais	mais	CCONJ	_	_	27	cc	_	_
 25	surtout	surtout	ADV	_	_	27	advmod	_	_
 26	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
@@ -8852,7 +8852,7 @@
 # text = Si, ce qui est probable, le Premier ministre grec va au bout de sa décision et que ses compatriotes rejettent le plan de sauvetage financier européen, la sortie de leur pays de la zone Euro en sera inéluctable et, par effet induit, l'éclatement de celle-ci.
 1	Si	si	SCONJ	_	_	12	mark	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	12	punct	_	_
-3	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	12	obl:mod	_	_
+3	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	12	parataxis	_	_
 4	qui	qui	PRON	_	PronType=Rel	6	nsubj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 6	probable	probable	ADJ	_	Gender=Masc|Number=Sing	3	acl:relcl	_	SpaceAfter=No
@@ -9381,7 +9381,7 @@
 # text = Ainsi, bien que TiVo réponde aux clauses de la GPL 2 en redistribuant le code source modifié, aucune modification de ce code source ne peut fonctionner sur le matériel distribué par TiVo.
 1	Ainsi	ainsi	ADV	_	_	28	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	28	punct	_	_
-3	bien	bien	ADV	_	_	6	mark	_	MWEPOS=ADP
+3	bien	bien	ADV	_	_	6	mark	_	MWEPOS=SCONJ
 4	que	que	SCONJ	_	_	3	fixed	_	_
 5	TiVo	TiVo	PROPN	_	_	6	nsubj	_	_
 6	réponde	répondre	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	advcl	_	_
@@ -10166,7 +10166,7 @@
 17	par	par	ADP	_	_	19	case	_	_
 18	41,7	41,7	NUM	_	_	19	nummod	_	SpaceAfter=No
 19	%	%	SYM	_	_	16	obl:agent	_	_
-20	alors	alors	ADV	_	_	27	mark	_	MWEPOS=ADP
+20	alors	alors	ADV	_	_	27	mark	_	MWEPOS=SCONJ
 21	que	que	SCONJ	_	_	20	fixed	_	_
 22	2,3	2,3	NUM	_	_	23	nummod	_	SpaceAfter=No
 23	%	%	SYM	_	_	27	nsubj	_	_
@@ -11035,7 +11035,7 @@
 12	de	de	ADP	_	_	14	case	_	_
 13	faibles	faible	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	_
 14	altitudes	altitude	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
-15	tandis	tandis	ADV	_	_	27	mark	_	MWEPOS=ADP
+15	tandis	tandis	ADV	_	_	27	mark	_	MWEPOS=SCONJ
 16	qu'	que	SCONJ	_	_	15	fixed	_	SpaceAfter=No
 17-18	au	_	_	_	_	_	_	_	_
 17	à	à	ADV	_	_	27	advmod	_	_
@@ -11184,7 +11184,7 @@
 
 # sent_id = fr-ud-dev_01586
 # text = Bien qu'il ait eu un fils, Damien, Satan est homosexuel et a eu de nombreuses relations avec Saddam Hussein (dans South Park, le film : Plus long, plus grand et pas coupé et dans le story arc Les handicapés vont-ils en enfer ?/Probablement !).
-1	Bien	bien	ADV	_	_	5	mark	_	MWEPOS=ADP
+1	Bien	bien	ADV	_	_	5	mark	_	MWEPOS=SCONJ
 2	qu'	que	SCONJ	_	_	1	fixed	_	SpaceAfter=No
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	ait	avoir	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_

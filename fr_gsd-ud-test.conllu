@@ -6472,9 +6472,9 @@
 7	que	que	SCONJ	_	_	13	mark	_	_
 8	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	13	nsubj	_	SpaceAfter=No
 9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
-10	à	à	ADP	_	_	13	advmod	_	MWEPOS=ADV
-11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	fixed	_	_
-12	fois	fois	NOUN	_	Gender=Masc|Number=Plur	10	fixed	_	_
+10	à	à	ADP	_	_	12	case	_	INMWE=Yes
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	INMWE=Yes
+12	fois	fois	NOUN	_	Gender=Masc|Number=Plur	13	advmod	_	MWEPOS=ADV
 13	futuriste	futuriste	ADJ	_	Gender=Masc|Number=Sing	6	ccomp	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	romantique	romantique	ADJ	_	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
@@ -7977,9 +7977,9 @@
 7	rénover	rénover	VERB	_	VerbForm=Inf	3	xcomp	_	_
 8	mes	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	9	det	_	_
 9	serrures	serrure	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
-10	à	à	ADP	_	_	14	advmod	_	MWEPOS=ADV
-11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	fixed	_	_
-12	fois	fois	NOUN	_	Gender=Masc|Number=Plur	10	fixed	_	_
+10	à	à	ADP	_	_	12	case	_	INMWE=Yes
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	INMWE=Yes
+12	fois	fois	NOUN	_	Gender=Masc|Number=Plur	14	advmod	_	MWEPOS=ADV
 13	à	à	ADP	_	_	14	case	_	_
 14	titre	titre	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
 15	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_

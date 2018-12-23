@@ -6014,7 +6014,7 @@
 2	raison	raison	NOUN	_	Gender=Fem|Number=Sing	11	advmod	_	MWEPOS=ADV
 3	de	de	ADP	_	_	5	case	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	puissance	puissance	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	puissance	puissance	NOUN	_	Gender=Fem|Number=Sing	2	obl:arg	_	_
 6-7	du	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -10047,7 +10047,7 @@
 1	En	en	ADP	_	_	2	case	_	INMWE=Yes
 2	raison	raison	NOUN	_	Gender=Fem|Number=Sing	11	advmod	_	MWEPOS=ADV
 3	de	de	ADP	_	_	4	case	_	_
-4	blessures	blessure	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+4	blessures	blessure	NOUN	_	Gender=Fem|Number=Plur	2	obl:arg	_	_
 5	à	à	ADP	_	_	7	case	_	_
 6	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	épaule	épaule	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
@@ -13807,7 +13807,7 @@
 29-30	des	_	_	_	_	_	_	_	_
 29	de	de	ADP	_	_	31	case	_	_
 30	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
-31	divergences	divergence	NOUN	_	Gender=Fem|Number=Plur	25	nmod	_	_
+31	divergences	divergence	NOUN	_	Gender=Fem|Number=Plur	25	obl:arg	_	_
 32	nées	naître	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	31	acl	_	_
 33	entre	entre	ADP	_	_	34	case	_	_
 34	Ryadh	Ryadh	PROPN	_	_	32	obl:mod	_	_
@@ -13978,7 +13978,7 @@
 31	raison	raison	NOUN	_	Gender=Fem|Number=Sing	7	advmod	_	MWEPOS=ADV
 32	de	de	ADP	_	_	34	case	_	_
 33	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
-34	alerte	alerte	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
+34	alerte	alerte	NOUN	_	Gender=Fem|Number=Sing	31	obl:arg	_	_
 35-36	au	_	_	_	_	_	_	_	_
 35	à	à	ADP	_	_	37	case	_	_
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
@@ -15189,7 +15189,7 @@
 72	raison	raison	NOUN	_	Gender=Fem|Number=Sing	63	advmod	_	MWEPOS=ADV
 73	de	de	ADP	_	_	75	case	_	_
 74	leur	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	75	det	_	_
-75	orientation	orientation	NOUN	_	Gender=Fem|Number=Sing	72	nmod	_	_
+75	orientation	orientation	NOUN	_	Gender=Fem|Number=Sing	72	obl:arg	_	_
 76	sexuelle	sexuel	ADJ	_	Gender=Fem|Number=Sing	75	amod	_	SpaceAfter=No
 77	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -16876,7 +16876,7 @@
 2	raison	raison	NOUN	_	Gender=Fem|Number=Sing	15	advmod	_	MWEPOS=ADV
 3	de	de	ADP	_	_	5	case	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	surpopulation	surpopulation	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	surpopulation	surpopulation	NOUN	_	Gender=Fem|Number=Sing	2	obl:arg	_	_
 6	et	et	CCONJ	_	_	8	cc	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	manque	manque	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
@@ -25791,7 +25791,7 @@
 2	raison	raison	NOUN	_	Gender=Fem|Number=Sing	12	advmod	_	MWEPOS=ADV
 3	de	de	ADP	_	_	5	case	_	_
 4	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	_
-5	valeur	valeur	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	valeur	valeur	NOUN	_	Gender=Fem|Number=Sing	2	obl:arg	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	12	punct	_	_
 7	notamment	notamment	ADV	_	_	8	advmod	_	_
 8	historique	historique	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
@@ -35036,11 +35036,11 @@
 19	vers	vers	ADP	_	_	21	case	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	Nord	nord	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
-22	puis	puis	SCONJ	_	_	23	cc	_	_
+22	puis	puis	SCONJ	_	_	26	cc	_	_
 23	lors	lors	ADV	_	_	26	case	_	MWEPOS=ADP
 24	de	de	ADP	_	_	23	fixed	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+26	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
 27	de	de	ADP	_	_	28	case	_	_
 28	Yamasee	Yamasee	PROPN	_	_	26	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	26	punct	_	_

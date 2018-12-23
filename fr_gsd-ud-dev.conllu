@@ -3866,8 +3866,8 @@
 
 # sent_id = fr-ud-dev_00142
 # text = En effet, si c'est la peur qui conduit les petits porteurs à se débarrasser de leurs titres, ce sont des automates qui gèrent les actions des investisseurs institutionnels.
-1	En	en	ADP	_	_	2	case	_	_
-2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	24	obl:mod	_	SpaceAfter=No
+1	En	en	ADP	_	_	2	case	_	INMWE=Yes
+2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	24	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	si	si	SCONJ	_	_	8	mark	_	_
 5	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	8	nsubj	_	SpaceAfter=No
@@ -7328,8 +7328,8 @@
 
 # sent_id = fr-ud-dev_00262
 # text = En effet, on y retrouve la même approche, des arrangements précis combinés à une grande liberté laissée aux solistes.
-1	En	en	ADP	_	_	2	case	_	_
-2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	SpaceAfter=No
+1	En	en	ADP	_	_	2	case	_	INMWE=Yes
+2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	6	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 5	y	y	ADV	_	_	6	advmod	_	_
@@ -8277,8 +8277,8 @@
 
 # sent_id = fr-ud-dev_00294
 # text = En effet, l'oxygène favorise la croissance des micro-organismes, ceux-ci sont la cause des changements de couleur et des odeurs de rance dans la nourriture emballée.
-1	En	en	ADP	_	_	2	case	_	_
-2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	SpaceAfter=No
+1	En	en	ADP	_	_	2	case	_	INMWE=Yes
+2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	6	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	oxygène	oxygène	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -10325,8 +10325,8 @@
 
 # sent_id = fr-ud-dev_00372
 # text = En effet, il croyait connaître les classiques ;
-1	En	en	ADP	_	_	2	case	_	_
-2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	SpaceAfter=No
+1	En	en	ADP	_	_	2	case	_	INMWE=Yes
+2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	5	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	croyait	croire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -17254,8 +17254,8 @@
 
 # sent_id = fr-ud-dev_00620
 # text = En effet Emma de Rouillé avait épousé le comte de la Barre d'Erquelinnes, propriétaire du château à la fin du XIXe siècle.
-1	En	en	ADP	_	_	2	case	_	_
-2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
+1	En	en	ADP	_	_	2	case	_	INMWE=Yes
+2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	7	advmod	_	MWEPOS=ADV
 3	Emma	Emma	PROPN	_	_	7	nsubj	_	_
 4	de	de	ADP	_	_	3	flat:name	_	_
 5	Rouillé	Rouillé	PROPN	_	_	3	flat:name	_	_
@@ -25036,8 +25036,8 @@
 14	Lyon-aviation	Lyon-aviation	PROPN	_	_	12	nmod	_	_
 15	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	attirer	attirer	VERB	_	VerbForm=Inf	15	xcomp	_	_
-17	en	en	ADP	_	_	16	advmod	_	MWEPOS=ADV
-18	effet	effet	NOUN	_	Gender=Masc|Number=Sing	17	fixed	_	_
+17	en	en	ADP	_	_	18	case	_	INMWE=Yes
+18	effet	effet	NOUN	_	Gender=Masc|Number=Sing	16	advmod	_	MWEPOS=ADV
 19	100 000	100 000	NUM	_	_	20	nummod	_	_
 20	visiteurs	visiteur	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	15	punct	_	_
@@ -30921,8 +30921,8 @@
 
 # sent_id = fr-ud-dev_01116
 # text = En effet, plus la proximité génétique est grande, plus il devrait y avoir d'amibes prêtes à se sacrifier, par acte altruiste, pour les membres de la capsule.
-1	En	en	ADP	_	_	2	case	_	_
-2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	SpaceAfter=No
+1	En	en	ADP	_	_	2	case	_	INMWE=Yes
+2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	9	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	plus	plus	ADV	_	_	6	advmod	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -31498,8 +31498,8 @@
 
 # sent_id = fr-ud-dev_01136
 # text = En effet, en fréquences basses, les sources de parasites sont généralement des sources de champ électrique (l'onde électromagnétique ne présentant un rapport E/H constant qu'à une distance de la source égale environ à un quart de la longueur d'onde).
-1	En	en	ADP	_	_	2	case	_	_
-2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	SpaceAfter=No
+1	En	en	ADP	_	_	2	case	_	INMWE=Yes
+2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	15	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	en	en	ADP	_	_	5	case	_	_
 5	fréquences	fréquence	NOUN	_	Gender=Fem|Number=Plur	15	obl:mod	_	_
@@ -34866,8 +34866,8 @@
 
 # sent_id = fr-ud-dev_01259
 # text = En effet, au moment même de l'exécution de cette mission, le Président du Conseil de surveillance d'Areva (Frédéric Lemoine) était Senior Advisor de McKinsey depuis 2004.
-1	En	en	ADP	_	_	2	case	_	_
-2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	29	obl:mod	_	SpaceAfter=No
+1	En	en	ADP	_	_	2	case	_	INMWE=Yes
+2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	29	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	29	punct	_	_
 4-5	au	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	6	case	_	_

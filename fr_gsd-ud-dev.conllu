@@ -3468,8 +3468,8 @@
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	culture	culture	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
 10	grecque	grec	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
-11	en	en	ADP	_	_	12	case	_	_
-12	général	général	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+11	en	en	ADP	_	_	12	case	_	INMWE=Yes
+12	général	général	NOUN	_	Gender=Masc|Number=Sing	5	advmod	_	MWEPOS=ADV
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 14	très	très	ADV	_	_	15	advmod	_	_
 15	important	important	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -9466,8 +9466,8 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	cheval	cheval	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	14	punct	_	_
-6	en	en	ADP	_	_	7	case	_	_
-7	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	9	advmod	_	_
+6	en	en	ADP	_	_	7	case	_	INMWE=Yes
+7	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	9	advmod	_	MWEPOS=ADV
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	cheval	cheval	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
 10	ailé	ailé	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
@@ -14948,8 +14948,8 @@
 10	se	se	PRON	_	Person=3|PronType=Prs	11	obj	_	_
 11	nourrissent	nourrir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	pas	pas	ADV	_	Polarity=Neg	11	advmod	_	_
-13	en	en	ADP	_	_	14	case	_	_
-14	général	général	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
+13	en	en	ADP	_	_	14	case	_	INMWE=Yes
+14	général	général	NOUN	_	Gender=Masc|Number=Sing	11	advmod	_	MWEPOS=ADV
 15-16	des	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	18	case	_	_
 16	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
@@ -17137,8 +17137,8 @@
 7	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
 8	auto-assemblage	auto-assemblage	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 9	moléculaires	moléculaire	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
-10	en	en	ADP	_	_	11	case	_	_
-11	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	2	advmod	_	_
+10	en	en	ADP	_	_	11	case	_	INMWE=Yes
+11	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	2	advmod	_	MWEPOS=ADV
 12	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
 13	appliqués	appliquer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 14-15	au	_	_	_	_	_	_	_	_
@@ -28142,8 +28142,8 @@
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	Jura	Jura	PROPN	_	_	15	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	6	punct	_	_
-20	en	en	ADP	_	_	21	case	_	_
-21	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	23	advmod	_	_
+20	en	en	ADP	_	_	21	case	_	INMWE=Yes
+21	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	23	advmod	_	MWEPOS=ADV
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	projet	projet	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
 24-25	du	_	_	_	_	_	_	_	_
@@ -40683,8 +40683,8 @@
 2	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	Alliés	allié	NOUN	_	Gender=Masc|Number=Plur	12	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	en	en	ADP	_	_	6	case	_	_
-6	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	12	advmod	_	_
+5	en	en	ADP	_	_	6	case	_	INMWE=Yes
+6	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	12	advmod	_	MWEPOS=ADV
 7	pour	pour	ADP	_	_	9	case	_	_
 8	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	Français	français	NOUN	_	Gender=Masc|Number=Plur	12	obl:mod	_	SpaceAfter=No

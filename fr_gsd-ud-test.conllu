@@ -1521,7 +1521,7 @@
 15	territoires	territoire	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
 16	occupés	occupé	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
 17	comme	comme	ADP	_	_	18	case	_	_
-18	Mme	madame	PROPN	_	_	11	nmod	_	_
+18	Mme	Mme	PROPN	_	_	11	nmod	_	_
 19	Haïder	Haïder	PROPN	_	_	18	flat:name	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	1	punct	_	_
 21	s'	se	PRON	_	Person=3|PronType=Prs	25	obj	_	SpaceAfter=No
@@ -7338,7 +7338,7 @@
 
 # sent_id = fr-ud-test_00263
 # text = Madame Tellier est une excellente comptable que je recommande vivement !
-1	Madame	madame	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+1	Madame	monsieur	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 2	Tellier	Tellier	PROPN	_	_	1	flat:name	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -8800,7 +8800,7 @@
 5	libre	libre	ADJ	_	Gender=Fem|Number=Sing	9	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	Mgr	Mgr	PROPN	_	_	9	nsubj	_	_
-8	Lebrun	Lebrun	PROPN	_	_	7	flat:name	_	_
+8	Lebrun	Lebrun	PROPN	_	_	7	appos	_	_
 9	insiste	insister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	sur	sur	ADP	_	_	13	case	_	_
 11	«	«	PUNCT	_	_	13	punct	_	_

@@ -15695,10 +15695,10 @@
 17	ASM	ASM	PROPN	_	_	13	nmod	_	_
 18	Clermont	Clermont	PROPN	_	_	17	flat:name	_	_
 19	Auvergne	Auvergne	PROPN	_	_	17	flat:name	_	_
-20	à	à	ADP	_	_	23	case	_	MWEPOS=ADP
-21	compter	compter	VERB	_	VerbForm=Inf	20	fixed	_	_
-22	de	de	ADP	_	_	20	fixed	_	_
-23	2010	2010	NUM	_	_	2	obl:mod	_	_
+20	à	à	ADP	_	_	21	mark	_	INMWE=Yes
+21	compter	compter	VERB	_	VerbForm=Inf	2	advmod	_	MWEPOS=ADV
+22	de	de	ADP	_	_	23	case	_	_
+23	2010	2010	NUM	_	_	21	obl:arg	_	_
 24	après	après	ADP	_	_	26	case	_	_
 25	quatre	quatre	NUM	_	_	26	nummod	_	_
 26	saisons	saison	NOUN	_	Gender=Fem|Number=Plur	2	obl	_	_

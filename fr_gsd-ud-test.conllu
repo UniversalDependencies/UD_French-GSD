@@ -775,9 +775,9 @@
 19	constitutionnel	constitutionnel	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
 20	et	et	CCONJ	_	_	26	cc	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
-22	pour	pour	ADP	_	_	20	advmod	_	MWEPOS=ADV
-23	autant	autant	ADV	_	_	22	fixed	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	20	punct	_	_
+22	pour	pour	ADP	_	_	23	case	_	INMWE=Yes
+23	autant	autant	ADV	_	_	26	advmod	_	MWEPOS=ADV|SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	_
 25	ne	ne	ADV	_	Polarity=Neg	26	advmod	_	_
 26	compte	compter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
 27	pas	pas	ADV	_	Polarity=Neg	26	advmod	_	_
@@ -3962,8 +3962,8 @@
 
 # sent_id = fr-ud-test_00130
 # text = Pour autant, nous avions tranché.
-1	Pour	pour	ADP	_	_	6	advmod	_	MWEPOS=ADV
-2	autant	autant	ADV	_	_	1	fixed	_	SpaceAfter=No
+1	Pour	pour	ADP	_	_	2	case	_	INMWE=Yes
+2	autant	autant	ADV	_	_	6	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 5	avions	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	6	aux	_	_

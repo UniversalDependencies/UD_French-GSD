@@ -262,7 +262,7 @@
 # sent_id = fr-ud-dev_00012
 # text = L'Abime de l'abime de Vladimir Holan à la Maison d'Arrêt d'Avignon (2001).
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	INTITLE=Yes|SpaceAfter=No
-2	Abime	Abime	NOUN	_	Gender=Masc|Number=Sing	0	root	_	TITLE=Yes
+2	Abime	abîme	NOUN	_	Gender=Masc|Number=Sing	0	root	_	TITLE=Yes
 3	de	de	ADP	_	_	5	case	_	INTITLE=Yes
 4	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	INTITLE=Yes|SpaceAfter=No
 5	abime	abîme	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	INTITLE=Yes
@@ -1938,7 +1938,7 @@
 15	et	et	CCONJ	_	_	38	cc	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Dr.	docteur	NOUN	_	Gender=Masc|Number=Sing	38	nsubj	_	_
-18	Baxa	Baxa	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+18	Baxa	Baxa	PROPN	_	_	17	appos	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	17	punct	_	_
 20	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
 21	avocat	avocat	NOUN	_	Gender=Masc|Number=Sing	17	appos	_	_
@@ -23355,8 +23355,8 @@
 5	de	de	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Dr.	docteur	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-8	Hector	Hector	PROPN	_	_	7	flat:name	_	_
-9	Hammond	Hammond	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+8	Hector	Hector	PROPN	_	_	7	appos	_	_
+9	Hammond	Hammond	PROPN	_	_	8	flat:name	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	7	punct	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	vilain	vilain	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	_
@@ -37760,7 +37760,7 @@
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	c'est-à-dire	c'est-à-dire	ADV	_	_	12	advmod	_	_
 11	en	en	ADP	_	_	12	case	_	_
-12	haut	haut	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	haut	haut	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	_
 13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -37768,7 +37768,7 @@
 16	,	,	PUNCT	_	_	19	punct	_	_
 17	à	à	ADP	_	_	19	case	_	_
 18	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
-19	aplomb	aplomb	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+19	aplomb	aplomb	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	_
 20	immédiat	immédiat	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
 21-22	des	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	23	case	_	_
@@ -39565,7 +39565,7 @@
 20	de	de	ADP	_	_	22	case	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	clan	clan	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
-23	Hojo	Hojo	PROPN	_	_	22	flat:name	_	SpaceAfter=No
+23	Hojo	Hojo	PROPN	_	_	22	appos	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = fr-ud-dev_01425

@@ -943,11 +943,11 @@
 
 # sent_id = fr-ud-test_00037
 # text = Comme dans toutes les campagnes présidentielles, celui qui imprimera sa marque, fixera l'agenda, sera le probable vainqueur en mai.
-1	Comme	comme	SCONJ	_	_	5	cc	_	_
+1	Comme	comme	SCONJ	_	_	5	mark	_	_
 2	dans	dans	ADP	_	_	5	case	_	_
 3	toutes	tout	DET	_	Gender=Fem|Number=Plur	5	det	_	_
 4	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
-5	campagnes	campagne	NOUN	_	Gender=Fem|Number=Plur	21	obl:mod	_	_
+5	campagnes	campagne	NOUN	_	Gender=Fem|Number=Plur	21	advcl	_	_
 6	présidentielles	présidentielle	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	21	punct	_	_
 8	celui	celui	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	21	nsubj	_	_
@@ -1497,7 +1497,7 @@
 6	n'	ne	ADV	_	Polarity=Neg	7	advmod	_	SpaceAfter=No
 7	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	pas	pas	ADV	_	_	7	advmod	_	_
-9	comme	comme	ADP	_	_	10	case	_	_
+9	comme	comme	SCONJ	_	_	10	mark	_	_
 10	aujourd'hui	aujourd'hui	ADV	_	_	7	obl:arg	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -3785,7 +3785,7 @@
 55	pays	pays	NOUN	_	Gender=Masc|Number=Sing	52	nmod	_	SpaceAfter=No
 56	,	,	PUNCT	_	_	48	punct	_	_
 57	considéré	considérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	acl	_	_
-58	comme	comme	ADP	_	_	59	case	_	_
+58	comme	comme	SCONJ	_	_	59	mark	_	_
 59	favorable	favorable	ADJ	_	Gender=Masc|Number=Sing	57	xcomp	_	_
 60-61	au	_	_	_	_	_	_	_	_
 60	à	à	ADP	_	_	62	case	_	_
@@ -4045,7 +4045,7 @@
 14	2:00.531	2:00.531	NUM	_	_	12	obl	_	SpaceAfter=No
 15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
-17	comme	comme	SCONJ	_	_	18	cc	_	_
+17	comme	comme	ADP	_	_	18	case	_	_
 18	Ben	Ben	PROPN	_	_	12	obl:mod	_	_
 19	Spies	Spies	PROPN	_	_	18	flat:name	_	_
 20	et	et	CCONJ	_	_	21	cc	_	_
@@ -4779,7 +4779,7 @@
 
 # sent_id = fr-ud-test_00158
 # text = Comme chaque soir à 18h40, il tranche, malmène et détourne l'actualité.
-1	Comme	comme	ADV	_	_	3	advmod	_	_
+1	Comme	comme	SCONJ	_	_	3	mark	_	_
 2	chaque	chaque	DET	_	Gender=Masc|Number=Sing	3	det	_	_
 3	soir	soir	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
 4	à	à	ADP	_	_	5	case	_	_

@@ -21413,9 +21413,9 @@
 4	de	de	ADP	_	_	7	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	premier	premier	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
-7	Bound	bind	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	obl:arg	_	Foreign=en
-8	for	for	ADP	_	_	9	case	_	Foreign=en
-9	Glory	glory	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	Foreign=en|SpaceAfter=No
+7	Bound	bind	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	obl:arg	_	Foreign=en|TITLE=Yes
+8	for	for	ADP	_	_	9	case	_	Foreign=en|INTITLE=Yes
+9	Glory	glory	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	Foreign=en|INTITLE=Yes|SpaceAfter=No
 10	,	,	PUNCT	_	_	15	punct	_	_
 11	évènement	évènement	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
@@ -27813,7 +27813,7 @@
 85	roumain	roumain	ADJ	_	Gender=Masc|Number=Sing	84	amod	_	SpaceAfter=No
 86	"	"	PUNCT	_	_	84	punct	_	_
 87	(	(	PUNCT	_	_	91	punct	_	SpaceAfter=No
-88	comme	comme	ADP	_	_	91	mark	_	_
+88	comme	comme	SCONJ	_	_	91	mark	_	_
 89	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	91	nsubj	_	_
 90	se	se	PRON	_	Person=3|PronType=Prs	91	expl	_	_
 91	qualifiait	qualifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	84	acl	_	_

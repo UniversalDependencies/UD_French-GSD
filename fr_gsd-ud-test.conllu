@@ -4781,7 +4781,7 @@
 # text = Comme chaque soir à 18h40, il tranche, malmène et détourne l'actualité.
 1	Comme	comme	SCONJ	_	_	3	mark	_	_
 2	chaque	chaque	DET	_	Gender=Masc|Number=Sing	3	det	_	_
-3	soir	soir	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
+3	soir	soir	NOUN	_	Gender=Masc|Number=Sing	8	advcl	_	_
 4	à	à	ADP	_	_	5	case	_	_
 5	18h40	18h40	NUM	_	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
@@ -7301,11 +7301,11 @@
 4	beaucoup	beaucoup	ADV	_	_	5	advmod	_	_
 5	plus	plus	ADV	_	_	6	advmod	_	_
 6	élevés	élevé	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
-7	que	que	SCONJ	_	_	11	case	_	_
+7	que	que	SCONJ	_	_	11	mark	_	_
 8	dans	dans	ADP	_	_	11	case	_	_
 9	d'	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	11	det	_	SpaceAfter=No
 10	autres	autre	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
-11	boutiques	boutique	NOUN	_	Gender=Fem|Number=Plur	6	obl:mod	_	_
+11	boutiques	boutique	NOUN	_	Gender=Fem|Number=Plur	6	advcl	_	_
 12	mais	mais	CCONJ	_	_	16	cc	_	_
 13	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	16	nsubj	_	SpaceAfter=No
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
@@ -11310,7 +11310,7 @@
 
 # sent_id = fr-ud-dev_01590
 # text = Comme en 2007, le club local d'Arsenal remporte le trophée.
-1	Comme	comme	ADP	_	_	3	case	_	_
+1	Comme	comme	SCONJ	_	_	3	mark	_	_
 2	en	en	ADP	_	_	3	case	_	_
 3	2007	2007	NUM	_	_	10	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	10	punct	_	_

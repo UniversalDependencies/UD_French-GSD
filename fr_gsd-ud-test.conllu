@@ -2545,7 +2545,7 @@
 13	plus	plus	ADV	_	_	12	advmod	_	_
 14	que	que	SCONJ	_	_	16	case	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	cause	cause	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	_
+16	cause	cause	NOUN	_	Gender=Fem|Number=Sing	13	obl:mod	_	_
 17	humaine	humain	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -7108,9 +7108,9 @@
 6	tant	tant	ADV	_	_	8	cc	_	_
 7	en	en	ADP	_	_	8	case	_	_
 8	crêpes	crêpe	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
-9	qu'	que	SCONJ	_	_	11	cc	_	SpaceAfter=No
+9	qu'	que	SCONJ	_	_	11	mark	_	SpaceAfter=No
 10	en	en	ADP	_	_	11	case	_	_
-11	galettes	galette	NOUN	_	Gender=Fem|Number=Plur	8	conj	_	SpaceAfter=No
+11	galettes	galette	NOUN	_	Gender=Fem|Number=Plur	8	acl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-test_00253

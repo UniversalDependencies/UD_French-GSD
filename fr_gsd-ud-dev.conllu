@@ -24315,11 +24315,11 @@
 
 # sent_id = fr-ud-dev_00881
 # text = De part et d'autre, on trouve des bâtiments de latérite dont la forme ne correspond pas aux habituels bannalais.
-1	De	de	ADP	_	_	2	case	_	_
-2	part	part	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	_
-3	et	et	CCONJ	_	_	5	cc	_	_
-4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
-5	autre	autre	PRON	_	Number=Sing	2	conj	_	SpaceAfter=No
+1	De	de	ADP	_	_	2	case	_	INMWE=Yes
+2	part	part	NOUN	_	Gender=Fem|Number=Sing	8	advmod	_	MWEPOS=ADV
+3	et	et	CCONJ	_	_	5	cc	_	INMWE=Yes
+4	d'	de	ADP	_	_	5	case	_	INMWE=Yes|SpaceAfter=No
+5	autre	autre	PRON	_	Number=Sing	2	conj	_	INMWE=Yes|SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
 8	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -41131,11 +41131,11 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	comporte	comporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
-4	de	de	ADP	_	_	5	case	_	_
-5	part	part	NOUN	_	Gender=Fem|Number=Sing	2	obl:mod	_	_
-6	et	et	CCONJ	_	_	8	cc	_	_
-7	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
-8	autre	autre	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+4	de	de	ADP	_	_	5	case	_	INMWE=Yes
+5	part	part	NOUN	_	Gender=Fem|Number=Sing	2	advmod	_	MWEPOS=ADV
+6	et	et	CCONJ	_	_	8	cc	_	INMWE=Yes
+7	d'	de	ADP	_	_	8	case	_	INMWE=Yes|SpaceAfter=No
+8	autre	autre	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	INMWE=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	pilastre	pilastre	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_

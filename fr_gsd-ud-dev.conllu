@@ -39750,13 +39750,13 @@
 # text = Vous êtes quelques uns à ne pas avoir pu suivre l'actualité sur iPhoneAddict.fr au jour le jour.
 1	Vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
 2	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	cop	_	_
-3	quelques	quelque	DET	_	Number=Plur	0	root	_	MWEPOS=PRON
-4	uns	un	NOUN	_	Gender=Masc|Number=Plur	3	fixed	_	_
+3	quelques	quelque	DET	_	Number=Plur	4	det	_	INMWE=Yes
+4	uns	un	PRON	_	Gender=Masc|Number=Plur	0	root	_	MWEPOS=PRON
 5	à	à	ADP	_	_	9	mark	_	_
 6	ne	ne	ADV	_	Polarity=Neg	9	advmod	_	_
 7	pas	pas	ADV	_	Polarity=Neg	9	advmod	_	_
 8	avoir	avoir	AUX	_	VerbForm=Inf	9	aux	_	_
-9	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+9	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
 10	suivre	suivre	VERB	_	VerbForm=Inf	9	xcomp	_	_
 11	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
 12	actualité	actualité	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
@@ -39768,7 +39768,7 @@
 17	jour	jour	NOUN	_	Gender=Masc|Number=Sing	15	fixed	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	fixed	_	_
 19	jour	jour	NOUN	_	Gender=Masc|Number=Sing	15	fixed	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	3	punct	_	_
+20	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_01433
 # text = Le 19 novembre 1932, suite à sa création, la Compagnie Luxembourgeoise de Radiodiffusion (CLR) loue, pour y établir son siège, la Villa Louvigny dans le parc municipal de Luxembourg qu'elle finit par acquérir avec les terrains en 1936.

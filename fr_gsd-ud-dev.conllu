@@ -29013,8 +29013,8 @@
 14	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
 15	gravis	gravir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
-17	y	y	ADV	_	_	21	case	_	MWEPOS=ADP
-18	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	fixed	_	_
+17	y	y	ADV	_	_	18	iobj	_	INMWE=Yes|MWEPOS=ADP
+18	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	case	_	MWEPOS=ADP
 19	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
 20	inquiétantes	inquiétant	ADJ	_	Gender=Fem|Number=Plur	21	amod	_	_
 21	faces	face	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	_
@@ -30235,8 +30235,8 @@
 29	4	4	NUM	_	_	30	nummod	_	_
 30	autoroutes	autoroute	NOUN	_	Gender=Fem|Number=Plur	27	obl:arg	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	27	punct	_	_
-32	y	y	ADV	_	_	35	case	_	MWEPOS=ADP
-33	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	fixed	_	_
+32	y	y	ADV	_	_	33	iobj	_	INMWE=Yes|MWEPOS=ADP
+33	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	case	_	MWEPOS=ADP
 34	vers	vers	ADP	_	_	35	case	_	_
 35	Vienne	Vienne	PROPN	_	_	27	obl	_	SpaceAfter=No
 36	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No

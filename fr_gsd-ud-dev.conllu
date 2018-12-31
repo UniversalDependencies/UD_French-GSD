@@ -13646,9 +13646,9 @@
 # text = C'est de toute façon Réseau ferré de France (RFF), le gestionnaire des voies ferrées françaises, qui a récupéré le dossier.
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	6	nsubj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
-3	de	de	ADP	_	_	6	advmod	_	MWEPOS=ADV
-4	toute	tout	DET	_	Gender=Fem|Number=Sing	3	fixed	_	_
-5	façon	façon	NOUN	_	Gender=Fem|Number=Sing	3	fixed	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	toute	tout	DET	_	Gender=Fem|Number=Sing	5	det	_	_
+5	façon	façon	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	_
 6	Réseau	Réseau	PROPN	_	_	0	root	_	_
 7	ferré	ferré	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 8	de	de	ADP	_	_	9	case	_	_
@@ -13802,8 +13802,8 @@
 24	en	en	ADP	_	_	25	case	_	INMWE=Yes
 25	raison	raison	NOUN	_	Gender=Fem|Number=Sing	20	advmod	_	MWEPOS=ADV|SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
-27	entre	entre	ADP	_	_	31	advmod	_	MWEPOS=ADV
-28	autres	autre	NOUN	_	Gender=Masc|Number=Plur	27	fixed	_	_
+27	entre	entre	ADP	_	_	28	case	_	_
+28	autres	autre	NOUN	_	Gender=Masc|Number=Plur	25	obl:mod	_	_
 29-30	des	_	_	_	_	_	_	_	_
 29	de	de	ADP	_	_	31	case	_	_
 30	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
@@ -16238,7 +16238,7 @@
 16	,	,	PUNCT	_	_	12	punct	_	_
 17	Men	man	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
 18	in	in	ADP	_	_	19	case	_	_
-19	Black	black	ADJ	_	Gender=Masc|Number=Sing	17	advmod	_	_
+19	Black	black	ADJ	_	Gender=Masc|Number=Sing	17	obl:mod	_	_
 20	pour	pour	ADP	_	_	21	case	_	_
 21	celle	celui	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	17	orphan	_	_
 22	de	de	ADP	_	_	23	case	_	_
@@ -18609,7 +18609,7 @@
 40	et	et	CCONJ	_	_	46	cc	_	_
 41	d'	de	ADP	_	_	46	case	_	SpaceAfter=No
 42-43	au	_	_	_	_	_	_	_	_
-42	à	à	ADP	_	_	45	advmod	_	MWEPOS=ADV
+42	à	à	ADP	_	_	46	advmod	_	MWEPOS=ADV
 43	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	fixed	_	_
 44	moins	moins	ADV	_	_	42	fixed	_	_
 45	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_

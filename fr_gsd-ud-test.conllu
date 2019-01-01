@@ -166,7 +166,7 @@
 # text = Et pourtant, lors de sa première visite en Afrique subsaharienne, l'été 2007, il montre les dents dans un discours humiliant pour les Africains, prononcé à l'Université Cheikh Anta Diop de Dakar.
 1	Et	et	CCONJ	_	_	18	cc	_	_
 2	pourtant	pourtant	ADV	_	_	18	advmod	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	1	punct	_	_
+3	,	,	PUNCT	_	_	18	punct	_	_
 4	lors	lors	ADV	_	_	18	advmod	_	_
 5	de	de	ADP	_	_	8	case	_	_
 6	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	_
@@ -3167,7 +3167,7 @@
 42	âge	âge	NOUN	_	Gender=Masc|Number=Sing	39	obj	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	42	punct	_	_
 44	mais	mais	CCONJ	_	_	47	cc	_	_
-45	aussi	aussi	ADV	_	_	44	advmod	_	_
+45	aussi	aussi	ADV	_	_	47	advmod	_	_
 46	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	SpaceAfter=No
 47	innocence	innocence	NOUN	_	Gender=Fem|Number=Sing	42	conj	_	_
 48	et	et	CCONJ	_	_	50	cc	_	_
@@ -5495,10 +5495,10 @@
 1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	droit	droit	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	droit	droit	NOUN	_	Gender=Masc|Number=Sing	2	obj:lvc	_	_
 5	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
-6	d'	de	ADP	_	_	8	mark	_	SpaceAfter=No
-7	être	être	AUX	_	VerbForm=Inf	8	cop	_	_
+6	d'	de	ADP	_	_	8	orphan	_	SpaceAfter=No
+7	être	être	AUX	_	VerbForm=Inf	8	orphan	_	_
 8	contre	contre	ADP	_	_	2	xcomp	_	SpaceAfter=No
 9	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
@@ -8223,7 +8223,7 @@
 27	Amérique	Amérique	PROPN	_	_	25	nmod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	25	punct	_	_
 29	mais	mais	CCONJ	_	_	33	cc	_	_
-30	aussi	aussi	ADV	_	_	29	advmod	_	_
+30	aussi	aussi	ADV	_	_	33	advmod	_	_
 31-32	du	_	_	_	_	_	_	_	_
 31	de	de	ADP	_	_	33	case	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
@@ -9685,7 +9685,7 @@
 16	garantie	garantie	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	31	punct	_	_
 18	et	et	CCONJ	_	_	31	cc	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	18	punct	_	_
+19	,	,	PUNCT	_	_	31	punct	_	_
 20	dans	dans	ADP	_	_	23	case	_	_
 21	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
 22	trois	trois	NUM	_	_	23	nummod	_	_
@@ -11379,8 +11379,8 @@
 13	s'	se	PRON	_	Person=3|PronType=Prs	14	expl:pass	_	SpaceAfter=No
 14	oppose	opposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
 15	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
-16	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	18	nsubj	_	SpaceAfter=No
-17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	18	orphan	_	SpaceAfter=No
+17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	orphan	_	_
 18	selon	selon	ADP	_	_	11	parataxis	_	SpaceAfter=No
 19	)	)	PUNCT	_	_	18	punct	_	_
 20	à	à	ADP	_	_	22	case	_	_

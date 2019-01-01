@@ -304,7 +304,7 @@
 17	de	de	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	livre	livre	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
-20	y	y	ADV	_	_	21	advmod	_	_
+20	y	y	PRON	_	_	21	advmod	_	_
 21	ajoute	ajouter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 22	du	du	DET	_	Gender=Masc|Number=Sing	23	det	_	_
 23	sens	sens	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
@@ -2399,7 +2399,7 @@
 # sent_id = fr-ud-dev_00087
 # text = On y mange correctement à des prix raisonnables et la bière y est bonne.
 1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
-2	y	y	ADV	_	_	3	advmod	_	_
+2	y	y	PRON	_	_	3	advmod	_	_
 3	mange	manger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	correctement	correctement	ADV	_	_	3	advmod	_	_
 5	à	à	ADP	_	_	7	case	_	_
@@ -2409,7 +2409,7 @@
 9	et	et	CCONJ	_	_	14	cc	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	bière	bière	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
-12	y	y	ADV	_	_	14	advmod	_	_
+12	y	y	PRON	_	_	14	advmod	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 14	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
@@ -2465,7 +2465,7 @@
 # sent_id = fr-ud-dev_00090
 # text = On y retrouve les lieux de culte, la place, la mairie, et les magasins de toutes sortes.
 1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
-2	y	y	ADV	_	_	3	advmod	_	_
+2	y	y	PRON	_	_	3	advmod	_	_
 3	retrouve	retrouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	lieux	lieu	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
@@ -5746,7 +5746,7 @@
 1	Vraiment	vraiment	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	6	punct	_	_
 3	j'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
-4	y	y	ADV	_	_	6	advmod	_	_
+4	y	y	PRON	_	_	6	advmod	_	_
 5	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	du	du	DET	_	Gender=Masc|Number=Sing	9	det	_	_
@@ -5754,7 +5754,7 @@
 9	temps	temps	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
 10	et	et	CCONJ	_	_	11	cc	_	_
 11	compte	compter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
-12	y	y	ADV	_	_	13	advmod	_	_
+12	y	y	PRON	_	_	13	advmod	_	_
 13	retourner	retourner	VERB	_	VerbForm=Inf	11	xcomp	_	_
 14	!	!	PUNCT	_	_	6	punct	_	_
 
@@ -7332,7 +7332,7 @@
 2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	6	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
-5	y	y	ADV	_	_	6	advmod	_	_
+5	y	y	PRON	_	_	6	advmod	_	_
 6	retrouve	retrouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 8	même	même	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
@@ -12181,7 +12181,7 @@
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	tabac	tabac	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 11	n'	ne	ADV	_	Polarity=Neg	18	advmod	_	SpaceAfter=No
-12	y	y	ADV	_	_	18	advmod	_	_
+12	y	y	PRON	_	_	18	advmod	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
 14	pas	pas	ADV	_	Polarity=Neg	18	advmod	_	_
 15-16	du	_	_	_	_	_	_	_	_
@@ -13801,7 +13801,7 @@
 23	retards	retard	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	_
 24	en	en	ADP	_	_	25	case	_	INMWE=Yes
 25	raison	raison	NOUN	_	Gender=Fem|Number=Sing	20	advmod	_	MWEPOS=ADV|SpaceAfter=No
-26	,	,	PUNCT	_	_	27	punct	_	_
+26	,	,	PUNCT	_	_	28	punct	_	_
 27	entre	entre	ADP	_	_	28	case	_	_
 28	autres	autre	NOUN	_	Gender=Masc|Number=Plur	25	obl:mod	_	_
 29-30	des	_	_	_	_	_	_	_	_
@@ -15601,7 +15601,7 @@
 # sent_id = fr-ud-dev_00559
 # text = Il y était installé par un Président à mortier qui lui disait : Je vous installe dans la Charge de Prévôt de Paris, pour l'exercer dignement, et au consentement du Roi et du Public.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
-2	y	y	ADV	_	_	4	advmod	_	_
+2	y	y	PRON	_	_	4	advmod	_	_
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
 4	installé	installer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	par	par	ADP	_	_	7	case	_	_
@@ -16238,7 +16238,7 @@
 16	,	,	PUNCT	_	_	12	punct	_	_
 17	Men	man	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
 18	in	in	ADP	_	_	19	case	_	_
-19	Black	black	ADJ	_	Gender=Masc|Number=Sing	17	obl:mod	_	_
+19	Black	black	ADJ	_	Gender=Masc|Number=Sing	17	nmod	_	_
 20	pour	pour	ADP	_	_	21	case	_	_
 21	celle	celui	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	17	orphan	_	_
 22	de	de	ADP	_	_	23	case	_	_
@@ -16312,7 +16312,7 @@
 # text = Son tombeau y fut retrouvé lorsque les ruines furent explorées au XIXe siècle.
 1	Son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
 2	tombeau	tombeau	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
-3	y	y	ADV	_	_	5	advmod	_	_
+3	y	y	PRON	_	_	5	advmod	_	_
 4	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
 5	retrouvé	retrouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	lorsque	lorsque	SCONJ	_	_	10	mark	_	_
@@ -18468,7 +18468,7 @@
 # text = La nourriture y est très bonne.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	nourriture	nourriture	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
-3	y	y	ADV	_	_	6	advmod	_	_
+3	y	y	PRON	_	_	6	advmod	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 5	très	très	ADV	_	_	6	advmod	_	_
 6	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
@@ -18976,7 +18976,7 @@
 # text = on s'y retrouve souvent le soir entre potes
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
-3	y	y	ADV	_	_	4	advmod	_	_
+3	y	y	PRON	_	_	4	advmod	_	_
 4	retrouve	retrouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	souvent	souvent	ADV	_	_	4	advmod	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -20084,7 +20084,7 @@
 19	quartier	quartier	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
 20	puis	puis	SCONJ	_	_	24	cc	_	_
 21	s'	se	PRON	_	Person=3|PronType=Prs	24	iobj	_	SpaceAfter=No
-22	y	y	ADV	_	_	24	advmod	_	_
+22	y	y	PRON	_	_	24	advmod	_	_
 23	fit	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux:caus	_	_
 24	construire	construire	VERB	_	VerbForm=Inf	8	conj	_	_
 25	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
@@ -21082,7 +21082,7 @@
 2	agréable	agréable	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
-5	y	y	ADV	_	_	6	advmod	_	_
+5	y	y	PRON	_	_	6	advmod	_	_
 6	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	plein	plein	ADV	_	_	6	obj	_	_
 8	de	de	ADP	_	_	9	case	_	_
@@ -21122,7 +21122,7 @@
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
 10	Orgnac	Orgnac	PROPN	_	_	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	5	punct	_	_
-12	y	y	ADV	_	_	13	advmod	_	_
+12	y	y	PRON	_	_	13	advmod	_	_
 13	mènera	mener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 14	par	par	ADP	_	_	16	case	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -22301,7 +22301,7 @@
 9	peintre	peintre	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
 10	Jurica	Jurica	PROPN	_	_	9	appos	_	_
 11	Ribar	Ribar	PROPN	_	_	10	flat:name	_	_
-12	y	y	ADV	_	_	14	advmod	_	_
+12	y	y	PRON	_	_	14	advmod	_	_
 13	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	grandi	grandir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 15	;	;	PUNCT	_	_	14	punct	_	_
@@ -23902,7 +23902,7 @@
 5	:	:	PUNCT	_	_	4	punct	_	_
 6	Peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	-on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
-8	y	y	ADV	_	_	9	advmod	_	_
+8	y	y	PRON	_	_	9	advmod	_	_
 9	prendre	prendre	VERB	_	VerbForm=Inf	6	xcomp	_	_
 10	épouse	épouse	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
 11	?	?	PUNCT	_	_	6	punct	_	_
@@ -24108,7 +24108,7 @@
 # sent_id = fr-ud-dev_00873
 # text = J'y ai déjeuné avec un collègue le vendredi 11 septembre 2009, et nous avons été déçus.
 1	J'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
-2	y	y	ADV	_	_	4	advmod	_	_
+2	y	y	PRON	_	_	4	advmod	_	_
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	déjeuné	déjeuner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	avec	avec	ADP	_	_	7	case	_	_
@@ -24343,7 +24343,7 @@
 # sent_id = fr-ud-dev_00882
 # text = Il y siège sans faire de bruit avec la gauche dans le sillage de son ami Cambon.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	y	y	ADV	_	_	3	advmod	_	_
+2	y	y	PRON	_	_	3	advmod	_	_
 3	siège	siéger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	sans	sans	ADP	_	_	5	mark	_	_
 5	faire	faire	VERB	_	VerbForm=Inf	3	advcl	_	_
@@ -29013,7 +29013,7 @@
 14	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
 15	gravis	gravir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
-17	y	y	ADV	_	_	18	iobj	_	INMWE=Yes
+17	y	y	PRON	_	_	18	iobj	_	INMWE=Yes
 18	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	case	_	MWEPOS=ADP
 19	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
 20	inquiétantes	inquiétant	ADJ	_	Gender=Fem|Number=Plur	21	amod	_	_
@@ -29571,7 +29571,7 @@
 17	que	que	SCONJ	_	_	21	mark	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	21	nsubj	_	MWEPOS=PRON|SpaceAfter=No
 19	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	18	fixed	_	_
-20	y	y	ADV	_	_	21	advmod	_	_
+20	y	y	PRON	_	_	21	advmod	_	_
 21	pêche	pêcher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
 22	avant	avant	ADP	_	_	23	case	_	_
 23	tout	tout	PRON	_	Gender=Masc|Number=Sing	21	obl	_	_
@@ -30235,7 +30235,7 @@
 29	4	4	NUM	_	_	30	nummod	_	_
 30	autoroutes	autoroute	NOUN	_	Gender=Fem|Number=Plur	27	obl:arg	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	27	punct	_	_
-32	y	y	ADV	_	_	33	iobj	_	INMWE=Yes
+32	y	y	PRON	_	_	33	iobj	_	INMWE=Yes
 33	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	case	_	MWEPOS=ADP
 34	vers	vers	ADP	_	_	35	case	_	_
 35	Vienne	Vienne	PROPN	_	_	27	obl	_	SpaceAfter=No
@@ -34847,13 +34847,13 @@
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	filet	filet	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 12	qui	qui	PRON	_	PronType=Rel	15	nsubj	_	_
-13	y	y	ADV	_	_	15	advmod	_	_
+13	y	y	PRON	_	_	15	advmod	_	_
 14	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
 15	pratiquée	pratiquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	manière	manière	NOUN	_	Gender=Fem|Number=Sing	15	obl:mod	_	_
 18	semi-commerciale	semi-commercial	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
-19	y	y	ADV	_	_	22	advmod	_	_
+19	y	y	PRON	_	_	22	advmod	_	_
 20	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
 21	aussi	aussi	ADV	_	_	22	advmod	_	_
 22	entraîné	entraîner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -35968,7 +35968,7 @@
 14	en	en	ADP	_	_	15	mark	_	_
 15	continuant	continuer	VERB	_	Tense=Pres|VerbForm=Part	5	advcl	_	_
 16	à	à	ADP	_	_	18	mark	_	_
-17	y	y	ADV	_	_	18	advmod	_	_
+17	y	y	PRON	_	_	18	advmod	_	_
 18	dessiner	dessiner	VERB	_	VerbForm=Inf	15	xcomp	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -37104,7 +37104,7 @@
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	présence	présence	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	policière	policier	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
-7	y	y	ADV	_	_	8	advmod	_	_
+7	y	y	PRON	_	_	8	advmod	_	_
 8	serait	être	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	pour	pour	ADP	_	_	10	case	_	_
 10	beaucoup	beaucoup	ADV	_	_	8	obl:arg	_	_
@@ -38436,7 +38436,7 @@
 6	plage	plage	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
-9	y	y	ADV	_	_	10	advmod	_	_
+9	y	y	PRON	_	_	10	advmod	_	_
 10	mange	manger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	bien	bien	ADV	_	_	10	advmod	_	_
 12	et	et	CCONJ	_	_	15	cc	_	_
@@ -38888,7 +38888,7 @@
 # sent_id = fr-ud-dev_01401
 # text = On y dispense le même enseignement qu'à Paris, mais les concours et les diplômes, entrepris sous la direction du maître d'atelier local, sont envoyés par le train et jugés dans la capitale.
 1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
-2	y	y	ADV	_	_	3	advmod	_	_
+2	y	y	PRON	_	_	3	advmod	_	_
 3	dispense	dispenser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	même	même	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
@@ -39590,7 +39590,7 @@
 # sent_id = fr-ud-dev_01426
 # text = Nous y étions depuis les premiers jours de son installation soit depuis le 20 octobre 2010 plus exactement.
 1	Nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
-2	y	y	ADV	_	_	3	advmod	_	_
+2	y	y	PRON	_	_	3	advmod	_	_
 3	étions	être	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	depuis	depuis	ADP	_	_	7	case	_	_
 5	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
@@ -39793,7 +39793,7 @@
 19	loue	louer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
 21	pour	pour	ADP	_	_	23	mark	_	_
-22	y	y	ADV	_	_	23	advmod	_	_
+22	y	y	PRON	_	_	23	advmod	_	_
 23	établir	établir	VERB	_	VerbForm=Inf	19	advcl	_	_
 24	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	25	det	_	_
 25	siège	siège	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No

@@ -5139,8 +5139,8 @@
 
 # sent_id = fr-ud-dev_00187
 # text = À travers les années plusieurs compagnies aériennes volèrent vers l'aéroport intercontinental George-Bush, KLM est la seule qui vole depuis l'ouverture.
-1	À	à	ADP	_	_	4	case	_	MWEPOS=ADP
-2	travers	travers	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
+1	À	à	ADP	_	_	2	case	_	INMWE=Yes
+2	travers	travers	NOUN	_	Gender=Masc|Number=Sing	4	case	_	MWEPOS=ADP
 3	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 4	années	année	NOUN	_	Gender=Fem|Number=Plur	8	obl:mod	_	_
 5	plusieurs	plusieurs	DET	_	Gender=Fem|Number=Plur	6	det	_	_
@@ -16197,8 +16197,8 @@
 6	tous	tout	DET	_	Gender=Masc|Number=Plur	8	det	_	_
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	composés	composé	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
-9	à	à	ADP	_	_	12	case	_	MWEPOS=ADP
-10	travers	travers	NOUN	_	Gender=Masc|Number=Sing	9	fixed	_	_
+9	à	à	ADP	_	_	10	case	_	INMWE=Yes
+10	travers	travers	NOUN	_	Gender=Masc|Number=Sing	12	case	_	MWEPOS=ADP
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	colonne	colonne	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
@@ -24849,8 +24849,8 @@
 16	ainsi	ainsi	ADV	_	_	15	advmod	_	_
 17	de	de	ADP	_	_	18	mark	_	_
 18	filmer	filmer	VERB	_	VerbForm=Inf	15	xcomp	_	_
-19	à	à	ADP	_	_	20	case	_	_
-20	travers	travers	NOUN	_	Gender=Masc|Number=Sing	18	obl:mod	_	SpaceAfter=No
+19	à	à	ADP	_	_	20	case	_	INMWE=Yes
+20	travers	travers	NOUN	_	Gender=Masc|Number=Sing	18	advmod	_	MWEPOS=ADV|SpaceAfter=No
 21	)	)	PUNCT	_	_	15	punct	_	_
 22	placé	placer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
 23	devant	devant	ADP	_	_	25	case	_	_
@@ -29300,8 +29300,8 @@
 24	divers	divers	DET	_	Gender=Masc|Number=Plur	25	det	_	_
 25	chantiers	chantier	NOUN	_	Gender=Masc|Number=Plur	22	obl	_	_
 26	dangereux	dangereux	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	_
-27	à	à	ADP	_	_	30	case	_	MWEPOS=ADP
-28	travers	travers	NOUN	_	Gender=Masc|Number=Sing	27	fixed	_	_
+27	à	à	ADP	_	_	28	case	_	INMWE=Yes
+28	travers	travers	NOUN	_	Gender=Masc|Number=Sing	30	case	_	MWEPOS=ADP
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	monde	monde	NOUN	_	Gender=Masc|Number=Sing	22	obl:mod	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	9	punct	_	_
@@ -32766,8 +32766,8 @@
 2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	même	même	ADV	_	_	2	advmod	_	_
 4	créer	créer	VERB	_	VerbForm=Inf	2	xcomp	_	_
-5	en	en	ADP	_	_	6	case	_	_
-6	parallèle	parallèle	ADJ	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
+5	en	en	ADP	_	_	6	case	_	INMWE=Yes
+6	parallèle	parallèle	ADJ	_	Gender=Masc|Number=Sing	4	advmod	_	MWEPOS=ADV
 7	texte	texte	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	musique	musique	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
@@ -34315,11 +34315,11 @@
 14	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
 15	dénommés	dénommer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 16	ainsi	ainsi	ADV	_	_	15	advmod	_	_
-17	à	à	ADP	_	_	21	case	_	MWEPOS=ADP
-18	cause	cause	NOUN	_	Gender=Fem|Number=Sing	17	fixed	_	_
-19	de	de	ADP	_	_	17	fixed	_	_
+17	à	à	ADP	_	_	21	case	_	INMWE=Yes
+18	cause	cause	NOUN	_	Gender=Fem|Number=Sing	15	advmod	_	MWEPOS=ADV
+19	de	de	ADP	_	_	21	case	_	_
 20	leur	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det	_	_
-21	cri	cri	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	_
+21	cri	cri	NOUN	_	Gender=Masc|Number=Sing	18	obl:arg	_	_
 22	d'	de	ADP	_	_	23	case	_	SpaceAfter=No
 23	alerte	alerte	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
 24	face	face	NOUN	_	Gender=Fem|Number=Sing	27	case	_	MWEPOS=ADP

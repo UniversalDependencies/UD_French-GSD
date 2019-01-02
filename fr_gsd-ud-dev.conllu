@@ -1382,9 +1382,9 @@
 5	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	7	obl:mod	_	_
 6	aussi	aussi	ADV	_	_	5	advmod	_	_
 7	laissé	laisser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-8	filer	filer	VERB	_	VerbForm=Inf	7	ccomp	_	_
+8	filer	filer	VERB	_	VerbForm=Inf	7	xcomp	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	ballon	ballon	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+10	ballon	ballon	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
 11	dans	dans	ADP	_	_	13	case	_	_
 12	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	13	det	_	_
 13	buts	but	NOUN	_	Gender=Masc|Number=Plur	8	obl:mod	_	SpaceAfter=No
@@ -9535,7 +9535,7 @@
 12	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
 13	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
 14	indépendantistes	indépendantiste	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
-15	demandent	demander	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	parataxis	_	_
+15	demandent	demander	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
 16	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 17	aide	aide	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
 18	de	de	ADP	_	_	20	case	_	_
@@ -13850,11 +13850,11 @@
 15	:	:	PUNCT	_	_	10	punct	_	_
 16	pour	pour	ADP	_	_	18	mark	_	_
 17	être	être	AUX	_	VerbForm=Inf	18	cop	_	_
-18	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	10	advcl	_	SpaceAfter=No
+18	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	22	advcl	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	22	punct	_	_
 20	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
 21	algorithme	algorithme	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
-22	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
+22	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
 23	pouvoir	pouvoir	VERB	_	VerbForm=Inf	22	xcomp	_	_
 24	être	être	AUX	_	VerbForm=Inf	25	aux:pass	_	_
 25	divulgué	divulguer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	xcomp	_	SpaceAfter=No
@@ -15843,7 +15843,7 @@
 19	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
 20	supposés	supposer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
 21	physiquement	physiquement	ADV	_	_	22	advmod	_	_
-22	sécurisés	sécuriser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	ccomp	_	SpaceAfter=No
+22	sécurisés	sécuriser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	xcomp	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_00567
@@ -16626,7 +16626,7 @@
 25	à	à	ADP	_	_	27	case	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	commencement	commencement	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
-28	produit	produire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
+28	produit	produire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	parataxis	_	_
 29	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
 30	grandes	grand	ADJ	_	Gender=Fem|Number=Plur	31	amod	_	_
 31	déviations	déviation	NOUN	_	Gender=Fem|Number=Plur	28	obj	_	_
@@ -36875,7 +36875,7 @@
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	voie	voie	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
-4	dénommée	dénommer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+4	dénommée	dénommer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
 5	Boulevard	boulevard	NOUN	_	Gender=Masc|Number=Sing	4	xcomp	_	_
 6	Intercommunal	intercommunal	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 7-8	du	_	_	_	_	_	_	_	_

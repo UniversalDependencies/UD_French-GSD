@@ -807,11 +807,11 @@
 
 # sent_id = fr-ud-test_00029
 # text = Il y a un an naissait Gdem Izik.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	y	y	PRON	_	_	3	expl	_	_
-3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	INMWE=Yes
+2	y	y	PRON	_	_	3	expl	_	INMWE=Yes
+3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	case	_	MWEPOS=ADP
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	an	an	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	an	an	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
 6	naissait	naître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	Gdem	Gdem	PROPN	_	_	6	nsubj	_	_
 8	Izik	Izik	PROPN	_	_	7	flat:name	_	SpaceAfter=No

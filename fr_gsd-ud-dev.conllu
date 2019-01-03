@@ -10150,8 +10150,8 @@
 12	important	important	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
 13	n'	ne	ADV	_	Polarity=Neg	18	advmod	_	SpaceAfter=No
 14	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
-15	sans	sans	ADP	_	_	16	case	_	_
-16	doute	doute	NOUN	_	Gender=Masc|Number=Sing	18	obl:mod	_	_
+15	sans	sans	ADP	_	_	16	case	_	INMWE=Yes
+16	doute	doute	NOUN	_	Gender=Masc|Number=Sing	18	advmod	_	MWEPOS=ADV
 17	pas	pas	ADV	_	Polarity=Neg	18	advmod	_	_
 18	permis	permettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 19	de	de	ADP	_	_	20	mark	_	_
@@ -18385,8 +18385,8 @@
 # text = C'était sans doute le premier séjour de Nééra dans la métropole de l'Attique.
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	7	nsubj	_	SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
-3	sans	sans	ADP	_	_	4	case	_	_
-4	doute	doute	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
+3	sans	sans	ADP	_	_	4	case	_	INMWE=Yes
+4	doute	doute	NOUN	_	Gender=Masc|Number=Sing	7	advmod	_	MWEPOS=ADV
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	premier	premier	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 7	séjour	séjour	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_

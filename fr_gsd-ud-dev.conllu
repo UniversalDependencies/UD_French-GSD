@@ -14913,8 +14913,8 @@
 
 # sent_id = fr-ud-dev_00537
 # text = En face, les Etats de la région n'arrivent pas à s'entendre pour balayer devant leurs portes.
-1	En	en	ADP	_	_	2	case	_	_
-2	face	face	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	SpaceAfter=No
+1	En	en	ADP	_	_	2	case	_	INMWE=Yes
+2	face	face	NOUN	_	Gender=Fem|Number=Sing	10	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	10	punct	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	Etats	Etats	PROPN	_	_	10	nsubj	_	_

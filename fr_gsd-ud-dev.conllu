@@ -8817,9 +8817,9 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	jeune-homme	jeune-homme	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
-4	tout	tout	ADV	_	_	5	advmod	_	_
-5	d'	de	ADP	_	_	7	advmod	_	MWEPOS=ADV|SpaceAfter=No
-6	abord	abord	NOUN	_	Gender=Masc|Number=Sing	5	fixed	_	_
+4	tout	tout	ADV	_	_	6	advmod	_	_
+5	d'	de	ADP	_	_	_	_	_	INMWE=Yes|SpaceAfter=No
+6	abord	abord	NOUN	_	Gender=Masc|Number=Sing	7|5	advmod|fixed	_	MWEPOS=ADV
 7	avocat	avocat	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 8	attaché	attacher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
 9	à	à	ADP	_	_	11	case	_	_
@@ -25770,8 +25770,8 @@
 
 # sent_id = fr-ud-dev_00929
 # text = D'abord médecin, sa carrière en médecine fut difficile et peu brillante.
-1	D'	de	ADP	_	_	3	advmod	_	MWEPOS=ADV|SpaceAfter=No
-2	abord	abord	ADV	_	_	1	fixed	_	_
+1	D'	de	ADP	_	_	_	_	_	INMWE=Yes|SpaceAfter=No
+2	abord	abord	ADV	_	_	3|1	advmod|fixed	_	MWEPOS=ADV
 3	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	10	advcl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	10	punct	_	_
 5	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
@@ -33156,8 +33156,8 @@
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	Chinois	Chinois	PROPN	_	_	8	nsubj	_	_
 8	conduisaient	conduire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-9	d'	de	ADP	_	_	8	obl	_	MWEPOS=ADV|SpaceAfter=No
-10	abord	abord	NOUN	_	Gender=Masc|Number=Sing	9	fixed	_	_
+9	d'	de	ADP	_	_	_	_	_	INMWE=Yes|SpaceAfter=No
+10	abord	abord	NOUN	_	Gender=Masc|Number=Sing	9|8	fixed|advmod	_	MWEPOS=ADV
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	gaz	gaz	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
 13	dans	dans	ADP	_	_	16	case	_	_
@@ -41022,8 +41022,8 @@
 # text = Il joue d'abord avec Valence, puis le Real Madrid avant de rejoindre les Basques de Tau Vitoria.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	joue	jouer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	d'	de	ADP	_	_	2	obl	_	MWEPOS=ADV|SpaceAfter=No
-4	abord	abord	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	_
+3	d'	de	ADP	_	_	_	_	_	INMWE=Yes|SpaceAfter=No
+4	abord	abord	NOUN	_	Gender=Masc|Number=Sing	3|2	fixed|advmod	_	MWEPOS=ADV
 5	avec	avec	ADP	_	_	6	case	_	_
 6	Valence	Valence	PROPN	_	_	2	obl:mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_

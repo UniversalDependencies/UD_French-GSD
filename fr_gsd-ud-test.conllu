@@ -3988,9 +3988,9 @@
 14	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	15	aux	_	_
 15	disputé	disputer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
 16-17	au	_	_	_	_	_	_	_	_
-16	à	à	ADP	_	_	19	advmod	_	MWEPOS=ADV
-17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	fixed	_	_
-18	moins	moins	ADV	_	_	16	fixed	_	_
+16	à	à	ADP	_	_	18	case	_	INMWE=Yes
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	INMWE=Yes
+18	moins	moins	ADV	_	_	19	advmod	_	MWEPOS=ADV
 19	20	20	NUM	_	_	20	nummod	_	_
 20	matches	match	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	_
 21	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_

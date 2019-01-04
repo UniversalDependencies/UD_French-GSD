@@ -8,7 +8,7 @@ The French UD is converted from the content head version of the universal
 dependency treebank v2.0 (https://github.com/ryanmcd/uni-dep-tb).
 The README for the original project is available below.
 
-The version 2.2 of French data consists of 402,426 words (16,448 sentences).
+The version 2.2 of French data consists of 400,440 words (16,342 sentences).
 No sentence id were available in the original resource, so new `sent_id` were automatically introduced in the converted corpus with prefixes `fr-ud-train`, `fr-ud-dev` and `fr-ud-test` on the correponding original files, followed by a 5 digit number following the order of sentences.
 
 :warning: to meet the size requirements of test data of 10K words, a part of the dev original file was moved to the test file!
@@ -35,9 +35,13 @@ See below for references and acknowledgments concerning the original corpus.
 
 # Changelog
 
+* 2018-11-15 v2.3
+  * add subtyping for preposition "à"
+  * remove duplicate sentences
+  * fix errors found with conversion to SUD
 * 2018-04-15 v2.2
   * Partial subtyping of `obl` into the 3 relations `obl:agent`, `obl:mod` and `obl:arg` (This is done form 43,5% of the total number of the `obl` relations; this is completly done from PP introduced by prepositions *de*, *par*, *dans* and *avec*).
-  * Many erros corrections 
+  * Many error corrections
 * 2017-11-15 v2.1
   * Only "être", "avoir" or "faire" with the POS tag `AUX`
   * modifications taking into account new decisions taken for harmonisation of several French Treebanks (causative, copules, auxiliaries, change of `nmod:poss` in `det`)

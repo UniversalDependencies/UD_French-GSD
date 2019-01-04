@@ -5170,10 +5170,10 @@
 
 # sent_id = fr-ud-test_00173
 # text = Grâce à une plate-forme logicielle intégrée aux capacités reconnues dans la gestion des emails et la fusion entrant/sortant, les équipes marketing accroissent rapidement leur efficacité et leur impact sur le chiffre d'affaires.
-1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	4	case	_	MWEPOS=ADP
-2	à	à	ADP	_	_	1	fixed	_	_
+1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	27	advmod	_	_
+2	à	à	ADP	_	_	4	case	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	plate-forme	plate-forme	NOUN	_	Gender=Fem|Number=Sing	27	obl:mod	_	_
+4	plate-forme	plate-forme	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	_
 5	logicielle	logiciel	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 6	intégrée	intégré	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 7-8	aux	_	_	_	_	_	_	_	_
@@ -6556,10 +6556,10 @@
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	inventer	inventer	VERB	_	VerbForm=Inf	4	conj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	2	punct	_	_
-12	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	15	case	_	MWEPOS=ADP
-13	à	à	ADP	_	_	12	fixed	_	_
+12	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	2	advmod	_	_
+13	à	à	ADP	_	_	15	case	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	matériel	matériel	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+15	matériel	matériel	NOUN	_	Gender=Masc|Number=Sing	12	obl:arg	_	_
 16	pédagogique	pédagogique	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
 17	spécifique	spécifique	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	2	punct	_	_

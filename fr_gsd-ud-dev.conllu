@@ -7743,10 +7743,10 @@
 
 # sent_id = fr-ud-dev_00276
 # text = Face à l'explosion de la demande de numéros liée à la démocratisation du fax et de la téléphonie mobile, France Télécom développa un nouveau plan, mis en œuvre le 18 octobre 1996 à 23 heures.
-1	Face	face	NOUN	_	Gender=Fem|Number=Sing	4	case	_	MWEPOS=ADP
-2	à	à	ADP	_	_	1	fixed	_	_
+1	Face	face	NOUN	_	Gender=Fem|Number=Sing	25	advmod	_	_
+2	à	à	ADP	_	_	4	case	_	_
 3	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
-4	explosion	explosion	NOUN	_	Gender=Fem|Number=Sing	25	obl:mod	_	_
+4	explosion	explosion	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	demande	demande	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
@@ -7897,11 +7897,11 @@
 24	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 25	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
 26	faire	faire	VERB	_	VerbForm=Inf	25	xcomp	_	_
-27	face	face	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	_
+27	face	face	NOUN	_	Gender=Fem|Number=Sing	26	obj:lvc	_	_
 28-29	aux	_	_	_	_	_	_	_	_
 28	à	à	ADP	_	_	30	case	_	_
 29	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
-30	candidats	candidat	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	_
+30	candidats	candidat	NOUN	_	Gender=Masc|Number=Plur	26	obl:arg	_	_
 31	«	«	PUNCT	_	_	32	punct	_	_
 32	sassanides	sassanide	ADJ	_	Gender=Masc|Number=Plur	30	amod	_	_
 33	légitimes	légitime	ADJ	_	Gender=Masc|Number=Plur	30	amod	_	_
@@ -17057,11 +17057,11 @@
 24	mesures	mesure	NOUN	_	Gender=Fem|Number=Plur	21	obj	_	_
 25	à	à	ADP	_	_	26	mark	_	_
 26	adopter	adopter	VERB	_	VerbForm=Inf	24	acl	_	_
-27	face	face	NOUN	_	Gender=Fem|Number=Sing	30	case	_	MWEPOS=ADP
+27	face	face	NOUN	_	Gender=Fem|Number=Sing	26	advmod	_	_
 28-29	aux	_	_	_	_	_	_	_	_
-28	à	à	ADP	_	_	27	fixed	_	_
+28	à	à	ADP	_	_	30	case	_	_
 29	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
-30	inondations	inondation	NOUN	_	Gender=Fem|Number=Plur	26	obl	_	SpaceAfter=No
+30	inondations	inondation	NOUN	_	Gender=Fem|Number=Plur	27	obl:arg	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00613
@@ -17709,10 +17709,10 @@
 20	ferme	ferme	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
 21	et	et	CCONJ	_	_	22	cc	_	_
 22	courageuse	courageux	ADJ	_	Gender=Fem|Number=Sing	20	conj	_	_
-23	face	face	NOUN	_	Gender=Fem|Number=Sing	26	case	_	MWEPOS=ADP
-24	à	à	ADP	_	_	23	fixed	_	_
+23	face	face	NOUN	_	Gender=Fem|Number=Sing	19	advmod	_	_
+24	à	à	ADP	_	_	26	case	_	_
 25	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
-26	réaction	réaction	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+26	réaction	réaction	NOUN	_	Gender=Fem|Number=Sing	23	obl:arg	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	29	punct	_	_
 28	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	29	nsubj	_	_
 29	sauvons	sauver	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -20657,11 +20657,11 @@
 27	mais	mais	CCONJ	_	_	28	cc	_	_
 28	demeure	demeurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
 29	implacable	implacable	ADJ	_	Gender=Masc|Number=Sing	28	xcomp	_	_
-30	face	face	NOUN	_	Gender=Fem|Number=Sing	33	case	_	MWEPOS=ADP
+30	face	face	NOUN	_	Gender=Fem|Number=Sing	29	advmod	_	_
 31-32	aux	_	_	_	_	_	_	_	_
-31	à	à	ADP	_	_	30	fixed	_	_
+31	à	à	ADP	_	_	33	case	_	_
 32	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
-33	agitateurs	agitateur	NOUN	_	Gender=Masc|Number=Plur	29	obl	_	SpaceAfter=No
+33	agitateurs	agitateur	NOUN	_	Gender=Masc|Number=Plur	30	obl:arg	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-dev_00749
@@ -23445,11 +23445,11 @@
 2	demi-finale	demi-finale	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	conférence	conférence	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-5	face	face	NOUN	_	Gender=Fem|Number=Sing	8	case	_	MWEPOS=ADP
+5	face	face	NOUN	_	Gender=Fem|Number=Sing	2	advmod	_	_
 6-7	au	_	_	_	_	_	_	_	_
-6	à	à	ADP	_	_	5	fixed	_	_
+6	à	à	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Jazz	Jazz	PROPN	_	_	2	nmod	_	_
+8	Jazz	Jazz	PROPN	_	_	5	obl:arg	_	_
 9	confirme	confirmer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
 11	guérison	guérison	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
@@ -28638,10 +28638,10 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	ajoute	ajouter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	12	mark	_	_
-4	face	face	NOUN	_	Gender=Fem|Number=Sing	7	case	_	MWEPOS=ADP
-5	à	à	ADP	_	_	4	fixed	_	_
+4	face	face	NOUN	_	Gender=Fem|Number=Sing	12	advmod	_	_
+5	à	à	ADP	_	_	7	case	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	corruption	corruption	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	_
+7	corruption	corruption	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	_
 8	généralisée	généralisé	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
@@ -30589,9 +30589,9 @@
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	dark	dark	ADJ	_	_	11	amod	_	_
 11	match	match	NOUN	_	Gender=Masc|Number=Sing	7	obl:arg	_	_
-12	face	face	NOUN	_	Gender=Fem|Number=Sing	14	case	_	MWEPOS=ADP
-13	à	à	ADP	_	_	12	fixed	_	_
-14	Elijah	Elijah	PROPN	_	_	7	obl	_	_
+12	face	face	NOUN	_	Gender=Fem|Number=Sing	7	advmod	_	_
+13	à	à	ADP	_	_	14	case	_	_
+14	Elijah	Elijah	PROPN	_	_	12	obl:arg	_	_
 15	Burke	Burke	PROPN	_	_	14	flat:name	_	_
 16	à	à	ADP	_	_	17	case	_	_
 17	TNA	TNA	PROPN	_	_	7	obl:mod	_	_
@@ -33265,10 +33265,10 @@
 7	qu'	que	SCONJ	_	_	9	mark	_	SpaceAfter=No
 8	en	en	ADP	_	_	9	case	_	_
 9	2002	2002	NUM	_	_	6	advcl	_	_
-10	face	face	NOUN	_	Gender=Fem|Number=Sing	13	case	_	MWEPOS=ADP
-11	à	à	ADP	_	_	10	fixed	_	_
+10	face	face	NOUN	_	Gender=Fem|Number=Sing	6	advmod	_	_
+11	à	à	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	ministre	ministre	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+13	ministre	ministre	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	_
 14	déléguée	déléguer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
 15	à	à	ADP	_	_	17	case	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
@@ -34322,11 +34322,11 @@
 21	cri	cri	NOUN	_	Gender=Masc|Number=Sing	18	obl:arg	_	_
 22	d'	de	ADP	_	_	23	case	_	SpaceAfter=No
 23	alerte	alerte	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
-24	face	face	NOUN	_	Gender=Fem|Number=Sing	27	case	_	MWEPOS=ADP
+24	face	face	NOUN	_	Gender=Fem|Number=Sing	21	advmod	_	_
 25-26	au	_	_	_	_	_	_	_	_
-25	à	à	ADP	_	_	24	fixed	_	_
+25	à	à	ADP	_	_	27	case	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	danger	danger	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+27	danger	danger	NOUN	_	Gender=Masc|Number=Sing	24	obl:arg	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = fr-ud-dev_01238
@@ -35239,7 +35239,7 @@
 25	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
 26	dû	devoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 27	faire	faire	VERB	_	VerbForm=Inf	26	xcomp	_	_
-28	face	face	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	_
+28	face	face	NOUN	_	Gender=Fem|Number=Sing	27	obj:lvc	_	_
 29-30	aux	_	_	_	_	_	_	_	_
 29	à	à	ADP	_	_	32	case	_	_
 30	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
@@ -39529,11 +39529,11 @@
 8	Cup	Cup	PROPN	_	_	7	flat:name	_	_
 9	en	en	ADP	_	_	10	case	_	_
 10	1988	1988	NUM	_	_	5	obl	_	_
-11	face	face	NOUN	_	Gender=Fem|Number=Sing	14	case	_	MWEPOS=ADP
+11	face	face	NOUN	_	Gender=Fem|Number=Sing	5	advmod	_	_
 12-13	aux	_	_	_	_	_	_	_	_
-12	à	à	ADP	_	_	11	fixed	_	_
+12	à	à	ADP	_	_	14	case	_	_
 13	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
-14	champions	champion	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+14	champions	champion	NOUN	_	Gender=Masc|Number=Plur	11	obl:arg	_	_
 15	d'	de	ADP	_	_	16	case	_	SpaceAfter=No
 16	Angleterre	Angleterre	PROPN	_	_	14	nmod	_	_
 17	Liverpool	Liverpool	PROPN	_	_	14	appos	_	_

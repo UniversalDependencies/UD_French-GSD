@@ -4109,11 +4109,11 @@
 31	en	en	ADP	_	_	32	case	_	INMWE=Yes
 32	plus	plus	ADV	_	_	30	advmod	_	INMWE=Yes
 33	pied	pied	NOUN	_	Gender=Masc|Number=Sing	28	obj:lvc	_	_
-34	face	face	NOUN	_	Gender=Fem|Number=Sing	37	case	_	MWEPOS=ADP
+34	face	face	NOUN	_	Gender=Fem|Number=Sing	28	advmod	_	_
 35-36	au	_	_	_	_	_	_	_	_
-35	à	à	ADP	_	_	34	fixed	_	_
+35	à	à	ADP	_	_	37	case	_	_
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-37	LTE	LTE	PROPN	_	_	28	obl	_	SpaceAfter=No
+37	LTE	LTE	PROPN	_	_	34	obl:arg	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = fr-ud-test_00135
@@ -6609,11 +6609,11 @@
 9	et	et	CCONJ	_	_	10	cc	_	_
 10	pro	professionnel	ADJ	_	Gender=Masc|Number=Sing	8	conj	_	_
 11	survivra	survivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	ccomp	_	_
-12	face	face	NOUN	_	Gender=Fem|Number=Sing	15	case	_	MWEPOS=ADP
+12	face	face	NOUN	_	Gender=Fem|Number=Sing	11	advmod	_	_
 13-14	aux	_	_	_	_	_	_	_	_
-13	à	à	ADP	_	_	12	fixed	_	_
+13	à	à	ADP	_	_	15	case	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
-15	autres	autre	PRON	_	Number=Plur	11	obl	_	_
+15	autres	autre	PRON	_	Number=Plur	12	obl:arg	_	_
 16	qui	qui	PRON	_	PronType=Rel	17	nsubj	_	_
 17	fleurissent	fleurir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
 18	à	à	ADP	_	_	20	case	_	_
@@ -10589,11 +10589,11 @@
 13	prises	prendre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	ccomp	_	_
 14	pour	pour	ADP	_	_	15	mark	_	_
 15	faire	faire	VERB	_	VerbForm=Inf	13	advcl	_	_
-16	face	face	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+16	face	face	NOUN	_	Gender=Fem|Number=Sing	15	obj:lvc	_	_
 17	à	à	ADP	_	_	20	case	_	_
 18	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
 19	telles	tel	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	_
-20	actions	action	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+20	actions	action	NOUN	_	Gender=Fem|Number=Plur	15	obl:arg	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	en	en	ADP	_	_	23	case	_	_
 23	conformité	conformité	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_

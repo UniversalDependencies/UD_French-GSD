@@ -3540,10 +3540,10 @@
 45	à	à	ADP	_	_	47	case	_	_
 46	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
 47	corps	corps	NOUN	_	Gender=Masc|Number=Sing	43	nmod	_	_
-48	comme	comme	SCONJ	_	_	51	mark	_	_
+48	comme	comme	SCONJ	_	_	51	cc	_	_
 49	à	à	ADP	_	_	51	case	_	_
 50	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	SpaceAfter=No
-51	âme	âme	NOUN	_	Gender=Fem|Number=Sing	47	acl	_	SpaceAfter=No
+51	âme	âme	NOUN	_	Gender=Fem|Number=Sing	47	conj	_	SpaceAfter=No
 52	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-test_00119
@@ -4109,7 +4109,7 @@
 31	en	en	ADP	_	_	32	case	_	INMWE=Yes
 32	plus	plus	ADV	_	_	30	advmod	_	INMWE=Yes
 33	pied	pied	NOUN	_	Gender=Masc|Number=Sing	28	obj:lvc	_	_
-34	face	face	NOUN	_	Gender=Fem|Number=Sing	28	advmod	_	_
+34	face	face	ADV	_	Gender=Fem|Number=Sing	28	advmod	_	_
 35-36	au	_	_	_	_	_	_	_	_
 35	à	à	ADP	_	_	37	case	_	_
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
@@ -5170,7 +5170,7 @@
 
 # sent_id = fr-ud-test_00173
 # text = Grâce à une plate-forme logicielle intégrée aux capacités reconnues dans la gestion des emails et la fusion entrant/sortant, les équipes marketing accroissent rapidement leur efficacité et leur impact sur le chiffre d'affaires.
-1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	27	advmod	_	_
+1	Grâce	grâce	ADV	_	Gender=Fem|Number=Sing	27	advmod	_	_
 2	à	à	ADP	_	_	4	case	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	plate-forme	plate-forme	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	_
@@ -5575,7 +5575,7 @@
 11	--	--	PUNCT	_	_	7	punct	_	SpaceAfter=No
 12	comme	comme	ADP	_	_	14	case	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	postulant	postulant	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+14	postulant	postulant	NOUN	_	Gender=Masc|Number=Sing	1	obl:mod	_	_
 15	sérieux	sérieux	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
 16	à	à	ADP	_	_	18	case	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -6556,7 +6556,7 @@
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	inventer	inventer	VERB	_	VerbForm=Inf	4	conj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	2	punct	_	_
-12	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	2	advmod	_	_
+12	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	2	advmod	_	_
 13	à	à	ADP	_	_	15	case	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	matériel	matériel	NOUN	_	Gender=Masc|Number=Sing	12	obl:arg	_	_
@@ -6609,7 +6609,7 @@
 9	et	et	CCONJ	_	_	10	cc	_	_
 10	pro	professionnel	ADJ	_	Gender=Masc|Number=Sing	8	conj	_	_
 11	survivra	survivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	ccomp	_	_
-12	face	face	NOUN	_	Gender=Fem|Number=Sing	11	advmod	_	_
+12	face	face	ADV	_	Gender=Fem|Number=Sing	11	advmod	_	_
 13-14	aux	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	15	case	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
@@ -8348,7 +8348,7 @@
 15	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
 16	reconnue	reconnaître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
 17	comme	comme	ADP	_	_	18	case	_	_
-18	maladie	maladie	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+18	maladie	maladie	NOUN	_	Gender=Fem|Number=Sing	16	obl:mod	_	_
 19	professionnelle	professionnel	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
 20	en	en	ADP	_	_	21	case	_	_
 21	France	France	PROPN	_	_	16	obl	_	SpaceAfter=No
@@ -10361,7 +10361,7 @@
 25	,	,	PUNCT	_	_	3	punct	_	_
 26	conçue	concevoir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
 27	comme	comme	ADP	_	_	28	case	_	_
-28	vecteur	vecteur	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
+28	vecteur	vecteur	NOUN	_	Gender=Masc|Number=Sing	26	obl:mod	_	_
 29	privilégié	privilégier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	acl	_	_
 30	de	de	ADP	_	_	31	case	_	_
 31	dialogue	dialogue	NOUN	_	Gender=Masc|Number=Sing	29	obl:mod	_	_

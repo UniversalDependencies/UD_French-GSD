@@ -5001,7 +5001,7 @@
 
 # sent_id = fr-ud-test_00166
 # text = Puis, à l'école, deux autres délégués sont intervenus pour parler aux élèves mais aussi parents.
-1	Puis	puis	ADV	_	_	11	advmod	_	SpaceAfter=No
+1	Puis	puis	ADV	_	_	11	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	11	punct	_	_
 3	à	à	ADP	_	_	5	case	_	_
 4	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
@@ -11411,7 +11411,7 @@
 18	sons	son	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
 19	)	)	PUNCT	_	_	11	punct	_	_
 20	http://brahms.ircam.fr/textes/c00000018/index.html	http://brahms.ircam.fr/textes/c00000018/index.html	SYM	_	_	8	nmod	_	_
-21	puis	puis	SCONJ	_	_	23	cc	_	_
+21	puis	puis	ADV	_	_	23	cc	_	_
 22	par	par	ADP	_	_	23	case	_	_
 23	Jean-Claude	Jean-Claude	PROPN	_	_	8	conj	_	_
 24	Risset	Risset	PROPN	_	_	23	flat:name	_	SpaceAfter=No

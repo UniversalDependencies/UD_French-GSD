@@ -898,8 +898,8 @@
 7	accueil	accueil	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 8	aussi	aussi	ADV	_	_	9	advmod	_	_
 9	chaleureux	chaleureux	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
-10	qu'	que	SCONJ	_	_	11	mark	_	SpaceAfter=No
-11	enthousiaste	enthousiaste	ADJ	_	Gender=Masc|Number=Sing	9	advcl	_	SpaceAfter=No
+10	qu'	que	SCONJ	_	_	11	cc	_	SpaceAfter=No
+11	enthousiaste	enthousiaste	ADJ	_	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
 12	...	...	PUNCT	_	_	4	punct	_	_
 13	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
 14	plats	plat	NOUN	_	Gender=Masc|Number=Plur	16	nsubj	_	_
@@ -14495,10 +14495,10 @@
 24	chez	chez	ADP	_	_	26	case	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	mâle	mâle	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
-27	que	que	SCONJ	_	_	30	mark	_	_
+27	que	que	SCONJ	_	_	30	cc	_	_
 28	chez	chez	ADP	_	_	30	case	_	_
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	femelle	femelle	NOUN	_	Gender=Fem|Number=Sing	26	acl	_	SpaceAfter=No
+30	femelle	femelle	NOUN	_	Gender=Fem|Number=Sing	26	conj	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00522
@@ -28477,9 +28477,9 @@
 19	d'	de	ADP	_	_	20	case	_	SpaceAfter=No
 20	armure	armure	NOUN	_	Gender=Fem|Number=Sing	16	obl:mod	_	_
 21	plus	plus	ADV	_	_	20	advmod	_	_
-22	que	que	SCONJ	_	_	24	mark	_	_
+22	que	que	SCONJ	_	_	24	cc	_	_
 23	d'	de	ADP	_	_	24	case	_	SpaceAfter=No
-24	habits	habit	NOUN	_	Gender=Masc|Number=Plur	20	acl	_	SpaceAfter=No
+24	habits	habit	NOUN	_	Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
 25	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -29793,10 +29793,10 @@
 20	à	à	ADP	_	_	22	case	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	Maghreb	Maghreb	PROPN	_	_	14	nmod	_	_
-23	que	que	SCONJ	_	_	26	mark	_	_
+23	que	que	SCONJ	_	_	26	cc	_	_
 24	dans	dans	ADP	_	_	26	case	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	région	région	NOUN	_	Gender=Fem|Number=Sing	22	acl	_	_
+26	région	région	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	_
 27-28	du	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	_	29	case	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
@@ -36144,8 +36144,8 @@
 40	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	42	cop	_	_
 41	aussi	aussi	ADV	_	_	42	advmod	_	_
 42	fulgurant	fulgurant	ADJ	_	Gender=Masc|Number=Sing	22	parataxis	_	_
-43	que	que	SCONJ	_	_	44	mark	_	_
-44	court	court	ADJ	_	Gender=Masc|Number=Sing	42	advcl	_	SpaceAfter=No
+43	que	que	SCONJ	_	_	44	cc	_	_
+44	court	court	ADJ	_	Gender=Masc|Number=Sing	42	conj	_	SpaceAfter=No
 45	.	.	PUNCT	_	_	22	punct	_	_
 
 # sent_id = fr-ud-dev_01305
@@ -37244,7 +37244,7 @@
 10	que	que	SCONJ	_	_	13	mark	_	_
 11	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	13	nsubj	_	_
 12	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
-13	irrationnel	irrationnel	ADJ	_	Gender=Masc|Number=Sing	9	orphan	_	_
+13	irrationnel	irrationnel	ADJ	_	Gender=Masc|Number=Sing	9	advcl	_	_
 14	puisqu'	puisque	SCONJ	_	_	17	mark	_	SpaceAfter=No
 15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_

@@ -4901,7 +4901,7 @@
 11	,	,	PUNCT	_	_	4	punct	_	_
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
 13	EUR	EUR	PROPN	_	_	16	nsubj	_	SpaceAfter=No
-14	/	/	PUNCT	_	_	15	punct	_	SpaceAfter=No
+14	/	/	SYM	_	_	15	cc	_	SpaceAfter=No
 15	GBP	GBP	PROPN	_	_	13	conj	_	_
 16	prenant	prendre	VERB	_	Tense=Pres|VerbForm=Part	4	advcl	_	_
 17	0.27	0.27	NUM	_	_	18	nummod	_	SpaceAfter=No
@@ -5192,7 +5192,7 @@
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	fusion	fusion	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
 20	entrant	entrer	VERB	_	Tense=Pres|VerbForm=Part	19	compound	_	SpaceAfter=No
-21	/	/	PUNCT	_	_	22	punct	_	SpaceAfter=No
+21	/	/	SYM	_	_	22	cc	_	SpaceAfter=No
 22	sortant	sortir	VERB	_	Tense=Pres|VerbForm=Part	20	conj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	27	punct	_	_
 24	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
@@ -7357,7 +7357,7 @@
 3	chaussures	chaussure	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 4	pour	pour	ADP	_	_	5	case	_	_
 5	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
-6	/	/	PUNCT	_	_	7	punct	_	SpaceAfter=No
+6	/	/	SYM	_	_	7	cc	_	SpaceAfter=No
 7	adolescents	adolescent	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
 8	très	très	ADV	_	_	9	advmod	_	_
 9	convivial	convivial	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
@@ -7399,7 +7399,7 @@
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	saumon	saumon	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
 8	vapeur	vapeur	NOUN	_	Gender=Masc|Number=Plur	7	compound	_	SpaceAfter=No
-9	/	/	PUNCT	_	_	10	punct	_	SpaceAfter=No
+9	/	/	SYM	_	_	10	cc	_	SpaceAfter=No
 10	tagliatelles	tagliatelle	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	filet	filet	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
@@ -8517,7 +8517,7 @@
 15	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 16	âges	âge	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
 17	et	et	CCONJ	_	_	22	cc	_	SpaceAfter=No
-18	/	/	PUNCT	_	_	19	punct	_	SpaceAfter=No
+18	/	/	SYM	_	_	19	cc	_	SpaceAfter=No
 19	ou	ou	CCONJ	_	_	17	conj	_	_
 20	dans	dans	ADP	_	_	22	case	_	_
 21	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
@@ -11234,7 +11234,7 @@
 48	en	en	ADP	_	_	49	case	_	INTITLE=Yes
 49	enfer	enfer	NOUN	_	Gender=Masc|Number=Sing	46	obl	_	INTITLE=Yes
 50	?	?	PUNCT	_	_	46	punct	_	INTITLE=Yes|SpaceAfter=No
-51	/	/	PUNCT	_	_	52	punct	_	INTITLE=Yes|SpaceAfter=No
+51	/	/	SYM	_	_	52	punct	_	INTITLE=Yes|SpaceAfter=No
 52	Probablement	probablement	ADV	_	_	46	parataxis	_	INTITLE=Yes
 53	!	!	PUNCT	_	_	52	punct	_	INTITLE=Yes|SpaceAfter=No
 54	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No

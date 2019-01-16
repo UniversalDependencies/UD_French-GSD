@@ -2030,12 +2030,12 @@
 
 # sent_id = fr-ud-test_00072
 # text = Dès lors que le peuple décide de regagner sa liberté il devient instantanément et de facto, libre.
-1	Dès	dès	ADP	_	_	2	case	_	INMWE=Yes
-2	lors	lors	ADV	_	_	12	advmod	_	MWEPOS=ADV
+1	Dès	dès	ADP	_	_	12	advmod	_	MWEPOS=ADV
+2	lors	lors	ADV	_	_	1	fixed	_	_
 3	que	que	SCONJ	_	_	6	mark	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	peuple	peuple	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
-6	décide	décider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	décide	décider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
 7	de	de	ADP	_	_	8	mark	_	_
 8	regagner	regagner	VERB	_	VerbForm=Inf	6	xcomp	_	_
 9	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
@@ -3750,11 +3750,11 @@
 22	avec	avec	ADP	_	_	24	case	_	_
 23	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
 24	citoyens	citoyen	NOUN	_	Gender=Masc|Number=Plur	20	obl:mod	_	_
-25	+	+	PUNCT	_	_	26	punct	_	_
+25	+	+	SYM	_	_	26	advmod	_	_
 26	Facebookant	facebooker	VERB	_	Tense=Pres|VerbForm=Part	24	acl	_	_
 27	et	et	CCONJ	_	_	28	cc	_	_
 28	Tweetant	tweeter	VERB	_	Tense=Pres|VerbForm=Part	26	conj	_	_
-29	+	+	PUNCT	_	_	26	punct	_	_
+29	+	+	SYM	_	_	31	advmod	_	_
 30	avec	avec	ADP	_	_	31	case	_	_
 31	passion	passion	NOUN	_	Gender=Fem|Number=Sing	26	obl:mod	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	24	punct	_	_

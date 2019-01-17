@@ -29974,9 +29974,9 @@
 # sent_id = fr-ud-dev_01080
 # text = Au total le secteur éducatif a évolué en marge des objectifs pourtant clairement définis et des finalités qui lui ont été assignées.
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	3	case	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	total	total	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
+1	à	à	ADP	_	_	3	case	_	INMWE=Yes
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	INMWE=Yes
+3	total	total	NOUN	_	Gender=Masc|Number=Sing	8	advmod	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	secteur	secteur	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 6	éducatif	éducatif	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_

@@ -29974,9 +29974,9 @@
 # sent_id = fr-ud-dev_01080
 # text = Au total le secteur éducatif a évolué en marge des objectifs pourtant clairement définis et des finalités qui lui ont été assignées.
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	3	case	_	INMWE=Yes
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	INMWE=Yes
-3	total	total	NOUN	_	Gender=Masc|Number=Sing	8	advmod	_	_
+1	à	à	ADP	_	_	3	case	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	total	total	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	secteur	secteur	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 6	éducatif	éducatif	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
@@ -31994,7 +31994,7 @@
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	même	même	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 7	incident	incident	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-8	rapporté	rapporter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	rapporté	rapporter	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Correct=rapporte
 9	qu'	que	SCONJ	_	_	13	mark	_	SpaceAfter=No
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
@@ -32676,7 +32676,7 @@
 19	20	20	NUM	_	_	23	nummod	_	_
 20	6	6	NUM	_	_	19	conj	_	SpaceAfter=No
 21	/	/	SYM	_	_	20	cc	_	SpaceAfter=No
-22	2	2	NUM	_	_	20	nummod	_	_
+22	2	2	NUM	_	_	20	nmod	_	_
 23	cantons	canton	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
 24	et	et	CCONJ	_	_	27	cc	_	_
 25	par	par	ADP	_	_	27	case	_	_
@@ -35103,7 +35103,7 @@
 
 # sent_id = fr-ud-dev_01266
 # text = Compte tenu également du niveau des investissements, c'est aussi le démarrage du règne des grandes entreprises qui sont capables d'intégration verticale et/ou de spécialisation.
-1	Compte	compte	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	INMWE=Yes
+1	Compte	compte	NOUN	_	Gender=Masc|Number=Sing	2	nsubj:pass	_	INMWE=Yes
 2	tenu	tenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advmod	_	MWEPOS=ADV
 3	également	également	ADV	_	_	2	advmod	_	_
 4-5	du	_	_	_	_	_	_	_	_
@@ -41145,13 +41145,13 @@
 15	deux	deux	NUM	_	_	16	nummod	_	_
 16	registres	registre	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
 17	et	et	CCONJ	_	_	19	cc	_	_
-18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj:pass	_	_
 19	surmonté	surmonter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
 20	d'	de	ADP	_	_	22	case	_	SpaceAfter=No
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	oculus	oculus	NOUN	_	Gender=Masc|Number=Sing	19	obl:arg	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	26	punct	_	_
-24	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+24	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	26	nsubj:pass	_	_
 25	même	même	ADJ	_	Gender=Masc|Number=Sing	24	goeswith	_	_
 26	surmonté	surmonter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
 27	d'	de	ADP	_	_	30	case	_	SpaceAfter=No

@@ -8042,9 +8042,9 @@
 20	présentée	présenter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
 21	par	par	ADP	_	_	23	case	_	_
 22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	globe	globe	NOUN	_	Gender=Masc|Number=Sing	20	obl:agent	_	_
+23	globe	globe	NOUN	_	Gender=Masc|Number=Sing	20	obl:agent	_	MWEPOS=NOUN
 24	trotter	trotter	NOUN	_	Gender=Masc|Number=Sing	23	goeswith	_	_
-25	vedette	vedette	NOUN	_	Gender=Fem|Number=Sing	23	compound	_	SpaceAfter=No
+25	vedette	vedette	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	23	punct	_	_
 27	Simon	Simon	PROPN	_	_	23	appos	_	_
 28	Reeve	Reeve	PROPN	_	_	27	flat:name	_	SpaceAfter=No
@@ -12474,7 +12474,7 @@
 10	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
 12	récupérer	récupérer	VERB	_	VerbForm=Inf	11	xcomp	_	_
-13	celle	celui	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	12	obj	_	_
+13	celle	celui	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	12	obj	_	MWEPOS=PRON
 14	ci	ci	PART	_	_	13	goeswith	_	_
 15	dans	dans	ADP	_	_	17	case	_	_
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -13253,7 +13253,7 @@
 # text = Pas de sèche cheveux ni de prise rasoir dans la salle de bains.
 1	Pas	pas	ADV	_	Polarity=Neg	3	advmod	_	_
 2	de	un	DET	_	Definite=Ind|PronType=Art	3	det	_	_
-3	sèche	sécher	VERB	_	_	0	root	_	_
+3	sèche	sécher	VERB	_	_	0	root	_	MWEPOS=NOUN
 4	cheveux	cheveu	NOUN	_	Gender=Masc|Number=Plur	3	goeswith	_	_
 5	ni	ni	CCONJ	_	_	7	cc	_	_
 6	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -41151,7 +41151,7 @@
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	oculus	oculus	NOUN	_	Gender=Masc|Number=Sing	19	obl:arg	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	26	punct	_	_
-24	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	26	nsubj:pass	_	_
+24	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	26	nsubj:pass	_	MWEPOS=PRON
 25	même	même	ADJ	_	Gender=Masc|Number=Sing	24	goeswith	_	_
 26	surmonté	surmonter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
 27	d'	de	ADP	_	_	30	case	_	SpaceAfter=No

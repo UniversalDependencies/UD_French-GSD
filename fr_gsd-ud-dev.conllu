@@ -1715,11 +1715,11 @@
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	montre	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	qu'	que	SCONJ	_	_	23	mark	_	SpaceAfter=No
-19	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
-20	n'	ne	ADV	_	Polarity=Neg	23	advmod	_	SpaceAfter=No
-21	en	en	PRON	_	Person=3	23	iobj	_	_
-22	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
-23	rien	rien	PRON	_	Number=Sing	17	ccomp	_	SpaceAfter=No
+19	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	INMWE=Yes
+20	n'	ne	ADV	_	Polarity=Neg	22	advmod	_	INMWE=Yes|SpaceAfter=No
+21	en	en	PRON	_	Person=3	22	expl	_	INMWE=Yes
+22	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	MWEPOS=VERB
+23	rien	rien	PRON	_	Number=Sing	22	obj	_	INMWE=Yes|SpaceAfter=No
 24	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = fr-ud-dev_00065
@@ -2816,10 +2816,10 @@
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	malade	malade	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
 15	compatible	compatible	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
-16	en	en	PRON	_	Person=3	19	iobj	_	_
+16	en	en	PRON	_	Person=3	17	iobj	_	_
 17	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
 18	effectivement	effectivement	ADV	_	_	17	advmod	_	_
-19	besoin	besoin	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+19	besoin	besoin	NOUN	_	Gender=Masc|Number=Sing	17	obj:lvc	_	_
 20	et	et	CCONJ	_	_	26	cc	_	_
 21	qu'	que	SCONJ	_	_	26	mark	_	SpaceAfter=No
 22	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_

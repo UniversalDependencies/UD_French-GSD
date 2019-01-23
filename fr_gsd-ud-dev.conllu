@@ -3791,10 +3791,10 @@
 19	intellectuels	intellectuel	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
 20	antifascistes	antifasciste	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
 21	de	de	ADP	_	_	25	case	_	_
-22	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
-23	entre	entre	ADP	_	_	25	compound	_	_
-24	deux	deux	NUM	_	_	23	fixed	_	_
-25	guerres	guerre	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+22	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	nmod	_	MWEPOS=PROPN|SpaceAfter=No
+23	entre	entre	ADP	_	_	22	fixed	_	_
+24	deux	deux	NUM	_	_	22	fixed	_	_
+25	guerres	guerre	NOUN	_	Gender=Fem|Number=Plur	22	fixed	_	SpaceAfter=No
 26	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	3	punct	_	_
 28	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
@@ -4154,10 +4154,10 @@
 8	recueillies	recueillir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 9	en	en	ADP	_	_	10	case	_	_
 10	ligne	ligne	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
-11	auprès	auprès	ADP	_	_	14	case	_	MWEPOS=ADP
-12	de	de	ADP	_	_	11	fixed	_	_
+11	auprès	auprès	ADP	_	_	8	advmod	_	MWEPOS=ADP
+12	de	de	ADP	_	_	14	case	_	_
 13	839	839	NUM	_	_	14	nummod	_	_
-14	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+14	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	11	obl:arg	_	_
 15	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
 16	automne	automne	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
 17	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
@@ -13580,7 +13580,7 @@
 6	supposés	supposer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 7	devoir	devoir	VERB	_	VerbForm=Inf	6	xcomp	_	_
 8	lire	lire	VERB	_	VerbForm=Inf	7	xcomp	_	_
-9	de	de	ADP	_	_	11	det	_	_
+9	de	de	ADP	_	_	11	det	_	MWEPOS=DET
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	fixed	_	_
 11	documentation	documentation	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
 12	de	de	ADP	_	_	14	case	_	_
@@ -19595,9 +19595,9 @@
 4	bientôt	bientôt	ADV	_	_	3	advmod	_	_
 5	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
 6	déclarer	déclarer	VERB	_	VerbForm=Inf	3	xcomp	_	_
-7	hors	hors	ADP	_	_	9	case	_	_
-8	de	de	ADP	_	_	7	fixed	_	_
-9	danger	danger	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+7	hors	hors	ADP	_	_	6	advmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	danger	danger	NOUN	_	Gender=Masc|Number=Sing	7	obl:arg	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	3	punct	_	_
 11	et	et	CCONJ	_	_	19	cc	_	_
 12	même	même	ADV	_	_	15	advmod	_	_
@@ -19823,12 +19823,12 @@
 # text = Malheureusement, de nombreuses de ses parties se terminent par des nulles, ce qui l'empêche d'accéder à un plus haute niveau.
 1	Malheureusement	malheureusement	ADV	_	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	9	punct	_	_
-3	de	de	ADP	_	_	7	case	_	_
-4	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur	7	det	_	_
-5	de	de	ADP	_	_	4	fixed	_	_
+3	de	de	DET	_	_	4	det	_	_
+4	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur	9	nsubj	_	_
+5	de	de	ADP	_	_	7	case	_	_
 6	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	7	det	_	_
-7	parties	partie	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
-8	se	se	PRON	_	Person=3|PronType=Prs	9	expl:pass	_	_
+7	parties	partie	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+8	se	se	PRON	_	Person=3|PronType=Prs	9	expl	_	_
 9	terminent	terminer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	par	par	ADP	_	_	12	case	_	_
 11	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
@@ -27503,9 +27503,9 @@
 
 # sent_id = fr-ud-dev_00993
 # text = Ce qui représente un choix de plus de 10'000 bijoux de piercing en stock.
-1	Ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
-2	qui	qui	PRON	_	_	1	fixed	_	_
-3	représente	représenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+1	Ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	0	root	_	_
+2	qui	qui	PRON	_	_	3	nsubj	_	_
+3	représente	représenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	choix	choix	NOUN	_	Gender=Masc|Number=Sing	3	xcomp	_	_
 6	de	de	ADP	_	_	7	case	_	_
@@ -27517,7 +27517,7 @@
 12	piercing	piercing	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 13	en	en	ADP	_	_	14	case	_	_
 14	stock	stock	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	3	punct	_	_
+15	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-dev_00994
 # text = Bonne nourriture mais le temps d'attente entre les plats a été très long.
@@ -30449,7 +30449,7 @@
 12	vive	vif	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
 13	en	en	ADP	_	_	14	mark	_	_
 14	utilisant	utiliser	VERB	_	Tense=Pres|VerbForm=Part	7	advcl	_	_
-15	de	de	ADP	_	_	17	det	_	_
+15	de	de	ADP	_	_	17	det	_	MWEPOS=DET
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	fixed	_	_
 17	mémoire	mémoire	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
 18	de	de	ADP	_	_	19	case	_	_
@@ -31876,8 +31876,8 @@
 6	souhaitent	souhaiter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	maintenir	maintenir	VERB	_	VerbForm=Inf	6	xcomp	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	statu	statu	X	_	_	7	obj	_	_
-10	quo	quo	X	_	_	9	fixed	_	_
+9	statu	statu	NOUN	_	_	7	obj	_	MWEPOS=NOUN
+10	quo	quo	PRON	_	_	9	fixed	_	_
 11	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	6	expl	_	_
 12	qui	qui	PRON	_	PronType=Rel	13	nsubj	_	_
 13	accroît	accroître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_

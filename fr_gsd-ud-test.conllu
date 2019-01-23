@@ -5610,7 +5610,7 @@
 45	y	y	PRON	_	_	46	expl	_	_
 46	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	ccomp	_	_
 47	bien	bien	ADV	_	_	46	advmod	_	_
-48	de	de	ADP	_	_	50	det	_	_
+48	de	de	ADP	_	_	50	det	_	MWEPOS=DET
 49	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	fixed	_	_
 50	fumée	fumée	NOUN	_	Gender=Fem|Number=Sing	46	obj	_	SpaceAfter=No
 51	,	,	PUNCT	_	_	56	punct	_	_
@@ -6038,9 +6038,9 @@
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
 8	gustatif	gustatif	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
-9	plus	plus	ADV	_	_	11	advmod	_	_
-10	que	que	SCONJ	_	_	9	fixed	_	_
-11	moyen	moyen	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+9	plus	plus	ADV	_	_	7	advmod	_	_
+10	que	que	SCONJ	_	_	11	mark	_	_
+11	moyen	moyen	ADJ	_	Gender=Masc|Number=Sing	7	advcl	_	_
 12	En	en	ADP	_	_	13	case	_	_
 13	gros	gros	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
@@ -6691,9 +6691,9 @@
 18	ne	ne	ADV	_	Polarity=Neg	19	advmod	_	_
 19	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
 20	pas	pas	ADV	_	Polarity=Neg	19	advmod	_	_
-21	hors	hors	ADP	_	_	23	case	_	MWEPOS=ADP
-22	de	de	ADP	_	_	21	fixed	_	_
-23	prix	prix	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+21	hors	hors	ADP	_	_	19	advmod	_	MWEPOS=ADP
+22	de	de	ADP	_	_	23	case	_	_
+23	prix	prix	NOUN	_	Gender=Masc|Number=Sing	21	obl:arg	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-test_00231
@@ -8309,11 +8309,11 @@
 6	du	du	DET	_	Gender=Masc|Number=Sing	7	det	_	_
 7	sel	sel	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
-9	de	de	ADP	_	_	11	det	_	_
+9	de	de	ADP	_	_	11	det	_	MWEPOS=DET
 10	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	fixed	_	SpaceAfter=No
 11	ambre	ambre	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
-13	de	de	ADP	_	_	15	det	_	_
+13	de	de	ADP	_	_	15	det	_	MWEPOS=DET
 14	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	fixed	_	SpaceAfter=No
 15	huile	huile	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
@@ -8323,7 +8323,7 @@
 20	du	du	DET	_	Gender=Masc|Number=Sing	21	det	_	_
 21	vin	vin	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
 22	et	et	CCONJ	_	_	25	cc	_	_
-23	de	de	ADP	_	_	25	det	_	_
+23	de	de	ADP	_	_	25	det	_	MWEPOS=DET
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	fixed	_	_
 25	viande	viande	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
 26	salée	saler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	SpaceAfter=No

@@ -1718,7 +1718,7 @@
 19	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	INMWE=Yes
 20	n'	ne	ADV	_	Polarity=Neg	22	advmod	_	INMWE=Yes|SpaceAfter=No
 21	en	en	PRON	_	Person=3	22	expl	_	INMWE=Yes
-22	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	MWEPOS=VERB
+22	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	MWEPOS=VERB
 23	rien	rien	PRON	_	Number=Sing	22	obj	_	INMWE=Yes|SpaceAfter=No
 24	.	.	PUNCT	_	_	17	punct	_	_
 
@@ -4154,7 +4154,7 @@
 8	recueillies	recueillir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 9	en	en	ADP	_	_	10	case	_	_
 10	ligne	ligne	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
-11	auprès	auprès	ADP	_	_	8	advmod	_	MWEPOS=ADP
+11	auprès	auprès	ADV	_	_	8	advmod	_	MWEPOS=ADP
 12	de	de	ADP	_	_	14	case	_	_
 13	839	839	NUM	_	_	14	nummod	_	_
 14	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	11	obl:arg	_	_

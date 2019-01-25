@@ -1810,10 +1810,10 @@
 5	Poussette	Poussette	PROPN	_	_	3	obj	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	Manon	Manon	PROPN	_	_	5	nmod	_	_
-8	peu	peu	ADV	_	_	10	det	_	MWEPOS=DET
-9	de	un	DET	_	Definite=Ind|PronType=Art	8	fixed	_	_
-10	temps	temps	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
-11	après	après	ADV	_	_	10	advmod	_	SpaceAfter=No
+8	peu	peu	ADV	_	_	11	obl:mod	_	_
+9	de	un	DET	_	Definite=Ind|PronType=Art	10	case	_	_
+10	temps	temps	NOUN	_	Gender=Masc|Number=Sing	8	obl:arg	_	_
+11	après	après	ADV	_	_	3	advmod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00070
@@ -19998,7 +19998,7 @@
 21	de	de	ADP	_	_	22	case	_	_
 22	hiérarchisation	hiérarchisation	NOUN	_	Gender=Fem|Number=Sing	20	obl:arg	_	_
 23	ni	ni	CCONJ	_	_	25	cc	_	_
-24	de	de	ADP	_	_	25	det	_	_
+24	de	de	ADP	_	_	25	case	_	_
 25	ségrégation	ségrégation	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	1	punct	_	_
 

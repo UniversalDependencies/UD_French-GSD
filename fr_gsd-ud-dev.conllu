@@ -3637,7 +3637,7 @@
 1	Prix	prix	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	raisonnable	raisonnable	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	service	service	NOUN	_	Gender=Masc|Number=Sing	1	dep	_	_
+4	service	service	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
 5	sympathique	sympathique	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
 6	qui	qui	PRON	_	PronType=Rel	11	nsubj:caus	_	_
 7	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	11	iobj	_	_
@@ -5156,7 +5156,7 @@
 15	KLM	KLM	PROPN	_	_	18	nsubj	_	_
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	seule	seul	NOUN	_	Gender=Fem|Number=Sing	8	dep	_	_
+18	seule	seul	NOUN	_	Gender=Fem|Number=Sing	8	parataxis	_	_
 19	qui	qui	PRON	_	PronType=Rel	20	nsubj	_	_
 20	vole	voler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
 21	depuis	depuis	ADP	_	_	23	case	_	_
@@ -5249,12 +5249,12 @@
 23	vers	vers	ADP	_	_	25	case	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	rouge	rouge	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
-26	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
-27	cf	cf	X	_	_	31	dep	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	cf	cf	X	_	_	20	parataxis	_	_
 28	infra	infra	ADV	_	_	27	advmod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	27	punct	_	_
 30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	section	section	NOUN	_	Gender=Fem|Number=Sing	22	appos	_	_
+31	section	section	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	_
 32	"	"	PUNCT	_	_	33	punct	_	SpaceAfter=No
 33	Quantification	quantification	NOUN	_	Gender=Fem|Number=Sing	31	appos	_	_
 34-35	du	_	_	_	_	_	_	_	_
@@ -5264,8 +5264,8 @@
 37	vers	vers	ADP	_	_	39	case	_	_
 38	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	rouge	rouge	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
-40	"	"	PUNCT	_	_	31	punct	_	SpaceAfter=No
-41	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
+40	"	"	PUNCT	_	_	33	punct	_	SpaceAfter=No
+41	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_00192
@@ -9361,7 +9361,7 @@
 # sent_id = fr-ud-dev_00338
 # text = Meilleur restaurant à Djibouti, le restaurant Mer Rouge à Djibouti fait parti des restaurants à découvrir absolument, de par sa qualité, son prix et son accueil.
 1	Meilleur	meilleur	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
-2	restaurant	restaurant	NOUN	_	Gender=Masc|Number=Sing	7	dep	_	_
+2	restaurant	restaurant	NOUN	_	Gender=Masc|Number=Sing	12	advcl	_	_
 3	à	à	ADP	_	_	4	case	_	_
 4	Djibouti	Djibouti	PROPN	_	_	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
@@ -9372,7 +9372,7 @@
 10	à	à	ADP	_	_	11	case	_	_
 11	Djibouti	Djibouti	PROPN	_	_	7	nmod	_	_
 12	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	parti	partie	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	Correct=partie
+13	parti	partie	NOUN	_	Gender=Masc|Number=Sing	12	obj:lvc	_	Correct=partie
 14-15	des	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
@@ -14888,7 +14888,7 @@
 
 # sent_id = fr-ud-dev_00536
 # text = Commentaire du président : il n'accepte pas « des relations diplomatiques conduites d'une manière aussi irresponsable ».
-1	Commentaire	commentaire	NOUN	_	Gender=Masc|Number=Sing	8	dep	_	_
+1	Commentaire	commentaire	NOUN	_	Gender=Masc|Number=Sing	8	parataxis	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -17534,10 +17534,10 @@
 
 # sent_id = fr-ud-dev_00631
 # text = Can You Feel It a été enregistré en mars 1980 et est sorti en single le 23 septembre 1980.
-1	Can	can	AUX	_	_	3	aux	_	_
-2	You	you	PRON	_	Person=2|PronType=Prs	3	nsubj	_	_
-3	Feel	feel	VERB	_	_	7	csubj:pass	_	_
-4	It	it	PRON	_	Number=Sing|PronType=Prs	3	obj	_	_
+1	Can	can	AUX	_	_	3	aux	_	INTITLE=Yes
+2	You	you	PRON	_	Person=2|PronType=Prs	3	nsubj	_	INTITLE=Yes
+3	Feel	feel	VERB	_	_	7	nsubj:pass	_	TITLE=Yes
+4	It	it	PRON	_	Number=Sing|PronType=Prs	3	obj	_	INTITLE=Yes
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
 7	enregistré	enregistrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -24012,7 +24012,7 @@
 
 # sent_id = fr-ud-dev_00869
 # text = Remarque : Chypre est entré en zone euro le 1er janvier 2008.
-1	Remarque	remarque	NOUN	_	Gender=Fem|Number=Sing	5	dep	_	_
+1	Remarque	remarque	NOUN	_	Gender=Fem|Number=Sing	5	parataxis	_	_
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	Chypre	Chypre	PROPN	_	_	5	nsubj	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
@@ -35776,7 +35776,7 @@
 4	Robert	Robert	PROPN	_	_	2	obj	_	_
 5	Knepper	Knepper	PROPN	_	_	4	flat:name	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	Heroes	Heroes	PROPN	_	_	4	dep	_	SpaceAfter=No
+7	Heroes	Heroes	PROPN	_	_	4	parataxis	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	Prison	Prison	PROPN	_	_	7	conj	_	_
 10	Break	Break	PROPN	_	_	9	flat:name	_	SpaceAfter=No
@@ -35785,7 +35785,7 @@
 13	Julie	Julie	PROPN	_	_	4	conj	_	_
 14	McNiven	McNiven	PROPN	_	_	13	flat:name	_	_
 15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	Supernatural	Supernatural	PROPN	_	_	13	dep	_	SpaceAfter=No
+16	Supernatural	Supernatural	PROPN	_	_	13	parataxis	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	Mad	Mad	PROPN	_	_	16	conj	_	_
 19	Men	Men	PROPN	_	_	18	flat:name	_	SpaceAfter=No
@@ -36407,7 +36407,7 @@
 8	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	épuration	épuration	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	14	punct	_	_
-11	être	être	AUX	_	VerbForm=Inf	12	aux	_	_
+11	être	être	AUX	_	VerbForm=Inf	12	aux:pass	_	_
 12	jugé	juger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	csubj	_	_
 13	tardivement	tardivement	ADV	_	_	12	advmod	_	_
 14	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_

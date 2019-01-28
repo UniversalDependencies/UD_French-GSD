@@ -1088,8 +1088,8 @@
 2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	9	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	9	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-5	contre	contre	INTJ	_	_	6	compound	_	_
-6	attaque	attaque	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+5	contre	contre	ADP	_	_	9	nsubj	_	MWEPOS=NOUN
+6	attaque	attaque	NOUN	_	Gender=Fem|Number=Sing	5	goeswith	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 8	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
 9	massive	massif	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -1904,7 +1904,7 @@
 25	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
 26	trois	trois	NUM	_	_	27	nummod	_	_
 27	opérateurs	opérateur	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
-28	télécoms	télécoms	NOUN	_	Gender=Fem|Number=Plur	27	compound	_	SpaceAfter=No
+28	télécoms	télécoms	NOUN	_	Gender=Fem|Number=Plur	27	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	32	punct	_	_
 30	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
 31	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
@@ -2802,7 +2802,7 @@
 11	de	de	ADP	_	_	13	case	_	_
 12	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	pays	pays	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
-14	exportateurs	exportateur	NOUN	_	Gender=Masc|Number=Plur	13	compound	_	_
+14	exportateurs	exportateur	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	gaz	gaz	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
@@ -3022,7 +3022,7 @@
 14	dis	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
 15	que	que	SCONJ	_	_	20	mark	_	_
 16	Battlefield	Battlefield	PROPN	_	_	20	nsubj	_	_
-17	3	3	NUM	_	_	16	compound	_	_
+17	3	3	NUM	_	_	16	nmod	_	_
 18	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	cop	_	_
 19	THE	the	DET	_	Definite=Def|Gender=Masc|Number=Sing	20	det	_	_
 20	GAME	game	NOUN	_	Gender=Masc|Number=Sing	14	ccomp	_	_
@@ -3204,7 +3204,7 @@
 25	de	de	ADP	_	_	27	case	_	_
 26	80	80	NUM	_	_	27	nummod	_	_
 27	mg/100	mg/100	NOUN	_	_	24	nmod	_	_
-28	ml	millilitre	NOUN	_	Gender=Masc|Number=Sing	27	compound	_	_
+28	ml	millilitre	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	1er	1er	NUM	_	_	21	obl	_	_
 31	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
@@ -3232,7 +3232,7 @@
 6	show	show	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	Mamma	Mamma	PROPN	_	_	6	appos	_	_
-9	Mia	Mia	X	_	_	8	compound	_	_
+9	Mia	Mia	X	_	_	8	nmod	_	_
 10	!	!	PUNCT	_	_	8	punct	_	SpaceAfter=No
 11	"	"	PUNCT	_	_	8	punct	_	_
 
@@ -3407,7 +3407,7 @@
 31	selon	selon	ADP	_	_	33	case	_	_
 32	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	33	det	_	_
 33	site	site	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
-34	internet	internet	NOUN	_	Gender=Masc|Number=Sing	33	compound	_	SpaceAfter=No
+34	internet	internet	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = fr-ud-test_00116
@@ -3504,7 +3504,7 @@
 12	favori	favori	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 13	contre	contre	ADP	_	_	14	case	_	_
 14	Schalke	Schalke	PROPN	_	_	12	obl	_	_
-15	04	04	X	_	_	14	compound	_	_
+15	04	04	X	_	_	14	nmod	_	_
 16	et	et	CCONJ	_	_	18	cc	_	_
 17	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det	_	_
 18	effectif	effectif	NOUN	_	Gender=Masc|Number=Sing	14	conj	_	_
@@ -3516,7 +3516,7 @@
 24	,	,	PUNCT	_	_	12	punct	_	_
 25	en	en	ADP	_	_	26	case	_	_
 26	match	match	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
-27	aller	aller	NOUN	_	Gender=Masc|Number=Sing	26	compound	_	_
+27	aller	aller	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
 28-29	des	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	30	case	_	_
 29	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
@@ -3763,7 +3763,7 @@
 35	participant	participer	VERB	_	Tense=Pres|VerbForm=Part	26	advcl	_	_
 36	en	en	ADP	_	_	37	case	_	_
 37	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	35	obl	_	_
-38	record	record	NOUN	_	Gender=Masc|Number=Sing	37	compound	_	_
+38	record	record	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	_
 39-40	aux	_	_	_	_	_	_	_	_
 39	à	à	ADP	_	_	41	case	_	_
 40	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
@@ -3843,7 +3843,7 @@
 18	à	à	ADP	_	_	20	case	_	_
 19	40	40	NUM	_	_	20	nummod	_	SpaceAfter=No
 20	°	°	SYM	_	_	11	obl:arg	_	SpaceAfter=No
-21	C	Celsius	SYM	_	_	20	compound	_	_
+21	C	Celsius	SYM	_	_	20	nmod	_	_
 22	et	et	CCONJ	_	_	28	cc	_	_
 23	que	que	SCONJ	_	_	28	mark	_	_
 24	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
@@ -3856,7 +3856,7 @@
 31	de	de	ADP	_	_	33	case	_	_
 32	60	60	NUM	_	_	33	nummod	_	SpaceAfter=No
 33	°	°	SYM	_	_	30	nmod	_	SpaceAfter=No
-34	C	Celsius	SYM	_	_	33	compound	_	SpaceAfter=No
+34	C	Celsius	SYM	_	_	33	nmod	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	11	punct	_	_
 36	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	nsubj	_	_
 37	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
@@ -4087,7 +4087,7 @@
 10	de	de	ADP	_	_	12	case	_	_
 11	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 12	réseaux	réseau	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
-13	IP	IP	NOUN	_	Gender=Masc|Number=Sing	12	compound	_	_
+13	IP	IP	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 14	ne	ne	ADV	_	Polarity=Neg	15	advmod	_	_
 15	constitue	constituer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	pas	pas	ADV	_	Polarity=Neg	15	advmod	_	_
@@ -4152,7 +4152,7 @@
 # text = Si Moody's estime que leur note ne devrait pas baisser de plus d'un cran, la situation n'est pas la même pour la Société Générale, dont la dégradation pourrait atteindre deux crans.
 1	Si	si	SCONJ	_	_	4	mark	_	_
 2	Moody	Moody	PROPN	_	_	4	nsubj	_	SpaceAfter=No
-3	's	's	PART	_	_	2	compound	_	_
+3	's	's	PART	_	_	2	case	_	_
 4	estime	estimer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	_
 5	que	que	SCONJ	_	_	9	mark	_	_
 6	leur	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	_
@@ -4514,8 +4514,8 @@
 # text = Le Football Atlantique Rochelais (FAR) organise aujourd'hui un tournoi réunissant les moins de 15 ans des centres de formation.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Football	football	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
-3	Atlantique	atlantique	ADJ	_	Gender=Masc|Number=Sing	2	compound	_	_
-4	Rochelais	rochelais	ADJ	_	Gender=Masc|Number=Sing	2	compound	_	_
+3	Atlantique	atlantique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	Rochelais	rochelais	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	FAR	FAR	PROPN	_	_	2	appos	_	SpaceAfter=No
 7	)	)	PUNCT	_	_	6	punct	_	_
@@ -4551,7 +4551,7 @@
 10	pour	pour	ADP	_	_	12	case	_	_
 11	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
 12	catégories	catégorie	NOUN	_	Gender=Fem|Number=Plur	5	obl:mod	_	_
-13	espoirs	espoir	NOUN	_	Gender=Masc|Number=Plur	12	compound	_	SpaceAfter=No
+13	espoirs	espoir	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	revanche	revanche	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
@@ -5191,13 +5191,13 @@
 17	et	et	CCONJ	_	_	19	cc	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	fusion	fusion	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
-20	entrant	entrer	VERB	_	Tense=Pres|VerbForm=Part	19	compound	_	SpaceAfter=No
+20	entrant	entrer	VERB	_	Tense=Pres|VerbForm=Part	19	nmod	_	SpaceAfter=No
 21	/	/	SYM	_	_	22	cc	_	SpaceAfter=No
 22	sortant	sortir	VERB	_	Tense=Pres|VerbForm=Part	20	conj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	27	punct	_	_
 24	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
 25	équipes	équipe	NOUN	_	Gender=Fem|Number=Plur	27	nsubj	_	_
-26	marketing	marketing	NOUN	_	Gender=Masc|Number=Sing	25	compound	_	_
+26	marketing	marketing	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
 27	accroissent	accroître	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 28	rapidement	rapidement	ADV	_	_	27	advmod	_	_
 29	leur	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	30	det	_	_
@@ -5338,7 +5338,7 @@
 17	suit	suivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	risque	risque	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
-20	souverain	souverain	NOUN	_	Gender=Masc|Number=Sing	19	compound	_	SpaceAfter=No
+20	souverain	souverain	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
 21	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	5	punct	_	_
 23	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5570,7 +5570,7 @@
 6	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 7	colonnes	colonne	NOUN	_	Gender=Fem|Number=Plur	1	obl:mod	_	_
 8	de	de	ADP	_	_	10	case	_	_
-9	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	compound	_	SpaceAfter=No
+9	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	Indépendant	Indépendant	PROPN	_	_	7	nmod	_	SpaceAfter=No
 11	--	--	PUNCT	_	_	7	punct	_	SpaceAfter=No
 12	comme	comme	ADP	_	_	14	case	_	_
@@ -5929,7 +5929,7 @@
 4	Chef	chef	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 5	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
 6	Etat	état	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-7	Major	major	NOUN	_	Gender=Masc|Number=Sing	6	compound	_	_
+7	Major	major	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 8	Soumaila	Soumaila	PROPN	_	_	4	appos	_	_
 9	Bagayoko	Bagayoko	PROPN	_	_	8	flat:name	_	_
 10	fustigeait	fustiger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	44	advcl	_	_
@@ -6340,14 +6340,14 @@
 8	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	O'Hara	O'Hara	PROPN	_	_	7	nmod	_	_
-11	modèle	modèle	NOUN	_	Gender=Masc|Number=Sing	10	compound	_	_
-12	2010	2010	NUM	_	_	11	compound	_	SpaceAfter=No
+11	modèle	modèle	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+12	2010	2010	NUM	_	_	11	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-test_00213
 # text = Boutique bobo chic mais il manque l'essentiel : le professionnalisme !
 1	Boutique	boutique	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	bobo	bobo	NOUN	_	Gender=Masc|Number=Sing	1	compound	_	_
+2	bobo	bobo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 3	chic	chic	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 4	mais	mais	CCONJ	_	_	6	cc	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -7398,7 +7398,7 @@
 5	bons	bon	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	saumon	saumon	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
-8	vapeur	vapeur	NOUN	_	Gender=Masc|Number=Plur	7	compound	_	SpaceAfter=No
+8	vapeur	vapeur	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
 9	/	/	SYM	_	_	10	cc	_	SpaceAfter=No
 10	tagliatelles	tagliatelle	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
@@ -7486,7 +7486,7 @@
 5	de	de	ADP	_	_	7	case	_	_
 6	2	2	NUM	_	_	7	nummod	_	_
 7	chambres	chambre	NOUN	_	Gender=Fem|Number=Plur	3	obl:arg	_	_
-8	cabines	cabine	NOUN	_	Gender=Fem|Number=Plur	7	compound	_	_
+8	cabines	cabine	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
 9	ayant	avoir	VERB	_	Tense=Pres|VerbForm=Part	7	acl	_	_
 10	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 11	toilettes	toilette	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
@@ -7649,7 +7649,7 @@
 30	boutique	boutique	NOUN	_	Gender=Fem|Number=Sing	24	obl:mod	_	_
 31	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
 32	montures	monture	NOUN	_	Gender=Fem|Number=Plur	24	obj	_	_
-33	tendance	tendance	NOUN	_	Gender=Fem|Number=Sing	32	compound	_	_
+33	tendance	tendance	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
 34	dans	dans	ADP	_	_	38	case	_	_
 35	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
 36	plus	plus	ADV	_	_	37	advmod	_	_
@@ -8078,8 +8078,8 @@
 10	spacieuses	spacieux	ADJ	_	Gender=Fem|Number=Plur	8	conj	_	_
 11	bon	bon	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
 12	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_
-13	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	12	compound	_	_
-14	prix	prix	NOUN	_	Gender=Masc|Number=Sing	13	compound	_	_
+13	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+14	prix	prix	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
 
 # sent_id = fr-ud-test_00297
 # text = un café 17 euros !
@@ -8239,11 +8239,11 @@
 1	RADSL	RADSL	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	signifie	signifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	«	«	PUNCT	_	_	9	punct	_	_
-4	Rate	rate	NOUN	_	Gender=Fem|Number=Sing	6	compound	_	SpaceAfter=No
-5	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
-6	Adaptive	adaptif	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+4	Rate	rate	NOUN	_	Gender=Fem|Number=Sing	9	amod	_	MWEPOS=ADJ|SpaceAfter=No
+5	-	-	PUNCT	_	_	4	goeswith	_	SpaceAfter=No
+6	Adaptive	adaptif	ADJ	_	Gender=Fem|Number=Sing	4	goeswith	_	_
 7	Digital	digital	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
-8	Subscriber	subscriber	NOUN	_	Gender=Masc|Number=Sing	9	compound	_	_
+8	Subscriber	subscriber	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 9	Line	line	NOUN	_	Gender=Fem|Number=Sing	2	xcomp	_	_
 10	»	»	PUNCT	_	_	9	punct	_	_
 11	soit	soit	ADV	_	_	16	advmod	_	_
@@ -8979,9 +8979,9 @@
 5	de	de	ADP	_	_	7	case	_	_
 6	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	autoroute	autoroute	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-8	Est	est	NOUN	_	Gender=Masc|Number=Sing	7	compound	_	SpaceAfter=No
+8	Est	est	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
 9	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
-10	Ouest	ouest	NOUN	_	Gender=Masc|Number=Sing	7	compound	_	_
+10	Ouest	ouest	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 11	qui	qui	PRON	_	PronType=Rel	12	nsubj	_	_
 12	relie	relier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
@@ -9397,14 +9397,14 @@
 15	redistribuant	redistribuer	VERB	_	Tense=Pres|VerbForm=Part	6	advcl	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	code	code	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
-18	source	source	NOUN	_	Gender=Fem|Number=Sing	17	compound	_	_
+18	source	source	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
 19	modifié	modifier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	28	punct	_	_
 21	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	22	det	_	_
 22	modification	modification	NOUN	_	Gender=Fem|Number=Sing	28	nsubj	_	_
 23	de	de	ADP	_	_	26	case	_	_
 24	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	_
-25	code	code	NOUN	_	Gender=Masc|Number=Sing	26	compound	_	_
+25	code	code	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
 26	source	source	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
 27	ne	ne	ADV	_	Polarity=Neg	28	advmod	_	_
 28	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9614,7 +9614,7 @@
 22	celles	celui	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	20	obl:mod	_	_
 23	de	de	ADP	_	_	26	case	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-25	M3	M3	X	_	_	26	compound	_	_
+25	M3	M3	X	_	_	26	nmod	_	_
 26	CSL	CSL	X	_	_	22	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -9711,7 +9711,7 @@
 1	Ainsi	ainsi	ADV	_	_	5	advmod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	mot	mot	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
-4	populisme	populisme	NOUN	_	Gender=Masc|Number=Sing	3	compound	_	_
+4	populisme	populisme	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 5	contient	contenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	dans	dans	ADP	_	_	8	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -9963,7 +9963,7 @@
 32	et	et	CCONJ	_	_	34	cc	_	_
 33	de	de	ADP	_	_	34	case	_	_
 34	crème	crème	NOUN	_	Gender=Fem|Number=Sing	31	conj	_	_
-35	chantilly	chantilly	NOUN	_	Gender=Fem|Number=Sing	34	compound	_	SpaceAfter=No
+35	chantilly	chantilly	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_01545
@@ -10305,7 +10305,7 @@
 6	jamais	jamais	ADV	_	Polarity=Neg	12	advmod	_	_
 7	Jean	Jean	PROPN	_	_	12	nsubj	_	_
 8	Paul	Paul	PROPN	_	_	7	flat:name	_	_
-9	II	II	NUM	_	_	7	compound	_	_
+9	II	II	NUM	_	_	7	nmod	_	_
 10	n'	ne	ADV	_	Polarity=Neg	12	advmod	_	SpaceAfter=No
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 12	abordé	aborder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -10537,8 +10537,8 @@
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	met	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 13	Vador	Vador	PROPN	_	_	12	obj	_	_
-14	hors	hors	ADV	_	_	15	case	_	_
-15	course	course	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+14	hors	hors	ADV	_	_	12	obl:arg	_	_
+15	course	course	NOUN	_	Gender=Fem|Number=Sing	14	obl:arg	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_01565

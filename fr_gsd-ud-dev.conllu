@@ -7446,7 +7446,7 @@
 16	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj:pass	_	_
 17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
 18	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	aux:pass	_	_
-19	tué	tuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	ccomp	_	_
+19	tué	tuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	20	20	NUM	_	_	19	obl	_	_
 22	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
@@ -9535,7 +9535,7 @@
 12	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
 13	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
 14	indépendantistes	indépendantiste	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
-15	demandent	demander	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
+15	demandent	demander	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	_
 16	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 17	aide	aide	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
 18	de	de	ADP	_	_	20	case	_	_
@@ -17382,7 +17382,7 @@
 8	parking	parking	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 10	très	très	ADV	_	_	11	advmod	_	_
-11	difficile	difficile	ADJ	_	Gender=Masc|Number=Sing	2	ccomp	_	_
+11	difficile	difficile	ADJ	_	Gender=Masc|Number=Sing	2	parataxis	_	_
 12	!	!	PUNCT	_	_	11	punct	_	_
 
 # sent_id = fr-ud-dev_00625
@@ -21739,12 +21739,12 @@
 2	se	se	PRON	_	Person=3|PronType=Prs	3	expl	_	_
 3	rend	rendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	vite	vite	ADV	_	_	3	advmod	_	_
-5	compte	compte	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	compte	compte	NOUN	_	Gender=Masc|Number=Sing	3	obj:lvc	_	_
 6	que	que	SCONJ	_	_	10	mark	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	bateau	bateau	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
-10	habité	habiter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
+10	habité	habiter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
 11	par	par	ADP	_	_	13	case	_	_
 12	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	zombis	zombi	NOUN	_	Gender=Masc|Number=Plur	10	obl:agent	_	_
@@ -36448,7 +36448,7 @@
 12	en	en	ADP	_	_	13	case	_	_
 13	Belgique	Belgique	PROPN	_	_	11	obl	_	_
 14	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
-15	considérés	considérer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	ccomp	_	_
+15	considérés	considérer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
 16	comme	comme	ADP	_	_	18	case	_	_
 17	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
 18	espions	espion	NOUN	_	Gender=Masc|Number=Plur	15	xcomp	_	_

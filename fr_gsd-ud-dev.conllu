@@ -377,13 +377,15 @@
 15	,	,	PUNCT	_	_	5	punct	_	_
 16	bénéficiant	bénéficier	VERB	_	Tense=Pres|VerbForm=Part	5	advcl	_	_
 17	également	également	ADV	_	_	16	advmod	_	_
-18	du	du	DET	_	Gender=Masc|Number=Sing	19	det	_	_
-19	soutien	soutien	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
-20-21	du	_	_	_	_	_	_	_	_
-20	de	de	ADP	_	_	22	case	_	_
-21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	Hezbollah	Hezbollah	PROPN	_	_	19	nmod	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	5	punct	_	_
+18-19	du	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	soutien	soutien	NOUN	_	Gender=Masc|Number=Sing	16	obl:arg	_	_
+21-22	du	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Hezbollah	Hezbollah	PROPN	_	_	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_00016
 # text = En 1872, quand les Georgiens ont repris les commandes du gouvernement, Barnett (qui avait été réélu par ce point) a rapporté le sceau.

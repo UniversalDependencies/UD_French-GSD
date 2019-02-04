@@ -373,7 +373,7 @@
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	malédiction	malédiction	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
 12	que	que	SCONJ	_	_	24	mark	_	_
-13	toute	tout	DET	_	Gender=Fem|Number=Sing	15	det	_	_
+13	toute	tout	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	zone	zone	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
 16	comprise	comprendre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
@@ -657,7 +657,7 @@
 2	qui	qui	PRON	_	PronType=Rel	3	nsubj	_	_
 3	transparaît	transparaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
 4	dans	dans	ADP	_	_	7	case	_	_
-5	tous	tout	DET	_	Gender=Masc|Number=Plur	7	det	_	_
+5	tous	tout	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
 6	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
 7	textes	texte	NOUN	_	Gender=Masc|Number=Plur	3	obl:mod	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -865,7 +865,7 @@
 23	milliers	millier	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
 24	faisait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	aux:caus	_	_
 25	vivre	vivre	VERB	_	VerbForm=Inf	7	acl:relcl	_	_
-26	toute	tout	DET	_	Gender=Fem|Number=Sing	28	det	_	_
+26	toute	tout	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
 27	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	28	det	_	_
 28	région	région	NOUN	_	Gender=Fem|Number=Sing	25	obj:agent	_	_
 29	et	et	CCONJ	_	_	31	cc	_	_
@@ -945,7 +945,7 @@
 # text = Comme dans toutes les campagnes présidentielles, celui qui imprimera sa marque, fixera l'agenda, sera le probable vainqueur en mai.
 1	Comme	comme	SCONJ	_	_	5	mark	_	_
 2	dans	dans	ADP	_	_	5	case	_	_
-3	toutes	tout	DET	_	Gender=Fem|Number=Plur	5	det	_	_
+3	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
 4	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	campagnes	campagne	NOUN	_	Gender=Fem|Number=Plur	21	advcl	_	_
 6	présidentielles	présidentielle	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
@@ -1377,7 +1377,7 @@
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	appel	appel	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
 12	à	à	ADP	_	_	15	case	_	_
-13	tous	tout	DET	_	Gender=Masc|Number=Plur	15	det	_	_
+13	tous	tout	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
 14	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	acteurs	acteur	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
 16	politiques	politique	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
@@ -1408,7 +1408,7 @@
 41	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	terme	terme	NOUN	_	Gender=Masc|Number=Sing	40	obj	_	_
 43	à	à	ADP	_	_	46	case	_	_
-44	toutes	tout	DET	_	Gender=Fem|Number=Plur	46	det	_	_
+44	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	46	amod	_	_
 45	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	46	det	_	_
 46	violations	violation	NOUN	_	Gender=Fem|Number=Plur	40	obl:arg	_	_
 47	exercées	exercer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	46	acl	_	_
@@ -4392,7 +4392,7 @@
 14	en	en	PRON	_	Person=3	15	obj	_	_
 15	créé	créer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	conj	_	Correct=crée
 16	20.000	20.000	NUM	_	_	15	xcomp	_	_
-17	tous	tout	DET	_	Gender=Masc|Number=Plur	19	det	_	_
+17	tous	tout	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
 18	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 19	jours	jour	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
 20	en	en	ADP	_	_	21	case	_	_
@@ -5673,7 +5673,7 @@
 12	Floride	Floride	PROPN	_	_	9	nmod	_	_
 13	affirmant	affirmer	VERB	_	Tense=Pres|VerbForm=Part	5	advcl	_	_
 14	que	que	SCONJ	_	_	25	mark	_	_
-15	toutes	tout	DET	_	Gender=Fem|Number=Plur	17	det	_	_
+15	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
 16	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
 17	plages	plage	NOUN	_	Gender=Fem|Number=Plur	25	nsubj	_	_
 18-19	du	_	_	_	_	_	_	_	_
@@ -6307,7 +6307,7 @@
 12	livraison	livraison	NOUN	_	Gender=Fem|Number=Sing	9	obl:arg	_	_
 13	rapide	rapide	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
 14	dans	dans	ADP	_	_	17	case	_	_
-15	toute	tout	DET	_	Gender=Fem|Number=Sing	17	det	_	_
+15	toute	tout	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	France	France	PROPN	_	_	9	obl:mod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	9	punct	_	_
@@ -9720,13 +9720,13 @@
 10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
 11	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
 12	prête	prêter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
-13	tous	tout	DET	_	Gender=Masc|Number=Plur	15	det	_	_
+13	tous	tout	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
 14	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	préjugés	préjugé	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	classe	classe	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	21	punct	_	_
-19	tout	tout	DET	_	Gender=Masc|Number=Sing	21	det	_	_
+19	tout	tout	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	mépris	mépris	NOUN	_	Gender=Masc|Number=Sing	15	conj	_	_
 22	pour	pour	ADP	_	_	24	case	_	_

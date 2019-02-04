@@ -4779,7 +4779,7 @@
 
 # sent_id = fr-ud-test_00158
 # text = Comme chaque soir à 18h40, il tranche, malmène et détourne l'actualité.
-1	Comme	comme	SCONJ	_	_	3	case	_	_
+1	Comme	comme	SCONJ	_	_	3	mark	_	_
 2	chaque	chaque	DET	_	Gender=Masc|Number=Sing	3	det	_	_
 3	soir	soir	NOUN	_	Gender=Masc|Number=Sing	8	advcl	_	_
 4	à	à	ADP	_	_	5	case	_	_
@@ -5191,9 +5191,9 @@
 17	et	et	CCONJ	_	_	19	cc	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	fusion	fusion	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
-20	entrant	entrer	VERB	_	Tense=Pres|VerbForm=Part	19	nmod	_	SpaceAfter=No
+20	entrant	entrant	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
 21	/	/	SYM	_	_	22	cc	_	SpaceAfter=No
-22	sortant	sortir	VERB	_	Tense=Pres|VerbForm=Part	20	conj	_	SpaceAfter=No
+22	sortant	sortant	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	27	punct	_	_
 24	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
 25	équipes	équipe	NOUN	_	Gender=Fem|Number=Plur	27	nsubj	_	_

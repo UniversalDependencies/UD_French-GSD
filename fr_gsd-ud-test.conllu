@@ -400,7 +400,7 @@
 9	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	10	nsubj	_	_
 10	observerez	observer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
 11	que	que	SCONJ	_	_	14	mark	_	_
-12	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	14	nsubj	_	MWEPOS=PRON|SpaceAfter=No
+12	l'	l'	PART	_	_	14	nsubj	_	MWEPOS=PRON|SpaceAfter=No
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	12	fixed	_	_
 14	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
 15	être	être	AUX	_	VerbForm=Inf	16	cop	_	_
@@ -6489,7 +6489,7 @@
 # sent_id = fr-ud-test_00221
 # text = Car l'on peut trouver très aisément des préservatifs usagés sur les matelas.
 1	Car	car	CCONJ	_	_	4	cc	_	_
-2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	nsubj	_	MWEPOS=PRON|SpaceAfter=No
+2	l'	l'	PART	_	_	4	nsubj	_	MWEPOS=PRON|SpaceAfter=No
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	2	fixed	_	_
 4	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	trouver	trouver	VERB	_	VerbForm=Inf	4	xcomp	_	_
@@ -6677,7 +6677,7 @@
 4	à	à	ADP	_	_	5	case	_	_
 5	Paris	Paris	PROPN	_	_	3	nmod	_	_
 6	où	où	ADV	_	_	10	advmod	_	_
-7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	nsubj	_	MWEPOS=PRON|SpaceAfter=No
+7	l'	l'	PART	_	_	9	nsubj	_	MWEPOS=PRON|SpaceAfter=No
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	7	fixed	_	_
 9	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
 10	trouver	trouver	VERB	_	VerbForm=Inf	9	xcomp	_	_

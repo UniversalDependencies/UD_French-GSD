@@ -17358,8 +17358,8 @@
 32	fitness	fitness	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	35	punct	_	_
 34	clairement	clairement	ADV	_	_	35	advmod	_	_
-35	90	90	NUM	_	_	26	nmod	_	SpaceAfter=No
-36	's	's	PART	_	_	35	case	_	_
+35	90	90	NUM	_	_	26	nmod	_	Foreign=en|SpaceAfter=No
+36	's	's	PART	_	_	35	flat:name	_	Foreign=en
 37	avec	avec	ADP	_	_	39	case	_	_
 38	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 39	peinture	peinture	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
@@ -35326,12 +35326,12 @@
 4	H.R.F.	H.R.F.	PROPN	_	_	6	nsubj	_	_
 5	Keating	Keating	PROPN	_	_	4	flat:name	_	_
 6	classa	classer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-7	The	the	DET	_	Definite=Def	8	det	_	_
-8	Sands	Sands	PROPN	_	_	6	obj	_	_
-9	of	of	ADP	_	_	10	case	_	_
-10	Windee	Windee	PROPN	_	_	8	nmod	_	_
+7	The	the	DET	_	Definite=Def	6	obj	_	Foreign=en
+8	Sands	Sands	PROPN	_	_	7	flat:name	_	Foreign=en
+9	of	of	ADP	_	_	7	flat:name	_	Foreign=en
+10	Windee	Windee	PROPN	_	_	7	flat:name	_	Foreign=en
 11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
-12	1931	1931	NUM	_	_	8	nmod	_	SpaceAfter=No
+12	1931	1931	NUM	_	_	7	nmod	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	12	punct	_	_
 14	dans	dans	ADP	_	_	16	case	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -40403,11 +40403,11 @@
 
 # sent_id = fr-ud-dev_01451
 # text = Tunes of Wacken--Live est le premier live du groupe de thrash metal allemand Grave Digger.
-1	Tunes	Tunes	PROPN	_	_	9	nsubj	_	_
-2	of	of	ADP	_	_	3	case	_	_
-3	Wacken	Wacken	PROPN	_	_	1	nmod	_	SpaceAfter=No
+1	Tunes	Tunes	PROPN	_	_	9	nsubj	_	Foreign=en
+2	of	of	ADP	_	_	1	flat:name	_	Foreign=en
+3	Wacken	Wacken	PROPN	_	_	1	flat:name	_	Foreign=en|SpaceAfter=No
 4	--	--	PUNCT	_	_	1	punct	_	SpaceAfter=No
-5	Live	Live	PROPN	_	_	1	appos	_	_
+5	Live	Live	PROPN	_	_	1	flat:name	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 8	premier	premier	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_

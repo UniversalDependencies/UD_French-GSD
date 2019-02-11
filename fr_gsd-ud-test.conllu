@@ -1087,7 +1087,7 @@
 1	En	en	ADP	_	_	2	case	_	INMWE=Yes
 2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	9	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	9	punct	_	_
-4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	contre	contre	ADP	_	_	9	nsubj	_	MWEPOS=NOUN
 6	attaque	attaque	NOUN	_	Gender=Fem|Number=Sing	5	goeswith	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
@@ -1381,14 +1381,14 @@
 14	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	acteurs	acteur	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
 16	politiques	politique	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	15	punct	_	_
+17	,	,	PUNCT	_	_	20	punct	_	_
 18	dans	dans	ADP	_	_	20	case	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	scène	scène	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
 21	régionale	régional	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
 22	et	et	CCONJ	_	_	23	cc	_	_
 23	internationale	international	ADJ	_	Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	11	punct	_	_
+24	,	,	PUNCT	_	_	20	punct	_	_
 25	à	à	ADP	_	_	27	mark	_	_
 26	se	se	PRON	_	Person=3|PronType=Prs	27	obj	_	_
 27	mobiliser	mobiliser	VERB	_	VerbForm=Inf	11	acl	_	_
@@ -1397,7 +1397,7 @@
 30	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
 31	droits	droit	NOUN	_	Gender=Masc|Number=Plur	29	obj	_	_
 32	sahraouis	sahraoui	ADJ	_	Gender=Masc|Number=Plur	31	amod	_	SpaceAfter=No
-33	,	,	PUNCT	_	_	9	punct	_	_
+33	,	,	PUNCT	_	_	37	punct	_	_
 34	notamment	notamment	ADV	_	_	37	advmod	_	_
 35	dans	dans	ADP	_	_	37	case	_	_
 36	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
@@ -1962,7 +1962,7 @@
 10	à	à	ADP	_	_	12	mark	_	_
 11	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
 12	accuser	accuser	VERB	_	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	5	punct	_	_
+13	,	,	PUNCT	_	_	18	punct	_	_
 14	en	en	ADP	_	_	18	case	_	MWEPOS=ADP
 15	tant	tant	ADV	_	_	14	fixed	_	_
 16	que	que	SCONJ	_	_	14	fixed	_	_
@@ -1972,7 +1972,7 @@
 19	de	de	ADP	_	_	21	case	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	pays	pays	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	5	punct	_	_
+22	,	,	PUNCT	_	_	18	punct	_	_
 23	d'	de	ADP	_	_	24	mark	_	SpaceAfter=No
 24	abandonner	abandonner	VERB	_	VerbForm=Inf	12	xcomp	_	_
 25	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
@@ -3326,12 +3326,12 @@
 # text = Selon lui, l'approche Eclipse, créé pour lutter contre les gangs de rue en 2006, est inutile.
 1	Selon	selon	ADP	_	_	2	case	_	_
 2	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	20	obl:mod	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	20	punct	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
 4	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	approche	approche	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
 6	Eclipse	Eclipse	PROPN	_	_	5	appos	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	20	punct	_	_
-8	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	créé	créer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	Correct=créée
 9	pour	pour	ADP	_	_	10	mark	_	_
 10	lutter	lutter	VERB	_	VerbForm=Inf	8	advcl	_	_
 11	contre	contre	ADP	_	_	13	case	_	_
@@ -3341,7 +3341,7 @@
 15	rue	rue	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
 16	en	en	ADP	_	_	17	case	_	_
 17	2006	2006	NUM	_	_	8	obl	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	20	punct	_	_
+18	,	,	PUNCT	_	_	8	punct	_	_
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 20	inutile	inutile	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	20	punct	_	_
@@ -3628,7 +3628,7 @@
 23	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
 24	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	29	nsubj:pass	_	_
 25	nouveaux	nouveau	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	_
-26	y	y	PRON	_	_	29	advmod	_	_
+26	y	y	PRON	_	_	29	obl:mod	_	_
 27	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	29	aux	_	_
 28	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	aux:pass	_	_
 29	introduits	introduire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	ccomp	_	SpaceAfter=No
@@ -3746,7 +3746,7 @@
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 19	plus	plus	ADV	_	_	20	advmod	_	_
 20	stimulante	stimulant	ADJ	_	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	20	punct	_	_
+21	,	,	PUNCT	_	_	24	punct	_	_
 22	avec	avec	ADP	_	_	24	case	_	_
 23	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
 24	citoyens	citoyen	NOUN	_	Gender=Masc|Number=Plur	20	obl:mod	_	_
@@ -3757,7 +3757,7 @@
 29	+	+	SYM	_	_	31	advmod	_	_
 30	avec	avec	ADP	_	_	31	case	_	_
 31	passion	passion	NOUN	_	Gender=Fem|Number=Sing	26	obl:mod	_	SpaceAfter=No
-32	,	,	PUNCT	_	_	24	punct	_	_
+32	,	,	PUNCT	_	_	35	punct	_	_
 33	tout	tout	ADV	_	_	35	mark	_	MWEPOS=ADP
 34	en	en	ADP	_	_	33	fixed	_	_
 35	participant	participer	VERB	_	Tense=Pres|VerbForm=Part	26	advcl	_	_
@@ -3783,7 +3783,7 @@
 53	de	de	ADP	_	_	55	case	_	_
 54	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
 55	pays	pays	NOUN	_	Gender=Masc|Number=Sing	52	nmod	_	SpaceAfter=No
-56	,	,	PUNCT	_	_	48	punct	_	_
+56	,	,	PUNCT	_	_	57	punct	_	_
 57	considéré	considérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	acl	_	_
 58	comme	comme	SCONJ	_	_	59	mark	_	_
 59	favorable	favorable	ADJ	_	Gender=Masc|Number=Sing	57	xcomp	_	_
@@ -4564,7 +4564,7 @@
 22	chez	chez	ADP	_	_	24	case	_	_
 23	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
 24	vétérans	vétéran	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	5	punct	_	_
+25	,	,	PUNCT	_	_	30	punct	_	_
 26	de	de	ADP	_	_	27	case	_	INMWE=Yes
 27	plus	plus	ADV	_	_	30	advmod	_	MWEPOS=ADV
 28	en	en	ADP	_	_	29	case	_	INMWE=Yes
@@ -5289,7 +5289,7 @@
 8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 9	bien	bien	ADV	_	_	10	advmod	_	_
 10	réels	réel	ADJ	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	10	punct	_	_
+11	,	,	PUNCT	_	_	15	punct	_	_
 12	mais	mais	CCONJ	_	_	15	cc	_	_
 13	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
 14	se	se	PRON	_	Person=3|PronType=Prs	15	obj	_	_
@@ -5303,7 +5303,7 @@
 21	de	de	ADP	_	_	23	case	_	_
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
 23	Europe	Europe	PROPN	_	_	20	nmod	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	10	punct	_	_
+24	,	,	PUNCT	_	_	26	punct	_	_
 25	et	et	CCONJ	_	_	26	cc	_	_
 26	concernent	concerner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
 27	moins	moins	ADV	_	_	26	advmod	_	_
@@ -5856,7 +5856,7 @@
 11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	40-42	40-42	NUM	_	_	10	parataxis	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	5	punct	_	_
+14	,	,	PUNCT	_	_	26	punct	_	_
 15	dont	dont	PRON	_	PronType=Rel	17	nmod	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	victoire	victoire	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
@@ -6152,7 +6152,7 @@
 35	essayez	essayer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 36	et	et	CCONJ	_	_	39	cc	_	_
 37	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	39	nsubj	_	_
-38	y	y	PRON	_	_	39	advmod	_	_
+38	y	y	PRON	_	_	39	obl:mod	_	_
 39	retournerez	retourner	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	35	conj	_	SpaceAfter=No
 40	...	...	PUNCT	_	_	3	punct	_	_
 
@@ -6869,7 +6869,7 @@
 # sent_id = fr-ud-test_00243
 # text = J'y vais très souvent, car comme on dit on change pas une équipe qui gagne.
 1	J'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
-2	y	y	PRON	_	_	3	advmod	_	_
+2	y	y	PRON	_	_	3	obl:mod	_	_
 3	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	très	très	ADV	_	_	5	advmod	_	_
 5	souvent	souvent	ADV	_	_	3	advmod	_	SpaceAfter=No
@@ -6963,7 +6963,7 @@
 # sent_id = fr-ud-test_00248
 # text = J'y suis allé 2 fois à une semaine d'intervalle et je n'ai pas été déçu.
 1	J'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
-2	y	y	PRON	_	_	4	advmod	_	_
+2	y	y	PRON	_	_	4	obl:mod	_	_
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	allé	aller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	2	2	NUM	_	_	6	nummod	_	_
@@ -7506,7 +7506,7 @@
 # sent_id = fr-ud-test_00271
 # text = On y retourne cet été !
 1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
-2	y	y	PRON	_	_	3	advmod	_	_
+2	y	y	PRON	_	_	3	obl:mod	_	_
 3	retourne	retourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 5	été	été	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
@@ -7720,7 +7720,7 @@
 4	année	année	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	_
 5	prochaine	prochain	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
-7	y	y	PRON	_	_	8	advmod	_	_
+7	y	y	PRON	_	_	8	obl:mod	_	_
 8	retourne	retourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
 10	office	office	NOUN	_	Gender=Masc|Number=Plur	8	obl:mod	_	SpaceAfter=No
@@ -7794,7 +7794,7 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	malheur	malheur	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 6	d'	de	ADP	_	_	8	mark	_	SpaceAfter=No
-7	y	y	PRON	_	_	8	advmod	_	_
+7	y	y	PRON	_	_	8	obl:mod	_	_
 8	déjeuner	déjeuner	VERB	_	VerbForm=Inf	3	xcomp	_	_
 9	lorsque	lorsque	SCONJ	_	_	13	mark	_	_
 10	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_

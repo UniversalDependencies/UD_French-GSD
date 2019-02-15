@@ -9545,7 +9545,7 @@
 20	ONU	ONU	PROPN	_	_	17	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	que	que	PRON	_	_	26	obj	_	_
-23	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	ccomp	_	SpaceAfter=No
+23	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	parataxis	_	SpaceAfter=No
 24	-vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	23	nsubj	_	_
 25	leur	lui	PRON	_	Number=Plur|Person=3|PronType=Prs	26	iobj	_	_
 26	apporter	apporter	VERB	_	VerbForm=Inf	23	xcomp	_	_
@@ -34301,7 +34301,7 @@
 
 # sent_id = fr-ud-dev_01237
 # text = Espèce endémique de lémuriens vivant sur l'île de Madagascar, les sifakas sont dénommés ainsi à cause de leur cri d'alerte face au danger.
-1	Espèce	espèce	NOUN	_	Gender=Fem|Number=Sing	13	appos	_	_
+1	Espèce	espèce	NOUN	_	Gender=Fem|Number=Sing	15	advcl	_	_
 2	endémique	endémique	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	lémuriens	lémurien	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
@@ -34884,7 +34884,7 @@
 13	mission	mission	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	6	punct	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	Président	Président	PROPN	_	_	29	appos	_	_
+16	Président	Président	PROPN	_	_	29	nsubj	_	_
 17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -37238,20 +37238,20 @@
 2	souverain	souverain	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs	4	expl	_	SpaceAfter=No
 4	emporte	emporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	:	:	PUNCT	_	_	9	punct	_	_
+5	:	:	PUNCT	_	_	13	punct	_	_
 6	«	«	PUNCT	_	_	13	punct	_	_
 7	Mais	mais	CCONJ	_	_	13	cc	_	_
 8	quelle	quel	DET	_	Gender=Fem|Number=Sing	9	det	_	_
-9	importance	importance	NOUN	_	Gender=Fem|Number=Sing	4	parataxis	_	_
+9	importance	importance	NOUN	_	Gender=Fem|Number=Sing	13	orphan	_	_
 10	que	que	SCONJ	_	_	13	mark	_	_
 11	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	13	nsubj	_	_
 12	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
-13	irrationnel	irrationnel	ADJ	_	Gender=Masc|Number=Sing	9	orphan	_	_
+13	irrationnel	irrationnel	ADJ	_	Gender=Masc|Number=Sing	4	parataxis	_	_
 14	puisqu'	puisque	SCONJ	_	_	17	mark	_	SpaceAfter=No
 15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
-17	avoué	avouer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	orphan	_	_
-18	?	?	PUNCT	_	_	4	punct	_	_
+17	avoué	avouer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	orphan	_	_
+18	?	?	PUNCT	_	_	13	punct	_	_
 
 # sent_id = fr-ud-dev_01346
 # text = Il est classé en « zone d'éducation prioritaire » (ZEP).
@@ -39357,7 +39357,7 @@
 13-14	au	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	17	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-15	Birmingham	Birmingham	PROPN	_	_	17	appos	_	_
+15	Birmingham	Birmingham	PROPN	_	_	12	obl:arg	_	_
 16	Repertory	Repertory	PROPN	_	_	15	flat:name	_	_
 17	Théâtre	Théâtre	PROPN	_	_	12	obl:arg	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	_

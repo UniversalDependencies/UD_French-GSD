@@ -3453,12 +3453,12 @@
 # sent_id = fr-ud-test_00117
 # text = Au sein de cette équipe professionnelle, chacun est important et a son rôle à jouer pour contribuer au rayonnement de la ville de Bayonne et de la culture basque.
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	3	case	_	MWEPOS=ADP
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	sein	sein	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
+1	à	à	ADP	_	_	3	case	_	INMWE=Yes
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	INMWE=Yes
+3	sein	sein	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	MWEPOS=ADV
 4	de	de	ADP	_	_	6	case	_	_
 5	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
-6	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	_
 7	professionnelle	professionnel	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	3	punct	_	_
 9	chacun	chacun	PRON	_	Gender=Masc|Number=Sing	11	nsubj	_	_

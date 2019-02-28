@@ -9363,13 +9363,13 @@
 38	,	,	PUNCT	_	_	42	punct	_	_
 39	principalement	principalement	ADV	_	_	42	advmod	_	_
 40-41	au	_	_	_	_	_	_	_	_
-40	à	à	ADP	_	_	42	case	_	_
-41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
-42	sujet	sujet	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
+40	à	à	ADP	_	_	42	case	_	INMWE=Yes
+41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	INMWE=Yes
+42	sujet	sujet	NOUN	_	Gender=Masc|Number=Sing	31	advmod	_	MWEPOS=ADV
 43-44	du	_	_	_	_	_	_	_	_
 43	de	de	ADP	_	_	45	case	_	_
 44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
-45	siège	siège	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	_
+45	siège	siège	NOUN	_	Gender=Masc|Number=Sing	42	obl:arg	_	_
 46	de	de	ADP	_	_	49	case	_	_
 47	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
 48	future	futur	ADJ	_	Gender=Fem|Number=Sing	49	amod	_	_

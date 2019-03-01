@@ -8238,28 +8238,26 @@
 # text = RADSL signifie « Rate-Adaptive Digital Subscriber Line » soit en français : « ligne d'abonné numérique à débit adaptable ».
 1	RADSL	RADSL	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	signifie	signifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	«	«	PUNCT	_	_	9	punct	_	_
-4	Rate	rate	NOUN	_	Gender=Fem|Number=Sing	9	amod	_	MWEPOS=ADJ|SpaceAfter=No
-5	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	Adaptive	adaptif	ADJ	_	Gender=Fem|Number=Sing	4	goeswith	_	_
-7	Digital	digital	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
-8	Subscriber	subscriber	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-9	Line	line	NOUN	_	Gender=Fem|Number=Sing	2	xcomp	_	_
-10	»	»	PUNCT	_	_	9	punct	_	_
-11	soit	soit	ADV	_	_	16	advmod	_	_
-12	en	en	ADP	_	_	13	case	_	_
-13	français	français	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
-14	:	:	PUNCT	_	_	13	punct	_	_
-15	«	«	PUNCT	_	_	16	punct	_	_
-16	ligne	ligne	NOUN	_	Gender=Fem|Number=Sing	9	appos	_	_
-17	d'	de	ADP	_	_	18	case	_	SpaceAfter=No
-18	abonné	abonné	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
-19	numérique	numérique	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
-20	à	à	ADP	_	_	21	case	_	_
-21	débit	débit	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
-22	adaptable	adaptable	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
-23	»	»	PUNCT	_	_	16	punct	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	2	punct	_	_
+3	«	«	PUNCT	_	_	2	punct	_	_
+4	Rate-Adaptive	Rate-Adaptive	X	_	_	2	xcomp	_	_
+5	Digital	Digital	X	_	_	4	flat:foreign	_	_
+6	Subscriber	Subscriber	X	_	_	4	flat:foreign	_	_
+7	Line	Line	X	_	_	4	flat:foreign	_	_
+8	»	»	PUNCT	_	_	4	punct	_	_
+9	soit	soit	ADV	_	_	14	advmod	_	_
+10	en	en	ADP	_	_	11	case	_	_
+11	français	français	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	«	«	PUNCT	_	_	14	punct	_	_
+14	ligne	ligne	NOUN	_	Gender=Fem|Number=Sing	4	appos	_	_
+15	d'	de	ADP	_	_	16	case	_	SpaceAfter=No
+16	abonné	abonné	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+17	numérique	numérique	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+18	à	à	ADP	_	_	19	case	_	_
+19	débit	débit	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+20	adaptable	adaptable	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+21	»	»	PUNCT	_	_	14	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_01484
 # text = Dans cette même perspective et pour accélérer la diffusion des connaissances dans le pays, les pouvoirs publics ivoiriens ont introduit dans les années 70 la télévision éducative dans l'enseignement primaire.

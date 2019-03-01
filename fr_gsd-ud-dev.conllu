@@ -17536,10 +17536,10 @@
 
 # sent_id = fr-ud-dev_00631
 # text = Can You Feel It a été enregistré en mars 1980 et est sorti en single le 23 septembre 1980.
-1	Can	can	AUX	_	_	3	aux	_	INTITLE=Yes
-2	You	you	PRON	_	Person=2|PronType=Prs	3	nsubj	_	INTITLE=Yes
-3	Feel	feel	VERB	_	_	7	nsubj:pass	_	TITLE=Yes
-4	It	it	PRON	_	Number=Sing|PronType=Prs	3	obj	_	INTITLE=Yes
+1	Can	Can	X	_	_	7	nsubj:pass	_	_
+2	You	You	X	_	_	1	flat:foreign	_	_
+3	Feel	Feel	X	_	_	1	flat:foreign	_	_
+4	It	it	X	_	_	1	flat:foreign	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
 7	enregistré	enregistrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -19053,36 +19053,34 @@
 # sent_id = fr-ud-dev_00685
 # text = La loi externe du A-module M est une opération de A qui (entre autres propriétés) fait de M un groupe à opérateurs dans A.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	loi	loi	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+2	loi	loi	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	externe	externe	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4-5	du	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	9	case	_	_
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-6	A	A	SYM	_	_	2	nmod	_	MWEPOS=NOUN|SpaceAfter=No
-7	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
-8	module	module	NOUN	_	Gender=Masc|Number=Sing	6	goeswith	_	_
-9	M	M	SYM	_	_	6	appos	_	_
-10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
-11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	opération	opération	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-13	de	de	ADP	_	_	14	case	_	_
-14	A	A	SYM	_	_	12	nmod	_	_
-15	qui	qui	PRON	_	PronType=Rel	21	nsubj	_	_
-16	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
-17	entre	entre	ADP	_	_	19	case	_	_
-18	autres	autre	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	_
-19	propriétés	propriété	NOUN	_	Gender=Fem|Number=Plur	21	obl:mod	_	SpaceAfter=No
-20	)	)	PUNCT	_	_	19	punct	_	_
-21	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
-22	de	de	ADP	_	_	23	case	_	_
-23	M	M	SYM	_	_	21	obl:arg	_	_
-24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
-26	à	à	ADP	_	_	27	case	_	_
-27	opérateurs	opérateur	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	_
-28	dans	dans	ADP	_	_	29	case	_	_
-29	A	A	SYM	_	_	27	nmod	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	12	punct	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	A-module	A-module	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+7	M	M	SYM	_	_	6	appos	_	_
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	opération	opération	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	A	A	SYM	_	_	10	nmod	_	_
+13	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	_
+14	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+15	entre	entre	ADP	_	_	17	case	_	_
+16	autres	autre	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
+17	propriétés	propriété	NOUN	_	Gender=Fem|Number=Plur	19	obl:mod	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	_
+19	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	M	M	SYM	_	_	19	obl:arg	_	_
+22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+24	à	à	ADP	_	_	25	case	_	_
+25	opérateurs	opérateur	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
+26	dans	dans	ADP	_	_	27	case	_	_
+27	A	A	SYM	_	_	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-dev_00686
 # text = La longueur du module M n'est autre que sa longueur comme groupe à opérateurs.
@@ -33983,7 +33981,7 @@
 32	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
 33	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	cop	_	_
 34	et	et	CCONJ	_	_	35	cc	_	_
-35	continuent	continuer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	orphan	_	_
+35	continuent	continuer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	conj	_	_
 36	à	à	ADP	_	_	37	orphan	_	_
 37	être	être	AUX	_	VerbForm=Inf	35	orphan	_	_
 38	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_

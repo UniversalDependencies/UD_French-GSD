@@ -33482,27 +33482,25 @@
 # sent_id = fr-ud-dev_01213
 # text = Pour accompagner le lancement des ses différents Macintosh, Apple a fait appel de manière récurrente à la publicité.
 1	Pour	pour	ADP	_	_	2	mark	_	_
-2	accompagner	accompagner	VERB	_	VerbForm=Inf	13	advcl	_	_
+2	accompagner	accompagner	VERB	_	VerbForm=Inf	12	advcl	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	lancement	lancement	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
-5-6	des	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	9	case	_	_
-6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
-7	ses	son	DET	_	Number=Plur|Poss=Yes|PronType=Prs	9	det	_	_
-8	différents	différent	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
-9	Macintosh	Macintosh	PROPN	_	_	4	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	2	punct	_	_
-11	Apple	Apple	PROPN	_	_	13	nsubj	_	_
-12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
-13	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-14	appel	appel	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
-15	de	de	ADP	_	_	16	case	_	_
-16	manière	manière	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
-17	récurrente	récurrent	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
-18	à	à	ADP	_	_	20	case	_	_
-19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	publicité	publicité	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	13	punct	_	_
+5	des	de	ADP	_	_	8	case	_	Correct=de
+6	ses	son	DET	_	Number=Plur|Poss=Yes|PronType=Prs	8	det	_	_
+7	différents	différent	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
+8	Macintosh	Macintosh	PROPN	_	_	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	2	punct	_	_
+10	Apple	Apple	PROPN	_	_	12	nsubj	_	_
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	appel	appel	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	manière	manière	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+16	récurrente	récurrent	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+17	à	à	ADP	_	_	19	case	_	_
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	publicité	publicité	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-dev_01214
 # text = Le renouveau désiré se produira-t-il ?

@@ -11268,8 +11268,8 @@
 10	et	et	CCONJ	_	_	17	cc	_	_
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	variante	variante	NOUN	_	Gender=Fem|Number=Sing	17	nsubj:pass	_	_
-13	pick	pick	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	MWEPOS=NOUN
-14	up	up	PART	_	_	13	goeswith	_	_
+13	pick	pick	X	_	_	12	nmod	_	MWEPOS=NOUN
+14	up	up	X	_	_	13	goeswith	_	_
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 16	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	aux:pass	_	_
 17	fournie	fournir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
@@ -12195,7 +12195,7 @@
 20	pour	pour	ADP	_	_	29	case	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	parataxis	_	_
-23	t'	t'	PART	_	_	24	expl	_	SpaceAfter=No
+23	t'	t	PART	_	_	24	expl	_	SpaceAfter=No
 24	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	22	punct	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
@@ -17358,19 +17358,18 @@
 32	fitness	fitness	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	35	punct	_	_
 34	clairement	clairement	ADV	_	_	35	advmod	_	_
-35	90	90	NUM	_	_	26	nmod	_	SpaceAfter=No
-36	's	's	X	_	_	35	flat:foreign	_	_
-37	avec	avec	ADP	_	_	39	case	_	_
-38	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
-39	peinture	peinture	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
-40	bleue	bleu	ADJ	_	Gender=Fem|Number=Sing	39	amod	_	_
-41	saturée	saturé	ADJ	_	Gender=Fem|Number=Sing	39	amod	_	_
-42	qui	qui	PRON	_	PronType=Rel	44	nsubj	_	_
-43	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	_
-44	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	acl:relcl	_	_
-45	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	46	det	_	_
-46	temps	temps	NOUN	_	Gender=Masc|Number=Sing	44	obj	_	SpaceAfter=No
-47	.	.	PUNCT	_	_	16	punct	_	_
+35	90's	90's	X	_	_	26	nmod	_	_
+36	avec	avec	ADP	_	_	38	case	_	_
+37	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	peinture	peinture	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+39	bleue	bleu	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	_
+40	saturée	saturé	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	_
+41	qui	qui	PRON	_	PronType=Rel	43	nsubj	_	_
+42	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	_
+43	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	38	acl:relcl	_	_
+44	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	45	det	_	_
+45	temps	temps	NOUN	_	Gender=Masc|Number=Sing	43	obj	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = fr-ud-dev_00624
 # text = Seul bémol, trouver une place de parking est très difficile !
@@ -17539,7 +17538,7 @@
 1	Can	Can	X	_	_	7	nsubj:pass	_	_
 2	You	You	X	_	_	1	flat:foreign	_	_
 3	Feel	Feel	X	_	_	1	flat:foreign	_	_
-4	It	it	X	_	_	1	flat:foreign	_	_
+4	It	It	X	_	_	1	flat:foreign	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
 7	enregistré	enregistrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -21413,9 +21412,9 @@
 4	de	de	ADP	_	_	7	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	premier	premier	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
-7	Bound	Bound	X	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	obl:arg	_	TITLE=Yes
-8	for	for	X	_	_	7	flat:foreign	_	INTITLE=Yes
-9	Glory	Glory	X	_	Gender=Masc|Number=Sing	7	flat:foreign	_	INTITLE=Yes|SpaceAfter=No
+7	Bound	Bound	X	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	obl:arg	_	_
+8	for	for	X	_	_	7	flat:foreign	_	_
+9	Glory	Glory	X	_	Gender=Masc|Number=Sing	7	flat:foreign	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	15	punct	_	_
 11	évènement	évènement	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
@@ -39417,7 +39416,7 @@
 # sent_id = fr-ud-dev_01418
 # text = Cuisine hyper créative mais aussi traditionnelle pour les puristes.
 1	Cuisine	cuisine	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	hyper	hyper	PART	_	_	3	advmod	_	_
+2	hyper	hyper	ADV	_	_	3	advmod	_	_
 3	créative	créatif	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 4	mais	mais	CCONJ	_	_	6	cc	_	_
 5	aussi	aussi	ADV	_	_	6	advmod	_	_

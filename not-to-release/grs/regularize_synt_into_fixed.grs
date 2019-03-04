@@ -1,0 +1,61 @@
+rule chose_mwepos {
+	pattern { N[_MISC_MWEPOS] }
+	without { N -[fixed]-> * }
+	commands { N.fix=Head}
+}
+
+rule propagate {
+	pattern { N [fix]; e:N -> M; M[_MISC_INMWE] }
+	commands { M.fix=Part; del_feat M._MISC_INMWE; del_edge e; }
+}
+
+package first {
+	rule head_first {
+		pattern { N[fix=Head] }
+		without { M[fix]; M < N }
+		commands { N.fix=First }
+	}
+
+	rule head_not_first {
+		pattern { N[fix=Part]; H[fix=Head]; }
+		without { H < N }
+		without { M[fix]; M < N }
+		commands {
+			N.fix=First;
+			N._MISC_MWEPOS = H._MISC_MWEPOS; del_feat H._MISC_MWEPOS;
+			shift H ==> N;
+		}
+	}
+}
+
+rule init_fixed {
+	pattern { F[fix=First]; N [fix]; F < N }
+	without { * -> N}
+	commands { add_edge F -[fixed]-> N }
+}
+
+rule propagate_fixed {
+	pattern { F[fix=First]; F -[fixed]-> L; N [fix]; L < N }
+	without { * -> N }
+	commands { add_edge F -[fixed]-> N;  }
+}
+
+rule clean {
+	pattern { N[fix] }
+	commands { del_feat N.fix }
+}
+
+strat one {
+	Seq (
+		chose_mwepos,
+		Onf (propagate),
+		first,
+		init_fixed,
+		Onf (propagate_fixed),
+		Onf (clean),
+	)
+}
+
+strat main { Iter (one) }
+
+strat onf { Onf (one) }

@@ -10346,16 +10346,16 @@
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
 6	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
 7	appelait	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-8	«	«	PUNCT	_	_	10	punct	_	_
-9	The	the	DET	_	Definite=Def	10	det	_	Foreign=en
-10	king	king	NOUN	_	_	7	xcomp	_	Foreign=en
-11	of	of	ADP	_	_	12	case	_	Foreign=en
-12	comedy	comedy	NOUN	_	_	10	nmod	_	Foreign=en
-13	»	»	PUNCT	_	_	10	punct	_	_
+8	«	«	PUNCT	_	_	9	punct	_	_
+9	The	The	X	_	_	7	xcomp	_	_
+10	king	king	X	_	_	9	flat:foreign	_	_
+11	of	of	X	_	_	9	flat:foreign	_	_
+12	comedy	comedy	X	_	_	9	flat:foreign	_	_
+13	»	»	PUNCT	_	_	9	punct	_	_
 14	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
 15	«	«	PUNCT	_	_	17	punct	_	_
 16	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	roi	roi	NOUN	_	Gender=Masc|Number=Sing	10	appos	_	_
+17	roi	roi	NOUN	_	Gender=Masc|Number=Sing	9	appos	_	_
 18	de	de	ADP	_	_	20	case	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	comédie	comédie	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
@@ -11052,14 +11052,14 @@
 6	nommés	nommer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 7	Dodo	Dodo	PROPN	_	_	6	xcomp	_	_
 8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
-9	ドードー	ドードー	PROPN	_	_	7	appos	_	Foreign=ja|SpaceAfter=No
+9	ドードー	ドードー	X	_	_	7	appos	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	Dōdō	Dōdō	PROPN	_	_	9	appos	_	SpaceAfter=No
 12	)	)	PUNCT	_	_	9	punct	_	_
 13	et	et	CCONJ	_	_	14	cc	_	_
 14	Dodorio	Dodorio	PROPN	_	_	7	conj	_	_
 15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	ドードリオ	ドードリオ	PROPN	_	_	14	appos	_	Foreign=ja|SpaceAfter=No
+16	ドードリオ	ドードリオ	X	_	_	14	appos	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	Dōdorio	Dōdorio	PROPN	_	_	16	appos	_	SpaceAfter=No
 19	)	)	PUNCT	_	_	16	punct	_	_
@@ -11149,10 +11149,10 @@
 27	deux	deux	NUM	_	_	28	nummod	_	_
 28	soldats	soldat	NOUN	_	Gender=Masc|Number=Plur	26	obj	_	_
 29-30	des	_	_	_	_	_	_	_	_
-29	de	de	ADP	_	_	32	case	_	_
-30	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	32	det	_	_
-31	Special	Special	ADJ	_	Number=Plur	32	amod	_	Foreign=en
-32	Forces	Forces	NOUN	_	Number=Plur	28	nmod	_	Foreign=en
+29	de	de	ADP	_	_	31	case	_	_
+30	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	_
+31	Special	Special	X	_	_	28	nmod	_	_
+32	Forces	Forces	X	_	_	31	flat:foreign	_	_
 33	et	et	CCONJ	_	_	35	cc	_	_
 34	leur	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	35	det	_	_
 35	interprète	interprète	NOUN	_	Gender=Masc|Number=Sing	28	conj	_	_
@@ -17358,8 +17358,8 @@
 32	fitness	fitness	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	35	punct	_	_
 34	clairement	clairement	ADV	_	_	35	advmod	_	_
-35	90	90	NUM	_	_	26	nmod	_	Foreign=en|SpaceAfter=No
-36	's	's	PART	_	_	35	flat:name	_	Foreign=en
+35	90	90	NUM	_	_	26	nmod	_	SpaceAfter=No
+36	's	's	X	_	_	35	flat:foreign	_	_
 37	avec	avec	ADP	_	_	39	case	_	_
 38	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 39	peinture	peinture	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
@@ -19811,12 +19811,12 @@
 11	dans	dans	ADP	_	_	13	case	_	_
 12	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
 13	album	album	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
-14	Some	some	DET	_	Number=Sing	15	det	_	Foreign=en
-15	Time	time	NOUN	_	Number=Sing	13	appos	_	Foreign=en
-16	in	in	ADP	_	_	17	case	_	Foreign=en
-17	New	new	PROPN	_	_	15	nmod	_	Foreign=en
-18	York	York	PROPN	_	_	17	flat:name	_	Foreign=en
-19	City	city	NOUN	_	Gender=Fem|Number=Sing	17	flat:name	_	Foreign=en|SpaceAfter=No
+14	Some	Some	X	_	_	13	appos	_	_
+15	Time	Time	X	_	_	14	flat:foreign	_	_
+16	in	in	X	_	_	14	flat:foreign	_	_
+17	New	New	X	_	_	14	flat:foreign	_	_
+18	York	York	X	_	_	14	flat:foreign	_	_
+19	City	City	X	_	_	14	flat:foreign	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_00715
@@ -21413,9 +21413,9 @@
 4	de	de	ADP	_	_	7	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	premier	premier	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
-7	Bound	bind	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	obl:arg	_	Foreign=en|TITLE=Yes
-8	for	for	ADP	_	_	9	case	_	Foreign=en|INTITLE=Yes
-9	Glory	glory	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	Foreign=en|INTITLE=Yes|SpaceAfter=No
+7	Bound	Bound	X	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	obl:arg	_	TITLE=Yes
+8	for	for	X	_	_	7	flat:foreign	_	INTITLE=Yes
+9	Glory	Glory	X	_	Gender=Masc|Number=Sing	7	flat:foreign	_	INTITLE=Yes|SpaceAfter=No
 10	,	,	PUNCT	_	_	15	punct	_	_
 11	évènement	évènement	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
@@ -35322,10 +35322,10 @@
 4	H.R.F.	H.R.F.	PROPN	_	_	6	nsubj	_	_
 5	Keating	Keating	PROPN	_	_	4	flat:name	_	_
 6	classa	classer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-7	The	the	DET	_	Definite=Def	6	obj	_	Foreign=en
-8	Sands	Sands	PROPN	_	_	7	flat:name	_	Foreign=en
-9	of	of	ADP	_	_	7	flat:name	_	Foreign=en
-10	Windee	Windee	PROPN	_	_	7	flat:name	_	Foreign=en
+7	The	The	X	_	Definite=Def	6	obj	_	_
+8	Sands	Sands	X	_	_	7	flat:foreign	_	_
+9	of	of	X	_	_	7	flat:foreign	_	_
+10	Windee	Windee	X	_	_	7	flat:foreign	_	_
 11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	1931	1931	NUM	_	_	7	nmod	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	12	punct	_	_
@@ -40399,11 +40399,11 @@
 
 # sent_id = fr-ud-dev_01451
 # text = Tunes of Wacken--Live est le premier live du groupe de thrash metal allemand Grave Digger.
-1	Tunes	Tunes	PROPN	_	_	9	nsubj	_	Foreign=en
-2	of	of	ADP	_	_	1	flat:name	_	Foreign=en
-3	Wacken	Wacken	PROPN	_	_	1	flat:name	_	Foreign=en|SpaceAfter=No
+1	Tunes	Tunes	X	_	_	9	nsubj	_	_
+2	of	of	X	_	_	1	flat:foreign	_	_
+3	Wacken	Wacken	X	_	_	1	flat:foreign	_	SpaceAfter=No
 4	--	--	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	Live	Live	PROPN	_	_	1	flat:name	_	_
+5	Live	Live	X	_	_	1	flat:foreign	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 8	premier	premier	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_

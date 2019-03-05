@@ -1,10 +1,10 @@
 # UD_French-GSD
 We have decided in 2018 to enrich the annotation of MWE with a mechanism to encode a partially fixed expressions: an expression for which we can give a regular internal syntactic structure but which is not externally regular (see example above).
 
-Since February 2019, these annotations are not considered as valid. As they are richer than the `fixed` annotation expected in UD, we keep the richer annotation in the `not-to-release` subfolder, together with a automatic convertion to standard and valid UD.
+Since February 2019, these annotations are not considered as valid. As they are richer than the `fixed` annotation expected in UD, we keep the richer annotation in the `not-to-release` subfolder, together with an automatic convertion to standard and valid UD.
 
-## Transformation
-The Grew software is used for the transforamtion (see [Grew installation procedure](http://grew.fr/install), note that a recent installation is needed with at least `libcaml-grew` version `1.1.3` released in March 2019).
+## Conversion
+The Grew software is used for the transformation (see [Grew installation procedure](http://grew.fr/install), note that a recent installation is needed with at least `libcaml-grew` version `1.1.3` released in March 2019).
 The conversion is done with the 3 commands:
 
 ```

@@ -3455,7 +3455,7 @@
 1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	3	case	_	INMWE=Yes
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	INMWE=Yes
-3	sein	sein	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	MWEPOS=ADV
+3	sein	sein	NOUN	_	Gender=Masc|Number=Sing	11	advmod	_	MWEPOS=ADV
 4	de	de	ADP	_	_	6	case	_	_
 5	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
 6	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	_
@@ -7991,7 +7991,7 @@
 22	Dépannage	Dépannage	PROPN	_	_	21	flat:name	_	SpaceAfter=No
 23	"	"	PUNCT	_	_	21	punct	_	_
 24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	24	punct	_	_
+25	,	,	PUNCT	_	_	29	punct	_	_
 26	dans	dans	ADP	_	_	29	case	_	_
 27	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
 28	deux	deux	NUM	_	_	29	nummod	_	_
@@ -8848,7 +8848,7 @@
 # sent_id = fr-ud-dev_01506
 # text = Si, ce qui est probable, le Premier ministre grec va au bout de sa décision et que ses compatriotes rejettent le plan de sauvetage financier européen, la sortie de leur pays de la zone Euro en sera inéluctable et, par effet induit, l'éclatement de celle-ci.
 1	Si	si	SCONJ	_	_	12	mark	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
 3	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	12	parataxis	_	_
 4	qui	qui	PRON	_	PronType=Rel	6	nsubj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_

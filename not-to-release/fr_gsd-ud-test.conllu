@@ -1608,7 +1608,7 @@
 
 # sent_id = fr-ud-test_00061
 # text = Qui a donné l'exemple ?
-1	Qui	qui	PRON	_	_	3	nsubj	_	_
+1	Qui	qui	PRON	_	PronType=Int	3	nsubj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
@@ -2052,7 +2052,7 @@
 
 # sent_id = fr-ud-test_00073
 # text = Que dit l'Eglise sur ce point délicat ?
-1	Que	que	PRON	_	_	2	obj	_	_
+1	Que	que	PRON	_	PronType=Int	2	obj	_	_
 2	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	Eglise	Eglise	PROPN	_	_	2	nsubj	_	_
@@ -3585,7 +3585,7 @@
 8	téléphonistes	téléphoniste	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	parataxis	_	_
-11	qui	qui	PRON	_	_	12	nsubj	_	_
+11	qui	qui	PRON	_	PronType=Rel	12	nsubj	_	_
 12	équivaut	équivaloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
 13-14	au	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	15	case	_	_
@@ -4375,7 +4375,7 @@
 
 # sent_id = fr-ud-test_00145
 # text = Qu'est-ce que 1.000 emplois quand on en détruit et qu'on en créé 20.000 tous les jours en France ?
-1	Qu'	que	PRON	_	_	0	root	_	SpaceAfter=No
+1	Qu'	que	PRON	_	PronType=Int	0	root	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
 3	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	1	nsubj	_	_
 4	que	que	SCONJ	_	_	6	case	_	_
@@ -4474,12 +4474,12 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
 4	saura	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	ccomp	_	_
-5	qui	qui	PRON	_	_	8	nsubj	_	_
+5	qui	qui	PRON	_	PronType=Int	8	nsubj	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	coupable	coupable	NOUN	_	Gender=Masc|Number=Sing	4	ccomp	_	_
 9	et	et	CCONJ	_	_	13	cc	_	_
-10	qui	qui	PRON	_	_	13	nsubj	_	_
+10	qui	qui	PRON	_	PronType=Int	13	nsubj	_	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	victime	victime	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
@@ -6568,7 +6568,7 @@
 1	Emplacement	emplacement	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	génial	génial	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	pour	pour	ADP	_	_	5	mark	_	_
-4	qui	qui	PRON	_	_	5	nsubj	_	_
+4	qui	qui	PRON	_	PronType=Rel	5	nsubj	_	_
 5	veut	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	_
 6	aller	aller	VERB	_	VerbForm=Inf	5	xcomp	_	_
 7	chercher	chercher	VERB	_	VerbForm=Inf	6	xcomp	_	_
@@ -7736,7 +7736,7 @@
 
 # sent_id = fr-ud-test_00281
 # text = Que rechercher de plus lorsqu'on a paisiblement séjourné dans une chambre aussi confortable et bien décorée... !
-1	Que	que	PRON	_	_	2	obj	_	_
+1	Que	que	PRON	_	PronType=Rel	2	obj	_	_
 2	rechercher	rechercher	VERB	_	VerbForm=Inf	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	INMWE=Yes
 4	plus	plus	ADV	_	_	1	advmod	_	MWEPOS=ADV
@@ -8693,7 +8693,7 @@
 17	demandé	demander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
 18	:	:	PUNCT	_	_	20	punct	_	_
 19	«	«	PUNCT	_	_	20	punct	_	_
-20	qu'	que	PRON	_	_	17	ccomp	_	SpaceAfter=No
+20	qu'	que	PRON	_	PronType=Int	17	ccomp	_	SpaceAfter=No
 21	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 22	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	20	nsubj	_	_
 23	que	que	SCONJ	_	PronType=Rel	25	mark	_	_

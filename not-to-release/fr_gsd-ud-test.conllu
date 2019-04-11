@@ -3914,13 +3914,13 @@
 # sent_id = fr-ud-test_00128
 # text = De quoi inciter à une certaine prudence.
 1	De	de	ADP	_	_	2	case	_	_
-2	quoi	quoi	PRON	_	_	0	root	_	_
-3	inciter	inciter	VERB	_	VerbForm=Inf	2	acl	_	_
+2	quoi	quoi	PRON	_	_	3	obl:mod	_	_
+3	inciter	inciter	VERB	_	VerbForm=Inf	0	root	_	_
 4	à	à	ADP	_	_	7	case	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 6	certaine	certain	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 7	prudence	prudence	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	2	punct	_	_
+8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-test_00129
 # text = L'excédent brut d'exploitation atteint 47,4 millions d'euros, en rebond de 6,7%, et le résultat opérationnel courant affiche une hausse de 3,8%, à 29,8 millions d'euros.

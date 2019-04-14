@@ -4296,7 +4296,7 @@
 # sent_id = fr-ud-dev_00157
 # text = Ceci est dû à sa structure amorphe et à l'absence de défauts de taille supérieure à la fraction de micromètre.
 1	Ceci	ceci	PRON	_	Number=Sing	3	nsubj	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	dû	devoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	à	à	ADP	_	_	6	case	_	_
 5	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
@@ -5171,7 +5171,7 @@
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	3	nsubj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	0	root	_	_
-4	que	que	PRON	_	_	6	obj	_	_
+4	que	que	PRON	_	PronType=Rel	6	obj	_	_
 5	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 6	nommons	nommer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
 7	aujourd'hui	aujourd'hui	ADV	_	_	6	advmod	_	_
@@ -9047,10 +9047,10 @@
 
 # sent_id = fr-ud-dev_00325
 # text = Qu'est-ce qui va augmenter ?
-1	Qu'	que	PRON	_	_	0	root	_	SpaceAfter=No
+1	Qu'	que	PRON	_	PronType=Int	0	root	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
 3	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	1	nsubj	_	_
-4	qui	qui	PRON	_	_	5	nsubj	_	_
+4	qui	qui	PRON	_	PronType=Rel	5	nsubj	_	_
 5	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl:cleft	_	_
 6	augmenter	augmenter	VERB	_	VerbForm=Inf	5	xcomp	_	_
 7	?	?	PUNCT	_	_	1	punct	_	_
@@ -9123,7 +9123,7 @@
 16	toujours	toujours	ADV	_	_	15	advmod	_	_
 17	pas	pas	ADV	_	Polarity=Neg	15	advmod	_	_
 18	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
-19	Putain	Putain	PROPN	_	_	21	obl:mod	_	_
+19	Putain	Putain	INTJ	_	_	21	discourse	_	_
 20	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	21	nsubj	_	_
 21	penche	pencher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	_
@@ -9180,7 +9180,7 @@
 2	gouvernement	gouvernement	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	dont	dont	PRON	_	PronType=Rel	5	nmod	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	tâche	tâche	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+5	tâche	tâche	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
 7	de	de	ADP	_	_	8	mark	_	_
 8	préparer	préparer	VERB	_	VerbForm=Inf	6	ccomp	_	_
@@ -9544,7 +9544,7 @@
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
 20	ONU	ONU	PROPN	_	_	17	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
-22	que	que	PRON	_	_	26	obj	_	_
+22	que	que	PRON	_	PronType=Int	26	obj	_	_
 23	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	parataxis	_	SpaceAfter=No
 24	-vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	23	nsubj	_	_
 25	leur	lui	PRON	_	Number=Plur|Person=3|PronType=Prs	26	iobj	_	_
@@ -16665,9 +16665,9 @@
 2	Zran	Zran	PROPN	_	_	1	flat:name	_	_
 3	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	de	de	ADP	_	_	5	case	_	_
-5	quoi	quoi	PRON	_	_	3	obl:arg	_	_
+5	quoi	quoi	PRON	_	PronType=Int	7	obl:arg	_	_
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-7	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+7	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_00599
@@ -17848,7 +17848,7 @@
 
 # sent_id = fr-ud-dev_00642
 # text = Laquelle a-t-elle été ?
-1	Laquelle	lequel	PRON	_	Gender=Fem|Number=Sing	0	root	_	_
+1	Laquelle	lequel	PRON	_	Gender=Fem|Number=Sing|PronType=Int	0	root	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	SpaceAfter=No
 3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
 4	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
@@ -25406,7 +25406,7 @@
 17	sympathique	sympathique	ADJ	_	Gender=Masc|Number=Sing	5	acl:relcl	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	25	punct	_	_
 19	et	et	CCONJ	_	_	25	cc	_	_
-20	qui	qui	PRON	_	_	25	nsubj	_	_
+20	qui	qui	PRON	_	PronType=Rel	25	nsubj	_	_
 21	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	25	obj	_	SpaceAfter=No
 22	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
 23	très	très	ADV	_	_	24	advmod	_	_
@@ -26449,7 +26449,7 @@
 21	cours	cours	NOUN	_	Gender=Masc|Number=Sing	25	obl:mod	_	_
 22-23	desquelles	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	23	case	_	_
-23	lesquelles	lequel	PRON	_	Gender=Fem|Number=Plur	21	nmod	_	_
+23	lesquelles	lequel	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	21	nmod	_	_
 24	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 25	enregistre	enregistrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
 26	67	67	NUM	_	_	27	nummod	_	_
@@ -27503,7 +27503,7 @@
 # sent_id = fr-ud-dev_00993
 # text = Ce qui représente un choix de plus de 10'000 bijoux de piercing en stock.
 1	Ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	0	root	_	_
-2	qui	qui	PRON	_	_	3	nsubj	_	_
+2	qui	qui	PRON	_	PronType=Rel	3	nsubj	_	_
 3	représente	représenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	choix	choix	NOUN	_	Gender=Masc|Number=Sing	3	xcomp	_	_
@@ -28027,7 +28027,7 @@
 8	édifiantes	édifiant	ADJ	_	Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	15	punct	_	_
 10	et	et	CCONJ	_	_	15	cc	_	_
-11	qui	qui	PRON	_	_	15	nsubj:caus	_	_
+11	qui	qui	PRON	_	PronType=Rel	15	nsubj:caus	_	_
 12	font	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux:caus	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	advmod	_	MWEPOS=ADV
 14	peu	peu	ADV	_	_	13	fixed	_	_
@@ -36841,7 +36841,7 @@
 29	antimilitaristes	antimilitariste	ADJ	_	Gender=Masc|Number=Plur	27	conj	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	32	punct	_	_
 31	parmi	parmi	ADP	_	_	32	case	_	_
-32	lesquels	lequel	PRON	_	Gender=Masc|Number=Plur	26	nmod	_	_
+32	lesquels	lequel	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	26	nmod	_	_
 33	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
 34	Temps	temps	NOUN	_	Gender=Masc|Number=Plur	32	appos	_	_
 35	nouveaux	nouveau	ADJ	_	Gender=Masc|Number=Plur	34	amod	_	SpaceAfter=No
@@ -39305,7 +39305,7 @@
 
 # sent_id = fr-ud-dev_01413
 # text = Qui donc a écrit que les « rescapés des camps hitlériens étaient des revenants, dans le sens du mot "spectres" » ?
-1	Qui	qui	PRON	_	_	4	nsubj	_	_
+1	Qui	qui	PRON	_	PronType=Int	4	nsubj	_	_
 2	donc	donc	ADV	_	_	4	advmod	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_

@@ -5,9 +5,9 @@ doc:
 	@echo "----------------------"
 
 convert:
-	grew_dev transform -grs grs/regularize_synt_into_fixed.grs -i fr_gsd-ud-dev.conllu -o ../fr_gsd-ud-dev.conllu
-	grew_dev transform -grs grs/regularize_synt_into_fixed.grs -i fr_gsd-ud-test.conllu -o ../fr_gsd-ud-test.conllu
-	grew_dev transform -grs grs/regularize_synt_into_fixed.grs -i fr_gsd-ud-train.conllu -o ../fr_gsd-ud-train.conllu
+	grew transform -grs grs/regularize_synt_into_fixed.grs -i fr_gsd-ud-dev.conllu -o ../fr_gsd-ud-dev.conllu
+	grew transform -grs grs/regularize_synt_into_fixed.grs -i fr_gsd-ud-test.conllu -o ../fr_gsd-ud-test.conllu
+	grew transform -grs grs/regularize_synt_into_fixed.grs -i fr_gsd-ud-train.conllu -o ../fr_gsd-ud-train.conllu
 
 validate:
 	python tools/validate.py --lang fr ../fr_gsd-ud-dev.conllu

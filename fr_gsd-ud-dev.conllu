@@ -8781,7 +8781,7 @@
 
 # sent_id = fr-ud-dev_00316
 # text = Il est à noter qu'environ un tiers des membres de l'Alliance avaient à l'époque un article biographique dans l'encyclopédie Otto (Ottův slovník naučný).
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	à	à	ADP	_	_	4	mark	_	_
 4	noter	noter	VERB	_	VerbForm=Inf	2	ccomp	_	_
@@ -11789,11 +11789,8 @@
 27	Grand-Champ	Grand-Champ	PROPN	_	_	24	conj	_	_
 28	et	et	CCONJ	_	_	30	cc	_	_
 29	enfin	enfin	ADV	_	_	30	advmod	_	_
-30	Sainte-Anne	Sainte-Anne	PROPN	_	_	24	conj	_	SpaceAfter=No
-31	-	-	PUNCT	_	_	32	punct	_	SpaceAfter=No
-32	d'	de	ADP	_	_	30	flat:name	_	SpaceAfter=No
-33	Auray	Auray	PROPN	_	_	30	flat:name	_	SpaceAfter=No
-34	.	.	PUNCT	_	_	11	punct	_	_
+30	Sainte-Anne-d'Auray	Sainte-Anne-d'Auray	PROPN	_	_	24	conj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = fr-ud-dev_00426
 # text = Il y avait près de 1000 personnes au lancement de l'événement à l'Arsenal, le 8 septembre.

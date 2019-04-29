@@ -1668,7 +1668,7 @@
 # sent_id = fr-ud-dev_00063
 # text = La ferté-imbault en Sologne vous propose un choix d activités et de bonnes adresses, parmi de nombreuses richesses locales, pour prolonger agréablement votre visite en Sologne.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	ferté-imbault	Ferté-Imbault	PROPN	_	_	6	nsubj	_	Correct=Ferté-Imbault
+2	ferté-imbault	Ferté-Imbault	PROPN	_	Typo=Yes	6	nsubj	_	CorrectForm=Ferté-Imbault
 3	en	en	ADP	_	_	4	case	_	_
 4	Sologne	Sologne	PROPN	_	_	2	nmod	_	_
 5	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	6	iobj	_	_
@@ -1786,7 +1786,7 @@
 11	mais	mais	CCONJ	_	_	13	cc	_	_
 12	pas	pas	ADV	_	Polarity=Neg	13	advmod	_	_
 13	celle	celui	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	6	conj	_	_
-14	là	là	PART	_	_	13	advmod	_	Correct=là|SpaceAfter=No
+14	là	là	PART	_	Typo=Yes	13	advmod	_	CorrectForm=là|SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_00068
@@ -9374,7 +9374,7 @@
 10	à	à	ADP	_	_	11	case	_	_
 11	Djibouti	Djibouti	PROPN	_	_	7	nmod	_	_
 12	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	parti	partie	NOUN	_	Gender=Masc|Number=Sing	12	obj:lvc	_	Correct=partie
+13	parti	partie	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	12	obj:lvc	_	CorrectForm=partie
 14-15	des	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
@@ -10502,7 +10502,7 @@
 29	avant	avant	ADV	_	_	3	advmod	_	_
 30	de	de	ADP	_	_	32	mark	_	_
 31	s'	se	PRON	_	Person=3|PronType=Prs	32	obj	_	SpaceAfter=No
-32	intaller	installer	VERB	_	VerbForm=Inf	29	xcomp	_	Correct=installer
+32	intaller	installer	VERB	_	Typo=Yes|VerbForm=Inf	29	xcomp	_	CorrectForm=installer
 33	en	en	ADP	_	_	34	case	_	_
 34	1925	1925	NUM	_	_	32	obl	_	_
 35	à	à	ADP	_	_	37	case	_	_
@@ -18689,7 +18689,7 @@
 7	m	m	NOUN	_	Gender=Masc|Number=Plur	3	obl:arg	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	diamètre	diamètre	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-10	voir	voire	SCONJ	_	_	11	cc	_	Correct=voire
+10	voir	voire	SCONJ	_	Typo=Yes	11	cc	_	CorrectForm=voire
 11	plus	plus	ADV	_	_	7	conj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -28355,7 +28355,7 @@
 19	magasin	magasin	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
 20	ne	ne	ADV	_	Polarity=Neg	22	advmod	_	_
 21	se	se	PRON	_	Person=3|PronType=Prs	22	expl	_	_
-22	préoccupe	préoccuper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	Correct=préoccupent
+22	préoccupe	préoccuper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	13	ccomp	_	CorrectForm=préoccupent
 23	pas	pas	ADV	_	Polarity=Neg	22	advmod	_	_
 24-25	des	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	26	case	_	_
@@ -30278,7 +30278,7 @@
 3	de	de	ADP	_	_	4	case	_	_
 4	santé	santé	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 5	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
-6	oblige	obliger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Correct=obligent
+6	oblige	obliger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	CorrectForm=obligent
 7	à	à	ADP	_	_	9	mark	_	_
 8	s'	se	PRON	_	Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
 9	installer	installer	VERB	_	VerbForm=Inf	6	xcomp	_	_
@@ -31990,7 +31990,7 @@
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	même	même	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 7	incident	incident	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-8	rapporté	rapporter	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Correct=rapporte
+8	rapporté	rapporter	VERB	_	Mood=Ind|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	CorrectForm=rapporte
 9	qu'	que	SCONJ	_	_	13	mark	_	SpaceAfter=No
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
@@ -33481,7 +33481,7 @@
 2	accompagner	accompagner	VERB	_	VerbForm=Inf	12	advcl	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	lancement	lancement	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
-5	des	de	ADP	_	_	8	case	_	Correct=de
+5	des	de	ADP	_	Typo=Yes	8	case	_	CorrectForm=de
 6	ses	son	DET	_	Number=Plur|Poss=Yes|PronType=Prs	8	det	_	_
 7	différents	différent	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
 8	Macintosh	Macintosh	PROPN	_	_	4	nmod	_	SpaceAfter=No
@@ -36613,7 +36613,7 @@
 10	de	de	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	ville	ville	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
-13	date	dater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	Correct=datent
+13	date	dater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	5	ccomp	_	CorrectForm=datent
 14	d'	de	ADP	_	_	17	mark	_	SpaceAfter=No
 15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 16	y	y	PRON	_	_	17	expl	_	_
@@ -40453,7 +40453,7 @@
 11	Dammam	Dammam	PROPN	_	_	5	obl:arg	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	Arabie	Arabie	PROPN	_	_	11	appos	_	_
-14	saoudite	Saoudite	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	Correct=Saoudite|SpaceAfter=No
+14	saoudite	Saoudite	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	13	amod	_	CorrectForm=Saoudite|SpaceAfter=No
 15	)	)	PUNCT	_	_	5	punct	_	_
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_

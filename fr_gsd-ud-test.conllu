@@ -3331,7 +3331,7 @@
 5	approche	approche	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
 6	Eclipse	Eclipse	PROPN	_	_	5	appos	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	créé	créer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	Correct=créée
+8	créé	créer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	5	acl	_	CorrectForm=créée
 9	pour	pour	ADP	_	_	10	mark	_	_
 10	lutter	lutter	VERB	_	VerbForm=Inf	8	advcl	_	_
 11	contre	contre	ADP	_	_	13	case	_	_
@@ -4389,7 +4389,7 @@
 12	qu'	que	SCONJ	_	_	15	mark	_	SpaceAfter=No
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
 14	en	en	PRON	_	Person=3	15	obj	_	_
-15	créé	créer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	conj	_	Correct=crée
+15	créé	créer	VERB	_	Mood=Ind|Tense=Pres|Typo=Yes|VerbForm=Fin	10	conj	_	CorrectForm=crée
 16	20.000	20.000	NUM	_	_	15	xcomp	_	_
 17	tous	tout	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
 18	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
@@ -6369,7 +6369,7 @@
 6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	maréchaux	maréchal	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
 8	de	de	ADP	_	_	9	case	_	_
-9	nancy	Nancy	PROPN	_	_	4	nmod	_	Correct=Nancy
+9	nancy	Nancy	PROPN	_	Typo=Yes	4	nmod	_	CorrectForm=Nancy
 10	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	11	iobj	_	_
 11	permettra	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 12	sans	sans	ADP	_	_	11	advmod	_	MWEPOS=ADV
@@ -6751,7 +6751,7 @@
 
 # sent_id = fr-ud-test_00236
 # text = Il sont formés à vous arnaquer.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Correct=Ils
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Typo=Yes	3	nsubj	_	CorrectForm=Ils
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	formés	former	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 4	à	à	ADP	_	_	6	mark	_	_
@@ -7907,7 +7907,7 @@
 
 # sent_id = fr-ud-test_00289
 # text = Voila, j'espère que ce commentaire pourra prouver un peu que Mendes est un lycée où on travaille, où on apprend mais surtout un lycée où on découvre.
-1	Voila	voilà	VERB	_	_	4	parataxis	_	Correct=Voilà|SpaceAfter=No
+1	Voila	voilà	VERB	_	Typo=Yes	4	parataxis	_	CorrectForm=Voilà|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	j'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
 4	espère	espérer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10659,7 +10659,7 @@
 49	et	et	CCONJ	_	_	54	cc	_	_
 50	que	que	SCONJ	_	_	54	mark	_	_
 51	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
-52	christ	christ	PROPN	_	_	54	nsubj	_	Correct=Christ
+52	christ	christ	PROPN	_	Typo=Yes	54	nsubj	_	CorrectForm=Christ
 53	n'	ne	ADV	_	Polarity=Neg	54	advmod	_	SpaceAfter=No
 54	enseignait	enseigner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	44	conj	_	_
 55	rien	rien	PRON	_	Number=Sing	54	obj	_	_
@@ -10889,7 +10889,7 @@
 14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	nunavik	nunavik	PROPN	_	_	11	nmod	_	Correct=Nunavik
+16	nunavik	nunavik	PROPN	_	Typo=Yes	11	nmod	_	CorrectForm=Nunavik
 17	à	à	ADP	_	_	19	case	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 19	Alaska	Alaska	PROPN	_	_	16	nmod	_	_

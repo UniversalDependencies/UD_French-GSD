@@ -3331,7 +3331,7 @@
 5	approche	approche	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
 6	Eclipse	Eclipse	PROPN	_	_	5	appos	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	créé	créer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	5	acl	_	CorrectForm=créée
+8	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part	5	acl	_	CorrectForm=créée|CorrectGender=Fem
 9	pour	pour	ADP	_	_	10	mark	_	_
 10	lutter	lutter	VERB	_	VerbForm=Inf	8	advcl	_	_
 11	contre	contre	ADP	_	_	13	case	_	_
@@ -4389,7 +4389,7 @@
 12	qu'	que	SCONJ	_	_	15	mark	_	SpaceAfter=No
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
 14	en	en	PRON	_	Person=3	15	obj	_	_
-15	créé	créer	VERB	_	Mood=Ind|Tense=Pres|Typo=Yes|VerbForm=Fin	10	conj	_	CorrectForm=crée
+15	créé	créer	VERB	_	Tense=Past|Typo=Yes|VerbForm=Part	10	conj	_	CorrectForm=crée|CorrectMood=Ind|CorrectTense=Pres|CorrectVerbForm=Fin
 16	20.000	20.000	NUM	_	_	15	xcomp	_	_
 17	tous	tout	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
 18	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
@@ -6751,7 +6751,7 @@
 
 # sent_id = fr-ud-test_00236
 # text = Il sont formés à vous arnaquer.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Typo=Yes	3	nsubj	_	CorrectForm=Ils
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Typo=Yes	3	nsubj	_	CorrectForm=Ils|CorrectNumber=Plur
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	formés	former	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 4	à	à	ADP	_	_	6	mark	_	_
@@ -10889,7 +10889,7 @@
 14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	nunavik	nunavik	PROPN	_	Typo=Yes	11	nmod	_	CorrectForm=Nunavik
+16	nunavik	Nunavik	PROPN	_	Typo=Yes	11	nmod	_	CorrectForm=Nunavik
 17	à	à	ADP	_	_	19	case	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 19	Alaska	Alaska	PROPN	_	_	16	nmod	_	_

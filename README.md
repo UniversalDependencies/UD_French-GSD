@@ -40,7 +40,7 @@ See below for references and acknowledgments concerning the original corpus.
 
 * 2019-05-15 v2.4
   * Change annotations to make the corpus valid
-  * Change MWE annotations (see [not_to_release/README.md](here))
+  * Change MWE annotations (see [here](https://github.com/UniversalDependencies/UD_French-GSD/blob/dev/not-to-release/README.md))
 * 2018-11-15 v2.3
   * add subtyping for preposition "à"
   * remove duplicate sentences

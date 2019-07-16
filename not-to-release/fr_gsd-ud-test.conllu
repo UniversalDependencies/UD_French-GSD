@@ -2516,7 +2516,7 @@
 14	1975	1975	NUM	_	_	9	obl	_	_
 15	et	et	CCONJ	_	_	16	cc	_	_
 16	1979	1979	NUM	_	_	14	conj	_	_
-17	suite	suite	ADV	_	Gender=Fem|Number=Sing	9	advmod	_	_
+17	suite	suite	NOUN	_	Gender=Fem|Number=Sing	9	advmod	_	EXTPOS=ADV|Type=Trans
 18-19	au	_	_	_	_	_	_	_	_
 18	à	à	ADP	_	_	20	case	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
@@ -5169,7 +5169,7 @@
 
 # sent_id = fr-ud-test_00173
 # text = Grâce à une plate-forme logicielle intégrée aux capacités reconnues dans la gestion des emails et la fusion entrant/sortant, les équipes marketing accroissent rapidement leur efficacité et leur impact sur le chiffre d'affaires.
-1	Grâce	grâce	ADV	_	Gender=Fem|Number=Sing	27	advmod	_	_
+1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	27	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	4	case	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	plate-forme	plate-forme	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	_
@@ -6555,7 +6555,7 @@
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	inventer	inventer	VERB	_	VerbForm=Inf	4	conj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	2	advmod	_	_
+12	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	2	advmod	_	EXTPOS=ADV|Type=Trans
 13	à	à	ADP	_	_	15	case	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	matériel	matériel	NOUN	_	Gender=Masc|Number=Sing	12	obl:arg	_	_

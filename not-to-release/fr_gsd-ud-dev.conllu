@@ -13251,7 +13251,7 @@
 # sent_id = fr-ud-dev_00477
 # text = Pas de sèche cheveux ni de prise rasoir dans la salle de bains.
 1	Pas	pas	ADV	_	Polarity=Neg	0	root	_	_
-2	de	un	DET	_	Definite=Ind|PronType=Art	3	det	_	_
+2	de	de	ADP	_	_	3	case	_	_
 3	sèche	sécher	VERB	_	_	1	obl:arg	_	EXTPOS=NOUN|Type=MWE
 4	cheveux	cheveu	NOUN	_	Gender=Masc|Number=Plur	3	goeswith	_	_
 5	ni	ni	CCONJ	_	_	7	cc	_	_
@@ -24284,7 +24284,7 @@
 10	origine	origine	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
-13	confusions	confusion	NOUN	_	Gender=Fem|Number=Plur	10	obl:arg	_	_
+13	confusions	confusion	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	beaucoup	beaucoup	ADV	_	_	13	conj	_	_

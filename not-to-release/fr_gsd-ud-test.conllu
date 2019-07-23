@@ -244,7 +244,7 @@
 22	royale	royal	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	28	punct	_	_
 24	mais	mais	CCONJ	_	_	28	cc	_	_
-25	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	28	nsubj	_	SpaceAfter=No
+25	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	28	expl:subj	_	SpaceAfter=No
 26	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
 27	à	à	ADP	_	_	28	case	_	_
 28	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	3	conj	_	_
@@ -361,7 +361,7 @@
 # sent_id = fr-ud-test_00011
 # text = Est-ce le fait du hasard ou d'une malédiction que toute la zone comprise entre le Soudan et la Mauritanie soit instable ?
 1	Est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
-2	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
+2	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	expl:subj	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 5-6	du	_	_	_	_	_	_	_	_
@@ -1755,7 +1755,7 @@
 
 # sent_id = fr-ud-test_00065
 # text = C'est à Dakhla, où ceux qui font office de « colons » se sont permis de les traiter en tant qu'« indigènes », en les agressant à propos d'un match de football maroco-sahraoui, que des affrontements ont eu lieu.
-1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	expl:subj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	à	à	ADP	_	_	4	case	_	_
 4	Dakhla	Dakhla	PROPN	_	_	0	root	_	SpaceAfter=No
@@ -2227,7 +2227,7 @@
 
 # sent_id = fr-ud-test_00079
 # text = C'est de cette façon que des conditions socio-économiques radicalement nouvelles (néolibéralisme) ont été imposées durant les années 1980 à 1990.
-1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	expl:subj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
@@ -4377,7 +4377,7 @@
 # text = Qu'est-ce que 1.000 emplois quand on en détruit et qu'on en créé 20.000 tous les jours en France ?
 1	Qu'	que	PRON	_	PronType=Int	0	root	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
-3	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	1	nsubj	_	_
+3	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	1	expl:subj	_	_
 4	que	que	PRON	_	PronType=Rel	1	advcl:cleft	_	_
 5	1.000	1.000	NUM	_	_	6	nummod	_	_
 6	emplois	emploi	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
@@ -6515,7 +6515,7 @@
 9	déplacement	déplacement	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
 10	professionnel	professionnel	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
 11	et	et	CCONJ	_	_	16	cc	_	_
-12	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	16	nsubj	_	SpaceAfter=No
+12	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	16	expl:subj	_	SpaceAfter=No
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 15	1ère	1ère	NUM	_	_	16	nummod	_	_
@@ -8695,7 +8695,7 @@
 19	«	«	PUNCT	_	_	20	punct	_	_
 20	qu'	que	PRON	_	PronType=Int	17	ccomp	_	SpaceAfter=No
 21	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
-22	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	20	nsubj	_	_
+22	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	20	expl:subj	_	_
 23	que	que	PRON	_	PronType=Rel	25	obj	_	_
 24	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	25	nsubj	_	_
 25	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	20	advcl:cleft	_	_

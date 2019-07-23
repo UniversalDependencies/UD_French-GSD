@@ -4875,7 +4875,7 @@
 12	prend	prendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
 13	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det	_	_
 14	source	source	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
-15	au-delà	au-delà	ADV	_	_	12	obl	_	_
+15	au-delà	au-delà	ADV	_	_	12	obl:mod	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	Passoncourt	Passoncourt	PROPN	_	_	15	obl:arg	_	_
 18	dans	dans	ADP	_	_	20	case	_	_
@@ -12553,7 +12553,7 @@
 2	canton	canton	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	organisé	organiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	autour	autour	ADV	_	_	4	obl	_	_
+5	autour	autour	ADV	_	_	4	obl:mod	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	Vic-sur-Aisne	Vic-sur-Aisne	PROPN	_	_	5	obl:arg	_	_
 8	dans	dans	ADP	_	_	10	case	_	_
@@ -14835,7 +14835,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	inadmissible	inadmissible	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 4	de	de	ADP	_	_	5	mark	_	_
-5	voler	voler	VERB	_	VerbForm=Inf	3	ccomp	_	_
+5	voler	voler	VERB	_	VerbForm=Inf	3	csubj:expl	_	_
 6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	gens	gens	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
 8	ainsi	ainsi	ADV	_	_	7	advmod	_	SpaceAfter=No
@@ -24765,7 +24765,7 @@
 37	CBGB	CBGB	PROPN	_	_	35	nmod	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	39	punct	_	_
 39	sorti	sortir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	acl	_	_
-40	plus	plus	ADV	_	_	39	obj	_	_
+40	plus	plus	ADV	_	_	39	obl:mod	_	_
 41	de	de	ADP	_	_	43	case	_	_
 42	dix	dix	NUM	_	_	43	nummod	_	_
 43	ans	an	NOUN	_	Gender=Masc|Number=Plur	40	obl:arg	_	_
@@ -25257,7 +25257,7 @@
 2	présente	présenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	4	det	_	_
 4	excuses	excuse	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
-5	peu	peu	ADV	_	_	2	obl	_	_
+5	peu	peu	ADV	_	_	2	obl:mod	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	temps	temps	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	_
 8	après	après	ADV	_	_	5	advmod	_	SpaceAfter=No
@@ -26376,7 +26376,7 @@
 7	année	année	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 8	se	se	PRON	_	Person=3|PronType=Prs	9	expl:pass	_	_
 9	situe	situer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	autour	autour	ADV	_	_	9	obl	_	_
+10	autour	autour	ADV	_	_	9	obl:arg	_	_
 11-12	des	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	14	case	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_

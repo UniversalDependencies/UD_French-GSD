@@ -11794,8 +11794,8 @@
 
 # sent_id = fr-ud-dev_00426
 # text = Il y avait près de 1000 personnes au lancement de l'événement à l'Arsenal, le 8 septembre.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	y	y	PRON	_	_	3	expl	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+2	y	y	PRON	_	_	3	expl:comp	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	près	près	ADV	_	_	3	obj	_	_
 5	de	de	ADP	_	_	7	case	_	_
@@ -11823,8 +11823,8 @@
 2	Est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	expl:subj	_	_
 4	qu'	que	SCONJ	_	_	7	mark	_	SpaceAfter=No
-5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-6	y	y	PRON	_	_	7	expl	_	_
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
+6	y	y	PRON	_	_	7	expl:comp	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	poème	poème	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
@@ -14729,8 +14729,8 @@
 5	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	7	iobj	_	SpaceAfter=No
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	contacté	contacter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	INMWE=Yes
-9	y	y	PRON	_	_	10	expl	_	INMWE=Yes
+8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	expl:subj	_	INMWE=Yes
+9	y	y	PRON	_	_	10	expl:comp	_	INMWE=Yes
 10	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	case	_	EXTPOS=ADP|Type=MWE
 11	quelques	quelque	DET	_	Gender=Fem|Number=Plur	12	det	_	_
 12	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	7	obl:mod	_	_
@@ -16883,8 +16883,8 @@
 10	hygiène	hygiène	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 11	publique	public	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	2	punct	_	_
-13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
-14	y	y	PRON	_	_	15	expl	_	_
+13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	expl:subj	_	_
+14	y	y	PRON	_	_	15	expl:comp	_	_
 15	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 16	encore	encore	ADV	_	_	15	advmod	_	_
 17	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
@@ -17574,9 +17574,9 @@
 17	chanter	chanter	VERB	_	VerbForm=Inf	0	root	_	_
 18	Roland	Roland	PROPN	_	_	17	obj	_	_
 19	s'	si	SCONJ	_	_	23	mark	_	SpaceAfter=No
-20	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+20	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	expl:subj	_	_
 21	n'	ne	ADV	_	Polarity=Neg	23	advmod	_	SpaceAfter=No
-22	y	y	PRON	_	_	23	expl	_	_
+22	y	y	PRON	_	_	23	expl:comp	_	_
 23	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
 24	plus	plus	ADV	_	Polarity=Neg	23	advmod	_	_
 25	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
@@ -18791,8 +18791,8 @@
 6	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	3	punct	_	_
-9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
-10	y	y	PRON	_	_	11	expl	_	_
+9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl:subj	_	_
+10	y	y	PRON	_	_	11	expl:comp	_	_
 11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 12	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
 13	année	année	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
@@ -19868,8 +19868,8 @@
 
 # sent_id = fr-ud-dev_00717
 # text = Il y a donc le monde de la réalité comprenant les nobles et les artisans et le monde de la magie.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	y	y	PRON	_	_	3	expl	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+2	y	y	PRON	_	_	3	expl:comp	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	donc	donc	ADV	_	_	3	advmod	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -28430,9 +28430,9 @@
 
 # sent_id = fr-ud-dev_01022
 # text = Il n'y a pas de relégation, le championnat étant étendu à 36 équipes la saison prochaine.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
 2	n'	ne	ADV	_	Polarity=Neg	4	advmod	_	SpaceAfter=No
-3	y	y	PRON	_	_	4	expl	_	_
+3	y	y	PRON	_	_	4	expl:comp	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	_
 6	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -32042,8 +32042,8 @@
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	parlé	parler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	encore	encore	ADV	_	_	5	advmod	_	_
-7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	INMWE=Yes
-8	y	y	PRON	_	_	9	expl	_	INMWE=Yes
+7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	expl:subj	_	INMWE=Yes
+8	y	y	PRON	_	_	9	expl:comp	_	INMWE=Yes
 9	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	case	_	EXTPOS=ADP|Type=MWE
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	heure	heure	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	SpaceAfter=No
@@ -36615,8 +36615,8 @@
 12	ville	ville	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 13	date	dater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	5	ccomp	_	CorrectForm=datent
 14	d'	de	ADP	_	_	17	mark	_	SpaceAfter=No
-15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
-16	y	y	PRON	_	_	17	expl	_	_
+15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	expl:subj	_	_
+16	y	y	PRON	_	_	17	expl:comp	_	_
 17	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
 18	plus	plus	ADV	_	_	17	obj	_	_
 19	de	de	ADP	_	_	21	case	_	_

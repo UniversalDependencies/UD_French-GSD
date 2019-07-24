@@ -257,8 +257,8 @@
 
 # sent_id = fr-ud-test_00008
 # text = Il y en a qui croient toujours qu'ils peuvent jouir de la vie en toute tranquillité de conscience et commettre telle ou telle indélicatesse, telle ou telle grossièreté, en toute sécurité, parce que leur coeur serait comme les montres : 100% Waterproof.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-2	y	y	PRON	_	_	4	expl	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
+2	y	y	PRON	_	_	4	expl:comp	_	_
 3	en	en	PRON	_	Person=3	4	obj	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	qui	qui	PRON	_	PronType=Rel	6	nsubj	_	_
@@ -807,8 +807,8 @@
 
 # sent_id = fr-ud-test_00029
 # text = Il y a un an naissait Gdem Izik.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	INMWE=Yes
-2	y	y	PRON	_	_	3	expl	_	INMWE=Yes
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	INMWE=Yes
+2	y	y	PRON	_	_	3	expl:comp	_	INMWE=Yes
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	case	_	EXTPOS=ADP|Type=MWE
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	an	an	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
@@ -1186,10 +1186,10 @@
 
 # sent_id = fr-ud-test_00047
 # text = Y a-t-il un risque de voir les choses tourner mal en Syrie ?
-1	Y	y	PRON	_	_	2	expl	_	_
+1	Y	y	PRON	_	_	2	expl:comp	_	_
 2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
-4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl:subj	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	risque	risque	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
 7	de	de	ADP	_	_	8	mark	_	_
@@ -1208,8 +1208,8 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	simple	simple	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
-5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-6	y	y	PRON	_	_	7	expl	_	_
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
+6	y	y	PRON	_	_	7	expl:comp	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 8	de	un	DET	_	Definite=Ind|PronType=Art	9	det	_	_
 9	tout	tout	PRON	_	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
@@ -2258,8 +2258,8 @@
 2	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	3	expl	_	_
 3	demande	demander	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	s'	si	SCONJ	_	_	7	mark	_	SpaceAfter=No
-5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-6	y	y	PRON	_	_	7	expl	_	_
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
+6	y	y	PRON	_	_	7	expl:comp	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	loi	loi	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
@@ -2869,9 +2869,9 @@
 
 # sent_id = fr-ud-test_00097
 # text = Il n'y en a point.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
 2	n'	ne	ADV	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
-3	y	y	PRON	_	_	5	expl	_	_
+3	y	y	PRON	_	_	5	expl:comp	_	_
 4	en	en	PRON	_	Person=3	6	nmod	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	point	point	ADV	_	Polarity=Neg	5	obj	_	SpaceAfter=No
@@ -4118,8 +4118,8 @@
 
 # sent_id = fr-ud-test_00135
 # text = Il y a un personnage très absent tout au long du roman, le "peuple".
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	y	y	PRON	_	_	3	expl	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+2	y	y	PRON	_	_	3	expl:comp	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	personnage	personnage	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
@@ -5605,8 +5605,8 @@
 41	temps	temps	NOUN	_	Gender=Masc|Number=Sing	37	obl:mod	_	_
 42	:	:	PUNCT	_	_	46	punct	_	_
 43	"	"	PUNCT	_	_	46	punct	_	_
-44	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	46	nsubj	_	_
-45	y	y	PRON	_	_	46	expl	_	_
+44	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	46	expl:subj	_	_
+45	y	y	PRON	_	_	46	expl:comp	_	_
 46	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	ccomp	_	_
 47	bien	bien	ADV	_	_	46	advmod	_	_
 48	de	de	ADP	_	_	50	det	_	EXTPOS=DET|Type=MWE
@@ -5803,9 +5803,9 @@
 # sent_id = fr-ud-test_00193
 # text = « Il n'y a pas de problème de banlieue et la banlieue, je ne sais pas ce que c'est », n'a cessé de répéter cet animateur passé par Radio Nova.
 1	«	«	PUNCT	_	_	5	punct	_	_
-2	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
 3	n'	ne	ADV	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
-4	y	y	PRON	_	_	5	expl	_	_
+4	y	y	PRON	_	_	5	expl:comp	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	ccomp	_	_
 6	pas	pas	ADV	_	Polarity=Neg	5	advmod	_	_
 7	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -6778,8 +6778,8 @@
 
 # sent_id = fr-ud-test_00238
 # text = Il y a même un café avec des pingouins !
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	y	y	PRON	_	_	3	expl	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+2	y	y	PRON	_	_	3	expl:comp	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	même	même	ADV	_	_	3	advmod	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -7869,8 +7869,8 @@
 1	Trop	trop	ADV	_	_	2	advmod	_	_
 2	cher	cher	ADJ	_	Gender=Masc|Number=Sing	6	xcomp	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
-5	y	y	PRON	_	_	6	expl	_	_
+4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
+5	y	y	PRON	_	_	6	expl:comp	_	_
 6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	pizzeria	pizzeria	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_

@@ -970,7 +970,7 @@
 
 # sent_id = fr-ud-test_00038
 # text = Combien de fois ne célébrons-nous que nous-mêmes, et ne prenons-nous même pas conscience de sa présence ?
-1	Combien	combien	ADV	_	_	5	advmod	_	_
+1	Combien	combien	ADV	_	_	5	obl:mod	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	fois	fois	NOUN	_	Gender=Fem|Number=Plur	1	obl:arg	_	_
 4	ne	ne	ADV	_	Polarity=Neg	5	advmod	_	_
@@ -3007,7 +3007,7 @@
 # sent_id = fr-ud-test_00102
 # text = Moi plus je vois des vidéos de ce jeu, plus je me dis que Battlefield 3 sera THE GAME pour les vrais soldats qui en ont dans le slip.
 1	Moi	soi	PRON	_	Number=Sing|Person=1	4	dislocated	_	_
-2	plus	plus	ADV	_	_	4	cc	_	_
+2	plus	plus	ADV	_	_	4	advmod	_	_
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 4	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
@@ -3016,7 +3016,7 @@
 8	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
 9	jeu	jeu	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	14	punct	_	_
-11	plus	plus	ADV	_	_	14	cc	_	_
+11	plus	plus	ADV	_	_	14	advmod	_	_
 12	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
 13	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
 14	dis	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
@@ -8020,7 +8020,7 @@
 
 # sent_id = fr-ud-test_00294
 # text = plus de 80 euros 2 menus à pas cher deux kirs une bouteille.
-1	plus	plus	ADV	_	_	6	advmod	_	_
+1	plus	plus	ADV	_	_	6	nmod	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	80	80	NUM	_	_	4	nummod	_	_
 4	euros	euro	NOUN	_	Gender=Masc|Number=Plur	1	obl:arg	_	_

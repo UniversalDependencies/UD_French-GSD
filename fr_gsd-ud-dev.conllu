@@ -7563,11 +7563,11 @@
 14	se	se	PRON	_	Person=3|PronType=Prs	15	expl:comp	_	_
 15	suicide	suicider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 16	-t	t	PART	_	_	17	dep	_	SpaceAfter=No
-17	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	expl	_	_
+17	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	expl:subj	_	_
 18	ou	ou	CCONJ	_	_	20	cc	_	_
 19	s'	se	PRON	_	Person=3|PronType=Prs	20	expl:comp	_	SpaceAfter=No
 20	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	SpaceAfter=No
-21	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	expl	_	_
+21	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	expl:subj	_	_
 22	d'	de	ADP	_	_	24	case	_	SpaceAfter=No
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	accident	accident	NOUN	_	Gender=Masc|Number=Sing	20	obl:arg	_	_
@@ -9146,7 +9146,7 @@
 39	si	si	SCONJ	_	_	43	mark	_	_
 40	en	en	ADP	_	_	43	advmod	_	EXTPOS=ADV|Type=MWE
 41	plus	plus	ADV	_	_	40	fixed	_	_
-42	y'	y	PRON	_	_	43	expl	_	SpaceAfter=No
+42	y'	y	PRON	_	_	43	expl:comp	_	SpaceAfter=No
 43	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	parataxis	_	_
 44	personne	personne	NOUN	_	Gender=Fem|Number=Sing	43	obj	_	SpaceAfter=No
 45	)	)	PUNCT	_	_	43	punct	_	SpaceAfter=No
@@ -9615,7 +9615,7 @@
 6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	préservatifs	préservatif	NOUN	_	Gender=Masc|Number=Plur	10	nsubj:pass	_	_
 8	seraient	être	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	SpaceAfter=No
-9	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	expl	_	_
+9	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	expl:subj	_	_
 10	détenus	détenir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 11	par	par	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -11648,7 +11648,7 @@
 6	anxieux	anxieux	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 7	qu'	que	SCONJ	_	_	10	mark	_	SpaceAfter=No
 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
-9	y	y	PRON	_	_	10	expl	_	_
+9	y	y	PRON	_	_	10	expl:comp	_	_
 10	paraît	paraître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -14835,7 +14835,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	inadmissible	inadmissible	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 4	de	de	ADP	_	_	5	mark	_	_
-5	voler	voler	VERB	_	VerbForm=Inf	3	csubj:expl	_	_
+5	voler	voler	VERB	_	VerbForm=Inf	3	csubj:agent	_	_
 6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	gens	gens	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
 8	ainsi	ainsi	ADV	_	_	7	advmod	_	SpaceAfter=No
@@ -18221,7 +18221,7 @@
 1	Wotan	Wotan	PROPN	_	_	6	nsubj	_	_
 2	n'	ne	ADV	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
-4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
+4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
 5	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	_
 6	devenu	devenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	_
@@ -20193,7 +20193,7 @@
 3	fois	fois	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	SpaceAfter=No
 4	-ci	ci	PART	_	_	3	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
-6	y	y	PRON	_	_	7	expl	_	_
+6	y	y	PRON	_	_	7	expl:comp	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	autre	autre	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
@@ -20925,7 +20925,7 @@
 29	pas	pas	ADV	_	Polarity=Neg	28	advmod	_	_
 30	comment	comment	ADV	_	_	33	obl:arg	_	_
 31	s'	se	PRON	_	Person=3|PronType=Prs	33	expl:comp	_	SpaceAfter=No
-32	y	y	PRON	_	_	33	expl	_	_
+32	y	y	PRON	_	_	33	expl:comp	_	_
 33	prendre	prendre	VERB	_	VerbForm=Inf	28	xcomp	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -30930,7 +30930,7 @@
 11	plus	plus	ADV	_	_	13	advmod	_	_
 12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 13	devrait	devoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
-14	y	y	PRON	_	_	15	expl	_	_
+14	y	y	PRON	_	_	15	expl:comp	_	_
 15	avoir	avoir	VERB	_	VerbForm=Inf	13	xcomp	_	_
 16	d'	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	17	det	_	SpaceAfter=No
 17	amibes	amibe	NOUN	_	Gender=Fem|Number=Plur	15	obj	_	_
@@ -31874,7 +31874,7 @@
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	statu	statu	NOUN	_	_	7	obj	_	EXTPOS=NOUN|Type=MWE
 10	quo	quo	PRON	_	_	9	fixed	_	_
-11	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	6	expl	_	_
+11	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	6	parataxis	_	_
 12	qui	qui	PRON	_	PronType=Rel	13	nsubj	_	_
 13	accroît	accroître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
 14	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
@@ -33506,7 +33506,7 @@
 4	se	se	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	_
 5	produira	produire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
-7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
 8	?	?	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_01215
@@ -38353,7 +38353,7 @@
 7	et	et	CCONJ	_	_	11	cc	_	_
 8	que	que	SCONJ	_	_	11	mark	_	_
 9	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	11	nsubj	_	_
-10	en	en	PRON	_	Person=3	11	expl	_	_
+10	en	en	PRON	_	Person=3	11	expl:comp	_	_
 11	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	conj	_	_
 12	marre	marre	ADV	_	_	11	obj	_	_
 13	de	de	ADP	_	_	14	mark	_	_
@@ -38533,7 +38533,7 @@
 
 # sent_id = fr-ud-dev_01388
 # text = Une des nouveautés dans le rapport de Ban Ki-Moon, c'est que celui-ci consacre une bonne partie à la situation des droits de l'homme au Sahara occidental.
-1	Une	un	PRON	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+1	Une	un	PRON	_	Gender=Fem|Number=Sing	13	dislocated	_	_
 2-3	des	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -38545,7 +38545,7 @@
 9	Ban	Ban	PROPN	_	_	7	nmod	_	_
 10	Ki-Moon	Ki-Moon	PROPN	_	_	9	flat:name	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	7	punct	_	_
-12	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	13	expl	_	SpaceAfter=No
+12	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	13	nsubj	_	SpaceAfter=No
 13	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	que	que	SCONJ	_	_	16	mark	_	_
 15	celui-ci	celui-ci	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	16	nsubj	_	_
@@ -39265,7 +39265,7 @@
 4	5	5	NUM	_	_	3	nmod	_	_
 5	s'	se	PRON	_	Person=3|PronType=Prs	6	expl:pass	_	SpaceAfter=No
 6	écrivait	écrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
-7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
+7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
 8	3	3	NUM	_	_	6	xcomp	_	_
 9	in	in	ADP	_	_	10	case	_	_
 10	5	5	NUM	_	_	8	nmod	_	SpaceAfter=No
@@ -40995,9 +40995,9 @@
 7	prévenu	prévenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	:	:	PUNCT	_	_	14	punct	_	_
 9	«	«	PUNCT	_	_	14	punct	_	_
-10	Gremetz	Gremetz	PROPN	_	_	14	nsubj	_	SpaceAfter=No
+10	Gremetz	Gremetz	PROPN	_	_	14	dislocated	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
-12	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	14	expl	_	SpaceAfter=No
+12	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	14	nsubj	_	SpaceAfter=No
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	fini	finir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	_
 15	!	!	PUNCT	_	_	7	punct	_	_

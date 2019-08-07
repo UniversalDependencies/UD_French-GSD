@@ -251,7 +251,7 @@
 29	qu'	que	SCONJ	_	_	33	mark	_	SpaceAfter=No
 30	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	33	nsubj	_	_
 31	s'	se	PRON	_	Person=3|PronType=Prs	33	expl:comp	_	SpaceAfter=No
-32	en	en	PRON	_	Person=3	33	expl	_	_
+32	en	en	PRON	_	Person=3	33	expl:comp	_	_
 33	prennent	prendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	advcl:cleft	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -926,7 +926,7 @@
 1	Son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
 2	destin	destin	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
-4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
+4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Poussière	poussière	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 7	?	?	PUNCT	_	_	6	punct	_	_
@@ -1526,7 +1526,7 @@
 20	,	,	PUNCT	_	_	1	punct	_	_
 21	s'	se	PRON	_	Person=3|PronType=Prs	25	obj	_	SpaceAfter=No
 22	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	aux	_	SpaceAfter=No
-23	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	expl	_	_
+23	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	expl:subj	_	_
 24	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	aux:caus	_	_
 25	arrêter	arrêter	VERB	_	VerbForm=Inf	0	root	_	_
 26	mercredi	mercredi	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
@@ -2455,7 +2455,7 @@
 43	,	,	PUNCT	_	_	35	punct	_	_
 44	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	47	nsubj	_	_
 45	n'	ne	ADV	_	Polarity=Neg	47	advmod	_	SpaceAfter=No
-46	en	en	PRON	_	_	47	expl	_	_
+46	en	en	PRON	_	_	47	expl:comp	_	_
 47	revenait	revenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	conj	_	_
 48	pas	pas	ADV	_	Polarity=Neg	47	advmod	_	_
 49	;	;	PUNCT	_	_	14	punct	_	_
@@ -2848,7 +2848,7 @@
 6	officielle	officiel	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 7	maintiendra	maintenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
-9	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
+9	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
 10	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	_
 11	préférence	préférence	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
 12	pour	pour	ADP	_	_	14	case	_	_
@@ -2883,7 +2883,7 @@
 2	Ross	Ross	PROPN	_	_	1	flat:name	_	_
 3	réussira	réussir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	-t	t	PART	_	_	5	dep	_	SpaceAfter=No
-5	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+5	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 6	à	à	ADP	_	_	8	mark	_	_
 7	faire	faire	AUX	_	VerbForm=Inf	8	aux:caus	_	_
 8	valoir	valoir	VERB	_	VerbForm=Inf	3	xcomp	_	_
@@ -3185,7 +3185,7 @@
 6	résultats	résultat	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
-9	en	en	PRON	_	Person=3	10	expl	_	_
+9	en	en	PRON	_	Person=3	10	expl:comp	_	_
 10	viennent	venir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	à	à	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -3795,13 +3795,13 @@
 
 # sent_id = fr-ud-test_00125
 # text = Odeurs, saveurs, couleurs... tout se mélange pour le plus grand plaisir des gourmands et amateurs de produits de qualité.
-1	Odeurs	odeur	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	SpaceAfter=No
+1	Odeurs	odeur	NOUN	_	Gender=Fem|Number=Plur	9	dislocated	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	saveurs	saveur	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	couleurs	couleur	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
 6	...	...	PUNCT	_	_	1	punct	_	_
-7	tout	tout	PRON	_	Gender=Masc|Number=Sing	9	expl	_	_
+7	tout	tout	PRON	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 8	se	se	PRON	_	Person=3|PronType=Prs	9	obj	_	_
 9	mélange	mélanger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	pour	pour	ADP	_	_	14	case	_	_
@@ -5820,7 +5820,7 @@
 16	ne	ne	ADV	_	Polarity=Neg	17	advmod	_	_
 17	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
 18	pas	pas	ADV	_	Polarity=Neg	17	advmod	_	_
-19	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	17	expl	_	_
+19	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	17	obj	_	_
 20	que	que	PRON	_	PronType=Rel	19	acl:relcl	_	_
 21	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	20	nsubj	_	SpaceAfter=No
 22	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
@@ -6424,7 +6424,7 @@
 3	tellement	tellement	ADV	_	_	4	advmod	_	_
 4	rare	rare	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 5	de	de	ADP	_	_	6	mark	_	_
-6	pouvoir	pouvoir	VERB	_	VerbForm=Inf	4	ccomp	_	_
+6	pouvoir	pouvoir	VERB	_	VerbForm=Inf	4	csubj:agent	_	_
 7	dîner	dîner	VERB	_	VerbForm=Inf	6	xcomp	_	_
 8-9	au	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	10	case	_	_
@@ -6462,7 +6462,7 @@
 
 # sent_id = fr-ud-test_00220
 # text = Cà oui, on peut dire que c'était à la fois futuriste et romantique, comme diner avec ma moitié.
-1	Cà	ça	PRON	_	PronType=Dem	5	expl	_	_
+1	Cà	ça	PRON	_	PronType=Dem	5	dislocated	_	_
 2	oui	oui	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
@@ -11227,7 +11227,7 @@
 44	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	45	det	_	INTITLE=Yes
 45	handicapés	handicapé	NOUN	_	Gender=Masc|Number=Plur	46	nsubj	_	INTITLE=Yes
 46	vont	aller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	43	appos	_	EXTPOS=PROPN|SpaceAfter=No|Type=Title
-47	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	46	expl	_	INTITLE=Yes
+47	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	46	expl:subj	_	INTITLE=Yes
 48	en	en	ADP	_	_	49	case	_	INTITLE=Yes
 49	enfer	enfer	NOUN	_	Gender=Masc|Number=Sing	46	obl	_	INTITLE=Yes
 50	?	?	PUNCT	_	_	46	punct	_	INTITLE=Yes|SpaceAfter=No

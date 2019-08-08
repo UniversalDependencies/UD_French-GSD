@@ -3628,7 +3628,7 @@
 23	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
 24	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	29	nsubj:pass	_	_
 25	nouveaux	nouveau	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	_
-26	y	y	PRON	_	_	29	obl:mod	_	_
+26	y	y	PRON	_	_	29	iobj	_	_
 27	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	29	aux:tense	_	_
 28	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	aux:pass	_	_
 29	introduits	introduire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	ccomp	_	SpaceAfter=No
@@ -6151,7 +6151,7 @@
 35	essayez	essayer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 36	et	et	CCONJ	_	_	39	cc	_	_
 37	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	39	nsubj	_	_
-38	y	y	PRON	_	_	39	obl:mod	_	_
+38	y	y	PRON	_	_	39	iobj	_	_
 39	retournerez	retourner	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	35	conj	_	SpaceAfter=No
 40	...	...	PUNCT	_	_	3	punct	_	_
 
@@ -6868,7 +6868,7 @@
 # sent_id = fr-ud-test_00243
 # text = J'y vais très souvent, car comme on dit on change pas une équipe qui gagne.
 1	J'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
-2	y	y	PRON	_	_	3	obl:mod	_	_
+2	y	y	PRON	_	_	3	iobj	_	_
 3	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	très	très	ADV	_	_	5	advmod	_	_
 5	souvent	souvent	ADV	_	_	3	advmod	_	SpaceAfter=No
@@ -6962,7 +6962,7 @@
 # sent_id = fr-ud-test_00248
 # text = J'y suis allé 2 fois à une semaine d'intervalle et je n'ai pas été déçu.
 1	J'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
-2	y	y	PRON	_	_	4	obl:mod	_	_
+2	y	y	PRON	_	_	4	iobj	_	_
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 4	allé	aller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	2	2	NUM	_	_	6	nummod	_	_
@@ -7505,7 +7505,7 @@
 # sent_id = fr-ud-test_00271
 # text = On y retourne cet été !
 1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
-2	y	y	PRON	_	_	3	obl:mod	_	_
+2	y	y	PRON	_	_	3	iobj	_	_
 3	retourne	retourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 5	été	été	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
@@ -7719,7 +7719,7 @@
 4	année	année	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	_
 5	prochaine	prochain	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
-7	y	y	PRON	_	_	8	obl:mod	_	_
+7	y	y	PRON	_	_	8	iobj	_	_
 8	retourne	retourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
 10	office	office	NOUN	_	Gender=Masc|Number=Plur	8	obl:mod	_	SpaceAfter=No

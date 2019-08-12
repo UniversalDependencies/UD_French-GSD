@@ -705,8 +705,8 @@
 # text = Les moments les plus appréciés sont l'apparition des premières fleurs que guettent les photographes et la période de pic de floraison.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	moments	moment	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
-3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
-4	plus	plus	ADV	_	_	5	advmod	_	_
+3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	advmod	_	EXTPOS=ADV|Type=MWE
+4	plus	plus	ADV	_	_	3	fixed	_	_
 5	appréciés	apprécier	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
@@ -4614,8 +4614,8 @@
 21	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
 22	villes	ville	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	_
 23	fantômes	fantôme	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	_
-24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
-25	plus	plus	ADV	_	_	26	advmod	_	_
+24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	advmod	_	EXTPOS=ADV|Type=MWE
+25	plus	plus	ADV	_	_	24	fixed	_	_
 26	connues	connu	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	_
 27-28	du	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	_	29	case	_	_
@@ -6055,8 +6055,8 @@
 37	de	de	ADP	_	_	39	case	_	_
 38	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
 39	quasars	quasar	NOUN	_	Gender=Masc|Number=Plur	36	nmod	_	_
-40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	42	det	_	_
-41	plus	plus	ADV	_	_	42	advmod	_	_
+40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	42	advmod	_	EXTPOS=ADV|Type=MWE
+41	plus	plus	ADV	_	_	40	fixed	_	_
 42	lointains	lointain	ADJ	_	Gender=Masc|Number=Plur	39	amod	_	SpaceAfter=No
 43	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -9815,8 +9815,8 @@
 12	toujours	toujours	ADV	_	_	11	advmod	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	solution	solution	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
-15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-16	plus	plus	ADV	_	_	17	advmod	_	_
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	advmod	_	EXTPOS=ADV|Type=MWE
+16	plus	plus	ADV	_	_	15	fixed	_	_
 17	adaptée	adapté	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
 18	à	à	ADP	_	_	20	case	_	_
 19	votre	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	det	_	_
@@ -10297,8 +10297,8 @@
 4	de	de	ADP	_	_	6	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	preuve	preuve	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	_
-7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-8	plus	plus	ADV	_	_	9	advmod	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	advmod	_	EXTPOS=ADV|Type=MWE
+8	plus	plus	ADV	_	_	7	fixed	_	_
 9	évidente	évident	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 10	permettant	permettre	VERB	_	Tense=Pres|VerbForm=Part	6	acl	_	_
 11	d'	de	ADP	_	_	12	mark	_	SpaceAfter=No
@@ -30839,8 +30839,8 @@
 # text = L'année la plus meurtrière avait été 2002 avec 6.995 décès.
 1	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	année	année	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
-3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-4	plus	plus	ADV	_	_	5	advmod	_	_
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	advmod	_	EXTPOS=ADV|Type=MWE
+4	plus	plus	ADV	_	_	3	fixed	_	_
 5	meurtrière	meurtrier	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 6	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux:tense	_	_
 7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
@@ -37686,8 +37686,8 @@
 18	de	de	ADP	_	_	20	case	_	_
 19	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
 20	technologies	technologie	NOUN	_	Gender=Fem|Number=Plur	17	obl:arg	_	_
-21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
-22	plus	plus	ADV	_	_	23	advmod	_	_
+21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	advmod	_	EXTPOS=ADV|Type=MWE
+22	plus	plus	ADV	_	_	21	fixed	_	_
 23	avancées	avancé	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	1	punct	_	_
 25	Captain	Captain	PROPN	_	_	28	nsubj:pass	_	_

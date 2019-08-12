@@ -2018,7 +2018,7 @@
 5	n'	ne	ADV	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
 6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	_
-8	là	là	ADV	_	_	6	obl:arg	_	_
+8	là	là	ADV	_	_	6	iobj	_	_
 9	pour	pour	ADP	_	_	10	mark	_	_
 10	aggraver	aggraver	VERB	_	VerbForm=Inf	6	advcl	_	_
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -10534,8 +10534,8 @@
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	met	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 13	Vador	Vador	PROPN	_	_	12	obj	_	_
-14	hors	hors	ADV	_	_	12	obl:arg	_	_
-15	course	course	NOUN	_	Gender=Fem|Number=Sing	14	obl:arg	_	SpaceAfter=No
+14	hors	hors	ADV	_	_	12	iobj	_	_
+15	course	course	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_01565

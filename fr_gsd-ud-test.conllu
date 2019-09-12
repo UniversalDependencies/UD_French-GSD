@@ -3858,12 +3858,12 @@
 33	°	°	SYM	_	_	30	nmod	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 34	C	Celsius	SYM	_	_	33	nmod	_	EXTPOS=PROPN|SpaceAfter=No|Type=Trans
 35	,	,	PUNCT	_	_	39	punct	_	_
-36	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	nsubj	_	_
+36	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	expl:subj	_	_
 37	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
 38	donc	donc	ADV	_	_	39	advmod	_	_
 39	normal	normal	ADJ	_	Gender=Masc|Number=Sing	3	conj	_	_
 40	de	de	ADP	_	_	41	mark	_	_
-41	ressentir	ressentir	VERB	_	VerbForm=Inf	39	ccomp	_	_
+41	ressentir	ressentir	VERB	_	VerbForm=Inf	39	csubj	_	_
 42	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	obj	_	EXTPOS=PRON|Type=MWE
 43	peu	peu	PRON	_	_	42	fixed	_	_
 44	de	de	ADP	_	_	45	case	_	_
@@ -5704,11 +5704,11 @@
 # text = Peut-être serait-il plus libérateur de crier bien fort : OUACHE !...
 1	Peut-être	peut-être	ADV	_	_	5	advmod	_	_
 2	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
-3	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
 4	plus	plus	ADV	_	_	5	advmod	_	_
 5	libérateur	libérateur	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 6	de	de	ADP	_	_	7	mark	_	_
-7	crier	crier	VERB	_	VerbForm=Inf	5	ccomp	_	_
+7	crier	crier	VERB	_	VerbForm=Inf	5	csubj	_	_
 8	bien	bien	ADV	_	_	9	advmod	_	_
 9	fort	fort	ADV	_	_	7	advmod	_	_
 10	:	:	PUNCT	_	_	11	punct	_	_

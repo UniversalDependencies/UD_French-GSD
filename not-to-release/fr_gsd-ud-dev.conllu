@@ -1721,7 +1721,7 @@
 20	n'	ne	ADV	_	Polarity=Neg	22	advmod	_	INMWE=Yes|SpaceAfter=No
 21	en	en	PRON	_	Person=3	22	expl:comp	_	INMWE=Yes
 22	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	EXTPOS=VERB|Type=MWE
-23	rien	rien	PRON	_	Number=Sing	22	nsubj:agent	_	INMWE=Yes|SpaceAfter=No
+23	rien	rien	PRON	_	Number=Sing	22	nsubj	_	INMWE=Yes|SpaceAfter=No
 24	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = fr-ud-dev_00065
@@ -4591,7 +4591,7 @@
 # text = Située à proximité de la route menant au parc national de Zion, il s'agit d'une des villes fantômes les plus connues du pays.
 1	Située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	advcl	_	_
 2	à	à	ADP	_	_	3	case	_	INMWE=Yes
-3	proximité	proximité	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	EXTPOS=ADV|Type=MWE
+3	proximité	proximité	NOUN	_	Gender=Fem|Number=Sing	1	iobj	_	EXTPOS=ADV|Type=MWE
 4	de	de	ADP	_	_	6	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	route	route	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	_
@@ -14835,7 +14835,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	inadmissible	inadmissible	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 4	de	de	ADP	_	_	5	mark	_	_
-5	voler	voler	VERB	_	VerbForm=Inf	3	csubj:agent	_	_
+5	voler	voler	VERB	_	VerbForm=Inf	3	csubj	_	_
 6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	gens	gens	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
 8	ainsi	ainsi	ADV	_	_	7	advmod	_	SpaceAfter=No

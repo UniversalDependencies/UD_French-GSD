@@ -6108,8 +6108,9 @@
 
 # sent_id = fr-ud-test_00203
 # text = Allez-y.
-1	Allez-y	allez-y	ADV	_	_	0	root	_	SpaceAfter=No
-2	.	.	PUNCT	_	_	1	punct	_	_
+1	Allez	aller	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	-y	y	PRON	_	_	1	iobj	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-test_00204
 # text = Alors je retournes souvent au Campuchea, son hote est toujours là pour vous aider à trouver votre bonheur, la cuisine est vraiment excellente et vous passez toujours un bon moment, essayez et vous y retournerez...

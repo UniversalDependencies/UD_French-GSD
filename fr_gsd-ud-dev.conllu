@@ -26438,7 +26438,7 @@
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	tiers	tiers	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	_
-17	lancées	lancer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	SpaceAfter=No
+17	lancées	lancer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	16	acl	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	25	punct	_	_
 19-20	au	_	_	_	_	_	_	_	_
 19	à	à	ADP	_	_	21	case	_	_
@@ -26448,7 +26448,7 @@
 22	de	de	ADP	_	_	23	case	_	_
 23	lesquelles	lequel	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	21	nmod	_	_
 24	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
-25	enregistre	enregistrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+25	enregistre	enregistrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
 26	67	67	NUM	_	_	27	nummod	_	_
 27	retraits	retrait	NOUN	_	Gender=Masc|Number=Plur	25	obj	_	_
 28	sur	sur	ADP	_	_	30	case	_	_
@@ -33613,13 +33613,13 @@
 13	ainsi	ainsi	ADV	_	_	16	cc	_	EXTPOS=CCONJ|Type=MWE
 14	qu'	que	SCONJ	_	_	13	fixed	_	SpaceAfter=No
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	changement	changement	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+16	changement	changement	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
 17	d'	de	ADP	_	_	18	case	_	SpaceAfter=No
 18	entraineur	entraîneur	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
 19	:	:	PUNCT	_	_	22	punct	_	_
 20	Jürgen	Jürgen	PROPN	_	_	22	nsubj	_	_
 21	Klopp	Klopp	PROPN	_	_	20	flat:name	_	_
-22	succédant	succéder	VERB	_	Tense=Pres|VerbForm=Part	9	advcl	_	_
+22	succédant	succéder	VERB	_	Tense=Pres|VerbForm=Part	16	orphan	_	_
 23	à	à	ADP	_	_	24	case	_	_
 24	Thomas	Thomas	PROPN	_	_	22	obl:arg	_	_
 25	Doll	Doll	PROPN	_	_	24	flat:name	_	SpaceAfter=No

@@ -25567,7 +25567,7 @@
 10	trésorerie	trésorerie	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	100	100	NUM	_	_	13	nummod	_	_
-13	MEUR	MEUR	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+13	MEUR	MEUR	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
 14	durant	durant	ADP	_	_	16	case	_	_
 15	1	1	NUM	_	_	16	nummod	_	_
 16	an	an	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
@@ -34353,17 +34353,17 @@
 26	de	de	ADP	_	_	28	case	_	_
 27	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
 28	ivraie	ivraie	NOUN	_	Gender=Fem|Number=Sing	23	obl:arg	_	SpaceAfter=No
-29	,	,	PUNCT	_	_	30	punct	_	_
+29	,	,	PUNCT	_	_	32	punct	_	_
 30	c'est-à-dire	c'est-à-dire	ADV	_	_	32	advmod	_	_
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-32	chair	chair	NOUN	_	Gender=Fem|Number=Sing	25	appos	_	_
+32	chair	chair	NOUN	_	Gender=Fem|Number=Sing	23	conj	_	_
 33-34	du	_	_	_	_	_	_	_	_
 33	de	de	ADP	_	_	35	case	_	_
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	poisson	poisson	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
 36	de	de	ADP	_	_	38	case	_	_
 37	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	38	det	_	_
-38	arêtes	arête	NOUN	_	Gender=Fem|Number=Plur	32	nmod	_	SpaceAfter=No
+38	arêtes	arête	NOUN	_	Gender=Fem|Number=Plur	32	orphan	_	SpaceAfter=No
 39	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = fr-ud-dev_01239

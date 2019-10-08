@@ -24165,7 +24165,7 @@
 14	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-dev_00876
-# text = Aux élections générales du 9 mars 2008, elle se présente pour l'un des quatre sièges au Sénat dans la province de Pontevedra, et remporte plus de voix, soit le quatrième meilleur résultat.
+# text = Aux élections générales du 9 mars 2008, elle se présente pour l'un des quatre sièges au Sénat dans la province de Pontevedra, et remporte plus de 223 000 voix, soit le quatrième meilleur résultat.
 1-2	Aux	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	3	case	_	_
 2	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
@@ -24202,15 +24202,16 @@
 30	et	et	CCONJ	_	_	31	cc	_	_
 31	remporte	remporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
 32	plus	plus	ADV	_	_	31	obj	_	_
-33	de	de	ADP	_	_	34	case	_	_
-34	voix	voix	NOUN	_	Gender=Fem|Number=Sing	32	obl:arg	_	SpaceAfter=No
-35	,	,	PUNCT	_	_	40	punct	_	_
-36	soit	soit	ADV	_	_	40	advmod	_	_
-37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
-38	quatrième	quatrième	ADJ	_	Gender=Masc|Number=Sing	40	amod	_	_
-39	meilleur	meilleur	ADJ	_	Gender=Masc|Number=Sing	40	amod	_	_
-40	résultat	résultat	NOUN	_	Gender=Masc|Number=Sing	32	appos	_	SpaceAfter=No
-41	.	.	PUNCT	_	_	13	punct	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	223 000	223 000	NUM	_	_	35	nmod	_	_
+35	voix	voix	NOUN	_	Gender=Fem|Number=Sing	32	obl:arg	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	41	punct	_	_
+37	soit	soit	ADV	_	_	41	advmod	_	_
+38	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+39	quatrième	quatrième	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	_
+40	meilleur	meilleur	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	_
+41	résultat	résultat	NOUN	_	Gender=Masc|Number=Sing	32	appos	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = fr-ud-dev_00877
 # text = Ainsi, il conviendra de regarder le second critère seulement si le premier n'est pas rempli et ainsi de suite.

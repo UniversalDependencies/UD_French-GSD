@@ -856,7 +856,7 @@
 12	très	très	ADV	_	_	13	advmod	_	_
 13	dure	dur	ADJ	_	Gender=Fem|Number=Sing	3	acl:relcl	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	3	punct	_	_
-15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	expl:subj	_	_
 16	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	s'	se	PRON	_	Person=3|PronType=Prs	18	expl:comp	_	SpaceAfter=No
 18	attendre	attendre	VERB	_	VerbForm=Inf	16	ccomp	_	_
@@ -2022,7 +2022,7 @@
 
 # sent_id = fr-ud-dev_00077
 # text = Il s'agit d'une action complémentaire aux dispositions administratives et juridiques déjà prises ou encours au plus haut niveau de l'État vue d'améliorer la situation des veuves.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	SpaceAfter=No
 3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
@@ -2278,7 +2278,7 @@
 28	finalement	finalement	ADV	_	_	29	advmod	_	_
 29	déduit	déduire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
 30	qu'	que	SCONJ	_	_	32	mark	_	SpaceAfter=No
-31	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
+31	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	expl:subj	_	_
 32	fallait	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	ccomp	_	_
 33	que	que	SCONJ	_	_	35	mark	_	_
 34	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	35	nsubj	_	_
@@ -2319,7 +2319,7 @@
 
 # sent_id = fr-ud-dev_00086
 # text = Il lui restait à battre Pat Buchanan, relativement isolé au sein du parti, Steve Forbes, Phillip Gramm (soutenu notamment par le sénateur John McCain de l'Arizona et la sénatrice Kay Bailey Hutchison du Texas) alors que Pete Wilson, le gouverneur de Californie et ancien sénateur, soutenu par la branche modérée et progressiste du parti, se retirait rapidement de la course.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 2	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
 3	restait	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	5	mark	_	_
@@ -4103,7 +4103,7 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Jour	jour	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 9	qu'	que	PRON	_	PronType=Rel	11	obj	_	SpaceAfter=No
-10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl:subj	_	_
 11	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl:cleft	_	_
 12	aller	aller	VERB	_	VerbForm=Inf	11	ccomp	_	_
 13	:	:	PUNCT	_	_	15	punct	_	_
@@ -4604,7 +4604,7 @@
 12	de	de	ADP	_	_	13	case	_	_
 13	Zion	Zion	PROPN	_	_	10	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	1	punct	_	_
-15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	expl:subj	_	_
 16	s'	se	PRON	_	Person=3|PronType=Prs	17	expl:comp	_	SpaceAfter=No
 17	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	d'	de	ADP	_	_	19	case	_	SpaceAfter=No
@@ -6196,7 +6196,7 @@
 6	influences	influence	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
 7	classiques	classique	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	2	punct	_	_
-9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl:subj	_	_
 10	s'	se	PRON	_	Person=3|PronType=Prs	11	expl:comp	_	SpaceAfter=No
 11	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	de	de	ADP	_	_	13	case	_	_
@@ -7702,12 +7702,12 @@
 20	précaires	précaire	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	_
 21	parce	parce	ADV	_	_	25	mark	_	EXTPOS=SCONJ|Type=MWE
 22	qu'	que	SCONJ	_	_	21	fixed	_	SpaceAfter=No
-23	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+23	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	expl:subj	_	_
 24	n'	ne	ADV	_	Polarity=Neg	25	advmod	_	SpaceAfter=No
 25	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
 26	pas	pas	ADV	_	Polarity=Neg	25	advmod	_	_
 27	d'	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	28	det	_	SpaceAfter=No
-28	organismes	organisme	NOUN	_	Gender=Masc|Number=Plur	25	obj	_	_
+28	organismes	organisme	NOUN	_	Gender=Masc|Number=Plur	25	nsubj	_	_
 29	internationaux	international	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	_
 30	qui	qui	PRON	_	PronType=Rel	32	nsubj	_	_
 31	leur	lui	PRON	_	Number=Plur|Person=3|PronType=Prs	32	iobj	_	_
@@ -9474,7 +9474,7 @@
 9	cheval	cheval	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
 10	ailé	ailé	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	_
-12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	expl:subj	_	_
 13	s'	se	PRON	_	Person=3|PronType=Prs	14	expl:comp	_	SpaceAfter=No
 14	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	d'	de	ADP	_	_	17	case	_	SpaceAfter=No
@@ -10291,7 +10291,7 @@
 
 # sent_id = fr-ud-dev_00371
 # text = Il s'agit de la preuve la plus évidente permettant d'affirmer--avec une certitude historiographique--que la pratique musicale chrétienne découle de la tradition hébraïque et non pas grecque.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	SpaceAfter=No
 3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	de	de	ADP	_	_	6	case	_	_
@@ -11303,12 +11303,12 @@
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	Palaos	Palaos	PROPN	_	_	5	conj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	5	punct	_	_
-14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	expl:subj	_	_
 15	n'	ne	ADV	_	Polarity=Neg	16	advmod	_	SpaceAfter=No
 16	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	pas	pas	ADV	_	Polarity=Neg	16	advmod	_	_
 18	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
-19	partis	parti	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	_
+19	partis	parti	NOUN	_	Gender=Masc|Number=Plur	16	nsubj	_	_
 20	politiques	politique	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	29	punct	_	_
 22	et	et	CCONJ	_	_	29	cc	_	_
@@ -12193,7 +12193,7 @@
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	parataxis	_	_
 23	t'	t	PART	_	_	24	dep	_	SpaceAfter=No
-24	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	SpaceAfter=No
+24	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	expl:subj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	22	punct	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 27	plus	plus	ADV	_	_	28	advmod	_	_
@@ -12367,7 +12367,7 @@
 
 # sent_id = fr-ud-dev_00447
 # text = Il s'agit, depuis, d'un hôtel de luxe situé dans un parc de 12 hectares dans la région naturelle de la Margeride.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	SpaceAfter=No
 3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
@@ -13366,7 +13366,7 @@
 
 # sent_id = fr-ud-dev_00482
 # text = Il peut s'agir d'un vestige de l'église Notre-Dame-du-Val.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl:subj	_	_
 2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	SpaceAfter=No
 4	agir	agir	VERB	_	VerbForm=Inf	2	xcomp	_	_
@@ -15273,7 +15273,7 @@
 
 # sent_id = fr-ud-dev_00547
 # text = Il peut s'agir de Koláčky (petites tartes) ou encore de ovocné knedliky (quenelles aux fruits).
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl:subj	_	_
 2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	SpaceAfter=No
 4	agir	agir	VERB	_	VerbForm=Inf	2	xcomp	_	_
@@ -16204,7 +16204,7 @@
 14	élution	élution	NOUN	_	Gender=Fem|Number=Sing	4	appos	_	SpaceAfter=No
 15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	2	punct	_	_
-17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	expl:subj	_	_
 18	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 19	déterminer	déterminer	VERB	_	VerbForm=Inf	18	ccomp	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
@@ -17479,13 +17479,13 @@
 2	expérience	expérience	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	montre	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	qu'	que	SCONJ	_	_	7	mark	_	SpaceAfter=No
-5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
 6	n'	ne	ADV	_	Polarity=Neg	7	advmod	_	SpaceAfter=No
 7	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 8	apparemment	apparemment	ADV	_	_	7	advmod	_	_
 9	pas	pas	ADV	_	Polarity=Neg	7	advmod	_	_
 10	d'	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	11	det	_	SpaceAfter=No
-11	informations	information	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+11	informations	information	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
 12	innées	inné	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
 13	relatives	relatif	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
 14-15	aux	_	_	_	_	_	_	_	_
@@ -19607,13 +19607,13 @@
 19	durent	devoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
 20	convenir	convenir	VERB	_	VerbForm=Inf	19	xcomp	_	_
 21	qu'	que	SCONJ	_	_	25	mark	_	SpaceAfter=No
-22	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+22	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	expl:subj	_	_
 23	s'	se	PRON	_	Person=3|PronType=Prs	25	expl:comp	_	SpaceAfter=No
 24	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	aux:tense	_	_
 25	produit	produire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	ccomp	_	_
 26	là	là	ADV	_	_	25	advmod	_	_
 27	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	événement	événement	NOUN	_	Gender=Masc|Number=Sing	25	obj	_	_
+28	événement	événement	NOUN	_	Gender=Masc|Number=Sing	25	nsubj	_	_
 29	quasi	quasi	ADV	_	_	30	advmod	_	_
 30	miraculeux	miraculeux	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
 31	de	de	ADP	_	_	32	case	_	_
@@ -19691,7 +19691,7 @@
 
 # sent_id = fr-ud-dev_00710
 # text = Il se peut même que l'Athenæum et la bibliothèque du Capitole ne fasse qu'un.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 2	se	se	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	même	même	ADV	_	_	3	advmod	_	_
@@ -20434,7 +20434,7 @@
 
 # sent_id = fr-ud-dev_00740
 # text = il ne s'agit pas d'un camping mais d'une chambre d'hotes !......
-1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
 2	ne	ne	ADV	_	Polarity=Neg	4	advmod	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	SpaceAfter=No
 4	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -21402,7 +21402,7 @@
 
 # sent_id = fr-ud-dev_00776
 # text = Il s'agit du premier Bound for Glory, évènement est le plus important de la TNA.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	SpaceAfter=No
 3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4-5	du	_	_	_	_	_	_	_	_
@@ -21425,7 +21425,7 @@
 
 # sent_id = fr-ud-dev_00777
 # text = Il a fallu 33 jours de forage pour atteindre les 33 mineurs.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	fallu	falloir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	33	33	NUM	_	_	5	nummod	_	_
@@ -22980,7 +22980,7 @@
 24	être	être	AUX	_	VerbForm=Inf	25	aux:pass	_	_
 25	mentionné	mentionner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	xcomp	_	_
 26	car	car	CCONJ	_	_	29	cc	_	_
-27	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+27	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	expl:subj	_	_
 28	s'	se	PRON	_	Person=3|PronType=Prs	29	expl:comp	_	SpaceAfter=No
 29	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
 30	là	là	ADV	_	_	29	advmod	_	_
@@ -24216,10 +24216,10 @@
 # text = Ainsi, il conviendra de regarder le second critère seulement si le premier n'est pas rempli et ainsi de suite.
 1	Ainsi	ainsi	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
 4	conviendra	convenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 5	de	de	ADP	_	_	6	mark	_	_
-6	regarder	regarder	VERB	_	VerbForm=Inf	4	ccomp	_	_
+6	regarder	regarder	VERB	_	VerbForm=Inf	4	csubj	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 8	second	second	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
 9	critère	critère	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
@@ -24260,7 +24260,7 @@
 10	inflexibles	inflexible	ADJ	_	Gender=Fem|Number=Plur	9	xcomp	_	_
 11	:	:	PUNCT	_	_	15	punct	_	_
 12	"	"	PUNCT	_	_	15	punct	_	_
-13	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	expl:subj	_	_
 14	s'	se	PRON	_	Person=3|PronType=Prs	15	expl:comp	_	SpaceAfter=No
 15	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
 16	bel	bel	ADV	_	_	15	advmod	_	EXTPOS=ADV|Type=MWE
@@ -24827,7 +24827,7 @@
 
 # sent_id = fr-ud-dev_00898
 # text = Il s'agit d'un dispositif complet composé d'un miroir sans tain (permettant ainsi de filmer à travers) placé devant l'objectif d'une caméra.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	SpaceAfter=No
 3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
@@ -25354,7 +25354,7 @@
 16	qu'	que	SCONJ	_	_	15	fixed	_	SpaceAfter=No
 17	en	en	ADP	_	_	18	case	_	_
 18	réalité	réalité	NOUN	_	Gender=Fem|Number=Sing	21	obl:mod	_	_
-19	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+19	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	expl:subj	_	_
 20	s'	se	PRON	_	Person=3|PronType=Prs	21	expl:comp	_	SpaceAfter=No
 21	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
 22	juste	juste	ADV	_	_	21	advmod	_	_
@@ -28336,7 +28336,7 @@
 # text = Alors qu'il s'agit de puériculture, il est navrant de voir que les personnes de ce magasin ne se préoccupe pas des délais de livraison
 1	Alors	alors	ADV	_	_	5	mark	_	EXTPOS=SCONJ|Type=MWE
 2	qu'	que	SCONJ	_	_	1	fixed	_	SpaceAfter=No
-3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
 4	s'	se	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	SpaceAfter=No
 5	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
 6	de	de	ADP	_	_	7	case	_	_
@@ -30928,7 +30928,7 @@
 9	grande	grand	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	plus	plus	ADV	_	_	13	advmod	_	_
-12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	expl:subj	_	_
 13	devrait	devoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
 14	y	y	PRON	_	_	15	expl:comp	_	_
 15	avoir	avoir	VERB	_	VerbForm=Inf	13	xcomp	_	_
@@ -33879,7 +33879,7 @@
 4	être	être	AUX	_	VerbForm=Inf	5	cop	_	_
 5	anglo-saxons	anglo-saxon	ADJ	_	Gender=Masc|Number=Plur	2	xcomp	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
-7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	expl:subj	_	_
 8	ne	ne	ADV	_	Polarity=Neg	9	advmod	_	_
 9	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	pas	pas	ADV	_	Polarity=Neg	9	advmod	_	_
@@ -35369,7 +35369,7 @@
 8	administrative	administratif	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 9	indépendante	indépendant	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	5	punct	_	_
-11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	expl:subj	_	_
 12	s'	se	PRON	_	Person=3|PronType=Prs	13	expl:comp	_	SpaceAfter=No
 13	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	néanmoins	néanmoins	ADV	_	_	13	advmod	_	_
@@ -37568,7 +37568,7 @@
 
 # sent_id = fr-ud-dev_01355
 # text = Il s'agit d'une allusion aux deux premières versions des premiers jeux vidéo Pokémon Rouge et Vert.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	SpaceAfter=No
 3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
@@ -38572,7 +38572,7 @@
 
 # sent_id = fr-ud-dev_01389
 # text = Il ne s'agit plus de faire fondre la neige, mais plutôt d'augmenter l'adhérence à la route.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
 2	ne	ne	ADV	_	Polarity=Neg	4	advmod	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	SpaceAfter=No
 4	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -40911,7 +40911,7 @@
 
 # sent_id = fr-ud-dev_01470
 # text = Il vaut donc mieux éviter l'expression « la clôture algébrique » et privilégier l'article indéfini « une » (une autre façon de le voir est qu'il n'existe pas de foncteur de la catégorie des corps dans elle-même qui envoie tout corps K sur une clôture algébrique de K).
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl:subj	_	_
 2	vaut	valoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	donc	donc	ADV	_	_	2	advmod	_	_
 4	mieux	mieux	ADV	_	_	2	advmod	_	_
@@ -40940,12 +40940,12 @@
 27	voir	voir	VERB	_	VerbForm=Inf	24	acl	_	_
 28	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 29	qu'	que	SCONJ	_	_	32	mark	_	SpaceAfter=No
-30	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
+30	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	expl:subj	_	_
 31	n'	ne	ADV	_	Polarity=Neg	32	advmod	_	SpaceAfter=No
 32	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	ccomp	_	_
 33	pas	pas	ADV	_	Polarity=Neg	32	advmod	_	_
 34	de	de	ADP	_	_	35	case	_	_
-35	foncteur	foncteur	NOUN	_	Gender=Masc|Number=Sing	32	obl:arg	_	_
+35	foncteur	foncteur	NOUN	_	Gender=Masc|Number=Sing	32	nsubj	_	_
 36	de	de	ADP	_	_	38	case	_	_
 37	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 38	catégorie	catégorie	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	_

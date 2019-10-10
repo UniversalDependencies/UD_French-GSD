@@ -3881,7 +3881,7 @@
 7	appeler	appeler	VERB	_	VerbForm=Inf	1	acl:relcl	_	_
 8	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	prophète	prophète	NOUN	_	Gender=Masc|Number=Sing	7	xcomp	_	_
+10	prophète	prophète	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
 13	Amérique	Amérique	PROPN	_	_	10	nmod	_	SpaceAfter=No
@@ -5814,7 +5814,7 @@
 10	banlieue	banlieue	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 11	et	et	CCONJ	_	_	17	cc	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	banlieue	banlieue	NOUN	_	Gender=Fem|Number=Sing	17	dislocated	_	SpaceAfter=No
+13	banlieue	banlieue	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
 16	ne	ne	ADV	_	Polarity=Neg	17	advmod	_	_
@@ -6762,7 +6762,7 @@
 
 # sent_id = fr-ud-test_00237
 # text = Il vaut mieux réserver car ce petit coin de Naples est bien connu.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl:subj	_	_
 2	vaut	valoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	mieux	mieux	ADV	_	_	2	advmod	_	_
 4	réserver	réserver	VERB	_	VerbForm=Inf	2	xcomp	_	_

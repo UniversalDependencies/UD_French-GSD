@@ -19,13 +19,24 @@ package first {
 	}
 
 	rule head_not_first {
-		pattern { N[fix=Part]; H[fix=Head]; }
+		pattern { N[fix=Part]; H[fix=Head, _MISC_Type]; }
 		without { H < N }
 		without { M[fix]; M < N }
 		commands {
 			N.fix=First;
 			N._MISC_EXTPOS = H._MISC_EXTPOS; del_feat H._MISC_EXTPOS;
 			N._MISC_Type = H._MISC_Type; del_feat H._MISC_Type;
+			shift H ==> N;
+		}
+	}
+
+	rule head_not_first_backoff { % backoff rule used when _MISC_Type feature is missing
+		pattern { N[fix=Part]; H[fix=Head, !_MISC_Type]; }
+		without { H < N }
+		without { M[fix]; M < N }
+		commands {
+			N.fix=First;
+			N._MISC_EXTPOS = H._MISC_EXTPOS; del_feat H._MISC_EXTPOS;
 			shift H ==> N;
 		}
 	}

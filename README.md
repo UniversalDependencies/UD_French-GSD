@@ -8,24 +8,24 @@ The **UD_French-GSD** is converted from the content head version of the universa
 dependency treebank v2.0 (https://github.com/ryanmcd/uni-dep-tb).
 The README for the original project is available below.
 
-The version 2.4 of **UD_French-GSD** data consists of 400,387 words (16,342 sentences).
+The version 2.5 of **UD_French-GSD** data consists of 400,390 words (16,342 sentences).
 No sentence id were available in the original resource, so new `sent_id` were automatically introduced in the converted corpus with prefixes `fr-ud-train`, `fr-ud-dev` and `fr-ud-test` on the corresponding original files, followed by a 5 digit number following the order of sentences.
 
 :warning: to meet the size requirements of test data of 10K words, a part of the dev original file was moved to the test file!
 Since version 2.0, the splitting of data is:
 
- * file `fr-ud-train.conll`: 14,450 sentences; 354,655 words
+ * file `fr-ud-train.conll`: 14,450 sentences; 354,661 words
   * `fr-ud-train_00001` to `fr-ud-train_14554`
- * file `fr-ud-dev.conll`: 1,478 sentences; 35,714 words
+ * file `fr-ud-dev.conll`: 1,476 sentences; 35,716 words
   * `fr-ud-dev_00001` to `fr-ud-dev_01478`
- * file `fr-ud-test.conll`: 416 sentences; 10,018 words
+ * file `fr-ud-test.conll`: 416 sentences; 10,019 words
   * `fr_ud-test_00001` to `fr_ud-test_00298`
   * `fr-ud-dev_01479` to `fr-ud-dev_01596`
 
 Sentences are shuffled and there is no way to know what is the source or the genre of a given sentence.
 
 Probably due to some bug in a conversion program, version 1.2 contains many truncated sentences (date missing for instance).
-Almost every truncated sentence is from Wikipedia, so it was possible to recover the original text.
+Almost every truncated sentence are from Wikipedia, so it was possible to recover the original text.
 Most of the truncated sentences were completed in version 1.3. Some sentences were completed later.
 There are probably still some truncated sentences.
 
@@ -41,6 +41,12 @@ See below for references and acknowledgments concerning the original corpus.
 * 2019-11-15 v2.5
   * Google gave permission to drop the "NC" restriction from the license.
     This applies to the UD annotations (not the underlying content, of which Google claims no ownership or copyright).
+  * Many corrections:
+     * expletive annotation with relations `expl:subj`, `expl:comp` and `expl:pass`
+     * `aux` -> `aux:tense`
+     * `MWEPOS` -> `EXTPOS`
+     * systematic review of non-projective trees
+     * improved ellipsis annotations
 * 2019-05-15 v2.4
   * Change annotations to make the corpus valid
   * Change MWE annotations (see [here](https://github.com/UniversalDependencies/UD_French-GSD/blob/dev/not-to-release/README.md))

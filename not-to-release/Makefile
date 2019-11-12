@@ -10,6 +10,14 @@ convert:
 	grew transform -grs grs/regularize_synt_into_fixed.grs -i fr_gsd-ud-train.conllu -o ../fr_gsd-ud-train.conllu
 
 validate:
-	python tools/validate.py --lang fr ../fr_gsd-ud-dev.conllu
-	python tools/validate.py --lang fr ../fr_gsd-ud-test.conllu
-	python tools/validate.py --lang fr ../fr_gsd-ud-train.conllu
+	python tools/validate.py --lang fr ../fr_gsd-ud-dev.conllu || true
+	python tools/validate.py --lang fr ../fr_gsd-ud-test.conllu || true
+	python tools/validate.py --lang fr ../fr_gsd-ud-train.conllu || true
+
+run:
+	grew transform -grs grs/l_on.grs -i fr_gsd-ud-dev.conllu -o tmp
+	mv -f tmp fr_gsd-ud-dev.conllu
+	grew transform -grs grs/l_on.grs -i fr_gsd-ud-test.conllu -o tmp
+	mv -f tmp fr_gsd-ud-test.conllu
+	grew transform -grs grs/l_on.grs -i fr_gsd-ud-train.conllu -o tmp
+	mv -f tmp fr_gsd-ud-train.conllu

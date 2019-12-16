@@ -850,7 +850,7 @@
 8	béni	béni	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 9	où	où	ADV	_	PronType=Rel	25	advmod	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	manne	manne	NOUN	_	Gender=Fem|Number=Sing	25	nsubj:caus	_	_
+11	manne	manne	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
 12	financière	financier	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
 13	apportée	apporter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
 14	par	par	ADP	_	_	16	case	_	_
@@ -1503,7 +1503,7 @@
 
 # sent_id = fr-ud-test_00058
 # text = Sidi M'hamed Deddeche et Amgid Sidi Ahmed, deux activistes pacifistes des territoires occupés comme Mme Haïder, s'étaient-ils fait arrêter mercredi dernier à l'entrée de Smara, la capitale spirituelle du Sahara occidental, parce qu'ils étaient des séquestrés qui s'étaient évadés des camps de Tindouf, sans documents de voyage ?
-1	Sidi	Sidi	PROPN	_	_	25	nsubj:caus	_	_
+1	Sidi	Sidi	PROPN	_	_	25	nsubj	_	_
 2	M'	M'	PROPN	_	_	1	flat:name	_	SpaceAfter=No
 3	hamed	hamed	PROPN	_	_	1	flat:name	_	_
 4	Deddeche	Deddeche	PROPN	_	_	1	flat:name	_	_
@@ -1524,7 +1524,7 @@
 18	Mme	madame	PROPN	_	_	11	nmod	_	_
 19	Haïder	Haïder	PROPN	_	_	18	flat:name	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	1	punct	_	_
-21	s'	se	PRON	_	Person=3|PronType=Prs	25	obj	_	SpaceAfter=No
+21	s'	se	PRON	_	Person=3|PronType=Prs	25	obj:agent	_	SpaceAfter=No
 22	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	aux:tense	_	SpaceAfter=No
 23	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	expl:subj	_	_
 24	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	aux:caus	_	_
@@ -3097,7 +3097,7 @@
 22	AJA	AJA	PROPN	_	_	18	obl:arg	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	6	punct	_	_
 24	qu'	que	SCONJ	_	_	29	mark	_	SpaceAfter=No
-25	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	nsubj:caus	_	_
+25	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	nsubj	_	_
 26	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	29	iobj:agent	_	_
 27	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
 28	fassent	faire	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux:caus	_	_
@@ -3875,7 +3875,7 @@
 1	Sean	Sean	PROPN	_	_	17	nsubj	_	_
 2	David	David	PROPN	_	_	1	flat:name	_	_
 3	Morton	Morton	PROPN	_	_	1	flat:name	_	_
-4	qui	qui	PRON	_	PronType=Rel	7	nsubj:caus	_	_
+4	qui	qui	PRON	_	PronType=Rel	7	nsubj	_	_
 5	se	se	PRON	_	Person=3|PronType=Prs	7	obj	_	_
 6	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:caus	_	_
 7	appeler	appeler	VERB	_	VerbForm=Inf	1	acl:relcl	_	_
@@ -5365,7 +5365,7 @@
 # sent_id = fr-ud-test_00179
 # text = Cette loi, qui contrôle l'établissement de nouvelles unités de production ou l'agrandissement des sites existants, a ainsi fait tomber le seuil de 250 UA à 75 UA.
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
-2	loi	loi	NOUN	_	Gender=Fem|Number=Sing	24	nsubj:caus	_	SpaceAfter=No
+2	loi	loi	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	qui	qui	PRON	_	PronType=Rel	5	nsubj	_	_
 5	contrôle	contrôler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_

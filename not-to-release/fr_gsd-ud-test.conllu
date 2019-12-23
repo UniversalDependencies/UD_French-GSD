@@ -1169,7 +1169,7 @@
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
 12	toujours	toujours	ADV	_	_	13	advmod	_	_
 13	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
-14	là	là	ADV	_	_	13	advmod	_	SpaceAfter=No
+14	là	là	ADV	_	_	13	iobj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	19	punct	_	_
 16	qu'	que	SCONJ	_	_	19	mark	_	SpaceAfter=No
 17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
@@ -1342,19 +1342,19 @@
 # sent_id = fr-ud-test_00053
 # text = Elle était dans la petite cour du garage, capot ouvert.
 1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
-2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+2	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	dans	dans	ADP	_	_	6	case	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	petite	petit	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
-6	cour	cour	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	_
+6	cour	cour	NOUN	_	Gender=Fem|Number=Sing	2	obl:arg	_	_
 7-8	du	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	garage	garage	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	6	punct	_	_
-11	capot	capot	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+11	capot	capot	NOUN	_	Gender=Masc|Number=Sing	2	obl:mod	_	_
 12	ouvert	ouvert	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	11	punct	_	_
+13	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-test_00054
 # text = 19h15.
@@ -1529,7 +1529,7 @@
 23	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	expl:subj	_	_
 24	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	aux:caus	_	_
 25	arrêter	arrêter	VERB	_	VerbForm=Inf	0	root	_	_
-26	mercredi	mercredi	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
+26	mercredi	mercredi	NOUN	_	Gender=Masc|Number=Sing	25	obl:mod	_	_
 27	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
 28	à	à	ADP	_	_	30	case	_	_
 29	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
@@ -5712,8 +5712,8 @@
 8	bien	bien	ADV	_	_	9	advmod	_	_
 9	fort	fort	ADV	_	_	7	advmod	_	_
 10	:	:	PUNCT	_	_	11	punct	_	_
-11	OUACHE	ouache	INTJ	_	_	7	discourse	_	_
-12	!	!	PUNCT	_	_	7	punct	_	SpaceAfter=No
+11	OUACHE	ouache	INTJ	_	_	7	obj	_	_
+12	!	!	PUNCT	_	_	11	punct	_	SpaceAfter=No
 13	...	...	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-test_00191
@@ -9631,12 +9631,12 @@
 11	de	de	ADP	_	_	13	case	_	_
 12	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
 13	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
-14	et	et	CCONJ	_	_	19	cc	_	_
+14	et	et	CCONJ	_	_	16	cc	_	_
 15	chaque	chaque	DET	_	Gender=Fem|Number=Sing	16	det	_	_
-16	fois	fois	NOUN	_	Gender=Fem|Number=Sing	19	obl:mod	_	_
+16	fois	fois	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
 17	qu'	que	SCONJ	_	_	19	mark	_	SpaceAfter=No
 18	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
-19	veulent	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+19	veulent	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl	_	_
 20	éviter	éviter	VERB	_	VerbForm=Inf	19	xcomp	_	_
 21	de	de	ADP	_	_	22	mark	_	_
 22	payer	payer	VERB	_	VerbForm=Inf	20	xcomp	_	_

@@ -16833,7 +16833,7 @@
 6	AS	AS	PROPN	_	_	0	root	_	_
 7	Philotechnique	Philotechnique	PROPN	_	_	6	flat:name	_	_
 8	en	en	ADP	_	_	9	case	_	_
-9	1925	1925	NUM	_	_	6	obl:mod	_	SpaceAfter=No
+9	1925	1925	NUM	_	_	6	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	14	punct	_	_
 11	puis	puis	ADV	_	_	14	cc	_	_
 12	surtout	surtout	ADV	_	_	14	advmod	_	_
@@ -19108,24 +19108,24 @@
 4	de	de	ADP	_	_	6	case	_	_
 5	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 6	environs	environs	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
-7	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+7	étaient	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	aussi	aussi	ADV	_	_	16	advmod	_	_
 9	dans	dans	ADP	_	_	11	case	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	cour	cour	NOUN	_	Gender=Fem|Number=Sing	16	obl:mod	_	_
+11	cour	cour	NOUN	_	Gender=Fem|Number=Sing	7	obl:arg	_	_
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	temple	temple	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	11	punct	_	_
-16	chacun	chacun	PRON	_	Gender=Masc|Number=Sing	0	root	_	_
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	chacun	chacun	PRON	_	Gender=Masc|Number=Sing	7	advcl	_	_
 17	avec	avec	ADP	_	_	19	case	_	_
 18	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det	_	_
 19	téléphone	téléphone	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
 20	portable	portable	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
 21	en	en	ADP	_	_	22	case	_	_
 22	main	main	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	16	punct	_	_
+23	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-dev_00688
 # text = Le baron zu Guttenberg, 39 ans, le plus populaire des ministres de la chancelière Angela Merkel, obtient un indice de satisfaction de 73%, selon un sondage réalisé mardi pour la chaîne de télévision publique ARD.
@@ -31787,7 +31787,7 @@
 10	opposition	opposition	NOUN	_	Gender=Fem|Number=Sing	3	acl:relcl	_	_
 11	à	à	ADP	_	_	13	case	_	_
 12	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
-13	monde	monde	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	_
+13	monde	monde	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 14	déshumanisé	déshumaniser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -33568,7 +33568,7 @@
 8	de	de	ADP	_	_	11	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	XIIIe	XIIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	11	amod	_	_
-11	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
+11	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
 14	Église	Église	PROPN	_	_	7	nmod	_	_

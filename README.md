@@ -36,6 +36,12 @@ Automatic modifications and consistency checking were partly done using the [Gre
 
 See below for references and acknowledgments concerning the original corpus.
 
+# Reference
+
+[In French] Bruno Guillaume, Marie-Catherine de Marneffe, Guy Perrier. *Conversion et améliorations de corpus
+du français annotés en Universal Dependencies.* Traitement Automatique des Langues, ATALA, 2019,
+60 (2), pp.71-95. [hal-02267418](https://hal.inria.fr/hal-02267418)
+
 # Changelog
 
 * 2019-11-15 v2.5

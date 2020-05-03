@@ -371,7 +371,7 @@
 8	ou	ou	CCONJ	_	_	11	cc	_	_
 9	d'	de	ADP	_	_	11	case	_	SpaceAfter=No
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	malédiction	malédiction	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
+11	malédiction	malédiction	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
 12	que	que	SCONJ	_	_	24	mark	_	_
 13	toute	tout	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -672,7 +672,7 @@
 17	et	et	CCONJ	_	_	20	cc	_	_
 18	de	de	ADP	_	_	20	case	_	_
 19	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	20	det	_	_
-20	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
+20	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-test_00022
@@ -693,7 +693,7 @@
 14	irakisation	irakisation	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
 15	ou	ou	CCONJ	_	_	17	cc	_	_
 16	de	de	ADP	_	_	17	case	_	_
-17	somalisation	somalisation	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
+17	somalisation	somalisation	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
 18	de	de	ADP	_	_	20	case	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	Libye	Libye	PROPN	_	_	14	nmod	_	SpaceAfter=No
@@ -1112,7 +1112,7 @@
 25	et	et	CCONJ	_	_	28	cc	_	_
 26	à	à	ADP	_	_	28	case	_	_
 27	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
-28	entreprises	entreprise	NOUN	_	Gender=Fem|Number=Plur	22	conj	_	_
+28	entreprises	entreprise	NOUN	_	Gender=Fem|Number=Plur	24	conj	_	_
 29-30	du	_	_	_	_	_	_	_	_
 29	de	de	ADP	_	_	31	case	_	_
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
@@ -1437,7 +1437,7 @@
 69	libre	libre	ADJ	_	Gender=Fem|Number=Sing	68	amod	_	_
 70	et	et	CCONJ	_	_	72	cc	_	_
 71	à	à	ADP	_	_	72	mark	_	_
-72	mettre	mettre	VERB	_	VerbForm=Inf	63	conj	_	_
+72	mettre	mettre	VERB	_	VerbForm=Inf	64	conj	_	_
 73	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	74	det	_	_
 74	terme	terme	NOUN	_	Gender=Masc|Number=Sing	72	obj	_	_
 75	à	à	ADP	_	_	77	case	_	_
@@ -1831,20 +1831,20 @@
 23	sud	sud	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	26	punct	_	_
 25	de	de	ADP	_	_	26	case	_	_
-26	Cuba	Cuba	PROPN	_	_	19	conj	_	SpaceAfter=No
+26	Cuba	Cuba	PROPN	_	_	20	conj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	30	punct	_	_
 28-29	du	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	30	case	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-30	Venezuela	Venezuela	PROPN	_	_	19	conj	_	SpaceAfter=No
+30	Venezuela	Venezuela	PROPN	_	_	20	conj	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	33	punct	_	_
 32	d'	de	ADP	_	_	33	case	_	SpaceAfter=No
-33	Angola	Angola	PROPN	_	_	19	conj	_	_
+33	Angola	Angola	PROPN	_	_	20	conj	_	_
 34	et	et	CCONJ	_	_	37	cc	_	_
 35-36	du	_	_	_	_	_	_	_	_
 35	de	de	ADP	_	_	37	case	_	_
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-37	Congo	Congo	PROPN	_	_	19	conj	_	SpaceAfter=No
+37	Congo	Congo	PROPN	_	_	20	conj	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-test_00067
@@ -1919,7 +1919,7 @@
 39	,	,	PUNCT	_	_	42	punct	_	_
 40	de	de	ADP	_	_	42	case	_	_
 41	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	SpaceAfter=No
-42	énergie	énergie	NOUN	_	Gender=Fem|Number=Sing	36	conj	_	SpaceAfter=No
+42	énergie	énergie	NOUN	_	Gender=Fem|Number=Sing	38	conj	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	45	punct	_	_
 44	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	45	nsubj	_	_
 45	contrôle	contrôler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
@@ -1994,13 +1994,13 @@
 40-41	des	_	_	_	_	_	_	_	_
 40	de	de	ADP	_	_	42	case	_	_
 41	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
-42	milieux	milieu	NOUN	_	Gender=Masc|Number=Plur	35	conj	_	_
+42	milieux	milieu	NOUN	_	Gender=Masc|Number=Plur	37	conj	_	_
 43	de	de	ADP	_	_	45	case	_	_
 44	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
 45	corruption	corruption	NOUN	_	Gender=Fem|Number=Sing	42	nmod	_	_
 46	et	et	CCONJ	_	_	48	cc	_	_
 47	à	à	ADP	_	_	48	mark	_	_
-48	grossir	grossir	VERB	_	VerbForm=Inf	10	conj	_	_
+48	grossir	grossir	VERB	_	VerbForm=Inf	12	conj	_	_
 49	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	50	det	_	_
 50	rangs	rang	NOUN	_	Gender=Masc|Number=Plur	48	obj	_	_
 51-52	des	_	_	_	_	_	_	_	_
@@ -2172,7 +2172,7 @@
 10	et	et	CCONJ	_	_	13	cc	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	son	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det	_	_
-13	énérgie	énergie	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
+13	énérgie	énergie	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
 14	exclusivement	exclusivement	ADV	_	_	1	advmod	_	_
 15-16	aux	_	_	_	_	_	_	_	_
 15	à	à	ADP	_	_	18	case	_	_
@@ -2222,7 +2222,7 @@
 25	et	et	CCONJ	_	_	28	cc	_	_
 26	à	à	ADP	_	_	28	case	_	_
 27	leur	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	28	det	_	_
-28	diversification	diversification	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
+28	diversification	diversification	NOUN	_	Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = fr-ud-test_00079
@@ -2397,7 +2397,7 @@
 31-32	du	_	_	_	_	_	_	_	_
 31	de	de	ADP	_	_	33	case	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	bien	bien	NOUN	_	Gender=Masc|Number=Sing	27	conj	_	_
+33	bien	bien	NOUN	_	Gender=Masc|Number=Sing	29	conj	_	_
 34	qui	qui	PRON	_	PronType=Rel	36	nsubj	_	_
 35	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	36	obj	_	_
 36	transporte	transporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	SpaceAfter=No
@@ -2750,7 +2750,7 @@
 8	ou	ou	CCONJ	_	_	11	cc	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	nuit	nuit	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
+11	nuit	nuit	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
 12	s'	si	SCONJ	_	_	15	mark	_	SpaceAfter=No
 13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	expl:subj	_	_
 14	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
@@ -3484,7 +3484,7 @@
 28	et	et	CCONJ	_	_	31	cc	_	_
 29	de	de	ADP	_	_	31	case	_	_
 30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	culture	culture	NOUN	_	Gender=Fem|Number=Sing	23	conj	_	_
+31	culture	culture	NOUN	_	Gender=Fem|Number=Sing	25	conj	_	_
 32	basque	basque	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -3543,7 +3543,7 @@
 48	comme	comme	SCONJ	_	_	51	cc	_	_
 49	à	à	ADP	_	_	51	case	_	_
 50	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	SpaceAfter=No
-51	âme	âme	NOUN	_	Gender=Fem|Number=Sing	45	conj	_	SpaceAfter=No
+51	âme	âme	NOUN	_	Gender=Fem|Number=Sing	47	conj	_	SpaceAfter=No
 52	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-test_00119
@@ -4058,7 +4058,7 @@
 27	Yamaha	Yamaha	PROPN	_	_	18	nmod	_	_
 28	M1	M1	PROPN	_	_	27	flat:name	_	_
 29	et	et	CCONJ	_	_	30	cc	_	_
-30	distancés	distancer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	26	conj	_	_
+30	distancés	distancer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	27	conj	_	_
 31	de	de	ADP	_	_	32	case	_	_
 32	moins	moins	ADV	_	_	30	obl:arg	_	_
 33	de	de	ADP	_	_	34	case	_	_
@@ -5098,7 +5098,7 @@
 33	et	et	CCONJ	_	_	36	cc	_	_
 34	de	de	ADP	_	_	36	case	_	_
 35	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	Réforme	réforme	NOUN	_	Gender=Fem|Number=Sing	30	conj	_	SpaceAfter=No|wordform=réforme
+36	Réforme	réforme	NOUN	_	Gender=Fem|Number=Sing	32	conj	_	SpaceAfter=No|wordform=réforme
 37	,	,	PUNCT	_	_	41	punct	_	_
 38	lorsqu'	lorsque	SCONJ	_	_	41	mark	_	SpaceAfter=No
 39	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
@@ -6101,7 +6101,7 @@
 26	et	et	CCONJ	_	_	29	cc	_	_
 27	à	à	ADP	_	_	29	case	_	_
 28	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
-29	prix	prix	NOUN	_	Gender=Masc|Number=Plur	24	conj	_	_
+29	prix	prix	NOUN	_	Gender=Masc|Number=Plur	25	conj	_	_
 30	très	très	ADV	_	_	31	advmod	_	_
 31	doux	doux	ADJ	_	Gender=Masc|Number=Plur	29	amod	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	1	punct	_	_
@@ -6230,7 +6230,7 @@
 18	,	,	PUNCT	_	_	21	punct	_	_
 19	et	et	CCONJ	_	_	21	cc	_	_
 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	giclée	giclée	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
+21	giclée	giclée	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
 22	de	de	ADP	_	_	23	case	_	_
 23	vinaigre	vinaigre	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 24	balsamique	balsamique	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
@@ -7032,7 +7032,7 @@
 27-28	aux	_	_	_	_	_	_	_	_
 27	à	à	ADP	_	_	29	case	_	_
 28	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
-29	techniques	technique	NOUN	_	Gender=Fem|Number=Plur	22	conj	_	_
+29	techniques	technique	NOUN	_	Gender=Fem|Number=Plur	24	conj	_	_
 30	corporelles	corporel	ADJ	_	Gender=Fem|Number=Plur	29	amod	_	_
 31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
 32	ayurvéda	ayurvéda	NOUN	_	_	29	appos	_	SpaceAfter=No
@@ -7110,7 +7110,7 @@
 8	crêpes	crêpe	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
 9	qu'	que	SCONJ	_	_	11	cc	_	SpaceAfter=No
 10	en	en	ADP	_	_	11	case	_	_
-11	galettes	galette	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
+11	galettes	galette	NOUN	_	Gender=Fem|Number=Plur	8	conj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-test_00253
@@ -7658,7 +7658,7 @@
 39	ou	ou	CCONJ	_	_	42	cc	_	_
 40	de	de	ADP	_	_	42	case	_	_
 41	petits	petit	ADJ	_	Gender=Masc|Number=Plur	42	amod	_	_
-42	créateurs	créateur	NOUN	_	Gender=Masc|Number=Plur	34	conj	_	_
+42	créateurs	créateur	NOUN	_	Gender=Masc|Number=Plur	38	conj	_	_
 43	moins	moins	ADV	_	_	44	advmod	_	_
 44	connu	connu	ADJ	_	Gender=Masc|Number=Sing	42	amod	_	_
 45	mais	mais	CCONJ	_	_	47	cc	_	_
@@ -7772,7 +7772,7 @@
 11	)	)	PUNCT	_	_	10	punct	_	_
 12	ou	ou	CCONJ	_	_	14	cc	_	_
 13	à	à	ADP	_	_	14	case	_	_
-14	titre	titre	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
+14	titre	titre	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
 15	personnel	personnel	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
 16	pour	pour	ADP	_	_	17	case	_	_
 17	moi	soi	PRON	_	Number=Sing|Person=1	14	nmod	_	SpaceAfter=No
@@ -8227,7 +8227,7 @@
 31-32	du	_	_	_	_	_	_	_	_
 31	de	de	ADP	_	_	33	case	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	Brésil	Brésil	PROPN	_	_	23	conj	_	_
+33	Brésil	Brésil	PROPN	_	_	25	conj	_	_
 34	et	et	CCONJ	_	_	37	cc	_	_
 35	de	de	ADP	_	_	37	case	_	_
 36	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
@@ -8479,7 +8479,7 @@
 16	et	et	CCONJ	_	_	19	cc	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	V	V	NUM	_	_	13	conj	_	SpaceAfter=No
+19	V	V	NUM	_	_	15	conj	_	SpaceAfter=No
 20	)	)	PUNCT	_	_	15	punct	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	toute	tout	DET	_	Gender=Fem|Number=Sing	23	det	_	_
@@ -8489,7 +8489,7 @@
 26	par	par	ADP	_	_	29	case	_	_
 27	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 28	certain	certain	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	_
-29	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	_
+29	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
 30	de	de	ADP	_	_	31	case	_	_
 31	gouvernements	gouvernement	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	_
 32	étrangers	étranger	ADJ	_	Gender=Masc|Number=Plur	31	amod	_	SpaceAfter=No
@@ -8519,15 +8519,15 @@
 19	ou	ou	CCONJ	_	_	17	conj	_	_
 20	dans	dans	ADP	_	_	22	case	_	_
 21	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
-22	taux	taux	NOUN	_	Gender=Masc|Number=Plur	11	conj	_	_
+22	taux	taux	NOUN	_	Gender=Masc|Number=Plur	13	conj	_	_
 23	de	de	ADP	_	_	24	case	_	_
 24	natalité	natalité	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	27	punct	_	_
 26	d'	de	ADP	_	_	27	case	_	SpaceAfter=No
-27	immigration	immigration	NOUN	_	Gender=Fem|Number=Sing	23	conj	_	_
+27	immigration	immigration	NOUN	_	Gender=Fem|Number=Sing	24	conj	_	_
 28	ou	ou	CCONJ	_	_	30	cc	_	_
 29	de	de	ADP	_	_	30	case	_	_
-30	mortalité	mortalité	NOUN	_	Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
+30	mortalité	mortalité	NOUN	_	Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-dev_01493
@@ -8661,7 +8661,7 @@
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	et	et	CCONJ	_	_	17	cc	_	_
 16	entre	entre	ADP	_	_	17	case	_	_
-17	celles	celui	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	7	conj	_	_
+17	celles	celui	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	9	conj	_	_
 18	de	de	ADP	_	_	19	case	_	_
 19	Bali	Bali	PROPN	_	_	17	nmod	_	_
 20	et	et	CCONJ	_	_	21	cc	_	_
@@ -9960,7 +9960,7 @@
 31	gariguettes	gariguette	NOUN	_	Gender=Fem|Number=Sing	29	obl:arg	_	_
 32	et	et	CCONJ	_	_	34	cc	_	_
 33	de	de	ADP	_	_	34	case	_	_
-34	crème	crème	NOUN	_	Gender=Fem|Number=Sing	30	conj	_	_
+34	crème	crème	NOUN	_	Gender=Fem|Number=Sing	31	conj	_	_
 35	chantilly	chantilly	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -10366,7 +10366,7 @@
 32	interculturel	interculturel	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
 33	et	et	CCONJ	_	_	35	cc	_	_
 34	de	de	ADP	_	_	35	case	_	_
-35	diffusion	diffusion	NOUN	_	Gender=Fem|Number=Sing	30	conj	_	_
+35	diffusion	diffusion	NOUN	_	Gender=Fem|Number=Sing	31	conj	_	_
 36-37	des	_	_	_	_	_	_	_	_
 36	de	de	ADP	_	_	38	case	_	_
 37	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
@@ -10671,7 +10671,7 @@
 60	au-delà	au-delà	NOUN	_	Gender=Masc|Number=Sing	57	nmod	_	_
 61	et	et	CCONJ	_	_	63	cc	_	_
 62	de	de	ADP	_	_	63	case	_	_
-63	Dieu	Dieu	PROPN	_	_	58	conj	_	SpaceAfter=No
+63	Dieu	Dieu	PROPN	_	_	60	conj	_	SpaceAfter=No
 64	,	,	PUNCT	_	_	66	punct	_	_
 65	mais	mais	CCONJ	_	_	66	cc	_	_
 66	parlait	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	54	conj	_	_
@@ -11224,7 +11224,7 @@
 40	dans	dans	ADP	_	_	43	case	_	_
 41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 42	story	story	NOUN	_	Gender=Masc|Number=Sing	43	nmod	_	_
-43	arc	arc	NOUN	_	Gender=Masc|Number=Sing	24	conj	_	_
+43	arc	arc	NOUN	_	Gender=Masc|Number=Sing	25	conj	_	_
 44	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	45	det	_	INTITLE=Yes|wordform=les
 45	handicapés	handicapé	NOUN	_	Gender=Masc|Number=Plur	46	nsubj	_	INTITLE=Yes
 46	vont	aller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	43	appos	_	EXTPOS=PROPN|SpaceAfter=No|Type=Title
@@ -11411,7 +11411,7 @@
 20	http://brahms.ircam.fr/textes/c00000018/index.html	http://brahms.ircam.fr/textes/c00000018/index.html	SYM	_	_	8	nmod	_	EXTPOS=PROPN|Type=Conv
 21	puis	puis	ADV	_	_	23	cc	_	_
 22	par	par	ADP	_	_	23	case	_	_
-23	Jean-Claude	Jean-Claude	PROPN	_	_	7	conj	_	_
+23	Jean-Claude	Jean-Claude	PROPN	_	_	8	conj	_	_
 24	Risset	Risset	PROPN	_	_	23	flat:name	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	chercheurs	chercheur	NOUN	_	Gender=Masc|Number=Plur	23	appos	_	_

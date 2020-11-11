@@ -8,13 +8,13 @@ The **UD_French-GSD** is converted from the content head version of the universa
 dependency treebank v2.0 (https://github.com/ryanmcd/uni-dep-tb).
 The README for the original project is available below.
 
-The version 2.5 of **UD_French-GSD** data consists of 400,396 words (16,341 sentences).
-No sentence id were available in the original resource, so new `sent_id` were automatically introduced in the converted corpus with prefixes `fr-ud-train`, `fr-ud-dev` and `fr-ud-test` on the corresponding original files, followed by a 5 digit number following the order of sentences.
+The version 2.7 of **UD_French-GSD** data consists of 400,399 words (16,341 sentences).
+No sentence id were available in the original resource, so new `sent_id` were automatically introduced in the converted corpus with prefixes `fr-ud-train`, `fr-ud-dev` and `fr-ud-test` on the corresponding original files, followed by a 5 digit number following the order of sentences in the original files.
 
 :warning: to meet the size requirements of test data of 10K words, a part of the dev original file was moved to the test file!
 Since version 2.0, the splitting of data is:
 
- * file `fr-ud-train.conll`: 14,449 sentences; 354,659 words
+ * file `fr-ud-train.conll`: 14,449 sentences; 354,662 words
   * `fr-ud-train_00001` to `fr-ud-train_14554`
  * file `fr-ud-dev.conll`: 1,476 sentences; 35,718 words
   * `fr-ud-dev_00001` to `fr-ud-dev_01478`
@@ -43,6 +43,9 @@ du français annotés en Universal Dependencies.* Traitement Automatique des Lan
 60 (2), pp.71-95. [hal-02267418](https://hal.inria.fr/hal-02267418)
 
 # Changelog
+
+* 2020-11-15 v2.7
+  New conversion from [SUD data](https://github.com/surfacesyntacticud/SUD_French-GSD/tree/r2.7).
 
 * 2020-05-15 v2.6
   * **UD_French-GSD** is now maintained in the [SUD format](https://surfacesyntacticud.github.io/) and converter to UD with the [Grew](http://grew.fr)-based conversion system [SUD_to_UD](https://github.com/surfacesyntacticud/tools/tree/master/converter).

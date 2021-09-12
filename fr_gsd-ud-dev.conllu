@@ -2068,8 +2068,8 @@
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	Christ	Christ	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-6	Rédempteur	Rédempteur	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	wordform=rédempteur
+5	Christ	christ	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	wordform=christ
+6	Rédempteur	rédempteur	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	wordform=rédempteur
 7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	Cathedral	Cathedral	X	_	Foreign=Yes	2	appos	_	Lang=en
 9	Church	Church	X	_	Foreign=Yes	8	flat:foreign	_	Lang=en
@@ -6515,7 +6515,7 @@
 18	géographique	géographique	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	23	punct	_	_
 20	à	à	ADP	_	_	23	case	_	_
-21	tous	tout	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
+21	tous	tout	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	_
 22	ces	ce	DET	_	Number=Plur|PronType=Dem	23	det	_	_
 23	bataillons	bataillon	NOUN	_	Gender=Masc|Number=Plur	15	conj	_	_
 24	dits	dire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	23	acl	_	_
@@ -7376,7 +7376,7 @@
 15	de	de	ADP	_	_	16	case	_	_
 16	Stellenbosch	Stellenbosch	PROPN	_	_	14	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
-18	ancien	ancien	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+18	ancien	ancien	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
 19	joueur	joueur	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
 20	de	de	ADP	_	_	22	case	_	_
 21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
@@ -12630,7 +12630,7 @@
 27	liturgiques	liturgique	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	31	punct	_	_
 29	et	et	CCONJ	_	_	31	cc	_	_
-30	suffisamment	suffisamment	ADV	_	_	15	advmod	_	_
+30	suffisamment	suffisamment	ADV	_	_	31	advmod	_	_
 31	fixe	fixe	ADJ	_	Gender=Fem|Number=Sing	15	conj	_	_
 32	et	et	CCONJ	_	_	33	cc	_	_
 33	immuable	immuable	ADJ	_	Gender=Fem|Number=Sing	31	conj	_	_
@@ -20857,7 +20857,7 @@
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 16	navires	navire	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
-18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 19	ne	ne	ADV	_	Polarity=Neg	20	advmod	_	_
 20	contribue	contribuer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 21	pas	pas	ADV	_	Polarity=Neg	20	advmod	_	_
@@ -21047,7 +21047,7 @@
 7	Los	Los	PROPN	_	_	5	obl:arg	_	_
 8	Bastanes	Bastanes	PROPN	_	_	7	flat:name	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
-10	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+10	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
 12	située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
 13	à	à	ADP	_	_	15	case	_	_
@@ -25205,8 +25205,8 @@
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	disposition	disposition	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	_
 9	de	de	ADP	_	_	10	case	_	_
-10	Voies	Voies	PROPN	_	Gender=Fem|Number=Plur	8	nmod	_	_
-11	Navigables	Navigables	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	wordform=navigables
+10	Voies	voie	PROPN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+11	Navigables	navigable	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	wordform=navigables
 12	de	de	ADP	_	_	13	case	_	_
 13	France	France	PROPN	_	_	10	nmod	_	_
 14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
@@ -25639,13 +25639,13 @@
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	jeux	jeu	NOUN	_	Gender=Masc|Number=Plur	2	obl:mod	_	_
 18	japonais	japonais	ADJ	_	Gender=Masc	17	amod	_	_
-19	Pocket	pocket	NOUN	_	Gender=Masc|Number=Sing	17	appos	_	wordform=pocket
-20	Monsters	monster	NOUN	_	Gender=Masc|Number=Plur	19	flat:name	_	wordform=monsters
-21	Kin	Kin	PROPN	_	_	19	flat:name	_	_
+19	Pocket	Pocket	X	_	_	17	appos	_	_
+20	Monsters	Monsters	X	_	_	19	flat:foreign	_	_
+21	Kin	Kin	X	_	_	19	flat:foreign	_	_
 22	et	et	CCONJ	_	_	23	cc	_	_
-23	Pocket	pocket	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	wordform=pocket
-24	Monsters	monster	NOUN	_	Gender=Masc|Number=Plur	23	flat:name	_	wordform=monsters
-25	Gin	Gin	PROPN	_	_	23	flat:name	_	SpaceAfter=No
+23	Pocket	pocket	X	_	_	19	conj	_	_
+24	Monsters	monster	X	_	_	23	flat:foreign	_	_
+25	Gin	Gin	X	_	_	23	flat:foreign	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00926
@@ -27944,7 +27944,7 @@
 12	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
 13	moment	moment	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
-15	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+15	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
 16	n'	ne	ADV	_	Polarity=Neg	17	advmod	_	SpaceAfter=No
 17	appelons	appeler	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
 18	pas	pas	ADV	_	Polarity=Neg	17	advmod	_	_
@@ -40448,7 +40448,7 @@
 11	Dammam	Dammam	PROPN	_	_	5	obl:arg	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	Arabie	Arabie	PROPN	_	Gender=Fem|Number=Sing	11	appos	_	_
-14	saoudite	Saoudite	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	13	amod	_	SpaceAfter=No|wordform=Saoudite
+14	saoudite	saoudite	PROPN	_	Gender=Fem|Number=Sing|Typo=Yes	13	nmod	_	SpaceAfter=No
 15	)	)	PUNCT	_	_	5	punct	_	_
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_

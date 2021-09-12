@@ -2067,7 +2067,7 @@
 2	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	guette	guetter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	oui	oui	INTJ	_	_	3	advmod	_	SpaceAfter=No
+5	oui	oui	INTJ	_	_	3	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 8	guette	guetter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
@@ -3166,7 +3166,7 @@
 42	âge	âge	NOUN	_	Gender=Masc|Number=Sing	39	obj	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	47	punct	_	_
 44	mais	mais	CCONJ	_	_	47	cc	_	_
-45	aussi	aussi	ADV	_	_	42	advmod	_	_
+45	aussi	aussi	ADV	_	_	47	advmod	_	_
 46	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	47	det	_	SpaceAfter=No
 47	innocence	innocence	NOUN	_	Gender=Fem|Number=Sing	42	conj	_	_
 48	et	et	CCONJ	_	_	50	cc	_	_
@@ -5288,7 +5288,7 @@
 10	réels	réel	ADJ	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	15	punct	_	_
 12	mais	mais	CCONJ	_	_	15	cc	_	_
-13	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+13	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
 14	se	se	PRON	_	Person=3|PronType=Prs	15	obj	_	_
 15	limitent	limiter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
 16	selon	selon	ADP	_	_	17	case	_	_
@@ -6462,7 +6462,7 @@
 # sent_id = fr-ud-test_00220
 # text = Cà oui, on peut dire que c'était à la fois futuriste et romantique, comme diner avec ma moitié.
 1	Cà	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	dislocated	_	wordform=cà
-2	oui	oui	INTJ	_	_	1	advmod	_	SpaceAfter=No
+2	oui	oui	INTJ	_	_	1	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
 5	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8219,7 +8219,7 @@
 27	Amérique	Amérique	PROPN	_	_	25	nmod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	33	punct	_	_
 29	mais	mais	CCONJ	_	_	33	cc	_	_
-30	aussi	aussi	ADV	_	_	25	advmod	_	_
+30	aussi	aussi	ADV	_	_	33	advmod	_	_
 31-32	du	_	_	_	_	_	_	_	_
 31	de	de	ADP	_	_	33	case	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
@@ -9062,7 +9062,7 @@
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
 4	sondages	sondage	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
-6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
 7	vidéos	vidéo	NOUN	_	Gender=Fem|Number=Plur	4	conj	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	photos	photo	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	_
@@ -10707,7 +10707,7 @@
 21	lorsqu'	lorsque	SCONJ	_	_	24	mark	_	SpaceAfter=No
 22	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
 23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:tense	_	_
-24	amené	amener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
+24	amené	amener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	advcl	_	_
 25	à	à	ADP	_	_	26	mark	_	_
 26	faire	faire	VERB	_	VerbForm=Inf	24	xcomp	_	_
 27	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
@@ -10828,7 +10828,7 @@
 # sent_id = fr-ud-dev_01572
 # text = Dame Blanche Nord ou cité des peintres, surnom dû à ses rues aux noms de peintres célébres, est un quartier situé dans le nord de la ville de Garges-lès-Gonesse, en banlieue parisienne.
 1	Dame	dame	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	wordform=dame
-2	Blanche	blanche	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	wordform=blanche
+2	Blanche	blanc	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	wordform=blanche
 3	Nord	nord	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	wordform=nord
 4	ou	ou	CCONJ	_	_	5	cc	_	_
 5	cité	cité	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_

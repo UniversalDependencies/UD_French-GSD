@@ -23372,12 +23372,12 @@
 8	-Tu	il	PRON	_	Gender=Masc|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	SpaceAfter=No|wordform=tu
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
-11	Éternel	Éternel	PROPN	_	Number=Sing	8	appos	_	SpaceAfter=No
+11	Éternel	éternel	NOUN	_	Number=Sing	8	appos	_	SpaceAfter=No|wordform=éternel
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	Maître	Maître	PROPN	_	_	11	appos	_	_
+13	Maître	Maître	NOUN	_	Gender=Masc|Number=Sing	11	appos	_	wordform=maître
 14	de	de	ADP	_	_	16	case	_	_
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
-16	Univers	Univers	PROPN	_	Number=Sing	13	nmod	_	SpaceAfter=No
+16	Univers	univers	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No|wordform=univers
 17	,	,	PUNCT	_	_	13	punct	_	_
 18	qui	qui	PRON	_	PronType=Rel	21	nsubj	_	_
 19	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	21	obj	_	_
@@ -23387,7 +23387,7 @@
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
 24	peuples	peuple	NOUN	_	Gender=Masc|Number=Plur	21	obl:mod	_	_
 25	pour	pour	ADP	_	_	27	mark	_	_
-26	être	être	AUX	_	VerbForm=Inf	27	aux:tense	_	_
+26	être	être	AUX	_	VerbForm=Inf	27	aux:pass	_	_
 27	torturés	torturer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	advcl	_	_
 28	jour	jour	NOUN	_	Gender=Masc|Number=Sing	27	obj	_	_
 29	et	et	CCONJ	_	_	30	cc	_	_

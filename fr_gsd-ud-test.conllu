@@ -338,7 +338,7 @@
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	essentiel	essentiel	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 10	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
-11	ailleurs	ailleurs	ADV	_	_	10	iobj	_	SpaceAfter=No
+11	ailleurs	ailleurs	ADV	_	_	10	obl:mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	dans	dans	ADP	_	_	15	case	_	_
 14	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
@@ -452,7 +452,7 @@
 1	Pour	pour	ADP	_	_	2	mark	_	wordform=pour
 2	pouvoir	pouvoir	VERB	_	VerbForm=Inf	13	advcl	_	Subject=SubjRaising
 3	mener	mener	VERB	_	VerbForm=Inf	2	xcomp	_	Subject=SubjRaising
-4	à	à	ADP	_	_	3	iobj	_	ExtPos=ADV|Idiom=Yes
+4	à	à	ADP	_	_	3	obl:mod	_	ExtPos=ADV|Idiom=Yes
 5	bien	bien	ADV	_	_	4	fixed	_	InIdiom=Yes
 6	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	_
 7	politique	politique	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
@@ -1169,7 +1169,7 @@
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
 12	toujours	toujours	ADV	_	_	13	advmod	_	_
 13	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	_
-14	là	là	ADV	_	_	13	iobj	_	SpaceAfter=No
+14	là	là	ADV	_	_	13	obl:mod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	19	punct	_	_
 16	qu'	que	SCONJ	_	_	19	mark	_	SpaceAfter=No
 17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj:pass	_	_
@@ -1881,7 +1881,7 @@
 5	affaires	affaire	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
 6	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 7	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	partout	partout	ADV	_	_	7	iobj	_	SpaceAfter=No
+8	partout	partout	ADV	_	_	7	obl:mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 11	contrôle	contrôler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
@@ -2017,7 +2017,7 @@
 5	n'	ne	ADV	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
 6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	_
-8	là	là	ADV	_	_	6	iobj	_	_
+8	là	là	ADV	_	_	6	obl:mod	_	_
 9	pour	pour	ADP	_	_	10	mark	_	_
 10	aggraver	aggraver	VERB	_	VerbForm=Inf	6	advcl	_	Subject=SubjRaising
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -6127,7 +6127,7 @@
 10	hote	hôte	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 11	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 12	toujours	toujours	ADV	_	_	11	advmod	_	_
-13	là	là	ADV	_	_	11	iobj	_	_
+13	là	là	ADV	_	_	11	obl:mod	_	_
 14	pour	pour	ADP	_	_	16	mark	_	_
 15	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	16	obj	_	_
 16	aider	aider	VERB	_	VerbForm=Inf	11	advcl	_	Subject=SubjRaising
@@ -8163,7 +8163,7 @@
 6	américain	américain	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 7	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	18	18	NUM	_	Number=Sing	7	iobj	_	_
+9	18	18	NUM	_	Number=Sing	7	obl:mod	_	_
 10	juin	juin	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 11	1908	1908	NUM	_	Number=Plur	10	nmod	_	_
 12	à	à	ADP	_	_	13	case	_	_
@@ -8178,7 +8178,7 @@
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	décédé	décéder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	8	8	NUM	_	Number=Sing	22	iobj	_	_
+24	8	8	NUM	_	Number=Sing	22	obl:mod	_	_
 25	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
 26	1969	1969	NUM	_	Number=Plur	25	nmod	_	_
 27	à	à	ADP	_	_	28	case	_	_
@@ -8927,7 +8927,7 @@
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	14	14	NUM	_	Number=Sing	4	iobj	_	_
+6	14	14	NUM	_	Number=Sing	4	obl:mod	_	_
 7	mars	mars	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 8	1975	1975	NUM	_	Number=Plur	7	nmod	_	_
 9	à	à	ADP	_	_	10	case	_	_
@@ -10533,7 +10533,7 @@
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	met	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 13	Vador	Vador	PROPN	_	_	12	obj	_	_
-14	hors	hors	ADV	_	_	12	iobj	_	_
+14	hors	hors	ADV	_	_	12	obl:mod	_	_
 15	course	course	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -11530,7 +11530,7 @@
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	née	naître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	13	13	NUM	_	Number=Sing	4	iobj	_	_
+6	13	13	NUM	_	Number=Sing	4	obl:mod	_	_
 7	juin	juin	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 8	1977	1977	NUM	_	Number=Plur	7	nmod	_	_
 9	à	à	ADP	_	_	10	case	_	_

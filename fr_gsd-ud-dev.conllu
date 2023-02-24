@@ -318,7 +318,7 @@
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	26	26	NUM	_	Number=Sing	4	iobj	_	_
+6	26	26	NUM	_	Number=Sing	4	obl:mod	_	_
 7	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 8	1881	1881	NUM	_	Number=Plur	7	nmod	_	_
 9	à	à	ADP	_	_	10	case	_	_
@@ -326,7 +326,7 @@
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	mort	mourir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	13	13	NUM	_	Number=Sing	12	iobj	_	_
+14	13	13	NUM	_	Number=Sing	12	obl:mod	_	_
 15	août	août	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 16	1963	1963	NUM	_	Number=Plur	15	nmod	_	_
 17	à	à	ADP	_	_	18	case	_	_
@@ -815,7 +815,7 @@
 5	Alain	Alain	PROPN	_	_	4	xcomp	_	_
 6	Kienast	Kienast	PROPN	_	_	5	flat:name	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	27	27	NUM	_	Number=Sing	4	iobj	_	_
+8	27	27	NUM	_	Number=Sing	4	obl:mod	_	_
 9	mai	mai	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 10	1944	1944	NUM	_	Number=Plur	9	nmod	_	_
 11	à	à	ADP	_	_	12	case	_	_
@@ -2777,7 +2777,7 @@
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	30	30	NUM	_	Number=Sing	16	iobj	_	_
+18	30	30	NUM	_	Number=Sing	16	obl:mod	_	_
 19	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
 20	1988	1988	NUM	_	Number=Plur	19	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
@@ -3169,7 +3169,7 @@
 7	français	français	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 8	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	17	17	NUM	_	Number=Sing	8	iobj	_	_
+10	17	17	NUM	_	Number=Sing	8	obl:mod	_	_
 11	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 12	1977	1977	NUM	_	Number=Plur	11	nmod	_	_
 13	à	à	ADP	_	_	14	case	_	_
@@ -3321,7 +3321,7 @@
 2	Voúlgaris	Voúlgaris	PROPN	_	_	1	flat:name	_	_
 3	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	2	2	NUM	_	Number=Sing	3	iobj	_	_
+5	2	2	NUM	_	Number=Sing	3	obl:mod	_	_
 6	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 7	1940	1940	NUM	_	Number=Plur	6	nmod	_	_
 8	à	à	ADP	_	_	9	case	_	_
@@ -4594,7 +4594,7 @@
 # sent_id = fr-ud-dev_00169
 # text = Située à proximité de la route menant au parc national de Zion, il s'agit d'une des villes fantômes les plus connues du pays.
 1	Située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	advcl	_	Subject=Instantiated|wordform=située
-2	à	à	ADP	_	_	1	iobj	_	ExtPos=ADV|Idiom=Yes
+2	à	à	ADP	_	_	1	obl:mod	_	ExtPos=ADV|Idiom=Yes
 3	proximité	proximité	NOUN	_	Gender=Fem|Number=Sing	2	fixed	_	InIdiom=Yes
 4	de	de	ADP	_	_	6	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -4790,7 +4790,7 @@
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	28	28	NUM	_	Number=Sing	4	iobj	_	_
+6	28	28	NUM	_	Number=Sing	4	obl:mod	_	_
 7	mai	mai	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 8	1878	1878	NUM	_	Number=Plur	7	nmod	_	_
 9	à	à	ADP	_	_	10	case	_	_
@@ -4798,7 +4798,7 @@
 11	--	--	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	mort	mort	ADJ	_	Gender=Masc|Number=Sing	4	conj	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	26	26	NUM	_	Number=Sing	12	iobj	_	_
+14	26	26	NUM	_	Number=Sing	12	obl:mod	_	_
 15	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 16	1945	1945	NUM	_	Number=Plur	15	nmod	_	_
 17	à	à	ADP	_	_	18	case	_	_
@@ -5519,10 +5519,10 @@
 9	personne	personne	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 10	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
 11	consacrer	consacrer	VERB	_	VerbForm=Inf	10	xcomp	_	Subject=SubjRaising
-12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	ExtPos=PRON|Idiom=Yes
-13	plus	plus	ADV	_	_	11	obj	_	ExtPos=PRON|InIdiom=Yes
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	obj	_	ExtPos=PRON|Idiom=Yes
+13	plus	plus	ADV	_	_	12	fixed	_	InIdiom=Yes
 14	de	de	ADP	_	_	15	case	_	_
-15	temps	temps	NOUN	_	Gender=Masc|Number=Sing	13	obl:arg	_	_
+15	temps	temps	NOUN	_	Gender=Masc|Number=Sing	12	obl:arg	_	_
 16	ou	ou	CCONJ	_	_	18	cc	_	_
 17	qui	qui	PRON	_	PronType=Rel	18	nsubj	_	_
 18	procure	procurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
@@ -8895,7 +8895,7 @@
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	30	30	NUM	_	Number=Sing	6	iobj	_	_
+8	30	30	NUM	_	Number=Sing	6	obl:mod	_	_
 9	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 10	1893	1893	NUM	_	Number=Plur	9	nmod	_	_
 11	à	à	ADP	_	_	12	case	_	_
@@ -8905,7 +8905,7 @@
 15	et	et	CCONJ	_	_	16	cc	_	_
 16	décédé	décéder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	7	7	NUM	_	Number=Sing	16	iobj	_	_
+18	7	7	NUM	_	Number=Sing	16	obl:mod	_	_
 19	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
 20	1965	1965	NUM	_	Number=Plur	19	nmod	_	_
 21	à	à	ADP	_	_	22	case	_	_
@@ -16808,10 +16808,10 @@
 29	septentrionales	septentrional	ADJ	_	Gender=Fem|Number=Plur	28	amod	_	_
 30	qui	qui	PRON	_	PronType=Rel	31	nsubj	_	_
 31	eut	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	acl:relcl	_	_
-32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	ExtPos=PRON|Idiom=Yes
-33	plus	plus	ADV	_	_	31	obj	_	ExtPos=PRON|InIdiom=Yes
+32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	obj	_	ExtPos=PRON|Idiom=Yes
+33	plus	plus	ADV	_	_	32	fixed	_	InIdiom=Yes
 34	de	de	ADP	_	_	35	case	_	_
-35	lecteurs	lecteur	NOUN	_	Gender=Masc|Number=Plur	33	obl:arg	_	_
+35	lecteurs	lecteur	NOUN	_	Gender=Masc|Number=Plur	32	obl:arg	_	_
 36	et	et	CCONJ	_	_	38	cc	_	_
 37	d'	de	ADP	_	_	38	case	_	SpaceAfter=No
 38	imitateurs	imitateur	NOUN	_	Gender=Masc|Number=Plur	35	conj	_	_
@@ -20922,7 +20922,7 @@
 27	ne	ne	ADV	_	Polarity=Neg	28	advmod	_	_
 28	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
 29	pas	pas	ADV	_	Polarity=Neg	28	advmod	_	_
-30	comment	comment	ADV	_	_	33	iobj	_	_
+30	comment	comment	ADV	_	_	33	obl:mod	_	_
 31	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	33	expl:pv	_	SpaceAfter=No
 32	y	y	PRON	_	Person=3|PronType=Prs	33	expl	_	_
 33	prendre	prendre	VERB	_	VerbForm=Inf	28	xcomp	_	SpaceAfter=No|Subject=SubjRaising
@@ -21872,7 +21872,7 @@
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	5	5	NUM	_	Number=Sing	6	iobj	_	_
+8	5	5	NUM	_	Number=Sing	6	obl:mod	_	_
 9	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 10	1719	1719	NUM	_	Number=Plur	9	nmod	_	_
 11	à	à	ADP	_	_	12	case	_	_
@@ -21885,7 +21885,7 @@
 18	de	de	ADP	_	_	19	case	_	_
 19	Rochefort	Rochefort	PROPN	_	_	17	nmod	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	9	9	NUM	_	Number=Sing	14	iobj	_	_
+21	9	9	NUM	_	Number=Sing	14	obl:mod	_	_
 22	juin	juin	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 23	1794	1794	NUM	_	Number=Plur	22	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	6	punct	_	_
@@ -22877,7 +22877,7 @@
 10	Corse	Corse	PROPN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	29	29	NUM	_	Number=Sing	1	iobj	_	_
+13	29	29	NUM	_	Number=Sing	1	obl:mod	_	_
 14	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
 15	1748	1748	NUM	_	Number=Plur	14	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
@@ -23665,7 +23665,7 @@
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	29	29	NUM	_	Number=Sing	5	iobj	_	_
+7	29	29	NUM	_	Number=Sing	5	obl:mod	_	_
 8	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 9	1964	1964	NUM	_	Number=Plur	8	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	5	punct	_	_
@@ -24243,7 +24243,7 @@
 2	Suisse	Suisse	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 4	voté	voter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	pour	pour	ADP	_	_	4	iobj	_	SpaceAfter=No
+5	pour	pour	ADP	_	_	4	obl:mod	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-dev_00879
@@ -25159,7 +25159,7 @@
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	20	20	NUM	_	Number=Sing	4	iobj	_	_
+6	20	20	NUM	_	Number=Sing	4	obl:mod	_	_
 7	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 8	1964	1964	NUM	_	Number=Plur	7	nmod	_	_
 9	à	à	ADP	_	_	10	case	_	_
@@ -26373,7 +26373,7 @@
 7	année	année	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 8	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	9	expl:pass	_	_
 9	situe	situer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	autour	autour	ADV	_	_	9	iobj	_	_
+10	autour	autour	ADV	_	_	9	obl:mod	_	_
 11-12	des	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	14	case	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
@@ -27723,7 +27723,7 @@
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	17	17	NUM	_	Number=Sing	4	iobj	_	_
+6	17	17	NUM	_	Number=Sing	4	obl:mod	_	_
 7	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 8	1892	1892	NUM	_	Number=Plur	7	nmod	_	_
 9	dans	dans	ADP	_	_	11	case	_	_
@@ -27741,7 +27741,7 @@
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	mort	mourir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	4	4	NUM	_	Number=Sing	22	iobj	_	_
+24	4	4	NUM	_	Number=Sing	22	obl:mod	_	_
 25	juin	juin	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
 26	1946	1946	NUM	_	Number=Plur	25	nmod	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	30	punct	_	_
@@ -29535,7 +29535,7 @@
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	Michelle	Michelle	PROPN	_	_	10	nsubj	_	_
 10	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
-11	là	là	ADV	_	_	10	iobj	_	_
+11	là	là	ADV	_	_	10	obl:mod	_	_
 12	pour	pour	ADP	_	_	14	mark	_	_
 13	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	14	iobj	_	_
 14	donner	donner	VERB	_	VerbForm=Inf	10	advcl	_	Subject=SubjRaising
@@ -29891,7 +29891,7 @@
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	2	2	NUM	_	Number=Sing	4	iobj	_	_
+6	2	2	NUM	_	Number=Sing	4	obl:mod	_	_
 7	juin	juin	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 8	1911	1911	NUM	_	Number=Plur	7	nmod	_	_
 9	à	à	ADP	_	_	10	case	_	_
@@ -30694,7 +30694,7 @@
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 7	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	1er	1er	NUM	_	Number=Sing	7	iobj	_	_
+9	1er	1er	NUM	_	Number=Sing	7	obl:mod	_	_
 10	février	février	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 11	1968	1968	NUM	_	Number=Plur	10	nmod	_	_
 12	à	à	ADP	_	_	13	case	_	_
@@ -31815,7 +31815,7 @@
 2	petits	petit	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
 3	mets	mets	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 4	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	là	là	ADV	_	_	4	iobj	_	_
+5	là	là	ADV	_	_	4	obl:mod	_	_
 6	pour	pour	ADP	_	_	7	mark	_	_
 7	accompagner	accompagner	VERB	_	VerbForm=Inf	4	advcl	_	Subject=SubjRaising
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -32117,7 +32117,7 @@
 11	,	,	PUNCT	_	_	5	punct	_	_
 12	née	naître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	27	27	NUM	_	Number=Sing	12	iobj	_	_
+14	27	27	NUM	_	Number=Sing	12	obl:mod	_	_
 15	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 16	1961	1961	NUM	_	Number=Plur	15	nmod	_	_
 17	à	à	ADP	_	_	18	case	_	_
@@ -33432,7 +33432,7 @@
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	née	naître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	29	29	NUM	_	Number=Sing	4	iobj	_	_
+6	29	29	NUM	_	Number=Sing	4	obl:mod	_	_
 7	avril	avril	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 8	1967	1967	NUM	_	Number=Plur	7	nmod	_	_
 9	à	à	ADP	_	_	10	case	_	_
@@ -34452,7 +34452,7 @@
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	21	21	NUM	_	Number=Sing	4	iobj	_	_
+6	21	21	NUM	_	Number=Sing	4	obl:mod	_	_
 7	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 8	1944	1944	NUM	_	Number=Plur	7	nmod	_	_
 9	à	à	ADP	_	_	11	case	_	_
@@ -34461,7 +34461,7 @@
 12	et	et	CCONJ	_	_	13	cc	_	_
 13	mort	mourir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	1er	1er	NUM	_	Number=Sing	13	iobj	_	_
+15	1er	1er	NUM	_	Number=Sing	13	obl:mod	_	_
 16	février	février	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 17	2012	2012	NUM	_	Number=Plur	16	nmod	_	_
 18	à	à	ADP	_	_	19	case	_	_
@@ -34541,7 +34541,7 @@
 30	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	aux:tense	_	_
 31	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
 32	aller	aller	VERB	_	VerbForm=Inf	31	xcomp	_	Subject=SubjRaising
-33	au-delà	au-delà	ADV	_	_	32	iobj	_	_
+33	au-delà	au-delà	ADV	_	_	32	obl:mod	_	_
 34	d'	de	ADP	_	_	36	case	_	SpaceAfter=No
 35	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	alphabétisation	alphabétisation	NOUN	_	Gender=Fem|Number=Sing	33	obl:arg	_	_
@@ -36102,7 +36102,7 @@
 9	Clarkson	Clarkson	PROPN	_	_	8	flat:name	_	_
 10	née	naître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	6	6	NUM	_	Number=Sing	10	iobj	_	_
+12	6	6	NUM	_	Number=Sing	10	obl:mod	_	_
 13	mars	mars	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 14	1970	1970	NUM	_	Number=Plur	13	nmod	_	_
 15	à	à	ADP	_	_	16	case	_	_
@@ -38735,7 +38735,7 @@
 16	par	par	ADP	_	_	18	case	_	_
 17	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	18	det	_	_
 18	fournisseur	fournisseur	NOUN	_	Gender=Masc|Number=Sing	15	obl:agent	_	_
-19	auprès	auprès	ADV	_	_	15	iobj	_	_
+19	auprès	auprès	ADV	_	_	15	obl:mod	_	_
 20	de	de	ADP	_	_	22	case	_	_
 21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
 22	APP	APP	PROPN	_	Number=Sing	19	obl:arg	_	_
@@ -40443,7 +40443,7 @@
 4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	8	8	NUM	_	Number=Sing	5	iobj	_	_
+7	8	8	NUM	_	Number=Sing	5	obl:mod	_	_
 8	mars	mars	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 9	1982	1982	NUM	_	Number=Plur	8	nmod	_	_
 10	à	à	ADP	_	_	11	case	_	_
@@ -40731,7 +40731,7 @@
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	24	24	NUM	_	Number=Sing	4	iobj	_	_
+6	24	24	NUM	_	Number=Sing	4	obl:mod	_	_
 7	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 8	1980	1980	NUM	_	Number=Plur	7	nmod	_	_
 9	à	à	ADP	_	_	10	case	_	_
@@ -40841,7 +40841,7 @@
 17	Alabama	Alabama	PROPN	_	_	15	nmod	_	SpaceAfter=No
 18	)	)	PUNCT	_	_	17	punct	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	20	20	NUM	_	Number=Sing	10	iobj	_	_
+20	20	20	NUM	_	Number=Sing	10	obl:mod	_	_
 21	juin	juin	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 22	1911	1911	NUM	_	Number=Plur	21	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
@@ -40856,7 +40856,7 @@
 32	Californie	Californie	PROPN	_	_	29	appos	_	SpaceAfter=No
 33	)	)	PUNCT	_	_	32	punct	_	_
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-35	6	6	NUM	_	Number=Sing	24	iobj	_	_
+35	6	6	NUM	_	Number=Sing	24	obl:mod	_	_
 36	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	_
 37	1980	1980	NUM	_	Number=Plur	36	nmod	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	5	punct	_	_

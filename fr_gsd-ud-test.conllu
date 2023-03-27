@@ -98,7 +98,7 @@
 40	tortures	torture	NOUN	_	Gender=Fem|Number=Plur	33	conj	_	_
 41	»	»	PUNCT	_	_	6	punct	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	6	punct	_	_
-43	écrit	écrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+43	écrit	écrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis:insert	_	_
 44	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	45	det	_	SpaceAfter=No
 45	ONG	ONG	NOUN	_	Gender=Fem|Number=Sing	43	nsubj	_	_
 46	internationale	international	ADJ	_	Gender=Fem|Number=Sing	45	amod	_	SpaceAfter=No
@@ -119,7 +119,7 @@
 
 # sent_id = fr-ud-test_00004
 # text = 1er : début de la présidence lituanienne de l'Organisation pour la Sécurité et la Coopération en Europe (OSCE) (jusqu'au 31 décembre), avant l'Irlande (2012) et l'Ukraine (2013).
-1	1er	1er	NUM	_	_	3	parataxis	_	_
+1	1er	1er	NUM	_	_	3	nummod	_	_
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	début	début	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 4	de	de	ADP	_	_	6	case	_	_
@@ -2410,7 +2410,7 @@
 # text = c'est-à-dire--poursuit-il son argument--, " avant, le Maroc pensait que les indépendantistes étaient tout au mieux un 5%, les militants, mais quand on nous a vus tous unis, main dans la main, on n'en revenait pas ;
 1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	14	cc	_	SpaceAfter=No
 2	--	--	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	poursuit	poursuivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	_	SpaceAfter=No
+3	poursuit	poursuivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis:insert	_	SpaceAfter=No
 4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	wordform=il
 5	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	6	det	_	_
 6	argument	argument	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
@@ -3366,7 +3366,7 @@
 15	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
-18	assuré	assurer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+18	assuré	assurer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis:insert	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
 20	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	nsubj	_	_
 21	d'	de	ADP	_	_	22	case	_	SpaceAfter=No
@@ -3585,7 +3585,7 @@
 7	de	de	ADP	_	_	8	case	_	_
 8	téléphonistes	téléphoniste	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	4	parataxis	_	_
+10	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	4	appos	_	_
 11	qui	qui	PRON	_	PronType=Rel	12	nsubj	_	_
 12	équivaut	équivaloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
 13-14	au	_	_	_	_	_	_	_	_
@@ -3720,7 +3720,7 @@
 52	d'	de	ADP	_	_	53	case	_	InTitle=Yes|SpaceAfter=No
 53	Aubry	Aubry	PROPN	_	_	51	nmod	_	InTitle=Yes
 54	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	aux:tense	_	InTitle=Yes
-55	évolué	évoluer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	46	parataxis	_	InTitle=Yes|SpaceAfter=No
+55	évolué	évoluer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	46	appos	_	InTitle=Yes|SpaceAfter=No
 56	"	"	PUNCT	_	_	46	punct	_	SpaceAfter=No
 57	)	)	PUNCT	_	_	38	punct	_	SpaceAfter=No
 58	.	.	PUNCT	_	_	29	punct	_	_
@@ -3772,7 +3772,7 @@
 42	traditionnels	traditionnel	ADJ	_	Gender=Masc|Number=Plur	41	amod	_	SpaceAfter=No
 43	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	10	punct	_	_
-45	écrit	écrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+45	écrit	écrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis:insert	_	_
 46	samedi	samedi	NOUN	_	Gender=Masc|Number=Sing	45	obl:mod	_	_
 47	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
 48	Straits	Straits	PROPN	_	Gender=Masc|Number=Sing	45	nsubj	_	_
@@ -3998,7 +3998,7 @@
 22	saison	saison	NOUN	_	Gender=Fem|Number=Sing	15	obl:mod	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	_
 24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:tense	_	_
-25	indiqué	indiquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	parataxis	_	_
+25	indiqué	indiquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	parataxis:insert	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	MLS	MLS	PROPN	_	Gender=Fem|Number=Sing	25	nsubj	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	10	punct	_	_
@@ -4340,7 +4340,7 @@
 22	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	4	punct	_	_
 24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:tense	_	_
-25	expliqué	expliquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+25	expliqué	expliquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis:insert	_	_
 26	Véronique	Véronique	PROPN	_	_	25	nsubj	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -4425,7 +4425,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	SpaceAfter=No
 5	-t-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	wordform=il
-6	indiqué	indiquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	parataxis	_	SpaceAfter=No
+6	indiqué	indiquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	parataxis:insert	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
 9	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
@@ -4486,7 +4486,7 @@
 14	»	»	PUNCT	_	_	4	punct	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:tense	_	_
-17	prévenu	prévenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+17	prévenu	prévenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis:insert	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	patron	patron	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
 20	de	de	ADP	_	_	22	case	_	_
@@ -4702,7 +4702,7 @@
 26	en	en	ADP	_	_	27	mark	_	_
 27	battant	battre	VERB	_	Tense=Pres|VerbForm=Part	4	advcl	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	XV	XV	PROPN	_	Gender=Masc|Number=Sing	27	obj	_	_
+29	XV	XV	NUM	_	Number=Plur	27	obj	_	_
 30	de	de	ADP	_	_	31	case	_	_
 31	France	France	PROPN	_	_	29	nmod	_	_
 32	8	8	NUM	_	Number=Plur	27	obl:mod	_	_
@@ -5340,7 +5340,7 @@
 20	souverain	souverain	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
 21	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	5	punct	_	_
-23	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+23	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis:insert	_	_
 24	Nuria	Nuria	PROPN	_	_	23	nsubj	_	_
 25	Alvarez	Alvarez	PROPN	_	_	24	flat:name	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
@@ -5555,7 +5555,7 @@
 23	d'	de	ADP	_	_	24	case	_	SpaceAfter=No
 24	attente	attente	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
-26	sourit	sourire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	SpaceAfter=No
+26	sourit	sourire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis:insert	_	SpaceAfter=No
 27	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	SpaceAfter=No|wordform=elle
 28	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -5828,7 +5828,7 @@
 24	,	,	PUNCT	_	_	5	punct	_	_
 25	n'	ne	ADV	_	Polarity=Neg	27	advmod	_	SpaceAfter=No
 26	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux:tense	_	_
-27	cessé	cesser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+27	cessé	cesser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis:insert	_	_
 28	de	de	ADP	_	_	29	mark	_	_
 29	répéter	répéter	VERB	_	VerbForm=Inf	27	xcomp	_	Subject=SubjRaising
 30	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	31	det	_	_
@@ -7132,7 +7132,7 @@
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	diamètre	diamètre	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
-20	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	13	parataxis	_	_
+20	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	13	appos	_	_
 21	qui	qui	PRON	_	PronType=Rel	23	nsubj	_	_
 22	ne	ne	ADV	_	Polarity=Neg	23	advmod	_	_
 23	vaut	valoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
@@ -8848,7 +8848,7 @@
 # text = Si, ce qui est probable, le Premier ministre grec va au bout de sa décision et que ses compatriotes rejettent le plan de sauvetage financier européen, la sortie de leur pays de la zone Euro en sera inéluctable et, par effet induit, l'éclatement de celle-ci.
 1	Si	si	SCONJ	_	_	12	mark	_	SpaceAfter=No|wordform=si
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	12	parataxis	_	_
+3	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	12	parataxis:insert	_	_
 4	qui	qui	PRON	_	PronType=Rel	6	nsubj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 6	probable	probable	ADJ	_	Gender=Masc|Number=Sing	3	acl:relcl	_	SpaceAfter=No
@@ -10598,7 +10598,7 @@
 26	loi	loi	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
 27	»	»	PUNCT	_	_	7	punct	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	7	punct	_	_
-29	indique	indiquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+29	indique	indiquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis:insert	_	_
 30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	communiqué	communiqué	NOUN	_	Gender=Masc|Number=Sing	29	nsubj	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	7	punct	_	_

@@ -2426,7 +2426,7 @@
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	indépendantistes	indépendantiste	NOUN	_	Gender=Masc|Number=Plur	25	nsubj	_	_
 18	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	cop	_	_
-19	tout	tout	PRON	_	Gender=Masc|Number=Sing	25	advmod	_	ExtPos=ADV|Idiom=Yes
+19	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	25	advmod	_	ExtPos=ADV|Idiom=Yes
 20-21	au	_	_	_	_	_	_	_	_
 20	à	à	ADP	_	_	19	fixed	_	InIdiom=Yes
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	fixed	_	InIdiom=Yes
@@ -4225,7 +4225,7 @@
 
 # sent_id = fr-ud-test_00139
 # text = Ca énerve beaucoup de personnes, mais pour l'utilisateur final, c'est rassurant dans 80% des cas.
-1	Ca	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	wordform=ca
+1	Ca	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem|Typo=Yes	2	nsubj	_	CorrectForm=Ça|wordform=ça
 2	énerve	énerver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	beaucoup	beaucoup	ADV	_	_	2	obj	_	ExtPos=PRON
 4	de	de	ADP	_	_	5	case	_	_
@@ -5037,7 +5037,7 @@
 # sent_id = fr-ud-test_00168
 # text = En tout, ce sont près d'une centaine de conteneurs qui ont été utilisés pour créer ces logements étudiants.
 1	En	en	ADP	_	_	6	advmod	_	ExtPos=ADV|Idiom=Yes|wordform=en
-2	tout	tout	PRON	_	Gender=Masc|Number=Sing	1	fixed	_	InIdiom=Yes|SpaceAfter=No
+2	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	1	fixed	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	6	expl:subj	_	_
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -6031,7 +6031,7 @@
 # text = -Le tout saupoudré d'un niveau gustatif plus que moyen En gros, je ne saurai que déconseiller en tout cas pour plus de 5 personnes !
 1	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	wordform=le
-3	tout	tout	PRON	_	Gender=Masc|Number=Sing	0	root	_	_
+3	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	0	root	_	_
 4	saupoudré	saupoudrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	_
 5	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -6095,7 +6095,7 @@
 20	espagnols	espagnol	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	tout	tout	PRON	_	Gender=Masc|Number=Sing	10	appos	_	_
+23	tout	tout	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	10	appos	_	_
 24	sans	sans	ADP	_	_	25	case	_	_
 25	chichis	chichi	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
 26	et	et	CCONJ	_	_	29	cc	_	_
@@ -6463,7 +6463,7 @@
 
 # sent_id = fr-ud-test_00220
 # text = Cà oui, on peut dire que c'était à la fois futuriste et romantique, comme diner avec ma moitié.
-1	Cà	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	dislocated	_	wordform=cà
+1	Cà	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem|Typo=Yes	5	dislocated	_	CorrectForm=Ça|wordform=cà
 2	oui	oui	INTJ	_	_	1	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	on	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
@@ -7591,7 +7591,7 @@
 1	Pour	pour	ADP	_	_	2	mark	_	wordform=pour
 2	couronner	couronner	VERB	_	VerbForm=Inf	14	advcl	_	Subject=Generic
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	tout	tout	PRON	_	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+4	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	14	nsubj	_	_
@@ -9952,7 +9952,7 @@
 25	Champagne	Champagne	PROPN	_	Gender=Masc|Number=Sing	22	obl:mod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	29	punct	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	tout	tout	PRON	_	Gender=Masc|Number=Sing	29	nsubj:pass	_	_
+28	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	29	nsubj:pass	_	_
 29	surmonté	surmonter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	_
 30	de	de	ADP	_	_	31	case	_	_
 31	gariguettes	gariguette	NOUN	_	Gender=Fem|Number=Plur	29	obl:agent	_	_

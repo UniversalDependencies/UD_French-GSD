@@ -11594,7 +11594,7 @@
 3	pour	pour	ADP	_	_	4	mark	_	_
 4	couronner	couronner	VERB	_	VerbForm=Inf	9	advcl	_	Subject=Generic
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	tout	tout	PRON	_	Gender=Masc|Number=Sing	4	obj	_	_
+6	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	obj	_	_
 7	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	SpaceAfter=No
 8	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
 9	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -12190,13 +12190,13 @@
 15-16	du	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	14	advmod	_	ExtPos=ADV|Idiom=Yes
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	fixed	_	InIdiom=Yes
-17	tout	tout	PRON	_	Gender=Masc|Number=Sing	15	fixed	_	InIdiom=Yes
+17	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	fixed	_	InIdiom=Yes
 18	respectée	respecter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	28	punct	_	_
 20	pour	pour	ADP	_	_	28	case	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
-22	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	parataxis	_	_
-23	t'il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	expl:subj	_	SpaceAfter=No
+22	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	parataxis	_	CorrectSpaceAfter=Yes
+23	t'il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Typo=Yes	22	expl:subj	_	CorrectForm=-t-il|SpaceAfter=No
 24	,	,	PUNCT	_	_	22	punct	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 26	plus	plus	ADV	_	_	27	advmod	_	_

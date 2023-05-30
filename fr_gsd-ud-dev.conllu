@@ -13254,11 +13254,11 @@
 # sent_id = fr-ud-dev_00477
 # text = Pas de sèche cheveux ni de prise rasoir dans la salle de bains.
 1	Pas	pas	ADV	_	Polarity=Neg	3	advmod	_	wordform=pas
-2	de	un	DET	_	_	3	det	_	_
+2	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	sèche	sèche-cheveux	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	0	root	_	CorrectForm=sèche-cheveux
 4	cheveux	_	X	_	_	3	goeswith	_	_
 5	ni	ni	CCONJ	_	_	7	cc	_	_
-6	de	un	DET	_	_	7	det	_	_
+6	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	prise	prise	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
 8	rasoir	rasoir	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 9	dans	dans	ADP	_	_	11	case	_	_
@@ -19990,10 +19990,10 @@
 18	catégorisation	catégorisation	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	22	punct	_	_
 20	pas	pas	ADV	_	Polarity=Neg	22	advmod	_	_
-21	de	un	DET	_	_	22	det	_	_
+21	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	hiérarchisation	hiérarchisation	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
 23	ni	ni	CCONJ	_	_	25	cc	_	_
-24	de	un	DET	_	_	25	det	_	_
+24	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	ségrégation	ségrégation	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -24374,7 +24374,7 @@
 # text = Le Curtiss XP-62 était un prototype de chasseur monoplace de hautes performances lourdement armé construit par la Curtiss-Wright Corporation pour le compte de l'United States Army Air Corps
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	Curtiss	Curtiss	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
-3	XP-62	XP-62	X	_	_	2	appos	_	ExtPos=PROPN
+3	XP-62	XP-62	PROPN	_	_	2	flat:name	_	_
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	prototype	prototype	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -29530,7 +29530,7 @@
 3	hésite	hésiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	pas	pas	ADV	_	Polarity=Neg	7	advmod	_	_
-6	de	un	DET	_	_	7	det	_	_
+6	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	panique	panique	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	Michelle	Michelle	PROPN	_	_	10	nsubj	_	_
@@ -31758,7 +31758,7 @@
 5	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:caus	_	_
 6	engager	engager	VERB	_	VerbForm=Inf	0	root	_	Subject=Generic
 7	comme	comme	ADP	_	_	8	case	_	_
-8	figurant	figurer	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
+8	figurant	figurant	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
 9	sur	sur	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	tournage	tournage	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
@@ -40943,9 +40943,9 @@
 33	pas	pas	ADV	_	Polarity=Neg	32	advmod	_	_
 34	de	de	ADP	_	_	35	case	_	_
 35	foncteur	foncteur	NOUN	_	Gender=Masc|Number=Sing	32	nsubj	_	_
-36	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	35	dep	_	_
+36	de	de	ADP	_	_	38	case	_	_
 37	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
-38	catégorie	catégorie	NOUN	_	Gender=Fem|Number=Sing	36	obj	_	_
+38	catégorie	catégorie	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	_
 39-40	des	_	_	_	_	_	_	_	_
 39	de	de	ADP	_	_	41	case	_	_
 40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	det	_	_

@@ -1122,7 +1122,7 @@
 
 # sent_id = fr-ud-test_00044
 # text = Personne ne place aucune forme d'espérance dans la raison politique...
-1	Personne	personne	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	3	nsubj	_	wordform=personne
+1	Personne	personne	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	3	nsubj	_	wordform=personne
 2	ne	ne	ADV	_	Polarity=Neg	3	advmod	_	_
 3	place	placer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	5	det	_	_
@@ -1607,7 +1607,7 @@
 
 # sent_id = fr-ud-test_00061
 # text = Qui a donné l'exemple ?
-1	Qui	qui	PRON	_	Person=3|PronType=Int	3	nsubj	_	wordform=qui
+1	Qui	qui	PRON	_	PronType=Int	3	nsubj	_	wordform=qui
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
@@ -2051,7 +2051,7 @@
 
 # sent_id = fr-ud-test_00073
 # text = Que dit l'Eglise sur ce point délicat ?
-1	Que	que	PRON	_	Person=3|PronType=Int	2	obj	_	wordform=que
+1	Que	que	PRON	_	PronType=Int	2	obj	_	wordform=que
 2	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	Eglise	Eglise	PROPN	_	Number=Sing	2	nsubj	_	_
@@ -4376,7 +4376,7 @@
 
 # sent_id = fr-ud-test_00145
 # text = Qu'est-ce que 1.000 emplois quand on en détruit et qu'on en créé 20.000 tous les jours en France ?
-1	Qu'	que	PRON	_	Person=3|PronType=Int	0	root	_	SpaceAfter=No|wordform=qu'
+1	Qu'	que	PRON	_	PronType=Int	0	root	_	SpaceAfter=No|wordform=qu'
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
 3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	nsubj	_	wordform=ce
 4	que	que	SCONJ	_	_	6	case	_	_
@@ -4474,12 +4474,12 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	on	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
 4	saura	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-5	qui	qui	PRON	_	Person=3|PronType=Int	8	nsubj	_	_
+5	qui	qui	PRON	_	PronType=Int	8	nsubj	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	coupable	coupable	NOUN	_	Gender=Masc|Number=Sing	4	ccomp	_	_
 9	et	et	CCONJ	_	_	13	cc	_	_
-10	qui	qui	PRON	_	Person=3|PronType=Int	13	nsubj	_	_
+10	qui	qui	PRON	_	PronType=Int	13	nsubj	_	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	victime	victime	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
@@ -5105,7 +5105,7 @@
 40	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux:tense	_	_
 41	affirmé	affirmer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	advcl	_	_
 42	que	que	SCONJ	_	_	46	mark	_	_
-43	nul	nul	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	46	nsubj	_	_
+43	nul	nul	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	46	nsubj	_	_
 44	n'	ne	ADV	_	Polarity=Neg	46	advmod	_	SpaceAfter=No
 45	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	aux:tense	_	_
 46	parlé	parler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	41	ccomp	_	_
@@ -5869,7 +5869,7 @@
 25	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:tense	_	_
 26	servi	servir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	acl:relcl	_	_
 27	à	à	ADP	_	_	28	case	_	_
-28	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	26	obl:arg	_	SpaceAfter=No
+28	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	26	obl:arg	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-test_00195
@@ -6095,7 +6095,7 @@
 20	espagnols	espagnol	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	tout	tout	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	10	appos	_	_
+23	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	appos	_	_
 24	sans	sans	ADP	_	_	25	case	_	_
 25	chichis	chichi	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
 26	et	et	CCONJ	_	_	29	cc	_	_
@@ -7735,7 +7735,7 @@
 
 # sent_id = fr-ud-test_00281
 # text = Que rechercher de plus lorsqu'on a paisiblement séjourné dans une chambre aussi confortable et bien décorée... !
-1	Que	que	PRON	_	Person=3|PronType=Int	2	obj	_	wordform=que
+1	Que	que	PRON	_	PronType=Int	2	obj	_	wordform=que
 2	rechercher	rechercher	VERB	_	VerbForm=Inf	0	root	_	Subject=Generic
 3	de	de	ADP	_	_	2	advmod	_	ExtPos=ADV|Idiom=Yes
 4	plus	plus	ADV	_	_	3	fixed	_	InIdiom=Yes
@@ -8006,7 +8006,7 @@
 1	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	ne	ne	ADV	_	Polarity=Neg	3	advmod	_	_
 3	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	5	obj	_	_
+4	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	5	obj	_	_
 5	oublier	oublier	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=SubjRaising
 6	de	de	ADP	_	_	8	case	_	_
 7	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
@@ -8692,7 +8692,7 @@
 17	demandé	demander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	conj	_	_
 18	:	:	PUNCT	_	_	20	punct	_	_
 19	«	«	PUNCT	_	_	20	punct	_	_
-20	qu'	que	PRON	_	Person=3|PronType=Int	17	ccomp	_	SpaceAfter=No
+20	qu'	que	PRON	_	PronType=Int	17	ccomp	_	SpaceAfter=No
 21	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 22	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	20	expl:subj	_	_
 23	que	que	SCONJ	_	_	25	mark	_	_
@@ -10661,7 +10661,7 @@
 52	christ	Christ	PROPN	_	Gender=Masc|Number=Sing|Typo=Yes	54	nsubj	_	CorrectForm=Christ
 53	n'	ne	ADV	_	Polarity=Neg	54	advmod	_	SpaceAfter=No
 54	enseignait	enseigner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	44	conj	_	_
-55	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	54	obj	_	_
+55	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	54	obj	_	_
 56	à	à	ADP	_	_	57	case	_	_
 57	propos	propos	NOUN	_	Gender=Masc|Number=Sing	55	nmod	_	_
 58	de	de	ADP	_	_	60	case	_	_

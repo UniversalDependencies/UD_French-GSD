@@ -44,6 +44,10 @@ du français annotés en Universal Dependencies.* Traitement Automatique des Lan
 
 # Changelog
 
+* 2024-05-15 v2.14
+  * Fix validation warnings on flat:foreign
+  * Fix many NOUN wrongly tagged as PROPN
+
 * 2020-11-15 v2.7
   New conversion from [SUD data](https://github.com/surfacesyntacticud/SUD_French-GSD/tree/r2.7).
 

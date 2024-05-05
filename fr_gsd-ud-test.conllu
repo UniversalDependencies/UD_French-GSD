@@ -603,7 +603,7 @@
 33	versés	verser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	32	acl	_	_
 34	par	par	ADP	_	_	36	case	_	_
 35	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
-36	Union	Union	PROPN	_	Gender=Fem|Number=Sing	33	obl:agent	_	_
+36	Union	union	NOUN	_	Gender=Fem|Number=Sing	33	obl:agent	_	wordform=union
 37	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	36	amod	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	41	punct	_	_
 39	sur	sur	ADP	_	_	41	case	_	_
@@ -900,7 +900,7 @@
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	DGSE	DGSE	PROPN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
 5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	Direction	Direction	PROPN	_	Gender=Fem|Number=Sing	4	appos	_	_
+6	Direction	direction	NOUN	_	Gender=Fem|Number=Sing	4	appos	_	wordform=direction
 7	générale	général	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -1304,7 +1304,7 @@
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Berlinale	Berlinale	PROPN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	1	punct	_	_
-11	Territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+11	Territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	14	nsubj:pass	_	wordform=territoire
 12	perdu	perdu	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
 13	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	14	expl:pass	_	SpaceAfter=No
 14	inscrit	inscrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4153,7 +4153,7 @@
 # sent_id = fr-ud-test_00137
 # text = Si Moody's estime que leur note ne devrait pas baisser de plus d'un cran, la situation n'est pas la même pour la Société Générale, dont la dégradation pourrait atteindre deux crans.
 1	Si	si	SCONJ	_	_	3	mark	_	wordform=si
-2	Moody's	Moody's	X	_	ExtPos=PROPN	3	nsubj	_	_
+2	Moody's	Moody's	PROPN	_	_	3	nsubj	_	_
 3	estime	estimer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
 4	que	que	SCONJ	_	_	8	mark	_	_
 5	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	6	det	_	_
@@ -8211,7 +8211,7 @@
 17	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	nsubj	_	SpaceAfter=No
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
 19	bien	bien	ADV	_	ExtPos=ADV	22	advmod	_	Idiom=Yes
-20	sûr	sûr	ADV	_	_	19	fixed	_	InIdiom=Yes
+20	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	19	fixed	_	InIdiom=Yes
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	cas	cas	NOUN	_	Gender=Masc|Number=Sing	12	parataxis	_	_
 23-24	des	_	_	_	_	_	_	_	_
@@ -9506,7 +9506,7 @@
 17	flute	flute	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
 18	sur	sur	ADP	_	_	20	case	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	Rivière	Rivière	PROPN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+20	Rivière	rivière	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	wordform=rivière
 21	Ô	Ô	PROPN	_	_	20	appos	_	SpaceAfter=No
 22	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	_
@@ -10193,13 +10193,13 @@
 11	pour	pour	ADP	_	_	12	mark	_	_
 12	organiser	organiser	VERB	_	VerbForm=Inf	5	advcl	_	Subject=SubjRaising
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
-14	Championnats	Championnats	PROPN	_	Number=Plur	12	obj	_	_
+14	Championnats	championnat	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	wordform=championnats
 15-16	du	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	Monde	Monde	PROPN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+17	Monde	monde	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	wordform=monde
 18	de	de	ADP	_	_	19	case	_	_
-19	Voltige	Voltige	PROPN	_	_	14	nmod	_	SpaceAfter=No
+19	Voltige	voltige	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No|wordform=voltige
 20	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-dev_01553
@@ -11073,7 +11073,7 @@
 17	ZNIEFF	ZNIEFF	PROPN	_	_	16	appos	_	_
 18	de	de	ADP	_	_	19	case	_	_
 19	type	type	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
-20	1	1	NUM	_	Number=Plur	19	nmod	_	_
+20	1	1	NUM	_	Number=Sing	19	nmod	_	_
 21	en	en	ADP	_	_	22	case	_	_
 22	1990	1990	NUM	_	Number=Plur	11	obl:mod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	11	punct	_	_

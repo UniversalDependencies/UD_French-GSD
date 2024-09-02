@@ -628,7 +628,7 @@
 3	juin	juin	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Secrétaire	Secrétaire	PROPN	_	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
+6	Secrétaire	secrétaire	NOUN	_	Gender=Masc|Number=Sing	15	nsubj:pass	_	wordform=secrétaire
 7	général	général	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
@@ -2013,7 +2013,7 @@
 # text = Mgr Velasio de Paolis n'est pas là pour aggraver une situation déjà très lourde.
 1	Mgr	Mgr	PROPN	_	_	6	nsubj	_	_
 2	Velasio	Velasio	PROPN	_	_	1	flat:name	_	_
-3	de	de	ADP	_	_	1	flat:name	_	_
+3	de	de	PROPN	_	_	1	flat:name	_	_
 4	Paolis	Paolis	PROPN	_	_	1	flat:name	_	_
 5	n'	ne	ADV	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
 6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2055,7 +2055,7 @@
 1	Que	que	PRON	_	PronType=Int	2	obj	_	wordform=que
 2	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
-4	Eglise	Eglise	PROPN	_	Number=Sing	2	nsubj	_	_
+4	Eglise	église	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	wordform=église
 5	sur	sur	ADP	_	_	7	case	_	_
 6	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	point	point	NOUN	_	Gender=Masc|Number=Sing	2	obl:mod	_	_
@@ -4781,19 +4781,21 @@
 # text = Comme chaque soir à 18h40, il tranche, malmène et détourne l'actualité.
 1	Comme	comme	SCONJ	_	_	3	mark	_	wordform=comme
 2	chaque	chaque	DET	_	Number=Sing|PronType=Ind	3	det	_	_
-3	soir	soir	NOUN	_	Gender=Masc|Number=Sing	8	advcl	_	_
-4	à	à	ADP	_	_	5	case	_	_
-5	18h40	18h40	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	3	punct	_	_
-7	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
-8	tranche	trancher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	10	punct	_	_
-10	malmène	malmener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
-11	et	et	CCONJ	_	_	12	cc	_	_
-12	détourne	détourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
-13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
-14	actualité	actualité	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	8	punct	_	_
+3	soir	soir	NOUN	_	Gender=Masc|Number=Sing	10	advcl	_	_
+4	à	à	ADP	_	_	6	case	_	_
+5	18	18	NUM	_	Number=Plur	6	nummod	_	SpaceAfter=No
+6	h	h	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No|wordform=18h40
+7	40	40	NUM	_	Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	tranche	trancher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	malmène	malmener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+13	et	et	CCONJ	_	_	14	cc	_	_
+14	détourne	détourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	actualité	actualité	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-test_00159
 # text = Côté organisation, la municipalité va apporter son soutien logistique au président de la Boule Canéjanaise, Richard Juzanx, tandis que les 80 bénévoles canéjanais sont en plein dans les préparatifs et s'apprêtent à vivre un moment exceptionnel dans l'histoire du club.
@@ -4901,8 +4903,8 @@
 11	,	,	PUNCT	_	_	16	punct	_	_
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
 13	EUR	EUR	PROPN	_	Number=Sing	16	nsubj	_	SpaceAfter=No
-14	/	/	SYM	_	ExtPos=CCONJ	15	cc	_	SpaceAfter=No
-15	GBP	GBP	PROPN	_	_	13	conj	_	_
+14	/	/	SYM	_	ExtPos=ADP	15	case	_	SpaceAfter=No
+15	GBP	GBP	PROPN	_	_	13	nmod	_	_
 16	prenant	prendre	VERB	_	Tense=Pres|VerbForm=Part	4	advcl	_	_
 17	0.27	0.27	NUM	_	Number=Plur	18	nummod	_	SpaceAfter=No
 18	%	%	SYM	_	ExtPos=NOUN|Number=Plur	16	obj	_	_
@@ -6576,7 +6578,7 @@
 8	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	obj	_	_
 9	à	à	ADP	_	_	11	case	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	Gare	Gare	PROPN	_	Gender=Fem|Number=Sing	7	obl:mod	_	_
+11	Gare	gare	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	wordform=gare
 12	!	!	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-test_00226
@@ -7322,9 +7324,10 @@
 3	de	de	ADP	_	_	4	case	_	_
 4	tennis	tennis	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 5	ferment	fermer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	à	à	ADP	_	_	7	case	_	_
-7	18h	18h	NOUN	_	Gender=Fem|Number=Plur	5	obl:mod	_	_
-8	!	!	PUNCT	_	_	5	punct	_	_
+6	à	à	ADP	_	_	8	case	_	_
+7	18	18	NUM	_	Number=Plur	8	nummod	_	SpaceAfter=No
+8	h	h	NOUN	_	Gender=Fem|Number=Plur	5	obl:mod	_	wordform=18h
+9	!	!	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-test_00262
 # text = Leur chocolat chaud est divin !
@@ -8705,7 +8708,7 @@
 
 # sent_id = fr-ud-dev_01500
 # text = Eglise Saint Denis (XIIIe, XIVe, XVIe, XVIIIe siècles).
-1	Eglise	Eglise	PROPN	_	_	0	root	_	_
+1	Eglise	église	NOUN	_	Gender=Fem|Number=Sing	0	root	_	wordform=église
 2	Saint	Saint	PROPN	_	_	1	appos	_	_
 3	Denis	Denis	PROPN	_	_	2	flat:name	_	_
 4	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No

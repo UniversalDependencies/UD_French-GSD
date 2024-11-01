@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = fr-ud-test_00001
 # text = Je sens qu'entre ça et les films de médecins et scientifiques fous que nous avons déjà vus, nous pourrions emprunter un autre chemin pour l'origine.
 1	Je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	wordform=je
@@ -365,7 +364,7 @@
 1	Est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No|wordform=est
 2	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	expl:subj	_	wordform=ce
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Cxn=Interrogative-Polar-Direct|CxnElt=4:Interrogative-Polar-Direct.Clause
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -514,7 +513,7 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Maroc	Maroc	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 6	n'	ne	ADV	_	Polarity=Neg	7	advmod	_	SpaceAfter=No
-7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	CxnElt=22:Conditional-NeutralEpistemic.Protasis@f
 8	pas	pas	ADV	_	Polarity=Neg	7	advmod	_	_
 9	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
 10	relations	relation	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
@@ -529,7 +528,7 @@
 19	n'	ne	ADV	_	Polarity=Neg	22	advmod	_	SpaceAfter=No
 20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:tense	_	_
 21	jamais	jamais	ADV	_	Polarity=Neg	22	advmod	_	_
-22	empêché	empêcher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+22	empêché	empêcher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Cxn=Conditional-NeutralEpistemic|CxnElt=22:Conditional-NeutralEpistemic.Apodosis@p
 23	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
 24	ministres	ministre	NOUN	_	Gender=Masc|Number=Plur	22	obj	_	_
 25	de	de	ADP	_	_	27	mark	_	_
@@ -929,7 +928,7 @@
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
 4	-il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	wordform=il
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	Poussière	poussière	NOUN	_	Gender=Fem|Number=Sing	0	root	_	wordform=poussière
+6	Poussière	poussière	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Cxn=Interrogative-Polar-Direct|CxnElt=6:Interrogative-Polar-Direct.Clause|wordform=poussière
 7	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-test_00036
@@ -971,11 +970,11 @@
 
 # sent_id = fr-ud-test_00038
 # text = Combien de fois ne célébrons-nous que nous-mêmes, et ne prenons-nous même pas conscience de sa présence ?
-1	Combien	combien	ADV	_	ExtPos=PRON|PronType=Int	5	obl:mod	_	wordform=combien
+1	Combien	combien	ADV	_	ExtPos=PRON|PronType=Int	5	obl:mod	_	CxnElt=5:Interrogative-WHInfo-Direct.WHWord|wordform=combien
 2	de	de	ADP	_	_	3	case	_	_
 3	fois	fois	NOUN	_	Gender=Fem|Number=Plur	1	obl:arg	_	_
 4	ne	ne	ADV	_	Polarity=Neg	5	advmod	_	_
-5	célébrons	célébrer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	célébrons	célébrer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=5:Interrogative-WHInfo-Direct.Clause|SpaceAfter=No
 6	-nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	wordform=nous
 7	que	que	ADV	_	Polarity=Neg	8	advmod	_	_
 8	nous-mêmes	nous-mêmes	PRON	_	Emph=Yes|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	5	obj	_	SpaceAfter=No
@@ -1188,10 +1187,10 @@
 # sent_id = fr-ud-test_00047
 # text = Y a-t-il un risque de voir les choses tourner mal en Syrie ?
 1	Y	y	PRON	_	Emph=No|Person=3|PronType=Prs	2	expl:comp	_	wordform=y
-2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Cxn=Existential-HavePred-ItExpl-ThereExpl,Interrogative-Polar-Direct|CxnElt=2:Interrogative-Polar-Direct.Clause|SpaceAfter=No
 3	-t-il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl:subj	_	wordform=il
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	risque	risque	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5	risque	risque	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	CxnElt=2:Existential-HavePred-ItExpl-ThereExpl.Pivot@f
 6	de	de	ADP	_	_	7	mark	_	_
 7	voir	voir	VERB	_	VerbForm=Inf	5	acl	_	Subject=Generic
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
@@ -1327,14 +1326,14 @@
 
 # sent_id = fr-ud-test_00052
 # text = Arrêtez la lecture, si cela vous suffit pour aujourd'hui.
-1	Arrêtez	arrêter	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	wordform=arrêtez
+1	Arrêtez	arrêter	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Cxn=Conditional-NeutralEpistemic|CxnElt=1:Conditional-NeutralEpistemic.Apodosis@p|wordform=arrêtez
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	lecture	lecture	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	si	si	SCONJ	_	_	8	mark	_	_
 6	cela	cela	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	_
 7	vous	vous	PRON	_	Emph=No|Number=Plur|Person=2|PronType=Prs	8	iobj	_	_
-8	suffit	suffire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+8	suffit	suffire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	CxnElt=1:Conditional-NeutralEpistemic.Protasis@f
 9	pour	pour	ADP	_	_	10	case	_	_
 10	aujourd'hui	aujourd'hui	ADV	_	_	8	advmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	_
@@ -1528,7 +1527,7 @@
 22	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	aux:tense	_	SpaceAfter=No
 23	-ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	expl:subj	_	wordform=il
 24	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	aux:pass	_	_
-25	arrêter	arrêter	VERB	_	VerbForm=Inf	0	root	_	Subject=Generic
+25	arrêter	arrêter	VERB	_	VerbForm=Inf	0	root	_	Cxn=Interrogative-Polar-Direct|CxnElt=25:Interrogative-Polar-Direct.Clause|Subject=Generic
 26	mercredi	mercredi	NOUN	_	Gender=Masc|Number=Sing	25	obl:mod	_	_
 27	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
 28	à	à	ADP	_	_	30	case	_	_
@@ -1608,9 +1607,9 @@
 
 # sent_id = fr-ud-test_00061
 # text = Qui a donné l'exemple ?
-1	Qui	qui	PRON	_	PronType=Int	3	nsubj	_	wordform=qui
+1	Qui	qui	PRON	_	PronType=Int	3	nsubj	_	CxnElt=3:Interrogative-WHInfo-Direct.WHWord|wordform=qui
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
-3	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+3	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=3:Interrogative-WHInfo-Direct.Clause
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 6	?	?	PUNCT	_	_	3	punct	_	_
@@ -1637,7 +1636,7 @@
 18	active	actif	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
 20	bien	bien	ADV	_	_	21	advmod	_	_
-21	exonéré	exonérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	39	advcl	_	_
+21	exonéré	exonérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	39	advcl	_	CxnElt=39:Conditional-NeutralEpistemic.Protasis@f
 22	d'	de	ADP	_	_	23	case	_	SpaceAfter=No
 23	impôt	impôt	NOUN	_	Gender=Masc|Number=Sing	21	obl:arg	_	_
 24	sur	sur	ADP	_	_	26	case	_	_
@@ -1656,7 +1655,7 @@
 36	complément	complément	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
 37	d'	de	ADP	_	_	38	case	_	SpaceAfter=No
 38	activité	activité	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	_
-39	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+39	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	Cxn=Conditional-NeutralEpistemic|CxnElt=39:Conditional-NeutralEpistemic.Apodosis@p
 40	être	être	AUX	_	VerbForm=Inf	41	aux:pass	_	Subject=SubjRaising
 41	déduit	déduire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	39	xcomp	_	_
 42	de	de	ADP	_	_	44	case	_	_
@@ -1706,13 +1705,13 @@
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	situation	situation	NOUN	_	Gender=Fem|Number=Sing	35	nsubj	_	_
 34	ne	ne	ADV	_	Polarity=Neg	35	advmod	_	_
-35	dégénère	dégénérer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	ccomp	_	_
+35	dégénère	dégénérer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	ccomp	_	Cxn=Conditional-NeutralEpistemic|CxnElt=35:Conditional-NeutralEpistemic.Apodosis@p
 36	si	si	SCONJ	_	_	41	mark	_	_
 37	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
 38	aide	aide	NOUN	_	Gender=Fem|Number=Sing	41	nsubj	_	_
 39	internationale	international	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	_
 40	ne	ne	ADV	_	Polarity=Neg	41	advmod	_	_
-41	pointe	pointer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	advcl	_	_
+41	pointe	pointer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	advcl	_	CxnElt=35:Conditional-NeutralEpistemic.Protasis@f
 42	pas	pas	ADV	_	Polarity=Neg	41	advmod	_	_
 43	plus	plus	ADV	_	_	44	advmod	_	_
 44	vite	vite	ADV	_	_	41	advmod	_	_
@@ -2052,8 +2051,8 @@
 
 # sent_id = fr-ud-test_00073
 # text = Que dit l'Eglise sur ce point délicat ?
-1	Que	que	PRON	_	PronType=Int	2	obj	_	wordform=que
-2	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+1	Que	que	PRON	_	PronType=Int	2	obj	_	CxnElt=2:Interrogative-WHInfo-Direct.WHWord|wordform=que
+2	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=2:Interrogative-WHInfo-Direct.Clause
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	Eglise	église	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	wordform=église
 5	sur	sur	ADP	_	_	7	case	_	_
@@ -2256,13 +2255,13 @@
 # text = Je me demande s'il y a une loi chez nous qui peut condamner des citoyens pour des rêves illégaux ?
 1	Je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	wordform=je
 2	me	soi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	expl:pv	_	_
-3	demande	demander	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	demande	demander	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Cxn=Interrogative-Polar-Direct|CxnElt=3:Interrogative-Polar-Direct.Clause
 4	s'	si	SCONJ	_	_	7	mark	_	SpaceAfter=No
 5	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
 6	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	7	expl:comp	_	_
-7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	Cxn=Existential-HavePred-ItExpl-ThereExpl
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	loi	loi	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+9	loi	loi	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	CxnElt=7:Existential-HavePred-ItExpl-ThereExpl.Pivot@f
 10	chez	chez	ADP	_	_	11	case	_	_
 11	nous	nous	PRON	_	Emph=Yes|Number=Plur|Person=1|PronType=Prs	7	obl:mod	_	_
 12	qui	qui	PRON	_	PronType=Rel	13	nsubj	_	_
@@ -2844,11 +2843,11 @@
 # text = Jusqu'à quand la France officielle maintiendra-t-elle sa préférence pour la protection des agresseurs des droits de l'homme ?
 1	Jusqu'	jusque	ADP	_	_	3	case	_	SpaceAfter=No|wordform=jusqu'
 2	à	à	ADP	_	_	3	case	_	_
-3	quand	quand	ADV	_	PronType=Int	7	advmod	_	_
+3	quand	quand	ADV	_	PronType=Int	7	advmod	_	CxnElt=7:Interrogative-WHInfo-Direct.WHWord
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	France	France	PROPN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 6	officielle	officiel	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
-7	maintiendra	maintenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	maintiendra	maintenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=7:Interrogative-WHInfo-Direct.Clause|SpaceAfter=No
 8	-t-elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	wordform=elle
 9	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	10	det	_	_
 10	préférence	préférence	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
@@ -3077,7 +3076,7 @@
 3	si	si	SCONJ	_	_	6	mark	_	_
 4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
 5	supporters	supporter	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
-6	veulent	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	_	_
+6	veulent	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	_	CxnElt=29:Conditional-NeutralEpistemic.Protasis@f
 7	aider	aider	VERB	_	VerbForm=Inf	6	xcomp	_	Subject=SubjRaising
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	club	club	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
@@ -3101,7 +3100,7 @@
 26	nous	nous	PRON	_	Emph=No|Number=Plur|Person=1|PronType=Prs	29	iobj:agent	_	_
 27	le	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
 28	fassent	faire	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux:caus	_	_
-29	savoir	savoir	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No|Subject=Generic
+29	savoir	savoir	VERB	_	VerbForm=Inf	0	root	_	Cxn=Conditional-NeutralEpistemic|CxnElt=29:Conditional-NeutralEpistemic.Apodosis@p|SpaceAfter=No|Subject=Generic
 30	.	.	PUNCT	_	_	29	punct	_	_
 31	"	"	PUNCT	_	_	29	punct	_	_
 
@@ -3212,7 +3211,7 @@
 33	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
 34	2000	2000	NUM	_	Number=Plur	33	nmod	_	_
 35	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	36	aux:tense	_	_
-36	adopté	adopter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	45	advcl	_	_
+36	adopté	adopter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	45	advcl	_	CxnElt=45:Conditional-NegativeEpistemic.Protasis@f
 37	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 38	telle	tel	ADJ	_	Gender=Fem|Number=Sing	39	amod	_	_
 39	politique	politique	NOUN	_	Gender=Fem|Number=Sing	36	obj	_	SpaceAfter=No
@@ -3221,7 +3220,7 @@
 42	vies	vie	NOUN	_	Gender=Fem|Number=Plur	45	nsubj:pass	_	_
 43	auraient	avoir	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	45	aux:tense	_	_
 44	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	aux:pass	_	_
-45	sauvées	sauver	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	acl	_	SpaceAfter=No
+45	sauvées	sauver	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	acl	_	Cxn=Conditional-NegativeEpistemic|CxnElt=45:Conditional-NegativeEpistemic.Apodosis@p|SpaceAfter=No
 46	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-test_00108
@@ -3715,13 +3714,13 @@
 46	Affaire	affaire	NOUN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	40	appos	_	Title=Yes|wordform=affaire
 47	DSK	DSK	PROPN	_	_	46	appos	_	InTitle=Yes
 48	:	:	PUNCT	_	_	55	punct	_	InTitle=Yes
-49	comment	comment	ADV	_	PronType=Int	55	advmod	_	InTitle=Yes
+49	comment	comment	ADV	_	PronType=Int	55	advmod	_	CxnElt=55:Interrogative-WHInfo-Indirect.WHWord|InTitle=Yes
 50	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	InTitle=Yes
 51	position	position	NOUN	_	Gender=Fem|Number=Sing	55	nsubj	_	InTitle=Yes
 52	d'	de	ADP	_	_	53	case	_	InTitle=Yes|SpaceAfter=No
 53	Aubry	Aubry	PROPN	_	_	51	nmod	_	InTitle=Yes
 54	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	aux:tense	_	InTitle=Yes
-55	évolué	évoluer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	46	appos	_	InTitle=Yes|SpaceAfter=No
+55	évolué	évoluer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	46	appos	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=55:Interrogative-WHInfo-Indirect.Clause|InTitle=Yes|SpaceAfter=No
 56	"	"	PUNCT	_	_	46	punct	_	SpaceAfter=No
 57	)	)	PUNCT	_	_	38	punct	_	SpaceAfter=No
 58	.	.	PUNCT	_	_	29	punct	_	_
@@ -4122,9 +4121,9 @@
 # text = Il y a un personnage très absent tout au long du roman, le "peuple".
 1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	wordform=il
 2	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	3	expl:comp	_	_
-3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Cxn=Existential-HavePred-ItExpl-ThereExpl
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	personnage	personnage	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	personnage	personnage	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	CxnElt=3:Existential-HavePred-ItExpl-ThereExpl.Pivot@f
 6	très	très	ADV	_	_	7	advmod	_	_
 7	absent	absent	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 8	tout	tout	ADV	_	_	10	advmod	_	_
@@ -4154,7 +4153,7 @@
 # text = Si Moody's estime que leur note ne devrait pas baisser de plus d'un cran, la situation n'est pas la même pour la Société Générale, dont la dégradation pourrait atteindre deux crans.
 1	Si	si	SCONJ	_	_	3	mark	_	wordform=si
 2	Moody's	Moody's	PROPN	_	_	3	nsubj	_	_
-3	estime	estimer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
+3	estime	estimer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	CxnElt=23:Conditional-NeutralEpistemic.Protasis@f
 4	que	que	SCONJ	_	_	8	mark	_	_
 5	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	6	det	_	_
 6	note	note	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
@@ -4174,7 +4173,7 @@
 20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
 21	pas	pas	ADV	_	Polarity=Neg	23	advmod	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	même	même	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+23	même	même	ADJ	_	Gender=Fem|Number=Sing	0	root	_	Cxn=Conditional-NeutralEpistemic|CxnElt=23:Conditional-NeutralEpistemic.Apodosis@p
 24	pour	pour	ADP	_	_	26	case	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	Société	société	NOUN	_	Gender=Fem|Number=Sing	23	obl:mod	_	wordform=société
@@ -4377,7 +4376,7 @@
 
 # sent_id = fr-ud-test_00145
 # text = Qu'est-ce que 1.000 emplois quand on en détruit et qu'on en créé 20.000 tous les jours en France ?
-1	Qu'	que	PRON	_	PronType=Int	0	root	_	SpaceAfter=No|wordform=qu'
+1	Qu'	que	PRON	_	PronType=Int	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=1:Interrogative-WHInfo-Direct.Clause,1:Interrogative-WHInfo-Direct.WHWord|SpaceAfter=No|wordform=qu'
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
 3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	nsubj	_	wordform=ce
 4	que	que	SCONJ	_	_	6	case	_	_
@@ -4475,15 +4474,15 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	on	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
 4	saura	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-5	qui	qui	PRON	_	PronType=Int	8	nsubj	_	_
+5	qui	qui	PRON	_	PronType=Int	8	nsubj	_	CxnElt=8:Interrogative-WHInfo-Indirect.WHWord
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	coupable	coupable	NOUN	_	Gender=Masc|Number=Sing	4	ccomp	_	_
+8	coupable	coupable	NOUN	_	Gender=Masc|Number=Sing	4	ccomp	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=8:Interrogative-WHInfo-Indirect.Clause
 9	et	et	CCONJ	_	_	13	cc	_	_
-10	qui	qui	PRON	_	PronType=Int	13	nsubj	_	_
+10	qui	qui	PRON	_	PronType=Int	13	nsubj	_	CxnElt=13:Interrogative-WHInfo-Indirect.WHWord
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	victime	victime	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
+13	victime	victime	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=13:Interrogative-WHInfo-Indirect.Clause
 14	»	»	PUNCT	_	_	4	punct	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:tense	_	_
@@ -4497,8 +4496,8 @@
 
 # sent_id = fr-ud-test_00150
 # text = Comment repoussez vous les bateaux d'immigrés dans les eaux internationales ?
-1	Comment	comment	ADV	_	PronType=Int	2	advmod	_	wordform=comment
-2	repoussez	repousser	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+1	Comment	comment	ADV	_	PronType=Int	2	advmod	_	CxnElt=2:Interrogative-WHInfo-Direct.WHWord|wordform=comment
+2	repoussez	repousser	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=2:Interrogative-WHInfo-Direct.Clause
 3	vous	vous	PRON	_	Emph=No|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	bateaux	bateau	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
@@ -4871,7 +4870,7 @@
 
 # sent_id = fr-ud-test_00161
 # text = Faut-il éviter de se rendre dans les pays du sous-continent indien ?
-1	Faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|wordform=faut
+1	Faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Cxn=Interrogative-Polar-Direct|CxnElt=1:Interrogative-Polar-Direct.Clause|SpaceAfter=No|wordform=faut
 2	-il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	expl:subj	_	wordform=il
 3	éviter	éviter	VERB	_	VerbForm=Inf	1	ccomp	_	Subject=Generic
 4	de	de	ADP	_	_	6	mark	_	_
@@ -5355,7 +5354,7 @@
 
 # sent_id = fr-ud-test_00178
 # text = Quel est le coût d'un tel projet ?
-1	Quel	quel	ADJ	_	Gender=Masc|Number=Sing|PronType=Int	0	root	_	wordform=quel
+1	Quel	quel	ADJ	_	Gender=Masc|Number=Sing|PronType=Int	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=1:Interrogative-WHInfo-Direct.Clause,1:Interrogative-WHInfo-Direct.WHWord|wordform=quel
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coût	coût	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -5610,11 +5609,11 @@
 43	"	"	PUNCT	_	_	46	punct	_	_
 44	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	46	expl:subj	_	wordform=il
 45	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	46	expl:comp	_	_
-46	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	ccomp	_	_
+46	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	ccomp	_	Cxn=Existential-HavePred-ItExpl-ThereExpl
 47	bien	bien	ADV	_	_	46	advmod	_	_
 48	de	de	ADP	_	ExtPos=DET	50	det	_	Idiom=Yes
 49	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	fixed	_	InIdiom=Yes
-50	fumée	fumée	NOUN	_	Gender=Fem|Number=Sing	46	obj	_	SpaceAfter=No
+50	fumée	fumée	NOUN	_	Gender=Fem|Number=Sing	46	obj	_	CxnElt=46:Existential-HavePred-ItExpl-ThereExpl.Pivot@f|SpaceAfter=No
 51	,	,	PUNCT	_	_	56	punct	_	_
 52	mais	mais	CCONJ	_	_	56	cc	_	_
 53	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	56	nsubj	_	SpaceAfter=No
@@ -5809,10 +5808,10 @@
 2	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	wordform=il
 3	n'	ne	ADV	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
 4	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	5	expl:comp	_	_
-5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Cxn=Existential-HavePred-ItExpl-ThereExpl
 6	pas	pas	ADV	_	Polarity=Neg	5	advmod	_	_
 7	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	8	det	_	_
-8	problème	problème	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	problème	problème	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	CxnElt=5:Existential-HavePred-ItExpl-ThereExpl.Pivot@f
 9	de	de	ADP	_	_	10	case	_	_
 10	banlieue	banlieue	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 11	et	et	CCONJ	_	_	17	cc	_	_
@@ -6782,10 +6781,10 @@
 # text = Il y a même un café avec des pingouins !
 1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	wordform=il
 2	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	3	expl:comp	_	_
-3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Cxn=Existential-HavePred-ItExpl-ThereExpl
 4	même	même	ADV	_	_	3	advmod	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	café	café	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	café	café	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	CxnElt=3:Existential-HavePred-ItExpl-ThereExpl.Pivot@f
 7	avec	avec	ADP	_	_	9	case	_	_
 8	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
 9	pingouins	pingouin	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
@@ -7522,8 +7521,8 @@
 4	si	si	SCONJ	_	_	7	mark	_	_
 5	vous	vous	PRON	_	Emph=No|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	_
 6	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	cop	_	_
-7	nombreux	nombreux	ADJ	_	Gender=Masc|Number=Plur	8	advcl	_	_
-8	passez	passer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	nombreux	nombreux	ADJ	_	Gender=Masc|Number=Plur	8	advcl	_	CxnElt=8:Conditional-NeutralEpistemic.Protasis@f
+8	passez	passer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Cxn=Conditional-NeutralEpistemic|CxnElt=8:Conditional-NeutralEpistemic.Apodosis@p
 9	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	10	det	_	_
 10	chemin	chemin	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
 11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	nsubj	_	SpaceAfter=No
@@ -7739,8 +7738,8 @@
 
 # sent_id = fr-ud-test_00281
 # text = Que rechercher de plus lorsqu'on a paisiblement séjourné dans une chambre aussi confortable et bien décorée... !
-1	Que	que	PRON	_	PronType=Int	2	obj	_	wordform=que
-2	rechercher	rechercher	VERB	_	VerbForm=Inf	0	root	_	Subject=Generic
+1	Que	que	PRON	_	PronType=Int	2	obj	_	CxnElt=2:Interrogative-WHInfo-Indirect.WHWord|wordform=que
+2	rechercher	rechercher	VERB	_	VerbForm=Inf	0	root	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=2:Interrogative-WHInfo-Indirect.Clause|Subject=Generic
 3	de	de	ADP	_	ExtPos=ADV	2	advmod	_	Idiom=Yes
 4	plus	plus	ADV	_	_	3	fixed	_	InIdiom=Yes
 5	lorsqu'	lorsque	SCONJ	_	_	9	mark	_	SpaceAfter=No
@@ -7792,7 +7791,7 @@
 # text = Si vous avez le malheur d'y déjeuner lorsque les patrons sont absents vous aurez droit au pire du pire.
 1	Si	si	SCONJ	_	_	3	mark	_	wordform=si
 2	vous	vous	PRON	_	Emph=No|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
-3	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+3	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	advcl	_	CxnElt=15:Conditional-NeutralEpistemic.Protasis@f
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	malheur	malheur	NOUN	_	Gender=Masc|Number=Sing	3	obj:lvc	_	_
 6	d'	de	ADP	_	_	8	mark	_	SpaceAfter=No
@@ -7804,7 +7803,7 @@
 12	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 13	absents	absent	ADJ	_	Gender=Masc|Number=Plur	8	advcl	_	_
 14	vous	vous	PRON	_	Emph=No|Number=Plur|Person=2|PronType=Prs	15	nsubj	_	_
-15	aurez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+15	aurez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	Cxn=Conditional-NeutralEpistemic|CxnElt=15:Conditional-NeutralEpistemic.Apodosis@p
 16	droit	droit	NOUN	_	Gender=Masc|Number=Sing	15	obj:lvc	_	_
 17-18	au	_	_	_	_	_	_	_	_
 17	à	à	ADP	_	_	19	case	_	_
@@ -7820,14 +7819,14 @@
 # text = Si vous souhaitez régaler "vos papilles" n'hésitez surtout pas !
 1	Si	si	SCONJ	_	_	3	mark	_	wordform=si
 2	vous	vous	PRON	_	Emph=No|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
-3	souhaitez	souhaiter	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+3	souhaitez	souhaiter	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	advcl	_	CxnElt=10:Conditional-NeutralEpistemic.Protasis@f
 4	régaler	régaler	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=SubjRaising
 5	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 6	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	7	det	_	_
 7	papilles	papille	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
 8	"	"	PUNCT	_	_	7	punct	_	_
 9	n'	ne	ADV	_	Polarity=Neg	10	advmod	_	SpaceAfter=No
-10	hésitez	hésiter	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	hésitez	hésiter	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Cxn=Conditional-NeutralEpistemic|CxnElt=10:Conditional-NeutralEpistemic.Apodosis@p
 11	surtout	surtout	ADV	_	_	12	advmod	_	_
 12	pas	pas	ADV	_	Polarity=Neg	10	advmod	_	_
 13	!	!	PUNCT	_	_	10	punct	_	_
@@ -7874,9 +7873,9 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
 5	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	6	expl:comp	_	_
-6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	Cxn=Existential-HavePred-ItExpl-ThereExpl
 7	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
-8	pizzeria	pizzeria	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	6	obj	_	CorrectForm=pizzerias|CorrectNumber=Plur
+8	pizzeria	pizzeria	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	6	obj	_	CorrectForm=pizzerias|CorrectNumber=Plur|CxnElt=6:Existential-HavePred-ItExpl-ThereExpl.Pivot@f
 9	meilleure	meilleur	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	moins	moins	ADV	_	_	12	advmod	_	_
@@ -8696,7 +8695,7 @@
 17	demandé	demander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	conj	_	_
 18	:	:	PUNCT	_	_	20	punct	_	_
 19	«	«	PUNCT	_	_	20	punct	_	_
-20	qu'	que	PRON	_	PronType=Int	17	ccomp	_	SpaceAfter=No
+20	qu'	que	PRON	_	PronType=Int	17	ccomp	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=20:Interrogative-WHInfo-Direct.Clause,20:Interrogative-WHInfo-Direct.WHWord|SpaceAfter=No
 21	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 22	ce	ce	PRON	_	Gender=Masc|Person=3|PronType=Dem	20	expl:subj	_	_
 23	que	que	SCONJ	_	_	25	mark	_	_
@@ -8797,11 +8796,11 @@
 2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
 3	organisation	organisation	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
-5	libre	libre	ADJ	_	Gender=Fem|Number=Sing	9	advcl	_	SpaceAfter=No
+5	libre	libre	ADJ	_	Gender=Fem|Number=Sing	9	advcl	_	CxnElt=9:Conditional-NeutralEpistemic.Protasis@f|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	Mgr	Mgr	PROPN	_	_	9	nsubj	_	_
 8	Lebrun	Lebrun	PROPN	_	_	7	flat:name	_	_
-9	insiste	insister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	insiste	insister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Cxn=Conditional-NeutralEpistemic|CxnElt=9:Conditional-NeutralEpistemic.Apodosis@p
 10	sur	sur	ADP	_	_	13	case	_	_
 11	«	«	PUNCT	_	_	13	punct	_	_
 12	deux	deux	NUM	_	Number=Plur	13	nummod	_	_
@@ -8861,7 +8860,7 @@
 9	Premier	premier	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	wordform=premier
 10	ministre	ministre	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 11	grec	grec	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
-12	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	advcl	_	_
+12	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	advcl	_	CxnElt=42:Conditional-NeutralEpistemic.Protasis@f
 13-14	au	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	15	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -8892,7 +8891,7 @@
 39	Euro	Euro	PROPN	_	_	38	nmod	_	_
 40	en	en	PRON	_	Emph=No|Person=3|PronType=Prs	42	obl:mod	_	_
 41	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	42	cop	_	_
-42	inéluctable	inéluctable	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+42	inéluctable	inéluctable	ADJ	_	Gender=Fem|Number=Sing	0	root	_	Cxn=Conditional-NeutralEpistemic|CxnElt=42:Conditional-NeutralEpistemic.Apodosis@p
 43	et	et	CCONJ	_	_	50	cc	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	46	punct	_	_
 45	par	par	ADP	_	_	46	case	_	_
@@ -11229,7 +11228,7 @@
 43	arc	arc	X	_	Gender=Masc|Number=Sing	42	nmod	_	_
 44	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	45	det	_	InTitle=Yes|wordform=les
 45	handicapés	handicapé	NOUN	_	Gender=Masc|Number=Plur	46	nsubj	_	InTitle=Yes
-46	vont	aller	VERB	_	ExtPos=PROPN|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	appos	_	SpaceAfter=No|Title=Yes
+46	vont	aller	VERB	_	ExtPos=PROPN|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	appos	_	Cxn=Interrogative-Polar-Direct|CxnElt=46:Interrogative-Polar-Direct.Clause|SpaceAfter=No|Title=Yes
 47	-ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	46	expl:subj	_	InTitle=Yes|wordform=ils
 48	en	en	ADP	_	_	49	case	_	InTitle=Yes
 49	enfer	enfer	NOUN	_	Gender=Masc|Number=Sing	46	obl:mod	_	InTitle=Yes

@@ -44,6 +44,11 @@ du français annotés en Universal Dependencies.* Traitement Automatique des Lan
 
 # Changelog
 
+* 2024-11-15 v2.15
+  * Construction annotations in the [UCxn](https://github.com/LeonieWeissweiler/UCxn) framework added to MISC
+  
+     This release adds rule-based annotations of Interrogatives, Conditionals, Existentials, and NPN (noun-preposition-noun) constructions on the head of the respective phrase, plus construction elements. The UCxn v1 notation and categories are documented [here](https://github.com/LeonieWeissweiler/UCxn/blob/main/docs/UCxn-v1.pdf).
+
 * 2024-05-15 v2.14
   * Fix validation warnings on flat:foreign
   * Fix many NOUN wrongly tagged as PROPN

@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_French-GSD:
-commit 628d828d7d1894d40a2cef489a270713858addb9
-Merge: 911ba29 39e617b
+commit 04e532d7405cefd8b06c2d07a3e9730c7f75804f
+Merge: 7e34fb2 42fdb4f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 400391 of 400391 words (nodes).
-Size: min(0, log((N/1000)**2)) = 11.9848831393319.
+Size: counted 400385 of 400385 words (nodes).
+Size: min(0, log((N/1000)**2)) = 11.9848531684037.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,45 +15,47 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.5.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 247735 out of 400391 total words have one or more features.
+Features: 247727 out of 400385 total words have one or more features.
 Features: source of annotation (from README) factor is 0.5.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
 Udapi:
-               TOTAL      10855
-Udapi: found 10855 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 400391 words.
-Genres: found 4 out of 17 known.
+               TOTAL      10668
+Udapi: found 10668 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 400385 words.
+Genres: found 4 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang fr --max-err=10 UD_French-GSD/fr_gsd-ud-dev.conllu
-[Line 25653 Sent fr-ud-dev_00925 Node 19]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 25653 Sent fr-ud-dev_00925 Node 19]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 25657 Sent fr-ud-dev_00925 Node 23]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 25657 Sent fr-ud-dev_00925 Node 23]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 25654 Sent fr-ud-dev_00925 Node 19]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 25654 Sent fr-ud-dev_00925 Node 19]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 25658 Sent fr-ud-dev_00925 Node 23]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 25658 Sent fr-ud-dev_00925 Node 23]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 Warnings: 4
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang fr --max-err=10 UD_French-GSD/fr_gsd-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang fr --max-err=10 UD_French-GSD/fr_gsd-ud-train.conllu
-[Line 28484 Sent fr-ud-train_00998 Node 28]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 28484 Sent fr-ud-train_00998 Node 28]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 112966 Sent fr-ud-train_04042 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 112966 Sent fr-ud-train_04042 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 266471 Sent fr-ud-train_09507 Node 14]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 266471 Sent fr-ud-train_09507 Node 14]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 365044 Sent fr-ud-train_13038 Node 13]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 365043 Sent fr-ud-train_13038 Node 12]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 373340 Sent fr-ud-train_13334 Node 4]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-Warnings: 9
+[Line 28485 Sent fr-ud-train_00998 Node 28]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 28485 Sent fr-ud-train_00998 Node 28]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 112967 Sent fr-ud-train_04042 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 112967 Sent fr-ud-train_04042 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 245395 Sent fr-ud-train_08747 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'rock and roll' does not have the 'ExtPos' feature
+[Line 266468 Sent fr-ud-train_09507 Node 14]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 266468 Sent fr-ud-train_09507 Node 14]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 303613 Sent fr-ud-train_10876 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'best of' does not have the 'ExtPos' feature
+[Line 365041 Sent fr-ud-train_13038 Node 13]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 365040 Sent fr-ud-train_13038 Node 12]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+...suppressing further errors regarding Warning
+Warnings: 11
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.5) = 0.0384615384615385
-(weight=0.0769230769230769) * (score{genres}=0.235294117647059) = 0.0180995475113122
+(weight=0.0769230769230769) * (score{genres}=0.222222222222222) = 0.0170940170940171
 (weight=0.0769230769230769) * (score{lemmas}=0.5) = 0.0384615384615385
-(weight=0.256410256410256) * (score{size}=0.86749476894453) = 0.222434556139623
+(weight=0.256410256410256) * (score{size}=0.867492599576407) = 0.222433999891386
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.847058823529412) = 0.065158371040724
-(weight=0.307692307692308) * (score{udapi}=0.72889001001521) = 0.224273849235449
+(weight=0.307692307692308) * (score{udapi}=0.733556451915032) = 0.225709677512317
 (weight=0.0769230769230769) * (score{udeprels}=0.827027027027027) = 0.0636174636174636
-(TOTAL score=0.7217889157497) * (availability=1) * (validity=1) = 0.7217889157497
+(TOTAL score=0.722218657361037) * (availability=1) * (validity=1) = 0.722218657361037
 STARS = 3.5
-UD_French-GSD	0.7217889157497	3.5
+UD_French-GSD	0.722218657361037	3.5

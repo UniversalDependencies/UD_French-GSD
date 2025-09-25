@@ -1638,7 +1638,7 @@
 6	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
 7	vers	vers	ADP	_	_	9	case	_	_
 8	23	23	NUM	_	_	9	nummod	_	Number[lex]=Sing|SpaceAfter=No
-9	h	h	NOUN	_	Number=Plur	3	obl:mod	_	Gender[lex]=Fem|SpaceAfter=No|wordform=23h
+9	h	h	NOUN	_	Number=Plur	3	obl:mod	_	Gender[lex]=Fem|SpaceAfter=No
 10	)	)	PUNCT	_	_	9	punct	_	_
 11-12	au	_	_	_	_	_	_	_	_
 11	à	à	ADP	_	_	13	case	_	_
@@ -4499,7 +4499,7 @@
 15	prête	prêter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 16	serment	serment	NOUN	_	Number=Sing	15	obj:lvc	_	Gender[lex]=Masc
 17	d'	de	ADP	_	_	18	case	_	SpaceAfter=No
-18	hommage	hommage	NOUN	_	Number=Sing	16	obl:arg	_	Gender[lex]=Masc|SpaceAfter=No
+18	hommage	hommage	NOUN	_	Number=Sing	16	nmod	_	Gender[lex]=Masc|SpaceAfter=No
 19	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-dev_00166
@@ -5574,7 +5574,7 @@
 21	appel	appel	NOUN	_	Number=Sing	20	obj:lvc	_	Gender[lex]=Masc
 22	à	à	ADP	_	_	24	case	_	_
 23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-24	aide	aide	NOUN	_	Number=Sing	21	obl:arg	_	Gender[lex]=Fem
+24	aide	aide	NOUN	_	Number=Sing	21	nmod	_	Gender[lex]=Fem
 25	communautaire	communautaire	ADJ	_	Number=Sing	24	amod	_	Gender[ctxt]=Fem
 26	pour	pour	ADP	_	_	28	case	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
@@ -10022,12 +10022,12 @@
 11	urnes	urne	NOUN	_	Number=Plur	8	obl:arg	_	Gender[lex]=Fem
 12	de	de	ADP	_	_	14	case	_	_
 13	12	12	NUM	_	_	14	nummod	_	Number[lex]=Sing|SpaceAfter=No
-14	H	H	NOUN	_	Number=Plur	8	obl:mod	_	SpaceAfter=No|wordform=12H30
+14	H	h	NOUN	_	Number=Plur	8	obl:mod	_	Gender[lex]=Fem|SpaceAfter=No
 15	30	30	NUM	_	_	14	nmod	_	Number[lex]=Sing
 16	GMT	GMT	X	_	ExtPos=PROPN	14	nmod	_	_
 17	à	à	ADP	_	_	19	case	_	_
 18	00	00	NUM	_	_	19	nummod	_	Number[lex]=Sing|SpaceAfter=No
-19	H	H	NOUN	_	Number=Plur	14	obl:arg	_	SpaceAfter=No|wordform=00H30
+19	H	h	NOUN	_	Number=Plur	14	nmod	_	Gender[lex]=Fem|SpaceAfter=No
 20	30	30	NUM	_	_	19	nmod	_	Number[lex]=Sing
 21	GMT	GMT	X	_	ExtPos=PROPN	19	nmod	_	_
 22	dimanche	dimanche	NOUN	_	Number=Sing	8	obl:mod	_	Gender[lex]=Masc|SpaceAfter=No
@@ -10898,7 +10898,7 @@
 # text = A 14h25, je retourne le voir en salle et le remercie ironiquemmnt de nous avoir aidé si gentillement, mais qu'il ferait mieux de s'abstenir de promettre l'impossible.
 1	A	à	ADP	_	_	3	case	_	wordform=à
 2	14	14	NUM	_	_	3	nummod	_	Number[lex]=Sing|SpaceAfter=No
-3	h	h	NOUN	_	Number=Plur	7	obl:mod	_	SpaceAfter=No|wordform=14h25
+3	h	h	NOUN	_	Number=Plur	7	obl:mod	_	Gender[lex]=Fem|SpaceAfter=No
 4	25	25	NUM	_	_	3	nmod	_	Number[lex]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
@@ -14426,7 +14426,7 @@
 18	jusqu'	jusque	ADP	_	_	21	case	_	SpaceAfter=No
 19	à	à	ADP	_	_	21	case	_	_
 20	22	22	NUM	_	_	21	nummod	_	Number[lex]=Sing|SpaceAfter=No
-21	h	h	NOUN	_	Number=Plur	17	obl:mod	_	SpaceAfter=No|wordform=22h
+21	h	h	NOUN	_	Number=Plur	17	obl:mod	_	Gender[lex]=Fem|SpaceAfter=No
 22	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-dev_00519
@@ -15113,7 +15113,7 @@
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	diocèse	diocèse	NOUN	_	Number=Sing	7	obl:arg	_	Gender[lex]=Masc|SpaceAfter=No
+10	diocèse	diocèse	NOUN	_	Number=Sing	7	nmod	_	Gender[lex]=Masc|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	et	et	CCONJ	_	_	13	cc	_	_
 13	marcher	marcher	VERB	_	VerbForm=Inf	6	conj	_	Subject=SubjRaising
@@ -17350,7 +17350,7 @@
 18	d'	de	ADP	_	_	21	case	_	SpaceAfter=No
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 20	bon	bon	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
-21	rafraichissement	rafraîchissement	NOUN	_	Number=Sing	17	obl:arg	_	Gender[lex]=Masc|SpaceAfter=No
+21	rafraichissement	rafraîchissement	NOUN	_	Number=Sing	17	nmod	_	Gender[lex]=Masc|SpaceAfter=No
 22	,	,	PUNCT	_	_	26	punct	_	_
 23	tout	tout	ADV	_	_	26	advmod	_	_
 24	comme	comme	ADP	_	_	26	case	_	_
@@ -18963,10 +18963,10 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Bureau	bureau	NOUN	_	Number=Sing	5	obl:agent	_	Gender[lex]=Masc|wordform=bureau
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
-10	Asile	asile	NOUN	_	_	8	nmod	_	wordform=asile
+10	Asile	asile	NOUN	_	Number=Sing	8	nmod	_	Gender[lex]=Masc|wordform=asile
 11	et	et	CCONJ	_	_	13	cc	_	_
 12	de	de	ADP	_	_	13	case	_	_
-13	Refuge	refuge	NOUN	_	_	10	conj	_	wordform=refuge
+13	Refuge	refuge	NOUN	_	Number=Sing	10	conj	_	Gender[lex]=Masc|wordform=refuge
 14	qui	qui	PRON	_	PronType=Rel	18	nsubj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	probablement	probablement	ADV	_	_	18	advmod	_	SpaceAfter=No
@@ -21193,7 +21193,7 @@
 4	appel	appel	NOUN	_	Number=Sing	2	obj:lvc	_	Gender[lex]=Masc
 5	à	à	ADP	_	_	7	case	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	Haganah	Haganah	PROPN	_	Gender=Fem|Number=Sing	4	obl:arg	_	_
+7	Haganah	Haganah	PROPN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 8	pour	pour	ADP	_	_	9	mark	_	_
 9	évacuer	évacuer	VERB	_	VerbForm=Inf	2	advcl	_	Subject=SubjRaising
 10	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	11	det	_	_
@@ -29292,7 +29292,7 @@
 10	appel	appel	NOUN	_	Number=Sing	9	obj:lvc	_	Gender[lex]=Masc
 11	à	à	ADP	_	_	13	case	_	_
 12	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
-13	charpentiers	charpentier	NOUN	_	Number=Plur	10	obl:arg	_	Gender[lex]=Masc
+13	charpentiers	charpentier	NOUN	_	Number=Plur	10	nmod	_	Gender[lex]=Masc
 14	métalliques	métallique	ADJ	_	Number=Plur	13	amod	_	Gender[ctxt]=Masc
 15	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
 16	en	en	ADP	_	_	17	case	_	_
@@ -33507,11 +33507,11 @@
 12	fait	faire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
 13	appel	appel	NOUN	_	Number=Sing	12	obj:lvc	_	Gender[lex]=Masc
 14	de	de	ADP	_	_	15	case	_	_
-15	manière	manière	NOUN	_	Number=Sing	13	obl:arg	_	Gender[lex]=Fem
+15	manière	manière	NOUN	_	Number=Sing	13	nmod	_	Gender[lex]=Fem
 16	récurrente	récurrent	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
 17	à	à	ADP	_	_	19	case	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	publicité	publicité	NOUN	_	Number=Sing	13	obl:arg	_	Gender[lex]=Fem|SpaceAfter=No
+19	publicité	publicité	NOUN	_	Number=Sing	13	nmod	_	Gender[lex]=Fem|SpaceAfter=No
 20	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-dev_01214
@@ -37505,7 +37505,7 @@
 14	septembre	septembre	NOUN	_	Number=Sing	13	nmod	_	Gender[lex]=Masc
 15	à	à	ADP	_	_	17	case	_	_
 16	20	20	NUM	_	_	17	nummod	_	Number[lex]=Sing|SpaceAfter=No
-17	h	h	NOUN	_	Number=Plur	10	obl:mod	_	SpaceAfter=No|wordform=20h40
+17	h	h	NOUN	_	Number=Plur	10	obl:mod	_	Gender[lex]=Fem|SpaceAfter=No
 18	40	40	NUM	_	_	17	nmod	_	Number[lex]=Sing|SpaceAfter=No
 19	,	,	PUNCT	_	_	4	punct	_	_
 20	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No

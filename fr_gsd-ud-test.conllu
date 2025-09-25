@@ -465,7 +465,7 @@
 13	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	besoin	besoin	NOUN	_	Number=Sing	13	obj:lvc	_	Gender[lex]=Masc
 15	de	de	ADP	_	_	16	case	_	_
-16	stabilité	stabilité	NOUN	_	Number=Sing	14	obl:arg	_	Gender[lex]=Fem
+16	stabilité	stabilité	NOUN	_	Number=Sing	14	nmod	_	Gender[lex]=Fem
 17	interne	interne	ADJ	_	Number=Sing	16	amod	_	Gender[ctxt]=Fem
 18	pour	pour	ADP	_	_	19	mark	_	_
 19	affronter	affronter	VERB	_	VerbForm=Inf	13	advcl	_	Subject=SubjRaising
@@ -832,7 +832,7 @@
 1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	wordform=il
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	20	20	NUM	_	_	4	nummod	_	Number[lex]=Sing|SpaceAfter=No
-4	h	h	NOUN	_	Number=Plur	0	root	_	Gender[lex]=Masc|SpaceAfter=No
+4	h	h	NOUN	_	Number=Plur	0	root	_	Gender[lex]=Fem|SpaceAfter=No
 5	45	45	NUM	_	_	4	nmod	_	Number[lex]=Sing
 6	en	en	ADP	_	_	7	case	_	_
 7	territoire	territoire	NOUN	_	Number=Sing	4	obl:mod	_	Gender[lex]=Masc
@@ -989,7 +989,7 @@
 16	conscience	conscience	NOUN	_	Number=Sing	12	obj:lvc	_	Gender[lex]=Fem
 17	de	de	ADP	_	_	19	case	_	_
 18	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	19	det	_	_
-19	présence	présence	NOUN	_	Number=Sing	16	obl:arg	_	Gender[lex]=Fem
+19	présence	présence	NOUN	_	Number=Sing	16	nmod	_	Gender[lex]=Fem
 20	?	?	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-test_00039
@@ -1359,7 +1359,7 @@
 # sent_id = fr-ud-test_00054
 # text = 19h15.
 1	19	19	NUM	_	_	2	nummod	_	Number[lex]=Sing|SpaceAfter=No
-2	h	h	NOUN	_	Number=Plur	0	root	_	Gender[lex]=Masc|SpaceAfter=No
+2	h	h	NOUN	_	Number=Plur	0	root	_	Gender[lex]=Fem|SpaceAfter=No
 3	15	15	NUM	_	_	2	nmod	_	Number[lex]=Sing|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -4404,16 +4404,16 @@
 # text = De 10h à 12h et 14h à 17h office de tourisme.
 1	De	de	ADP	_	_	3	case	_	wordform=de
 2	10	10	NUM	_	_	3	nummod	_	Number[lex]=Sing|SpaceAfter=No
-3	h	h	NOUN	_	Number=Plur	13	nmod	_	Gender[lex]=Masc
+3	h	h	NOUN	_	Number=Plur	13	nmod	_	Gender[lex]=Fem
 4	à	à	ADP	_	_	6	case	_	_
 5	12	12	NUM	_	_	6	nummod	_	Number[lex]=Sing|SpaceAfter=No
-6	h	h	NOUN	_	Number=Plur	3	nmod	_	Gender[lex]=Masc
+6	h	h	NOUN	_	Number=Plur	3	nmod	_	Gender[lex]=Fem
 7	et	et	CCONJ	_	_	9	cc	_	_
 8	14	14	NUM	_	_	9	nummod	_	Number[lex]=Sing|SpaceAfter=No
-9	h	h	NOUN	_	Number=Plur	3	conj	_	Gender[lex]=Masc
+9	h	h	NOUN	_	Number=Plur	3	conj	_	Gender[lex]=Fem
 10	à	à	ADP	_	_	12	case	_	_
 11	17	17	NUM	_	_	12	nummod	_	Number[lex]=Sing|SpaceAfter=No
-12	h	h	NOUN	_	Number=Plur	9	nmod	_	Gender[lex]=Masc
+12	h	h	NOUN	_	Number=Plur	9	nmod	_	Gender[lex]=Fem
 13	office	office	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Masc
 14	de	de	ADP	_	_	15	case	_	_
 15	tourisme	tourisme	NOUN	_	Number=Sing	13	nmod	_	Gender[lex]=Masc|SpaceAfter=No
@@ -4784,7 +4784,7 @@
 3	soir	soir	NOUN	_	Number=Sing	10	advcl	_	Gender[lex]=Masc
 4	à	à	ADP	_	_	6	case	_	_
 5	18	18	NUM	_	_	6	nummod	_	Number[lex]=Sing|SpaceAfter=No
-6	h	h	NOUN	_	Number=Plur	3	nmod	_	Gender[lex]=Fem|SpaceAfter=No|wordform=18h40
+6	h	h	NOUN	_	Number=Plur	3	nmod	_	Gender[lex]=Fem|SpaceAfter=No
 7	40	40	NUM	_	_	6	nmod	_	Number[lex]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	3	punct	_	_
 9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
@@ -5399,7 +5399,7 @@
 29	UA	UA	NOUN	_	Number=Plur	24	obl:arg	_	Gender[lex]=Masc
 30	à	à	ADP	_	_	32	case	_	_
 31	75	75	NUM	_	_	32	nummod	_	Number[lex]=Plur
-32	UA	UA	NOUN	_	Number=Plur	29	obl:arg	_	Gender[lex]=Masc|SpaceAfter=No
+32	UA	UA	NOUN	_	Number=Plur	29	nmod	_	Gender[lex]=Masc|SpaceAfter=No
 33	.	.	PUNCT	_	_	24	punct	_	_
 
 # sent_id = fr-ud-test_00180
@@ -6205,7 +6205,7 @@
 17	mal	mal	NOUN	_	Number=Sing	15	obj:lvc	_	Gender[lex]=Masc
 18	à	à	ADP	_	_	20	case	_	_
 19	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	20	det	_	_
-20	poignet	poignet	NOUN	_	Number=Sing	17	obl:arg	_	Gender[lex]=Masc
+20	poignet	poignet	NOUN	_	Number=Sing	17	nmod	_	Gender[lex]=Masc
 21	anciennement	anciennement	ADV	_	_	22	advmod	_	_
 22	foulé	fouler	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	20	acl	_	SpaceAfter=No|Tense[denom]=Past
 23	.	.	PUNCT	_	_	10	punct	_	_
@@ -6302,7 +6302,7 @@
 4	40000	40000	NUM	_	_	5	nummod	_	Number[lex]=Plur
 5	références	référence	NOUN	_	Number=Plur	2	obl:arg	_	Gender[lex]=Fem|SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
-7	on	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj:pass	_	_
+7	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj:pass	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
 9	assuré	assurer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 10	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
@@ -7326,7 +7326,7 @@
 5	ferment	fermer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	à	à	ADP	_	_	8	case	_	_
 7	18	18	NUM	_	_	8	nummod	_	Number[lex]=Sing|SpaceAfter=No
-8	h	h	NOUN	_	Number=Plur	5	obl:mod	_	Gender[lex]=Fem|wordform=18h
+8	h	h	NOUN	_	Number=Plur	5	obl:mod	_	Gender[lex]=Fem
 9	!	!	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-test_00262
@@ -7487,7 +7487,7 @@
 4	possesion	possession	NOUN	_	Number=Sing|Typo=Yes	3	obj:lvc	_	CorrectForm=possession|Gender[lex]=Fem
 5	de	de	ADP	_	_	7	case	_	_
 6	2	2	NUM	_	_	7	nummod	_	Number[lex]=Plur
-7	chambres	chambre	NOUN	_	Number=Plur	4	obl:arg	_	Gender[lex]=Fem
+7	chambres	chambre	NOUN	_	Number=Plur	4	nmod	_	Gender[lex]=Fem
 8	cabines	cabine	NOUN	_	Number=Plur	7	nmod	_	Gender[lex]=Fem
 9	ayant	avoir	VERB	_	VerbForm=Part	7	acl	_	Tense[denom]=Pres
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
@@ -7629,7 +7629,7 @@
 8	besoin	besoin	NOUN	_	Number=Sing	7	obj:lvc	_	Gender[lex]=Masc
 9	d'	de	ADP	_	_	11	case	_	SpaceAfter=No
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	paire	paire	NOUN	_	Number=Sing	8	obl:arg	_	Gender[lex]=Fem
+11	paire	paire	NOUN	_	Number=Sing	8	nmod	_	Gender[lex]=Fem
 12	de	de	ADP	_	_	13	case	_	_
 13	lunette	lunette	NOUN	_	Number=Sing	11	nmod	_	Gender[lex]=Fem
 14	et	et	CCONJ	_	_	22	cc	_	_
@@ -7809,7 +7809,7 @@
 17-18	au	_	_	_	_	_	_	_	_
 17	à	à	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	pire	pire	NOUN	_	Number=Sing	16	obl:arg	_	Gender[lex]=Masc
+19	pire	pire	NOUN	_	Number=Sing	16	nmod	_	Gender[lex]=Masc
 20-21	du	_	_	_	_	_	_	_	_
 20	de	de	ADP	_	_	22	case	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
@@ -8058,7 +8058,7 @@
 15	fait	faire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
 16	appel	appel	NOUN	_	Number=Sing	15	obj:lvc	_	Gender[lex]=Masc
 17	à	à	ADP	_	_	18	case	_	_
-18	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	obl:arg	_	_
+18	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	nmod	_	_
 19	car	car	CCONJ	_	_	22	cc	_	_
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
 21	avis	avis	NOUN	_	_	22	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Plur
@@ -10632,7 +10632,7 @@
 20	référence	référence	NOUN	_	Number=Sing	19	obj:lvc	_	Gender[lex]=Fem
 21	à	à	ADP	_	_	23	case	_	_
 22	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No|wordform=l'
-23	Antéchrist	antéchrist	NOUN	_	Number=Sing	20	obl:arg	_	Gender[lex]=Masc|wordform=antéchrist
+23	Antéchrist	antéchrist	NOUN	_	Number=Sing	20	nmod	_	Gender[lex]=Masc|wordform=antéchrist
 24	de	de	ADP	_	_	25	case	_	_
 25	Nietzsche	Nietzsche	PROPN	_	_	23	nmod	_	Gender[lex]=Unknown|SpaceAfter=No
 26	,	,	PUNCT	_	_	31	punct	_	_

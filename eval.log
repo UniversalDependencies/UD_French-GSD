@@ -1,17 +1,17 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_French-GSD:
-commit 18c280b694b8d2c23752b8025aa2d079ff17ca2f
-Merge: 830e278 b40dc63
+commit de0aefbae009ebac6df2f3e6387638a783d58967
+Merge: eb50271 15958a5
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'fr_gsd'
 Language code (from CoNLL-U file name) = 'fr'
 Found the following data files: fr_gsd-ud-dev.conllu, fr_gsd-ud-test.conllu, fr_gsd-ud-train.conllu
-Size: counted 400386 of 400386 words (nodes).
-Size: min(0, log((N/1000)**2)) = 11.9848581635896.
+Size: counted 400385 of 400385 words (nodes).
+Size: min(0, log((N/1000)**2)) = 11.9848531684037.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -19,7 +19,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.5.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 234072 out of 400386 total words have one or more features.
+Features: 247843 out of 400385 total words have one or more features.
 Features: source of annotation (from README) factor is 0.5.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
@@ -34,10 +34,10 @@ Validity: 1
 (weight=0.111111111111111) * (score{features}=0.5) = 0.0555555555555556
 (weight=0.111111111111111) * (score{genres}=0.222222222222222) = 0.0246913580246914
 (weight=0.111111111111111) * (score{lemmas}=0.5) = 0.0555555555555556
-(weight=0.37037037037037) * (score{size}=0.867492961140019) = 0.321293689311118
+(weight=0.37037037037037) * (score{size}=0.867492599576407) = 0.321293555398669
 (weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
 (weight=0.111111111111111) * (score{tags}=0.847058823529412) = 0.0941176470588235
 (weight=0.111111111111111) * (score{udeprels}=0.827027027027027) = 0.0918918918918919
-(TOTAL score=0.71717977147171) * (availability=1) * (validity=1) = 0.71717977147171
+(TOTAL score=0.717179637559261) * (availability=1) * (validity=1) = 0.717179637559261
 STARS = 3.5
-UD_French-GSD	0.71717977147171	3.5
+UD_French-GSD	0.717179637559261	3.5

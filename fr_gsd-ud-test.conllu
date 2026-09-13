@@ -1046,7 +1046,7 @@
 # sent_id = fr-ud-test_00041
 # text = Au regard du droit international, la question du Sahara Occidental est très claire.
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	3	case	_	_
+1	À	à	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	regard	regard	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	Exponence[Gender]=Inherent
 4-5	du	_	_	_	_	_	_	_	_
@@ -1229,7 +1229,7 @@
 11	Ligue	ligue	NOUN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	7	nmod	_	Exponence[Gender]=Inherent|Title=Yes|wordform=ligue
 12-13	des	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	InTitle=Yes
-13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	InTitle=Yes
+13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 14	Justiciers	justicier	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	Exponence[Gender]=Inherent|InTitle=Yes|wordform=justiciers
 15	:	:	PUNCT	_	_	18	punct	_	InTitle=Yes
 16	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	InTitle=Yes|wordform=la
@@ -2428,8 +2428,8 @@
 18	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	cop	_	_
 19	tout	tout	PRON	_	ExtPos=ADV|Gender=Masc|Number=Sing|Person=3|PronType=Ind	25	advmod	_	Idiom=Yes
 20-21	au	_	_	_	_	_	_	_	_
-20	à	à	ADP	_	_	19	fixed	_	InIdiom=Yes
-21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	fixed	_	InIdiom=Yes
+20	à	à	ADP	_	_	21	case	_	_
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	fixed	_	InIdiom=Yes|Scrap=Yes
 22	mieux	mieux	NOUN	_	Gender=Masc|Number=Sing	19	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 24	5	5	NUM	_	Number=Plur	25	nummod	_	Exponence[Number]=Inherent|SpaceAfter=No
@@ -3240,7 +3240,7 @@
 # sent_id = fr-ud-test_00109
 # text = Du Vatican, dont le voile posé sur la vie privée du Cavaliere ne tient plus.
 1-2	Du	_	_	_	_	_	_	_	_
-1	de	de	ADP	_	_	3	case	_	_
+1	De	de	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Vatican	Vatican	PROPN	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Inherent|SpaceAfter=No
 4	,	,	PUNCT	_	_	17	punct	_	_
@@ -3454,7 +3454,7 @@
 # sent_id = fr-ud-test_00117
 # text = Au sein de cette équipe professionnelle, chacun est important et a son rôle à jouer pour contribuer au rayonnement de la ville de Bayonne et de la culture basque.
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	ExtPos=ADV	11	advmod	_	Idiom=Yes
+1	À	à	ADP	_	ExtPos=ADV	11	advmod	_	Idiom=Yes
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	InIdiom=Yes
 3	sein	sein	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	Exponence[Gender]=Inherent|InIdiom=Yes
 4	de	de	ADP	_	_	6	case	_	_
@@ -3989,9 +3989,9 @@
 14	ayant	avoir	AUX	_	VerbForm=Part	15	aux:tense	_	Tense[denom]=Pres
 15	disputé	disputer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	13	acl	_	Tense[denom]=Past
 16-17	au	_	_	_	_	_	_	_	_
-16	à	à	ADP	_	ExtPos=ADV	19	advmod	_	Idiom=Yes
-17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	fixed	_	InIdiom=Yes
-18	moins	moins	ADV	_	_	16	fixed	_	InIdiom=Yes
+16	à	à	ADP	_	_	17	case	_	_
+17	le	le	DET	_	Definite=Def|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	19	advmod	_	Idiom=Yes|Scrap=Yes
+18	moins	moins	ADV	_	_	17	fixed	_	InIdiom=Yes
 19	20	20	NUM	_	Number=Plur	20	nummod	_	Exponence[Number]=Inherent
 20	matches	match	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	Exponence[Gender]=Inherent
 21	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
@@ -4126,15 +4126,15 @@
 5	personnage	personnage	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	Exponence[Gender]=Inherent
 6	très	très	ADV	_	_	7	advmod	_	_
 7	absent	absent	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
-8	tout	tout	ADV	_	_	10	advmod	_	_
+8	tout	tout	ADV	_	_	11	advmod	_	_
 9-10	au	_	_	_	_	_	_	_	_
-9	à	à	ADP	_	_	10	case	_	_
-10	le	le	DET	_	Definite=Def|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	7	advmod	_	Idiom=Yes
-11	long	long	NOUN	_	Gender=Masc|Number=Sing	10	fixed	_	Exponence[Gender]=Inherent|InIdiom=Yes
+9	à	à	ADP	_	_	11	case	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	long	long	NOUN	_	ExtPos=ADV|Gender=Masc|Number=Sing	7	obl:mod	_	Exponence[Gender]=Inherent|Idiom=Yes
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	roman	roman	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	Exponence[Gender]=Inherent|SpaceAfter=No
+14	roman	roman	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
@@ -6212,7 +6212,7 @@
 # sent_id = fr-ud-test_00207
 # text = Au menu, en entrée, du pas grand chose, avec beaucoup de salade autour, et une giclée de vinaigre balsamique.
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	3	case	_	_
+1	À	à	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	menu	menu	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
@@ -6241,7 +6241,7 @@
 # sent_id = fr-ud-test_00208
 # text = Au sortir d'une séance de cinéma, nous avons découvert dans un quartier vivant, une adresse à retenir.
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	3	case	_	_
+1	À	à	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	sortir	sortir	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	Exponence[Gender]=Inherent
 4	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
@@ -7158,7 +7158,7 @@
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	9	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-8	:	:	PUNCT	_	_	7	punct	_	_
+8	:	:	PUNCT	_	_	9	punct	_	_
 9	5905	5905	NUM	_	Number=Sing	5	obl:arg	_	Exponence[Number]=Inherent|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	rue	rue	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	Exponence[Gender]=Inherent
@@ -8999,7 +8999,7 @@
 # sent_id = fr-ud-dev_01511
 # text = Au milieu du VIIIe siècle, un prédicateur de Bassora, Abdullah bin Yahya, parvient en Hadramaout, établit le rite Ibadhi.
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	3	case	_	_
+1	À	à	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	milieu	milieu	NOUN	_	Gender=Masc|Number=Sing	18	obl:mod	_	Exponence[Gender]=Inherent
 4-5	du	_	_	_	_	_	_	_	_

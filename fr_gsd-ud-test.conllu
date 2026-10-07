@@ -17,7 +17,7 @@
 15	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
 16	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
 17	déjà	déjà	ADV	_	_	18	advmod	_	_
-18	vus	voir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	8	acl:relcl	_	SpaceAfter=No|Tense[denom]=Past
+18	vus	voir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	8	acl:relcl	_	SpaceAfter=No|Status[Tense]=Denom
 19	,	,	PUNCT	_	_	5	punct	_	_
 20	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
 21	pourrions	pouvoir	VERB	_	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
@@ -55,9 +55,9 @@
 1	«	«	PUNCT	_	_	6	punct	_	_
 2	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	wordform=il
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
-4	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	6	aux:pass	_	Tense[denom]=Past
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	Status[Tense]=Denom
 5	largement	largement	ADV	_	_	6	advmod	_	_
-6	démontré	démontrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+6	démontré	démontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 7	que	que	SCONJ	_	_	22	mark	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	population	population	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	Exponence[Gender]=Inherent
@@ -102,12 +102,12 @@
 45	ONG	ONG	NOUN	_	Gender=Fem|Number=Sing	43	nsubj	_	Exponence[Gender]=Inherent
 46	internationale	international	ADJ	_	Gender=Fem|Number=Sing	45	amod	_	SpaceAfter=No
 47	,	,	PUNCT	_	_	48	punct	_	_
-48	implantée	implanter	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	45	acl	_	Tense[denom]=Past
+48	implantée	implanter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	45	acl	_	Status[Tense]=Denom
 49	dans	dans	ADP	_	_	51	case	_	_
 50	35	35	NUM	_	Number=Plur	51	nummod	_	Exponence[Number]=Inherent
 51	pays	pays	NOUN	_	Gender=Masc|Number=Plur	48	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 52	,	,	PUNCT	_	_	53	punct	_	_
-53	citée	citer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	48	conj	_	Tense[denom]=Past
+53	citée	citer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	48	conj	_	Status[Tense]=Denom
 54	par	par	ADP	_	_	56	case	_	_
 55	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 56	agence	agence	NOUN	_	Gender=Fem|Number=Sing	53	obl:agent	_	Exponence[Gender]=Inherent
@@ -188,12 +188,12 @@
 21	dans	dans	ADP	_	_	23	case	_	_
 22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	discours	discours	NOUN	_	Gender=Masc|Number=Sing	18	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
-24	humiliant	humilier	VERB	_	VerbForm=Part	23	acl	_	Tense[denom]=Pres
+24	humiliant	humilier	VERB	_	Tense=Pres|VerbForm=Part	23	acl	_	Status[Tense]=Denom
 25	pour	pour	ADP	_	_	27	case	_	_
 26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	_
 27	Africains	Africains	PROPN	_	Number=Plur	24	obl:mod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	_
-29	prononcé	prononcer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	23	acl	_	Tense[denom]=Past
+29	prononcé	prononcer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	23	acl	_	Status[Tense]=Denom
 30	à	à	ADP	_	_	32	case	_	_
 31	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 32	Université	université	NOUN	_	Gender=Fem|Number=Sing	29	obl:mod	_	Exponence[Gender]=Inherent|wordform=université
@@ -312,7 +312,7 @@
 1	Son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	2	det	_	wordform=son
 2	discours	discours	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
-4	inspiré	inspirer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	Tense[denom]=Past
+4	inspiré	inspirer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	Status[Tense]=Denom
 5	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	pensée	pensée	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	Exponence[Gender]=Inherent
@@ -322,7 +322,7 @@
 10	Moyen-âge	moyen-âge	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No|wordform=moyen-âge
 11	,	,	PUNCT	_	_	4	punct	_	_
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
-13	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+13	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 14	preneur	preneur	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	Exponence[Gender]=Inherent|SpaceAfter=No
 15	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -377,7 +377,7 @@
 13	toute	tout	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	zone	zone	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	Exponence[Gender]=Inherent
-16	comprise	comprendre	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	15	acl	_	Tense[denom]=Past
+16	comprise	comprendre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	acl	_	Status[Tense]=Denom
 17	entre	entre	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	Soudan	Soudan	PROPN	_	Gender=Masc|Number=Sing	16	obl:arg	_	Exponence[Gender]=Inherent
@@ -437,14 +437,14 @@
 7	communication	communication	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	Exponence[Gender]=Inherent
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
 9	aussi	aussi	ADV	_	_	10	advmod	_	_
-10	vouée	vouer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+10	vouée	vouer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 11	à	à	ADP	_	_	13	mark	_	_
 12	être	être	AUX	_	VerbForm=Inf	13	aux:pass	_	Subject=SubjRaising
-13	préservée	préserver	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	xcomp	_	SpaceAfter=No|Tense[denom]=Past
+13	préservée	préserver	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	xcomp	_	SpaceAfter=No|Status[Tense]=Denom
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	développée	développer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	13	conj	_	Tense[denom]=Past
+15	développée	développer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	conj	_	Status[Tense]=Denom
 16	et	et	CCONJ	_	_	17	cc	_	_
-17	modernisée	moderniser	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	13	conj	_	SpaceAfter=No|Tense[denom]=Past
+17	modernisée	moderniser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	conj	_	SpaceAfter=No|Status[Tense]=Denom
 18	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-test_00014
@@ -473,7 +473,7 @@
 22	risques	risque	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	Exponence[Gender]=Inherent
 23	externes	externe	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	Exponence[Gender]=Absent|SpaceAfter=No
 24	"	"	PUNCT	_	_	22	punct	_	_
-25	engendrés	engendrer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	22	acl	_	Tense[denom]=Past
+25	engendrés	engendrer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	22	acl	_	Status[Tense]=Denom
 26	par	par	ADP	_	_	28	case	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	conflit	conflit	NOUN	_	Gender=Masc|Number=Sing	25	obl:agent	_	Exponence[Gender]=Inherent
@@ -528,7 +528,7 @@
 19	n'	ne	ADV	_	Polarity=Neg	22	advmod	_	SpaceAfter=No
 20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:tense	_	_
 21	jamais	jamais	ADV	_	Polarity=Neg	22	advmod	_	_
-22	empêché	empêcher	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+22	empêché	empêcher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 23	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
 24	ministres	ministre	NOUN	_	Gender=Masc|Number=Plur	22	obj	_	Exponence[Gender]=Inherent
 25	de	de	ADP	_	_	27	mark	_	_
@@ -572,7 +572,7 @@
 4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	période	période	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	Exponence[Gender]=Inherent
 6	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	aux:pass	_	_
-7	mise	mettre	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+7	mise	mettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 8	à	à	ADP	_	_	9	case	_	_
 9	profit	profit	NOUN	_	Gender=Masc|Number=Sing	7	obl:arg	_	Exponence[Gender]=Inherent
 10	pour	pour	ADP	_	_	11	mark	_	_
@@ -599,7 +599,7 @@
 30	de	de	ADP	_	_	32	case	_	_
 31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	32	det	_	_
 32	fonds	fonds	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
-33	versés	verser	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	32	acl	_	Tense[denom]=Past
+33	versés	verser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	32	acl	_	Status[Tense]=Denom
 34	par	par	ADP	_	_	36	case	_	_
 35	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 36	Union	union	NOUN	_	Gender=Fem|Number=Sing	33	obl:agent	_	Exponence[Gender]=Inherent|wordform=union
@@ -613,7 +613,7 @@
 43	de	de	ADP	_	_	45	case	_	_
 44	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	45	det	_	_
 45	informations	information	NOUN	_	Gender=Fem|Number=Plur	41	nmod	_	Exponence[Gender]=Inherent
-46	fournies	fournir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	45	acl	_	Tense[denom]=Past
+46	fournies	fournir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	45	acl	_	Status[Tense]=Denom
 47	par	par	ADP	_	_	49	case	_	_
 48	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	49	det	_	_
 49	autorités	autorité	NOUN	_	Gender=Fem|Number=Plur	46	obl:agent	_	Exponence[Gender]=Inherent
@@ -635,8 +635,8 @@
 11	Claude	Claude	PROPN	_	_	6	appos	_	_
 12	Guéant	Guéant	PROPN	_	_	11	flat:name	_	_
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
-14	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	15	aux:pass	_	Tense[denom]=Past
-15	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+14	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux:pass	_	Status[Tense]=Denom
+15	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 16	à	à	ADP	_	_	17	case	_	_
 17	Alger	Alger	PROPN	_	_	15	obl:mod	_	_
 18	par	par	ADP	_	_	20	case	_	_
@@ -852,7 +852,7 @@
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	manne	manne	NOUN	_	Gender=Fem|Number=Sing	25	nsubj:caus	_	Exponence[Gender]=Inherent
 12	financière	financier	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
-13	apportée	apporter	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	11	acl	_	Tense[denom]=Past
+13	apportée	apporter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	acl	_	Status[Tense]=Denom
 14	par	par	ADP	_	_	16	case	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 16	touristes	touriste	NOUN	_	Gender=Masc|Number=Plur	13	obl:agent	_	Exponence[Gender]=Inherent
@@ -879,14 +879,14 @@
 2	royaume	royaume	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	Exponence[Gender]=Inherent
 3	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	expl:pass	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-5	amélioré	améliorer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No|Tense[denom]=Past
+5	amélioré	améliorer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No|Status[Tense]=Denom
 6	,	,	PUNCT	_	_	11	punct	_	_
 7	mais	mais	CCONJ	_	_	11	advmod	_	_
 8	pas	pas	ADV	_	Polarity=Neg	11	advmod	_	_
 9	dans	dans	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	sens	sens	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
-12	voulu	vouloir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	acl	_	Tense[denom]=Past
+12	voulu	vouloir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	acl	_	Status[Tense]=Denom
 13	par	par	ADP	_	_	15	case	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 15	UE	UE	PROPN	_	Number=Sing	12	obl:agent	_	SpaceAfter=No
@@ -1074,7 +1074,7 @@
 3	française	français	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4	n'	ne	ADV	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
-6	fait	faire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+6	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 7	qu'	que	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
 8	obéir	obéir	VERB	_	VerbForm=Inf	6	xcomp	_	Subject=SubjRaising
 9	et	et	CCONJ	_	_	11	cc	_	_
@@ -1091,17 +1091,17 @@
 5	contre	contre-attaque	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	9	nsubj	_	CorrectForm=contre-attaque|Exponence[Gender]=Inherent
 6	attaque	_	X	_	_	5	goeswith	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
-8	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	9	cop	_	Tense[denom]=Past
+8	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	Status[Tense]=Denom
 9	massive	massif	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
-12	touché	toucher	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	9	conj	_	Tense[denom]=Past
+12	touché	toucher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	conj	_	Status[Tense]=Denom
 13	pas	pas	ADV	_	Polarity=Neg	14	advmod	_	_
 14	moins	moins	ADV	_	ExtPos=PRON	12	obj	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	174	174	NUM	_	Number=Plur	17	nummod	_	Exponence[Number]=Inherent
 17	sites	site	NOUN	_	Gender=Masc|Number=Plur	14	obl:arg	_	Exponence[Gender]=Inherent
-18	appartenant	appartenir	VERB	_	VerbForm=Part	17	acl	_	Tense[denom]=Pres
+18	appartenant	appartenir	VERB	_	Tense=Pres|VerbForm=Part	17	acl	_	Status[Tense]=Denom
 19	pour	pour	ADP	_	_	21	case	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	18	obl:mod	_	Exponence[Gender]=Inherent
@@ -1168,7 +1168,7 @@
 10	fondamentalisme	fondamentalisme	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	Exponence[Gender]=Inherent
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
 12	toujours	toujours	ADV	_	_	13	advmod	_	_
-13	été	être	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	7	ccomp	_	Tense[denom]=Past
+13	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	ccomp	_	Status[Tense]=Denom
 14	là	là	ADV	_	_	13	obl:arg	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	19	punct	_	_
 16	qu'	que	SCONJ	_	_	19	mark	_	SpaceAfter=No
@@ -1216,7 +1216,7 @@
 
 # sent_id = fr-ud-test_00049
 # text = Renommée par Warner France sous le nom de "La Ligue des Justiciers : La Nouvelle Génération", les 8 premiers épisodes de la série animée seront disponibles dès le 30 novembre prochain.
-1	Renommée	renommer	VERB	_	Gender=Masc|Number=Plur|Typo=Yes|VerbForm=Part|Voice=Pass	30	advcl	_	CorrectForm=Renommés|Subject=Instantiated|Tense[denom]=Past|wordform=renommée
+1	Renommée	renommer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass	30	advcl	_	CorrectForm=Renommés|Status[Tense]=Denom|Subject=Instantiated|wordform=renommée
 2	par	par	ADP	_	_	3	case	_	_
 3	Warner	Warner	PROPN	_	_	1	obl:agent	_	_
 4	France	France	PROPN	_	_	3	flat:name	_	_
@@ -1262,7 +1262,7 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 4	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 5	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	Exponence[Gender]=Inherent
-6	publié	publier	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	Tense[denom]=Past
+6	publié	publier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	Status[Tense]=Denom
 7	par	par	ADP	_	_	9	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	ministère	ministère	NOUN	_	Gender=Masc|Number=Sing	6	obl:agent	_	Exponence[Gender]=Inherent
@@ -1292,7 +1292,7 @@
 
 # sent_id = fr-ud-test_00051
 # text = Retenu au « Forum » de la Berlinale, Territoire perdu s'inscrit pleinement dans l'esprit de cette section « expérimentale, avantgardiste et politiquement engagée ».
-1	Retenu	retenir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	acl	_	Tense[denom]=Past|wordform=retenu
+1	Retenu	retenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	acl	_	Status[Tense]=Denom|wordform=retenu
 2-3	au	_	_	_	_	_	_	_	_
 2	à	à	ADP	_	_	5	case	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -1367,12 +1367,12 @@
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	wordform=les
 2	jeunes	jeune	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	Exponence[Gender]=Absent
 3	sahraouis	sahraoui	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	Exponence[Gender]=Inherent
-4	participant	participer	VERB	_	VerbForm=Part	3	acl	_	Tense[denom]=Pres
+4	participant	participer	VERB	_	Tense=Pres|VerbForm=Part	3	acl	_	Status[Tense]=Denom
 5	à	à	ADP	_	_	7	case	_	_
 6	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
 7	université	université	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	Exponence[Gender]=Inherent
 8	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
-9	lancé	lancer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+9	lancé	lancer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	appel	appel	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	Exponence[Gender]=Inherent
 12	à	à	ADP	_	_	15	case	_	_
@@ -1410,7 +1410,7 @@
 44	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	46	amod	_	_
 45	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	46	det	_	_
 46	violations	violation	NOUN	_	Gender=Fem|Number=Plur	40	obl:arg	_	Exponence[Gender]=Inherent
-47	exercées	exercer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	46	acl	_	Tense[denom]=Past
+47	exercées	exercer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	46	acl	_	Status[Tense]=Denom
 48	contre	contre	ADP	_	_	50	case	_	_
 49	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
 50	droit	droit	NOUN	_	Gender=Masc|Number=Sing	47	obl:mod	_	Exponence[Gender]=Inherent
@@ -1423,7 +1423,7 @@
 56	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 57	autodétermination	autodétermination	NOUN	_	Gender=Fem|Number=Sing	50	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 58	,	,	PUNCT	_	_	59	punct	_	_
-59	exhortant	exhorter	VERB	_	VerbForm=Part	9	advcl	_	Subject=Instantiated|Tense[denom]=Pres
+59	exhortant	exhorter	VERB	_	Tense=Pres|VerbForm=Part	9	advcl	_	Status[Tense]=Denom|Subject=Instantiated
 60	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	61	det	_	_
 61	Nations	Nations	PROPN	_	Gender=Fem|Number=Plur	59	obj	_	Exponence[Gender]=Inherent
 62	unies	uni	ADJ	_	Gender=Fem|Number=Plur	61	amod	_	_
@@ -1526,7 +1526,7 @@
 21	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	25	expl:pass	_	SpaceAfter=No
 22	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	aux:tense	_	SpaceAfter=No
 23	-ils	lui	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	expl:subj	_	wordform=il
-24	fait	faire	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	25	aux:pass	_	Tense[denom]=Past
+24	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	aux:pass	_	Status[Tense]=Denom
 25	arrêter	arrêter	VERB	_	VerbForm=Inf	0	root	_	Subject=Generic
 26	mercredi	mercredi	NOUN	_	Gender=Masc|Number=Sing	25	obl:mod	_	Exponence[Gender]=Inherent
 27	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
@@ -1554,7 +1554,7 @@
 48	qui	qui	PRON	_	PronType=Rel	51	nsubj	_	_
 49	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	51	expl:pv	_	SpaceAfter=No
 50	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	51	aux:tense	_	_
-51	évadés	évader	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	47	acl:relcl	_	Tense[denom]=Past
+51	évadés	évader	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	47	acl:relcl	_	Status[Tense]=Denom
 52-53	des	_	_	_	_	_	_	_	_
 52	de	de	ADP	_	_	54	case	_	_
 53	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	54	det	_	_
@@ -1601,15 +1601,15 @@
 9	Figueras	Figueras	PROPN	_	_	8	flat:name	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	5	punct	_	_
 11	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
-12	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	13	aux:pass	_	Tense[denom]=Past
-13	arrêtés	arrêter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|Tense[denom]=Past
+12	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	aux:pass	_	Status[Tense]=Denom
+13	arrêtés	arrêter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|Status[Tense]=Denom
 14	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = fr-ud-test_00061
 # text = Qui a donné l'exemple ?
 1	Qui	qui	PRON	_	PronType=Int	3	nsubj	_	wordform=qui
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
-3	donné	donner	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+3	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 4	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 5	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	Exponence[Gender]=Inherent
 6	?	?	PUNCT	_	_	3	punct	_	_
@@ -1636,7 +1636,7 @@
 18	active	actif	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
 20	bien	bien	ADV	_	_	21	advmod	_	_
-21	exonéré	exonérer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	39	advcl	_	Tense[denom]=Past
+21	exonéré	exonérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	39	advcl	_	Status[Tense]=Denom
 22	d'	de	ADP	_	_	23	case	_	SpaceAfter=No
 23	impôt	impôt	NOUN	_	Gender=Masc|Number=Sing	21	obl:arg	_	Exponence[Gender]=Inherent
 24	sur	sur	ADP	_	_	26	case	_	_
@@ -1645,7 +1645,7 @@
 27	,	,	PUNCT	_	_	21	punct	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	montant	montant	NOUN	_	Gender=Masc|Number=Sing	39	nsubj	_	Exponence[Gender]=Inherent
-30	versé	verser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	29	acl	_	Tense[denom]=Past
+30	versé	verser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	29	acl	_	Status[Tense]=Denom
 31-32	au	_	_	_	_	_	_	_	_
 31	à	à	ADP	_	_	33	case	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
@@ -1657,7 +1657,7 @@
 38	activité	activité	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	Exponence[Gender]=Inherent
 39	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 40	être	être	AUX	_	VerbForm=Inf	41	aux:pass	_	Subject=SubjRaising
-41	déduit	déduire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	39	xcomp	_	Tense[denom]=Past
+41	déduit	déduire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	39	xcomp	_	Status[Tense]=Denom
 42	de	de	ADP	_	_	44	case	_	_
 43	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
 44	prime	prime	NOUN	_	Gender=Fem|Number=Sing	41	obl:arg	_	Exponence[Gender]=Inherent
@@ -1672,9 +1672,9 @@
 # sent_id = fr-ud-test_00063
 # text = N'étant pas préparés pour recevoir plus de dix quinze mille personnes, les autorités, qui font tout ce qu'elles peuvent pour nourrir ce flux ininterrompu, craignent que la situation ne dégénère si l'aide internationale ne pointe pas plus vite le bout de son nez.
 1	N'	ne	ADV	_	Polarity=Neg	4	advmod	_	SpaceAfter=No|wordform=n'
-2	étant	être	AUX	_	VerbForm=Part	4	aux:pass	_	Tense[denom]=Pres
+2	étant	être	AUX	_	Tense=Pres|VerbForm=Part	4	aux:pass	_	Status[Tense]=Denom
 3	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	_
-4	préparés	préparer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	15	acl	_	Tense[denom]=Past
+4	préparés	préparer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	acl	_	Status[Tense]=Denom
 5	pour	pour	ADP	_	_	6	mark	_	_
 6	recevoir	recevoir	VERB	_	VerbForm=Inf	4	advcl	_	Subject=SubjRaising
 7	plus	plus	ADV	_	ExtPos=PRON	6	obj	_	_
@@ -1770,7 +1770,7 @@
 14	»	»	PUNCT	_	_	13	punct	_	_
 15	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	17	expl:pv	_	_
 16	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux:tense	_	_
-17	permis	permettre	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	4	acl:relcl	_	Tense[denom]=Past
+17	permis	permettre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	4	acl:relcl	_	Status[Tense]=Denom
 18	de	de	ADP	_	_	20	mark	_	_
 19	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	20	obj	_	_
 20	traiter	traiter	VERB	_	VerbForm=Inf	17	xcomp	_	Subject=SubjRaising
@@ -1783,7 +1783,7 @@
 27	,	,	PUNCT	_	_	30	punct	_	_
 28	en	en	ADP	_	_	30	mark	_	_
 29	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	30	obj	_	_
-30	agressant	agresser	VERB	_	VerbForm=Part	17	advcl	_	Tense[denom]=Pres
+30	agressant	agresser	VERB	_	Tense=Pres|VerbForm=Part	17	advcl	_	Status[Tense]=Denom
 31	à	à	ADP	_	ExtPos=ADV	30	advmod	_	Idiom=Yes
 32	propos	propos	NOUN	_	Gender=Masc|Number=Sing	31	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes
 33	d'	de	ADP	_	_	35	case	_	SpaceAfter=No
@@ -1797,7 +1797,7 @@
 41	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	42	det	_	_
 42	affrontements	affrontement	NOUN	_	Gender=Masc|Number=Plur	44	nsubj	_	Exponence[Gender]=Inherent
 43	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	aux:tense	_	Filler=mod
-44	eu	avoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	4	advcl:cleft	_	Tense[denom]=Past
+44	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	advcl:cleft	_	Status[Tense]=Denom
 45	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	44	obj:lvc	_	Exponence[Gender]=Inherent|SpaceAfter=No
 46	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -1805,7 +1805,7 @@
 # text = Ont également assisté à cette occasion, des représentants du corps diplomatique accrédité en Algérie, notamment d'Afrique du sud, de Cuba, du Venezuela, d'Angola et du Congo.
 1	Ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	wordform=ont
 2	également	également	ADV	_	_	3	advmod	_	_
-3	assisté	assister	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+3	assisté	assister	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 4	à	à	ADP	_	_	6	case	_	_
 5	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
 6	occasion	occasion	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	Exponence[Gender]=Inherent|SpaceAfter=No
@@ -1817,7 +1817,7 @@
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	corps	corps	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 13	diplomatique	diplomatique	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	Exponence[Gender]=Absent
-14	accrédité	accréditer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	acl	_	Tense[denom]=Past
+14	accrédité	accréditer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	acl	_	Status[Tense]=Denom
 15	en	en	ADP	_	_	16	case	_	_
 16	Algérie	Algérie	PROPN	_	_	14	obl:mod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
@@ -1869,7 +1869,7 @@
 19	que	que	PRON	_	PronType=Rel	18	acl:relcl	_	_
 20	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
 21	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	aux:tense	_	_
-22	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	19	cop	_	SpaceAfter=No|Tense[denom]=Past
+22	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	cop	_	SpaceAfter=No|Status[Tense]=Denom
 23	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-test_00068
@@ -1928,7 +1928,7 @@
 49	et	et	CCONJ	_	_	52	cc	_	_
 50	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	52	nsubj:pass	_	_
 51	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	aux:pass	_	_
-52	associé	associer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	conj	_	Tense[denom]=Past
+52	associé	associer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	conj	_	Status[Tense]=Denom
 53-54	au	_	_	_	_	_	_	_	_
 53	à	à	ADP	_	_	55	case	_	_
 54	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
@@ -1956,7 +1956,7 @@
 5	pensent	penser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	en	en	ADP	_	_	8	mark	_	_
 7	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
-8	hésitant	hésiter	VERB	_	VerbForm=Part	5	advcl	_	Tense[denom]=Pres
+8	hésitant	hésiter	VERB	_	Tense=Pres|VerbForm=Part	5	advcl	_	Status[Tense]=Denom
 9	pas	pas	ADV	_	Polarity=Neg	8	advmod	_	_
 10	à	à	ADP	_	_	12	mark	_	_
 11	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
@@ -2077,7 +2077,7 @@
 # text = En nous livrant les clefs de l'histoire de ce projet industriel, il nous invite à tirer les leçons du passé pour mieux appréhender les perspectives énergétiques du Maghreb aujourd'hui.
 1	En	en	ADP	_	_	3	mark	_	wordform=en
 2	nous	nous	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=1|PronType=Prs	3	iobj	_	_
-3	livrant	livrer	VERB	_	VerbForm=Part	16	advcl	_	Tense[denom]=Pres
+3	livrant	livrer	VERB	_	Tense=Pres|VerbForm=Part	16	advcl	_	Status[Tense]=Denom
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	clefs	clef	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	Exponence[Gender]=Inherent
 6	de	de	ADP	_	_	8	case	_	_
@@ -2159,7 +2159,7 @@
 
 # sent_id = fr-ud-test_00077
 # text = Consacrant, lui, l'essentiel de son temps et de son énérgie exclusivement aux grands chantiers économiques destinés à procurer du travail aux jeunes générations.
-1	Consacrant	consacrer	VERB	_	VerbForm=Part	0	root	_	SpaceAfter=No|Tense[denom]=Pres|wordform=consacrant
+1	Consacrant	consacrer	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No|Status[Tense]=Denom|wordform=consacrant
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
@@ -2179,7 +2179,7 @@
 17	grands	grand	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	_
 18	chantiers	chantier	NOUN	_	Gender=Masc|Number=Plur	1	obl:arg	_	Exponence[Gender]=Inherent
 19	économiques	économique	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	Exponence[Gender]=Absent
-20	destinés	destiner	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	18	acl	_	Tense[denom]=Past
+20	destinés	destiner	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	18	acl	_	Status[Tense]=Denom
 21	à	à	ADP	_	_	22	mark	_	_
 22	procurer	procurer	VERB	_	VerbForm=Inf	20	xcomp	_	Subject=SubjRaising
 23	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
@@ -2195,7 +2195,7 @@
 # text = Après avoir examiné l'état des relations bilatérales, les deux chefs d'Etat ont réitéré leur volonté d'œuvrer à leur renforcement et à leur diversification.
 1	Après	après	ADP	_	_	3	mark	_	wordform=après
 2	avoir	avoir	AUX	_	VerbForm=Inf	3	aux:tense	_	Subject=SubjRaising
-3	examiné	examiner	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	17	advcl	_	Tense[denom]=Past
+3	examiné	examiner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	17	advcl	_	Status[Tense]=Denom
 4	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 5	état	état	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	Exponence[Gender]=Inherent
 6-7	des	_	_	_	_	_	_	_	_
@@ -2210,7 +2210,7 @@
 14	d'	de	ADP	_	_	15	case	_	SpaceAfter=No
 15	Etat	état	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	Exponence[Gender]=Inherent|wordform=état
 16	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux:tense	_	_
-17	réitéré	réitérer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+17	réitéré	réitérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 18	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	19	det	_	_
 19	volonté	volonté	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	Exponence[Gender]=Inherent
 20	d'	de	ADP	_	_	21	mark	_	SpaceAfter=No
@@ -2241,8 +2241,8 @@
 13	néolibéralisme	néolibéralisme	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	Exponence[Gender]=Inherent|SpaceAfter=No
 14	)	)	PUNCT	_	_	13	punct	_	_
 15	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux:tense	_	Filler=mod
-16	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	17	aux:pass	_	Tense[denom]=Past
-17	imposées	imposer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	5	advcl:cleft	_	Tense[denom]=Past
+16	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	aux:pass	_	Status[Tense]=Denom
+17	imposées	imposer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	advcl:cleft	_	Status[Tense]=Denom
 18	durant	durant	ADP	_	_	20	case	_	_
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
 20	années	année	NOUN	_	Gender=Fem|Number=Plur	17	obl:mod	_	Exponence[Gender]=Inherent
@@ -2279,7 +2279,7 @@
 # text = Tout en estimant que « le Maroc est sous protectorat français », au vu des aides militaires de cette puissance au colonialisme marocain, il a rappelé la position de la France au Conseil de sécurité de l'ONU, en opposant son Veto à l'élargissement des missions de la Minurso pour englober la surveillance et le contrôle des droits de l'homme dans les territoires sahraouis.
 1	Tout	tout	ADV	_	_	3	advmod	_	wordform=tout
 2	en	en	ADP	_	_	3	mark	_	_
-3	estimant	estimer	VERB	_	VerbForm=Part	30	advcl	_	Tense[denom]=Pres
+3	estimant	estimer	VERB	_	Tense=Pres|VerbForm=Part	30	advcl	_	Status[Tense]=Denom
 4	que	que	SCONJ	_	_	10	mark	_	_
 5	«	«	PUNCT	_	_	10	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -2308,7 +2308,7 @@
 27	,	,	PUNCT	_	_	3	punct	_	_
 28	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
 29	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:tense	_	_
-30	rappelé	rappeler	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+30	rappelé	rappeler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	position	position	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	Exponence[Gender]=Inherent
 33	de	de	ADP	_	_	35	case	_	_
@@ -2325,7 +2325,7 @@
 43	ONU	ONU	PROPN	_	Number=Sing	38	nmod	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	46	punct	_	_
 45	en	en	ADP	_	_	46	mark	_	_
-46	opposant	opposer	VERB	_	VerbForm=Part	30	advcl	_	Tense[denom]=Pres
+46	opposant	opposer	VERB	_	Tense=Pres|VerbForm=Part	30	advcl	_	Status[Tense]=Denom
 47	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	48	det	_	_
 48	Veto	Veto	PROPN	_	Number=Sing	46	obj	_	_
 49	à	à	ADP	_	_	51	case	_	_
@@ -2439,7 +2439,7 @@
 31	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	34	nsubj	_	_
 32	nous	nous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=1|PronType=Prs	34	obj	_	_
 33	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux:tense	_	_
-34	vus	voir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	46	advcl	_	Tense[denom]=Past
+34	vus	voir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	46	advcl	_	Status[Tense]=Denom
 35	tous	tous	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	36	obl:mod	_	_
 36	unis	uni	ADJ	_	Gender=Masc|Number=Plur	34	xcomp	_	SpaceAfter=No
 37	,	,	PUNCT	_	_	38	punct	_	_
@@ -2463,7 +2463,7 @@
 4	--	--	PUNCT	_	_	7	punct	_	SpaceAfter=No
 5	maintenant	maintenant	ADV	_	_	7	advmod	_	_
 6	bien	bien	ADV	_	_	7	advmod	_	_
-7	rodé	roder	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	acl	_	SpaceAfter=No|Tense[denom]=Past
+7	rodé	roder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	SpaceAfter=No|Status[Tense]=Denom
 8	--	--	PUNCT	_	_	7	punct	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	avec	avec	ADP	_	_	12	case	_	_
@@ -2486,7 +2486,7 @@
 26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	_
 27	choses	chose	NOUN	_	Gender=Fem|Number=Plur	29	nsubj	_	Exponence[Gender]=Inherent
 28	auraient	avoir	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux:tense	_	_
-29	évolué	évoluer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+29	évolué	évoluer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 30-31	au	_	_	_	_	_	_	_	_
 30	à	à	ADP	_	_	32	case	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
@@ -2502,8 +2502,8 @@
 5	Sahara	Sahara	PROPN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	Exponence[Gender]=Inherent
 6	Occidental	occidental	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	wordform=occidental
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
-8	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	9	aux:pass	_	Tense[denom]=Past
-9	envahi	envahir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+8	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	Status[Tense]=Denom
+9	envahi	envahir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 10	par	par	ADP	_	_	12	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Maroc	Maroc	PROPN	_	Gender=Masc|Number=Sing	9	obl:agent	_	Exponence[Gender]=Inherent
@@ -2550,7 +2550,7 @@
 2	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
 3	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-5	dit	dire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 6	à	à	ADP	_	_	8	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Haye	Haye	PROPN	_	Gender=Fem|Number=Sing	5	obl:mod	_	Exponence[Gender]=Inherent
@@ -2573,7 +2573,7 @@
 12	selon	selon	ADP	_	_	14	case	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	diplomate	diplomate	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	Exponence[Gender]=Inherent
-15	basé	baser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	14	acl	_	Tense[denom]=Past
+15	basé	baser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	acl	_	Status[Tense]=Denom
 16-17	au	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	18	case	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -2597,7 +2597,7 @@
 4	Alex	Alex	PROPN	_	_	2	appos	_	_
 5	Angulo	Angulo	PROPN	_	_	4	flat:name	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
-7	attribué	attribuer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+7	attribué	attribuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 8	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
 9	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	wordform=la
 10	Camella	camella	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	Exponence[Gender]=Inherent|wordform=camella
@@ -2614,13 +2614,13 @@
 19	,	,	PUNCT	_	_	22	punct	_	_
 20	qui	qui	PRON	_	PronType=Rel	22	nsubj	_	_
 21	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux:tense	_	_
-22	souligné	souligner	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	15	acl:relcl	_	Tense[denom]=Past
+22	souligné	souligner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	15	acl:relcl	_	Status[Tense]=Denom
 23	que	que	SCONJ	_	_	28	mark	_	_
 24	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
 25	travail	travail	NOUN	_	Gender=Masc|Number=Sing	28	nsubj	_	Exponence[Gender]=Inherent
 26	leur	lui	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=3|PronType=Prs	28	iobj	_	_
 27	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:tense	_	_
-28	permis	permettre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	22	ccomp	_	Tense[denom]=Past
+28	permis	permettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	22	ccomp	_	Status[Tense]=Denom
 29	d'	de	ADP	_	_	30	mark	_	SpaceAfter=No
 30	observer	observer	VERB	_	VerbForm=Inf	28	xcomp	_	Subject=OblRaising
 31	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	Exponence[Gender]=Absent|SpaceAfter=No
@@ -2646,7 +2646,7 @@
 
 # sent_id = fr-ud-test_00090
 # text = Tenue trois mois après la précédente réunion informelle de la Valette (Malte), cette nouvelle rencontre se déroule sous les auspices de l'envoyé personnel du secrétaire général des Nations unies pour le Sahara occidental, M. Christopher Ross, en présence des délégations des deux parties et des représentants des deux pays observateurs, l'Algérie et la Mauritanie.
-1	Tenue	tenir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	20	advcl	_	Subject=Instantiated|Tense[denom]=Past|wordform=tenue
+1	Tenue	tenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	advcl	_	Status[Tense]=Denom|Subject=Instantiated|wordform=tenue
 2	trois	trois	NUM	_	Number=Plur	3	nummod	_	Exponence[Number]=Inherent
 3	mois	mois	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 4	après	après	ADP	_	_	7	case	_	_
@@ -2760,7 +2760,7 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 3	en	en	ADP	_	ExtPos=ADV	5	advmod	_	Idiom=Yes
 4	outre	outre	ADV	_	_	3	fixed	_	InIdiom=Yes
-5	exprimé	exprimer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+5	exprimé	exprimer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	volonté	volonté	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	Exponence[Gender]=Inherent
 8	de	de	ADP	_	_	10	case	_	_
@@ -2806,7 +2806,7 @@
 18	FPEG	FPEG	NOUN	_	Gender=Masc|Number=Sing	10	appos	_	Exponence[Gender]=Inherent|SpaceAfter=No
 19	)	)	PUNCT	_	_	18	punct	_	_
 20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:tense	_	_
-21	né	naître	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+21	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 22	à	à	ADP	_	_	23	case	_	_
 23	Oran	Oran	PROPN	_	_	21	obl:arg	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	26	punct	_	_
@@ -2890,7 +2890,7 @@
 13	négociations	négociation	NOUN	_	Gender=Fem|Number=Plur	7	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	Rabat	Rabat	PROPN	_	_	16	nsubj	_	_
-16	bénéficiant	bénéficier	VERB	_	VerbForm=Part	3	advcl	_	Tense[denom]=Pres
+16	bénéficiant	bénéficier	VERB	_	Tense=Pres|VerbForm=Part	3	advcl	_	Status[Tense]=Denom
 17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -3048,10 +3048,10 @@
 11	Wagram	Wagram	PROPN	_	_	8	appos	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	récemment	récemment	ADV	_	_	14	advmod	_	_
-14	rénovée	rénover	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	8	acl	_	SpaceAfter=No|Tense[denom]=Past
+14	rénovée	rénover	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	SpaceAfter=No|Status[Tense]=Denom
 15	,	,	PUNCT	_	_	2	punct	_	_
 16	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	aux:pass	_	_
-17	assurée	assurer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+17	assurée	assurer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 18	par	par	ADP	_	_	19	case	_	_
 19	Eurosites	Eurosites	PROPN	_	_	17	obl:agent	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
@@ -3139,7 +3139,7 @@
 19	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 20	intrigue	intrigue	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	Exponence[Gender]=Inherent
 21	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
-22	représentés	représenter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+22	représentés	représenter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 23	en	en	ADP	_	_	24	case	_	_
 24	kemonomimi	kemonomimi	NOUN	_	Gender=Masc|Number=Sing	22	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 25	,	,	PUNCT	_	_	29	punct	_	_
@@ -3207,7 +3207,7 @@
 33	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	Exponence[Gender]=Inherent
 34	2000	2000	NUM	_	ExtPos=PROPN|Number=Sing	33	nmod	_	Exponence[Number]=Inherent
 35	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	36	aux:tense	_	_
-36	adopté	adopter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	45	advcl	_	Tense[denom]=Past
+36	adopté	adopter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	45	advcl	_	Status[Tense]=Denom
 37	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 38	telle	tel	ADJ	_	Gender=Fem|Number=Sing	39	amod	_	_
 39	politique	politique	NOUN	_	Gender=Fem|Number=Sing	36	obj	_	Exponence[Gender]=Inherent|SpaceAfter=No
@@ -3215,13 +3215,13 @@
 41	947	947	NUM	_	Number=Plur	42	nummod	_	Exponence[Number]=Inherent
 42	vies	vie	NOUN	_	Gender=Fem|Number=Plur	45	nsubj:pass	_	Exponence[Gender]=Inherent
 43	auraient	avoir	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	45	aux:tense	_	_
-44	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	45	aux:pass	_	Tense[denom]=Past
-45	sauvées	sauver	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	13	acl	_	SpaceAfter=No|Tense[denom]=Past
+44	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	aux:pass	_	Status[Tense]=Denom
+45	sauvées	sauver	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	acl	_	SpaceAfter=No|Status[Tense]=Denom
 46	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-test_00108
 # text = Créé en 1999, le show "Mamma Mia !"
-1	Créé	créer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	Tense[denom]=Past|wordform=créé
+1	Créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	Status[Tense]=Denom|wordform=créé
 2	en	en	ADP	_	_	3	case	_	_
 3	1999	1999	NUM	_	ExtPos=PROPN|Number=Sing	1	obl:mod	_	Exponence[Number]=Inherent|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
@@ -3243,7 +3243,7 @@
 5	dont	dont	PRON	_	PronType=Rel	7	nmod	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	voile	voile	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	Exponence[Gender]=Inherent
-8	posé	poser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	acl	_	Tense[denom]=Past
+8	posé	poser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	Status[Tense]=Denom
 9	sur	sur	ADP	_	_	11	case	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	vie	vie	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	Exponence[Gender]=Inherent
@@ -3273,7 +3273,7 @@
 12	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
 13	vous	vous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=2|PronType=Prs	15	obj	_	Polite=Unknown
 14	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
-15	accueilli	accueillir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	9	parataxis	_	Tense[denom]=Past
+15	accueilli	accueillir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	parataxis	_	Status[Tense]=Denom
 16	longtemps	longtemps	ADV	_	_	15	advmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
 18	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	expl:subj	_	_
@@ -3302,7 +3302,7 @@
 # text = Des visites commentées permettront au public de découvrir les collections, avec aussi différentes animations.
 1	Des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	wordform=des
 2	visites	visite	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	Exponence[Gender]=Inherent
-3	commentées	commenter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	2	acl	_	Tense[denom]=Past
+3	commentées	commenter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	Status[Tense]=Denom
 4	permettront	permettre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 5-6	au	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	7	case	_	_
@@ -3328,7 +3328,7 @@
 5	approche	approche	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	Exponence[Gender]=Inherent
 6	Eclipse	Eclipse	PROPN	_	_	5	appos	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	créé	créer	VERB	_	Gender=Masc|Number=Sing|Typo=Yes|VerbForm=Part|Voice=Pass	5	acl	_	CorrectForm=créée|CorrectGender=Fem|Tense[denom]=Past
+8	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass	5	acl	_	CorrectForm=créée|CorrectGender=Fem|Status[Tense]=Denom
 9	pour	pour	ADP	_	_	10	mark	_	_
 10	lutter	lutter	VERB	_	VerbForm=Inf	8	advcl	_	Subject=Generic
 11	contre	contre	ADP	_	_	13	case	_	_
@@ -3357,12 +3357,12 @@
 10	n'	ne	ADV	_	Polarity=Neg	14	advmod	_	SpaceAfter=No
 11	auront	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	14	aux:tense	_	_
 12	pas	pas	ADV	_	Polarity=Neg	14	advmod	_	_
-13	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	14	aux:pass	_	Tense[denom]=Past
-14	acceptées	accepter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	4	advcl	_	Tense[denom]=Past
+13	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	aux:pass	_	Status[Tense]=Denom
+14	acceptées	accepter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	_	Status[Tense]=Denom
 15	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
-18	assuré	assurer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	4	parataxis:insert	_	Tense[denom]=Past
+18	assuré	assurer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	parataxis:insert	_	Status[Tense]=Denom
 19	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 20	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	nsubj	_	_
 21	d'	de	ADP	_	_	22	case	_	SpaceAfter=No
@@ -3375,7 +3375,7 @@
 2	M.	M.	NOUN	_	Gender=Masc|Number=Sing	16	obl:mod	_	Exponence[Gender]=Inherent
 3	Karoubi	Karoubi	PROPN	_	_	2	flat:name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	bloqué	bloquer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	Tense[denom]=Past
+5	bloqué	bloquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	Status[Tense]=Denom
 6	chez	chez	ADP	_	_	7	case	_	_
 7	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl:arg	_	_
 8	depuis	depuis	ADP	_	_	9	case	_	_
@@ -3390,16 +3390,16 @@
 17	Moussavi	Moussavi	PROPN	_	_	16	flat:name	_	_
 18	qui	qui	PRON	_	PronType=Rel	20	nsubj	_	_
 19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:tense	_	Filler=subj
-20	vu	voir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	16	advcl:cleft	_	Tense[denom]=Past
+20	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	16	advcl:cleft	_	Status[Tense]=Denom
 21	lundi	lundi	NOUN	_	Gender=Masc|Number=Sing	20	obl:mod	_	Exponence[Gender]=Inherent
 22	matin	matin	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	Exponence[Gender]=Inherent
 23	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	24	det	_	_
 24	domicile	domicile	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	Exponence[Gender]=Inherent
-25	encerclé	encercler	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	20	xcomp	_	Subject=ObjRaising|Tense[denom]=Past
+25	encerclé	encercler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	xcomp	_	Status[Tense]=Denom|Subject=ObjRaising
 26	et	et	CCONJ	_	_	28	cc	_	_
 27	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	28	det	_	_
 28	téléphones	téléphone	NOUN	_	Gender=Masc|Number=Plur	20	conj	_	Exponence[Gender]=Inherent
-29	coupés	couper	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	28	orphan	_	SpaceAfter=No|Tense[denom]=Past
+29	coupés	couper	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	28	orphan	_	SpaceAfter=No|Status[Tense]=Denom
 30	,	,	PUNCT	_	_	33	punct	_	_
 31	selon	selon	ADP	_	_	33	case	_	_
 32	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	33	det	_	_
@@ -3412,8 +3412,8 @@
 1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=un
 2	timbre	timbre	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	Exponence[Gender]=Inherent
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-4	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	5	aux:pass	_	Tense[denom]=Past
-5	émis	émettre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	Status[Tense]=Denom
+5	émis	émettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 6	en	en	ADP	_	_	7	case	_	_
 7	Israël	Israël	PROPN	_	_	5	obl:mod	_	_
 8	pour	pour	ADP	_	_	9	mark	_	_
@@ -3597,7 +3597,7 @@
 
 # sent_id = fr-ud-test_00121
 # text = Prenant la parole, Charles Mwando Nsimba a sollicité un délai supplémentaire avant de répondre aux préoccupations soulevées, estimant que des éléments nouveaux y avaient été introduits.
-1	Prenant	prendre	VERB	_	VerbForm=Part	9	advcl	_	Subject=Instantiated|Tense[denom]=Pres|wordform=prenant
+1	Prenant	prendre	VERB	_	Tense=Pres|VerbForm=Part	9	advcl	_	Status[Tense]=Denom|Subject=Instantiated|wordform=prenant
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	parole	parole	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	Exponence[Gender]=Inherent|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
@@ -3605,7 +3605,7 @@
 6	Mwando	Mwando	PROPN	_	_	5	flat:name	_	_
 7	Nsimba	Nsimba	PROPN	_	_	5	flat:name	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
-9	sollicité	solliciter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+9	sollicité	solliciter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	délai	délai	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	Exponence[Gender]=Inherent
 12	supplémentaire	supplémentaire	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	Exponence[Gender]=Absent
@@ -3616,17 +3616,17 @@
 16	à	à	ADP	_	_	18	case	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 18	préoccupations	préoccupation	NOUN	_	Gender=Fem|Number=Plur	15	obl:arg	_	Exponence[Gender]=Inherent
-19	soulevées	soulever	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	18	acl	_	SpaceAfter=No|Tense[denom]=Past
+19	soulevées	soulever	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	18	acl	_	SpaceAfter=No|Status[Tense]=Denom
 20	,	,	PUNCT	_	_	21	punct	_	_
-21	estimant	estimer	VERB	_	VerbForm=Part	9	advcl	_	Subject=Instantiated|Tense[denom]=Pres
+21	estimant	estimer	VERB	_	Tense=Pres|VerbForm=Part	9	advcl	_	Status[Tense]=Denom|Subject=Instantiated
 22	que	que	SCONJ	_	_	29	mark	_	_
 23	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
 24	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	29	nsubj:pass	_	Exponence[Gender]=Inherent
 25	nouveaux	nouveau	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	_
 26	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	29	iobj	_	_
 27	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	29	aux:tense	_	_
-28	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	29	aux:pass	_	Tense[denom]=Past
-29	introduits	introduire	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	21	ccomp	_	SpaceAfter=No|Tense[denom]=Past
+28	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	aux:pass	_	Status[Tense]=Denom
+29	introduits	introduire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	21	ccomp	_	SpaceAfter=No|Status[Tense]=Denom
 30	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-test_00122
@@ -3638,11 +3638,11 @@
 5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 6	s'	soi	PRON	_	Emph=No|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
-8	installé	installer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+8	installé	installer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 9	dans	dans	ADP	_	_	11	case	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	logement	logement	NOUN	_	Gender=Masc|Number=Sing	8	obl:arg	_	Exponence[Gender]=Inherent
-12	situé	situer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	acl	_	Tense[denom]=Past
+12	situé	situer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	acl	_	Status[Tense]=Denom
 13	à	à	ADP	_	_	14	case	_	_
 14	TriBeCa	TriBeCa	PROPN	_	_	12	obl:arg	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
@@ -3714,7 +3714,7 @@
 52	d'	de	ADP	_	_	53	case	_	InTitle=Yes|SpaceAfter=No
 53	Aubry	Aubry	PROPN	_	_	51	nmod	_	InTitle=Yes
 54	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	aux:tense	_	InTitle=Yes
-55	évolué	évoluer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	46	appos	_	InTitle=Yes|SpaceAfter=No|Tense[denom]=Past
+55	évolué	évoluer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	46	appos	_	InTitle=Yes|SpaceAfter=No|Status[Tense]=Denom
 56	"	"	PUNCT	_	_	46	punct	_	SpaceAfter=No
 57	)	)	PUNCT	_	_	38	punct	_	SpaceAfter=No
 58	.	.	PUNCT	_	_	29	punct	_	_
@@ -3746,16 +3746,16 @@
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
 24	citoyens	citoyen	NOUN	_	Gender=Masc|Number=Plur	20	obl:mod	_	Exponence[Gender]=Inherent
 25	+	+	SYM	_	ExtPos=ADV	26	advmod	_	_
-26	Facebookant	facebooker	VERB	_	VerbForm=Part	24	acl	_	Tense[denom]=Pres|wordform=facebookant
+26	Facebookant	facebooker	VERB	_	Tense=Pres|VerbForm=Part	24	acl	_	Status[Tense]=Denom|wordform=facebookant
 27	et	et	CCONJ	_	_	28	cc	_	_
-28	Tweetant	tweeter	VERB	_	VerbForm=Part	26	conj	_	Tense[denom]=Pres|wordform=tweetant
+28	Tweetant	tweeter	VERB	_	Tense=Pres|VerbForm=Part	26	conj	_	Status[Tense]=Denom|wordform=tweetant
 29	+	+	SYM	_	ExtPos=ADV	31	advmod	_	_
 30	avec	avec	ADP	_	_	31	case	_	_
 31	passion	passion	NOUN	_	Gender=Fem|Number=Sing	26	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 32	,	,	PUNCT	_	_	35	punct	_	_
 33	tout	tout	ADV	_	_	35	advmod	_	_
 34	en	en	ADP	_	_	35	mark	_	_
-35	participant	participer	VERB	_	VerbForm=Part	28	advcl	_	Tense[denom]=Pres
+35	participant	participer	VERB	_	Tense=Pres|VerbForm=Part	28	advcl	_	Status[Tense]=Denom
 36	en	en	ADP	_	_	37	case	_	_
 37	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	35	obl:mod	_	Exponence[Gender]=Inherent
 38	record	record	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	Exponence[Gender]=Inherent
@@ -3779,7 +3779,7 @@
 54	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
 55	pays	pays	NOUN	_	Gender=Masc|Number=Sing	52	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 56	,	,	PUNCT	_	_	57	punct	_	_
-57	considéré	considérer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	48	acl	_	Tense[denom]=Past
+57	considéré	considérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	48	acl	_	Status[Tense]=Denom
 58	comme	comme	SCONJ	_	_	59	mark	_	_
 59	favorable	favorable	ADJ	_	Gender=Masc|Number=Sing	57	xcomp	_	Exponence[Gender]=Absent
 60-61	au	_	_	_	_	_	_	_	_
@@ -3883,13 +3883,13 @@
 14	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	1	punct	_	_
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:tense	_	_
-17	levé	lever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+17	levé	lever	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 18	six	six	NUM	_	Number=Plur	19	nummod	_	Exponence[Number]=Inherent
 19	millions	million	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	Exponence[Gender]=Inherent
 20	de	de	ADP	_	_	21	case	_	_
 21	dollars	dollar	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	Exponence[Gender]=Inherent
 22	en	en	ADP	_	_	24	mark	_	_
-23	faisant	faire	AUX	_	VerbForm=Part	24	aux:caus	_	Tense[denom]=Pres
+23	faisant	faire	AUX	_	Tense=Pres|VerbForm=Part	24	aux:caus	_	Status[Tense]=Denom
 24	croire	croire	VERB	_	VerbForm=Inf	17	advcl	_	Subject=Generic
 25-26	aux	_	_	_	_	_	_	_	_
 25	à	à	ADP	_	_	27	case	_	_
@@ -3962,7 +3962,7 @@
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 5	avions	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	6	aux:tense	_	_
-6	tranché	trancher	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No|Tense[denom]=Past
+6	tranché	trancher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No|Status[Tense]=Denom
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-test_00131
@@ -3980,8 +3980,8 @@
 11	parmi	parmi	ADP	_	_	13	case	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	joueurs	joueur	NOUN	_	Gender=Masc|Number=Plur	10	obl:mod	_	Exponence[Gender]=Inherent
-14	ayant	avoir	AUX	_	VerbForm=Part	15	aux:tense	_	Tense[denom]=Pres
-15	disputé	disputer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	13	acl	_	Tense[denom]=Past
+14	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	15	aux:tense	_	Status[Tense]=Denom
+15	disputé	disputer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	acl	_	Status[Tense]=Denom
 16	au	au	ADP	_	ExtPos=ADV	18	advmod	_	Idiom=Yes
 17	moins	moins	ADV	_	_	16	fixed	_	InIdiom=Yes
 18	20	20	NUM	_	Number=Plur	19	nummod	_	Exponence[Number]=Inherent
@@ -3990,7 +3990,7 @@
 21	saison	saison	NOUN	_	Gender=Fem|Number=Sing	15	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	_
 23	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:tense	_	_
-24	indiqué	indiquer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	10	parataxis:insert	_	Tense[denom]=Past
+24	indiqué	indiquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	parataxis:insert	_	Status[Tense]=Denom
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	MLS	MLS	PROPN	_	Gender=Fem|Number=Sing	24	nsubj	_	Exponence[Gender]=Inherent|SpaceAfter=No
 27	.	.	PUNCT	_	_	10	punct	_	_
@@ -4014,7 +4014,7 @@
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	livre	livre	NOUN	_	Gender=Masc|Number=Sing	17	nsubj:pass	_	Exponence[Gender]=Inherent
 16	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
-17	retiré	retirer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	ccomp	_	Tense[denom]=Past
+17	retiré	retirer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	ccomp	_	Status[Tense]=Denom
 18	de	de	ADP	_	_	20	case	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	vente	vente	NOUN	_	Gender=Fem|Number=Sing	17	obl:arg	_	Exponence[Gender]=Inherent|SpaceAfter=No
@@ -4033,7 +4033,7 @@
 9	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	12	expl:pv	_	SpaceAfter=No
 10	en	en	PRON	_	Emph=No|Person=3|PronType=Prs	12	iobj	_	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
-12	approché	approcher	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+12	approché	approcher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	2:00.531	2:00.531	NUM	_	ExtPos=PROPN|Number=Sing	12	obl:mod	_	Exponence[Number]=Inherent|SpaceAfter=No
 15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
@@ -4051,7 +4051,7 @@
 27	Yamaha	Yamaha	PROPN	_	_	18	nmod	_	_
 28	M1	M1	PROPN	_	_	27	flat:name	_	_
 29	et	et	CCONJ	_	_	30	cc	_	_
-30	distancés	distancer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	27	conj	_	Tense[denom]=Past
+30	distancés	distancer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	27	conj	_	Status[Tense]=Denom
 31	de	de	ADP	_	_	32	case	_	_
 32	moins	moins	ADV	_	ExtPos=PRON	30	obl:arg	_	_
 33	de	de	ADP	_	_	34	case	_	_
@@ -4264,7 +4264,7 @@
 12	crédibilité	crédibilité	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	Exponence[Gender]=Inherent|SpaceAfter=No
 13	,	,	PUNCT	_	_	9	punct	_	_
 14	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
-15	accru	accroître	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+15	accru	accroître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	portée	portée	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	Exponence[Gender]=Inherent
 18-19	des	_	_	_	_	_	_	_	_
@@ -4285,7 +4285,7 @@
 4	de	de	ADP	_	_	6	case	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	importateurs	importateur	NOUN	_	Gender=Masc|Number=Plur	3	obl:arg	_	Exponence[Gender]=Inherent
-7	utilisés	utiliser	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	6	acl	_	Tense[denom]=Past
+7	utilisés	utiliser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	Status[Tense]=Denom
 8	par	par	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Comité	Comité	PROPN	_	Gender=Masc|Number=Sing	7	obl:agent	_	Exponence[Gender]=Inherent
@@ -4309,7 +4309,7 @@
 1	On	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	wordform=on
 2	s'	soi	PRON	_	Emph=No|Person=3|PronType=Prs|Reflex=Yes	4	iobj	_	SpaceAfter=No
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:tense	_	_
-4	dit	dire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 5	:	:	PUNCT	_	_	18	punct	_	_
 6	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
 7	Quand	quand	SCONJ	_	_	9	mark	_	wordform=quand
@@ -4319,7 +4319,7 @@
 11	premier	premier	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
 12	pas	pas	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 13	de	de	ADP	_	_	14	mark	_	_
-14	fait	faire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	acl	_	SpaceAfter=No|Tense[denom]=Past
+14	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	acl	_	SpaceAfter=No|Status[Tense]=Denom
 15	,	,	PUNCT	_	_	9	punct	_	_
 16	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	nsubj	_	_
 17	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	18	expl:pv	_	SpaceAfter=No
@@ -4330,7 +4330,7 @@
 22	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	4	punct	_	_
 24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:tense	_	_
-25	expliqué	expliquer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	4	parataxis:insert	_	Tense[denom]=Past
+25	expliqué	expliquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	parataxis:insert	_	Status[Tense]=Denom
 26	Véronique	Véronique	PROPN	_	_	25	nsubj	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -4350,7 +4350,7 @@
 12	pour	pour	ADP	_	_	14	case	_	_
 13	tout	tout	DET	_	Gender=Masc|Number=Sing|PronType=Ind	14	det	_	_
 14	homme	homme	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	Exponence[Gender]=Inherent
-15	jouissant	jouir	VERB	_	VerbForm=Part	14	acl	_	Tense[denom]=Pres
+15	jouissant	jouir	VERB	_	Tense=Pres|VerbForm=Part	14	acl	_	Status[Tense]=Denom
 16	d'	de	ADP	_	_	18	case	_	SpaceAfter=No
 17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	aisance	aisance	NOUN	_	Gender=Fem|Number=Sing	15	obl:arg	_	Exponence[Gender]=Inherent
@@ -4380,7 +4380,7 @@
 12	qu'	que	SCONJ	_	_	15	mark	_	SpaceAfter=No
 13	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	nsubj	_	_
 14	en	en	PRON	_	Emph=No|Person=3|PronType=Prs	16	nmod	_	_
-15	créé	créer	VERB	_	Gender=Masc|Number=Sing|Typo=Yes|VerbForm=Part|Voice=Pass	10	conj	_	CorrectForm=crée|CorrectMood=Ind|CorrectTense=Pres|CorrectVerbForm=Fin|Tense[denom]=Past
+15	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass	10	conj	_	CorrectForm=crée|CorrectMood=Ind|CorrectTense=Pres|CorrectVerbForm=Fin|Status[Tense]=Denom
 16	20.000	20.000	NUM	_	ExtPos=PRON|Number=Plur	15	obj	_	Exponence[Number]=Inherent
 17	tous	tout	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
@@ -4415,18 +4415,18 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	SpaceAfter=No
 5	-t-il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	wordform=il
-6	indiqué	indiquer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	10	parataxis:insert	_	SpaceAfter=No|Tense[denom]=Past
+6	indiqué	indiquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	parataxis:insert	_	SpaceAfter=No|Status[Tense]=Denom
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
 9	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
-10	appliqué	appliquer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+10	appliqué	appliquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 11	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
 12	concept	concept	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	Exponence[Gender]=Inherent
 13	en	en	ADP	_	_	14	case	_	_
 14	Afrique	Afrique	PROPN	_	_	10	obl:mod	_	_
 15	après	après	ADP	_	_	17	mark	_	_
 16	avoir	avoir	AUX	_	VerbForm=Inf	17	aux:tense	_	Subject=SubjRaising
-17	constaté	constater	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	10	advcl	_	Tense[denom]=Past
+17	constaté	constater	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	advcl	_	Status[Tense]=Denom
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	caractère	caractère	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	Exponence[Gender]=Inherent
 20	désastreux	désastreux	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	Exponence[Number]=Absent
@@ -4476,7 +4476,7 @@
 14	»	»	PUNCT	_	_	4	punct	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:tense	_	_
-17	prévenu	prévenir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	4	parataxis:insert	_	Tense[denom]=Past
+17	prévenu	prévenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	parataxis:insert	_	Status[Tense]=Denom
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	patron	patron	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	Exponence[Gender]=Inherent
 20	de	de	ADP	_	_	22	case	_	_
@@ -4512,7 +4512,7 @@
 9	aujourd'hui	aujourd'hui	ADV	_	_	8	advmod	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	tournoi	tournoi	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	Exponence[Gender]=Inherent
-12	réunissant	réunir	VERB	_	VerbForm=Part	11	acl	_	Tense[denom]=Pres
+12	réunissant	réunir	VERB	_	Tense=Pres|VerbForm=Part	11	acl	_	Status[Tense]=Denom
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	moins	moins	ADV	_	ExtPos=PRON	12	obj	_	_
 15	de	de	ADP	_	_	17	case	_	_
@@ -4558,7 +4558,7 @@
 27	plus	plus	ADV	_	_	26	fixed	_	InIdiom=Yes
 28	en	en	ADP	_	_	26	fixed	_	InIdiom=Yes
 29	plus	plus	ADV	_	_	26	fixed	_	InIdiom=Yes
-30	motivés	motiver	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	24	acl	_	Tense[denom]=Past
+30	motivés	motiver	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	24	acl	_	Status[Tense]=Denom
 31	par	par	ADP	_	_	33	case	_	_
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	compétition	compétition	NOUN	_	Gender=Fem|Number=Sing	30	obl:agent	_	Exponence[Gender]=Inherent
@@ -4583,7 +4583,7 @@
 # sent_id = fr-ud-test_00153
 # text = Lourdement endetté (160 milliards d'euros fin 2010), le Portugal a fini l'année 2010 en récession avec un déficit public à 9,1% du PIB et un chômage à plus de 11%.
 1	Lourdement	lourdement	ADV	_	_	2	advmod	_	wordform=lourdement
-2	endetté	endetter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	15	advcl	_	Subject=Instantiated|Tense[denom]=Past
+2	endetté	endetter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	advcl	_	Status[Tense]=Denom|Subject=Instantiated
 3	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 4	160	160	NUM	_	Number=Plur	5	nummod	_	Exponence[Number]=Inherent
 5	milliards	milliard	NOUN	_	Gender=Masc|Number=Plur	2	parataxis	_	Exponence[Gender]=Inherent
@@ -4596,7 +4596,7 @@
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Portugal	Portugal	PROPN	_	Gender=Masc|Number=Sing	15	nsubj	_	Exponence[Gender]=Inherent
 14	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
-15	fini	finir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+15	fini	finir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 16	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 17	année	année	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	Exponence[Gender]=Inherent
 18	2010	2010	NUM	_	ExtPos=PROPN|Number=Sing	17	nmod	_	Exponence[Number]=Inherent
@@ -4666,7 +4666,7 @@
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
 2	Nouvelle-Zélande	Nouvelle-Zélande	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	Exponence[Gender]=Inherent
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
-4	remporté	remporter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+4	remporté	remporter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 6	deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	Exponence[Gender]=Absent
 7	Coupe	coupe	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	Exponence[Gender]=Inherent|wordform=coupe
@@ -4690,7 +4690,7 @@
 24	1987	1987	NUM	_	ExtPos=PROPN|Number=Sing	22	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 25	,	,	PUNCT	_	_	27	punct	_	_
 26	en	en	ADP	_	_	27	mark	_	_
-27	battant	battre	VERB	_	VerbForm=Part	4	advcl	_	Tense[denom]=Pres
+27	battant	battre	VERB	_	Tense=Pres|VerbForm=Part	4	advcl	_	Status[Tense]=Denom
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	XV	XV	NUM	_	ExtPos=PROPN|Number=Sing	27	obj	_	Exponence[Number]=Inherent
 30	de	de	ADP	_	_	31	case	_	_
@@ -4718,7 +4718,7 @@
 # text = Elle a affirmé l'obligation de faire "un match parfait pour se qualifier".
 1	Elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	wordform=elle
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
-3	affirmé	affirmer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+3	affirmé	affirmer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 4	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 5	obligation	obligation	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	Exponence[Gender]=Inherent
 6	de	de	ADP	_	_	7	mark	_	_
@@ -4748,7 +4748,7 @@
 11	n'	ne	ADV	_	Polarity=Neg	14	advmod	_	SpaceAfter=No
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
 13	pas	pas	ADV	_	Polarity=Neg	14	advmod	_	_
-14	relevé	relever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+14	relevé	relever	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	classement	classement	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	Exponence[Gender]=Inherent
 17	de	de	ADP	_	_	19	case	_	_
@@ -4881,7 +4881,7 @@
 1	Celle-ci	celui-ci	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	wordform=celle-ci
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 3	également	également	ADV	_	_	4	advmod	_	_
-4	perdu	perdre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+4	perdu	perdre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -4894,7 +4894,7 @@
 13	EUR	EUR	PROPN	_	Number=Sing	16	nsubj	_	SpaceAfter=No
 14	/	/	SYM	_	ExtPos=ADP	15	case	_	SpaceAfter=No
 15	GBP	GBP	PROPN	_	_	13	nmod	_	_
-16	prenant	prendre	VERB	_	VerbForm=Part	4	advcl	_	Tense[denom]=Pres
+16	prenant	prendre	VERB	_	Tense=Pres|VerbForm=Part	4	advcl	_	Status[Tense]=Denom
 17	0.27	0.27	NUM	_	Number=Plur	18	nummod	_	Exponence[Number]=Inherent|SpaceAfter=No
 18	%	%	SYM	_	ExtPos=NOUN|Number=Plur	16	obj	_	_
 19	pour	pour	ADP	_	_	21	mark	_	_
@@ -4909,7 +4909,7 @@
 1	"	"	PUNCT	_	_	4	punct	_	_
 2	J'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No|wordform=j'
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
-4	senti	sentir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No|Tense[denom]=Past
+4	senti	sentir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No|Status[Tense]=Denom
 5	,	,	PUNCT	_	_	8	punct	_	_
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	8	case	_	_
@@ -4933,7 +4933,7 @@
 
 # sent_id = fr-ud-test_00164
 # text = Fini les vacances pour le jeune Pascal Haupais qui fait sa rentrée en classe de CM1.
-1	Fini	finir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past|wordform=fini
+1	Fini	finir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom|wordform=fini
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	vacances	vacance	NOUN	_	Gender=Fem|Number=Plur	1	obj	_	Exponence[Gender]=Inherent
 4	pour	pour	ADP	_	_	7	case	_	_
@@ -4960,8 +4960,8 @@
 5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
 6	en	en	ADP	_	ExtPos=ADV	9	advmod	_	Idiom=Yes
 7	outre	outre	ADV	_	_	6	fixed	_	InIdiom=Yes
-8	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	9	aux:pass	_	Tense[denom]=Past
-9	blessées	blesser	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|Tense[denom]=Past
+8	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	Status[Tense]=Denom
+9	blessées	blesser	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|Status[Tense]=Denom
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	dont	dont	CCONJ	_	_	12	cc	_	_
 12	une	un	NUM	_	ExtPos=PRON|Gender=Fem|Number=Plur	1	appos	_	Exponence[Number]=Inherent
@@ -4970,7 +4970,7 @@
 15	lors	lors	ADV	_	_	9	advmod	_	_
 16	d'	de	ADP	_	_	17	case	_	SpaceAfter=No
 17	affrontements	affrontement	NOUN	_	Gender=Masc|Number=Plur	15	obl:arg	_	Exponence[Gender]=Inherent
-18	survenus	survenir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	17	acl	_	Tense[denom]=Past
+18	survenus	survenir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	17	acl	_	Status[Tense]=Denom
 19	dans	dans	ADP	_	_	21	case	_	_
 20	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	21	det	_	_
 21	villages	village	NOUN	_	Gender=Masc|Number=Plur	18	obl:mod	_	Exponence[Gender]=Inherent
@@ -5002,7 +5002,7 @@
 8	autres	autre	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	Exponence[Gender]=Absent
 9	délégués	délégué	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	Exponence[Gender]=Inherent
 10	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
-11	intervenus	intervenir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+11	intervenus	intervenir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 12	pour	pour	ADP	_	_	13	mark	_	_
 13	parler	parler	VERB	_	VerbForm=Inf	11	advcl	_	Subject=SubjRaising
 14-15	aux	_	_	_	_	_	_	_	_
@@ -5021,7 +5021,7 @@
 3	vente	vente	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Exponence[Gender]=Inherent
 4	de	de	ADP	_	_	5	case	_	_
 5	livres	livre	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	Exponence[Gender]=Inherent
-6	consacrés	consacrer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	5	acl	_	Tense[denom]=Past
+6	consacrés	consacrer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	Status[Tense]=Denom
 7	à	à	ADP	_	_	8	case	_	_
 8	Jean	Jean	PROPN	_	_	6	obl:arg	_	_
 9	Ferrat	Ferrat	PROPN	_	_	8	flat:name	_	_
@@ -5041,8 +5041,8 @@
 11	conteneurs	conteneur	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	Exponence[Gender]=Inherent
 12	qui	qui	PRON	_	PronType=Rel	15	nsubj:pass	_	_
 13	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux:tense	_	Filler=subj
-14	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	15	aux:pass	_	Tense[denom]=Past
-15	utilisés	utiliser	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	6	advcl:cleft	_	Tense[denom]=Past
+14	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux:pass	_	Status[Tense]=Denom
+15	utilisés	utiliser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	advcl:cleft	_	Status[Tense]=Denom
 16	pour	pour	ADP	_	_	17	mark	_	_
 17	créer	créer	VERB	_	VerbForm=Inf	15	advcl	_	Subject=Generic
 18	ces	ce	DET	_	Number=Plur|PronType=Dem	19	det	_	_
@@ -5057,8 +5057,8 @@
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 4	d'	de	ADP	_	ExtPos=ADV	7	advmod	_	Idiom=Yes|SpaceAfter=No
 5	ailleurs	ailleurs	ADV	_	_	4	fixed	_	InIdiom=Yes
-6	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	7	aux:pass	_	Tense[denom]=Past
-7	donné	donner	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	Status[Tense]=Denom
+7	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 8	hier	hier	ADV	_	_	7	advmod	_	_
 9	par	par	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -5095,12 +5095,12 @@
 38	lorsqu'	lorsque	SCONJ	_	_	41	mark	_	SpaceAfter=No
 39	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
 40	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux:tense	_	_
-41	affirmé	affirmer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	7	advcl	_	Tense[denom]=Past
+41	affirmé	affirmer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	advcl	_	Status[Tense]=Denom
 42	que	que	SCONJ	_	_	46	mark	_	_
 43	nul	nul	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	46	nsubj	_	_
 44	n'	ne	ADV	_	Polarity=Neg	46	advmod	_	SpaceAfter=No
 45	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	aux:tense	_	_
-46	parlé	parler	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	41	ccomp	_	Tense[denom]=Past
+46	parlé	parler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	41	ccomp	_	Status[Tense]=Denom
 47	de	de	ADP	_	_	48	case	_	_
 48	démission	démission	NOUN	_	Gender=Fem|Number=Sing	46	obl:arg	_	Exponence[Gender]=Inherent|SpaceAfter=No
 49	.	.	PUNCT	_	_	7	punct	_	_
@@ -5140,7 +5140,7 @@
 9	et	et	CCONJ	_	_	10	cc	_	_
 10	23	23	NUM	_	Number=Plur	8	conj	_	Exponence[Number]=Inherent
 11	ans	an	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	Exponence[Gender]=Inherent
-12	demeurant	demeurer	VERB	_	VerbForm=Part	6	acl	_	Tense[denom]=Pres
+12	demeurant	demeurer	VERB	_	Tense=Pres|VerbForm=Part	6	acl	_	Status[Tense]=Denom
 13	à	à	ADP	_	_	14	case	_	_
 14	Bourg-Argental	Bourg-Argental	PROPN	_	_	12	obl:arg	_	_
 15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
@@ -5171,7 +5171,7 @@
 7	à	à	ADP	_	_	9	case	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	capacités	capacité	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	Exponence[Gender]=Inherent
-10	reconnues	reconnaître	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	9	acl	_	Tense[denom]=Past
+10	reconnues	reconnaître	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	Status[Tense]=Denom
 11	dans	dans	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	gestion	gestion	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	Exponence[Gender]=Inherent
@@ -5216,7 +5216,7 @@
 9	avec	avec	ADP	_	_	11	case	_	_
 10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
 11	réductions	réduction	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	Exponence[Gender]=Inherent
-12	allant	aller	VERB	_	VerbForm=Part	11	acl	_	Tense[denom]=Pres
+12	allant	aller	VERB	_	Tense=Pres|VerbForm=Part	11	acl	_	Status[Tense]=Denom
 13	de	de	ADP	_	_	14	case	_	_
 14	50	50	NUM	_	Number=Plur	12	obl:arg	_	Exponence[Number]=Inherent
 15	à	à	ADP	_	_	17	case	_	_
@@ -5242,7 +5242,7 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	parti	parti	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	Exponence[Gender]=Inherent
 8	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux:tense	_	_
-9	remporté	remporter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	1	acl:relcl	_	Tense[denom]=Past
+9	remporté	remporter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	acl:relcl	_	Status[Tense]=Denom
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	élections	élection	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	Exponence[Gender]=Inherent
 12	de	de	ADP	_	_	13	case	_	_
@@ -5252,7 +5252,7 @@
 16	francophone	francophone	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	Exponence[Gender]=Absent|SpaceAfter=No
 17	,	,	PUNCT	_	_	9	punct	_	_
 18	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:tense	_	_
-19	émis	émettre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+19	émis	émettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 20	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 21	espoir	espoir	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	Exponence[Gender]=Inherent
 22	lundi	lundi	NOUN	_	Gender=Masc|Number=Sing	19	obl:mod	_	Exponence[Gender]=Inherent
@@ -5379,7 +5379,7 @@
 20	,	,	PUNCT	_	_	5	punct	_	_
 21	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:tense	_	_
 22	ainsi	ainsi	ADV	_	_	24	advmod	_	_
-23	fait	faire	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	24	aux:caus	_	Tense[denom]=Past
+23	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	aux:caus	_	Status[Tense]=Denom
 24	tomber	tomber	VERB	_	VerbForm=Inf	0	root	_	Subject=ObjRaising
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	seuil	seuil	NOUN	_	Gender=Masc|Number=Sing	24	obj:agent	_	Exponence[Gender]=Inherent
@@ -5413,7 +5413,7 @@
 16	Anne-Marie	Anne-Marie	PROPN	_	_	14	appos	_	_
 17	White	White	PROPN	_	_	16	flat:name	_	_
 18	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:tense	_	_
-19	décidé	décider	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+19	décidé	décider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 20	de	de	ADP	_	_	22	mark	_	_
 21	faire	faire	AUX	_	VerbForm=Inf	22	aux:caus	_	Subject=SubjRaising
 22	éclater	éclater	VERB	_	VerbForm=Inf	19	xcomp	_	Subject=ObjRaising
@@ -5453,7 +5453,7 @@
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	pandémie	pandémie	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	Exponence[Gender]=Inherent
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
-9	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	13	cop	_	Tense[denom]=Past
+9	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	cop	_	Status[Tense]=Denom
 10	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	12	advmod	_	Idiom=Yes
 11	peu	peu	NOUN	_	Gender=Masc	10	fixed	_	Exponence[Gender]=Inherent|InIdiom=Yes
 12	moins	moins	ADV	_	_	13	advmod	_	_
@@ -5471,7 +5471,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	5	nsubj:pass	_	Polite=No
 4	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
-5	invités	inviter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+5	invités	inviter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 6	à	à	ADP	_	_	7	mark	_	_
 7	respecter	respecter	VERB	_	VerbForm=Inf	5	xcomp	_	Subject=SubjRaising
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -5505,7 +5505,7 @@
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
 8	très	très	ADV	_	_	9	advmod	_	_
 9	rapidement	rapidement	ADV	_	_	10	advmod	_	_
-10	engagé	engager	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+10	engagé	engager	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	avocat	avocat	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	Exponence[Gender]=Inherent
 13	très	très	ADV	_	_	14	advmod	_	_
@@ -5553,7 +5553,7 @@
 
 # sent_id = fr-ud-test_00187
 # text = Annoncé hier matin--dans les colonnes de L'Indépendant--comme un postulant sérieux à la succession de Franck Azéma qui s'apprête à rejoindre Clermont au terme de l'exercice actuel, il souligne dans un premier temps : " Il y a bien de la fumée, mais c'est sans feu !
-1	Annoncé	annoncer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	37	advcl	_	Subject=Instantiated|Tense[denom]=Past|wordform=annoncé
+1	Annoncé	annoncer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	37	advcl	_	Status[Tense]=Denom|Subject=Instantiated|wordform=annoncé
 2	hier	hier	ADV	_	_	1	advmod	_	_
 3	matin	matin	NOUN	_	Gender=Masc|Number=Sing	2	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 4	--	--	PUNCT	_	_	7	punct	_	SpaceAfter=No
@@ -5620,7 +5620,7 @@
 4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	DARGAUD	DARGAUD	PROPN	_	_	3	appos	_	SpaceAfter=No
 6	"	"	PUNCT	_	_	5	punct	_	_
-7	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	acl	_	Tense[denom]=Past
+7	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	Status[Tense]=Denom
 8	de	de	ADP	_	_	10	case	_	_
 9	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	10	det	_	_
 10	coordonnées	coordonnée	NOUN	_	Gender=Fem|Number=Plur	7	obl:agent	_	Exponence[Gender]=Inherent
@@ -5654,7 +5654,7 @@
 2	Obama	Obama	PROPN	_	_	1	flat:name	_	_
 3	s'	soi	PRON	_	Emph=No|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-5	baigné	baigner	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+5	baigné	baigner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 6	samedi	samedi	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	Exponence[Gender]=Inherent
 7	dans	dans	ADP	_	_	9	case	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -5662,7 +5662,7 @@
 10	balnéaire	balnéaire	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	Exponence[Gender]=Absent
 11	de	de	ADP	_	_	12	case	_	_
 12	Floride	Floride	PROPN	_	_	9	nmod	_	_
-13	affirmant	affirmer	VERB	_	VerbForm=Part	5	advcl	_	Subject=Instantiated|Tense[denom]=Pres
+13	affirmant	affirmer	VERB	_	Tense=Pres|VerbForm=Part	5	advcl	_	Status[Tense]=Denom|Subject=Instantiated
 14	que	que	SCONJ	_	_	25	mark	_	_
 15	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
@@ -5678,7 +5678,7 @@
 24	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
 25	praticables	praticable	ADJ	_	Gender=Fem|Number=Plur	13	ccomp	_	Exponence[Gender]=Absent
 26	et	et	CCONJ	_	_	27	cc	_	_
-27	essayant	essayer	VERB	_	VerbForm=Part	13	conj	_	Tense[denom]=Pres
+27	essayant	essayer	VERB	_	Tense=Pres|VerbForm=Part	13	conj	_	Status[Tense]=Denom
 28	de	de	ADP	_	_	29	mark	_	_
 29	montrer	montrer	VERB	_	VerbForm=Inf	27	xcomp	_	Subject=SubjRaising
 30	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	Exponence[Gender]=Absent|SpaceAfter=No
@@ -5687,7 +5687,7 @@
 33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	marée	marée	NOUN	_	Gender=Fem|Number=Sing	27	obl:mod	_	Exponence[Gender]=Inherent
 35	noire	noir	ADJ	_	Gender=Fem|Number=Sing	34	amod	_	_
-36	provoquée	provoquer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	34	acl	_	Tense[denom]=Past
+36	provoquée	provoquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	34	acl	_	Status[Tense]=Denom
 37	par	par	ADP	_	_	38	case	_	_
 38	BP	BP	PROPN	_	_	36	obl:agent	_	SpaceAfter=No
 39	.	.	PUNCT	_	_	5	punct	_	_
@@ -5724,7 +5724,7 @@
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	coûts	coût	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	Exponence[Gender]=Inherent
 13	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
-14	permis	permettre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+14	permis	permettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 15-16	au	_	_	_	_	_	_	_	_
 15	à	à	ADP	_	_	17	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -5766,8 +5766,8 @@
 1	200	200	NUM	_	Number=Plur	2	nummod	_	Exponence[Number]=Inherent
 2	vols	vol	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	Exponence[Gender]=Inherent
 3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-4	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	5	aux:pass	_	Tense[denom]=Past
-5	annulés	annuler	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	Status[Tense]=Denom
+5	annulés	annuler	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 6	samedi	samedi	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
@@ -5820,12 +5820,12 @@
 24	,	,	PUNCT	_	_	5	punct	_	_
 25	n'	ne	ADV	_	Polarity=Neg	27	advmod	_	SpaceAfter=No
 26	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux:tense	_	_
-27	cessé	cesser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	5	parataxis:insert	_	Tense[denom]=Past
+27	cessé	cesser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	parataxis:insert	_	Status[Tense]=Denom
 28	de	de	ADP	_	_	29	mark	_	_
 29	répéter	répéter	VERB	_	VerbForm=Inf	27	xcomp	_	Subject=SubjRaising
 30	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	31	det	_	_
 31	animateur	animateur	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	Exponence[Gender]=Inherent
-32	passé	passer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	31	acl	_	Tense[denom]=Past
+32	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	31	acl	_	Status[Tense]=Denom
 33	par	par	ADP	_	_	34	case	_	_
 34	Radio	Radio	PROPN	_	_	32	obl:agent	_	_
 35	Nova	Nova	PROPN	_	_	34	flat:name	_	SpaceAfter=No
@@ -5859,7 +5859,7 @@
 23	)	)	PUNCT	_	_	22	punct	_	_
 24	n'	ne	ADV	_	Polarity=Neg	26	advmod	_	SpaceAfter=No
 25	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:tense	_	_
-26	servi	servir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	10	acl:relcl	_	Tense[denom]=Past
+26	servi	servir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	acl:relcl	_	Status[Tense]=Denom
 27	à	à	ADP	_	_	28	case	_	_
 28	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	26	obl:arg	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	5	punct	_	_
@@ -5954,7 +5954,7 @@
 36	8	8	NUM	_	Number=Plur	34	appos	_	Exponence[Number]=Inherent|SpaceAfter=No
 37	)	)	PUNCT	_	_	36	punct	_	_
 38	militaires	militaire	NOUN	_	Gender=Masc|Number=Plur	44	nsubj	_	Exponence[Gender]=Inherent
-39	armés	armer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	38	acl	_	Tense[denom]=Past
+39	armés	armer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	38	acl	_	Status[Tense]=Denom
 40	jusqu'	jusque	ADP	_	_	43	case	_	SpaceAfter=No
 41-42	aux	_	_	_	_	_	_	_	_
 41	à	à	ADP	_	_	43	case	_	_
@@ -5965,7 +5965,7 @@
 46	bureau	bureau	NOUN	_	Gender=Masc|Number=Sing	44	obj	_	Exponence[Gender]=Inherent
 47	de	de	ADP	_	_	48	case	_	_
 48	change	change	NOUN	_	Gender=Masc|Number=Sing	46	nmod	_	Exponence[Gender]=Inherent
-49	appartenant	appartenir	VERB	_	VerbForm=Part	46	acl	_	Tense[denom]=Pres
+49	appartenant	appartenir	VERB	_	Tense=Pres|VerbForm=Part	46	acl	_	Status[Tense]=Denom
 50	à	à	ADP	_	_	52	case	_	_
 51	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	52	det	_	_
 52	compatriote	compatriote	NOUN	_	Gender=Masc|Number=Sing	49	obl:arg	_	Exponence[Gender]=Inherent
@@ -6024,7 +6024,7 @@
 1	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	wordform=le
 3	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	0	root	_	_
-4	saupoudré	saupoudrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	acl	_	Tense[denom]=Past
+4	saupoudré	saupoudrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	Status[Tense]=Denom
 5	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	Exponence[Gender]=Inherent
@@ -6081,7 +6081,7 @@
 14	à	à	ADP	_	_	15	case	_	_
 15	tendance	tendance	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	Exponence[Gender]=Inherent
 16	hispanique	hispanique	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	Exponence[Gender]=Absent
-17	accompagnés	accompagner	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	10	acl	_	Tense[denom]=Past
+17	accompagnés	accompagner	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	Status[Tense]=Denom
 18	de	de	ADP	_	_	19	case	_	_
 19	vins	vin	NOUN	_	Gender=Masc|Number=Plur	17	obl:arg	_	Exponence[Gender]=Inherent
 20	espagnols	espagnol	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
@@ -6184,7 +6184,7 @@
 7	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 8	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	_
 9	bien	bien	ADV	_	_	10	advmod	_	_
-10	relaxé	relaxer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+10	relaxé	relaxer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 11	et	et	CCONJ	_	_	15	cc	_	_
 12	surtout	surtout	ADV	_	_	15	advmod	_	_
 13	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
@@ -6196,7 +6196,7 @@
 19	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	20	det	_	_
 20	poignet	poignet	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	Exponence[Gender]=Inherent
 21	anciennement	anciennement	ADV	_	_	22	advmod	_	_
-22	foulé	fouler	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	20	acl	_	SpaceAfter=No|Tense[denom]=Past
+22	foulé	fouler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	acl	_	SpaceAfter=No|Status[Tense]=Denom
 23	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-test_00207
@@ -6242,7 +6242,7 @@
 9	,	,	PUNCT	_	_	3	punct	_	_
 10	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
 11	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
-12	découvert	découvrir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+12	découvert	découvrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 13	dans	dans	ADP	_	_	15	case	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	quartier	quartier	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	Exponence[Gender]=Inherent
@@ -6293,7 +6293,7 @@
 6	,	,	PUNCT	_	_	2	punct	_	_
 7	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj:pass	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
-9	assuré	assurer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+9	assuré	assurer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 10	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	livraison	livraison	NOUN	_	Gender=Fem|Number=Sing	9	obl:arg	_	Exponence[Gender]=Inherent
@@ -6312,7 +6312,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	nsubj:pass	_	_
 6	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
-7	connue	connaître	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+7	connue	connaître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 8	pour	pour	ADP	_	_	10	mark	_	_
 9	être	être	AUX	_	VerbForm=Inf	10	cop	_	Subject=SubjRaising
 10	pinailleuse	pinailleur	ADJ	_	Gender=Fem|Number=Sing	7	xcomp	_	_
@@ -6326,7 +6326,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	Nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	wordform=nous
 4	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-5	fait	faire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+5	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 6	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 7	acquisition	acquisition	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	Exponence[Gender]=Inherent
 8	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
@@ -6590,7 +6590,7 @@
 # sent_id = fr-ud-test_00227
 # text = En espérant que ce genre de salon sérieux et pro survivra face aux autres qui fleurissent à chaque coin de rue en cette période.
 1	En	en	ADP	_	_	2	mark	_	wordform=en
-2	espérant	espérer	VERB	_	VerbForm=Part	0	root	_	Tense[denom]=Pres
+2	espérant	espérer	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	Status[Tense]=Denom
 3	que	que	SCONJ	_	_	11	mark	_	_
 4	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 5	genre	genre	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	Exponence[Gender]=Inherent
@@ -6649,7 +6649,7 @@
 6	qui	qui	PRON	_	PronType=Rel	9	nsubj:pass	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
 8	parfaitement	parfaitement	ADV	_	_	9	advmod	_	_
-9	justifiée	justifier	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	acl:relcl	_	Tense[denom]=Past
+9	justifiée	justifier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	acl:relcl	_	Status[Tense]=Denom
 10	par	par	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	9	obl:agent	_	Exponence[Gender]=Inherent
@@ -6657,7 +6657,7 @@
 13	de	de	ADP	_	_	15	case	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 15	prestations	prestation	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	Exponence[Gender]=Inherent
-16	servies	servir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	15	acl	_	SpaceAfter=No|Tense[denom]=Past
+16	servies	servir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	acl	_	SpaceAfter=No|Status[Tense]=Denom
 17	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-test_00230
@@ -6713,7 +6713,7 @@
 
 # sent_id = fr-ud-test_00233
 # text = Fini les plats décevants !
-1	Fini	finir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past|wordform=fini
+1	Fini	finir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom|wordform=fini
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	plats	plat	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	Exponence[Gender]=Inherent
 4	décevants	décevant	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
@@ -6744,7 +6744,7 @@
 # text = Il sont formés à vous arnaquer.
 1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Typo=Yes	3	nsubj:pass	_	CorrectForm=Ils|CorrectNumber=Plur|wordform=il
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
-3	formés	former	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+3	formés	former	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 4	à	à	ADP	_	_	6	mark	_	_
 5	vous	vous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=2|PronType=Prs	6	obj	_	Polite=Unknown
 6	arnaquer	arnaquer	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No|Subject=SubjRaising
@@ -6803,7 +6803,7 @@
 1	Ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	wordform=ils
 2	m'	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	4	iobj	_	SpaceAfter=No
 3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
-4	dit	dire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 5	que	que	SCONJ	_	_	9	mark	_	_
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
@@ -6841,7 +6841,7 @@
 # text = Ils ont réalisé un excellent travail
 1	Ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	wordform=ils
 2	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
-3	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+3	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	excellent	excellent	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 6	travail	travail	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	Exponence[Gender]=Inherent
@@ -6893,7 +6893,7 @@
 1	J'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No|wordform=j'
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 3	donc	donc	ADV	_	_	4	advmod	_	_
-4	choisi	choisir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+4	choisi	choisir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 5	de	de	ADP	_	_	7	mark	_	_
 6	ne	ne	ADV	_	Polarity=Neg	7	advmod	_	_
 7	faire	faire	VERB	_	VerbForm=Inf	4	xcomp	_	Subject=SubjRaising
@@ -6908,7 +6908,7 @@
 # text = J'ai installé une chaudière à condensation dans ma maison, initialement chauffée par des radiateurs électriques.
 1	J'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No|wordform=j'
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
-3	installé	installer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+3	installé	installer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	chaudière	chaudière	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	Exponence[Gender]=Inherent
 6	à	à	ADP	_	_	7	case	_	_
@@ -6918,7 +6918,7 @@
 10	maison	maison	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	Exponence[Gender]=Inherent|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	initialement	initialement	ADV	_	_	13	advmod	_	_
-13	chauffée	chauffer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	acl	_	Tense[denom]=Past
+13	chauffée	chauffer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	Status[Tense]=Denom
 14	par	par	ADP	_	_	16	case	_	_
 15	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
 16	radiateurs	radiateur	NOUN	_	Gender=Masc|Number=Plur	13	obl:agent	_	Exponence[Gender]=Inherent
@@ -6929,12 +6929,12 @@
 # text = J'ai rencontré par hasard Lionel en cherchant sur Google un coiffeur à domicile... le hasard fait bien les choses !
 1	J'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No|wordform=j'
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
-3	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+3	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 4	par	par	ADP	_	_	5	case	_	_
 5	hasard	hasard	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	Exponence[Gender]=Inherent
 6	Lionel	Lionel	PROPN	_	_	3	obj	_	_
 7	en	en	ADP	_	_	8	mark	_	_
-8	cherchant	chercher	VERB	_	VerbForm=Part	3	advcl	_	Tense[denom]=Pres
+8	cherchant	chercher	VERB	_	Tense=Pres|VerbForm=Part	3	advcl	_	Status[Tense]=Denom
 9	sur	sur	ADP	_	_	10	case	_	_
 10	Google	Google	PROPN	_	_	8	obl:mod	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -6955,7 +6955,7 @@
 1	J'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No|wordform=j'
 2	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	4	iobj	_	_
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
-4	allé	aller	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+4	allé	aller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 5	2	2	NUM	_	Number=Plur	6	nummod	_	Exponence[Number]=Inherent
 6	fois	fois	NOUN	_	Gender=Fem|Number=Plur	4	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 7	à	à	ADP	_	_	9	case	_	_
@@ -6968,8 +6968,8 @@
 14	n'	ne	ADV	_	Polarity=Neg	18	advmod	_	SpaceAfter=No
 15	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
 16	pas	pas	ADV	_	Polarity=Neg	18	advmod	_	_
-17	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	18	aux:pass	_	Tense[denom]=Past
-18	déçu	décevoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	conj	_	SpaceAfter=No|Tense[denom]=Past
+17	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux:pass	_	Status[Tense]=Denom
+18	déçu	décevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	SpaceAfter=No|Status[Tense]=Denom
 19	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-test_00249
@@ -7007,12 +7007,12 @@
 13	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 14	m'	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	16	iobj	_	SpaceAfter=No
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:tense	_	_
-16	parlé	parler	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	42	advcl	_	Tense[denom]=Past
+16	parlé	parler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	42	advcl	_	Status[Tense]=Denom
 17	d'	de	ADP	_	_	18	mark	_	SpaceAfter=No
 18	ouvrir	ouvrir	VERB	_	VerbForm=Inf	16	xcomp	_	Subject=SubjRaising
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	centre	centre	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	Exponence[Gender]=Inherent
-21	consacré	consacrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	20	acl	_	Tense[denom]=Past
+21	consacré	consacrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	acl	_	Status[Tense]=Denom
 22-23	au	_	_	_	_	_	_	_	_
 22	à	à	ADP	_	_	24	case	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
@@ -7035,7 +7035,7 @@
 39	,	,	PUNCT	_	_	16	punct	_	_
 40	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	42	nsubj	_	SpaceAfter=No
 41	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	42	aux:tense	_	_
-42	voulu	vouloir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	3	conj	_	Tense[denom]=Past
+42	voulu	vouloir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	conj	_	Status[Tense]=Denom
 43	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	44	obj	_	SpaceAfter=No
 44	aider	aider	VERB	_	VerbForm=Inf	42	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 45	.	.	PUNCT	_	_	3	punct	_	_
@@ -7070,7 +7070,7 @@
 26	doivent	devoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
 27	pas	pas	ADV	_	Polarity=Neg	26	advmod	_	_
 28	être	être	AUX	_	VerbForm=Inf	29	aux:pass	_	Subject=SubjRaising
-29	faites	faire	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	26	xcomp	_	Tense[denom]=Past
+29	faites	faire	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	26	xcomp	_	Status[Tense]=Denom
 30	sur	sur	ADP	_	_	32	case	_	_
 31	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 32	hygiène	hygiène	NOUN	_	Gender=Fem|Number=Sing	29	obl:mod	_	Exponence[Gender]=Inherent
@@ -7081,8 +7081,8 @@
 37	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	41	aux:tense	_	_
 38	même	même	ADV	_	_	39	advmod	_	_
 39	pas	pas	ADV	_	Polarity=Neg	41	advmod	_	_
-40	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	41	aux:pass	_	Tense[denom]=Past
-41	passé	passer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	29	parataxis	_	Tense[denom]=Past
+40	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	41	aux:pass	_	Status[Tense]=Denom
+41	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	29	parataxis	_	Status[Tense]=Denom
 42	derrière	derrière	ADP	_	_	44	case	_	_
 43	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
 44	porte	porte	NOUN	_	Gender=Fem|Number=Sing	41	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
@@ -7144,7 +7144,7 @@
 2	paroisse	paroisse	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	Exponence[Gender]=Inherent
 3	Marie-Reine-des-Coeurs	Marie-Reine-des-Coeurs	PROPN	_	_	2	appos	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
-5	située	situer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+5	située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	9	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -7301,7 +7301,7 @@
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	seule	seul	ADJ	_	Gender=Fem|Number=Sing	6	conj	_	_
-17	ouverte	ouvrir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	16	acl	_	Tense[denom]=Past
+17	ouverte	ouvrir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	acl	_	Status[Tense]=Denom
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	lundi	lundi	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 20	.	.	PUNCT	_	_	16	punct	_	_
@@ -7433,7 +7433,7 @@
 20	financières	financier	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	_
 21	tout	tout	ADV	_	_	23	advmod	_	_
 22	en	en	ADP	_	_	23	mark	_	_
-23	préservant	préserver	VERB	_	VerbForm=Part	10	advcl	_	Tense[denom]=Pres
+23	préservant	préserver	VERB	_	Tense=Pres|VerbForm=Part	10	advcl	_	Status[Tense]=Denom
 24	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	25	det	_	_
 25	image	image	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	Exponence[Gender]=Inherent
 26	et	et	CCONJ	_	_	28	cc	_	_
@@ -7447,7 +7447,7 @@
 # text = Nous avons dépensé avec ma femme 145 € pour une entrée, un plat et un dessert (sans alcool) !
 1	Nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	wordform=nous
 2	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
-3	dépensé	dépenser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+3	dépensé	dépenser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 4	avec	avec	ADP	_	_	6	case	_	_
 5	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	det	_	_
 6	femme	femme	NOUN	_	Gender=Fem|Number=Sing	3	obl:mod	_	Exponence[Gender]=Inherent
@@ -7472,13 +7472,13 @@
 # text = Nous avons pris possesion de 2 chambres cabines ayant les toilettes en commun : poussière et saleté étaient au rendez-vous !
 1	Nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	wordform=nous
 2	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
-3	pris	prendre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+3	pris	prendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 4	possesion	possession	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	3	obj:lvc	_	CorrectForm=possession|Exponence[Gender]=Inherent
 5	de	de	ADP	_	_	7	case	_	_
 6	2	2	NUM	_	Number=Plur	7	nummod	_	Exponence[Number]=Inherent
 7	chambres	chambre	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	Exponence[Gender]=Inherent
 8	cabines	cabine	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	Exponence[Gender]=Inherent
-9	ayant	avoir	VERB	_	VerbForm=Part	7	acl	_	Tense[denom]=Pres
+9	ayant	avoir	VERB	_	Tense=Pres|VerbForm=Part	7	acl	_	Status[Tense]=Denom
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	toilettes	toilette	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	Exponence[Gender]=Inherent
 12	en	en	ADP	_	ExtPos=ADV	9	xcomp	_	Idiom=Yes
@@ -7624,7 +7624,7 @@
 14	et	et	CCONJ	_	_	22	cc	_	_
 15	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	SpaceAfter=No
 16	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux:tense	_	_
-17	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	22	cop	_	Tense[denom]=Past
+17	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	cop	_	Status[Tense]=Denom
 18	ainsi	ainsi	ADV	_	ExtPos=ADP	21	case	_	Idiom=Yes
 19	que	que	SCONJ	_	_	18	fixed	_	InIdiom=Yes
 20	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	21	det	_	Exponence[Gender]=Absent
@@ -7736,7 +7736,7 @@
 6	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
 8	paisiblement	paisiblement	ADV	_	_	9	advmod	_	_
-9	séjourné	séjourner	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	2	advcl	_	Tense[denom]=Past
+9	séjourné	séjourner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	advcl	_	Status[Tense]=Denom
 10	dans	dans	ADP	_	_	12	case	_	_
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	chambre	chambre	NOUN	_	Gender=Fem|Number=Sing	9	obl:arg	_	Exponence[Gender]=Inherent
@@ -7943,9 +7943,9 @@
 # text = j'ai appelé, croyant dans ma grande naîveté qu'un service serait proposé.
 1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
-3	appelé	appeler	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No|Tense[denom]=Past
+3	appelé	appeler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No|Status[Tense]=Denom
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	croyant	croire	VERB	_	VerbForm=Part	3	advcl	_	Subject=Instantiated|Tense[denom]=Pres
+5	croyant	croire	VERB	_	Tense=Pres|VerbForm=Part	3	advcl	_	Status[Tense]=Denom|Subject=Instantiated
 6	dans	dans	ADP	_	_	9	case	_	_
 7	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	9	det	_	_
 8	grande	grand	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
@@ -7954,14 +7954,14 @@
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	service	service	NOUN	_	Gender=Masc|Number=Sing	14	nsubj:pass	_	Exponence[Gender]=Inherent
 13	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
-14	proposé	proposer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	ccomp	_	SpaceAfter=No|Tense[denom]=Past
+14	proposé	proposer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	ccomp	_	SpaceAfter=No|Status[Tense]=Denom
 15	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-test_00292
 # text = j'ai eu besoin de faire rénover mes serrures à la fois à titre particulier et professionel, et "Actif Dépannage" a, dans les deux cas été à la hauteur.
 1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
-3	eu	avoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+3	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 4	besoin	besoin	NOUN	_	Gender=Masc|Number=Sing	3	obj:lvc	_	Exponence[Gender]=Inherent
 5	de	de	ADP	_	_	7	mark	_	_
 6	faire	faire	AUX	_	VerbForm=Inf	7	aux:caus	_	Subject=SubjRaising
@@ -7988,7 +7988,7 @@
 27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	_
 28	deux	deux	NUM	_	Number=Plur	29	nummod	_	Exponence[Number]=Inherent
 29	cas	cas	NOUN	_	Gender=Masc|Number=Plur	33	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
-30	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	33	cop	_	Tense[denom]=Past
+30	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	cop	_	Status[Tense]=Denom
 31	à	à	ADP	_	_	33	case	_	_
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	hauteur	hauteur	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	Exponence[Gender]=Inherent|SpaceAfter=No
@@ -8044,7 +8044,7 @@
 12	,	,	PUNCT	_	_	2	punct	_	_
 13	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	SpaceAfter=No
 14	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
-15	fait	faire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+15	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 16	appel	appel	NOUN	_	Gender=Masc|Number=Sing	15	obj:lvc	_	Exponence[Gender]=Inherent
 17	à	à	ADP	_	_	18	case	_	_
 18	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	nmod	_	_
@@ -8099,7 +8099,7 @@
 1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	wordform=il
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 3	notamment	notamment	ADV	_	_	4	advmod	_	_
-4	gagné	gagner	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+4	gagné	gagner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	étape	étape	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	Exponence[Gender]=Inherent
 7-8	du	_	_	_	_	_	_	_	_
@@ -8120,7 +8120,7 @@
 20	Espagne	Espagne	PROPN	_	_	18	nmod	_	_
 21	2008	2008	NUM	_	ExtPos=PROPN|Number=Sing	18	nmod	_	Exponence[Number]=Inherent
 22	et	et	CCONJ	_	_	23	cc	_	_
-23	terminé	terminer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	conj	_	Tense[denom]=Past
+23	terminé	terminer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	Status[Tense]=Denom
 24	troisième	troisième	ADJ	_	Gender=Masc|Number=Sing	23	xcomp	_	Exponence[Gender]=Absent
 25	de	de	ADP	_	_	26	case	_	_
 26	Gand-Wevelgem	Gand-Wevelgem	PROPN	_	_	24	obl:mod	_	_
@@ -8154,7 +8154,7 @@
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	acteur	acteur	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Inherent
 6	américain	américain	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
-7	né	naître	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	5	acl	_	Tense[denom]=Past
+7	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	acl	_	Status[Tense]=Denom
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	18	18	NUM	_	ExtPos=PROPN|Number=Sing	7	obl:arg	_	Exponence[Number]=Inherent
 10	juin	juin	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	Exponence[Gender]=Inherent
@@ -8169,7 +8169,7 @@
 19	États-Unis	États-Unis	PROPN	_	_	16	nmod	_	SpaceAfter=No
 20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
-22	décédé	décéder	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	7	conj	_	Tense[denom]=Past
+22	décédé	décéder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	conj	_	Status[Tense]=Denom
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	8	8	NUM	_	ExtPos=PROPN|Number=Sing	22	obl:arg	_	Exponence[Number]=Inherent
 25	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	Exponence[Gender]=Inherent
@@ -8274,7 +8274,7 @@
 19	publics	public	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	_
 20	ivoiriens	ivoirien	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	_
 21	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux:tense	_	_
-22	introduit	introduire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+22	introduit	introduire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 23	dans	dans	ADP	_	_	25	case	_	_
 24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
 25	années	année	NOUN	_	Gender=Fem|Number=Plur	22	obl:mod	_	Exponence[Gender]=Inherent
@@ -8292,7 +8292,7 @@
 # text = Les produits échangés sont essentiellement du sel, de l'ambre, de l'huile, des céréales, du vin et de la viande salée.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	wordform=les
 2	produits	produit	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	Exponence[Gender]=Inherent
-3	échangés	échanger	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	acl	_	Tense[denom]=Past
+3	échangés	échanger	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	Status[Tense]=Denom
 4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 5	essentiellement	essentiellement	ADV	_	_	7	advmod	_	_
 6	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -8315,7 +8315,7 @@
 23	de	de	ADP	_	ExtPos=DET	25	det	_	Idiom=Yes
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	fixed	_	InIdiom=Yes
 25	viande	viande	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	Exponence[Gender]=Inherent
-26	salée	saler	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	25	acl	_	SpaceAfter=No|Tense[denom]=Past
+26	salée	saler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	25	acl	_	SpaceAfter=No|Status[Tense]=Denom
 27	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-dev_01486
@@ -8335,7 +8335,7 @@
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	barotraumatisme	barotraumatisme	NOUN	_	Gender=Masc|Number=Sing	11	obl:arg	_	Exponence[Gender]=Inherent
 15	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
-16	reconnue	reconnaître	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	advcl	_	Tense[denom]=Past
+16	reconnue	reconnaître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	Status[Tense]=Denom
 17	comme	comme	ADP	_	_	18	case	_	_
 18	maladie	maladie	NOUN	_	Gender=Fem|Number=Sing	16	obl:mod	_	Exponence[Gender]=Inherent
 19	professionnelle	professionnel	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
@@ -8394,7 +8394,7 @@
 1	Chen	Chen	PROPN	_	_	19	nsubj	_	_
 2	Xitong	Xitong	PROPN	_	_	1	flat:name	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	né	naître	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	1	acl	_	Tense[denom]=Past
+4	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	acl	_	Status[Tense]=Denom
 5	en	en	ADP	_	_	6	case	_	_
 6	juin	juin	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	Exponence[Gender]=Inherent
 7	1930	1930	NUM	_	ExtPos=PROPN|Number=Sing	6	nmod	_	Exponence[Number]=Inherent
@@ -8454,7 +8454,7 @@
 # text = Vedel fut consulté à de nombreuses reprises par des gouvernements français (de la IV et de la V) de toute obédience ainsi que par un certain nombre de gouvernements étrangers.
 1	Vedel	Vedel	PROPN	_	_	3	nsubj:pass	_	_
 2	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
-3	consulté	consulter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+3	consulté	consulter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 4	à	à	ADP	_	_	7	case	_	_
 5	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
 6	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
@@ -8534,7 +8534,7 @@
 9	plus	plus	ADV	_	_	10	advmod	_	_
 10	extérieure	extérieur	ADJ	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	dite	dire	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	7	acl	_	Tense[denom]=Past
+12	dite	dire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	Status[Tense]=Denom
 13	«	«	PUNCT	_	_	14	punct	_	_
 14	sphère	sphère	NOUN	_	Gender=Fem|Number=Sing	12	xcomp	_	Exponence[Gender]=Inherent
 15-16	des	_	_	_	_	_	_	_	_
@@ -8559,7 +8559,7 @@
 11	magnésium	magnésium	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	Exponence[Gender]=Inherent
 12	qui	qui	PRON	_	PronType=Rel	14	nsubj	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
-14	devenu	devenir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	11	acl:relcl	_	Tense[denom]=Past
+14	devenu	devenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	acl:relcl	_	Status[Tense]=Denom
 15	introuvable	introuvable	ADJ	_	Gender=Masc|Number=Sing	14	xcomp	_	Exponence[Gender]=Absent|SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -8568,8 +8568,8 @@
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
 2	station	station	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	Exponence[Gender]=Inherent
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-4	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	5	aux:pass	_	Tense[denom]=Past
-5	lancée	lancer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	Status[Tense]=Denom
+5	lancée	lancer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	7	7	NUM	_	ExtPos=PROPN|Number=Sing	5	obl:mod	_	Exponence[Number]=Inherent
 8	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	Exponence[Gender]=Inherent
@@ -8582,8 +8582,8 @@
 14	,	,	PUNCT	_	_	18	punct	_	_
 15	et	et	CCONJ	_	_	18	cc	_	_
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
-17	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	18	aux:pass	_	Tense[denom]=Past
-18	déplacée	déplacer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	conj	_	Tense[denom]=Past
+17	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux:pass	_	Status[Tense]=Denom
+18	déplacée	déplacer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	Status[Tense]=Denom
 19-20	au	_	_	_	_	_	_	_	_
 19	à	à	ADP	_	_	21	case	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -8602,8 +8602,8 @@
 # text = Elle a été impliquée dans plusieurs accidents aériens.
 1	Elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	wordform=elle
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
-3	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	4	aux:pass	_	Tense[denom]=Past
-4	impliquée	impliquer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	Status[Tense]=Denom
+4	impliquée	impliquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 5	dans	dans	ADP	_	_	7	case	_	_
 6	plusieurs	plusieurs	DET	_	Number=Plur|PronType=Ind	7	det	_	_
 7	accidents	accident	NOUN	_	Gender=Masc|Number=Plur	4	obl:arg	_	Exponence[Gender]=Inherent
@@ -8677,12 +8677,12 @@
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	main	main	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	Exponence[Gender]=Inherent
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
-12	entré	entrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+12	entré	entrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 13	et	et	CCONJ	_	_	17	cc	_	_
 14	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 15	m'	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	17	iobj	_	SpaceAfter=No
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:tense	_	_
-17	demandé	demander	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	12	conj	_	Tense[denom]=Past
+17	demandé	demander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	conj	_	Status[Tense]=Denom
 18	:	:	PUNCT	_	_	20	punct	_	_
 19	«	«	PUNCT	_	_	20	punct	_	_
 20	qu'	que	PRON	_	PronType=Int	17	ccomp	_	SpaceAfter=No
@@ -8905,7 +8905,7 @@
 6	Haut-Rhin	Haut-Rhin	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	Exponence[Gender]=Inherent
 7	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
-9	confié	confier	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+9	confié	confier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	réalisation	réalisation	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	Exponence[Gender]=Inherent
 12	de	de	ADP	_	_	14	case	_	_
@@ -8918,7 +8918,7 @@
 1	Simon	Simon	PROPN	_	_	14	nsubj	_	_
 2	Kessler	Kessler	PROPN	_	_	1	flat:name	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	né	naître	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	1	acl	_	Tense[denom]=Past
+4	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	acl	_	Status[Tense]=Denom
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	14	14	NUM	_	ExtPos=PROPN|Number=Sing	4	obl:arg	_	Exponence[Number]=Inherent
 7	mars	mars	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
@@ -9039,7 +9039,7 @@
 6	seulement	seulement	ADV	_	_	5	advmod	_	SpaceAfter=No
 7	)	)	PUNCT	_	_	5	punct	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
-9	chiffré	chiffrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+9	chiffré	chiffrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 10	à	à	ADP	_	_	12	case	_	_
 11	21,4	21,4	NUM	_	Number=Plur	12	nummod	_	Exponence[Number]=Inherent
 12	milliards	milliard	NOUN	_	Gender=Masc|Number=Plur	9	obl:arg	_	Exponence[Gender]=Inherent
@@ -9071,7 +9071,7 @@
 # text = La pratique combinée de ces trois points a pour effet de diminuer l'emprise des cinq kleśa (afflictions).
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
 2	pratique	pratique	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	Exponence[Gender]=Inherent
-3	combinée	combiner	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	Tense[denom]=Past
+3	combinée	combiner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	Status[Tense]=Denom
 4	de	de	ADP	_	_	7	case	_	_
 5	ces	ce	DET	_	Number=Plur|PronType=Dem	7	det	_	_
 6	trois	trois	NUM	_	Number=Plur	7	nummod	_	Exponence[Number]=Inherent
@@ -9098,7 +9098,7 @@
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
 2	pièce	pièce	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	Exponence[Gender]=Inherent
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
-4	retirée	retirer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+4	retirée	retirer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 5	de	de	ADP	_	_	7	case	_	_
 6	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 7	affiche	affiche	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	Exponence[Gender]=Inherent
@@ -9139,7 +9139,7 @@
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
 24	18	18	NUM	_	Number=Plur	25	nummod	_	Exponence[Number]=Inherent
 25	mètres	mètre	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	Exponence[Gender]=Inherent
-26	tiré	tirer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	20	acl	_	Tense[denom]=Past
+26	tiré	tirer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	acl	_	Status[Tense]=Denom
 27	à	à	ADP	_	_	28	case	_	_
 28	raz	raz	NOUN	_	Gender=Masc|Number=Sing	26	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 29	de	de	ADP	_	_	30	case	_	_
@@ -9232,7 +9232,7 @@
 33	construction	construction	NOUN	_	Gender=Fem|Number=Sing	30	obl:arg	_	Exponence[Gender]=Inherent|SpaceAfter=No
 34	,	,	PUNCT	_	_	36	punct	_	_
 35	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=3|PronType=Prs	36	iobj	_	_
-36	donnant	donner	VERB	_	VerbForm=Part	27	advcl	_	Subject=Instantiated|Tense[denom]=Pres
+36	donnant	donner	VERB	_	Tense=Pres|VerbForm=Part	27	advcl	_	Status[Tense]=Denom|Subject=Instantiated
 37	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 38	teinte	teinte	NOUN	_	Gender=Fem|Number=Sing	36	obj	_	Exponence[Gender]=Inherent
 39	sombre	sombre	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	Exponence[Gender]=Absent
@@ -9264,7 +9264,7 @@
 13	DD-889	DD-889	X	_	ExtPos=PROPN	8	appos	_	SpaceAfter=No
 14	)	)	PUNCT	_	_	13	punct	_	_
 15	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
-16	baptisé	baptiser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+16	baptisé	baptiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 17	en	en	ADP	_	_	19	case	_	_
 18	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	19	det	_	_
 19	honneur	honneur	NOUN	_	Gender=Masc|Number=Sing	16	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
@@ -9293,7 +9293,7 @@
 8	Aile	Aile	PROPN	_	_	7	flat:name	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
-11	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	14	cop	_	Tense[denom]=Past
+11	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	cop	_	Status[Tense]=Denom
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 13	premier	premier	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
 14	abbé	abbé	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Inherent
@@ -9318,7 +9318,7 @@
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Golfe	Golfe	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	devant	devoir	VERB	_	VerbForm=Part	2	acl	_	Tense[denom]=Pres
+8	devant	devoir	VERB	_	Tense=Pres|VerbForm=Part	2	acl	_	Status[Tense]=Denom
 9	déboucher	déboucher	VERB	_	VerbForm=Inf	8	xcomp	_	Subject=SubjRaising
 10	vers	vers	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -9343,7 +9343,7 @@
 29	de	de	ADP	_	_	31	case	_	_
 30	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	_
 31	divergences	divergence	NOUN	_	Gender=Fem|Number=Plur	24	obl:arg	_	Exponence[Gender]=Inherent
-32	nées	naître	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Act	31	acl	_	Tense[denom]=Past
+32	nées	naître	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	31	acl	_	Status[Tense]=Denom
 33	entre	entre	ADP	_	_	34	case	_	_
 34	Ryadh	Ryadh	PROPN	_	_	32	obl:mod	_	_
 35	et	et	CCONJ	_	_	36	cc	_	_
@@ -9381,11 +9381,11 @@
 12	GPL	GPL	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	Exponence[Gender]=Inherent
 13	2	2	NUM	_	ExtPos=PROPN|Number=Sing	12	nmod	_	Exponence[Number]=Inherent
 14	en	en	ADP	_	_	15	mark	_	_
-15	redistribuant	redistribuer	VERB	_	VerbForm=Part	6	advcl	_	Tense[denom]=Pres
+15	redistribuant	redistribuer	VERB	_	Tense=Pres|VerbForm=Part	6	advcl	_	Status[Tense]=Denom
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	code	code	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	Exponence[Gender]=Inherent
 18	source	source	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	Exponence[Gender]=Inherent
-19	modifié	modifier	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	17	acl	_	SpaceAfter=No|Tense[denom]=Past
+19	modifié	modifier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	acl	_	SpaceAfter=No|Status[Tense]=Denom
 20	,	,	PUNCT	_	_	6	punct	_	_
 21	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	22	det	_	_
 22	modification	modification	NOUN	_	Gender=Fem|Number=Sing	28	nsubj	_	Exponence[Gender]=Inherent
@@ -9399,7 +9399,7 @@
 30	sur	sur	ADP	_	_	32	case	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	matériel	matériel	NOUN	_	Gender=Masc|Number=Sing	29	obl:mod	_	Exponence[Gender]=Inherent
-33	distribué	distribuer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	32	acl	_	Tense[denom]=Past
+33	distribué	distribuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	32	acl	_	Status[Tense]=Denom
 34	par	par	ADP	_	_	35	case	_	_
 35	TiVo	TiVo	PROPN	_	_	33	obl:agent	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	28	punct	_	_
@@ -9410,7 +9410,7 @@
 2	1784	1784	NUM	_	ExtPos=PROPN|Number=Sing	5	obl:mod	_	Exponence[Number]=Inherent
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	_
 4	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
-5	anobli	anoblir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+5	anobli	anoblir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 6	et	et	CCONJ	_	_	8	cc	_	_
 7	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	8	expl:pv	_	SpaceAfter=No
 8	appela	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
@@ -9453,7 +9453,7 @@
 4	Saint-Léonard	Saint-Léonard	PROPN	_	_	2	nmod	_	_
 5	n'	ne	ADV	_	Polarity=Neg	7	advmod	_	SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
-7	desservie	desservir	VERB	_	Gender=Fem|Number=Sing|Typo=Yes|VerbForm=Part|Voice=Pass	0	root	_	CorrectForm=desservi|CorrectGender=Masc|Tense[denom]=Past
+7	desservie	desservir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass	0	root	_	CorrectForm=desservi|CorrectGender=Masc|Status[Tense]=Denom
 8	que	que	ADV	_	Polarity=Neg	11	advmod	_	_
 9	par	par	ADP	_	_	11	case	_	_
 10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
@@ -9480,7 +9480,7 @@
 1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	wordform=il
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 3	aussi	aussi	ADV	_	_	4	advmod	_	_
-4	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+4	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 5	en	en	ADP	_	_	6	case	_	_
 6	vers	vers	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -9505,7 +9505,7 @@
 26	qui	qui	PRON	_	PronType=Rel	29	nsubj	_	_
 27	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	29	expl:pass	_	SpaceAfter=No
 28	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux:tense	_	_
-29	jouée	jouer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	25	acl:relcl	_	Tense[denom]=Past
+29	jouée	jouer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	25	acl:relcl	_	Status[Tense]=Denom
 30	en	en	ADP	_	_	32	case	_	_
 31	deux	deux	NUM	_	Number=Plur	32	nummod	_	Exponence[Number]=Inherent
 32	fois	fois	NOUN	_	Gender=Fem|Number=Plur	29	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
@@ -9561,12 +9561,12 @@
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	Crown	Crown	PROPN	_	_	3	appos	_	_
 9	602	602	NUM	_	ExtPos=PROPN|Number=Sing	8	nmod	_	Exponence[Number]=Inherent
-10	fabriquée	fabriquer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	acl	_	Tense[denom]=Past
+10	fabriquée	fabriquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	Status[Tense]=Denom
 11	par	par	ADP	_	_	12	case	_	_
 12	Taito	Taito	PROPN	_	_	10	obl:agent	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	10	punct	_	_
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
-15	apparue	apparaître	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+15	apparue	apparaître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 16-17	au	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	18	case	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -9580,7 +9580,7 @@
 1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	wordform=il
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
 3	fortement	fortement	ADV	_	_	4	advmod	_	_
-4	bridé	brider	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+4	bridé	brider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 5	sur	sur	ADP	_	_	7	case	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	version	version	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	Exponence[Gender]=Inherent
@@ -9645,7 +9645,7 @@
 8	mélodie	mélodie	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Exponence[Gender]=Inherent
 9	envoutante	envoûtant	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
-11	jouée	jouer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	8	acl	_	Tense[denom]=Past
+11	jouée	jouer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	Status[Tense]=Denom
 12	sur	sur	ADP	_	_	14	case	_	_
 13	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
 14	scène	scène	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
@@ -9661,12 +9661,12 @@
 5	de	de	ADP	_	_	7	case	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	entreprises	entreprise	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	Exponence[Gender]=Inherent
-8	ayant	avoir	AUX	_	VerbForm=Part	9	aux:tense	_	Tense[denom]=Pres
-9	obtenu	obtenir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	4	acl	_	Tense[denom]=Past
+8	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	9	aux:tense	_	Status[Tense]=Denom
+9	obtenu	obtenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	acl	_	Status[Tense]=Denom
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	prêt	prêt	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	Exponence[Gender]=Inherent
 12	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
-13	dû	devoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	1	parataxis	_	Tense[denom]=Past
+13	dû	devoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	parataxis	_	Status[Tense]=Denom
 14	apporter	apporter	VERB	_	VerbForm=Inf	13	xcomp	_	Subject=SubjRaising
 15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	garantie	garantie	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	Exponence[Gender]=Inherent|SpaceAfter=No
@@ -9689,7 +9689,7 @@
 32	qui	qui	PRON	_	PronType=Rel	35	nsubj	_	_
 33	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	35	expl:pv	_	_
 34	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	aux:tense	_	Filler=subj
-35	portés	porter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	31	advcl:cleft	_	Tense[denom]=Past
+35	portés	porter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	31	advcl:cleft	_	Status[Tense]=Denom
 36	garants	garant	NOUN	_	Gender=Masc|Number=Plur	35	xcomp	_	Exponence[Gender]=Inherent|SpaceAfter=No
 37	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -9726,7 +9726,7 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	Exponence[Gender]=Inherent
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
-4	composé	composer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+4	composé	composer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 5	de	de	ADP	_	_	6	case	_	_
 6	Phil	Phil	PROPN	_	_	4	obl:arg	_	_
 7	Hartley	Hartley	PROPN	_	_	6	flat:name	_	_
@@ -9766,8 +9766,8 @@
 9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj:pass	_	_
 10	m'	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	13	iobj	_	SpaceAfter=No
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
-12	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	13	aux:pass	_	Tense[denom]=Past
-13	changé	changer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	conj	_	Tense[denom]=Past
+12	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	aux:pass	_	Status[Tense]=Denom
+13	changé	changer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	Status[Tense]=Denom
 14-15	au	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -9777,7 +9777,7 @@
 19	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	22	nsubj:pass	_	SpaceAfter=No
 20	y	y	PRON	_	Emph=No|Person=3|PronType=Prs	22	iobj	_	_
 21	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
-22	retourné	retourner	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	advcl	_	SpaceAfter=No|Tense[denom]=Past
+22	retourné	retourner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	advcl	_	SpaceAfter=No|Status[Tense]=Denom
 23	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-dev_01538
@@ -9803,7 +9803,7 @@
 # text = Abraham est né à Dantzig, Allemagne (maintenant Gdańsk en Pologne) dans une famille de marchands juifs.
 1	Abraham	Abraham	PROPN	_	_	3	nsubj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
-3	né	naître	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+3	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 4	à	à	ADP	_	_	5	case	_	_
 5	Dantzig	Dantzig	PROPN	_	_	3	obl:arg	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
@@ -9843,7 +9843,7 @@
 
 # sent_id = fr-ud-dev_01541
 # text = Prédisant un duo avec le chanteur, le public s'attendait à un titre bouillonnant mais il s'agit finalement d'un morceau usuel parmi les chansons autobiographique que Madonna estime plus adultes.
-1	Prédisant	prédire	VERB	_	VerbForm=Part	11	advcl	_	Subject=Instantiated|Tense[denom]=Pres|wordform=prédisant
+1	Prédisant	prédire	VERB	_	Tense=Pres|VerbForm=Part	11	advcl	_	Status[Tense]=Denom|Subject=Instantiated|wordform=prédisant
 2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	duo	duo	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	Exponence[Gender]=Inherent
 4	avec	avec	ADP	_	_	6	case	_	_
@@ -9916,14 +9916,14 @@
 # text = Il est servi dans un pot en verre, contenant une crème au Kirsch et un biscuit rose de Reims mouillé au Champagne, le tout surmonté de gariguettes et de crème chantilly.
 1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	wordform=il
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
-3	servi	servir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+3	servi	servir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 4	dans	dans	ADP	_	_	6	case	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	pot	pot	NOUN	_	Gender=Masc|Number=Sing	3	obl:arg	_	Exponence[Gender]=Inherent
 7	en	en	ADP	_	_	8	case	_	_
 8	verre	verre	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	contenant	contenir	VERB	_	VerbForm=Part	6	acl	_	Tense[denom]=Pres
+10	contenant	contenir	VERB	_	Tense=Pres|VerbForm=Part	6	acl	_	Status[Tense]=Denom
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	crème	crème	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	Exponence[Gender]=Inherent
 13-14	au	_	_	_	_	_	_	_	_
@@ -9936,7 +9936,7 @@
 19	rose	rose	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	Exponence[Gender]=Absent
 20	de	de	ADP	_	_	21	case	_	_
 21	Reims	Reims	PROPN	_	_	18	nmod	_	_
-22	mouillé	mouiller	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	18	acl	_	Tense[denom]=Past
+22	mouillé	mouiller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	acl	_	Status[Tense]=Denom
 23-24	au	_	_	_	_	_	_	_	_
 23	à	à	ADP	_	_	25	case	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
@@ -9944,7 +9944,7 @@
 26	,	,	PUNCT	_	_	29	punct	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	29	nsubj:pass	_	_
-29	surmonté	surmonter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	advcl	_	Tense[denom]=Past
+29	surmonté	surmonter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	Status[Tense]=Denom
 30	de	de	ADP	_	_	31	case	_	_
 31	gariguettes	gariguette	NOUN	_	Gender=Fem|Number=Plur	29	obl:agent	_	Exponence[Gender]=Inherent
 32	et	et	CCONJ	_	_	34	cc	_	_
@@ -9958,7 +9958,7 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	chef	chef	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	Exponence[Gender]=Inherent
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
-4	ramené	ramener	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+4	ramené	ramener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 5	de	de	ADP	_	_	7	case	_	_
 6	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	_
 7	années	année	NOUN	_	Gender=Fem|Number=Plur	4	obl:mod	_	Exponence[Gender]=Inherent
@@ -9972,7 +9972,7 @@
 14	audacieuse	audacieux	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
 15	tout	tout	ADV	_	_	17	advmod	_	_
 16	en	en	ADP	_	_	17	mark	_	_
-17	respectant	respecter	VERB	_	VerbForm=Part	4	advcl	_	Tense[denom]=Pres
+17	respectant	respecter	VERB	_	Tense=Pres|VerbForm=Part	4	advcl	_	Status[Tense]=Denom
 18	parfaitement	parfaitement	ADV	_	_	17	advmod	_	_
 19	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
 20	produits	produit	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	Exponence[Gender]=Inherent
@@ -9992,8 +9992,8 @@
 3	de	de	ADP	_	_	4	case	_	_
 4	protestation	protestation	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	Exponence[Gender]=Inherent
 5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
-6	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	7	aux:pass	_	Tense[denom]=Past
-7	conduites	conduire	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	Status[Tense]=Denom
+7	conduites	conduire	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 8	par	par	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 10	Association	association	NOUN	_	Gender=Fem|Number=Sing	7	obl:agent	_	Exponence[Gender]=Inherent|wordform=association
@@ -10035,8 +10035,8 @@
 # text = Elle a été découverte à 1000 m d'altitude dans les monts des Cardamomes.
 1	Elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	wordform=elle
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
-3	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	4	aux:pass	_	Tense[denom]=Past
-4	découverte	découvrir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	Status[Tense]=Denom
+4	découverte	découvrir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 5	à	à	ADP	_	_	7	case	_	_
 6	1000	1000	NUM	_	Number=Plur	7	nummod	_	Exponence[Number]=Inherent
 7	m	mètre	NOUN	_	Gender=Masc|Number=Plur	4	obl:mod	_	Exponence[Gender]=Inherent
@@ -10065,7 +10065,7 @@
 10	Gaudin	Gaudin	PROPN	_	_	9	flat:name	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
 12	notamment	notamment	ADV	_	_	13	advmod	_	_
-13	remporté	remporter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+13	remporté	remporter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 14	trois	trois	NUM	_	Number=Plur	15	nummod	_	Exponence[Number]=Inherent
 15	titres	titre	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	Exponence[Gender]=Inherent
 16-17	au	_	_	_	_	_	_	_	_
@@ -10135,7 +10135,7 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	français	français	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	Exponence[Gender]=Inherent
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
-4	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+4	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 5-6	au	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -10174,7 +10174,7 @@
 2	Académie	académie	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	Exponence[Gender]=Inherent|wordform=académie
 3	Équestre	équestre	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	Exponence[Gender]=Absent|wordform=équestre
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-5	été	être	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+5	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 6	dans	dans	ADP	_	_	8	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	sélection	sélection	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	Exponence[Gender]=Inherent
@@ -10223,7 +10223,7 @@
 27	Ludwig	Ludwig	PROPN	_	_	26	appos	_	_
 28	Scotty	Scotty	PROPN	_	_	27	flat:name	_	_
 29	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	_
-30	écarté	écarter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	advcl	_	Tense[denom]=Past
+30	écarté	écarter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	advcl	_	Status[Tense]=Denom
 31	de	de	ADP	_	_	33	case	_	_
 32	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	33	det	_	_
 33	fonction	fonction	NOUN	_	Gender=Fem|Number=Sing	30	obl:arg	_	Exponence[Gender]=Inherent
@@ -10261,8 +10261,8 @@
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
-6	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	7	aux:pass	_	Tense[denom]=Past
-7	décidé	décider	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	Status[Tense]=Denom
+7	décidé	décider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 8	de	de	ADP	_	_	9	mark	_	_
 9	faire	faire	VERB	_	VerbForm=Inf	7	csubj:pass	_	Subject=Generic
 10	Freddy	Freddy	PROPN	_	_	9	obj	_	_
@@ -10295,7 +10295,7 @@
 9	II	II	NUM	_	ExtPos=PROPN|Number=Sing	7	nmod	_	Exponence[Number]=Inherent
 10	n'	ne	ADV	_	Polarity=Neg	12	advmod	_	SpaceAfter=No
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
-12	abordé	aborder	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+12	abordé	aborder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 13	de	de	ADP	_	_	14	case	_	_
 14	front	front	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	Exponence[Gender]=Inherent
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -10323,7 +10323,7 @@
 # text = Elle est organisée par "Poesia-2 Ottobre", une association à but non lucratif qui œuvre en faveur de la poésie, conçue comme vecteur privilégié de dialogue interculturel et de diffusion des valeurs humanistes.
 1	Elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	wordform=elle
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
-3	organisée	organiser	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+3	organisée	organiser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 4	par	par	ADP	_	_	6	case	_	_
 5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	Poesia	Poesia	PROPN	_	_	3	obl:agent	_	SpaceAfter=No
@@ -10346,10 +10346,10 @@
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	poésie	poésie	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
-26	conçue	concevoir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	24	acl	_	Tense[denom]=Past
+26	conçue	concevoir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	24	acl	_	Status[Tense]=Denom
 27	comme	comme	ADP	_	_	28	case	_	_
 28	vecteur	vecteur	NOUN	_	Gender=Masc|Number=Sing	26	obl:mod	_	Exponence[Gender]=Inherent
-29	privilégié	privilégier	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	28	acl	_	Tense[denom]=Past
+29	privilégié	privilégier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	28	acl	_	Status[Tense]=Denom
 30	de	de	ADP	_	_	31	case	_	_
 31	dialogue	dialogue	NOUN	_	Gender=Masc|Number=Sing	29	obl:mod	_	Exponence[Gender]=Inherent
 32	interculturel	interculturel	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
@@ -10423,7 +10423,7 @@
 20	transcontinental	transcontinental	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	aujourd'hui	aujourd'hui	ADV	_	_	23	advmod	_	_
-23	conservé	conserver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	Tense[denom]=Past
+23	conservé	conserver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	Status[Tense]=Denom
 24-25	au	_	_	_	_	_	_	_	_
 24	à	à	ADP	_	_	26	case	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
@@ -10464,7 +10464,7 @@
 3	de	de	ADP	_	_	4	case	_	_
 4	Cachoubie	Cachoubie	PROPN	_	_	2	nmod	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
-6	réputée	réputer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+6	réputée	réputer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 7	plus	plus	ADV	_	_	8	advmod	_	_
 8	savoureuse	savoureux	ADJ	_	Gender=Fem|Number=Sing	6	xcomp	_	_
 9	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
@@ -10498,7 +10498,7 @@
 10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
 11	fonctionnaires	fonctionnaire	NOUN	_	Gender=Masc|Number=Plur	0	root	_	Exponence[Gender]=Inherent|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	soumis	soumettre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	11	acl	_	Tense[denom]=Past
+13	soumis	soumettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	11	acl	_	Status[Tense]=Denom
 14	à	à	ADP	_	_	16	case	_	_
 15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	période	période	NOUN	_	Gender=Fem|Number=Sing	13	obl:arg	_	Exponence[Gender]=Inherent
@@ -10573,7 +10573,7 @@
 10	mesures	mesure	NOUN	_	Gender=Fem|Number=Plur	13	nsubj:pass	_	Exponence[Gender]=Inherent
 11	décisives	décisif	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
 12	seront	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	13	aux:pass	_	_
-13	prises	prendre	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	7	ccomp	_	Tense[denom]=Past
+13	prises	prendre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	ccomp	_	Status[Tense]=Denom
 14	pour	pour	ADP	_	_	15	mark	_	_
 15	faire	faire	VERB	_	VerbForm=Inf	13	advcl	_	Subject=Generic
 16	face	face	NOUN	_	Gender=Fem|Number=Sing	15	obj:lvc	_	Exponence[Gender]=Inherent
@@ -10700,7 +10700,7 @@
 21	lorsqu'	lorsque	SCONJ	_	_	24	mark	_	SpaceAfter=No
 22	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj:pass	_	_
 23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:pass	_	_
-24	amené	amener	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	35	advcl	_	Tense[denom]=Past
+24	amené	amener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	35	advcl	_	Status[Tense]=Denom
 25	à	à	ADP	_	_	26	mark	_	_
 26	faire	faire	VERB	_	VerbForm=Inf	24	xcomp	_	Subject=SubjRaising
 27	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
@@ -10721,7 +10721,7 @@
 42	épargne	épargne	NOUN	_	Gender=Fem|Number=Sing	40	nsubj	_	Exponence[Gender]=Inherent|SpaceAfter=No
 43	,	,	PUNCT	_	_	48	punct	_	_
 44	autrement	autrement	ADV	_	_	45	advmod	_	_
-45	dit	dire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	48	advcl	_	SpaceAfter=No|Tense[denom]=Past
+45	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	48	advcl	_	SpaceAfter=No|Status[Tense]=Denom
 46	,	,	PUNCT	_	_	45	punct	_	_
 47	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	48	nsubj	_	_
 48	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	conj	_	_
@@ -10799,7 +10799,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj:pass	_	_
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
-6	éliminés	éliminer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+6	éliminés	éliminer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 7	par	par	ADP	_	_	9	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	club	club	NOUN	_	Gender=Masc|Number=Sing	6	obl:agent	_	Exponence[Gender]=Inherent
@@ -10831,7 +10831,7 @@
 8	peintres	peintre	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	surnom	surnom	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	Exponence[Gender]=Inherent
-11	dû	devoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	10	acl	_	Tense[denom]=Past
+11	dû	devoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	Status[Tense]=Denom
 12	à	à	ADP	_	_	14	case	_	_
 13	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	14	det	_	_
 14	rues	rue	NOUN	_	Gender=Fem|Number=Plur	11	obl:arg	_	Exponence[Gender]=Inherent
@@ -10846,7 +10846,7 @@
 22	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	quartier	quartier	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Inherent
-25	situé	situer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	24	acl	_	Tense[denom]=Past
+25	situé	situer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	24	acl	_	Status[Tense]=Denom
 26	dans	dans	ADP	_	_	28	case	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	nord	nord	NOUN	_	Gender=Masc|Number=Sing	25	obl:arg	_	Exponence[Gender]=Inherent
@@ -10866,7 +10866,7 @@
 1	De	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	3	det	_	wordform=de
 2	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
 3	espèces	espèce	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	Exponence[Gender]=Inherent
-4	devenues	devenir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Act	3	acl	_	Tense[denom]=Past
+4	devenues	devenir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	3	acl	_	Status[Tense]=Denom
 5	rares	rare	ADJ	_	Gender=Fem|Number=Plur	4	xcomp	_	Exponence[Gender]=Absent
 6	ou	ou	CCONJ	_	_	7	cc	_	_
 7	menacées	menacé	ADJ	_	Gender=Fem|Number=Plur	5	conj	_	_
@@ -10958,8 +10958,8 @@
 15	PNL	PNL	PROPN	_	_	12	appos	_	SpaceAfter=No
 16	)	)	PUNCT	_	_	15	punct	_	_
 17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:tense	_	_
-18	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	19	aux:pass	_	Tense[denom]=Past
-19	élu	élire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+18	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	aux:pass	_	Status[Tense]=Denom
+19	élu	élire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 20	maire	maire	NOUN	_	Gender=Masc|Number=Sing	19	xcomp	_	Exponence[Gender]=Inherent
 21	de	de	ADP	_	_	23	case	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
@@ -10985,7 +10985,7 @@
 14	Signy-le-Petit	Signy-le-Petit	PROPN	_	_	12	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	5	punct	_	_
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:tense	_	_
-17	conclu	conclure	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+17	conclu	conclure	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Status[Tense]=Denom
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	bail	bail	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	Exponence[Gender]=Inherent
 20	commercial	commercial	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
@@ -11044,7 +11044,7 @@
 # text = Le pré salé dans son dernier méandre avant l'océan fait l'objet d'un inventaire ZNIEFF de type 1 en 1990.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	pré	pré	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	Exponence[Gender]=Inherent
-3	salé	saler	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	Tense[denom]=Past
+3	salé	saler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	Status[Tense]=Denom
 4	dans	dans	ADP	_	_	7	case	_	_
 5	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	_
 6	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
@@ -11133,7 +11133,7 @@
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
 22	Gaulois	Gaulois	PROPN	_	Number=Plur	18	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
-24	attestant	attester	VERB	_	VerbForm=Part	6	acl	_	Tense[denom]=Pres
+24	attestant	attester	VERB	_	Tense=Pres|VerbForm=Part	6	acl	_	Status[Tense]=Denom
 25	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 26	existence	existence	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	Exponence[Gender]=Inherent
 27	d'	de	ADP	_	_	29	case	_	SpaceAfter=No
@@ -11157,8 +11157,8 @@
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	Exponence[Gender]=Inherent
 13	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
-14	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	15	aux:pass	_	Tense[denom]=Past
-15	rejetées	rejeter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+14	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux:pass	_	Status[Tense]=Denom
+15	rejetées	rejeter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 16	par	par	ADP	_	_	18	case	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	Cour	cour	NOUN	_	Gender=Fem|Number=Sing	15	obl:agent	_	Exponence[Gender]=Inherent|wordform=cour
@@ -11173,7 +11173,7 @@
 2	qu'	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes|SpaceAfter=No
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	ait	avoir	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-5	eu	avoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	13	advcl	_	Tense[denom]=Past
+5	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	advcl	_	Status[Tense]=Denom
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	fils	fils	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
@@ -11184,7 +11184,7 @@
 13	homosexuel	homosexuel	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:tense	_	_
-16	eu	avoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	13	conj	_	Tense[denom]=Past
+16	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	conj	_	Status[Tense]=Denom
 17	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	19	det	_	_
 18	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	_
 19	relations	relation	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	Exponence[Gender]=Inherent
@@ -11206,7 +11206,7 @@
 35	grand	grand	ADJ	_	Gender=Masc|Number=Sing	32	conj	_	InTitle=Yes
 36	et	et	CCONJ	_	_	38	cc	_	InTitle=Yes
 37	pas	pas	ADV	_	Polarity=Neg	38	advmod	_	InTitle=Yes
-38	coupé	couper	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	32	conj	_	InTitle=Yes|Tense[denom]=Past
+38	coupé	couper	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	32	conj	_	InTitle=Yes|Status[Tense]=Denom
 39	et	et	CCONJ	_	_	42	cc	_	_
 40	dans	dans	ADP	_	_	42	case	_	_
 41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
@@ -11245,10 +11245,10 @@
 16	médecins	médecin	NOUN	_	Gender=Masc|Number=Plur	10	obl:mod	_	Exponence[Gender]=Inherent
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	traité	traité	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	Exponence[Gender]=Inherent
-19	intitulé	intituler	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	18	acl	_	Tense[denom]=Past
+19	intitulé	intituler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	acl	_	Status[Tense]=Denom
 20	Iconographie	iconographie	NOUN	_	Gender=Fem|Number=Sing	19	xcomp	_	Exponence[Gender]=Inherent|wordform=iconographie
 21	photographique	photographique	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	Exponence[Gender]=Absent
-22	appliquée	appliquer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	20	acl	_	Tense[denom]=Past
+22	appliquée	appliquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	acl	_	Status[Tense]=Denom
 23	à	à	ADP	_	_	25	case	_	_
 24	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 25	ophtalmologie	ophtalmologie	NOUN	_	Gender=Fem|Number=Sing	22	obl:arg	_	Exponence[Gender]=Inherent
@@ -11340,7 +11340,7 @@
 26	que	que	PRON	_	PronType=Rel	29	obj	_	_
 27	se	soi	PRON	_	Emph=No|Person=3|PronType=Prs|Reflex=Yes	29	iobj	_	_
 28	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux:tense	_	_
-29	données	donner	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Act	24	acl:relcl	_	Tense[denom]=Past
+29	données	donner	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	24	acl:relcl	_	Status[Tense]=Denom
 30	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	_
 31	acteurs	acteur	NOUN	_	Gender=Masc|Number=Plur	29	nsubj	_	Exponence[Gender]=Inherent
 32	de	de	ADP	_	_	33	case	_	_
@@ -11378,9 +11378,9 @@
 1	Ces	ce	DET	_	Number=Plur|PronType=Dem	2	det	_	wordform=ces
 2	illusions	illusion	NOUN	_	Gender=Fem|Number=Plur	6	nsubj:pass	_	Exponence[Gender]=Inherent
 3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
-4	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	6	aux:pass	_	Tense[denom]=Past
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	Status[Tense]=Denom
 5	particulièrement	particulièrement	ADV	_	_	6	advmod	_	_
-6	étudiées	étudier	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+6	étudiées	étudier	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 7	par	par	ADP	_	_	8	case	_	_
 8	John	John	PROPN	_	_	6	obl:agent	_	_
 9	Chowning	Chowning	PROPN	_	_	8	flat:name	_	_
@@ -11414,12 +11414,12 @@
 36	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 37	ordinateur	ordinateur	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	Exponence[Gender]=Inherent
 38	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	aux:tense	_	_
-39	créé	créer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	26	acl:relcl	_	Tense[denom]=Past
+39	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	26	acl:relcl	_	Status[Tense]=Denom
 40	plusieurs	plusieurs	DET	_	Number=Plur|PronType=Ind	41	det	_	_
 41	formes	forme	NOUN	_	Gender=Fem|Number=Plur	39	obj	_	Exponence[Gender]=Inherent
 42	d'	de	ADP	_	_	43	case	_	SpaceAfter=No
 43	illusions	illusion	NOUN	_	Gender=Fem|Number=Plur	41	nmod	_	Exponence[Gender]=Inherent
-44	intégrées	intégrer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	41	acl	_	Tense[denom]=Past
+44	intégrées	intégrer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	41	acl	_	Status[Tense]=Denom
 45	dans	dans	ADP	_	_	47	case	_	_
 46	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	47	det	_	_
 47	œuvres	œuvre	NOUN	_	Gender=Fem|Number=Plur	44	obl:arg	_	Exponence[Gender]=Inherent|SpaceAfter=No
@@ -11452,8 +11452,8 @@
 22	Ben	Ben	PROPN	_	_	21	appos	_	_
 23	Ali	Ali	PROPN	_	_	22	flat:name	_	_
 24	ait	avoir	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:tense	_	_
-25	été	être	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	26	aux:pass	_	Tense[denom]=Past
-26	réélu	réélire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	advcl	_	Tense[denom]=Past
+25	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	aux:pass	_	Status[Tense]=Denom
+26	réélu	réélire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	advcl	_	Status[Tense]=Denom
 27	avec	avec	ADP	_	_	29	case	_	_
 28	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	score	score	NOUN	_	Gender=Masc|Number=Sing	26	obl:mod	_	Exponence[Gender]=Inherent
@@ -11487,7 +11487,7 @@
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	communaux	communaux	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	Exponence[Gender]=Inherent
 13	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	aux:pass	_	_
-14	organisée	organiser	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
+14	organisée	organiser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
 15	à	à	ADP	_	_	17	case	_	_
 16	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 17	issue	issue	NOUN	_	Gender=Fem|Number=Sing	14	obl:mod	_	Exponence[Gender]=Inherent
@@ -11517,7 +11517,7 @@
 1	Anne-Sophie	Anne-Sophie	PROPN	_	_	14	nsubj	_	_
 2	Mathis	Mathis	PROPN	_	_	1	flat:name	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
-4	née	naître	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	1	acl	_	Tense[denom]=Past
+4	née	naître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	acl	_	Status[Tense]=Denom
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	13	13	NUM	_	ExtPos=PROPN|Number=Sing	4	obl:arg	_	Exponence[Number]=Inherent
 7	juin	juin	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	Exponence[Gender]=Inherent

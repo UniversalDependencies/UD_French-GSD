@@ -49,10 +49,10 @@ Following discussion in [issue #30](https://github.com/UniversalDependencies/UD_
 The annotation system in 2.19 is then consistent with the ones used in version 2.15 and earlier.
 
 * 2026-11-15 v2.19
-  * Restore basic (non-layered) `Tense` morphosyntactic features on `on `VERB` with `VerbForm=Part`. Feature status is now recorded in the MISC column with  `Status[Tense]=Denom`.
+  * Restore basic (non-layered) `Tense` morphosyntactic features on `VERB` with `VerbForm=Part`. Feature status is now recorded in the MISC column with  `Status[Tense]=Denom`.
 
 * 2026-05-15 v2.18
-  * Restore basic (non-layered) `Gender` and `Number` morphosyntactic features on `NOUN` and `ADJ`. Feature status is now recorded in the MISC column with  `Exponence[Gender]` and `Exponence[Number]` (see [#985](https://github.com/UniversalDependencies/docs/issues/985).
+  * Restore basic (non-layered) `Gender` and `Number` morphosyntactic features on `NOUN` and `ADJ`. Feature status is now recorded in the MISC column with  `Exponence[Gender]` and `Exponence[Number]` (see [#985](https://github.com/UniversalDependencies/docs/issues/985)).
 
 * 2025-11-15 v2.17
   * Introduction of layered morphosyntactic features `Gender[lex]` on `NOUN` and `Tense[denom]` on `VERB` with `VerbForm=Part` 

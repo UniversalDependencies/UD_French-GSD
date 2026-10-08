@@ -43,10 +43,26 @@ du français annotés en Universal Dependencies.* Traitement Automatique des Lan
 60 (2), pp.71-95. [hal-02267418](https://hal.inria.fr/hal-02267418)
 
 # Changelog
+**Note:** Alternative proposals for encoding morphosyntactic features (presented in [Status of morphosyntactic features Illustration with written and spoken French UD treebanks](https://aclanthology.org/2025.tlt-1.18/), Kahane et al., TLT-SyntaxFest 2025) were proposed and partially implemented in versions 2.16, 2.17 and 2.18 (see details below).
+
+Following discussion in [issue #30](https://github.com/UniversalDependencies/UD_French-GSD/issues/30), we have restored the initial annotations in 2.19.
+The annotation system in 2.19 is then consistent with the ones used in version 2.15 and earlier.
+
+* 2026-11-15 v2.19
+  * Restore basic (non-layered) `Tense` morphosyntactic features on `on `VERB` with `VerbForm=Part`. Feature status is now recorded in the MISC column with  `Status[Tense]=Denom`.
+
+* 2026-05-15 v2.18
+  * Restore basic (non-layered) `Gender` and `Number` morphosyntactic features on `NOUN` and `ADJ`. Feature status is now recorded in the MISC column with  `Exponence[Gender]` and `Exponence[Number]` (see [#985](https://github.com/UniversalDependencies/docs/issues/985).
+
+* 2025-11-15 v2.17
+  * Introduction of layered morphosyntactic features `Gender[lex]` on `NOUN` and `Tense[denom]` on `VERB` with `VerbForm=Part` 
+
+* 2025-05-15 v2.16
+  * Introduction of layered morphosyntactic features `Gender[ctxt]` and `Number[ctxt]` on `ADJ`.
 
 * 2024-11-15 v2.15
   * Construction annotations in the [UCxn](https://github.com/LeonieWeissweiler/UCxn) framework added to MISC
-  
+
      This release adds rule-based annotations of Interrogatives, Conditionals, Existentials, and NPN (noun-preposition-noun) constructions on the head of the respective phrase, plus construction elements. The UCxn v1 notation and categories are documented [here](https://github.com/LeonieWeissweiler/UCxn/blob/main/docs/UCxn-v1.pdf).
 
 * 2024-05-15 v2.14

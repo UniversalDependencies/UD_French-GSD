@@ -73,7 +73,7 @@ The annotation system in 2.19 is then consistent with the ones used in version 2
   New conversion from [SUD data](https://github.com/surfacesyntacticud/SUD_French-GSD/tree/r2.7).
 
 * 2020-05-15 v2.6
-  * **UD_French-GSD** is now maintained in the [SUD format](https://surfacesyntacticud.github.io/) and converter to UD with the [Grew](http://grew.fr)-based conversion system [SUD_to_UD](https://github.com/surfacesyntacticud/tools/tree/master/converter).
+  * **UD_French-GSD** is now maintained in the [SUD format](https://surfacesyntacticud.org/) and converter to UD with the [Grew](http://grew.fr)-based conversion system [SUD_to_UD](https://github.com/surfacesyntacticud/conversions).
 
 * 2019-11-15 v2.5
   * Google gave permission to drop the "NC" restriction from the license.
